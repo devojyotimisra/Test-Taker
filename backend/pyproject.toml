@@ -11,3 +11,7 @@ dependencies = [
     "numpy>=2.0.0",
     "python-multipart>=0.0.12",
 ]
+
+[tool.vercel]
+entrypoint = "main:app"
+

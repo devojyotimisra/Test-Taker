@@ -59,6 +59,16 @@ def get_active_paper() -> Optional[Paper]:
             pass
     return current_paper
 
+@app.get("/")
+@app.get("/api")
+@app.get("/api/health")
+def health_check():
+    return {
+        "status": "ok",
+        "service": "Test Taker API",
+        "version": "1.0.0"
+    }
+
 @app.get("/api/paper")
 def get_paper_info():
     paper = get_active_paper()

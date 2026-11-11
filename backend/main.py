@@ -46,6 +46,7 @@ FRONTEND_DIST = BASE_DIR / "frontend" / "dist"
 
 current_paper: Optional[Paper] = None
 
+
 def get_active_paper() -> Optional[Paper]:
     global current_paper
     if current_paper is not None:
@@ -59,6 +60,7 @@ def get_active_paper() -> Optional[Paper]:
             pass
     return current_paper
 
+
 @app.get("/")
 @app.get("/api")
 @app.get("/api/health")
@@ -66,8 +68,9 @@ def health_check():
     return {
         "status": "ok",
         "service": "Test Taker API",
-        "version": "1.0.0"
+        "version": "1.0.1"
     }
+
 
 @app.get("/api/paper")
 def get_paper_info():
@@ -83,6 +86,7 @@ def get_paper_info():
         }
     }
 
+
 @app.get("/api/questions")
 def get_questions_list():
     paper = get_active_paper()
@@ -94,6 +98,7 @@ def get_questions_list():
         result.append(item)
     return result
 
+
 @app.post("/api/check-question")
 def check_single_question(submission: AnswerSubmission):
     paper = get_active_paper()
@@ -104,6 +109,7 @@ def check_single_question(submission: AnswerSubmission):
         raise HTTPException(status_code=404, detail="Question not found")
     result = score_question(target_q, submission.answer)
     return result
+
 
 @app.post("/api/upload-pdf")
 async def upload_pdf_file(file: UploadFile = File(...)):
@@ -137,6 +143,7 @@ async def upload_pdf_file(file: UploadFile = File(...)):
         }
     }
 
+
 @app.post("/api/reset")
 def reset_session():
     global current_paper
@@ -149,6 +156,7 @@ def reset_session():
             pass
     return {"status": "ok"}
 
+
 @app.get("/temp/image/{filename}")
 def serve_image(filename: str):
     file_path = IMAGE_DIR / Path(filename).name
@@ -156,6 +164,7 @@ def serve_image(filename: str):
         raise HTTPException(status_code=404, detail="Image not found")
     media_type, _ = mimetypes.guess_type(str(file_path))
     return FileResponse(file_path, media_type=media_type or "image/png")
+
 
 @app.exception_handler(StarletteHTTPException)
 async def custom_http_exception_handler(request: Request, exc: StarletteHTTPException):
@@ -179,4 +188,3 @@ if __name__ == "__main__":
     port = int(os.getenv("PORT", "8000"))
     app_module = "backend.main:app" if Path("backend").is_dir() else "main:app"
     uvicorn.run(app_module, host=host, port=port, reload=True)
-

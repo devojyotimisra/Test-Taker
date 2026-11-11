@@ -9,11 +9,13 @@ try:
 except ModuleNotFoundError:
     from models import Paper, Question
 
+
 def is_green_color(color: Any) -> bool:
     if not isinstance(color, (tuple, list)) or len(color) != 3:
         return False
     r, g, b = color
     return g > 0.35 and r < 0.2 and b < 0.2
+
 
 def classify_icon(pil_img) -> Optional[str]:
     if pil_img.size != (16, 16):
@@ -24,6 +26,7 @@ def classify_icon(pil_img) -> Optional[str]:
         return None
     mean_rgb = arr[mask][:, :3].mean(axis=0)
     return "tick" if mean_rgb[1] > mean_rgb[0] else "cross"
+
 
 def extract_layout(pdf_path: str) -> Tuple[List[Dict[str, Any]], Dict[Tuple[int, str], Any]]:
     reader = PdfReader(pdf_path)
@@ -146,10 +149,12 @@ def extract_layout(pdf_path: str) -> Tuple[List[Dict[str, Any]], Dict[Tuple[int,
 
     return all_lines, pypdf_images
 
+
 def line_raw_text(line: Dict[str, Any]) -> str:
     if line["type"] != "text_line":
         return ""
     return " ".join(tok["text"] for tok in line["tokens"] if tok["kind"] == "word").strip()
+
 
 def render_line(
     line: Dict[str, Any],
@@ -190,6 +195,7 @@ def render_line(
             saved_images.append({"path": rel_path, "location": section_stage, "is_block": False})
             parts.append(f"[IMAGE: {rel_path}]")
     return " ".join(parts).strip()
+
 
 def parse_question_block(
     q_num: int,
@@ -333,6 +339,7 @@ def parse_question_block(
         "image_locations": img_locs,
     }
 
+
 def parse_pdf_to_paper(
     pdf_path: str,
     image_dir: str = "temp/image",
@@ -391,4 +398,3 @@ def parse_pdf_to_paper(
         total_marks=round(total_marks, 2),
         questions=reindexed_questions,
     )
-

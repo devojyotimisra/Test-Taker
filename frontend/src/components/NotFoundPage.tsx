@@ -1,10 +1,10 @@
-import { AlertCircle, ArrowLeft } from "lucide-react"
-import { Button } from "./ui/button"
-import { Card, CardContent } from "./ui/card"
-import { ThemeToggle } from "./ThemeToggle"
+import { AlertCircle, ArrowLeft } from "lucide-react";
+import { Button } from "./ui/button";
+import { Card, CardContent } from "./ui/card";
+import { ThemeToggle } from "./ThemeToggle";
 
 interface NotFoundPageProps {
-  onHome: () => void
+  onHome: () => void;
 }
 
 export function NotFoundPage({ onHome }: NotFoundPageProps) {
@@ -32,7 +32,8 @@ export function NotFoundPage({ onHome }: NotFoundPageProps) {
                 Page Not Found
               </h1>
               <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
-                The endpoint or page you requested does not exist or has been moved.
+                The endpoint or page you requested does not exist or has been
+                moved.
               </p>
             </div>
 
@@ -47,6 +48,5 @@ export function NotFoundPage({ onHome }: NotFoundPageProps) {
         </Card>
       </main>
     </div>
-  )
+  );
 }
-

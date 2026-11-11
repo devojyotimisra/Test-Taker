@@ -5,6 +5,7 @@ try:
 except ModuleNotFoundError:
     from models import Question, QuestionScore
 
+
 def check_numeric_match(user_val: str, target: str) -> bool:
     try:
         user_num = float(str(user_val).strip())
@@ -26,6 +27,7 @@ def check_numeric_match(user_val: str, target: str) -> bool:
         return abs(user_num - corr_num) < 1e-4
     except ValueError:
         return str(user_val).strip().lower() == str(target).strip().lower()
+
 
 def score_question(q: Question, user_ans: Optional[Union[str, List[str], float]]) -> QuestionScore:
     if user_ans is None or user_ans == "" or user_ans == []:

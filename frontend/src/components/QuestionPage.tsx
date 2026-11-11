@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 import {
   ArrowLeft,
   Check,
@@ -8,128 +8,131 @@ import {
   Eye,
   Info,
   XCircle,
-} from "lucide-react"
-import { Button } from "./ui/button"
-import { Card, CardContent, CardHeader } from "./ui/card"
-import { Badge } from "./ui/badge"
-import { ThemeToggle } from "./ThemeToggle"
-import { Timer } from "./Timer"
-import { FormulaRenderer } from "./FormulaRenderer"
-import { Paper, Question, QuestionScore, UserAnswers } from "@/types"
+} from "lucide-react";
+import { Button } from "./ui/button";
+import { Card, CardContent, CardHeader } from "./ui/card";
+import { Badge } from "./ui/badge";
+import { ThemeToggle } from "./ThemeToggle";
+import { Timer } from "./Timer";
+import { FormulaRenderer } from "./FormulaRenderer";
+import { Paper, QuestionScore, UserAnswers } from "@/types";
 
-const apiBase = import.meta.env.VITE_API_URL || ""
+const apiBase = import.meta.env.VITE_API_URL || "";
 
 interface QuestionPageProps {
-  paper: Paper
-  onBack?: () => void
+  paper: Paper;
+  onBack?: () => void;
 }
 
 export function QuestionPage({ paper, onBack }: QuestionPageProps) {
-  const questions = paper.questions || []
-  const [currentIndex, setCurrentIndex] = useState<number>(0)
-  const [answers, setAnswers] = useState<UserAnswers>({})
-  
-  const [timerSeconds, setTimerSeconds] = useState<number>(0)
-  const [timerRunning, setTimerRunning] = useState<boolean>(true)
+  const questions = paper.questions || [];
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const [answers, setAnswers] = useState<UserAnswers>({});
 
-  const [scores, setScores] = useState<Record<number, QuestionScore>>({})
-  const [revealedQuestions, setRevealedQuestions] = useState<Set<number>>(new Set())
+  const [timerSeconds, setTimerSeconds] = useState<number>(0);
+  const [timerRunning, setTimerRunning] = useState<boolean>(true);
 
-  const currentQ = questions[currentIndex]
+  const [scores, setScores] = useState<Record<number, QuestionScore>>({});
+  const [revealedQuestions, setRevealedQuestions] = useState<Set<number>>(
+    new Set(),
+  );
+
+  const currentQ = questions[currentIndex];
 
   useEffect(() => {
-    let interval: any = null
+    let interval: any = null;
     if (timerRunning) {
       interval = setInterval(() => {
-        setTimerSeconds((prev) => prev + 1)
-      }, 1000)
+        setTimerSeconds((prev) => prev + 1);
+      }, 1000);
     }
     return () => {
-      if (interval) clearInterval(interval)
-    }
-  }, [timerRunning])
+      if (interval) clearInterval(interval);
+    };
+  }, [timerRunning]);
 
   const toggleTimer = () => {
-    setTimerRunning((prev) => !prev)
-  }
+    setTimerRunning((prev) => !prev);
+  };
 
   const resetTimer = () => {
-    setTimerSeconds(0)
-  }
+    setTimerSeconds(0);
+  };
 
   const handleSelectOption = (opt: string) => {
-    if (!currentQ || revealedQuestions.has(currentQ.id)) return
-    const qId = currentQ.id
+    if (!currentQ || revealedQuestions.has(currentQ.id)) return;
+    const qId = currentQ.id;
 
     if (currentQ.type === "MCQ") {
-      setAnswers((prev) => ({ ...prev, [qId]: opt }))
+      setAnswers((prev) => ({ ...prev, [qId]: opt }));
     } else if (currentQ.type === "multichoice") {
-      const existing = (answers[qId] as string[]) || []
+      const existing = (answers[qId] as string[]) || [];
       const updated = existing.includes(opt)
         ? existing.filter((item) => item !== opt)
-        : [...existing, opt]
-      setAnswers((prev) => ({ ...prev, [qId]: updated }))
+        : [...existing, opt];
+      setAnswers((prev) => ({ ...prev, [qId]: updated }));
     }
-  }
+  };
 
   const handleNumericChange = (val: string) => {
-    if (!currentQ || revealedQuestions.has(currentQ.id)) return
-    setAnswers((prev) => ({ ...prev, [currentQ.id]: val }))
-  }
+    if (!currentQ || revealedQuestions.has(currentQ.id)) return;
+    setAnswers((prev) => ({ ...prev, [currentQ.id]: val }));
+  };
 
   const handleClearResponse = () => {
-    if (!currentQ) return
-    const qId = currentQ.id
+    if (!currentQ) return;
+    const qId = currentQ.id;
     setAnswers((prev) => {
-      const copy = { ...prev }
-      delete copy[qId]
-      return copy
-    })
+      const copy = { ...prev };
+      delete copy[qId];
+      return copy;
+    });
     setScores((prev) => {
-      const copy = { ...prev }
-      delete copy[qId]
-      return copy
-    })
+      const copy = { ...prev };
+      delete copy[qId];
+      return copy;
+    });
     setRevealedQuestions((prev) => {
-      const copy = new Set(prev)
-      copy.delete(qId)
-      return copy
-    })
-  }
+      const copy = new Set(prev);
+      copy.delete(qId);
+      return copy;
+    });
+  };
 
   const handleCheckAnswer = async () => {
-    if (!currentQ) return
-    const ans = answers[currentQ.id]
+    if (!currentQ) return;
+    const ans = answers[currentQ.id];
     try {
       const response = await fetch(`${apiBase}/api/check-question`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question_id: currentQ.id, answer: ans }),
-      })
+      });
       if (response.ok) {
-        const sc: QuestionScore = await response.json()
-        setScores((prev) => ({ ...prev, [currentQ.id]: sc }))
-        setRevealedQuestions((prev) => new Set(prev).add(currentQ.id))
+        const sc: QuestionScore = await response.json();
+        setScores((prev) => ({ ...prev, [currentQ.id]: sc }));
+        setRevealedQuestions((prev) => new Set(prev).add(currentQ.id));
       }
-    } catch {
-    }
-  }
+    } catch {}
+  };
 
   const handleNext = () => {
     if (currentIndex < questions.length - 1) {
-      setCurrentIndex((prev) => prev + 1)
+      setCurrentIndex((prev) => prev + 1);
     }
-  }
+  };
 
   const handlePrev = () => {
     if (currentIndex > 0) {
-      setCurrentIndex((prev) => prev - 1)
+      setCurrentIndex((prev) => prev - 1);
     }
-  }
+  };
 
-  const isCurrentRevealed = Boolean(currentQ && revealedQuestions.has(currentQ.id))
-  const currentScoreDetail = currentQ ? scores[currentQ.id] : null
-  const hasCurrentAnswer = Boolean(currentQ && answers[currentQ.id])
+  const isCurrentRevealed = Boolean(
+    currentQ && revealedQuestions.has(currentQ.id),
+  );
+  const currentScoreDetail = currentQ ? scores[currentQ.id] : null;
+  const hasCurrentAnswer = Boolean(currentQ && answers[currentQ.id]);
 
   return (
     <div className="h-screen max-h-screen flex flex-col bg-background text-foreground transition-colors overflow-hidden no-scrollbar">
@@ -151,7 +154,9 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
 
               <div>
                 <div className="flex items-center gap-1.5 sm:gap-2">
-                  <span className="font-semibold text-xs sm:text-sm">Assessment</span>
+                  <span className="font-semibold text-xs sm:text-sm">
+                    Assessment
+                  </span>
                   <span className="text-[10px] sm:text-xs font-mono font-semibold px-1.5 sm:px-2 py-0.5 rounded-md border border-primary/30 bg-primary/10 text-primary">
                     Full Marks: {paper.total_marks.toFixed(2)}
                   </span>
@@ -194,7 +199,8 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                     </Badge>
                     <Badge variant="outline" className="text-xs">
                       {currentQ.type === "MCQ" && "Multiple Choice"}
-                      {currentQ.type === "multichoice" && "Multiple Select (MSQ)"}
+                      {currentQ.type === "multichoice" &&
+                        "Multiple Select (MSQ)"}
                       {currentQ.type === "numeric" && "Numerical Answer"}
                     </Badge>
                   </div>
@@ -202,7 +208,9 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                   <div className="flex items-center gap-2">
                     <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-primary/10 border border-primary/20 text-primary text-xs font-semibold">
                       <span>Awarded:</span>
-                      <span className="font-mono text-sm">+{currentQ.marks.toFixed(2)}</span>
+                      <span className="font-mono text-sm">
+                        +{currentQ.marks.toFixed(2)}
+                      </span>
                       <span>Marks</span>
                     </div>
                   </div>
@@ -226,7 +234,9 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                           <input
                             type="text"
                             value={(answers[currentQ.id] as string) || ""}
-                            onChange={(e) => handleNumericChange(e.target.value)}
+                            onChange={(e) =>
+                              handleNumericChange(e.target.value)
+                            }
                             placeholder="Type numerical answer..."
                             disabled={isCurrentRevealed}
                             className={`h-12 flex-1 w-full rounded-xl border px-4 py-3 text-base font-mono shadow-xs focus-visible:outline-none focus-visible:ring-2 ${
@@ -237,16 +247,17 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                                 : "border-input bg-card focus-visible:ring-ring"
                             }`}
                           />
-                          {(answers[currentQ.id] as string) && !isCurrentRevealed && (
-                            <Button
-                              variant="ghost"
-                              size="sm"
-                              onClick={() => handleNumericChange("")}
-                              className="h-10 px-3 text-xs text-muted-foreground hover:text-foreground shrink-0"
-                            >
-                              Clear
-                            </Button>
-                          )}
+                          {(answers[currentQ.id] as string) &&
+                            !isCurrentRevealed && (
+                              <Button
+                                variant="ghost"
+                                size="sm"
+                                onClick={() => handleNumericChange("")}
+                                className="h-10 px-3 text-xs text-muted-foreground hover:text-foreground shrink-0"
+                              >
+                                Clear
+                              </Button>
+                            )}
                         </div>
 
                         {isCurrentRevealed && (
@@ -255,7 +266,11 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                               Accepted Answer / Range:
                             </span>
                             <span className="font-mono font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-md border border-emerald-500/20">
-                              {String(currentScoreDetail?.correct_answer ?? currentQ.correct_answer ?? "")}
+                              {String(
+                                currentScoreDetail?.correct_answer ??
+                                  currentQ.correct_answer ??
+                                  "",
+                              )}
                             </span>
                           </div>
                         )}
@@ -263,37 +278,46 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                     ) : (
                       <div className="flex flex-col gap-3">
                         {(currentQ.options || []).map((optText, optIdx) => {
-                          const optLetter = String.fromCharCode(65 + optIdx)
-                          const userVal = answers[currentQ.id]
+                          const optLetter = String.fromCharCode(65 + optIdx);
+                          const userVal = answers[currentQ.id];
                           const isSelected =
                             currentQ.type === "MCQ"
                               ? userVal === optText
-                              : Array.isArray(userVal) && userVal.includes(optText)
+                              : Array.isArray(userVal) &&
+                                userVal.includes(optText);
 
-                          let optionBorder = "border-border bg-card hover:bg-muted/40 cursor-pointer"
+                          let optionBorder =
+                            "border-border bg-card hover:bg-muted/40 cursor-pointer";
                           if (isSelected) {
-                            optionBorder = "border-primary bg-primary/10 shadow-xs ring-1 ring-primary cursor-pointer"
+                            optionBorder =
+                              "border-primary bg-primary/10 shadow-xs ring-1 ring-primary cursor-pointer";
                           }
 
                           if (isCurrentRevealed && currentScoreDetail) {
-                            const corr = currentScoreDetail.correct_answer
+                            const corr = currentScoreDetail.correct_answer;
                             const isCorrectOpt = Array.isArray(corr)
                               ? corr.includes(optText)
-                              : corr === optText
+                              : corr === optText;
 
                             if (isCorrectOpt) {
-                              optionBorder = "border-emerald-500 bg-emerald-500/10 ring-1 ring-emerald-500 cursor-default"
+                              optionBorder =
+                                "border-emerald-500 bg-emerald-500/10 ring-1 ring-emerald-500 cursor-default";
                             } else if (isSelected && !isCorrectOpt) {
-                              optionBorder = "border-destructive bg-destructive/10 ring-1 ring-destructive cursor-default"
+                              optionBorder =
+                                "border-destructive bg-destructive/10 ring-1 ring-destructive cursor-default";
                             } else {
-                              optionBorder = "border-border/60 bg-card/60 opacity-60 cursor-default"
+                              optionBorder =
+                                "border-border/60 bg-card/60 opacity-60 cursor-default";
                             }
                           }
 
                           return (
                             <div
                               key={optIdx}
-                              onClick={() => !isCurrentRevealed && handleSelectOption(optText)}
+                              onClick={() =>
+                                !isCurrentRevealed &&
+                                handleSelectOption(optText)
+                              }
                               className={`w-full flex items-start gap-2.5 sm:gap-3 p-3 sm:p-3.5 rounded-xl border-2 transition-all select-none shrink-0 ${optionBorder}`}
                             >
                               <div
@@ -314,7 +338,7 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                                 <FormulaRenderer text={optText} />
                               </div>
                             </div>
-                          )
+                          );
                         })}
                       </div>
                     )}
@@ -326,8 +350,8 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                         currentScoreDetail.status === "correct"
                           ? "bg-emerald-500/10 border-emerald-500/30 text-emerald-900 dark:text-emerald-200"
                           : currentScoreDetail.status === "partial"
-                          ? "bg-amber-500/10 border-amber-500/30 text-amber-900 dark:text-amber-200"
-                          : "bg-destructive/10 border-destructive/30 text-destructive-foreground dark:text-rose-200"
+                            ? "bg-amber-500/10 border-amber-500/30 text-amber-900 dark:text-amber-200"
+                            : "bg-destructive/10 border-destructive/30 text-destructive-foreground dark:text-rose-200"
                       }`}
                     >
                       <div className="flex items-center gap-2">
@@ -341,8 +365,10 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                           <XCircle className="h-4 w-4 text-destructive" />
                         )}
                         <span className="font-bold text-xs sm:text-sm">
-                          Score: {currentScoreDetail.marks_awarded >= 0 ? "+" : ""}
-                          {currentScoreDetail.marks_awarded.toFixed(2)} / {currentScoreDetail.max_marks.toFixed(2)} Marks
+                          Score:{" "}
+                          {currentScoreDetail.marks_awarded >= 0 ? "+" : ""}
+                          {currentScoreDetail.marks_awarded.toFixed(2)} /{" "}
+                          {currentScoreDetail.max_marks.toFixed(2)} Marks
                         </span>
                       </div>
                     </div>
@@ -384,7 +410,9 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                 className="gap-1 sm:gap-1.5 text-xs font-semibold bg-primary text-primary-foreground shadow h-8 px-2.5 sm:px-3.5 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <Eye className="h-3.5 w-3.5" />
-                <span>{isCurrentRevealed ? "Answer Checked" : "Check Answer"}</span>
+                <span>
+                  {isCurrentRevealed ? "Answer Checked" : "Check Answer"}
+                </span>
               </Button>
 
               <Button
@@ -414,69 +442,82 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
 
             <CardContent className="p-3 sm:p-3.5 flex flex-col no-scrollbar lg:flex-1 lg:overflow-y-auto lg:min-h-0">
               <div className="flex flex-col gap-2 sm:gap-2.5 lg:h-full lg:flex-1 lg:min-h-0">
-                {Array.from({ length: Math.ceil(questions.length / 5) }, (_, rIdx) => {
-                  const rowQuestions = questions.slice(rIdx * 5, rIdx * 5 + 5)
-                  return (
-                    <div key={rIdx} className="flex gap-2 sm:gap-2.5 w-full h-11 lg:h-auto lg:flex-1 lg:min-h-0">
-                      {rowQuestions.map((q, cIdx) => {
-                        const idx = rIdx * 5 + cIdx
-                        const isChecked = revealedQuestions.has(q.id)
-                        const sc = scores[q.id]
-                        const isCurrent = idx === currentIndex
-                        const userVal = answers[q.id]
-                        const isAnswered =
-                          userVal !== undefined &&
-                          userVal !== "" &&
-                          (!Array.isArray(userVal) || userVal.length > 0)
+                {Array.from(
+                  { length: Math.ceil(questions.length / 5) },
+                  (_, rIdx) => {
+                    const rowQuestions = questions.slice(
+                      rIdx * 5,
+                      rIdx * 5 + 5,
+                    );
+                    return (
+                      <div
+                        key={rIdx}
+                        className="flex gap-2 sm:gap-2.5 w-full h-11 lg:h-auto lg:flex-1 lg:min-h-0"
+                      >
+                        {rowQuestions.map((q, cIdx) => {
+                          const idx = rIdx * 5 + cIdx;
+                          const isChecked = revealedQuestions.has(q.id);
+                          const sc = scores[q.id];
+                          const isCurrent = idx === currentIndex;
+                          const userVal = answers[q.id];
+                          const isAnswered =
+                            userVal !== undefined &&
+                            userVal !== "" &&
+                            (!Array.isArray(userVal) || userVal.length > 0);
 
-                        let btnStyle = ""
-                        if (isChecked && sc) {
-                          if (sc.status === "correct") {
-                            btnStyle = "bg-emerald-600 text-white border-emerald-600 shadow-xs"
-                          } else if (sc.status === "partial") {
-                            btnStyle = "bg-amber-500 text-white border-amber-600 shadow-xs"
-                          } else if (sc.status === "incorrect") {
-                            btnStyle = "bg-destructive text-white border-destructive shadow-xs"
+                          let btnStyle = "";
+                          if (isChecked && sc) {
+                            if (sc.status === "correct") {
+                              btnStyle =
+                                "bg-emerald-600 text-white border-emerald-600 shadow-xs";
+                            } else if (sc.status === "partial") {
+                              btnStyle =
+                                "bg-amber-500 text-white border-amber-600 shadow-xs";
+                            } else if (sc.status === "incorrect") {
+                              btnStyle =
+                                "bg-destructive text-white border-destructive shadow-xs";
+                            }
+                            if (isCurrent) {
+                              btnStyle +=
+                                " ring-2 ring-primary ring-offset-2 ring-offset-card shadow-sm";
+                            }
+                          } else if (isCurrent) {
+                            btnStyle =
+                              "bg-primary text-primary-foreground border-primary shadow-sm ring-2 ring-primary/30";
+                          } else if (isAnswered) {
+                            btnStyle =
+                              "bg-primary/15 text-primary border-primary/30 hover:bg-primary/25";
+                          } else {
+                            btnStyle =
+                              "bg-muted/70 text-muted-foreground border-border/60 hover:bg-muted hover:text-foreground";
                           }
-                          if (isCurrent) {
-                            btnStyle += " ring-2 ring-primary ring-offset-2 ring-offset-card shadow-sm"
-                          }
-                        } else if (isCurrent) {
-                          btnStyle =
-                            "bg-primary text-primary-foreground border-primary shadow-sm ring-2 ring-primary/30"
-                        } else if (isAnswered) {
-                          btnStyle =
-                            "bg-primary/15 text-primary border-primary/30 hover:bg-primary/25"
-                        } else {
-                          btnStyle =
-                            "bg-muted/70 text-muted-foreground border-border/60 hover:bg-muted hover:text-foreground"
-                        }
 
-                        return (
-                          <button
-                            key={q.id}
-                            onClick={() => setCurrentIndex(idx)}
-                            className={`flex-1 h-11 lg:h-full min-w-0 rounded-xl font-mono text-sm font-bold border transition-colors duration-150 cursor-pointer flex items-center justify-center relative shrink-0 lg:shrink ${btnStyle}`}
-                          >
-                            <span>{idx + 1}</span>
-                            {isAnswered && !isChecked && (
-                              <span
-                                className={`absolute bottom-2 h-1.5 w-1.5 rounded-full ${
-                                  isCurrent ? "bg-white" : "bg-primary"
-                                }`}
-                              />
-                            )}
-                          </button>
-                        )
-                      })}
-                    </div>
-                  )
-                })}
+                          return (
+                            <button
+                              key={q.id}
+                              onClick={() => setCurrentIndex(idx)}
+                              className={`flex-1 h-11 lg:h-full min-w-0 rounded-xl font-mono text-sm font-bold border transition-colors duration-150 cursor-pointer flex items-center justify-center relative shrink-0 lg:shrink ${btnStyle}`}
+                            >
+                              <span>{idx + 1}</span>
+                              {isAnswered && !isChecked && (
+                                <span
+                                  className={`absolute bottom-2 h-1.5 w-1.5 rounded-full ${
+                                    isCurrent ? "bg-white" : "bg-primary"
+                                  }`}
+                                />
+                              )}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    );
+                  },
+                )}
               </div>
             </CardContent>
           </Card>
         </div>
       </main>
     </div>
-  )
+  );
 }

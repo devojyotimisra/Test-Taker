@@ -1,31 +1,33 @@
-import { Play, Pause, RotateCcw, Clock } from "lucide-react"
-import { Button } from "./ui/button"
+import { Play, Pause, RotateCcw, Clock } from "lucide-react";
+import { Button } from "./ui/button";
 
 interface TimerProps {
-  seconds: number
-  isRunning: boolean
-  onToggle: () => void
-  onReset: () => void
+  seconds: number;
+  isRunning: boolean;
+  onToggle: () => void;
+  onReset: () => void;
 }
 
 export function Timer({ seconds, isRunning, onToggle, onReset }: TimerProps) {
   const formatTime = (total: number) => {
-    const hrs = Math.floor(total / 3600)
-    const mins = Math.floor((total % 3600) / 60)
-    const secs = total % 60
+    const hrs = Math.floor(total / 3600);
+    const mins = Math.floor((total % 3600) / 60);
+    const secs = total % 60;
 
-    const pad = (n: number) => n.toString().padStart(2, "0")
+    const pad = (n: number) => n.toString().padStart(2, "0");
 
     if (hrs > 0) {
-      return `${pad(hrs)}:${pad(mins)}:${pad(secs)}`
+      return `${pad(hrs)}:${pad(mins)}:${pad(secs)}`;
     }
-    return `${pad(mins)}:${pad(secs)}`
-  }
+    return `${pad(mins)}:${pad(secs)}`;
+  };
 
   return (
     <div className="flex items-center gap-2 rounded-xl border border-border bg-card/80 backdrop-blur-sm px-3.5 py-1.5 shadow-xs">
       <div className="flex items-center gap-2 pr-1">
-        <Clock className={`h-4 w-4 ${isRunning ? "text-primary animate-pulse" : "text-amber-500"}`} />
+        <Clock
+          className={`h-4 w-4 ${isRunning ? "text-primary animate-pulse" : "text-amber-500"}`}
+        />
         <span className="font-mono text-base font-semibold tracking-wider text-foreground select-none">
           {formatTime(seconds)}
         </span>
@@ -66,6 +68,5 @@ export function Timer({ seconds, isRunning, onToggle, onReset }: TimerProps) {
         </Button>
       </div>
     </div>
-  )
+  );
 }
-

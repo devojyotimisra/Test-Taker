@@ -1,6 +1,7 @@
 from typing import List, Optional, Union
 from pydantic import BaseModel
 
+
 class Question(BaseModel):
     id: int
     number: int
@@ -13,6 +14,7 @@ class Question(BaseModel):
     images: List[str] = []
     image_locations: List[int] = []
 
+
 class Paper(BaseModel):
     title: str
     filename: str
@@ -20,9 +22,11 @@ class Paper(BaseModel):
     total_marks: float
     questions: List[Question]
 
+
 class AnswerSubmission(BaseModel):
     question_id: int
     answer: Optional[Union[str, List[str], float]] = None
+
 
 class QuestionScore(BaseModel):
     question_id: int

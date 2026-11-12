@@ -2,23 +2,35 @@ import React, { useState } from "react";
 import { FileText, Upload, Zap } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 import { ThemeToggle } from "./ThemeToggle";
+import { useToast } from "./ui/toast";
 
 interface LandingPageProps {
   onUpload: (file: File) => Promise<void>;
 }
 
 export function LandingPage({ onUpload }: LandingPageProps) {
+  const { toast } = useToast();
   const [uploading, setUploading] = useState<boolean>(false);
   const [dragOver, setDragOver] = useState<boolean>(false);
 
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
+    if (!file.name.toLowerCase().endsWith(".pdf")) {
+      toast({
+        type: "warning",
+        title: "Unsupported File",
+        description: "Please select a valid PDF file (.pdf).",
+      });
+      e.target.value = "";
+      return;
+    }
     setUploading(true);
     try {
       await onUpload(file);
     } finally {
       setUploading(false);
+      e.target.value = "";
     }
   };
 
@@ -26,7 +38,15 @@ export function LandingPage({ onUpload }: LandingPageProps) {
     e.preventDefault();
     setDragOver(false);
     const file = e.dataTransfer.files?.[0];
-    if (!file || !file.name.toLowerCase().endsWith(".pdf")) return;
+    if (!file) return;
+    if (!file.name.toLowerCase().endsWith(".pdf")) {
+      toast({
+        type: "warning",
+        title: "Unsupported File",
+        description: "Please drop a valid PDF file (.pdf).",
+      });
+      return;
+    }
     setUploading(true);
     try {
       await onUpload(file);

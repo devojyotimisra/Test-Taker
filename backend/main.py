@@ -117,14 +117,30 @@ async def upload_pdf_file(file: UploadFile = File(...)):
     if not file.filename.lower().endswith(".pdf"):
         raise HTTPException(status_code=400, detail="Only PDF files are supported")
 
+    content = await file.read()
+    if not content:
+        raise HTTPException(status_code=400, detail="The uploaded PDF file is empty")
+
     UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
     file_path = UPLOAD_DIR / file.filename
 
-    content = await file.read()
     with open(file_path, "wb") as f:
         f.write(content)
 
-    paper = parse_pdf_to_paper(str(file_path), str(IMAGE_DIR))
+    try:
+        paper = parse_pdf_to_paper(str(file_path), str(IMAGE_DIR))
+    except Exception as e:
+        raise HTTPException(
+            status_code=422,
+            detail=f"Unable to parse the PDF document ({str(e)}). Please verify that the file is not corrupted or password-protected.",
+        )
+
+    if not paper or paper.total_questions == 0:
+        raise HTTPException(
+            status_code=422,
+            detail="No questions could be extracted from this PDF. Please ensure it contains structured question numbers.",
+        )
+
     current_paper = paper
 
     cache_path = UPLOAD_DIR / "current_paper.json"

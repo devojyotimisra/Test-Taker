@@ -19,7 +19,6 @@ import { ThemeToggle } from "./ThemeToggle";
 import { useToast } from "./ui/toast";
 import { CatalogItem, CourseInfo } from "../types";
 import { fetchJsonWithFallback } from "../lib/assetService";
-import { downloadPaperPdf } from "../lib/latexPdfGenerator";
 
 interface LandingPageProps {
   onUpload: (file: File) => Promise<void>;
@@ -388,6 +387,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
     });
 
     try {
+      const { downloadPaperPdf } = await import("../lib/latexPdfGenerator");
       await downloadPaperPdf(item);
       toast({
         type: "success",

@@ -30,8 +30,14 @@ const ToastContext = React.createContext<ToastContextType | undefined>(
 export function ToastProvider({ children }: { children: React.ReactNode }) {
   const [toasts, setToasts] = React.useState<ToastItem[]>([]);
   const [exitingIds, setExitingIds] = React.useState<Set<string>>(new Set());
+  const timersRef = React.useRef<Map<string, number>>(new Map());
 
   const dismiss = React.useCallback((id: string) => {
+    if (timersRef.current.has(id)) {
+      window.clearTimeout(timersRef.current.get(id));
+      timersRef.current.delete(id);
+    }
+
     setExitingIds((prev) => {
       if (prev.has(id)) return prev;
       const next = new Set(prev);
@@ -39,14 +45,17 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
       return next;
     });
 
-    window.setTimeout(() => {
+    const exitTimer = window.setTimeout(() => {
       setToasts((prev) => prev.filter((t) => t.id !== id));
       setExitingIds((prev) => {
         const next = new Set(prev);
         next.delete(id);
         return next;
       });
-    }, 300);
+      timersRef.current.delete(`exit_${id}`);
+    }, 280);
+
+    timersRef.current.set(`exit_${id}`, exitTimer);
   }, []);
 
   const toast = React.useCallback(
@@ -56,27 +65,36 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
       description,
       duration = 5000,
     }: Omit<ToastItem, "id">) => {
-      const id = Math.random().toString(36).substring(2, 9);
-      setToasts((prev) => [
-        ...prev,
-        { id, type, title, description, duration },
-      ]);
+      const id = Date.now().toString(36) + Math.random().toString(36).substring(2, 6);
+      setToasts((prev) => {
+        const next = [...prev, { id, type, title, description, duration }];
+        return next.slice(-5);
+      });
 
       if (duration > 0) {
-        window.setTimeout(() => {
+        const timer = window.setTimeout(() => {
           dismiss(id);
         }, duration);
+        timersRef.current.set(id, timer);
       }
     },
     [dismiss],
   );
+
+  React.useEffect(() => {
+    const activeTimers = timersRef.current;
+    return () => {
+      activeTimers.forEach((timer) => window.clearTimeout(timer));
+      activeTimers.clear();
+    };
+  }, []);
 
   return (
     <ToastContext.Provider value={{ toast, dismiss }}>
       {children}
       <div
         aria-live="polite"
-        className="fixed top-4 right-4 z-50 flex flex-col gap-2.5 max-w-sm sm:max-w-md w-full pointer-events-none p-3 sm:p-0"
+        className="fixed top-4 right-4 z-50 flex flex-col gap-2.5 max-w-sm sm:max-w-md w-full pointer-events-none p-3 sm:p-0 overflow-x-hidden"
       >
         {toasts.map((t) => {
           const isExiting = exitingIds.has(t.id);
@@ -85,10 +103,8 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
               key={t.id}
               role="alert"
               className={cn(
-                "pointer-events-auto flex items-start gap-3 p-4 rounded-xl shadow-lg border backdrop-blur-md transition-all duration-300 ease-in-out transform",
-                isExiting
-                  ? "opacity-0 translate-x-10 scale-95 pointer-events-none"
-                  : "opacity-100 translate-x-0 scale-100 animate-in fade-in slide-in-from-top-3 duration-300 ease-out",
+                "pointer-events-auto flex items-start gap-3 p-4 rounded-xl shadow-xl border backdrop-blur-md",
+                isExiting ? "toast-animate-out" : "toast-animate-in",
                 t.type === "error" &&
                   "bg-red-500/10 border-red-500/30 text-foreground dark:bg-red-950/40 dark:border-red-500/40 shadow-red-500/5",
                 t.type === "success" &&

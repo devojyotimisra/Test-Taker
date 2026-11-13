@@ -181,6 +181,7 @@
     @apply bg-background text-foreground font-sans;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    overflow-x: hidden;
   }
 
   body::-webkit-scrollbar {
@@ -199,4 +200,47 @@
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+@keyframes toast-enter {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0) scale(0.95);
+  }
+  70% {
+    opacity: 1;
+    transform: translate3d(-6px, 0, 0) scale(1.01);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes toast-exit {
+  0% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+    max-height: 160px;
+    margin-bottom: 0px;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0) scale(0.92);
+    max-height: 0px;
+    margin-bottom: -10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.toast-animate-in {
+  animation: toast-enter 0.38s cubic-bezier(0.16, 1, 0.3, 1) both;
+  will-change: transform, opacity;
+}
+
+.toast-animate-out {
+  animation: toast-exit 0.28s cubic-bezier(0.4, 0, 1, 1) both;
+  will-change: transform, opacity, max-height;
+  pointer-events: none;
 }

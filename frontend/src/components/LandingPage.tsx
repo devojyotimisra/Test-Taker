@@ -24,17 +24,32 @@ interface LandingPageProps {
   onSelectPaper?: (item: CatalogItem) => Promise<void>;
 }
 
-interface CourseComboboxProps {
-  courses: CourseInfo[];
-  selectedCourse: string;
-  onSelectCourse: (code: string) => void;
+interface FilterOption {
+  id: string;
+  label: string;
+  badge?: string;
+  count?: number;
 }
 
-function CourseCombobox({
-  courses,
-  selectedCourse,
-  onSelectCourse,
-}: CourseComboboxProps) {
+interface FilterComboboxProps {
+  items: FilterOption[];
+  selectedValue: string;
+  onSelect: (id: string) => void;
+  allLabel: string;
+  totalCount?: number;
+  searchPlaceholder?: string;
+  align?: "left" | "right";
+}
+
+function FilterCombobox({
+  items,
+  selectedValue,
+  onSelect,
+  allLabel,
+  totalCount,
+  searchPlaceholder = "Search...",
+  align = "left",
+}: FilterComboboxProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [search, setSearch] = useState("");
   const containerRef = useRef<HTMLDivElement>(null);
@@ -68,18 +83,22 @@ function CourseCombobox({
     };
   }, [isOpen]);
 
-  const filteredCourses = useMemo(() => {
-    if (!search.trim()) return courses;
+  const filteredItems = useMemo(() => {
+    if (!search.trim()) return items;
     const q = search.toLowerCase().trim();
-    return courses.filter(
-      (c) =>
-        c.code.toLowerCase().includes(q) || c.name.toLowerCase().includes(q)
+    return items.filter(
+      (item) =>
+        item.id.toLowerCase().includes(q) ||
+        item.label.toLowerCase().includes(q) ||
+        (item.badge && item.badge.toLowerCase().includes(q))
     );
-  }, [courses, search]);
+  }, [items, search]);
 
-  const selectedObj = useMemo(() => {
-    return courses.find((c) => c.code === selectedCourse);
-  }, [courses, selectedCourse]);
+  const selectedItem = useMemo(() => {
+    return items.find((item) => item.id === selectedValue);
+  }, [items, selectedValue]);
+
+  const displayedTotal = totalCount !== undefined ? totalCount : items.length;
 
   return (
     <div ref={containerRef} className="relative w-full">
@@ -91,30 +110,32 @@ function CourseCombobox({
         aria-expanded={isOpen}
       >
         <div className="flex items-center gap-1.5 min-w-0 flex-1 truncate">
-          {selectedCourse === "All" ? (
+          {selectedValue === "All" ? (
             <span className="text-foreground font-medium truncate">
-              All Courses ({courses.length})
+              {allLabel} ({displayedTotal})
             </span>
           ) : (
             <>
-              <span className="px-1.5 py-0.2 rounded bg-primary/10 text-primary font-mono font-bold text-[10px] shrink-0">
-                {selectedObj?.code || selectedCourse}
-              </span>
+              {selectedItem?.badge && selectedItem.badge !== selectedItem.label && (
+                <span className="px-1.5 py-0.2 rounded bg-primary/10 text-primary font-mono font-bold text-[10px] shrink-0">
+                  {selectedItem.badge}
+                </span>
+              )}
               <span className="truncate text-foreground font-medium">
-                {selectedObj?.name || selectedCourse}
+                {selectedItem?.label || selectedValue}
               </span>
             </>
           )}
         </div>
 
         <div className="flex items-center gap-1 shrink-0 text-muted-foreground">
-          {selectedCourse !== "All" && (
+          {selectedValue !== "All" && (
             <span
               role="button"
               tabIndex={0}
               onClick={(e) => {
                 e.stopPropagation();
-                onSelectCourse("All");
+                onSelect("All");
               }}
               className="p-0.5 rounded hover:text-foreground hover:bg-muted/60 transition-colors"
               title="Clear selection"
@@ -131,7 +152,11 @@ function CourseCombobox({
       </button>
 
       {isOpen && (
-        <div className="absolute top-full left-0 mt-1.5 w-full min-w-[260px] max-w-full sm:max-w-md bg-card border border-border rounded-xl shadow-2xl z-50 flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-150">
+        <div
+          className={`absolute top-full ${
+            align === "right" ? "right-0" : "left-0"
+          } mt-1.5 w-full min-w-[240px] max-w-full sm:max-w-md bg-card border border-border rounded-xl shadow-2xl z-50 flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-150`}
+        >
           <div className="p-2 border-b border-border/60 bg-muted/20">
             <div className="relative w-full">
               <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground" />
@@ -140,7 +165,7 @@ function CourseCombobox({
                 type="text"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                placeholder="Search courses or codes..."
+                placeholder={searchPlaceholder}
                 className="w-full pl-8 pr-7 py-1.5 bg-background border border-border rounded-lg text-xs text-foreground placeholder:text-muted-foreground focus:outline-hidden focus:ring-1 focus:ring-primary"
                 onClick={(e) => e.stopPropagation()}
               />
@@ -163,34 +188,34 @@ function CourseCombobox({
             <button
               type="button"
               onClick={() => {
-                onSelectCourse("All");
+                onSelect("All");
                 setIsOpen(false);
               }}
               className={`w-full flex items-center justify-between px-2.5 py-1.5 rounded-lg text-xs transition-colors cursor-pointer ${
-                selectedCourse === "All"
+                selectedValue === "All"
                   ? "bg-primary/10 text-primary font-semibold"
                   : "hover:bg-muted text-foreground"
               }`}
             >
               <div className="flex items-center gap-1.5">
-                {selectedCourse === "All" && (
+                {selectedValue === "All" && (
                   <Check className="h-3.5 w-3.5 text-primary shrink-0" />
                 )}
-                <span>All Courses</span>
+                <span>{allLabel}</span>
               </div>
               <span className="text-[10px] text-muted-foreground font-mono">
-                {courses.length}
+                {displayedTotal}
               </span>
             </button>
 
-            {filteredCourses.map((c) => {
-              const isSelected = selectedCourse === c.code;
+            {filteredItems.map((item) => {
+              const isSelected = selectedValue === item.id;
               return (
                 <button
-                  key={c.code}
+                  key={item.id}
                   type="button"
                   onClick={() => {
-                    onSelectCourse(c.code);
+                    onSelect(item.id);
                     setIsOpen(false);
                   }}
                   className={`w-full flex items-center justify-between gap-2 px-2.5 py-1.5 rounded-lg text-xs text-left transition-colors cursor-pointer ${
@@ -203,23 +228,27 @@ function CourseCombobox({
                     {isSelected && (
                       <Check className="h-3.5 w-3.5 text-primary shrink-0" />
                     )}
-                    <span className="px-1.5 py-0.2 rounded bg-muted font-mono font-bold text-[10px] text-foreground/80 shrink-0">
-                      {c.code}
-                    </span>
+                    {item.badge && item.badge !== item.label && (
+                      <span className="px-1.5 py-0.2 rounded bg-muted font-mono font-bold text-[10px] text-foreground/80 shrink-0">
+                        {item.badge}
+                      </span>
+                    )}
                     <span className="truncate text-xs font-medium">
-                      {c.name}
+                      {item.label}
                     </span>
                   </div>
-                  <span className="text-[10px] text-muted-foreground font-mono shrink-0">
-                    {c.total_papers}
-                  </span>
+                  {item.count !== undefined && (
+                    <span className="text-[10px] text-muted-foreground font-mono shrink-0">
+                      {item.count}
+                    </span>
+                  )}
                 </button>
               );
             })}
 
-            {filteredCourses.length === 0 && (
+            {filteredItems.length === 0 && (
               <div className="py-6 text-center text-xs text-muted-foreground">
-                No courses match "{search}"
+                No results match "{search}"
               </div>
             )}
           </div>
@@ -397,6 +426,63 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
     return filteredCatalog.slice(start, start + pageSize);
   }, [filteredCatalog, currentPageNum, pageSize]);
 
+  const courseOptions = useMemo(() => {
+    return courses.map((c) => ({
+      id: c.code,
+      label: c.name,
+      badge: c.code,
+      count: c.total_papers,
+    }));
+  }, [courses]);
+
+  const yearOptions = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const item of catalog) {
+      if (item.year) {
+        const y = String(item.year);
+        counts[y] = (counts[y] || 0) + 1;
+      }
+    }
+    const years = ["2026", "2025", "2024", "2023", "2022", "2021"];
+    const allYearsInCat = Object.keys(counts).sort((a, b) => b.localeCompare(a));
+    const finalYears = years.filter((y) => allYearsInCat.includes(y));
+    for (const y of allYearsInCat) {
+      if (!finalYears.includes(y)) finalYears.push(y);
+    }
+    return finalYears.map((yr) => ({
+      id: yr,
+      label: yr,
+      badge: yr,
+      count: counts[yr] || 0,
+    }));
+  }, [catalog]);
+
+  const examOptions = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const item of catalog) {
+      if (item.exam_type) {
+        counts[item.exam_type] = (counts[item.exam_type] || 0) + 1;
+      }
+    }
+    const defaultExams = ["Quiz 1", "Quiz 2", "End Term"];
+    const badges: Record<string, string> = {
+      "Quiz 1": "Q1",
+      "Quiz 2": "Q2",
+      "End Term": "ET",
+    };
+    const examKeys = Object.keys(counts);
+    const sortedExams = defaultExams.filter((e) => examKeys.includes(e));
+    for (const e of examKeys) {
+      if (!sortedExams.includes(e)) sortedExams.push(e);
+    }
+    return sortedExams.map((exam) => ({
+      id: exam,
+      label: exam,
+      badge: badges[exam] || exam.substring(0, 2).toUpperCase(),
+      count: counts[exam] || 0,
+    }));
+  }, [catalog]);
+
   return (
     <div className="min-h-screen flex flex-col justify-between bg-background text-foreground transition-colors no-scrollbar">
       <header className="sticky top-0 z-40 w-full border-b border-border/80 bg-background/95 backdrop-blur-md">
@@ -494,10 +580,14 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                   <label className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
                     Course / Subject
                   </label>
-                  <CourseCombobox
-                    courses={courses}
-                    selectedCourse={selectedCourse}
-                    onSelectCourse={setSelectedCourse}
+                  <FilterCombobox
+                    items={courseOptions}
+                    selectedValue={selectedCourse}
+                    onSelect={setSelectedCourse}
+                    allLabel="All Courses"
+                    totalCount={courses.length}
+                    searchPlaceholder="Search courses or codes..."
+                    align="left"
                   />
                 </div>
 
@@ -505,35 +595,30 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                   <label className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
                     Year
                   </label>
-                  <select
-                    value={selectedYear}
-                    onChange={(e) => setSelectedYear(e.target.value)}
-                    className="w-full h-9 px-2.5 py-1.5 bg-background border border-border rounded-lg text-xs text-foreground focus:outline-hidden focus:ring-1 focus:ring-primary cursor-pointer"
-                  >
-                    <option value="All">All Years</option>
-                    <option value="2026">2026</option>
-                    <option value="2025">2025</option>
-                    <option value="2024">2024</option>
-                    <option value="2023">2023</option>
-                    <option value="2022">2022</option>
-                    <option value="2021">2021</option>
-                  </select>
+                  <FilterCombobox
+                    items={yearOptions}
+                    selectedValue={selectedYear}
+                    onSelect={setSelectedYear}
+                    allLabel="All Years"
+                    totalCount={yearOptions.length}
+                    searchPlaceholder="Search years..."
+                    align="left"
+                  />
                 </div>
 
                 <div className="flex flex-col gap-1">
                   <label className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
                     Exam Type
                   </label>
-                  <select
-                    value={selectedExam}
-                    onChange={(e) => setSelectedExam(e.target.value)}
-                    className="w-full h-9 px-2.5 py-1.5 bg-background border border-border rounded-lg text-xs text-foreground focus:outline-hidden focus:ring-1 focus:ring-primary cursor-pointer"
-                  >
-                    <option value="All">All Exams</option>
-                    <option value="Quiz 1">Quiz 1</option>
-                    <option value="Quiz 2">Quiz 2</option>
-                    <option value="End Term">End Term</option>
-                  </select>
+                  <FilterCombobox
+                    items={examOptions}
+                    selectedValue={selectedExam}
+                    onSelect={setSelectedExam}
+                    allLabel="All Exams"
+                    totalCount={examOptions.length}
+                    searchPlaceholder="Search exam types..."
+                    align="right"
+                  />
                 </div>
               </div>
             </div>

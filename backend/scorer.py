@@ -1,5 +1,5 @@
 import re
-from typing import List, Optional, Set, Union
+from typing import Any, Dict, List, Optional, Set, Union
 
 try:
     from backend.models import Question, QuestionScore

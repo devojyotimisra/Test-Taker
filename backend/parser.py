@@ -6,7 +6,13 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, Union
 import numpy as np
 from PIL import Image, ImageChops, ImageOps
-import pymupdf as fitz
+import pdfplumber
+from pypdf import PdfReader
+
+try:
+    import pymupdf as fitz
+except (ImportError, Exception):
+    fitz = None
 
 try:
     from backend.models import Paper, Question
@@ -60,18 +66,21 @@ OPTID_RE = re.compile(r"^\s*(\d{8,})\s*\.\s*")
 SUBJECT_CHECK_RE = re.compile(r"THIS IS QUESTION PAPER FOR THE SUBJECT\s*\"?(.+?)\"", re.I | re.S)
 
 
-def _is_icon_rect(r: fitz.Rect) -> bool:
-    return r.width <= 16.0 and r.height <= 16.0 and abs(r.width - r.height) < 3.0
-
-
-def _is_green(c: int) -> bool:
-    r, g, b = (c >> 16) & 255, (c >> 8) & 255, c & 255
+def is_green_color(color: Any) -> bool:
+    if not isinstance(color, (tuple, list)) or len(color) != 3:
+        return False
+    r, g, b = color
+    # Handle 0..1 float colors or 0..255 int colors
+    if isinstance(r, float) and r <= 1.0 and g <= 1.0 and b <= 1.0:
+        return g > 0.35 and r < 0.2 and b < 0.2
     return g > 90 and g > r + 35 and g > b + 35
 
 
-def _classify_icon(img: Image.Image) -> Optional[str]:
+def classify_icon_pil(pil_img: Image.Image) -> Optional[str]:
     try:
-        arr = np.array(img.convert("RGBA"))
+        if pil_img.size != (16, 16):
+            return None
+        arr = np.array(pil_img.convert("RGBA"))
         mask = (arr[:, :, 3] > 50) & ((arr[:, :, 0] < 240) | (arr[:, :, 1] < 240) | (arr[:, :, 2] < 240))
         if not mask.any():
             return None
@@ -81,504 +90,415 @@ def _classify_icon(img: Image.Image) -> Optional[str]:
         return None
 
 
-class VisualLine:
-    def __init__(self, page: int, frags: list, y0: float, y1: float):
-        self.page = page
-        self.frags = frags
-        self.y0 = y0
-        self.y1 = y1
-
-    @property
-    def plain(self) -> str:
-        return "".join(f["text"] for f in self.frags if f["kind"] == "t")
-
-    @property
-    def texts(self):
-        return [f for f in self.frags if f["kind"] == "t"]
-
-    @property
-    def images(self):
-        return [f for f in self.frags if f["kind"] == "i"]
-
-    @property
-    def bold(self) -> bool:
-        t = [f for f in self.texts if f["text"].strip()]
-        return bool(t) and all(f["flags"] & 16 for f in t)
-
-    @property
-    def main_size(self) -> float:
-        best: Dict[float, int] = {}
-        for f in self.texts:
-            n = len(f["text"].strip())
-            if n:
-                best[round(f["size"], 1)] = best.get(round(f["size"], 1), 0) + n
-        return max(best, key=best.get) if best else 0.0
-
-
-class ImageStore:
-    def __init__(self, doc: fitz.Document, outdir: Optional[str] = None, image_prefix: str = "temp/image", embed_base64: bool = True):
-        self.doc = doc
-        self.outdir = Path(outdir) if outdir else None
-        self.image_prefix = image_prefix.rstrip("/")
-        self.embed_base64 = embed_base64
-        self.done: Dict[int, str] = {}
-        self.b64_urls: Dict[int, str] = {}
-        self.icon_classes: Dict[int, str] = {}
-        if self.outdir:
-            try:
-                self.outdir.mkdir(parents=True, exist_ok=True)
-            except Exception:
-                pass
-
-    def get_icon(self, xref: int) -> Optional[str]:
-        if xref in self.icon_classes:
-            return self.icon_classes[xref]
-        try:
-            info = self.doc.extract_image(xref)
-            im = Image.open(io.BytesIO(info["image"]))
-            cls = _classify_icon(im)
-            self.icon_classes[xref] = cls
-            return cls
-        except Exception:
-            return None
-
-    def save_image(self, xref: int) -> Tuple[str, str]:
-        """Extracts image, optimizes whitespace, generates Base64 Data URI and saves to disk."""
-        if xref in self.done:
-            b64_url = self.b64_urls.get(xref, "")
-            filename = self.done[xref]
-            src = b64_url if (self.embed_base64 and b64_url) else f"{self.image_prefix}/{filename}"
-            return src, filename
-
-        ext = "png"
-        filename = f"img_{len(self.done) + 1:04d}.{ext}"
-        self.done[xref] = filename
-        png_bytes: Optional[bytes] = None
-
-        try:
-            info = self.doc.extract_image(xref)
-            im = Image.open(io.BytesIO(info["image"]))
-            im.load()
-            if info.get("smask"):
-                m = Image.open(io.BytesIO(self.doc.extract_image(info["smask"])["image"])).convert("L")
-                if m.size != im.size:
-                    m = m.resize(im.size)
-                im = im.convert("RGBA")
-                im.putalpha(m)
-            if im.mode in ("RGBA", "LA", "P"):
-                im = im.convert("RGBA")
-                bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
-                im = Image.alpha_composite(bg, im)
-            im = im.convert("RGB")
-            ow, oh = im.size
-            # Trim outer white padding
-            diff = ImageChops.difference(im, Image.new("RGB", im.size, (255, 255, 255)))
-            box = ImageOps.grayscale(diff).point(lambda v: 255 if v > 24 else 0).getbbox()
-            if box:
-                l, t, r, b = max(0, box[0] - 1), max(0, box[1] - 1), min(ow, box[2] + 1), min(oh, box[3] + 1)
-                if (r - l) * (b - t) < ow * oh:
-                    im = im.crop((l, t, r, b))
-            buf = io.BytesIO()
-            im.save(buf, format="PNG", optimize=True)
-            png_bytes = buf.getvalue()
-        except Exception:
-            try:
-                pix = fitz.Pixmap(self.doc, xref)
-                if pix.n - pix.alpha > 3:
-                    pix = fitz.Pixmap(fitz.csRGB, pix)
-                if pix.alpha:
-                    pix = fitz.Pixmap(pix, 0)
-                png_bytes = pix.tobytes("png")
-            except Exception:
-                png_bytes = b""
-
-        # Base64 data URL
-        if png_bytes:
-            b64_str = base64.b64encode(png_bytes).decode("ascii")
-            data_url = f"data:image/png;base64,{b64_str}"
-            self.b64_urls[xref] = data_url
-        else:
-            data_url = ""
-
-        # Write to local file as fallback
-        if self.outdir and png_bytes:
-            try:
-                out_file = self.outdir / filename
-                with open(out_file, "wb") as f:
-                    f.write(png_bytes)
-            except Exception:
-                pass
-
-        src = data_url if (self.embed_base64 and data_url) else f"{self.image_prefix}/{filename}"
-        return src, filename
-
-    def render_block(self, src: str, is_block: bool = False) -> str:
-        mode = "block" if is_block else "inline"
-        return f"[IMAGE: {src}|{mode}]"
-
-
-def page_visual_lines(page: fitz.Page, pno: int, images: ImageStore) -> List[VisualLine]:
-    els = []
-    d = page.get_text("rawdict", flags=fitz.TEXT_PRESERVE_WHITESPACE | fitz.TEXT_MEDIABOX_CLIP)
-    for b in d.get("blocks", []):
-        if b.get("type") != 0:
-            continue
-        for ln in b.get("lines", []):
-            for s in ln.get("spans", []):
-                chars = s.get("chars") or []
-                if not chars:
-                    continue
-                pieces, cur, last_x1 = [], [], None
-                for ch in chars:
-                    c = ch["c"]
-                    if c.strip() and last_x1 is not None and ch["bbox"][0] - last_x1 > 0.8 * s["size"] and cur:
-                        pieces.append(cur)
-                        cur = []
-                    cur.append(ch)
-                    if c.strip():
-                        last_x1 = ch["bbox"][2]
-                if cur:
-                    pieces.append(cur)
-                for pc in pieces:
-                    text = "".join(ch["c"] for ch in pc)
-                    x0 = min(ch["bbox"][0] for ch in pc)
-                    x1 = max(ch["bbox"][2] for ch in pc)
-                    r = fitz.Rect(x0, s["bbox"][1], x1, s["bbox"][3])
-                    els.append(dict(kind="t", text=text, bbox=r, color=s["color"], size=s["size"],
-                                    flags=s["flags"], oy=s["origin"][1]))
-
-    for info in page.get_image_info(xrefs=True):
-        r = fitz.Rect(info["bbox"]) & page.rect
-        if r.is_empty or r.width < 1 or r.height < 1:
-            continue
-        xref = info["xref"]
-        if _is_icon_rect(r):
-            icon_cls = images.get_icon(xref)
-            els.append(dict(kind="icon", cls=icon_cls, bbox=r))
-        else:
-            els.append(dict(kind="i", xref=xref, bbox=r))
-
-    els.sort(key=lambda e: (round(e["bbox"].y0, 1), e["bbox"].x0))
-    lines: List[dict] = []
-    block_min_h = 30.0
-    for e in els:
-        r = e["bbox"]
-        big = (e["kind"] == "i" and r.height >= block_min_h)
-        placed = False
-        if not big:
-            for L in lines[-3:][::-1]:
-                if L["big"]:
-                    continue
-                a0, a1 = L["anchor"]
-                ov = min(a1, r.y1) - max(a0, r.y0)
-                if ov >= 0.5 * min(a1 - a0, r.height):
-                    L["frags"].append(e)
-                    L["y0"], L["y1"] = min(L["y0"], r.y0), max(L["y1"], r.y1)
-                    placed = True
-                    break
-        if not placed:
-            lines.append(dict(frags=[e], anchor=(r.y0, r.y1), y0=r.y0, y1=r.y1, big=big))
-
-    for i, L in enumerate(lines):
-        if not L["big"]:
-            continue
-        img_bbox = L["frags"][0]["bbox"]
-        for M in lines[i + 1:i + 4]:
-            if M["big"] or M.get("merged"):
-                continue
-            cy = (M["anchor"][0] + M["anchor"][1]) / 2
-            texts = [f for f in M["frags"] if f["kind"] == "t" and f["text"].strip()]
-            if img_bbox.y0 <= cy <= img_bbox.y1 + 2 and texts and OPTID_RE.match(texts[0]["text"]) \
-                    and texts[0]["bbox"].x1 <= img_bbox.x0 + 2:
-                L["frags"].extend(M["frags"])
-                L["y0"], L["y1"] = min(L["y0"], M["y0"]), max(L["y1"], M["y1"])
-                L["big"] = False
-                M["merged"] = True
-                break
-    lines = [L for L in lines if not L.get("merged")]
-
-    out: List[VisualLine] = []
-    for L in lines:
-        fr = sorted(L["frags"], key=lambda f: f["bbox"].x0)
-        if not any((f["kind"] in ("i", "icon")) or (f["kind"] == "t" and f["text"].strip()) for f in fr):
-            continue
-        out.append(VisualLine(pno, fr, L["y0"], L["y1"]))
-    out.sort(key=lambda l: l.y0)
-    return out
-
-
-def line_to_runs(line: VisualLine, images: ImageStore, skip_opt_id: Optional[str] = None) -> List[str]:
-    parts: List[str] = []
-    frags = list(line.frags)
-    if skip_opt_id is not None:
-        for i, f in enumerate(frags):
-            if f["kind"] == "t" and f["text"].strip():
-                rest = f["text"][len(skip_opt_id):] if f["text"].startswith(skip_opt_id) else OPTID_RE.sub("", f["text"], count=1)
-                frags[i] = dict(f, text=rest)
-                break
-    for f in frags:
-        if f["kind"] == "t":
-            t = f["text"]
-            if t:
-                parts.append(t)
-        elif f["kind"] == "i":
-            src, _ = images.save_image(f["xref"])
-            r = f["bbox"]
-            is_block = r.height >= 30.0 or (line.plain.strip() == "" and r.height >= 20.0)
-            parts.append(images.render_block(src, is_block=is_block))
-    return parts
-
-
-class QuestionItem:
-    def __init__(self, number: int, qid: str, qtype: str = ""):
-        self.number = number
-        self.qid = qid
-        self.label = ""
-        self.qtype = qtype
-        self.marks = 1.0
-        self.negative_marks = 0.0
-        self.body_parts: List[str] = []
-        self.options: List[Dict[str, Any]] = []
-        self.answers: List[str] = []
-        self.group_id: Optional[str] = None
-        self.comprehension_passage: Optional[str] = None
-        self.section_name: Optional[str] = None
-        self.subject_check: bool = False
-        self.images: List[str] = []
-
-
-class ComprehensionGroup:
-    def __init__(self, gid: str):
-        self.gid = gid
-        self.first: Optional[int] = None
-        self.last: Optional[int] = None
-        self.passage_parts: List[str] = []
-
-
-def parse_pdf_to_paper(
+# --------------------------------------------------------------------------
+# Pure-Python Parser (pdfplumber + pypdf) - 100% Serverless / Vercel Safe
+# --------------------------------------------------------------------------
+def parse_with_pdfplumber(
     pdf_path: str,
     image_dir: str = "temp/image",
     image_prefix: Optional[str] = "temp/image",
     skip_confirmation: bool = True,
     embed_base64: bool = True,
 ) -> Paper:
-    prefix = image_prefix or "temp/image"
-    doc = fitz.open(pdf_path)
-    images = ImageStore(doc, image_dir, image_prefix=prefix, embed_base64=embed_base64)
+    reader = PdfReader(pdf_path)
+    pypdf_images: Dict[Tuple[int, str], Any] = {}
+    pypdf_b64: Dict[Tuple[int, str], str] = {}
+    icon_types: Dict[Tuple[int, str], str] = {}
 
-    questions: List[QuestionItem] = []
-    groups: Dict[str, ComprehensionGroup] = {}
-    current_q: Optional[QuestionItem] = None
-    current_group: Optional[ComprehensionGroup] = None
+    out_path = Path(image_dir) if image_dir else None
+    if out_path:
+        try:
+            out_path.mkdir(parents=True, exist_ok=True)
+        except Exception:
+            pass
+
+    for p_idx, page in enumerate(reader.pages):
+        for img in page.images:
+            base_name = img.name.split(".")[0]
+            if img.image.size == (16, 16):
+                icon_cls = classify_icon_pil(img.image)
+                if icon_cls:
+                    icon_types[(p_idx, base_name)] = icon_cls
+            else:
+                pypdf_images[(p_idx, base_name)] = img
+                if embed_base64:
+                    try:
+                        buf = io.BytesIO()
+                        img.image.save(buf, format="PNG")
+                        b64_str = base64.b64encode(buf.getvalue()).decode("ascii")
+                        pypdf_b64[(p_idx, base_name)] = f"data:image/png;base64,{b64_str}"
+                    except Exception:
+                        pass
+
+    all_lines: List[Dict[str, Any]] = []
+
+    with pdfplumber.open(pdf_path) as pdf:
+        for p_idx, page in enumerate(pdf.pages):
+            words = page.extract_words(extra_attrs=["non_stroking_color", "fontname", "size"])
+            text_lines: List[Dict[str, Any]] = []
+            for w in words:
+                if not text_lines or abs(w["top"] - text_lines[-1]["top"]) > 4.5:
+                    text_lines.append(
+                        {
+                            "type": "text_line",
+                            "page": p_idx,
+                            "top": w["top"],
+                            "bottom": w["bottom"],
+                            "tokens": [
+                                {
+                                    "kind": "word",
+                                    "x0": w["x0"],
+                                    "x1": w["x1"],
+                                    "top": w["top"],
+                                    "bottom": w["bottom"],
+                                    "text": w["text"],
+                                    "color": w.get("non_stroking_color"),
+                                }
+                            ],
+                            "icon": None,
+                        }
+                    )
+                else:
+                    text_lines[-1]["tokens"].append(
+                        {
+                            "kind": "word",
+                            "x0": w["x0"],
+                            "x1": w["x1"],
+                            "top": w["top"],
+                            "bottom": w["bottom"],
+                            "text": w["text"],
+                            "color": w.get("non_stroking_color"),
+                        }
+                    )
+                    text_lines[-1]["bottom"] = max(text_lines[-1]["bottom"], w["bottom"])
+
+            standalone_img_lines: List[Dict[str, Any]] = []
+
+            for img_meta in page.images:
+                img_name = img_meta.get("name", "")
+                srcsize = img_meta.get("srcsize")
+                if srcsize == (16, 16) or (abs(img_meta["width"] - 12.0) < 1.0 and abs(img_meta["height"] - 12.0) < 1.0):
+                    icon_cls = icon_types.get((p_idx, img_name))
+                    if icon_cls:
+                        for tl in text_lines:
+                            if abs(tl["top"] - img_meta["top"]) < 8.0:
+                                tl["icon"] = icon_cls
+                                break
+                    continue
+
+                is_inline = img_meta["height"] < 35.0
+                attached = False
+                if is_inline:
+                    best_tl = None
+                    best_diff = 999.0
+                    for tl in text_lines:
+                        diff = abs(img_meta["bottom"] - tl["bottom"])
+                        if diff <= 8.0 and diff < best_diff:
+                            best_diff = diff
+                            best_tl = tl
+                    if best_tl is not None:
+                        best_tl["tokens"].append(
+                            {
+                                "kind": "inline_image",
+                                "x0": img_meta["x0"],
+                                "x1": img_meta["x1"],
+                                "top": img_meta["top"],
+                                "bottom": img_meta["bottom"],
+                                "page": p_idx,
+                                "name": img_name,
+                                "width": img_meta["width"],
+                                "height": img_meta["height"],
+                            }
+                        )
+                        attached = True
+
+                if not attached:
+                    standalone_img_lines.append(
+                        {
+                            "type": "image_block",
+                            "page": p_idx,
+                            "top": img_meta["top"],
+                            "bottom": img_meta["bottom"],
+                            "x0": img_meta["x0"],
+                            "x1": img_meta["x1"],
+                            "name": img_name,
+                            "width": img_meta["width"],
+                            "height": img_meta["height"],
+                        }
+                    )
+
+            for tl in text_lines:
+                tl["tokens"].sort(key=lambda tok: tok["x0"])
+
+            page_items = text_lines + standalone_img_lines
+            page_items.sort(key=lambda item: item["top"])
+            all_lines.extend(page_items)
+
+    def render_token_line(line: Dict[str, Any]) -> str:
+        if line["type"] == "image_block":
+            key = (line["page"], line["name"])
+            b64 = pypdf_b64.get(key)
+            if embed_base64 and b64:
+                return f"[IMAGE: {b64}|block]"
+            img_obj = pypdf_images.get(key)
+            ext = Path(img_obj.name).suffix if img_obj else ".png"
+            filename = f"p{line['page']}_{line['name']}{ext}"
+            if out_path and img_obj:
+                try:
+                    img_obj.image.save(out_path / filename)
+                except Exception:
+                    pass
+            rel = f"{image_prefix}/{filename}" if image_prefix else filename
+            return f"[IMAGE: {rel}|block]"
+
+        parts = []
+        for tok in line["tokens"]:
+            if tok["kind"] == "word":
+                parts.append(tok["text"])
+            elif tok["kind"] == "inline_image":
+                key = (tok["page"], tok["name"])
+                b64 = pypdf_b64.get(key)
+                if embed_base64 and b64:
+                    parts.append(f"[IMAGE: {b64}|inline]")
+                else:
+                    img_obj = pypdf_images.get(key)
+                    ext = Path(img_obj.name).suffix if img_obj else ".png"
+                    filename = f"p{tok['page']}_{tok['name']}{ext}"
+                    if out_path and img_obj:
+                        try:
+                            img_obj.image.save(out_path / filename)
+                        except Exception:
+                            pass
+                    rel = f"{image_prefix}/{filename}" if image_prefix else filename
+                    parts.append(f"[IMAGE: {rel}|inline]")
+        return " ".join(parts).strip()
+
+    def line_text(line: Dict[str, Any]) -> str:
+        if line["type"] != "text_line":
+            return ""
+        return " ".join(tok["text"] for tok in line["tokens"] if tok["kind"] == "word").strip()
+
+    # State machine over all lines
+    questions: List[Dict[str, Any]] = []
+    groups: Dict[str, Dict[str, Any]] = {}
+    current_q: Optional[Dict[str, Any]] = None
+    current_group: Optional[Dict[str, Any]] = None
     current_section = ""
     paper_subject = ""
     state = "skip"
 
-    def finish_current_question():
+    def finish_q():
         nonlocal current_q
         if current_q is not None:
-            full_text = " ".join(current_q.body_parts).strip()
-            if SUBJECT_CHECK_RE.search(full_text):
-                current_q.subject_check = True
-                m = SUBJECT_CHECK_RE.search(full_text)
+            full_txt = " ".join(current_q["body_parts"]).strip()
+            if SUBJECT_CHECK_RE.search(full_txt):
+                current_q["subject_check"] = True
+                m = SUBJECT_CHECK_RE.search(full_txt)
                 if m:
                     nonlocal paper_subject
                     paper_subject = re.sub(r"\s+", " ", m.group(1)).strip()
             questions.append(current_q)
             current_q = None
 
-    for pno, page in enumerate(doc):
-        lines = page_visual_lines(page, pno, images)
-        for line in lines:
-            plain = line.plain.strip()
+    for line in all_lines:
+        plain = line_text(line)
 
-            # Section header
-            if plain and line.main_size >= 15.5 and line.bold and not line.images \
-                    and not re.match(r"^Group\b", plain, re.I) and not META_RE.match(plain):
-                finish_current_question()
+        # Section header
+        if plain and len(line.get("tokens", [])) > 0:
+            first_tok = line["tokens"][0]
+            size = first_tok.get("size") or 10.0
+            if size >= 15.0 and not re.match(r"^Group\b", plain, re.I) and not META_RE.match(plain):
+                finish_q()
                 current_section = plain
                 state = "skip"
                 continue
 
-            # Question Header
-            m_q = QNUM_RE.search(plain)
-            if m_q:
-                finish_current_question()
-                num = int(m_q.group(1))
-                qid = m_q.group(2)
-                raw_type = (m_q.group(3) or "").upper()
-                q = QuestionItem(number=num, qid=qid, qtype=raw_type)
-                q.section_name = current_section
+        # Question Header
+        m_q = QNUM_RE.search(plain)
+        if m_q:
+            finish_q()
+            num = int(m_q.group(1))
+            qid = m_q.group(2)
+            raw_type = (m_q.group(3) or "").upper()
+            q_dict = {
+                "number": num,
+                "qid": qid,
+                "qtype": raw_type,
+                "label": "",
+                "marks": 1.0,
+                "negative_marks": 0.0,
+                "body_parts": [],
+                "options": [],
+                "answers": [],
+                "group_id": None,
+                "comprehension_passage": None,
+                "section_name": current_section,
+                "subject_check": False,
+            }
+            if current_group and (current_group["first"] is None or current_group["first"] <= num <= (current_group["last"] or num)):
+                q_dict["group_id"] = current_group["gid"]
+                q_dict["comprehension_passage"] = " ".join(current_group["passage_parts"]).strip()
 
-                if current_group and (current_group.first is None or current_group.first <= num <= (current_group.last or num)):
-                    q.group_id = current_group.gid
-                    q.comprehension_passage = " ".join(current_group.passage_parts).strip()
-
-                current_q = q
-                state = "qhead"
-
-                m_m = MARKS_RE.search(plain)
-                if m_m:
-                    current_q.marks = float(m_m.group(1))
-                m_n = NEG_RE.search(plain)
-                if m_n:
-                    current_q.negative_marks = float(m_n.group(1))
-                continue
-
-            # Comprehension Group Header
-            m_g = QGROUP_RE.match(plain)
-            if m_g:
-                finish_current_question()
-                gid = m_g.group(1)
-                current_group = ComprehensionGroup(gid=gid)
-                groups[gid] = current_group
-                state = "ghead"
-                m_rng = QNUMS_RE.search(plain)
-                if m_rng:
-                    current_group.first, current_group.last = int(m_rng.group(1)), int(m_rng.group(2))
-                continue
-
-            if state in ("qhead", "ghead"):
-                if current_q:
-                    m_m = MARKS_RE.search(plain)
-                    if m_m:
-                        current_q.marks = float(m_m.group(1))
-                    m_n = NEG_RE.search(plain)
-                    if m_n:
-                        current_q.negative_marks = float(m_n.group(1))
-                if current_group:
-                    m_rng = QNUMS_RE.search(plain)
-                    if m_rng:
-                        current_group.first, current_group.last = int(m_rng.group(1)), int(m_rng.group(2))
-
-                lm = LABEL_RE.match(plain)
-                if lm:
-                    label = lm.group(1).strip()
-                    if state == "ghead" or label.lower() == "comprehension":
-                        state = "passage"
-                    else:
-                        if current_q:
-                            current_q.label = label
-                        state = "body"
-                continue
-
-            if not plain and not line.images:
-                continue
-            if NOISE_RE.match(plain):
-                continue
-
-            if re.match(r"^\s*Options\s*:\s*$", plain, re.I) and current_q:
-                state = "options"
-                continue
-
-            if re.match(r"^\s*Possible Answers\s*:", plain, re.I) and current_q:
-                state = "answers"
-                rest = re.sub(r"^\s*Possible Answers\s*:\s*", "", plain, flags=re.I).strip()
-                if rest:
-                    current_q.answers.append(rest)
-                continue
-
-            first_text = next((f for f in line.texts if f["text"].strip()), None)
-            om = OPTID_RE.match(first_text["text"]) if first_text else None
-            if om and current_q and state in ("options", "option", "body"):
-                is_green = _is_green(first_text["color"])
-                has_tick = any(f.get("kind") == "icon" and f.get("cls") == "tick" for f in line.frags)
-                runs = line_to_runs(line, images, skip_opt_id=first_text["text"][:om.end()])
-                current_q.options.append({
-                    "oid": om.group(1),
-                    "parts": runs,
-                    "correct": is_green or has_tick
-                })
-                state = "option"
-                continue
-
-            if META_RE.match(plain):
-                state = "skip"
-                continue
-
-            if state == "answers":
-                if plain and current_q:
-                    current_q.answers.append(plain)
-                continue
-
-            if state == "passage":
-                if re.match(r"^(Based on the above data, answer the given sub-?questions\.?|Sub\s*questions)$", plain, re.I):
-                    continue
-                runs = line_to_runs(line, images)
-                if current_group and runs:
-                    current_group.passage_parts.extend(runs)
-                continue
-
-            if state == "body":
-                runs = line_to_runs(line, images)
-                if current_q and runs:
-                    current_q.body_parts.extend(runs)
-                continue
-
-            if state == "option":
-                runs = line_to_runs(line, images)
-                if current_q and current_q.options and runs:
-                    current_q.options[-1]["parts"].extend(runs)
-                continue
-
-    finish_current_question()
-    doc.close()
-
-    # Reindex and construct Question models
-    final_questions: List[Question] = []
-    reindexed_idx = 1
-    for q_item in questions:
-        if skip_confirmation and q_item.subject_check:
+            current_q = q_dict
+            state = "qhead"
+            m_m = MARKS_RE.search(plain)
+            if m_m:
+                current_q["marks"] = float(m_m.group(1))
+            m_n = NEG_RE.search(plain)
+            if m_n:
+                current_q["negative_marks"] = float(m_n.group(1))
             continue
 
-        label_lower = (q_item.label or "").lower()
-        qtype_upper = (q_item.qtype or "").upper()
+        # Comprehension Group Header
+        m_g = QGROUP_RE.match(plain)
+        if m_g:
+            finish_q()
+            gid = m_g.group(1)
+            current_group = {"gid": gid, "first": None, "last": None, "passage_parts": []}
+            groups[gid] = current_group
+            state = "ghead"
+            m_rng = QNUMS_RE.search(plain)
+            if m_rng:
+                current_group["first"] = int(m_rng.group(1))
+                current_group["last"] = int(m_rng.group(2))
+            continue
+
+        if state in ("qhead", "ghead"):
+            if current_q:
+                m_m = MARKS_RE.search(plain)
+                if m_m:
+                    current_q["marks"] = float(m_m.group(1))
+                m_n = NEG_RE.search(plain)
+                if m_n:
+                    current_q["negative_marks"] = float(m_n.group(1))
+            if current_group:
+                m_rng = QNUMS_RE.search(plain)
+                if m_rng:
+                    current_group["first"] = int(m_rng.group(1))
+                    current_group["last"] = int(m_rng.group(2))
+
+            lm = LABEL_RE.match(plain)
+            if lm:
+                label = lm.group(1).strip()
+                if state == "ghead" or label.lower() == "comprehension":
+                    state = "passage"
+                else:
+                    if current_q:
+                        current_q["label"] = label
+                    state = "body"
+            continue
+
+        if not plain and line["type"] != "image_block":
+            continue
+        if NOISE_RE.match(plain):
+            continue
+
+        if re.match(r"^\s*Options\s*:\s*$", plain, re.I) and current_q:
+            state = "options"
+            continue
+
+        if re.match(r"^\s*Possible Answers\s*:", plain, re.I) and current_q:
+            state = "answers"
+            rest = re.sub(r"^\s*Possible Answers\s*:\s*", "", plain, flags=re.I).strip()
+            if rest:
+                current_q["answers"].append(rest)
+            continue
+
+        om = OPTID_RE.match(plain) if plain else None
+        if om and current_q and state in ("options", "option", "body"):
+            first_word_color = line["tokens"][0].get("color") if line.get("tokens") else None
+            is_correct = is_green_color(first_word_color) or (line.get("icon") == "tick")
+            rendered = render_token_line(line)
+            opt_text = re.sub(r"^\s*\d{8,}\s*\.\s*", "", rendered).strip()
+            current_q["options"].append({
+                "oid": om.group(1),
+                "text": opt_text,
+                "correct": is_correct
+            })
+            state = "option"
+            continue
+
+        if META_RE.match(plain):
+            state = "skip"
+            continue
+
+        if state == "answers":
+            if plain and current_q:
+                current_q["answers"].append(plain)
+            continue
+
+        if state == "passage":
+            if re.match(r"^(Based on the above data, answer the given sub-?questions\.?|Sub\s*questions)$", plain, re.I):
+                continue
+            rendered = render_token_line(line)
+            if current_group and rendered:
+                current_group["passage_parts"].append(rendered)
+            continue
+
+        if state == "body":
+            rendered = render_token_line(line)
+            if current_q and rendered:
+                current_q["body_parts"].append(rendered)
+            continue
+
+        if state == "option":
+            rendered = render_token_line(line)
+            if current_q and current_q["options"] and rendered:
+                current_q["options"][-1]["text"] = f"{current_q['options'][-1]['text']} {rendered}".strip()
+            continue
+
+    finish_q()
+
+    # Reindex questions
+    final_questions: List[Question] = []
+    idx = 1
+    for q_dict in questions:
+        if skip_confirmation and q_dict["subject_check"]:
+            continue
+
+        label_lower = (q_dict["label"] or "").lower()
+        qtype_upper = (q_dict["qtype"] or "").upper()
 
         if "multiple select" in label_lower or qtype_upper == "MSQ":
             final_type = "multichoice"
-        elif "short answer" in label_lower or qtype_upper in ("SA", "NAT", "NUMERIC") or q_item.answers:
+        elif "short answer" in label_lower or qtype_upper in ("SA", "NAT", "NUMERIC") or q_dict["answers"]:
             final_type = "numeric"
         else:
             final_type = "MCQ"
 
-        opts: Optional[List[str]] = None
-        corr_ans: Optional[Union[str, List[str], float]] = None
-
         if final_type == "numeric":
             opts = None
-            corr_ans = " ".join(q_item.answers).strip() if q_item.answers else ""
+            corr_ans = " ".join(q_dict["answers"]).strip() if q_dict["answers"] else ""
         else:
-            opts = [" ".join(opt["parts"]).strip() for opt in q_item.options]
-            corr_list = [" ".join(opt["parts"]).strip() for opt in q_item.options if opt["correct"]]
+            opts = [opt["text"].strip() for opt in q_dict["options"]]
+            corr_list = [opt["text"].strip() for opt in q_dict["options"] if opt["correct"]]
             if final_type == "MCQ":
                 corr_ans = corr_list[0] if corr_list else (opts[0] if opts else "")
             else:
                 corr_ans = corr_list
 
-        body_text = " ".join(q_item.body_parts).strip()
-        comp_passage = q_item.comprehension_passage.strip() if q_item.comprehension_passage else None
-
-        # Collect embedded image tags
+        body_text = " ".join(q_dict["body_parts"]).strip()
+        comp_passage = q_dict["comprehension_passage"].strip() if q_dict.get("comprehension_passage") else None
         img_tags = re.findall(r"\[IMAGE:\s*([^\]|]+)", body_text + " " + (comp_passage or "") + " " + " ".join(opts or []))
 
         final_questions.append(
             Question(
-                id=reindexed_idx,
-                number=reindexed_idx,
+                id=idx,
+                number=idx,
                 text=body_text,
                 type=final_type,
                 options=opts,
                 correct_answer=corr_ans,
-                marks=q_item.marks,
-                negative_marks=q_item.negative_marks,
+                marks=q_dict["marks"],
+                negative_marks=q_dict["negative_marks"],
                 images=img_tags,
                 image_locations=[],
                 comprehension_passage=comp_passage,
-                group_id=q_item.group_id,
-                section_name=q_item.section_name or None,
+                group_id=q_dict.get("group_id"),
+                section_name=q_dict.get("section_name") or None,
             )
         )
-        reindexed_idx += 1
+        idx += 1
 
     paper_title = paper_subject or Path(pdf_path).stem.replace("_", " ").title()
     total_marks = sum(q.marks for q in final_questions)
@@ -590,3 +510,492 @@ def parse_pdf_to_paper(
         total_marks=round(total_marks, 2),
         questions=final_questions,
     )
+
+
+# --------------------------------------------------------------------------
+# Main Entry Point with Automatic Engine Selection & Fallback
+# --------------------------------------------------------------------------
+def parse_pdf_to_paper(
+    pdf_path: str,
+    image_dir: str = "temp/image",
+    image_prefix: Optional[str] = "temp/image",
+    skip_confirmation: bool = True,
+    embed_base64: bool = True,
+) -> Paper:
+    # On serverless (Vercel) or environments where PyMuPDF binaries are not installed,
+    # use pure-Python pdfplumber parser.
+    if fitz is None:
+        return parse_with_pdfplumber(
+            pdf_path=pdf_path,
+            image_dir=image_dir,
+            image_prefix=image_prefix,
+            skip_confirmation=skip_confirmation,
+            embed_base64=embed_base64,
+        )
+
+    # When PyMuPDF is available, try PyMuPDF first, falling back to pdfplumber if any error occurs
+    try:
+        from . import parser as _self_mod
+    except Exception:
+        pass
+
+    try:
+        doc = fitz.open(pdf_path)
+    except Exception:
+        return parse_with_pdfplumber(
+            pdf_path=pdf_path,
+            image_dir=image_dir,
+            image_prefix=image_prefix,
+            skip_confirmation=skip_confirmation,
+            embed_base64=embed_base64,
+        )
+
+    # If PyMuPDF opened successfully, use fitz extraction
+    try:
+        from PIL import Image, ImageChops, ImageOps
+
+        class FitzImageStore:
+            def __init__(self, doc_f, outdir_f, img_prefix_f, b64_mode_f):
+                self.doc = doc_f
+                self.outdir = Path(outdir_f) if outdir_f else None
+                self.image_prefix = img_prefix_f.rstrip("/") if img_prefix_f else "temp/image"
+                self.embed_base64 = b64_mode_f
+                self.done: Dict[int, str] = {}
+                self.b64_urls: Dict[int, str] = {}
+                self.icon_classes: Dict[int, str] = {}
+                if self.outdir:
+                    try:
+                        self.outdir.mkdir(parents=True, exist_ok=True)
+                    except Exception:
+                        pass
+
+            def get_icon(self, xref: int) -> Optional[str]:
+                if xref in self.icon_classes:
+                    return self.icon_classes[xref]
+                try:
+                    info = self.doc.extract_image(xref)
+                    im = Image.open(io.BytesIO(info["image"]))
+                    cls = classify_icon_pil(im)
+                    self.icon_classes[xref] = cls
+                    return cls
+                except Exception:
+                    return None
+
+            def save_image(self, xref: int) -> Tuple[str, str]:
+                if xref in self.done:
+                    b64_url = self.b64_urls.get(xref, "")
+                    filename = self.done[xref]
+                    src = b64_url if (self.embed_base64 and b64_url) else f"{self.image_prefix}/{filename}"
+                    return src, filename
+
+                ext = "png"
+                filename = f"img_{len(self.done) + 1:04d}.{ext}"
+                self.done[xref] = filename
+                png_bytes = None
+                try:
+                    info = self.doc.extract_image(xref)
+                    im = Image.open(io.BytesIO(info["image"]))
+                    im.load()
+                    if info.get("smask"):
+                        m = Image.open(io.BytesIO(self.doc.extract_image(info["smask"])["image"])).convert("L")
+                        if m.size != im.size:
+                            m = m.resize(im.size)
+                        im = im.convert("RGBA")
+                        im.putalpha(m)
+                    if im.mode in ("RGBA", "LA", "P"):
+                        im = im.convert("RGBA")
+                        bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
+                        im = Image.alpha_composite(bg, im)
+                    im = im.convert("RGB")
+                    ow, oh = im.size
+                    diff = ImageChops.difference(im, Image.new("RGB", im.size, (255, 255, 255)))
+                    box = ImageOps.grayscale(diff).point(lambda v: 255 if v > 24 else 0).getbbox()
+                    if box:
+                        l, t, r, b = max(0, box[0] - 1), max(0, box[1] - 1), min(ow, box[2] + 1), min(oh, box[3] + 1)
+                        if (r - l) * (b - t) < ow * oh:
+                            im = im.crop((l, t, r, b))
+                    buf = io.BytesIO()
+                    im.save(buf, format="PNG", optimize=True)
+                    png_bytes = buf.getvalue()
+                except Exception:
+                    try:
+                        pix = fitz.Pixmap(self.doc, xref)
+                        if pix.n - pix.alpha > 3:
+                            pix = fitz.Pixmap(fitz.csRGB, pix)
+                        if pix.alpha:
+                            pix = fitz.Pixmap(pix, 0)
+                        png_bytes = pix.tobytes("png")
+                    except Exception:
+                        png_bytes = b""
+
+                if png_bytes:
+                    b64_str = base64.b64encode(png_bytes).decode("ascii")
+                    data_url = f"data:image/png;base64,{b64_str}"
+                    self.b64_urls[xref] = data_url
+                else:
+                    data_url = ""
+
+                if self.outdir and png_bytes:
+                    try:
+                        with open(self.outdir / filename, "wb") as f:
+                            f.write(png_bytes)
+                    except Exception:
+                        pass
+
+                src = data_url if (self.embed_base64 and data_url) else f"{self.image_prefix}/{filename}"
+                return src, filename
+
+            def render_block(self, src: str, is_block: bool = False) -> str:
+                mode = "block" if is_block else "inline"
+                return f"[IMAGE: {src}|{mode}]"
+
+        images = FitzImageStore(doc, image_dir, image_prefix, embed_base64)
+
+        questions: List[Dict[str, Any]] = []
+        groups: Dict[str, Dict[str, Any]] = {}
+        current_q: Optional[Dict[str, Any]] = None
+        current_group: Optional[Dict[str, Any]] = None
+        current_section = ""
+        paper_subject = ""
+        state = "skip"
+
+        def finish_q_fitz():
+            nonlocal current_q
+            if current_q is not None:
+                full_txt = " ".join(current_q["body_parts"]).strip()
+                if SUBJECT_CHECK_RE.search(full_txt):
+                    current_q["subject_check"] = True
+                    m = SUBJECT_CHECK_RE.search(full_txt)
+                    if m:
+                        nonlocal paper_subject
+                        paper_subject = re.sub(r"\s+", " ", m.group(1)).strip()
+                questions.append(current_q)
+                current_q = None
+
+        for pno, page in enumerate(doc):
+            els = []
+            d = page.get_text("rawdict", flags=fitz.TEXT_PRESERVE_WHITESPACE | fitz.TEXT_MEDIABOX_CLIP)
+            for b in d.get("blocks", []):
+                if b.get("type") != 0:
+                    continue
+                for ln in b.get("lines", []):
+                    for s in ln.get("spans", []):
+                        chars = s.get("chars") or []
+                        if not chars:
+                            continue
+                        pieces, cur, last_x1 = [], [], None
+                        for ch in chars:
+                            c = ch["c"]
+                            if c.strip() and last_x1 is not None and ch["bbox"][0] - last_x1 > 0.8 * s["size"] and cur:
+                                pieces.append(cur)
+                                cur = []
+                            cur.append(ch)
+                            if c.strip():
+                                last_x1 = ch["bbox"][2]
+                        if cur:
+                            pieces.append(cur)
+                        for pc in pieces:
+                            text = "".join(ch["c"] for ch in pc)
+                            x0 = min(ch["bbox"][0] for ch in pc)
+                            x1 = max(ch["bbox"][2] for ch in pc)
+                            r = fitz.Rect(x0, s["bbox"][1], x1, s["bbox"][3])
+                            els.append(dict(kind="t", text=text, bbox=r, color=s["color"], size=s["size"],
+                                            flags=s["flags"], oy=s["origin"][1]))
+
+            for info in page.get_image_info(xrefs=True):
+                r = fitz.Rect(info["bbox"]) & page.rect
+                if r.is_empty or r.width < 1 or r.height < 1:
+                    continue
+                xref = info["xref"]
+                if r.width <= 16.0 and r.height <= 16.0:
+                    icon_cls = images.get_icon(xref)
+                    els.append(dict(kind="icon", cls=icon_cls, bbox=r))
+                else:
+                    els.append(dict(kind="i", xref=xref, bbox=r))
+
+            els.sort(key=lambda e: (round(e["bbox"].y0, 1), e["bbox"].x0))
+            lines: List[dict] = []
+            block_min_h = 30.0
+            for e in els:
+                r = e["bbox"]
+                big = (e["kind"] == "i" and r.height >= block_min_h)
+                placed = False
+                if not big:
+                    for L in lines[-3:][::-1]:
+                        if L["big"]:
+                            continue
+                        a0, a1 = L["anchor"]
+                        ov = min(a1, r.y1) - max(a0, r.y0)
+                        if ov >= 0.5 * min(a1 - a0, r.height):
+                            L["frags"].append(e)
+                            L["y0"], L["y1"] = min(L["y0"], r.y0), max(L["y1"], r.y1)
+                            placed = True
+                            break
+                if not placed:
+                    lines.append(dict(frags=[e], anchor=(r.y0, r.y1), y0=r.y0, y1=r.y1, big=big))
+
+            for i, L in enumerate(lines):
+                if not L["big"]:
+                    continue
+                img_bbox = L["frags"][0]["bbox"]
+                for M in lines[i + 1:i + 4]:
+                    if M["big"] or M.get("merged"):
+                        continue
+                    cy = (M["anchor"][0] + M["anchor"][1]) / 2
+                    texts = [f for f in M["frags"] if f["kind"] == "t" and f["text"].strip()]
+                    if img_bbox.y0 <= cy <= img_bbox.y1 + 2 and texts and OPTID_RE.match(texts[0]["text"]) \
+                            and texts[0]["bbox"].x1 <= img_bbox.x0 + 2:
+                        L["frags"].extend(M["frags"])
+                        L["y0"], L["y1"] = min(L["y0"], M["y0"]), max(L["y1"], M["y1"])
+                        L["big"] = False
+                        M["merged"] = True
+                        break
+            lines = [L for L in lines if not L.get("merged")]
+
+            for L in lines:
+                fr = sorted(L["frags"], key=lambda f: f["bbox"].x0)
+                plain = "".join(f["text"] for f in fr if f["kind"] == "t").strip()
+
+                if plain and not any(f["kind"] == "i" for f in fr):
+                    t_fr = [f for f in fr if f["kind"] == "t" and f["text"].strip()]
+                    first_sz = t_fr[0]["size"] if t_fr else 10.0
+                    first_bold = all(f["flags"] & 16 for f in t_fr) if t_fr else False
+                    if first_sz >= 15.0 and first_bold and not re.match(r"^Group\b", plain, re.I) and not META_RE.match(plain):
+                        finish_q_fitz()
+                        current_section = plain
+                        state = "skip"
+                        continue
+
+                m_q = QNUM_RE.search(plain)
+                if m_q:
+                    finish_q_fitz()
+                    num = int(m_q.group(1))
+                    qid = m_q.group(2)
+                    raw_type = (m_q.group(3) or "").upper()
+                    q_dict = {
+                        "number": num,
+                        "qid": qid,
+                        "qtype": raw_type,
+                        "label": "",
+                        "marks": 1.0,
+                        "negative_marks": 0.0,
+                        "body_parts": [],
+                        "options": [],
+                        "answers": [],
+                        "group_id": None,
+                        "comprehension_passage": None,
+                        "section_name": current_section,
+                        "subject_check": False,
+                    }
+                    if current_group and (current_group["first"] is None or current_group["first"] <= num <= (current_group["last"] or num)):
+                        q_dict["group_id"] = current_group["gid"]
+                        q_dict["comprehension_passage"] = " ".join(current_group["passage_parts"]).strip()
+
+                    current_q = q_dict
+                    state = "qhead"
+                    m_m = MARKS_RE.search(plain)
+                    if m_m:
+                        current_q["marks"] = float(m_m.group(1))
+                    m_n = NEG_RE.search(plain)
+                    if m_n:
+                        current_q["negative_marks"] = float(m_n.group(1))
+                    continue
+
+                m_g = QGROUP_RE.match(plain)
+                if m_g:
+                    finish_q_fitz()
+                    gid = m_g.group(1)
+                    current_group = {"gid": gid, "first": None, "last": None, "passage_parts": []}
+                    groups[gid] = current_group
+                    state = "ghead"
+                    m_rng = QNUMS_RE.search(plain)
+                    if m_rng:
+                        current_group["first"] = int(m_rng.group(1))
+                        current_group["last"] = int(m_rng.group(2))
+                    continue
+
+                if state in ("qhead", "ghead"):
+                    if current_q:
+                        m_m = MARKS_RE.search(plain)
+                        if m_m:
+                            current_q["marks"] = float(m_m.group(1))
+                        m_n = NEG_RE.search(plain)
+                        if m_n:
+                            current_q["negative_marks"] = float(m_n.group(1))
+                    if current_group:
+                        m_rng = QNUMS_RE.search(plain)
+                        if m_rng:
+                            current_group["first"] = int(m_rng.group(1))
+                            current_group["last"] = int(m_rng.group(2))
+
+                    lm = LABEL_RE.match(plain)
+                    if lm:
+                        label = lm.group(1).strip()
+                        if state == "ghead" or label.lower() == "comprehension":
+                            state = "passage"
+                        else:
+                            if current_q:
+                                current_q["label"] = label
+                            state = "body"
+                    continue
+
+                if not plain and not any(f["kind"] == "i" for f in fr):
+                    continue
+                if NOISE_RE.match(plain):
+                    continue
+
+                if re.match(r"^\s*Options\s*:\s*$", plain, re.I) and current_q:
+                    state = "options"
+                    continue
+
+                if re.match(r"^\s*Possible Answers\s*:", plain, re.I) and current_q:
+                    state = "answers"
+                    rest = re.sub(r"^\s*Possible Answers\s*:\s*", "", plain, flags=re.I).strip()
+                    if rest:
+                        current_q["answers"].append(rest)
+                    continue
+
+                first_t = next((f for f in fr if f["kind"] == "t" and f["text"].strip()), None)
+                om = OPTID_RE.match(first_t["text"]) if first_t else None
+                if om and current_q and state in ("options", "option", "body"):
+                    c = first_t["color"]
+                    r_c, g_c, b_c = (c >> 16) & 255, (c >> 8) & 255, c & 255
+                    is_green = g_c > 90 and g_c > r_c + 35 and g_c > b_c + 35
+                    has_tick = any(f.get("kind") == "icon" and f.get("cls") == "tick" for f in fr)
+                    
+                    runs = []
+                    for f in fr:
+                        if f["kind"] == "t":
+                            t = f["text"]
+                            if f == first_t:
+                                t = OPTID_RE.sub("", t, count=1)
+                            if t:
+                                runs.append(t)
+                        elif f["kind"] == "i":
+                            src_i, _ = images.save_image(f["xref"])
+                            is_b = f["bbox"].height >= 30.0
+                            runs.append(images.render_block(src_i, is_block=is_b))
+
+                    current_q["options"].append({
+                        "oid": om.group(1),
+                        "text": " ".join(runs).strip(),
+                        "correct": is_green or has_tick
+                    })
+                    state = "option"
+                    continue
+
+                if META_RE.match(plain):
+                    state = "skip"
+                    continue
+
+                if state == "answers":
+                    if plain and current_q:
+                        current_q["answers"].append(plain)
+                    continue
+
+                # Normal line runs
+                line_parts = []
+                for f in fr:
+                    if f["kind"] == "t":
+                        if f["text"]:
+                            line_parts.append(f["text"])
+                    elif f["kind"] == "i":
+                        src_i, _ = images.save_image(f["xref"])
+                        is_b = f["bbox"].height >= 30.0
+                        line_parts.append(images.render_block(src_i, is_block=is_b))
+                rendered_str = " ".join(line_parts).strip()
+
+                if state == "passage":
+                    if re.match(r"^(Based on the above data, answer the given sub-?questions\.?|Sub\s*questions)$", plain, re.I):
+                        continue
+                    if current_group and rendered_str:
+                        current_group["passage_parts"].append(rendered_str)
+                    continue
+
+                if state == "body":
+                    if current_q and rendered_str:
+                        current_q["body_parts"].append(rendered_str)
+                    continue
+
+                if state == "option":
+                    if current_q and current_q["options"] and rendered_str:
+                        current_q["options"][-1]["text"] = f"{current_q['options'][-1]['text']} {rendered_str}".strip()
+                    continue
+
+        finish_q_fitz()
+        doc.close()
+
+        final_questions_fitz: List[Question] = []
+        idx = 1
+        for q_dict in questions:
+            if skip_confirmation and q_dict["subject_check"]:
+                continue
+
+            label_lower = (q_dict["label"] or "").lower()
+            qtype_upper = (q_dict["qtype"] or "").upper()
+
+            if "multiple select" in label_lower or qtype_upper == "MSQ":
+                final_type = "multichoice"
+            elif "short answer" in label_lower or qtype_upper in ("SA", "NAT", "NUMERIC") or q_dict["answers"]:
+                final_type = "numeric"
+            else:
+                final_type = "MCQ"
+
+            if final_type == "numeric":
+                opts = None
+                corr_ans = " ".join(q_dict["answers"]).strip() if q_dict["answers"] else ""
+            else:
+                opts = [opt["text"].strip() for opt in q_dict["options"]]
+                corr_list = [opt["text"].strip() for opt in q_dict["options"] if opt["correct"]]
+                if final_type == "MCQ":
+                    corr_ans = corr_list[0] if corr_list else (opts[0] if opts else "")
+                else:
+                    corr_ans = corr_list
+
+            body_text = " ".join(q_dict["body_parts"]).strip()
+            comp_passage = q_dict["comprehension_passage"].strip() if q_dict.get("comprehension_passage") else None
+            img_tags = re.findall(r"\[IMAGE:\s*([^\]|]+)", body_text + " " + (comp_passage or "") + " " + " ".join(opts or []))
+
+            final_questions_fitz.append(
+                Question(
+                    id=idx,
+                    number=idx,
+                    text=body_text,
+                    type=final_type,
+                    options=opts,
+                    correct_answer=corr_ans,
+                    marks=q_dict["marks"],
+                    negative_marks=q_dict["negative_marks"],
+                    images=img_tags,
+                    image_locations=[],
+                    comprehension_passage=comp_passage,
+                    group_id=q_dict.get("group_id"),
+                    section_name=q_dict.get("section_name") or None,
+                )
+            )
+            idx += 1
+
+        paper_title = paper_subject or Path(pdf_path).stem.replace("_", " ").title()
+        total_marks = sum(q.marks for q in final_questions_fitz)
+
+        return Paper(
+            title=paper_title,
+            filename=Path(pdf_path).name,
+            total_questions=len(final_questions_fitz),
+            total_marks=round(total_marks, 2),
+            questions=final_questions_fitz,
+        )
+
+    except Exception:
+        # Fall back gracefully to pdfplumber
+        try:
+            doc.close()
+        except Exception:
+            pass
+        return parse_with_pdfplumber(
+            pdf_path=pdf_path,
+            image_dir=image_dir,
+            image_prefix=image_prefix,
+            skip_confirmation=skip_confirmation,
+            embed_base64=embed_base64,
+        )

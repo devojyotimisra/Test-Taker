@@ -19,7 +19,7 @@ import { ThemeToggle } from "./ThemeToggle";
 import { useToast } from "./ui/toast";
 import { CatalogItem, CourseInfo } from "../types";
 import { fetchJsonWithFallback } from "../lib/assetService";
-import { downloadLatexPdf } from "../lib/latexPdfGenerator";
+import { downloadPaperPdf } from "../lib/latexPdfGenerator";
 
 interface LandingPageProps {
   onUpload: (file: File) => Promise<void>;
@@ -382,13 +382,13 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
     setDownloadingPaperId(item.id);
     toast({
       type: "info",
-      title: "Downloading LaTeX PDF",
-      description: `Building PDF with verified answers for "${item.course_code} - ${item.exam_type}"...`,
+      title: "Downloading Paper PDF",
+      description: `Preparing question paper for "${item.course_code} - ${item.exam_type}"...`,
       duration: 3500,
     });
 
     try {
-      await downloadLatexPdf(item);
+      await downloadPaperPdf(item);
       toast({
         type: "success",
         title: "Download Complete",
@@ -738,7 +738,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                                 onClick={() => handleDownloadPaperPdf(item)}
                                 disabled={isBusy}
                                 className="h-8 px-2.5 rounded-lg border border-border bg-background hover:bg-muted text-foreground text-xs font-medium shadow-2xs hover:border-primary/50 transition-all flex items-center gap-1 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
-                                title="Download LaTeX Typeset PDF"
+                                title="Download Question Paper PDF"
                               >
                                 {isDownloadingThis ? (
                                   <div className="h-3 w-3 rounded-full border-2 border-primary border-t-transparent animate-spin" />

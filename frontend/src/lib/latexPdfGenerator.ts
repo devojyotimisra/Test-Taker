@@ -504,12 +504,14 @@ export async function downloadLatexPdf(
   container.id = "latex-pdf-export-container";
   container.innerHTML = htmlContent;
   container.style.position = "fixed";
-  container.style.left = "-99999px";
   container.style.top = "0";
+  container.style.left = "0";
   container.style.width = "794px";
   container.style.background = "#ffffff";
   container.style.color = "#111111";
-  container.style.zIndex = "-999";
+  container.style.zIndex = "-9999";
+  container.style.opacity = "0.001";
+  container.style.pointerEvents = "none";
   document.body.appendChild(container);
 
   const images = Array.from(container.querySelectorAll("img"));
@@ -542,21 +544,30 @@ export async function downloadLatexPdf(
     html2canvas: {
       scale: 2,
       useCORS: true,
-      allowTaint: true,
       logging: false,
       backgroundColor: "#ffffff",
+      windowWidth: 794,
+      scrollX: 0,
+      scrollY: 0,
       onclone: (clonedDoc: Document) => {
-        const allStyles = Array.from(
-          clonedDoc.querySelectorAll("style, link[rel='stylesheet']")
-        );
-        for (const s of allStyles) {
-          if (s.id !== "latex-pdf-internal-styles") {
-            s.remove();
-          }
+        const clonedContainer = clonedDoc.getElementById("latex-pdf-export-container");
+        if (clonedContainer) {
+          clonedContainer.style.position = "static";
+          clonedContainer.style.left = "0";
+          clonedContainer.style.top = "0";
+          clonedContainer.style.opacity = "1";
+          clonedContainer.style.zIndex = "1";
+          clonedContainer.style.visibility = "visible";
+          clonedContainer.style.display = "block";
+          clonedContainer.style.margin = "0";
+          clonedDoc.body.innerHTML = "";
+          clonedDoc.body.appendChild(clonedContainer);
         }
         if (clonedDoc.body) {
           clonedDoc.body.style.backgroundColor = "#ffffff";
           clonedDoc.body.style.color = "#111111";
+          clonedDoc.body.style.margin = "0";
+          clonedDoc.body.style.padding = "0";
         }
       },
     },

@@ -277,9 +277,6 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
   const [courses, setCourses] = useState<CourseInfo[]>([]);
   const [loadingCatalog, setLoadingCatalog] = useState<boolean>(true);
 
-  const [searchQuery, setSearchQuery] = useState<string>(() => {
-    return sessionStorage.getItem("tt_search_query") || "";
-  });
   const [selectedCourse, setSelectedCourse] = useState<string>(() => {
     return sessionStorage.getItem("tt_selected_course") || "All";
   });
@@ -422,23 +419,13 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
       if (selectedExam !== "All" && item.exam_type !== selectedExam) {
         return false;
       }
-      if (searchQuery.trim()) {
-        const q = searchQuery.toLowerCase().trim();
-        const haystack =
-          `${item.course_code} ${item.course_name} ${item.title} ${item.year} ${item.exam_type} ${item.term}`.toLowerCase();
-        if (!haystack.includes(q)) return false;
-      }
       return true;
     });
-  }, [catalog, selectedCourse, selectedYear, selectedExam, searchQuery]);
+  }, [catalog, selectedCourse, selectedYear, selectedExam]);
 
   useEffect(() => {
     sessionStorage.setItem("tt_active_tab", activeTab);
   }, [activeTab]);
-
-  useEffect(() => {
-    sessionStorage.setItem("tt_search_query", searchQuery);
-  }, [searchQuery]);
 
   useEffect(() => {
     sessionStorage.setItem("tt_selected_course", selectedCourse);
@@ -462,7 +449,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
       return;
     }
     setCurrentPageNum(1);
-  }, [selectedCourse, selectedYear, selectedExam, searchQuery]);
+  }, [selectedCourse, selectedYear, selectedExam]);
 
   const totalPages = Math.ceil(filteredCatalog.length / pageSize) || 1;
   const paginatedPapers = useMemo(() => {
@@ -594,26 +581,6 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                   Select any past term paper.
                 </p>
               </div>
-
-              <div className="relative w-full md:w-72">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground" />
-                <input
-                  type="text"
-                  placeholder="Search subject, code, year..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-9 pr-8 py-2 bg-card border border-border rounded-xl text-xs text-foreground placeholder:text-muted-foreground focus:outline-hidden focus:ring-1 focus:ring-primary"
-                />
-                {searchQuery && (
-                  <button
-                    type="button"
-                    onClick={() => setSearchQuery("")}
-                    className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
-                  >
-                    <X className="h-3.5 w-3.5" />
-                  </button>
-                )}
-              </div>
             </div>
 
             <div className="bg-card border border-border rounded-2xl p-3 sm:p-4 shadow-xs">
@@ -688,9 +655,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                     setSelectedCourse("All");
                     setSelectedYear("All");
                     setSelectedExam("All");
-                    setSearchQuery("");
                     setCurrentPageNum(1);
-                    sessionStorage.removeItem("tt_search_query");
                     sessionStorage.removeItem("tt_selected_course");
                     sessionStorage.removeItem("tt_selected_year");
                     sessionStorage.removeItem("tt_selected_exam");

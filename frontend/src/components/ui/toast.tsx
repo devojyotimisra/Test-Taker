@@ -29,9 +29,24 @@ const ToastContext = React.createContext<ToastContextType | undefined>(
 
 export function ToastProvider({ children }: { children: React.ReactNode }) {
   const [toasts, setToasts] = React.useState<ToastItem[]>([]);
+  const [exitingIds, setExitingIds] = React.useState<Set<string>>(new Set());
 
   const dismiss = React.useCallback((id: string) => {
-    setToasts((prev) => prev.filter((t) => t.id !== id));
+    setExitingIds((prev) => {
+      if (prev.has(id)) return prev;
+      const next = new Set(prev);
+      next.add(id);
+      return next;
+    });
+
+    window.setTimeout(() => {
+      setToasts((prev) => prev.filter((t) => t.id !== id));
+      setExitingIds((prev) => {
+        const next = new Set(prev);
+        next.delete(id);
+        return next;
+      });
+    }, 300);
   }, []);
 
   const toast = React.useCallback(
@@ -63,56 +78,62 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
         aria-live="polite"
         className="fixed top-4 right-4 z-50 flex flex-col gap-2.5 max-w-sm sm:max-w-md w-full pointer-events-none p-3 sm:p-0"
       >
-        {toasts.map((t) => (
-          <div
-            key={t.id}
-            role="alert"
-            className={cn(
-              "pointer-events-auto flex items-start gap-3 p-4 rounded-xl shadow-lg border backdrop-blur-md transition-all animate-in fade-in slide-in-from-top-2 duration-200",
-              t.type === "error" &&
-                "bg-red-500/10 border-red-500/30 text-foreground dark:bg-red-950/40 dark:border-red-500/40 shadow-red-500/5",
-              t.type === "success" &&
-                "bg-emerald-500/10 border-emerald-500/30 text-foreground dark:bg-emerald-950/40 dark:border-emerald-500/40 shadow-emerald-500/5",
-              t.type === "warning" &&
-                "bg-amber-500/10 border-amber-500/30 text-foreground dark:bg-amber-950/40 dark:border-amber-500/40 shadow-amber-500/5",
-              t.type === "info" &&
-                "bg-card/95 border-border text-card-foreground",
-            )}
-          >
-            <div className="shrink-0 mt-0.5">
-              {t.type === "error" && (
-                <AlertCircle className="h-5 w-5 text-red-600 dark:text-red-400" />
+        {toasts.map((t) => {
+          const isExiting = exitingIds.has(t.id);
+          return (
+            <div
+              key={t.id}
+              role="alert"
+              className={cn(
+                "pointer-events-auto flex items-start gap-3 p-4 rounded-xl shadow-lg border backdrop-blur-md transition-all duration-300 ease-in-out transform",
+                isExiting
+                  ? "opacity-0 translate-x-10 scale-95 pointer-events-none"
+                  : "opacity-100 translate-x-0 scale-100 animate-in fade-in slide-in-from-top-3 duration-300 ease-out",
+                t.type === "error" &&
+                  "bg-red-500/10 border-red-500/30 text-foreground dark:bg-red-950/40 dark:border-red-500/40 shadow-red-500/5",
+                t.type === "success" &&
+                  "bg-emerald-500/10 border-emerald-500/30 text-foreground dark:bg-emerald-950/40 dark:border-emerald-500/40 shadow-emerald-500/5",
+                t.type === "warning" &&
+                  "bg-amber-500/10 border-amber-500/30 text-foreground dark:bg-amber-950/40 dark:border-amber-500/40 shadow-amber-500/5",
+                t.type === "info" &&
+                  "bg-card/95 border-border text-card-foreground",
               )}
-              {t.type === "success" && (
-                <CheckCircle2 className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
-              )}
-              {t.type === "warning" && (
-                <AlertTriangle className="h-5 w-5 text-amber-600 dark:text-amber-400" />
-              )}
-              {t.type === "info" && <Info className="h-5 w-5 text-primary" />}
-            </div>
-
-            <div className="flex-1 min-w-0 pr-1">
-              <h5 className="font-semibold text-sm tracking-tight leading-snug">
-                {t.title}
-              </h5>
-              {t.description && (
-                <p className="text-xs text-muted-foreground mt-1 leading-relaxed break-words">
-                  {t.description}
-                </p>
-              )}
-            </div>
-
-            <button
-              type="button"
-              onClick={() => dismiss(t.id)}
-              className="shrink-0 p-1 -mr-1 rounded-md text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors"
-              aria-label="Close notification"
             >
-              <X className="h-4 w-4" />
-            </button>
-          </div>
-        ))}
+              <div className="shrink-0 mt-0.5">
+                {t.type === "error" && (
+                  <AlertCircle className="h-5 w-5 text-red-600 dark:text-red-400" />
+                )}
+                {t.type === "success" && (
+                  <CheckCircle2 className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
+                )}
+                {t.type === "warning" && (
+                  <AlertTriangle className="h-5 w-5 text-amber-600 dark:text-amber-400" />
+                )}
+                {t.type === "info" && <Info className="h-5 w-5 text-primary" />}
+              </div>
+
+              <div className="flex-1 min-w-0 pr-1">
+                <h5 className="font-semibold text-sm tracking-tight leading-snug">
+                  {t.title}
+                </h5>
+                {t.description && (
+                  <p className="text-xs text-muted-foreground mt-1 leading-relaxed break-words">
+                    {t.description}
+                  </p>
+                )}
+              </div>
+
+              <button
+                type="button"
+                onClick={() => dismiss(t.id)}
+                className="shrink-0 p-1 -mr-1 rounded-md text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors"
+                aria-label="Close notification"
+              >
+                <X className="h-4 w-4" />
+              </button>
+            </div>
+          );
+        })}
       </div>
     </ToastContext.Provider>
   );

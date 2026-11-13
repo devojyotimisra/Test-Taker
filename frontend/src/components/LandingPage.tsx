@@ -8,6 +8,8 @@ import {
   Calendar,
   ChevronLeft,
   ChevronRight,
+  ChevronDown,
+  Check,
   X,
   Sparkles,
 } from "lucide-react";
@@ -20,6 +22,211 @@ import { fetchJsonWithFallback } from "../lib/assetService";
 interface LandingPageProps {
   onUpload: (file: File) => Promise<void>;
   onSelectPaper?: (item: CatalogItem) => Promise<void>;
+}
+
+interface CourseComboboxProps {
+  courses: CourseInfo[];
+  selectedCourse: string;
+  onSelectCourse: (code: string) => void;
+}
+
+function CourseCombobox({
+  courses,
+  selectedCourse,
+  onSelectCourse,
+}: CourseComboboxProps) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [search, setSearch] = useState("");
+  const containerRef = useRef<HTMLDivElement>(null);
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const handleOutsideClick = (e: MouseEvent) => {
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(e.target as Node)
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener("mousedown", handleOutsideClick);
+      document.addEventListener("keydown", handleKeyDown);
+      setTimeout(() => searchInputRef.current?.focus(), 50);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isOpen]);
+
+  const filteredCourses = useMemo(() => {
+    if (!search.trim()) return courses;
+    const q = search.toLowerCase().trim();
+    return courses.filter(
+      (c) =>
+        c.code.toLowerCase().includes(q) || c.name.toLowerCase().includes(q)
+    );
+  }, [courses, search]);
+
+  const selectedObj = useMemo(() => {
+    return courses.find((c) => c.code === selectedCourse);
+  }, [courses, selectedCourse]);
+
+  return (
+    <div ref={containerRef} className="relative w-full">
+      <button
+        type="button"
+        onClick={() => setIsOpen((prev) => !prev)}
+        className="w-full h-9 px-2.5 py-1.5 bg-background border border-border rounded-lg text-xs text-foreground flex items-center justify-between gap-1.5 hover:border-primary/50 focus:outline-hidden focus:ring-1 focus:ring-primary transition-all text-left cursor-pointer"
+        aria-haspopup="listbox"
+        aria-expanded={isOpen}
+      >
+        <div className="flex items-center gap-1.5 min-w-0 flex-1 truncate">
+          {selectedCourse === "All" ? (
+            <span className="text-foreground font-medium truncate">
+              All Courses ({courses.length})
+            </span>
+          ) : (
+            <>
+              <span className="px-1.5 py-0.2 rounded bg-primary/10 text-primary font-mono font-bold text-[10px] shrink-0">
+                {selectedObj?.code || selectedCourse}
+              </span>
+              <span className="truncate text-foreground font-medium">
+                {selectedObj?.name || selectedCourse}
+              </span>
+            </>
+          )}
+        </div>
+
+        <div className="flex items-center gap-1 shrink-0 text-muted-foreground">
+          {selectedCourse !== "All" && (
+            <span
+              role="button"
+              tabIndex={0}
+              onClick={(e) => {
+                e.stopPropagation();
+                onSelectCourse("All");
+              }}
+              className="p-0.5 rounded hover:text-foreground hover:bg-muted/60 transition-colors"
+              title="Clear selection"
+            >
+              <X className="h-3 w-3" />
+            </span>
+          )}
+          <ChevronDown
+            className={`h-3.5 w-3.5 transition-transform duration-200 ${
+              isOpen ? "rotate-180" : ""
+            }`}
+          />
+        </div>
+      </button>
+
+      {isOpen && (
+        <div className="absolute top-full left-0 mt-1.5 w-full min-w-[260px] max-w-full sm:max-w-md bg-card border border-border rounded-xl shadow-2xl z-50 flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-150">
+          <div className="p-2 border-b border-border/60 bg-muted/20">
+            <div className="relative w-full">
+              <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground" />
+              <input
+                ref={searchInputRef}
+                type="text"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder="Search courses or codes..."
+                className="w-full pl-8 pr-7 py-1.5 bg-background border border-border rounded-lg text-xs text-foreground placeholder:text-muted-foreground focus:outline-hidden focus:ring-1 focus:ring-primary"
+                onClick={(e) => e.stopPropagation()}
+              />
+              {search && (
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setSearch("");
+                  }}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                >
+                  <X className="h-3 w-3" />
+                </button>
+              )}
+            </div>
+          </div>
+
+          <div className="max-h-56 overflow-y-auto no-scrollbar p-1 space-y-0.5">
+            <button
+              type="button"
+              onClick={() => {
+                onSelectCourse("All");
+                setIsOpen(false);
+              }}
+              className={`w-full flex items-center justify-between px-2.5 py-1.5 rounded-lg text-xs transition-colors cursor-pointer ${
+                selectedCourse === "All"
+                  ? "bg-primary/10 text-primary font-semibold"
+                  : "hover:bg-muted text-foreground"
+              }`}
+            >
+              <div className="flex items-center gap-1.5">
+                {selectedCourse === "All" && (
+                  <Check className="h-3.5 w-3.5 text-primary shrink-0" />
+                )}
+                <span>All Courses</span>
+              </div>
+              <span className="text-[10px] text-muted-foreground font-mono">
+                {courses.length}
+              </span>
+            </button>
+
+            {filteredCourses.map((c) => {
+              const isSelected = selectedCourse === c.code;
+              return (
+                <button
+                  key={c.code}
+                  type="button"
+                  onClick={() => {
+                    onSelectCourse(c.code);
+                    setIsOpen(false);
+                  }}
+                  className={`w-full flex items-center justify-between gap-2 px-2.5 py-1.5 rounded-lg text-xs text-left transition-colors cursor-pointer ${
+                    isSelected
+                      ? "bg-primary/10 text-primary font-semibold"
+                      : "hover:bg-muted text-foreground"
+                  }`}
+                >
+                  <div className="flex items-center gap-1.5 min-w-0 flex-1 truncate">
+                    {isSelected && (
+                      <Check className="h-3.5 w-3.5 text-primary shrink-0" />
+                    )}
+                    <span className="px-1.5 py-0.2 rounded bg-muted font-mono font-bold text-[10px] text-foreground/80 shrink-0">
+                      {c.code}
+                    </span>
+                    <span className="truncate text-xs font-medium">
+                      {c.name}
+                    </span>
+                  </div>
+                  <span className="text-[10px] text-muted-foreground font-mono shrink-0">
+                    {c.total_papers}
+                  </span>
+                </button>
+              );
+            })}
+
+            {filteredCourses.length === 0 && (
+              <div className="py-6 text-center text-xs text-muted-foreground">
+                No courses match "{search}"
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }
 
 export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
@@ -240,7 +447,11 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
         </div>
       </header>
 
-      <main className="flex-1 max-w-6xl w-full mx-auto px-4 py-6 flex flex-col gap-6">
+      <main
+        className={`flex-1 max-w-6xl w-full mx-auto px-4 py-6 flex flex-col ${
+          activeTab === "upload" ? "justify-center" : "gap-6"
+        }`}
+      >
         {activeTab === "library" ? (
           <div className="flex flex-col gap-5">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-border/60 pb-4">
@@ -283,18 +494,11 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                   <label className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
                     Course / Subject
                   </label>
-                  <select
-                    value={selectedCourse}
-                    onChange={(e) => setSelectedCourse(e.target.value)}
-                    className="w-full px-2.5 py-1.5 bg-background border border-border rounded-lg text-xs text-foreground focus:outline-hidden focus:ring-1 focus:ring-primary"
-                  >
-                    <option value="All">All Courses ({courses.length})</option>
-                    {courses.map((c) => (
-                      <option key={c.code} value={c.code}>
-                        {c.code} - {c.name} ({c.total_papers})
-                      </option>
-                    ))}
-                  </select>
+                  <CourseCombobox
+                    courses={courses}
+                    selectedCourse={selectedCourse}
+                    onSelectCourse={setSelectedCourse}
+                  />
                 </div>
 
                 <div className="flex flex-col gap-1">
@@ -304,7 +508,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                   <select
                     value={selectedYear}
                     onChange={(e) => setSelectedYear(e.target.value)}
-                    className="w-full px-2.5 py-1.5 bg-background border border-border rounded-lg text-xs text-foreground focus:outline-hidden focus:ring-1 focus:ring-primary"
+                    className="w-full h-9 px-2.5 py-1.5 bg-background border border-border rounded-lg text-xs text-foreground focus:outline-hidden focus:ring-1 focus:ring-primary cursor-pointer"
                   >
                     <option value="All">All Years</option>
                     <option value="2026">2026</option>
@@ -323,7 +527,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                   <select
                     value={selectedExam}
                     onChange={(e) => setSelectedExam(e.target.value)}
-                    className="w-full px-2.5 py-1.5 bg-background border border-border rounded-lg text-xs text-foreground focus:outline-hidden focus:ring-1 focus:ring-primary"
+                    className="w-full h-9 px-2.5 py-1.5 bg-background border border-border rounded-lg text-xs text-foreground focus:outline-hidden focus:ring-1 focus:ring-primary cursor-pointer"
                   >
                     <option value="All">All Exams</option>
                     <option value="Quiz 1">Quiz 1</option>
@@ -480,7 +684,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
             )}
           </div>
         ) : (
-          <div className="max-w-2xl w-full mx-auto flex flex-col gap-6 justify-center items-center py-6">
+          <div className="max-w-2xl w-full mx-auto flex flex-col gap-6 justify-center items-center my-auto">
             <div className="text-center max-w-xl mx-auto space-y-2.5">
               <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight font-serif text-foreground leading-tight">
                 Upload Custom Question Paper PDF

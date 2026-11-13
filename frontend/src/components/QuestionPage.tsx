@@ -13,6 +13,7 @@ import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { ThemeToggle } from "./ThemeToggle";
+import { PWAInstallButton } from "./PWAInstallButton";
 import { Timer } from "./Timer";
 import { FormulaRenderer } from "./FormulaRenderer";
 import { Paper, QuestionScore, UserAnswers } from "@/types";
@@ -170,7 +171,8 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
               </div>
             </div>
 
-            <div className="sm:hidden flex items-center">
+            <div className="sm:hidden flex items-center gap-1.5">
+              <PWAInstallButton />
               <ThemeToggle />
             </div>
           </div>
@@ -184,7 +186,8 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
             />
           </div>
 
-          <div className="hidden sm:flex items-center gap-3 justify-self-end">
+          <div className="hidden sm:flex items-center gap-2.5 justify-self-end">
+            <PWAInstallButton />
             <ThemeToggle />
           </div>
         </div>

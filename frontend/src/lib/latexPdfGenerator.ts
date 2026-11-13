@@ -195,7 +195,7 @@ function buildLatexHtml(paper: Paper, item: CatalogItem): string {
 
   return `
   <div class="latex-doc-root">
-    <style>
+    <style id="latex-pdf-internal-styles">
       .latex-doc-root {
         font-family: "Latin Modern Roman", "Computer Modern Roman", "Times New Roman", Times, Georgia, serif;
         font-size: 10.5pt;
@@ -545,6 +545,20 @@ export async function downloadLatexPdf(
       allowTaint: true,
       logging: false,
       backgroundColor: "#ffffff",
+      onclone: (clonedDoc: Document) => {
+        const allStyles = Array.from(
+          clonedDoc.querySelectorAll("style, link[rel='stylesheet']")
+        );
+        for (const s of allStyles) {
+          if (s.id !== "latex-pdf-internal-styles") {
+            s.remove();
+          }
+        }
+        if (clonedDoc.body) {
+          clonedDoc.body.style.backgroundColor = "#ffffff";
+          clonedDoc.body.style.color = "#111111";
+        }
+      },
     },
     jsPDF: {
       unit: "mm",

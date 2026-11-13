@@ -558,9 +558,6 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
               >
                 <BookOpen className="h-3.5 w-3.5" />
                 <span>Question Papers</span>
-                <span className="ml-1 text-[10px] px-1.5 py-0.2 rounded-full bg-primary/10 text-primary font-bold">
-                  {catalog.length || 1414}
-                </span>
               </button>
               <button
                 type="button"
@@ -590,11 +587,8 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
           <div className="flex flex-col gap-5">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-border/60 pb-4">
               <div>
-                <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight font-serif text-foreground flex items-center gap-2">
+                <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight font-serif text-foreground">
                   <span>IITM BS Exam Question Papers</span>
-                  <span className="text-xs font-sans font-bold px-2 py-0.5 rounded-full bg-primary/15 text-primary border border-primary/25">
-                    {filteredCatalog.length} Available
-                  </span>
                 </h1>
                 <p className="text-xs text-muted-foreground mt-0.5 font-sans">
                   Select any past term paper.

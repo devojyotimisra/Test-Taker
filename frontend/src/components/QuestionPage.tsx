@@ -200,9 +200,14 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                     <Badge variant="outline" className="text-xs">
                       {currentQ.type === "MCQ" && "Multiple Choice"}
                       {currentQ.type === "multichoice" &&
-                        "Multiple Select (MSQ)"}
-                      {currentQ.type === "numeric" && "Numerical Answer"}
+                        "Multiple Select (MSQ) · Select all that apply"}
+                      {currentQ.type === "numeric" && "Numerical / Short Answer"}
                     </Badge>
+                    {currentQ.group_id && (
+                      <Badge variant="secondary" className="text-xs bg-primary/10 text-primary border-primary/20">
+                        Comprehension Set
+                      </Badge>
+                    )}
                     {currentQ.section_name && (
                       <Badge variant="secondary" className="text-xs hidden sm:inline-flex">
                         {currentQ.section_name}
@@ -255,7 +260,12 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                             onChange={(e) =>
                               handleNumericChange(e.target.value)
                             }
-                            placeholder="Type numerical answer..."
+                            onKeyDown={(e) => {
+                              if (e.key === "Enter" && !isCurrentRevealed && hasCurrentAnswer) {
+                                handleCheckAnswer();
+                              }
+                            }}
+                            placeholder="Type numerical answer, range (e.g. 10 to 12), or text..."
                             disabled={isCurrentRevealed}
                             className={`h-12 flex-1 w-full rounded-xl border px-4 py-3 text-base font-mono shadow-xs focus-visible:outline-none focus-visible:ring-2 ${
                               isCurrentRevealed && currentScoreDetail

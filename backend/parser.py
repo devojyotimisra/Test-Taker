@@ -1,3 +1,4 @@
+import base64
 import io
 import os
 import re
@@ -115,14 +116,19 @@ class VisualLine:
 
 
 class ImageStore:
-    def __init__(self, doc: fitz.Document, outdir: Optional[str], image_prefix: str = "temp/image"):
+    def __init__(self, doc: fitz.Document, outdir: Optional[str] = None, image_prefix: str = "temp/image", embed_base64: bool = True):
         self.doc = doc
         self.outdir = Path(outdir) if outdir else None
         self.image_prefix = image_prefix.rstrip("/")
+        self.embed_base64 = embed_base64
         self.done: Dict[int, str] = {}
+        self.b64_urls: Dict[int, str] = {}
         self.icon_classes: Dict[int, str] = {}
         if self.outdir:
-            self.outdir.mkdir(parents=True, exist_ok=True)
+            try:
+                self.outdir.mkdir(parents=True, exist_ok=True)
+            except Exception:
+                pass
 
     def get_icon(self, xref: int) -> Optional[str]:
         if xref in self.icon_classes:
@@ -136,49 +142,79 @@ class ImageStore:
         except Exception:
             return None
 
-    def save_image(self, xref: int) -> str:
+    def save_image(self, xref: int) -> Tuple[str, str]:
+        """Extracts image, optimizes whitespace, generates Base64 Data URI and saves to disk."""
         if xref in self.done:
-            return self.done[xref]
+            b64_url = self.b64_urls.get(xref, "")
+            filename = self.done[xref]
+            src = b64_url if (self.embed_base64 and b64_url) else f"{self.image_prefix}/{filename}"
+            return src, filename
+
         ext = "png"
         filename = f"img_{len(self.done) + 1:04d}.{ext}"
         self.done[xref] = filename
-        if self.outdir:
-            out_file = self.outdir / filename
+        png_bytes: Optional[bytes] = None
+
+        try:
+            info = self.doc.extract_image(xref)
+            im = Image.open(io.BytesIO(info["image"]))
+            im.load()
+            if info.get("smask"):
+                m = Image.open(io.BytesIO(self.doc.extract_image(info["smask"])["image"])).convert("L")
+                if m.size != im.size:
+                    m = m.resize(im.size)
+                im = im.convert("RGBA")
+                im.putalpha(m)
+            if im.mode in ("RGBA", "LA", "P"):
+                im = im.convert("RGBA")
+                bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
+                im = Image.alpha_composite(bg, im)
+            im = im.convert("RGB")
+            ow, oh = im.size
+            # Trim outer white padding
+            diff = ImageChops.difference(im, Image.new("RGB", im.size, (255, 255, 255)))
+            box = ImageOps.grayscale(diff).point(lambda v: 255 if v > 24 else 0).getbbox()
+            if box:
+                l, t, r, b = max(0, box[0] - 1), max(0, box[1] - 1), min(ow, box[2] + 1), min(oh, box[3] + 1)
+                if (r - l) * (b - t) < ow * oh:
+                    im = im.crop((l, t, r, b))
+            buf = io.BytesIO()
+            im.save(buf, format="PNG", optimize=True)
+            png_bytes = buf.getvalue()
+        except Exception:
             try:
-                info = self.doc.extract_image(xref)
-                im = Image.open(io.BytesIO(info["image"]))
-                im.load()
-                if info.get("smask"):
-                    m = Image.open(io.BytesIO(self.doc.extract_image(info["smask"])["image"])).convert("L")
-                    if m.size != im.size:
-                        m = m.resize(im.size)
-                    im = im.convert("RGBA")
-                    im.putalpha(m)
-                if im.mode in ("RGBA", "LA", "P"):
-                    im = im.convert("RGBA")
-                    bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
-                    im = Image.alpha_composite(bg, im)
-                im = im.convert("RGB")
-                ow, oh = im.size
-                diff = ImageChops.difference(im, Image.new("RGB", im.size, (255, 255, 255)))
-                box = ImageOps.grayscale(diff).point(lambda v: 255 if v > 24 else 0).getbbox()
-                if box:
-                    l, t, r, b = max(0, box[0] - 1), max(0, box[1] - 1), min(ow, box[2] + 1), min(oh, box[3] + 1)
-                    if (r - l) * (b - t) < ow * oh:
-                        im = im.crop((l, t, r, b))
-                im.save(out_file, "PNG", optimize=True)
-            except Exception:
                 pix = fitz.Pixmap(self.doc, xref)
                 if pix.n - pix.alpha > 3:
                     pix = fitz.Pixmap(fitz.csRGB, pix)
                 if pix.alpha:
                     pix = fitz.Pixmap(pix, 0)
-                pix.save(str(out_file))
-        return filename
+                png_bytes = pix.tobytes("png")
+            except Exception:
+                png_bytes = b""
 
-    def render_block(self, filename: str) -> str:
-        rel = f"{self.image_prefix}/{filename}" if self.image_prefix else filename
-        return f"[IMAGE: {rel}]"
+        # Base64 data URL
+        if png_bytes:
+            b64_str = base64.b64encode(png_bytes).decode("ascii")
+            data_url = f"data:image/png;base64,{b64_str}"
+            self.b64_urls[xref] = data_url
+        else:
+            data_url = ""
+
+        # Write to local file as fallback
+        if self.outdir and png_bytes:
+            try:
+                out_file = self.outdir / filename
+                with open(out_file, "wb") as f:
+                    f.write(png_bytes)
+            except Exception:
+                pass
+
+        src = data_url if (self.embed_base64 and data_url) else f"{self.image_prefix}/{filename}"
+        return src, filename
+
+    def render_block(self, src: str, is_block: bool = False) -> str:
+        mode = "block" if is_block else "inline"
+        return f"[IMAGE: {src}|{mode}]"
 
 
 def page_visual_lines(page: fitz.Page, pno: int, images: ImageStore) -> List[VisualLine]:
@@ -286,8 +322,10 @@ def line_to_runs(line: VisualLine, images: ImageStore, skip_opt_id: Optional[str
             if t:
                 parts.append(t)
         elif f["kind"] == "i":
-            name = images.save_image(f["xref"])
-            parts.append(images.render_block(name))
+            src, _ = images.save_image(f["xref"])
+            r = f["bbox"]
+            is_block = r.height >= 30.0 or (line.plain.strip() == "" and r.height >= 20.0)
+            parts.append(images.render_block(src, is_block=is_block))
     return parts
 
 
@@ -322,10 +360,11 @@ def parse_pdf_to_paper(
     image_dir: str = "temp/image",
     image_prefix: Optional[str] = "temp/image",
     skip_confirmation: bool = True,
+    embed_base64: bool = True,
 ) -> Paper:
     prefix = image_prefix or "temp/image"
     doc = fitz.open(pdf_path)
-    images = ImageStore(doc, image_dir, image_prefix=prefix)
+    images = ImageStore(doc, image_dir, image_prefix=prefix, embed_base64=embed_base64)
 
     questions: List[QuestionItem] = []
     groups: Dict[str, ComprehensionGroup] = {}
@@ -520,7 +559,7 @@ def parse_pdf_to_paper(
         comp_passage = q_item.comprehension_passage.strip() if q_item.comprehension_passage else None
 
         # Collect embedded image tags
-        img_tags = re.findall(r"\[IMAGE:\s*([^\]]+)\]", body_text + " " + (comp_passage or "") + " " + " ".join(opts or []))
+        img_tags = re.findall(r"\[IMAGE:\s*([^\]|]+)", body_text + " " + (comp_passage or "") + " " + " ".join(opts or []))
 
         final_questions.append(
             Question(

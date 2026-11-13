@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { ZoomIn, X } from "lucide-react";
 
 interface FormulaRendererProps {
   text: string;
@@ -9,6 +10,8 @@ export function FormulaRenderer({
   text,
   className = "",
 }: FormulaRendererProps) {
+  const [zoomedImage, setZoomedImage] = useState<string | null>(null);
+
   if (!text) return null;
 
   const pattern = /\[IMAGE:\s*([^\]]+)\]/g;
@@ -21,35 +24,64 @@ export function FormulaRenderer({
       parts.push(text.slice(lastIndex, match.index));
     }
 
-    const rawPath = match[1].trim();
-    const filename = rawPath.split("/").pop() || rawPath;
-    const apiBase = import.meta.env.VITE_API_URL || "";
-    const isBlock =
-      rawPath.toLowerCase().endsWith(".jpg") ||
-      rawPath.toLowerCase().endsWith(".jpeg");
-    const src = `${apiBase}/temp/image/${filename}`;
+    const raw = match[1].trim();
+    let src = raw;
+    let isBlock = false;
+
+    if (raw.includes("|")) {
+      const splitParts = raw.split("|");
+      src = splitParts[0].trim();
+      const mode = splitParts[1]?.trim().toLowerCase();
+      isBlock = mode === "block";
+    } else {
+      isBlock =
+        raw.toLowerCase().endsWith(".jpg") ||
+        raw.toLowerCase().endsWith(".jpeg");
+    }
+
+    // Resolve URL: Data URI, absolute HTTP URL, or backend fallback
+    let finalSrc = src;
+    if (
+      !src.startsWith("data:") &&
+      !src.startsWith("http://") &&
+      !src.startsWith("https://")
+    ) {
+      const filename = src.split("/").pop() || src;
+      const apiBase = import.meta.env.VITE_API_URL || "";
+      finalSrc = `${apiBase}/temp/image/${filename}`;
+    }
 
     if (isBlock) {
       parts.push(
         <span
-          key={`img-${match.index}`}
-          className="block my-2 overflow-hidden rounded-lg border border-border bg-card p-1.5 shadow-xs"
+          key={`img-block-${match.index}`}
+          className="group relative block my-3 overflow-hidden rounded-xl border border-border bg-card p-2 sm:p-3 shadow-xs text-center"
         >
           <img
-            src={src}
-            alt={filename}
-            className="max-h-56 sm:max-h-64 max-w-full object-contain mx-auto rounded"
+            src={finalSrc}
+            alt="Question Diagram"
+            className="inline-block max-w-full h-auto object-contain mx-auto rounded-lg cursor-zoom-in transition-transform duration-200 hover:scale-[1.01]"
             loading="lazy"
+            onClick={() => setZoomedImage(finalSrc)}
           />
+          <button
+            type="button"
+            onClick={() => setZoomedImage(finalSrc)}
+            className="absolute top-3 right-3 p-1.5 rounded-lg bg-background/80 hover:bg-background border border-border/60 text-muted-foreground hover:text-foreground opacity-0 group-hover:opacity-100 transition-opacity shadow-xs"
+            title="View original full-size image"
+          >
+            <ZoomIn className="h-4 w-4" />
+          </button>
         </span>,
       );
     } else {
       parts.push(
         <img
-          key={`img-${match.index}`}
-          src={src}
-          alt={filename}
-          className="inline-block align-middle max-h-7 max-w-full object-contain px-0.5 mx-0.5 rounded bg-white/70 dark:bg-white/90"
+          key={`img-inline-${match.index}`}
+          src={finalSrc}
+          alt="Formula"
+          className="inline-block align-middle h-auto max-w-full px-1 mx-0.5 rounded bg-white/85 dark:bg-white/95"
+          style={{ verticalAlign: "middle" }}
           loading="lazy"
         />,
       );
@@ -62,5 +94,39 @@ export function FormulaRenderer({
     parts.push(text.slice(lastIndex));
   }
 
-  return <span className={className}>{parts}</span>;
+  return (
+    <>
+      <span className={className}>{parts}</span>
+
+      {/* Lightbox Modal for Full-Size Image Inspection */}
+      {zoomedImage && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-xs p-4 animate-in fade-in duration-150"
+          onClick={() => setZoomedImage(null)}
+        >
+          <div
+            className="relative max-w-5xl max-h-[90vh] bg-card p-2 sm:p-4 rounded-2xl border border-border shadow-2xl overflow-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={() => setZoomedImage(null)}
+              className="absolute top-3 right-3 p-2 rounded-full bg-background/90 hover:bg-background border border-border text-foreground transition-colors shadow-md"
+              title="Close full-size view"
+            >
+              <X className="h-5 w-5" />
+            </button>
+            <img
+              src={zoomedImage}
+              alt="Full size diagram"
+              className="w-auto h-auto max-w-full max-h-[82vh] object-contain rounded-lg mx-auto"
+            />
+            <div className="text-center text-xs text-muted-foreground mt-2 font-mono">
+              Displayed in original resolution
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
 }

@@ -174,12 +174,17 @@ def reset_session():
 
 
 @app.get("/temp/image/{filename}")
+@app.get("/api/image/{filename}")
 def serve_image(filename: str):
     file_path = IMAGE_DIR / Path(filename).name
     if not file_path.is_file():
         raise HTTPException(status_code=404, detail="Image not found")
     media_type, _ = mimetypes.guess_type(str(file_path))
-    return FileResponse(file_path, media_type=media_type or "image/png")
+    return FileResponse(
+        file_path,
+        media_type=media_type or "image/png",
+        headers={"Cache-Control": "public, max-age=31536000"}
+    )
 
 
 @app.exception_handler(StarletteHTTPException)

@@ -1,0 +1,315 @@
+{
+  "title": "Business Analytics",
+  "filename": "ms2002_2022T3_Q2_NA.pdf",
+  "total_questions": 15,
+  "total_marks": 15.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 249,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/ms2002_2022T3_Q2_NA_p0_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_Q2_NA_p0_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 250,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 From the given contingency table, find the expected frequency of people belonging to City B preferring brand C?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "115 to 121",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given the following contingency table based on sample data with people belonging to two cities (City A and City B) and their brand preferences. You perform a chi-squared test of independence to make inferences about the population from this sample. [IMAGE: /data/images/ms2002_2022T3_Q2_NA_p1_Im3.webp|block]",
+      "group_id": "640653445698",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 251,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the calculated value of chi-squared?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8 to 14",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given the following contingency table based on sample data with people belonging to two cities (City A and City B) and their brand preferences. You perform a chi-squared test of independence to make inferences about the population from this sample. [IMAGE: /data/images/ms2002_2022T3_Q2_NA_p1_Im3.webp|block]",
+      "group_id": "640653445698",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 252,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 At the significance level of 0.05, the chi-squared tabular value is 7.814. What do you conclude?",
+      "type": "MCQ",
+      "options": [
+        "Reject the null hypothesis and conclude that the categorical variables are not independent",
+        "Fail to reject the null hypothesis and conclude that the categorical variables are not independent",
+        "Fail to reject the null hypothesis and conclude that the categorical variables are independent",
+        "Reject the null hypothesis and conclude that the categorical variables are independent"
+      ],
+      "correct_answer": "Reject the null hypothesis and conclude that the categorical variables are not independent",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given the following contingency table based on sample data with people belonging to two cities (City A and City B) and their brand preferences. You perform a chi-squared test of independence to make inferences about the population from this sample. [IMAGE: /data/images/ms2002_2022T3_Q2_NA_p1_Im3.webp|block]",
+      "group_id": "640653445698",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 253,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the value of adjusted R-square (round off to two decimal values)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.71",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "You are solving a regression problem with 4 explanatory variables. The data has 40 observations and the R-square value was found to be 0.74.",
+      "group_id": "640653445707",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 254,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are adding a new explanatory variable to the dataset and the new adjusted R squared value is 0.745. Is the new variable significant?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Calculation error in Adjusted R Squared value"
+      ],
+      "correct_answer": "Calculation error in Adjusted R Squared value",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "You are solving a regression problem with 4 explanatory variables. The data has 40 observations and the R-square value was found to be 0.74.",
+      "group_id": "640653445707",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 255,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are removing a few explanatory variables from the dataset and the new adjusted R square value is -0.21. Is it possible?",
+      "type": "MCQ",
+      "options": [
+        "Yes. Adjusted R squared value can be negative",
+        "No. Calculation error",
+        "None of these"
+      ],
+      "correct_answer": "Yes. Adjusted R squared value can be negative",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "You are solving a regression problem with 4 explanatory variables. The data has 40 observations and the R-square value was found to be 0.74.",
+      "group_id": "640653445707",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 256,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Calculate the precision.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.90 to 0.92",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Using the confusion matrix, answer the given subquestions [IMAGE: /data/images/ms2002_2022T3_Q2_NA_p5_Im1.webp|block]",
+      "group_id": "640653445711",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 257,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Calculate the recall.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.94 to 0.96",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Using the confusion matrix, answer the given subquestions [IMAGE: /data/images/ms2002_2022T3_Q2_NA_p5_Im1.webp|block]",
+      "group_id": "640653445711",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 258,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose a factory manufactures products on three machines A, B and C. Suppose 25% of total output comes from machine A, 20% of total output comes from machine B and 55% of total output comes from machine C. From the past data, it is known that 8% of products by machine A are defectives, 15% of products by machine B are defectives and 5% of products by machine C are defectives. What is the probability that the product has come from machine C given that it is a defective?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.32 to 0.38",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 259,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the meaning of an Elasticity of 2?",
+      "type": "multichoice",
+      "options": [
+        "10% reduction in price will yield a 20% increase in sales",
+        "10% reduction in price will yield a 20% decrease in sales",
+        "25% increase in price will yield 50% increase in sales",
+        "25% increase in price will yield 50% decrease in sales"
+      ],
+      "correct_answer": [
+        "10% reduction in price will yield a 20% increase in sales",
+        "25% increase in price will yield 50% decrease in sales"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 260,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Select the correct option from below:",
+      "type": "multichoice",
+      "options": [
+        "For inelastic product demand (\u03b5<1) the revenue can be increased by setting price close to zero.",
+        "For elastic product demand (\u03b5>1) the revenue can only be increased by setting price close to zero",
+        "For inelastic product demand (\u03b5<1) the revenue can be increased by simply increasing the prices",
+        "For elastic product demand (\u03b5>1) the revenue can only be increased by simply increasing the prices"
+      ],
+      "correct_answer": [
+        "For elastic product demand (\u03b5>1) the revenue can only be increased by setting price close to zero",
+        "For inelastic product demand (\u03b5<1) the revenue can be increased by simply increasing the prices"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 261,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following data will you use to calculate price elasticity?",
+      "type": "MCQ",
+      "options": [
+        "Protein-powder sales increases by 10% when the national income grows by 15%.",
+        "Tea sales increases by 10% when daily average working hours of employees goes up by 2 hrs .",
+        "Paneer (Indian Cottage Cheese) sales go down by 10% when price goes up from Rs.100 to Rs.120 per 200 gram.",
+        "All of these"
+      ],
+      "correct_answer": "Paneer (Indian Cottage Cheese) sales go down by 10% when price goes up from Rs.100 to Rs.120 per 200 gram.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 262,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In Multiple Linear Regression, if the explanatory variables are highly correlated, then that phenomenon is called",
+      "type": "MCQ",
+      "options": [
+        "Normality",
+        "Singularity",
+        "Collinearity",
+        "Variation Inflation"
+      ],
+      "correct_answer": "Collinearity",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 263,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is called as efficiency?",
+      "type": "MCQ",
+      "options": [
+        "Output/(1-input)",
+        "1 - (output/input)",
+        "Output/Input",
+        "None of these"
+      ],
+      "correct_answer": "Output/Input",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    }
+  ],
+  "id": "ms2002-2022t3-q2-na",
+  "course_code": "MS2002",
+  "course_name": "Business Analytics",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2022",
+  "year": 2022,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

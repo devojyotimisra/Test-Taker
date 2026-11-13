@@ -1,0 +1,484 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)",
+  "filename": "cs2006_2026T2_Q2_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "A developer opens the Node.js REPL and runs the following line: [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p1_Im3.webp|block] Why does this fail?",
+      "type": "MCQ",
+      "options": [
+        "Node.js cannot execute JavaScript from the terminal.",
+        "The Node.js runtime does not provide browser DOM APIs like [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p1_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p1_Im5.webp|inline] works only after using [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p1_Im6.webp|inline]",
+        "V8 can execute only arithmetic expressions, not DOM code."
+      ],
+      "correct_answer": "The Node.js runtime does not provide browser DOM APIs like [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p1_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p1_Im3.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p1_Im4.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p1_Im5.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p1_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following javascript code: [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p2_Im1.webp|block] The above code is initially loaded on the browser and then the browser is refreshed two times. What will be the final output?",
+      "type": "MCQ",
+      "options": [
+        "['Tablet', 'Tablet']",
+        "['Tablet', 'Tablet', 'Tablet']",
+        "[{ id: 3, name: 'Tablet' }]",
+        "[undefined]"
+      ],
+      "correct_answer": "['Tablet', 'Tablet', 'Tablet']",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Point out the error with the following code that is used to display user data? [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p2_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p2_Im5.webp|inline] should use POST method by default, not GET",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p2_Im6.webp|inline] and [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p2_Im7.webp|inline] will throw errors because response is a [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p2_Im8.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p3_Im2.webp|inline] cannot be called on a [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p3_Im3.webp|inline] response; use [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p3_Im4.webp|inline] instead",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p3_Im5.webp|inline] does not work inside [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p3_Im6.webp|inline] functions"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p2_Im6.webp|inline] and [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p2_Im7.webp|inline] will throw errors because response is a [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p2_Im8.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p2_Im4.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p2_Im5.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p2_Im6.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p2_Im7.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p2_Im8.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p3_Im2.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p3_Im3.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p3_Im4.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p3_Im5.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "What is the correct output order for the following code? [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p3_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A B C D",
+        "C A D B",
+        "A D C B",
+        "A D B C"
+      ],
+      "correct_answer": "A D C B",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the following code: [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p4_Im1.webp|block] What happens to [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p4_Im2.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "It remains [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p4_Im4.webp|inline] because spread syntax always creates a deep copy.",
+        "It becomes [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p4_Im6.webp|inline] because the nested object is still shared in a shallow copy.",
+        "It becomes [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p4_Im7.webp|inline] because [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p4_Im8.webp|inline] is removed from the original object.",
+        "The code throws an error because nested objects cannot be copied with spread syntax."
+      ],
+      "correct_answer": "It becomes [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p4_Im6.webp|inline] because the nested object is still shared in a shallow copy.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p4_Im1.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p4_Im2.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p4_Im4.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p4_Im6.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p4_Im7.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following JavaScript code snippet? [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p4_Im9.webp|block] What will be the output of above code on the browser\u2019s console?",
+      "type": "MCQ",
+      "options": [
+        "1 \u2192 2 \u2192 3: done \u2192 4",
+        "1 \u2192 4 \u2192 2 \u2192 3: done",
+        "1 \u2192 2 \u2192 4 \u2192 3: done",
+        "1 \u2192 2 \u2192 4 (3 never prints due to unresolved promise)"
+      ],
+      "correct_answer": "1 \u2192 2 \u2192 4 \u2192 3: done",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p4_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following Vuex store snippets. Which of the following demonstrates the correct usage of a mutation as per its definition?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p5_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p5_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p5_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p5_Im4.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p5_Im4.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p5_Im5.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Suppose the following HTML exists: [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im1.webp|block] Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im3.webp|inline] returns [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im4.webp|inline] .",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im5.webp|inline] converts the value to numeric [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im6.webp|inline] .",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im7.webp|inline] can read the visible text [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im8.webp|inline] .",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im10.webp|inline] returns a single element, not a collection."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im3.webp|inline] returns [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im4.webp|inline] .",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im5.webp|inline] converts the value to numeric [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im6.webp|inline] .",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im7.webp|inline] can read the visible text [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im8.webp|inline] ."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p6_Im1.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p6_Im3.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p6_Im4.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p6_Im5.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p6_Im6.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p6_Im7.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p6_Im8.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p6_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "A Vue frontend, a mobile app, and another backend service all call the same Flask API deployed on multiple servers. The team chooses JWT authentication. Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "Each request can carry the token, so any server can validate it without storing a per-user session in memory.",
+        "JWT is API-friendly because clients can send it using the [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im11.webp|inline] header.",
+        "In Flask-JWT-Extended, [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im12.webp|inline] can read the identity stored in the token.",
+        "Session-based authentication is usually easier to scale across multiple servers because no shared storage is needed. The team should have chosen this."
+      ],
+      "correct_answer": [
+        "Each request can carry the token, so any server can validate it without storing a per-user session in memory.",
+        "JWT is API-friendly because clients can send it using the [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im11.webp|inline] header.",
+        "In Flask-JWT-Extended, [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p6_Im12.webp|inline] can read the identity stored in the token."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p6_Im11.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p6_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "A Vue 2 component does the following: \u2022 loads initial task data from an API, \u2022 starts a timer after the component appears on the page, \u2022 clears that timer before the component is removed. Which hook choices are appropriate?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p7_Im2.webp|inline] for loading initial data.",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p7_Im3.webp|inline] for starting DOM-related work or timers.",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p7_Im4.webp|inline] for cleanup.",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p7_Im6.webp|inline] for declaring reactive [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p7_Im7.webp|inline] ."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p7_Im2.webp|inline] for loading initial data.",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p7_Im3.webp|inline] for starting DOM-related work or timers.",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p7_Im4.webp|inline] for cleanup."
+      ],
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p7_Im2.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p7_Im3.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p7_Im4.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p7_Im6.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "In a Vue Router app, a developer uses: \u2022 [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p7_Im8.webp|inline] inside a parent route, \u2022 [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p7_Im9.webp|inline] , \u2022 [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p7_Im10.webp|inline] inside a method. Which statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p8_Im2.webp|inline] can be used to organize nested routes under a parent route.",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p8_Im3.webp|inline] can act as a fallback for unknown routes.",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p8_Im4.webp|inline] tries to go back one step in browser history.",
+        "Vue Router removes the need for route components."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p8_Im2.webp|inline] can be used to organize nested routes under a parent route.",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p8_Im3.webp|inline] can act as a fallback for unknown routes.",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p8_Im4.webp|inline] tries to go back one step in browser history."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p7_Im8.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p7_Im9.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p7_Im10.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p8_Im2.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p8_Im3.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Fill in Code1 , inside a mutation handler, which can be used to reduce the price of each of the products in the state by a certain discount. app.js: [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p8_Im6.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p9_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p9_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p9_Im4.webp|inline]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p8_Im6.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p9_Im2.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p9_Im4.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p9_Im5.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Consider the following Vuex store and component code. store.js [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p9_Im7.webp|block] Component.vue [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p10_Im1.webp|block] After triggering all three methods ( [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p10_Im2.webp|inline] , [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p10_Im3.webp|inline] and [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p10_Im4.webp|inline] ) one by one, which of the following statements is correct ?",
+      "type": "MCQ",
+      "options": [
+        "All three methods will update the cart and all changes will be visible in Vue DevTools mutation history.",
+        "Only [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p10_Im7.webp|inline] and [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p10_Im8.webp|inline] will appear in Vue DevTools mutation history, but [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p10_Im9.webp|inline] will appear with a delay.",
+        "Only [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p10_Im10.webp|inline] will update the cart because mutations cannot be called directly from components.",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p10_Im11.webp|inline] will throw an error because Vuex prevents direct state modification."
+      ],
+      "correct_answer": "Only [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p10_Im7.webp|inline] and [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p10_Im8.webp|inline] will appear in Vue DevTools mutation history, but [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p10_Im9.webp|inline] will appear with a delay.",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p9_Im7.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p10_Im1.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p10_Im2.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p10_Im3.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p10_Im4.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p10_Im7.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p10_Im8.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p10_Im9.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p10_Im10.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p10_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Read the following component carefully. [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p11_Im1.webp|block] What will be logged in the console when this component first loads?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p11_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p11_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p11_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p11_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p11_Im6.webp|inline]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p11_Im1.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p11_Im3.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p11_Im4.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p11_Im6.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p11_Im7.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p11_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "What should be filled in at Line A to correctly read the username from the URL?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p13_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p13_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p13_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p13_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p12_Im1.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p13_Im1.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p13_Im3.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p13_Im5.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p13_Im6.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p13_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following code carefully and answer the given sub questions: file1: router/index.js [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p12_Im1.webp|block] file2: ProfileComponent.vue [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "6406532180453",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "What should be filled in at Line B to navigate to the Settings page?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p14_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p14_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p14_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p14_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_Q2_NA_p14_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_Q2_NA_p12_Im1.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p13_Im1.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p14_Im2.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p14_Im3.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p14_Im5.webp",
+        "/data/images/cs2006_2026T2_Q2_NA_p14_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following code carefully and answer the given sub questions: file1: router/index.js [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p12_Im1.webp|block] file2: ProfileComponent.vue [IMAGE: /data/images/cs2006_2026T2_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "6406532180453",
+      "section_name": "Appdev2"
+    }
+  ],
+  "id": "cs2006-2026t2-q2-na",
+  "course_code": "CS2006",
+  "course_name": "Application Development 2",
+  "level": "Diploma in Programming",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

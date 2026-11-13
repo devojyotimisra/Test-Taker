@@ -3,7 +3,7 @@ import { LandingPage } from "./components/LandingPage";
 import { QuestionPage } from "./components/QuestionPage";
 import { NotFoundPage } from "./components/NotFoundPage";
 import { useToast } from "./components/ui/toast";
-import { Paper, Question } from "./types";
+import { Paper, Question, CatalogItem } from "./types";
 
 const apiBase = import.meta.env.VITE_API_URL || "";
 
@@ -114,6 +114,60 @@ export function App() {
     }
   };
 
+  const handleSelectCatalogPaper = async (item: CatalogItem) => {
+    try {
+      let paperData: Paper | null = null;
+      const dataBase = (import.meta.env.VITE_DATA_BASE_URL || "/data").replace(/\/+$/, "");
+      const cleanJsonPath = item.json_url.replace(/^\/?data\//, "");
+      const targetUrl = item.json_url.startsWith("http")
+        ? item.json_url
+        : `${dataBase}/${cleanJsonPath}`;
+
+      try {
+        const directRes = await fetch(targetUrl);
+        if (directRes.ok) {
+          paperData = await directRes.json();
+        }
+      } catch {}
+
+      if (!paperData && apiBase) {
+        try {
+          const apiRes = await fetch(`${apiBase}/data/${cleanJsonPath}`);
+          if (apiRes.ok) {
+            paperData = await apiRes.json();
+          }
+        } catch {}
+      }
+
+      if (!paperData) {
+        throw new Error("Failed to load question paper data.");
+      }
+
+      if (apiBase) {
+        try {
+          const paperId = item.json_file.replace(".json", "");
+          await fetch(`${apiBase}/api/select-paper/${paperId}`, { method: "POST" });
+        } catch {}
+      }
+
+      setPaper(paperData);
+      setCurrentPage("test");
+      toast({
+        type: "success",
+        title: "Paper Loaded Successfully",
+        description: `Loaded "${item.title}" with ${paperData.total_questions || paperData.questions?.length || 0} questions.`,
+        duration: 4000,
+      });
+    } catch (err: any) {
+      toast({
+        type: "error",
+        title: "Load Error",
+        description: err.message || "Could not load the selected question paper.",
+        duration: 6000,
+      });
+    }
+  };
+
   const handleBack = async () => {
     try {
       await fetch(`${apiBase}/api/reset`, { method: "POST" });
@@ -142,5 +196,10 @@ export function App() {
     return <QuestionPage paper={paper} onBack={handleBack} />;
   }
 
-  return <LandingPage onUpload={handleUploadPdf} />;
+  return (
+    <LandingPage
+      onUpload={handleUploadPdf}
+      onSelectPaper={handleSelectCatalogPaper}
+    />
+  );
 }

@@ -1,0 +1,605 @@
+{
+  "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
+  "filename": "cs2002_2025T3_ET_FN.pdf",
+  "total_questions": 26,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Here is a function to return the count of even numbers in the list. There is a logical error in this function. [IMAGE: /data/images/cs2002_2025T3_ET_FN_p1_Im1.webp|block] Select the input list for which bad_count_even produces incorrect output.",
+      "type": "MCQ",
+      "options": [
+        "[56,4,70,40]",
+        "[6,8,34,13,5,9]",
+        "[6,11,4,30]",
+        "[6,4,2,30]"
+      ],
+      "correct_answer": "[6,11,4,30]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Match the correct asymptotic complexity for each function. [IMAGE: /data/images/cs2002_2025T3_ET_FN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-b, 2-c, 3-d, 4-e, 5-a",
+        "1-a, 2-c, 3-d, 4-e, 5-b",
+        "1-b, 2-c, 3-e, 4-d, 5-a",
+        "1-a, 2-c, 3-e, 4-d, 5-b"
+      ],
+      "correct_answer": "1-b, 2-c, 3-d, 4-e, 5-a",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the below function for selection sort algorithm. [IMAGE: /data/images/cs2002_2025T3_ET_FN_p3_Im1.webp|block] Assume that the list L=[15, 12, 18, 13, 11] is passed to the function selectionsort() as parameter. What will be the list L after the second pass of selection sort?",
+      "type": "MCQ",
+      "options": [
+        "[11, 15, 18, 13, 12]",
+        "[15, 12, 18, 13, 11]",
+        "[11, 12, 18, 13, 15]",
+        "[11, 12, 13, 15, 18]"
+      ],
+      "correct_answer": "[11, 12, 18, 13, 15]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Which of the following scenarios is an example where linear search is more practical or efficient than binary search ?",
+      "type": "multichoice",
+      "options": [
+        "Searching for an element in linked list.",
+        "Searching for an element in an unsorted list.",
+        "Searching for an element in a very large sorted list.",
+        "Searching element is at the first index position of the list.",
+        "The searching element is at the last index position of the list"
+      ],
+      "correct_answer": [
+        "Searching for an element in linked list.",
+        "Searching for an element in an unsorted list.",
+        "Searching element is at the first index position of the list."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Suppose we are sorting a list of eight integers using quicksort, and we have just finished the first partitioning. The list looks like this: [12, 18, 25, 7, 30, 55, 60, 40] Suppose the first element in the list is selected as the pivot for partitioning each time. Which of the following could have been the pivot for the first partitioning?",
+      "type": "MCQ",
+      "options": [
+        "25",
+        "30",
+        "7",
+        "40"
+      ],
+      "correct_answer": "30",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following class Node : [IMAGE: /data/images/cs2002_2025T3_ET_FN_p4_Im3.webp|block] Consider an implementation of a linked list where each node is created using the given class Node . Suppose head points to the first node of the linked list. Assume that the linked list is in sorted order . [IMAGE: /data/images/cs2002_2025T3_ET_FN_p4_Im4.webp|block] What is an efficient way to remove all duplicate values in the linked list?",
+      "type": "MCQ",
+      "options": [
+        "Recursively remove duplicates from the tail of the linked list.",
+        "Iterate through the linked list and use a nested loop to find duplicate values.",
+        "Traverse the linked list once, comparing each node with its immediate successor.",
+        "Traverse the linked list once and store non-duplicate elements in a new linked list."
+      ],
+      "correct_answer": "Traverse the linked list once, comparing each node with its immediate successor.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p4_Im3.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "If you have an empty stack and you perform the following sequence of operations: [IMAGE: /data/images/cs2002_2025T3_ET_FN_p5_Im1.webp|block] What is the value of the top element on the stack?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "150",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "There are 8 systems (0,..,7) connected in network as shown in the figure given below. [IMAGE: /data/images/cs2002_2025T3_ET_FN_p5_Im2.webp|block] Which edge should we add to the network so that the network stays connected when one of the systems is down?",
+      "type": "MCQ",
+      "options": [
+        "(4,7)",
+        "(5,7)",
+        "(0,3)",
+        "(0,7)"
+      ],
+      "correct_answer": "(0,7)",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following DAG. [IMAGE: /data/images/cs2002_2025T3_ET_FN_p6_Im1.webp|block] How many valid topological sorts exist?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Let [IMAGE: /data/images/cs2002_2025T3_ET_FN_p6_Im2.webp|inline] be an undirected graph and [IMAGE: /data/images/cs2002_2025T3_ET_FN_p6_Im3.webp|inline] be a BFS traversed tree of [IMAGE: /data/images/cs2002_2025T3_ET_FN_p6_Im4.webp|inline] with root s . Which of the following is True for every non-tree edge(u,v) ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p6_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p6_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p6_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p6_Im6.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p6_Im2.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p6_Im3.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p6_Im4.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p6_Im6.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p6_Im8.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p6_Im9.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p6_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the following graph. [IMAGE: /data/images/cs2002_2025T3_ET_FN_p7_Im1.webp|block] What is the shortest distance from node 0 to node 5 ?",
+      "type": "MCQ",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "11"
+      ],
+      "correct_answer": "7",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Suppose we run the Bellman-Ford algorithm on a graph with non-negative edges. Then compared to Dijkstra's algorithm, the Bellman-Ford algorithm will ___?",
+      "type": "MCQ",
+      "options": [
+        "Run faster",
+        "Run slower",
+        "Produce wrong results",
+        "Detect the cycle"
+      ],
+      "correct_answer": "Run slower",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Let [IMAGE: /data/images/cs2002_2025T3_ET_FN_p8_Im1.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_ET_FN_p8_Im2.webp|inline] be the minimum-cost spanning trees obtained by running Prim's algorithm and Kruskal's algorithm on a graph G. Suppose that [IMAGE: /data/images/cs2002_2025T3_ET_FN_p8_Im3.webp|inline] is different from [IMAGE: /data/images/cs2002_2025T3_ET_FN_p8_Im4.webp|inline] . Which of the following must be true ?",
+      "type": "MCQ",
+      "options": [
+        "If e is a minimum cost edge in G , then e definitely belongs to both [IMAGE: /data/images/cs2002_2025T3_ET_FN_p8_Im6.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_ET_FN_p8_Im7.webp|inline] .",
+        "If e is a maximum cost edge in G , then e definitely belongs to neither [IMAGE: /data/images/cs2002_2025T3_ET_FN_p8_Im8.webp|inline] nor [IMAGE: /data/images/cs2002_2025T3_ET_FN_p8_Im9.webp|inline] .",
+        "Some of the edges in G must have the same weight.",
+        "All edges in G must have the same weight."
+      ],
+      "correct_answer": "Some of the edges in G must have the same weight.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p8_Im1.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p8_Im2.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p8_Im3.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p8_Im4.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p8_Im6.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p8_Im7.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p8_Im8.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p8_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider a binary tree with 15 nodes, where the number of nodes with two children is 6 . The number of nodes with one child node is _______.",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "2",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "If we perform the following operations in the given order on the max-heap [89, 62, 31, 45, 51, 29, 30, 42, 34] then the resulting max-heap would be__. [IMAGE: /data/images/cs2002_2025T3_ET_FN_p8_Im11.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[78, 62, 51, 31, 34, 29, 30, 42, 45]",
+        "[78, 62, 31, 51, 34, 29, 30, 45, 42]",
+        "[78, 62, 31, 51, 34, 30, 29, 45, 42]",
+        "[78, 62, 31, 51, 34, 29, 30, 42, 45]"
+      ],
+      "correct_answer": "[78, 62, 31, 51, 34, 29, 30, 42, 45]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p8_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "What is the minimum number of nodes in an AVL tree of height 7 ? Consider that the height of the empty tree is 0.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "33",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "The weighted path length (WPL) of a Huffman tree over an alphabet A is defined as: 1. [IMAGE: /data/images/cs2002_2025T3_ET_FN_p9_Im1.webp|inline] 2. Where the depth is the number of edges from the root to the letter If a Huffman code is constructed for text with frequencies {2, 4, 6, 9, 16, 20} , what is the total weighted path length of the tree?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "132",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "For which of the following coin denominations does the Greedy strategy of choosing the largest coin that does not exceed the target fail to produce the minimum number of coins to make the amount 6 ?",
+      "type": "MCQ",
+      "options": [
+        "{1, 2, 5}",
+        "{1, 3, 4}",
+        "{1, 4, 5}",
+        "{1, 2, 3}"
+      ],
+      "correct_answer": "{1, 3, 4}",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "In a list L , two elements L[i] and L[j] form a significant inversion if L[i] > 2 * L[j] and i < j . The total number of significant inversions for L = [5, 4, 1, 2, 3] is___.",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct_answer": "3",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p10_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p10_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p10_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p10_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p10_Im7.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p10_Im3.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p10_Im4.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p10_Im5.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p10_Im6.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p10_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Consider the following function MoM . [IMAGE: /data/images/cs2002_2025T3_ET_FN_p11_Im1.webp|block] What median value will be returned by the given MoM function for the following list? [IMAGE: /data/images/cs2002_2025T3_ET_FN_p11_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "16",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p11_Im1.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p11_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Consider the function mystery() that takes strings X and Y as input. What will mystery('XYITCRT','WTXITRY') return? LCS(X,Y) returns the length of the longest common subsequence of X and Y. [IMAGE: /data/images/cs2002_2025T3_ET_FN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "10",
+        "9",
+        "8",
+        "7"
+      ],
+      "correct_answer": "10",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Consider the following grid. [IMAGE: /data/images/cs2002_2025T3_ET_FN_p13_Im1.webp|block] How many unique paths are available from [IMAGE: /data/images/cs2002_2025T3_ET_FN_p13_Im2.webp|inline] to [IMAGE: /data/images/cs2002_2025T3_ET_FN_p13_Im3.webp|inline] ? Condition is that you can only travel one-step right or one step up at a time, and a gray box at intersection point [IMAGE: /data/images/cs2002_2025T3_ET_FN_p13_Im4.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_ET_FN_p13_Im5.webp|inline] represents a blockage.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "18",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p13_Im1.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p13_Im2.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p13_Im3.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p13_Im4.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p13_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "The ABC leather company is manufacturing two types of leather Jackets, Jacket X and Jacket Y. The respective profits are Rs 5 and Rs 6 per Jacket. The production of each of type X requires twice as much time as a Jacket of type Y, and if all Jackets were of type Y, the company could make 1,000 Jackets per day. The supply of leather is sufficient for only 500 Jackets per day (both X and Y combined). Jacket X requires a fancy collar and only 200 collars are available per day. There are only 500 collars a day available for Jacket Y. The above problem is to be formulated as a linear programming problem. Let [IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im1.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im2.webp|inline] be the number of jackets of type X and Y, respectively, manufactured each day. Which of the following is not a valid constraint?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im8.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im1.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im2.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im4.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im5.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im6.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "Consider a network flow edges [IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im9.webp|inline] , [IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im10.webp|inline] , [IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im11.webp|inline] , [IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im12.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im13.webp|inline] . What is the maximum flow allowed from [IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im14.webp|inline] to [IMAGE: /data/images/cs2002_2025T3_ET_FN_p14_Im15.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correct_answer": "11",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im9.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im10.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im11.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im12.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im13.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im14.webp",
+        "/data/images/cs2002_2025T3_ET_FN_p14_Im15.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    }
+  ],
+  "id": "cs2002-2025t3-et-fn",
+  "course_code": "CS2002",
+  "course_name": "Programming, Data Structures and Algorithms using Python",
+  "level": "Diploma in Programming",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

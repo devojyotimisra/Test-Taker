@@ -1,0 +1,633 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)",
+  "filename": "da5006_2024T2_Q1_NA.pdf",
+  "total_questions": 30,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 80,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 81,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p1_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p1_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p1_Im6.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p2_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p1_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p2_Im2.webp|block]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p1_Im3.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p1_Im5.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p1_Im6.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 82,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p2_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p2_Im6.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p2_Im7.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p2_Im8.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p2_Im6.webp|block]",
+        ""
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p2_Im3.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p2_Im6.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p2_Im7.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p2_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 83,
+      "text": "Which of the following are true ? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p3_Im1.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p3_Im3.webp|inline] [IMAGE: /data/images/da5006_2024T2_Q1_NA_p3_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p3_Im1.webp|block]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p3_Im1.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p3_Im3.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 84,
+      "text": "Which of the following statements is True?",
+      "type": "MCQ",
+      "options": [
+        "Gaussian filter is Separable filter because it is non linear.",
+        "Median filter is a non separable filter",
+        "Gaussian filter is a High Pass filter.",
+        "Mean filter is a non separable filter because it is non linear"
+      ],
+      "correct_answer": "Median filter is a non separable filter",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 85,
+      "text": "In Bilateral filtering, we do not reject the pixels whose values differ too much from the central pixel value.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 86,
+      "text": "Which of the following is the Fourier image of the given intensity image? [IMAGE: /data/images/da5006_2024T2_Q1_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p4_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p4_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p5_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p4_Im6.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p4_Im1.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p4_Im5.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p4_Im6.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 87,
+      "text": "Identify the correct sequence of steps in Scale Invariant Feature Transform (SIFT) method. Steps listed below: 1. Keypoint Descriptor 2. Keypoint Localization 3. Scale-space Extrema Detection 4. Orientation Estimation",
+      "type": "MCQ",
+      "options": [
+        "4\u2192 2\u2192 1\u2192 3",
+        "3\u2192 2\u2192 4\u2192 1",
+        "3\u2192 1\u2192 2\u2192 4",
+        "None of these"
+      ],
+      "correct_answer": "3\u2192 2\u2192 4\u2192 1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 88,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192iii, 2 \u2192 ii , 3\u2192 i , 4 \u2192 iv",
+        "1\u2192iv, 2\u2192 i , 3 \u2192 ii , 4\u2192 iii",
+        "1\u2192ii, 2 \u2192 iii , 3\u2192 iv , 4\u2192 i",
+        "None of these"
+      ],
+      "correct_answer": "1\u2192ii, 2 \u2192 iii , 3\u2192 iv , 4\u2192 i",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 89,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 iii, 2\u2192 i, 3 \u2192 ii",
+        "1\u2192 iii, 2\u2192 ii, 3 \u2192 i",
+        "1\u2192 ii, 2\u2192 iii, 3 \u2192 i",
+        "None of these"
+      ],
+      "correct_answer": "1\u2192 iii, 2\u2192 i, 3 \u2192 ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 90,
+      "text": "In RANSAC, what is the probability that the algorithm never selects a whole set of inliers from 20 data points (which has 5 inliers in total) for k = 2 time steps? Here, n = 2 is the minimum number of samples to fit a model.",
+      "type": "MCQ",
+      "options": [
+        "0.2",
+        "0.93",
+        "0.87",
+        "0"
+      ],
+      "correct_answer": "0.87",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 91,
+      "text": "Suppose we have a codebook of 2048 SIFT visual words. We extract 1000 SIFT descriptors (SIFT is a 128-dimensional feature) from a new image. What is the dimensionality of the BoW (Bag-of-Words) descriptor?",
+      "type": "MCQ",
+      "options": [
+        "1000",
+        "128",
+        "128 \u00d7 2048",
+        "2048"
+      ],
+      "correct_answer": "2048",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 92,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 iii, 2\u2192 ii, 3 \u2192 vi, 4\u2192 i",
+        "1\u2192 v, 2\u2192i, 3 \u2192 vi, 4\u2192 iii",
+        "1\u2192 iii, 2\u2192 i, 3 \u2192 ii, 4 \u2192 v",
+        "1\u2192 ii, 2\u2192 v, 3 \u2192 iv, 4\u2192 iii"
+      ],
+      "correct_answer": "1\u2192 ii, 2\u2192 v, 3 \u2192 iv, 4\u2192 iii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 93,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p7_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 vi, 2\u2192 iii, 3\u2192 v, 4 \u2192 i",
+        "1\u2192 i, 2\u2192 iv, 3 \u2192 iii, 4\u2192 ii",
+        "1\u2192 i, 2\u2192 v, 3 \u2192 iii, 4\u2192 iv",
+        "1\u2192 iv, 2\u2192 iii, 3\u2192 ii, 4 \u2192 i"
+      ],
+      "correct_answer": "1\u2192 iv, 2\u2192 iii, 3\u2192 ii, 4 \u2192 i",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 94,
+      "text": "Consider a Convolutional Neural Network which processes an RGB image. It has 128 kernels each of spatial dimension 5 \u00d7 5 in the first layer. They are convolved with a stride 1. This is followed by a max-pooling layer with stride 2 and kernel size 5 \u00d7 5. What would be the receptive field size of a single neuron in the pooling layer? (Recap: A receptive field is the size of the region in the input image, which influences the activation of that specific neuron.)",
+      "type": "MCQ",
+      "options": [
+        "5 \u00d7 5",
+        "7 \u00d7 7",
+        "9 \u00d7 9",
+        "3 \u00d7 3"
+      ],
+      "correct_answer": "9 \u00d7 9",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 95,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p8_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "30",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 96,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p8_Im3.webp|block] NOTE: Enter your answer in two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.33",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 97,
+      "text": "What is the size of the feature map after applying two successive convolution operations with given parameters? Image size = 64 x 64, Kernel size = 6 x 6, Padding = 1 and Stride = 2. (In calculation, take floor(x) whenever x is non-integer. If the answer is FxF, write F in the blank). ___________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "14",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 98,
+      "text": "Let an input to a convolutional layer in a CNN have size D f \u00d7 D f \u00d7 M where D f = 64 and M = 16, and output feature map (after passing input through conv layer) has D f \u00d7 D f \u00d7 N size where N = 8. Let the kernel in the conv layer be k \u00d7 k where k = 3. Calculate the number of parameters for this convolution layer. (Assume appropriate padding is applied for all convolutions so the input and output sizes are equal. Ignore the bias term in the calculation).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1152",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 99,
+      "text": "Fill in the blank for (a)________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p10_Im1.webp|block]",
+      "group_id": "640653829650",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 100,
+      "text": "Fill in the blank for (b)_____________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p10_Im1.webp|block]",
+      "group_id": "640653829650",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 101,
+      "text": "Fill in the blank for (a)_____________________ Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "high",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "640653829656",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 102,
+      "text": "Fill in the blank for (b) _____________________ Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "high",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "640653829656",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 103,
+      "text": "Fill in the blank for (c) _____________________ Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "smooth",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "640653829656",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 104,
+      "text": "Fill in the blank for (a): Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "thick coarse large scale",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p12_Im1.webp|block]",
+      "group_id": "640653829660",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 105,
+      "text": "Fill in the blank for (b): Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "fine",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p12_Im1.webp|block]",
+      "group_id": "640653829660",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 106,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p13_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p13_Im2.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p13_Im1.webp|block]",
+      "group_id": "640653829664",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 107,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p13_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p13_Im3.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p13_Im1.webp|block]",
+      "group_id": "640653829664",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 108,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p14_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p14_Im1.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p13_Im1.webp|block]",
+      "group_id": "640653829664",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 109,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p14_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q1_NA_p14_Im2.webp",
+        "/data/images/da5006_2024T2_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q1_NA_p13_Im1.webp|block]",
+      "group_id": "640653829664",
+      "section_name": "DL(CV)"
+    }
+  ],
+  "id": "da5006-2024t2-q1-na",
+  "course_code": "DA5006",
+  "course_name": "Deep Learning for Computer Vision",
+  "level": "Degree",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

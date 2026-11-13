@@ -1,0 +1,1027 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)",
+  "filename": "da5006_2025T3_Q2_NA.pdf",
+  "total_questions": 51,
+  "total_marks": 62.5,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 129,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 130,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p1_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p1_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p1_Im6.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p1_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p1_Im5.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p1_Im2.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p1_Im5.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p1_Im6.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p1_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 131,
+      "text": "Which of the following architectures introduced the ROI pooling layer for extracting fixed-size feature maps from variable-size region proposals?",
+      "type": "MCQ",
+      "options": [
+        "R-CNN",
+        "Fast R-CNN",
+        "Faster R-CNN",
+        "YOLO"
+      ],
+      "correct_answer": "Fast R-CNN",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 132,
+      "text": "Which object detection method first integrated a Region Proposal Network (RPN) to generate region proposals within the detection model?",
+      "type": "MCQ",
+      "options": [
+        "R-CNN",
+        "Fast R-CNN",
+        "Faster R-CNN",
+        "YOLO"
+      ],
+      "correct_answer": "Faster R-CNN",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 133,
+      "text": "Which architecture performs object detection as a single regression problem from image pixels to bounding boxes and class probabilities?",
+      "type": "MCQ",
+      "options": [
+        "R-CNN",
+        "Fast R-CNN",
+        "Faster R-CNN",
+        "YOLO"
+      ],
+      "correct_answer": "YOLO",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 134,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192iv, 2\u2192ii, 3\u2192i, 4\u2192iii",
+        "1\u2192ii, 2\u2192iv, 3\u2192i, 4\u2192iii",
+        "1\u2192iv, 2\u2192i, 3\u2192ii, 4\u2192iii",
+        "1\u2192iii, 2\u2192ii, 3\u2192iv, 4\u2192i"
+      ],
+      "correct_answer": "1\u2192iv, 2\u2192ii, 3\u2192i, 4\u2192iii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 135,
+      "text": "Consider the following statements P and Q regarding AlexNet and choose the correct option: (P) In AlexNet, a trainable Local Response Normalization Layers were introduced to emulate the competitive nature of real neurons, where highly active neurons suppress the activity of neighboring neurons, creating competition among different kernel outputs. (Q) In AlexNet, a total of 8 Convolutional layers contain only about 6-7% of the total parameters hence account for the least computation.",
+      "type": "MCQ",
+      "options": [
+        "Only statement P is true",
+        "Only statement Q is true",
+        "Both statements are true",
+        "None of the statements is true"
+      ],
+      "correct_answer": "None of the statements is true",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 136,
+      "text": "Consider two bounding boxes in an image: - Box A: top-left at (0, 0), bottom-right at (12, 12) - Box B: top-left at (4, 4), bottom-right at (16, 16) What is the Intersection over Union (IoU) between these two boxes ______________",
+      "type": "MCQ",
+      "options": [
+        "21%",
+        "28%",
+        "36%",
+        "44%"
+      ],
+      "correct_answer": "28%",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 137,
+      "text": "Which one of the following statements is True ?",
+      "type": "MCQ",
+      "options": [
+        "Attention mechanisms can be applied to the bidirectional RNN model",
+        "An image captioning network cannot be trained end-to-end even though we are using 2 different modalities to train the network",
+        "One of the key components in the vanilla transformer are the recurrent connections that help them to deal with variable input length.",
+        "All Attention mechanisms can be applied to the bidirectional RNN model, An image captioning network cannot be trained end-to-end even though we are using 2 different modalities to train the network, One of the key components in the vanilla transformer are the recurrent connections that help them to deal with variable input length.",
+        "None of these"
+      ],
+      "correct_answer": "Attention mechanisms can be applied to the bidirectional RNN model",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 138,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 \u2192 iv, 2 \u2192 iii, 3 \u2192 ii, 4 \u2192 i",
+        "1 \u2192 ii, 2 \u2192 iii, 3 \u2192 i, 4 \u2192iv",
+        "1 \u2192 iv, 2\u2192 iii, 3 \u2192 i, 4 \u2192 ii",
+        "1 \u2192 ii, 2 \u2192 iv, 3 \u2192 iii, 4 \u2192 i"
+      ],
+      "correct_answer": "1 \u2192 iv, 2\u2192 iii, 3 \u2192 i, 4 \u2192 ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 139,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p4_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 \u2192 iii, 2 \u2192 iv, 3 \u2192 ii, 4 \u2192 i",
+        "1 \u2192 iv, 2\u2192 i, 3 \u2192 iii, 4 \u2192ii",
+        "1 \u2192 i, 2 \u2192 ii, 3 \u2192 iii, 4 \u2192 iv",
+        "1 \u2192 i, 2 \u2192 iii, 3\u2192 ii, 4 \u2192 iv"
+      ],
+      "correct_answer": "1 \u2192 iv, 2\u2192 i, 3 \u2192 iii, 4 \u2192ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 140,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192iii, 2\u2192ii, 3\u2192v, 4\u2192iv,5\u2192i",
+        "1\u2192iii, 2\u2192iv, 3\u2192i, 4\u2192ii,5\u2192v",
+        "1\u2192i, 2\u2192iii, 3\u2192iv, 4\u2192ii,5\u2192v",
+        "1\u2192v, 2\u2192iv, 3\u2192iii, 4\u2192i,5\u2192ii"
+      ],
+      "correct_answer": "1\u2192v, 2\u2192iv, 3\u2192iii, 4\u2192i,5\u2192ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 141,
+      "text": "Which of the following techniques help mitigate the vanishing gradient problem in recurrent neural networks? 1. Gradient clipping 2. Use of ReLU activation to preserve gradient flow 3. Use of LSTM units 4. Data augmentation (e.g., reversing input sequence)",
+      "type": "MCQ",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "3 and 4 only",
+        "1, 2, and 3 only"
+      ],
+      "correct_answer": "2 and 3 only",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 142,
+      "text": "Which of the following techniques help mitigate the exploding gradient problem in recurrent neural networks? 1. Gradient clipping 2. Use of Sigmoid activation to prevent gradient growth 3. Use of LSTM units 4. Data augmentation (e.g., reversing input sequence)",
+      "type": "MCQ",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "1, 2, and 3",
+        "All of these"
+      ],
+      "correct_answer": "1 and 3 only",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 143,
+      "text": "Which one of the following statements is false? (Pick the most appropriate one.)",
+      "type": "MCQ",
+      "options": [
+        "Attention mechanisms cannot be applied to the bidirectional RNN model",
+        "An image captioning network cannot be trained end-to-end even though we are using 2 different modalities to train the network",
+        "One of the key components in the vanilla transformer is the recurrent connection that help them to deal with variable input length.",
+        "All of these"
+      ],
+      "correct_answer": "All of these",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 144,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p6_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "384",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 145,
+      "text": "Which of the following is true regarding Hard Attention and Soft Attention?",
+      "type": "multichoice",
+      "options": [
+        "Soft Attention is smooth and differentiable",
+        "Variance reduction techniques are used to train Soft Attention models",
+        "Soft Attention is computationally cheaper than Hard Attention when the source input is large",
+        "The inference (test time) overhead is low in Hard Attention when compared to Soft Attention models"
+      ],
+      "correct_answer": [
+        "Soft Attention is smooth and differentiable",
+        "The inference (test time) overhead is low in Hard Attention when compared to Soft Attention models"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 146,
+      "text": "Which of the following are False:",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p7_Im4.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p7_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p7_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p7_Im4.webp|block]",
+        ""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p7_Im4.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p7_Im5.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 147,
+      "text": "Which techniques help mitigate exploding/vanishing gradients in RNNs? (Select all that apply.)",
+      "type": "multichoice",
+      "options": [
+        "Gradient clipping",
+        "Orthogonal or identity initialization of recurrent weights",
+        "Using LSTM/GRU cells",
+        "Randomly reversing input sequences as augmentation"
+      ],
+      "correct_answer": [
+        "Gradient clipping",
+        "Orthogonal or identity initialization of recurrent weights",
+        "Using LSTM/GRU cells"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 148,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p8_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p8_Im2.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "6406531815740",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 149,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p8_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p8_Im3.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "6406531815740",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 150,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p9_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p9_Im1.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "6406531815740",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 151,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p9_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p9_Im2.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "6406531815740",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 152,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p9_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p9_Im3.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "6406531815740",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 153,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p10_Im1.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "6406531815740",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 154,
+      "text": "Number of Parameters:_____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6422528",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p10_Im2.webp|block]",
+      "group_id": "6406531815747",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 155,
+      "text": "Computational Cost:________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "642252800",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p10_Im2.webp|block]",
+      "group_id": "6406531815747",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 156,
+      "text": "Number of parameters for depthwise seperable convolution: __________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12544",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Using the same dimensions specified in the previous question main data, calculate the number of parameters and computational cost, but make use of Depthwise Seperable convolution and pointwise convolution instead of standard convolution.",
+      "group_id": "6406531815750",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 157,
+      "text": "Computational Cost for depthwise seperable convolution:____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1254400",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Using the same dimensions specified in the previous question main data, calculate the number of parameters and computational cost, but make use of Depthwise Seperable convolution and pointwise convolution instead of standard convolution.",
+      "group_id": "6406531815750",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 158,
+      "text": "Number of parameters for pointwise convolution:_____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "131072",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Using the same dimensions specified in the previous question main data, calculate the number of parameters and computational cost, but make use of Depthwise Seperable convolution and pointwise convolution instead of standard convolution.",
+      "group_id": "6406531815750",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 159,
+      "text": "Computational cost for pointwise convolution:____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "13107200",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Using the same dimensions specified in the previous question main data, calculate the number of parameters and computational cost, but make use of Depthwise Seperable convolution and pointwise convolution instead of standard convolution.",
+      "group_id": "6406531815750",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 160,
+      "text": "Number of weights in Weight Matrix U1 is:_____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "50",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "6406531815755",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 161,
+      "text": "Number of weights in Weight Matrix V1 is:_____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "25",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "6406531815755",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 162,
+      "text": "Number of weights in Weight Matrix U2 is:_____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "100",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "6406531815755",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 163,
+      "text": "Number of weights in Weight Matrix V2 is:_____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "400",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "6406531815755",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 164,
+      "text": "Number of weights in Weight Matrix W is:_____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "800",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "6406531815755",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 165,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p15_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p15_Im2.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531815761",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "original_number": 166,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p16_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p16_Im1.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531815761",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 39,
+      "number": 39,
+      "original_number": 167,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p16_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p16_Im2.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531815761",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 40,
+      "number": 40,
+      "original_number": 168,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p16_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.24 to 0.25",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p16_Im3.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531815761",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 41,
+      "number": 41,
+      "original_number": 169,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p17_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.09 to 0.1",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p17_Im1.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531815761",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 42,
+      "number": 42,
+      "original_number": 170,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p17_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.66 to 0.68",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p17_Im2.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531815761",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 43,
+      "number": 43,
+      "original_number": 171,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p17_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.5 to 1.6",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p17_Im3.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531815761",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 44,
+      "number": 44,
+      "original_number": 172,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p18_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.5 to 2.6",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p18_Im1.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531815761",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 45,
+      "number": 45,
+      "original_number": 173,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p19_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.01 to 0.01",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p19_Im1.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p18_Im2.webp|block]",
+      "group_id": "6406531815770",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 46,
+      "number": 46,
+      "original_number": 174,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p19_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.463 to -0.461",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p19_Im2.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p18_Im2.webp|block]",
+      "group_id": "6406531815770",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 47,
+      "number": 47,
+      "original_number": 175,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p19_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.461 to 0.463",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p19_Im3.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p18_Im2.webp|block]",
+      "group_id": "6406531815770",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 48,
+      "number": 48,
+      "original_number": 176,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p19_Im4.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.32 to 0.34",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p19_Im4.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p18_Im2.webp|block]",
+      "group_id": "6406531815770",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 49,
+      "number": 49,
+      "original_number": 177,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p20_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.22 to 0.24",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p20_Im1.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p18_Im2.webp|block]",
+      "group_id": "6406531815770",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 50,
+      "number": 50,
+      "original_number": 178,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p20_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.43 to 0.45",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p20_Im2.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p18_Im2.webp|block]",
+      "group_id": "6406531815770",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 51,
+      "number": 51,
+      "original_number": 179,
+      "text": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p20_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T3_Q2_NA_p20_Im3.webp",
+        "/data/images/da5006_2025T3_Q2_NA_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T3_Q2_NA_p18_Im2.webp|block]",
+      "group_id": "6406531815770",
+      "section_name": "DL(CV)"
+    }
+  ],
+  "id": "da5006-2025t3-q2-na",
+  "course_code": "DA5006",
+  "course_name": "Deep Learning for Computer Vision",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

@@ -1,0 +1,706 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)",
+  "filename": "cs3001_2024T3_ET_AN.pdf",
+  "total_questions": 31,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "In which of the following types of testing is the fully integrated system tested by the test team within the organization?",
+      "type": "MCQ",
+      "options": [
+        "Integration testing",
+        "Acceptance testing",
+        "Alpha testing",
+        "Beta testing."
+      ],
+      "correct_answer": "Alpha testing",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider a function that takes two strings as input and compares the length of two strings. If the lengths of the strings are equal, it returns 0. If the length of the first string is greater than that of the second string, it returns a positive integer. If the length of the first string is less than that of the second string, it returns a negative integer. Identify the number of equivalence classes for black box testing of the program discussed above.",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Which deployment strategy gradually rolls out changes to a small subset of users?",
+      "type": "MCQ",
+      "options": [
+        "Blue/Green Deployment",
+        "Canary Deployment",
+        "Versioned Deployment",
+        "None of these"
+      ],
+      "correct_answer": "Canary Deployment",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Suppose you are planning to deploy a data-intensive analytics application. Your main priority is scalability to handle fluctuating workloads, and you prefer a pay-as-you-go pricing model without managing the underlying hardware (but you want control of the software layer). Which of the following hosting options will be most suitable for you?",
+      "type": "MCQ",
+      "options": [
+        "Bare metal servers",
+        "Infrastructure-as-a-service",
+        "Platform-as-a-service",
+        "Software-as-a-service"
+      ],
+      "correct_answer": "Infrastructure-as-a-service",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Which of the following strategies uses tools like Memcached and Redis to improve the performance of web applications?",
+      "type": "MCQ",
+      "options": [
+        "Caching",
+        "Task queues",
+        "Loading and rendering pages",
+        "Monitoring"
+      ],
+      "correct_answer": "Caching",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "A software organization wants to use a tool that enables all team members to get both a big- picture view and a detailed view of progress. What kind of tool can the organization use?",
+      "type": "MCQ",
+      "options": [
+        "Project management tools",
+        "Development tools",
+        "Knowledge-sharing tools",
+        "None of these"
+      ],
+      "correct_answer": "Project management tools",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "[IMAGE: /data/images/cs3001_2024T3_ET_AN_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Data coupling",
+        "Control coupling",
+        "Common coupling",
+        "Content coupling"
+      ],
+      "correct_answer": "Common coupling",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T3_ET_AN_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "You have designed software in which each module is responsible for performing varied operations, and a significant amount of data is exchanged between modules. Identify the types of cohesion and coupling in the designed software.",
+      "type": "MCQ",
+      "options": [
+        "Low cohesion and low coupling",
+        "Low cohesion and high coupling",
+        "High cohesion and low coupling",
+        "High cohesion and high coupling"
+      ],
+      "correct_answer": "Low cohesion and high coupling",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Which software metric determines the quality of the code based on the number of operands and operations involved?",
+      "type": "MCQ",
+      "options": [
+        "Cyclomatic Complexity",
+        "Raw Metrics",
+        "Halstead\u2019s Metrics",
+        "All of these"
+      ],
+      "correct_answer": "Raw Metrics",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider analyzing a program to identify performance bottlenecks by measuring the time taken by each function or the frequency of function calls during execution. What type of debugging or analysis technique is used in this case?",
+      "type": "MCQ",
+      "options": [
+        "Logging",
+        "Dump and diff",
+        "Stepping in debugger",
+        "Profiling tool"
+      ],
+      "correct_answer": "Profiling tool",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Match the following. [IMAGE: /data/images/cs3001_2024T3_ET_AN_p4_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-B, 2-D, 3-C, 4-A",
+        "1-B, 2-D, 3-A, 4-C",
+        "1-C, 2-A, 3-D, 4-B",
+        "1-C, 2-A, 3-B, 4-D"
+      ],
+      "correct_answer": "1-C, 2-A, 3-B, 4-D",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T3_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Which of the following risks arises when the development team has insufficient knowledge of the product?",
+      "type": "MCQ",
+      "options": [
+        "Technical risks",
+        "Project risks",
+        "Business risks",
+        "None of these"
+      ],
+      "correct_answer": "Technical risks",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "In the Scrum framework, what does velocity mean?",
+      "type": "MCQ",
+      "options": [
+        "Number of user stories completed per iteration/sprint",
+        "Number of user stories completed for all the sprints",
+        "Number of points per iteration/sprint",
+        "Amount of effort for each user story"
+      ],
+      "correct_answer": "Number of points per iteration/sprint",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Which SMART characteristic specifies that a user story should provide business value to at least one stakeholder?",
+      "type": "MCQ",
+      "options": [
+        "Measurable",
+        "Achievable",
+        "Relevant",
+        "Timeboxed"
+      ],
+      "correct_answer": "Relevant",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider the Python code below. [IMAGE: /data/images/cs3001_2024T3_ET_AN_p6_Im1.webp|block] Identify the number of linearly independent paths to be tested for path coverage.",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "4",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T3_ET_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider the Python code below. [IMAGE: /data/images/cs3001_2024T3_ET_AN_p6_Im4.webp|block] Identify the set of valid test cases that provides multiple condition coverage.",
+      "type": "MCQ",
+      "options": [
+        "{password = \"ab\", password = \"abcd\", password = \"abcdef\"}",
+        "{password = \"ab\", password = \"abcdefghi\", password = \"abcdef\"}",
+        "{password = \"ab\", password = \"abcdefghi\", password = \"\", password = \"abcd\"}",
+        "{password = \"ab\", password = \"abcdefghi\", password = \"abcdef\", password = \"abcd\"}"
+      ],
+      "correct_answer": "{password = \"ab\", password = \"abcdefghi\", password = \"abcdef\", password = \"abcd\"}",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T3_ET_AN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "In a data processing application, raw sensor data is collected and passed through a series of stages: first, the data is cleaned, then it is normalized, after which statistical analyses are performed, and finally, visualizations are generated. Each stage processes the output from the previous stage and passes it to the next. Which type of architecture is used in this data processing application?",
+      "type": "MCQ",
+      "options": [
+        "Client-server",
+        "Pipe and filter",
+        "Model-view-controller",
+        "Peer-to-peer"
+      ],
+      "correct_answer": "Pipe and filter",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "[IMAGE: /data/images/cs3001_2024T3_ET_AN_p7_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Builder design pattern",
+        "Facade design pattern",
+        "Adapter design pattern",
+        "Strategy design pattern"
+      ],
+      "correct_answer": "Strategy design pattern",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T3_ET_AN_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "[IMAGE: /data/images/cs3001_2024T3_ET_AN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Open-Closed principle",
+        "Liskov substitution principle",
+        "Interface segregation principle",
+        "Dependency inversion principle"
+      ],
+      "correct_answer": "Interface segregation principle",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T3_ET_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Consider the following information available for risk assessment of a project. [IMAGE: /data/images/cs3001_2024T3_ET_AN_p8_Im4.webp|block] Which of the following risks is most probable to occur in the given project?",
+      "type": "MCQ",
+      "options": [
+        "Schedule Slippage",
+        "Gold plating",
+        "Shortcomings in external components",
+        "Insufficient domain knowledge"
+      ],
+      "correct_answer": "Insufficient domain knowledge",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T3_ET_AN_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Consider a project management tool that allows users to create and manage tasks. The interface provides multiple ways to interact with the system: users can add tasks via a detailed form, use drag-and-drop functionality to create tasks on a visual board, or use keyboard shortcuts for quick task entry. Advanced users can also customize their workspace layout and save presets for different project types. Which of the following UI evaluation heuristics is demonstrated in this scenario?",
+      "type": "MCQ",
+      "options": [
+        "Freedom",
+        "Flexibility",
+        "Prevent error",
+        "Provide help"
+      ],
+      "correct_answer": "Flexibility",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "An event planning app allows users to organize schedules, send invites, and track RSVPs. However, the app uses a very unique set of icons and labels for its features, which are hard to recall for users who don\u2019t use the app frequently. Users often struggle to access key features or complete tasks like editing guest lists or viewing event details after not using the app for a while. What kind of usability goal is missing from the mobile app?",
+      "type": "MCQ",
+      "options": [
+        "Efficiency",
+        "Memorability",
+        "Safety",
+        "Learnability"
+      ],
+      "correct_answer": "Memorability",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "A startup developing a fitness center management platform studies daily gym operations to understand how staff manage memberships, schedule personal training sessions, and track equipment usage. The goal is to identify issues such as overlapping schedules, missed booking notifications, or difficulties updating member profiles. Identify the type of requirement collection technique used in the given scenario.",
+      "type": "MCQ",
+      "options": [
+        "Questionnaires",
+        "Interviews",
+        "Focus Groups",
+        "Naturalistic Observations"
+      ],
+      "correct_answer": "Naturalistic Observations",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Which of the following is/are true about designing test cases for blackbox testing?",
+      "type": "multichoice",
+      "options": [
+        "Test cases are designed to examine only the input and output values.",
+        "Designing test cases necessitates access to the source code.",
+        "No knowledge of the underlying design or code required",
+        "The structure of the program needs to be analyzed using some heuristics."
+      ],
+      "correct_answer": [
+        "Test cases are designed to examine only the input and output values.",
+        "No knowledge of the underlying design or code required"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "[IMAGE: /data/images/cs3001_2024T3_ET_AN_p10_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Developers commit the code to a continuous integration server.",
+        "After each commit, the continuous integration server pulls the new code from the version control system.",
+        "The code pulled from the version control system is built and tested on the continuous integration server.",
+        "The code is finally built, tested, and deployed by the continuous integration server."
+      ],
+      "correct_answer": [
+        "After each commit, the continuous integration server pulls the new code from the version control system.",
+        "The code pulled from the version control system is built and tested on the continuous integration server."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T3_ET_AN_p10_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "Which of the following is/are the primary task/s of sales team in a software organization?",
+      "type": "multichoice",
+      "options": [
+        "Conduct market research and look for opportunities in the market",
+        "Sell the product it to users that marketing team has identified",
+        "Resolving interpersonal conflict between engineers",
+        "Provide feedback to marketing, product, and design teams regarding the product, which engineers then address."
+      ],
+      "correct_answer": [
+        "Sell the product it to users that marketing team has identified",
+        "Provide feedback to marketing, product, and design teams regarding the product, which engineers then address."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "In today's world, where software development occurs in distributed environments, it is crucial for developers to create precise interface definitions. Based on the provided options, which statement(s) regarding interface definitions is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "It describes the capabilities of a function.",
+        "It provides the implementation details of a function.",
+        "It tells which requests are allowed and how the output will be formatted.",
+        "The code implementing the interface should remain unchanged until the interface remains the same."
+      ],
+      "correct_answer": [
+        "It describes the capabilities of a function.",
+        "It tells which requests are allowed and how the output will be formatted."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "[IMAGE: /data/images/cs3001_2024T3_ET_AN_p11_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3001_2024T3_ET_AN_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2024T3_ET_AN_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2024T3_ET_AN_p11_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2024T3_ET_AN_p11_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3001_2024T3_ET_AN_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2024T3_ET_AN_p11_Im6.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T3_ET_AN_p11_Im3.webp",
+        "/data/images/cs3001_2024T3_ET_AN_p11_Im4.webp",
+        "/data/images/cs3001_2024T3_ET_AN_p11_Im5.webp",
+        "/data/images/cs3001_2024T3_ET_AN_p11_Im6.webp",
+        "/data/images/cs3001_2024T3_ET_AN_p11_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "Considering that the source code is 1,00,000 lines, what is the initial estimated effort for the project?",
+      "type": "MCQ",
+      "options": [
+        "303 person-month",
+        "208 person-month",
+        "522 person-month",
+        "905 person-month"
+      ],
+      "correct_answer": "905 person-month",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T3_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A company has been assigned the development of a smart home controller system. This controller is designed to centralize and integrate multiple devices, including lighting, HVAC systems (Heating, Ventilation, and Air Conditioning), and security cameras. The project requires creating both hardware-specific drivers and application-level software to enable smooth and efficient operation. The values for the constants in the COCOMO model for the different types of projects are as follows: [IMAGE: /data/images/cs3001_2024T3_ET_AN_p12_Im1.webp|block]",
+      "group_id": "6406531045428",
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "Considering the effort adjustment factor is 1.62, what is the final estimated effort for the project?",
+      "type": "MCQ",
+      "options": [
+        "1467 person-month",
+        "491 person-month",
+        "524 person-month",
+        "907 person-month"
+      ],
+      "correct_answer": "1467 person-month",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T3_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A company has been assigned the development of a smart home controller system. This controller is designed to centralize and integrate multiple devices, including lighting, HVAC systems (Heating, Ventilation, and Air Conditioning), and security cameras. The project requires creating both hardware-specific drivers and application-level software to enable smooth and efficient operation. The values for the constants in the COCOMO model for the different types of projects are as follows: [IMAGE: /data/images/cs3001_2024T3_ET_AN_p12_Im1.webp|block]",
+      "group_id": "6406531045428",
+      "section_name": "Sw Engg"
+    }
+  ],
+  "id": "cs3001-2024t3-et-an",
+  "course_code": "CS3001",
+  "course_name": "Software Engineering",
+  "level": "Degree",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

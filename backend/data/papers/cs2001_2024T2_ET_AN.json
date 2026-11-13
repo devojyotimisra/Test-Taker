@@ -1,0 +1,524 @@
+{
+  "title": "DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)",
+  "filename": "cs2001_2024T2_ET_AN.pdf",
+  "total_questions": 21,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 207,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 208,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": "5",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 209,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p2_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "75000",
+        "250",
+        "300",
+        "50"
+      ],
+      "correct_answer": "300",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 210,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "4",
+        "7",
+        "6"
+      ],
+      "correct_answer": "5",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 211,
+      "text": "Given below are four statements. Match each of them with the corresponding property in the set of ACID properties. Statement 1 : Any data written to the database must be valid according to all the defined rules like the check and key constraints and triggers. Statement 2 : Every completed transaction is saved into the secondary storage. Statement 3 : During money transfer, either the amount debited from the source account must be credited to the destination account or the money should not be debited from the source account at all. Statement 4 : If multiple transactions are being executed concurrently, then the final result should be the same irrespective of the sequence in which the transactions were executed. Let A denote Atomicity, C denote Consistency, I denote Isolation and D denote Durability. From among the given options, find the correct match.",
+      "type": "MCQ",
+      "options": [
+        "1 - A, 2 - C, 3 - I, 4 - D",
+        "1 - C, 2 - D, 3 - A, 4 - I",
+        "1 - C, 2 - D, 3 - I, 4 - A",
+        "1 - A, 2 - I, 3 - D, 4 - C"
+      ],
+      "correct_answer": "1 - C, 2 - D, 3 - A, 4 - I",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 212,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p4_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "00101101 AND 10000010",
+        "00101101 OR 00110100",
+        "11010010 AND 10000010",
+        "11010010 OR 00110100"
+      ],
+      "correct_answer": "11010010 AND 10000010",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 213,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "21, 26, 31, 16",
+        "21, 31, 26, 16",
+        "16, 21, 26, 31",
+        "21, 26, 16, 31"
+      ],
+      "correct_answer": "21, 31, 26, 16",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 214,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p5_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p6_Im1.webp|block] [IMAGE: /data/images/cs2001_2024T2_ET_AN_p6_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p5_Im4.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p5_Im6.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p6_Im1.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 215,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p6_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A = 100, B = 400, C = 1000, D = 700",
+        "A = 100, B = 300, C = 1000, D = 700",
+        "A = 200, B = 300, C = 1000, D = 700",
+        "A = 200, B = 400, C = 500, D = 800"
+      ],
+      "correct_answer": "A = 100, B = 300, C = 1000, D = 700",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 216,
+      "text": "The following key values are inserted into a B + tree of order 4 in a given sequence. The tree is initially empty. 25,8,13,59,3,31,60,11,43 Which of the following values appear only once in the tree?",
+      "type": "MCQ",
+      "options": [
+        "59",
+        "25",
+        "60",
+        "11"
+      ],
+      "correct_answer": "60",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 217,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p7_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The decomposition R1, R2, R3 are in 3NF but all the dependencies are not getting preserved.",
+        "The decomposition R1, R2, R3 are in BCNF.",
+        "In the decomposition, R1 and R2 are in BCNF and R3 is in 3NF.",
+        "In the decomposition, R2 is not required. As R1 and R3 is sufficient decomposition in 3NF but all the dependencies will not get preserved."
+      ],
+      "correct_answer": [
+        "In the decomposition, R1 and R2 are in BCNF and R3 is in 3NF.",
+        "In the decomposition, R2 is not required. As R1 and R3 is sufficient decomposition in 3NF but all the dependencies will not get preserved."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 218,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im7.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p8_Im1.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p8_Im3.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p8_Im4.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p8_Im6.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 219,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im8.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im12.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p8_Im12.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p8_Im8.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p8_Im9.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p8_Im10.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p8_Im11.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p8_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 220,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p9_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p9_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p9_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p9_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p9_Im5.webp|block]",
+        ""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p9_Im1.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p9_Im5.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p9_Im6.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 221,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p9_Im8.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p9_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p9_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p10_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p10_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p9_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p10_Im2.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p9_Im8.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p9_Im9.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p9_Im10.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p10_Im2.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p10_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 222,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p10_Im5.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Schedule S can not be two-phase lockable.",
+        "Schedule S can be two-phase lockable.",
+        "Schedule S can be strict two-phase lockable.",
+        "Schedule S is conflict serializable."
+      ],
+      "correct_answer": [
+        "Schedule S can be two-phase lockable.",
+        "Schedule S is conflict serializable."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p10_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 223,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p10_Im6.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p10_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p10_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p10_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p10_Im10.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p10_Im9.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p10_Im6.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p10_Im7.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p10_Im8.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p10_Im9.webp",
+        "/data/images/cs2001_2024T2_ET_AN_p10_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 224,
+      "text": "[IMAGE: /data/images/cs2001_2024T2_ET_AN_p11_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Schedule S is Conflict serializable",
+        "Schedule S is View serializable",
+        "Schedule S is not Conflict Serializable",
+        "Schedule S is not View Serializable"
+      ],
+      "correct_answer": [
+        "Schedule S is not Conflict Serializable",
+        "Schedule S is not View Serializable"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T2_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 225,
+      "text": "Choose the correct statement(s):",
+      "type": "multichoice",
+      "options": [
+        "In an ordered index, index entries are stored sorted on the search key value",
+        "Primary index is also called clustering index",
+        "Secondary index is an index whose search key specifies an order different from the sequential order of the file",
+        "An index-sequential file is an unordered file"
+      ],
+      "correct_answer": [
+        "In an ordered index, index entries are stored sorted on the search key value",
+        "Primary index is also called clustering index",
+        "Secondary index is an index whose search key specifies an order different from the sequential order of the file"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 226,
+      "text": "The following numbers are inserted into an empty binary search tree in the given order: 27, 43, 33, 49, 81, 92, 73, 10, 78. What is the height of the resulting binary search tree?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 227,
+      "text": "Consider a Block nested loop join for the two relations, instructor and department . Assuming the worst-case memory availability and instructor as the outer relation, the provided details are as follows: \u2022 Total number of block transfers: 30500 \u2022 Total number of seeks required: 2000 \u2022 Number of block in the outer relation: 500 What is the number of blocks in the inner relations?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "30",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    }
+  ],
+  "id": "cs2001-2024t2-et-an",
+  "course_code": "CS2001",
+  "course_name": "Database Management Systems",
+  "level": "Diploma in Programming",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

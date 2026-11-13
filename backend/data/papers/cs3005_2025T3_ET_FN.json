@@ -1,0 +1,611 @@
+{
+  "title": "DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)",
+  "filename": "cs3005_2025T3_ET_FN.pdf",
+  "total_questions": 26,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Which of the following statements are true about the switch statement in C?",
+      "type": "multichoice",
+      "options": [
+        "default case is compulsory in every switch.",
+        "Multiple case labels can share the same code block.",
+        "break is optional in a switch case.",
+        "A switch can be written inside another switch."
+      ],
+      "correct_answer": [
+        "Multiple case labels can share the same code block.",
+        "break is optional in a switch case.",
+        "A switch can be written inside another switch."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "z = 19",
+        "z = 11",
+        "z = 0",
+        "z = 5"
+      ],
+      "correct_answer": "z = 0",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 3 5 7",
+        "1 3 3 5 7",
+        "1 3 5",
+        "1 9 3"
+      ],
+      "correct_answer": "1 9 3",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Inside: a = 7, b = 3 Outside: x = 3, y = 7",
+        "Inside: a = 7, b = 3 Outside: x = 7, y = 3",
+        "Inside: a = 3, b = 7 Outside: x = 7, y = 3",
+        "Inside: a = 3, b = 7 Outside: x = 3, y = 7"
+      ],
+      "correct_answer": "Inside: a = 7, b = 3 Outside: x = 7, y = 3",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the following program. [IMAGE: /data/images/cs3005_2025T3_ET_FN_p4_Im1.webp|block] Assuming each function must complete before its result is used in the next function call, in which sequence are the functions executed?",
+      "type": "MCQ",
+      "options": [
+        "main \u2192 sub \u2192 sub \u2192 divi \u2192 printf",
+        "main \u2192 printf \u2192 sub \u2192 sub \u2192 divi",
+        "main \u2192 divi \u2192 sub \u2192 sub \u2192 printf",
+        "main \u2192 sub \u2192 divi \u2192 sub \u2192 printf"
+      ],
+      "correct_answer": "main \u2192 sub \u2192 sub \u2192 divi \u2192 printf",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Which of the following is true about recursion in C?",
+      "type": "multichoice",
+      "options": [
+        "Every recursive function must have a base case.",
+        "Recursive functions are always faster than iterative ones.",
+        "Recursion always leads to infinite calls.",
+        "A recursive function can call itself directly or indirectly."
+      ],
+      "correct_answer": [
+        "Every recursive function must have a base case.",
+        "A recursive function can call itself directly or indirectly."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Which of the following correctly declares and initializes a pointer to a float variable f ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p5_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p5_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p5_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p5_Im2.webp",
+        "/data/images/cs3005_2025T3_ET_FN_p5_Im4.webp",
+        "/data/images/cs3005_2025T3_ET_FN_p5_Im5.webp",
+        "/data/images/cs3005_2025T3_ET_FN_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p5_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Hello",
+        "World",
+        "o World",
+        "ello World"
+      ],
+      "correct_answer": "World",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p6_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "13",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the following program. [IMAGE: /data/images/cs3005_2025T3_ET_FN_p7_Im1.webp|block] If the output is 450 , which of the following lines could replace the missing statement?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p7_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p7_Im6.webp|inline]"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p7_Im1.webp",
+        "/data/images/cs3005_2025T3_ET_FN_p7_Im3.webp",
+        "/data/images/cs3005_2025T3_ET_FN_p7_Im5.webp",
+        "/data/images/cs3005_2025T3_ET_FN_p7_Im6.webp",
+        "/data/images/cs3005_2025T3_ET_FN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Which operator is used in C for dynamic memory deallocation?",
+      "type": "MCQ",
+      "options": [
+        "free()",
+        "delete",
+        "remove()",
+        "dispose()"
+      ],
+      "correct_answer": "free()",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "4",
+        "0",
+        "1"
+      ],
+      "correct_answer": "4",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p8_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "20",
+        "30",
+        "99",
+        "Garbage Value"
+      ],
+      "correct_answer": "99",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Which of the following are valid storage classes in C?",
+      "type": "multichoice",
+      "options": [
+        "auto",
+        "static",
+        "volatile",
+        "extern"
+      ],
+      "correct_answer": [
+        "auto",
+        "static",
+        "extern"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p9_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_answer": "6",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "48",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Which keyword in C prevents a variable from being modified after initialization?",
+      "type": "MCQ",
+      "options": [
+        "restrict",
+        "volatile",
+        "const",
+        "static"
+      ],
+      "correct_answer": "const",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "5 5 5",
+        "5 6 7",
+        "7 7 7",
+        "10 11 11"
+      ],
+      "correct_answer": "5 6 7",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "a P",
+        "a r",
+        "a e",
+        "e p"
+      ],
+      "correct_answer": "a r",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Which of the following are valid file handling modes in C?",
+      "type": "multichoice",
+      "options": [
+        "\"rb\"",
+        "\"wx\"",
+        "\"a+\"",
+        "\"r+\""
+      ],
+      "correct_answer": [
+        "\"rb\"",
+        "\"a+\"",
+        "\"r+\""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Consider the following program. [IMAGE: /data/images/cs3005_2025T3_ET_FN_p13_Im1.webp|block] If data.txt is empty before execution, what will be printed?",
+      "type": "MCQ",
+      "options": [
+        "Nothing",
+        "H",
+        "e",
+        "Error"
+      ],
+      "correct_answer": "H",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p14_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "B",
+        "A",
+        "F",
+        "0"
+      ],
+      "correct_answer": "B",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "In macros, which operator is used to substitute the actual argument as a string?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p14_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p14_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p14_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p14_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2025T3_ET_FN_p14_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p14_Im4.webp",
+        "/data/images/cs3005_2025T3_ET_FN_p14_Im5.webp",
+        "/data/images/cs3005_2025T3_ET_FN_p14_Im6.webp",
+        "/data/images/cs3005_2025T3_ET_FN_p14_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p15_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "What will be the output of the following program? [IMAGE: /data/images/cs3005_2025T3_ET_FN_p15_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "4",
+        "20",
+        "Compiler error"
+      ],
+      "correct_answer": "5",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_ET_FN_p15_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    }
+  ],
+  "id": "cs3005-2025t3-et-fn",
+  "course_code": "CS3005",
+  "course_name": "Programming in C",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

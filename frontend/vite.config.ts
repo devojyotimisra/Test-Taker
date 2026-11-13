@@ -118,6 +118,10 @@ export default defineConfig({
         target: proxyTarget,
         changeOrigin: true,
       },
+      "/data": {
+        target: proxyTarget,
+        changeOrigin: true,
+      },
       "/temp": {
         target: proxyTarget,
         changeOrigin: true,

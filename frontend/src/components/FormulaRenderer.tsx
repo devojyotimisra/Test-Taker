@@ -45,9 +45,15 @@ export function FormulaRenderer({
       !src.startsWith("http://") &&
       !src.startsWith("https://")
     ) {
-      const filename = src.split("/").pop() || src;
-      const apiBase = import.meta.env.VITE_API_URL || "";
-      finalSrc = `${apiBase}/temp/image/${filename}`;
+      const apiBase = (import.meta.env.VITE_API_URL || "").replace(/\/+$/, "");
+      const dataBase = (import.meta.env.VITE_DATA_BASE_URL || (apiBase ? `${apiBase}/data` : "/data")).replace(/\/+$/, "");
+      if (src.startsWith("/data/") || src.startsWith("data/")) {
+        const subPath = src.replace(/^\/?data\//, "");
+        finalSrc = `${dataBase}/${subPath}`;
+      } else {
+        const filename = src.split("/").pop() || src;
+        finalSrc = `${apiBase}/temp/image/${filename}`;
+      }
     }
 
     if (isBlock) {

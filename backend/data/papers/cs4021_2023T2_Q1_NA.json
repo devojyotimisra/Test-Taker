@@ -1,0 +1,388 @@
+{
+  "title": "DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
+  "filename": "cs4021_2023T2_Q1_NA.pdf",
+  "total_questions": 18,
+  "total_marks": 18.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 169,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 170,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs4021_2023T2_Q1_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "S i \u2264 F j",
+        "S j \u2264 F i",
+        "S i \u2265 F j or S j \u2265 F i",
+        "S i \u2264 F j and S j \u2265 F i"
+      ],
+      "correct_answer": "S i \u2265 F j or S j \u2265 F i",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2023T2_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 171,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A circuit in a matroid is a minimal dependent set. In other words, a subset S of the universe U is a circuit if S is not an independent set, but every proper subset of S is an independent set. Which of the following would be a circuit for the graphic matroid?",
+      "type": "MCQ",
+      "options": [
+        "A cycle on any number of vertices",
+        "A path on any number of vertices",
+        "A star with at least three leaves",
+        "A complete subgraph on 4 or more vertices"
+      ],
+      "correct_answer": "A cycle on any number of vertices",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 172,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following set system: \u25cf The universe is the set of edges of a graph G \u25cf A subset S of U is an independent set if the subgraph induced by S is such that every vertex has even degree. Is this set system hereditary?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 173,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose there are M mice out on a field and there are H holes scattered across the ground that the mice can hide in. Each hole 1 \u2264 i \u2264 H has a capacity H i . You are given the locations of the mice at time t = 0 and the holes (the locations of the holes are fixed). Each mouse runs at the same velocity v and remains vulnerable if it does not reach a hole within s seconds when hungry owls arrive and instantaneously catch all the mice that are not in hiding. Consider the following approach to determine the maximum number of mice that can be safe: \u25cf We design a flow network, which consists of a bipartite graph with M \u201cmice nodes\u201d, one representing each mouse, and H \u201chole nodes\u201d, one representing each hole. \u25cf If a mouse can reach a particular hole, as determined by the distance between the initial position of the mouse and the given position of the hole , then place an edge between the mouse and the hole with capacity = 1. \u25cf Connect a source node with all the Mice nodes with edge capacities = 1. \u25cf Connect all the Hole nodes with a sink node via edges of capacities = capacity of the particular holes . \u25cf Run Ford\u2212Fulkerson max flow algorithm and the most Mice that are safe equal to the maxFlow obtained .",
+      "type": "MCQ",
+      "options": [
+        "Cannot say! Depends on the velocity v, time s seconds, hole locations and other factors.",
+        "Yes, this approach will always work.",
+        "This approach will work if the edges from the source to mice nodes have infinite capacity.",
+        "This approach will work under some scenarios but not always."
+      ],
+      "correct_answer": "Yes, this approach will always work.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 174,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Let L be an array of n integers. Our array indices start from 0. Let maxSum[i] denote the largest contiguous sum possible in the subarray of L ending at the i th element. Note that maxSum[0] = L[0]. Which of the following recurrences are true?",
+      "type": "MCQ",
+      "options": [
+        "maxSum[i] = max(maxSum[i - 1] + L[i], L[i])",
+        "maxSum[i] = max(maxSum[i - 1], L[i])",
+        "maxSum[i] = max(maxSum[i - 1], maxSum[i - 1] + L[i])",
+        "maxSum[i] = max(maxSum[i - 1] - L[i], L[i])"
+      ],
+      "correct_answer": "maxSum[i] = max(maxSum[i - 1] + L[i], L[i])",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 175,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Recall the task scheduling problem: suppose you have n tasks to complete in n days; each task requires your attention for a full day. Each task comes with a deadline, the last day by which the job should be completed. A collection of tasks is called realistic if there is a way to schedule all of them in a manner that all of them finish within their deadlines. Given job IDs and deadlines as below, which of the following subsets of jobs is/are realistic? { J1: 5, J2: 1, J3: 1, J4: 2, J5: 4, J6: 3, J7: 4, J8: 4, J9: 5, J10: 3 }",
+      "type": "multichoice",
+      "options": [
+        "{J1, J9, J2, J4, J8}",
+        "{J1, J9, J2, J3, J4, J8}",
+        "{J1, J4, J5, J6, J7, J8, J9}",
+        "{J2, J4, J10, J7, J1}"
+      ],
+      "correct_answer": [
+        "{J1, J9, J2, J4, J8}",
+        "{J2, J4, J10, J7, J1}"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 176,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 We have a set of jobs to be performed, and we are given the following information about each job: a job ID, the duration required to complete the job, and the time by which the job is due. All jobs have to be performed on a single machine, which can perform one job at a time. Given a schedule for the jobs, the lateness of a job is defined as 0 if it is completed before it is due, and is defined as the difference between the completion time and the time it is due otherwise. This machine has to rest for an hour mandatorily after every 5 hours of continuous work but the machine can take rest for one hour even before 5 hours. If the jobs are executed in an optimal sequence, what is the total lateness? [IMAGE: /data/images/cs4021_2023T2_Q1_NA_p7_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2023T2_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 177,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following tree: [IMAGE: /data/images/cs4021_2023T2_Q1_NA_p8_Im1.webp|block] What is the size of the maximum-size independent set for this tree?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2023T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 178,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Is assignment X-A, Y-B, Z-C stable?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2023T2_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following instance of the stable matching problem. Suppose there are 3 women (A, B, C) and 3 men (X, Y, Z), and their preferences as given below and answer the subquestions: [IMAGE: /data/images/cs4021_2023T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "640653579010",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 179,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following matching: M = (X-C), (Y-B), (Z-A). Which of the following forms a blocking pair in the matching above?",
+      "type": "MCQ",
+      "options": [
+        "(Y-A)",
+        "(X-B)",
+        "(Y-C)",
+        "(Z-B)"
+      ],
+      "correct_answer": "(X-B)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2023T2_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following instance of the stable matching problem. Suppose there are 3 women (A, B, C) and 3 men (X, Y, Z), and their preferences as given below and answer the subquestions: [IMAGE: /data/images/cs4021_2023T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "640653579010",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 180,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the value of f(6)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "21",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "There is a row of n chairs and two types of people attending a party: C for chess players and S for comedians. You want to assign one person to each seat but you can never seat two chess players together or they will start talking about strategy and everyone else in the room will get bored. For example, if n = 3, the following are some valid seating arrangements: SSS, CSC, and SSC. However, the following is an invalid seating: CCS. Let f(n) denote the number of valid seating arrangements when n chairs are available. Note that f(1) = 2, since both S and C count as valid seating arrangements; while f(2) = 3, since SS, SC, CS are valid seating arrangements but CC is not. Note that we do not need to count the arrangement SS more than once to account for the actual people seated swapping places, we are only interested in the \u201cform\u201d of the seating arrangement. Based on this, you can check that of the eight possible seating arrangements of three chairs, we have five that are valid: CSC, SSC, SSS, SCS, CSS, so f(3) = 5.",
+      "group_id": "640653579017",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 181,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is a valid recurrence for f(n)?",
+      "type": "MCQ",
+      "options": [
+        "f(n) = f(n - 1) - f(n - 2)",
+        "f(n) = f(n - 1) + f(n - 2)",
+        "f(n) = 2 * f(n - 1) - 1",
+        "f(n) = 2 * f(n - 1) + 1"
+      ],
+      "correct_answer": "f(n) = f(n - 1) + f(n - 2)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "There is a row of n chairs and two types of people attending a party: C for chess players and S for comedians. You want to assign one person to each seat but you can never seat two chess players together or they will start talking about strategy and everyone else in the room will get bored. For example, if n = 3, the following are some valid seating arrangements: SSS, CSC, and SSC. However, the following is an invalid seating: CCS. Let f(n) denote the number of valid seating arrangements when n chairs are available. Note that f(1) = 2, since both S and C count as valid seating arrangements; while f(2) = 3, since SS, SC, CS are valid seating arrangements but CC is not. Note that we do not need to count the arrangement SS more than once to account for the actual people seated swapping places, we are only interested in the \u201cform\u201d of the seating arrangement. Based on this, you can check that of the eight possible seating arrangements of three chairs, we have five that are valid: CSC, SSC, SSS, SCS, CSS, so f(3) = 5.",
+      "group_id": "640653579017",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 182,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the edges (S, v) and (v, T), where v is a vertex representing some element. If f is a maximum flow in the network described in the main question, then is it possible that both of these edges are saturated? For this question, recall that all weights are non-zero.",
+      "type": "MCQ",
+      "options": [
+        "Yes, provided that v has an infinite-capacity edge incident on it (either incoming or outgoing).",
+        "Yes, provided that either v has positive weight and has an infinite-capacity edge going out of v or that v has negative weight and has an infinite-capacity edge coming into it.",
+        "Yes, provided that either v has negative weight and has an infinite-capacity edge going out of v or that v has positive weight and has an infinite-capacity edge coming into it.",
+        "No, this is always impossible."
+      ],
+      "correct_answer": "Yes, provided that either v has positive weight and has an infinite-capacity edge going out of v or that v has negative weight and has an infinite-capacity edge coming into it.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "You have a collection of n elements with weights, which may be positive or negative numbers (but never zero). You want to choose a subset of these elements such that their total weight is maximized. There are constraints to make your life difficult, which are of the form: \u201cIf you include element X in your subset, then you must include element Y too.\u201d Let\u2019s abbreviate that X \u2192 Y . The total weight of the empty subset of elements is zero and note that weights may be negative. For instance, if your elements are A with a weight of 1 and B with a weight of -1 and no constraints, you may pick A, with the constraint that A \u2192 B, you can either pick both elements or neither with the same outcome (note that picking only B is suboptimal and picking only A is not valid), while with the constraint that B \u2192 A, you can pick only A and that would be optimal. We will build a flow network to help us find an answer. First, choose a number bigger than the maximum positive value among the given input weights. Call that number B . We will have, as usual, a source node S and a sink node T . Additionally, introduce a vertex for every element in the set. You have an edge from S to each node, whose capacity is B , and you have an edge from each node to T . For the edge from a node v representing an element whose weight is w(v), the edge from v to the sink node has capacity B - w(v). For each constraint of the form X \u2192 Y , you will have an edge from nodes representing elements X to Y with infinite capacity. For the given subquestions, we call an element positive if its weight is positive, and an element is called negative if its weight is negative.",
+      "group_id": "640653579022",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 183,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 If the input has no constraints (i.e, there are no infinite-capacity edges in the flow network), and the total weight of all the positive elements in P , and the absolute value of the sum of the weights of negative elements is Q , what is the value of the maximum flow in the network that we have built? Recall that n is the total number of elements.",
+      "type": "MCQ",
+      "options": [
+        "nB - Q",
+        "nB - P",
+        "nB - (P + Q)",
+        "P + Q",
+        "P - Q"
+      ],
+      "correct_answer": "nB - P",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "You have a collection of n elements with weights, which may be positive or negative numbers (but never zero). You want to choose a subset of these elements such that their total weight is maximized. There are constraints to make your life difficult, which are of the form: \u201cIf you include element X in your subset, then you must include element Y too.\u201d Let\u2019s abbreviate that X \u2192 Y . The total weight of the empty subset of elements is zero and note that weights may be negative. For instance, if your elements are A with a weight of 1 and B with a weight of -1 and no constraints, you may pick A, with the constraint that A \u2192 B, you can either pick both elements or neither with the same outcome (note that picking only B is suboptimal and picking only A is not valid), while with the constraint that B \u2192 A, you can pick only A and that would be optimal. We will build a flow network to help us find an answer. First, choose a number bigger than the maximum positive value among the given input weights. Call that number B . We will have, as usual, a source node S and a sink node T . Additionally, introduce a vertex for every element in the set. You have an edge from S to each node, whose capacity is B , and you have an edge from each node to T . For the edge from a node v representing an element whose weight is w(v), the edge from v to the sink node has capacity B - w(v). For each constraint of the form X \u2192 Y , you will have an edge from nodes representing elements X to Y with infinite capacity. For the given subquestions, we call an element positive if its weight is positive, and an element is called negative if its weight is negative.",
+      "group_id": "640653579022",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 184,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the case when we have two elements X and Y , with weights w(X) = p and w(Y) = -q, where p and q are positive integers. In other words, X has a positive weight p and Y has a negative weight whose absolute value is q . Suppose we have the constraint X \u2192 Y . Let B = p + 1. Also let the label of the vertex representing X be x and the label of the vertex representing Y be y . If q > p, then which of the following is/are true?",
+      "type": "multichoice",
+      "options": [
+        "There is a flow saturating both the edges (S, x) and (S, y).",
+        "There is no flow that saturates both the edges (S, x) and (S, y).",
+        "There is a flow saturating both the edges (x, T) and (y, T).",
+        "There is no flow that saturates both the edges (x, T) and (y, T)."
+      ],
+      "correct_answer": [
+        "There is a flow saturating both the edges (S, x) and (S, y).",
+        "There is no flow that saturates both the edges (x, T) and (y, T)."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "You have a collection of n elements with weights, which may be positive or negative numbers (but never zero). You want to choose a subset of these elements such that their total weight is maximized. There are constraints to make your life difficult, which are of the form: \u201cIf you include element X in your subset, then you must include element Y too.\u201d Let\u2019s abbreviate that X \u2192 Y . The total weight of the empty subset of elements is zero and note that weights may be negative. For instance, if your elements are A with a weight of 1 and B with a weight of -1 and no constraints, you may pick A, with the constraint that A \u2192 B, you can either pick both elements or neither with the same outcome (note that picking only B is suboptimal and picking only A is not valid), while with the constraint that B \u2192 A, you can pick only A and that would be optimal. We will build a flow network to help us find an answer. First, choose a number bigger than the maximum positive value among the given input weights. Call that number B . We will have, as usual, a source node S and a sink node T . Additionally, introduce a vertex for every element in the set. You have an edge from S to each node, whose capacity is B , and you have an edge from each node to T . For the edge from a node v representing an element whose weight is w(v), the edge from v to the sink node has capacity B - w(v). For each constraint of the form X \u2192 Y , you will have an edge from nodes representing elements X to Y with infinite capacity. For the given subquestions, we call an element positive if its weight is positive, and an element is called negative if its weight is negative.",
+      "group_id": "640653579022",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 185,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the case when we have two elements X and Y , with weights w(X) = p and w(Y) = -q, where p and q are positive integers. In other words, X has a positive weight p and B has a negative weight whose absolute value is q. Suppose we have the constraint X \u2192 Y. Let B = p + 1. Also let the label of the vertex representing X be x and the label of the vertex representing Y be y . Consider the residual graph with respect to some maximum flow f . Which of the following is true if q < p? Note that if a directed edge (u, v) has infinite capacity in the flow network, then with respect to any flow that uses this edge, the residual graph will have edges (u, v) with infinite residual capacity and (v, u) as an edge with the same residual capacity as f(u, v).",
+      "type": "multichoice",
+      "options": [
+        "Both x and y are always reachable from S in the residual graph.",
+        "It is possible that both (S, x) and (S, y) are saturated with respect to f .",
+        "Both (x, T) and (y, T) are saturated with respect to f .",
+        "At most one of (x, T) and (y, T) can be saturated with respect to f ."
+      ],
+      "correct_answer": [
+        "Both x and y are always reachable from S in the residual graph.",
+        "Both (x, T) and (y, T) are saturated with respect to f ."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "You have a collection of n elements with weights, which may be positive or negative numbers (but never zero). You want to choose a subset of these elements such that their total weight is maximized. There are constraints to make your life difficult, which are of the form: \u201cIf you include element X in your subset, then you must include element Y too.\u201d Let\u2019s abbreviate that X \u2192 Y . The total weight of the empty subset of elements is zero and note that weights may be negative. For instance, if your elements are A with a weight of 1 and B with a weight of -1 and no constraints, you may pick A, with the constraint that A \u2192 B, you can either pick both elements or neither with the same outcome (note that picking only B is suboptimal and picking only A is not valid), while with the constraint that B \u2192 A, you can pick only A and that would be optimal. We will build a flow network to help us find an answer. First, choose a number bigger than the maximum positive value among the given input weights. Call that number B . We will have, as usual, a source node S and a sink node T . Additionally, introduce a vertex for every element in the set. You have an edge from S to each node, whose capacity is B , and you have an edge from each node to T . For the edge from a node v representing an element whose weight is w(v), the edge from v to the sink node has capacity B - w(v). For each constraint of the form X \u2192 Y , you will have an edge from nodes representing elements X to Y with infinite capacity. For the given subquestions, we call an element positive if its weight is positive, and an element is called negative if its weight is negative.",
+      "group_id": "640653579022",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 186,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0",
+      "type": "MCQ",
+      "options": [],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Data Viz"
+    }
+  ],
+  "id": "cs4021-2023t2-q1-na",
+  "course_code": "CS4021",
+  "course_name": "Advanced Algorithms",
+  "level": "Degree",
+  "term": "May 2023",
+  "year": 2023,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

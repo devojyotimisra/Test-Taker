@@ -1,0 +1,362 @@
+{
+  "title": "DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)",
+  "filename": "ms2002_2024T1_Q2_AN.pdf",
+  "total_questions": 18,
+  "total_marks": 18.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 228,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 229,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Say a demand response curve is modelled as a constant elasticity curve. If Q1 is 2400 units, Q2 is 1500 units, P1 is Rs. 100 and P2 is Rs. 200, then what is the elasticity of the curve? (Note: Enter the answer rounded to two decimal places. For example, if the answer is \u201c1.234\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.66 to 0.70",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 230,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many decision variables are present in the standard primal formulation of the given problem?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1 15",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A parts supplier must assign supply from 5 warehouses (W1, W2, W3, W4 and W5) to 3 customers (C1, C2 and C3), such that the total demand of 300 units for the three customers is satisfied. The warehouse capacities are 85, 55, 75, 65 and 40, for W1, W2, W3, W4 and W5 respectively. A warehouse can supply any number of customers. The cost to supply a customer from a given warehouse is provided in Table-1.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p3_Im1.webp|block]",
+      "group_id": "640653770653",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 231,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many constraints are present in the standard primal formulation of the given problem? (Note: Exclude the count of non-negativity constraints when you input your answer)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3 7",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A parts supplier must assign supply from 5 warehouses (W1, W2, W3, W4 and W5) to 3 customers (C1, C2 and C3), such that the total demand of 300 units for the three customers is satisfied. The warehouse capacities are 85, 55, 75, 65 and 40, for W1, W2, W3, W4 and W5 respectively. A warehouse can supply any number of customers. The cost to supply a customer from a given warehouse is provided in Table-1.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p3_Im1.webp|block]",
+      "group_id": "640653770653",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 232,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 To reduce risk, it is proposed to split the total demand evenly across all 5 warehouses. Then is it a feasible solution?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A parts supplier must assign supply from 5 warehouses (W1, W2, W3, W4 and W5) to 3 customers (C1, C2 and C3), such that the total demand of 300 units for the three customers is satisfied. The warehouse capacities are 85, 55, 75, 65 and 40, for W1, W2, W3, W4 and W5 respectively. A warehouse can supply any number of customers. The cost to supply a customer from a given warehouse is provided in Table-1.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p3_Im1.webp|block]",
+      "group_id": "640653770653",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 233,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 If W1 supplies 75 units, W2 supplies 55 units, W3 supplies 75 units, W4 supplies 60 units and W5 supplies 35 units, then how many decision variables in the dual will have a non-zero value ? (Note: Enter your answer after you formulate the dual based on the standard form of the primal)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A parts supplier must assign supply from 5 warehouses (W1, W2, W3, W4 and W5) to 3 customers (C1, C2 and C3), such that the total demand of 300 units for the three customers is satisfied. The warehouse capacities are 85, 55, 75, 65 and 40, for W1, W2, W3, W4 and W5 respectively. A warehouse can supply any number of customers. The cost to supply a customer from a given warehouse is provided in Table-1.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p3_Im1.webp|block]",
+      "group_id": "640653770653",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 234,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many observations (rows) are present in the data set used to build Model-1?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "19",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p6_Im1.webp",
+        "/data/images/ms2002_2024T1_Q2_AN_p7_Im1.webp",
+        "/data/images/ms2002_2024T1_Q2_AN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Motors (MM) is a motorcycle brand that manufactures electric two wheelers. MM wants to understand the relationship between \u201cMileage\u201d, \u201cStorage space\u201d and \u201cCharging Time in Minutes\u201d on \u201cSales volume\u201d. The owner of the company, Dr. Milo, only has half-baked knowledge of regression. Hence, several regression models (Model-1, Model-2, Model-3, Model-4, Model-5, Model-6, Model-7, Model-8, Model-9 and Model-10) which are given below were built on appropriate available data by Dr. Milo.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p6_Im1.webp|block] [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p7_Im1.webp|block] [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p7_Im2.webp|block]",
+      "group_id": "640653770658",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 235,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the total indirect effect of \u201cMileage\u201d on \u201cSales Volume\u201d? (Note: Enter the answer rounded to two decimal places. For example, if the answer is \u201c1.234\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-37.0 to -36.0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p6_Im1.webp",
+        "/data/images/ms2002_2024T1_Q2_AN_p7_Im1.webp",
+        "/data/images/ms2002_2024T1_Q2_AN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Motors (MM) is a motorcycle brand that manufactures electric two wheelers. MM wants to understand the relationship between \u201cMileage\u201d, \u201cStorage space\u201d and \u201cCharging Time in Minutes\u201d on \u201cSales volume\u201d. The owner of the company, Dr. Milo, only has half-baked knowledge of regression. Hence, several regression models (Model-1, Model-2, Model-3, Model-4, Model-5, Model-6, Model-7, Model-8, Model-9 and Model-10) which are given below were built on appropriate available data by Dr. Milo.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p6_Im1.webp|block] [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p7_Im1.webp|block] [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p7_Im2.webp|block]",
+      "group_id": "640653770658",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 236,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the value of the \u201cT-statistic\u201d associated with the intercept in Model-3? (Note: Enter the answer rounded to two decimal places. For example, if the answer is \u201c1.234\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9.30 to 9.40",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p6_Im1.webp",
+        "/data/images/ms2002_2024T1_Q2_AN_p7_Im1.webp",
+        "/data/images/ms2002_2024T1_Q2_AN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Motors (MM) is a motorcycle brand that manufactures electric two wheelers. MM wants to understand the relationship between \u201cMileage\u201d, \u201cStorage space\u201d and \u201cCharging Time in Minutes\u201d on \u201cSales volume\u201d. The owner of the company, Dr. Milo, only has half-baked knowledge of regression. Hence, several regression models (Model-1, Model-2, Model-3, Model-4, Model-5, Model-6, Model-7, Model-8, Model-9 and Model-10) which are given below were built on appropriate available data by Dr. Milo.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p6_Im1.webp|block] [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p7_Im1.webp|block] [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p7_Im2.webp|block]",
+      "group_id": "640653770658",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 237,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the adjusted R-Square value for Model-10? (Note: Enter the answer rounded to two decimal places. For example, if the answer is \u201c1.234\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.97 to 0.99",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p6_Im1.webp",
+        "/data/images/ms2002_2024T1_Q2_AN_p7_Im1.webp",
+        "/data/images/ms2002_2024T1_Q2_AN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Motors (MM) is a motorcycle brand that manufactures electric two wheelers. MM wants to understand the relationship between \u201cMileage\u201d, \u201cStorage space\u201d and \u201cCharging Time in Minutes\u201d on \u201cSales volume\u201d. The owner of the company, Dr. Milo, only has half-baked knowledge of regression. Hence, several regression models (Model-1, Model-2, Model-3, Model-4, Model-5, Model-6, Model-7, Model-8, Model-9 and Model-10) which are given below were built on appropriate available data by Dr. Milo.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p6_Im1.webp|block] [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p7_Im1.webp|block] [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p7_Im2.webp|block]",
+      "group_id": "640653770658",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 238,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is F-statistic for Model-10? (Note: Enter the answer rounded to two decimal places. For example, if the answer is \u201c1.234\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "351 to 352",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p6_Im1.webp",
+        "/data/images/ms2002_2024T1_Q2_AN_p7_Im1.webp",
+        "/data/images/ms2002_2024T1_Q2_AN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Motors (MM) is a motorcycle brand that manufactures electric two wheelers. MM wants to understand the relationship between \u201cMileage\u201d, \u201cStorage space\u201d and \u201cCharging Time in Minutes\u201d on \u201cSales volume\u201d. The owner of the company, Dr. Milo, only has half-baked knowledge of regression. Hence, several regression models (Model-1, Model-2, Model-3, Model-4, Model-5, Model-6, Model-7, Model-8, Model-9 and Model-10) which are given below were built on appropriate available data by Dr. Milo.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p6_Im1.webp|block] [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p7_Im1.webp|block] [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p7_Im2.webp|block]",
+      "group_id": "640653770658",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 239,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 For which of the following \u201c Tabulated F \u201d values, will the Null Hypothesis NOT BE REJECTED for Model-10?(Choose all that is applicable)",
+      "type": "multichoice",
+      "options": [
+        "240",
+        "350",
+        "480",
+        "520"
+      ],
+      "correct_answer": [
+        "480",
+        "520"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p6_Im1.webp",
+        "/data/images/ms2002_2024T1_Q2_AN_p7_Im1.webp",
+        "/data/images/ms2002_2024T1_Q2_AN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Motors (MM) is a motorcycle brand that manufactures electric two wheelers. MM wants to understand the relationship between \u201cMileage\u201d, \u201cStorage space\u201d and \u201cCharging Time in Minutes\u201d on \u201cSales volume\u201d. The owner of the company, Dr. Milo, only has half-baked knowledge of regression. Hence, several regression models (Model-1, Model-2, Model-3, Model-4, Model-5, Model-6, Model-7, Model-8, Model-9 and Model-10) which are given below were built on appropriate available data by Dr. Milo.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p6_Im1.webp|block] [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p7_Im1.webp|block] [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p7_Im2.webp|block]",
+      "group_id": "640653770658",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 240,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 At a threshold of 0.7, what is the accuracy of the AI engine? (Note: Enter the answer in \u201c%\u201d rounded to two decimal places without the \u201c%\u201d symbol. For example, if the answer is \u201c1.234%\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "37 to 39",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An AI engine to scrutinize applications for the BS program is being developed. The aim of the AI engine is to shortlist applicants who have the highest chance of completing the program. Hence, the AI engine classifies every applicant as either \u201cSelected\u201d or \u201cNot Selected\u201d based on the \u201cProbability of Completion\u201d which is computed using an applicant\u2019s previous academic and professional records (X mark, XII mark, work experience, conduct and number of extracurricular certificates) To test the model, past student data was captured. Using the past data, the AI model predicted the probability for completion. This is provided in Table-2. The table also provides the information of whether the student actually completed the course.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p11_Im1.webp|block]",
+      "group_id": "640653770665",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 241,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 At a threshold of 0.7, what is the precision for \u201cNot Selected\u201d category for the AI engine? (Note: Enter the answer in \u201c%\u201d rounded to two decimal places without the \u201c%\u201d symbol. For example, if the answer is \u201c1.234%\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "24 to 26",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An AI engine to scrutinize applications for the BS program is being developed. The aim of the AI engine is to shortlist applicants who have the highest chance of completing the program. Hence, the AI engine classifies every applicant as either \u201cSelected\u201d or \u201cNot Selected\u201d based on the \u201cProbability of Completion\u201d which is computed using an applicant\u2019s previous academic and professional records (X mark, XII mark, work experience, conduct and number of extracurricular certificates) To test the model, past student data was captured. Using the past data, the AI model predicted the probability for completion. This is provided in Table-2. The table also provides the information of whether the student actually completed the course.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p11_Im1.webp|block]",
+      "group_id": "640653770665",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 242,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 At a threshold of 0.7, what is the recall for \u201cSelected\u201d category for the AI engine? (Note: Enter the answer in \u201c%\u201d rounded to two decimal places without the \u201c%\u201d symbol. For example, if the answer is \u201c1.234%\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "39 to 41",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An AI engine to scrutinize applications for the BS program is being developed. The aim of the AI engine is to shortlist applicants who have the highest chance of completing the program. Hence, the AI engine classifies every applicant as either \u201cSelected\u201d or \u201cNot Selected\u201d based on the \u201cProbability of Completion\u201d which is computed using an applicant\u2019s previous academic and professional records (X mark, XII mark, work experience, conduct and number of extracurricular certificates) To test the model, past student data was captured. Using the past data, the AI model predicted the probability for completion. This is provided in Table-2. The table also provides the information of whether the student actually completed the course.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p11_Im1.webp|block]",
+      "group_id": "640653770665",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 243,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 At a threshold of 0.4, how many \u201cFalse Positives\u201d is the AI engine predicting? (Note: Enter the answer rounded to two decimal places. For example, if the answer is \u201c1.234\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An AI engine to scrutinize applications for the BS program is being developed. The aim of the AI engine is to shortlist applicants who have the highest chance of completing the program. Hence, the AI engine classifies every applicant as either \u201cSelected\u201d or \u201cNot Selected\u201d based on the \u201cProbability of Completion\u201d which is computed using an applicant\u2019s previous academic and professional records (X mark, XII mark, work experience, conduct and number of extracurricular certificates) To test the model, past student data was captured. Using the past data, the AI model predicted the probability for completion. This is provided in Table-2. The table also provides the information of whether the student actually completed the course.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p11_Im1.webp|block]",
+      "group_id": "640653770665",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 244,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 At a threshold of 0.4, how many \u201cFalse Negatives\u201d is the AI engine predicting? (Note: Enter the answer rounded to two decimal places. For example, if the answer is \u201c1.234\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An AI engine to scrutinize applications for the BS program is being developed. The aim of the AI engine is to shortlist applicants who have the highest chance of completing the program. Hence, the AI engine classifies every applicant as either \u201cSelected\u201d or \u201cNot Selected\u201d based on the \u201cProbability of Completion\u201d which is computed using an applicant\u2019s previous academic and professional records (X mark, XII mark, work experience, conduct and number of extracurricular certificates) To test the model, past student data was captured. Using the past data, the AI model predicted the probability for completion. This is provided in Table-2. The table also provides the information of whether the student actually completed the course.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p11_Im1.webp|block]",
+      "group_id": "640653770665",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 245,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 At a threshold of 0.4, how many \u201cTrue Negatives\u201d is the AI engine predicting? (Note: Enter the answer rounded to two decimal places. For example, if the answer is \u201c1.234\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T1_Q2_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An AI engine to scrutinize applications for the BS program is being developed. The aim of the AI engine is to shortlist applicants who have the highest chance of completing the program. Hence, the AI engine classifies every applicant as either \u201cSelected\u201d or \u201cNot Selected\u201d based on the \u201cProbability of Completion\u201d which is computed using an applicant\u2019s previous academic and professional records (X mark, XII mark, work experience, conduct and number of extracurricular certificates) To test the model, past student data was captured. Using the past data, the AI model predicted the probability for completion. This is provided in Table-2. The table also provides the information of whether the student actually completed the course.Given this information, answer the subquestions. [IMAGE: /data/images/ms2002_2024T1_Q2_AN_p11_Im1.webp|block]",
+      "group_id": "640653770665",
+      "section_name": "Business Analytics"
+    }
+  ],
+  "id": "ms2002-2024t1-q2-an",
+  "course_code": "MS2002",
+  "course_name": "Business Analytics",
+  "level": "Diploma in Data Science",
+  "term": "Jan 2024",
+  "year": 2024,
+  "exam_type": "Quiz 2",
+  "session": "Afternoon"
+}

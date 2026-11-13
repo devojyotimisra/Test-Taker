@@ -1,0 +1,475 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)",
+  "filename": "cs3002_2025T1_Q2_NA.pdf",
+  "total_questions": 19,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 44,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 45,
+      "text": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-C, 2-B, 3-A",
+        "1-C, 2-A, 3-B",
+        "1-B, 2-A, 3-C",
+        "1-B, 2-C, 3-A"
+      ],
+      "correct_answer": "1-B, 2-C, 3-A",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 46,
+      "text": "What type of software requirements specify the expected behaviors and relationships between the inputs and outputs of a system?",
+      "type": "MCQ",
+      "options": [
+        "User requirements",
+        "Functional requirements",
+        "Non-functional requirements",
+        "Regulatory requirements"
+      ],
+      "correct_answer": "Functional requirements",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 47,
+      "text": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Shared data coupling",
+        "Parameter coupling",
+        "External device coupling",
+        "Message-passing interfaces"
+      ],
+      "correct_answer": "Parameter coupling",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 48,
+      "text": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p2_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": "5",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 49,
+      "text": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "CNF: 3, DNF: 1, 4, None: 2",
+        "CNF: 1, 4, DNF: 3, None: 2",
+        "CNF: 2, 3, DNF: 1, 4",
+        "CNF: 1, DNF: 3, None: 2, 4"
+      ],
+      "correct_answer": "CNF: 3, DNF: 1, 4, None: 2",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 50,
+      "text": "A software system calculates shipping charges based on the weight of a package using the following rules: \u2022 If the weight is 1 to 5 kg, the shipping charge is Rs 10. \u2022 If the weight is 6 to 20 kg, the shipping charge is Rs 20. \u2022 If the weight is 21 to 50 kg, the shipping charge is Rs 50. \u2022 If the weight is above 50 kg, the shipping charge is Rs 100. How many equivalence class partitions can be identified in the given scenario?",
+      "type": "MCQ",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_answer": "5",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 51,
+      "text": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "All-defs coverage",
+        "All-uses coverage",
+        "All du-paths coverage",
+        "None of these"
+      ],
+      "correct_answer": "All-defs coverage",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 52,
+      "text": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p4_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p4_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p4_Im7.webp|inline]",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p4_Im4.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p4_Im5.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p4_Im6.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p4_Im7.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 53,
+      "text": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p4_Im9.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p5_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p5_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p5_Im5.webp|inline]",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p4_Im9.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p5_Im2.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p5_Im3.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p5_Im5.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 54,
+      "text": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p5_Im7.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "{44, 45, 50, 100, 101}",
+        "{44, 45, 46, 50, 100}",
+        "{45, 60, 70, 80, 100}",
+        "{44, 45, 46, 50, 99, 100, 101}"
+      ],
+      "correct_answer": [
+        "{44, 45, 50, 100, 101}",
+        "{44, 45, 46, 50, 99, 100, 101}"
+      ],
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 55,
+      "text": "With reference to the truth table row numbers (Row#), identify the one that covers all the RACC pairs for the clause a .",
+      "type": "MCQ",
+      "options": [
+        "(3,7), (3,8), (4,7), (4,8)",
+        "(3,7), (4,8)",
+        "(1,3), (2,4)",
+        "No feasible pairs for P = T and (1,5), (1,6), (2,5), (2,6) for P = F"
+      ],
+      "correct_answer": "(3,7), (4,8)",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p6_Im1.webp|block]",
+      "group_id": "6406531172620",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 56,
+      "text": "With reference to the truth table row numbers (Row#), identify the one that covers all the RICC pairs for the clause a .",
+      "type": "MCQ",
+      "options": [
+        "(3,7), (3,8), (4,7), (4,8)",
+        "No feasible pairs for P = T and (1,5), (1,6), (2,5), (2,6) for P = F",
+        "(3,4) for P = T and (1,2), (5,6), (7,8) for P = F",
+        "No feasible pairs for P = T and (1,5), (2,6) for P = F"
+      ],
+      "correct_answer": "No feasible pairs for P = T and (1,5), (2,6) for P = F",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p6_Im1.webp|block]",
+      "group_id": "6406531172620",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 57,
+      "text": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p7_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p7_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p7_Im7.webp|inline]",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p7_Im2.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p7_Im1.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p7_Im4.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p7_Im5.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p7_Im7.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531172623",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 58,
+      "text": "From among the following, identify the set of concrete test inputs that execute all the instances of symbolic execution.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p8_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p8_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p8_Im4.webp|inline]",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p7_Im1.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p8_Im2.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p8_Im4.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p8_Im5.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531172623",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 59,
+      "text": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p9_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p9_Im3.webp|inline]",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p9_Im1.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p8_Im7.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p9_Im3.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p9_Im5.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p9_Im6.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p8_Im7.webp|block]",
+      "group_id": "6406531172626",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 60,
+      "text": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p9_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p9_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p9_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p9_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p9_Im12.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p9_Im11.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p9_Im8.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p8_Im7.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p9_Im9.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p9_Im10.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p9_Im11.webp",
+        "/data/images/cs3002_2025T1_Q2_NA_p9_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p8_Im7.webp|block]",
+      "group_id": "6406531172626",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 61,
+      "text": "Identify the set of test paths that provide edge-pair coverage?",
+      "type": "MCQ",
+      "options": [
+        "{[1,3,4,3,4,3,5]}",
+        "{[1,2,5], [1,3,4,3,4,3,5]}",
+        "{[1,2,5], [1,3,5], [1,3,4,3,4,3,5]}",
+        "{[1,2,5], [1,3,5], [1,3,4,3,5]}"
+      ],
+      "correct_answer": "{[1,2,5], [1,3,5], [1,3,4,3,4,3,5]}",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "6406531172629",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 62,
+      "text": "What is the cyclomatic complexity of the given CFG?",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": "3",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T1_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2025T1_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "6406531172629",
+      "section_name": "Sw Testing"
+    }
+  ],
+  "id": "cs3002-2025t1-q2-na",
+  "course_code": "CS3002",
+  "course_name": "Software Testing",
+  "level": "Degree",
+  "term": "Jan 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

@@ -1,0 +1,423 @@
+{
+  "title": "DEGREE LEVEL : COMPUTER SYSTEM DESIGN (COMPUTER BASED EXAM)",
+  "filename": "cs3031_2025T3_ET_AN.pdf",
+  "total_questions": 21,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : COMPUTER SYSTEM DESIGN (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "A multiplexer is a combinational circuit that selects one input from multiple inputs and forwards it to a single output.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "A JK flip-flop cannot store information without a continuous clock input.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "In a 4-bit system, the two's complement of a binary number 1010 can be represented as -6.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "A decoder performs the inverse operation of a multiplexer.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "According to Moore's Law, the size of transistors on an integrated circuit doubles approximately every two years.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Using 2's complement method, evaluate [IMAGE: /data/images/cs3031_2025T3_ET_AN_p2_Im3.webp|inline] where [IMAGE: /data/images/cs3031_2025T3_ET_AN_p2_Im4.webp|inline] and [IMAGE: /data/images/cs3031_2025T3_ET_AN_p2_Im5.webp|inline] . Give the answer in 8-bit binary format.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "01100010",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p2_Im3.webp",
+        "/data/images/cs3031_2025T3_ET_AN_p2_Im4.webp",
+        "/data/images/cs3031_2025T3_ET_AN_p2_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "OR,NAND",
+        "OR,NOR",
+        "AND,NOR",
+        "AND,NAND",
+        "None of these"
+      ],
+      "correct_answer": "AND,NAND",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p3_Im4.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p4_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Given that NOT, 2-input AND/OR gates have delays of 1 ns, what will be the maximum delay of a 2x1 multiplexer circuit? Note: if the answer is 1 ns, write 1.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the circuit consisting of three D flipflops and one NAND gate as shown below. The initial states are Q1=1, Q2=0, and Q3=1. What is the output after (Q1,Q2,Q3) after 5 clock pulse? [IMAGE: /data/images/cs3031_2025T3_ET_AN_p5_Im1.webp|block] Note: If answer is Q1=0, Q2=0, Q3=0, then write 000",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "101",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p5_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "16",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p6_Im1.webp|block] Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0x06",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the circuit diagram as shown below. Assuming it was initially cleared to 0, state the output(Y) for the next 4 clock pulses. [IMAGE: /data/images/cs3031_2025T3_ET_AN_p7_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1111",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p8_Im4.webp|inline] [IMAGE: /data/images/cs3031_2025T3_ET_AN_p8_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p9_Im1.webp|block]"
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p8_Im1.webp",
+        "/data/images/cs3031_2025T3_ET_AN_p8_Im4.webp",
+        "/data/images/cs3031_2025T3_ET_AN_p8_Im6.webp",
+        "/data/images/cs3031_2025T3_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "A modern RISC processor contains 32 registers in its general-purpose register file. The Arithmetic Logic Unit (ALU) of the processor is capable of executing 8 distinct operations, which include standard arithmetic and logical functions. What is the [IMAGE: /data/images/cs3031_2025T3_ET_AN_p9_Im2.webp|inline] number of bits required by a [IMAGE: /data/images/cs3031_2025T3_ET_AN_p9_Im3.webp|inline] instruction to perform a bitwise [IMAGE: /data/images/cs3031_2025T3_ET_AN_p9_Im4.webp|inline] operation between two source operands located in the register file, and store the computational result back into a designated destination register?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "18",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p9_Im2.webp",
+        "/data/images/cs3031_2025T3_ET_AN_p9_Im3.webp",
+        "/data/images/cs3031_2025T3_ET_AN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p10_Im1.webp|block] Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0x2EB3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "In the circuit shown below, D1 and D2 are positive triggered D flipflops, x1 and x2 are inputs of D1 and D2 flipflop. Choose the correct timing diagram of the output Y. [IMAGE: /data/images/cs3031_2025T3_ET_AN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p11_Im4.webp|block]",
+        "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p11_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p12_Im1.webp|block]",
+        "None of these"
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p11_Im1.webp",
+        "/data/images/cs3031_2025T3_ET_AN_p11_Im4.webp",
+        "/data/images/cs3031_2025T3_ET_AN_p11_Im6.webp",
+        "/data/images/cs3031_2025T3_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "[IMAGE: /data/images/cs3031_2025T3_ET_AN_p12_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2025T3_ET_AN_p12_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Consider a gated D-Latch constructed using NAND gates. The initial input (at 0 ns) is D = 1, and the write enable is high. The write enable toggles between high and low every 5 ns. The input D changes from 0 to 1 and from 1 to 0 every 6 seconds. What will be the output Q after 22 ns?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Design"
+    }
+  ],
+  "id": "cs3031-2025t3-et-an",
+  "course_code": "CS3031",
+  "course_name": "Computer Systems Design",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

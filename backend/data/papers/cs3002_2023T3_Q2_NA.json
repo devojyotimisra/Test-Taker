@@ -1,0 +1,461 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)",
+  "filename": "cs3002_2023T3_Q2_NA.pdf",
+  "total_questions": 19,
+  "total_marks": 19.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose a mobile application for hotel room booking has a requirement that the language interface be available in all prominent Indian languages. Identify the correct type of the requirement.",
+      "type": "MCQ",
+      "options": [
+        "Business requirement",
+        "User requirement",
+        "Regulatory requirement",
+        "Non-functional requirement"
+      ],
+      "correct_answer": "User requirement",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a banking web application that determines the annual interest rate applied to a housing loan (only) based on the tenure (number of years to repay the loan). The annual interest rate is calculated as follows: \u2022 The tenure can be 1 to 20 years. \u2022 If the tenure is between 1 and 5 years, then the rate is 11%. \u2022 If the tenure is between 6 and 10 years, then the rate is 10%. \u2022 If the tenure is between 11 and 15 years, then the rate is 9%. \u2022 If the tenure is between 16 and 20 years, then the rate is 8.5% What is the minimum number of test cases to be prepared for testing the application using the equivalence class partitioning technique?",
+      "type": "MCQ",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 For a predicate p with n clauses, how many test cases need to be prepared for all combinations coverage?",
+      "type": "MCQ",
+      "options": [
+        "n \u2212 1",
+        "2 n",
+        "n 2",
+        "n !"
+      ],
+      "correct_answer": "2 n",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In an FSM (Finite State Machine), which of the following is represented as preconditions ?",
+      "type": "MCQ",
+      "options": [
+        "Conditions that must be true for transitions to be taken.",
+        "Changes to variables that cause transitions to be taken.",
+        "The initial state of the FSM.",
+        "The possible changes from one state to another."
+      ],
+      "correct_answer": "Conditions that must be true for transitions to be taken.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Modules interact with each other using well-defined interfaces . Which of the following interfaces allows data and control both to be passed in both directions between two modules?",
+      "type": "MCQ",
+      "options": [
+        "Procedure call interface",
+        "Message passing interface",
+        "Shared memory interface",
+        "All of these"
+      ],
+      "correct_answer": "Procedure call interface",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose we need to test a program that takes an integer as input. The input domain can be partitioned into 2 equivalence classes: an input x is valid if 10 < x < 100, and the rest are invalid inputs. Identify the correct set(s) of BVA (Boundary Value Analysis) test cases for the valid partition from the following options.",
+      "type": "multichoice",
+      "options": [
+        "{ x = 10, x = 15, x = 100}",
+        "{ x = 11, x = 15, x = 99}",
+        "{ x = 10, x = 11, x = 15, x = 99, x = 100}",
+        "{ x = 10, x = 11, x = 12, x = 15, x = 98, x = 99, x = 100}"
+      ],
+      "correct_answer": [
+        "{ x = 10, x = 11, x = 15, x = 99, x = 100}",
+        "{ x = 10, x = 11, x = 12, x = 15, x = 98, x = 99, x = 100}"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the annotated control flow graph (CFG) given below. [IMAGE: /data/images/cs3002_2023T3_Q2_NA_p5_Im3.webp|block] Which of the following test case inputs will result in test path(s) that visit(s) the edge (4, 6) ?",
+      "type": "multichoice",
+      "options": [
+        "{ x = 10, y = 30, z = 20}",
+        "{ x = 30, y = 30, z = 20}",
+        "{ x = 30, y = 20, z = 10}",
+        "{ x = 30, y = 10, z = 20}"
+      ],
+      "correct_answer": [
+        "{ x = 10, y = 30, z = 20}",
+        "{ x = 30, y = 10, z = 20}"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2023T3_Q2_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider input space partitioning (ISP) for a program that computes the annual interest rate of a fixed deposit scheme presented in the table below, consisting of characteristics and blocks. [IMAGE: /data/images/cs3002_2023T3_Q2_NA_p6_Im3.webp|block] What is the minimum number of tests (including the base choice) required to satisfy base choice coverage (BCC) criterion?",
+      "type": "MCQ",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct_answer": "8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2023T3_Q2_NA_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following truth table for predicate p . [IMAGE: /data/images/cs3002_2023T3_Q2_NA_p7_Im3.webp|block] With reference to the truth table row numbers (Row # ) above, identify the GACC pairs for clause a from the following options?",
+      "type": "MCQ",
+      "options": [
+        "Row (2, 4) only",
+        "Row (1, 2) only",
+        "Rows (1, 3) and (2, 4)",
+        "Rows (1, 4) and (2, 3)"
+      ],
+      "correct_answer": "Row (2, 4) only",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2023T3_Q2_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2023T3_Q2_NA_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p8_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p8_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2023T3_Q2_NA_p8_Im1.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p8_Im3.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p8_Im4.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p8_Im6.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2023T3_Q2_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p9_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p9_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2023T3_Q2_NA_p9_Im1.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p9_Im3.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p9_Im4.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p9_Im6.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the annotated CFG given below. [IMAGE: /data/images/cs3002_2023T3_Q2_NA_p10_Im1.webp|block] Which of the following criteria does the set of paths below satisfy? {[1, 2, 4, 5, 6, 8], [1, 2, 4, 5, 7, 8], [1, 2, 3, 5, 6, 8]}",
+      "type": "MCQ",
+      "options": [
+        "All-defs coverage",
+        "All-uses coverage",
+        "All du-paths coverage",
+        "None of these"
+      ],
+      "correct_answer": "All-defs coverage",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2023T3_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following represents p a , the conditions under which the clause a determines p ?",
+      "type": "MCQ",
+      "options": [
+        "\u00ac b \u2228 c",
+        "\u00ac b \u2228 \u00ac c",
+        "\u00ac b \u2227 \u00ac c",
+        "b \u2227 c"
+      ],
+      "correct_answer": "\u00ac b \u2228 \u00ac c",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2023T3_Q2_NA_p10_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p10_Im4.webp|block]",
+      "group_id": "640653691172",
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 From the given options, identify all pairs of test requirements to satisfy restricted active clause coverage (RACC) for clause a .",
+      "type": "MCQ",
+      "options": [
+        "{( a = F , b = T , c = T ), ( a = F , b = F , c = T ) {( a = F , b = T , c = F ), ( a = F , b = F , c = F )",
+        "{( a = T , b = T , c = F ), ( a = F , b = F , c = T ) {( a = T , b = F , c = T ), ( a = F , b = F , c = F ) {( a = T , b = F , c = F ), ( a = F , b = T , c = F )",
+        "{( a = T , b = T , c = F ), ( a = F , b = T , c = F ) {( a = T , b = F , c = T ), ( a = F , b = F , c = T ) {( a = T , b = F , c = F ), ( a = F , b = F , c = F )",
+        "{( a = T , b = T , c = F ), ( a = F , b = T , c = F ) {( a = T , b = T , c = F ), ( a = F , b = F , c = T ) {( a = T , b = F , c = T ), ( a = F , b = T , c = F ) {( a = T , b = F , c = T ), ( a = F , b = F , c = T )"
+      ],
+      "correct_answer": "{( a = T , b = T , c = F ), ( a = F , b = T , c = F ) {( a = T , b = F , c = T ), ( a = F , b = F , c = T ) {( a = T , b = F , c = F ), ( a = F , b = F , c = F )",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2023T3_Q2_NA_p10_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p10_Im4.webp|block]",
+      "group_id": "640653691172",
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2023T3_Q2_NA_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p13_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p13_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p13_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p13_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p13_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2023T3_Q2_NA_p13_Im1.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p12_Im1.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p13_Im3.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p13_Im4.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p13_Im6.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p13_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p12_Im1.webp|block]",
+      "group_id": "640653691177",
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2023T3_Q2_NA_p13_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p13_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p13_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p13_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p13_Im12.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p13_Im9.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2023T3_Q2_NA_p13_Im8.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p12_Im1.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p13_Im9.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p13_Im10.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p13_Im11.webp",
+        "/data/images/cs3002_2023T3_Q2_NA_p13_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p12_Im1.webp|block]",
+      "group_id": "640653691177",
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following test paths achieves node coverage, but not edge coverage?",
+      "type": "MCQ",
+      "options": [
+        "[1, 2, 6]",
+        "[1, 2, 3, 4, 5, 2, 6]",
+        "[1, 2, 3, 5, 2, 6]",
+        "[1, 2, 3, 5, 2, 3, 4, 5, 2, 6]"
+      ],
+      "correct_answer": "[1, 2, 3, 4, 5, 2, 6]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2023T3_Q2_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p14_Im1.webp|block]",
+      "group_id": "640653691180",
+      "section_name": "SW Testing"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Identify the total number of test requirements in prime path coverage.",
+      "type": "MCQ",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correct_answer": "12",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2023T3_Q2_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2023T3_Q2_NA_p14_Im1.webp|block]",
+      "group_id": "640653691180",
+      "section_name": "SW Testing"
+    }
+  ],
+  "id": "cs3002-2023t3-q2-na",
+  "course_code": "CS3002",
+  "course_name": "Software Testing",
+  "level": "Degree",
+  "term": "Sep 2023",
+  "year": 2023,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

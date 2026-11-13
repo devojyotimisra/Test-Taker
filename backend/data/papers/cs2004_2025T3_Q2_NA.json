@@ -1,0 +1,463 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)",
+  "filename": "cs2004_2025T3_Q2_NA.pdf",
+  "total_questions": 18,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 64,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 65,
+      "text": "Consider the quadratic form [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p1_Im3.webp|inline] . If [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p1_Im4.webp|inline] , where [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p1_Im5.webp|inline] and [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p1_Im6.webp|inline] is a [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p1_Im7.webp|inline] matrix, which of the following is [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p1_Im8.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p1_Im10.webp|block]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p1_Im11.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p1_Im10.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p1_Im3.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p1_Im4.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p1_Im5.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p1_Im6.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p1_Im7.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p1_Im8.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p1_Im10.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p1_Im11.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 66,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im7.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im2.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im4.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im6.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im7.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 67,
+      "text": "Consider a matrix [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im9.webp|inline] of shape [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im10.webp|inline] . The SVD of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im11.webp|inline] is given by [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im12.webp|inline] . The columns of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im13.webp|inline] are the left singular vectors and the columns of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im14.webp|inline] are the right singular vectors. The following details are given: [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p2_Im15.webp|block] \u2022 The first left singular vector is \u2022 The first right singular vector is [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p3_Im1.webp|block] \u2022 The first singular value is [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p3_Im2.webp|inline] Find [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p3_Im3.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3.9 to 4.1",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im9.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im10.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im11.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im12.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im13.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im14.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p2_Im15.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p3_Im1.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p3_Im2.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 68,
+      "text": "Suppose [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p3_Im4.webp|inline] . What is the value of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p3_Im5.webp|inline] when [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p3_Im6.webp|inline] is minimum?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "63.9 to 64.1",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p3_Im4.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p3_Im5.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 69,
+      "text": "The singular value decomposition exists only for square matrices.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "For each sub-question, answer whether it is true or false.",
+      "group_id": "6406531828169",
+      "section_name": "MLF"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 70,
+      "text": "If [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im3.webp|inline] is Hermitian, then eigenvectors corresponding to distinct eigenvalues are orthogonal.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "For each sub-question, answer whether it is true or false.",
+      "group_id": "6406531828169",
+      "section_name": "MLF"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 71,
+      "text": "Enter the value of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im8.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.1 to 0.1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im8.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im4.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im5.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im6.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a unitary matrix [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im4.webp|inline] as given below: [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im5.webp|block] [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im6.webp|block] Also, and [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im7.webp|inline] .",
+      "group_id": "6406531828172",
+      "section_name": "MLF"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 72,
+      "text": "Enter the value of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p5_Im1.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-1.1 to -0.9",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p5_Im1.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im4.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im5.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im6.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a unitary matrix [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im4.webp|inline] as given below: [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im5.webp|block] [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im6.webp|block] Also, and [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im7.webp|inline] .",
+      "group_id": "6406531828172",
+      "section_name": "MLF"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 73,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p5_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "S is an infinite set.",
+        "S is a finite set that has at least two elements.",
+        "S is an empty set.",
+        "S has exactly one element."
+      ],
+      "correct_answer": "S is an infinite set.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p5_Im2.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im4.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im5.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im6.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a unitary matrix [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im4.webp|inline] as given below: [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im5.webp|block] [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im6.webp|block] Also, and [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p4_Im7.webp|inline] .",
+      "group_id": "6406531828172",
+      "section_name": "MLF"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 74,
+      "text": "Which of the following are the singular values of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im1.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im3.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im1.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p5_Im5.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im3.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im5.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p5_Im5.webp|block] Consider .",
+      "group_id": "6406531828176",
+      "section_name": "MLF"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 75,
+      "text": "If [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im7.webp|inline] is a symmetric matrix, consider statements P and Q. \u2022 P: If [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im8.webp|inline] is an eigenvalue of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im9.webp|inline] , then [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im10.webp|inline] is a singular value of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im11.webp|inline] . \u2022 Q: If [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im12.webp|inline] is a singular value of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im13.webp|inline] , then [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im14.webp|inline] is an eigenvalue of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im15.webp|inline] . Select the most appropriate option. Hint : In the first sub-question, [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p6_Im16.webp|inline] is symmetric, and you should first look at its eigenvalues, which will lead you to some observations. Are these observations true for any symmetric matrix?",
+      "type": "MCQ",
+      "options": [
+        "P is true, Q is false",
+        "Q is true, P is false",
+        "Both P and Q are true",
+        "Both P and Q are false"
+      ],
+      "correct_answer": "Both P and Q are false",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im7.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im8.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im9.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im10.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im11.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im12.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im13.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im14.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im15.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p6_Im16.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p5_Im5.webp|block] Consider .",
+      "group_id": "6406531828176",
+      "section_name": "MLF"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 76,
+      "text": "Starting at [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im3.webp|inline] , run two steps of gradient descent with learning rate [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im4.webp|inline] to obtain [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im5.webp|inline] . If [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im6.webp|inline] , enter the value of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im7.webp|inline] correct to two places after the decimal. Note that the sequence of iterates will be: [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im8.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.35 to 0.37",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im3.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im4.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im5.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im6.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im7.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im8.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im1.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the task of minimizing the function [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im1.webp|inline] . Let [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im2.webp|inline] be some arbitrary point in the plane other than the origin.",
+      "group_id": "6406531828179",
+      "section_name": "MLF"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 77,
+      "text": "For what value of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im9.webp|inline] will gradient descent reach the minimum after exactly one step? Enter your answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.49 to 0.51",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im9.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im1.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the task of minimizing the function [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im1.webp|inline] . Let [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im2.webp|inline] be some arbitrary point in the plane other than the origin.",
+      "group_id": "6406531828179",
+      "section_name": "MLF"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 78,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p8_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "0.3",
+        "0.9",
+        "1",
+        "1.3"
+      ],
+      "correct_answer": [
+        "0.3",
+        "0.9"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p8_Im1.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im1.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the task of minimizing the function [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im1.webp|inline] . Let [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p7_Im2.webp|inline] be some arbitrary point in the plane other than the origin.",
+      "group_id": "6406531828179",
+      "section_name": "MLF"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 79,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p8_Im5.webp|block] If the covariance matrix of the dataset is , find [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p8_Im6.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.9 to 2.1",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p8_Im5.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p8_Im6.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p8_Im4.webp|block]",
+      "group_id": "6406531828183",
+      "section_name": "MLF"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 80,
+      "text": "If the unit-norm eigenvector corresponding to the largest eigenvalue of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im1.webp|inline] is [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im2.webp|inline] , find [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im3.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3.9 to 4.1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im1.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im2.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im3.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p8_Im4.webp|block]",
+      "group_id": "6406531828183",
+      "section_name": "MLF"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 81,
+      "text": "The data-points [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im4.webp|inline] and [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im5.webp|inline] are added to [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im6.webp|inline] to get [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im7.webp|inline] . PCA is run on [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im8.webp|inline] . The covariance matrix of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im9.webp|inline] is [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im10.webp|inline] and the unit-norm eigenvector corresponding to the largest eigenvalue of [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im11.webp|inline] is [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im12.webp|inline] . Which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im14.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im16.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im17.webp|inline] [IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im18.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p9_Im14.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im4.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im5.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im6.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im7.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im8.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im9.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im10.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im11.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im12.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p8_Im4.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im14.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im16.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im17.webp",
+        "/data/images/cs2004_2025T3_Q2_NA_p9_Im18.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q2_NA_p8_Im4.webp|block]",
+      "group_id": "6406531828183",
+      "section_name": "MLF"
+    }
+  ],
+  "id": "cs2004-2025t3-q2-na",
+  "course_code": "CS2004",
+  "course_name": "Machine Learning Foundations",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

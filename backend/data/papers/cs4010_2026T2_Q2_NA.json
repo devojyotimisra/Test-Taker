@@ -1,0 +1,434 @@
+{
+  "title": "DEGREE LEVEL : APPLICATION DEVELOPMENT LAB (COMPUTER BASED EXAM)",
+  "filename": "cs4010_2026T2_Q2_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : APPLICATION DEVELOPMENT LAB (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Minimum Coin Change using Dynamic Programming You are given an unlimited supply of coins of different denominations and a target amount. Your task is to determine the minimum number of coins required to make the target amount exactly. If it is not possible to form the target amount, the algorithm should report that no solution exists. A common Dynamic Programming approach solves this problem by computing the minimum number of coins required for all smaller amounts before calculating the answer for the target amount. Which of the following statements is NOT true about solving the Minimum Coin Change problem using Dynamic Programming?",
+      "type": "MCQ",
+      "options": [
+        "We can define each subproblem as finding the minimum number of coins required to make every amount from 0 up to the target amount.",
+        "The minimum number of coins required for a larger amount can be computed using the optimal solutions already obtained for smaller amounts.",
+        "A Dynamic Programming solution stores the minimum number of coins required for each intermediate amount so that these values can be reused instead of being recomputed.",
+        "The order in which the Dynamic Programming table is filled (for example, solving larger amounts before smaller ones without already having their answers) does not affect the correctness of the algorithm."
+      ],
+      "correct_answer": "The order in which the Dynamic Programming table is filled (for example, solving larger amounts before smaller ones without already having their answers) does not affect the correctness of the algorithm.",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the below express code. [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p2_Im1.webp|block] When a GET request is made to the route [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p2_Im2.webp|inline] , what will be logged in the server logs?",
+      "type": "MCQ",
+      "options": [
+        "A B C",
+        "A B",
+        "B C",
+        "A C"
+      ],
+      "correct_answer": "A B",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p2_Im1.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the below code. [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p2_Im5.webp|block] What will be returned in the response for the below request [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p2_Im6.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "20",
+        "50",
+        "undefined",
+        "Runtime Error"
+      ],
+      "correct_answer": "50",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p2_Im5.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the below code. [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p3_Im1.webp|block] Assume that bcrypt generates a unique random salt for every call, so the same salt is never reused. What will be the output of the above program?",
+      "type": "MCQ",
+      "options": [
+        "Runtime Error",
+        "true",
+        "false",
+        "The behavior is unpredictable"
+      ],
+      "correct_answer": "false",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Which of the following are valid ways to create a shallow copy of an array?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p3_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p3_Im7.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p3_Im4.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p3_Im5.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p3_Im6.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Which of the following statements about Entity design is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "Each entity generally represents one database table.",
+        "Every entity must have exactly one string column.",
+        "Primary keys uniquely identify each record.",
+        "Entity decorators help ORM map classes to database tables."
+      ],
+      "correct_answer": [
+        "Each entity generally represents one database table.",
+        "Primary keys uniquely identify each record.",
+        "Entity decorators help ORM map classes to database tables."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the below javascript program. [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p4_Im3.webp|block] What will be the output of the above program?",
+      "type": "MCQ",
+      "options": [
+        "Runtime Error",
+        "undefined",
+        "2",
+        "3"
+      ],
+      "correct_answer": "3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the below nodejs server code. [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p4_Im4.webp|block] Assume the server is running locally. What happens when a request is made to the URL [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p4_Im5.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "The response completes successfully.",
+        "The client keeps waiting because the response never ends.",
+        "The server crashes immediately.",
+        "Node.js automatically calls [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p5_Im3.webp|inline] ."
+      ],
+      "correct_answer": "The client keeps waiting because the response never ends.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p4_Im4.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p4_Im5.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the below nodejs server code. [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p5_Im4.webp|block] Assume the server is running locally. What will be returned when a request is made to the URL [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p5_Im5.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "Home (with status code 200)",
+        "About (with status code 200)",
+        "Page Not Found (with status code 404)",
+        "Internal Server Error (with status code 500)"
+      ],
+      "correct_answer": "Page Not Found (with status code 404)",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p5_Im4.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the following relation: Product(product_id, product_name, category, price) The following SQL query is executed: [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p6_Im1.webp|block] Which of the following best describes the output?",
+      "type": "MCQ",
+      "options": [
+        "The four most expensive products in the Electronics category.",
+        "The 3rd, 4th, 5th and 6th most expensive products in the Electronics category.",
+        "All Electronics products except the two most expensive ones.",
+        "The 3rd, 4th, 5th and 6th cheapest products in the Electronics category."
+      ],
+      "correct_answer": "The 3rd, 4th, 5th and 6th most expensive products in the Electronics category.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the below typeORM entity. [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p6_Im4.webp|block] Assume the corresponding table already exists. Which of the following operations will successfully insert a new record?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p7_Im2.webp|block]",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p7_Im4.webp|block]",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p7_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p7_Im4.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p6_Im4.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p7_Im2.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p7_Im4.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p7_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider the below middleware implementation. [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p7_Im6.webp|block] What is the potential issue in the above implementation?",
+      "type": "MCQ",
+      "options": [
+        "If [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p7_Im7.webp|inline] throws an exception, the server may return an unhandled error.",
+        "Missing Authorization header.",
+        "JWT verification always returns false.",
+        "There is no issue."
+      ],
+      "correct_answer": "If [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p7_Im7.webp|inline] throws an exception, the server may return an unhandled error.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p7_Im6.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Consider the following sequence of Git commands. [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p8_Im2.webp|block] Which of the following statements is true?",
+      "type": "MCQ",
+      "options": [
+        "The latest changes are already committed.",
+        "The latest changes are staged.",
+        "The latest changes exist only in the working directory.",
+        "Git automatically creates another commit."
+      ],
+      "correct_answer": "The latest changes exist only in the working directory.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the below typeorm query operation. [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p8_Im4.webp|block] What is the potential issue in the above logic?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p8_Im5.webp|inline] always returns an array.",
+        "If no matching record exists, accessing [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p8_Im6.webp|inline] may cause a runtime error.",
+        "TypeORM automatically creates a default user.",
+        "There is no issue."
+      ],
+      "correct_answer": "If no matching record exists, accessing [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p8_Im6.webp|inline] may cause a runtime error.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p8_Im4.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p8_Im5.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider the below middleware implementation. [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p9_Im2.webp|block] What will be returned if a GET request is made to the route [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p9_Im3.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p9_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p9_Im8.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p9_Im2.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p9_Im3.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p9_Im4.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p9_Im5.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p9_Im6.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p9_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Which of the following [IMAGE: /data/images/cs4010_2026T2_Q2_NA_p9_Im9.webp|inline] compiler options are correctly matched with their purpose?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p9_Im10.webp|inline] \u2192 Specifies the source folder.",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p10_Im2.webp|inline] \u2192 Specifies where compiled JavaScript files are generated.",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p10_Im3.webp|inline] \u2192 Specifies the JavaScript version to generate.",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p10_Im5.webp|inline] \u2192 Ignore all TypeScript errors."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p9_Im10.webp|inline] \u2192 Specifies the source folder.",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p10_Im2.webp|inline] \u2192 Specifies where compiled JavaScript files are generated.",
+        "[IMAGE: /data/images/cs4010_2026T2_Q2_NA_p10_Im3.webp|inline] \u2192 Specifies the JavaScript version to generate."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4010_2026T2_Q2_NA_p9_Im9.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p9_Im10.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p10_Im2.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p10_Im3.webp",
+        "/data/images/cs4010_2026T2_Q2_NA_p10_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev Lab"
+    }
+  ],
+  "id": "cs4010-2026t2-q2-na",
+  "course_code": "CS4010",
+  "course_name": "Modern Algorithm Design",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

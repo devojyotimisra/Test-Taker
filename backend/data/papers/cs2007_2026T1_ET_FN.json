@@ -1,0 +1,455 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
+  "filename": "cs2007_2026T1_ET_FN.pdf",
+  "total_questions": 17,
+  "total_marks": 37.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider a dataset with two data-points for a binary classification problem with features in [IMAGE: /data/images/cs2007_2026T1_ET_FN_p1_Im3.webp|inline] . [IMAGE: /data/images/cs2007_2026T1_ET_FN_p1_Im4.webp|inline] is a data-point from the positive class while [IMAGE: /data/images/cs2007_2026T1_ET_FN_p1_Im5.webp|inline] is from the negative class. We now consider three linear classifiers: perceptron, logistic regression and SVM. [IMAGE: /data/images/cs2007_2026T1_ET_FN_p1_Im6.webp|block] [IMAGE: /data/images/cs2007_2026T1_ET_FN_p1_Im7.webp|block] If [IMAGE: /data/images/cs2007_2026T1_ET_FN_p1_Im8.webp|inline] is the weight vector with the largest margin, which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        "All three classifiers output [IMAGE: /data/images/cs2007_2026T1_ET_FN_p1_Im9.webp|inline]",
+        "Only SVM outputs [IMAGE: /data/images/cs2007_2026T1_ET_FN_p1_Im10.webp|inline]",
+        "Only SVM and perceptron output [IMAGE: /data/images/cs2007_2026T1_ET_FN_p1_Im11.webp|inline]",
+        "Only perceptron and logistic regression output [IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im2.webp|inline]"
+      ],
+      "correct_answer": "All three classifiers output [IMAGE: /data/images/cs2007_2026T1_ET_FN_p1_Im9.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p1_Im3.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p1_Im4.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p1_Im5.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p1_Im6.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p1_Im7.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p1_Im8.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p1_Im9.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p1_Im10.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p1_Im11.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider a dataset in [IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im3.webp|inline] defined as [IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im4.webp|inline] . Which of the following weight vectors [IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im5.webp|inline] can correctly separate the two classes using a linear decision boundary? (Select all that apply.)",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im10.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im9.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im3.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im4.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im5.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im7.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im8.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im9.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider a dataset consisting of [IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im11.webp|inline] datapoints [IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im12.webp|inline] , where each [IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im13.webp|inline] . Let the four features be denoted by [IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im14.webp|inline] and [IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im15.webp|inline] . Suppose the features satisfy the following linear relationship: [IMAGE: /data/images/cs2007_2026T1_ET_FN_p2_Im16.webp|block] That is, one of the features is an exact linear combination of others. A linear regression model is trained to predict a target variable [IMAGE: /data/images/cs2007_2026T1_ET_FN_p3_Im1.webp|inline] using these features. Consider the following statements: Which of the following is (are) true.",
+      "type": "multichoice",
+      "options": [
+        "Linear regression without regularization will achieve training MSE less than or equal to that of ridge regression.",
+        "The solution for linear regression without regularization may not be unique.",
+        "Ridge regression (L2 regularization) will always set at least one coefficient exactly to zero.",
+        "Lasso regression (L1 regularization) can force some feature weights to become exactly zero."
+      ],
+      "correct_answer": [
+        "Linear regression without regularization will achieve training MSE less than or equal to that of ridge regression.",
+        "The solution for linear regression without regularization may not be unique.",
+        "Lasso regression (L1 regularization) can force some feature weights to become exactly zero."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im11.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im12.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im13.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im14.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im15.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p2_Im16.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider a binary classification dataset in [IMAGE: /data/images/cs2007_2026T1_ET_FN_p3_Im4.webp|inline] that is linearly separable. Suppose there exist two distinct weight vectors [IMAGE: /data/images/cs2007_2026T1_ET_FN_p3_Im5.webp|inline] and [IMAGE: /data/images/cs2007_2026T1_ET_FN_p3_Im6.webp|inline] that both correctly classify all training points with a positive margin. The Perceptron algorithm is applied to this dataset. Which of the following statements are correct? (Select all that apply.)",
+      "type": "multichoice",
+      "options": [
+        "The Perceptron algorithm is guaranteed to converge to [IMAGE: /data/images/cs2007_2026T1_ET_FN_p3_Im7.webp|inline] .",
+        "The final weight vector obtained by the Perceptron algorithm depends on the initialization and the order in which the data points are presented.",
+        "The Perceptron algorithm is guaranteed to converge to some separating hyperplane in a finite number of updates.",
+        "The Perceptron algorithm always converges to the maximum margin separator among all possible separating hyperplanes."
+      ],
+      "correct_answer": [
+        "The final weight vector obtained by the Perceptron algorithm depends on the initialization and the order in which the data points are presented.",
+        "The Perceptron algorithm is guaranteed to converge to some separating hyperplane in a finite number of updates."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p3_Im4.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p3_Im5.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p3_Im6.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Inscript Consider a hard-margin SVM trained on a linearly separable dataset. The optimal Lagrange multipliers are [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im1.webp|inline] . The training dataset [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im2.webp|inline] is given by [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im3.webp|block] Given the test point [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im4.webp|inline] , determine the predicted label [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im5.webp|inline] . Enter the answer as either [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im6.webp|inline] or [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im7.webp|inline] [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im8.webp|inline] The prediction for a test point [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im9.webp|inline] is given by [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im10.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im1.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im2.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im3.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im4.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im5.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im6.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im7.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im8.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im9.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Inscript Consider a binary classification problem using logistic regression. The model predicts the probability of class [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im11.webp|inline] as: [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im12.webp|block] A threshold of [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im13.webp|inline] is used for classification. The predicted class label is given by: [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im14.webp|block] The values of [IMAGE: /data/images/cs2007_2026T1_ET_FN_p4_Im15.webp|inline] for the following datapoints are: [IMAGE: /data/images/cs2007_2026T1_ET_FN_p5_Im1.webp|block] How many datapoints will be classified as class [IMAGE: /data/images/cs2007_2026T1_ET_FN_p5_Im2.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im11.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im12.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im13.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im14.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p4_Im15.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p5_Im1.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript A coin is flipped 100 times, and it lands on heads 60 times. You use a Beta(10, 40) prior to estimate the true probability of heads. Given these observations, calculate the posterior mean of the probability of heads. Enter the answer correct to three decimal places. [IMAGE: /data/images/cs2007_2026T1_ET_FN_p5_Im3.webp|block] [IMAGE: /data/images/cs2007_2026T1_ET_FN_p5_Im4.webp|block] \u2022 Pdf of Beta distribution is where [IMAGE: /data/images/cs2007_2026T1_ET_FN_p5_Im5.webp|inline] is the Beta function. \u2022 The mean of the Beta distribution is: [IMAGE: /data/images/cs2007_2026T1_ET_FN_p5_Im6.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.44 to 0.49",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p5_Im3.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p5_Im4.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p5_Im5.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript How many datapoints will incur a penalty (i.e., have non-zero slack variables [IMAGE: /data/images/cs2007_2026T1_ET_FN_p6_Im5.webp|inline] )?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p6_Im5.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p6_Im1.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p6_Im2.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p6_Im3.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following soft-margin Support Vector Machine (SVM) classifier. The solid line represents the decision boundary [IMAGE: /data/images/cs2007_2026T1_ET_FN_p6_Im1.webp|inline] , and the dotted lines represent the margin boundaries [IMAGE: /data/images/cs2007_2026T1_ET_FN_p6_Im2.webp|inline] and [IMAGE: /data/images/cs2007_2026T1_ET_FN_p6_Im3.webp|inline] . Red points correspond to the negative class, and green points correspond to the positive class. [IMAGE: /data/images/cs2007_2026T1_ET_FN_p6_Im4.webp|block]",
+      "group_id": "6406532128326",
+      "section_name": "MLT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript How many datapoints will definitely have [IMAGE: /data/images/cs2007_2026T1_ET_FN_p7_Im1.webp|inline] in the dual formulation of SVM?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p7_Im1.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p6_Im1.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p6_Im2.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p6_Im3.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following soft-margin Support Vector Machine (SVM) classifier. The solid line represents the decision boundary [IMAGE: /data/images/cs2007_2026T1_ET_FN_p6_Im1.webp|inline] , and the dotted lines represent the margin boundaries [IMAGE: /data/images/cs2007_2026T1_ET_FN_p6_Im2.webp|inline] and [IMAGE: /data/images/cs2007_2026T1_ET_FN_p6_Im3.webp|inline] . Red points correspond to the negative class, and green points correspond to the positive class. [IMAGE: /data/images/cs2007_2026T1_ET_FN_p6_Im4.webp|block]",
+      "group_id": "6406532128326",
+      "section_name": "MLT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Using Euclidean distance, what is the predicted class of [IMAGE: /data/images/cs2007_2026T1_ET_FN_p7_Im7.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p8_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p8_Im4.webp|inline]",
+        "Tie",
+        "Cannot be determined"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p8_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p7_Im7.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p7_Im2.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p7_Im3.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p7_Im4.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p7_Im5.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p7_Im6.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p8_Im2.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the given 2D diagram. The datapoints are slightly exaggerated for better visualization. Red points represent the negative class ( [IMAGE: /data/images/cs2007_2026T1_ET_FN_p7_Im2.webp|inline] ) and green points represent the positive class ( [IMAGE: /data/images/cs2007_2026T1_ET_FN_p7_Im3.webp|inline] ). A test point [IMAGE: /data/images/cs2007_2026T1_ET_FN_p7_Im4.webp|inline] is shown. Use the K-Nearest Neighbors (KNN) algorithm with [IMAGE: /data/images/cs2007_2026T1_ET_FN_p7_Im5.webp|inline] . [IMAGE: /data/images/cs2007_2026T1_ET_FN_p7_Im6.webp|block]",
+      "group_id": "6406532128332",
+      "section_name": "MLT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Which of the following best explains the classification of [IMAGE: /data/images/cs2007_2026T1_ET_FN_p8_Im5.webp|inline] ?",
+      "type": "multichoice",
+      "options": [
+        "The nearest neighbors are dominated by positive class points.",
+        "The nearest neighbors are dominated by negative class points.",
+        "Positive class points are closer in all directions.",
+        "The classification is determined by majority voting among the nearest neighbors."
+      ],
+      "correct_answer": [
+        "The nearest neighbors are dominated by negative class points.",
+        "The classification is determined by majority voting among the nearest neighbors."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p8_Im5.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p7_Im2.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p7_Im3.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p7_Im4.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p7_Im5.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the given 2D diagram. The datapoints are slightly exaggerated for better visualization. Red points represent the negative class ( [IMAGE: /data/images/cs2007_2026T1_ET_FN_p7_Im2.webp|inline] ) and green points represent the positive class ( [IMAGE: /data/images/cs2007_2026T1_ET_FN_p7_Im3.webp|inline] ). A test point [IMAGE: /data/images/cs2007_2026T1_ET_FN_p7_Im4.webp|inline] is shown. Use the K-Nearest Neighbors (KNN) algorithm with [IMAGE: /data/images/cs2007_2026T1_ET_FN_p7_Im5.webp|inline] . [IMAGE: /data/images/cs2007_2026T1_ET_FN_p7_Im6.webp|block]",
+      "group_id": "6406532128332",
+      "section_name": "MLT"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider the two decision trees shown in the figure. [IMAGE: /data/images/cs2007_2026T1_ET_FN_p9_Im1.webp|block] Which of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "Tree 1 has higher information gain than Tree 2",
+        "Tree 2 has higher information gain than Tree 1",
+        "Both trees have equal information gain",
+        "Cannot be determined without further splits"
+      ],
+      "correct_answer": "Tree 1 has higher information gain than Tree 2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Which of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "Bagging reduces variance, Boosting reduces bias",
+        "Bagging reduces bias, Boosting reduces variance",
+        "Both reduce only variance",
+        "Both reduce only bias"
+      ],
+      "correct_answer": "Bagging reduces variance, Boosting reduces bias",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the datapoints [IMAGE: /data/images/cs2007_2026T1_ET_FN_p9_Im4.webp|inline] with label [IMAGE: /data/images/cs2007_2026T1_ET_FN_p9_Im5.webp|inline] and [IMAGE: /data/images/cs2007_2026T1_ET_FN_p9_Im6.webp|inline] with label [IMAGE: /data/images/cs2007_2026T1_ET_FN_p9_Im7.webp|inline] . A hard margin SVM is applied on this dataset. Which of the following is the decision boundary for the above dataset?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p9_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p10_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p10_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p10_Im5.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T1_ET_FN_p10_Im2.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p9_Im4.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p9_Im5.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p9_Im6.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p9_Im7.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p9_Im8.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p10_Im2.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p10_Im4.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p10_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider a dataset [IMAGE: /data/images/cs2007_2026T1_ET_FN_p10_Im6.webp|inline] , where each [IMAGE: /data/images/cs2007_2026T1_ET_FN_p10_Im7.webp|inline] . Principal Component Analysis (PCA) is applied to this dataset and all the five principal components are retained. Which of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "PCA has reduced the dimensionality of the dataset because the combinations of features are de-correlated",
+        "PCA has not reduced the dimensionality of the dataset because all principal components are retained.",
+        "PCA always reduces the dimensionality of the dataset regardless of the number of components retained.",
+        "PCA can never be used for dimensionality reduction."
+      ],
+      "correct_answer": "PCA has not reduced the dimensionality of the dataset because all principal components are retained.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p10_Im6.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p10_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript Consider a regression problem in which we use a neural network with the following architecture: \u2022 Input layer has [IMAGE: /data/images/cs2007_2026T1_ET_FN_p10_Im8.webp|inline] neurons \u2022 Three hidden layers, each with [IMAGE: /data/images/cs2007_2026T1_ET_FN_p10_Im9.webp|inline] neurons \u2022 Output layer with one neuron Find the total number of parameters in the network. Ignore the biases.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "260",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_ET_FN_p10_Im8.webp",
+        "/data/images/cs2007_2026T1_ET_FN_p10_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    }
+  ],
+  "id": "cs2007-2026t1-et-fn",
+  "course_code": "CS2007",
+  "course_name": "Machine Learning Techniques",
+  "level": "Diploma in Data Science",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

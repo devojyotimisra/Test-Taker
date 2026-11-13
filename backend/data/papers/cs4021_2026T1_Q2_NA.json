@@ -1,0 +1,556 @@
+{
+  "title": "DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
+  "filename": "cs4021_2026T1_Q2_NA.pdf",
+  "total_questions": 22,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "The worst-case running time and expected running time are equal to within constant factors for any randomized algorithm.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider the statements about randomized quicksort and answer the given subquestions if they are true or false.",
+      "group_id": "6406532041520",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "An adversary can provide randomized quicksort with an input array of length [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p1_Im3.webp|inline] that forces the algorithm to run in [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p1_Im4.webp|inline] time on that input. (If you are not familiar with the [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p1_Im5.webp|inline] asymptotic notation, it roughly translates as \u201cat least\u201d. For example, we can say that it is possible to come up with an input that forces insertion sort to run for [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p1_Im6.webp|inline] steps.)",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p1_Im3.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p1_Im4.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p1_Im5.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p1_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the statements about randomized quicksort and answer the given subquestions if they are true or false.",
+      "group_id": "6406532041520",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "In RANDOMIZED-QUICKSORT, consider two distinct elements [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im1.webp|inline] and [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im2.webp|inline] with [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im3.webp|inline] . What is the probability that these two elements are compared during execution?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im7.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im1.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im2.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im3.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im7.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im8.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Generating UAR Sequences The goal of this exercise is to compute a uniformly random permutation of [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im10.webp|inline] . Assume we have a generator that produces independent uniform real numbers in [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im11.webp|inline] . Consider the following algorithm: \u2022 Generate random numbers [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im12.webp|inline] independently from [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im13.webp|inline] \u2022 Pair them as [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im14.webp|inline] \u2022 Sort the pairs in decreasing order of [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im15.webp|inline] \u2022 Output the permutation based on sorted indices Does this procedure generate a uniformly random permutation of [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p2_Im16.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im10.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im11.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im12.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im13.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im14.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im15.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p2_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Suppose that instead of putting a vertex [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im7.webp|inline] into the cover when [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im8.webp|inline] , we put [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im9.webp|inline] into the cover when [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im10.webp|inline] . What happens?",
+      "type": "MCQ",
+      "options": [
+        "We still get a valid solution, and the algorithm remains a 2-approximation.",
+        "We still get a valid solution, and the algorithm becomes a 4-approximation.",
+        "We may no longer get a valid solution."
+      ],
+      "correct_answer": "We still get a valid solution, and the algorithm becomes a 4-approximation.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im7.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im8.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im9.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im10.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im3.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im4.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im5.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following approximation algorithm for the weighted vertex cover problem: 1. Solve the relaxed linear program corresponding to the given problem: Minimize [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im3.webp|block] Subject to [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im4.webp|block] 2. [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im5.webp|inline] 3. return [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im6.webp|inline]",
+      "group_id": "6406532041525",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Suppose that instead of putting a vertex [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p4_Im2.webp|inline] into the cover when [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p4_Im3.webp|inline] , we put [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p4_Im4.webp|inline] into the cover when [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p4_Im5.webp|inline] . What happens?",
+      "type": "MCQ",
+      "options": [
+        "We still get a valid solution, and the algorithm remains a 2-approximation.",
+        "We still get a valid solution, and the algorithm becomes a [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p4_Im6.webp|inline] -approximation.",
+        "We may no longer get a valid solution."
+      ],
+      "correct_answer": "We may no longer get a valid solution.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p4_Im2.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p4_Im3.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p4_Im4.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p4_Im5.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im3.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im4.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im5.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im6.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following approximation algorithm for the weighted vertex cover problem: 1. Solve the relaxed linear program corresponding to the given problem: Minimize [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im3.webp|block] Subject to [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im4.webp|block] 2. [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im5.webp|inline] 3. return [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im6.webp|inline]",
+      "group_id": "6406532041525",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Suppose that we modify the algorithm to include vertex [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p4_Im8.webp|inline] in the cover only when [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p4_Im9.webp|inline] . What happens?",
+      "type": "MCQ",
+      "options": [
+        "We still get a valid solution, and the algorithm remains a 2-approximation.",
+        "We may no longer get a valid solution.",
+        "We get an optimal solution always."
+      ],
+      "correct_answer": "We may no longer get a valid solution.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p4_Im8.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p4_Im9.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im3.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im4.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im5.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following approximation algorithm for the weighted vertex cover problem: 1. Solve the relaxed linear program corresponding to the given problem: Minimize [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im3.webp|block] Subject to [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im4.webp|block] 2. [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im5.webp|inline] 3. return [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im6.webp|inline]",
+      "group_id": "6406532041525",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Suppose that we include vertex [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p4_Im10.webp|inline] in the cover when [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p4_Im11.webp|inline] . What happens?",
+      "type": "MCQ",
+      "options": [
+        "We always get a valid solution, but the approximation factor may become worse.",
+        "We always get an optimal solution.",
+        "We may not get a valid solution."
+      ],
+      "correct_answer": "We always get a valid solution, but the approximation factor may become worse.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p4_Im10.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p4_Im11.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im3.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im4.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im5.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following approximation algorithm for the weighted vertex cover problem: 1. Solve the relaxed linear program corresponding to the given problem: Minimize [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im3.webp|block] Subject to [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im4.webp|block] 2. [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im5.webp|inline] 3. return [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p3_Im6.webp|inline]",
+      "group_id": "6406532041525",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "A graph G is a cluster graph if and only if it does not have an induced path on 3 vertices.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp|block]",
+      "group_id": "6406532041530",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "In the DISJOINT CLUSTER VERTEX DELETION problem, if the subgraph induced on S is not a cluster graph, we can immediately return YES.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp|block]",
+      "group_id": "6406532041530",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "In the DISJOINT CLUSTER VERTEX DELETION problem, if the subgraph induced on the vertices of S is not a cluster graph, we can immediately return NO.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp|block]",
+      "group_id": "6406532041530",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "If the subgraph induced on the vertices of S is a cluster graph and a vertex in V ( G ) \\ S is adjacent to at least two vertices in S which are in different cliques, then we can delete it and leave the parameter unchanged.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp|block]",
+      "group_id": "6406532041530",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "If the subgraph induced on the vertices of S is a cluster graph and a vertex in V ( G ) \\ S is adjacent to at least two vertices in S which are in different cliques, then we can delete it and decrease the parameter by 1.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp|block]",
+      "group_id": "6406532041530",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "If the subgraph induced on the vertices of S is a cluster graph and a vertex in V ( G ) \\ S is adjacent to some but not all vertices in a clique of G [ S ], then we can delete it and leave the parameter unchanged.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp|block]",
+      "group_id": "6406532041530",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "If the subgraph induced on the vertices of S is a cluster graph and a vertex in V ( G ) \\ S is adjacent to some but not all vertices in a clique of G [ S ], then we can delete it and decrease the parameter by 1.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p5_Im1.webp|block]",
+      "group_id": "6406532041530",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider a graph [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im1.webp|inline] and let [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im2.webp|inline] denote its chromatic number. Let [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im3.webp|inline] . Select all true statements:",
+      "type": "multichoice",
+      "options": [
+        "If [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im5.webp|inline] is an independent set , then [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im6.webp|block]",
+        "There exists an optimal coloring of [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im7.webp|inline] such that every color class is a maximal independent set .",
+        "If [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im9.webp|inline] is a maximum independent set , then [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im10.webp|block]",
+        "A DP over subsets that tries all independent sets leads to an algorithm running in [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im11.webp|inline] time."
+      ],
+      "correct_answer": [
+        "If [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im5.webp|inline] is an independent set , then [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im6.webp|block]",
+        "There exists an optimal coloring of [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im7.webp|inline] such that every color class is a maximal independent set .",
+        "A DP over subsets that tries all independent sets leads to an algorithm running in [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im11.webp|inline] time."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im1.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im2.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im3.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im5.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im6.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im7.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im9.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im10.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Let [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im12.webp|inline] be a maximal independent set in graph [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im13.webp|inline] . Select all true statements:",
+      "type": "multichoice",
+      "options": [
+        "For every vertex [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im14.webp|inline] , all neighbours of [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im15.webp|inline] must be in [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im16.webp|inline]",
+        "In branching algorithms, we can branch on a vertex [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im17.webp|inline] by either: \u2022 include [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im18.webp|inline] , or \u2022 exclude [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im19.webp|inline] and include all neighbours of [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im20.webp|inline]",
+        "If a vertex has degree 0, it must be included in every maximum independent set",
+        "If [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p8_Im3.webp|inline] , then removing [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p8_Im4.webp|inline] does not reduce the size of maximum independent set"
+      ],
+      "correct_answer": [
+        "In branching algorithms, we can branch on a vertex [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im17.webp|inline] by either: \u2022 include [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im18.webp|inline] , or \u2022 exclude [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im19.webp|inline] and include all neighbours of [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p7_Im20.webp|inline]",
+        "If a vertex has degree 0, it must be included in every maximum independent set"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im12.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im13.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im14.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im15.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im16.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im17.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im18.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im19.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p7_Im20.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p8_Im3.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "According to the reduction rules for DFVS , the following figure shows a valid intermediate instance in the reduction with [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p8_Im6.webp|inline] . [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p8_Im6.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p9_Im1.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p8_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p8_Im5.webp|block] In the above figure, we have a graph G and a Feedback Vertex Set (FVS) of size 3, which is given by the boxed vertices: S := { a, c, e } We need to find a DISJOINT FVS of size 2. For each of the given statements, determine whether it is True or False .",
+      "group_id": "6406532041540",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "According to the reduction rules for DFVS , the following figure shows a valid intermediate instance in the reduction with [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p9_Im4.webp|inline] . [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p9_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p9_Im4.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p9_Im5.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p8_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p8_Im5.webp|block] In the above figure, we have a graph G and a Feedback Vertex Set (FVS) of size 3, which is given by the boxed vertices: S := { a, c, e } We need to find a DISJOINT FVS of size 2. For each of the given statements, determine whether it is True or False .",
+      "group_id": "6406532041540",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "According to the reduction rules for DFVS , the following figure shows a valid intermediate instance in the reduction with [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p9_Im6.webp|inline] . [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p9_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p9_Im6.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p9_Im7.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p8_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p8_Im5.webp|block] In the above figure, we have a graph G and a Feedback Vertex Set (FVS) of size 3, which is given by the boxed vertices: S := { a, c, e } We need to find a DISJOINT FVS of size 2. For each of the given statements, determine whether it is True or False .",
+      "group_id": "6406532041540",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "According to the reduction rules for DFVS , the following figure shows a valid intermediate instance in the reduction with [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p10_Im1.webp|inline] . [IMAGE: /data/images/cs4021_2026T1_Q2_NA_p10_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q2_NA_p10_Im1.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p10_Im2.webp",
+        "/data/images/cs4021_2026T1_Q2_NA_p8_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2026T1_Q2_NA_p8_Im5.webp|block] In the above figure, we have a graph G and a Feedback Vertex Set (FVS) of size 3, which is given by the boxed vertices: S := { a, c, e } We need to find a DISJOINT FVS of size 2. For each of the given statements, determine whether it is True or False .",
+      "group_id": "6406532041540",
+      "section_name": "Advanced Algorithms"
+    }
+  ],
+  "id": "cs4021-2026t1-q2-na",
+  "course_code": "CS4021",
+  "course_name": "Advanced Algorithms",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

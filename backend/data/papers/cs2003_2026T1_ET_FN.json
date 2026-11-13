@@ -1,0 +1,841 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)",
+  "filename": "cs2003_2026T1_ET_FN.pdf",
+  "total_questions": 33,
+  "total_marks": 99.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Which of the following is the correct match between Column A and Column B? [IMAGE: /data/images/cs2003_2026T1_ET_FN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-B, 2-D, 3-E, 4-A, 5-C",
+        "1-B, 2-A, 3-E, 4-D, 5-C",
+        "1-A, 2-D, 3-E, 4-B, 5-C",
+        "1-B, 2-D, 3-C, 4-A, 5-E"
+      ],
+      "correct_answer": "1-B, 2-D, 3-E, 4-A, 5-C",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Logging is typically used for what purpose?",
+      "type": "MCQ",
+      "options": [
+        "detect unusual activity on the server.",
+        "block unauthorized access.",
+        "enforce HTTPS connections.",
+        "convert HTTP to HTTPS."
+      ],
+      "correct_answer": "detect unusual activity on the server.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "A web server has an outgoing bandwidth of 5Gbps, and each client requires 2Mbps. What is the maximum number of concurrent requests allowed? (Use: 1KB= 1000Bytes, 1MB=1000KB and so on)",
+      "type": "MCQ",
+      "options": [
+        "2.5",
+        "25",
+        "250",
+        "2500"
+      ],
+      "correct_answer": "2500",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following SQL Alchemy model [IMAGE: /data/images/cs2003_2026T1_ET_FN_p2_Im3.webp|inline] with below data. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p2_Im4.webp|block] Which of the following SQL Alchemy statements is used to count the number of students registered for [IMAGE: /data/images/cs2003_2026T1_ET_FN_p2_Im5.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p2_Im7.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p3_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p3_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p2_Im3.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p2_Im4.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p2_Im5.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p2_Im7.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p3_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "What is the purpose of the primary_key=True attribute in a SQLAlchemy model?",
+      "type": "MCQ",
+      "options": [
+        "It allows duplicate values in the column",
+        "It uniquely identifies each row in the table",
+        "It automatically creates foreign key relationships",
+        "It makes the column optional"
+      ],
+      "correct_answer": "It uniquely identifies each row in the table",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Which of the following statements are correct regarding git?",
+      "type": "multichoice",
+      "options": [
+        "Files in the staging area can be committed.",
+        "The command [IMAGE: /data/images/cs2003_2026T1_ET_FN_p3_Im5.webp|inline] converts a local folder into a Git repository.",
+        "The command [IMAGE: /data/images/cs2003_2026T1_ET_FN_p3_Im6.webp|inline] moves the local repository to the remote repository.",
+        "Git can be used only online.",
+        "Git branches are pointers to commits."
+      ],
+      "correct_answer": [
+        "Files in the staging area can be committed.",
+        "The command [IMAGE: /data/images/cs2003_2026T1_ET_FN_p3_Im5.webp|inline] converts a local folder into a Git repository.",
+        "Git branches are pointers to commits."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p3_Im5.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following Python Flask code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p4_Im1.webp|block] Which of the following options are true?",
+      "type": "multichoice",
+      "options": [
+        "URL request: http://127.0.0.1:5000/signin will return output: http://127.0.0.1:5000/login",
+        "URL request: http://127.0.0.1:5000/login will return output: http://127.0.0.1:5000/login",
+        "URL request: http://127.0.0.1:5000/index will return output: http://127.0.0.1:5000/home",
+        "URL request: http://127.0.0.1:5000/home will return output: http://127.0.0.1:5000/home"
+      ],
+      "correct_answer": [
+        "URL request: http://127.0.0.1:5000/signin will return output: http://127.0.0.1:5000/login",
+        "URL request: http://127.0.0.1:5000/index will return output: http://127.0.0.1:5000/home"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the following Python Flask code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p5_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p5_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p5_Im8.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p5_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p5_Im3.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p5_Im5.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p5_Im6.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p5_Im7.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p5_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following Python code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p5_Im9.webp|block] Which of the following statement(s) should replace ==Missing code here== so that it prints the output without any KeyError exception?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im4.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p5_Im9.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p6_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p6_Im3.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p6_Im4.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the following HTML/CSS code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im7.webp|block] Read the following statements about \u201cindex.html\u201d and choose the correct option. Statement 1: Internal element selector blue will be overridden by ID selector red. Statement 2: Internal ID selector red will be overridden by inline styling green.",
+      "type": "MCQ",
+      "options": [
+        "Both statements are incorrect.",
+        "Both statements are correct.",
+        "Statement 1 is incorrect, but statement 2 is correct.",
+        "Statement 2 is incorrect, but statement 1 is correct."
+      ],
+      "correct_answer": "Both statements are correct.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the Flask SQLAlchemy data model. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p7_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "You write an algorithm to sort N numbers (stored in an array a[0] to a[N-1]) as follows: Algorithm steps: i. Search through the list of numbers to find the lowest number - say it is position \"i\" ii. Move a[i-1] to a[i], a[i-2] to a[i-1] etc, till a[0] to a[1] iii. Place the original a[i] in position 0 iv. Repeat the above steps but now starting from position 1 to N-1, then 2 to N-1 etc till all numbers are in the correct places. What is the running complexity of this algorithm?",
+      "type": "MCQ",
+      "options": [
+        "linear",
+        "quadratic",
+        "cubic",
+        "exponential"
+      ],
+      "correct_answer": "quadratic",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Consider the following graph that represents the variation in bandwidth of a network for an entire day (24 hours). Three users were connected to the network at three different times of the day. What is the total data consumed in GigaBytes by all the users in 24 hrs? [IMAGE: /data/images/cs2003_2026T1_ET_FN_p8_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "547.2 GB",
+        "12 GB",
+        "43.2 GB",
+        "345.6 GB"
+      ],
+      "correct_answer": "43.2 GB",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the following Python code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im5.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p9_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p9_Im5.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p9_Im6.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider the following Python Jinja2 template code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "python main.py MAD1 MAD2 MAD1 Project MAD2 Project",
+        "python main.py MAD1 MAD2 MAD1_Project MAD2_Project",
+        "python main.py \"MAD1 MAD2 MAD1 Project MAD2 Project\"",
+        "python main.py MAD1 MAD2 \"MAD1 Project\" \"MAD2 Project\""
+      ],
+      "correct_answer": "python main.py MAD1 MAD2 \"MAD1 Project\" \"MAD2 Project\"",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider the following csv file. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p10_Im4.webp|block] Choose the correct Python code that will print the output: ['90', '76', '81'] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im6.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p10_Im4.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p11_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p11_Im3.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p11_Im5.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p11_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Which of the following is the correct flask_login code snippet to register a user as logged in for the current session?",
+      "type": "MCQ",
+      "options": [
+        "login_user(user.id)",
+        "login_user(user)",
+        "login_user(user.name)",
+        "login_user(user.name and user.password)"
+      ],
+      "correct_answer": "login_user(user)",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Consider the following HTML code snippet (without any CSS styling). [IMAGE: /data/images/cs2003_2026T1_ET_FN_p12_Im2.webp|block] Which of the following statements correctly describes how the elements will be displayed by default in a browser?",
+      "type": "MCQ",
+      "options": [
+        "The content of all elements will appear on the same line as they are inline elements.",
+        "The content of [IMAGE: /data/images/cs2003_2026T1_ET_FN_p12_Im3.webp|inline] , [IMAGE: /data/images/cs2003_2026T1_ET_FN_p12_Im4.webp|inline] and [IMAGE: /data/images/cs2003_2026T1_ET_FN_p12_Im5.webp|inline] tags will start on new lines as they are block elements.",
+        "The content of [IMAGE: /data/images/cs2003_2026T1_ET_FN_p12_Im7.webp|inline] and [IMAGE: /data/images/cs2003_2026T1_ET_FN_p12_Im8.webp|inline] tags will start on new lines, others will display inline.",
+        "The content of [IMAGE: /data/images/cs2003_2026T1_ET_FN_p12_Im9.webp|inline] tags will start on new lines, others will display inline."
+      ],
+      "correct_answer": "The content of [IMAGE: /data/images/cs2003_2026T1_ET_FN_p12_Im7.webp|inline] and [IMAGE: /data/images/cs2003_2026T1_ET_FN_p12_Im8.webp|inline] tags will start on new lines, others will display inline.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p12_Im2.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p12_Im3.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p12_Im4.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p12_Im5.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p12_Im7.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p12_Im8.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p12_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "What does the following curl command do? [IMAGE: /data/images/cs2003_2026T1_ET_FN_p12_Im10.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Sends a POST request to retrieve authentication data.",
+        "Sends a POST request to send form data.",
+        "Sends a POST request to send JSON data.",
+        "Sends a POST request to retrieve user credentials."
+      ],
+      "correct_answer": "Sends a POST request to send form data.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p12_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Which of the following statements are correct for the statements below? Statement 1: Accessing the URL: http://127.0.0.1:5000 directly in the browser makes a POST request. Statement 2: Clicking on the Submit button will invoke the GET request method.",
+      "type": "MCQ",
+      "options": [
+        "Both statements are correct.",
+        "Both statements are incorrect.",
+        "Statement 1 is incorrect, but statement 2 is correct.",
+        "Statement 2 is incorrect, but statement 1 is correct."
+      ],
+      "correct_answer": "Both statements are incorrect.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p13_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following HTML and Python flask code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p13_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p13_Im2.webp|block]",
+      "group_id": "6406532128222",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "What will be the rendered output for the following input in the form? [IMAGE: /data/images/cs2003_2026T1_ET_FN_p14_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "404 Not Found",
+        "[-1, -2, -3, -4, -5]",
+        "[ ]",
+        "None of these"
+      ],
+      "correct_answer": "[ ]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p14_Im3.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p13_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following HTML and Python flask code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p13_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p13_Im2.webp|block]",
+      "group_id": "6406532128222",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Which of the following statements are true in the context of HTML forms?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p14_Im4.webp|inline] default type is \u201csubmit\u201d.",
+        "\u201cread-only\u201d inputs are not submitted.",
+        "\u201cdisabled\u201d inputs are not submitted.",
+        "\u201crequired\u201d works on [IMAGE: /data/images/cs2003_2026T1_ET_FN_p14_Im5.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p14_Im4.webp|inline] default type is \u201csubmit\u201d.",
+        "\u201cdisabled\u201d inputs are not submitted."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p14_Im4.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p14_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Which of the following statements are true about DOM?",
+      "type": "multichoice",
+      "options": [
+        "Changing the DOM value changes the HTML source file.",
+        "JS can interact with DOM elements.",
+        "DOM is created before the JS is executed.",
+        "DOM is created after the JS is executed.",
+        "HTML and DOM are identical."
+      ],
+      "correct_answer": [
+        "JS can interact with DOM elements.",
+        "DOM is created before the JS is executed."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Consider the following Flask RESTful API code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p15_Im3.webp|block] Assume that the Flask app is running at http://127.0.0.1:5000. The client sends the below CURL request in the git bash terminal. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p15_Im4.webp|block] What will be the response?",
+      "type": "MCQ",
+      "options": [
+        "{\"n\": None}",
+        "Runtime error",
+        "400 Bad Request",
+        "{ }"
+      ],
+      "correct_answer": "400 Bad Request",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p15_Im3.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p15_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "Consider the code below in a file called [IMAGE: /data/images/cs2003_2026T1_ET_FN_p16_Im1.webp|inline] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p16_Im2.webp|block] Which of these is the correct output when the command [IMAGE: /data/images/cs2003_2026T1_ET_FN_p16_Im3.webp|inline] is run in the terminal?",
+      "type": "MCQ",
+      "options": [
+        "====== 1 passed, 1 deselected in 0.02s =========",
+        "====== 1 passed, 2 deselected in 0.02s =========",
+        "====== 1 failed, 1 deselected in 0.02s =========",
+        "====== 1 failed, 2 deselected in 0.02s ========="
+      ],
+      "correct_answer": "====== 1 passed, 1 deselected in 0.02s =========",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p16_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p16_Im2.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p16_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "Consider the following HTML templates and Python Flask code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p17_Im1.webp|block] Assume that the Flask app is running at [IMAGE: /data/images/cs2003_2026T1_ET_FN_p17_Im2.webp|inline] . What will be rendered for the URL request [IMAGE: /data/images/cs2003_2026T1_ET_FN_p17_Im3.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "Parent content Child content",
+        "Parent content",
+        "Child content",
+        "Child content Parent content"
+      ],
+      "correct_answer": "Child content",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p17_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p17_Im2.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p17_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "Consider the following Flask SQLAlchemy models and RESTful API code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p18_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p19_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p19_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p19_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p18_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p19_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p19_Im3.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p19_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "Consider the following HTML/JavaScript code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p20_Im1.webp|block] The above code allows courses to be added dynamically to the [IMAGE: /data/images/cs2003_2026T1_ET_FN_p20_Im2.webp|inline] element when the user clicks the \u201cAdd\u201d Button. What is the most suitable [IMAGE: /data/images/cs2003_2026T1_ET_FN_p20_Im3.webp|inline] given below?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p20_Im7.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p20_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p21_Im2.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p20_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p20_Im2.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p20_Im3.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p20_Im7.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p20_Im8.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p21_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "Consider the following flask application \"app.py\" given below. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p21_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Static folder verified: /assets",
+        "Static folder verified: /public",
+        "Invalid argument",
+        "None of these"
+      ],
+      "correct_answer": "Invalid argument",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p21_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "Examine the following Python code snippet. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p22_Im1.webp|block] What will be the output when running the command: [IMAGE: /data/images/cs2003_2026T1_ET_FN_p22_Im2.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p22_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p22_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p23_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p22_Im7.webp|block]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p22_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p22_Im2.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p22_Im6.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p22_Im7.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p23_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 32,
+      "text": "Inscript A magnetic disk can spin only in one direction with a constant speed of 5000rpm. What is the maximum delay(worst-case latency) before data transfer starts (in milliseconds)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 33,
+      "text": "Consider the following flask app. Given that [IMAGE: /data/images/cs2003_2026T1_ET_FN_p23_Im3.webp|inline] allows code to be tested without a server, which of the following statements is correct? [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "If [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im3.webp|inline] is replaced by [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im4.webp|inline] , the output on the terminal will be [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im5.webp|block]",
+        "If [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im6.webp|inline] is replaced by [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im7.webp|inline] , the output on the terminal will be [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im8.webp|inline]",
+        "If [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im10.webp|inline] is replaced by [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im11.webp|inline] , the output on the terminal will be [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im12.webp|block]",
+        "If [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im13.webp|inline] is replaced by [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im14.webp|inline] , the output on the terminal will be [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im15.webp|inline]"
+      ],
+      "correct_answer": [
+        "If [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im10.webp|inline] is replaced by [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im11.webp|inline] , the output on the terminal will be [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im12.webp|block]",
+        "If [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im13.webp|inline] is replaced by [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im14.webp|inline] , the output on the terminal will be [IMAGE: /data/images/cs2003_2026T1_ET_FN_p24_Im15.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_ET_FN_p23_Im3.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im3.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im4.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im5.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im6.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im7.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im8.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im10.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im11.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im12.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im13.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im14.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p24_Im15.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    }
+  ],
+  "id": "cs2003-2026t1-et-fn",
+  "course_code": "CS2003",
+  "course_name": "Application Development 1",
+  "level": "Diploma in Programming",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

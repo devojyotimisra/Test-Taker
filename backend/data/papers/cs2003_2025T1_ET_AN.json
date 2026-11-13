@@ -1,0 +1,838 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)",
+  "filename": "cs2003_2025T1_ET_AN.pdf",
+  "total_questions": 33,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 48,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 49,
+      "text": "A certain text document consisting of only alphanumeric characters (including spaces) takes 320000 bits, when encoded with UCS-2 encoding. How many bits will the same document take if encoded with ASCII 7-bit encoding?",
+      "type": "MCQ",
+      "options": [
+        "20000 bits",
+        "1,40,000 bits",
+        "22,40,000 bits",
+        "320000 bits"
+      ],
+      "correct_answer": "1,40,000 bits",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 50,
+      "text": "Which of the following is true about the term \u201cstateful\u201d in the client-server model?",
+      "type": "MCQ",
+      "options": [
+        "The server keeps the state of the client to respond to the required request.",
+        "Server is ready to respond to the client's request without knowing anything about the client.",
+        "Server uses various HTTP methods to respond to the client's request.",
+        "Server uses the URL to convey context to the client."
+      ],
+      "correct_answer": "The server keeps the state of the client to respond to the required request.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 51,
+      "text": "Consider the following git branches for a remote repository. [IMAGE: /data/images/cs2003_2025T1_ET_AN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p2_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p2_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p2_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p1_Im3.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p2_Im2.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p2_Im3.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p2_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 52,
+      "text": "The Quiz Master application at IITM BS allows students to attempt quizzes online. To prevent automated bots from mass-submitting quiz answers and ensure fair participation, the admin decides to implement a CAPTCHA verification system before allowing users to start a quiz. The admin decides to integrate Google reCAPTCHA into the Quiz Master app using Flask. Which Flask extension is best suited for implementing reCAPTCHA verification?",
+      "type": "MCQ",
+      "options": [
+        "Flask-Mail",
+        "Flask-WTF",
+        "Flask-SQLAlchemy",
+        "Flask-Migrate"
+      ],
+      "correct_answer": "Flask-WTF",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 53,
+      "text": "A mobile client starts from and is cruising away continuously at 120 kmph from the network tower whose network range is 80 km and bandwidth is 240 Mbps. How much data (in Gigabytes) will be consumed by the client who is continuously using the entire bandwidth before completely moving out of the network? [Take 1 Byte = 8 bits, 1 KB = 1000 Bytes, 1 MB = 1000 Kilobytes and so on.] [Consider the speed of light in air to be 3 x 10 8 m/sec.]",
+      "type": "MCQ",
+      "options": [
+        "48",
+        "57.6",
+        "72",
+        "576"
+      ],
+      "correct_answer": "72",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 54,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p3_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p3_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p3_Im3.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p3_Im4.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p3_Im5.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p3_Im6.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 55,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Many-to-Many",
+        "One-to-Many",
+        "One-to-One",
+        "The tables are not at all related"
+      ],
+      "correct_answer": "The tables are not at all related",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 56,
+      "text": "Consider the following statements and choose the correct option Statement 1: It is always mandatory to implement server-side validations and client-side validations to create web applications. Statement 2: Server-side validations can be implemented using HTML5.",
+      "type": "MCQ",
+      "options": [
+        "Statement 1 is false, while statement 2 is true",
+        "Statement 1 is true, while statement 2 is false",
+        "Both statements are false",
+        "Both statements are true"
+      ],
+      "correct_answer": "Both statements are false",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 57,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p5_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p6_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T1_ET_AN_p6_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p5_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p5_Im4.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p6_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 58,
+      "text": "Consider the following example: [IMAGE: /data/images/cs2003_2025T1_ET_AN_p6_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Perceivable",
+        "Operable",
+        "Robust",
+        "Understandable"
+      ],
+      "correct_answer": "Understandable",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 59,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "3000",
+        "9000",
+        "6000",
+        "12000"
+      ],
+      "correct_answer": "6000",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 60,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p7_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p8_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T1_ET_AN_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p8_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p8_Im5.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p7_Im4.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p8_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p8_Im3.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p8_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 61,
+      "text": "Consider the following Python code. [IMAGE: /data/images/cs2003_2025T1_ET_AN_p8_Im6.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p9_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T1_ET_AN_p9_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p9_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p9_Im5.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p8_Im6.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p9_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p9_Im3.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p9_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 62,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p9_Im6.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p10_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T1_ET_AN_p10_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p10_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p9_Im6.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p10_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p10_Im3.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p10_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 63,
+      "text": "Consider the schema for the Class Student. [IMAGE: /data/images/cs2003_2025T1_ET_AN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p11_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p12_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T1_ET_AN_p12_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p11_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p11_Im4.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p12_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p12_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 64,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p13_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p13_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p13_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p13_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p13_Im6.webp|inline]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p13_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p13_Im3.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p13_Im4.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p13_Im6.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p13_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 65,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p14_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p14_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p14_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p14_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p14_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p14_Im3.webp|inline]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p14_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p14_Im3.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p14_Im5.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p14_Im6.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p14_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 66,
+      "text": "A client machine and a server machine located 120 kilometers apart start moving towards each other along a straight line at 400 kmph and 800 kmph respectively. At the same time, the client starts sending requests to the server and the server sends back the response to the client. This client-server network continues to send requests and receive responses (with a new request being sent only after the response is received by the client for the previous one) until both the server and the client collide with each other. Calculate the total distance travelled (in kms) by the request data and the response data together before the two machines collide with each other?(assume the speed of request and response to be 3 x 10 8 m/s )",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p15_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p15_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p15_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p15_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p15_Im6.webp|inline]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p15_Im2.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p15_Im3.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p15_Im4.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p15_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 67,
+      "text": "Which of the following are benefits of using the MVC (Model-View-Controller) architecture?",
+      "type": "multichoice",
+      "options": [
+        "MVC allows for the implementation of multiple views of the same data concurrently.",
+        "MVC supports parallel development, enabling developers to work on different parts of the application simultaneously.",
+        "MVC enforces the use of View State, increasing the bandwidth of requests.",
+        "MVC is a heavyweight framework that requires significant bandwidth due to its design."
+      ],
+      "correct_answer": [
+        "MVC allows for the implementation of multiple views of the same data concurrently.",
+        "MVC supports parallel development, enabling developers to work on different parts of the application simultaneously."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 68,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p16_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p16_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p16_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p16_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p16_Im8.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p16_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p16_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p16_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p16_Im8.webp|block]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p16_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p16_Im4.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p16_Im5.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p16_Im6.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p16_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 69,
+      "text": "Which of the following statements about server architectures, Apache and Nginx, is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "Apache is better suited for handling a large volume of concurrent connections than Nginx.",
+        "Apache is versatile and supports a wide range of modules and dynamic configurations.",
+        "Nginx is generally faster for serving static files and handling high traffic with low memory usage.",
+        "Both Apache and Nginx are open-source web servers."
+      ],
+      "correct_answer": [
+        "Apache is versatile and supports a wide range of modules and dynamic configurations.",
+        "Nginx is generally faster for serving static files and handling high traffic with low memory usage.",
+        "Both Apache and Nginx are open-source web servers."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 70,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p17_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The signup page is dynamically generated.",
+        "The signup page uses server-side rendering.",
+        "The signup page uses frontend validation.",
+        "The signup page uses backend validation."
+      ],
+      "correct_answer": [
+        "The signup page is dynamically generated.",
+        "The signup page uses server-side rendering.",
+        "The signup page uses frontend validation.",
+        "The signup page uses backend validation."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p17_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 71,
+      "text": "Consider the following HTML code. [IMAGE: /data/images/cs2003_2025T1_ET_AN_p18_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p18_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p19_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T1_ET_AN_p19_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p19_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T1_ET_AN_p19_Im3.webp|block]",
+        ""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p18_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p18_Im4.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p19_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p19_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 72,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p19_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p19_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p19_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p20_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p20_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p19_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p20_Im2.webp|inline]"
+      ],
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p19_Im4.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p19_Im5.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p19_Im7.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p20_Im2.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p20_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 73,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p20_Im5.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p20_Im7.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p21_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T1_ET_AN_p21_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p21_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T1_ET_AN_p21_Im3.webp|block]"
+      ],
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p20_Im5.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p20_Im7.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p21_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p21_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 74,
+      "text": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p22_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p23_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T1_ET_AN_p23_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p23_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p23_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p23_Im6.webp|block]",
+        ""
+      ],
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p22_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p23_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p23_Im3.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p23_Im5.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p23_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 75,
+      "text": "Which type of relationship best represents the association between students and hostels in the given scenario?",
+      "type": "MCQ",
+      "options": [
+        "One-to-One",
+        "One-to-Many",
+        "Many-to-One",
+        "Many-to-Many"
+      ],
+      "correct_answer": "Many-to-One",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p23_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p23_Im7.webp|block]",
+      "group_id": "6406531252026",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 76,
+      "text": "Which SQLAlchemy relationship should be used to model the many-to-many relationship between students and events in the Paradox ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p24_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p24_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p24_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p24_Im6.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p23_Im7.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p24_Im4.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p24_Im5.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p24_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2025T1_ET_AN_p23_Im7.webp|block]",
+      "group_id": "6406531252026",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 77,
+      "text": "What will be the output when the following URL is accessed? [IMAGE: /data/images/cs2003_2025T1_ET_AN_p25_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Score: students",
+        "Students Score: 120",
+        "None of these",
+        "Team not found"
+      ],
+      "correct_answer": "Students Score: 120",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p25_Im2.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p25_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The students of IITM BS challenged their instructors to a cricket match. A Flask web application is built to track the scores. Below is the Flask app code that defines multiple routes for fetching scores dynamically. [IMAGE: /data/images/cs2003_2025T1_ET_AN_p25_Im1.webp|block]",
+      "group_id": "6406531252029",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 78,
+      "text": "What will happen if we access the following URL? [IMAGE: /data/images/cs2003_2025T1_ET_AN_p26_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Dr.Prashant (Instructors) Scored: 40",
+        "Player not found",
+        "Internal Server Error",
+        "Dr.Prashant (Instructors) Scored: Player not found"
+      ],
+      "correct_answer": "Dr.Prashant (Instructors) Scored: Player not found",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T1_ET_AN_p26_Im1.webp",
+        "/data/images/cs2003_2025T1_ET_AN_p25_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The students of IITM BS challenged their instructors to a cricket match. A Flask web application is built to track the scores. Below is the Flask app code that defines multiple routes for fetching scores dynamically. [IMAGE: /data/images/cs2003_2025T1_ET_AN_p25_Im1.webp|block]",
+      "group_id": "6406531252029",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 79,
+      "text": "Which of the following storage types should be used for storing frequently accessed small student records that need low latency and high-speed access ?",
+      "type": "MCQ",
+      "options": [
+        "Hard Disk Drive (HDD)",
+        "Solid State Drive (SSD)",
+        "Registers",
+        "Static RAM (SRAM)"
+      ],
+      "correct_answer": "Static RAM (SRAM)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "A college counseling system is designed to store and retrieve student records efficiently. The system uses different types of storage based on latency, throughput, and density. During peak counseling sessions, thousands of students access their academic records, appointment schedules, and previous counseling notes. The system needs to optimize storage selection for different types of data: 1. Frequently accessed small data (e.g., currently active student records) 2. Large archives of past counseling records (rarely accessed but need long-term storage) 3. Temporary session data that needs to be quickly read and updated during counseling sessions",
+      "group_id": "6406531252032",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 80,
+      "text": "The college wants to store archived counseling records from past students for future reference. These records are rarely accessed , but cost efficiency and storage density are important. Which storage type is best suited?",
+      "type": "MCQ",
+      "options": [
+        "Registers",
+        "SRAM",
+        "Hard Disk Drive (HDD)",
+        "DRAM"
+      ],
+      "correct_answer": "Hard Disk Drive (HDD)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "A college counseling system is designed to store and retrieve student records efficiently. The system uses different types of storage based on latency, throughput, and density. During peak counseling sessions, thousands of students access their academic records, appointment schedules, and previous counseling notes. The system needs to optimize storage selection for different types of data: 1. Frequently accessed small data (e.g., currently active student records) 2. Large archives of past counseling records (rarely accessed but need long-term storage) 3. Temporary session data that needs to be quickly read and updated during counseling sessions",
+      "group_id": "6406531252032",
+      "section_name": "Appdev1"
+    }
+  ],
+  "id": "cs2003-2025t1-et-an",
+  "course_code": "CS2003",
+  "course_name": "Application Development 1",
+  "level": "Diploma in Programming",
+  "term": "Jan 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

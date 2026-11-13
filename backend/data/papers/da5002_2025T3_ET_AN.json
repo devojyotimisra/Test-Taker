@@ -1,0 +1,477 @@
+{
+  "title": "DEGREE LEVEL : MATHEMATICAL FOUNDATIONS OF GENERATIVE AI (COMPUTER BASED EXAM)",
+  "filename": "da5002_2025T3_ET_AN.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : MATHEMATICAL FOUNDATIONS OF GENERATIVE AI (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "In the context of Denoising Diffusion Probabilistic Models (DDPM), the trained noise predictor [IMAGE: /data/images/da5002_2025T3_ET_AN_p1_Im1.webp|inline] approximates the score function of the noisy data distribution via [IMAGE: /data/images/da5002_2025T3_ET_AN_p1_Im2.webp|block] Suppose at timestep [IMAGE: /data/images/da5002_2025T3_ET_AN_p1_Im3.webp|inline] , the cumulative noise schedule is [IMAGE: /data/images/da5002_2025T3_ET_AN_p1_Im4.webp|inline] . For the noisy input [IMAGE: /data/images/da5002_2025T3_ET_AN_p1_Im5.webp|inline] , the model predicts the noise vector: [IMAGE: /data/images/da5002_2025T3_ET_AN_p1_Im6.webp|block] Compute the estimated score vector [IMAGE: /data/images/da5002_2025T3_ET_AN_p1_Im7.webp|inline] .",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p1_Im10.webp|block]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p1_Im11.webp|block]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p1_Im13.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p1_Im1.webp",
+        "/data/images/da5002_2025T3_ET_AN_p1_Im2.webp",
+        "/data/images/da5002_2025T3_ET_AN_p1_Im3.webp",
+        "/data/images/da5002_2025T3_ET_AN_p1_Im4.webp",
+        "/data/images/da5002_2025T3_ET_AN_p1_Im5.webp",
+        "/data/images/da5002_2025T3_ET_AN_p1_Im6.webp",
+        "/data/images/da5002_2025T3_ET_AN_p1_Im7.webp",
+        "/data/images/da5002_2025T3_ET_AN_p1_Im10.webp",
+        "/data/images/da5002_2025T3_ET_AN_p1_Im11.webp",
+        "/data/images/da5002_2025T3_ET_AN_p1_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "During inference with a Classifier-Free Guidance (CFG) diffusion model, you apply a guidance scale of [IMAGE: /data/images/da5002_2025T3_ET_AN_p2_Im1.webp|inline] . At a particular denoising timestep, the model produces: \u2022 Unconditional output: [IMAGE: /data/images/da5002_2025T3_ET_AN_p2_Im2.webp|block] \u2022 Conditional output (given text prompt [IMAGE: /data/images/da5002_2025T3_ET_AN_p2_Im3.webp|inline] ): [IMAGE: /data/images/da5002_2025T3_ET_AN_p2_Im4.webp|block] Using the classifier-free guidance formula [IMAGE: /data/images/da5002_2025T3_ET_AN_p2_Im5.webp|block] compute the guided prediction [IMAGE: /data/images/da5002_2025T3_ET_AN_p2_Im6.webp|inline] .",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p2_Im10.webp|block]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p2_Im11.webp|block]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p2_Im12.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2025T3_ET_AN_p2_Im10.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p2_Im1.webp",
+        "/data/images/da5002_2025T3_ET_AN_p2_Im2.webp",
+        "/data/images/da5002_2025T3_ET_AN_p2_Im3.webp",
+        "/data/images/da5002_2025T3_ET_AN_p2_Im4.webp",
+        "/data/images/da5002_2025T3_ET_AN_p2_Im5.webp",
+        "/data/images/da5002_2025T3_ET_AN_p2_Im6.webp",
+        "/data/images/da5002_2025T3_ET_AN_p2_Im10.webp",
+        "/data/images/da5002_2025T3_ET_AN_p2_Im11.webp",
+        "/data/images/da5002_2025T3_ET_AN_p2_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "In a Deep Transformer with Residual connections, the output of layer [IMAGE: /data/images/da5002_2025T3_ET_AN_p3_Im1.webp|inline] is [IMAGE: /data/images/da5002_2025T3_ET_AN_p3_Im2.webp|inline] . Assume that at initialization, the function [IMAGE: /data/images/da5002_2025T3_ET_AN_p3_Im3.webp|inline] (Attention + FFN) outputs values with variance roughly [IMAGE: /data/images/da5002_2025T3_ET_AN_p3_Im4.webp|inline] . After 10 layers, assuming independence, approximately how much has the signal variance increased relative to the input variance [IMAGE: /data/images/da5002_2025T3_ET_AN_p3_Im5.webp|inline] ? (Approximation: [IMAGE: /data/images/da5002_2025T3_ET_AN_p3_Im6.webp|inline] ).",
+      "type": "MCQ",
+      "options": [
+        "It remains the same [IMAGE: /data/images/da5002_2025T3_ET_AN_p3_Im8.webp|inline] .",
+        "It doubles [IMAGE: /data/images/da5002_2025T3_ET_AN_p3_Im10.webp|inline] .",
+        "It increases 10-fold.",
+        "It increases by a factor of [IMAGE: /data/images/da5002_2025T3_ET_AN_p3_Im11.webp|inline] ."
+      ],
+      "correct_answer": "It doubles [IMAGE: /data/images/da5002_2025T3_ET_AN_p3_Im10.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p3_Im1.webp",
+        "/data/images/da5002_2025T3_ET_AN_p3_Im2.webp",
+        "/data/images/da5002_2025T3_ET_AN_p3_Im3.webp",
+        "/data/images/da5002_2025T3_ET_AN_p3_Im4.webp",
+        "/data/images/da5002_2025T3_ET_AN_p3_Im5.webp",
+        "/data/images/da5002_2025T3_ET_AN_p3_Im6.webp",
+        "/data/images/da5002_2025T3_ET_AN_p3_Im8.webp",
+        "/data/images/da5002_2025T3_ET_AN_p3_Im10.webp",
+        "/data/images/da5002_2025T3_ET_AN_p3_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "You are performing Beam Search with width [IMAGE: /data/images/da5002_2025T3_ET_AN_p4_Im1.webp|inline] . At step [IMAGE: /data/images/da5002_2025T3_ET_AN_p4_Im2.webp|inline] , you have two active beams with accumulated log-probabilities: \u2022 Beam A: [IMAGE: /data/images/da5002_2025T3_ET_AN_p4_Im3.webp|inline] (ending in token 'hello') \u2022 Beam B: [IMAGE: /data/images/da5002_2025T3_ET_AN_p4_Im4.webp|inline] (ending in token 'hi') At step [IMAGE: /data/images/da5002_2025T3_ET_AN_p4_Im5.webp|inline] , the model outputs the following top log-probabilities: \u2022 Given 'hello': 'world' ( [IMAGE: /data/images/da5002_2025T3_ET_AN_p4_Im6.webp|inline] ), 'there' ( [IMAGE: /data/images/da5002_2025T3_ET_AN_p4_Im7.webp|inline] ) \u2022 Given 'hi': 'there' ( [IMAGE: /data/images/da5002_2025T3_ET_AN_p4_Im8.webp|inline] ), 'you' ( [IMAGE: /data/images/da5002_2025T3_ET_AN_p4_Im9.webp|inline] ) Using standard beam search with additive log-probabilities, which two paths form the new beams after step [IMAGE: /data/images/da5002_2025T3_ET_AN_p4_Im10.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "('hello', 'world') and ('hello', 'there')",
+        "('hello', 'world') and ('hi', 'there')",
+        "('hi', 'there') and ('hi', 'you')",
+        "('hello', 'there') and ('hi', 'you')"
+      ],
+      "correct_answer": "('hello', 'world') and ('hi', 'there')",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p4_Im1.webp",
+        "/data/images/da5002_2025T3_ET_AN_p4_Im2.webp",
+        "/data/images/da5002_2025T3_ET_AN_p4_Im3.webp",
+        "/data/images/da5002_2025T3_ET_AN_p4_Im4.webp",
+        "/data/images/da5002_2025T3_ET_AN_p4_Im5.webp",
+        "/data/images/da5002_2025T3_ET_AN_p4_Im6.webp",
+        "/data/images/da5002_2025T3_ET_AN_p4_Im7.webp",
+        "/data/images/da5002_2025T3_ET_AN_p4_Im8.webp",
+        "/data/images/da5002_2025T3_ET_AN_p4_Im9.webp",
+        "/data/images/da5002_2025T3_ET_AN_p4_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "DPO eliminates the explicit reward model by defining an implicit reward [IMAGE: /data/images/da5002_2025T3_ET_AN_p5_Im1.webp|inline] based on the optimal policy [IMAGE: /data/images/da5002_2025T3_ET_AN_p5_Im2.webp|inline] and reference policy [IMAGE: /data/images/da5002_2025T3_ET_AN_p5_Im3.webp|inline] . Given: \u2022 [IMAGE: /data/images/da5002_2025T3_ET_AN_p5_Im4.webp|inline] \u2022 [IMAGE: /data/images/da5002_2025T3_ET_AN_p5_Im5.webp|inline] \u2022 [IMAGE: /data/images/da5002_2025T3_ET_AN_p5_Im6.webp|inline] (KL penalty coefficient) Calculate the implicit reward value assigned to this response.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p5_Im8.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p5_Im10.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p5_Im11.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p5_Im12.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2025T3_ET_AN_p5_Im10.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p5_Im1.webp",
+        "/data/images/da5002_2025T3_ET_AN_p5_Im2.webp",
+        "/data/images/da5002_2025T3_ET_AN_p5_Im3.webp",
+        "/data/images/da5002_2025T3_ET_AN_p5_Im4.webp",
+        "/data/images/da5002_2025T3_ET_AN_p5_Im5.webp",
+        "/data/images/da5002_2025T3_ET_AN_p5_Im6.webp",
+        "/data/images/da5002_2025T3_ET_AN_p5_Im8.webp",
+        "/data/images/da5002_2025T3_ET_AN_p5_Im10.webp",
+        "/data/images/da5002_2025T3_ET_AN_p5_Im11.webp",
+        "/data/images/da5002_2025T3_ET_AN_p5_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "When treating an Auto-Regressive Language Model as an RL policy: \u2022 The State is the context (prompt + previously generated tokens). \u2022 The Action Space is the vocabulary [IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im1.webp|inline] . Suppose the vocabulary size is [IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im2.webp|inline] and we generate a sequence of length [IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im3.webp|inline] .What is the dimension of the policy\u2019s output distribution at a single timestep, and what is the dimensionality of the full trajectory space?",
+      "type": "MCQ",
+      "options": [
+        "Output dim: 25; Trajectory space: [IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im5.webp|inline] .",
+        "Output dim: 32000; Trajectory space: [IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im6.webp|inline] .",
+        "Output dim: 32000; Trajectory space: [IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im8.webp|inline] .",
+        "Output dim: 1; Trajectory space: [IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im9.webp|inline] ."
+      ],
+      "correct_answer": "Output dim: 32000; Trajectory space: [IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im8.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p6_Im1.webp",
+        "/data/images/da5002_2025T3_ET_AN_p6_Im2.webp",
+        "/data/images/da5002_2025T3_ET_AN_p6_Im3.webp",
+        "/data/images/da5002_2025T3_ET_AN_p6_Im5.webp",
+        "/data/images/da5002_2025T3_ET_AN_p6_Im6.webp",
+        "/data/images/da5002_2025T3_ET_AN_p6_Im8.webp",
+        "/data/images/da5002_2025T3_ET_AN_p6_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Trust Region Policy Optimization (TRPO) maximizes the surrogate objective subject to a constraint on the KL divergence between the old and new policies. What is the nature of this constraint?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im10.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im11.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im12.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im13.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2025T3_ET_AN_p6_Im11.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p6_Im10.webp",
+        "/data/images/da5002_2025T3_ET_AN_p6_Im11.webp",
+        "/data/images/da5002_2025T3_ET_AN_p6_Im12.webp",
+        "/data/images/da5002_2025T3_ET_AN_p6_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "The Policy Gradient theorem states [IMAGE: /data/images/da5002_2025T3_ET_AN_p7_Im1.webp|inline] . If we introduce a baseline [IMAGE: /data/images/da5002_2025T3_ET_AN_p7_Im2.webp|inline] that depends only on state, the term becomes [IMAGE: /data/images/da5002_2025T3_ET_AN_p7_Im3.webp|inline] . What is the expected value of the baseline term? [IMAGE: /data/images/da5002_2025T3_ET_AN_p7_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p7_Im8.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p7_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_ET_AN_p7_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2025T3_ET_AN_p7_Im8.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p7_Im1.webp",
+        "/data/images/da5002_2025T3_ET_AN_p7_Im2.webp",
+        "/data/images/da5002_2025T3_ET_AN_p7_Im3.webp",
+        "/data/images/da5002_2025T3_ET_AN_p7_Im4.webp",
+        "/data/images/da5002_2025T3_ET_AN_p7_Im6.webp",
+        "/data/images/da5002_2025T3_ET_AN_p7_Im8.webp",
+        "/data/images/da5002_2025T3_ET_AN_p7_Im9.webp",
+        "/data/images/da5002_2025T3_ET_AN_p7_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "DDIMs are faster than DDPM mainly because:",
+      "type": "MCQ",
+      "options": [
+        "They remove the neural network entirely.",
+        "The sampling process is deterministic when [IMAGE: /data/images/da5002_2025T3_ET_AN_p7_Im11.webp|inline]",
+        "They require more noise steps.",
+        "They require additional forward passes."
+      ],
+      "correct_answer": "The sampling process is deterministic when [IMAGE: /data/images/da5002_2025T3_ET_AN_p7_Im11.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p7_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "An auto-regressive language model predicts the next token [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im1.webp|inline] given the history [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im2.webp|inline] . In the RL interpretation used for alignment, which of the following correspondences between LM objects and RL objects are correct?",
+      "type": "multichoice",
+      "options": [
+        "The state [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im4.webp|inline] corresponds to the current context: prompt plus all tokens generated so far.",
+        "The reward [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im6.webp|inline] is necessarily the log-likelihood of the token under the pretraining.",
+        "The trajectory [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im7.webp|inline] corresponds to the full sequence of (prompt, generated tokens) over time.",
+        "The policy [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im8.webp|inline] corresponds to the LM\u2019s conditional distribution [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im9.webp|inline] ."
+      ],
+      "correct_answer": [
+        "The state [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im4.webp|inline] corresponds to the current context: prompt plus all tokens generated so far.",
+        "The trajectory [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im7.webp|inline] corresponds to the full sequence of (prompt, generated tokens) over time.",
+        "The policy [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im8.webp|inline] corresponds to the LM\u2019s conditional distribution [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im9.webp|inline] ."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p8_Im1.webp",
+        "/data/images/da5002_2025T3_ET_AN_p8_Im2.webp",
+        "/data/images/da5002_2025T3_ET_AN_p8_Im4.webp",
+        "/data/images/da5002_2025T3_ET_AN_p8_Im6.webp",
+        "/data/images/da5002_2025T3_ET_AN_p8_Im7.webp",
+        "/data/images/da5002_2025T3_ET_AN_p8_Im8.webp",
+        "/data/images/da5002_2025T3_ET_AN_p8_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "The sinusoidal positional encoding (PE) for Transformers is defined as: [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im10.webp|block] Based on the properties of sinusoidal positional encodings, identify all correct statements:",
+      "type": "multichoice",
+      "options": [
+        "Sinusoidal positional encodings are learned parameters updated during training.",
+        "Positional encodings allow the model to incorporate order information that attention alone cannot provide.",
+        "The sinusoidal frequencies grow geometrically with the dimension index [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im11.webp|inline] .",
+        "The encoding scheme ensures that relative positions can be represented through linear functions of the embeddings."
+      ],
+      "correct_answer": [
+        "Positional encodings allow the model to incorporate order information that attention alone cannot provide.",
+        "The sinusoidal frequencies grow geometrically with the dimension index [IMAGE: /data/images/da5002_2025T3_ET_AN_p8_Im11.webp|inline] .",
+        "The encoding scheme ensures that relative positions can be represented through linear functions of the embeddings."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p8_Im10.webp",
+        "/data/images/da5002_2025T3_ET_AN_p8_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider a single-head self-attention mechanism with [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im1.webp|inline] . You are given the following Query ( [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im2.webp|inline] ) and Key ( [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im3.webp|inline] ) matrices for a sequence length of [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im4.webp|inline] . [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im5.webp|block] Calculate the raw attention scores (before Softmax) scaled by the factor [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im6.webp|inline] . What is the value of the element at position [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im7.webp|inline] (row 1, column 2) of the scaled score matrix?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.5",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p9_Im1.webp",
+        "/data/images/da5002_2025T3_ET_AN_p9_Im2.webp",
+        "/data/images/da5002_2025T3_ET_AN_p9_Im3.webp",
+        "/data/images/da5002_2025T3_ET_AN_p9_Im4.webp",
+        "/data/images/da5002_2025T3_ET_AN_p9_Im5.webp",
+        "/data/images/da5002_2025T3_ET_AN_p9_Im6.webp",
+        "/data/images/da5002_2025T3_ET_AN_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "In a decoder-only transformer (GPT-style), we compute attention scores [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im8.webp|inline] . Before applying softmax, we add a causal mask [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im9.webp|inline] . Let the raw scores for a sequence [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im10.webp|inline] be: [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im11.webp|block] The mask [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im12.webp|inline] sets future positions to [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im13.webp|inline] . Calculate the probability [IMAGE: /data/images/da5002_2025T3_ET_AN_p9_Im14.webp|inline] after applying Softmax to the second row.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.71 to 075",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p9_Im8.webp",
+        "/data/images/da5002_2025T3_ET_AN_p9_Im9.webp",
+        "/data/images/da5002_2025T3_ET_AN_p9_Im10.webp",
+        "/data/images/da5002_2025T3_ET_AN_p9_Im11.webp",
+        "/data/images/da5002_2025T3_ET_AN_p9_Im12.webp",
+        "/data/images/da5002_2025T3_ET_AN_p9_Im13.webp",
+        "/data/images/da5002_2025T3_ET_AN_p9_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "In RLHF (Reinforcement Learning from Human Feedback), the reward used to update the language model [IMAGE: /data/images/da5002_2025T3_ET_AN_p10_Im1.webp|inline] is defined as [IMAGE: /data/images/da5002_2025T3_ET_AN_p10_Im2.webp|inline] . Given: \u2022 Reward model score [IMAGE: /data/images/da5002_2025T3_ET_AN_p10_Im3.webp|inline] . \u2022 [IMAGE: /data/images/da5002_2025T3_ET_AN_p10_Im4.webp|inline] . \u2022 [IMAGE: /data/images/da5002_2025T3_ET_AN_p10_Im5.webp|inline] . \u2022 KL coefficient [IMAGE: /data/images/da5002_2025T3_ET_AN_p10_Im6.webp|inline] . Calculate the total reward. (Use [IMAGE: /data/images/da5002_2025T3_ET_AN_p10_Im7.webp|inline] ).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.6 to 2.0",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p10_Im1.webp",
+        "/data/images/da5002_2025T3_ET_AN_p10_Im2.webp",
+        "/data/images/da5002_2025T3_ET_AN_p10_Im3.webp",
+        "/data/images/da5002_2025T3_ET_AN_p10_Im4.webp",
+        "/data/images/da5002_2025T3_ET_AN_p10_Im5.webp",
+        "/data/images/da5002_2025T3_ET_AN_p10_Im6.webp",
+        "/data/images/da5002_2025T3_ET_AN_p10_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "You are training a Reward Model (RM) using the Bradley\u2013Terry preference model. For a given prompt [IMAGE: /data/images/da5002_2025T3_ET_AN_p11_Im1.webp|inline] , you have a preferred completion [IMAGE: /data/images/da5002_2025T3_ET_AN_p11_Im2.webp|inline] and a non-preferred completion [IMAGE: /data/images/da5002_2025T3_ET_AN_p11_Im3.webp|inline] . The RM predicts the following scalar rewards: [IMAGE: /data/images/da5002_2025T3_ET_AN_p11_Im4.webp|block] Compute the negative log-likelihood loss for this comparison: [IMAGE: /data/images/da5002_2025T3_ET_AN_p11_Im5.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.25 to 0.33",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p11_Im1.webp",
+        "/data/images/da5002_2025T3_ET_AN_p11_Im2.webp",
+        "/data/images/da5002_2025T3_ET_AN_p11_Im3.webp",
+        "/data/images/da5002_2025T3_ET_AN_p11_Im4.webp",
+        "/data/images/da5002_2025T3_ET_AN_p11_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "A continuous-time State-Space Model (SSM) has a scalar state parameter [IMAGE: /data/images/da5002_2025T3_ET_AN_p11_Im6.webp|inline] (representing decay). You discretize this system with a step size [IMAGE: /data/images/da5002_2025T3_ET_AN_p11_Im7.webp|inline] using the Zero-Order Hold (ZOH) method. Compute the discretized state transition parameter [IMAGE: /data/images/da5002_2025T3_ET_AN_p11_Im8.webp|inline] . Formula: [IMAGE: /data/images/da5002_2025T3_ET_AN_p11_Im9.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.43 to 0.51",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_ET_AN_p11_Im6.webp",
+        "/data/images/da5002_2025T3_ET_AN_p11_Im7.webp",
+        "/data/images/da5002_2025T3_ET_AN_p11_Im8.webp",
+        "/data/images/da5002_2025T3_ET_AN_p11_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    }
+  ],
+  "id": "da5002-2025t3-et-an",
+  "course_code": "DA5002",
+  "course_name": "Mathematical Foundations of Generative AI",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

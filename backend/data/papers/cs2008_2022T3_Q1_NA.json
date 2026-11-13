@@ -1,0 +1,543 @@
+{
+  "title": "Machine Learning Practice - Sep 2022 Quiz 1",
+  "filename": "cs2008_2022T3_Q1_NA.pdf",
+  "total_questions": 22,
+  "total_marks": 22.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 187,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p0_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p0_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 188,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following options represent the possible type of machine learning algorithm does the cluster plot shown in Figure 2 demonstrate? [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "K-means clustering",
+        "Linear regression",
+        "Logistic regression",
+        "PCA"
+      ],
+      "correct_answer": "K-means clustering",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 189,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What will be the output of the following code? [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p2_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p2_Im1.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p2_Im3.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p2_Im5.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p2_Im6.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 190,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following code blocks will generate a random n-class classification problem having a total number of features as 5 and 3 unique labels in the target variable?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im1.webp|block] [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im6.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p3_Im1.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p3_Im3.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p3_Im5.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 191,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Go through the code snippet given below: [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im7.webp|block] What will be the shape of the feature matrix (X.shape) and the label vector (y.shape)?",
+      "type": "MCQ",
+      "options": [
+        "(2000, 28) and (2000, 1)",
+        "(28, 2000) and (1505,1)",
+        "(500, 7) and (500,)",
+        "(2000, 7) and (1505,)"
+      ],
+      "correct_answer": "(500, 7) and (500,)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 192,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following options is likely to be the correct output of the code snippet given below? [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p4_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p4_Im7.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p4_Im3.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p4_Im4.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p4_Im5.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p4_Im6.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 193,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following code snippet: [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p5_Im1.webp|block] Above code returns (178, 13) as output. Which of the following would be the correct code(s) to split X and y such that you have exactly 36 samples for test data?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p5_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p5_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p5_Im7.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p5_Im1.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p5_Im4.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p5_Im6.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 194,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the figure 1, what are the names of classes arranged in the decreasing order of the median values? [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "First > Second > Third",
+        "Third > Second > First",
+        "Second < Third < First",
+        "Third > First > Second"
+      ],
+      "correct_answer": "First > Second > Third",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 195,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is likely to be the correct output of the code given below? [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p6_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0.12",
+        "190.31",
+        "0.93",
+        "90.02",
+        "No evaluation metrics is mentioned, hence it will produce error"
+      ],
+      "correct_answer": "90.02",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 196,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is likely to be the correct output of the code given below? [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p7_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p7_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p7_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p7_Im3.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p7_Im4.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p7_Im5.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p7_Im6.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 197,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following code snippet: [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p8_Im1.webp|block] Which of the following could be the correct output?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p8_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p8_Im3.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p8_Im1.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p8_Im3.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p8_Im5.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p8_Im6.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 198,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following options will be the correct output of print(clf.coef_)? [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[ 0.35 -0. -0. ]",
+        "[-0.85,0]",
+        "[3,2,1,2]",
+        "Given code block will return an error."
+      ],
+      "correct_answer": "Given code block will return an error.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 199,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Go through the code snippet given below and mark the correct output. [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p9_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "3.5",
+        "5",
+        "25",
+        "4",
+        "12.75"
+      ],
+      "correct_answer": "12.75",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 200,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Go through the code snippet given below and mark the correct output. [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0.61",
+        "0.83",
+        "0.91",
+        "1",
+        "-3",
+        "2"
+      ],
+      "correct_answer": "-3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 201,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is likely to be the correct output of the code given below? [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p10_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p10_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p11_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p11_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p10_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p10_Im4.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p10_Im5.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p10_Im6.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p11_Im2.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p11_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 202,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following code blocks will correctly take the learning rate as \u2018invscaling\u2019 ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p11_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p11_Im7.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p11_Im8.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p11_Im5.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p11_Im7.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p11_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 203,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Go through the code snippet given below and answer the following questions. [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p12_Im1.webp|block] Which of the following could be the possible output of print(results.alpha_)?",
+      "type": "MCQ",
+      "options": [
+        "-0.528",
+        "-5",
+        "0.528",
+        "1.e-03",
+        "0.01"
+      ],
+      "correct_answer": "0.01",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 204,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Scikit-Learn\u2019s API is remarkably well designed. The main design principles are:-",
+      "type": "multichoice",
+      "options": [
+        "Nonproliferation of classes",
+        "Best Estimator",
+        "Proportion",
+        "Consistency"
+      ],
+      "correct_answer": [
+        "Nonproliferation of classes",
+        "Consistency"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 205,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Enter the correct output of the following code block. [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p13_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p13_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 206,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following options will be the output of the given code?",
+      "type": "MCQ",
+      "options": [
+        "array([ 0.02645639, -0.09121131, 0.09350173, 0.11821129])",
+        "[-0.05102706 0.11483443 -0.01544466 0.04813268 0.05634579]",
+        "array([-0.22622766, -0.0, -0.0])",
+        "Given code will return an error because the data-set is not given."
+      ],
+      "correct_answer": "[-0.05102706 0.11483443 -0.01544466 0.04813268 0.05634579]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 Go through the code snippet given below and answer the given subquestions. [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p14_Im1.webp|block]",
+      "group_id": "640653388091",
+      "section_name": "MLP"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 207,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following could be the possible output of print(reg.score())?",
+      "type": "MCQ",
+      "options": [
+        "-0.528",
+        "1",
+        "0.528",
+        "Given code will return an error"
+      ],
+      "correct_answer": "Given code will return an error",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 Go through the code snippet given below and answer the given subquestions. [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p14_Im1.webp|block]",
+      "group_id": "640653388091",
+      "section_name": "MLP"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 208,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0",
+      "type": "MCQ",
+      "options": [],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDM"
+    }
+  ],
+  "id": "cs2008-2022t3-q1-na",
+  "course_code": "CS2008",
+  "course_name": "Machine Learning Practice",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2022",
+  "year": 2022,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

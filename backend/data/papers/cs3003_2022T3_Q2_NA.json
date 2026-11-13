@@ -1,0 +1,566 @@
+{
+  "title": "AI: Search Methods for Problem Solving - Sep 2022 Quiz 2",
+  "filename": "cs3003_2022T3_Q2_NA.pdf",
+  "total_questions": 27,
+  "total_marks": 30.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "Consider the class diagram given below. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p0_Im1.webp|block] Which of the following is/are true about the class diagram?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3003_2022T3_Q2_NA_p0_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3003_2022T3_Q2_NA_p0_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3003_2022T3_Q2_NA_p0_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3003_2022T3_Q2_NA_p0_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3003_2022T3_Q2_NA_p0_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3003_2022T3_Q2_NA_p0_Im6.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p0_Im1.webp",
+        "/data/images/cs3003_2022T3_Q2_NA_p0_Im3.webp",
+        "/data/images/cs3003_2022T3_Q2_NA_p0_Im5.webp",
+        "/data/images/cs3003_2022T3_Q2_NA_p0_Im6.webp",
+        "/data/images/cs3003_2022T3_Q2_NA_p0_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 132,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 133,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the map, S is the first node to be refined, determine the next 4 nodes from the 2nd to 5th node refined by A*. Enter the nodes in the order they are refined. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: W,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "B,C,D,E",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two way edges (roads), where each edge has a cost that is the same in both directions. Observe that the edge costs are not necessarily proportional to the coordinate based distance estimates. The start node is S and the goal node is G, the MoveGen function returns neighbours in alphabetical order. Use Manhattan distance as the heuristic function. Tie-breaker: when several nodes have the same best cost, use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp|block] Emulate A*, WA* and Branch-and-Bound on the given map, then answer the given subquestions.",
+      "group_id": "640653446479",
+      "section_name": "AI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 134,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 For the 4 nodes listed in the previous question , list the f-values of those nodes as a comma separated list. Use the same node order used in the previous question. Enter a comma separated list of natural numbers. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 2,7,1,8 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "19,20,29,31",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two way edges (roads), where each edge has a cost that is the same in both directions. Observe that the edge costs are not necessarily proportional to the coordinate based distance estimates. The start node is S and the goal node is G, the MoveGen function returns neighbours in alphabetical order. Use Manhattan distance as the heuristic function. Tie-breaker: when several nodes have the same best cost, use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp|block] Emulate A*, WA* and Branch-and-Bound on the given map, then answer the given subquestions.",
+      "group_id": "640653446479",
+      "section_name": "AI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 135,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the path found by A*? Enter the path as a comma separated list. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: S,X,Y,Z,G Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,B,C,D,E,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two way edges (roads), where each edge has a cost that is the same in both directions. Observe that the edge costs are not necessarily proportional to the coordinate based distance estimates. The start node is S and the goal node is G, the MoveGen function returns neighbours in alphabetical order. Use Manhattan distance as the heuristic function. Tie-breaker: when several nodes have the same best cost, use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp|block] Emulate A*, WA* and Branch-and-Bound on the given map, then answer the given subquestions.",
+      "group_id": "640653446479",
+      "section_name": "AI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 136,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A* may revise the f-values of nodes when it visits them again. List all the f-values assigned to node \u2018A\u2019, excluding +INFINITY (or +LARGE) assigned initially. Enter a comma separated list of f-values. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 3,1,4 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "37,33",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two way edges (roads), where each edge has a cost that is the same in both directions. Observe that the edge costs are not necessarily proportional to the coordinate based distance estimates. The start node is S and the goal node is G, the MoveGen function returns neighbours in alphabetical order. Use Manhattan distance as the heuristic function. Tie-breaker: when several nodes have the same best cost, use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp|block] Emulate A*, WA* and Branch-and-Bound on the given map, then answer the given subquestions.",
+      "group_id": "640653446479",
+      "section_name": "AI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 137,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 For w=3, what is the path found by WA* algorithm? Enter the path as a comma separated list. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: S,X,Y,Z,G Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,B,C,A,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two way edges (roads), where each edge has a cost that is the same in both directions. Observe that the edge costs are not necessarily proportional to the coordinate based distance estimates. The start node is S and the goal node is G, the MoveGen function returns neighbours in alphabetical order. Use Manhattan distance as the heuristic function. Tie-breaker: when several nodes have the same best cost, use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp|block] Emulate A*, WA* and Branch-and-Bound on the given map, then answer the given subquestions.",
+      "group_id": "640653446479",
+      "section_name": "AI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 138,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the cost of the path found by Branch-and-Bound algorithm? Enter a natural number. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 17",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "32",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two way edges (roads), where each edge has a cost that is the same in both directions. Observe that the edge costs are not necessarily proportional to the coordinate based distance estimates. The start node is S and the goal node is G, the MoveGen function returns neighbours in alphabetical order. Use Manhattan distance as the heuristic function. Tie-breaker: when several nodes have the same best cost, use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp|block] Emulate A*, WA* and Branch-and-Bound on the given map, then answer the given subquestions.",
+      "group_id": "640653446479",
+      "section_name": "AI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 139,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Is the heuristic admissible in the given map?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two way edges (roads), where each edge has a cost that is the same in both directions. Observe that the edge costs are not necessarily proportional to the coordinate based distance estimates. The start node is S and the goal node is G, the MoveGen function returns neighbours in alphabetical order. Use Manhattan distance as the heuristic function. Tie-breaker: when several nodes have the same best cost, use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p2_Im1.webp|block] Emulate A*, WA* and Branch-and-Bound on the given map, then answer the given subquestions.",
+      "group_id": "640653446479",
+      "section_name": "AI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 140,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the length of the optimal plan? Enter the number of actions in the optimal plan. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 42",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp",
+        "/data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a blocks-world with a single one-armed robot is provided below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp|block] Tie-breaker for subgoal ordering: treat the start state, goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one into a stack, the last element will be at the top of the stack. It has the effect of reversing the list. Tie-breaker for block placement: when there are multiple locations for placing a block, choose the location that satisfies a goal at hand, or else, choose a location that will lead to a better plan, or else, place it on the table. Tie-breaker for action selection: when actions are chosen non-deterministically, choose actions that lead to a plan, even a suboptimal plan is fine. Throwaway the actions that may lead to deadends and loops. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "640653446501",
+      "section_name": "AI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 141,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following are applicable actions for the given planning problem?",
+      "type": "multichoice",
+      "options": [
+        "Pickup(A)",
+        "Pickup(B)",
+        "Pickup(C)",
+        "Unstack(A,D)",
+        "Unstack(C,G)"
+      ],
+      "correct_answer": [
+        "Pickup(B)",
+        "Unstack(A,D)",
+        "Unstack(C,G)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp",
+        "/data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a blocks-world with a single one-armed robot is provided below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp|block] Tie-breaker for subgoal ordering: treat the start state, goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one into a stack, the last element will be at the top of the stack. It has the effect of reversing the list. Tie-breaker for block placement: when there are multiple locations for placing a block, choose the location that satisfies a goal at hand, or else, choose a location that will lead to a better plan, or else, place it on the table. Tie-breaker for action selection: when actions are chosen non-deterministically, choose actions that lead to a plan, even a suboptimal plan is fine. Throwaway the actions that may lead to deadends and loops. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "640653446501",
+      "section_name": "AI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 142,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following are relevant actions for the given planning problem?",
+      "type": "multichoice",
+      "options": [
+        "Pickup(B)",
+        "Putdown(B)",
+        "Stack(A,G)",
+        "Stack(B,A)",
+        "Unstack(A,D)",
+        "Unstack(C,G)"
+      ],
+      "correct_answer": [
+        "Stack(A,G)",
+        "Stack(B,A)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp",
+        "/data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a blocks-world with a single one-armed robot is provided below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp|block] Tie-breaker for subgoal ordering: treat the start state, goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one into a stack, the last element will be at the top of the stack. It has the effect of reversing the list. Tie-breaker for block placement: when there are multiple locations for placing a block, choose the location that satisfies a goal at hand, or else, choose a location that will lead to a better plan, or else, place it on the table. Tie-breaker for action selection: when actions are chosen non-deterministically, choose actions that lead to a plan, even a suboptimal plan is fine. Throwaway the actions that may lead to deadends and loops. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "640653446501",
+      "section_name": "AI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 143,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following can be pushed as the first three elements onto the stack by the Goal Stack Planning algorithm? In the representation below the stack has a bottom on the right marked by the entry END. Use appropriate tie-breakers listed in main question.",
+      "type": "MCQ",
+      "options": [
+        "{ on(A,G), on(B,A) }; on(A,G); on(B,A); END",
+        "{ on(A,G), on(B,A) }; on(B,A); on(A,G); END",
+        "on(B,A); on(A,G); { on(A,G), on(B,A) }; END",
+        "on(A,G); on(B,A); { on(A,G), on(B,A) }; END"
+      ],
+      "correct_answer": "on(B,A); on(A,G); { on(A,G), on(B,A) }; END",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp",
+        "/data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a blocks-world with a single one-armed robot is provided below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp|block] Tie-breaker for subgoal ordering: treat the start state, goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one into a stack, the last element will be at the top of the stack. It has the effect of reversing the list. Tie-breaker for block placement: when there are multiple locations for placing a block, choose the location that satisfies a goal at hand, or else, choose a location that will lead to a better plan, or else, place it on the table. Tie-breaker for action selection: when actions are chosen non-deterministically, choose actions that lead to a plan, even a suboptimal plan is fine. Throwaway the actions that may lead to deadends and loops. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "640653446501",
+      "section_name": "AI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 144,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 For the subgoal ordering given in the goal description (and using the given tie breaking rules), which of the following is the first action popped out of the stack in Goal Stack Planning?",
+      "type": "MCQ",
+      "options": [
+        "Pickup(B)",
+        "Stack(B,A)",
+        "Unstack(A,D)",
+        "Unstack(C,G)"
+      ],
+      "correct_answer": "Pickup(B)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp",
+        "/data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a blocks-world with a single one-armed robot is provided below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp|block] Tie-breaker for subgoal ordering: treat the start state, goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one into a stack, the last element will be at the top of the stack. It has the effect of reversing the list. Tie-breaker for block placement: when there are multiple locations for placing a block, choose the location that satisfies a goal at hand, or else, choose a location that will lead to a better plan, or else, place it on the table. Tie-breaker for action selection: when actions are chosen non-deterministically, choose actions that lead to a plan, even a suboptimal plan is fine. Throwaway the actions that may lead to deadends and loops. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "640653446501",
+      "section_name": "AI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 145,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 For the subgoal ordering given in the goal description (and using the given tie breaking rules), does the Goal Stack Planning algorithm find an optimal plan?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp",
+        "/data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a blocks-world with a single one-armed robot is provided below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp|block] Tie-breaker for subgoal ordering: treat the start state, goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one into a stack, the last element will be at the top of the stack. It has the effect of reversing the list. Tie-breaker for block placement: when there are multiple locations for placing a block, choose the location that satisfies a goal at hand, or else, choose a location that will lead to a better plan, or else, place it on the table. Tie-breaker for action selection: when actions are chosen non-deterministically, choose actions that lead to a plan, even a suboptimal plan is fine. Throwaway the actions that may lead to deadends and loops. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "640653446501",
+      "section_name": "AI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 146,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 If the subgoals in the goal description are swapped places then does the Goal Stack Planning algorithm find an optimal plan?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp",
+        "/data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a blocks-world with a single one-armed robot is provided below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p7_Im1.webp|block] Tie-breaker for subgoal ordering: treat the start state, goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one into a stack, the last element will be at the top of the stack. It has the effect of reversing the list. Tie-breaker for block placement: when there are multiple locations for placing a block, choose the location that satisfies a goal at hand, or else, choose a location that will lead to a better plan, or else, place it on the table. Tie-breaker for action selection: when actions are chosen non-deterministically, choose actions that lead to a plan, even a suboptimal plan is fine. Throwaway the actions that may lead to deadends and loops. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p8_Im1.webp|block]",
+      "group_id": "640653446501",
+      "section_name": "AI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 147,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the lower bound on the cost of the tour as per the TSP BnB algorithm discussed in class? Enter a natural number. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 17",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "182",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix and edge costs for 5 cities (A to E) are provided below along with the BnB search tree. Use the Branch-and-Bound algorithm to compute the optimal tour. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p12_Im1.webp|block] Attention : since we are solving problems by hand, infer as much as possible (and as early as possible) about the permanent edges in the partial solution.",
+      "group_id": "640653446487",
+      "section_name": "AI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 148,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the first edge E1 (XY) used for refining S0? Enter edge label XY NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: XY Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "BC CB",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix and edge costs for 5 cities (A to E) are provided below along with the BnB search tree. Use the Branch-and-Bound algorithm to compute the optimal tour. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p12_Im1.webp|block] Attention : since we are solving problems by hand, infer as much as possible (and as early as possible) about the permanent edges in the partial solution.",
+      "group_id": "640653446487",
+      "section_name": "AI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 149,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the cost of the node ~E1 that excludes edge XY? Enter a natural number. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 42",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "207",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix and edge costs for 5 cities (A to E) are provided below along with the BnB search tree. Use the Branch-and-Bound algorithm to compute the optimal tour. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p12_Im1.webp|block] Attention : since we are solving problems by hand, infer as much as possible (and as early as possible) about the permanent edges in the partial solution.",
+      "group_id": "640653446487",
+      "section_name": "AI"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 150,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the second edge E2 (XY) that is used for refinement? What is the cost of the node E2. Enter the edge XY and the cost as a comma separated list. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: XY,42 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "BD,191 DB,191",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix and edge costs for 5 cities (A to E) are provided below along with the BnB search tree. Use the Branch-and-Bound algorithm to compute the optimal tour. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p12_Im1.webp|block] Attention : since we are solving problems by hand, infer as much as possible (and as early as possible) about the permanent edges in the partial solution.",
+      "group_id": "640653446487",
+      "section_name": "AI"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 151,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the cost of the optimal tour? NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 17",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "194",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix and edge costs for 5 cities (A to E) are provided below along with the BnB search tree. Use the Branch-and-Bound algorithm to compute the optimal tour. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p12_Im1.webp|block] Attention : since we are solving problems by hand, infer as much as possible (and as early as possible) about the permanent edges in the partial solution.",
+      "group_id": "640653446487",
+      "section_name": "AI"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 152,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the outcome (W, D or L) of the game when both players play perfectly? NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "L",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES The figure shows a game tree with evaluations W (win), L (loss) and D (draw) from Max's perspective. The nodes are labeled in a level-by-level (a,b,...,e) left-to-right (1,2,...) manner as indicated in the game tree. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p16_Im1.webp|block]",
+      "group_id": "640653446493",
+      "section_name": "AI"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 153,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are allowed to change the eval of one leaf node, change the eval such that the game will end in a draw when both players play perfectly. Which node will you change and what is the new eval? Enter the label of the node you wish to change and the new eval as a comma separated list. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: a1,X Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "c3,D c4,D c15,D",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES The figure shows a game tree with evaluations W (win), L (loss) and D (draw) from Max's perspective. The nodes are labeled in a level-by-level (a,b,...,e) left-to-right (1,2,...) manner as indicated in the game tree. [IMAGE: /data/images/cs3003_2022T3_Q2_NA_p16_Im1.webp|block]",
+      "group_id": "640653446493",
+      "section_name": "AI"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 154,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 List the horizon nodes in the best strategy. Enter the node labels as a comma separated list in ASCENDING order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,B,C,D",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3003_2022T3_Q2_NA_p18_Im1.webp|block]",
+      "group_id": "640653446496",
+      "section_name": "AI"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 155,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 List the horizon nodes pruned by Alpha-Beta algorithm. Enter the node labels as a comma separated list in ASCENDING order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "F,G,H,K,L",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3003_2022T3_Q2_NA_p18_Im1.webp|block]",
+      "group_id": "640653446496",
+      "section_name": "AI"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 156,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 List the horizon nodes in the initial cluster formed by SSS* algorithm. Enter the node labels as a comma separated list in ASCENDING order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,E,I",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3003_2022T3_Q2_NA_p18_Im1.webp|block]",
+      "group_id": "640653446496",
+      "section_name": "AI"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 157,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 List the horizon nodes assigned SOLVED status by the SSS* algorithm. Enter the node labels as a comma separated list in ASCENDING order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,B,C,D,E,I,J A,E,I,B,J,C,D",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_Q2_NA_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3003_2022T3_Q2_NA_p18_Im1.webp|block]",
+      "group_id": "640653446496",
+      "section_name": "AI"
+    }
+  ],
+  "id": "cs3003-2022t3-q2-na",
+  "course_code": "CS3003",
+  "course_name": "AI: Search Methods for Problem Solving",
+  "level": "Degree",
+  "term": "Sep 2022",
+  "year": 2022,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

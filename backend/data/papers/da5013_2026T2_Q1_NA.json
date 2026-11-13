@@ -1,0 +1,447 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "da5013_2026T2_Q1_NA.pdf",
+  "total_questions": 19,
+  "total_marks": 36.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "A startup is building an LLM for a low resource agglutinative language where a single word can contain information equivalent to an entire English sentence. After training a Word Level tokenizer with a vocabulary of 30,000, they observe that nearly 18% of tokens become [UNK]. Which action is most likely to improve the situation while keeping vocabulary growth manageable?",
+      "type": "MCQ",
+      "options": [
+        "Use SentencePiece or BPE",
+        "Increase batch size",
+        "Increase the minimum token frequency threshold during tokenizer training",
+        "Disable normalization so every word form is stored separately"
+      ],
+      "correct_answer": "Use SentencePiece or BPE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following code: [IMAGE: /data/images/da5013_2026T2_Q1_NA_p2_Im1.webp|block] Assume that the variable [IMAGE: /data/images/da5013_2026T2_Q1_NA_p2_Im2.webp|inline] contains a piece of text. When tokenized without applying truncation or padding, it produces 220 tokens. Which of the following correctly describes the [IMAGE: /data/images/da5013_2026T2_Q1_NA_p2_Im3.webp|inline] returned in [IMAGE: /data/images/da5013_2026T2_Q1_NA_p2_Im4.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "The output contains all 220 tokens because tokenization is completed before truncation.",
+        "The output contains the first 128 tokens followed by additional padding tokens.",
+        "The output contains exactly 128 tokens from the document.",
+        "The output length depends on the tokenizer model being used."
+      ],
+      "correct_answer": "The output contains exactly 128 tokens from the document.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q1_NA_p2_Im1.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p2_Im2.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p2_Im3.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "A team fine tunes a 13B parameter model using LoRA. After training they discover that only 0.15% of parameters have been updated. Which statement best explains this observation?",
+      "type": "MCQ",
+      "options": [
+        "LoRA updates low rank matrices while freezing most pretrained weights",
+        "LoRA trains only the embedding layer",
+        "LoRA automatically quantizes the model",
+        "LoRA removes attention layers during training"
+      ],
+      "correct_answer": "LoRA updates low rank matrices while freezing most pretrained weights",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "A company wants to build a medical chatbot. They possess: \u2022 8 million unlabeled medical documents \u2022 300 doctor reviewed question answer pairs Which adaptation strategy would most likely provide the largest performance gain?",
+      "type": "MCQ",
+      "options": [
+        "Train a new tokenizer only",
+        "Continue pretraining on the medical corpus and then instruction tune",
+        "Increase context length",
+        "Increase batch size"
+      ],
+      "correct_answer": "Continue pretraining on the medical corpus and then instruction tune",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "A 7 billion parameter model is loaded in FP32 precision. Ignoring activations and optimizer states, approximately how much GPU memory is required for storing model weights?",
+      "type": "MCQ",
+      "options": [
+        "7 GB",
+        "14 GB",
+        "28 GB",
+        "56 GB"
+      ],
+      "correct_answer": "28 GB",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "A tokenizer vocabulary is increased from 16K to 128K while keeping the training corpus unchanged. What tradeoff is most likely?",
+      "type": "MCQ",
+      "options": [
+        "Shorter sequences and a larger embedding layer",
+        "Longer sequences and a smaller embedding layer",
+        "Shorter sequences and a smaller embedding layer",
+        "No significant effect on the model"
+      ],
+      "correct_answer": "Shorter sequences and a larger embedding layer",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following code: [IMAGE: /data/images/da5013_2026T2_Q1_NA_p4_Im1.webp|block] Which method fills the blank to return only the token IDs as a plain Python list?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2026T2_Q1_NA_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2026T2_Q1_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2026T2_Q1_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2026T2_Q1_NA_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2026T2_Q1_NA_p4_Im3.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q1_NA_p4_Im1.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p4_Im3.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p4_Im5.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p4_Im6.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "The following code is intended to implement causal masking for self attention, where each token can attend only to itself and previous tokens. [IMAGE: /data/images/da5013_2026T2_Q1_NA_p5_Im1.webp|block] What is the effect of running this code as written? ( Note: Assume necessary imports are already done and [IMAGE: /data/images/da5013_2026T2_Q1_NA_p5_Im2.webp|inline] is a valid tensor of attention scores with shape [IMAGE: /data/images/da5013_2026T2_Q1_NA_p5_Im3.webp|inline] .)",
+      "type": "MCQ",
+      "options": [
+        "No effect. This correctly implements causal masking.",
+        "It raises a [IMAGE: /data/images/da5013_2026T2_Q1_NA_p5_Im5.webp|inline] because [IMAGE: /data/images/da5013_2026T2_Q1_NA_p5_Im6.webp|inline] cannot be used with [IMAGE: /data/images/da5013_2026T2_Q1_NA_p5_Im7.webp|inline] .",
+        "The attention weights in every row will sum to more than 1.",
+        "The current token is also masked, so each token can attend only to earlier tokens. The first row becomes entirely [IMAGE: /data/images/da5013_2026T2_Q1_NA_p5_Im9.webp|inline] , which can lead to invalid ( [IMAGE: /data/images/da5013_2026T2_Q1_NA_p5_Im10.webp|inline] ) attention weights."
+      ],
+      "correct_answer": "The current token is also masked, so each token can attend only to earlier tokens. The first row becomes entirely [IMAGE: /data/images/da5013_2026T2_Q1_NA_p5_Im9.webp|inline] , which can lead to invalid ( [IMAGE: /data/images/da5013_2026T2_Q1_NA_p5_Im10.webp|inline] ) attention weights.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q1_NA_p5_Im1.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p5_Im2.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p5_Im3.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p5_Im5.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p5_Im6.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p5_Im7.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p5_Im9.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p5_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following training configuration: [IMAGE: /data/images/da5013_2026T2_Q1_NA_p5_Im11.webp|block] Which statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "Effective batch size is larger than 2",
+        "Memory usage is lower than FP32 training",
+        "Optimizer updates occur after every batch",
+        "Gradient accumulation can simulate larger batches",
+        "FP16 automatically reduces optimizer state size by half"
+      ],
+      "correct_answer": [
+        "Effective batch size is larger than 2",
+        "Memory usage is lower than FP32 training",
+        "Gradient accumulation can simulate larger batches"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q1_NA_p5_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "A student trains GPT 2 using Hugging Face [IMAGE: /data/images/da5013_2026T2_Q1_NA_p6_Im3.webp|inline] with: [IMAGE: /data/images/da5013_2026T2_Q1_NA_p6_Im4.webp|block] The training dataset contains sequences of different lengths, but the student forgets to execute: [IMAGE: /data/images/da5013_2026T2_Q1_NA_p6_Im5.webp|block] Which of the following are true?",
+      "type": "multichoice",
+      "options": [
+        "The data collator will fail when it attempts to pad the batch.",
+        "Decoder only models never need padding during training.",
+        "Using [IMAGE: /data/images/da5013_2026T2_Q1_NA_p6_Im6.webp|inline] instead may cause padding to use a real vocabulary token.",
+        "Reusing the EOS token as the padding token is a common practice for GPT 2.",
+        "GPT 2 already defines a [IMAGE: /data/images/da5013_2026T2_Q1_NA_p6_Im7.webp|inline] token by default."
+      ],
+      "correct_answer": [
+        "The data collator will fail when it attempts to pad the batch.",
+        "Using [IMAGE: /data/images/da5013_2026T2_Q1_NA_p6_Im6.webp|inline] instead may cause padding to use a real vocabulary token.",
+        "Reusing the EOS token as the padding token is a common practice for GPT 2."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q1_NA_p6_Im3.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p6_Im4.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p6_Im5.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p6_Im6.webp",
+        "/data/images/da5013_2026T2_Q1_NA_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "A team experiences GPU out of memory errors while fine tuning a language model. Which actions may help?",
+      "type": "multichoice",
+      "options": [
+        "Mixed precision training",
+        "Quantization",
+        "Gradient checkpointing",
+        "LoRA",
+        "Increasing vocabulary size"
+      ],
+      "correct_answer": [
+        "Mixed precision training",
+        "Quantization",
+        "Gradient checkpointing",
+        "LoRA"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "A model is trained for sentiment classification using the following prompt format: [IMAGE: /data/images/da5013_2026T2_Q1_NA_p7_Im3.webp|block] Compared with traditional classification heads, which statements are true?",
+      "type": "multichoice",
+      "options": [
+        "The model learns to follow instructions",
+        "The output vocabulary remains open ended",
+        "Predictions are restricted to predefined class IDs",
+        "Training becomes a next token prediction task",
+        "The objective is identical to logistic regression"
+      ],
+      "correct_answer": [
+        "The model learns to follow instructions",
+        "The output vocabulary remains open ended",
+        "Training becomes a next token prediction task"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q1_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Which outputs can typically be produced by a Hugging Face tokenizer?",
+      "type": "multichoice",
+      "options": [
+        "input_ids",
+        "attention_mask",
+        "token_type_ids",
+        "hidden_states",
+        "offset_mapping"
+      ],
+      "correct_answer": [
+        "input_ids",
+        "attention_mask",
+        "token_type_ids",
+        "offset_mapping"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript A GPT style model has the following configuration: \u2022 Vocabulary size = 65,000 \u2022 Context length = 4096 \u2022 Embedding dimension = 1536 The model uses learned positional embeddings. Calculate the total number of embedding parameters (token embeddings + positional embeddings) in millions. Round your answer to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "105.5 to 106.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript A transformer block has: \u2022 d_model = 1536 Assume standard self attention consisting of: \u2022 Query projection \u2022 Key projection \u2022 Value projection \u2022 Output projection Ignore biases. Calculate the total number of parameters in millions. Round your answer to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9 to 10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript A model contains 5 billion parameters. Training uses AdamW in FP32 precision. Assume: \u2022 Parameters = 4 bytes \u2022 Gradients = 4 bytes \u2022 Momentum = 4 bytes \u2022 Variance = 4 bytes Ignoring activations and buffers, calculate the total memory requirement in GB. Use: 1 GB = 10 9 bytes Round your answer to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "79.5 to 80.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript A batch of sentences is tokenized using a pretrained BERT tokenizer: [IMAGE: /data/images/da5013_2026T2_Q1_NA_p10_Im1.webp|block] What is the value printed by the code? (Assume default tokenizer behavior is used.)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.99 to 2.01",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Inscript A training job uses: \u2022 Batch size = 8 \u2022 Context length = 4096 \u2022 Gradient accumulation = 4 \u2022 Training steps = 10,000 optimizer updates Calculate the total number of tokens processed after 10,000 optimizer updates. Express your answer in millions. Round to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1310 to 1311",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    }
+  ],
+  "id": "da5013-2026t2-q1-na",
+  "course_code": "DA5013",
+  "course_name": "Deep Learning Practice",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

@@ -1,0 +1,456 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)",
+  "filename": "cs3002_2025T2_Q1_NA.pdf",
+  "total_questions": 21,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 17,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 18,
+      "text": "The following table lists some concepts from Software Testing. [IMAGE: /data/images/cs3002_2025T2_Q1_NA_p1_Im1.webp|block] Match each term given in Column A with the related term given in Column B.",
+      "type": "MCQ",
+      "options": [
+        "i - a, ii - b, iii - c, iv - d",
+        "i - d, ii - c, iii - b, iv - a",
+        "i - b, ii - c, iii - a, iv - d",
+        "i - d, ii - b, iii - c, iv - a"
+      ],
+      "correct_answer": "i - d, ii - c, iii - b, iv - a",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T2_Q1_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 19,
+      "text": "A mobile app sends a request over the network to the server, to retrieve results of students in a particular subject, upon receiving the request, the server responds back with the results data for that subject. In this scenario, which type of interface exists between the mobile app and the server?",
+      "type": "MCQ",
+      "options": [
+        "Shared memory interface",
+        "Message-passing interface",
+        "Procedure call interface",
+        "External file interface"
+      ],
+      "correct_answer": "Message-passing interface",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 20,
+      "text": "In an organization, software developers and testers are cooperating with each other in order to reduce risks in using the software product. Considering this scenario, identify the minimum process maturity level of this organization.",
+      "type": "MCQ",
+      "options": [
+        "Level 1",
+        "Level 2",
+        "Level 3",
+        "Level 4"
+      ],
+      "correct_answer": "Level 3",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 21,
+      "text": "A software testing engineer performed various tests on a web application to ensure that users can easily access and use the application user interface on different types of devices such as smartphones, tablets, and desktop computers, all of which have different form factors and screen sizes. Which of the following types of testing does this scenario represent?",
+      "type": "MCQ",
+      "options": [
+        "Stress Testing",
+        "Usability Testing",
+        "Functional Testing",
+        "Performance Testing"
+      ],
+      "correct_answer": "Usability Testing",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 22,
+      "text": "Fill in the blank with the appropriate option. _______________ deals with testing each linearly independent path in the CFG of the program.",
+      "type": "MCQ",
+      "options": [
+        "Complexity testing",
+        "Basis path testing",
+        "Unit testing",
+        "Integration testing"
+      ],
+      "correct_answer": "Basis path testing",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 23,
+      "text": "Consider the following statements and choose the appropriate option. i) A module or a component is a self-contained element of a system. ii) Interfaces implement a mechanism for passing control and data between modules.",
+      "type": "MCQ",
+      "options": [
+        "Statement i) is correct and Statement ii) is incorrect.",
+        "Statement ii) is correct and Statement i) is incorrect.",
+        "Both statements are incorrect.",
+        "Both statements are correct."
+      ],
+      "correct_answer": "Both statements are correct.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 24,
+      "text": "Consider the following statements and choose the appropriate option. i) Each du-path is a simple path, so prime path coverage subsumes all-du-paths coverage. ii) All-du-paths coverage does not subsume edge coverage.",
+      "type": "MCQ",
+      "options": [
+        "Statement i) is correct and Statement ii) is incorrect.",
+        "Statement ii) is correct and Statement i) is incorrect.",
+        "Both statements are incorrect.",
+        "Both statements are correct."
+      ],
+      "correct_answer": "Statement i) is correct and Statement ii) is incorrect.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 25,
+      "text": "Fill in the blank with the appropriate option. _______________ is a software component or test tool that replaces a component that takes care of the control and/or the calling of a software component.",
+      "type": "MCQ",
+      "options": [
+        "Test driver",
+        "Test suite",
+        "Test method",
+        "Test stub"
+      ],
+      "correct_answer": "Test driver",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 26,
+      "text": "Fill in the blank with the appropriate option. A path from node n i to n j is a _________ if no node appears more than once, except possibly the first and last node.",
+      "type": "MCQ",
+      "options": [
+        "simple path",
+        "test path",
+        "DD-path",
+        "def-clear path"
+      ],
+      "correct_answer": "simple path",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 27,
+      "text": "Fill in the blank with the appropriate option. A DD-path consists of a maximal chain of length __________.",
+      "type": "MCQ",
+      "options": [
+        "equal to 1",
+        "equal to 2",
+        "greater than or equal to 1",
+        "at most 3"
+      ],
+      "correct_answer": "greater than or equal to 1",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 28,
+      "text": "Consider the following statements regarding the approaches in integration testing: i) In big bang approach, the entire system is tested as a whole. ii) Sandwich approach uses a mix of top-down and bottom-up testing approaches. iii) Top-down approach does not work well for systems with hierarchical design. Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "Statement i) and iii) are correct. Statement ii) is incorrect.",
+        "Statement i) is correct. Statement ii) and iii) are incorrect.",
+        "Statement ii) and iii) are correct. Statement i) is incorrect.",
+        "Statement i) and ii) are correct. Statement iii) is incorrect."
+      ],
+      "correct_answer": "Statement i) and ii) are correct. Statement iii) is incorrect.",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 29,
+      "text": "Complete path coverage on a CFG becomes infeasible due to which of the following reasons?",
+      "type": "MCQ",
+      "options": [
+        "Due to presence of multiple branches",
+        "Due to presence of multiple terminal nodes",
+        "Due to presence of loops",
+        "Complete path coverage is always feasible"
+      ],
+      "correct_answer": "Due to presence of loops",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 30,
+      "text": "[IMAGE: /data/images/cs3002_2025T2_Q1_NA_p6_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "testcase1()",
+        "testcase2()",
+        "testcase3()",
+        "testcase4()"
+      ],
+      "correct_answer": [
+        "testcase2()",
+        "testcase4()"
+      ],
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T2_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 31,
+      "text": "How many test requirements are there for edge-pair coverage?",
+      "type": "MCQ",
+      "options": [
+        "12",
+        "11",
+        "9",
+        "10"
+      ],
+      "correct_answer": "10",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the CFG given below, and answer the subquestions. [IMAGE: /data/images/cs3002_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279358",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 32,
+      "text": "How many test requirements are there for prime path coverage?",
+      "type": "MCQ",
+      "options": [
+        "8",
+        "6",
+        "3",
+        "10"
+      ],
+      "correct_answer": "8",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the CFG given below, and answer the subquestions. [IMAGE: /data/images/cs3002_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279358",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 33,
+      "text": "What is the cyclomatic complexity of the given CFG?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the CFG given below, and answer the subquestions. [IMAGE: /data/images/cs3002_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279358",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 34,
+      "text": "How many definitions are there for the variable p ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T2_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following data flow graph and answer the given subquestions. [IMAGE: /data/images/cs3002_2025T2_Q1_NA_p10_Im1.webp|block]",
+      "group_id": "6406531279362",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 35,
+      "text": "How many uses are there for the variable p ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T2_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following data flow graph and answer the given subquestions. [IMAGE: /data/images/cs3002_2025T2_Q1_NA_p10_Im1.webp|block]",
+      "group_id": "6406531279362",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 36,
+      "text": "How many du-pairs are there for the variable p ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T2_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following data flow graph and answer the given subquestions. [IMAGE: /data/images/cs3002_2025T2_Q1_NA_p10_Im1.webp|block]",
+      "group_id": "6406531279362",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 37,
+      "text": "Which of the following is not a def-clear path for variable p ?",
+      "type": "MCQ",
+      "options": [
+        "[2, 3, 5]",
+        "[2, 3, 4]",
+        "[2, 3, 4, 3, 5]",
+        "[6, 7, 6, 8]"
+      ],
+      "correct_answer": "[2, 3, 4, 3, 5]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T2_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following data flow graph and answer the given subquestions. [IMAGE: /data/images/cs3002_2025T2_Q1_NA_p10_Im1.webp|block]",
+      "group_id": "6406531279362",
+      "section_name": "Sw Testing"
+    }
+  ],
+  "id": "cs3002-2025t2-q1-na",
+  "course_code": "CS3002",
+  "course_name": "Software Testing",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

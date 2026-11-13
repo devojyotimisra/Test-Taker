@@ -1,0 +1,421 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "da5013_2025T1_Q1_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 212,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 213,
+      "text": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[\"hugging\", \"face\", \"is\", \"awesome\"]",
+        "[102, 463, 509, 101, 2020]",
+        "[\"hugging\", \"face\", \"is\", \"awesome\", \"\"]",
+        "\"Hugging Face is awesome!\""
+      ],
+      "correct_answer": "[102, 463, 509, 101, 2020]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 214,
+      "text": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The tokenizer will output the token [UNK] because \"nonexistentword\" is not in the vocabulary.",
+        "The tokenizer will output the word \"nonexistentword\" as a single token.",
+        "The tokenizer will output \"non\", \"existent\", \"word\" as separate tokens since it has split the word into known subwords.",
+        "The tokenizer will output \"non\", \"exist\", \"ent\", \"word\" as separate tokens since it has split the word into known subwords.",
+        "The tokenizer will output an error because \"nonexistentword\" is not present in the vocabulary and the unk_token was not defined."
+      ],
+      "correct_answer": "The tokenizer will output \"non\", \"existent\", \"word\" as separate tokens since it has split the word into known subwords.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 215,
+      "text": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[2, 3]",
+        "[3, 0, 2]",
+        "[2, 0, 1, 3]",
+        "[3, 1, 0, 2]"
+      ],
+      "correct_answer": "[2, 0, 1, 3]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 216,
+      "text": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p4_Im7.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p4_Im1.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p4_Im3.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p4_Im4.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p4_Im5.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 217,
+      "text": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p5_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p5_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p5_Im1.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p5_Im3.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p5_Im5.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p5_Im6.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 218,
+      "text": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p5_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "LoRA will be applied to the entire model, including the embedding layers.",
+        "LoRA will only be applied to the final classification layer of the model.",
+        "LoRA will not be applied to any layer of the model.",
+        "The model will throw an error because an empty list is invalid."
+      ],
+      "correct_answer": "LoRA will not be applied to any layer of the model.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p5_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 219,
+      "text": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "n_t_5k > n_t_50k because with a smaller vocabulary size, the tokenizer will split more words into smaller subwords, leading to a higher number of tokens.",
+        "n_t_5k < n_t_50k because a smaller vocabulary size means the tokenizer can only split the words into fewer subwords, resulting in fewer tokens.",
+        "n_t_5k = n_t_50k because the number of tokens is independent of the vocabulary size and depends on the input words.",
+        "n_t_5k = n_t_50k because both vocabularies will represent the word \"unhappiness\" with the same number of tokens due to the use of subword tokenization."
+      ],
+      "correct_answer": "n_t_5k > n_t_50k because with a smaller vocabulary size, the tokenizer will split more words into smaller subwords, leading to a higher number of tokens.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 220,
+      "text": "What type of language modeling objective is used during the pretraining of GPT-2?",
+      "type": "MCQ",
+      "options": [
+        "Masked Language Modeling (MLM)",
+        "Sequence-to-Sequence Modeling",
+        "Causal Language Modeling (CLM)",
+        "Text Classification Objective"
+      ],
+      "correct_answer": "Causal Language Modeling (CLM)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 221,
+      "text": "Which of the following is/are gradient based (fine tuning) methods?",
+      "type": "multichoice",
+      "options": [
+        "Zero-shot Tuning",
+        "Few-shots Tuning",
+        "Instruction Fine tuning",
+        "Parameter Efficient Fine Tuning",
+        "Preference Tuning Via RLHF"
+      ],
+      "correct_answer": [
+        "Instruction Fine tuning",
+        "Parameter Efficient Fine Tuning",
+        "Preference Tuning Via RLHF"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 222,
+      "text": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p8_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p8_Im5.webp|inline] [IMAGE: /data/images/da5013_2025T1_Q1_NA_p9_Im2.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p9_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "",
+        ""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p8_Im3.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p8_Im5.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p9_Im2.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 223,
+      "text": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p9_Im5.webp|block] Select all the correct statements.",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p9_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p9_Im8.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p9_Im9.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p9_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p9_Im9.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p9_Im5.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p9_Im6.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p9_Im7.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p9_Im8.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p9_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 224,
+      "text": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p10_Im1.webp|block] Select all the correct statements.",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p10_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p10_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p10_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p10_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p10_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p10_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p10_Im1.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p10_Im3.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p10_Im5.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p10_Im6.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p10_Im7.webp",
+        "/data/images/da5013_2025T1_Q1_NA_p10_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 225,
+      "text": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p10_Im9.webp|block] The original train split contains 25,000 samples, and 60% of the samples have a text length greater than 200. If the dataset's text length distribution is uniform across all splits, how many samples will the subset dataset contain?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3750",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p10_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 226,
+      "text": "Calculate the number of parameters in the query, key, and value matrices of a single transformer block.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3145728",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p12_Im1.webp|block]",
+      "group_id": "6406531130690",
+      "section_name": "DLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 227,
+      "text": "Calculate the number of embedding parameters in the model. Enter your answer in millions, rounded to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "51 to 52",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p12_Im1.webp|block]",
+      "group_id": "6406531130690",
+      "section_name": "DLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 228,
+      "text": "What does the n_ctx parameter in the GPT-2 configuration represent?",
+      "type": "MCQ",
+      "options": [
+        "The number of attention heads in the model.",
+        "The maximum length of the input sequence in tokens.",
+        "The embedding size of each token.",
+        "The total number of parameters in the model."
+      ],
+      "correct_answer": "The maximum length of the input sequence in tokens.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T1_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2025T1_Q1_NA_p12_Im1.webp|block]",
+      "group_id": "6406531130690",
+      "section_name": "DLP"
+    }
+  ],
+  "id": "da5013-2025t1-q1-na",
+  "course_code": "DA5013",
+  "course_name": "Deep Learning Practice",
+  "level": "Degree",
+  "term": "Jan 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

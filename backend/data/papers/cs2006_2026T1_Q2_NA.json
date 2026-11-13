@@ -1,0 +1,424 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)",
+  "filename": "cs2006_2026T1_Q2_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "You are building a login feature for a web application. The frontend sends the user\u2019s email and password to the backend API. The backend validates credentials against a database. Which security issues exist in the code given below? Frontend: script.js [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p1_Im3.webp|block] Backend: app.py [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The SQL query is vulnerable to SQL injection attacks",
+        "Passwords are stored and compared in plain text",
+        "No authentication token (session/JWT) mechanism is implemented",
+        "All of these."
+      ],
+      "correct_answer": "All of these.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p1_Im3.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following Vue.js code. [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p2_Im4.webp|block] What will be printed on the console first?",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "done",
+        "1",
+        "Error"
+      ],
+      "correct_answer": "1",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the following Vue.js application with two different route scenarios and a component that uses reactive data binding: Scenario: An e-commerce application where: \u2022 Product list component displays products filtered by category \u2022 Category changes through router parameters: /products/:category When a user navigates from /products/electronics to /products/books , the product list should \u2022 update Component Code: [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p3_Im3.webp|block] If the developer changed the template to use displayedProducts instead of filteredProducts , What would be the most likely issue?",
+      "type": "MCQ",
+      "options": [
+        "Performance would improve because computed properties are slower than data",
+        "The initial page load would show an empty list, and only after navigation would data appear correctly",
+        "There would be no difference because both will update at the same time",
+        "The application would crash because displayedProducts is reactive"
+      ],
+      "correct_answer": "The initial page load would show an empty list, and only after navigation would data appear correctly",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following JavaScript code: [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p4_Im3.webp|block] What will be printed to the console?",
+      "type": "MCQ",
+      "options": [
+        "12",
+        "10",
+        "5",
+        "3"
+      ],
+      "correct_answer": "3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Match the following web dev concept given below: [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p5_Im1.webp|block] Which of the following options correctly matches Concept / Issue and Description?",
+      "type": "MCQ",
+      "options": [
+        "A\u21922, B\u21924, C\u21921, D\u21923",
+        "A\u21921, B\u21922, C\u21923, D\u21924",
+        "A\u21922, B\u21921, C\u21924, D\u21923",
+        "A\u21924, B\u21922, C\u21921, D\u21923"
+      ],
+      "correct_answer": "A\u21922, B\u21924, C\u21921, D\u21923",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following Vuex store setup for a user management system: [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p6_Im1.webp|block] Suppose the following mutation is committed:store.commit(\"updateUserStatus\", { userId: 2, status: \"active\" });. Which of the following statements is TRUE after this mutation is executed?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p6_Im3.webp|inline] will return 3",
+        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p6_Im5.webp|inline] will return two users",
+        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p6_Im6.webp|inline] will include only Alice and Charlie",
+        "The mutation will not affect any getter output"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p6_Im3.webp|inline] will return 3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p6_Im1.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p6_Im3.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p6_Im5.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "In Vue 2 (CDN), which of the following correctly describes the timing of the beforeDestroy and destroyed lifecycle hooks?",
+      "type": "MCQ",
+      "options": [
+        "beforeDestroy runs after the component has been removed from the DOM, while destroyed runs before destruction.",
+        "beforeDestroy runs just before the component is torn down and removed from the DOM, while destroyed runs after the component is fully destroyed.",
+        "beforeDestroy runs when the component is first mounted, while destroyed runs before the component is removed.",
+        "both hooks run only after the component is destroyed."
+      ],
+      "correct_answer": "beforeDestroy runs just before the component is torn down and removed from the DOM, while destroyed runs after the component is fully destroyed.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the following HTML: [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p7_Im3.webp|block] And JavaScript code: [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p7_Im4.webp|block] What are the values of id and action respectively?",
+      "type": "MCQ",
+      "options": [
+        "id = 42 (number), action = \"delete\" (string)",
+        "id = 42 (string), action = \"delete\" (string)",
+        "id = undefined, action = undefined",
+        "id = 42 (number), action = undefined"
+      ],
+      "correct_answer": "id = 42 (string), action = \"delete\" (string)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p7_Im3.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Which of the following statements best describes a permalink ?",
+      "type": "MCQ",
+      "options": [
+        "A temporary URL generated for a single browsing session",
+        "A stable URL that uniquely identifies a specific resource and is not expected to change",
+        "A human-readable URL used only for navigation menus",
+        "A URL that depends on the user\u2019s login session or device"
+      ],
+      "correct_answer": "A stable URL that uniquely identifies a specific resource and is not expected to change",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the following code snippet running in a browser. [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p8_Im2.webp|block] What will be the output on the console?",
+      "type": "MCQ",
+      "options": [
+        "Shield 99 99 42",
+        "Shield 10 99 42",
+        "Sword 99 99 42",
+        "Shield 99 42 42"
+      ],
+      "correct_answer": "Shield 99 99 42",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the following code snippet running on a browser. What is the output on the console? [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "42 42 42",
+        "42 undefined undefined",
+        "42 undefined 42",
+        "undefined undefined undefined"
+      ],
+      "correct_answer": "42 undefined undefined",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider the following markup index.html and JavaScript app.js for a Vue application. app.js: [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p10_Im1.webp|block] index.html: [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p10_Im2.webp|block] Suppose the application is running on http://localhost:8080, and the user visit the URL \u201chttp://localhost:8080/#/player/rohit/t20\u201d. What will be rendered by the browser?",
+      "type": "MCQ",
+      "options": [
+        "Name: Rohit Oneday Runs: 10000",
+        "Test Runs: 5000",
+        "Name: Rohit Test Runs: 5000",
+        "Oneday Runs: 10000"
+      ],
+      "correct_answer": "Test Runs: 5000",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p10_Im1.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Consider the following html index.html and JavaScript app.js for a Vue application: File : index.html [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p11_Im3.webp|block] File : app.js [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p12_Im1.webp|block] Suppose the application is running on http://localhost:8080, and the user visits the URL http://localhost:8080/#/b. What will be rendered by the browser?",
+      "type": "MCQ",
+      "options": [
+        "Shivamogga",
+        "South Goa",
+        "Rewa",
+        "Satara"
+      ],
+      "correct_answer": "Rewa",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p11_Im3.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider a scenario involving localStorage, Promise chains, and Vue lifecycle hooks: Scenario: A user authentication system where: \u2022 On app initialization, the app checks localStorage for a stored user token \u2022 If a token exists, it validates the token asynchronously (via a Promise) \u2022 Based on validation, different UI components are rendered \u2022 The user navigates between different views Code in mounted() hook: [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p13_Im1.webp|block] Which of the following statements is/are CORRECT about this implementation?",
+      "type": "multichoice",
+      "options": [
+        "If the page is refreshed while the Promise is pending, the token will be lost because localStorage is cleared on refresh",
+        "If token validation fails, the token is removed from storage, preventing automatic login on future page loads",
+        "The isAuthenticated flag might be false even though a storedToken exists, until the Promise validation completes",
+        "sessionStorage should be used instead of localStorage because user tokens should not persist across browser sessions",
+        "If the user navigates to a different route while validation is pending, the Promise will still complete and update the user data"
+      ],
+      "correct_answer": [
+        "If token validation fails, the token is removed from storage, preventing automatic login on future page loads",
+        "The isAuthenticated flag might be false even though a storedToken exists, until the Promise validation completes",
+        "If the user navigates to a different route while validation is pending, the Promise will still complete and update the user data"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider the following Vue application: File: Index.html [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p14_Im1.webp|block] File: app.js [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p14_Im2.webp|block] The application consists of a parent component and a child component . When the button inside the child component is clicked, the parent\u2019s message should update and display \"Hello\" in the browser. Two important lines are missing and marked as (Code1) and (Code2) . Which of the following options correctly completes the code?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p14_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p15_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p15_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p14_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p15_Im2.webp|block]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p14_Im1.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p14_Im2.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p14_Im5.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p15_Im2.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p15_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider the following HTML index.html and JavaScript app.js for a Vue application: File: index.html [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p15_Im4.webp|block] File: app.js [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p15_Im5.webp|block] Which of the following statements is/are TRUE?",
+      "type": "multichoice",
+      "options": [
+        "On initial page load, neither \u201cHello\u201d nor \u201cWorld\u201d is visible in the browser.",
+        "On initial page load, the element using v-show exists in the DOM but is hidden.",
+        "After clicking the Toggle button once, both \u201cHello\u201d and \u201cWorld\u201d become visible.",
+        "The v-if directive hides elements using CSS.",
+        "The v-show directive removes elements from the DOM when the condition is false."
+      ],
+      "correct_answer": [
+        "On initial page load, neither \u201cHello\u201d nor \u201cWorld\u201d is visible in the browser.",
+        "On initial page load, the element using v-show exists in the DOM but is hidden.",
+        "After clicking the Toggle button once, both \u201cHello\u201d and \u201cWorld\u201d become visible."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q2_NA_p15_Im4.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p15_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    }
+  ],
+  "id": "cs2006-2026t1-q2-na",
+  "course_code": "CS2006",
+  "course_name": "Application Development 2",
+  "level": "Diploma in Programming",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

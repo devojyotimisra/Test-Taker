@@ -1,0 +1,381 @@
+{
+  "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON",
+  "filename": "cs2002_2023T1_Q2_AN.pdf",
+  "total_questions": 16,
+  "total_marks": 16.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 66,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 67,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "P, Q, R, S, T, U",
+        "P, Q, R, U, T, S",
+        "P, Q, T, R, U, S",
+        "P, Q, R, U, S, T"
+      ],
+      "correct_answer": "P, Q, R, U, S, T",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 68,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is/are true? I. Given a graph where all edges have positive weights, the shortest path produced by Dijkstra's and Bellman Ford algorithm may be different, but the path weight would be the same. II. Given a weighted graph where the weights of all edges are unique, there is always a unique shortest path from a source to a destination in such a graph.",
+      "type": "MCQ",
+      "options": [
+        "Only (I)",
+        "Only (II)",
+        "Both (I) and (II)",
+        "None of these"
+      ],
+      "correct_answer": "Only (I)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 69,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(a, e), (a, b), (b, c), (a, d), (g, h), (f, h), (e, g)",
+        "(a, e), (a, b), (b, c), (a, d), (e, g), (g, h), (f, h)",
+        "(a, e), (a, b), (g, h), (b, c), (a, d), (f, h), (e, g)",
+        "(a, e), (a, b), (g, h), (b, c), (a, d), (f, h), (a, c)"
+      ],
+      "correct_answer": "(a, e), (a, b), (b, c), (a, d), (e, g), (g, h), (f, h)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 70,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p3_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Inserting a new element",
+        "Deleting the minimum element",
+        "Merging with another min-heap of size n",
+        "Update the value at the known index"
+      ],
+      "correct_answer": "Merging with another min-heap of size n",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 71,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a max-heap with 37 distinct elements implemented using array A with index 0 to 36. The smallest element be always situated at any position in between ___.",
+      "type": "MCQ",
+      "options": [
+        "A[16] and A[36] (both inclusive)",
+        "A[18] and A[36] (both inclusive)",
+        "A[32] and A[36] (both inclusive)",
+        "A[31] and A[36] (both inclusive)"
+      ],
+      "correct_answer": "A[18] and A[36] (both inclusive)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 72,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p4_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p5_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p5_Im2.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p4_Im3.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p4_Im4.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p4_Im5.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p4_Im6.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 73,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p5_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p5_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p5_Im8.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p5_Im3.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p5_Im5.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p5_Im6.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p5_Im7.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p5_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 74,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p5_Im9.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "33, 63",
+        "33, 127",
+        "7, 127",
+        "7, 63"
+      ],
+      "correct_answer": "33, 127",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p5_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 75,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p6_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A-2, B-4, C-3, D-1",
+        "A-2, B-3, C-4, D-1",
+        "A-2, B-3, C-1, D-4",
+        "A-3, B-2, C-4, D-1"
+      ],
+      "correct_answer": "A-2, B-3, C-4, D-1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 76,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p7_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p7_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p7_Im7.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p7_Im1.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p7_Im3.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p7_Im5.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p7_Im6.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p7_Im7.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 77,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p8_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p8_Im5.webp|inline] [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p8_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p8_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2023T1_Q2_AN_p8_Im7.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p8_Im1.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p8_Im3.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p8_Im5.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p8_Im6.webp",
+        "/data/images/cs2002_2023T1_Q2_AN_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 78,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p8_Im8.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p8_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 79,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following 4 items (one unit for each) with their weights and value. [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p9_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 80,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A networking company uses Huffman coding compression technique to encode the message before transmitting it over the network. An entire message is created using characters from the set S = {A, B, C, D, E, F}. The probability of occurrence of each character is given in the table below. [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "16",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 81,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2002_2023T1_Q2_AN_p10_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "36",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2023T1_Q2_AN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    }
+  ],
+  "id": "cs2002-2023t1-q2-an",
+  "course_code": "CS2002",
+  "course_name": "Programming, Data Structures and Algorithms using Python",
+  "level": "Diploma in Programming",
+  "term": "Jan 2023",
+  "year": 2023,
+  "exam_type": "Quiz 2",
+  "session": "Afternoon"
+}

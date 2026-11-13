@@ -1,0 +1,619 @@
+{
+  "title": "DIPLOMA LEVEL : INTRODUCTION TO DEEP LEARNING AND GENERATIVE AI (COMPUTER BASED EXAM)",
+  "filename": "da2001_2026T1_ET_AN.pdf",
+  "total_questions": 25,
+  "total_marks": 94.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : INTRODUCTION TO DEEP LEARNING AND GENERATIVE AI (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Which of the following is the MOST correct way to run a trained model on test data?",
+      "type": "MCQ",
+      "options": [
+        "y = model(X_test)",
+        "model.eval() y = model(X_test)",
+        "with torch.no_grad(): y = model(X_test)",
+        "model.eval() with torch.no_grad(): y = model(X_test)"
+      ],
+      "correct_answer": "model.eval() with torch.no_grad(): y = model(X_test)",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the sentence: \"Data science is fun\" In a bigram language model, which probability expression correctly represents the probability of the word \"is\"?",
+      "type": "MCQ",
+      "options": [
+        "P(is | Data, science)",
+        "P(is | science)",
+        "P(is | fun)",
+        "P(is | science, fun)"
+      ],
+      "correct_answer": "P(is | science)",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "We are given the Q, K, V matrices to compute the scaled dot product attention matrix for a transformer. Keeping everything else same we double every value in the V matrix. How will this change the scaled dot product attention scores that are computed?",
+      "type": "MCQ",
+      "options": [
+        "There won't be any change to the attention scores.",
+        "Attention scores will double.",
+        "Attention scores will get halved.",
+        "Attention scores will change but we can't determine how much they will change without checking the actual values of the V matrix."
+      ],
+      "correct_answer": "There won't be any change to the attention scores.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following code representing a component of a traditional encoder decoder model which uses Bahdanau attention: [IMAGE: /data/images/da2001_2026T1_ET_AN_p2_Im3.webp|block] Which of the following completes the missing line?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2026T1_ET_AN_p2_Im4.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_ET_AN_p2_Im3.webp",
+        "/data/images/da2001_2026T1_ET_AN_p2_Im4.webp",
+        "/data/images/da2001_2026T1_ET_AN_p2_Im5.webp",
+        "/data/images/da2001_2026T1_ET_AN_p2_Im6.webp",
+        "/data/images/da2001_2026T1_ET_AN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "What is the output of the following code? [IMAGE: /data/images/da2001_2026T1_ET_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(2,3,4)",
+        "(0,2,1)",
+        "(2,4,3)",
+        "(4,2,3)"
+      ],
+      "correct_answer": "(2,3,4)",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider an attention mechanism defined as: Attention(Q, K, V) = softmax(QK T ) V Which of the following is the most likely consequence of removing the scaling factor in this attention computation?",
+      "type": "MCQ",
+      "options": [
+        "The attention scores become smaller, leading to uniform attention weights.",
+        "The dot product values grow large, causing the softmax to produce extremely peaked distributions and unstable gradients.",
+        "The model becomes invariant to the dimensionality of key vectors.",
+        "The attention mechanism works as usual."
+      ],
+      "correct_answer": "The dot product values grow large, causing the softmax to produce extremely peaked distributions and unstable gradients.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "You are training an RNN with batch_size=32 on a dataset of 1050 sequences. You notice an error occurs at the end of every epoch. Which DataLoader fix resolves this? [IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Set shuffle=False",
+        "Increase batch_size to 64",
+        "Set drop_last=True",
+        "Set num_workers=0"
+      ],
+      "correct_answer": "Set drop_last=True",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "What is the primary capability that the Position-wise Feed-Forward Network (FFN) provides to the Transformer architecture?",
+      "type": "MCQ",
+      "options": [
+        "The ability to attend to other tokens in the sequence and capture dependencies between words",
+        "The ability to preserve and utilize positional information about token order",
+        "The ability to apply non-linear transformations and learn complex feature interactions within each token's representation",
+        "The ability to mix information across different positions in the sequence"
+      ],
+      "correct_answer": "The ability to apply non-linear transformations and learn complex feature interactions within each token's representation",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "In decoder cross-attention, which statement correctly describes where the inputs to [IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im4.webp|inline] and [IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im5.webp|inline] come from?",
+      "type": "MCQ",
+      "options": [
+        "Both [IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im6.webp|inline] and [IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im7.webp|inline] receive inputs from encoder",
+        "Both [IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im8.webp|inline] and [IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im9.webp|inline] receive inputs from decoder",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im10.webp|inline] receives encoder inputs; [IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im11.webp|inline] receives decoder inputs",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im12.webp|inline] receives decoder inputs; [IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im13.webp|inline] receives encoder inputs"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im10.webp|inline] receives encoder inputs; [IMAGE: /data/images/da2001_2026T1_ET_AN_p4_Im11.webp|inline] receives decoder inputs",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_ET_AN_p4_Im4.webp",
+        "/data/images/da2001_2026T1_ET_AN_p4_Im5.webp",
+        "/data/images/da2001_2026T1_ET_AN_p4_Im6.webp",
+        "/data/images/da2001_2026T1_ET_AN_p4_Im7.webp",
+        "/data/images/da2001_2026T1_ET_AN_p4_Im8.webp",
+        "/data/images/da2001_2026T1_ET_AN_p4_Im9.webp",
+        "/data/images/da2001_2026T1_ET_AN_p4_Im10.webp",
+        "/data/images/da2001_2026T1_ET_AN_p4_Im11.webp",
+        "/data/images/da2001_2026T1_ET_AN_p4_Im12.webp",
+        "/data/images/da2001_2026T1_ET_AN_p4_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "A transformer model has the following embedding layer: \u2022 Vocabulary size = 50,000 \u2022 Embedding dimension = 768 The embeddings are currently stored in float32 format. You decide to optimize memory as follows: 1. Quantize 70% of the embedding vectors to int8 2. Keep the remaining 30% in float32 (for high-frequency tokens) What is the overall percentage reduction in memory for the embedding matrix? (Round to the nearest integer)",
+      "type": "MCQ",
+      "options": [
+        "52%",
+        "60%",
+        "53%",
+        "65%"
+      ],
+      "correct_answer": "53%",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the following code: [IMAGE: /data/images/da2001_2026T1_ET_AN_p5_Im3.webp|block] Which of the following describes the output of decoded_texts?",
+      "type": "MCQ",
+      "options": [
+        "The output will return decoded text strings with special tokens like [CLS] and [SEP] removed.",
+        "The output will include [CLS] and [SEP] tokens explicitly in each string.",
+        "The output will be a list of token IDs instead of strings and exclude special tokens.",
+        "The output will return the tokenized words but still include padding tokens."
+      ],
+      "correct_answer": "The output will return decoded text strings with special tokens like [CLS] and [SEP] removed.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_ET_AN_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "We use the following LORA code to finetune BERT model: [IMAGE: /data/images/da2001_2026T1_ET_AN_p6_Im2.webp|block] But we notice that the code does not work as intended. Which of the following parameters of the lora need to be changed to make it work as intended?",
+      "type": "MCQ",
+      "options": [
+        "rank (r)",
+        "task_type",
+        "lora_dropout",
+        "lora_alpha"
+      ],
+      "correct_answer": "task_type",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_ET_AN_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Which of the following are data augmentation techniques?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p6_Im7.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p6_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p6_Im7.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_ET_AN_p6_Im4.webp",
+        "/data/images/da2001_2026T1_ET_AN_p6_Im5.webp",
+        "/data/images/da2001_2026T1_ET_AN_p6_Im6.webp",
+        "/data/images/da2001_2026T1_ET_AN_p6_Im7.webp",
+        "/data/images/da2001_2026T1_ET_AN_p6_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the following optimization algorithms used for training neural networks: \u2022 SGD with Momentum \u2022 RMSProp \u2022 Adam Which of the following statements is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "SGD with Momentum accumulates an exponentially decaying moving average of past gradients to accelerate convergence along consistent directions.",
+        "Momentum methods adapt individual learning rates for each parameter based on past squared gradients.",
+        "RMSProp maintains a running average of squared gradients to scale learning rate.",
+        "Adam combines ideas from Momentum and RMSProp by using both first and second moment estimates of gradients.",
+        "Adam requires computing second-order derivatives of the loss function.",
+        "Adaptive methods such as RMSProp and Adam can use different effective learning rates for different parameters."
+      ],
+      "correct_answer": [
+        "SGD with Momentum accumulates an exponentially decaying moving average of past gradients to accelerate convergence along consistent directions.",
+        "RMSProp maintains a running average of squared gradients to scale learning rate.",
+        "Adam combines ideas from Momentum and RMSProp by using both first and second moment estimates of gradients.",
+        "Adaptive methods such as RMSProp and Adam can use different effective learning rates for different parameters."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Select the correct statement(s) regarding a CNN:",
+      "type": "multichoice",
+      "options": [
+        "Increasing the number of kernels proportionately increases the size of the output feature map.",
+        "Increasing the number of kernels proportionately decreases the size of the output feature map.",
+        "Low padding and high stride are the ideal combination if we want to minimize the reduction of the feature map size.",
+        "Low padding and high stride are the ideal combination if we want to maximize the reduction of the feature map size."
+      ],
+      "correct_answer": [
+        "Low padding and high stride are the ideal combination if we want to maximize the reduction of the feature map size."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Which of the following situations may lead to a mode collapse while training a GAN?",
+      "type": "multichoice",
+      "options": [
+        "A GAN trained on MNIST generates only the digit '3' repeatedly, even though the dataset contains digits 0-9.",
+        "GAN generates limited variations of faces with similar expressions despite diverse training data.",
+        "The GAN underfits the training data.",
+        "The discriminator becomes accurate straightaway after training the GAN on just the first 5 images."
+      ],
+      "correct_answer": [
+        "A GAN trained on MNIST generates only the digit '3' repeatedly, even though the dataset contains digits 0-9.",
+        "GAN generates limited variations of faces with similar expressions despite diverse training data."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Consider the evaluation metrics commonly used for generative models: Fr\u00e9chet Inception Distance (FID) , Inception Score (IS) , and CLIP Score . Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "FID compares the mean and covariance of real and generated feature distributions extracted from a pretrained Inception network.",
+        "Inception Score directly compares generated images with real images.",
+        "A lower FID score indicates that generated samples are closer to the real data distribution.",
+        "Inception Score rewards images that are both classifiable (low entropy conditional distribution) and diverse (high entropy marginal distribution).",
+        "CLIP Score requires real images to compute the metric.",
+        "CLIP Score measures alignment between generated images and their corresponding text prompts.",
+        "FID and Inception Score both explicitly evaluate text-image alignment."
+      ],
+      "correct_answer": [
+        "FID compares the mean and covariance of real and generated feature distributions extracted from a pretrained Inception network.",
+        "A lower FID score indicates that generated samples are closer to the real data distribution.",
+        "Inception Score rewards images that are both classifiable (low entropy conditional distribution) and diverse (high entropy marginal distribution).",
+        "CLIP Score measures alignment between generated images and their corresponding text prompts."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "A text-to-image generative model is evaluated on three metrics with the following results: \u2022 FID = 8.5 \u2022 Inception Score (IS) = 2.1 \u2022 CLIP Score = 0.34 For comparison, a strong baseline model on the same dataset achieves: \u2022 FID = 15.2 \u2022 IS = 6.8 \u2022 CLIP Score = 0.31 Which of the following interpretations are correct?",
+      "type": "multichoice",
+      "options": [
+        "The new model generates images that are statistically closer to the real data distribution than the baseline.",
+        "The new model produces more class-diverse samples than the baseline.",
+        "The new model likely generates less classifiable or less confident object predictions compared to the baseline.",
+        "The new model aligns slightly better with the provided text prompts than the baseline.",
+        "The higher CLIP score guarantees better perceptual image quality.",
+        "The baseline model likely generates more diverse categories of images than the new model."
+      ],
+      "correct_answer": [
+        "The new model generates images that are statistically closer to the real data distribution than the baseline.",
+        "The new model likely generates less classifiable or less confident object predictions compared to the baseline.",
+        "The new model aligns slightly better with the provided text prompts than the baseline.",
+        "The baseline model likely generates more diverse categories of images than the new model."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Consider an encoder-decoder architecture trained using maximum likelihood for sequence generation. Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "During training, the decoder may receive ground-truth tokens as inputs at subsequent time steps.",
+        "During inference, the decoder conditions on its own previously generated tokens.",
+        "Teacher forcing can be used during inference to give more accurate predictions.",
+        "Greedy decoding can be viewed as a special case of beam search with beam width [IMAGE: /data/images/da2001_2026T1_ET_AN_p9_Im3.webp|inline] .",
+        "Beam search trades computational cost for a broader exploration of possible output sequences.",
+        "Beam search guarantees recovery of the globally optimal sequence for any fixed beam width."
+      ],
+      "correct_answer": [
+        "During training, the decoder may receive ground-truth tokens as inputs at subsequent time steps.",
+        "During inference, the decoder conditions on its own previously generated tokens.",
+        "Greedy decoding can be viewed as a special case of beam search with beam width [IMAGE: /data/images/da2001_2026T1_ET_AN_p9_Im3.webp|inline] .",
+        "Beam search trades computational cost for a broader exploration of possible output sequences."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_ET_AN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "You want to reduce parameters in multi-head attention from 4,096 to 1,024. Which of the following changes achieve(s) this? (MSQ)",
+      "type": "multichoice",
+      "options": [
+        "Reduce heads from [IMAGE: /data/images/da2001_2026T1_ET_AN_p10_Im3.webp|inline] to [IMAGE: /data/images/da2001_2026T1_ET_AN_p10_Im4.webp|inline]",
+        "Reduce [IMAGE: /data/images/da2001_2026T1_ET_AN_p10_Im5.webp|inline] from 32 to 16",
+        "Reduce sequence length from 100 to 25"
+      ],
+      "correct_answer": [
+        "Reduce [IMAGE: /data/images/da2001_2026T1_ET_AN_p10_Im5.webp|inline] from 32 to 16"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_ET_AN_p10_Im3.webp",
+        "/data/images/da2001_2026T1_ET_AN_p10_Im4.webp",
+        "/data/images/da2001_2026T1_ET_AN_p10_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Consider the following single-layer RNN: [IMAGE: /data/images/da2001_2026T1_ET_AN_p10_Im6.webp|block] You are told that the total number of learnable parameters in this RNN layer is [IMAGE: /data/images/da2001_2026T1_ET_AN_p10_Im7.webp|inline] . Assume the hidden size is H = 20. What are the total number of learnable parameters in the below layers if the same configuration (same input size, same hidden size H = 20, [IMAGE: /data/images/da2001_2026T1_ET_AN_p10_Im8.webp|inline] , [IMAGE: /data/images/da2001_2026T1_ET_AN_p10_Im9.webp|inline] ) is used? 1. A Bidirectional GRU 2. A Bidirectional LSTM",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p11_Im2.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p11_Im3.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_ET_AN_p11_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2026T1_ET_AN_p11_Im6.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_ET_AN_p10_Im6.webp",
+        "/data/images/da2001_2026T1_ET_AN_p10_Im7.webp",
+        "/data/images/da2001_2026T1_ET_AN_p10_Im8.webp",
+        "/data/images/da2001_2026T1_ET_AN_p10_Im9.webp",
+        "/data/images/da2001_2026T1_ET_AN_p11_Im2.webp",
+        "/data/images/da2001_2026T1_ET_AN_p11_Im3.webp",
+        "/data/images/da2001_2026T1_ET_AN_p11_Im4.webp",
+        "/data/images/da2001_2026T1_ET_AN_p11_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Consider the following PyTorch model: [IMAGE: /data/images/da2001_2026T1_ET_AN_p12_Im1.webp|block] Note: \u2022 Do not round intermediate values. \u2022 Final answer can be rounded to 3 decimal places.",
+      "type": "MCQ",
+      "options": [
+        "-0.462",
+        "0.364",
+        "-0.364",
+        "-0.787"
+      ],
+      "correct_answer": "-0.364",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Inscript [IMAGE: /data/images/da2001_2026T1_ET_AN_p13_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.4 to 0.6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_ET_AN_p13_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Inscript A model is fine-tuned with the following configuration: \u2022 dataset_size = 2048 \u2022 batch_size = 16 \u2022 epochs = 2 Assuming the optimizer performs exactly one update after a fixed number of gradient accumulation steps and 64 updates are performed, how many gradient accumulation steps were used during training?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    }
+  ],
+  "id": "da2001-2026t1-et-an",
+  "course_code": "DA2001",
+  "course_name": "Introduction to Deep Learning and Generative AI",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

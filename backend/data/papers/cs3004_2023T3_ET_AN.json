@@ -1,0 +1,431 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)",
+  "filename": "cs3004_2023T3_ET_AN.pdf",
+  "total_questions": 19,
+  "total_marks": 19.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 82,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 83,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T3_ET_AN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "reduces",
+        "remains 90 o",
+        "increases",
+        "insufficient information"
+      ],
+      "correct_answer": "remains 90 o",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 84,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T3_ET_AN_p3_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "200",
+        "100",
+        "301",
+        "201",
+        "300"
+      ],
+      "correct_answer": "201",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 85,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T3_ET_AN_p4_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Increasing the value of b shifts the sigmoid function to the left (i.e., towards negative infinity)",
+        "Increasing the value of b shifts the sigmoid function to the right (i.e., towards positive infinity)",
+        "Increasing the value of w increases the steepness of the sigmoid function",
+        "Increasing the value of w decreases the steepness of the sigmoid function"
+      ],
+      "correct_answer": [
+        "Increasing the value of b shifts the sigmoid function to the right (i.e., towards positive infinity)",
+        "Increasing the value of w decreases the steepness of the sigmoid function"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 86,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose that a neural network has millions of parameters (weights and biases). A team decides to use an optimization algorithm with a learning rate scheme that is local to each parameter in the network. Moreover, the learning rate changes in each iteration such that it should decrease on the steep surface and increase on the gentle surface. Which of the following optimization algorithms satisfy the team\u2019s requirements?",
+      "type": "multichoice",
+      "options": [
+        "GD with an exponentially decaying learning rate scheduler",
+        "AdaGrad",
+        "AdaM",
+        "NADAM",
+        "RMSProp",
+        "SGD with line search"
+      ],
+      "correct_answer": [
+        "AdaM",
+        "NADAM",
+        "RMSProp"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 87,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose we divide the available training samples into mini batches of size 32 to train a model with mini-batch gradient descent. Assume that we have 33 different machines to train the model. One out of 33 machines acts as a master machine. The actual weight update happens in the master machine. The master machine can send one sample for the rest of the machines along with a copy of the model in its current state to compute the gradients. We call this entire set-up parallelization. Which of the following deep learning architectures can be trained in parallel then?",
+      "type": "multichoice",
+      "options": [
+        "Fully connected Feed forword neural network",
+        "Convolutional Neural network",
+        "Reccurent Neural Network",
+        "Transformers"
+      ],
+      "correct_answer": [
+        "Fully connected Feed forword neural network",
+        "Convolutional Neural network",
+        "Reccurent Neural Network",
+        "Transformers"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 88,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Select all correct statements about the bias and variance of deep learning models.",
+      "type": "multichoice",
+      "options": [
+        "A model with high bias produces high training error and high validation error",
+        "A model with high variance produces high training error and low validation error",
+        "A model with high variance produces low training error and high validation error",
+        "Bias and variance can be both made zero if the underlying distribution of the samples are known and also the samples are not corrupted by noise"
+      ],
+      "correct_answer": [
+        "A model with high bias produces high training error and high validation error",
+        "A model with high variance produces low training error and high validation error",
+        "Bias and variance can be both made zero if the underlying distribution of the samples are known and also the samples are not corrupted by noise"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 89,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T3_ET_AN_p6_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Dropout reduces (removes) 25 percent of weights from the model during training and inference",
+        "For each iteration, 75% of neurons are dropped randomly from the model",
+        "For each iteration, 25% of neurons are dropped randomly from the model",
+        "Each weight gets multiplied by a factor p during inference.",
+        "Each weight gets multiplied by a factor 1 \u2212 p during inference."
+      ],
+      "correct_answer": [
+        "For each iteration, 25% of neurons are dropped randomly from the model",
+        "Each weight gets multiplied by a factor p during inference."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 90,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T3_ET_AN_p8_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The loss surface is convex (with a global minimum)",
+        "The loss value oscillates over iterations",
+        "The loss value decreases consistently over iterations",
+        "The loss value increases consistently"
+      ],
+      "correct_answer": [
+        "The loss surface is convex (with a global minimum)",
+        "The loss value decreases consistently over iterations"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 91,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T3_ET_AN_p9_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "definitely, the loss value at the end of the training is zero",
+        "The neuron in the hidden layer might be experiencing a vanishing gradient problem",
+        "The loss could have converged to the local minimum after a finite number of iterations",
+        "The loss value at the end of the training may not necessarily be zero"
+      ],
+      "correct_answer": [
+        "The neuron in the hidden layer might be experiencing a vanishing gradient problem",
+        "The loss could have converged to the local minimum after a finite number of iterations",
+        "The loss value at the end of the training may not necessarily be zero"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 92,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many neurons are there in the network? Every neuron in the network has bias associated with it? Note: A neuron is a computation unit that takes in some inputs and produces an output.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "263",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2023T3_ET_AN_p10_Im1.webp|block]",
+      "group_id": "640653699288",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 93,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many parameters (including bias) does the network have to learn? Assume dropout regularization is applied.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "19293",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2023T3_ET_AN_p10_Im1.webp|block]",
+      "group_id": "640653699288",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 94,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the size of the vocabulary | V |?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2023T3_ET_AN_p11_Im1.webp|block]",
+      "group_id": "640653699297",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 95,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose we consider the three words (wood,woodchuck, much). Assume we use one-hot encoded vector representation for all these words. The statement that,\u201cThe cosine similarity between the pair (wood,woodchuck) is greater than the pair (wood,much)\u201d is",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2023T3_ET_AN_p11_Im1.webp|block]",
+      "group_id": "640653699297",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 96,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many parameters (including bias) are there in the network?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7652",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2023T3_ET_AN_p13_Im1.webp|block]",
+      "group_id": "640653699301",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 97,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 For the given input sentence containing 10 words, how many sequential time steps does RNN take to make a final prediction?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2023T3_ET_AN_p13_Im1.webp|block]",
+      "group_id": "640653699301",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 98,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose we train the model using the BPTT algorithm for 200 iterations. In each iteration, we feed the input sentence and make a prediction, compute the loss, back-propagate through time and update the parameter. How many times does the parameter matrix W get updated over 200 iterations?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "200",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2023T3_ET_AN_p13_Im1.webp|block]",
+      "group_id": "640653699301",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 99,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T3_ET_AN_p15_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2500",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 100,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T3_ET_AN_p16_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T3_ET_AN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    }
+  ],
+  "id": "cs3004-2023t3-et-an",
+  "course_code": "CS3004",
+  "course_name": "Deep Learning",
+  "level": "Degree",
+  "term": "Sep 2023",
+  "year": 2023,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

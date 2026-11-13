@@ -1,0 +1,596 @@
+{
+  "title": "DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)",
+  "filename": "cs3005_2024T2_ET_FN.pdf",
+  "total_questions": 26,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 135,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 136,
+      "text": "Which of the following statements is/are true about the if statement in C?",
+      "type": "multichoice",
+      "options": [
+        "else if is compulsory to use with if statement.",
+        "else is compulsory to use with if statement.",
+        "else or else if is optional with if statement.",
+        "Multiple else if are allowed with if statement."
+      ],
+      "correct_answer": [
+        "else or else if is optional with if statement.",
+        "Multiple else if are allowed with if statement."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 137,
+      "text": "Which of the following statements accurately describes the base case in a recursive function in C?",
+      "type": "MCQ",
+      "options": [
+        "The base case is the first statement executed within the function.",
+        "The base case is a condition that triggers an infinite call within the function.",
+        "The base case is the condition that ensures the recursive function terminates.",
+        "The base case is the condition when the function calls itself."
+      ],
+      "correct_answer": "The base case is the condition that ensures the recursive function terminates.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 138,
+      "text": "Which of the following statements correctly initializes a pointer variable ptr to hold the address of another integer variable var in C?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p2_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p2_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p2_Im2.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p2_Im2.webp",
+        "/data/images/cs3005_2024T2_ET_FN_p2_Im4.webp",
+        "/data/images/cs3005_2024T2_ET_FN_p2_Im5.webp",
+        "/data/images/cs3005_2024T2_ET_FN_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 139,
+      "text": "What character marks the end of a string in C?",
+      "type": "MCQ",
+      "options": [
+        "\u2018*\u2019 (asterisk)",
+        "\u2018$\u2019 (dollar sign)",
+        "\u2018\\0\u2019 (null terminator)",
+        "\u2018#\u2019 (hash sign)"
+      ],
+      "correct_answer": "\u2018\\0\u2019 (null terminator)",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 140,
+      "text": "Which of the following statement is true about structures and unions in C regarding memory allocation?",
+      "type": "MCQ",
+      "options": [
+        "Structures allocate memory based on the sum of all member sizes.",
+        "Unions allocate memory based on the sum of all member sizes.",
+        "Memory is shared between members in the structures.",
+        "Unions and structures allocate memory in the same way."
+      ],
+      "correct_answer": "Structures allocate memory based on the sum of all member sizes.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 141,
+      "text": "Which memory region in C programming is used for storing local variables and function parameters?",
+      "type": "MCQ",
+      "options": [
+        "Heap memory",
+        "Stack memory",
+        "Code segment",
+        "Global memory"
+      ],
+      "correct_answer": "Stack memory",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 142,
+      "text": "Which function is used to write data to a file in C programming?",
+      "type": "MCQ",
+      "options": [
+        "fwrite()",
+        "fput()",
+        "write()",
+        "put()"
+      ],
+      "correct_answer": "fwrite()",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 143,
+      "text": "In C preprocessor directives, what does the ## operator do when used in macro definitions?",
+      "type": "MCQ",
+      "options": [
+        "Excludes a token",
+        "Compares two tokens",
+        "Concatenates two tokens",
+        "Multiplies two tokens"
+      ],
+      "correct_answer": "Concatenates two tokens",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 144,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Value of c: 200",
+        "Value of c: 31",
+        "Value of c: -1",
+        "Value of c: 170"
+      ],
+      "correct_answer": "Value of c: 170",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 145,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "main \u2192 sum \u2192 sum \u2192 prod \u2192 printf",
+        "main \u2192 printf \u2192 sum \u2192 sum \u2192 prod",
+        "main \u2192 printf \u2192 prod \u2192 sum \u2192 sum",
+        "main \u2192 prod\u2192 sum \u2192 sum \u2192 printf"
+      ],
+      "correct_answer": "main \u2192 sum \u2192 sum \u2192 prod \u2192 printf",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 146,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "End Term Exam",
+        "Term",
+        "Term Exam",
+        "erm Exam"
+      ],
+      "correct_answer": "Term Exam",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 147,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p6_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "abcdfgh",
+        "abcd fgh",
+        "abcd",
+        "abcd0fgh"
+      ],
+      "correct_answer": "abcd",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 148,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p6_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_answer": "0",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 149,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p7_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_answer": "3",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 150,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correct_answer": "2",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 151,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "2 2 4 6",
+        "2 4 4 6",
+        "2 4 6 6",
+        "4 4 6 6"
+      ],
+      "correct_answer": "2 4 4 6",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 152,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "a = 1, b = 2 a = 2, b = 1",
+        "a = 2, b = 1 a = 1, b = 2",
+        "a = 1, b = 1 a = 2, b = 2",
+        "a = 2, b = 2 a = 1, b = 1"
+      ],
+      "correct_answer": "a = 2, b = 1 a = 1, b = 2",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 153,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "5 6 6 7 7",
+        "5 6 5 6 5",
+        "5 6 5 6 6",
+        "5 6 6 7 6"
+      ],
+      "correct_answer": "5 6 6 7 6",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 154,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 2 3",
+        "2 3 4",
+        "3 4 5",
+        "1 3 5"
+      ],
+      "correct_answer": "1 2 3",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 155,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p12_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Value of a: 0 Value of a: 1",
+        "Value of a: 1 Value of a: 2",
+        "Value of a: some_garbage_value Value of a: some_garbage_value",
+        "Value of a: 1 Value of a: 1"
+      ],
+      "correct_answer": "Value of a: 1 Value of a: 2",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p12_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 156,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p13_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "expecto",
+        "patronum",
+        "-patronu",
+        "expecto-"
+      ],
+      "correct_answer": "patronum",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 157,
+      "text": "Select the correct statements from the below that dynamically allocate memory to hold a maximum of 2 characters. Assume size of int is 4 bytes, size of char is 1 byte and size of pointer is 8 bytes.",
+      "type": "multichoice",
+      "options": [
+        "char* a = (char*)malloc(16);",
+        "char* a = (char*)malloc(2);",
+        "char* a = (char*)malloc(2*sizeof(char));",
+        "char* a = (char*)malloc(2*sizeof(char*));"
+      ],
+      "correct_answer": [
+        "char* a = (char*)malloc(2);",
+        "char* a = (char*)malloc(2*sizeof(char));"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 158,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p14_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "(*p1_ptr).hp = 95;",
+        "p1->hp -= 5;",
+        "p1_ptr->hp -= 5;",
+        "p1_ptr.hp = 95;"
+      ],
+      "correct_answer": [
+        "(*p1_ptr).hp = 95;",
+        "p1_ptr->hp -= 5;"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p14_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 159,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p15_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 160,
+      "text": "[IMAGE: /data/images/cs3005_2024T2_ET_FN_p15_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "17",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T2_ET_FN_p15_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    }
+  ],
+  "id": "cs3005-2024t2-et-fn",
+  "course_code": "CS3005",
+  "course_name": "Programming in C",
+  "level": "Degree",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

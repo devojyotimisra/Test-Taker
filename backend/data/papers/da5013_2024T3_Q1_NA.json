@@ -1,0 +1,377 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "da5013_2024T3_Q1_NA.pdf",
+  "total_questions": 16,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 294,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 295,
+      "text": "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Pre-Tokenization",
+        "Normalization",
+        "Post Processor",
+        "Tokenization Algorithm",
+        "Decoder"
+      ],
+      "correct_answer": "Post Processor",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q1_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 296,
+      "text": "Choose the Hugging Face module that helps us train a tokenizer from scratch on a specific dataset.",
+      "type": "MCQ",
+      "options": [
+        "tokenizers",
+        "transformers",
+        "evaluate",
+        "Autotrain",
+        "Accelerate"
+      ],
+      "correct_answer": "tokenizers",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 297,
+      "text": "A dataset contains 10 billion words ( separated by a single white space). Suppose we use a pre- trained tokenizer that has a vocabulary of size 10,000 to tokenize the dataset, then the number of tokens in the dataset will always be greater than or equal to the number of words in the dataset. The statement is",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 298,
+      "text": "Which of the following tokenization algorithms can be applied to languages that do not have any word delimiters?",
+      "type": "MCQ",
+      "options": [
+        "BPE (Byte Pair Encoding)",
+        "Wordpiece",
+        "Sentencepiece"
+      ],
+      "correct_answer": "Sentencepiece",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 299,
+      "text": "Consider the Wikipedia dataset scraped from the web that contains 2 billion words. A team decided to use the BPE tokenization algorithm with the varying vocabulary size from 2K to 52K, then the statement that increasing the number of merges will increase the size of the vocabulary is",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False",
+        "Insufficient information"
+      ],
+      "correct_answer": "True",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 300,
+      "text": "Suppose that we pre-train a Causal Language Model. Choose the data collator function from the Hugging Face library that is suitable for this task",
+      "type": "MCQ",
+      "options": [
+        "DataCollator(tokenizer)",
+        "DefaultDataCollator(tokenizer)",
+        "DataCollatorForLanguageModelling(tokenizer,mlm=False)",
+        "DataCollatorForCausalLanguageModelling(tokenizer)",
+        "DataLoader(tokenizer)"
+      ],
+      "correct_answer": "DataCollatorForLanguageModelling(tokenizer,mlm=False)",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 301,
+      "text": "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p3_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p4_Im5.webp|inline] [IMAGE: /data/images/da5013_2024T3_Q1_NA_p4_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p4_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p4_Im8.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q1_NA_p3_Im3.webp",
+        "/data/images/da5013_2024T3_Q1_NA_p4_Im2.webp",
+        "/data/images/da5013_2024T3_Q1_NA_p4_Im4.webp",
+        "/data/images/da5013_2024T3_Q1_NA_p4_Im5.webp",
+        "/data/images/da5013_2024T3_Q1_NA_p4_Im6.webp",
+        "/data/images/da5013_2024T3_Q1_NA_p4_Im7.webp",
+        "/data/images/da5013_2024T3_Q1_NA_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 302,
+      "text": "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p5_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p5_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p5_Im7.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q1_NA_p5_Im1.webp",
+        "/data/images/da5013_2024T3_Q1_NA_p5_Im5.webp",
+        "/data/images/da5013_2024T3_Q1_NA_p5_Im6.webp",
+        "/data/images/da5013_2024T3_Q1_NA_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 303,
+      "text": "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p6_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p6_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p6_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p6_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p6_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q1_NA_p6_Im1.webp",
+        "/data/images/da5013_2024T3_Q1_NA_p6_Im3.webp",
+        "/data/images/da5013_2024T3_Q1_NA_p6_Im5.webp",
+        "/data/images/da5013_2024T3_Q1_NA_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 304,
+      "text": "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p6_Im7.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "ids",
+        "tokens",
+        "offsets",
+        "attention_mask",
+        "special_token_mask",
+        "type_ids",
+        "vocab_size"
+      ],
+      "correct_answer": [
+        "ids",
+        "tokens",
+        "offsets",
+        "attention_mask",
+        "special_token_mask",
+        "type_ids"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q1_NA_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 305,
+      "text": "Enter the number of parameters in the embedding layer of the model in millions. For example, if the answer is 1234567. Then enter it as 1.23",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "102 to 103",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p7_Im1.webp|block]",
+      "group_id": "640653993634",
+      "section_name": "DLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 306,
+      "text": "Enter the context length.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2048",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p7_Im1.webp|block]",
+      "group_id": "640653993634",
+      "section_name": "DLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 307,
+      "text": "Enter the number of tokens (in millions) processed by the model after 1000 steps. Enter the answer to 2 decimal places. For example, if your answer is 123456789, then enter it as 123.45.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "65.3 to 65.7",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "640653993637",
+      "section_name": "DLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 308,
+      "text": "How many steps does it take to complete one epoch of training? Enter the answer in thousands (round down to an integer). For example, if your answer is 1234567.89, then enter it as 1234567.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "152 to 153",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "640653993637",
+      "section_name": "DLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 309,
+      "text": "[IMAGE: /data/images/da5013_2024T3_Q1_NA_p9_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "500",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    }
+  ],
+  "id": "da5013-2024t3-q1-na",
+  "course_code": "DA5013",
+  "course_name": "Deep Learning Practice",
+  "level": "Degree",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

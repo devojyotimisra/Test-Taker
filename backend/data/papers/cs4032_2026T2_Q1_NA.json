@@ -1,0 +1,545 @@
+{
+  "title": "DEGREE LEVEL : COMPILER DESIGN (COMPUTER BASED EXAM)",
+  "filename": "cs4032_2026T2_Q1_NA.pdf",
+  "total_questions": 20,
+  "total_marks": 45.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : COMPILER DESIGN (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider the following compiler phases and compiler tasks. [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p1_Im3.webp|block] Which one of the following correctly matches the compiler phases with their primary tasks?",
+      "type": "MCQ",
+      "options": [
+        "P-4, Q-3, R-2, S-1",
+        "P-3, Q-4, R-2, S-1",
+        "P-4, Q-1, R-2, S-3",
+        "P-2, Q-3, R-4, S-1"
+      ],
+      "correct_answer": "P-4, Q-3, R-2, S-1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Which of the following describes a key programmatic difference between the functionality of an Interpreter and a Compiler toolchain?",
+      "type": "MCQ",
+      "options": [
+        "Compilers execute code step-by-step at runtime, whereas interpreters translate the entire source program before execution.",
+        "Interpreters can provide immediate statement-level runtime feedback.",
+        "The machine-language target program produced by a compiler is typically 10 to 100 times slower than interpreter execution.",
+        "Compilers completely eliminate the need for a runtime environment or stack frame allocation."
+      ],
+      "correct_answer": "Interpreters can provide immediate statement-level runtime feedback.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "A compiler detects that the variable [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p2_Im3.webp|inline] is used before it is declared in a program. Which compiler phase is primarily responsible for reporting this error?",
+      "type": "MCQ",
+      "options": [
+        "Lexical Analysis",
+        "Syntax Analysis",
+        "Code Generation",
+        "Semantic Analysis"
+      ],
+      "correct_answer": "Semantic Analysis",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "A C program contains a function-like macro [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p2_Im4.webp|inline] . During a code audit, a developer encounters the statement [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p2_Im5.webp|inline] . Which of the following statements correctly evaluates how the preprocessor handles this, and what the final value of [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p2_Im6.webp|inline] will be after execution?",
+      "type": "MCQ",
+      "options": [
+        "The preprocessor checks the type, expands it to [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p2_Im7.webp|inline] , and evaluates to 25.",
+        "The preprocessor textually replaces it to [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p2_Im8.webp|inline] , and it evaluates to 11.",
+        "The preprocessor textually replaces it to [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p2_Im9.webp|inline] , and it evaluates to 17 due to left-to-right associativity.",
+        "The compiler driver generates a syntax error because macro parameters require explicit parentheses."
+      ],
+      "correct_answer": "The preprocessor textually replaces it to [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p2_Im8.webp|inline] , and it evaluates to 11.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p2_Im4.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p2_Im5.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p2_Im6.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p2_Im7.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p2_Im8.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p2_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "A compiler architecture uses a common Intermediate Representation (IR). Initially, it supports 6 source languages and 4 target architectures . Later, support for 3 new source languages and 2 new target architectures is added. Without using IR, the compiler requires one translator for every source-target pair. With IR, how many fewer translators/components are required after the expansion?",
+      "type": "MCQ",
+      "options": [
+        "24",
+        "30",
+        "39",
+        "48"
+      ],
+      "correct_answer": "39",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Which of the following is NOT a responsibility of the lexical analyzer?",
+      "type": "MCQ",
+      "options": [
+        "Removing white spaces and comments",
+        "Recognizing keywords and identifiers",
+        "Checking whether parentheses are properly balanced",
+        "Producing tokens for the parser"
+      ],
+      "correct_answer": "Checking whether parentheses are properly balanced",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "A lexical analyzer processes the following input. [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p3_Im3.webp|block] The token specifications are listed in this order. [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im1.webp|block] The lexer follows both the Longest Match Rule and the Earlier Matching Rule . Which token sequence is generated?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im5.webp|block]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im6.webp|block]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im5.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p3_Im3.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p4_Im1.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p4_Im5.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p4_Im6.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the regular expression [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im8.webp|block] Which of the following best describes the language of [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im9.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "All strings with at most one b",
+        "All strings where no two b 's are adjacent",
+        "All strings ending in a",
+        "All strings with an equal number of a 's and b 's"
+      ],
+      "correct_answer": "All strings where no two b 's are adjacent",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p4_Im8.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p4_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "A programmer writes a Lex specification in a file named [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p5_Im3.webp|inline] . Which of the following correctly describes the sequence of steps required to obtain an executable lexical analyzer?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p5_Im4.webp|inline] \u2192 C compiler \u2192 executable",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p5_Im5.webp|inline] \u2192 Lex compiler \u2192 [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p5_Im6.webp|inline] \u2192 C compiler \u2192 executable",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p5_Im7.webp|inline] \u2192 Parser generator \u2192 executable",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p5_Im8.webp|inline] \u2192 Assembler \u2192 executable"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p5_Im5.webp|inline] \u2192 Lex compiler \u2192 [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p5_Im6.webp|inline] \u2192 C compiler \u2192 executable",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p5_Im3.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p5_Im4.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p5_Im5.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p5_Im6.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p5_Im7.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p5_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Which of the following statements correctly describes machine-independent optimizations ?",
+      "type": "multichoice",
+      "options": [
+        "They can be performed before generating target machine code.",
+        "They depend on the instruction set of the target processor.",
+        "Constant Folding is an example of machine-independent optimization.",
+        "Copy Propagation is an example of machine-independent optimization."
+      ],
+      "correct_answer": [
+        "They can be performed before generating target machine code.",
+        "Constant Folding is an example of machine-independent optimization.",
+        "Copy Propagation is an example of machine-independent optimization."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Consider the following declarations: [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p6_Im1.webp|block] The compiler generates Three-Address Code (TAC) for the statement [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p6_Im2.webp|block] Assume the following: \u2022 Integer arithmetic is performed whenever all operands are integers. \u2022 If an arithmetic operation involves both [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p6_Im3.webp|inline] and [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p6_Im4.webp|inline] , all operands are first converted to [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p6_Im5.webp|inline] . \u2022 [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p6_Im6.webp|inline] converts an [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p6_Im7.webp|inline] to a [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p6_Im8.webp|inline] . \u2022 [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p6_Im9.webp|inline] converts a [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p6_Im10.webp|inline] to an [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p6_Im11.webp|inline] . \u2022 The compiler generates the minimum number of explicit type-conversion instructions . Ignoring all arithmetic and assignment instructions, how many explicit type-conversion instructions are required?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p6_Im1.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p6_Im2.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p6_Im3.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p6_Im4.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p6_Im5.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p6_Im6.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p6_Im7.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p6_Im8.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p6_Im9.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p6_Im10.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p6_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "A compiler generates the following Three-Address Code (TAC) to compute the final bill amount after adding a fixed service charge to the item price. The compiler then applies the following optimizations in order: 1. Constant Folding 2. Copy Propagation 3. Dead Code Elimination [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p7_Im1.webp|block] Which of the following is the optimized TAC?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p7_Im5.webp|block]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p7_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p7_Im5.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p7_Im1.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p7_Im5.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p7_Im6.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im4.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im5.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im6.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im7.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im10.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im11.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im12.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im13.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im14.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im15.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im16.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im17.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im18.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im19.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im20.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im21.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im22.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im1.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im2.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im3.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im4.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im5.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im4.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im5.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im6.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im7.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im8.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im2.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im4.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im5.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im6.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im7.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im8.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im10.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im11.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im12.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im13.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im14.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im15.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im16.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im17.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im18.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im19.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im20.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im21.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p8_Im22.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p9_Im1.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p9_Im2.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p9_Im3.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p9_Im4.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p9_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "A compiler generates the following Abstract Syntax Tree (AST) for an expression. [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im6.webp|block] Which of the following Three-Address Code (TAC) sequences correctly represents the AST?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im10.webp|block]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im11.webp|block]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p10_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im10.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p9_Im6.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p9_Im10.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p9_Im11.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "A compiler performs lexical analysis and stores: \u2022 every unique identifier in the Symbol Table , \u2022 every unique integer constant in the Constant Table . Keywords, operators, delimiters, and punctuation symbols are not stored in either table. Consider the following program. [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p10_Im3.webp|block] How many entries will be present in the Symbol Table and the Constant Table , respectively?",
+      "type": "MCQ",
+      "options": [
+        "Symbol Table = 5 , Constant Table = 3",
+        "Symbol Table = 4 , Constant Table = 2",
+        "Symbol Table = 5 , Constant Table = 2",
+        "Symbol Table = 6 , Constant Table = 2"
+      ],
+      "correct_answer": "Symbol Table = 5 , Constant Table = 2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p10_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider the following Deterministic Finite Automaton (DFA) [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p10_Im5.webp|inline] , where: \u2022 [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p10_Im6.webp|inline] \u2022 [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p11_Im1.webp|inline] \u2022 Start state: [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p11_Im2.webp|inline] \u2022 Final states: [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p11_Im3.webp|inline] The transition diagram is given below [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p11_Im4.webp|block] Assume that any undefined transition leads to a dead (trap) state , which is not shown in the table. Which of the following regular expressions describes the language accepted by the DFA?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p11_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p11_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p11_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p11_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p11_Im8.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p10_Im5.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p10_Im6.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p11_Im1.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p11_Im2.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p11_Im3.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p11_Im4.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p11_Im6.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p11_Im8.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p11_Im9.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p11_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript A compiler back-end generates the following Three-Address Code (TAC) for an image enhancement algorithm. [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p12_Im1.webp|block] Assume that: \u2022 [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p12_Im2.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p12_Im3.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p12_Im4.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p12_Im5.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p12_Im6.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p12_Im7.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p12_Im8.webp|inline] , [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p12_Im9.webp|inline] , and [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p12_Im10.webp|inline] are read directly from memory. \u2022 Only the compiler-generated temporaries ( [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p12_Im11.webp|inline] \u2013 [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p12_Im12.webp|inline] ) occupy hardware registers. \u2022 A temporary remains live from the instruction where it is defined until its last use . \u2022 Instructions are executed strictly in the given order. What is the maximum number of compiler-generated temporaries that are simultaneously live during the execution of the above TAC?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p12_Im1.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p12_Im2.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p12_Im3.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p12_Im4.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p12_Im5.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p12_Im6.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p12_Im7.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p12_Im8.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p12_Im9.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p12_Im10.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p12_Im11.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p12_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Consider the following Deterministic Finite Automaton (DFA) [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p13_Im1.webp|block] where \u2022 [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p13_Im2.webp|inline] \u2022 [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p13_Im3.webp|inline] \u2022 Start state: [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p13_Im4.webp|inline] \u2022 Accepting states: [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p13_Im5.webp|inline] The transition function [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p13_Im6.webp|inline] is given below. [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p13_Im7.webp|block] Which of the following strings are accepted by the DFA?",
+      "type": "multichoice",
+      "options": [
+        "10111",
+        "1010",
+        "0100",
+        "100001",
+        "0001"
+      ],
+      "correct_answer": [
+        "1010",
+        "100001"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q1_NA_p13_Im1.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p13_Im2.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p13_Im3.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p13_Im4.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p13_Im5.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p13_Im6.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p13_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Consider the following statements about Deterministic Finite Automata (DFA) and Nondeterministic Finite Automata (NFA) . Which of the following statement(s) is/are correct ?",
+      "type": "multichoice",
+      "options": [
+        "There exist languages that can be accepted by an NFA but not by any DFA.",
+        "An NFA accepts an input string if at least one computation path reaches an accepting state after reading the entire input.",
+        "A DFA has exactly one transition for every input symbol from each state.",
+        "An NFA accepts an input string only if all possible computation paths end in accepting states.",
+        "Every language accepted by an NFA can also be accepted by a DFA."
+      ],
+      "correct_answer": [
+        "An NFA accepts an input string if at least one computation path reaches an accepting state after reading the entire input.",
+        "A DFA has exactly one transition for every input symbol from each state.",
+        "Every language accepted by an NFA can also be accepted by a DFA."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    }
+  ],
+  "id": "cs4032-2026t2-q1-na",
+  "course_code": "CS4032",
+  "course_name": "Cryptography and Cyber Security",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

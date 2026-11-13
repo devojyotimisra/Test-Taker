@@ -1,0 +1,547 @@
+{
+  "title": "Sw Testing",
+  "filename": "cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN.pdf",
+  "total_questions": 22,
+  "total_marks": 22.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 56,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The Gung Ho! approach focuses on:",
+      "type": "multichoice",
+      "options": [
+        "Sharing of information",
+        "Aligning purpose, values, and goals of people and organisation",
+        "Multi-level decision making",
+        "Celebration of successes"
+      ],
+      "correct_answer": [
+        "Sharing of information",
+        "Aligning purpose, values, and goals of people and organisation",
+        "Celebration of successes"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 57,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Communication misunderstandings can happen due to:",
+      "type": "multichoice",
+      "options": [
+        "Missing the details in the statement while communicating",
+        "Listening to or reading and understanding the statement incompletely",
+        "Verbiage",
+        "None of these"
+      ],
+      "correct_answer": [
+        "Missing the details in the statement while communicating",
+        "Listening to or reading and understanding the statement incompletely",
+        "Verbiage"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 58,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 59,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following represents the order in which artifacts are written in test driven development?",
+      "type": "MCQ",
+      "options": [
+        "Code followed by test cases.",
+        "Test cases followed by code."
+      ],
+      "correct_answer": "Test cases followed by code.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 60,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-B, 2-C, 3-A",
+        "1-C, 2-A, 3-B",
+        "1-C, 2-B, 3-A",
+        "1-B, 2-A, 3-C"
+      ],
+      "correct_answer": "1-C, 2-A, 3-B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 61,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A test case is said to have passed when which of the following holds?",
+      "type": "MCQ",
+      "options": [
+        "The actual output is different from expected output but there is no error",
+        "The actual output is the same as the expected output.",
+        "The software produces an output successfully upon giving an input.",
+        "There is a message that there is no error from the program"
+      ],
+      "correct_answer": "The actual output is the same as the expected output.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 62,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following represents the correct order of subsumption amongst data-flow coverage criteria in graphs? Read the symbol \u2192 below as \u201csubsumes\u201d.",
+      "type": "MCQ",
+      "options": [
+        "All-defs-coverage \u2192 all-du-paths-coverage \u2192 all-uses-coverage",
+        "All-defs-coverage \u2192 all-uses-coverage \u2192 all-du-paths-coverage.",
+        "All-du-paths-coverage \u2192 all-uses-coverage \u2192 all-defs-coverage",
+        "All-du-paths-coverage \u2192 all-defs-coverage \u2192 all-uses-coverage"
+      ],
+      "correct_answer": "All-du-paths-coverage \u2192 all-uses-coverage \u2192 all-defs-coverage",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 63,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p4_Im4.webp|block]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p4_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p5_Im1.webp|block]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p4_Im1.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p4_Im4.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p4_Im6.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 64,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p5_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It accepts all the binary strings that have an odd number of 0s.",
+        "It accepts all the binary strings that have an odd number of 1s.",
+        "It accepts all the binary strings that have an odd number of 0s and an odd number of 1s.",
+        "It accepts all the binary strings that have an even number of 0s and an even number of 1s."
+      ],
+      "correct_answer": "It accepts all the binary strings that have an odd number of 0s and an odd number of 1s.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 65,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p6_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p7_Im1.webp|block] [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p7_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p8_Im1.webp|block] [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p8_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p6_Im2.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p7_Im1.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p7_Im3.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p8_Im1.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 66,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 For a tester to observe an error or a fault in a particular location of a program, which of the following should be true together?",
+      "type": "multichoice",
+      "options": [
+        "The location of the program should be reachable by the test case given by the tester.",
+        "The state of the program must be incorrect at that location of the program.",
+        "The final state of the program should be incorrect.",
+        "The tester should see the error in the program."
+      ],
+      "correct_answer": [
+        "The location of the program should be reachable by the test case given by the tester.",
+        "The state of the program must be incorrect at that location of the program.",
+        "The final state of the program should be incorrect."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 67,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p9_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "a=5, b=7",
+        "a=5, b=5",
+        "a=8, b=7",
+        "a=0, b=1"
+      ],
+      "correct_answer": [
+        "a=5, b=7",
+        "a=0, b=1"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 68,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p11_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p11_Im5.webp|block]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im2.webp|block]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im2.webp|block]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im4.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p11_Im1.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p11_Im5.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im2.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 69,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im5.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im9.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im7.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im5.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im6.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im7.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im8.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p12_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 70,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p13_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 71,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many du-pairs are there for the variable n ?",
+      "type": "MCQ",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 Consider the annotated CFG (for dataflow coverage) given below and answer the given subquestions. [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p14_Im1.webp|block]",
+      "group_id": "640653388767",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 72,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many unique du-paths are there for the variable n ?",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 Consider the annotated CFG (for dataflow coverage) given below and answer the given subquestions. [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p14_Im1.webp|block]",
+      "group_id": "640653388767",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 73,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following paths are test paths?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p15_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p15_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p15_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im2.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p15_Im3.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p15_Im4.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p15_Im5.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im2.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p15_Im3.webp|block]",
+      "group_id": "640653388777",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 74,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im7.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im5.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p15_Im3.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im6.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im7.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im8.webp",
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p16_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p15_Im3.webp|block]",
+      "group_id": "640653388777",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 75,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many test requirements are there for edge-pair coverage?",
+      "type": "MCQ",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correct_answer": "10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 Consider the CFG given below and answer the given subquestions. [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p17_Im1.webp|block]",
+      "group_id": "640653388763",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 76,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many simple paths are present in the given CFG?",
+      "type": "MCQ",
+      "options": [
+        "25",
+        "27",
+        "29",
+        "31"
+      ],
+      "correct_answer": "27",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 Consider the CFG given below and answer the given subquestions. [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p17_Im1.webp|block]",
+      "group_id": "640653388763",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 77,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many test requirements are there for prime path coverage?",
+      "type": "MCQ",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "correct_answer": "10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 Consider the CFG given below and answer the given subquestions. [IMAGE: /data/images/cs3002_2022T3_Q1_AN.pdf cs3002_2022T3_Q1_FN_p17_Im1.webp|block]",
+      "group_id": "640653388763",
+      "section_name": "Sw Testing"
+    }
+  ],
+  "id": "cs3002-2022t3-q1-an.pdf-cs3002-2022t3-q1-fn",
+  "course_code": "CS3002",
+  "course_name": "Software Testing",
+  "level": "Degree",
+  "term": "Sep 2022",
+  "year": 2022,
+  "exam_type": "Quiz 1",
+  "session": "AN.PDF CS3002"
+}

@@ -1,0 +1,411 @@
+{
+  "title": "DEGREE LEVEL : OPERATING SYSTEMS (COMPUTER BASED EXAM)",
+  "filename": "cs4022_2026T1_Q2_NA.pdf",
+  "total_questions": 18,
+  "total_marks": 38.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : OPERATING SYSTEMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider the following solution for the critical section problem using a shared variable [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p1_Im3.webp|inline] . [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p1_Im4.webp|block] Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "Mutual exclusion is guaranteed.",
+        "The solution satisfies the progress condition.",
+        "Bounded waiting is guaranteed.",
+        "Deadlock can occur if one process is slow."
+      ],
+      "correct_answer": [
+        "Mutual exclusion is guaranteed.",
+        "Bounded waiting is guaranteed."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q2_NA_p1_Im3.webp",
+        "/data/images/cs4022_2026T1_Q2_NA_p1_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Select all the correct statements.",
+      "type": "multichoice",
+      "options": [
+        "Mutexes use busy wait while trying to acquire the lock.",
+        "Mutexes can be also implemented with spinlocks",
+        "A blocking semaphore with S initialized to 1 is similar to a mutex.",
+        "The Thundering herd problem of the mutexes can be solved using a queue."
+      ],
+      "correct_answer": [
+        "A blocking semaphore with S initialized to 1 is similar to a mutex.",
+        "The Thundering herd problem of the mutexes can be solved using a queue."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Choose all the correct statements regarding compiling and linking multiple C source files using gcc",
+      "type": "multichoice",
+      "options": [
+        "The command gcc file1.c file2.c -o output produces an executable named output.",
+        "The command gcc -c file1.c file2.c -o output produces an executable named output.",
+        "The command gcc -c file1.c file2.c produces file1.o and file2.o.",
+        "The command gcc file1.o file2.o -c -o output produces an executable named output.",
+        "The command gcc file1.o file2.o -o output links the object files into an executable named output."
+      ],
+      "correct_answer": [
+        "The command gcc file1.c file2.c -o output produces an executable named output.",
+        "The command gcc -c file1.c file2.c produces file1.o and file2.o.",
+        "The command gcc file1.o file2.o -o output links the object files into an executable named output."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Two processes P 1 and P 2 are competing for two shared R 1 and R 2. \u2022 P 1 holds R 1 and waits for R 2. \u2022 P 2 holds R 2 and waits for R 1. Both processes wait indefinitely and none of them can proceed. Which of the following problem(s) is/are illustrated in the above scenario?",
+      "type": "MCQ",
+      "options": [
+        "Starvation",
+        "Deadlock",
+        "Mutual exclusion",
+        "Busy waiting"
+      ],
+      "correct_answer": "Deadlock",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Given the hexadecimal representation of the first few bytes of different files, identify the executable file (ELF file) from the options below. (Hint: The ASCII value of \u2019E\u2019 = 69, \u2019L\u2019 = 76, and \u2019F\u2019 = 70)(Hint: ELF \u2192 45 4C 46)",
+      "type": "MCQ",
+      "options": [
+        "7F 41 42 43 01 01 01 00",
+        "7F 45 58 45 02 01 01 00",
+        "7F 50 4C 54 02 01 01 00",
+        "7F 45 4C 46 01 01 01 00"
+      ],
+      "correct_answer": "7F 45 4C 46 01 01 01 00",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the below structure of the [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p3_Im3.webp|inline] register in a RISC-V system and the table showing the values of different exception and interrupt codes (only a subset of the table is given). [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p3_Im4.webp|block] The [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p3_Im5.webp|inline] register is SXLEN bits wide . The MSB (most significant bit) indicates: \u2022 [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p3_Im6.webp|inline] \u2192 Interrupt \u2022 [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p3_Im7.webp|inline] \u2192 Exception \u2022 The remaining bits store the corresponding exception/interrupt code. If the trap was caused by a Supervisor timer interrupt , what is the value of the [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p3_Im8.webp|inline] register (assuming SXLEN = 64)?",
+      "type": "MCQ",
+      "options": [
+        "0x0000000000000005",
+        "0x0000000000000009",
+        "0x8000000000000005",
+        "0x8000000000000009"
+      ],
+      "correct_answer": "0x8000000000000005",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q2_NA_p3_Im3.webp",
+        "/data/images/cs4022_2026T1_Q2_NA_p3_Im4.webp",
+        "/data/images/cs4022_2026T1_Q2_NA_p3_Im5.webp",
+        "/data/images/cs4022_2026T1_Q2_NA_p3_Im6.webp",
+        "/data/images/cs4022_2026T1_Q2_NA_p3_Im7.webp",
+        "/data/images/cs4022_2026T1_Q2_NA_p3_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "State True or False: In inter-process communication (IPC) using shared memory, the commonly used system calls are send and receive.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "If the exec system call is invoked as exec(\"/analyze\", \"data.txt\", \"config.json\", \"log.txt\", \"result.out\");, then what are the values of the argc and argv[3] respectively?",
+      "type": "MCQ",
+      "options": [
+        "4, \"config.json\"",
+        "5, \"data.txt\"",
+        "5, \"log.txt\"",
+        "4, \"result.out\""
+      ],
+      "correct_answer": "5, \"log.txt\"",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "In the following code snippet, a child process is created to execute the ls -l /home command. Identify the correct system call that should be used at LINE-1. [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "execlp",
+        "execl",
+        "execv",
+        "execvp"
+      ],
+      "correct_answer": "execlp",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Match the following [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "a - 1, b - 2, c - 3",
+        "a - 2, b - 1, c - 3",
+        "a - 2, b - 3, c - 1",
+        "a - 1, b - 3, c - 2"
+      ],
+      "correct_answer": "a - 1, b - 3, c - 2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q2_NA_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "What is a major disadvantage of the First Come First Serve (FCFS) scheduling algorithm in operating systems?",
+      "type": "MCQ",
+      "options": [
+        "Starvation of process",
+        "Convoy effect caused by long processes",
+        "Requires knowledge of burst time in advance",
+        "Frequent context switching"
+      ],
+      "correct_answer": "Convoy effect caused by long processes",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Which of the following statements correctly describes a key difference between the First-Come- First-Serve (FCFS) and Round Robin (RR) CPU scheduling algorithms?",
+      "type": "MCQ",
+      "options": [
+        "FCFS uses a fixed time quantum, while Round Robin does not.",
+        "FCFS is non-preemptive, while Round Robin is preemptive.",
+        "Round Robin always selects the process with the shortest burst time.",
+        "Both FCFS and Round Robin are non-preemptive scheduling algorithms."
+      ],
+      "correct_answer": "FCFS is non-preemptive, while Round Robin is preemptive.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Assume that context switches can occur at any time during the execution of the following code snippet. The variable counter is shared between two programs. Which of the following can be the possible final values of counter? Initial value of counter = 200 [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p6_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "185",
+        "160",
+        "225",
+        "200",
+        "240",
+        "175"
+      ],
+      "correct_answer": [
+        "185",
+        "160",
+        "225"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q2_NA_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript Consider the following code snippet from Bakery Algorithm. [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p7_Im1.webp|block] Considering that there are 5 processes, and initially num[0]=3, num[1]=0, num[2]=5,num[3]=2, num[4]=4, If Process 3 (num[2]) starts executing its critical section and then unlocks, what will be the new value of num[2] after P3 finishes execution? Note: Enter your answer in decimal.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript Consider a set of 5 processes with the following arrival and burst times. [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p8_Im1.webp|block] If the CPU scheduling policy used is Round Robin with a time quantum of 3 units , what will be the average response time ? Note: Enter your answer in decimal.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript Consider a system with four processes, P 1, P 2, P 3, and P 4, arriving at different times and requiring the following CPU burst times to complete. [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p8_Im2.webp|block] Assuming that the system employs the First-Come-First-Served (FCFS) scheduling algorithm, what will be the average waiting time ? Note: Enter your answer in decimal.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5.75",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q2_NA_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript Consider a system with four processes, P 1, P 2, P 3, and P 4, arriving at different times and requiring the following CPU burst times: [IMAGE: /data/images/cs4022_2026T1_Q2_NA_p9_Im1.webp|block] Assuming that the system employs the Shortest Job First (SJF) scheduling algorithm, calculate the average response time . Note: Enter your answer in decimal.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3.25",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    }
+  ],
+  "id": "cs4022-2026t1-q2-na",
+  "course_code": "CS4022",
+  "course_name": "Operating Systems",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

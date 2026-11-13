@@ -1,0 +1,600 @@
+{
+  "title": "DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)",
+  "filename": "cs3005_2025T2_ET_FN.pdf",
+  "total_questions": 25,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 91,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 92,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Pre-increment changes the value after the expression is evaluated, while post- increment changes it before the expression is evaluated.",
+        "Pre-increment changes the value before the expression is evaluated, while post-increment changes it after the expression is evaluated.",
+        "Pre-increment is used with integers, while post-increment is used with floating-point numbers.",
+        "Pre- and Post-increment are identical in operation. They are two ways of writing the same statement."
+      ],
+      "correct_answer": "Pre-increment changes the value before the expression is evaluated, while post-increment changes it after the expression is evaluated.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 93,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p1_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p1_Im6.webp|inline] [IMAGE: /data/images/cs3005_2025T2_ET_FN_p1_Im7.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p1_Im8.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p1_Im4.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p1_Im5.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p1_Im6.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p1_Im7.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p1_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 94,
+      "text": "When a recursive function is called, how does the call stack (or program stack) manage the function calls?",
+      "type": "MCQ",
+      "options": [
+        "Each new recursive call overwrites the previous function call on the stack.",
+        "Each new recursive call adds a new stack frame to the top of the stack for its local variables and parameters.",
+        "The call stack is not used for recursive functions; a separate data structure is used.",
+        "The recursive calls are stored in a queue, waiting to be processed in order."
+      ],
+      "correct_answer": "Each new recursive call adds a new stack frame to the top of the stack for its local variables and parameters.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 95,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p2_Im5.webp|inline] [IMAGE: /data/images/cs3005_2025T2_ET_FN_p2_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p2_Im3.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p2_Im4.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p2_Im5.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p2_Im6.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 96,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p2_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p2_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p2_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p2_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p2_Im12.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p2_Im10.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p2_Im8.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p2_Im9.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p2_Im10.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p2_Im11.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p2_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 97,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p3_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p3_Im5.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p3_Im1.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p3_Im3.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p3_Im5.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p3_Im6.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 98,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p3_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p3_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p3_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p3_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p3_Im12.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p3_Im10.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p3_Im8.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p3_Im9.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p3_Im10.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p3_Im11.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p3_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 99,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ],
+      "correct_answer": "20",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 100,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p4_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p4_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p4_Im5.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p4_Im4.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p4_Im5.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p4_Im6.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p4_Im7.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 101,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p5_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p5_Im5.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p5_Im1.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p5_Im3.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p5_Im5.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p5_Im6.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 102,
+      "text": "A special data type is declared where multiple members share the same memory location. The size of an instance of this type is equal to the size of its largest member. What kind of data type is this?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p5_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p5_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p5_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p5_Im11.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p5_Im9.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p5_Im8.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p5_Im9.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p5_Im10.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p5_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 103,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p5_Im12.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p6_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p6_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p6_Im5.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p5_Im12.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p6_Im2.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p6_Im3.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p6_Im5.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 104,
+      "text": "In C programming, which memory region is primarily used for storing local variables of functions and function call information?",
+      "type": "MCQ",
+      "options": [
+        "Heap memory",
+        "Stack memory",
+        "Static memory",
+        "Code segment"
+      ],
+      "correct_answer": "Stack memory",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 105,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p6_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "\"New Content\" is appended to the end, resulting in \"Hello WorldNew Content\".",
+        "The file is cleared, and only \"New Content\" is written.",
+        "The code will fail to open the file because it already exists.",
+        "\"New Content\" is inserted at the beginning, pushing \"Hello World\" to the end."
+      ],
+      "correct_answer": "The file is cleared, and only \"New Content\" is written.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 106,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p7_Im3.webp|inline] [IMAGE: /data/images/cs3005_2025T2_ET_FN_p7_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p7_Im7.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p7_Im1.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p7_Im3.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p7_Im5.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p7_Im6.webp",
+        "/data/images/cs3005_2025T2_ET_FN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 107,
+      "text": "What is the primary purpose of the C preprocessor?",
+      "type": "MCQ",
+      "options": [
+        "To execute the program's logic before the main function.",
+        "To convert the source code into machine language.",
+        "To process directives and modify the source code before compilation.",
+        "To manage dynamic memory allocation during runtime."
+      ],
+      "correct_answer": "To process directives and modify the source code before compilation.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 108,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "25",
+        "23",
+        "17",
+        "15"
+      ],
+      "correct_answer": "15",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 109,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p8_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "7",
+        "104",
+        "4",
+        "5"
+      ],
+      "correct_answer": "7",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 110,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "2 4 6 8",
+        "2 4 6 8 10",
+        "Infinite loop",
+        "2 4 6 8 10 12"
+      ],
+      "correct_answer": "2 4 6 8",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 111,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p9_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0501",
+        "150",
+        "501",
+        "1050"
+      ],
+      "correct_answer": "0501",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 112,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 113,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 114,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p12_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "26",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 115,
+      "text": "[IMAGE: /data/images/cs3005_2025T2_ET_FN_p12_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T2_ET_FN_p12_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    }
+  ],
+  "id": "cs3005-2025t2-et-fn",
+  "course_code": "CS3005",
+  "course_name": "Programming in C",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

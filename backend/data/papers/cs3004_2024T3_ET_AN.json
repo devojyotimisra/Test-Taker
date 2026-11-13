@@ -1,0 +1,485 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)",
+  "filename": "cs3004_2024T3_ET_AN.pdf",
+  "total_questions": 23,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 82,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 83,
+      "text": "Note: If the base of log is not mentioned, use log base e.",
+      "type": "MCQ",
+      "options": [
+        "Instructions has been mentioned above.",
+        "This Instruction is just for a reference & not for an evaluation."
+      ],
+      "correct_answer": "Instructions has been mentioned above.",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 84,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "3",
+        "1",
+        "0"
+      ],
+      "correct_answer": "5",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_ET_AN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 85,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p2_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p2_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_ET_AN_p2_Im2.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p2_Im3.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p2_Im5.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p2_Im6.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 86,
+      "text": "In the context of RNNs, what structural feature of LSTMs helps reduce the impact of vanishing gradients?",
+      "type": "MCQ",
+      "options": [
+        "Skip connections",
+        "Gated mechanisms like forget and input gates",
+        "Weight sharing across layers",
+        "Use of dropout"
+      ],
+      "correct_answer": "Gated mechanisms like forget and input gates",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 87,
+      "text": "As per gradient descent, we should move towards 180 degrees with respect to gradient direction. What will happen if we move between 90 and 180 degrees? Consider the loss function to be convex.",
+      "type": "MCQ",
+      "options": [
+        "The loss function will increase.",
+        "The loss function will decrease, although not to the maximum possible extent.",
+        "The loss function will remain the same.",
+        "Can\u2019t say. It depends on other parameters of the convex function."
+      ],
+      "correct_answer": "The loss function will decrease, although not to the maximum possible extent.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 88,
+      "text": "Which of the following statements about the parameter \u03b2 in RMSProp is correct?",
+      "type": "MCQ",
+      "options": [
+        "A higher value of \u03b2 means that past gradients retain more influence on the moving average.",
+        "A lower value of \u03b2 means past gradients have a lesser influence on the moving average.",
+        "A higher value of \u03b2 means the current gradient will have lesser influence than past gradients.",
+        "A lower value of \u03b2 means the current gradient will have higher influence than past gradients.",
+        "All of these"
+      ],
+      "correct_answer": "All of these",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 89,
+      "text": "Consider a feed-forward neural network containing three inputs and one output. It consists of 50 hidden layers, each with two neurons. The activation function used in all the hidden layers is ReLU, the output layer uses the Sigmoid activation function for binary classification. The network is trained with a binary cross-entropy loss function. The network architecture is as follows: - Input layer: 3 nodes - Hidden layer: 2 nodes each - Output layer: 1 node Assume all weights are initialized to 1 and all biases to 0. For an input of [-10, 5, -20], what will be the output of the neural network?",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "1",
+        "0.5",
+        "0.25",
+        "-25",
+        "Insufficient information"
+      ],
+      "correct_answer": "0.5",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 90,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p4_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[0.7, 0.3, 0.6]",
+        "[0.4, 0.2, 0.8]",
+        "[0.7, 0.6, 0.3]",
+        "[0.2, 0.4, 0.8]"
+      ],
+      "correct_answer": "[0.2, 0.4, 0.8]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 91,
+      "text": "In the transformer model, how are self-attention weights calculated for a given token?",
+      "type": "MCQ",
+      "options": [
+        "By passing the token\u2019s embeddings to softmax function.",
+        "Using a feedforward neural network applied to the token\u2019s embeddings.",
+        "Through a convolutional operation applied to the token\u2019s neighborhood.",
+        "As the dot product between the token\u2019s embeddings and those of all other tokens, followed by a softmax operation."
+      ],
+      "correct_answer": "As the dot product between the token\u2019s embeddings and those of all other tokens, followed by a softmax operation.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 92,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p5_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.47 to 2.53",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_ET_AN_p5_Im2.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p5_Im1.webp|block]",
+      "group_id": "6406531045504",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 93,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p5_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.89 to 0.95",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_ET_AN_p5_Im3.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p5_Im1.webp|block]",
+      "group_id": "6406531045504",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 94,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p6_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.36 to 0.42",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_ET_AN_p6_Im1.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p5_Im1.webp|block]",
+      "group_id": "6406531045504",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 95,
+      "text": "Which of the following techniques does NOT help prevent a model from overfitting?",
+      "type": "MCQ",
+      "options": [
+        "Data augmentation",
+        "Dropout",
+        "Early stopping",
+        "None of these"
+      ],
+      "correct_answer": "None of these",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 96,
+      "text": "Suppose you have a vocabulary of 5,000 unique words and you want to train a CBOW model with a window size of 3 (on each side) and with an embedding dimension of 100. How many parameters (weights) will the embedding layer have?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "500000",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 97,
+      "text": "Assume that your CBOW model outputs a probability distribution over a vocabulary of 20,000 words for a given context. If the correct target word is word number 150, and the model\u2019s predicted probability for this word is 0.2, calculate the cross-entropy loss for this prediction. (use natural log)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.57 to 1.63",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 98,
+      "text": "In a Skip-gram model with a window size of 2 (on each side), how many unique pairs of target and context words will be generated for the following sentence: \u2018 Predicting the future is not magic, it is artificial intelligence \u2019 Note: Ignore the punctuations in your calculation",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "32",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 99,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p8_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "126",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_ET_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 100,
+      "text": "With a total of 7 time steps ( T = 7), implying prediction for a word of length 6), what is the total count of parameters (including bias) within the network?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "33",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_ET_AN_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p8_Im2.webp|block]",
+      "group_id": "6406531045515",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 101,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p9_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p9_Im7.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_ET_AN_p9_Im1.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p8_Im2.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p9_Im3.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p9_Im4.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p9_Im5.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p8_Im2.webp|block]",
+      "group_id": "6406531045515",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 102,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p9_Im8.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "16 to 16.2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_ET_AN_p9_Im8.webp",
+        "/data/images/cs3004_2024T3_ET_AN_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T3_ET_AN_p8_Im2.webp|block]",
+      "group_id": "6406531045515",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 103,
+      "text": "In the context of the Transformer model\u2019s encoder-decoder architecture, which of the following statements are accurate?",
+      "type": "multichoice",
+      "options": [
+        "The encoder in a Transformer model is responsible for converting the input sequence into a continuous representation that the decoder can then use to generate the output sequence.",
+        "The decoder in a Transformer model only attends to the encoder\u2019s output without any form of self-attention on its own inputs.",
+        "Multi-head attention in the encoder allows the model to jointly attend to information from different representations at different positions.",
+        "The decoder\u2019s self-attention mechanism includes a masking component to prevent attending to future positions, ensuring the model generates outputs one step at a time."
+      ],
+      "correct_answer": [
+        "The encoder in a Transformer model is responsible for converting the input sequence into a continuous representation that the decoder can then use to generate the output sequence.",
+        "Multi-head attention in the encoder allows the model to jointly attend to information from different representations at different positions.",
+        "The decoder\u2019s self-attention mechanism includes a masking component to prevent attending to future positions, ensuring the model generates outputs one step at a time."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 104,
+      "text": "Consider a Transformer model with the following specifications for the decoder part: \u2022 Input dimension (embedding size): 16 \u2022 Number of heads in multi-head attention: 2 \u2022 Head output dimension: 8 \u2022 Dimension of the feed-forward network: 32 \u2022 Number of layers in the decoder: 2 Note: The final output from the attention heads is obtained by concatenating the outputs from the individual heads and hence does not cost any additional parameters. Assume that each decoder layer contains: \u2022 One multi-head attention mechanism for self-attention. \u2022 One multi-head attention mechanism for encoder-decoder attention. \u2022 One feed-forward network. \u2022 No bias terms are included. Calculate the total number of parameters in the decoder part.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5120",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    }
+  ],
+  "id": "cs3004-2024t3-et-an",
+  "course_code": "CS3004",
+  "course_name": "Deep Learning",
+  "level": "Degree",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

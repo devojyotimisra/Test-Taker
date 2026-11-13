@@ -1,0 +1,666 @@
+{
+  "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
+  "filename": "cs2002_2026T2_ET_FN.pdf",
+  "total_questions": 26,
+  "total_marks": 76.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Inscript What does the function f(1000,2) return? [IMAGE: /data/images/cs2002_2026T2_ET_FN_p1_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Inscript Consider the following implementation for Queue [IMAGE: /data/images/cs2002_2026T2_ET_FN_p2_Im1.webp|block] Which of the following is the return value of the function call [IMAGE: /data/images/cs2002_2026T2_ET_FN_p2_Im2.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "31",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p2_Im1.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Inscript Consider the undirected, weighted graph [IMAGE: /data/images/cs2002_2026T2_ET_FN_p2_Im3.webp|inline] shown below: [IMAGE: /data/images/cs2002_2026T2_ET_FN_p3_Im1.webp|block] What is the total weight of the Minimum Spanning Tree (MST) of this graph?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p2_Im3.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Inscript If you insert the elements [IMAGE: /data/images/cs2002_2026T2_ET_FN_p3_Im2.webp|inline] into an empty Binary Search Tree (BST) in the sequence listed, which element forms a leaf node at the maximum depth?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "15",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Inscript A custom currency system uses the coin denominations [IMAGE: /data/images/cs2002_2026T2_ET_FN_p3_Im3.webp|inline] . A student applies the standard greedy strategy (always choosing the largest possible coin denomination that does not exceed the remaining target amount) to make change for a target value of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p3_Im4.webp|inline] . What is the smallest integer target value [IMAGE: /data/images/cs2002_2026T2_ET_FN_p3_Im5.webp|inline] for which this greedy strategy fails to find the optimal solution (i.e., it returns a strictly greater number of coins than the absolute minimum required)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p3_Im3.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p3_Im4.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p3_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Inscript Consider the following function [IMAGE: /data/images/cs2002_2026T2_ET_FN_p4_Im1.webp|inline] . [IMAGE: /data/images/cs2002_2026T2_ET_FN_p4_Im2.webp|block] What median value will be returned by the given [IMAGE: /data/images/cs2002_2026T2_ET_FN_p4_Im3.webp|inline] function for the following list? [IMAGE: /data/images/cs2002_2026T2_ET_FN_p4_Im4.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p4_Im1.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p4_Im2.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p4_Im3.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript Consider the following grid. [IMAGE: /data/images/cs2002_2026T2_ET_FN_p5_Im1.webp|block] How many unique paths are available from [IMAGE: /data/images/cs2002_2026T2_ET_FN_p5_Im2.webp|inline] to [IMAGE: /data/images/cs2002_2026T2_ET_FN_p5_Im3.webp|inline] ? Condition is that you can only travel one-step right or one step up at a time, and blue boxes at intersection points [IMAGE: /data/images/cs2002_2026T2_ET_FN_p5_Im4.webp|inline] and [IMAGE: /data/images/cs2002_2026T2_ET_FN_p5_Im5.webp|inline] represent blockages.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "18",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p5_Im1.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p5_Im2.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p5_Im3.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p5_Im4.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript Let [IMAGE: /data/images/cs2002_2026T2_ET_FN_p5_Im6.webp|inline] be a simple graph with [IMAGE: /data/images/cs2002_2026T2_ET_FN_p5_Im7.webp|inline] vertices. The size of the minimum vertex cover of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p5_Im8.webp|inline] is 8 and the maximum independent set of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p5_Im9.webp|inline] is 9. What is the total number of vertices in the graph [IMAGE: /data/images/cs2002_2026T2_ET_FN_p5_Im10.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "17",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p5_Im6.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p5_Im7.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p5_Im8.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p5_Im9.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p5_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Suppose f(n) is [IMAGE: /data/images/cs2002_2026T2_ET_FN_p6_Im1.webp|inline] . Consider the following statements. (i) f(n) is [IMAGE: /data/images/cs2002_2026T2_ET_FN_p6_Im2.webp|inline] (ii) f(n) is [IMAGE: /data/images/cs2002_2026T2_ET_FN_p6_Im3.webp|inline] (iii) f(n) is [IMAGE: /data/images/cs2002_2026T2_ET_FN_p6_Im4.webp|inline] Which of the following is true ?",
+      "type": "MCQ",
+      "options": [
+        "(i), (ii) and (iii) are all not true.",
+        "(ii) and (iii) are true but (i) is not true.",
+        "(ii) is true but (i) and (iii) are not true.",
+        "(i) and (ii) are true but (iii) is not true."
+      ],
+      "correct_answer": "(ii) and (iii) are true but (i) is not true.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p6_Im1.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p6_Im2.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p6_Im3.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "We have a list of three-dimensional points: [IMAGE: /data/images/cs2002_2026T2_ET_FN_p6_Im7.webp|block] We sort these in ascending order by the third coordinate. Which of the following corresponds to a stable sort of this input?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p6_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p6_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p6_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p6_Im11.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p6_Im11.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p6_Im7.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p6_Im8.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p6_Im9.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p6_Im10.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p6_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider an empty hash table of size [IMAGE: /data/images/cs2002_2026T2_ET_FN_p7_Im1.webp|inline] using open addressing with quadratic probing: [IMAGE: /data/images/cs2002_2026T2_ET_FN_p7_Im2.webp|inline] , where [IMAGE: /data/images/cs2002_2026T2_ET_FN_p7_Im3.webp|inline] represents the probe number. The keys [IMAGE: /data/images/cs2002_2026T2_ET_FN_p7_Im4.webp|inline] are inserted into the table sequentially. What will the hash table look like after these insertions?",
+      "type": "MCQ",
+      "options": [
+        "Index 0: 35, Index 1: 21, Index 2: 14",
+        "Index 0: 14, Index 1: 21, Index 2: 35",
+        "Index 0: 14, Index 1: 21, Index 4: 35",
+        "Index 0: 14, Index 4: 21, Index 1: 35"
+      ],
+      "correct_answer": "Index 0: 14, Index 1: 21, Index 4: 35",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p7_Im1.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p7_Im2.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p7_Im3.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider an undirected graph [IMAGE: /data/images/cs2002_2026T2_ET_FN_p7_Im7.webp|inline] with [IMAGE: /data/images/cs2002_2026T2_ET_FN_p7_Im8.webp|inline] vertices and the following degree sequence: [IMAGE: /data/images/cs2002_2026T2_ET_FN_p7_Im9.webp|block] Which of the following statements is correct regarding this graph?",
+      "type": "MCQ",
+      "options": [
+        "Graph [IMAGE: /data/images/cs2002_2026T2_ET_FN_p7_Im10.webp|inline] is a valid simple, connected graph.",
+        "Graph [IMAGE: /data/images/cs2002_2026T2_ET_FN_p7_Im11.webp|inline] is a valid simple graph, but it must be disconnected.",
+        "Graph [IMAGE: /data/images/cs2002_2026T2_ET_FN_p7_Im12.webp|inline] cannot exist because the sum of the degrees is odd.",
+        "Graph G cannot exist because a vertex of degree 5 must be adjacent to every other vertex, which contradicts the presence of a vertex of degree 0."
+      ],
+      "correct_answer": "Graph G cannot exist because a vertex of degree 5 must be adjacent to every other vertex, which contradicts the presence of a vertex of degree 0.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p7_Im7.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p7_Im8.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p7_Im9.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p7_Im10.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p7_Im11.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p7_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Suppose we run the Bellman-Ford algorithm on a directed graph where every edge weight is strictly positive. Which of the following statements accurately describes the behavior of the algorithm?",
+      "type": "MCQ",
+      "options": [
+        "The algorithm will produce incorrect results because it is exclusively designed to process negative edge weights.",
+        "The algorithm will correctly find the shortest paths; however, its worst-case time complexity is higher than that of Dijkstra's algorithm for graphs with non-negative edge weights.",
+        "The algorithm will terminate early after exactly 1 iteration because positive edge graphs do not require path relaxation.",
+        "The algorithm will flag the graph as containing a negative cycle because it expects at least one negative edge value."
+      ],
+      "correct_answer": "The algorithm will correctly find the shortest paths; however, its worst-case time complexity is higher than that of Dijkstra's algorithm for graphs with non-negative edge weights.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "A strict (or full) binary tree is defined as a binary tree where every internal node has exactly two children (no node has exactly one child). If a strict binary tree has 25 leaf nodes, what is the total number of nodes ( [IMAGE: /data/images/cs2002_2026T2_ET_FN_p8_Im3.webp|inline] ) in the entire tree?",
+      "type": "MCQ",
+      "options": [
+        "24",
+        "49",
+        "50",
+        "51"
+      ],
+      "correct_answer": "49",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider the following min-heap: [IMAGE: /data/images/cs2002_2026T2_ET_FN_p8_Im4.webp|block] If we perform two consecutive insertions: [IMAGE: /data/images/cs2002_2026T2_ET_FN_p8_Im5.webp|inline] followed by [IMAGE: /data/images/cs2002_2026T2_ET_FN_p8_Im6.webp|inline] , what will be the final array representation of the min-heap?",
+      "type": "MCQ",
+      "options": [
+        "[5, 10, 15, 25, 50, 30, 40, 12]",
+        "[5, 25, 10, 40, 50, 30, 15, 12]",
+        "[5, 10, 15, 40, 50, 30, 12, 25]",
+        "[5, 10, 12, 25, 50, 30, 15, 40]"
+      ],
+      "correct_answer": "[5, 10, 12, 25, 50, 30, 15, 40]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p8_Im4.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p8_Im5.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Suppose the letters {A, B, C, D, E} occur with the following frequencies. [IMAGE: /data/images/cs2002_2026T2_ET_FN_p9_Im1.webp|block] How many bits will be used to encode the letter E in the Huffman code for this alphabet?",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "3",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Consider a base-case subproblem encountered during the execution of the [IMAGE: /data/images/cs2002_2026T2_ET_FN_p9_Im4.webp|inline] algorithm that contains exactly 3 points: [IMAGE: /data/images/cs2002_2026T2_ET_FN_p9_Im5.webp|inline] , [IMAGE: /data/images/cs2002_2026T2_ET_FN_p9_Im6.webp|inline] , and [IMAGE: /data/images/cs2002_2026T2_ET_FN_p9_Im7.webp|inline] . What is the local minimum distance ( \u03b4 ) evaluated by this brute-force base case, and how many unique pairwise distance calculations must be performed to find it?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p9_Im8.webp|inline] , performed using 2 distance calculations",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p9_Im9.webp|inline] , performed using 3 distance calculations",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p9_Im10.webp|inline] , performed using 3 distance calculations",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p9_Im11.webp|inline] , performed using 1 distance calculation"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p9_Im9.webp|inline] , performed using 3 distance calculations",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p9_Im4.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p9_Im5.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p9_Im6.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p9_Im7.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p9_Im8.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p9_Im9.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p9_Im10.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p9_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Consider the following function: [IMAGE: /data/images/cs2002_2026T2_ET_FN_p10_Im1.webp|block] What does the function [IMAGE: /data/images/cs2002_2026T2_ET_FN_p10_Im2.webp|inline] compute?",
+      "type": "MCQ",
+      "options": [
+        "It finds the length of the longest contiguous increasing subarray in [IMAGE: /data/images/cs2002_2026T2_ET_FN_p10_Im4.webp|inline] .",
+        "It finds the length of the longest increasing subsequence in [IMAGE: /data/images/cs2002_2026T2_ET_FN_p10_Im6.webp|inline] .",
+        "It finds the maximum element in [IMAGE: /data/images/cs2002_2026T2_ET_FN_p10_Im7.webp|inline] using dynamic programming.",
+        "It finds the length of the longest decreasing subsequence in [IMAGE: /data/images/cs2002_2026T2_ET_FN_p10_Im8.webp|inline] ."
+      ],
+      "correct_answer": "It finds the length of the longest increasing subsequence in [IMAGE: /data/images/cs2002_2026T2_ET_FN_p10_Im6.webp|inline] .",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p10_Im1.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p10_Im2.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p10_Im4.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p10_Im6.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p10_Im7.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p10_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "A tech firm contracts a manufacturer to assemble premium tablets and smartphones. For assembly materials, the factory has 600 hours of electronic testing lab time and 900 hours of precision welding line time available per week. \u2022 Every tablet ( [IMAGE: /data/images/cs2002_2026T2_ET_FN_p10_Im9.webp|inline] ) requires 1 hour of testing and 3 hours of welding. \u2022 Every smartphone ( [IMAGE: /data/images/cs2002_2026T2_ET_FN_p10_Im10.webp|inline] ) requires 2 hours of testing and 1.5 hours of welding. The profit is fixed at Rs. 800 for each tablet and Rs. 500 for each smartphone. The objective function is to maximize weekly profit [IMAGE: /data/images/cs2002_2026T2_ET_FN_p10_Im11.webp|inline] . Which of the following is not a valid constraint for this linear programming problem?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p11_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p11_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p11_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p11_Im5.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p10_Im9.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p10_Im10.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p10_Im11.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p11_Im1.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p11_Im3.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p11_Im5.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p11_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Which of the following statements provides the most accurate definition of the complexity class NP?",
+      "type": "MCQ",
+      "options": [
+        "It is the class of decision problems that can be solved by a deterministic algorithm in polynomial time.",
+        "It is the class of decision problems for which a proposed solution can be verified by a deterministic algorithm in polynomial time.",
+        "It is the class of complex problems that can never be solved in polynomial time under any circumstances.",
+        "It is the class of optimization problems that can only be solved using a non- polynomial greedy strategy."
+      ],
+      "correct_answer": "It is the class of decision problems for which a proposed solution can be verified by a deterministic algorithm in polynomial time.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Which of the following statements is/are true about quicksort?",
+      "type": "multichoice",
+      "options": [
+        "For every deterministic fixed strategy for choosing a pivot in quicksort, there exists an input for which the running time of quicksort is [IMAGE: /data/images/cs2002_2026T2_ET_FN_p11_Im7.webp|inline] .",
+        "If we could find the median in time [IMAGE: /data/images/cs2002_2026T2_ET_FN_p11_Im8.webp|inline] , quicksort would have worst case complexity [IMAGE: /data/images/cs2002_2026T2_ET_FN_p11_Im9.webp|inline] .",
+        "Quicksort and merge sort are both examples of divide and conquer algorithms.",
+        "If we randomly choose a pivot element each time, quicksort will always terminate in time [IMAGE: /data/images/cs2002_2026T2_ET_FN_p12_Im3.webp|inline] .",
+        "The standard in-place implementation of quicksort preserves the relative order of equal elements, making it a stable sorting algorithm."
+      ],
+      "correct_answer": [
+        "For every deterministic fixed strategy for choosing a pivot in quicksort, there exists an input for which the running time of quicksort is [IMAGE: /data/images/cs2002_2026T2_ET_FN_p11_Im7.webp|inline] .",
+        "If we could find the median in time [IMAGE: /data/images/cs2002_2026T2_ET_FN_p11_Im8.webp|inline] , quicksort would have worst case complexity [IMAGE: /data/images/cs2002_2026T2_ET_FN_p11_Im9.webp|inline] .",
+        "Quicksort and merge sort are both examples of divide and conquer algorithms."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p11_Im7.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p11_Im8.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p11_Im9.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p12_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Let G be a simple, undirected graph with n = 10 vertices. If G is disconnected, which of the following could be the total number of edges (e) in G? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "45",
+        "37",
+        "36",
+        "35",
+        "33"
+      ],
+      "correct_answer": [
+        "36",
+        "35",
+        "33"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Suppose we run a Breadth-First Search (BFS) on a connected, undirected graph and obtain the following BFS tree rooted at node [IMAGE: /data/images/cs2002_2026T2_ET_FN_p12_Im4.webp|inline] : [IMAGE: /data/images/cs2002_2026T2_ET_FN_p12_Im5.webp|block] Which of the following edges cannot be present in the original graph? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p12_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p12_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im5.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p12_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im3.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p12_Im4.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p12_Im5.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p12_Im6.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p12_Im7.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im2.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im3.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "An element is inserted into an AVL tree, causing a critical imbalance at a node [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im6.webp|inline] . The imbalance requires a Left-Right (LR) double rotation to restore balance. Let [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im7.webp|inline] be the left child of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im8.webp|inline] , and [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im9.webp|inline] be the right child of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im10.webp|inline] (the node that becomes the new root of this subtree after rotation). During the two sub-rotation phases, what happens to the subtrees of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im11.webp|inline] (let's call them [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im12.webp|inline] and [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im13.webp|inline] , representing [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im14.webp|inline] 's original left and right subtrees)? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im15.webp|inline] (the original left subtree of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im16.webp|inline] ) is attached as the new right subtree of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im17.webp|inline] .",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im18.webp|inline] (the original left subtree of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im19.webp|inline] ) is attached as the new left subtree of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im20.webp|inline] .",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im21.webp|inline] (the original right subtree of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im22.webp|inline] ) is attached as the new left subtree of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im23.webp|inline] .",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im24.webp|inline] (the original right subtree of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im25.webp|inline] ) is attached as the new right subtree of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im26.webp|inline] ."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im15.webp|inline] (the original left subtree of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im16.webp|inline] ) is attached as the new right subtree of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im17.webp|inline] .",
+        "[IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im21.webp|inline] (the original right subtree of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im22.webp|inline] ) is attached as the new left subtree of [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im23.webp|inline] ."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im6.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im7.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im8.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im9.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im10.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im11.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im12.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im13.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im14.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im15.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im16.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im17.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im18.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im19.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im20.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im21.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im22.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im23.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im24.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im25.webp",
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im26.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "In the standard Inversion Count problem, a pair of numbers in an array is called an \"inversion\" if a larger number appears before a smaller number. If we have the array [IMAGE: /data/images/cs2002_2026T2_ET_FN_p13_Im27.webp|inline] , which pair of numbers forms a valid inversion?",
+      "type": "multichoice",
+      "options": [
+        "(1, 3)",
+        "(5, 1)",
+        "(4, 2)",
+        "(3, 4)",
+        "(3, 2)"
+      ],
+      "correct_answer": [
+        "(5, 1)",
+        "(4, 2)",
+        "(3, 2)"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_ET_FN_p13_Im27.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    }
+  ],
+  "id": "cs2002-2026t2-et-fn",
+  "course_code": "CS2002",
+  "course_name": "Programming, Data Structures and Algorithms using Python",
+  "level": "Diploma in Programming",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

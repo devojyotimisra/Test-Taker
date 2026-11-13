@@ -1,0 +1,1019 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)",
+  "filename": "da5006_2025T2_ET_AN.pdf",
+  "total_questions": 50,
+  "total_marks": 72.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 82,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 83,
+      "text": "Why does DETR typically exhibit poor performance in detecting small objects compared to larger ones? Choose the best answer in your opinion.",
+      "type": "MCQ",
+      "options": [
+        "The CNN backbone used in DETR has a fixed receptive field that\u2019s too large for small objects.",
+        "The global self-attention mechanism in DETR tends to dilute the signal from small objects across all image locations.",
+        "DETR\u2019s loss function actively discards all detections smaller than 50 \u00d7 50 pixels.",
+        "The object queries in DETR are programmed to ignore any object smaller than 10% of the image size.",
+        "DETR\u2019s encoder-decoder architecture was specifically designed to only detect objects larger than a cat."
+      ],
+      "correct_answer": "The global self-attention mechanism in DETR tends to dilute the signal from small objects across all image locations.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 84,
+      "text": "Consider the following Pytorch code: 1. x = torch.tensor([[-3.,2.,3.],[4.,-5.,7.],[20.,3.,2.]]) 2. print(torch.mean(x,dim=0,keepdim=True)) The output of the code is:",
+      "type": "MCQ",
+      "options": [
+        "tensor([ 7., 0., 4.])",
+        "tensor([[ -7., 10., -4.]])",
+        "tensor([[ -7.],[7.],[4.]])",
+        "tensor([ -7., 7., 3.])",
+        "tensor([[7., 0., 4.]])",
+        "tensor([[ 0.],[7.],[4.]])"
+      ],
+      "correct_answer": "tensor([[7., 0., 4.]])",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 85,
+      "text": "Which one of the following statements is false?",
+      "type": "MCQ",
+      "options": [
+        "Linear contrast stretching is a point operation.",
+        "Moving average is an example of a local operation.",
+        "Convolution in the spatial domain cannot be obtained through addition in the frequency domain.",
+        "All of these."
+      ],
+      "correct_answer": "All of these.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 86,
+      "text": "What is the correct order of operations for processing an image through a Vision Transformer (ViT)?",
+      "type": "MCQ",
+      "options": [
+        "Image patching \u2192 Positional embedding \u2192 Linear projection of flattened patches \u2192 Transformer encoder\u2192 Classification head",
+        "Image patching \u2192 Linear projection of flattened patches \u2192 Positional embedding \u2192 Transformer encoder\u2192 Classification head",
+        "Positional embedding \u2192 Image patching \u2192 Linear projection of flattened patches \u2192 Transformer encoder\u2192 Classification head",
+        "Linear projection of Images \u2192 Image patching \u2192 Positional embedding \u2192 Transformer encoder \u2192 Classification head",
+        "Linear projection of Images \u2192 Image patching \u2192 Positional embedding \u2192 Transformer encoder \u2192 Transformer decoder\u2192 Classification head"
+      ],
+      "correct_answer": "Image patching \u2192 Linear projection of flattened patches \u2192 Positional embedding \u2192 Transformer encoder\u2192 Classification head",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 87,
+      "text": "Vector Quantized Variational Autoencoder (VQ-VAE) utilizes a discrete latent representation as opposed to continuous latent spaces used in traditional VAEs. One of the key components of a VQ- VAE is the codebook, which consists of a set of learnable vectors. What is the primary role of the codebook in VQ-VAE?",
+      "type": "MCQ",
+      "options": [
+        "It performs the non-linear transformation of the input data to a higher dimensional space.",
+        "It regularizes the encoder by penalizing complex encodings.",
+        "It provides a finite set of vectors which the encoder\u2019s outputs are mapped to, effectively quantizing the latent space.",
+        "It decodes the quantized vectors back into the reconstructed input space."
+      ],
+      "correct_answer": "It provides a finite set of vectors which the encoder\u2019s outputs are mapped to, effectively quantizing the latent space.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 88,
+      "text": "Given two normalized embeddings from CLIP, I = [0.2, 0.5, 0.3, 0.4] for an image and T = [0.1, 0.6, 0.3, 0.7] for a text description, compute the CLIPScore(I,T).",
+      "type": "MCQ",
+      "options": [
+        "\u2212 69%",
+        "0%",
+        "69%",
+        "50%"
+      ],
+      "correct_answer": "69%",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 89,
+      "text": "Which one of the following statements regarding hyperparameter tuning is false?",
+      "type": "MCQ",
+      "options": [
+        "Validation set is the best choice for tuning hyperparameters",
+        "Picking hyperparameters that perform the best on the training set leads to overfitting",
+        "Tuning hyperparameters on the test set is an acceptable approach to find the most powerful model for generalization performance",
+        "Test set performance, with hyperparameters tuned on the validation set, would be a realistic measure of how the model will generalize to new data."
+      ],
+      "correct_answer": "Tuning hyperparameters on the test set is an acceptable approach to find the most powerful model for generalization performance",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 90,
+      "text": "Which one of the following statements is false? (Pick the most appropriate one.)",
+      "type": "MCQ",
+      "options": [
+        "Attention mechanisms can be applied to the bidirectional RNN model",
+        "An image captioning network can be trained end-to-end even though we are using 2 different modalities to train the network",
+        "One of the key components in the vanilla transformer is the recurrent connection that help them to deal with variable input length.",
+        "All of these."
+      ],
+      "correct_answer": "One of the key components in the vanilla transformer is the recurrent connection that help them to deal with variable input length.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 91,
+      "text": "You are designing an edge detection pipeline for noisy grayscale images. For each of the following goals, choose the most appropriate filter or method: 1. Smooth out noise before any edge detection step 2. Detect edges by finding zero-crossings in the second derivative 3. Highlight regions with a strong intensity gradient 4. Perform basic edge detection with a simple directional gradient filter",
+      "type": "MCQ",
+      "options": [
+        "1 \u2192 Gaussian filter, 2 \u2192 Laplacian of Gaussian, 3 \u2192 First derivative of Gaussian, 4 \u2192 Sobel operator",
+        "1 \u2192 Sobel operator, 2 \u2192 Gaussian filter, 3 \u2192 Laplacian of Gaussian, 4 \u2192 First derivative of Gaussian",
+        "1 \u2192 First derivative of Gaussian, 2 \u2192 Sobel operator, 3 \u2192 Gaussian filter, 4 \u2192 Laplacian of Gaussian",
+        "1\u2192Laplacian of Gaussian, 2\u2192First derivative of Gaussian, 3\u2192Sobel operator, 4\u2192Gaussian filter"
+      ],
+      "correct_answer": "1 \u2192 Gaussian filter, 2 \u2192 Laplacian of Gaussian, 3 \u2192 First derivative of Gaussian, 4 \u2192 Sobel operator",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 92,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2025T2_ET_AN_p4_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T2_ET_AN_p4_Im6.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T2_ET_AN_p4_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p4_Im5.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p4_Im1.webp",
+        "/data/images/da5006_2025T2_ET_AN_p4_Im5.webp",
+        "/data/images/da5006_2025T2_ET_AN_p4_Im6.webp",
+        "/data/images/da5006_2025T2_ET_AN_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 93,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p4_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 iii, 2\u2192 iv, 3\u2192 ii, 4 \u2192 i",
+        "1\u2192 i, 2\u2192 iv, 3 \u2192 iii, 4\u2192 ii",
+        "1\u2192 iv, 2\u2192 iii, 3\u2192 ii, 4 \u2192 i",
+        "1\u2192 iii, 2\u2192 i, 3 \u2192 ii, 4 \u2192v"
+      ],
+      "correct_answer": "1\u2192 iii, 2\u2192 i, 3 \u2192 ii, 4 \u2192v",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 94,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p5_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 iv, 2\u2192 v, 3\u2192 i, 4 \u2192 ii",
+        "1\u2192 iii, 2\u2192 i, 3 \u2192 v, 4\u2192 ii",
+        "1\u2192 iv, 2\u2192 iii, 3\u2192 ii, 4 \u2192 i",
+        "1\u2192 iii, 2\u2192 i, 3 \u2192 ii, 4\u2192 v"
+      ],
+      "correct_answer": "1\u2192 iv, 2\u2192 v, 3\u2192 i, 4 \u2192 ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 95,
+      "text": "In which one of the following applications would you use a many- to-one RNN architecture? Choose the most appropriate answer.",
+      "type": "MCQ",
+      "options": [
+        "Input is a review of a movie and output is the sentiment of the given review",
+        "Input is an image and output is the textual description of the given image",
+        "Input is an image and output is the class to which the given image belongs",
+        "Input is a sentence in English language and output is the same sentence translated to Hindi language"
+      ],
+      "correct_answer": "Input is a review of a movie and output is the sentiment of the given review",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 96,
+      "text": "Why might Segment Anything (SAM) be particularly useful in data annotation tasks compared to traditional segmentation models?",
+      "type": "MCQ",
+      "options": [
+        "It produces perfect segmentation masks.",
+        "It can adapt to segment any object, even those not seen during training",
+        "It requires less computational resources",
+        "It automatically labels all objects in an image without user input"
+      ],
+      "correct_answer": "It can adapt to segment any object, even those not seen during training",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 97,
+      "text": "Which of the following statements are true? (Select all possible correct options)",
+      "type": "multichoice",
+      "options": [
+        "Variational AutoEncoders (VAE) generate sharper images compared to Generative adversarial networks (GANs)",
+        "GAN is an example of an implicit density estimation model",
+        "Fully connected layers in mapping network of Style-GAN change the dimension of its input",
+        "In a GAN, the generator and discriminator are trained in an alternating fashion, each using the other\u2019s output to improve."
+      ],
+      "correct_answer": [
+        "GAN is an example of an implicit density estimation model",
+        "In a GAN, the generator and discriminator are trained in an alternating fashion, each using the other\u2019s output to improve."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 98,
+      "text": "Classifier-free guidance is a technique used in diffusion models to improve sample quality without the explicit use of a classifier. This technique involves modifying the sampling process based on a control parameter. If the control parameter, denoted as \u03b3, is set to zero, what effect does this have on the generation process?",
+      "type": "multichoice",
+      "options": [
+        "It fails to generate realistic samples",
+        "It removes all guidance, effectively making the process equivalent to the unconditional generation.",
+        "It maximizes the influence of the classifier, leading to highly detailed generations.",
+        "It can lead to more diverse samples compared to higher values of \u03b3, as the generation process is less constrained by the conditional information."
+      ],
+      "correct_answer": [
+        "It removes all guidance, effectively making the process equivalent to the unconditional generation.",
+        "It can lead to more diverse samples compared to higher values of \u03b3, as the generation process is less constrained by the conditional information."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 99,
+      "text": "Which of the following statements are true? (Select all possible correct options)",
+      "type": "multichoice",
+      "options": [
+        "Autoencoder are equivalent to Principal Component Analysis (PCA) provided we don\u2019t use of non-linear activation functions",
+        "When using global attention on temporal data, alignment weights are learnt for encoder hidden representations for all time steps",
+        "Positional encoding is an important component of the trans- former architecture as it conveys information about order in a given sequence",
+        "It is not possible to generate different captions for the same image that have similar meaning but different tone/style",
+        "Autoencoders can not be used for data compression as its input and output dimensions are different"
+      ],
+      "correct_answer": [
+        "Autoencoder are equivalent to Principal Component Analysis (PCA) provided we don\u2019t use of non-linear activation functions",
+        "When using global attention on temporal data, alignment weights are learnt for encoder hidden representations for all time steps",
+        "Positional encoding is an important component of the trans- former architecture as it conveys information about order in a given sequence"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 100,
+      "text": "Which of the following statements about CLIP are TRUE? (Select ALL that apply)",
+      "type": "multichoice",
+      "options": [
+        "CLIP uses a cross-entropy loss function to align text and image embeddings.",
+        "CLIP requires image labels for training.",
+        "CLIP is trained to maximize cosine similarity between embeddings of matching text-image pairs.",
+        "CLIP model is trained with pretext tasks such as rotation prediction and inpainting to learn effective feature representations.",
+        "To use the CLIP model for image classification, it is imperative to finetune it on downstream datasets."
+      ],
+      "correct_answer": [
+        "CLIP is trained to maximize cosine similarity between embeddings of matching text-image pairs."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 101,
+      "text": "Which one of the following statements is true:",
+      "type": "multichoice",
+      "options": [
+        "Weight change criterion is a method of \u2018early stopping\u2019 that checks whether or not the error is dropping over epochs to decide whether to continue training or stop.",
+        "L1 norm tends to create more sparse weights than L2 norm.",
+        "During the training phase, for each iteration, Dropout ignores a random fraction, p, of nodes, and accounts for it in the test phase by scaling down the activations by a factor of p.",
+        "A single McCulloch-Pitts neuron is capable of modeling AND, OR, XOR, NOR, and NAND functions."
+      ],
+      "correct_answer": [
+        "L1 norm tends to create more sparse weights than L2 norm.",
+        "During the training phase, for each iteration, Dropout ignores a random fraction, p, of nodes, and accounts for it in the test phase by scaling down the activations by a factor of p."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 102,
+      "text": "Which of the following are examples of a high-pass filter?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5006_2025T2_ET_AN_p8_Im1.webp|block] [IMAGE: /data/images/da5006_2025T2_ET_AN_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T2_ET_AN_p8_Im4.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T2_ET_AN_p8_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5006_2025T2_ET_AN_p8_Im1.webp|block] [IMAGE: /data/images/da5006_2025T2_ET_AN_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T2_ET_AN_p8_Im4.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T2_ET_AN_p8_Im6.webp|block]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p8_Im1.webp",
+        "/data/images/da5006_2025T2_ET_AN_p8_Im3.webp",
+        "/data/images/da5006_2025T2_ET_AN_p8_Im4.webp",
+        "/data/images/da5006_2025T2_ET_AN_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 103,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p8_Im7.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "93 to 94",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 104,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p9_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.930 to 0.940",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 105,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p9_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "43",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p9_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 106,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p9_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3.75",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 107,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 108,
+      "text": "What is the size of the feature map after applying two successive convolution operations with given parameters? Image size = 72\u00d772, Kernel size = 5\u00d75, Padding = 2 and Stride = 3. (In calculation, take floor(x) whenever x is non-integer.If the answer is N \u00d7 N, write just one value N in the blank) __________________ .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 109,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p11_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p11_Im2.webp",
+        "/data/images/da5006_2025T2_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p11_Im1.webp|block]",
+      "group_id": "6406531431367",
+      "section_name": null
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 110,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p11_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p11_Im3.webp",
+        "/data/images/da5006_2025T2_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p11_Im1.webp|block]",
+      "group_id": "6406531431367",
+      "section_name": null
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 111,
+      "text": "Element 1:___________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.49",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p12_Im1.webp|block]",
+      "group_id": "6406531431372",
+      "section_name": null
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 112,
+      "text": "Element 2:___________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.55",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p12_Im1.webp|block]",
+      "group_id": "6406531431372",
+      "section_name": null
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 113,
+      "text": "Element 3:___________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p12_Im1.webp|block]",
+      "group_id": "6406531431372",
+      "section_name": null
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 114,
+      "text": "Element 4:___________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.50",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p12_Im1.webp|block]",
+      "group_id": "6406531431372",
+      "section_name": null
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 115,
+      "text": "Self-Attention _______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the BLIP model architecture with an input (image-text pair) as shown below: [IMAGE: /data/images/da5006_2025T2_ET_AN_p14_Im1.webp|block] For each of the entities given, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531431377",
+      "section_name": null
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 116,
+      "text": "BERT Text Encoder Bi Self Attention:__________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the BLIP model architecture with an input (image-text pair) as shown below: [IMAGE: /data/images/da5006_2025T2_ET_AN_p14_Im1.webp|block] For each of the entities given, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531431377",
+      "section_name": null
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 117,
+      "text": "Image-Text Matching Loss (LITM ):__________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the BLIP model architecture with an input (image-text pair) as shown below: [IMAGE: /data/images/da5006_2025T2_ET_AN_p14_Im1.webp|block] For each of the entities given, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531431377",
+      "section_name": null
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 118,
+      "text": "Image Grounded Text Encoder Bi Self Attention: ___________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the BLIP model architecture with an input (image-text pair) as shown below: [IMAGE: /data/images/da5006_2025T2_ET_AN_p14_Im1.webp|block] For each of the entities given, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531431377",
+      "section_name": null
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "original_number": 119,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p15_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p15_Im1.webp",
+        "/data/images/da5006_2025T2_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the BLIP model architecture with an input (image-text pair) as shown below: [IMAGE: /data/images/da5006_2025T2_ET_AN_p14_Im1.webp|block] For each of the entities given, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531431377",
+      "section_name": null
+    },
+    {
+      "id": 39,
+      "number": 39,
+      "original_number": 120,
+      "text": "Image Grounded Text Encoder Cross Attention: _________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the BLIP model architecture with an input (image-text pair) as shown below: [IMAGE: /data/images/da5006_2025T2_ET_AN_p14_Im1.webp|block] For each of the entities given, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531431377",
+      "section_name": null
+    },
+    {
+      "id": 40,
+      "number": 40,
+      "original_number": 121,
+      "text": "Image-Text Contrastive Loss (LITC): ____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the BLIP model architecture with an input (image-text pair) as shown below: [IMAGE: /data/images/da5006_2025T2_ET_AN_p14_Im1.webp|block] For each of the entities given, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531431377",
+      "section_name": null
+    },
+    {
+      "id": 41,
+      "number": 41,
+      "original_number": 122,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p16_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p16_Im1.webp",
+        "/data/images/da5006_2025T2_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the BLIP model architecture with an input (image-text pair) as shown below: [IMAGE: /data/images/da5006_2025T2_ET_AN_p14_Im1.webp|block] For each of the entities given, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531431377",
+      "section_name": null
+    },
+    {
+      "id": 42,
+      "number": 42,
+      "original_number": 123,
+      "text": "Causal Self Attention: _____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the BLIP model architecture with an input (image-text pair) as shown below: [IMAGE: /data/images/da5006_2025T2_ET_AN_p14_Im1.webp|block] For each of the entities given, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531431377",
+      "section_name": null
+    },
+    {
+      "id": 43,
+      "number": 43,
+      "original_number": 124,
+      "text": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p17_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p17_Im1.webp",
+        "/data/images/da5006_2025T2_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the BLIP model architecture with an input (image-text pair) as shown below: [IMAGE: /data/images/da5006_2025T2_ET_AN_p14_Im1.webp|block] For each of the entities given, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531431377",
+      "section_name": null
+    },
+    {
+      "id": 44,
+      "number": 44,
+      "original_number": 125,
+      "text": "Image Grounded Text Decoder Cross Attention: _____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the BLIP model architecture with an input (image-text pair) as shown below: [IMAGE: /data/images/da5006_2025T2_ET_AN_p14_Im1.webp|block] For each of the entities given, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531431377",
+      "section_name": null
+    },
+    {
+      "id": 45,
+      "number": 45,
+      "original_number": 126,
+      "text": "Sigmoid ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.99",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p17_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p17_Im2.webp|block]",
+      "group_id": "6406531431389",
+      "section_name": null
+    },
+    {
+      "id": 46,
+      "number": 46,
+      "original_number": 127,
+      "text": "Linear ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "26.01",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p17_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p17_Im2.webp|block]",
+      "group_id": "6406531431389",
+      "section_name": null
+    },
+    {
+      "id": 47,
+      "number": 47,
+      "original_number": 128,
+      "text": "Indicator Function ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p17_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p17_Im2.webp|block]",
+      "group_id": "6406531431389",
+      "section_name": null
+    },
+    {
+      "id": 48,
+      "number": 48,
+      "original_number": 129,
+      "text": "Softplus _____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "26.01",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p17_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p17_Im2.webp|block]",
+      "group_id": "6406531431389",
+      "section_name": null
+    },
+    {
+      "id": 49,
+      "number": 49,
+      "original_number": 130,
+      "text": "ReLU _______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "26.01",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p17_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p17_Im2.webp|block]",
+      "group_id": "6406531431389",
+      "section_name": null
+    },
+    {
+      "id": 50,
+      "number": 50,
+      "original_number": 131,
+      "text": "Leaky-ReLU _____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "26.01",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_ET_AN_p17_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_ET_AN_p17_Im2.webp|block]",
+      "group_id": "6406531431389",
+      "section_name": null
+    }
+  ],
+  "id": "da5006-2025t2-et-an",
+  "course_code": "DA5006",
+  "course_name": "Deep Learning for Computer Vision",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

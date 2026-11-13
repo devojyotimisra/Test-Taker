@@ -1,0 +1,586 @@
+{
+  "title": "DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)",
+  "filename": "cs3003_2025T2_Q2_NA.pdf",
+  "total_questions": 26,
+  "total_marks": 25.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Does the Breadth First Search find the path to the goal?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows an infinite state space with finite branching, where S is the start node and G is the goal node, and G is at the center of a unit circle, and the remaining nodes are on the unit circle. (Note: circular grid is shown by dashed lines which are not part of the state space.) [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p1_Im3.webp|block] Take the radial distance as the heuristic value: h(G)=0; h(S)=1; and h(Ak)=1, for all k in {1, 2, . . .}. MoveGen returns neighbours in alphabetical order (A1,A2,..., G,S). Tie-breaker: use alphabetical order to break ties. Note: sum(1, a, a^2, a^3, ..., a^(n-1)) is given by ((1 - a^n)/(1 - a)).",
+      "group_id": "6406531323134",
+      "section_name": "AI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Does the Best First Search find the path to the goal?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows an infinite state space with finite branching, where S is the start node and G is the goal node, and G is at the center of a unit circle, and the remaining nodes are on the unit circle. (Note: circular grid is shown by dashed lines which are not part of the state space.) [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p1_Im3.webp|block] Take the radial distance as the heuristic value: h(G)=0; h(S)=1; and h(Ak)=1, for all k in {1, 2, . . .}. MoveGen returns neighbours in alphabetical order (A1,A2,..., G,S). Tie-breaker: use alphabetical order to break ties. Note: sum(1, a, a^2, a^3, ..., a^(n-1)) is given by ((1 - a^n)/(1 - a)).",
+      "group_id": "6406531323134",
+      "section_name": "AI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Does the Branch and Bound algorithm find the path to the goal?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows an infinite state space with finite branching, where S is the start node and G is the goal node, and G is at the center of a unit circle, and the remaining nodes are on the unit circle. (Note: circular grid is shown by dashed lines which are not part of the state space.) [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p1_Im3.webp|block] Take the radial distance as the heuristic value: h(G)=0; h(S)=1; and h(Ak)=1, for all k in {1, 2, . . .}. MoveGen returns neighbours in alphabetical order (A1,A2,..., G,S). Tie-breaker: use alphabetical order to break ties. Note: sum(1, a, a^2, a^3, ..., a^(n-1)) is given by ((1 - a^n)/(1 - a)).",
+      "group_id": "6406531323134",
+      "section_name": "AI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "[IMAGE: /data/images/cs3003_2025T2_Q2_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p3_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows an infinite state space with finite branching, where S is the start node and G is the goal node, and G is at the center of a unit circle, and the remaining nodes are on the unit circle. (Note: circular grid is shown by dashed lines which are not part of the state space.) [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p1_Im3.webp|block] Take the radial distance as the heuristic value: h(G)=0; h(S)=1; and h(Ak)=1, for all k in {1, 2, . . .}. MoveGen returns neighbours in alphabetical order (A1,A2,..., G,S). Tie-breaker: use alphabetical order to break ties. Note: sum(1, a, a^2, a^3, ..., a^(n-1)) is given by ((1 - a^n)/(1 - a)).",
+      "group_id": "6406531323134",
+      "section_name": "AI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "[IMAGE: /data/images/cs3003_2025T2_Q2_NA_p3_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p3_Im4.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows an infinite state space with finite branching, where S is the start node and G is the goal node, and G is at the center of a unit circle, and the remaining nodes are on the unit circle. (Note: circular grid is shown by dashed lines which are not part of the state space.) [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p1_Im3.webp|block] Take the radial distance as the heuristic value: h(G)=0; h(S)=1; and h(Ak)=1, for all k in {1, 2, . . .}. MoveGen returns neighbours in alphabetical order (A1,A2,..., G,S). Tie-breaker: use alphabetical order to break ties. Note: sum(1, a, a^2, a^3, ..., a^(n-1)) is given by ((1 - a^n)/(1 - a)).",
+      "group_id": "6406531323134",
+      "section_name": "AI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Is the heuristic admissible in the given state space?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows an infinite state space with finite branching, where S is the start node and G is the goal node, and G is at the center of a unit circle, and the remaining nodes are on the unit circle. (Note: circular grid is shown by dashed lines which are not part of the state space.) [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p1_Im3.webp|block] Take the radial distance as the heuristic value: h(G)=0; h(S)=1; and h(Ak)=1, for all k in {1, 2, . . .}. MoveGen returns neighbours in alphabetical order (A1,A2,..., G,S). Tie-breaker: use alphabetical order to break ties. Note: sum(1, a, a^2, a^3, ..., a^(n-1)) is given by ((1 - a^n)/(1 - a)).",
+      "group_id": "6406531323134",
+      "section_name": "AI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "What is the lower bound on the cost of the tour as per the TSP BnB algorithm discussed in class? Enter a natural number. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 17",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "182",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p4_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix for 5 cities (A to E) and the sorted edge list is provided below. For each city the distances to other cities are listed in ascending order. For example, in row one, the distance from A to B is 30, A to C is 32 and so on. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p4_Im1.webp|block] The search tree traversed by TSP BnB shows four segments. Identify the four segments xy, uv, rs, pq and then answer the given sub-questions. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p4_Im2.webp|block] Attention: A segment is a two-way edge between two cities. After adding/dropping a permanent segment, infer as many new permanent segments as possible before computing the lower bound.",
+      "group_id": "6406531323141",
+      "section_name": "AI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "What is the first segment (XY) selected for refining S0? Enter edge label XY NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: XY Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "AB BA",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p4_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix for 5 cities (A to E) and the sorted edge list is provided below. For each city the distances to other cities are listed in ascending order. For example, in row one, the distance from A to B is 30, A to C is 32 and so on. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p4_Im1.webp|block] The search tree traversed by TSP BnB shows four segments. Identify the four segments xy, uv, rs, pq and then answer the given sub-questions. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p4_Im2.webp|block] Attention: A segment is a two-way edge between two cities. After adding/dropping a permanent segment, infer as many new permanent segments as possible before computing the lower bound.",
+      "group_id": "6406531323141",
+      "section_name": "AI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "[IMAGE: /data/images/cs3003_2025T2_Q2_NA_p5_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "206",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p5_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p4_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix for 5 cities (A to E) and the sorted edge list is provided below. For each city the distances to other cities are listed in ascending order. For example, in row one, the distance from A to B is 30, A to C is 32 and so on. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p4_Im1.webp|block] The search tree traversed by TSP BnB shows four segments. Identify the four segments xy, uv, rs, pq and then answer the given sub-questions. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p4_Im2.webp|block] Attention: A segment is a two-way edge between two cities. After adding/dropping a permanent segment, infer as many new permanent segments as possible before computing the lower bound.",
+      "group_id": "6406531323141",
+      "section_name": "AI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "How many tours are represented in the node rs? Enter a natural number. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 42",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p4_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix for 5 cities (A to E) and the sorted edge list is provided below. For each city the distances to other cities are listed in ascending order. For example, in row one, the distance from A to B is 30, A to C is 32 and so on. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p4_Im1.webp|block] The search tree traversed by TSP BnB shows four segments. Identify the four segments xy, uv, rs, pq and then answer the given sub-questions. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p4_Im2.webp|block] Attention: A segment is a two-way edge between two cities. After adding/dropping a permanent segment, infer as many new permanent segments as possible before computing the lower bound.",
+      "group_id": "6406531323141",
+      "section_name": "AI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "[IMAGE: /data/images/cs3003_2025T2_Q2_NA_p6_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "320",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p6_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p4_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix for 5 cities (A to E) and the sorted edge list is provided below. For each city the distances to other cities are listed in ascending order. For example, in row one, the distance from A to B is 30, A to C is 32 and so on. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p4_Im1.webp|block] The search tree traversed by TSP BnB shows four segments. Identify the four segments xy, uv, rs, pq and then answer the given sub-questions. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p4_Im2.webp|block] Attention: A segment is a two-way edge between two cities. After adding/dropping a permanent segment, infer as many new permanent segments as possible before computing the lower bound.",
+      "group_id": "6406531323141",
+      "section_name": "AI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "List the horizon nodes in the best strategy. Enter the node labels as a comma separated list in ASCENDING order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "D,E,F",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531323147",
+      "section_name": "AI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "List the horizon nodes pruned by Alpha-Beta algorithm. Enter the node labels as a comma separated list in ASCENDING order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "H,I",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531323147",
+      "section_name": "AI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "[IMAGE: /data/images/cs3003_2025T2_Q2_NA_p8_Im1.webp|block] Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,D,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p8_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531323147",
+      "section_name": "AI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "[IMAGE: /data/images/cs3003_2025T2_Q2_NA_p8_Im2.webp|block] Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "E,F",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p8_Im2.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531323147",
+      "section_name": "AI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Select the correct statements about the Alpha-Beta algorithm.",
+      "type": "multichoice",
+      "options": [
+        "Alpha-Cut prunes MAX nodes.",
+        "Alpha-Cut is made by a MIN node.",
+        "Beta-Cut prunes MIN nodes.",
+        "Beta-Cut is made by a MAX node."
+      ],
+      "correct_answer": [
+        "Alpha-Cut prunes MAX nodes.",
+        "Alpha-Cut is made by a MIN node.",
+        "Beta-Cut prunes MIN nodes.",
+        "Beta-Cut is made by a MAX node."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531323147",
+      "section_name": "AI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Select the condition that triggers an Alpha-Cut.",
+      "type": "MCQ",
+      "options": [
+        "eval(child) <= Alpha",
+        "Alpha < eval(child) < Beta",
+        "Beta <= eval(child)",
+        "Cannot be determined"
+      ],
+      "correct_answer": "eval(child) <= Alpha",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531323147",
+      "section_name": "AI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "For a 2-ply game tree with branching factor 3, the number of strategies for MAX-player is __________ .",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "3",
+        "2^2",
+        "2^3",
+        "3^2",
+        "3^3"
+      ],
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531323147",
+      "section_name": "AI"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "What is the length of the optimal plan? Enter the number of actions in the optimal plan. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 42",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a Blocks World with a single one-armed robot is given below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp|block] Tie-breaker: When actions are chosen non-deterministically, choose actions that lead to a plan. Throw away the actions that lead to dead-ends or cycles. Tie-breaker: Treat the goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one to a stack, the last element in the list will be at the top of the stack. It has the effect of reversing the list. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "6406531323155",
+      "section_name": "AI"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Which of the following are applicable actions for the given planning problem?",
+      "type": "multichoice",
+      "options": [
+        "Pickup(D)",
+        "Pickup(G)",
+        "Pickup(M)",
+        "Unstack(C,M)",
+        "Unstack(E,D)"
+      ],
+      "correct_answer": [
+        "Pickup(G)",
+        "Unstack(C,M)",
+        "Unstack(E,D)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a Blocks World with a single one-armed robot is given below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp|block] Tie-breaker: When actions are chosen non-deterministically, choose actions that lead to a plan. Throw away the actions that lead to dead-ends or cycles. Tie-breaker: Treat the goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one to a stack, the last element in the list will be at the top of the stack. It has the effect of reversing the list. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "6406531323155",
+      "section_name": "AI"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Which of the following are relevant actions for the given planning problem?",
+      "type": "multichoice",
+      "options": [
+        "Pickup(G)",
+        "Stack(E,M)",
+        "Stack(G,E)",
+        "Unstack(C,M)",
+        "Unstack(E,D)"
+      ],
+      "correct_answer": [
+        "Stack(E,M)",
+        "Stack(G,E)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a Blocks World with a single one-armed robot is given below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp|block] Tie-breaker: When actions are chosen non-deterministically, choose actions that lead to a plan. Throw away the actions that lead to dead-ends or cycles. Tie-breaker: Treat the goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one to a stack, the last element in the list will be at the top of the stack. It has the effect of reversing the list. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "6406531323155",
+      "section_name": "AI"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Which of the following can be pushed as the first three elements onto the stack by the Goal Stack Planning algorithm? In the representation below the stack has a bottom on the right marked by the entry END. Use appropriate tie-breakers listed in the main data.",
+      "type": "MCQ",
+      "options": [
+        "{ on(E,M), on(G,E) }; on(E,M); on(G,E); END",
+        "{ on(E,M), on(G,E) }; on(G,E); on(E,M); END",
+        "on(G,E); on(E,M); { on(E,M), on(G,E) }; END",
+        "on(E,M); on(G,E); { on(E,M), on(G,E) }; END"
+      ],
+      "correct_answer": "on(G,E); on(E,M); { on(E,M), on(G,E) }; END",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a Blocks World with a single one-armed robot is given below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp|block] Tie-breaker: When actions are chosen non-deterministically, choose actions that lead to a plan. Throw away the actions that lead to dead-ends or cycles. Tie-breaker: Treat the goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one to a stack, the last element in the list will be at the top of the stack. It has the effect of reversing the list. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "6406531323155",
+      "section_name": "AI"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "For the subgoal ordering given in the goal description (and using the given tie breaking rules), which of the following is the first action popped out of the stack in Goal Stack Planning?",
+      "type": "MCQ",
+      "options": [
+        "Pickup(G)",
+        "Stack(G,E)",
+        "Unstack(E,D)",
+        "Unstack(C,M)"
+      ],
+      "correct_answer": "Pickup(G)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a Blocks World with a single one-armed robot is given below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp|block] Tie-breaker: When actions are chosen non-deterministically, choose actions that lead to a plan. Throw away the actions that lead to dead-ends or cycles. Tie-breaker: Treat the goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one to a stack, the last element in the list will be at the top of the stack. It has the effect of reversing the list. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "6406531323155",
+      "section_name": "AI"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "For the subgoal ordering given in the goal description (and using the given tie breaking rules), does the Goal Stack Planning algorithm find an optimal plan?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a Blocks World with a single one-armed robot is given below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp|block] Tie-breaker: When actions are chosen non-deterministically, choose actions that lead to a plan. Throw away the actions that lead to dead-ends or cycles. Tie-breaker: Treat the goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one to a stack, the last element in the list will be at the top of the stack. It has the effect of reversing the list. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "6406531323155",
+      "section_name": "AI"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "If the subgoals in the goal description are swapped places then does the Goal Stack Planning algorithm find an optimal plan?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a Blocks World with a single one-armed robot is given below. Note: this is the same domain description used in the weekly assignments. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p10_Im1.webp|block] Tie-breaker: When actions are chosen non-deterministically, choose actions that lead to a plan. Throw away the actions that lead to dead-ends or cycles. Tie-breaker: Treat the goal description, preconditions and effects as lists that are accessed from left to right. When the elements in a list are pushed one by one to a stack, the last element in the list will be at the top of the stack. It has the effect of reversing the list. A planning problem is given below, find a plan using the operators and predicates defined in the blocks-world domain. [IMAGE: /data/images/cs3003_2025T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "6406531323155",
+      "section_name": "AI"
+    }
+  ],
+  "id": "cs3003-2025t2-q2-na",
+  "course_code": "CS3003",
+  "course_name": "AI: Search Methods for Problem Solving",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

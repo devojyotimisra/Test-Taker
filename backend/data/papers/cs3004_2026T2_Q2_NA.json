@@ -1,0 +1,516 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)",
+  "filename": "cs3004_2026T2_Q2_NA.pdf",
+  "total_questions": 20,
+  "total_marks": 39.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Bias will decrease significantly, while variance remains approximately the same.",
+        "Variance will tend to decrease, while bias remains approximately the same.",
+        "Both bias and variance will eventually become zero.",
+        "Increasing the amount of training data has no effect on either the bias or the variance."
+      ],
+      "correct_answer": "Variance will tend to decrease, while bias remains approximately the same.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p1_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p2_Im2.webp|inline] only",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p2_Im5.webp|inline]",
+        "At all iterations"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p2_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p1_Im4.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p2_Im2.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p2_Im4.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p2_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Inscript Compute the effective learning rate [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p2_Im7.webp|inline] used at iteration [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p2_Im8.webp|inline] . Enter the answer correct to four decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.0032 to 0.0038",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p2_Im7.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p2_Im8.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p2_Im6.webp|block]",
+      "group_id": "6406532197431",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It would increase from iteration 1 to iteration 3.",
+        "It would decrease from iteration 1 to iteration 3.",
+        "It would stay constant at [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p3_Im4.webp|inline] .",
+        "It would decrease toward zero."
+      ],
+      "correct_answer": "It would stay constant at [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p3_Im4.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p3_Im1.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p2_Im6.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p2_Im6.webp|block]",
+      "group_id": "6406532197431",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p3_Im6.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p3_Im6.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p3_Im5.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p4_Im2.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p4_Im4.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p4_Im5.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p3_Im5.webp|block]",
+      "group_id": "6406532197441",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im9.webp|inline]",
+        "It diverges to [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im8.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p4_Im7.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p3_Im5.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p4_Im8.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p4_Im9.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p4_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p3_Im5.webp|block]",
+      "group_id": "6406532197441",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript What is the expected number of units retained (active) in a single forward pass during training?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p4_Im11.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p4_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A fully connected hidden layer has [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im11.webp|inline] units and uses dropout with retention probability [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im12.webp|inline] for each unit (units are dropped independently). The sub-questions are independent of each other.",
+      "group_id": "6406532197447",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "How many distinct ''thinned'' sub-networks are theoretically possible for this layer?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p5_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p5_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p5_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p4_Im11.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p4_Im12.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p5_Im2.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p5_Im3.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p5_Im5.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A fully connected hidden layer has [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im11.webp|inline] units and uses dropout with retention probability [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p4_Im12.webp|inline] for each unit (units are dropped independently). The sub-questions are independent of each other.",
+      "group_id": "6406532197447",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript Compute the pre-activation value [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p6_Im1.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p6_Im1.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p5_Im7.webp|block]",
+      "group_id": "6406532197450",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript Given your value of [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p6_Im2.webp|inline] from the previous part, compute [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p6_Im3.webp|inline] .Enter the answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p6_Im2.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p6_Im3.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p5_Im7.webp|block]",
+      "group_id": "6406532197450",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Which of the following is the primary motivation for using Leaky ReLU instead of standard ReLU in this setting?",
+      "type": "MCQ",
+      "options": [
+        "To make the activation function computationally cheaper than ReLU.",
+        "To bound the output strictly within [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p6_Im5.webp|inline] .",
+        "To allow a small, non-zero gradient to flow through when [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p6_Im7.webp|inline] , avoiding permanently dead neurons.",
+        "To make the activation zero-centered exactly like [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p6_Im8.webp|inline] ."
+      ],
+      "correct_answer": "To allow a small, non-zero gradient to flow through when [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p6_Im7.webp|inline] , avoiding permanently dead neurons.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p5_Im7.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p6_Im5.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p6_Im7.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p6_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p5_Im7.webp|block]",
+      "group_id": "6406532197450",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "For a training example where [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im2.webp|inline] , which of the following best describes [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im3.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im5.webp|inline] ; the largest value [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im6.webp|inline] can attain",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im8.webp|inline] ; the neuron has saturated",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im10.webp|inline] is undefined at this point"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im8.webp|inline] ; the neuron has saturated",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im2.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im3.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im1.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im5.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im6.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im8.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im9.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406532197444",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Suppose instead the same layer used ReLU, [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im11.webp|inline] , and [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im12.webp|inline] for most training examples but a large negative bias update later drives [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im13.webp|inline] for all future inputs. What is [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im14.webp|inline] in that regime, and what training consequence follows?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im15.webp|inline] ; the neuron continues to update normally",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im16.webp|inline] ; the neuron stops updating and may stay ''dead'' permanently",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p8_Im2.webp|inline] oscillates between 0 and 1 depending on the input",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p8_Im3.webp|inline] ; the neuron updates at half the normal rate"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im16.webp|inline] ; the neuron stops updating and may stay ''dead'' permanently",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im11.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im12.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im13.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im14.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im1.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im15.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p7_Im16.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p8_Im2.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406532197444",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Which filter weights can receive a non-zero gradient during backpropagation? (Select all that apply.)",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p8_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p8_Im9.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p8_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p8_Im9.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p8_Im4.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p8_Im5.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p8_Im6.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p8_Im8.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p8_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p8_Im4.webp|block]",
+      "group_id": "6406532197438",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p9_Im1.webp|block] Suppose at each of the four output cells, and the current weights satisfy [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p9_Im2.webp|inline] . [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p9_Im3.webp|block] Compute .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p9_Im1.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p9_Im2.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p9_Im3.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p8_Im4.webp|block]",
+      "group_id": "6406532197438",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript You want a convolutional layer with a [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p9_Im6.webp|inline] kernel and stride [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p9_Im7.webp|inline] to produce an output whose width and height equal those of the input. What should be the padding [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p9_Im8.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p9_Im6.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p9_Im7.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p9_Im8.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p9_Im4.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p9_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The input volume to a convolutional layer of a CNN has shape [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p9_Im4.webp|inline] , where [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p9_Im5.webp|inline] is the depth.",
+      "group_id": "6406532197434",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Suppose you instead convolve the [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p10_Im1.webp|inline] input with a [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p10_Im2.webp|inline] kernel using padding [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p10_Im3.webp|inline] , stride [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p10_Im4.webp|inline] , and [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p10_Im5.webp|inline] filters. Which of these is the shape of the output volume?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p10_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p10_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p10_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p10_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p10_Im12.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p10_Im7.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p10_Im2.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p10_Im3.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p10_Im4.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p10_Im5.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p9_Im4.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p9_Im5.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p10_Im7.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p10_Im9.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p10_Im10.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p10_Im11.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p10_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The input volume to a convolutional layer of a CNN has shape [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p9_Im4.webp|inline] , where [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p9_Im5.webp|inline] is the depth.",
+      "group_id": "6406532197434",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Inscript Find the total number of parameters (weights [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p10_Im13.webp|inline] biases) associated with the convolutional layer of previous question.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "592",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p10_Im13.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p9_Im4.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p9_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The input volume to a convolutional layer of a CNN has shape [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p9_Im4.webp|inline] , where [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p9_Im5.webp|inline] is the depth.",
+      "group_id": "6406532197434",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Which of the following statements are TRUE about the adaptive optimizers? Select all that apply.",
+      "type": "multichoice",
+      "options": [
+        "In AdaGrad, the effective learning rate [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p11_Im2.webp|inline] decays slowly for the dense features.",
+        "In AdaGrad, the effective learning rate [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p11_Im4.webp|inline] decays slowly for the sparse features.",
+        "In RMSProp, the effective learning rate [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p11_Im5.webp|inline] is guaranteed to be non- increasing across iterations.",
+        "[IMAGE: /data/images/cs3004_2026T2_Q2_NA_p11_Im6.webp|inline] [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p11_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "In AdaGrad, the effective learning rate [IMAGE: /data/images/cs3004_2026T2_Q2_NA_p11_Im4.webp|inline] decays slowly for the sparse features.",
+        ""
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_Q2_NA_p11_Im2.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p11_Im4.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p11_Im5.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p11_Im6.webp",
+        "/data/images/cs3004_2026T2_Q2_NA_p11_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    }
+  ],
+  "id": "cs3004-2026t2-q2-na",
+  "course_code": "CS3004",
+  "course_name": "Deep Learning",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

@@ -1,0 +1,885 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)",
+  "filename": "cs2006_2026T2_ET_FN.pdf",
+  "total_questions": 32,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "A JWT token contains three parts: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p1_Im3.webp|inline] . Which of the following best explains the relationship between the header and the signature in JWT authentication?",
+      "type": "MCQ",
+      "options": [
+        "The header stores the encrypted password used to generate the signature.",
+        "The signature is generated using the encoded header, encoded payload, and a secret key. If the header is modified, the signature verification fails.",
+        "The signature only protects the payload section; changes to the header do not affect token validation.",
+        "The header contains the final signature hash generated after token creation."
+      ],
+      "correct_answer": "The signature is generated using the encoded header, encoded payload, and a secret key. If the header is modified, the signature verification fails.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "A news platform wants to send a morning digest email to all subscribers every day at 7 AM. Sweta sets up the beat schedule, starts Redis and Celery Beat, and then claims: \"The Worker is optional here. Beat handles the scheduling and the execution of the task, so we do not need a separate Worker process.\" Is Sweta's claim correct? Choose the best answer.",
+      "type": "MCQ",
+      "options": [
+        "Yes. For tasks defined in [IMAGE: /data/images/cs2006_2026T2_ET_FN_p1_Im4.webp|inline] , Celery Beat manages both the schedule and the execution, so running the Worker is redundant.",
+        "No. Celery Beat is only a scheduler. At 7 AM, it pushes a task message into the Redis broker and stops there. Without a running Celery Worker to pick up that message, the digest email is never actually sent.",
+        "No. Celery Beat cannot trigger tasks that involve database queries or email sending. Those tasks must be triggered manually using [IMAGE: /data/images/cs2006_2026T2_ET_FN_p2_Im3.webp|inline] from the Flask app.",
+        "Yes, but only when the task is defined with [IMAGE: /data/images/cs2006_2026T2_ET_FN_p2_Im4.webp|inline] instead of inside [IMAGE: /data/images/cs2006_2026T2_ET_FN_p2_Im5.webp|inline] .In that case, Beat handles execution too."
+      ],
+      "correct_answer": "No. Celery Beat is only a scheduler. At 7 AM, it pushes a task message into the Redis broker and stops there. Without a running Celery Worker to pick up that message, the digest email is never actually sent.",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p1_Im4.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p2_Im3.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p2_Im4.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p2_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "A startup is building a food delivery app. The customer-facing screen shows live order status updates: \"Order Placed \u2192 Preparing \u2192 Out for Delivery \u2192 Delivered\". Each stage is triggered by the restaurant or the delivery rider updating the status on their end. The customer's screen should reflect these changes in real time without refreshing the page. Two developers debate about the right technology: Developer A says : \"Let's use Server-Sent Events. It's the right fit here.\" Developer B says : \"No, we must use WebSockets. SSE won't work.\" Who is correct, and why?",
+      "type": "MCQ",
+      "options": [
+        "Developer B is correct . SSE cannot transmit JSON data, so structured order status objects cannot be pushed to the browser.",
+        "Developer B is correct . SSE connections do not reconnect automatically when the network is briefly interrupted, making it unreliable for a live tracker.",
+        "Developer A is correct . The tracker only requires the server to push status updates to the customer, without the customer sending data back through the same connection. SSE is purpose-built for exactly this one-way server-to-client push scenario.",
+        "Developer A is correct , but only if WebSockets are set up as a mandatory fallback, since SSE requires HTTP/2 to function."
+      ],
+      "correct_answer": "Developer A is correct . The tracker only requires the server to push status updates to the customer, without the customer sending data back through the same connection. SSE is purpose-built for exactly this one-way server-to-client push scenario.",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following [IMAGE: /data/images/cs2006_2026T2_ET_FN_p2_Im6.webp|inline] and JavaScript [IMAGE: /data/images/cs2006_2026T2_ET_FN_p2_Im7.webp|inline] for a Vue application: File: index.html [IMAGE: /data/images/cs2006_2026T2_ET_FN_p3_Im1.webp|block] File: app.js [IMAGE: /data/images/cs2006_2026T2_ET_FN_p3_Im2.webp|block] [IMAGE: /data/images/cs2006_2026T2_ET_FN_p3_Im3.webp|block] Suppose the application is running on [IMAGE: /data/images/cs2006_2026T2_ET_FN_p4_Im1.webp|inline] , and the user visits the URL: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p4_Im2.webp|block] What will be rendered by the browser? [NOTE: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p4_Im3.webp|inline] is divided in two images, consider them as one file content.]",
+      "type": "MCQ",
+      "options": [
+        "Delhi",
+        "Indore",
+        "Rewa",
+        "Raipur"
+      ],
+      "correct_answer": "Rewa",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p2_Im6.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p2_Im7.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p3_Im1.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p3_Im2.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p3_Im3.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p4_Im1.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p4_Im2.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Read the following component code carefully. file: script.js [IMAGE: /data/images/cs2006_2026T2_ET_FN_p4_Im6.webp|block] file:index.html [IMAGE: /data/images/cs2006_2026T2_ET_FN_p4_Im7.webp|block] Select all statements that correctly describe the console output:",
+      "type": "multichoice",
+      "options": [
+        "Log 1: prints [IMAGE: /data/images/cs2006_2026T2_ET_FN_p5_Im2.webp|inline]",
+        "Log 2: prints [IMAGE: /data/images/cs2006_2026T2_ET_FN_p5_Im3.webp|inline]",
+        "Log 3: prints [IMAGE: /data/images/cs2006_2026T2_ET_FN_p5_Im5.webp|inline]",
+        "Log 4: prints [IMAGE: /data/images/cs2006_2026T2_ET_FN_p5_Im6.webp|inline]",
+        "Log 3: throws an error because $el is not yet available"
+      ],
+      "correct_answer": [
+        "Log 1: prints [IMAGE: /data/images/cs2006_2026T2_ET_FN_p5_Im2.webp|inline]",
+        "Log 2: prints [IMAGE: /data/images/cs2006_2026T2_ET_FN_p5_Im3.webp|inline]",
+        "Log 4: prints [IMAGE: /data/images/cs2006_2026T2_ET_FN_p5_Im6.webp|inline]"
+      ],
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p4_Im6.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p4_Im7.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p5_Im2.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p5_Im3.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p5_Im5.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "A Vue 2 application fetches a list of courses from an API and wants to display them in the template. [IMAGE: /data/images/cs2006_2026T2_ET_FN_p5_Im7.webp|block] Assume the API returns: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p5_Im8.webp|block] Complete the missing code so that all course names are rendered correctly. Which of the following code snippets can correctly replace [IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im1.webp|inline] ?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im6.webp|block]"
+      ],
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p5_Im7.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p5_Im8.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p6_Im1.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p6_Im4.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p6_Im6.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following Flask JWT code: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p7_Im1.webp|block] A client first accesses [IMAGE: /data/images/cs2006_2026T2_ET_FN_p7_Im2.webp|inline] and then tries to access [IMAGE: /data/images/cs2006_2026T2_ET_FN_p7_Im3.webp|inline] . Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p7_Im5.webp|inline] can only be accessed if a valid JWT token is sent with the request.",
+        "If the JWT token is missing or invalid, Flask-JWT-Extended returns an unauthorized error.",
+        "The token generated by [IMAGE: /data/images/cs2006_2026T2_ET_FN_p7_Im7.webp|inline] is automatically stored by Flask and reused for future requests.",
+        "The JWT token is typically sent in the [IMAGE: /data/images/cs2006_2026T2_ET_FN_p7_Im8.webp|inline] header while accessing protected routes."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p7_Im5.webp|inline] can only be accessed if a valid JWT token is sent with the request.",
+        "If the JWT token is missing or invalid, Flask-JWT-Extended returns an unauthorized error.",
+        "The JWT token is typically sent in the [IMAGE: /data/images/cs2006_2026T2_ET_FN_p7_Im8.webp|inline] header while accessing protected routes."
+      ],
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p7_Im1.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p7_Im2.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p7_Im3.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p7_Im5.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p7_Im7.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Given the following code running in the browser, select all the statements that are [IMAGE: /data/images/cs2006_2026T2_ET_FN_p7_Im9.webp|inline] about its output: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p8_Im1.webp|block] [IMAGE: /data/images/cs2006_2026T2_ET_FN_p8_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p8_Im4.webp|inline] logs \"objectValue\"",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p8_Im6.webp|inline] logs \"objectValue\"",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p8_Im7.webp|inline] logs \"nestedValue\"",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p8_Im8.webp|inline] logs [IMAGE: /data/images/cs2006_2026T2_ET_FN_p8_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im2.webp|inline] logs \"objectValue\"",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im4.webp|inline] logs \"objectValue\""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p8_Im4.webp|inline] logs \"objectValue\"",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p8_Im7.webp|inline] logs \"nestedValue\"",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p8_Im8.webp|inline] logs [IMAGE: /data/images/cs2006_2026T2_ET_FN_p8_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im4.webp|inline] logs \"objectValue\""
+      ],
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p7_Im9.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p8_Im1.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p8_Im2.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p8_Im4.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p8_Im6.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p8_Im7.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p8_Im8.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p8_Im9.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p9_Im2.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following code using flask_jwt_extended : [IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im5.webp|block] Which of the following statements are correct? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "The [IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im6.webp|inline] decorator ensures that only requests with a valid JWT can access [IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im7.webp|inline] .",
+        "The [IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im8.webp|inline] determines what value is stored in the \"sub\" field of the JWT.",
+        "If [IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im9.webp|inline] is removed, [IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im10.webp|inline] will not be automatically populated.",
+        "The [IMAGE: /data/images/cs2006_2026T2_ET_FN_p10_Im2.webp|inline] directly stores the entire user object inside the JWT.",
+        "The [IMAGE: /data/images/cs2006_2026T2_ET_FN_p10_Im4.webp|inline] object is reconstructed using the identity extracted from the JWT.",
+        "If no JWT is sent in the request, [IMAGE: /data/images/cs2006_2026T2_ET_FN_p10_Im5.webp|inline] will still execute but [IMAGE: /data/images/cs2006_2026T2_ET_FN_p10_Im6.webp|inline] will be None."
+      ],
+      "correct_answer": [
+        "The [IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im6.webp|inline] decorator ensures that only requests with a valid JWT can access [IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im7.webp|inline] .",
+        "The [IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im8.webp|inline] determines what value is stored in the \"sub\" field of the JWT.",
+        "If [IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im9.webp|inline] is removed, [IMAGE: /data/images/cs2006_2026T2_ET_FN_p9_Im10.webp|inline] will not be automatically populated.",
+        "The [IMAGE: /data/images/cs2006_2026T2_ET_FN_p10_Im4.webp|inline] object is reconstructed using the identity extracted from the JWT."
+      ],
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p9_Im5.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p9_Im6.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p9_Im7.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p9_Im8.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p9_Im9.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p9_Im10.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p10_Im2.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p10_Im4.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p10_Im5.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Pratham builds a Flask route that generates a PDF report and sends it to the user via email, all inside the route handler without using Celery. A tester notices that the browser takes about 12 seconds to respond, and during that time other users are unable to use the app normally. Which of the following correctly explain this behaviour and what Celery would change?",
+      "type": "multichoice",
+      "options": [
+        "Flask handles one request at a time per worker, so the long-running task blocks the entire process until it finishes.",
+        "Other users' requests are queued and only served after the heavy task completes, making the app feel unresponsive.",
+        "Using Celery's [IMAGE: /data/images/cs2006_2026T2_ET_FN_p10_Im7.webp|inline] would make the task run faster by giving it more CPU cores.",
+        "With Celery, Flask immediately returns a response to the user while the report generation and email sending happen inside a separate Celery worker process in the background."
+      ],
+      "correct_answer": [
+        "Flask handles one request at a time per worker, so the long-running task blocks the entire process until it finishes.",
+        "Other users' requests are queued and only served after the heavy task completes, making the app feel unresponsive.",
+        "With Celery, Flask immediately returns a response to the user while the report generation and email sending happen inside a separate Celery worker process in the background."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p10_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Which of the following is/are the advantage(s) of client-side storage?",
+      "type": "multichoice",
+      "options": [
+        "Saving web generated documents for offline use.",
+        "Storing personalized site preferences.",
+        "The data can be stored across devices.",
+        "IndexedDB API is a kind of client-side storage which can be used for audio/video files."
+      ],
+      "correct_answer": [
+        "Saving web generated documents for offline use.",
+        "Storing personalized site preferences.",
+        "IndexedDB API is a kind of client-side storage which can be used for audio/video files."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Which of the following are valid capabilities of Lighthouse while analyzing a website?",
+      "type": "multichoice",
+      "options": [
+        "Measuring performance metrics such as FCP, LCP and TBT",
+        "Simulating slow networks and throttled conditions",
+        "Emulating mobile and desktop devices",
+        "Automatically fixing accessibility and SEO issues in the source code"
+      ],
+      "correct_answer": [
+        "Measuring performance metrics such as FCP, LCP and TBT",
+        "Simulating slow networks and throttled conditions",
+        "Emulating mobile and desktop devices"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Given the following code, select all the statements that are TRUE about its execution if the code is run in a browser environment. [IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im4.webp|inline] evaluates to [IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im6.webp|inline] evaluates to [IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im8.webp|inline] throws a [IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im10.webp|inline] evaluates to [IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im11.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im4.webp|inline] evaluates to [IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im6.webp|inline] evaluates to [IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im10.webp|inline] evaluates to [IMAGE: /data/images/cs2006_2026T2_ET_FN_p11_Im11.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p11_Im3.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p11_Im4.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p11_Im5.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p11_Im6.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p11_Im7.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p11_Im8.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p11_Im9.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p11_Im10.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p11_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "A team builds an internal warehouse dashboard where multiple managers, each on a different computer, need to receive live low-stock alerts from the server in real time. They decide to use Flask-SSE with Redis. Which of the following best explains Redis's role in a Flask-SSE setup?",
+      "type": "MCQ",
+      "options": [
+        "Redis is used by Flask-SSE to authenticate connected users before events can be streamed to the browser.",
+        "Flask-SSE uses Redis as a shared event channel so published messages can be delivered to connected clients.",
+        "Redis is only needed when SSE events must be stored permanently and replayed after reconnection.",
+        "Redis is optional in Flask-SSE and is only recommended when the application has a very large number of concurrent users."
+      ],
+      "correct_answer": "Flask-SSE uses Redis as a shared event channel so published messages can be delivered to connected clients.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Match the testing concept in Column I with the most appropriate description in Column II . [IMAGE: /data/images/cs2006_2026T2_ET_FN_p12_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-C, 2-D, 3-A, 4-B",
+        "1-B, 2-C, 3-D, 4-A",
+        "1-A, 2-D, 3-B, 4-C",
+        "1-C, 2-B, 3-A, 4-D"
+      ],
+      "correct_answer": "1-C, 2-D, 3-A, 4-B",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p12_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Match the performance metric in Column I with the most appropriate description in Column II . [IMAGE: /data/images/cs2006_2026T2_ET_FN_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-C, 2-B, 3-D, 4-A",
+        "1-B, 2-C, 3-A, 4-D",
+        "1-C, 2-D, 3-B, 4-A",
+        "1-A, 2-B, 3-D, 4-C"
+      ],
+      "correct_answer": "1-C, 2-D, 3-B, 4-A",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "What is the value of result after running the following code? [IMAGE: /data/images/cs2006_2026T2_ET_FN_p13_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p13_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p13_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p13_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p13_Im7.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p13_Im4.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p13_Im5.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p13_Im6.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p13_Im7.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p13_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "A developer has just created a new Vue 2 project using Vue CLI and the following package.json was generated. package.json [IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im1.webp|block] The developer wants to view the app in the browser locally for development. They run the following command: bash: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im2.webp|block] Which of the following best describes what happens and what the developer should have run instead?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im4.webp|inline] launches the app on [IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im5.webp|inline] ; the developer should have run npm start to compile for production instead.",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im7.webp|inline] compiles and bundles the app for production into a [IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im8.webp|inline] folder \u2014 it does not start a local server. The developer should have run [IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im9.webp|inline] instead.",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im10.webp|inline] is correct for local development; [IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im11.webp|inline] is only used for deploying to a server.",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im12.webp|inline] and [IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im13.webp|inline] do the same thing \u2014 both launch the app at [IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im14.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im7.webp|inline] compiles and bundles the app for production into a [IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im8.webp|inline] folder \u2014 it does not start a local server. The developer should have run [IMAGE: /data/images/cs2006_2026T2_ET_FN_p14_Im9.webp|inline] instead.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p14_Im1.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p14_Im2.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p14_Im4.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p14_Im5.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p14_Im7.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p14_Im8.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p14_Im9.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p14_Im10.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p14_Im11.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p14_Im12.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p14_Im13.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p14_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Consider the following JavaScript code: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p15_Im1.webp|block] What will be output on the browser\u2019s console?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p15_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p15_Im6.webp|block]",
+        "",
+        "None of these."
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p15_Im1.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p15_Im4.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p15_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "What is logged to the console after running the following code? [IMAGE: /data/images/cs2006_2026T2_ET_FN_p15_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "10 30 [40, 50] and 100 0",
+        "10 30 [40, 50] and 100 200",
+        "10 20 [30, 40, 50] and undefined 0",
+        "10 30 [30, 40, 50] and 100 0"
+      ],
+      "correct_answer": "10 30 [40, 50] and 100 0",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p15_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "A developer runs the following code in Tab 1 of a browser, then opens the same website in a new Tab 2 (not a duplicate, but a fresh tab typed into the address bar). [IMAGE: /data/images/cs2006_2026T2_ET_FN_p16_Im2.webp|block] Which of the following statements correctly describes what happens in Tab 2?",
+      "type": "MCQ",
+      "options": [
+        "Both [IMAGE: /data/images/cs2006_2026T2_ET_FN_p16_Im3.webp|inline] and [IMAGE: /data/images/cs2006_2026T2_ET_FN_p16_Im4.webp|inline] return their respective values.",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p16_Im6.webp|inline] returns \"dark\", but [IMAGE: /data/images/cs2006_2026T2_ET_FN_p16_Im7.webp|inline] returns null.",
+        "Both return null",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p16_Im8.webp|inline] returns \"3-items\", but [IMAGE: /data/images/cs2006_2026T2_ET_FN_p16_Im9.webp|inline] returns null."
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p16_Im6.webp|inline] returns \"dark\", but [IMAGE: /data/images/cs2006_2026T2_ET_FN_p16_Im7.webp|inline] returns null.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p16_Im2.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p16_Im3.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p16_Im4.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p16_Im6.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p16_Im7.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p16_Im8.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p16_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "What will be displayed after clicking the Increase Temperature button once?",
+      "type": "MCQ",
+      "options": [
+        "Temperature: 28 o C, Status: Normal",
+        "Temperature: 33 o C, Status: Hot",
+        "Temperature: 33 o C, Status: Normal",
+        "Temperature: 35 o C, Status: Normal"
+      ],
+      "correct_answer": "Temperature: 33 o C, Status: Normal",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p16_Im10.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p17_Im1.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following Vue 2 + Vuex application: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p16_Im10.webp|block] [IMAGE: /data/images/cs2006_2026T2_ET_FN_p17_Im1.webp|block] [IMAGE: /data/images/cs2006_2026T2_ET_FN_p18_Im1.webp|block] Note: All three image above are of one html.",
+      "group_id": "6406532265608",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Why does the watcher on temperature execute after clicking the button?",
+      "type": "MCQ",
+      "options": [
+        "Because Vue automatically watches all methods",
+        "Because the Vuex mutation changes the state used by the computed property",
+        "Because getters directly trigger watchers",
+        "Because computed properties cannot access Vuex state"
+      ],
+      "correct_answer": "Because the Vuex mutation changes the state used by the computed property",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p16_Im10.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p17_Im1.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following Vue 2 + Vuex application: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p16_Im10.webp|block] [IMAGE: /data/images/cs2006_2026T2_ET_FN_p17_Im1.webp|block] [IMAGE: /data/images/cs2006_2026T2_ET_FN_p18_Im1.webp|block] Note: All three image above are of one html.",
+      "group_id": "6406532265608",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "What will be printed in the console?",
+      "type": "MCQ",
+      "options": [
+        "Normal: Rahul Arrow: Rahul",
+        "Normal: Arrow: Rahul",
+        "Normal: Rahul Arrow: undefined",
+        "Normal: Arrow:"
+      ],
+      "correct_answer": "Normal: Arrow: Rahul",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p19_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following JavaScript code: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p19_Im3.webp|block]",
+      "group_id": "6406532265611",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "Which of the following statements correctly explain the behaviour of the code?",
+      "type": "multichoice",
+      "options": [
+        "The callback inside [IMAGE: /data/images/cs2006_2026T2_ET_FN_p20_Im3.webp|inline] gets its own [IMAGE: /data/images/cs2006_2026T2_ET_FN_p20_Im4.webp|inline] binding.",
+        "Arrow functions inherit [IMAGE: /data/images/cs2006_2026T2_ET_FN_p20_Im5.webp|inline] from the surrounding lexical scope.",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p20_Im6.webp|inline] automatically binds [IMAGE: /data/images/cs2006_2026T2_ET_FN_p20_Im7.webp|inline] to the surrounding object.",
+        "If we use an arrow function inside [IMAGE: /data/images/cs2006_2026T2_ET_FN_p20_Im8.webp|inline] in [IMAGE: /data/images/cs2006_2026T2_ET_FN_p20_Im9.webp|inline] , it will print \"Rahul\"."
+      ],
+      "correct_answer": [
+        "The callback inside [IMAGE: /data/images/cs2006_2026T2_ET_FN_p20_Im3.webp|inline] gets its own [IMAGE: /data/images/cs2006_2026T2_ET_FN_p20_Im4.webp|inline] binding.",
+        "Arrow functions inherit [IMAGE: /data/images/cs2006_2026T2_ET_FN_p20_Im5.webp|inline] from the surrounding lexical scope.",
+        "If we use an arrow function inside [IMAGE: /data/images/cs2006_2026T2_ET_FN_p20_Im8.webp|inline] in [IMAGE: /data/images/cs2006_2026T2_ET_FN_p20_Im9.webp|inline] , it will print \"Rahul\"."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p19_Im3.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p20_Im3.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p20_Im4.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p20_Im5.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p20_Im6.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p20_Im7.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p20_Im8.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p20_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following JavaScript code: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p19_Im3.webp|block]",
+      "group_id": "6406532265611",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "What text appears on the button when the app first renders?",
+      "type": "MCQ",
+      "options": [
+        "\"Hello\"",
+        "\"Click Me\"",
+        "\"\" (empty)",
+        "undefined"
+      ],
+      "correct_answer": "\"Click Me\"",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p21_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following Vue 2 component code carefully and answer the given subquestions: index.html [IMAGE: /data/images/cs2006_2026T2_ET_FN_p21_Im1.webp|block]",
+      "group_id": "6406532265617",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "After the button is clicked once, what is the value of log in the parent?",
+      "type": "MCQ",
+      "options": [
+        "\"Hello\"",
+        "\"Click Me\"",
+        "\"Button clicked\"",
+        "undefined"
+      ],
+      "correct_answer": "\"Button clicked\"",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p21_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following Vue 2 component code carefully and answer the given subquestions: index.html [IMAGE: /data/images/cs2006_2026T2_ET_FN_p21_Im1.webp|block]",
+      "group_id": "6406532265617",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "Inside [IMAGE: /data/images/cs2006_2026T2_ET_FN_p23_Im2.webp|inline] , what values are logged by the two [IMAGE: /data/images/cs2006_2026T2_ET_FN_p23_Im3.webp|inline] statements, immediately after commit and dispatch are called (before the 1-second timeout completes)?",
+      "type": "MCQ",
+      "options": [
+        "15 and 30",
+        "18 and 36",
+        "15 and 20",
+        "10 and 20"
+      ],
+      "correct_answer": "15 and 30",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p23_Im2.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p23_Im3.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p22_Im3.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p23_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following Vuex setup carefully and answer the given subquestions: store.js [IMAGE: /data/images/cs2006_2026T2_ET_FN_p22_Im3.webp|block] component [IMAGE: /data/images/cs2006_2026T2_ET_FN_p23_Im1.webp|block]",
+      "group_id": "6406532265620",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "Which statement correctly describes why [IMAGE: /data/images/cs2006_2026T2_ET_FN_p23_Im6.webp|inline] is defined as a [IMAGE: /data/images/cs2006_2026T2_ET_FN_p23_Im7.webp|inline] while [IMAGE: /data/images/cs2006_2026T2_ET_FN_p23_Im8.webp|inline] is defined as an [IMAGE: /data/images/cs2006_2026T2_ET_FN_p23_Im9.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "Mutations can contain asynchronous code; actions cannot",
+        "Only actions can call commit; mutations cannot",
+        "Mutations must be synchronous; actions can contain async logic and then commit mutations",
+        "There is no real difference; both are interchangeable"
+      ],
+      "correct_answer": "Mutations must be synchronous; actions can contain async logic and then commit mutations",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p23_Im6.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p23_Im7.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p23_Im8.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p23_Im9.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p22_Im3.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p23_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following Vuex setup carefully and answer the given subquestions: store.js [IMAGE: /data/images/cs2006_2026T2_ET_FN_p22_Im3.webp|block] component [IMAGE: /data/images/cs2006_2026T2_ET_FN_p23_Im1.webp|block]",
+      "group_id": "6406532265620",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "Select all statements that are TRUE about the output:",
+      "type": "multichoice",
+      "options": [
+        "d1.speak() returns \"Tommy barks\"",
+        "d1.speak() returns \"Tommy makes a sound\"",
+        "Animal.count returns 2",
+        "Animal.count returns 1"
+      ],
+      "correct_answer": [
+        "d1.speak() returns \"Tommy barks\"",
+        "Animal.count returns 2"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p24_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following code carefully and answer the given subquestions: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p24_Im1.webp|block]",
+      "group_id": "6406532265614",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 32,
+      "text": "Select all statements that are TRUE about the output :",
+      "type": "multichoice",
+      "options": [
+        "d1 instanceof Animal returns true",
+        "d1 instanceof Animal returns false",
+        "Dog.create(\"Tommy\") creates an instance of Dog, but not Animal",
+        "Dog.create(\"Tommy\") creates an instance of Dog as well as Animal"
+      ],
+      "correct_answer": [
+        "d1 instanceof Animal returns true",
+        "Dog.create(\"Tommy\") creates an instance of Dog as well as Animal"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T2_ET_FN_p24_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following code carefully and answer the given subquestions: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p24_Im1.webp|block]",
+      "group_id": "6406532265614",
+      "section_name": "Appdev2"
+    }
+  ],
+  "id": "cs2006-2026t2-et-fn",
+  "course_code": "CS2006",
+  "course_name": "Application Development 2",
+  "level": "Diploma in Programming",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

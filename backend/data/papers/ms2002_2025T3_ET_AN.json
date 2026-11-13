@@ -1,0 +1,806 @@
+{
+  "title": "DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)",
+  "filename": "ms2002_2025T3_ET_AN.pdf",
+  "total_questions": 38,
+  "total_marks": 45.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Assume that a consumer has 5 products and 2 attributes as given in Table\u20135. Then how many pairwise comparisons are possible? [IMAGE: /data/images/ms2002_2025T3_ET_AN_p1_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "We are trying to understand a consumer\u2019s thinking process in buying a new car, and the consumer is given $200 worth voucher. Based on the voucher value, the consumer has to select one feature out of 4 features (air filter, leather seats, alloy wheels, or ambient lights). What type of conjoint analysis is this?",
+      "type": "MCQ",
+      "options": [
+        "Full profile",
+        "Choice-based",
+        "Menu-based",
+        "Adaptive"
+      ],
+      "correct_answer": "Menu-based",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "When is a \u201cPie Chart\u201d the best visualization option for presenting data?",
+      "type": "MCQ",
+      "options": [
+        "When the outliers in the data need to be shown",
+        "When trends in the data need to be shown",
+        "When entire data need to be shown",
+        "None of these"
+      ],
+      "correct_answer": "None of these",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "If a car had a defective air bag, then what is the probability that it was supplied by company-C? [ Note: Enter your answer in decimals rounded to two decimal places. For example, if your answer is \u201c0.1253\u201d then enter the answer as \u201c0.13\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.16 to 0.18",
+      "marks": 1.5,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely hypothetical Bharat Motors is a manufacturer of Cars. The airbags used in the cars are procured from three companies, \u201cA\u201d, \u201cB\u201d and \u201cC\u201d. A total of 75% of the airbags are procured from \u201cA\u201d, 15% from \u201cB\u201d and 10% from \u201cC\u201d. The defect rates for airbags procured from \u201cA\u201d, \u201cB\u201d and \u201cC\u201d are 4%, 6% and 8% respectively. On a given day a production of 100 cars are sampled. Then answer the given sub- questions.",
+      "group_id": "6406531852352",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "How many (total number) of cars do you expect to have defective air bag? [Note: Enter your answer in decimals rounded to two decimal places. For example, if your answer is \u201c1.1253\u201d then enter the answer as \u201c1.13\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4.6 to 4.8",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely hypothetical Bharat Motors is a manufacturer of Cars. The airbags used in the cars are procured from three companies, \u201cA\u201d, \u201cB\u201d and \u201cC\u201d. A total of 75% of the airbags are procured from \u201cA\u201d, 15% from \u201cB\u201d and 10% from \u201cC\u201d. The defect rates for airbags procured from \u201cA\u201d, \u201cB\u201d and \u201cC\u201d are 4%, 6% and 8% respectively. On a given day a production of 100 cars are sampled. Then answer the given sub- questions.",
+      "group_id": "6406531852352",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Say you meet a person in the service showroom and that person had a defective airbag in the car they had purchased. Then which manufacture will you suspect would have supplied the airbag?",
+      "type": "MCQ",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "Cannot say as I do not know how to compute the answer"
+      ],
+      "correct_answer": "A",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely hypothetical Bharat Motors is a manufacturer of Cars. The airbags used in the cars are procured from three companies, \u201cA\u201d, \u201cB\u201d and \u201cC\u201d. A total of 75% of the airbags are procured from \u201cA\u201d, 15% from \u201cB\u201d and 10% from \u201cC\u201d. The defect rates for airbags procured from \u201cA\u201d, \u201cB\u201d and \u201cC\u201d are 4%, 6% and 8% respectively. On a given day a production of 100 cars are sampled. Then answer the given sub- questions.",
+      "group_id": "6406531852352",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "How many degrees of freedom will be present for the statistical test to be performed to verify the belief of ADB? [Note: Enter your answer in decimals rounded to two decimal places. For example, if your answer is \u201c1.1253\u201d then enter the answer as \u201c1.13\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary \u201cA-Dubakur Bank (ADB)\u201d is a financial institution which gives home loans. ADB believes that the loan status (default or not default) depends on the type of employment of the person taking the loan. Accordingly, ADB has collected 1170 data points on five types of customers (based on their employment) and the data on loan status is provided in Table-1 below. Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p5_Im1.webp|block]",
+      "group_id": "6406531852356",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "How many Private (MNC) employees will you expect to default on a loan when performing the appropriate statistical test to verify the belief of ADB? [Note: Enter your answer in decimals rounded to two decimal places. For example, if your answer is \u201c1.1253\u201d then enter the answer as \u201c1.13\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "54.00 to 54.60",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary \u201cA-Dubakur Bank (ADB)\u201d is a financial institution which gives home loans. ADB believes that the loan status (default or not default) depends on the type of employment of the person taking the loan. Accordingly, ADB has collected 1170 data points on five types of customers (based on their employment) and the data on loan status is provided in Table-1 below. Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p5_Im1.webp|block]",
+      "group_id": "6406531852356",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "What is the null hypothesis for the statistical test that is being performed here?",
+      "type": "MCQ",
+      "options": [
+        "The loan status (default or not default) depends on the type of employment of the person taking the loan",
+        "The loan status (default or not default) is independent of the type of employment of the person taking the loan",
+        "Anything can be the NULL"
+      ],
+      "correct_answer": "The loan status (default or not default) is independent of the type of employment of the person taking the loan",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary \u201cA-Dubakur Bank (ADB)\u201d is a financial institution which gives home loans. ADB believes that the loan status (default or not default) depends on the type of employment of the person taking the loan. Accordingly, ADB has collected 1170 data points on five types of customers (based on their employment) and the data on loan status is provided in Table-1 below. Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p5_Im1.webp|block]",
+      "group_id": "6406531852356",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Say you perform the appropriate statistical test and compute the test statistic as 8.583. Then, if the tabulated test statistic is 9.487, then which of the following statements is/are true? (choose all that is/are applicable)",
+      "type": "multichoice",
+      "options": [
+        "REJECT the Null Hypothesis and conclude that the belief of ADB is valid",
+        "REJECT the Null Hypothesis and conclude that the belief of ADB is not valid",
+        "DO NOT REJECT the Null Hypothesis and conclude that the belief of ADB is valid",
+        "DO NOT REJECT the Null Hypothesis and conclude that the belief of ADB is not valid",
+        "REJECT the Alternative Hypothesis and conclude that the belief of ADB is valid",
+        "REJECT the Alternative Hypothesis and conclude that the belief of ADB is not valid",
+        "ACCEPT the Alternative Hypothesis and conclude that the belief of ADB is valid",
+        "ACCEPT the Alternative Hypothesis and conclude that the belief of ADB is not valid"
+      ],
+      "correct_answer": [
+        "DO NOT REJECT the Null Hypothesis and conclude that the belief of ADB is not valid"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary \u201cA-Dubakur Bank (ADB)\u201d is a financial institution which gives home loans. ADB believes that the loan status (default or not default) depends on the type of employment of the person taking the loan. Accordingly, ADB has collected 1170 data points on five types of customers (based on their employment) and the data on loan status is provided in Table-1 below. Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p5_Im1.webp|block]",
+      "group_id": "6406531852356",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "What is the total sample size that was used for building the different models? [Note: Enter your answer in decimals rounded to two decimal places. For example, if your answer is \u201c0.1253\u201d then enter the answer as \u201c0.13\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "15",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p8_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im2.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary The BA course instructors believe that the \u201cNumber of students who attend the live sessions\u201d is linearly dependent on the \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d. The BA course instructors are interested in predicting the number of students who will be attending the live session. Accordingly, data was collected from past terms for the three variables, and linear regression models was built. Various regression models are built and their partial regression outputs are provided in the figures 1, 2, 3 and 4 below. All models were built using the same collected data set and by appropriately considering the columns. There was no missing information in any row entry. The different models are briefed below Model-1: Regression of \u201cNumber of students who attend the live sessions\u201d, \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Model-2: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of enrolments in BA\u201d Model-3: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of active users on BA discourse\u201d Model-4: Regression of \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p8_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im2.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im3.webp|block]",
+      "group_id": "6406531852361",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "What is the Adjusted R-Square value for Model-2? [Note: Enter your answer in decimals rounded to two decimal places. For example, if your answer is \u201c0.1253\u201d then enter the answer as \u201c0.13\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.27 to 0.31",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p8_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im2.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary The BA course instructors believe that the \u201cNumber of students who attend the live sessions\u201d is linearly dependent on the \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d. The BA course instructors are interested in predicting the number of students who will be attending the live session. Accordingly, data was collected from past terms for the three variables, and linear regression models was built. Various regression models are built and their partial regression outputs are provided in the figures 1, 2, 3 and 4 below. All models were built using the same collected data set and by appropriately considering the columns. There was no missing information in any row entry. The different models are briefed below Model-1: Regression of \u201cNumber of students who attend the live sessions\u201d, \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Model-2: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of enrolments in BA\u201d Model-3: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of active users on BA discourse\u201d Model-4: Regression of \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p8_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im2.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im3.webp|block]",
+      "group_id": "6406531852361",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "What is the value for \u201cSum of Squares - Residuals\u201d in Model-2? [Note: Enter your answer in decimals rounded to two decimal places. For example, if your answer is \u201c1.1253\u201d then enter the answer as \u201c1.13\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "55.00 to 58.00",
+      "marks": 1.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p8_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im2.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary The BA course instructors believe that the \u201cNumber of students who attend the live sessions\u201d is linearly dependent on the \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d. The BA course instructors are interested in predicting the number of students who will be attending the live session. Accordingly, data was collected from past terms for the three variables, and linear regression models was built. Various regression models are built and their partial regression outputs are provided in the figures 1, 2, 3 and 4 below. All models were built using the same collected data set and by appropriately considering the columns. There was no missing information in any row entry. The different models are briefed below Model-1: Regression of \u201cNumber of students who attend the live sessions\u201d, \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Model-2: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of enrolments in BA\u201d Model-3: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of active users on BA discourse\u201d Model-4: Regression of \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p8_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im2.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im3.webp|block]",
+      "group_id": "6406531852361",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "What is the F-statistic value for Model-2? [Note: Enter your answer in decimals rounded to two decimal places. For example, if your answer is \u201c1.1253\u201d then enter the answer as \u201c1.13\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6.00 to 7.00",
+      "marks": 1.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p8_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im2.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary The BA course instructors believe that the \u201cNumber of students who attend the live sessions\u201d is linearly dependent on the \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d. The BA course instructors are interested in predicting the number of students who will be attending the live session. Accordingly, data was collected from past terms for the three variables, and linear regression models was built. Various regression models are built and their partial regression outputs are provided in the figures 1, 2, 3 and 4 below. All models were built using the same collected data set and by appropriately considering the columns. There was no missing information in any row entry. The different models are briefed below Model-1: Regression of \u201cNumber of students who attend the live sessions\u201d, \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Model-2: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of enrolments in BA\u201d Model-3: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of active users on BA discourse\u201d Model-4: Regression of \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p8_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im2.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im3.webp|block]",
+      "group_id": "6406531852361",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "What is the VIF between the two independent variables? [Note: Enter your answer in decimals rounded to two decimal places. For example, if your answer is \u201c1.1253\u201d then enter the answer as \u201c1.13\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.00 to 1.30",
+      "marks": 1.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p8_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im2.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary The BA course instructors believe that the \u201cNumber of students who attend the live sessions\u201d is linearly dependent on the \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d. The BA course instructors are interested in predicting the number of students who will be attending the live session. Accordingly, data was collected from past terms for the three variables, and linear regression models was built. Various regression models are built and their partial regression outputs are provided in the figures 1, 2, 3 and 4 below. All models were built using the same collected data set and by appropriately considering the columns. There was no missing information in any row entry. The different models are briefed below Model-1: Regression of \u201cNumber of students who attend the live sessions\u201d, \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Model-2: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of enrolments in BA\u201d Model-3: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of active users on BA discourse\u201d Model-4: Regression of \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p8_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im2.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im3.webp|block]",
+      "group_id": "6406531852361",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "What is the value for \u201cQ1\u201d? [Note: Enter your answer in decimals rounded to two decimal places. For example, if your answer is \u201c1.1253\u201d then enter the answer as \u201c1.13\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-1.60 to -1.40",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p8_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im2.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary The BA course instructors believe that the \u201cNumber of students who attend the live sessions\u201d is linearly dependent on the \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d. The BA course instructors are interested in predicting the number of students who will be attending the live session. Accordingly, data was collected from past terms for the three variables, and linear regression models was built. Various regression models are built and their partial regression outputs are provided in the figures 1, 2, 3 and 4 below. All models were built using the same collected data set and by appropriately considering the columns. There was no missing information in any row entry. The different models are briefed below Model-1: Regression of \u201cNumber of students who attend the live sessions\u201d, \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Model-2: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of enrolments in BA\u201d Model-3: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of active users on BA discourse\u201d Model-4: Regression of \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p8_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im2.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im3.webp|block]",
+      "group_id": "6406531852361",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Suppose the p-value for Model-1 is \u201c0.000026046\u201d, then which of the following statements is/are true? (choose all that is applicable)",
+      "type": "multichoice",
+      "options": [
+        "The model is insignificant",
+        "The model is significant",
+        "All Beta\u2019s are zero",
+        "All Beta\u2019s are non-zero",
+        "Atleast a few Beta\u2019s are Non-Zero",
+        "None of these"
+      ],
+      "correct_answer": [
+        "The model is significant",
+        "Atleast a few Beta\u2019s are Non-Zero"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p8_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im2.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary The BA course instructors believe that the \u201cNumber of students who attend the live sessions\u201d is linearly dependent on the \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d. The BA course instructors are interested in predicting the number of students who will be attending the live session. Accordingly, data was collected from past terms for the three variables, and linear regression models was built. Various regression models are built and their partial regression outputs are provided in the figures 1, 2, 3 and 4 below. All models were built using the same collected data set and by appropriately considering the columns. There was no missing information in any row entry. The different models are briefed below Model-1: Regression of \u201cNumber of students who attend the live sessions\u201d, \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Model-2: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of enrolments in BA\u201d Model-3: Regression of \u201cNumber of students who attend the live sessions\u201d and \u201cTotal number of active users on BA discourse\u201d Model-4: Regression of \u201cTotal number of enrolments in BA\u201d and \u201cTotal number of active users on BA discourse\u201d Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p8_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im2.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p9_Im3.webp|block]",
+      "group_id": "6406531852361",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Based on the standard form (canonical form) of the primal, how many decision variables will be present in the dual?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary ABC is a company that produces three products: \u201cPhone\u201d, \u201cTV\u201d, and \u201cMouse\u201d. The production of each product involves Six operations: \u201cWelding\u201d, \u201cDrilling\u201d, \u201cCutting\u201d, \u201cSoldering\u201d, \u201cCleaning\u201d and \u201cInspection\u201d. Table-2 provides information relating to the manufacturing requirements. The total machine hours available per machine per day is 16 hours, and all units produced can be sold. The company currently has 3 welding machines, 10 drilling machines, 4 cutting machines, 6 soldering machines, 3 cleaning machines and 2 machines for inspection. As the inspection machines are very expensive, the company wants to ensure that they are never idle. Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p12_Im1.webp|block]",
+      "group_id": "6406531852369",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "If the company decides to make 64 Phones, 100TVs and 300 Mouse, then based on the standard form (canonical form) of the primal, how many DVs in the dual will have a value of \u201c0\u201d?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary ABC is a company that produces three products: \u201cPhone\u201d, \u201cTV\u201d, and \u201cMouse\u201d. The production of each product involves Six operations: \u201cWelding\u201d, \u201cDrilling\u201d, \u201cCutting\u201d, \u201cSoldering\u201d, \u201cCleaning\u201d and \u201cInspection\u201d. Table-2 provides information relating to the manufacturing requirements. The total machine hours available per machine per day is 16 hours, and all units produced can be sold. The company currently has 3 welding machines, 10 drilling machines, 4 cutting machines, 6 soldering machines, 3 cleaning machines and 2 machines for inspection. As the inspection machines are very expensive, the company wants to ensure that they are never idle. Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p12_Im1.webp|block]",
+      "group_id": "6406531852369",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "If the company decides to make 64 Phones, 100TVs and 300 Mouse, then based on the standard form (canonical form) of the primal, what is the objective function value?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "149200",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary ABC is a company that produces three products: \u201cPhone\u201d, \u201cTV\u201d, and \u201cMouse\u201d. The production of each product involves Six operations: \u201cWelding\u201d, \u201cDrilling\u201d, \u201cCutting\u201d, \u201cSoldering\u201d, \u201cCleaning\u201d and \u201cInspection\u201d. Table-2 provides information relating to the manufacturing requirements. The total machine hours available per machine per day is 16 hours, and all units produced can be sold. The company currently has 3 welding machines, 10 drilling machines, 4 cutting machines, 6 soldering machines, 3 cleaning machines and 2 machines for inspection. As the inspection machines are very expensive, the company wants to ensure that they are never idle. Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p12_Im1.webp|block]",
+      "group_id": "6406531852369",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Based on the standard form (canonical form) of the primal, which of the following is/are the objective function coefficients in the dual formulation? (choose all that are applicable)",
+      "type": "multichoice",
+      "options": [
+        "300",
+        "700",
+        "200",
+        "4800",
+        "2880",
+        "16",
+        "10"
+      ],
+      "correct_answer": [
+        "4800",
+        "2880"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary ABC is a company that produces three products: \u201cPhone\u201d, \u201cTV\u201d, and \u201cMouse\u201d. The production of each product involves Six operations: \u201cWelding\u201d, \u201cDrilling\u201d, \u201cCutting\u201d, \u201cSoldering\u201d, \u201cCleaning\u201d and \u201cInspection\u201d. Table-2 provides information relating to the manufacturing requirements. The total machine hours available per machine per day is 16 hours, and all units produced can be sold. The company currently has 3 welding machines, 10 drilling machines, 4 cutting machines, 6 soldering machines, 3 cleaning machines and 2 machines for inspection. As the inspection machines are very expensive, the company wants to ensure that they are never idle. Given this information, answer the given sub-questions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p12_Im1.webp|block]",
+      "group_id": "6406531852369",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "What is the accuracy of the model? [Note: Enter your answer in percentage without the \u201c%\u201d symbol rounded to two decimal places. For example, if your answer is \u201c12.546%\u201d then enter the answer as \u201c12.55\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "57.10 to 57.30",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary From the below tables \u2013 Customer Data (Table-3) and Parameters of Logistic Regression (Table-4), answer the given sub-questions [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im2.webp|block]",
+      "group_id": "6406531852374",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "What is the precision of class 0? [Note: Enter your answer in percentage without the \u201c%\u201d symbol rounded to two decimal places. For example, if your answer is \u201c12.546%\u201d then enter the answer as \u201c12.55\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "49.90 to 50.10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary From the below tables \u2013 Customer Data (Table-3) and Parameters of Logistic Regression (Table-4), answer the given sub-questions [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im2.webp|block]",
+      "group_id": "6406531852374",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "What is the recall of class 0? [Note: Enter your answer in percentage without the \u201c%\u201d symbol rounded to two decimal places. For example, if your answer is \u201c12.546%\u201d then enter the answer as \u201c12.55\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "66.50 to 66.80",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary From the below tables \u2013 Customer Data (Table-3) and Parameters of Logistic Regression (Table-4), answer the given sub-questions [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im2.webp|block]",
+      "group_id": "6406531852374",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "What is the precision of class 1? [Note: Enter your answer in percentage without the \u201c%\u201d symbol rounded to two decimal places. For example, if your answer is \u201c12.546%\u201d then enter the answer as \u201c12.55\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "66.50 to 66.80",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary From the below tables \u2013 Customer Data (Table-3) and Parameters of Logistic Regression (Table-4), answer the given sub-questions [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im2.webp|block]",
+      "group_id": "6406531852374",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "What is the recall of class 1? [Note: Enter your answer in percentage without the \u201c%\u201d symbol rounded to two decimal places. For example, if your answer is \u201c12.546%\u201d then enter the answer as \u201c12.55\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "49.90 to 50.10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary From the below tables \u2013 Customer Data (Table-3) and Parameters of Logistic Regression (Table-4), answer the given sub-questions [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im2.webp|block]",
+      "group_id": "6406531852374",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "What is the F1 score for the model? [Note: Enter your answer in percentage without the \u201c%\u201d symbol rounded to two decimal places. For example, if your answer is \u201c12.546%\u201d then enter the answer as \u201c12.55\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "57.00 to 57.30",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary From the below tables \u2013 Customer Data (Table-3) and Parameters of Logistic Regression (Table-4), answer the given sub-questions [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im2.webp|block]",
+      "group_id": "6406531852374",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "Given Figure-5, calculate the Area Under the Curve (AUC) [Note: Enter your answer in decimal rounded to two decimal places. For example, if your answer is \u201c0.12546\u201d then enter the answer as \u201c0.13\u201d ] (Hint: The AUC must be less than or equal to 1) [IMAGE: /data/images/ms2002_2025T3_ET_AN_p17_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.73 to 0.75",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p17_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary From the below tables \u2013 Customer Data (Table-3) and Parameters of Logistic Regression (Table-4), answer the given sub-questions [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/ms2002_2025T3_ET_AN_p14_Im2.webp|block]",
+      "group_id": "6406531852374",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "What is the part worth to customers if he/she upgrades from DSG to AT Gearbox? [Note: Enter your answer in decimals rounded to three decimal places. For example, if your answer is \u201c1.1256\u201d then enter the answer as \u201c1.126\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4.830 to 4.835",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary Based on the regression output in Figure-6, answer the given subquestions Note: Maruti, Skoda, Hyundai are the automobile brands and assume that Skoda is preferred over Maruti, and Hyundai is the base level. There are 2 infotainment modules, 11-inch touch screen and 7-inch touch screen. Assume that the 7-inch touch screen is the base level. There are 3 gearboxes. Automatic Transmission (AT), Direct Shift Gearbox (DSG), Automated Manual Transmission (AMT). Assume that AMT is the base level and AT is preferred over DSG. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p18_Im1.webp|block]",
+      "group_id": "6406531852382",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "How much is the weightage provided by the customer for the Brand? [Note: Enter your answer in percentage without the \u201c%\u201d symbol rounded to two decimal places. For example, if your answer is \u201c12.546%\u201d then enter the answer as \u201c12.55\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20.30 to 20.40",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary Based on the regression output in Figure-6, answer the given subquestions Note: Maruti, Skoda, Hyundai are the automobile brands and assume that Skoda is preferred over Maruti, and Hyundai is the base level. There are 2 infotainment modules, 11-inch touch screen and 7-inch touch screen. Assume that the 7-inch touch screen is the base level. There are 3 gearboxes. Automatic Transmission (AT), Direct Shift Gearbox (DSG), Automated Manual Transmission (AMT). Assume that AMT is the base level and AT is preferred over DSG. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p18_Im1.webp|block]",
+      "group_id": "6406531852382",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 32,
+      "text": "How much is the weightage provided by the customer for the Engine? [Note: Enter your answer in percentage without the \u201c%\u201d symbol rounded to two decimal places. For example, if your answer is \u201c12.546%\u201d then enter the answer as \u201c12.55\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "25.85 to 25.94",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary Based on the regression output in Figure-6, answer the given subquestions Note: Maruti, Skoda, Hyundai are the automobile brands and assume that Skoda is preferred over Maruti, and Hyundai is the base level. There are 2 infotainment modules, 11-inch touch screen and 7-inch touch screen. Assume that the 7-inch touch screen is the base level. There are 3 gearboxes. Automatic Transmission (AT), Direct Shift Gearbox (DSG), Automated Manual Transmission (AMT). Assume that AMT is the base level and AT is preferred over DSG. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p18_Im1.webp|block]",
+      "group_id": "6406531852382",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 33,
+      "text": "How much is the weightage provided by the customer for the Gearbox? [Note: Enter your answer in percentage without the \u201c%\u201d symbol rounded to two decimal places. For example, if your answer is \u201c12.546%\u201d then enter the answer as \u201c12.55\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "53.65 to 53.75",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary Based on the regression output in Figure-6, answer the given subquestions Note: Maruti, Skoda, Hyundai are the automobile brands and assume that Skoda is preferred over Maruti, and Hyundai is the base level. There are 2 infotainment modules, 11-inch touch screen and 7-inch touch screen. Assume that the 7-inch touch screen is the base level. There are 3 gearboxes. Automatic Transmission (AT), Direct Shift Gearbox (DSG), Automated Manual Transmission (AMT). Assume that AMT is the base level and AT is preferred over DSG. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p18_Im1.webp|block]",
+      "group_id": "6406531852382",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 34,
+      "text": "How much will the Output 1 in HCU 3? [Note: Enter your answer in decimals rounded to four decimal places. For example, if your answer is \u201c12.12567\u201d then enter the answer as \u201c12.1258\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6968.25 to 6969.20",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p21_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary There are five business units. There are two outputs and one input under consideration. You are solving the optimization problem for business unit 3, and you find that the efficiency is 0.8. You see that the dual variables corresponding to the constraints of business units 2 and 5 are non- zero, and the dual variables corresponding to the constraints of other units are zero. The dual variables corresponding to the constraints of business units 2 and 5 are 0.45 and 0.35, respectively [IMAGE: /data/images/ms2002_2025T3_ET_AN_p21_Im1.webp|block]",
+      "group_id": "6406531852387",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 35,
+      "text": "How much will the Output 2 in HCU 3? [Note: Enter your answer in decimals rounded to four decimal places. For example, if your answer is \u201c12.12567\u201d then enter the answer as \u201c12.1258\u201d ]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "23.0 to 24.0",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p21_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary There are five business units. There are two outputs and one input under consideration. You are solving the optimization problem for business unit 3, and you find that the efficiency is 0.8. You see that the dual variables corresponding to the constraints of business units 2 and 5 are non- zero, and the dual variables corresponding to the constraints of other units are zero. The dual variables corresponding to the constraints of business units 2 and 5 are 0.45 and 0.35, respectively [IMAGE: /data/images/ms2002_2025T3_ET_AN_p21_Im1.webp|block]",
+      "group_id": "6406531852387",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 36,
+      "text": "What is the objective function for Sales Office 2?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p23_Im3.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p23_Im4.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p23_Im6.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p23_Im7.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p23_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p23_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p23_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p23_Im3.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p23_Im4.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p23_Im6.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p23_Im7.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p23_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary We are interested in understanding the efficiency of 5 Sales Offices. Each of the Sales Offices has an approved budget and a team size for achieving a fixed target of 15,00,000. As a Business Analyst, you must formulate a DEA problem using Linear programming for the Sales Office 2. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p23_Im1.webp|block]",
+      "group_id": "6406531852390",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 37,
+      "text": "What is the type constraint for Sales Office 2?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p24_Im2.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p24_Im4.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p24_Im5.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p24_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p24_Im2.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p23_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p24_Im2.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p24_Im4.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p24_Im5.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p24_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary We are interested in understanding the efficiency of 5 Sales Offices. Each of the Sales Offices has an approved budget and a team size for achieving a fixed target of 15,00,000. As a Business Analyst, you must formulate a DEA problem using Linear programming for the Sales Office 2. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p23_Im1.webp|block]",
+      "group_id": "6406531852390",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "original_number": 38,
+      "text": "Which of them is not a constraint for the LP problem pertaining to Sales Office 3?(choose all that is/are applicable)",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p24_Im7.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p24_Im8.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p24_Im9.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p24_Im10.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p24_Im11.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p24_Im12.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/ms2002_2025T3_ET_AN_p24_Im12.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T3_ET_AN_p23_Im1.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p24_Im7.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p24_Im8.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p24_Im9.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p24_Im10.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p24_Im11.webp",
+        "/data/images/ms2002_2025T3_ET_AN_p24_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following scenario is purely imaginary We are interested in understanding the efficiency of 5 Sales Offices. Each of the Sales Offices has an approved budget and a team size for achieving a fixed target of 15,00,000. As a Business Analyst, you must formulate a DEA problem using Linear programming for the Sales Office 2. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2025T3_ET_AN_p23_Im1.webp|block]",
+      "group_id": "6406531852390",
+      "section_name": "Business Analytics"
+    }
+  ],
+  "id": "ms2002-2025t3-et-an",
+  "course_code": "MS2002",
+  "course_name": "Business Analytics",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

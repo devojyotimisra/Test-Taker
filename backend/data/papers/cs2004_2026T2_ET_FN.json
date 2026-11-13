@@ -1,0 +1,409 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)",
+  "filename": "cs2004_2026T2_ET_FN.pdf",
+  "total_questions": 15,
+  "total_marks": 26.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider the matrix [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im3.webp|block] Let [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im4.webp|inline] denote the orthogonal projection of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im5.webp|inline] onto [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im6.webp|inline] , and let [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im7.webp|inline] . Which of the following statements is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "The equation [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im8.webp|inline] has no exact solution.",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im9.webp|inline] is the closest vector in [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im10.webp|inline] to [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im11.webp|inline] , that is, For every [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im12.webp|inline] [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im13.webp|block]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im14.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im15.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im16.webp|inline] ."
+      ],
+      "correct_answer": [
+        "The equation [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im8.webp|inline] has no exact solution.",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im9.webp|inline] is the closest vector in [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im10.webp|inline] to [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im11.webp|inline] , that is, For every [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im12.webp|inline] [IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im13.webp|block]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p1_Im14.webp|inline] ."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im3.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im4.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im5.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im7.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im8.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im9.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im10.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im11.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im12.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im13.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im14.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im15.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p1_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following least-squares problem with three observations and two features: [IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im1.webp|block] Let [IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im2.webp|inline] be the least-squares solution that minimizes [IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im3.webp|block] Recall : For each observation, residual is defined as [IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im4.webp|inline] Which of the following is/are true?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im7.webp|inline]",
+        "The minimum value of the loss function is [IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im9.webp|inline] .",
+        "The residual for the third observation is [IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im10.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im7.webp|inline]",
+        "The residual for the third observation is [IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im10.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p2_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p2_Im2.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p2_Im3.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p2_Im4.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p2_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p2_Im7.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p2_Im9.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p2_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Inscript Let [IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im11.webp|inline] be a unitary matrix. Suppose [IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im12.webp|inline] satisfy [IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im13.webp|block] What is the value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p2_Im14.webp|inline]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p2_Im11.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p2_Im12.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p2_Im13.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p2_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Suppose [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im1.webp|inline] has the SVD as [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im2.webp|block] [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im3.webp|block] where Let [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im4.webp|inline] . Which of the following statements is/are necessarily true?",
+      "type": "multichoice",
+      "options": [
+        "The largest singular value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im6.webp|inline] is [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im7.webp|inline] .",
+        "The smallest singular value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im9.webp|inline] is [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im10.webp|inline] .",
+        "The smallest singular value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im11.webp|inline] is [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im12.webp|inline] .",
+        "The largest singular value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im13.webp|inline] is [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im14.webp|inline] .",
+        "The singular values of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im15.webp|inline] are [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im16.webp|inline] ."
+      ],
+      "correct_answer": [
+        "The largest singular value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im6.webp|inline] is [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im7.webp|inline] .",
+        "The smallest singular value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im11.webp|inline] is [IMAGE: /data/images/cs2004_2026T2_ET_FN_p3_Im12.webp|inline] ."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im2.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im3.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im4.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im7.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im9.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im10.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im11.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im12.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im13.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im14.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im15.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p3_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Inscript Consider the covariance matrix of a centered two-dimensional dataset [IMAGE: /data/images/cs2004_2026T2_ET_FN_p4_Im1.webp|block] [IMAGE: /data/images/cs2004_2026T2_ET_FN_p4_Im2.webp|block] Suppose the first principal component is in the direction and the variance along this principal component is [IMAGE: /data/images/cs2004_2026T2_ET_FN_p4_Im3.webp|inline] . Find the value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p4_Im4.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p4_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p4_Im2.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p4_Im3.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Inscript A random variable [IMAGE: /data/images/cs2004_2026T2_ET_FN_p4_Im5.webp|inline] has mean [IMAGE: /data/images/cs2004_2026T2_ET_FN_p4_Im6.webp|inline] Using Chebyshev's inequality, we want [IMAGE: /data/images/cs2004_2026T2_ET_FN_p4_Im7.webp|inline] What is the largest possible value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p4_Im8.webp|inline] that satisfies this condition? Enter your answer as an integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "40",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p4_Im5.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p4_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p4_Im7.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript Suppose [IMAGE: /data/images/cs2004_2026T2_ET_FN_p4_Im9.webp|inline] and [IMAGE: /data/images/cs2004_2026T2_ET_FN_p4_Im10.webp|inline] , where [IMAGE: /data/images/cs2004_2026T2_ET_FN_p4_Im11.webp|block] If [IMAGE: /data/images/cs2004_2026T2_ET_FN_p5_Im1.webp|block] then find the value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p5_Im2.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p4_Im9.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p4_Im10.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p4_Im11.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p5_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript Suppose [IMAGE: /data/images/cs2004_2026T2_ET_FN_p5_Im3.webp|inline] and define [IMAGE: /data/images/cs2004_2026T2_ET_FN_p5_Im4.webp|inline] What is the value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p5_Im5.webp|inline] Enter your answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p5_Im3.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p5_Im4.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript A continuous random variable [IMAGE: /data/images/cs2004_2026T2_ET_FN_p5_Im6.webp|inline] has the PDF [IMAGE: /data/images/cs2004_2026T2_ET_FN_p5_Im7.webp|block] If [IMAGE: /data/images/cs2004_2026T2_ET_FN_p5_Im8.webp|inline] , find the value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p5_Im9.webp|inline] . Enter your answer as an integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p5_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p5_Im7.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p5_Im8.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p5_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript Consider the function [IMAGE: /data/images/cs2004_2026T2_ET_FN_p6_Im1.webp|inline] Gradient descent algorithm is used to minimize [IMAGE: /data/images/cs2004_2026T2_ET_FN_p6_Im2.webp|inline] , starting from the initial point [IMAGE: /data/images/cs2004_2026T2_ET_FN_p6_Im3.webp|inline] with learning rate [IMAGE: /data/images/cs2004_2026T2_ET_FN_p6_Im4.webp|inline] . Find the value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p6_Im5.webp|inline] such that the first iterate [IMAGE: /data/images/cs2004_2026T2_ET_FN_p6_Im6.webp|inline] exactly equal to the global minimizer of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p6_Im7.webp|inline] . Enter your answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p6_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p6_Im2.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p6_Im3.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p6_Im4.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p6_Im5.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p6_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Consider the following constrained optimization problem: [IMAGE: /data/images/cs2004_2026T2_ET_FN_p6_Im8.webp|block] subject to [IMAGE: /data/images/cs2004_2026T2_ET_FN_p6_Im9.webp|block] Find the minimum value of the objective function. Enter your answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p6_Im8.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p6_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Let [IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im1.webp|inline] If [IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im2.webp|inline] then find the mean of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im3.webp|inline] .",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im7.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im2.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im3.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im5.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im7.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im8.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Let [IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im10.webp|inline] be a convex set containing the points [IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im11.webp|inline] and [IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im12.webp|inline] . Consider the point [IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im13.webp|block] For which value of [IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im14.webp|inline] is [IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im15.webp|inline] guaranteed to belong to [IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im16.webp|inline]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im17.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im18.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im19.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im20.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p7_Im18.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im10.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im11.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im12.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im13.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im14.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im15.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im16.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im17.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im18.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im19.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p7_Im20.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the three points as [IMAGE: /data/images/cs2004_2026T2_ET_FN_p8_Im1.webp|block] Which of the following points belongs to the convex hull of the set [IMAGE: /data/images/cs2004_2026T2_ET_FN_p8_Im2.webp|inline]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p8_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p8_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T2_ET_FN_p8_Im6.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_FN_p8_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p8_Im2.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p8_Im4.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p8_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p8_Im7.webp",
+        "/data/images/cs2004_2026T2_ET_FN_p8_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    }
+  ],
+  "id": "cs2004-2026t2-et-fn",
+  "course_code": "CS2004",
+  "course_name": "Machine Learning Foundations",
+  "level": "Diploma in Data Science",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

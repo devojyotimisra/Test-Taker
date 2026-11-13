@@ -1,0 +1,556 @@
+{
+  "title": "DEGREE LEVEL : REINFORCEMENT LEARNING (COMPUTER BASED EXAM)",
+  "filename": "da5007_2024T2_ET_AN.pdf",
+  "total_questions": 24,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 147,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : REINFORCEMENT LEARNING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 148,
+      "text": "Note: For numerical answer type questions, enter your answer correct upto two decimal places without rounding up or off unless stated otherwise.",
+      "type": "MCQ",
+      "options": [
+        "Instructions has been mentioned above.",
+        "This Instructions is just for a reference & not for an evaluation."
+      ],
+      "correct_answer": "Instructions has been mentioned above.",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 149,
+      "text": "Consider following assertion reason pair: Assertion: Reinforcement learning is a type of unsupervised learning algorithm as both don\u2019t have correct labels. Reason: In unsupervised learning, a reward like quantity is not maximized.",
+      "type": "MCQ",
+      "options": [
+        "Assertion and Reason are both true and Reason is a correct explanation of Assertion.",
+        "Assertion and Reason are both true and Reason is not a correct explanation of Assertion.",
+        "Assertion is true but Reason is false.",
+        "Assertion is false but Reason is true."
+      ],
+      "correct_answer": "Assertion is false but Reason is true.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 150,
+      "text": "Which of these statements is true regarding the rewards obtained in an MDP?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p2_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p2_Im3.webp|inline] [IMAGE: /data/images/da5007_2024T2_ET_AN_p2_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p2_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_ET_AN_p2_Im2.webp",
+        "/data/images/da5007_2024T2_ET_AN_p2_Im3.webp",
+        "/data/images/da5007_2024T2_ET_AN_p2_Im5.webp",
+        "/data/images/da5007_2024T2_ET_AN_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 151,
+      "text": "Consider a reinforcement learning agent trying to balance a pole in a continuous environment. The agent receives a reward of +1 for each time step the pole remains balanced and 0 otherwise. Which of the following statements accurately describes the differences between Monte Carlo and Temporal Difference (TD) learning in this scenario?",
+      "type": "MCQ",
+      "options": [
+        "Monte Carlo methods update the value function based on complete episodes, while TD methods update after each step.",
+        "TD methods are guaranteed to converge to the optimal policy, while Monte Carlo methods may not converge.",
+        "Monte Carlo methods are less sensitive to the choice of the discount factor compared to TD methods.",
+        "TD methods are more effective in environments with high variance and stochasticity compared to Monte Carlo methods.",
+        "None of these."
+      ],
+      "correct_answer": "Monte Carlo methods update the value function based on complete episodes, while TD methods update after each step.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 152,
+      "text": "Consider a reinforcement learning agent learning to control a robotic arm in a simulated environment. The agent receives a reward of +1 for successfully placing an object in target location and 0 otherwise. Which of the following statements accurately describes a difference between SARSA and Q-learning in this scenario?",
+      "type": "MCQ",
+      "options": [
+        "SARSA updates its action-value function using the action taken in the next state, while Q-learning updates its action-value function using the maximum action-value across all possible actions in the next state.",
+        "SARSA is less sensitive to the choice of policy compared to Q-learning, making it more robust in environments with frequent changes.",
+        "SARSA converges more quickly than Q-learning in environments with high reward variance.",
+        "Q-learning is inherently more computationally efficient than SARSA due to fewer updates required per episode.",
+        "None of these."
+      ],
+      "correct_answer": "SARSA updates its action-value function using the action taken in the next state, while Q-learning updates its action-value function using the maximum action-value across all possible actions in the next state.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 153,
+      "text": "In Q-learning, what is the impact of maximization bias on the algorithm\u2019s performance, especially in environments with noisy or stochastic rewards?",
+      "type": "MCQ",
+      "options": [
+        "Maximization bias can lead to an overestimation of action values, causing the algorithm to favor suboptimal actions and potentially delaying convergence to the optimal policy.",
+        "Maximization bias tends to enhance the algorithm\u2019s performance by consistently selecting actions with higher estimated values, leading to quicker convergence.",
+        "Maximization bias may result in excessive exploration, allowing the algorithm to discover better strategies in environments with highly variable rewards.",
+        "Maximization bias typically has a minor effect on the performance of Q- learning, as the exploration process naturally mitigates its influence over time.",
+        "None of these."
+      ],
+      "correct_answer": "Maximization bias can lead to an overestimation of action values, causing the algorithm to favor suboptimal actions and potentially delaying convergence to the optimal policy.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 154,
+      "text": "[IMAGE: /data/images/da5007_2024T2_ET_AN_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p4_Im4.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5007_2024T2_ET_AN_p3_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_ET_AN_p3_Im3.webp",
+        "/data/images/da5007_2024T2_ET_AN_p3_Im4.webp",
+        "/data/images/da5007_2024T2_ET_AN_p3_Im5.webp",
+        "/data/images/da5007_2024T2_ET_AN_p4_Im2.webp",
+        "/data/images/da5007_2024T2_ET_AN_p4_Im3.webp",
+        "/data/images/da5007_2024T2_ET_AN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 155,
+      "text": "[IMAGE: /data/images/da5007_2024T2_ET_AN_p4_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p4_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p4_Im10.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p4_Im11.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5007_2024T2_ET_AN_p4_Im9.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_ET_AN_p4_Im5.webp",
+        "/data/images/da5007_2024T2_ET_AN_p4_Im6.webp",
+        "/data/images/da5007_2024T2_ET_AN_p4_Im7.webp",
+        "/data/images/da5007_2024T2_ET_AN_p4_Im9.webp",
+        "/data/images/da5007_2024T2_ET_AN_p4_Im10.webp",
+        "/data/images/da5007_2024T2_ET_AN_p4_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 156,
+      "text": "What key issue in standard DQN does the dueling architecture seek to address?",
+      "type": "MCQ",
+      "options": [
+        "The problem of ensuring faster convergence in environments with high- dimensional state spaces.",
+        "The challenge of distinguishing between actions in environments with a large number of potential moves.",
+        "The inefficiency in accurately evaluating actions that do not significantly affect the overall value of the state.",
+        "The difficulty in learning effective value functions when rewards are sparse and infrequent.",
+        "None of these."
+      ],
+      "correct_answer": "The inefficiency in accurately evaluating actions that do not significantly affect the overall value of the state.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 157,
+      "text": "Which of the following best captures the key difference between policy gradient methods and Q- learning in reinforcement learning?",
+      "type": "MCQ",
+      "options": [
+        "Policy gradient methods directly optimize the policy by computing gradients of the expected reward, while Q-learning indirectly improves the policy by learning a value function that estimates the expected rewards for actions.",
+        "Q-learning focuses on optimizing the policy parameters directly, while policy gradient methods estimate the action-value function to guide policy improvement.",
+        "Policy gradient methods require a model of the environment\u2019s dynamics to compute gradients, while Q-learning does not rely on any such model.",
+        "Q-learning is used primarily for continuous action spaces, while policy gradient methods are better suited for discrete action spaces.",
+        "None of these."
+      ],
+      "correct_answer": "Policy gradient methods directly optimize the policy by computing gradients of the expected reward, while Q-learning indirectly improves the policy by learning a value function that estimates the expected rewards for actions.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 158,
+      "text": "Consider following assertion reason pair: Assertion: A3C can provide better performance compared to A2C, provided the updates are small enough. Reason: In A2C, if a thread runs for a long time, other threads have to wait for it to finish.",
+      "type": "MCQ",
+      "options": [
+        "Assertion and Reason are both true and Reason is a correct explanation of Assertion.",
+        "Assertion and Reason are both true and Reason is not a correct explanation of Assertion.",
+        "Assertion is true but Reason is false.",
+        "Assertion is false but Reason is true."
+      ],
+      "correct_answer": "Assertion and Reason are both true and Reason is a correct explanation of Assertion.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 159,
+      "text": "What role do \u201dmeta-policies\u201d play in Hierarchical Reinforcement Learning?",
+      "type": "MCQ",
+      "options": [
+        "They define the specific actions to take in each state.",
+        "They manage the high-level decisions and selection of subtasks.",
+        "They directly compute the rewards for each subtask.",
+        "They optimize the low-level action policies.",
+        "None of these."
+      ],
+      "correct_answer": "They manage the high-level decisions and selection of subtasks.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 160,
+      "text": "In HRL, what is a \u201dsubtask\u201d typically used for?",
+      "type": "MCQ",
+      "options": [
+        "To evaluate the performance of the overall policy",
+        "To execute the final decision made by the high-level policy",
+        "To break down complex tasks into more manageable components",
+        "To directly interact with the environment and collect rewards",
+        "None of these."
+      ],
+      "correct_answer": "To break down complex tasks into more manageable components",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 161,
+      "text": "How does HRL handle long-term dependencies in tasks?",
+      "type": "MCQ",
+      "options": [
+        "By using recurrent neural networks (RNNs)",
+        "By focusing on immediate rewards only",
+        "By leveraging hierarchical structures to manage dependencies",
+        "By reducing the state space through dimensionality reduction",
+        "None of these."
+      ],
+      "correct_answer": "By leveraging hierarchical structures to manage dependencies",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 162,
+      "text": "What is a common challenge when implementing HRL in practice?",
+      "type": "MCQ",
+      "options": [
+        "Finding suitable reward functions for all levels",
+        "Scaling the approach to very large state spaces",
+        "Ensuring the subtasks are independent of each other",
+        "Integrating HRL with existing non-hierarchical methods",
+        "None of these."
+      ],
+      "correct_answer": "Finding suitable reward functions for all levels",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 163,
+      "text": "Choose the correct formula for UCT:",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im4.webp|block]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im5.webp|block]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im5.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_ET_AN_p7_Im4.webp",
+        "/data/images/da5007_2024T2_ET_AN_p7_Im5.webp",
+        "/data/images/da5007_2024T2_ET_AN_p7_Im6.webp",
+        "/data/images/da5007_2024T2_ET_AN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 164,
+      "text": "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im8.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im10.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im11.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im12.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im13.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im10.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im11.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_ET_AN_p7_Im12.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_ET_AN_p7_Im8.webp",
+        "/data/images/da5007_2024T2_ET_AN_p7_Im9.webp",
+        "/data/images/da5007_2024T2_ET_AN_p7_Im10.webp",
+        "/data/images/da5007_2024T2_ET_AN_p7_Im11.webp",
+        "/data/images/da5007_2024T2_ET_AN_p7_Im12.webp",
+        "/data/images/da5007_2024T2_ET_AN_p7_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 165,
+      "text": "Select the correct statements about Generalized Policy Iteration (GPI).",
+      "type": "multichoice",
+      "options": [
+        "GPI lets policy evaluation and policy improvement interact with each other regardless of the details of the two processes.",
+        "At the end of evaluation, the policy is not greedy with respect to the value function computed",
+        "GPI converges only when a policy has been found which is greedy with respect to its own value function.",
+        "The policy and value function found by GPI at convergence will both be optimal.",
+        "None of these."
+      ],
+      "correct_answer": [
+        "GPI lets policy evaluation and policy improvement interact with each other regardless of the details of the two processes.",
+        "At the end of evaluation, the policy is not greedy with respect to the value function computed",
+        "GPI converges only when a policy has been found which is greedy with respect to its own value function.",
+        "The policy and value function found by GPI at convergence will both be optimal."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 166,
+      "text": "[IMAGE: /data/images/da5007_2024T2_ET_AN_p8_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9.93 to 10.3",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_ET_AN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 167,
+      "text": "[IMAGE: /data/images/da5007_2024T2_ET_AN_p9_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.35 to 1.45",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 168,
+      "text": "[IMAGE: /data/images/da5007_2024T2_ET_AN_p9_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.85 to 2.95",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_ET_AN_p9_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 169,
+      "text": "[IMAGE: /data/images/da5007_2024T2_ET_AN_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4.3 to 4.4",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 170,
+      "text": "[IMAGE: /data/images/da5007_2024T2_ET_AN_p10_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7.95 to 8.05",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_ET_AN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    }
+  ],
+  "id": "da5007-2024t2-et-an",
+  "course_code": "DA5007",
+  "course_name": "Natural Language Processing",
+  "level": "Degree",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

@@ -102,7 +102,11 @@ def parse_with_pdfplumber(
             pass
 
     for p_idx, page in enumerate(reader.pages):
-        for img in page.images:
+        try:
+            page_imgs = list(page.images)
+        except Exception:
+            page_imgs = []
+        for img in page_imgs:
             base_name = img.name.split(".")[0]
             if img.image.size == (16, 16):
                 icon_cls = classify_icon_pil(img.image)
@@ -225,6 +229,8 @@ def parse_with_pdfplumber(
             page_items.sort(key=lambda item: item["top"])
             all_lines.extend(page_items)
 
+    stem = Path(pdf_path).stem
+
     def render_token_line(line: Dict[str, Any]) -> str:
         if line["type"] == "image_block":
             key = (line["page"], line["name"])
@@ -232,11 +238,15 @@ def parse_with_pdfplumber(
             if embed_base64 and b64:
                 return f"[IMAGE: {b64}|block]"
             img_obj = pypdf_images.get(key)
-            ext = Path(img_obj.name).suffix if img_obj else ".png"
-            filename = f"p{line['page']}_{line['name']}{ext}"
+            filename = f"{stem}_p{line['page']}_{line['name']}.webp"
             if out_path and img_obj:
                 try:
-                    img_obj.image.save(out_path / filename)
+                    pil_img = img_obj.image
+                    if pil_img.mode not in ("RGB", "RGBA"):
+                        pil_img = pil_img.convert("RGB")
+                    target_file = out_path / filename
+                    if not target_file.exists():
+                        pil_img.save(target_file, format="WEBP", quality=80)
                 except Exception:
                     pass
             rel = f"{image_prefix}/{filename}" if image_prefix else filename
@@ -253,11 +263,15 @@ def parse_with_pdfplumber(
                     parts.append(f"[IMAGE: {b64}|inline]")
                 else:
                     img_obj = pypdf_images.get(key)
-                    ext = Path(img_obj.name).suffix if img_obj else ".png"
-                    filename = f"p{tok['page']}_{tok['name']}{ext}"
+                    filename = f"{stem}_p{tok['page']}_{tok['name']}.webp"
                     if out_path and img_obj:
                         try:
-                            img_obj.image.save(out_path / filename)
+                            pil_img = img_obj.image
+                            if pil_img.mode not in ("RGB", "RGBA"):
+                                pil_img = pil_img.convert("RGB")
+                            target_file = out_path / filename
+                            if not target_file.exists():
+                                pil_img.save(target_file, format="WEBP", quality=80)
                         except Exception:
                             pass
                     rel = f"{image_prefix}/{filename}" if image_prefix else filename

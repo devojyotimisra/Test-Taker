@@ -1,0 +1,660 @@
+{
+  "title": "DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)",
+  "filename": "ms2002_2024T3_ET_AN.pdf",
+  "total_questions": 32,
+  "total_marks": 45.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 396,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 397,
+      "text": "Two factories \u201cA\u201d and \u201cB\u201d produce radios. Each radio produced at factory-A is defective with probability 0.05, whereas each radio produced at factory-B is defective with probability 0.1. You purchase two radios that were produced in the same factory (which is equally likely to have been either factory-A or factory-B). If the first radio that you check is defective, what is the conditional probability that the second radio is also defective? ( Note: Enter your answer in decimals rounded to two decimal places. For example, if your answer is \u201c0.456\u201d then enter it as \u201c0.46\u201d )",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.04 to 0.05",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 398,
+      "text": "How many (count of) decision variables are present in the standard form of the primal?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Survey Services (MSS) specializes in evaluating the reaction of customers to new products. A client has hired MSS to ascertain customer reaction to a recently launched product (Frying Pan). During meeting with the client, MSS agreed to conduct door-to-door personal interviews to obtain responses from households with children and without children. In addition, MSS agreed to conduct both \u201cDaytime\u201d and \u201cEvening time\u201d interviews. Specifically, the client\u2019s contract called for MSS to conduct 1000 interviews under the following quota guidelines i. Interview at least 400 households with children ii. Interview at least 400 households without children iii. The total number of households interviewed during evening must be at least as great as the number of households interviewed during the day iv. At least 40% of the interviews for households with children must be conducted during the evening v. At least 60% of the interviews for households without children must be conducted during evening Because the interviews for households with children take additional interview time and because evening interviewers are paid more than daytime, the cost varies with type of interview. Based on previous surveys conducted, MSS estimates the interview costs as given in Table-1 [IMAGE: /data/images/ms2002_2024T3_ET_AN_p2_Im1.webp|block] MSS wanted to conduct the interviews so that the overall cost for conducting the survey is minimized. Given this information, answer the subquestions.",
+      "group_id": "6406531043473",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 399,
+      "text": "Excluding the non-negativity constraint, how many (count of) constraints are present in the standard form of the primal?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 1.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Survey Services (MSS) specializes in evaluating the reaction of customers to new products. A client has hired MSS to ascertain customer reaction to a recently launched product (Frying Pan). During meeting with the client, MSS agreed to conduct door-to-door personal interviews to obtain responses from households with children and without children. In addition, MSS agreed to conduct both \u201cDaytime\u201d and \u201cEvening time\u201d interviews. Specifically, the client\u2019s contract called for MSS to conduct 1000 interviews under the following quota guidelines i. Interview at least 400 households with children ii. Interview at least 400 households without children iii. The total number of households interviewed during evening must be at least as great as the number of households interviewed during the day iv. At least 40% of the interviews for households with children must be conducted during the evening v. At least 60% of the interviews for households without children must be conducted during evening Because the interviews for households with children take additional interview time and because evening interviewers are paid more than daytime, the cost varies with type of interview. Based on previous surveys conducted, MSS estimates the interview costs as given in Table-1 [IMAGE: /data/images/ms2002_2024T3_ET_AN_p2_Im1.webp|block] MSS wanted to conduct the interviews so that the overall cost for conducting the survey is minimized. Given this information, answer the subquestions.",
+      "group_id": "6406531043473",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 400,
+      "text": "MSS has decided to conduct 400 interviews for Households with children and 600 interviews for households without children. Moreover, of the 400, 240 are to be conducted in the daytime. Similarly, of the 600 interviews, 360 are going to be conducted in the evening. Then, what is the total cost that would be incurred by MSS? ( Note: enter your answer in \u201cRupees\u201d rounded to two decimal places without the \u201c\u20b9\u201d symbol. For example, if your answer is \u201c\u20b9123.456\u201d then enter it as \u201c123.46\u201d )",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20320 -20320",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Survey Services (MSS) specializes in evaluating the reaction of customers to new products. A client has hired MSS to ascertain customer reaction to a recently launched product (Frying Pan). During meeting with the client, MSS agreed to conduct door-to-door personal interviews to obtain responses from households with children and without children. In addition, MSS agreed to conduct both \u201cDaytime\u201d and \u201cEvening time\u201d interviews. Specifically, the client\u2019s contract called for MSS to conduct 1000 interviews under the following quota guidelines i. Interview at least 400 households with children ii. Interview at least 400 households without children iii. The total number of households interviewed during evening must be at least as great as the number of households interviewed during the day iv. At least 40% of the interviews for households with children must be conducted during the evening v. At least 60% of the interviews for households without children must be conducted during evening Because the interviews for households with children take additional interview time and because evening interviewers are paid more than daytime, the cost varies with type of interview. Based on previous surveys conducted, MSS estimates the interview costs as given in Table-1 [IMAGE: /data/images/ms2002_2024T3_ET_AN_p2_Im1.webp|block] MSS wanted to conduct the interviews so that the overall cost for conducting the survey is minimized. Given this information, answer the subquestions.",
+      "group_id": "6406531043473",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 401,
+      "text": "MSS has decided to conduct 400 interviews for Households with children and 600 interviews for households without children. Moreover, of the 400, 240 are to be conducted in the daytime. Similarly, of the 600 interviews, 360 are going to be conducted in the evening. Then, how many (count of) decision variables will have a NON-ZERO VALUE in dual formulation which is obtained based on the standard form of the primal?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Survey Services (MSS) specializes in evaluating the reaction of customers to new products. A client has hired MSS to ascertain customer reaction to a recently launched product (Frying Pan). During meeting with the client, MSS agreed to conduct door-to-door personal interviews to obtain responses from households with children and without children. In addition, MSS agreed to conduct both \u201cDaytime\u201d and \u201cEvening time\u201d interviews. Specifically, the client\u2019s contract called for MSS to conduct 1000 interviews under the following quota guidelines i. Interview at least 400 households with children ii. Interview at least 400 households without children iii. The total number of households interviewed during evening must be at least as great as the number of households interviewed during the day iv. At least 40% of the interviews for households with children must be conducted during the evening v. At least 60% of the interviews for households without children must be conducted during evening Because the interviews for households with children take additional interview time and because evening interviewers are paid more than daytime, the cost varies with type of interview. Based on previous surveys conducted, MSS estimates the interview costs as given in Table-1 [IMAGE: /data/images/ms2002_2024T3_ET_AN_p2_Im1.webp|block] MSS wanted to conduct the interviews so that the overall cost for conducting the survey is minimized. Given this information, answer the subquestions.",
+      "group_id": "6406531043473",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 402,
+      "text": "If the aim is to determine if the difficulty level is independent of gender, then how many male responses would you expect to choose the rating value of \u201c3\u201d? (Note: Enter your answer in decimal value rounded to two decimal places. For example, if your answer is \u201c123.456\u201d then enter it as \u201c123.46\u201d )",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "17.00 to 18.00",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The BS program coordinators wanted to understand the difficulty level of the BA course. Hence, past learners of the BA course were asked to give a rating (on a scale of 1 to 5, 1 meaning \u201cleast difficult\u201d and 5 implying \u201cmost difficult\u201d). A total of 200 students (100 male and 100 female) were approached for the survey and the result of the same is provided in Table-2. Given this data, answer the sub-questions. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p4_Im1.webp|block]",
+      "group_id": "6406531043478",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 403,
+      "text": "If the aim is to determine if the difficulty level is independent of gender, then how many female responses would you expect to choose the rating value of \u201c5\u201d? (Note: Enter your answer in decimal value rounded to two decimal places. For example, if your answer is \u201c123.456\u201d then enter it as \u201c123.46\u201d )",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20.00",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The BS program coordinators wanted to understand the difficulty level of the BA course. Hence, past learners of the BA course were asked to give a rating (on a scale of 1 to 5, 1 meaning \u201cleast difficult\u201d and 5 implying \u201cmost difficult\u201d). A total of 200 students (100 male and 100 female) were approached for the survey and the result of the same is provided in Table-2. Given this data, answer the sub-questions. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p4_Im1.webp|block]",
+      "group_id": "6406531043478",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 404,
+      "text": "If the aim is to find if the difficulty level is independent of gender, then what is the value for the test statistic? (Enter your answer in decimals rounded to two decimal places. Eg: If your answer is 10.256, then enter it as 10.26 )",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "14.50 to 15.00",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The BS program coordinators wanted to understand the difficulty level of the BA course. Hence, past learners of the BA course were asked to give a rating (on a scale of 1 to 5, 1 meaning \u201cleast difficult\u201d and 5 implying \u201cmost difficult\u201d). A total of 200 students (100 male and 100 female) were approached for the survey and the result of the same is provided in Table-2. Given this data, answer the sub-questions. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p4_Im1.webp|block]",
+      "group_id": "6406531043478",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 405,
+      "text": "Assuming that each difficulty level splits the probability space into equal areas, the general belief is that the level of difficulty across all learners follows a normal distribution. To validate this belief, what is the value of the computed test statistic? (Enter your answer in decimals rounded to two decimal places. Eg: If your answer is 10.256, then enter it as 10.26 )",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "21.00 to 22.00",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The BS program coordinators wanted to understand the difficulty level of the BA course. Hence, past learners of the BA course were asked to give a rating (on a scale of 1 to 5, 1 meaning \u201cleast difficult\u201d and 5 implying \u201cmost difficult\u201d). A total of 200 students (100 male and 100 female) were approached for the survey and the result of the same is provided in Table-2. Given this data, answer the sub-questions. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p4_Im1.webp|block]",
+      "group_id": "6406531043478",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 406,
+      "text": "For the hypothesis test focusing on whether the data is distributed normally, how many (count of) degrees of freedoms is present?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The BS program coordinators wanted to understand the difficulty level of the BA course. Hence, past learners of the BA course were asked to give a rating (on a scale of 1 to 5, 1 meaning \u201cleast difficult\u201d and 5 implying \u201cmost difficult\u201d). A total of 200 students (100 male and 100 female) were approached for the survey and the result of the same is provided in Table-2. Given this data, answer the sub-questions. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p4_Im1.webp|block]",
+      "group_id": "6406531043478",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 407,
+      "text": "If a linear regression model is built between \u201cBP\u201d and \u201cAge\u201d, then how much percentage of variability in BP can be explained by Age? (Note: Enter your answer in percentage rounded to two decimal places. Eg: If your answer is \u201c10.256%\u201d, then enter the answer as \u201c10.26\u201d )",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "48.30 to 48.32",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A doctor is of the opinion that \u201cBlood Pressure (BP)\u201d is affected by \u201cAge\u201d and \u201cWeight\u201d. Based on past data, the correlation between these three variables is identified and provided in Table-3. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p6_Im1.webp|block]",
+      "group_id": "6406531043484",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 408,
+      "text": "What is the VIF for \u201cWeight\u201d with respect to \u201cAge\u201d? (Note: Enter your answer in decimal rounded to two decimal places. Eg: If your answer is \u201c10.256\u201d, then enter it as \u201c10.26\u201d )",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.30 to 1.40",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A doctor is of the opinion that \u201cBlood Pressure (BP)\u201d is affected by \u201cAge\u201d and \u201cWeight\u201d. Based on past data, the correlation between these three variables is identified and provided in Table-3. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p6_Im1.webp|block]",
+      "group_id": "6406531043484",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 409,
+      "text": "What is the accuracy of the model? (Note: Enter your answer in percentage rounded to two decimal places. Eg: If your answer is \u201c10.256%\u201d, then enter the answer as \u201c10.26\u201d )",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "46 to 47",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A logistic model is built to classify three types of animals: \u201cCat\u201d, \u201cDog\u201d and \u201cPig\u201d. The confusion matrix for the model based on 30 samples is presented in Table-4. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p7_Im1.webp|block]",
+      "group_id": "6406531043487",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 410,
+      "text": "What is the precision of the model for predicting \u201cDog\u201d? (Note: Enter your answer in percentage rounded to two decimal places. Eg: If your answer is \u201c10.256%\u201d, then enter the answer as \u201c10.26\u201d )",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "55 to 56",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A logistic model is built to classify three types of animals: \u201cCat\u201d, \u201cDog\u201d and \u201cPig\u201d. The confusion matrix for the model based on 30 samples is presented in Table-4. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p7_Im1.webp|block]",
+      "group_id": "6406531043487",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 411,
+      "text": "What is the objective function?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im2.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p8_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p8_Im1.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p8_Im3.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p8_Im4.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p8_Im6.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p9_Im2.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "We are interested in understanding the efficiency of 5 Sales Offices. Each of the Sales Offices has an approved budget and a team size for achieving a fixed target of 20,00,000. As a Business Analyst, you must formulate a DEA problem using Linear programming for the Sales Office 3 . Answer subquestions using the Table below. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p8_Im1.webp|block]",
+      "group_id": "6406531043490",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 412,
+      "text": "What is the type constraint?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im7.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p8_Im1.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p9_Im5.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p9_Im6.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p9_Im7.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p9_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "We are interested in understanding the efficiency of 5 Sales Offices. Each of the Sales Offices has an approved budget and a team size for achieving a fixed target of 20,00,000. As a Business Analyst, you must formulate a DEA problem using Linear programming for the Sales Office 3 . Answer subquestions using the Table below. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p8_Im1.webp|block]",
+      "group_id": "6406531043490",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 413,
+      "text": "Which of them is not a constraint for the LP problem pertaining to Sales Office 3?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im9.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im10.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im11.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im12.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im13.webp|inline]",
+        "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im14.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/ms2002_2024T3_ET_AN_p9_Im14.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p8_Im1.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p9_Im9.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p9_Im10.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p9_Im11.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p9_Im12.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p9_Im13.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p9_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "We are interested in understanding the efficiency of 5 Sales Offices. Each of the Sales Offices has an approved budget and a team size for achieving a fixed target of 20,00,000. As a Business Analyst, you must formulate a DEA problem using Linear programming for the Sales Office 3 . Answer subquestions using the Table below. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p8_Im1.webp|block]",
+      "group_id": "6406531043490",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 414,
+      "text": "How much will the Output 1 in HCU 3? NOTE: For every step performed round off 4 decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7541 to 7542",
+      "marks": 1.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "There are 5 business units. There are two outputs and one input under consideration. You are solving the optimization problem for business unit 3 and find that the efficiency to be 0.6. You find that the dual variables corresponding to the constraints of business units 2 and 4 are non-zero and the dual variables corresponding to the constraints of other units are zero. The dual variables corresponding to the constraints of business units 2 and 4 are 0.25 and 0.35, respectively. You are given the following table where sales and number of leads are the two outputs. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p10_Im1.webp|block]",
+      "group_id": "6406531043494",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 415,
+      "text": "How much will the Output 2 in HCU 3? NOTE: For every step performed round off 4 decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11.13 to 11.23",
+      "marks": 1.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "There are 5 business units. There are two outputs and one input under consideration. You are solving the optimization problem for business unit 3 and find that the efficiency to be 0.6. You find that the dual variables corresponding to the constraints of business units 2 and 4 are non-zero and the dual variables corresponding to the constraints of other units are zero. The dual variables corresponding to the constraints of business units 2 and 4 are 0.25 and 0.35, respectively. You are given the following table where sales and number of leads are the two outputs. [IMAGE: /data/images/ms2002_2024T3_ET_AN_p10_Im1.webp|block]",
+      "group_id": "6406531043494",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 416,
+      "text": "Which DMUs are in the economic frontier?",
+      "type": "MCQ",
+      "options": [
+        "(1,2,4)",
+        "(1,3,5)",
+        "(1,2,4,5)",
+        "(1,3,4)"
+      ],
+      "correct_answer": "(1,3,5)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "As a Business Analyst, we are trying to find the DMUs that are efficient, where there are 2 inputs (Team Size & Budget) and one constant output. Based on the graph given below, answer the [IMAGE: /data/images/ms2002_2024T3_ET_AN_p11_Im1.webp|block]",
+      "group_id": "6406531043497",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 417,
+      "text": "Which DMUs are the reference units for DMU 2?",
+      "type": "MCQ",
+      "options": [
+        "(1,4)",
+        "(1,3)",
+        "(3,5)",
+        "(3,4)"
+      ],
+      "correct_answer": "(1,3)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "As a Business Analyst, we are trying to find the DMUs that are efficient, where there are 2 inputs (Team Size & Budget) and one constant output. Based on the graph given below, answer the [IMAGE: /data/images/ms2002_2024T3_ET_AN_p11_Im1.webp|block]",
+      "group_id": "6406531043497",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 418,
+      "text": "Which DMUs are the reference units for DMU 4?",
+      "type": "MCQ",
+      "options": [
+        "(1,4)",
+        "(1,3)",
+        "(3,5)",
+        "(3,4)"
+      ],
+      "correct_answer": "(3,5)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "As a Business Analyst, we are trying to find the DMUs that are efficient, where there are 2 inputs (Team Size & Budget) and one constant output. Based on the graph given below, answer the [IMAGE: /data/images/ms2002_2024T3_ET_AN_p11_Im1.webp|block]",
+      "group_id": "6406531043497",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 419,
+      "text": "What is the accuracy of the logistic regression model? Hint: Round off your answer to two decimal places and if your answer is 0.5543, please enter it as 55.43",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "33.3 to 33.4",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p12_Im3.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p12_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The table below contains the details of 6 customers who have applied for a bike loan. Based on the 2 inputs (X1 & X2), the bank must decide whether to provide the bike loan or not. In addition, the actual decision on the loan is provided in the column (Y_act). [IMAGE: /data/images/ms2002_2024T3_ET_AN_p12_Im3.webp|block] A senior Business Analyst used logistic regression and computed the below values. Based on the data provided answer the subquestions [IMAGE: /data/images/ms2002_2024T3_ET_AN_p12_Im4.webp|block]",
+      "group_id": "6406531043501",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 420,
+      "text": "What is the precision of class 1? Hint: Round off your answer to two decimal places and if your answer is 0.5543, please enter it as 55.43",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "25",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p12_Im3.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p12_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The table below contains the details of 6 customers who have applied for a bike loan. Based on the 2 inputs (X1 & X2), the bank must decide whether to provide the bike loan or not. In addition, the actual decision on the loan is provided in the column (Y_act). [IMAGE: /data/images/ms2002_2024T3_ET_AN_p12_Im3.webp|block] A senior Business Analyst used logistic regression and computed the below values. Based on the data provided answer the subquestions [IMAGE: /data/images/ms2002_2024T3_ET_AN_p12_Im4.webp|block]",
+      "group_id": "6406531043501",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 421,
+      "text": "What is the sensitivity? Hint: Round off your answer to two decimal places and if your answer is 0.5543, please enter it as 55.43",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "50",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p12_Im3.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p12_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The table below contains the details of 6 customers who have applied for a bike loan. Based on the 2 inputs (X1 & X2), the bank must decide whether to provide the bike loan or not. In addition, the actual decision on the loan is provided in the column (Y_act). [IMAGE: /data/images/ms2002_2024T3_ET_AN_p12_Im3.webp|block] A senior Business Analyst used logistic regression and computed the below values. Based on the data provided answer the subquestions [IMAGE: /data/images/ms2002_2024T3_ET_AN_p12_Im4.webp|block]",
+      "group_id": "6406531043501",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 422,
+      "text": "What is the precision of class 0? Hint: Round off your answer to two decimal places and if your answer is 0.5543, please enter it as 55.43",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "50",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p12_Im3.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p12_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The table below contains the details of 6 customers who have applied for a bike loan. Based on the 2 inputs (X1 & X2), the bank must decide whether to provide the bike loan or not. In addition, the actual decision on the loan is provided in the column (Y_act). [IMAGE: /data/images/ms2002_2024T3_ET_AN_p12_Im3.webp|block] A senior Business Analyst used logistic regression and computed the below values. Based on the data provided answer the subquestions [IMAGE: /data/images/ms2002_2024T3_ET_AN_p12_Im4.webp|block]",
+      "group_id": "6406531043501",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 423,
+      "text": "What is the specificity? Hint: Round off your answer to two decimal places and if your answer is 0.5543, please enter it as 55.43",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "25",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2024T3_ET_AN_p12_Im3.webp",
+        "/data/images/ms2002_2024T3_ET_AN_p12_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The table below contains the details of 6 customers who have applied for a bike loan. Based on the 2 inputs (X1 & X2), the bank must decide whether to provide the bike loan or not. In addition, the actual decision on the loan is provided in the column (Y_act). [IMAGE: /data/images/ms2002_2024T3_ET_AN_p12_Im3.webp|block] A senior Business Analyst used logistic regression and computed the below values. Based on the data provided answer the subquestions [IMAGE: /data/images/ms2002_2024T3_ET_AN_p12_Im4.webp|block]",
+      "group_id": "6406531043501",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 424,
+      "text": "What is the format of data needed for performing the conjoint analysis using the Statistical or Linear Regression Approach?",
+      "type": "multichoice",
+      "options": [
+        "Consumer Choice Data is Ratings",
+        "Value of the attributes are continuous",
+        "Consumer Choice Data is Pairwise Comparison",
+        "Value of the product attributes are categorical"
+      ],
+      "correct_answer": [
+        "Consumer Choice Data is Ratings",
+        "Value of the product attributes are categorical"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 425,
+      "text": "The objective function of the linear programming model using pair-wise judgments:",
+      "type": "MCQ",
+      "options": [
+        "Minimize the poorness of fit",
+        "Maximize the distance from the ideal point",
+        "Minimize the distance from the ideal point",
+        "Both Minimize the poorness of fit & Minimize the distance from the ideal point",
+        "Both Maximize the distance from the ideal point & Minimize the distance from the ideal point"
+      ],
+      "correct_answer": "Minimize the poorness of fit",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 426,
+      "text": "If the attribute values in the conjoint analysis is a continuous variable and the data is collected in a pairwise order, then what approach can be used:",
+      "type": "MCQ",
+      "options": [
+        "Optimization approach",
+        "Regression approach",
+        "Statistical approach",
+        "Optimization approach or Statistical approach"
+      ],
+      "correct_answer": "Optimization approach",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 427,
+      "text": "In a conjoint problem with 4 products and 2 attributes, how many pair-wise preferences are possible?",
+      "type": "MCQ",
+      "options": [
+        "4",
+        "14",
+        "10",
+        "6"
+      ],
+      "correct_answer": "6",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    }
+  ],
+  "id": "ms2002-2024t3-et-an",
+  "course_code": "MS2002",
+  "course_name": "Business Analytics",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

@@ -1,0 +1,793 @@
+{
+  "title": "DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)",
+  "filename": "cs3003_2026T1_ET_AN.pdf",
+  "total_questions": 34,
+  "total_marks": 32.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "[IMAGE: /data/images/cs3003_2026T1_ET_AN_p1_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Printed graph sheets were provided on time.",
+        "Printed graph sheets were provided late.",
+        "Printed graph sheets were not provided.",
+        "I used the graph sheets.",
+        "I did not use graph sheets."
+      ],
+      "correct_answer": [
+        "Printed graph sheets were provided on time.",
+        "I used the graph sheets."
+      ],
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Inscript Let 212 be the start state and 131 be the goal state, find the shortest path from start to goal. Enter the path starting with 212 as a comma separated list of states. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 212,230,500 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "212,410,401,131",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Consider a water-jug puzzle with three jugs a, b and c of capacities 5L, 3L and 2L, respectively. A state, encoded as a digit string ABC, denotes volume of water in jugs a, b and c, respectively. For example, state 122 denotes that jugs a, b and c contain 1L, 2L and 2L of water, respectively. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p2_Im1.webp|block] MoveGen takes a state ABC and returns a set of neighbours that are one move away from ABC. For example, MoveGen(122) = { 032, 302, 320, 131 }.",
+      "group_id": "6406532126171",
+      "section_name": "AI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Inscript Let 212 be the start state and 131 be the goal state, find the sequence of moves that produce the shortest path from start to goal. Enter the sequence of moves as a comma separated list. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: aEb,aTc,bETa,cETb Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "cEa,bEc,aTb",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Consider a water-jug puzzle with three jugs a, b and c of capacities 5L, 3L and 2L, respectively. A state, encoded as a digit string ABC, denotes volume of water in jugs a, b and c, respectively. For example, state 122 denotes that jugs a, b and c contain 1L, 2L and 2L of water, respectively. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p2_Im1.webp|block] MoveGen takes a state ABC and returns a set of neighbours that are one move away from ABC. For example, MoveGen(122) = { 032, 302, 320, 131 }.",
+      "group_id": "6406532126171",
+      "section_name": "AI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Under what cases does Depth First Iterative Deepening (DFID) guarantee to find the shortest path if one exists?",
+      "type": "MCQ",
+      "options": [
+        "When it inspects only new nodes.",
+        "When it inspects new as well as open nodes.",
+        "When it inspects new as well as closed nodes.",
+        "None of these"
+      ],
+      "correct_answer": "When it inspects new as well as closed nodes.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH ALGORITHMS Answer the given subquestions.",
+      "group_id": "6406532126174",
+      "section_name": "AI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Given a finite state space with unit edge costs, and a heuristic function whose properties are not known, which of the following algorithms are suitable for finding the optimal path?",
+      "type": "multichoice",
+      "options": [
+        "Depth First Search",
+        "Breadth First Search",
+        "Dijkstra's algorithm",
+        "Branch and Bound Search",
+        "A*",
+        "WA* for some w",
+        "Sparse Memory Graph Search (SMGS)"
+      ],
+      "correct_answer": [
+        "Breadth First Search",
+        "Dijkstra's algorithm",
+        "Branch and Bound Search"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH ALGORITHMS Answer the given subquestions.",
+      "group_id": "6406532126174",
+      "section_name": "AI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "If w is set to a large value (tending to infinity) then wA* algorithm will __________ .",
+      "type": "multichoice",
+      "options": [
+        "behave like Best-First Search",
+        "behave like Dijkstra's algorithm",
+        "guarantee an optimal path if h is admissible",
+        "not guarantee an optimal path even if h is admissible"
+      ],
+      "correct_answer": [
+        "behave like Best-First Search",
+        "not guarantee an optimal path even if h is admissible"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH ALGORITHMS Answer the given subquestions.",
+      "group_id": "6406532126174",
+      "section_name": "AI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript Enter the optimal eval assignment (evals of nodes A to D) in the text box. Enter a comma separated list of evals. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 1,2,3,4 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3,1,4,2 3,2,4,1 4,1,3,2 4,2,3,1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES: ALPHA-BETA Consider a game tree with the root node as MAX, where an arbitrary path from the root reaches the subtree shown in the figure. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p4_Im3.webp|block] Each leaf node A to D takes a UNIQUE EVAL VALUE from the set {1, 2, 3, 4}. Alpha-Beta algorithm is entering the subtree with alpha=1 and beta=3; find an optimal eval assignment (for nodes A to D) that maximizes the number of leaves pruned; find the minimax value, the type of cuts and the leaves pruned for that assignment.",
+      "group_id": "6406532126178",
+      "section_name": "AI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript The minimax value of the subtree for the optimal eval assignment is __________ . Enter an integer. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES: ALPHA-BETA Consider a game tree with the root node as MAX, where an arbitrary path from the root reaches the subtree shown in the figure. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p4_Im3.webp|block] Each leaf node A to D takes a UNIQUE EVAL VALUE from the set {1, 2, 3, 4}. Alpha-Beta algorithm is entering the subtree with alpha=1 and beta=3; find an optimal eval assignment (for nodes A to D) that maximizes the number of leaves pruned; find the minimax value, the type of cuts and the leaves pruned for that assignment.",
+      "group_id": "6406532126178",
+      "section_name": "AI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript Enter the number of alpha-cuts followed by the number of beta-cuts as a comma separated list. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 1,2 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0,2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES: ALPHA-BETA Consider a game tree with the root node as MAX, where an arbitrary path from the root reaches the subtree shown in the figure. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p4_Im3.webp|block] Each leaf node A to D takes a UNIQUE EVAL VALUE from the set {1, 2, 3, 4}. Alpha-Beta algorithm is entering the subtree with alpha=1 and beta=3; find an optimal eval assignment (for nodes A to D) that maximizes the number of leaves pruned; find the minimax value, the type of cuts and the leaves pruned for that assignment.",
+      "group_id": "6406532126178",
+      "section_name": "AI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript Enter the label of leaf nodes pruned by Alpha-Beta algorithm, or enter NIL if no leaves were pruned. Enter a comma separated list of labels (A to D), or enter NIL. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: W,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "B,D D,B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES: ALPHA-BETA Consider a game tree with the root node as MAX, where an arbitrary path from the root reaches the subtree shown in the figure. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p4_Im3.webp|block] Each leaf node A to D takes a UNIQUE EVAL VALUE from the set {1, 2, 3, 4}. Alpha-Beta algorithm is entering the subtree with alpha=1 and beta=3; find an optimal eval assignment (for nodes A to D) that maximizes the number of leaves pruned; find the minimax value, the type of cuts and the leaves pruned for that assignment.",
+      "group_id": "6406532126178",
+      "section_name": "AI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Find the horizon nodes that are assigned SOLVED status by SSS* algorithm. Enter the labels of those nodes in the textbox, or enter NIL if no nodes are assigned SOLVED status. Enter node labels as a comma separated list in alphabetical order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,C,E,G,H,I,J A,C,E,G,I,J,H",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES: SSS STAR The figure shows a game tree with evaluation function values at the horizon nodes. The horizon nodes are labeled from A to J. Where applicable, use these labels in short answers. Tie-breaker: When several nodes carry the same best cost then select the deepest node, if tie persists then select the leftmost of the deepest nodes to break the tie. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p7_Im1.webp|block] Run SSS* algorithm on the game tree, then answer the sub-questions.",
+      "group_id": "6406532126183",
+      "section_name": "AI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript Find the SOLVED horizon nodes that are pruned from the queue by SSS* algorithm, i.e., SOLVED horizon nodes removed from the queue when a MAX-ancestor is SOLVED. Enter the labels of those nodes in the textbox, or enter NIL if SOLVED nodes were never pruned. Enter node labels as a comma separated list in alphabetical order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,E,I,J",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES: SSS STAR The figure shows a game tree with evaluation function values at the horizon nodes. The horizon nodes are labeled from A to J. Where applicable, use these labels in short answers. Tie-breaker: When several nodes carry the same best cost then select the deepest node, if tie persists then select the leftmost of the deepest nodes to break the tie. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p7_Im1.webp|block] Run SSS* algorithm on the game tree, then answer the sub-questions.",
+      "group_id": "6406532126183",
+      "section_name": "AI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript List the nodes expanded by AO* algorithm. List the nodes in the order they are expanded. Observe that primitive nodes are not expanded. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: S,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,C,A,B,F C,A,B,F",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "PROBLEM DECOMPOSITION The figure shows an AND-OR decomposition of problem S into smaller problems. The nodes are uniquely identified by labels (S, A, B, C, \u2026). Each node shows the heuristic estimate of the cost of solving that node. Nodes shown in double lines are primitive nodes and their values are actual costs. A primitive node is added to the graph, with SOLVED status, when its parent is expanded. And therefore, a primitive node is never expanded. The cost of each edge is 2 units. Tie-breaker 1: If several nodes have the same cost then break the tie using node labels. Tie-breaker 2: For AND nodes, select the unsolved branch with the highest cost. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p9_Im1.webp|block] Use AO* algorithm to solve S, then answer the sub-questions.",
+      "group_id": "6406532126186",
+      "section_name": "AI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript For each node expanded by AO* algorithm, determine the value propagated to the start node S. Enter the values of S as a list. Enter a comma separated list of numbers. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 12,42,17 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "16,18,22,24,28 18,22,24,28",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "PROBLEM DECOMPOSITION The figure shows an AND-OR decomposition of problem S into smaller problems. The nodes are uniquely identified by labels (S, A, B, C, \u2026). Each node shows the heuristic estimate of the cost of solving that node. Nodes shown in double lines are primitive nodes and their values are actual costs. A primitive node is added to the graph, with SOLVED status, when its parent is expanded. And therefore, a primitive node is never expanded. The cost of each edge is 2 units. Tie-breaker 1: If several nodes have the same cost then break the tie using node labels. Tie-breaker 2: For AND nodes, select the unsolved branch with the highest cost. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p9_Im1.webp|block] Use AO* algorithm to solve S, then answer the sub-questions.",
+      "group_id": "6406532126186",
+      "section_name": "AI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "What can you conclude about the given AND-OR decomposition?",
+      "type": "MCQ",
+      "options": [
+        "The heuristic is admissible.",
+        "The heuristic is inadmissible.",
+        "The heuristic is sometimes admissible and sometimes inadmissible."
+      ],
+      "correct_answer": "The heuristic is admissible.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "PROBLEM DECOMPOSITION The figure shows an AND-OR decomposition of problem S into smaller problems. The nodes are uniquely identified by labels (S, A, B, C, \u2026). Each node shows the heuristic estimate of the cost of solving that node. Nodes shown in double lines are primitive nodes and their values are actual costs. A primitive node is added to the graph, with SOLVED status, when its parent is expanded. And therefore, a primitive node is never expanded. The cost of each edge is 2 units. Tie-breaker 1: If several nodes have the same cost then break the tie using node labels. Tie-breaker 2: For AND nodes, select the unsolved branch with the highest cost. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p9_Im1.webp|block] Use AO* algorithm to solve S, then answer the sub-questions.",
+      "group_id": "6406532126186",
+      "section_name": "AI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Which of the following rule-data tuples are in the conflict-set?",
+      "type": "multichoice",
+      "options": [
+        "R1,107",
+        "R2,102,104",
+        "R3,103,106",
+        "R4,101,105",
+        "R2,102,103",
+        "R3,104,106"
+      ],
+      "correct_answer": [
+        "R1,107",
+        "R2,102,104",
+        "R3,103,106",
+        "R4,101,105"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p11_Im1.webp",
+        "/data/images/cs3003_2026T1_ET_AN_p11_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "RULE BASED EXPERT SYSTEMS A part of the Rete Net that classifies mushrooms (as edible or poisonous) is shown in the figure. The labels A1, A2, ..., A10, A16, ..., B1, B2, B3, R1, \u2026, R4 uniquely identify the nodes in the network. When required, use the above label ordering to break ties and to enter short answers. Note: \"attribute <> x\" is true when that attribute exists and its value is not equal to x. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p11_Im1.webp|block] Run the Rete algorithm for the Working Memory shown below, the WMEs are in timestamp order. Assume that WMEs reside at appropriate Alpha nodes, and the Beta nodes point to WMEs residing in Alpha nodes. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p11_Im2.webp|block] For each WME identify its location (node label) in the Rete Net, and prepare the conflict set for the first cycle, then answer the sub-questions.",
+      "group_id": "6406532126190",
+      "section_name": "AI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "If the Inference Engine uses Specificity as the conflict resolution strategy then which of the following rule-data tuples will qualify?",
+      "type": "multichoice",
+      "options": [
+        "R1,107",
+        "R2,102,104",
+        "R3,103,106",
+        "R4,101,105",
+        "R2,102,103",
+        "R3,104,106"
+      ],
+      "correct_answer": [
+        "R3,103,106",
+        "R4,101,105"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p11_Im1.webp",
+        "/data/images/cs3003_2026T1_ET_AN_p11_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "RULE BASED EXPERT SYSTEMS A part of the Rete Net that classifies mushrooms (as edible or poisonous) is shown in the figure. The labels A1, A2, ..., A10, A16, ..., B1, B2, B3, R1, \u2026, R4 uniquely identify the nodes in the network. When required, use the above label ordering to break ties and to enter short answers. Note: \"attribute <> x\" is true when that attribute exists and its value is not equal to x. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p11_Im1.webp|block] Run the Rete algorithm for the Working Memory shown below, the WMEs are in timestamp order. Assume that WMEs reside at appropriate Alpha nodes, and the Beta nodes point to WMEs residing in Alpha nodes. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p11_Im2.webp|block] For each WME identify its location (node label) in the Rete Net, and prepare the conflict set for the first cycle, then answer the sub-questions.",
+      "group_id": "6406532126190",
+      "section_name": "AI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "If the Inference Engine uses Recency as the conflict resolution strategy then which of the following rule-data tuples will qualify?.",
+      "type": "MCQ",
+      "options": [
+        "R1,107",
+        "R2,102,104",
+        "R3,103,106",
+        "R4,101,105",
+        "R2,102,103",
+        "R3,104,106"
+      ],
+      "correct_answer": "R1,107",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p11_Im1.webp",
+        "/data/images/cs3003_2026T1_ET_AN_p11_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "RULE BASED EXPERT SYSTEMS A part of the Rete Net that classifies mushrooms (as edible or poisonous) is shown in the figure. The labels A1, A2, ..., A10, A16, ..., B1, B2, B3, R1, \u2026, R4 uniquely identify the nodes in the network. When required, use the above label ordering to break ties and to enter short answers. Note: \"attribute <> x\" is true when that attribute exists and its value is not equal to x. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p11_Im1.webp|block] Run the Rete algorithm for the Working Memory shown below, the WMEs are in timestamp order. Assume that WMEs reside at appropriate Alpha nodes, and the Beta nodes point to WMEs residing in Alpha nodes. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p11_Im2.webp|block] For each WME identify its location (node label) in the Rete Net, and prepare the conflict set for the first cycle, then answer the sub-questions.",
+      "group_id": "6406532126190",
+      "section_name": "AI"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Consider actions a and b and the two orderings (a then b) and (b then a). Which of the following conditions (each taken independently) will make both of the orderings feasible?",
+      "type": "multichoice",
+      "options": [
+        "P is in pre(a) and also in pre(b).",
+        "P is in del-effects(a) and also in del-effects(b).",
+        "None of these."
+      ],
+      "correct_answer": [
+        "P is in pre(a) and also in pre(b).",
+        "P is in del-effects(a) and also in del-effects(b)."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING 1 Answer the given subquestions.",
+      "group_id": "6406532126194",
+      "section_name": "AI"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "In planning graphs constructed by GraphPlan, actions a and b in layer n are mutex __________ .",
+      "type": "multichoice",
+      "options": [
+        "if P in pre(a) and Q in pre(b) are mutex",
+        "if P is in pre(a), in del-effects(a), in pre(b) and also in del-effects(b)",
+        "only if every P in pre(a) is also present in del-effects(b)",
+        "only if every P in add-effects(a) is also present in del-effects(b)"
+      ],
+      "correct_answer": [
+        "if P in pre(a) and Q in pre(b) are mutex",
+        "if P is in pre(a), in del-effects(a), in pre(b) and also in del-effects(b)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING 1 Answer the given subquestions.",
+      "group_id": "6406532126194",
+      "section_name": "AI"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "In planning graphs constructed by GraphPlan, which of the following are true?",
+      "type": "multichoice",
+      "options": [
+        "If propositions P and Q are non mutex in layer zero then it will remain non mutex in all future layers.",
+        "If propositions P and Q are non mutex in a layer n then it will remain non mutex in all future layers.",
+        "If propositions P and Q are non mutex in a layer n then it can become mutex in a future layer.",
+        "None of these."
+      ],
+      "correct_answer": [
+        "If propositions P and Q are non mutex in layer zero then it will remain non mutex in all future layers.",
+        "If propositions P and Q are non mutex in a layer n then it will remain non mutex in all future layers."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING 1 Answer the given subquestions.",
+      "group_id": "6406532126194",
+      "section_name": "AI"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Which of the following are applicable actions for FSSP?",
+      "type": "multichoice",
+      "options": [
+        "Putdown(D)",
+        "Stack(A,D)",
+        "Stack(D,E)",
+        "Stack(D,C)",
+        "Unstack(E,B)",
+        "Unstack(C,A)"
+      ],
+      "correct_answer": [
+        "Putdown(D)",
+        "Stack(D,E)",
+        "Stack(D,C)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p14_Im1.webp",
+        "/data/images/cs3003_2026T1_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING 2 The domain description of a Blocks World with a single one-armed robot is given below. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p14_Im1.webp|block] Consider the following planning problem. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p15_Im1.webp|block]",
+      "group_id": "6406532126198",
+      "section_name": "AI"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Which of the following are relevant actions for BSSP?",
+      "type": "multichoice",
+      "options": [
+        "Putdown(D)",
+        "Stack(A,D)",
+        "Stack(D,E)",
+        "Stack(D,C)",
+        "Unstack(E,B)",
+        "Unstack(C,A)"
+      ],
+      "correct_answer": [
+        "Stack(A,D)",
+        "Stack(D,E)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p14_Im1.webp",
+        "/data/images/cs3003_2026T1_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING 2 The domain description of a Blocks World with a single one-armed robot is given below. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p14_Im1.webp|block] Consider the following planning problem. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p15_Im1.webp|block]",
+      "group_id": "6406532126198",
+      "section_name": "AI"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "In the planning graph, which of the following are mutex action pairs in layer 1?",
+      "type": "multichoice",
+      "options": [
+        "Stack(D,E) and nop for armEmpty",
+        "Stack(D,E) and nop for clear(C)",
+        "Stack(D,E) and nop for holding(D)",
+        "Stack(D,E) and Putdown(D)"
+      ],
+      "correct_answer": [
+        "Stack(D,E) and nop for holding(D)",
+        "Stack(D,E) and Putdown(D)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p14_Im1.webp",
+        "/data/images/cs3003_2026T1_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING 2 The domain description of a Blocks World with a single one-armed robot is given below. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p14_Im1.webp|block] Consider the following planning problem. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p15_Im1.webp|block]",
+      "group_id": "6406532126198",
+      "section_name": "AI"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "In the planning graph, which of the following are mutex proposition pairs in layer 1?",
+      "type": "multichoice",
+      "options": [
+        "armEmpty and clear(C)",
+        "armEmpty and holding(D)",
+        "on(D,E) and clear(C)",
+        "on(D,E) and onTable(D)"
+      ],
+      "correct_answer": [
+        "armEmpty and holding(D)",
+        "on(D,E) and onTable(D)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p14_Im1.webp",
+        "/data/images/cs3003_2026T1_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING 2 The domain description of a Blocks World with a single one-armed robot is given below. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p14_Im1.webp|block] Consider the following planning problem. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p15_Im1.webp|block]",
+      "group_id": "6406532126198",
+      "section_name": "AI"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "In the planning graph, which of the following are applicable actions in layer 2?",
+      "type": "multichoice",
+      "options": [
+        "Pickup(D)",
+        "Putdown(C)",
+        "Unstack(E,B)",
+        "Unstack(C,A)"
+      ],
+      "correct_answer": [
+        "Pickup(D)",
+        "Unstack(E,B)",
+        "Unstack(C,A)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p14_Im1.webp",
+        "/data/images/cs3003_2026T1_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING 2 The domain description of a Blocks World with a single one-armed robot is given below. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p14_Im1.webp|block] Consider the following planning problem. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p15_Im1.webp|block]",
+      "group_id": "6406532126198",
+      "section_name": "AI"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "For the given planning problem, does a plan exist?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p14_Im1.webp",
+        "/data/images/cs3003_2026T1_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING 2 The domain description of a Blocks World with a single one-armed robot is given below. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p14_Im1.webp|block] Consider the following planning problem. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p15_Im1.webp|block]",
+      "group_id": "6406532126198",
+      "section_name": "AI"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "Inscript For the given planning problem, the length of the plan found by GraphPlan is __________ . Enter an integer or enter NIL if GraphPlan cannot find a plan. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 12 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p14_Im1.webp",
+        "/data/images/cs3003_2026T1_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING 2 The domain description of a Blocks World with a single one-armed robot is given below. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p14_Im1.webp|block] Consider the following planning problem. [IMAGE: /data/images/cs3003_2026T1_ET_AN_p15_Im1.webp|block]",
+      "group_id": "6406532126198",
+      "section_name": "AI"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "Which of the following tuples occur in R_AC?",
+      "type": "multichoice",
+      "options": [
+        "(1,2)",
+        "(2,1)",
+        "(2,4)",
+        "(4,2)"
+      ],
+      "correct_answer": [
+        "(1,2)",
+        "(2,1)",
+        "(2,4)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "CONSTRAINT SATISFACTION Consider a CSP over 3 variables A, B, C where the domains and constraints are: [IMAGE: /data/images/cs3003_2026T1_ET_AN_p17_Im1.webp|block] where, mod(n,d) returns the remainder after dividing n by d, for example, mod(8,3)=2, mod(6,7)=6, mod(8,7)=1. Compute the three relations to match the domain constraints,then draw the constraint graph and matching-diagram,and then answer the sub-questions.",
+      "group_id": "6406532126206",
+      "section_name": "AI"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "Which of the following tuples occur in R_BA?",
+      "type": "multichoice",
+      "options": [
+        "(1,4)",
+        "(2,1)",
+        "(3,1)",
+        "(4,2)"
+      ],
+      "correct_answer": [
+        "(1,4)",
+        "(2,1)",
+        "(4,2)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "CONSTRAINT SATISFACTION Consider a CSP over 3 variables A, B, C where the domains and constraints are: [IMAGE: /data/images/cs3003_2026T1_ET_AN_p17_Im1.webp|block] where, mod(n,d) returns the remainder after dividing n by d, for example, mod(8,3)=2, mod(6,7)=6, mod(8,7)=1. Compute the three relations to match the domain constraints,then draw the constraint graph and matching-diagram,and then answer the sub-questions.",
+      "group_id": "6406532126206",
+      "section_name": "AI"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 32,
+      "text": "Is the given CSP arc-consistent?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "CONSTRAINT SATISFACTION Consider a CSP over 3 variables A, B, C where the domains and constraints are: [IMAGE: /data/images/cs3003_2026T1_ET_AN_p17_Im1.webp|block] where, mod(n,d) returns the remainder after dividing n by d, for example, mod(8,3)=2, mod(6,7)=6, mod(8,7)=1. Compute the three relations to match the domain constraints,then draw the constraint graph and matching-diagram,and then answer the sub-questions.",
+      "group_id": "6406532126206",
+      "section_name": "AI"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 33,
+      "text": "If the given CSP is not already arc-consistent, then make it arc-consistent, and then check if the resulting network is path consistent.",
+      "type": "MCQ",
+      "options": [
+        "It is path consistent.",
+        "It is not path consistent.",
+        "Path consistency does not apply because the constraint graph has a cycle."
+      ],
+      "correct_answer": "It is path consistent.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "CONSTRAINT SATISFACTION Consider a CSP over 3 variables A, B, C where the domains and constraints are: [IMAGE: /data/images/cs3003_2026T1_ET_AN_p17_Im1.webp|block] where, mod(n,d) returns the remainder after dividing n by d, for example, mod(8,3)=2, mod(6,7)=6, mod(8,7)=1. Compute the three relations to match the domain constraints,then draw the constraint graph and matching-diagram,and then answer the sub-questions.",
+      "group_id": "6406532126206",
+      "section_name": "AI"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 34,
+      "text": "Inscript Does the given CSP have a solution? Enter the solution for the variables A,B,C as a comma separated list. Enter NIL if there is no solution. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 1,2,3 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2,4,1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T1_ET_AN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "CONSTRAINT SATISFACTION Consider a CSP over 3 variables A, B, C where the domains and constraints are: [IMAGE: /data/images/cs3003_2026T1_ET_AN_p17_Im1.webp|block] where, mod(n,d) returns the remainder after dividing n by d, for example, mod(8,3)=2, mod(6,7)=6, mod(8,7)=1. Compute the three relations to match the domain constraints,then draw the constraint graph and matching-diagram,and then answer the sub-questions.",
+      "group_id": "6406532126206",
+      "section_name": "AI"
+    }
+  ],
+  "id": "cs3003-2026t1-et-an",
+  "course_code": "CS3003",
+  "course_name": "AI: Search Methods for Problem Solving",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

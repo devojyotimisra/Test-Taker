@@ -1,0 +1,812 @@
+{
+  "title": "DEGREE LEVEL : BIG DATA AND BIOLOGICAL NETWORKS (COMPUTER BASED EXAM)",
+  "filename": "bt4002_2026T1_Q1_NA.pdf",
+  "total_questions": 38,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : BIG DATA AND BIOLOGICAL NETWORKS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "DNA polymerase synthesises DNA in which direction?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4002_2026T1_Q1_NA_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2026T1_Q1_NA_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2026T1_Q1_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2026T1_Q1_NA_p2_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4002_2026T1_Q1_NA_p2_Im4.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p2_Im3.webp",
+        "/data/images/bt4002_2026T1_Q1_NA_p2_Im4.webp",
+        "/data/images/bt4002_2026T1_Q1_NA_p2_Im5.webp",
+        "/data/images/bt4002_2026T1_Q1_NA_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "RNA polymerase binds to a specific DNA sequence called",
+      "type": "MCQ",
+      "options": [
+        "Operator",
+        "Terminator",
+        "Promoter",
+        "Enhancer"
+      ],
+      "correct_answer": "Promoter",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "The sequence of three nucleotides on mRNA that codes for an amino acid is called",
+      "type": "MCQ",
+      "options": [
+        "Anticodon",
+        "Codon",
+        "Exon",
+        "Intron"
+      ],
+      "correct_answer": "Codon",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "The transcriptome of a cell is",
+      "type": "MCQ",
+      "options": [
+        "Constant across all tissues",
+        "Independent of environmental signals",
+        "Dynamic and condition-dependent",
+        "Identical to the genome"
+      ],
+      "correct_answer": "Dynamic and condition-dependent",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "GWAS is primarily used to",
+      "type": "MCQ",
+      "options": [
+        "Sequence the entire genome of one individual",
+        "Study gene expression patterns",
+        "Identify genetic variants associated with traits or diseases",
+        "Modify disease-causing genes"
+      ],
+      "correct_answer": "Identify genetic variants associated with traits or diseases",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "The amplification method used in Illumina sequencing is",
+      "type": "MCQ",
+      "options": [
+        "Emulsion PCR",
+        "Rolling circle amplification",
+        "Bridge amplification",
+        "RT-PCR"
+      ],
+      "correct_answer": "Bridge amplification",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "In a network, a 'bridge' node connects two otherwise isolated groups. If a node has 6 neighbors, and 3 of these neighbors form a complete clique among themselves while the other 3 have no connections to anyone else, what is this node's clustering coefficient?",
+      "type": "MCQ",
+      "options": [
+        "0.50",
+        "0.20",
+        "0.10",
+        "0.33"
+      ],
+      "correct_answer": "0.20",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the following network. If the efficiency ( [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p4_Im3.webp|inline] ) of the information flow from this network is defined as the inverse of the average characteristic path length ( [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p4_Im4.webp|inline] ), such that [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p4_Im5.webp|inline] . The efficiency of information flow from this network is [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p4_Im6.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1.6",
+        "0.83",
+        "0.25",
+        "1.25"
+      ],
+      "correct_answer": "0.83",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p4_Im3.webp",
+        "/data/images/bt4002_2026T1_Q1_NA_p4_Im4.webp",
+        "/data/images/bt4002_2026T1_Q1_NA_p4_Im5.webp",
+        "/data/images/bt4002_2026T1_Q1_NA_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Generate two distinct realizations of the Erd\u0151s\u2013R\u00e9nyi random network model. Network 1: node_num=1000 and prob=0.001 Network 2: node_num=100 and prob=0.001 [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p5_Im1.webp|block] While plotting the degree distribution plot, which of the following statements best describes and compares the degree distributions of these two networks?",
+      "type": "MCQ",
+      "options": [
+        "Poisson; Poisson",
+        "Poisson; Binomial",
+        "Binomial; Poisson",
+        "Binomial; Binomial"
+      ],
+      "correct_answer": "Poisson; Poisson",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "In the construction of a Watts-Strogatz Small-World network, the topology is governed by the rewiring probability parameter [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p5_Im4.webp|inline] . If we set the rewiring probability to its maximum value, [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p5_Im5.webp|inline] , which of the following best describes the resulting network's structural behavior?",
+      "type": "MCQ",
+      "options": [
+        "Regular lattice model",
+        "Random network model",
+        "Rich gets richer model",
+        "Configuration model"
+      ],
+      "correct_answer": "Random network model",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p5_Im4.webp",
+        "/data/images/bt4002_2026T1_Q1_NA_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "In which of the following network architectures are degree centrality and betweenness centrality typically most strongly correlated, particularly for the highest-ranking nodes?",
+      "type": "MCQ",
+      "options": [
+        "Bipartite graph",
+        "Scale free network",
+        "Erdos Renyi network",
+        "2D lattice network"
+      ],
+      "correct_answer": "Scale free network",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "What is the value of the clustering coefficient ( [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p6_Im1.webp|inline] ) for any node in a strictly bipartite network N with average degree as [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p6_Im2.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "1.0",
+        "[IMAGE: /data/images/bt4002_2026T1_Q1_NA_p6_Im4.webp|inline]",
+        "0",
+        "[IMAGE: /data/images/bt4002_2026T1_Q1_NA_p6_Im6.webp|inline]"
+      ],
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p6_Im1.webp",
+        "/data/images/bt4002_2026T1_Q1_NA_p6_Im2.webp",
+        "/data/images/bt4002_2026T1_Q1_NA_p6_Im4.webp",
+        "/data/images/bt4002_2026T1_Q1_NA_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "If you are tasked with deploying defensive equipment (such as anti-aircraft batteries or rapid- response units) to protect a nation from air-to-ground attacks, and your primary objective is to ensure that these units can reach any point in the network in the fewest possible steps, which centrality measure should you prioritize for site selection?",
+      "type": "MCQ",
+      "options": [
+        "Eigenvector centrality",
+        "Degree centrality",
+        "Betweenness centrality",
+        "Closeness centrality"
+      ],
+      "correct_answer": "Closeness centrality",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "A network with a skewed adjacency matrix where most entries are in a few rows/columns is a hallmark of:",
+      "type": "MCQ",
+      "options": [
+        "Bipartite network",
+        "Erdos Renyi network",
+        "Scale-free network",
+        "US power grid network"
+      ],
+      "correct_answer": "Scale-free network",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Transcription involves which of the following?",
+      "type": "multichoice",
+      "options": [
+        "DNA as a template",
+        "RNA polymerase",
+        "Ribosomes",
+        "Ribonucleotides"
+      ],
+      "correct_answer": [
+        "DNA as a template",
+        "RNA polymerase",
+        "Ribonucleotides"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Which of the following statements are true regarding metabolomics and fluxomics?",
+      "type": "multichoice",
+      "options": [
+        "Metabolomics is primarily a dynamic analysis of metabolic activity over time.",
+        "Fluxomics focuses on the rate of metabolite flow through metabolic pathways.",
+        "Metabolomics provides a snapshot of metabolite concentrations in a biological system.",
+        "Fluxomics commonly uses stable isotope labelling to quantify pathway activity"
+      ],
+      "correct_answer": [
+        "Fluxomics focuses on the rate of metabolite flow through metabolic pathways.",
+        "Metabolomics provides a snapshot of metabolite concentrations in a biological system.",
+        "Fluxomics commonly uses stable isotope labelling to quantify pathway activity"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "In the context of network ensembles, which of the following accurately differentiate an Erd\u0151s\u2013R\u00e9nyi (ER) random network from a Scale-Free (SF) biological network?",
+      "type": "multichoice",
+      "options": [
+        "ER networks are resilient to targetted attacks on hubs, while SF networks are not.",
+        "ER networks always have higher clustering coefficients than SF networks.",
+        "ER networks have a homogeneous distribution, while SF networks are heterogneneous.",
+        "The diameter of an ER network scales is typically larger than SF networks."
+      ],
+      "correct_answer": [
+        "ER networks are resilient to targetted attacks on hubs, while SF networks are not.",
+        "ER networks have a homogeneous distribution, while SF networks are heterogneneous.",
+        "The diameter of an ER network scales is typically larger than SF networks."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "The Power Law (Scale-Free) network model is a cornerstone of modern network science. However, it possesses several structural and dynamical disadvantages when used to represent real-world biological or infrastructure systems. Which of the following are recognized disadvantages or limitations of this model?",
+      "type": "multichoice",
+      "options": [
+        "Less vulnerability to Targeted Attacks: Because the network's integrity relies on a small number of massive hubs, the deliberate removal of these high-degree nodes leads to a rapid decrease in network diameter and eventual integration.",
+        "Lack of High Clustering: The basic Barab\u00e1si\u2013Albert model fails to produce the high local clustering (triadic closure) observed in real-world social and metabolic networks, as it primarily focuses on global connectivity growth.",
+        "Infinite Variance in Infinite Networks: In networks where the power-law exponent [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p8_Im3.webp|inline] making standard statistical tools (like those based on Gaussian distributions) difficult or impossible to apply to the network's properties.",
+        "The \"First-Mover\" Bias: The model assumes that the oldest nodes always accumulate the most edges, failing to account for \"late-comer\" nodes that might become hubs due to superior fitness or functional relevance (the \"Fit-get-Richer\" phenomenon)."
+      ],
+      "correct_answer": [
+        "Lack of High Clustering: The basic Barab\u00e1si\u2013Albert model fails to produce the high local clustering (triadic closure) observed in real-world social and metabolic networks, as it primarily focuses on global connectivity growth.",
+        "Infinite Variance in Infinite Networks: In networks where the power-law exponent [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p8_Im3.webp|inline] making standard statistical tools (like those based on Gaussian distributions) difficult or impossible to apply to the network's properties.",
+        "The \"First-Mover\" Bias: The model assumes that the oldest nodes always accumulate the most edges, failing to account for \"late-comer\" nodes that might become hubs due to superior fitness or functional relevance (the \"Fit-get-Richer\" phenomenon)."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "In a large, regular lattice network, a \"shortcut\" edge is added between two distant peripheral nodes. Which of the following centrality measures would remain unaffected for the vast majority of nodes in the network (excluding the two nodes directly involved in the new connection)?",
+      "type": "multichoice",
+      "options": [
+        "Eigenvector centrality",
+        "Degree centrality",
+        "Betweenness centrality",
+        "Clustering coefficient of each unaffected node"
+      ],
+      "correct_answer": [
+        "Degree centrality",
+        "Clustering coefficient of each unaffected node"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "The following question consists of two statements: an Assertion (A) and a Reason (R) . Select the correct answer from the options below: Assertion (A) : The Human Genome Project revealed that a large portion of the human genome does not code for proteins. Reason (R) : Only a small percentage of human DNA consists of genes that are translated into proteins.",
+      "type": "MCQ",
+      "options": [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is not the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true"
+      ],
+      "correct_answer": "Both A and R are true, and R is the correct explanation of A",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Match the following and choose the correct option [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p9_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A\u20135, B\u20131, C\u20133, D\u20132, E\u20134",
+        "A\u20131, B\u20135, C\u20133, D\u20132, E\u20134",
+        "A\u20135, B\u20133, C\u20131, D\u20132, E\u20134",
+        "A\u20134, B\u20131, C\u20133, D\u20135, E\u20132"
+      ],
+      "correct_answer": "A\u20135, B\u20131, C\u20133, D\u20132, E\u20134",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Which of the following statements are true regarding enzymes involved in replication? A. Helicase unwinds the DNA double helix B. DNA ligase seals nicks between Okazaki fragments C. Primase synthesises DNA primers D. DNA polymerase I removes RNA primers",
+      "type": "MCQ",
+      "options": [
+        "A and B only",
+        "A, B and D",
+        "B, C and D",
+        "A, C and D"
+      ],
+      "correct_answer": "A, B and D",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "The following question consists of two statements: an Assertion (A) and a Reasoning (R) . Select the correct answer from the options below: Assertion (A) : In a Star Graph topology, the central hub possesses the highest degree centrality but zero betweenness centrality in the entire network. Reasoning (R) : The central node in a star graph acts as a mandatory bridge for all [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p10_Im1.webp|inline] pairs of peripheral nodes that wish to communicate via the shortest path.",
+      "type": "MCQ",
+      "options": [
+        "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+        "(A) is true, but (R) is false.",
+        "(A) is false, but (R) is true."
+      ],
+      "correct_answer": "(A) is false, but (R) is true.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Identify the template strand for transcription. NOTE: Your answer should not exceed 20 words. Max Word Count : 20 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p10_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4002_2026T1_Q1_NA_p10_Im4.webp|block]",
+      "group_id": "6406531961371",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "Write the RNA strand synthesised. NOTE: Your answer should not exceed 20 words. Max Word Count : 20 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p10_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4002_2026T1_Q1_NA_p10_Im4.webp|block]",
+      "group_id": "6406531961371",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "Identify the start codon and stop codon (if present) in the RNA strand. NOTE: Your answer should not exceed 20 words. Max Word Count : 20 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p10_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4002_2026T1_Q1_NA_p10_Im4.webp|block]",
+      "group_id": "6406531961371",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "What is the [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p12_Im1.webp|inline] end nucleotide of the newly synthesised DNA strand? NOTE: Enter the exact answer without any extra space in the beginning or at the end. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "G Guanine Guanine (G)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "During Sanger sequencing of a DNA fragment, the sequencing gel shows bands in the following order from bottom to top: G, A, T, C, C, A, G, T, A",
+      "group_id": "6406531961375",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "Which dideoxynucleotide (ddNTP) caused termination of the longest DNA fragment? NOTE: Enter the exact answer without any extra space in the beginning or at the end. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "ddATP ddA A",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "During Sanger sequencing of a DNA fragment, the sequencing gel shows bands in the following order from bottom to top: G, A, T, C, C, A, G, T, A",
+      "group_id": "6406531961375",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "Why is the DNA sequence read from bottom to top in a Sanger sequencing gel? NOTE: Your answer should not exceed 50 words. Max Word Count : 50 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "During Sanger sequencing of a DNA fragment, the sequencing gel shows bands in the following order from bottom to top: G, A, T, C, C, A, G, T, A",
+      "group_id": "6406531961375",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "Write the corresponding mRNA sequence. NOTE: Your answer should not exceed 20 words. Max Word Count : 20 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following DNA coding strand sequence is given: 5\u2032-ATGACCTTACGATAA-3\u2032. Answer the given subquestions using this Codon chart. [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p13_Im1.webp|block]",
+      "group_id": "6406531961379",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 32,
+      "text": "Identify the start codon. NOTE: Your answer should not exceed 3 words. Max Word Count : 3 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following DNA coding strand sequence is given: 5\u2032-ATGACCTTACGATAA-3\u2032. Answer the given subquestions using this Codon chart. [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p13_Im1.webp|block]",
+      "group_id": "6406531961379",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 33,
+      "text": "Write the amino acid sequence coded by this nucleotide sequence. NOTE: Your answer should not exceed 10 words. Max Word Count : 10 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following DNA coding strand sequence is given: 5\u2032-ATGACCTTACGATAA-3\u2032. Answer the given subquestions using this Codon chart. [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p13_Im1.webp|block]",
+      "group_id": "6406531961379",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 34,
+      "text": "What is the diameter of the given network?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4.8 to 5.2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following network. Answer the given subquestions. [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p15_Im1.webp|block]",
+      "group_id": "6406531961383",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 35,
+      "text": "What is the characteristic path length of the network?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.2 to 2.4",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following network. Answer the given subquestions. [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p15_Im1.webp|block]",
+      "group_id": "6406531961383",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 36,
+      "text": "What is the clustering coefficient of node D if we add an edge between A and D?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.25 to 0.4",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following network. Answer the given subquestions. [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p15_Im1.webp|block]",
+      "group_id": "6406531961383",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 37,
+      "text": "How many new edges must be added to this network so that its density becomes 1?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "19",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following network. Answer the given subquestions. [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p15_Im1.webp|block]",
+      "group_id": "6406531961383",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "original_number": 38,
+      "text": "The maximum peak of degree distribution ( [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p16_Im1.webp|inline] ) is at",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_Q1_NA_p16_Im1.webp",
+        "/data/images/bt4002_2026T1_Q1_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following network. Answer the given subquestions. [IMAGE: /data/images/bt4002_2026T1_Q1_NA_p15_Im1.webp|block]",
+      "group_id": "6406531961383",
+      "section_name": "BDBN"
+    }
+  ],
+  "id": "bt4002-2026t1-q1-na",
+  "course_code": "BT4002",
+  "course_name": "Introduction to Bioinformatics",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

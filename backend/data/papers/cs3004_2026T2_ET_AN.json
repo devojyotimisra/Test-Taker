@@ -1,0 +1,494 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)",
+  "filename": "cs3004_2026T2_ET_AN.pdf",
+  "total_questions": 20,
+  "total_marks": 28.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Inscript Consider a CNN architecture that takes an RGB image of size [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im3.webp|inline] as input. The architecture is [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im4.webp|block] The layers have the following specifications: \u2022 [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im5.webp|inline] : 16 filters of size [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im6.webp|inline] , stride 1, padding 0, with one bias term per filter. \u2022 [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im7.webp|inline] : [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im8.webp|inline] pooling with stride [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im9.webp|inline] . \u2022 [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im10.webp|inline] : 32 filters of size [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im11.webp|inline] , stride [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im12.webp|inline] , padding [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im13.webp|inline] , with one bias term per filter. \u2022 [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im14.webp|inline] : [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im15.webp|inline] pooling with stride [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im16.webp|inline] . \u2022 [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im17.webp|inline] : 64 neurons, with one bias term per neuron. \u2022 [IMAGE: /data/images/cs3004_2026T2_ET_AN_p1_Im18.webp|inline] : 10 neurons, with one bias term per neuron. Calculate the total number of trainable parameters in the CNN.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "79530",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im3.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im4.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im5.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im6.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im7.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im8.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im9.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im10.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im11.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im12.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im13.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im14.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im15.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im16.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im17.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p1_Im18.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider backpropagation in a feedforward neural network with sigmoid activations [IMAGE: /data/images/cs3004_2026T2_ET_AN_p2_Im1.webp|inline] and cross-entropy loss. Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "The gradient at each layer depends on the gradient propagated from the layer above it.",
+        "Since [IMAGE: /data/images/cs3004_2026T2_ET_AN_p2_Im3.webp|inline] , repeated multiplication of these factors across many layers can cause gradients to shrink toward zero.",
+        "A very large gradient can cause excessively large weight updates, potentially making training unstable.",
+        "Small gradients always cause the loss to decrease during training."
+      ],
+      "correct_answer": [
+        "The gradient at each layer depends on the gradient propagated from the layer above it.",
+        "Since [IMAGE: /data/images/cs3004_2026T2_ET_AN_p2_Im3.webp|inline] , repeated multiplication of these factors across many layers can cause gradients to shrink toward zero.",
+        "A very large gradient can cause excessively large weight updates, potentially making training unstable."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p2_Im1.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Inscript Compute the network output [IMAGE: /data/images/cs3004_2026T2_ET_AN_p3_Im2.webp|inline] under Scenario A (ReLU).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p3_Im2.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p3_Im1.webp|block]",
+      "group_id": "6406532280158",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Inscript Compute the network output [IMAGE: /data/images/cs3004_2026T2_ET_AN_p4_Im1.webp|inline] under Scenario B (Maxout).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p4_Im1.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p3_Im1.webp|block]",
+      "group_id": "6406532280158",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Inscript During backpropagation, what is [IMAGE: /data/images/cs3004_2026T2_ET_AN_p4_Im2.webp|inline] for scenario [IMAGE: /data/images/cs3004_2026T2_ET_AN_p4_Im3.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p4_Im2.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p4_Im3.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p3_Im1.webp|block]",
+      "group_id": "6406532280158",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "In Scenario B, the Maxout neuron [IMAGE: /data/images/cs3004_2026T2_ET_AN_p4_Im4.webp|inline] receives the same pre-activations as ReLU. Will this unit's weights receive a non-zero gradient during backpropagation?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p4_Im4.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p3_Im1.webp|block]",
+      "group_id": "6406532280158",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "How many encoder states [IMAGE: /data/images/cs3004_2026T2_ET_AN_p5_Im4.webp|inline] are made available to the attention mechanism?",
+      "type": "MCQ",
+      "options": [
+        "7",
+        "49",
+        "14",
+        "2048"
+      ],
+      "correct_answer": "49",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p5_Im4.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p5_Im1.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p5_Im2.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An attention-based image-captioning model replaces the single global fc7 vector with the output of the last convolutional block of a ResNet-50, a feature map of size [IMAGE: /data/images/cs3004_2026T2_ET_AN_p5_Im1.webp|inline] . Each spatial location of this feature map is treated as one encoder state [IMAGE: /data/images/cs3004_2026T2_ET_AN_p5_Im2.webp|inline] (analogous to one word's hidden state [IMAGE: /data/images/cs3004_2026T2_ET_AN_p5_Im3.webp|inline] in text attention), so that the decoder can attend to different image regions at each output step.",
+      "group_id": "6406532280163",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript What is the dimensionality of each [IMAGE: /data/images/cs3004_2026T2_ET_AN_p5_Im7.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2048",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p5_Im7.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p5_Im1.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p5_Im2.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An attention-based image-captioning model replaces the single global fc7 vector with the output of the last convolutional block of a ResNet-50, a feature map of size [IMAGE: /data/images/cs3004_2026T2_ET_AN_p5_Im1.webp|inline] . Each spatial location of this feature map is treated as one encoder state [IMAGE: /data/images/cs3004_2026T2_ET_AN_p5_Im2.webp|inline] (analogous to one word's hidden state [IMAGE: /data/images/cs3004_2026T2_ET_AN_p5_Im3.webp|inline] in text attention), so that the decoder can attend to different image regions at each output step.",
+      "group_id": "6406532280163",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Which encoder state receives the highest attention weight from the decoder at step [IMAGE: /data/images/cs3004_2026T2_ET_AN_p6_Im2.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "Encoder state [IMAGE: /data/images/cs3004_2026T2_ET_AN_p6_Im4.webp|inline]",
+        "Encoder state [IMAGE: /data/images/cs3004_2026T2_ET_AN_p6_Im6.webp|inline]",
+        "Encoder state [IMAGE: /data/images/cs3004_2026T2_ET_AN_p7_Im2.webp|inline]",
+        "All three receive equal attention weight"
+      ],
+      "correct_answer": "Encoder state [IMAGE: /data/images/cs3004_2026T2_ET_AN_p6_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p6_Im2.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p6_Im1.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p6_Im4.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p6_Im6.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p6_Im1.webp|block]",
+      "group_id": "6406532280166",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript Compute the attention weight [IMAGE: /data/images/cs3004_2026T2_ET_AN_p7_Im3.webp|inline] . Enter the answer correct to three decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.540 to 0.548",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p7_Im3.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p6_Im1.webp|block]",
+      "group_id": "6406532280166",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Compute the first component of the context vector [IMAGE: /data/images/cs3004_2026T2_ET_AN_p7_Im4.webp|inline] . Enter the answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.00 to 1.04",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p7_Im4.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p6_Im1.webp|block]",
+      "group_id": "6406532280166",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript Let [IMAGE: /data/images/cs3004_2026T2_ET_AN_p8_Im2.webp|block] Compute [IMAGE: /data/images/cs3004_2026T2_ET_AN_p8_Im3.webp|inline] and enter the sum of diagonal elements of the resulting matrix. Enter the answer correct to three decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.019 to 0.022",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p8_Im2.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p8_Im3.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p8_Im1.webp|block]",
+      "group_id": "6406532280170",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript Now let [IMAGE: /data/images/cs3004_2026T2_ET_AN_p8_Im4.webp|block] Compute [IMAGE: /data/images/cs3004_2026T2_ET_AN_p8_Im5.webp|inline] and enter the sum of diagonal elements of the resulting matrix. Enter the answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "15.10 to 15.25",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p8_Im4.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p8_Im5.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p8_Im1.webp|block]",
+      "group_id": "6406532280170",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Which statements correctly describes the two networks given in the previous two subquestions?",
+      "type": "MCQ",
+      "options": [
+        "Both networks suffer from vanishing gradients, since [IMAGE: /data/images/cs3004_2026T2_ET_AN_p9_Im2.webp|inline] in both cases.",
+        "The first network exhibits exploding gradients while the second exhibits vanishing gradients.",
+        "The first network exhibits vanishing gradients while the second exhibits exploding gradients.",
+        "Both networks suffer from exploding gradients, since [IMAGE: /data/images/cs3004_2026T2_ET_AN_p9_Im4.webp|inline] in both cases."
+      ],
+      "correct_answer": "The first network exhibits vanishing gradients while the second exhibits exploding gradients.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p8_Im1.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p9_Im2.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p8_Im1.webp|block]",
+      "group_id": "6406532280170",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript Compute [IMAGE: /data/images/cs3004_2026T2_ET_AN_p10_Im2.webp|inline] and [IMAGE: /data/images/cs3004_2026T2_ET_AN_p10_Im3.webp|inline] and enter the sum of the elements of [IMAGE: /data/images/cs3004_2026T2_ET_AN_p10_Im4.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p10_Im2.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p10_Im3.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p10_Im4.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p10_Im1.webp|block]",
+      "group_id": "6406532280174",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript Compute the probability [IMAGE: /data/images/cs3004_2026T2_ET_AN_p10_Im5.webp|inline] Enter the answer correct to three decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.264 to 0.272",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p10_Im5.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p10_Im1.webp|block]",
+      "group_id": "6406532280174",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript How many numbers you need to store in total if you do a rank-1 truncation [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im13.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1801",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im13.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im1.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im2.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im3.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im4.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im5.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im6.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im7.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im8.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im9.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im10.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im11.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A term-context co-occurrence matrix [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im1.webp|inline] is approximated by SVD as [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im2.webp|inline] , truncated to rank [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im3.webp|inline] , where [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im4.webp|inline] , [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im5.webp|inline] , and [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im6.webp|inline] is diagonal with singular values [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im7.webp|inline] . Let [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im8.webp|inline] and [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im9.webp|inline] denote the [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im10.webp|inline] -th columns of [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im11.webp|inline] and [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im12.webp|inline] respectively. Answer the given subquestions:",
+      "group_id": "6406532280177",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im1.webp|inline] can be used as the [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im2.webp|inline] -dimensional representation of the [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im3.webp|inline] vocabulary words.",
+        "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im5.webp|inline] can be used as the representation of the [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im6.webp|inline] context words.",
+        "SVD requires an iterative gradient-based optimization procedure similar to the training of CBOW.",
+        "Since [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im8.webp|inline] , the matrix [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im9.webp|inline] is equal to [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im10.webp|inline] ."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im1.webp|inline] can be used as the [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im2.webp|inline] -dimensional representation of the [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im3.webp|inline] vocabulary words.",
+        "[IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im5.webp|inline] can be used as the representation of the [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im6.webp|inline] context words."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im1.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im2.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im3.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im4.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im5.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im6.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im7.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im8.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im9.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im10.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im11.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p11_Im12.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im1.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im2.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im3.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im5.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im6.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im8.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im9.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A term-context co-occurrence matrix [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im1.webp|inline] is approximated by SVD as [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im2.webp|inline] , truncated to rank [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im3.webp|inline] , where [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im4.webp|inline] , [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im5.webp|inline] , and [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im6.webp|inline] is diagonal with singular values [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im7.webp|inline] . Let [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im8.webp|inline] and [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im9.webp|inline] denote the [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im10.webp|inline] -th columns of [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im11.webp|inline] and [IMAGE: /data/images/cs3004_2026T2_ET_AN_p11_Im12.webp|inline] respectively. Answer the given subquestions:",
+      "group_id": "6406532280177",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Inscript A model uses [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im11.webp|inline] regularization with the following objective function: [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im12.webp|block] where [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im13.webp|inline] is the unregularized loss. At iteration ( t ), the current weight is [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im14.webp|inline] , the gradient of the unregularized loss is [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im15.webp|block] the regularization parameter [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im16.webp|inline] , and the learning rate [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im17.webp|inline] . Using gradient descent on the regularized objective function [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im18.webp|inline] , calculate the updated weight [IMAGE: /data/images/cs3004_2026T2_ET_AN_p12_Im19.webp|inline] . Enter the answer correct to three decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.782 to 2.788",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im11.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im12.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im13.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im14.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im15.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im16.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im17.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im18.webp",
+        "/data/images/cs3004_2026T2_ET_AN_p12_Im19.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    }
+  ],
+  "id": "cs3004-2026t2-et-an",
+  "course_code": "CS3004",
+  "course_name": "Deep Learning",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

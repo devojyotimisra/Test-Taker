@@ -1,0 +1,838 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)",
+  "filename": "cs2003_2026T2_ET_FN.pdf",
+  "total_questions": 33,
+  "total_marks": 92.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Which of the following statements about Git conflict resolution are TRUE?",
+      "type": "multichoice",
+      "options": [
+        "Conflicts occur when Git automatically merges conflicting changes without user intervention",
+        "The pushing of code to remote repository before pulling is rejected by git to prevent merge conflicts",
+        "Merge conflicts must be resolved manually in the conflicted files",
+        "After resolving conflicts, you must run [IMAGE: /data/images/cs2003_2026T2_ET_FN_p1_Im3.webp|inline] and [IMAGE: /data/images/cs2003_2026T2_ET_FN_p1_Im4.webp|inline] to complete the merge"
+      ],
+      "correct_answer": [
+        "The pushing of code to remote repository before pulling is rejected by git to prevent merge conflicts",
+        "Merge conflicts must be resolved manually in the conflicted files",
+        "After resolving conflicts, you must run [IMAGE: /data/images/cs2003_2026T2_ET_FN_p1_Im3.webp|inline] and [IMAGE: /data/images/cs2003_2026T2_ET_FN_p1_Im4.webp|inline] to complete the merge"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p1_Im3.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p1_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following Python code. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p2_Im1.webp|block] Assume that the above code is executed using the command \u201cpytest -v test_fixture.py\u201d. What is the output of the tested code? (Assume tests run in the same session and global state is preserved. )",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p2_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p2_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p2_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p2_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p2_Im4.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p2_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the following HTML templates and Python Flask code. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p3_Im1.webp|block] Assume that the Flask app is running at [IMAGE: /data/images/cs2003_2026T2_ET_FN_p3_Im2.webp|inline] . What will be rendered for the URL request [IMAGE: /data/images/cs2003_2026T2_ET_FN_p3_Im3.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "Parent content Child content",
+        "Parent content",
+        "Child content",
+        "Child content Parent content"
+      ],
+      "correct_answer": "Parent content",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p3_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p3_Im2.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following HTML and CSS code targeting a specific paragraph element on a webpage. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Orange",
+        "Red",
+        "Green",
+        "Blue"
+      ],
+      "correct_answer": "Orange",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the following Python code. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p4_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Student profile: Siya rAJ Sharma",
+        "Student profile: SiyarAJSharma",
+        "Student profile: SiyaRajSharma",
+        "Student profile: Siya Raj Sharma"
+      ],
+      "correct_answer": "Student profile: Siya Raj Sharma",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following Python Flask code. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "bool(sys.argv[1])",
+        "sys.argv[1] == \"debug\"",
+        "sys.argv[1]",
+        "int(sys.argv[1])"
+      ],
+      "correct_answer": "sys.argv[1] == \"debug\"",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following data model for a Music Streaming App: [IMAGE: /data/images/cs2003_2026T2_ET_FN_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p6_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p6_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p6_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p5_Im4.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p6_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p6_Im3.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p6_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the following Python Flask code. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[\u201cIITM\u201d, \u201cBS\u201d, \u201cMAD1\u201d]",
+        "[\u201cMAD1\u201d]",
+        "[ ]",
+        "None"
+      ],
+      "correct_answer": "[\u201cIITM\u201d, \u201cBS\u201d, \u201cMAD1\u201d]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im3.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im7.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p8_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p8_Im3.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p8_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p8_Im6.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "You have a DRAM module with bus width of 64 bits, clock speed of 1 GHz, and operating in DDR (double-data-rate or two values per clock cycle) mode. What is the maximum bandwidth (in Giga- bytes per second) of data transfer achievable with this module?",
+      "type": "MCQ",
+      "options": [
+        "8 GigaBytes/s",
+        "16 GigaBytes/s",
+        "24 GigaBytes/s",
+        "None of these"
+      ],
+      "correct_answer": "16 GigaBytes/s",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Examine the following Python test file: [IMAGE: /data/images/cs2003_2026T2_ET_FN_p9_Im3.webp|block] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "pytest payment_tests.py -m unit",
+        "pytest payment_tests.py -m integration",
+        "pytest payment_tests.py -m \"not slow\"",
+        "pytest payment_tests.py -m \"slow or integration\"",
+        "None of these"
+      ],
+      "correct_answer": "pytest payment_tests.py -m unit",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p9_Im3.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Which of the following statements is/are correct? Statement 1: A single physical machine can simultaneously run software performing the roles of a client, web server, and database server. Statement 2: The terms client and server describe logical software roles rather than requiring separate physical machines.",
+      "type": "MCQ",
+      "options": [
+        "Only Statement 1 is correct",
+        "Both are incorrect",
+        "Both are correct",
+        "Only Statement 2 is correct"
+      ],
+      "correct_answer": "Both are correct",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "In a standard web-based MVC implementation, what is the typical flow when an end-user submits a web form to update their profile information?",
+      "type": "MCQ",
+      "options": [
+        "View \u2192 Model \u2192 Controller \u2192 View",
+        "Controller \u2192 Model \u2192 View \u2192 Controller",
+        "Model \u2192 Controller \u2192 View \u2192 Model",
+        "View \u2192 Controller \u2192 Model \u2192 View"
+      ],
+      "correct_answer": "View \u2192 Controller \u2192 Model \u2192 View",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "When constructing an HTML5 form, which [IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im1.webp|inline] element correctly uses native browser validation to require an email address and displays a hint inside the empty field?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im6.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p11_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p11_Im3.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p11_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p11_Im6.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p11_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Sessions are used primarily to:",
+      "type": "MCQ",
+      "options": [
+        "Give the server information about what the client was doing previously.",
+        "Limit the amount of time a user can connect to a system.",
+        "Allow the government to intercept communications.",
+        "None of these"
+      ],
+      "correct_answer": "Give the server information about what the client was doing previously.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Both Statement 1 and Statement 2 are correct.",
+        "Both Statement 1 and Statement 2 are incorrect.",
+        "Statement 1 is incorrect, but Statement 2 is correct.",
+        "Statement 1 is correct, but Statement 2 is incorrect."
+      ],
+      "correct_answer": "Statement 1 is incorrect, but Statement 2 is correct.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p11_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "What does the result represent when the following code is executed? [IMAGE: /data/images/cs2003_2026T2_ET_FN_p13_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A list containing the Order objects with order_id 101 and 102",
+        "A list containing only the Order object with order_id 101",
+        "A list containing only the amount values 500 and 700",
+        "A single Order object with order_id 101"
+      ],
+      "correct_answer": "A list containing the Order objects with order_id 101 and 102",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p13_Im2.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p12_Im3.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p12_Im4.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following Flask-SQLAlchemy models and data. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p12_Im3.webp|block] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p12_Im4.webp|block] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406532265559",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Which of the following statements is/are correct when the following code is executed? [IMAGE: /data/images/cs2003_2026T2_ET_FN_p13_Im5.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p13_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p13_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p14_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p14_Im4.webp|inline]",
+        "The result will give value David"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p13_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p14_Im4.webp|inline]",
+        "The result will give value David"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p13_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p12_Im3.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p12_Im4.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p13_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p13_Im6.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p13_Im7.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p14_Im2.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p14_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following Flask-SQLAlchemy models and data. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p12_Im3.webp|block] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p12_Im4.webp|block] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406532265559",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p14_Im6.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Product 10",
+        "This site can\u2019t be reached",
+        "Not Found",
+        "/product/10"
+      ],
+      "correct_answer": "/product/10",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p14_Im6.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p14_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following Python Flask code. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p14_Im5.webp|block]",
+      "group_id": "6406532265562",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p15_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p15_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p15_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p15_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p15_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p15_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p15_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p15_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p15_Im3.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p14_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p15_Im4.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p15_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p15_Im6.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p15_Im7.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p15_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following Python Flask code. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p14_Im5.webp|block]",
+      "group_id": "6406532265562",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Consider the following Python Flask code. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im3.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im6.webp|inline]"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p16_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p16_Im3.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p16_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p16_Im6.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p16_Im7.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p16_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p17_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p17_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im2.webp|block]",
+        ""
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p17_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p17_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p18_Im2.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p18_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im5.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p19_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p19_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p19_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p19_Im2.webp|block]",
+        ""
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p18_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p18_Im7.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p19_Im2.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p19_Im3.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p19_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Inscript A passenger ferry departs from a port terminal equipped with a maritime Wi-Fi transmitter having a line-of-sight range of 9 kilometers and a constant throughput of 4 Mbps. The ferry leaves the port terminal and travels directly out to sea at a steady speed of 36 km/h. Assuming a passenger on board continuously streams video using the full available bandwidth, how much data (in Megabytes) will be transferred before the connection drops? (Assume 8 bits = 1 Byte, 1000 Bytes = 1 KB, 1000 KB = 1 MB).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "450",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "Inscript [IMAGE: /data/images/cs2003_2026T2_ET_FN_p20_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p20_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "Inscript A magnetic disk operating at 7200 rpm is being used to store data. The disk can only spin in one direction at a constant speed of 7200 revolutions per minute. If the operating system sends a request to the disk controller to fetch data from the disk, what is the worst case latency (in msec) before it can start retrieving data?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8.33",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "Inscript [IMAGE: /data/images/cs2003_2026T2_ET_FN_p21_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p21_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p22_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p22_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p22_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p22_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p22_Im5.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p22_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p22_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p22_Im6.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p22_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p24_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0 and then 1",
+        "1 and then 1",
+        "None and then None",
+        "None and then 1"
+      ],
+      "correct_answer": "None and then 1",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p24_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p23_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p23_Im1.webp|block]",
+      "group_id": "6406532265575",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p24_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p24_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p24_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p24_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p24_Im7.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p24_Im4.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p23_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p24_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p24_Im6.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p24_Im7.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p25_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p23_Im1.webp|block]",
+      "group_id": "6406532265575",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 32,
+      "text": "Suppose you have an HTML element with id=\"box\" . Which of the following JavaScript statements will successfully change the background color of the element to blue?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im6.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im4.webp|inline]",
+        ""
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p25_Im4.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p25_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p25_Im6.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p25_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 33,
+      "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im3.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im6.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im8.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im3.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im8.webp|block]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T2_ET_FN_p26_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p26_Im3.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p26_Im4.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p26_Im6.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p26_Im7.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p26_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    }
+  ],
+  "id": "cs2003-2026t2-et-fn",
+  "course_code": "CS2003",
+  "course_name": "Application Development 1",
+  "level": "Diploma in Programming",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

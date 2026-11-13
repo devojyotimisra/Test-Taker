@@ -1,0 +1,412 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)",
+  "filename": "cs2004_2026T1_Q2_NA.pdf",
+  "total_questions": 14,
+  "total_marks": 30.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider a vector [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im3.webp|inline] such that [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im4.webp|inline] . Let [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im5.webp|inline] , where [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im6.webp|inline] is the identity matrix. Which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im7.webp|inline] is Hermitian and unitary.",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im8.webp|inline] is Hermitian but not unitary.",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im9.webp|inline] is unitary but not Hermitian.",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im10.webp|inline] is neither Hermitian nor unitary."
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im7.webp|inline] is Hermitian and unitary.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im3.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im4.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im5.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im6.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im7.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im8.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im9.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "If [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im11.webp|inline] is a [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im12.webp|inline] matrix with eigenvalues [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im13.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im14.webp|inline] , what is det [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p1_Im15.webp|inline] ? Note: det denotes the determinant.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im2.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im11.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im12.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im13.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im14.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p1_Im15.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im2.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im4.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im5.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im7.webp|block] Let be a Hermitian matrix. Which of the following options is correct for the values of [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im8.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im9.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im12.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im13.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im12.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im7.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im8.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im9.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im10.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im11.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im12.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im14.webp|block] Let . Find the condition on [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im15.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im16.webp|inline] for which the matrix [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im17.webp|inline] is positive-definite.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im18.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p2_Im19.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im4.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im6.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im2.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im14.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im15.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im16.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im17.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im18.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p2_Im19.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im2.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im4.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im5.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im6.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Which of the following represents the Taylor series expansion up to the third degree term of [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im8.webp|inline] around [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im9.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im12.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im13.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im10.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im8.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im9.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im10.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im11.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im12.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "If [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im14.webp|inline] is a real matrix of shape [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im15.webp|inline] , which of the following is/are true?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im16.webp|inline] is a positive semi-definite matrix.",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im17.webp|inline] is a positive semi-definite matrix.",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im18.webp|inline] is positive semi-definite if and only if [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im19.webp|inline] is a symmetric matrix.",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im2.webp|inline] is positive semi-definite if and only if [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im3.webp|inline] is a square matrix.",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im16.webp|inline] is a positive semi-definite matrix.",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p3_Im17.webp|inline] is a positive semi-definite matrix."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im14.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im15.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im16.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im17.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im18.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p3_Im19.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im2.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im3.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following matrix for [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im5.webp|inline] : [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im6.webp|block] Which of the following options is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im7.webp|inline] is unitary for all real values of [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im8.webp|inline] other than [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im9.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im10.webp|inline] is unitary for [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im11.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im13.webp|inline] is unitary for [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im14.webp|inline] .",
+        "If [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im15.webp|inline] , then all eigenvalues of [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im16.webp|inline] satisfy [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im17.webp|inline] .",
+        "If [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im18.webp|inline] is any non-zero real value, then all eigenvalues of [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im19.webp|inline] satisfy [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im20.webp|inline] ."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im13.webp|inline] is unitary for [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im14.webp|inline] .",
+        "If [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im15.webp|inline] , then all eigenvalues of [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im16.webp|inline] satisfy [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im17.webp|inline] ."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im5.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im6.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im7.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im8.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im9.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im10.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im11.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im13.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im14.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im15.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im16.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im17.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im18.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im19.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im20.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider a function [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im21.webp|inline] whose graph is shown below. [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im22.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im23.webp|inline] correspond to local minima of [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p4_Im24.webp|inline] . [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im1.webp|block] We run two separate instances of gradient descent with the same learning [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im2.webp|inline] but different initial points. (1) Starting from the point [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im3.webp|inline] (2) Starting from the point [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im4.webp|inline] Assume that [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im5.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im6.webp|inline] are very small positive quantities. Which of the following is/are true if we run gradient descent for a large number of iterations?",
+      "type": "multichoice",
+      "options": [
+        "Instance (1) will converge to the point [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im8.webp|inline]",
+        "Instance (2) will converge to the point [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im9.webp|inline]",
+        "Both instances (1) and (2) will converge to [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im11.webp|inline]",
+        "Both instances (1) and (2) will converge to [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im12.webp|inline]",
+        "Instance (1) will not converge to [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im13.webp|inline] , but will diverge to negative infinity",
+        "Instance (2) will not converge to [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im14.webp|inline] , but will diverge to infinity"
+      ],
+      "correct_answer": [
+        "Instance (1) will converge to the point [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im8.webp|inline]",
+        "Instance (2) will converge to the point [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p5_Im9.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im21.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im22.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im23.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p4_Im24.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p5_Im1.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p5_Im2.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p5_Im3.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p5_Im4.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p5_Im5.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p5_Im6.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p5_Im8.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p5_Im9.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p5_Im11.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p5_Im12.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p5_Im13.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p5_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im1.webp|inline] is a real matrix of shape [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im2.webp|inline] with the following singular values: [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im3.webp|inline] . Find the rank of [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im4.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im1.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im2.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im3.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im5.webp|block] Consider the matrix . Find the sum of all the singular values of [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im6.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im5.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript A function [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im7.webp|inline] is minimized using the gradient descent algorithm. Let [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im8.webp|inline] denote the value of [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im9.webp|inline] at which [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im10.webp|inline] is minimized.Starting from the initial point [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im11.webp|inline] , one iteration of gradient descent is performed with a learning rate of [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im12.webp|inline] . If [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im13.webp|inline] denotes the point obtained after this iteration, find the value of [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p6_Im14.webp|inline] . Enter the answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.7 to 0.9",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im7.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im8.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im9.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im10.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im11.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im12.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im13.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p6_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p7_Im3.webp|block] If is the covariance matrix of the dataset, find [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p7_Im4.webp|inline] . Enter the nearest integer as your answer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p7_Im3.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p7_Im4.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p7_Im1.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following dataset in [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p7_Im1.webp|inline] [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p7_Im2.webp|block] Run PCA on this dataset.",
+      "group_id": "6406532035140",
+      "section_name": "MLF"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript Let [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p8_Im1.webp|inline] be the unit-norm eigenvector corresponding to the smallest eigenvalue of the covariance matrix. Find the variance of the dataset along the direction [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p8_Im2.webp|inline] . Enter the nearest integer as your answer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q2_NA_p8_Im1.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p8_Im2.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p7_Im1.webp",
+        "/data/images/cs2004_2026T1_Q2_NA_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following dataset in [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p7_Im1.webp|inline] [IMAGE: /data/images/cs2004_2026T1_Q2_NA_p7_Im2.webp|block] Run PCA on this dataset.",
+      "group_id": "6406532035140",
+      "section_name": "MLF"
+    }
+  ],
+  "id": "cs2004-2026t1-q2-na",
+  "course_code": "CS2004",
+  "course_name": "Machine Learning Foundations",
+  "level": "Diploma in Data Science",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

@@ -1,0 +1,337 @@
+{
+  "title": "FOUNDATION LEVEL : COMPUTATIONAL THINKING (COMPUTER BASED EXAM)",
+  "filename": "bscs1001_2026T2_Q1_NA.pdf",
+  "total_questions": 14,
+  "total_marks": 47.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"FOUNDATION LEVEL : COMPUTATIONAL THINKING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p1_Im3.webp|block] [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Useful Data has been mentioned above.",
+        "This data attachment is just for a reference & not for an evaluation."
+      ],
+      "correct_answer": "Useful Data has been mentioned above.",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q1_NA_p1_Im3.webp",
+        "/data/images/bscs1001_2026T2_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "The following pseudocode is executed using the Word dataset. What will count represent at the end of the execution? [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Number of words which are nouns and have at most four letters",
+        "Number of words which are either not nouns or have at least four letters but not both",
+        "Number of words which are either nouns or have at most four letters or both",
+        "Number of words which are nouns and have at least four letters"
+      ],
+      "correct_answer": "Number of words which are nouns and have at least four letters",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q1_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "The following pseudocode is executed on the \"Library\" dataset. What will count represent after the pseudocode below is executed? [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Number of book pairs that have different authors but are written in the same language",
+        "Number of book pairs that have different authors and languages",
+        "Number of book pairs that have the same author but are in different languages",
+        "Number of book pairs that have same author and are in the same language"
+      ],
+      "correct_answer": "Number of book pairs that have different authors but are written in the same language",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q1_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Statement The following pseudocode is executed using the \"Words\" dataset. At the end of the execution, count stores the number of pairs of verbs such that both verbs have either different letter counts or both end with a full stop. Choose the correct code fragment to complete the pseudocode. [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Statement 1: X .PartOfSpeech == \"Verb\" Statement 2: X .PartOfSpeech == Y .PartOfSpeech Statement 3: X .Word and Y .Word end with a full stop",
+        "Statement 1: X .PartOfSpeech == Y .PartOfSpeech Statement 2: X .PartOfSpeech == \"Verb\" Statement 3: X .Word and Y .Word end with a full stop",
+        "Statement 1: X .PartOfSpeech == \"Verb\" Statement 2: X .Word and Y .Word end with a full stop Statement 3: X .PartOfSpeech == Y .PartOfSpeech",
+        "Statement 1: X .Word and Y .Word end with a full stop Statement 2: X .PartOfSpeech == Y .PartOfSpeech Statement 3: X .PartOfSpeech == \"Verb\""
+      ],
+      "correct_answer": "Statement 1: X .PartOfSpeech == \"Verb\" Statement 2: X .PartOfSpeech == Y .PartOfSpeech Statement 3: X .Word and Y .Word end with a full stop",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Match the following expressions in the Column 1 with the appropriate values in Column 2 . [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "a - (3), b - (2), c - (2), d - (5), e - (3)",
+        "a - (1), b - (3), c - (2), d - (1), e - (2)",
+        "a - (3), b - (2), c - (1), d - (3), e - (2)",
+        "a - (1), b - (3), c - (2), d - (1), e - (1)"
+      ],
+      "correct_answer": "a - (3), b - (2), c - (1), d - (3), e - (2)",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "The following pseudocode is executed using the \u201cScores\u201d dataset. [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p6_Im4.webp|block] Which of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "A represents the number of female students whose total marks are at least 250.",
+        "B represents the number of female students whose total marks are less than 250.",
+        "B represents the number of students whose total marks are less than 250.",
+        "A represents number of male students whose total marks are at most 250.."
+      ],
+      "correct_answer": "B represents the number of female students whose total marks are less than 250.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q1_NA_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "The following pseudocode is executed using the Shopping Bills dataset. At the end of the execution, A captures the lowest price across all items purchased from Big Bazaar . But the pseudocode may have mistakes in one or more lines. Identify all such lines (if any). Assume that all statements not listed in the options below are free of errors. [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p7_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Line 1: Incorrect initialization of *A*",
+        "Line 6: Incorrect conditional statement",
+        "Line 14: Incorrect initialization of *minPrice*",
+        "Line 17: Incorrect conditional statement"
+      ],
+      "correct_answer": [
+        "Line 6: Incorrect conditional statement",
+        "Line 14: Incorrect initialization of *minPrice*"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q1_NA_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript Statement The following pseudocode is executed using a dataset similar to the \"Words\" dataset, based on the following paragraph. \"Mountains often appear calm from a distance, hiding their rugged terrain. Moments of reflection help people understand themselves better. The evening breeze carried the scent of flowers across the valley. Morning walks encouraged Rahul to maintain a healthy routine. Birds chirped softly as the sun rose above the horizon.\" [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p8_Im1.webp|block] What would be the value of count at the end of the execution of the pseudocode above ? Assume that upper case and lower case are ignored during comparison of letters.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Statement The following pseudocode is executed using the \u201cScores\u201d dataset. What will A represent at the end of the execution? [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Number of students with highest marks in Physics among the three subjects",
+        "Number of students with highest marks in Physics and lowest marks in Mathematics",
+        "Number of students with highest marks in Chemistry among the three subjects",
+        "Number of students with lowest marks in Mathematics among the three subjects"
+      ],
+      "correct_answer": "Number of students with highest marks in Physics among the three subjects",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Statement The following pseudocode is executed using the \u201cOlympics\u201d dataset. Procedure doSomething accepts a table where all rows belong to the same player. Assume that the player has won at least two medals and only one medal in any year. At the end of the execution, if ( B - A ) represents year the gap between first and second medals won by a player then, choose the correct code fragment to complete the pseudocode. [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p10_Im5.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p10_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p11_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p10_Im5.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q1_NA_p10_Im1.webp",
+        "/data/images/bscs1001_2026T2_Q1_NA_p10_Im5.webp",
+        "/data/images/bscs1001_2026T2_Q1_NA_p10_Im6.webp",
+        "/data/images/bscs1001_2026T2_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Statement The following procedure is executed using \"Words\" dataset. What will A represent at the end of the execution? Step 1. Arrange all cards in a single pile called Pile 1 Step 2. Maintain two variables A , B and initialize them to 0 Step 3. If Pile 1 is empty then stop the iteration Step 4. Read the top card in Pile 1 Step 5. Increment variable B Step 6. If Word does not end with a full stop then execute step 9 Step 7. If Word ends with a full stop and B > A then store B in A Step 8. Re-initialize the variable B to 0 Step 9. Move the current card to another pile called Pile 2 and repeat from step 3",
+      "type": "MCQ",
+      "options": [
+        "Length of the shortest sentence based on the number of words",
+        "Length of the longest sentence based on the number of words",
+        "Length of the longest sentence based on the number of letters",
+        "Length of the shortest sentence based on the number of letters"
+      ],
+      "correct_answer": "Length of the longest sentence based on the number of words",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Statement A pair of words is said to be special if it fulfills following conditions: The number of vowels are the same in both words and the number of consonants are not the same in both words. The given pseudocode is executed using the \u201c Words \u201d dataset. The variable count in the given pseudocode counts the number of special pairs. Choose the correct code fragment to complete the pseudocode. [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p12_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p13_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p13_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q1_NA_p12_Im1.webp",
+        "/data/images/bscs1001_2026T2_Q1_NA_p12_Im5.webp",
+        "/data/images/bscs1001_2026T2_Q1_NA_p13_Im1.webp",
+        "/data/images/bscs1001_2026T2_Q1_NA_p13_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Statement A student proposed a hypothesis that fewer students are born in the first half of the year than the second half of the year. She wrote the following procedure which uses the \u201cScores\u201d dataset to verify the hypothesis. However, the procedure may contain some errors. Find out the errors if present. Step 1: Arrange all cards in a single pile called Pile 1 Step 2: Maintain two variables A and B and initialize them to 0 Step 3: If Pile 1 is empty then stop the iteration and start from Step 8 Step 4: Read the top card in Pile 1 Step 5: If the Date of Birth is from 1st January to 30th June then increment A Step 6: If the Date of Birth is from 1st July to 31st December then increment B Step 7: Move the current card to another pile called Pile 2 and repeat from Step 3 Step 8: If A > B then declare the hypothesis to be True Step 9: If A \u2264 B then declare the hypothesis to be False",
+      "type": "multichoice",
+      "options": [
+        "Step 5 to increment A is incorrect",
+        "Step 6 to increment B is incorrect",
+        "Step 8 to declare the hypothesis as True is incorrect",
+        "Step 9 to declare the hypothesis as False is incorrect",
+        "The procedure is free of errors"
+      ],
+      "correct_answer": [
+        "Step 8 to declare the hypothesis as True is incorrect",
+        "Step 9 to declare the hypothesis as False is incorrect"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    }
+  ],
+  "id": "bscs1001-2026t2-q1-na",
+  "course_code": "BSCS1001",
+  "course_name": "Computational Thinking",
+  "level": "Foundation",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

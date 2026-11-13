@@ -1,0 +1,495 @@
+{
+  "title": "DEGREE LEVEL : COMPILER DESIGN (COMPUTER BASED EXAM)",
+  "filename": "cs4032_2026T2_Q2_NA.pdf",
+  "total_questions": 18,
+  "total_marks": 46.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : COMPILER DESIGN (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider the regular language [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p1_Im3.webp|block] over the alphabet [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p1_Im4.webp|block] Which of the following strings belong to [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p1_Im5.webp|inline] ? (Select all that apply.)",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p1_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p1_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p1_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p1_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p1_Im10.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p1_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p1_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p1_Im8.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p1_Im3.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p1_Im4.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p1_Im5.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p1_Im6.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p1_Im7.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p1_Im8.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p1_Im9.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p1_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "A lexical analyzer uses the following rules. [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p2_Im1.webp|block] The keyword rule has higher priority than the identifier rule. Input [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p2_Im2.webp|block] Which of the following gives the correct number of Keyword , Identifier , and Number tokens?",
+      "type": "MCQ",
+      "options": [
+        "(3,1,0)",
+        "(2,2,0)",
+        "(3,2,0)",
+        "(2,1,1)"
+      ],
+      "correct_answer": "(3,2,0)",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p2_Im1.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Convert the following infix expression to postfix notation: [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p2_Im5.webp|block] Which one of the following is the correct postfix expression?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p2_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p2_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p3_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p2_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p2_Im5.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p2_Im6.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p2_Im7.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p2_Im8.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "A parser generator performs the following steps: 1. Construct the canonical LR(1) collection of item sets. 2. Merge all states having the same LR(0) core. 3. Construct the ACTION and GOTO tables from the merged automaton. Which parsing technique is obtained after these steps?",
+      "type": "MCQ",
+      "options": [
+        "LR(0)",
+        "Canonical LR(1)",
+        "LALR(1)",
+        "SLR(1)"
+      ],
+      "correct_answer": "LALR(1)",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the grammar [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p3_Im4.webp|block] The initial state is [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p3_Im5.webp|block] Which of the following is GOTO(I0, b) ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p3_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p3_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p4_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p3_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p3_Im4.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p3_Im5.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p3_Im6.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p3_Im7.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p3_Im8.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the grammar: [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p4_Im3.webp|block] A shift-reduce parser is parsing the input: [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p4_Im4.webp|block] The parser has already performed the following actions: [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p4_Im5.webp|block] What should be the next action ?",
+      "type": "MCQ",
+      "options": [
+        "Shift [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p4_Im6.webp|inline]",
+        "Reduce [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p4_Im8.webp|inline]",
+        "Reduce [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p4_Im9.webp|inline]",
+        "Accept"
+      ],
+      "correct_answer": "Reduce [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p4_Im8.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p4_Im3.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p4_Im4.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p4_Im5.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p4_Im6.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p4_Im8.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p4_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the production [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p5_Im1.webp|block] The semantic rules are [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p5_Im2.webp|block] Which of the following is the minimum valid attribute evaluation sequence ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p5_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p5_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p5_Im1.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p5_Im2.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p5_Im4.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p5_Im6.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p5_Im7.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p5_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the following overloaded functions. [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p5_Im9.webp|block] The compiler evaluates the following function calls. [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p5_Im10.webp|block] Which one of the following function calls requires integer promotion before overload resolution selects the best match?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p6_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p6_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p5_Im9.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p5_Im10.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p6_Im2.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p6_Im4.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p6_Im5.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "An embedded SDT contains the production [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p6_Im7.webp|block] To convert it into an equivalent postfix SDT while preserving the execution point of the action [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p6_Im8.webp|inline] , which of the following transformations is correct?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p6_Im10.webp|block]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p6_Im11.webp|block]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p7_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p6_Im7.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p6_Im8.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p6_Im10.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p6_Im11.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript Consider the alphabet [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p7_Im3.webp|block] [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p7_Im4.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p7_Im3.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Consider the following operator grammar: [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p7_Im5.webp|block] An operator-precedence parser is used to parse the expression [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p8_Im1.webp|block] using the following precedence and associativity rules: \u2022 [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p8_Im2.webp|inline] has higher precedence than [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p8_Im3.webp|inline] . \u2022 Both operators are left associative . Ignoring the end marker [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p8_Im4.webp|inline] , how many reduce operations are performed by the parser while parsing the expression?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p7_Im5.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p8_Im1.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p8_Im2.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p8_Im3.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider the grammar [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p8_Im5.webp|block] and the following recursive descent parser. [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p9_Im1.webp|block] Assume that: \u2022 Parsing starts by calling [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p9_Im2.webp|inline] . \u2022 [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p9_Im3.webp|inline] consumes the current input symbol only if it matches the expected symbol. \u2022 Any call that reports an error (i.e., executes [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p9_Im4.webp|inline] ) immediately causes the parse to fail, even if the final lookahead is [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p9_Im5.webp|inline] . \u2022 After [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p9_Im6.webp|inline] returns, the input is accepted only if no error has been reported and the current lookahead is [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p9_Im7.webp|inline] . Which of the following input strings is/are accepted?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p9_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p10_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p10_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p10_Im5.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p9_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p10_Im5.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p8_Im5.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p9_Im1.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p9_Im2.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p9_Im3.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p9_Im4.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p9_Im5.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p9_Im6.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p9_Im7.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p9_Im9.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p10_Im2.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p10_Im3.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p10_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "A context-free grammar contains the productions [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p10_Im6.webp|block] Which language is generated?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p10_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p10_Im8.webp|inline]",
+        "All strings over [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p10_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p10_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p10_Im8.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p10_Im6.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p10_Im7.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p10_Im8.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p10_Im9.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p10_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the following statements about SLR(1), Canonical LR(1), and LALR(1) parsers. 1. Every SLR(1) grammar is also an LALR(1) grammar. 2. Every LALR(1) grammar is also an LR(1) grammar. 3. Every LR(1) grammar is also an LALR(1) grammar. Which of the following is correct?",
+      "type": "MCQ",
+      "options": [
+        "Only 1 and 2",
+        "Only 2 and 3",
+        "Only 1 and 3",
+        "1, 2 and 3"
+      ],
+      "correct_answer": "Only 1 and 2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider the grammar. [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p11_Im3.webp|block] Which of the following correctly gives FIRST(S) and FOLLOW(X) ?",
+      "type": "MCQ",
+      "options": [
+        "FIRST(S) = {p, q, r, s} FOLLOW(X) = {r, s, $}",
+        "FIRST(S) = {p, q, r, s, \u03b5} FOLLOW(X) = {r, s}",
+        "FIRST(S) = {p, q, s} FOLLOW(X) = {$}",
+        "FIRST(S) = {p, q, r, s} FOLLOW(X) = {r, s}"
+      ],
+      "correct_answer": "FIRST(S) = {p, q, r, s} FOLLOW(X) = {r, s}",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p11_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "A student wants the exponentiation operator ( [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p11_Im4.webp|inline] ) to have higher precedence than multiplication. They write the following Bison declarations. [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p12_Im1.webp|block] For the expression [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p12_Im2.webp|block] which of the following statements are correct? (Select all that apply.)",
+      "type": "multichoice",
+      "options": [
+        "The expression is parsed as [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p12_Im4.webp|inline] .",
+        "The expression is parsed as [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p12_Im6.webp|inline] .",
+        "The [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p12_Im7.webp|inline] declaration makes [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p12_Im8.webp|inline] right-associative.",
+        "The value of the expression is [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p12_Im9.webp|inline] ."
+      ],
+      "correct_answer": [
+        "The expression is parsed as [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p12_Im4.webp|inline] .",
+        "The [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p12_Im7.webp|inline] declaration makes [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p12_Im8.webp|inline] right-associative."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p11_Im4.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p12_Im1.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p12_Im2.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p12_Im4.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p12_Im6.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p12_Im7.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p12_Im8.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p12_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Consider the SDD. [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p12_Im10.webp|block] Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p13_Im2.webp|inline] is a synthesized attribute.",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p13_Im3.webp|inline] is typically provided by the lexical analyzer.",
+        "This SDD requires inherited attributes for expression evaluation.",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p13_Im5.webp|inline] is inherited because it depends on [IMAGE: /data/images/cs4032_2026T2_Q2_NA_p13_Im6.webp|inline] .",
+        "The attribute evaluation naturally proceeds from the leaves toward the root."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p13_Im2.webp|inline] is a synthesized attribute.",
+        "[IMAGE: /data/images/cs4032_2026T2_Q2_NA_p13_Im3.webp|inline] is typically provided by the lexical analyzer.",
+        "The attribute evaluation naturally proceeds from the leaves toward the root."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4032_2026T2_Q2_NA_p12_Im10.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p13_Im2.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p13_Im3.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p13_Im5.webp",
+        "/data/images/cs4032_2026T2_Q2_NA_p13_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Compiler Design"
+    }
+  ],
+  "id": "cs4032-2026t2-q2-na",
+  "course_code": "CS4032",
+  "course_name": "Cryptography and Cyber Security",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

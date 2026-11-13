@@ -1,0 +1,547 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)",
+  "filename": "cs3001_2025T3_Q2_NA.pdf",
+  "total_questions": 24,
+  "total_marks": 92.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "A company is developing an Online Food Delivery System (OFDS) . Different users and systems interact with OFDS in various ways. Identify the type of client in each case. 1. A customer orders food from a restaurant using the OFDS mobile app. 2. The restaurant staff updates menu items and prices through the OFDS portal. 3. The payment gateway processes the customer\u2019s payment for the order. 4. The delivery tracking module communicates with the restaurant\u2019s order management system to update order status. Which of the following correctly matches the type of client for each case?",
+      "type": "MCQ",
+      "options": [
+        "1 \u2192 External user, 2 \u2192 Internal user, 3 \u2192 Software client, 4 \u2192 Software client",
+        "1 \u2192 Internal user, 2 \u2192 External user, 3 \u2192 Software client, 4 \u2192 Internal user",
+        "1 \u2192 External user, 2 \u2192 Software client, 3 \u2192 Internal user, 4 \u2192 Software client",
+        "1 \u2192 Software client, 2 \u2192 External user, 3 \u2192 Internal user, 4 \u2192 Internal user"
+      ],
+      "correct_answer": "1 \u2192 External user, 2 \u2192 Internal user, 3 \u2192 Software client, 4 \u2192 Software client",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "A ride-hailing company has completed the development of a fare estimation feature. Internal testers simulate trips and detect issues before release. Later, the company releases the feature to selected users to get real-world feedback. Which testing phases do these correspond to?",
+      "type": "MCQ",
+      "options": [
+        "Integration testing \u2192 Beta testing",
+        "Alpha testing \u2192 Beta testing",
+        "Unit testing \u2192 Integration testing",
+        "Beta testing \u2192 Alpha testing"
+      ],
+      "correct_answer": "Alpha testing \u2192 Beta testing",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "In a distributed software development project, multiple teams work on different modules. Each module exposes an interface to allow other teams to interact with it. From the following statements, which one(s) correctly describe the purpose of an interface definition?",
+      "type": "multichoice",
+      "options": [
+        "It specifies what actions a function or module can perform.",
+        "It explains how the function or module is implemented internally.",
+        "It defines the allowed inputs, requests, and format of the outputs.",
+        "Once the interface is defined, the underlying implementation can change without affecting other modules."
+      ],
+      "correct_answer": [
+        "It specifies what actions a function or module can perform.",
+        "It defines the allowed inputs, requests, and format of the outputs.",
+        "Once the interface is defined, the underlying implementation can change without affecting other modules."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "A team is building a mobile banking app. The exact requirements are unclear, so they build a prototype with limited functionality and share it with the client for feedback before building the full system. Which of the following are advantages of using a prototype model?",
+      "type": "multichoice",
+      "options": [
+        "Helps clients understand what they actually need.",
+        "Reduces development cost because prototypes are always used in production.",
+        "Helps developers identify technical issues and improve design before full development.",
+        "Ensures all bugs are caught before the final system is built."
+      ],
+      "correct_answer": [
+        "Helps clients understand what they actually need.",
+        "Helps developers identify technical issues and improve design before full development."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "You are developing features for the sales summary module of the seller portal. Different industries have different priorities: mobile sales teams care about launch day sales, whereas furniture sales teams care about 30-day sales trends. Why might you conduct focus groups with sales managers from different industries? (More than one answer may be correct)",
+      "type": "multichoice",
+      "options": [
+        "To gain consensus on common requirements across industries.",
+        "To highlight conflicts or differences between stakeholder needs.",
+        "To observe how users perform tasks in their natural setting.",
+        "To get detailed regulatory information from banks."
+      ],
+      "correct_answer": [
+        "To gain consensus on common requirements across industries.",
+        "To highlight conflicts or differences between stakeholder needs."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following two requirements: Requirement 1: The mobile banking app must complete a fund transfer transaction within 3 seconds. Requirement 2: The mobile banking app must allow users to view their account balance and transaction history. Which of the following statements is true?",
+      "type": "MCQ",
+      "options": [
+        "Requirement 1 is a functional requirement, whereas Requirement 2 is a non- functional requirement.",
+        "Requirement 2 is a functional requirement, whereas Requirement 1 is a non- functional requirement.",
+        "Both requirements are functional requirements.",
+        "Both the requirements are non-functional requirements."
+      ],
+      "correct_answer": "Requirement 2 is a functional requirement, whereas Requirement 1 is a non- functional requirement.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the user story given below for a ride-sharing app and answer the question. Feature: Find nearby drivers As a rider, I want to search for available drivers so that I can see driver details, estimated fare and arrival time within a reasonable time. The results must be displayed with clear sorting and filtering options. Now consider the following improvement in the user story. The phrase so that I can see driver details, estimated fare and arrival time within a reasonable time. is modified as: so that I can see driver details, estimated fare and arrival time within 4 seconds. It makes the user story more __________ .",
+      "type": "MCQ",
+      "options": [
+        "Specific",
+        "Measurable",
+        "Achievable",
+        "Relevant",
+        "Timeboxed"
+      ],
+      "correct_answer": "Measurable",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "A hospital management system introduces a new appointment booking interface. Users complain that it takes them a long time to figure out how to add or delete a patient record, and no tutorial or guided steps are provided. Which usability goal is not satisfied?",
+      "type": "MCQ",
+      "options": [
+        "Learnability",
+        "Memorability",
+        "Effectiveness",
+        "Efficiency"
+      ],
+      "correct_answer": "Learnability",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "During a client meeting, the UX designer presents hand-drawn sketches of different screens on paper to demonstrate navigation flow. The client suggests some changes, which the designer applies immediately. Which type of prototype is being used?",
+      "type": "MCQ",
+      "options": [
+        "Storyboard",
+        "Paper prototype",
+        "Interactive prototype",
+        "Digital mock-up"
+      ],
+      "correct_answer": "Paper prototype",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "A new user opens a document editor and navigates menus to copy text, while an experienced user immediately uses Ctrl+C. Which design heuristic is being demonstrated?",
+      "type": "MCQ",
+      "options": [
+        "Recognition over recall",
+        "Flexibility",
+        "Freedom",
+        "Providing help"
+      ],
+      "correct_answer": "Flexibility",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "A development team is creating a new e-commerce platform. They group related functionalities like inventory management, payment processing, and catalog management into separate modules. What aspect of the design process is being demonstrated?",
+      "type": "MCQ",
+      "options": [
+        "Interfaces",
+        "Components",
+        "Algorithms",
+        "Data structures"
+      ],
+      "correct_answer": "Components",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Module M1 directly modifies variables inside module M2 by referencing its internal implementation. What is this type of coupling?",
+      "type": "MCQ",
+      "options": [
+        "Data coupling",
+        "Common coupling",
+        "Content coupling",
+        "Control coupling"
+      ],
+      "correct_answer": "Content coupling",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "A developer changes code in one module, and multiple other modules start failing due to dependencies. Which issue does this illustrate?",
+      "type": "MCQ",
+      "options": [
+        "Poor data cohesion",
+        "High coupling",
+        "High cohesion",
+        "Good modular design"
+      ],
+      "correct_answer": "High coupling",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the class diagram given below. [IMAGE: /data/images/cs3001_2025T3_Q2_NA_p7_Im0.webp|block] Which of the following is/are true about the class diagram?",
+      "type": "multichoice",
+      "options": [
+        "There is an association relation between Customer and Order .",
+        "There is a composition relation between Order and Item .",
+        "There is an inheritance relation between Order and ExpressOrder .",
+        "There is an aggregation relation between Customer and Order .",
+        "There is a composition relation between Customer and Order .",
+        "There is an inheritance relation between Item and Order ."
+      ],
+      "correct_answer": [
+        "There is an association relation between Customer and Order .",
+        "There is a composition relation between Order and Item .",
+        "There is an inheritance relation between Order and ExpressOrder ."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T3_Q2_NA_p7_Im0.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Which debugging strategy involves tracing the flow of execution from the beginning of the program to identify where the output deviates from expectations?",
+      "type": "MCQ",
+      "options": [
+        "Forward debugging",
+        "Backward debugging",
+        "Input manipulation strategy",
+        "Black-box debugging"
+      ],
+      "correct_answer": "Forward debugging",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "A developer has written the following Python function to compute the factorial of a number: def factorial(n): if n < 0: return None elif n == 0 or n == 1: return 1 else: result = 1 for i in range(2, n + 1): result *= i return result What is the cyclomatic complexity of this function?",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "4",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "A developer is working on a branch feature1 while another developer fixes a bug in branch issueP and merges it into the master . The developer now needs to use a function ( fun1 ) added in the bug-fix branch, inside feature1 . Which Git command should be used before merging, to bring the latest changes from master into feature1 ?",
+      "type": "MCQ",
+      "options": [
+        "git fetch master",
+        "git pull origin feature1",
+        "git rebase master",
+        "git clone master"
+      ],
+      "correct_answer": "git rebase master",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "A compiler processes source code into assembly and then an executable file. Each step transforms data and passes it to the next stage. Which architectural style best describes this system?",
+      "type": "MCQ",
+      "options": [
+        "Peer-to-Peer",
+        "Model-View-Controller",
+        "Pipe and Filter",
+        "Client-Server"
+      ],
+      "correct_answer": "Pipe and Filter",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "A developer is designing a software system for a marketplace. There are multiple delivery types: physical shipment, email delivery, and instant download. Which of the following is a key advantage of applying the Interface Segregation Principle in this scenario?",
+      "type": "MCQ",
+      "options": [
+        "Clients are forced to implement all delivery methods, ensuring consistency.",
+        "Each client implements only the methods relevant to its delivery type, avoiding meaningless implementations.",
+        "Interfaces are removed entirely, and all functionality is placed in one monolithic class.",
+        "It reduces the number of classes in the system."
+      ],
+      "correct_answer": "Each client implements only the methods relevant to its delivery type, avoiding meaningless implementations.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "You are designing a Book class with mandatory fields (ISBN, title, cost) and optional fields (author, published year, description). Using multiple constructors to handle every combination of fields leads to telescoping constructors. Which design pattern would best solve this problem?",
+      "type": "MCQ",
+      "options": [
+        "Factory Pattern",
+        "Builder Pattern",
+        "Adapter Pattern",
+        "Facade Pattern"
+      ],
+      "correct_answer": "Builder Pattern",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "In a sprint planning meeting, which of the following are true?",
+      "type": "multichoice",
+      "options": [
+        "The team decides what work can be completed in the sprint",
+        "Only the product owner decides which user stories are included",
+        "The team discusses how the selected work will be implemented",
+        "Sprint planning is time-boxed"
+      ],
+      "correct_answer": [
+        "The team decides what work can be completed in the sprint",
+        "The team discusses how the selected work will be implemented",
+        "Sprint planning is time-boxed"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Consider a Work Breakdown Structure (WBS) for a project with root node \"Amazon Seller Portal\" and leaf nodes such as \"Component Diagram,\" \"Database Schema,\" and \"User Interface.\" Which of the following statements are correct about WBS?",
+      "type": "multichoice",
+      "options": [
+        "WBS breaks down project activities into smaller tasks",
+        "Each leaf node represents a task that can be assigned to a developer",
+        "Dependencies between tasks are explicitly represented in the WBS",
+        "WBS is structured like a tree with the project as the root"
+      ],
+      "correct_answer": [
+        "WBS breaks down project activities into smaller tasks",
+        "Each leaf node represents a task that can be assigned to a developer",
+        "WBS is structured like a tree with the project as the root"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "[IMAGE: /data/images/cs3001_2025T3_Q2_NA_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "R1",
+        "R2",
+        "R3",
+        "All equally"
+      ],
+      "correct_answer": "R3",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T3_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    }
+  ],
+  "id": "cs3001-2025t3-q2-na",
+  "course_code": "CS3001",
+  "course_name": "Software Engineering",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

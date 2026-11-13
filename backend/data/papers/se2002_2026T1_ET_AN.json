@@ -1,0 +1,715 @@
+{
+  "title": "DIPLOMA LEVEL : TOOLS IN DATA SCIENCE (COMPUTER BASED EXAM)",
+  "filename": "se2002_2026T1_ET_AN.pdf",
+  "total_questions": 28,
+  "total_marks": 38.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : TOOLS IN DATA SCIENCE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "You construct a [IMAGE: /data/images/se2002_2026T1_ET_AN_p1_Im3.webp|inline] file. Which formatting rule must be followed to avoid parsing errors? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Use curly braces [IMAGE: /data/images/se2002_2026T1_ET_AN_p1_Im4.webp|inline] to define arrays.",
+        "Use spaces for indentation, not tab characters.",
+        "Wrap bash scripts in HTML [IMAGE: /data/images/se2002_2026T1_ET_AN_p1_Im5.webp|inline] tags.",
+        "End every line with a semicolon [IMAGE: /data/images/se2002_2026T1_ET_AN_p1_Im6.webp|inline] ."
+      ],
+      "correct_answer": "Use spaces for indentation, not tab characters.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p1_Im3.webp",
+        "/data/images/se2002_2026T1_ET_AN_p1_Im4.webp",
+        "/data/images/se2002_2026T1_ET_AN_p1_Im5.webp",
+        "/data/images/se2002_2026T1_ET_AN_p1_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "A student types [IMAGE: /data/images/se2002_2026T1_ET_AN_p1_Im7.webp|inline] in their Bash terminal. If [IMAGE: /data/images/se2002_2026T1_ET_AN_p1_Im8.webp|inline] doesn't exist, what immediately occurs? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Shell throws a \"File Not Found\" error.",
+        "SQLite creates a new empty database file [IMAGE: /data/images/se2002_2026T1_ET_AN_p1_Im9.webp|inline] .",
+        "Interactive prompt asks for a database schema.",
+        "Kernel triggers a script to repair the system path."
+      ],
+      "correct_answer": "SQLite creates a new empty database file [IMAGE: /data/images/se2002_2026T1_ET_AN_p1_Im9.webp|inline] .",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p1_Im7.webp",
+        "/data/images/se2002_2026T1_ET_AN_p1_Im8.webp",
+        "/data/images/se2002_2026T1_ET_AN_p1_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "A student queries a remote 5GB Parquet file versus 5GB CSV. Parquet queries are much faster. Why? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Parquet files execute logic server-side before returning data.",
+        "CSV files include encryption that DuckDB struggles to decode.",
+        "Parquet uses columnar storage\u2014DuckDB downloads only requested columns.",
+        "Parquet uses multithreading to unpack data in browser memory."
+      ],
+      "correct_answer": "Parquet uses columnar storage\u2014DuckDB downloads only requested columns.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "When committing code to a public repository, which files should be added to [IMAGE: /data/images/se2002_2026T1_ET_AN_p2_Im3.webp|inline] ? Choose all correct options.",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/se2002_2026T1_ET_AN_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/se2002_2026T1_ET_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2026T1_ET_AN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2002_2026T1_ET_AN_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/se2002_2026T1_ET_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2026T1_ET_AN_p2_Im6.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p2_Im3.webp",
+        "/data/images/se2002_2026T1_ET_AN_p2_Im4.webp",
+        "/data/images/se2002_2026T1_ET_AN_p2_Im5.webp",
+        "/data/images/se2002_2026T1_ET_AN_p2_Im6.webp",
+        "/data/images/se2002_2026T1_ET_AN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "You run [IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im1.webp|inline] . What happens? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "OS captures stdout and redirects to [IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im3.webp|inline] , replacing existing contents.",
+        "Bash captures both stdout and stderr, merging them into [IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im5.webp|inline] .",
+        "Script accepts [IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im6.webp|inline] as input payload.",
+        "OS alerts the cloud environment that Python started."
+      ],
+      "correct_answer": "OS captures stdout and redirects to [IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im3.webp|inline] , replacing existing contents.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p3_Im1.webp",
+        "/data/images/se2002_2026T1_ET_AN_p3_Im3.webp",
+        "/data/images/se2002_2026T1_ET_AN_p3_Im5.webp",
+        "/data/images/se2002_2026T1_ET_AN_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "You fetch data with [IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im7.webp|inline] . What's the difference between [IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im8.webp|inline] and [IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im9.webp|inline] ? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im10.webp|inline] parses bools; [IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im11.webp|inline] treats everything as strings.",
+        "[IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im12.webp|inline] returns raw string; [IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im13.webp|inline] decodes to dictionary.",
+        "[IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im14.webp|inline] executes JavaScript files remotely in Python.",
+        "No difference\u2014both return strings initially."
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im12.webp|inline] returns raw string; [IMAGE: /data/images/se2002_2026T1_ET_AN_p3_Im13.webp|inline] decodes to dictionary.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p3_Im7.webp",
+        "/data/images/se2002_2026T1_ET_AN_p3_Im8.webp",
+        "/data/images/se2002_2026T1_ET_AN_p3_Im9.webp",
+        "/data/images/se2002_2026T1_ET_AN_p3_Im10.webp",
+        "/data/images/se2002_2026T1_ET_AN_p3_Im11.webp",
+        "/data/images/se2002_2026T1_ET_AN_p3_Im12.webp",
+        "/data/images/se2002_2026T1_ET_AN_p3_Im13.webp",
+        "/data/images/se2002_2026T1_ET_AN_p3_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "A Vercel server crashes for 5 minutes. A Cloudflare Worker performs the same API logic. What happens to the Worker? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Worker also crashes\u2014both share cloud infrastructure.",
+        "Worker continues serving\u2014runs on 300+ edge locations; single failures don't cause outages.",
+        "Cloudflare reroutes traffic to the crashed Vercel server.",
+        "Worker pauses and queues requests until Vercel recovers."
+      ],
+      "correct_answer": "Worker continues serving\u2014runs on 300+ edge locations; single failures don't cause outages.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Ngrok's free tier doesn't support custom subdomains. What's localtunnel's advantage? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Free and open-source with no signup needed to expose servers.",
+        "Automatically deploys local servers to production cloud hosting platforms.",
+        "Provides built-in authentication to block unauthorized tunnel access attempts.",
+        "Encrypts all traffic whereas Ngrok sends data in plaintext."
+      ],
+      "correct_answer": "Free and open-source with no signup needed to expose servers.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "A developer tests a sorting function with Hypothesis. Which represents a valid invariant for any sorting function? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Output always equals [IMAGE: /data/images/se2002_2026T1_ET_AN_p4_Im3.webp|inline] for any input.",
+        "Output contains same elements as input; no element exceeds its successor.",
+        "Executes in under 10 milliseconds for all inputs.",
+        "Input list modified in-place without creating new list."
+      ],
+      "correct_answer": "Output contains same elements as input; no element exceeds its successor.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "In DuckDB, you run [IMAGE: /data/images/se2002_2026T1_ET_AN_p4_Im4.webp|inline] . One row has [IMAGE: /data/images/se2002_2026T1_ET_AN_p4_Im5.webp|inline] latency. How is the average calculated? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Ignores [IMAGE: /data/images/se2002_2026T1_ET_AN_p5_Im2.webp|inline] ; calculates using only valid rows.",
+        "Coerces [IMAGE: /data/images/se2002_2026T1_ET_AN_p5_Im4.webp|inline] to [IMAGE: /data/images/se2002_2026T1_ET_AN_p5_Im5.webp|inline] and includes it in sum.",
+        "Throws runtime error demanding [IMAGE: /data/images/se2002_2026T1_ET_AN_p5_Im6.webp|inline] filter.",
+        "Final aggregate result becomes [IMAGE: /data/images/se2002_2026T1_ET_AN_p5_Im7.webp|inline] ."
+      ],
+      "correct_answer": "Ignores [IMAGE: /data/images/se2002_2026T1_ET_AN_p5_Im2.webp|inline] ; calculates using only valid rows.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p4_Im4.webp",
+        "/data/images/se2002_2026T1_ET_AN_p4_Im5.webp",
+        "/data/images/se2002_2026T1_ET_AN_p5_Im2.webp",
+        "/data/images/se2002_2026T1_ET_AN_p5_Im4.webp",
+        "/data/images/se2002_2026T1_ET_AN_p5_Im5.webp",
+        "/data/images/se2002_2026T1_ET_AN_p5_Im6.webp",
+        "/data/images/se2002_2026T1_ET_AN_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "A spatial join of 100K customers to 50 warehouses takes 45 minutes without index, 8 seconds with index. Why? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Spatial indexes compress geometries, reducing transfer time.",
+        "Indexes use tree structures, avoiding testing every customer-warehouse pair.",
+        "Indexes parallelize queries across multiple CPU cores.",
+        "Indexes cache previous query results in memory."
+      ],
+      "correct_answer": "Indexes use tree structures, avoiding testing every customer-warehouse pair.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Your UI on [IMAGE: /data/images/se2002_2026T1_ET_AN_p5_Im8.webp|inline] fetches from [IMAGE: /data/images/se2002_2026T1_ET_AN_p5_Im9.webp|inline] . Browser throws [IMAGE: /data/images/se2002_2026T1_ET_AN_p5_Im10.webp|inline] . How to resolve? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Use WebSockets instead of HTTP.",
+        "Encrypt frontend payload before dispatching.",
+        "Add [IMAGE: /data/images/se2002_2026T1_ET_AN_p5_Im11.webp|inline] to backend response headers.",
+        "Add [IMAGE: /data/images/se2002_2026T1_ET_AN_p5_Im12.webp|inline] to fetch call."
+      ],
+      "correct_answer": "Add [IMAGE: /data/images/se2002_2026T1_ET_AN_p5_Im11.webp|inline] to backend response headers.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p5_Im8.webp",
+        "/data/images/se2002_2026T1_ET_AN_p5_Im9.webp",
+        "/data/images/se2002_2026T1_ET_AN_p5_Im10.webp",
+        "/data/images/se2002_2026T1_ET_AN_p5_Im11.webp",
+        "/data/images/se2002_2026T1_ET_AN_p5_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Why pin dependencies (e.g., [IMAGE: /data/images/se2002_2026T1_ET_AN_p6_Im1.webp|inline] ) instead of leaving them unpinned? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Ensures reproducible pipelines; prevents updates from breaking code.",
+        "Downloads packages faster from cloud index.",
+        "Unpinned versions fail to execute in Docker images.",
+        "Pinned versions compress faster into virtual RAM."
+      ],
+      "correct_answer": "Ensures reproducible pipelines; prevents updates from breaking code.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "A data analyst is computing the distance between two delivery points stored as latitude/longitude pairs (in degrees). They try three approaches: 1. Euclidean distance directly on the raw (lat, lon) degree values. 2. The Haversine formula with Earth radius R = 6371 km. 3. Converting the coordinates to a projected CRS (e.g., UTM) first, then using Euclidean distance in metres. Which statement is correct ?",
+      "type": "MCQ",
+      "options": [
+        "All three methods give the same distance because lat/lon already act like regular metric units everywhere on Earth.",
+        "Euclidean on raw degrees is the most accurate for far-apart points because it skips trigonometry and avoids numerical error.",
+        "Haversine gives km along Earth's curve, UTM gives metres on a plane, and raw-degree euclidean fails because 1 o longitude varies.",
+        "UTM gives equally accurate distances anywhere on Earth, no matter which UTM zone the points actually fall in."
+      ],
+      "correct_answer": "Haversine gives km along Earth's curve, UTM gives metres on a plane, and raw-degree euclidean fails because 1 o longitude varies.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Fraud model: 99.2% test accuracy, 52% production accuracy. Dataset chronological, [IMAGE: /data/images/se2002_2026T1_ET_AN_p7_Im1.webp|inline] , rolling stats computed before splitting. What caused collapse? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Model overfitted\u2014common when accuracy exceeds 95%.",
+        "[IMAGE: /data/images/se2002_2026T1_ET_AN_p7_Im4.webp|inline] created temporal leakage; rolling stats before split caused feature leakage.",
+        "Different hardware causes numerical precision differences.",
+        "Fraud patterns evolve; historical models always fail on new data."
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2026T1_ET_AN_p7_Im4.webp|inline] created temporal leakage; rolling stats before split caused feature leakage.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p7_Im1.webp",
+        "/data/images/se2002_2026T1_ET_AN_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "A Vercel edge function processes logs; needs 40 seconds but hits [IMAGE: /data/images/se2002_2026T1_ET_AN_p7_Im5.webp|inline] at 10 seconds. Why? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "JSON array logic crashed on duplicate row.",
+        "Serverless edge enforces strict timeout limits.",
+        "Cloud router dropped IP variable array mid-execution.",
+        "Edge functions disable multithreading for loops >1000 iterations."
+      ],
+      "correct_answer": "Serverless edge enforces strict timeout limits.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p7_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Why does the browser reject the connection when React ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im4.webp|inline] ) fetches from FastAPI ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im5.webp|inline] )? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Backend lacks [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im7.webp|inline] for cross-port traffic.",
+        "Single-host computing lacks multiple TCP ports.",
+        "Browsers block all [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im9.webp|inline] testing traffic.",
+        "Backend Python script deleted the network thread."
+      ],
+      "correct_answer": "Backend lacks [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im7.webp|inline] for cross-port traffic.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p8_Im4.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im5.webp",
+        "/data/images/se2002_2026T1_ET_AN_p7_Im6.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im1.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im2.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im3.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im7.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following passage carefully: A student builds a FastAPI proxy backend to fetch movie data from a public API, pass the data to an LLM to generate a summary, and return the result to a React frontend. Initially, the student notices that every time they refresh the browser, the LLM takes 5 seconds to summarize the exact same movie, running up their API bill rapidly. To fix this, the student adds an explicit [IMAGE: /data/images/se2002_2026T1_ET_AN_p7_Im6.webp|inline] parameter directly to the response header. The application speeds up drastically. However, when the student tries to test the API locally by fetching from the React UI ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im1.webp|inline] ) to the backend ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im2.webp|inline] ), the browser abruptly rejects the network connection and throws an error indicating missing headers. After resolving the browser block, the student requires the LLM to return the summary strictly as a JSON object. Instead of hoping the LLM formats it correctly, they utilize the API's native \"Structured Outputs\" constraint parameter to force the mathematical generation of valid JSON architecture. During load testing, the backend evaluates 5 web requests concurrently using asynchronous execution ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im3.webp|inline] ). However, the entire server process completely halts when one specific downstream node hangs randomly for 60 seconds without resolving. Finally, a malicious user inputs trick instructions via the \"Movie Title\" input field, attempting to cleanly override the LLM's primary instructions.",
+      "group_id": "6406532126085",
+      "section_name": "TDS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "What does [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im10.webp|inline] do? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Forces backend to pause 3,600ms before replying.",
+        "Authorizes caches to store/serve data for 60 minutes.",
+        "Limits response visibility to 1 user.",
+        "Creates SQLite database on client to store data."
+      ],
+      "correct_answer": "Authorizes caches to store/serve data for 60 minutes.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p8_Im10.webp",
+        "/data/images/se2002_2026T1_ET_AN_p7_Im6.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im1.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im2.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following passage carefully: A student builds a FastAPI proxy backend to fetch movie data from a public API, pass the data to an LLM to generate a summary, and return the result to a React frontend. Initially, the student notices that every time they refresh the browser, the LLM takes 5 seconds to summarize the exact same movie, running up their API bill rapidly. To fix this, the student adds an explicit [IMAGE: /data/images/se2002_2026T1_ET_AN_p7_Im6.webp|inline] parameter directly to the response header. The application speeds up drastically. However, when the student tries to test the API locally by fetching from the React UI ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im1.webp|inline] ) to the backend ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im2.webp|inline] ), the browser abruptly rejects the network connection and throws an error indicating missing headers. After resolving the browser block, the student requires the LLM to return the summary strictly as a JSON object. Instead of hoping the LLM formats it correctly, they utilize the API's native \"Structured Outputs\" constraint parameter to force the mathematical generation of valid JSON architecture. During load testing, the backend evaluates 5 web requests concurrently using asynchronous execution ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im3.webp|inline] ). However, the entire server process completely halts when one specific downstream node hangs randomly for 60 seconds without resolving. Finally, a malicious user inputs trick instructions via the \"Movie Title\" input field, attempting to cleanly override the LLM's primary instructions.",
+      "group_id": "6406532126085",
+      "section_name": "TDS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "What guarantee does \"Structured Outputs\" provide for LLM JSON generation? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Encrypts JSON output within browser.",
+        "Guarantees 100% factually accurate summaries.",
+        "Restricts token generation to prevent JSON syntax violations.",
+        "Increases API timeout by 3600 milliseconds."
+      ],
+      "correct_answer": "Restricts token generation to prevent JSON syntax violations.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p7_Im6.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im1.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im2.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following passage carefully: A student builds a FastAPI proxy backend to fetch movie data from a public API, pass the data to an LLM to generate a summary, and return the result to a React frontend. Initially, the student notices that every time they refresh the browser, the LLM takes 5 seconds to summarize the exact same movie, running up their API bill rapidly. To fix this, the student adds an explicit [IMAGE: /data/images/se2002_2026T1_ET_AN_p7_Im6.webp|inline] parameter directly to the response header. The application speeds up drastically. However, when the student tries to test the API locally by fetching from the React UI ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im1.webp|inline] ) to the backend ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im2.webp|inline] ), the browser abruptly rejects the network connection and throws an error indicating missing headers. After resolving the browser block, the student requires the LLM to return the summary strictly as a JSON object. Instead of hoping the LLM formats it correctly, they utilize the API's native \"Structured Outputs\" constraint parameter to force the mathematical generation of valid JSON architecture. During load testing, the backend evaluates 5 web requests concurrently using asynchronous execution ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im3.webp|inline] ). However, the entire server process completely halts when one specific downstream node hangs randomly for 60 seconds without resolving. Finally, a malicious user inputs trick instructions via the \"Movie Title\" input field, attempting to cleanly override the LLM's primary instructions.",
+      "group_id": "6406532126085",
+      "section_name": "TDS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "In [IMAGE: /data/images/se2002_2026T1_ET_AN_p9_Im3.webp|inline] , 4 nodes resolve in 1s, 1 hangs for 60s. What happens? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Resolves after 1s, assigns [IMAGE: /data/images/se2002_2026T1_ET_AN_p9_Im4.webp|inline] to hanging thread.",
+        "Waits 60s for all nodes before returning results.",
+        "Python cuts the hanging thread from server.",
+        "Hanging thread throws HTTP 404 to avoid timeout."
+      ],
+      "correct_answer": "Waits 60s for all nodes before returning results.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p9_Im3.webp",
+        "/data/images/se2002_2026T1_ET_AN_p7_Im6.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im1.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im2.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im3.webp",
+        "/data/images/se2002_2026T1_ET_AN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following passage carefully: A student builds a FastAPI proxy backend to fetch movie data from a public API, pass the data to an LLM to generate a summary, and return the result to a React frontend. Initially, the student notices that every time they refresh the browser, the LLM takes 5 seconds to summarize the exact same movie, running up their API bill rapidly. To fix this, the student adds an explicit [IMAGE: /data/images/se2002_2026T1_ET_AN_p7_Im6.webp|inline] parameter directly to the response header. The application speeds up drastically. However, when the student tries to test the API locally by fetching from the React UI ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im1.webp|inline] ) to the backend ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im2.webp|inline] ), the browser abruptly rejects the network connection and throws an error indicating missing headers. After resolving the browser block, the student requires the LLM to return the summary strictly as a JSON object. Instead of hoping the LLM formats it correctly, they utilize the API's native \"Structured Outputs\" constraint parameter to force the mathematical generation of valid JSON architecture. During load testing, the backend evaluates 5 web requests concurrently using asynchronous execution ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im3.webp|inline] ). However, the entire server process completely halts when one specific downstream node hangs randomly for 60 seconds without resolving. Finally, a malicious user inputs trick instructions via the \"Movie Title\" input field, attempting to cleanly override the LLM's primary instructions.",
+      "group_id": "6406532126085",
+      "section_name": "TDS"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "How to force the cache to fetch fresh data instead of serving cached results? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Append unique query parameter (e.g., [IMAGE: /data/images/se2002_2026T1_ET_AN_p9_Im5.webp|inline] ) to mutate cache key.",
+        "Run [IMAGE: /data/images/se2002_2026T1_ET_AN_p9_Im6.webp|inline] on backend to invalidate headers.",
+        "Delete the payload encryption algorithm locally.",
+        "Refresh the browser tab twice rapidly."
+      ],
+      "correct_answer": "Append unique query parameter (e.g., [IMAGE: /data/images/se2002_2026T1_ET_AN_p9_Im5.webp|inline] ) to mutate cache key.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p7_Im6.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im1.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im2.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im3.webp",
+        "/data/images/se2002_2026T1_ET_AN_p9_Im5.webp",
+        "/data/images/se2002_2026T1_ET_AN_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following passage carefully: A student builds a FastAPI proxy backend to fetch movie data from a public API, pass the data to an LLM to generate a summary, and return the result to a React frontend. Initially, the student notices that every time they refresh the browser, the LLM takes 5 seconds to summarize the exact same movie, running up their API bill rapidly. To fix this, the student adds an explicit [IMAGE: /data/images/se2002_2026T1_ET_AN_p7_Im6.webp|inline] parameter directly to the response header. The application speeds up drastically. However, when the student tries to test the API locally by fetching from the React UI ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im1.webp|inline] ) to the backend ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im2.webp|inline] ), the browser abruptly rejects the network connection and throws an error indicating missing headers. After resolving the browser block, the student requires the LLM to return the summary strictly as a JSON object. Instead of hoping the LLM formats it correctly, they utilize the API's native \"Structured Outputs\" constraint parameter to force the mathematical generation of valid JSON architecture. During load testing, the backend evaluates 5 web requests concurrently using asynchronous execution ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im3.webp|inline] ). However, the entire server process completely halts when one specific downstream node hangs randomly for 60 seconds without resolving. Finally, a malicious user inputs trick instructions via the \"Movie Title\" input field, attempting to cleanly override the LLM's primary instructions.",
+      "group_id": "6406532126085",
+      "section_name": "TDS"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "How to defend LLM from malicious \"Movie Title\" input overriding instructions? Choose the correct answer.",
+      "type": "MCQ",
+      "options": [
+        "Append integer limit string inside proxy cache.",
+        "Place core rules in isolated 'System Role' vs 'User Role' inputs.",
+        "Limit React input to 20 alphanumeric characters.",
+        "Encrypt movie string in database before querying API."
+      ],
+      "correct_answer": "Place core rules in isolated 'System Role' vs 'User Role' inputs.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p7_Im6.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im1.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im2.webp",
+        "/data/images/se2002_2026T1_ET_AN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the following passage carefully: A student builds a FastAPI proxy backend to fetch movie data from a public API, pass the data to an LLM to generate a summary, and return the result to a React frontend. Initially, the student notices that every time they refresh the browser, the LLM takes 5 seconds to summarize the exact same movie, running up their API bill rapidly. To fix this, the student adds an explicit [IMAGE: /data/images/se2002_2026T1_ET_AN_p7_Im6.webp|inline] parameter directly to the response header. The application speeds up drastically. However, when the student tries to test the API locally by fetching from the React UI ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im1.webp|inline] ) to the backend ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im2.webp|inline] ), the browser abruptly rejects the network connection and throws an error indicating missing headers. After resolving the browser block, the student requires the LLM to return the summary strictly as a JSON object. Instead of hoping the LLM formats it correctly, they utilize the API's native \"Structured Outputs\" constraint parameter to force the mathematical generation of valid JSON architecture. During load testing, the backend evaluates 5 web requests concurrently using asynchronous execution ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p8_Im3.webp|inline] ). However, the entire server process completely halts when one specific downstream node hangs randomly for 60 seconds without resolving. Finally, a malicious user inputs trick instructions via the \"Movie Title\" input field, attempting to cleanly override the LLM's primary instructions.",
+      "group_id": "6406532126085",
+      "section_name": "TDS"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Inscript Docker Layer Caching : Identify the critical sequencing error within the provided Dockerfile. Explain structurally how this specific order ruins layer caching, leading to severely inefficient build pipelines upon every minor code update. NOTE: Your answer should not exceed 200 words. Max Word Count : 200 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p10_Im3.webp",
+        "/data/images/se2002_2026T1_ET_AN_p10_Im4.webp",
+        "/data/images/se2002_2026T1_ET_AN_p10_Im5.webp",
+        "/data/images/se2002_2026T1_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "HUGGINGFACE_DOCKER_LATENCY Scenario Context: A developer deploys a Machine Learning text-classification service hosted dynamically on Hugging Face Docker Spaces. During production monitoring, the developer realizes the service boots painfully slowly and frequently crashes abruptly midway through container initialization. Additionally, the developer attempts to map API logs natively into an internal [IMAGE: /data/images/se2002_2026T1_ET_AN_p10_Im3.webp|inline] SQLite file locally within the cloud environment but is unsure if this breaks data retention policies. Provided Dockerfile: [IMAGE: /data/images/se2002_2026T1_ET_AN_p10_Im4.webp|block] Provided Backend Structure ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p10_Im5.webp|inline] ): [IMAGE: /data/images/se2002_2026T1_ET_AN_p11_Im1.webp|block] Please construct a technical analysis diagnosing the container logic sequence, explicitly addressing the given areas.",
+      "group_id": "6406532126092",
+      "section_name": "TDS"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Inscript Model Cold Starts : The Hugging Face pipeline initializes globally at application startup. Explain fundamentally why executing parameter weights fetching dynamically during runtime creates massive \"Cold Start\" execution latency. NOTE: Your answer should not exceed 200 words. Max Word Count : 200 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p10_Im3.webp",
+        "/data/images/se2002_2026T1_ET_AN_p10_Im4.webp",
+        "/data/images/se2002_2026T1_ET_AN_p10_Im5.webp",
+        "/data/images/se2002_2026T1_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "HUGGINGFACE_DOCKER_LATENCY Scenario Context: A developer deploys a Machine Learning text-classification service hosted dynamically on Hugging Face Docker Spaces. During production monitoring, the developer realizes the service boots painfully slowly and frequently crashes abruptly midway through container initialization. Additionally, the developer attempts to map API logs natively into an internal [IMAGE: /data/images/se2002_2026T1_ET_AN_p10_Im3.webp|inline] SQLite file locally within the cloud environment but is unsure if this breaks data retention policies. Provided Dockerfile: [IMAGE: /data/images/se2002_2026T1_ET_AN_p10_Im4.webp|block] Provided Backend Structure ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p10_Im5.webp|inline] ): [IMAGE: /data/images/se2002_2026T1_ET_AN_p11_Im1.webp|block] Please construct a technical analysis diagnosing the container logic sequence, explicitly addressing the given areas.",
+      "group_id": "6406532126092",
+      "section_name": "TDS"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "Why does clicking \"Run Complex Query\" freeze the UI, blocking all clicks and animations?",
+      "type": "MCQ",
+      "options": [
+        "SQLite queries routinely disable client side graphics architecture by design intentionally",
+        "WASM executes on the browser main thread blocking all UI rendering events",
+        "React prevents overlapping interactions using internal thread locks dynamically and safely",
+        "The server explicitly overrides the mouse tracking functionality remotely during execution"
+      ],
+      "correct_answer": "WASM executes on the browser main thread blocking all UI rendering events",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p12_Im1.webp",
+        "/data/images/se2002_2026T1_ET_AN_p12_Im2.webp",
+        "/data/images/se2002_2026T1_ET_AN_p12_Im3.webp",
+        "/data/images/se2002_2026T1_ET_AN_p12_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the passage carefully and answer the subquestions. A student builds a browser-based data dashboard to avoid backend server costs. They compile DuckDB and Python into WebAssembly using Pyodide, enabling SQL queries to run directly in the browser. The dashboard downloads a 1.5GB Parquet database locally. Initially, it works well\u2014Parquet's columnar format allows querying specific columns without lag. However, during a demo, critical issues emerge. First, clicking \"Run Complex Query\" freezes the entire UI for 10 seconds\u2014animations halt and buttons become unresponsive. Second, attempting to use Python's [IMAGE: /data/images/se2002_2026T1_ET_AN_p12_Im1.webp|inline] library ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p12_Im2.webp|inline] , [IMAGE: /data/images/se2002_2026T1_ET_AN_p12_Im3.webp|inline] ) crashes the WASM engine with \"module unavailable\" errors. Third, loading multiple dashboards across Chrome tabs triggers \"Out-Of-Memory\" exceptions, forcing the browser to terminate pages. The developer decides to abandon the browser approach and migrate the application to a Docker container running on [IMAGE: /data/images/se2002_2026T1_ET_AN_p12_Im4.webp|inline] .",
+      "group_id": "6406532126095",
+      "section_name": "TDS"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "Why does Python code like [IMAGE: /data/images/se2002_2026T1_ET_AN_p13_Im2.webp|inline] fail when executing inside Pyodide/WebAssembly in the browser?",
+      "type": "MCQ",
+      "options": [
+        "The libraries are deprecated and removed in newer Python 3 versions",
+        "Pyodide struggles to parse string formats inside terminal commands system limitations",
+        "Browsers operate as sandboxes isolated from hardware without native OS bindings",
+        "WASM requires sudo privileges to execute system commands inside Javascript environments"
+      ],
+      "correct_answer": "Browsers operate as sandboxes isolated from hardware without native OS bindings",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p13_Im2.webp",
+        "/data/images/se2002_2026T1_ET_AN_p12_Im1.webp",
+        "/data/images/se2002_2026T1_ET_AN_p12_Im2.webp",
+        "/data/images/se2002_2026T1_ET_AN_p12_Im3.webp",
+        "/data/images/se2002_2026T1_ET_AN_p12_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the passage carefully and answer the subquestions. A student builds a browser-based data dashboard to avoid backend server costs. They compile DuckDB and Python into WebAssembly using Pyodide, enabling SQL queries to run directly in the browser. The dashboard downloads a 1.5GB Parquet database locally. Initially, it works well\u2014Parquet's columnar format allows querying specific columns without lag. However, during a demo, critical issues emerge. First, clicking \"Run Complex Query\" freezes the entire UI for 10 seconds\u2014animations halt and buttons become unresponsive. Second, attempting to use Python's [IMAGE: /data/images/se2002_2026T1_ET_AN_p12_Im1.webp|inline] library ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p12_Im2.webp|inline] , [IMAGE: /data/images/se2002_2026T1_ET_AN_p12_Im3.webp|inline] ) crashes the WASM engine with \"module unavailable\" errors. Third, loading multiple dashboards across Chrome tabs triggers \"Out-Of-Memory\" exceptions, forcing the browser to terminate pages. The developer decides to abandon the browser approach and migrate the application to a Docker container running on [IMAGE: /data/images/se2002_2026T1_ET_AN_p12_Im4.webp|inline] .",
+      "group_id": "6406532126095",
+      "section_name": "TDS"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "After moving the application to Docker with [IMAGE: /data/images/se2002_2026T1_ET_AN_p13_Im4.webp|inline] in the Dockerfile, running [IMAGE: /data/images/se2002_2026T1_ET_AN_p13_Im5.webp|inline] fails to connect at [IMAGE: /data/images/se2002_2026T1_ET_AN_p13_Im6.webp|inline] . What is missing?",
+      "type": "MCQ",
+      "options": [
+        "EXPOSE is documentation only developer must map ports using flag like dash p explicitly",
+        "Docker container changes IP address sequentially requiring VPN proxy configuration for proper connectivity",
+        "Localhost implicitly bans Docker from creating network bridges effectively for security protection reasons",
+        "Execution lacks explicit SSL cryptographic certificate bindings required for local Docker network connections"
+      ],
+      "correct_answer": "EXPOSE is documentation only developer must map ports using flag like dash p explicitly",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2026T1_ET_AN_p13_Im4.webp",
+        "/data/images/se2002_2026T1_ET_AN_p13_Im5.webp",
+        "/data/images/se2002_2026T1_ET_AN_p13_Im6.webp",
+        "/data/images/se2002_2026T1_ET_AN_p12_Im1.webp",
+        "/data/images/se2002_2026T1_ET_AN_p12_Im2.webp",
+        "/data/images/se2002_2026T1_ET_AN_p12_Im3.webp",
+        "/data/images/se2002_2026T1_ET_AN_p12_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Read the passage carefully and answer the subquestions. A student builds a browser-based data dashboard to avoid backend server costs. They compile DuckDB and Python into WebAssembly using Pyodide, enabling SQL queries to run directly in the browser. The dashboard downloads a 1.5GB Parquet database locally. Initially, it works well\u2014Parquet's columnar format allows querying specific columns without lag. However, during a demo, critical issues emerge. First, clicking \"Run Complex Query\" freezes the entire UI for 10 seconds\u2014animations halt and buttons become unresponsive. Second, attempting to use Python's [IMAGE: /data/images/se2002_2026T1_ET_AN_p12_Im1.webp|inline] library ( [IMAGE: /data/images/se2002_2026T1_ET_AN_p12_Im2.webp|inline] , [IMAGE: /data/images/se2002_2026T1_ET_AN_p12_Im3.webp|inline] ) crashes the WASM engine with \"module unavailable\" errors. Third, loading multiple dashboards across Chrome tabs triggers \"Out-Of-Memory\" exceptions, forcing the browser to terminate pages. The developer decides to abandon the browser approach and migrate the application to a Docker container running on [IMAGE: /data/images/se2002_2026T1_ET_AN_p12_Im4.webp|inline] .",
+      "group_id": "6406532126095",
+      "section_name": "TDS"
+    }
+  ],
+  "id": "se2002-2026t1-et-an",
+  "course_code": "SE2002",
+  "course_name": "Tools in Data Science",
+  "level": "Diploma in Data Science",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

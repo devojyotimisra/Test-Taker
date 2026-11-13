@@ -1,0 +1,634 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "cs2008_2024T1_Q1_AN.pdf",
+  "total_questions": 25,
+  "total_marks": 25.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 193,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 194,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Choose the correct options to determine the count of NULL values in each column of a pandas DataFrame named \u2019df\u2019",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p3_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p3_Im4.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p2_Im3.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p2_Im1.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p2_Im3.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p3_Im2.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p3_Im3.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p2_Im1.webp|block]",
+      "group_id": "640653737475",
+      "section_name": "MLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 195,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which option will help in selecting data of odd indexed columns only? (ie. age, parch are odd indexed 1 and 3 respectively)",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p3_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p3_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p3_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p3_Im7.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p2_Im1.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p3_Im5.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p3_Im7.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p3_Im8.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p3_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p2_Im1.webp|block]",
+      "group_id": "640653737475",
+      "section_name": "MLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 196,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is datatype of sex column in the given titanic dataset",
+      "type": "MCQ",
+      "options": [
+        "number",
+        "bool",
+        "str",
+        "object"
+      ],
+      "correct_answer": "object",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p2_Im1.webp|block]",
+      "group_id": "640653737475",
+      "section_name": "MLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 197,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which option will help in filtering data to find females who are alive after titanic incident?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p4_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p4_Im3.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p2_Im1.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p4_Im3.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p4_Im4.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p4_Im5.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p2_Im1.webp|block]",
+      "group_id": "640653737475",
+      "section_name": "MLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 198,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the given code below trying to accomplish for the given titanic dataset ? [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p5_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p5_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p5_Im7.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p5_Im1.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p2_Im1.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p5_Im4.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p5_Im6.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p2_Im1.webp|block]",
+      "group_id": "640653737475",
+      "section_name": "MLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 199,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p6_Im3.webp|inline] [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p6_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p6_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p6_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p6_Im1.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p6_Im3.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p6_Im4.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p6_Im6.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 200,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are working on a machine learning project that aims to predict housing prices based on various features of the houses. As the first step, you decide to perform exploratory data analysis and visualize the data to understand its structure and relationships. Which of the following visualization techniques or principles is LEAST likely to provide meaningful insights for this kind of regression problem?",
+      "type": "MCQ",
+      "options": [
+        "Plotting a heatmap of the correlation matrix to understand the linear relationship between the numeric features.",
+        "Using a scatter plot to visualize the relationship between the square footage of a house and its price.",
+        "Visualizing the distribution of housing prices using a pie chart.",
+        "Creating box plots for housing prices, grouped by the number of bedrooms, to detect outliers and understand the distribution across different categories."
+      ],
+      "correct_answer": "Visualizing the distribution of housing prices using a pie chart.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 201,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A company collects 40000 samples (examples) to build a Machine Learning model for an application. They decide to use 30% of the total samples for testing (to be stored in the variable testset ) and the rest 70% for training (to be stored in the variable trainset ). They also want to sample the same set of samples across multiple runs. Which of the following line (statement) achieves this task? Assume that all samples are stored in the variable data .",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p7_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p7_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p7_Im3.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p7_Im4.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p7_Im5.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 202,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Choose the option based on the following statements: Statement 1: The train-test split allows us to simulate the model\u2019s performance on new data by reserving a portion of the dataset for testing. Statement 2: Separating the dataset into training and testing sets helps prevent data leakage, where information from the test set unintentionally influences the model during training. This ensures a fair assessment of the model\u2019s generalization capabilities.",
+      "type": "MCQ",
+      "options": [
+        "Statement 1 is True and statement 2 is False",
+        "Statement 1 is False and statement 2 is True",
+        "Both the statements are False",
+        "Both the statements are True"
+      ],
+      "correct_answer": "Both the statements are True",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 203,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In which of the following scenarios is data cleaning most required?",
+      "type": "MCQ",
+      "options": [
+        "Data has missing values and categorical string data.",
+        "Data consists a lot of outliers based on values in target(y) column",
+        "The data consists solely of numerical values and are on a similar scale.",
+        "None of the choices"
+      ],
+      "correct_answer": "Data has missing values and categorical string data.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 204,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p9_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p9_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p9_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p10_Im2.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p10_Im2.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p9_Im2.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p9_Im4.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p9_Im5.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 205,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following metrics indicate higher their value, better the regression model\u2019s performance?",
+      "type": "MCQ",
+      "options": [
+        "RMSE",
+        "R2",
+        "Mean absolute error",
+        "Mean squared error"
+      ],
+      "correct_answer": "R2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 206,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correct_answer": "14",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 207,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It controls the learning rate of the stochastic regressor during training.",
+        "It determines the maximum number of iterations for the training process.",
+        "It defines the fraction of the validation set used for early stopping.",
+        "It specifies the tolerance level for early stopping based on the change in the validation error."
+      ],
+      "correct_answer": "It specifies the tolerance level for early stopping based on the change in the validation error.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 208,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Accuracy, Accuracy",
+        "R2 score, R2 score",
+        "Accuracy, R2 score",
+        "R2 score, Accuracy",
+        "F1 score, Precision",
+        "Precision, Recall",
+        "MAE, MSE",
+        "The code will result in an error."
+      ],
+      "correct_answer": "R2 score, Accuracy",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 209,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p14_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p15_Im1.webp|block] [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p15_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p16_Im1.webp|block]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p14_Im1.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p15_Im1.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p15_Im3.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 210,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose that we plot the histogram of numerical features in a data set. This reveals which of the following information?",
+      "type": "multichoice",
+      "options": [
+        "Scale of the features",
+        "(left or right) Skew of the distribution",
+        "Modes in the distribution",
+        "Missing values"
+      ],
+      "correct_answer": [
+        "Scale of the features",
+        "(left or right) Skew of the distribution",
+        "Modes in the distribution"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 211,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p17_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "house.data.shape will give the count of number of rows and columns for features and labels(target) both",
+        "house.target_names will give the name of the target column",
+        "house.data.head() will show last 5 rows of the data",
+        "house.feature_names will give a list of names of the columns of the feature matrix"
+      ],
+      "correct_answer": [
+        "house.target_names will give the name of the target column",
+        "house.feature_names will give a list of names of the columns of the feature matrix"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p17_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 212,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following are valid loss functions for SGDClassifier?",
+      "type": "multichoice",
+      "options": [
+        "Squared Loss",
+        "Hinge Loss",
+        "Log Loss",
+        "Mean Absolute Error"
+      ],
+      "correct_answer": [
+        "Hinge Loss",
+        "Log Loss"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 213,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p18_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Column indexed at 0",
+        "Column indexed at 1",
+        "Column indexed at 2",
+        "Column indexed at 3",
+        "Column indexed at 4",
+        "No columns"
+      ],
+      "correct_answer": [
+        "Column indexed at 1",
+        "Column indexed at 3"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p18_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 214,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following Evaluation metrics can be used in a regression problem?",
+      "type": "multichoice",
+      "options": [
+        "Mean Squared Error",
+        "Accuracy",
+        "F1-Score",
+        "Mean Absolute Error",
+        "credit score",
+        "CGPA"
+      ],
+      "correct_answer": [
+        "Mean Squared Error",
+        "Mean Absolute Error"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 215,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p20_Im1.webp|block] Which of the following feature(s) will be selected in X_selected from X ?",
+      "type": "multichoice",
+      "options": [
+        "malic_acid",
+        "magnesium",
+        "flavanoids",
+        "proanthocyanins",
+        "color_intensity",
+        "proline"
+      ],
+      "correct_answer": [
+        "flavanoids",
+        "color_intensity",
+        "proline"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p20_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 216,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p21_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p21_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p21_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p21_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p21_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p21_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T1_Q1_AN_p21_Im7.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p21_Im2.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p21_Im3.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p21_Im5.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p21_Im6.webp",
+        "/data/images/cs2008_2024T1_Q1_AN_p21_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 217,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2024T1_Q1_AN_p22_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T1_Q1_AN_p22_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    }
+  ],
+  "id": "cs2008-2024t1-q1-an",
+  "course_code": "CS2008",
+  "course_name": "Machine Learning Practice",
+  "level": "Diploma in Data Science",
+  "term": "Jan 2024",
+  "year": 2024,
+  "exam_type": "Quiz 1",
+  "session": "Afternoon"
+}

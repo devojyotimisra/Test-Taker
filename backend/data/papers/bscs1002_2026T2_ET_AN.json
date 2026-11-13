@@ -1,0 +1,510 @@
+{
+  "title": "FOUNDATION LEVEL : PROGRAMMING IN PYTHON (COMPUTER BASED EXAM)",
+  "filename": "bscs1002_2026T2_ET_AN.pdf",
+  "total_questions": 19,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"FOUNDATION LEVEL : PROGRAMMING IN PYTHON (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider the following code snippet. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p1_Im3.webp|block] What will be the output?",
+      "type": "MCQ",
+      "options": [
+        "1 1",
+        "2 2",
+        "1 2",
+        "Error"
+      ],
+      "correct_answer": "2 2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Hari runs a yoga class and grades students into levels based on a flexibility score out of 100. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p2_Im1.webp|block] Which of the following snippets correctly compute and print the level after accepting the score as input? Assume the input entered will always be an integer in the range [0,100] . Snippet-1 [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p2_Im2.webp|block] Snippet-2 [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p3_Im1.webp|block] Snippet-3 [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p3_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Snippet-1 and Snippet-2 are correct, Snippet-3 is incorrect.",
+        "Only Snippet-1 is correct.",
+        "Snippet-1 and Snippet-3 are correct, Snippet-2 is incorrect.",
+        "All three snippets are correct."
+      ],
+      "correct_answer": "Snippet-1 and Snippet-2 are correct, Snippet-3 is incorrect.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p2_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p2_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p3_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the following code. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p4_Im2.webp|block] What is the output?",
+      "type": "MCQ",
+      "options": [
+        "5 B KeyError",
+        "4 C E",
+        "2 C E",
+        "2 A D"
+      ],
+      "correct_answer": "2 C E",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Govinda runs a fruit stall. Each day he sells fruit and restocks. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p5_Im1.webp|block] What is the output?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p5_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p5_Im3.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p5_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p5_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p5_Im5.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p5_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the following program. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im1.webp|block] Which of the following statements correctly explains why the printed value is obtained?",
+      "type": "MCQ",
+      "options": [
+        "The slice operation ( [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im3.webp|inline] ) creates a new outer list, but both lists still refer to the same dictionary objects. Since [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im4.webp|inline] also refers to the same nested list, both [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im5.webp|inline] operations affect [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im6.webp|inline] .",
+        "The slice operation creates new dictionary objects but shares the nested lists. Therefore, only [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im8.webp|inline] changes [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im9.webp|inline] .",
+        "Assigning [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im10.webp|inline] creates a copy of the list. Therefore, only [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im11.webp|inline] changes [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im12.webp|inline] .",
+        "Both [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im13.webp|inline] and [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im14.webp|inline] create independent copies, so neither [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im15.webp|inline] operation modifies [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im16.webp|inline] ."
+      ],
+      "correct_answer": "The slice operation ( [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im3.webp|inline] ) creates a new outer list, but both lists still refer to the same dictionary objects. Since [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im4.webp|inline] also refers to the same nested list, both [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im5.webp|inline] operations affect [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p6_Im6.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im5.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im8.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im9.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im10.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im11.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im12.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im13.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im14.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im15.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p6_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following code snippet. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p7_Im1.webp|block] What is printed?",
+      "type": "MCQ",
+      "options": [
+        "2 3",
+        "3 3",
+        "2 2",
+        "Error"
+      ],
+      "correct_answer": "2 3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p7_Im4.webp|inline] is a list of tuples [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p7_Im5.webp|inline] at Madhava's shop. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p7_Im6.webp|block] Select all correct snippets that produce a list of tuples with price strictly greater than 80 , sorted by price in descending order .",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p8_Im1.webp|block] [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p8_Im5.webp|block]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p8_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p8_Im1.webp|block] [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p8_Im5.webp|block]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p7_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p7_Im5.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p7_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p8_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p8_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p8_Im5.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Madhava maintains a ledger file for the shop. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p9_Im1.webp|block] Select all that apply. Note \u2022 [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p9_Im2.webp|inline] reads n characters from the current file position. \u2022 [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p9_Im3.webp|inline] moves the file pointer to character position [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p9_Im4.webp|inline] from the beginning of the file.",
+      "type": "multichoice",
+      "options": [
+        "The first line of the output is [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p9_Im6.webp|inline] .",
+        "The second line of the output is [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p9_Im7.webp|inline] .",
+        "The third line of the output is [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p9_Im8.webp|inline] .",
+        "There are 4 lines in the output.",
+        "The output contains empty lines."
+      ],
+      "correct_answer": [
+        "The first line of the output is [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p9_Im6.webp|inline] .",
+        "The second line of the output is [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p9_Im7.webp|inline] .",
+        "The third line of the output is [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p9_Im8.webp|inline] .",
+        "There are 4 lines in the output."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p9_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p9_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p9_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p9_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p9_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p9_Im7.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p9_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "You are reviewing a connection-manager script for a load balancer. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im1.webp|block] Which of the following statements are true at the end of the script?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im3.webp|inline] evaluates to [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im4.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im6.webp|inline] evaluates to [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im7.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im8.webp|inline] evaluates to [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im9.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im10.webp|inline] evaluates to [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im11.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im6.webp|inline] evaluates to [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im7.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im8.webp|inline] evaluates to [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p10_Im9.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p10_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p10_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p10_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p10_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p10_Im7.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p10_Im8.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p10_Im9.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p10_Im10.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p10_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript Consider the following code snippet. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p11_Im1.webp|block] What is the output produced by the above code?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Consider the following code. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p11_Im2.webp|block] What is the output of the above code?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p11_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript In order to protect secrecy, OTPs are often encrypted across the network. Caesar cipher is one such encryption technique. Consider the following code. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p12_Im1.webp|block] What is the output of the above code?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2075",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript A file named [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p12_Im2.webp|inline] initially contains the text [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p12_Im3.webp|inline] (exactly 12 characters, with no newline). Consider the following Python script executed on that file. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p13_Im1.webp|block] How many characters does the file contain after complete execution?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "14",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p12_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p12_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript Consider the following code. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p13_Im2.webp|block] What is the output of the above code?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Which of the following is the value of [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im6.webp|inline] after execution?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im8.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im10.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im11.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p16_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im10.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p14_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p14_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p14_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im5.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im8.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im10.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im11.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p16_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A text file [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p14_Im1.webp|inline] contains one student's marks per line in the format: [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p14_Im2.webp|block] Example: [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p14_Im3.webp|block] The following program processes the file. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im1.webp|block] Note: [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im2.webp|inline] returns [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im3.webp|inline] if [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im4.webp|inline] is an integer; otherwise, it returns [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im5.webp|inline] .",
+      "group_id": "6406532279673",
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Which one of the following changes causes Roll No. 102 to be included in [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p16_Im3.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "Replace [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p16_Im4.webp|block] with [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p16_Im5.webp|block]",
+        "Replace [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p16_Im7.webp|block] with [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p16_Im8.webp|block] [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p16_Im9.webp|block]",
+        "",
+        "Replace [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p16_Im10.webp|block] with [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p16_Im11.webp|block]"
+      ],
+      "correct_answer": "Replace [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p16_Im7.webp|block] with [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p16_Im8.webp|block] [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p16_Im9.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p16_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p14_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p14_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p14_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p15_Im5.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p16_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p16_Im5.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p16_Im7.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p16_Im8.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p16_Im9.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p16_Im10.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p16_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A text file [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p14_Im1.webp|inline] contains one student's marks per line in the format: [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p14_Im2.webp|block] Example: [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p14_Im3.webp|block] The following program processes the file. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im1.webp|block] Note: [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im2.webp|inline] returns [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im3.webp|inline] if [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im4.webp|inline] is an integer; otherwise, it returns [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p15_Im5.webp|inline] .",
+      "group_id": "6406532279673",
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Which ONE of the following statements must be true after execution?",
+      "type": "MCQ",
+      "options": [
+        "Every student having CGPA \u2265 8 receives a course.",
+        "Every course appearing in [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p18_Im3.webp|inline] has at least one unfilled seat and no further eligible student requesting that course appears after the allocation is complete.",
+        "The number of keys in [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p18_Im4.webp|inline] is always equal to the number of keys in [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p18_Im5.webp|inline] .",
+        "Every course requested by at least one eligible student has zero remaining capacity."
+      ],
+      "correct_answer": "Every course appearing in [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p18_Im3.webp|inline] has at least one unfilled seat and no further eligible student requesting that course appears after the allocation is complete.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p17_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p18_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p18_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p18_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A university stores information about students as a list of dictionaries. A student is allotted an elective only if: \u2022 the student's CGPA is at least 8 , and \u2022 the requested course has remaining seats. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p17_Im1.webp|block]",
+      "group_id": "6406532279676",
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Suppose the order of students in the list is changed arbitrarily, while keeping every student's information unchanged. Which ONE of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "The final value of [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p18_Im6.webp|inline] may differ between different orderings, since it depends on which eligible students happen to be processed before the seats run out.",
+        "The set of allotted students is guaranteed to remain unchanged.",
+        "The number of allotted students is guaranteed to remain unchanged, but the students receiving a particular course may change.",
+        "The program raises a [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p18_Im7.webp|inline] if the order is modified."
+      ],
+      "correct_answer": "The number of allotted students is guaranteed to remain unchanged, but the students receiving a particular course may change.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_AN_p17_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p18_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_AN_p18_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A university stores information about students as a list of dictionaries. A student is allotted an elective only if: \u2022 the student's CGPA is at least 8 , and \u2022 the requested course has remaining seats. [IMAGE: /data/images/bscs1002_2026T2_ET_AN_p17_Im1.webp|block]",
+      "group_id": "6406532279676",
+      "section_name": "Programming in Python"
+    }
+  ],
+  "id": "bscs1002-2026t2-et-an",
+  "course_code": "BSCS1002",
+  "course_name": "Programming in Python",
+  "level": "Foundation",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

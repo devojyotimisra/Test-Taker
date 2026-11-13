@@ -1,0 +1,666 @@
+{
+  "title": "DEGREE LEVEL : DATA SCIENCE AND AI LAB (COMPUTER BASED EXAM)",
+  "filename": "da4001_2026T1_Q2_NA.pdf",
+  "total_questions": 26,
+  "total_marks": 58.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DATA SCIENCE AND AI LAB (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "You have two DataFrames: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p1_Im3.webp|inline] and [IMAGE: /data/images/da4001_2026T1_Q2_NA_p1_Im4.webp|inline] . You want to combine them so that the resulting DataFrame contains only the employees who belong to a department that exists in [IMAGE: /data/images/da4001_2026T1_Q2_NA_p1_Im5.webp|inline] table. Which of the arguments for the [IMAGE: /data/images/da4001_2026T1_Q2_NA_p1_Im6.webp|inline] parameter provided in the options should you use in [IMAGE: /data/images/da4001_2026T1_Q2_NA_p1_Im7.webp|inline] to achieve this? [IMAGE: /data/images/da4001_2026T1_Q2_NA_p1_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "how='outer'",
+        "how='left'",
+        "how='inner'",
+        "how='cross'"
+      ],
+      "correct_answer": "how='inner'",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p1_Im3.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p1_Im4.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p1_Im5.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p1_Im6.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p1_Im7.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p1_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "You have a 'long' DataFrame df containing weather data for different cities: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p2_Im3.webp|block] You want to reshape this so that each City has its own column, with Date as the index. Which command will produce this wide-format table?",
+      "type": "MCQ",
+      "options": [
+        "df.columns.tolist()",
+        "df.pivot(index='Date', columns='City', values='Temp')",
+        "df.groupby(['Date', 'City']).sum()",
+        "df.transpose()"
+      ],
+      "correct_answer": "df.pivot(index='Date', columns='City', values='Temp')",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "What is the output of the following snippet of code? [IMAGE: /data/images/da4001_2026T1_Q2_NA_p2_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im2.webp|inline]",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im5.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p2_Im4.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p2_Im5.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im2.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im3.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "A student is writing a training loop for a neural network. Consider the following code snippet, where three critical lines are missing: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im6.webp|block] Which of the following option correctly identifies the missing lines in the order they should appear to ensure the model trains correctly?",
+      "type": "MCQ",
+      "options": [
+        "A: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im7.webp|inline] ; B: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im8.webp|inline] ; C: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im9.webp|inline]",
+        "A: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im10.webp|inline] ; B: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im11.webp|inline] ; C: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im12.webp|inline]",
+        "A: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im13.webp|inline] ; B: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im14.webp|inline] ; C: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im15.webp|inline]",
+        "A: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im16.webp|inline] ; B: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im17.webp|inline] ; C: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im18.webp|inline]"
+      ],
+      "correct_answer": "A: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im7.webp|inline] ; B: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im8.webp|inline] ; C: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p3_Im9.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im6.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im7.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im8.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im9.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im10.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im11.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im12.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im13.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im14.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im15.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im16.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im17.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p3_Im18.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 - C; 2 - D; 3 - A; 4 - B",
+        "1 - C; 2 - B; 3 - A; 4 - D",
+        "1 - C; 2 - B; 3 - D; 4 - A",
+        "1 - C; 2 - D; 3 - B; 4 - A"
+      ],
+      "correct_answer": "1 - C; 2 - B; 3 - D; 4 - A",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Which of the following best describes the logic of Non-Maximum Suppression algorithm used in the YOLO (You Only Look Once) model?",
+      "type": "MCQ",
+      "options": [
+        "It calculates the average coordinates of all overlapping boxes to produce a single refined box while suppressing the original set of boxes",
+        "It selects the box with the highest confidence score and suppresses remaining boxes that have high overlap with the selected box",
+        "It maximises the confidence score of boxes that are distant from each other while suppressing the score of overlapping boxes",
+        "It implements a recursive search to merge overlapping boxes into a single box by taking the higher coordinate values at each step"
+      ],
+      "correct_answer": "It selects the box with the highest confidence score and suppresses remaining boxes that have high overlap with the selected box",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "LoRA will be applied to the entire model, including the embedding layers.",
+        "LoRA will only be applied to the final classification layer of the model.",
+        "LoRA will not be applied to any layer of the model.",
+        "The model will throw an error because an empty list is invalid."
+      ],
+      "correct_answer": "LoRA will not be applied to any layer of the model.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the following code: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p5_Im4.webp|block] Which of the following statements is TRUE regarding the output generated by the tokenizer?",
+      "type": "MCQ",
+      "options": [
+        "Each sentence will be tokenized independently without any padding because max_length is specified.",
+        "All tokenized sequences in output[\"input_ids\"] will have a length exactly equal to 6.",
+        "The tokenizer will return a list of Python integer.",
+        "Special tokens like [CLS] and [SEP] will not be added because padding is enabled."
+      ],
+      "correct_answer": "All tokenized sequences in output[\"input_ids\"] will have a length exactly equal to 6.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following code and answer the following question. [IMAGE: /data/images/da4001_2026T1_Q2_NA_p6_Im2.webp|block] which of the below option correctly describes the behavior of model with [IMAGE: /data/images/da4001_2026T1_Q2_NA_p6_Im3.webp|inline]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p6_Im3.webp|inline] merges all inputs into one combined prompt and returns a single response string.",
+        "The model processes all inputs in a single batch request and returns a list of response objects in the same order as inputs.",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p6_Im3.webp|inline] returns a dictionary mapping each input to its response, requiring key-based access.",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p6_Im3.webp|inline] runs each input sequentially exactly like a for-loop using [IMAGE: /data/images/da4001_2026T1_Q2_NA_p6_Im5.webp|inline] and returns plain strings instead of response objects."
+      ],
+      "correct_answer": "The model processes all inputs in a single batch request and returns a list of response objects in the same order as inputs.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p6_Im2.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p6_Im3.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p6_Im3.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p6_Im3.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p6_Im3.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p6_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Which of the following code snippets will run successfully given that you have all the required installation, no billing issue, API KEYS are configured correctly, access of all mentioned models is present?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p7_Im1.webp|block] [IMAGE: /data/images/da4001_2026T1_Q2_NA_p7_Im3.webp|block]",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p7_Im5.webp|block]",
+        "",
+        "None of these"
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p7_Im1.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p7_Im3.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p7_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "A legal chatbot must answer strictly based on internal case documents and should minimize hallucination. Which of the following approaches is MOST suitable?",
+      "type": "MCQ",
+      "options": [
+        "Fine-tuning",
+        "RAG",
+        "Temperature = 0",
+        "Temperature = 1",
+        "Top-p = 1",
+        "Top-k = 1"
+      ],
+      "correct_answer": "RAG",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Which analogy best describes RAG vs Fine-Tuning?",
+      "type": "MCQ",
+      "options": [
+        "RAG = memorizing textbook, Fine-tuning = Googling",
+        "RAG = Googling before answering, Fine-tuning = learning permanently",
+        "RAG = increasing IQ, Fine-tuning = reading newspaper"
+      ],
+      "correct_answer": "RAG = Googling before answering, Fine-tuning = learning permanently",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "A developer wants only the top 2 most relevant chunks retrieved. Which of the following correctly achieves this?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p8_Im5.webp|inline]",
+        "None of these"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p8_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p8_Im4.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p8_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "You accidentally wrote: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p8_Im6.webp|block] But your state schema expects: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p8_Im7.webp|block] What is the most likely result?",
+      "type": "MCQ",
+      "options": [
+        "LLM auto converts input to messages",
+        "Runtime error due to missing state key",
+        "Graph ignores output",
+        "Messages auto populated"
+      ],
+      "correct_answer": "Runtime error due to missing state key",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p8_Im6.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Which of the following statements are true regarding regularization?",
+      "type": "multichoice",
+      "options": [
+        "Regularization can be used when a model overfits, and it typically helps by reducing model complexity",
+        "Ridge regularization can be used to perform feature selection as it forces some weights exactly to zero",
+        "Regularization adds constraints to the model and can lead to an increase in bias while reducing the variance",
+        "Regularization can be used to increase sensitivity of the model to small changes in the input data"
+      ],
+      "correct_answer": [
+        "Regularization can be used when a model overfits, and it typically helps by reducing model complexity",
+        "Regularization adds constraints to the model and can lead to an increase in bias while reducing the variance"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "A student is building a linear regression model. Which of the following code snippets correctly prevents PyTorch from tracking gradients during the evaluation phase? Select all that apply.",
+      "type": "multichoice",
+      "options": [
+        "Wrapping the code in a with torch.no_grad(): context manager.",
+        "Setting requires_grad=False on the model parameters manually.",
+        "Calling optimizer.zero_grad() before the forward pass.",
+        "Calling model.eval() before passing the validation data through the model."
+      ],
+      "correct_answer": [
+        "Wrapping the code in a with torch.no_grad(): context manager.",
+        "Setting requires_grad=False on the model parameters manually."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "When implementing a custom dataset by inheriting from 'torch.utils.data.Dataset', which of the following methods must be overridden to ensure compatibility with a 'DataLoader'?",
+      "type": "multichoice",
+      "options": [
+        "getitem",
+        "iter",
+        "len",
+        "init"
+      ],
+      "correct_answer": [
+        "getitem",
+        "len"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "An image \"sample.jpg\" with the shape [IMAGE: /data/images/da4001_2026T1_Q2_NA_p10_Im3.webp|inline] is processed using the following code: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p10_Im4.webp|block] Which of the following statements regarding the transformation are False?",
+      "type": "multichoice",
+      "options": [
+        "The operation fails because the target width and height do not match the original dimensions",
+        "The operation fails because the number of channels is not specified while resizing",
+        "The output from [IMAGE: /data/images/da4001_2026T1_Q2_NA_p10_Im5.webp|inline] will be [IMAGE: /data/images/da4001_2026T1_Q2_NA_p10_Im6.webp|inline]",
+        "The new aspect ratio of the resized image is 1:1"
+      ],
+      "correct_answer": [
+        "The operation fails because the target width and height do not match the original dimensions",
+        "The operation fails because the number of channels is not specified while resizing",
+        "The output from [IMAGE: /data/images/da4001_2026T1_Q2_NA_p10_Im5.webp|inline] will be [IMAGE: /data/images/da4001_2026T1_Q2_NA_p10_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p10_Im3.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p10_Im4.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p10_Im5.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p10_Im7.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The sample dataset contains 50 samples.",
+        "The range(0, 500, 10) function selects rows in steps of 10.",
+        "The original dataset is modified after the .select() operation.",
+        "The sample object is of type Dataset."
+      ],
+      "correct_answer": [
+        "The sample dataset contains 50 samples.",
+        "The range(0, 500, 10) function selects rows in steps of 10.",
+        "The sample object is of type Dataset."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p10_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Inscript Consider the following code snippet for a multi-class classification problem with three classes: 0, 1, and 2. The ground-truth labels are stored in [IMAGE: /data/images/da4001_2026T1_Q2_NA_p11_Im1.webp|inline] , and the predicted labels are stored in [IMAGE: /data/images/da4001_2026T1_Q2_NA_p11_Im2.webp|inline] . [IMAGE: /data/images/da4001_2026T1_Q2_NA_p11_Im3.webp|block] What is the recall score for class 1? (Round off to two decimal places)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.65 to 0.68",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p11_Im1.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p11_Im2.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p11_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Consider the following code snippet and select the true statements from the options provided. [IMAGE: /data/images/da4001_2026T1_Q2_NA_p12_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The [IMAGE: /data/images/da4001_2026T1_Q2_NA_p12_Im3.webp|inline] identified by GridSearchCV offers the best performance on the [IMAGE: /data/images/da4001_2026T1_Q2_NA_p12_Im4.webp|inline] from the given choices in [IMAGE: /data/images/da4001_2026T1_Q2_NA_p12_Im5.webp|inline]",
+        "Changing the scoring metric to [IMAGE: /data/images/da4001_2026T1_Q2_NA_p12_Im7.webp|inline] can lead to a different set of hyperparameters returned by [IMAGE: /data/images/da4001_2026T1_Q2_NA_p12_Im8.webp|inline]",
+        "Based on the configuration provided for GridSearchCV, 48 decision tree models are trained in total",
+        "Based on the configuration provided for GridSearchCV, a total of 48 different hyperparameter combinations are evaluated"
+      ],
+      "correct_answer": [
+        "Changing the scoring metric to [IMAGE: /data/images/da4001_2026T1_Q2_NA_p12_Im7.webp|inline] can lead to a different set of hyperparameters returned by [IMAGE: /data/images/da4001_2026T1_Q2_NA_p12_Im8.webp|inline]",
+        "Based on the configuration provided for GridSearchCV, 48 decision tree models are trained in total"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p12_Im1.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p12_Im3.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p12_Im4.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p12_Im5.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p12_Im7.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p12_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Which of the following code snippets will produce the same output every time they are run? (Assume the model and its infrastructure remain unchanged.)",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p13_Im4.webp|block]",
+        "",
+        "Output can not be same if the code is run multiple times.",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p14_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p13_Im4.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p13_Im4.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "A RAG system answers direct factual questions well, but struggles when the answer requires piecing together information spread across multiple documents. A developer has the following setup: [IMAGE: /data/images/da4001_2026T1_Q2_NA_p14_Im2.webp|block] Which single change would MOST directly improve performance on multi-document synthesis questions?",
+      "type": "MCQ",
+      "options": [
+        "Decrease the value of chunk_size. [IMAGE: /data/images/da4001_2026T1_Q2_NA_p14_Im4.webp|block]",
+        "Increase the value of chunk_size. [IMAGE: /data/images/da4001_2026T1_Q2_NA_p14_Im5.webp|block]",
+        "Increase the value of chunk_overlap. [IMAGE: /data/images/da4001_2026T1_Q2_NA_p15_Im2.webp|block]",
+        "Increase the value of k. [IMAGE: /data/images/da4001_2026T1_Q2_NA_p15_Im4.webp|block]"
+      ],
+      "correct_answer": "Increase the value of k. [IMAGE: /data/images/da4001_2026T1_Q2_NA_p15_Im4.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p14_Im2.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p14_Im4.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p14_Im5.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p15_Im2.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p15_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "You are building a simple LangGraph agent that: 1. Starts at the agent node 2. If the LLM response contains a tool call, go to tool 3. Otherwise, end the workflow Fill in the missing line. [IMAGE: /data/images/da4001_2026T1_Q2_NA_p15_Im5.webp|block] Which line correctly adds conditional routing?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p16_Im2.webp|inline]",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p16_Im3.webp|inline] [IMAGE: /data/images/da4001_2026T1_Q2_NA_p16_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p16_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p15_Im5.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p16_Im2.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p16_Im3.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p16_Im5.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p16_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "You are building a ReAct style agent using LangGraph. [IMAGE: /data/images/da4001_2026T1_Q2_NA_p16_Im7.webp|block] What happens on [IMAGE: /data/images/da4001_2026T1_Q2_NA_p17_Im1.webp|inline]",
+      "type": "MCQ",
+      "options": [
+        "Executes the [IMAGE: /data/images/da4001_2026T1_Q2_NA_p17_Im3.webp|inline] node and returns the updated state.",
+        "Executes the [IMAGE: /data/images/da4001_2026T1_Q2_NA_p17_Im4.webp|inline] node directly.",
+        "Raises a runtime error due to missing entry point",
+        "Returns an empty state without executing any node"
+      ],
+      "correct_answer": "Raises a runtime error due to missing entry point",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p16_Im7.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p17_Im1.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p17_Im3.webp",
+        "/data/images/da4001_2026T1_Q2_NA_p17_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    }
+  ],
+  "id": "da4001-2026t1-q2-na",
+  "course_code": "DA4001",
+  "course_name": "Data Visualization",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

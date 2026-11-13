@@ -1,0 +1,395 @@
+{
+  "title": "DEGREE LEVEL : COMPUTER NETWORKS (COMPUTER BASED EXAM)",
+  "filename": "cs4024_2026T1_Q1_NA.pdf",
+  "total_questions": 19,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : COMPUTER NETWORKS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "In computer networks, a client-server model allows multiple clients to request services from a single server.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "An IP address is used to identify a device\u2019s location in the network rather than its hardware.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "In circuit-switched networks, resources are reserved for the entire duration of the communication session.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "UDP provides reliable, in-order delivery of packets similar to TCP.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "If packet #6 is lost in Selective Repeat ARQ with a window size of 4 , only 4 packets must be retransmitted.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "A switch needs to transmit a packet of size 10,000 bits over a link with a transmission rate of 100 Mbps. What is the transmission delay?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4024_2026T1_Q1_NA_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4024_2026T1_Q1_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4024_2026T1_Q1_NA_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4024_2026T1_Q1_NA_p3_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4024_2026T1_Q1_NA_p3_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4024_2026T1_Q1_NA_p3_Im3.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p3_Im4.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p3_Im5.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "A communication link has a bandwidth of [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p4_Im1.webp|inline] and a round-trip time (RTT) of [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p4_Im2.webp|inline] . The sender uses a sliding window protocol with a window size of [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p4_Im3.webp|inline] packets. Each packet is of size [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p4_Im4.webp|inline] . What is the maximum achievable throughput of the link?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4024_2026T1_Q1_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4024_2026T1_Q1_NA_p4_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs4024_2026T1_Q1_NA_p4_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs4024_2026T1_Q1_NA_p4_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4024_2026T1_Q1_NA_p4_Im8.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4024_2026T1_Q1_NA_p4_Im1.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p4_Im2.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p4_Im3.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p4_Im4.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p4_Im6.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p4_Im8.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p4_Im9.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p4_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the undirected network graph shown below: [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p4_Im11.webp|block] Which of the following is/are a critical nodes ?",
+      "type": "multichoice",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "T"
+      ],
+      "correct_answer": [
+        "Q",
+        "R"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4024_2026T1_Q1_NA_p4_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "A download completes in 2 seconds with an average throughput of 180 KB/s using curl. Calculate the size of the downloaded file (in KB).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "360",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Assume a host in Chennai wants to send a packet to a server in Hyderabad, approximately 650 km away. If the signal travels at [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p5_Im2.webp|inline] , calculate the one-way propagation delay in milliseconds.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3.25",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4024_2026T1_Q1_NA_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "The propagation delay of a signal in a fiber-optic link is measured as [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p5_Im3.webp|inline] . If the signal propagation speed in the fiber is [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p5_Im4.webp|inline] , what is the length of the fiber link (in km)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "62.5",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4024_2026T1_Q1_NA_p5_Im3.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "A web server has, on average, [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p6_Im1.webp|inline] requests present in the system. The server receives [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p6_Im2.webp|inline] requests per second. What is the average time (in seconds) a request spends in the system?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.15",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4024_2026T1_Q1_NA_p6_Im1.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "In a Selective Repeat ARQ protocol, the sender uses a window size of 10 . What is the minimum number of bits required for the sequence number field?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "In the Go-Back-N ARQ protocol, the sender uses a window size of [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p6_Im3.webp|inline] and transmits packets #21, #22, #23, #24, and #25. Assume that packets #21 to #24 are received correctly and acknowledged, but packet #25 is lost. When the timeout occurs for packet #25, how many packets will the sender retransmit?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4024_2026T1_Q1_NA_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "A [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p7_Im1.webp|inline] Mbps communication link has a one-way propagation delay of [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p7_Im2.webp|inline] . The transmitter uses the Stop-and-Wait protocol. Each data frame is [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p7_Im3.webp|inline] bytes long. Assuming that acknowledgment frames are negligible in size, what is the maximum achievable data rate ? Note: Write your answer in Mbps correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4.00",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4024_2026T1_Q1_NA_p7_Im1.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p7_Im2.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider the following 16-bit words (in hexadecimal) that are used to compute a UDP checksum: [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p7_Im4.webp|block] After performing the UDP checksum steps (one\u2019s-complement addition of all words, folding any overflow, and taking the one\u2019s complement), what will be the final checksum value? Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0x2C94",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4024_2026T1_Q1_NA_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "A communication channel has a bandwidth-delay product (BDP) of [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p8_Im1.webp|inline] . If each packet transmitted over the channel has a size of [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p8_Im2.webp|inline] , what is the minimum window size (in packets) required to fully utilize the link?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "200",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4024_2026T1_Q1_NA_p8_Im1.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "You are designing a Selective Repeat sliding window protocol over a link with a data rate of [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p8_Im3.webp|inline] Mbps and a one-way propagation delay of [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p8_Im4.webp|inline] seconds. Each data frame carries [IMAGE: /data/images/cs4024_2026T1_Q1_NA_p8_Im5.webp|inline] kB of payload. What is the minimum number of bits required for the sequence number ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4024_2026T1_Q1_NA_p8_Im3.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p8_Im4.webp",
+        "/data/images/cs4024_2026T1_Q1_NA_p8_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Networks"
+    }
+  ],
+  "id": "cs4024-2026t1-q1-na",
+  "course_code": "CS4024",
+  "course_name": "Compiler Design",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

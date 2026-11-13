@@ -1,0 +1,605 @@
+{
+  "title": "DEGREE LEVEL : THEORY OF COMPUTATION (COMPUTER BASED EXAM)",
+  "filename": "cs3021_2026T1_ET_FN.pdf",
+  "total_questions": 21,
+  "total_marks": 39.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : THEORY OF COMPUTATION (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider an [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im3.webp|inline] -NFA [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im4.webp|inline] with states [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im5.webp|inline] , start state [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im6.webp|inline] , and accepting state [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im7.webp|inline] . The transitions are: \u2022 [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im8.webp|inline] , [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im9.webp|inline] \u2022 [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im10.webp|inline] , [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im11.webp|inline] \u2022 [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im12.webp|inline] , [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im13.webp|inline] \u2022 [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im14.webp|inline] has no outgoing transitions Let [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im15.webp|inline] be the DFA obtained using subset construction. Which of the following statements is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "The start state of [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im16.webp|inline] is [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im17.webp|inline]",
+        "The start state of [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im18.webp|inline] is [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im19.webp|inline]",
+        "The DFA accepts all binary strings that end with either [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im20.webp|inline] or [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im21.webp|inline]",
+        "The DFA accepts all strings containing both [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im2.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im3.webp|inline]",
+        "Every accepting state of [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im5.webp|inline] must contain [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "The start state of [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im18.webp|inline] is [IMAGE: /data/images/cs3021_2026T1_ET_FN_p1_Im19.webp|inline]",
+        "Every accepting state of [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im5.webp|inline] must contain [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im3.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im4.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im5.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im6.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im7.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im8.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im9.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im10.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im11.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im12.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im13.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im14.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im15.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im16.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im17.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im18.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im19.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im20.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p1_Im21.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im2.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im3.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im5.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the DFA below. start state = [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im7.webp|inline] , and accepting state = [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im8.webp|inline] . [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im9.webp|block] What language does the given DFA accept?",
+      "type": "MCQ",
+      "options": [
+        "All strings of length [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im10.webp|inline]",
+        "All strings with equal number of [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im11.webp|inline] 's and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im12.webp|inline] 's",
+        "All strings consisting only of [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im13.webp|inline] 's or only of [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im14.webp|inline] 's",
+        "All strings that do not contain the substring [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im15.webp|inline]"
+      ],
+      "correct_answer": "All strings consisting only of [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im13.webp|inline] 's or only of [IMAGE: /data/images/cs3021_2026T1_ET_FN_p2_Im14.webp|inline] 's",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im7.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im8.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im9.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im10.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im11.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im12.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im13.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im14.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p2_Im15.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider a PDA with the following behavior: \u2022 For every [IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im1.webp|inline] , it pushes one symbol [IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im2.webp|inline] onto the stack. \u2022 For every [IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im3.webp|inline] , it pops one [IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im4.webp|inline] from the stack. \u2022 After the stack becomes [IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im5.webp|inline] , it can read any number of [IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im6.webp|inline] 's without changing the stack. \u2022 The PDA accepts by final state after all input is consumed. Which of the following languages is recognized by this PDA?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im12.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im10.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p3_Im1.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p3_Im2.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p3_Im3.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p3_Im4.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p3_Im5.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p3_Im6.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p3_Im8.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p3_Im10.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p3_Im11.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p3_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider a 2-tape Turing Machine with the transition: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im13.webp|block] Initially: \u2022 Head [IMAGE: /data/images/cs3021_2026T1_ET_FN_p3_Im14.webp|inline] is at position 3 \u2022 Head [IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im1.webp|inline] is at position 2 After one transition, where will the heads be?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p3_Im13.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p3_Im14.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im1.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im3.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im4.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im6.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the PCP instance with tiles: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im8.webp|block] Apply the sequence [IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im9.webp|inline] . What are the unmatched suffixes?",
+      "type": "MCQ",
+      "options": [
+        "top: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im10.webp|inline] , bottom: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im11.webp|inline]",
+        "top: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im12.webp|inline] , bottom: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im13.webp|inline]",
+        "top: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im14.webp|inline] , bottom: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im15.webp|inline]",
+        "No mismatch"
+      ],
+      "correct_answer": "top: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im10.webp|inline] , bottom: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p4_Im11.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im8.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im9.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im10.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im11.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im12.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im13.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im14.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p4_Im15.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the grammar [IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im1.webp|inline] . Which of the following statements is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "The language generated by [IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im3.webp|inline] is [IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im4.webp|inline]",
+        "Every string generated by [IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im6.webp|inline] ends with the substring [IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im7.webp|inline]",
+        "The grammar generates infinitely many strings",
+        "The grammar generates all strings with equal number of [IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im8.webp|inline] 's and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im9.webp|inline] 's",
+        "The empty string [IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im10.webp|inline] is in the language"
+      ],
+      "correct_answer": [
+        "Every string generated by [IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im6.webp|inline] ends with the substring [IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im7.webp|inline]",
+        "The grammar generates infinitely many strings"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im1.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im3.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im4.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im6.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im7.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im8.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im9.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Let: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im11.webp|block] Which of the following languages is/are necessarily context-free?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im12.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im13.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im14.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im15.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im12.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p5_Im14.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im11.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im12.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im13.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im14.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p5_Im15.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the PDA transition: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im1.webp|block] Which of the following statements is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "The input symbol [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im3.webp|inline] is consumed",
+        "The stack top [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im4.webp|inline] is replaced by [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im5.webp|inline]",
+        "The symbol [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im6.webp|inline] becomes the new top of the stack",
+        "The stack size decreases by 1",
+        "The PDA remains in state [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "The input symbol [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im3.webp|inline] is consumed",
+        "The stack top [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im4.webp|inline] is replaced by [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im5.webp|inline]",
+        "The symbol [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im6.webp|inline] becomes the new top of the stack"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im1.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im3.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im4.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im5.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im6.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Which of the following statements is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "Every recursive language is recursively enumerable",
+        "There exists a recursively enumerable language that is not recursive",
+        "Every recursively enumerable language is recursive",
+        "A Turing machine recognizing an RE language may loop on some inputs",
+        "A decider may loop on some inputs"
+      ],
+      "correct_answer": [
+        "Every recursive language is recursively enumerable",
+        "There exists a recursively enumerable language that is not recursive",
+        "A Turing machine recognizing an RE language may loop on some inputs"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Which of the following statements about mapping reductions are correct?",
+      "type": "multichoice",
+      "options": [
+        "If [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im9.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im10.webp|inline] is decidable, then [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im11.webp|inline] is decidable",
+        "If [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im12.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im13.webp|inline] is undecidable, then [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im14.webp|inline] is undecidable",
+        "If [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im15.webp|inline] , then [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im16.webp|inline] is harder than [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im17.webp|inline]",
+        "If [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im2.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im3.webp|inline] , then [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im4.webp|inline]",
+        "If [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im6.webp|inline] , then [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im7.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im8.webp|inline] are equivalent"
+      ],
+      "correct_answer": [
+        "If [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im9.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im10.webp|inline] is decidable, then [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im11.webp|inline] is decidable",
+        "If [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im12.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im13.webp|inline] is undecidable, then [IMAGE: /data/images/cs3021_2026T1_ET_FN_p6_Im14.webp|inline] is undecidable",
+        "If [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im2.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im3.webp|inline] , then [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im4.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im9.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im10.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im11.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im12.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im13.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im14.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im15.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im16.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p6_Im17.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im2.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im3.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im4.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im6.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im7.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Consider a DFA [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im9.webp|inline] . Let [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im10.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im11.webp|inline] denote the sets of strings that take [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im12.webp|inline] from state [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im13.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im14.webp|inline] to an accepting state, respectively. [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im15.webp|block] [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im16.webp|block] How many strings of length exactly [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im17.webp|inline] belong to [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im18.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im9.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im10.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im11.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im12.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im13.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im14.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im15.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im16.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im17.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im18.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript Let [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im19.webp|block] What is the index of the Nerode equivalence relation [IMAGE: /data/images/cs3021_2026T1_ET_FN_p7_Im20.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im19.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p7_Im20.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript Consider the grammar: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p8_Im1.webp|block] How many distinct parse trees exist for the string: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p8_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p8_Im1.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript Let a string [IMAGE: /data/images/cs3021_2026T1_ET_FN_p8_Im3.webp|inline] have length [IMAGE: /data/images/cs3021_2026T1_ET_FN_p8_Im4.webp|inline] . In the CYK algorithm, how many entries [IMAGE: /data/images/cs3021_2026T1_ET_FN_p8_Im5.webp|inline] are there such that [IMAGE: /data/images/cs3021_2026T1_ET_FN_p8_Im6.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "15",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p8_Im3.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p8_Im4.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p8_Im5.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript A non-deterministic Turing Machine has a branching factor 3. How many total configurations are explored by BFS up to level 4 (including level 0)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "121",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript Consider the language [IMAGE: /data/images/cs3021_2026T1_ET_FN_p9_Im1.webp|block] What is the minimum number of states required in a DFA that recognizes [IMAGE: /data/images/cs3021_2026T1_ET_FN_p9_Im2.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p9_Im1.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p9_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Which of the following languages is context-sensitive but not context-free?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im2.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im3.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im5.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "An enumerator prints strings of a language [IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im7.webp|inline] in the following order: [IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im8.webp|block] A machine [IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im9.webp|inline] recognizes [IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im10.webp|inline] by: \u2022 Simulating the enumerator step-by-step \u2022 Accepting when the input string [IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im11.webp|inline] is printed If [IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im12.webp|inline] and the enumerator prints one string every 3 steps, when will [IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im13.webp|inline] accept?",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "May never accept"
+      ],
+      "correct_answer": "15",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im7.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im8.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im9.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im10.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im11.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im12.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Let [IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im14.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im15.webp|inline] be decision problems such that [IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im16.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p10_Im17.webp|inline] is undecidable.Which of the following must be true?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p11_Im2.webp|inline] is decidable",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p11_Im4.webp|inline] is undecidable",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p11_Im5.webp|inline] is decidable",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p11_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p11_Im4.webp|inline] is undecidable",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im14.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im15.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im16.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p10_Im17.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p11_Im2.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p11_Im4.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p11_Im5.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p11_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "If [IMAGE: /data/images/cs3021_2026T1_ET_FN_p11_Im7.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_ET_FN_p11_Im8.webp|inline] is known to be recursively enumerable but not decidable, what can be concluded about [IMAGE: /data/images/cs3021_2026T1_ET_FN_p11_Im9.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p11_Im10.webp|inline] must be undecidable",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p11_Im11.webp|inline] must be recursively enumerable",
+        "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p11_Im12.webp|inline] must not be recursively enumerable",
+        "No definite conclusion can be drawn"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3021_2026T1_ET_FN_p11_Im11.webp|inline] must be recursively enumerable",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_ET_FN_p11_Im7.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p11_Im8.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p11_Im9.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p11_Im10.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p11_Im11.webp",
+        "/data/images/cs3021_2026T1_ET_FN_p11_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    }
+  ],
+  "id": "cs3021-2026t1-et-fn",
+  "course_code": "CS3021",
+  "course_name": "Computer Architecture",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

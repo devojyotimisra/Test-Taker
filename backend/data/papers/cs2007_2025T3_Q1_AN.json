@@ -1,0 +1,356 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
+  "filename": "cs2007_2025T3_Q1_AN.pdf",
+  "total_questions": 15,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 146,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 147,
+      "text": "Which among the following is true with respect to the Lloyds\u2019 algorithm?",
+      "type": "multichoice",
+      "options": [
+        "It always converges.",
+        "It may fail to converge for an initialization while it may converge for other initialization.",
+        "It is sensitive to outliers.",
+        "The solution produced is always the optimal."
+      ],
+      "correct_answer": [
+        "It always converges.",
+        "It is sensitive to outliers."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 148,
+      "text": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p1_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "There will be 50 non-zero eigenvalues of the covariance matrix.",
+        "There will be 6 non-zero eigenvalues of the covariance matrix.",
+        "Using the first 5 principal components, the dataset can be reconstructed with zero residue.",
+        "The variance captured by the top 6 principal components equals the total variance of the dataset."
+      ],
+      "correct_answer": [
+        "There will be 6 non-zero eigenvalues of the covariance matrix.",
+        "The variance captured by the top 6 principal components equals the total variance of the dataset."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 149,
+      "text": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p1_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The points (0, 2), (2, 0), and (2, 2) have the equal probability of being chosen as the second cluster center.",
+        "The probability of selecting (2, 2) as the second cluster center is twice that of selecting (0, 2).",
+        "If (2, 2) is chosen as the second cluster center, the algorithm will always converge in one iteration.",
+        "The tie-breaking rule will affect the final cluster centers."
+      ],
+      "correct_answer": [
+        "The probability of selecting (2, 2) as the second cluster center is twice that of selecting (0, 2).",
+        "If (2, 2) is chosen as the second cluster center, the algorithm will always converge in one iteration.",
+        "The tie-breaking rule will affect the final cluster centers."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p1_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 150,
+      "text": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p2_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Posterior mean for Beta(1, 1) is 0.039.",
+        "Posterior mean for Beta(1, 1) is 0.03.",
+        "Posterior mean for Beta(0.5, 0.5) is 0.025.",
+        "Posterior mean for Beta(0.5, 0.5) is 0.034."
+      ],
+      "correct_answer": [
+        "Posterior mean for Beta(1, 1) is 0.039.",
+        "Posterior mean for Beta(0.5, 0.5) is 0.034."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 151,
+      "text": "Which of the following are valid kernel functions? Select all that apply.",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p3_Im1.webp|block] [IMAGE: /data/images/cs2007_2025T3_Q1_AN_p3_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p2_Im5.webp|inline]",
+        ""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p2_Im5.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p3_Im1.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 152,
+      "text": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p3_Im4.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 153,
+      "text": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p4_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.45 to 0.50",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 154,
+      "text": "What is the covariance matrix of the dataset?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im6.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p5_Im1.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p5_Im5.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p5_Im6.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im1.webp|block]",
+      "group_id": "6406531527889",
+      "section_name": "MLT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 155,
+      "text": "If standard PCA is performed on this dataset, what is the variance along the first principal component? Enter the answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4.5",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im1.webp|block]",
+      "group_id": "6406531527889",
+      "section_name": "MLT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 156,
+      "text": "If standard PCA is performed on this dataset, what is the variance along the second principal component? Enter the answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.5",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im1.webp|block]",
+      "group_id": "6406531527889",
+      "section_name": "MLT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 157,
+      "text": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im6.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p7_Im1.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p6_Im1.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p7_Im5.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p7_Im6.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p6_Im1.webp|block]",
+      "group_id": "6406531527896",
+      "section_name": "MLT"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 158,
+      "text": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im8.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.64 to 0.68",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p7_Im8.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p6_Im1.webp|block]",
+      "group_id": "6406531527896",
+      "section_name": "MLT"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 159,
+      "text": "Perform K -means clustering with K = 2 and initial cluster centers at (\u22122, 3) and (2,\u22121). What are the final means of clusters after convergence?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p9_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p9_Im4.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p8_Im3.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p8_Im1.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p8_Im3.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p9_Im2.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p9_Im3.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p8_Im1.webp|block]",
+      "group_id": "6406531527893",
+      "section_name": "MLT"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 160,
+      "text": "Suppose we introduce a new data point (0, 0) to the existing dataset and perform K means with the same initial cluster centers. How many iterations would it require now for convergence?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p8_Im1.webp|block]",
+      "group_id": "6406531527893",
+      "section_name": "MLT"
+    }
+  ],
+  "id": "cs2007-2025t3-q1-an",
+  "course_code": "CS2007",
+  "course_name": "Machine Learning Techniques",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Afternoon"
+}

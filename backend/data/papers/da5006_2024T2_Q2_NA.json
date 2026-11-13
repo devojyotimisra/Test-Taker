@@ -1,0 +1,649 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)",
+  "filename": "da5006_2024T2_Q2_NA.pdf",
+  "total_questions": 30,
+  "total_marks": 48.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 116,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 117,
+      "text": "Which one of the below statements is incorrect?",
+      "type": "MCQ",
+      "options": [
+        "Global Average Pooling (GAP) technique is used in both CAM and Grad-CAM.",
+        "The purpose of GAP is to find an importance score for every feature map, which represents how much that feature map contributes to generate the explanation.",
+        "For both CAM and Grad-CAM, explanation can be generated with respect to any layer of a CNN.",
+        "For every pixel in the feature map, Grad-CAM++ assigns different weightage, whereas Grad-CAM gives the same weightage."
+      ],
+      "correct_answer": "For both CAM and Grad-CAM, explanation can be generated with respect to any layer of a CNN.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 118,
+      "text": "Which one of the following statements is false?",
+      "type": "MCQ",
+      "options": [
+        "In a max pooling layer, the unit that gets selected (maximum entry) in forward propagation gets all the gradient during backpropagation.",
+        "Residual blocks are used in ResNets to avoid the vanishing gradient problem.",
+        "Feature maps of initial layers of a CNN capture more abstract concepts than the feature maps of final layers.",
+        "Dilated convolution increases the receptive field size when compared to the standard convolution operator."
+      ],
+      "correct_answer": "Feature maps of initial layers of a CNN capture more abstract concepts than the feature maps of final layers.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 119,
+      "text": "Match the following: [IMAGE: /data/images/da5006_2024T2_Q2_NA_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 v, 2\u2192 iv, 3\u2192 ii, 4 \u2192 i",
+        "1\u2192 i, 2\u2192 iv, 3 \u2192 iii, 4\u2192 ii",
+        "1\u2192 i, 2\u2192 v, 3 \u2192 iii, 4\u2192 iv",
+        "1\u2192 ii, 2\u2192 iii, 3 \u2192 i, 4 \u2192iv"
+      ],
+      "correct_answer": "1\u2192 ii, 2\u2192 iii, 3 \u2192 i, 4 \u2192iv",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 120,
+      "text": "Identify the true statement regarding different loss functions:",
+      "type": "MCQ",
+      "options": [
+        "The objective of ranking loss is to predict relative distances between inputs.",
+        "The contrastive loss takes an anchor example and brings negative examples closer while pushing away positive examples.",
+        "The triplet loss always uses a non-negative margin to compare distances of sample representations.",
+        "The hinge loss only considers pairwise examples at a time."
+      ],
+      "correct_answer": "The objective of ranking loss is to predict relative distances between inputs.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 121,
+      "text": "In the context of Variational Autoencoders, the idea of variational inference solves the problem of",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p3_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p3_Im3.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p3_Im3.webp",
+        "/data/images/da5006_2024T2_Q2_NA_p3_Im4.webp",
+        "/data/images/da5006_2024T2_Q2_NA_p3_Im5.webp",
+        "/data/images/da5006_2024T2_Q2_NA_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 122,
+      "text": "Which of the following is incorrect for the reparametrization trick used in a Variational AutoEncoder (VAE)?",
+      "type": "MCQ",
+      "options": [
+        "This technique is used, since the expected reconstruction error requires estimation by sampling which has very high variance.",
+        "It can be applied to any \u201clocation-scale\u201d family of distributions where the location (mean) and scale (variance) of the standard version is 0 and 1.",
+        "The reparametrization trick is applicable to continuous distributions as well as discrete distributions.",
+        "It allows the random variable to be expressed as a different transformation of auxiliary variables which helps the gradient estimation with only one sample"
+      ],
+      "correct_answer": "The reparametrization trick is applicable to continuous distributions as well as discrete distributions.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 123,
+      "text": "In an image classification problem, which of the following is the quantity of interest in a generative model?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p4_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p4_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p4_Im4.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p4_Im4.webp",
+        "/data/images/da5006_2024T2_Q2_NA_p4_Im5.webp",
+        "/data/images/da5006_2024T2_Q2_NA_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 124,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p4_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0.5151",
+        "0.6161",
+        "0.7171",
+        "0.8181"
+      ],
+      "correct_answer": "0.8181",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 125,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p4_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Sigmoid of alignment scores",
+        "Softmax of alignment scores",
+        "ReLU of alignment scores",
+        "None of these"
+      ],
+      "correct_answer": "Softmax of alignment scores",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 126,
+      "text": "Which one of the following statements is true?",
+      "type": "MCQ",
+      "options": [
+        "The goal of triplet loss is to ensure that the distance between the anchor and the negative sample is at least \u2019margin\u2019 less than the distance between anchor and positive sample.",
+        "Face identification is a multi-class classification problem whereas face verification is a binary classification problem",
+        "Both the goal of triplet loss is to ensure that the distance between the anchor and the negative sample is at least \u2019margin\u2019 less than the distance between anchor and positive sample. & Face identification is a multi-class classification problem whereas face verification is a binary classification problem",
+        "None of these"
+      ],
+      "correct_answer": "Face identification is a multi-class classification problem whereas face verification is a binary classification problem",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 127,
+      "text": "Which one of the following statements is false ?",
+      "type": "MCQ",
+      "options": [
+        "Attention mechanisms cannot be applied to the bidirectional RNN model",
+        "An image captioning network cannot be trained end-to-end even though we are using 2 different modalities to train the network",
+        "One of the key components in the vanilla transformer are the recurrent connections that help them to deal with variable input length.",
+        "All of these"
+      ],
+      "correct_answer": "All of these",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 128,
+      "text": "Consider two 10\u00d710 bounding boxes(one on the upper left and one of the lower right) in an images with an overlapping region of 6 \u00d7 6. The Intersection over Union (IoU) between the two boxes is (choose the closest value):",
+      "type": "MCQ",
+      "options": [
+        "21%",
+        "25%",
+        "33%",
+        "37%"
+      ],
+      "correct_answer": "21%",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 129,
+      "text": "A four-dimensional input vector x = [5, 3,\u22121, 2] is passed to a hidden layer with a single neuron and an activation function a(.) to obtain z . Assume that the corresponding weights (from input to hidden layer) are [0.4, 0.6, 0.8,\u22120.2] and bias is 0.4. If the activation function a(.) is Sigmoid, Linear, Indicator function, Softplus, ReLU and Leaky-ReLU, what are the corresponding values of z ? (Note that Indicator function returns 1 for a positive input, and 0 otherwise. Softplus is defined as: ln(1 + exp( z )).",
+      "type": "MCQ",
+      "options": [
+        "0.95, 3, 1, 0.35, 3, 3",
+        "0.95, 3, 0, 3.05, 3, 3",
+        "0.92, 3, 1, 3.5, 3, 3",
+        "0.95, 3, 1, 3.05, 3, 3"
+      ],
+      "correct_answer": "0.95, 3, 1, 3.05, 3, 3",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 130,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p6_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 iv, 2\u2192 iii, 3\u2192 ii, 4 \u2192 i",
+        "1\u2192 ii, 2\u2192 iii, 3 \u2192 i, 4 \u2192iv",
+        "1\u2192 iv, 2\u2192 iii, 3\u2192 i, 4 \u2192 ii",
+        "1\u2192 ii, 2\u2192 iv, 3 \u2192 iii, 4\u2192 i"
+      ],
+      "correct_answer": "1\u2192 iv, 2\u2192 iii, 3\u2192 i, 4 \u2192 ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 131,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p6_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p7_Im2.webp|inline] [IMAGE: /data/images/da5006_2024T2_Q2_NA_p7_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p7_Im4.webp|inline] [IMAGE: /data/images/da5006_2024T2_Q2_NA_p7_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p6_Im4.webp",
+        "/data/images/da5006_2024T2_Q2_NA_p7_Im2.webp",
+        "/data/images/da5006_2024T2_Q2_NA_p7_Im3.webp",
+        "/data/images/da5006_2024T2_Q2_NA_p7_Im4.webp",
+        "/data/images/da5006_2024T2_Q2_NA_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 132,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p7_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 iii, 2\u2192 ii, 3 \u2192 vi, 4\u2192 i",
+        "1\u2192 v, 2\u2192i, 3 \u2192 vi, 4\u2192 iii",
+        "1\u2192 ii, 2\u2192 i, 3 \u2192 ii, 4 \u2192 iii",
+        "1\u2192 i, 2 \u2192ii, 3 \u2192 vi, 4\u2192 iv"
+      ],
+      "correct_answer": "1\u2192 v, 2\u2192i, 3 \u2192 vi, 4\u2192 iii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 133,
+      "text": "Consider a Faster R-CNN object detection framework, which is being trained with a mini-batch size of 2. The RPN produces 512 proposals, out of which 12 and 14 of them are foreground proposals,corresponding to each image in the mini-batch. For a single mini-batch update, the bounding box regression loss will be computed_____________________ times.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "26",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 134,
+      "text": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p8_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-30",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 135,
+      "text": "A Siamese network is trained for face verification. The face image to be verified is passed through the first branch and the anchor image is passed through the second branch. There are 73286 parameters in each of the branches. Triplet loss is used to learn the overall Siamese network. The total number of trainable parameters in the network (assuming there are no other layers or modules) are________________(write your answer as a number).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "73286",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 136,
+      "text": "z 1 =_________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.35",
+      "marks": 0.67,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p9_Im1.webp|block]",
+      "group_id": "640653856585",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 137,
+      "text": "z 2 =____________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.24",
+      "marks": 0.67,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p9_Im1.webp|block]",
+      "group_id": "640653856585",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 138,
+      "text": "z 3 =_______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.18",
+      "marks": 0.66,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p9_Im1.webp|block]",
+      "group_id": "640653856585",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 139,
+      "text": "Enter the correct answer for (a) NOTE: Enter the exact answer without any space in the beginning or at the end. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "not equal",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "640653856591",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 140,
+      "text": "Enter the correct answer for (b)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "640653856591",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 141,
+      "text": "Enter the correct answer for (c)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.83",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "640653856591",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 142,
+      "text": "Enter the correct answer for (d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.83",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "640653856591",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 143,
+      "text": "Consider generative and discriminative models for a classification task. Generative models learn the data-generating mechanism by modeling class-conditional and prior distributions before making predictions. Discriminative models make predictions based on patterns learned in the training set. Which one of the following is an example of a generative model? Select all that are correct.",
+      "type": "multichoice",
+      "options": [
+        "Convolutional Neural Network",
+        "Naive-Bayes",
+        "Logistic Regression",
+        "Support Vector Machine",
+        "Quadratic Discriminant Analysis"
+      ],
+      "correct_answer": [
+        "Naive-Bayes",
+        "Quadratic Discriminant Analysis"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 144,
+      "text": "Which of the following are true :",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p12_Im4.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p12_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p12_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p12_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T2_Q2_NA_p12_Im6.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T2_Q2_NA_p12_Im4.webp",
+        "/data/images/da5006_2024T2_Q2_NA_p12_Im5.webp",
+        "/data/images/da5006_2024T2_Q2_NA_p12_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 145,
+      "text": "Which of the following is true regarding Hard Attention and Soft Attention?",
+      "type": "multichoice",
+      "options": [
+        "Soft Attention is smooth and differentiable",
+        "Variance reduction techniques are used to train Soft Attention models",
+        "Soft Attention is computationally cheaper than Hard Attention when the source input is large",
+        "The inference (test time) overhead is low in Hard Attention when compared to Soft Attention models"
+      ],
+      "correct_answer": [
+        "Soft Attention is smooth and differentiable",
+        "Soft Attention is computationally cheaper than Hard Attention when the source input is large"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    }
+  ],
+  "id": "da5006-2024t2-q2-na",
+  "course_code": "DA5006",
+  "course_name": "Deep Learning for Computer Vision",
+  "level": "Degree",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

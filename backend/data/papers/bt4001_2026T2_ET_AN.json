@@ -1,0 +1,476 @@
+{
+  "title": "DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)",
+  "filename": "bt4001_2026T2_ET_AN.pdf",
+  "total_questions": 17,
+  "total_marks": 42.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Which of the following circular genomes correspond to this genome graph?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p2_Im2.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p2_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p2_Im2.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p2_Im3.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p1_Im3.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p2_Im2.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p2_Im3.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p2_Im5.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following graphical representation of a circular genome (also known as a \" genome graph \") and answer the given subquestions with respect to the same. [IMAGE: /data/images/bt4001_2026T2_ET_AN_p1_Im3.webp|block]",
+      "group_id": "6406532280018",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Suppose this genome graph was constructed using the genome: [IMAGE: /data/images/bt4001_2026T2_ET_AN_p2_Im7.webp|block] A reversal operation was performed on this genome, resulting in the genome graph shown below. Compare the original and resulting genome graphs and determine which collection of synteny blocks was reversed? [IMAGE: /data/images/bt4001_2026T2_ET_AN_p2_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p3_Im1.webp|block]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p3_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p3_Im3.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p2_Im7.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p2_Im8.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p1_Im3.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p3_Im1.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p3_Im3.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p3_Im5.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following graphical representation of a circular genome (also known as a \" genome graph \") and answer the given subquestions with respect to the same. [IMAGE: /data/images/bt4001_2026T2_ET_AN_p1_Im3.webp|block]",
+      "group_id": "6406532280018",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Inscript What is the number of amino acids in the peptide? Assume every amino acid in the peptide is unique. Enter your answer as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Given below is the spectral convolution for a theoretical spectrum of a cyclic peptide, and answer the given subquestions. [IMAGE: /data/images/bt4001_2026T2_ET_AN_p3_Im7.webp|block]",
+      "group_id": "6406532280021",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Use the integer masses of different amino acids from the figure given below to determine which of the following might be the corresponding peptide. [IMAGE: /data/images/bt4001_2026T2_ET_AN_p4_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "INK",
+        "NQK",
+        "ILN",
+        "NLQ"
+      ],
+      "correct_answer": [
+        "INK",
+        "NLQ"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p4_Im1.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Given below is the spectral convolution for a theoretical spectrum of a cyclic peptide, and answer the given subquestions. [IMAGE: /data/images/bt4001_2026T2_ET_AN_p3_Im7.webp|block]",
+      "group_id": "6406532280021",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "There is a collection of [IMAGE: /data/images/bt4001_2026T2_ET_AN_p4_Im4.webp|inline] strings [IMAGE: /data/images/bt4001_2026T2_ET_AN_p4_Im5.webp|inline] , each of length [IMAGE: /data/images/bt4001_2026T2_ET_AN_p4_Im6.webp|inline] . Aurora chooses a [IMAGE: /data/images/bt4001_2026T2_ET_AN_p4_Im7.webp|inline] -mer randomly from each string and constructs the set of [IMAGE: /data/images/bt4001_2026T2_ET_AN_p4_Im8.webp|inline] motifs [IMAGE: /data/images/bt4001_2026T2_ET_AN_p4_Im9.webp|inline] . Following this, she performs the first iteration of the Randomized Motif Search algorithm and the first iteration of the Gibbs Sampling algorithm using [IMAGE: /data/images/bt4001_2026T2_ET_AN_p4_Im10.webp|inline] . The first columns of the profile matrices constructed during the first iteration of both algorithms are given below: [IMAGE: /data/images/bt4001_2026T2_ET_AN_p4_Im11.webp|block] Identify each of these first columns belong to which algorithm.",
+      "type": "MCQ",
+      "options": [
+        "Algorithm I -- Randomized Motif Search, Algorithm II -- Gibbs Sampling",
+        "Algorithm I -- Gibbs Sampling, Algorithm II -- Randomized Motif Search"
+      ],
+      "correct_answer": "Algorithm I -- Gibbs Sampling, Algorithm II -- Randomized Motif Search",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p4_Im4.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p4_Im5.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p4_Im6.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p4_Im7.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p4_Im8.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p4_Im9.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p4_Im10.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p4_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Given below is an excerpt of the DP table constructed for global alignment of the strings TCGGAG and CGCGG. Note that the DP table stores both the alignment score and the back pointer at every cell. Which of the following correctly represents the contents of the shaded cell? [IMAGE: /data/images/bt4001_2026T2_ET_AN_p5_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p5_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p5_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p5_Im3.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p5_Im4.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p5_Im5.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p5_Im6.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "In a bioinformatics study, four tissue samples are profiled based on the expression levels (in arbitrary normalized units) of two marker genes, Gene X and Gene Y. The samples are: [IMAGE: /data/images/bt4001_2026T2_ET_AN_p5_Im8.webp|block] where each coordinate represents (Gene X expression, Gene Y expression). Researchers want to cluster these samples into [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im1.webp|inline] groups using hard K-means clustering, in order to distinguish a \"low-expression\" phenotype from a \"high-expression\" phenotype. The initial centroids are taken as [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im2.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im3.webp|inline] . Distance metric : use the Euclidean distance [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im4.webp|block] both for assigning samples to centroids and for any comparison of distances. Each centroid is recomputed as the arithmetic mean (coordinate-wise) of the samples currently assigned to it. Counting convention : one iteration consists of a full pass in which (i) every sample is assigned to its nearest centroid and (ii) the centroids are recomputed from those assignments. The algorithm terminates at the end of the first iteration in which the assignments are unchanged from the previous one; include this final checking iteration in the count. After how many iterations will the algorithm terminate, and what will be the final centroids?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im6.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im7.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im8.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im9.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im10.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im11.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im13.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im14.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im15.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im16.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im17.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im18.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im13.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im14.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_ET_AN_p6_Im15.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p5_Im8.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im1.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im2.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im3.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im4.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im6.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im7.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im8.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im9.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im10.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im11.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im13.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im14.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im15.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im16.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im17.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p6_Im18.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Which of the strings has ``N$OTUONMNO'' as its Burrows-Wheeler transform?",
+      "type": "MCQ",
+      "options": [
+        "MOUNTNOON$",
+        "MOUNTOONN$",
+        "MOONTUNON$",
+        "NOONMOUNT$"
+      ],
+      "correct_answer": "MOUNTNOON$",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript The additive phylogeny algorithm is applied to a distance matrix [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im1.webp|inline] with [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im2.webp|inline] species including [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im3.webp|inline] , and [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im4.webp|inline] , and the phylogeny [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im5.webp|inline] is constructed. The total length of the path between [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im6.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im7.webp|inline] in [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im8.webp|inline] is [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im9.webp|inline] , and the total length of the path between [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im10.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im11.webp|inline] in [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im12.webp|inline] is [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im13.webp|inline] . What is the maximum possible value of [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im14.webp|inline] ? Enter your answer as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "14",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im1.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im2.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im3.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im4.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im5.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im6.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im7.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im8.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im9.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im10.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im11.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im12.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im13.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Construct the de Bruijn graph on the [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im15.webp|inline] -mer composition of GTCAACGTCG and calculate the number of nodes [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im16.webp|inline] and the number of edges [IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im17.webp|inline] in the same.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im19.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im21.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im22.webp|inline]",
+        "None of these"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p7_Im21.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im15.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im16.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im17.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im19.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im21.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p7_Im22.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "In a bioinformatics study, the time [IMAGE: /data/images/bt4001_2026T2_ET_AN_p8_Im1.webp|inline] (in hours) taken for a bacterial cell to complete DNA replication is modeled as a random sample [IMAGE: /data/images/bt4001_2026T2_ET_AN_p8_Im2.webp|inline] from a distribution with density: [IMAGE: /data/images/bt4001_2026T2_ET_AN_p8_Im3.webp|block] Here [IMAGE: /data/images/bt4001_2026T2_ET_AN_p8_Im4.webp|inline] represents the rate parameter governing the efficiency of the replication machinery. Find the maximum likelihood estimator (MLE) of [IMAGE: /data/images/bt4001_2026T2_ET_AN_p8_Im5.webp|inline] based on the observed replication times.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p8_Im9.webp|block]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p8_Im10.webp|block]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p8_Im11.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p8_Im10.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p8_Im1.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p8_Im2.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p8_Im3.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p8_Im4.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p8_Im5.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p8_Im9.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p8_Im10.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p8_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript Suppose the negative logarithm of the probability of transmission from receptor protein to a kinase protein is [IMAGE: /data/images/bt4001_2026T2_ET_AN_p9_Im1.webp|inline] , between any two kinase proteins is [IMAGE: /data/images/bt4001_2026T2_ET_AN_p9_Im2.webp|inline] and from kinase protein to a transcription factor is [IMAGE: /data/images/bt4001_2026T2_ET_AN_p9_Im3.webp|inline] , and from a transcription factor to a gene is [IMAGE: /data/images/bt4001_2026T2_ET_AN_p9_Im4.webp|inline] . What is the negative logarithm of the probability that the gene will receive the information? Enter your answer correct to two decimal points.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.5 to 2.6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p9_Im1.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p9_Im2.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p9_Im3.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are studying the signaling pathway system of an alien world. Existing literature shows that information in the alien world is transmitted in the following procedure. \" A receptor protein in the cell membrane transmits information to a series of three kinase proteins that are sequentially activated inside the cell. The final activated kinase causes a transcription factor to get activated and translocated to the nucleus, wherein the TF protein regulates a target gene. \"",
+      "group_id": "6406532280029",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Suppose you randomly color the signaling pathway using [IMAGE: /data/images/bt4001_2026T2_ET_AN_p9_Im5.webp|inline] colors. What is the probability that this pathway is a colorful pathway?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p9_Im9.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p9_Im10.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p9_Im11.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p9_Im9.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p9_Im5.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p9_Im9.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p9_Im10.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p9_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are studying the signaling pathway system of an alien world. Existing literature shows that information in the alien world is transmitted in the following procedure. \" A receptor protein in the cell membrane transmits information to a series of three kinase proteins that are sequentially activated inside the cell. The final activated kinase causes a transcription factor to get activated and translocated to the nucleus, wherein the TF protein regulates a target gene. \"",
+      "group_id": "6406532280029",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Which of the following statements about the EM algorithm are TRUE",
+      "type": "multichoice",
+      "options": [
+        "The E-step computes the posterior probabilities (expected values) of the latent variables given the current parameter estimates.",
+        "The M-step updates the parameters by maximizing the expected complete- data log-likelihood obtained from the E-step.",
+        "The E-step and M-step are iterated until the parameter estimates converge.",
+        "The EM algorithm is guaranteed to find the global maximum of the likelihood function."
+      ],
+      "correct_answer": [
+        "The E-step computes the posterior probabilities (expected values) of the latent variables given the current parameter estimates.",
+        "The M-step updates the parameters by maximizing the expected complete- data log-likelihood obtained from the E-step.",
+        "The E-step and M-step are iterated until the parameter estimates converge."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Here [IMAGE: /data/images/bt4001_2026T2_ET_AN_p10_Im4.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_ET_AN_p10_Im5.webp|inline] denote the base-calling accuracy (probability of a correct call) of Machine 1 and Machine 2, respectively. What are the Maximum Likelihood Estimates (MLEs) for [IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im1.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im2.webp|inline] based on the given data?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im6.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im7.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p10_Im4.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p10_Im5.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im1.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im2.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p10_Im3.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im4.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im6.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im7.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A genomics lab has two DNA sequencing machines, each with a different base-calling accuracy. For each sequencing run, one machine is randomly selected and used to sequence a 5-base read from a sample; each base is recorded as either C (correctly matches the reference genome) or E (erroneous base call, mismatches the reference). Consider the table below, which contains sample data from six sequencing runs, and answer the given subquestions with respect to the same. [IMAGE: /data/images/bt4001_2026T2_ET_AN_p10_Im3.webp|block]",
+      "group_id": "6406532280035",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript For this part, restrict attention to the first three runs only (runs 1, 2 and 3), and assume that the machine identity [IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im9.webp|inline] is hidden ; the lab only has the raw base-call outcomes [IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im10.webp|inline] , not which machine produced them. The two machines have unknown accuracies [IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im11.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im12.webp|inline] . For each run, a machine is chosen at random with equal probability ( [IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im13.webp|inline] ) and used to sequence 5 bases. Suppose the initial parameter guesses are: [IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im14.webp|block] Perform one iteration of the EM algorithm: E-step : Compute the posterior probabilities (responsibilities) [IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im15.webp|block] for each run [IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im16.webp|inline] . M-step : Use these posterior weights to update [IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im17.webp|block] Use the updated parameters [IMAGE: /data/images/bt4001_2026T2_ET_AN_p11_Im18.webp|inline] and determine the posterior probability that run 2 ( [IMAGE: /data/images/bt4001_2026T2_ET_AN_p12_Im1.webp|inline] ) was generated by Machine 1: [IMAGE: /data/images/bt4001_2026T2_ET_AN_p12_Im2.webp|block] Round your answer correct to two decimal points.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.33 to 0.38",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im9.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im10.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im11.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im12.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im13.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im14.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im15.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im16.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im17.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p11_Im18.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p12_Im1.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p12_Im2.webp",
+        "/data/images/bt4001_2026T2_ET_AN_p10_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A genomics lab has two DNA sequencing machines, each with a different base-calling accuracy. For each sequencing run, one machine is randomly selected and used to sequence a 5-base read from a sample; each base is recorded as either C (correctly matches the reference genome) or E (erroneous base call, mismatches the reference). Consider the table below, which contains sample data from six sequencing runs, and answer the given subquestions with respect to the same. [IMAGE: /data/images/bt4001_2026T2_ET_AN_p10_Im3.webp|block]",
+      "group_id": "6406532280035",
+      "section_name": "Algorithmic Thinking in Bio"
+    }
+  ],
+  "id": "bt4001-2026t2-et-an",
+  "course_code": "BT4001",
+  "course_name": "Computational Biology",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

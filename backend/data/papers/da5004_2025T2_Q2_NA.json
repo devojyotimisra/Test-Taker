@@ -1,0 +1,406 @@
+{
+  "title": "DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)",
+  "filename": "da5004_2025T2_Q2_NA.pdf",
+  "total_questions": 18,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 268,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 269,
+      "text": "What is a primary motivation for using subword tokenization (like BPE or WordPiece) instead of word-level tokenization in transformers?",
+      "type": "MCQ",
+      "options": [
+        "It increases vocabulary size exponentially",
+        "It completely eliminates the need for a tokenizer",
+        "It helps handle out-of-vocabulary words more effectively",
+        "It prevents the model from needing positional encoding"
+      ],
+      "correct_answer": "It helps handle out-of-vocabulary words more effectively",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 270,
+      "text": "What is a key implication of scaling laws in large language models?",
+      "type": "MCQ",
+      "options": [
+        "Training longer always leads to better performance",
+        "Larger models require less training data",
+        "Model size and dataset size must scale together to maintain optimal performance",
+        "None of these"
+      ],
+      "correct_answer": "Model size and dataset size must scale together to maintain optimal performance",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 271,
+      "text": "Consider the Following Assertion and Reason pair : Assertion : In Byte Pair Encoding (BPE), each merge operation adds exactly one new token to the vocabulary. Reason : BPE helps reduce the size of the initial vocabulary by merging the most frequent tokens.",
+      "type": "MCQ",
+      "options": [
+        "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+        "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correct_answer": "Assertion is true, but Reason is false.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 272,
+      "text": "What is the primary advantage of T5\u2019s text-to-text approach for transfer learning in NLP?",
+      "type": "MCQ",
+      "options": [
+        "It reduces the computational cost of training models significantly.",
+        "It allows a single model and architecture to be applied to a wide variety of NLP tasks without modification.",
+        "It guarantees optimal performance on all tasks without fine-tuning.",
+        "It eliminates the need for any pre-training data."
+      ],
+      "correct_answer": "It allows a single model and architecture to be applied to a wide variety of NLP tasks without modification.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 273,
+      "text": "What is the format of output the T5 model is expected to generate during its span-corruption pretraining?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p2_Im3.webp|inline] [IMAGE: /data/images/da5004_2025T2_Q2_NA_p2_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p2_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q2_NA_p2_Im3.webp",
+        "/data/images/da5004_2025T2_Q2_NA_p2_Im4.webp",
+        "/data/images/da5004_2025T2_Q2_NA_p2_Im5.webp",
+        "/data/images/da5004_2025T2_Q2_NA_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 274,
+      "text": "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p3_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p3_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q2_NA_p3_Im1.webp",
+        "/data/images/da5004_2025T2_Q2_NA_p3_Im3.webp",
+        "/data/images/da5004_2025T2_Q2_NA_p3_Im4.webp",
+        "/data/images/da5004_2025T2_Q2_NA_p3_Im6.webp",
+        "/data/images/da5004_2025T2_Q2_NA_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 275,
+      "text": "Suppose you are given 4x more compute budget to scale a Transformer-based language model. According to scaling laws, what is the best way to utilize this increased compute for optimal model performance?",
+      "type": "MCQ",
+      "options": [
+        "Increase the model size (number of parameters) by 4x and keep the dataset size and training steps the same.",
+        "Train the same model on 4x more data for 4x more steps without changing the model size.",
+        "Increase the model size by approximately 2x and increase the amount of training data by approximately 2x.",
+        "Double the model size and halve the training data size to compensate."
+      ],
+      "correct_answer": "Increase the model size by approximately 2x and increase the amount of training data by approximately 2x.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 276,
+      "text": "In a data preprocessing stage designed to prepare clean, diverse, and safe data, which of the following examples is likely to be filtered out?",
+      "type": "multichoice",
+      "options": [
+        "\u201cAll people from that xyz area are thieves. They should be jailed immediately.\u201d",
+        "Kavya\u2019s PAN number is BDZPK1234K and her registered address is 17/4, Green Park, Delhi.",
+        "[\u201cReinforcement learning allows agents to learn optimal strategies through interaction with an environment.\u201d, \u201cReinforcement learning allows agents to learn optimal strategies through interaction with an environment.\u201d]",
+        "The Union Budget 2024 proposes increased spending on green energy infrastructure.",
+        "According to WHO, global life expectancy has increased by 6 years since 2000.",
+        "None of these."
+      ],
+      "correct_answer": [
+        "\u201cAll people from that xyz area are thieves. They should be jailed immediately.\u201d",
+        "Kavya\u2019s PAN number is BDZPK1234K and her registered address is 17/4, Green Park, Delhi.",
+        "[\u201cReinforcement learning allows agents to learn optimal strategies through interaction with an environment.\u201d, \u201cReinforcement learning allows agents to learn optimal strategies through interaction with an environment.\u201d]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 277,
+      "text": "What are the key challenges encountered when building a vocabulary for NLP models?",
+      "type": "multichoice",
+      "options": [
+        "A larger vocabulary leads to a bigger embedding matrix and increased softmax computation",
+        "Difficulty in handling out-of-vocabulary (OOV) words",
+        "The size of each embedding vector increases with the number of out-of- vocabulary (OOV) words",
+        "More vocabulary entries always guarantee better model generalization"
+      ],
+      "correct_answer": [
+        "A larger vocabulary leads to a bigger embedding matrix and increased softmax computation",
+        "Difficulty in handling out-of-vocabulary (OOV) words"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 278,
+      "text": "Select all the correct input-output representations used for different pretraining objectives based on the base sentence: \u201cThe quick brown fox jumps over the lazy dog\u201d",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p5_Im4.webp|block]",
+        "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p5_Im5.webp|block]",
+        "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p5_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p5_Im4.webp|block]",
+        ""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q2_NA_p5_Im4.webp",
+        "/data/images/da5004_2025T2_Q2_NA_p5_Im5.webp",
+        "/data/images/da5004_2025T2_Q2_NA_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 279,
+      "text": "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p5_Im7.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10000",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q2_NA_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 280,
+      "text": "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p6_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.914 to 0.975",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 281,
+      "text": "Using Byte Pair Encoding (BPE), how many distinct tokens are there in the initial vocabulary before any merges are performed?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "13",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531326583",
+      "section_name": "LLM"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 282,
+      "text": "Which token pair has the lowest frequency before any merges in Byte Pair Encoding?",
+      "type": "MCQ",
+      "options": [
+        "(\u2018b\u2019, \u2018r\u2019)",
+        "(\u2018t\u2019, \u2018l\u2019)",
+        "(\u2018p\u2019, \u2018e\u2019)",
+        "(\u2018e\u2019, \u2018r\u2019)",
+        "None of these"
+      ],
+      "correct_answer": "(\u2018p\u2019, \u2018e\u2019)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531326583",
+      "section_name": "LLM"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 283,
+      "text": "What is the frequency of the most frequent byte-pair before the first merge in Byte Pair Encoding?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531326583",
+      "section_name": "LLM"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 284,
+      "text": "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p8_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q2_NA_p8_Im1.webp",
+        "/data/images/da5004_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531326583",
+      "section_name": "LLM"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 285,
+      "text": "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p8_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q2_NA_p8_Im2.webp",
+        "/data/images/da5004_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406531326583",
+      "section_name": "LLM"
+    }
+  ],
+  "id": "da5004-2025t2-q2-na",
+  "course_code": "DA5004",
+  "course_name": "Large Language Models",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

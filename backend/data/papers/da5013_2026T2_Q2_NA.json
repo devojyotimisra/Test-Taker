@@ -1,0 +1,482 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "da5013_2026T2_Q2_NA.pdf",
+  "total_questions": 21,
+  "total_marks": 43.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Which of the following factors can adversely impact the accuracy of speech language identification?",
+      "type": "multichoice",
+      "options": [
+        "Background noise",
+        "Very short utterances",
+        "Code-switching",
+        "Large balanced training data"
+      ],
+      "correct_answer": [
+        "Background noise",
+        "Very short utterances",
+        "Code-switching"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "You are building an end-to-end speaker-attributed transcription pipeline using the Whisper model for speech recognition and timestamp generation, the ECAPA-TDNN model for speaker embedding extraction, and the SpeechBrain toolkit to integrate the diarization pipeline. Which of the following subtasks are necessary to achieve this? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "Voice Activity Detection (VAD) / Segmentation",
+        "Speech Recognition and Timestamp Generation",
+        "Speaker Embedding Extraction",
+        "Language Identification",
+        "Speaker Clustering",
+        "Text-to-Speech (TTS) Synthesis",
+        "Alignment and Segment Merging"
+      ],
+      "correct_answer": [
+        "Voice Activity Detection (VAD) / Segmentation",
+        "Speech Recognition and Timestamp Generation",
+        "Speaker Embedding Extraction",
+        "Speaker Clustering",
+        "Alignment and Segment Merging"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "When feeding audio into the pretrained speechbrain/spkrec-ecapa-voxceleb model, which of the following statements regarding the expected input is (are) true? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "The system is trained on single-channel (mono) recordings.",
+        "The user must manually extract acoustic features (like MFCCs or Mel- filterbanks) before passing the data to the model.",
+        "The expected sampling rate for the input audio is 16kHz.",
+        "The model accepts variable-length audio inputs, dynamically generating fixed- size embeddings regardless of the utterance duration."
+      ],
+      "correct_answer": [
+        "The system is trained on single-channel (mono) recordings.",
+        "The expected sampling rate for the input audio is 16kHz.",
+        "The model accepts variable-length audio inputs, dynamically generating fixed- size embeddings regardless of the utterance duration."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Which statements accurately describe the roles, constraints, and data-processing behaviors when preparing batches for speech models (e.g., Whisper, Wav2Vec2, and SpeechT5) using the Hugging Face Transformers library?",
+      "type": "multichoice",
+      "options": [
+        "For sequence-to-sequence ASR models such as Whisper, the data collator replaces padded token label IDs with [IMAGE: /data/images/da5013_2026T2_Q2_NA_p2_Im3.webp|inline] so they are ignored by the cross-entropy loss during training.",
+        "Dynamic padding in speech data collators pads input features and target labels only to the maximum sequence length within each batch, reducing unnecessary memory usage compared to dataset-wide padding.",
+        "Speech data collators automatically resample raw audio (e.g., from 44.1 kHz to 16 kHz) during batch collation before creating model inputs.",
+        "During SpeechT5 TTS training, the target spectrogram is padded to a length that is a multiple of the reduction factor ( [IMAGE: /data/images/da5013_2026T2_Q2_NA_p2_Im4.webp|inline] ) so that it is compatible with the decoder's frame- reduction architecture.",
+        "[IMAGE: /data/images/da5013_2026T2_Q2_NA_p2_Im5.webp|inline] computes log-Mel spectrogram features directly from raw audio waveforms while constructing each batch."
+      ],
+      "correct_answer": [
+        "For sequence-to-sequence ASR models such as Whisper, the data collator replaces padded token label IDs with [IMAGE: /data/images/da5013_2026T2_Q2_NA_p2_Im3.webp|inline] so they are ignored by the cross-entropy loss during training.",
+        "Dynamic padding in speech data collators pads input features and target labels only to the maximum sequence length within each batch, reducing unnecessary memory usage compared to dataset-wide padding.",
+        "During SpeechT5 TTS training, the target spectrogram is padded to a length that is a multiple of the reduction factor ( [IMAGE: /data/images/da5013_2026T2_Q2_NA_p2_Im4.webp|inline] ) so that it is compatible with the decoder's frame- reduction architecture."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q2_NA_p2_Im3.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p2_Im4.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p2_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Inscript An audio recording is sampled at 16,000 Hz for 8 seconds. How many samples are contained in the recording?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "128000",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Inscript A multilingual language identification model is trained to classify 40 languages . The training dataset contains 1000 audio clips per language , and each audio clip has been resampled to 16 kHz . The Transformer encoder produces a 1024 dimensional embedding for every audio clip. During training, a mini-batch contains 64 audio clips . Before the classification layer, the embeddings are stacked into a tensor of shape (batch_size, embedding_dimension) . Question: Determine the total number of embedding values in this output tensor.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "65536",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript An Automatic Speech Recognition (ASR) system produces a hypothesis transcript for a spoken audio clip. Calculate the Word Error Rate (WER) of the system given the reference (ground truth) and hypothesis transcripts below: \u2022 Reference (Ground Truth): \"the quick brown fox jumps over the lazy black dog\" \u2022 Hypothesis (ASR Output): \"the fast brown fox jumped over lazy black dog today\" (Note: Provide your answer as a decimal rounded to two decimal places.)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.39 to 0.41",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "In a spoken language identification task, a pretrained speech model is used to extract features from an input audio waveform. To obtain a single fixed-length embedding representing the entire audio clip for language classification, fill in the missing statement in the following code. [IMAGE: /data/images/da5013_2026T2_Q2_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "sum",
+        "max",
+        "mean",
+        "flatten"
+      ],
+      "correct_answer": "mean",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "What is the effect of setting compute_type=\"int8\" in WhisperModel(whisper_model, compute_type=\"int8\")?",
+      "type": "MCQ",
+      "options": [
+        "It restricts the model to only transcribing 8-second audio chunks.",
+        "It forces the audio file to be read as an 8-bit WAV file.",
+        "It quantizes the model weights to 8-bit integers, significantly reducing GPU/CPU memory usage with minimal accuracy loss.",
+        "It limits the language detection capability to the 8 most common languages."
+      ],
+      "correct_answer": "It quantizes the model weights to 8-bit integers, significantly reducing GPU/CPU memory usage with minimal accuracy loss.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the following incomplete script intended for fine-tuning a Wav2Vec2 model: [IMAGE: /data/images/da5013_2026T2_Q2_NA_p5_Im3.webp|block] Which of the following code blocks correctly fills in the blank to ensure the model's output layer matches the tokenizer's vocabulary size and recognizes its padding token?",
+      "type": "MCQ",
+      "options": [
+        "pad_token_id=tokenizer.pad_token_id, vocab_size=len(tokenizer)",
+        "padding_id=tokenizer.pad_token, vocabulary=tokenizer.vocab",
+        "pad_token=tokenizer.pad_token_id, size=tokenizer.vocab_size",
+        "pad_token_id=tokenizer.pad_token, vocab_len=len(tokenizer)"
+      ],
+      "correct_answer": "pad_token_id=tokenizer.pad_token_id, vocab_size=len(tokenizer)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q2_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Which of the following describes the correct input for the Decoder during the training of a Seq2Seq ASR model like Whisper?",
+      "type": "MCQ",
+      "options": [
+        "The raw audio waveform normalized to a zero mean.",
+        "A sequence of random noise to improve robustness.",
+        "The Log-Mel Spectrogram extracted from the audio signal.",
+        "The tokens predicted by the decoder up to the previous time step during inference"
+      ],
+      "correct_answer": "The tokens predicted by the decoder up to the previous time step during inference",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "When fine-tuning a pre-trained Transformer-based ASR model using Connectionist Temporal Classification (CTC), what is the primary function of the 'blank' token?",
+      "type": "MCQ",
+      "options": [
+        "Indicating the end of a sentence.",
+        "Handling out-of-vocabulary words.",
+        "Aligning variable-length sequences.",
+        "Representing silent audio segments."
+      ],
+      "correct_answer": "Aligning variable-length sequences.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Choose the option to fill in the blanks for the missing code (A)",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2026T2_Q2_NA_p7_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5013_2026T2_Q2_NA_p8_Im1.webp|block] [IMAGE: /data/images/da5013_2026T2_Q2_NA_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/da5013_2026T2_Q2_NA_p8_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2026T2_Q2_NA_p8_Im1.webp|block] [IMAGE: /data/images/da5013_2026T2_Q2_NA_p8_Im3.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q2_NA_p6_Im3.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p7_Im1.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p7_Im4.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p8_Im1.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p8_Im3.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following PyTorch implementation of a Convolutional Neural Network (CNN) designed for an audio language identification task. The input to the model consists of speech embeddings with shape [IMAGE: /data/images/da5013_2026T2_Q2_NA_p6_Im3.webp|inline] . [IMAGE: /data/images/da5013_2026T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406532194409",
+      "section_name": "DLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript The input tensor train_data has shape [IMAGE: /data/images/da5013_2026T2_Q2_NA_p8_Im5.webp|block] Determine the correct value of in_features for the fc1 layer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "49152",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q2_NA_p8_Im5.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p6_Im3.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following PyTorch implementation of a Convolutional Neural Network (CNN) designed for an audio language identification task. The input to the model consists of speech embeddings with shape [IMAGE: /data/images/da5013_2026T2_Q2_NA_p6_Im3.webp|inline] . [IMAGE: /data/images/da5013_2026T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "6406532194409",
+      "section_name": "DLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "[IMAGE: /data/images/da5013_2026T2_Q2_NA_p8_Im6.webp|inline] returns a tensor of shape [IMAGE: /data/images/da5013_2026T2_Q2_NA_p8_Im7.webp|inline] . For a stereo file (2 channels), the tensor shape is [IMAGE: /data/images/da5013_2026T2_Q2_NA_p8_Im8.webp|inline] . If you pass this tensor directly into [IMAGE: /data/images/da5013_2026T2_Q2_NA_p8_Im9.webp|inline] without first averaging the channels down to mono, how will the model interpret it? [IMAGE: /data/images/da5013_2026T2_Q2_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It will raise a [IMAGE: /data/images/da5013_2026T2_Q2_NA_p9_Im3.webp|inline] , since the ECAPA-TDNN model strictly requires mono (1-channel) input.",
+        "It will automatically mean-pool the left and right channels into a mono signal before processing.",
+        "It will treat the tensor's first dimension as a batch dimension, producing two separate embeddings \u2014 one per channel.",
+        "It will produce a single embedding, but with double the feature dimension to account for the extra channel."
+      ],
+      "correct_answer": "It will treat the tensor's first dimension as a batch dimension, producing two separate embeddings \u2014 one per channel.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T2_Q2_NA_p8_Im6.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p8_Im7.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p8_Im8.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p8_Im9.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p9_Im1.webp",
+        "/data/images/da5013_2026T2_Q2_NA_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Why might you freeze the encoder layers of a pre-trained ASR model during the initial phases of fine-tuning on a very small dataset ?",
+      "type": "MCQ",
+      "options": [
+        "Reducing the inference latency.",
+        "Eliminating the need for CTC.",
+        "Preventing catastrophic forgetting.",
+        "Increasing the model capacity."
+      ],
+      "correct_answer": "Preventing catastrophic forgetting.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "What is the primary disadvantage of using a character-level tokenizer compared to a Byte-Pair Encoding (BPE) subword tokenizer for ASR fine-tuning ?",
+      "type": "MCQ",
+      "options": [
+        "Longer output sequence lengths.",
+        "Larger vocabulary size.",
+        "Inability to predict new words.",
+        "Higher memory usage for embedding."
+      ],
+      "correct_answer": "Longer output sequence lengths.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "In a standard TTS pipeline involving an acoustic model and a vocoder, which component is primarily responsible for converting Mel-spectrograms into time-domain waveforms during the fine-tuning process?",
+      "type": "MCQ",
+      "options": [
+        "The Vocoder.",
+        "The Duration Predictor.",
+        "The Phonemizer.",
+        "The Attention Mechanism."
+      ],
+      "correct_answer": "The Vocoder.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Which of the following linkages is possible in agglomerative clustering?",
+      "type": "multichoice",
+      "options": [
+        "Ward Linkage",
+        "Web Linkage",
+        "Single Linkage",
+        "Hierarchical Linkage"
+      ],
+      "correct_answer": [
+        "Ward Linkage",
+        "Single Linkage"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Inscript The \"sentence-transformers/all-mpnet-base-v2\" model generates 768-dimensional sentence embeddings. A data processing pipeline processes 400 unique documents, each containing 25 sentences . It stores the embedding vector for every sentence in a single contiguous NumPy array. How many floating-point values does the array contain?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7680000",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    }
+  ],
+  "id": "da5013-2026t2-q2-na",
+  "course_code": "DA5013",
+  "course_name": "Deep Learning Practice",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

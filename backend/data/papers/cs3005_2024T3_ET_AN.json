@@ -1,0 +1,597 @@
+{
+  "title": "DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)",
+  "filename": "cs3005_2024T3_ET_AN.pdf",
+  "total_questions": 26,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 105,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 106,
+      "text": "Which of the following data types will result in the least memory allocation?",
+      "type": "MCQ",
+      "options": [
+        "double",
+        "char",
+        "short",
+        "float"
+      ],
+      "correct_answer": "char",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 107,
+      "text": "What is the scope of a variable declared inside a function in C?",
+      "type": "MCQ",
+      "options": [
+        "Global",
+        "Local to the function",
+        "Accessible only in main()",
+        "Accessible in all functions called by the parent function"
+      ],
+      "correct_answer": "Local to the function",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 108,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "In little-endian format, the least significant byte is stored at the highest memory address.",
+        "In little-endian format, the most significant byte is stored at the lowest memory address.",
+        "In big-endian format, the most significant byte is stored at the lowest memory address.",
+        "In big-endian format, the least significant byte is stored at the lowest memory address."
+      ],
+      "correct_answer": "In big-endian format, the most significant byte is stored at the lowest memory address.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 109,
+      "text": "What is the key distinction between stack and heap memory in C programming?",
+      "type": "MCQ",
+      "options": [
+        "Stack memory is used for storing global variables, while heap memory is used for storing local variables.",
+        "Stack memory is automatically managed for function calls, while heap memory requires explicit allocation and deallocation.",
+        "Stack memory can grow indefinitely, while heap memory has a fixed size defined at compile time.",
+        "There is no difference; stack and heap memory serve the same purpose in C programming."
+      ],
+      "correct_answer": "Stack memory is automatically managed for function calls, while heap memory requires explicit allocation and deallocation.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 110,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "Compilation error"
+      ],
+      "correct_answer": "10",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 111,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p3_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "Compilation error"
+      ],
+      "correct_answer": "10",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 112,
+      "text": "What will be the output of the following C program? [IMAGE: /data/images/cs3005_2024T3_ET_AN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "10 0",
+        "10 5",
+        "10 10",
+        "10 Garbage Value"
+      ],
+      "correct_answer": "10 10",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 113,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p4_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 114,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p5_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ],
+      "correct_answer": "30",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 115,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p6_Im5.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p6_Im2.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p5_Im4.webp",
+        "/data/images/cs3005_2024T3_ET_AN_p5_Im5.webp",
+        "/data/images/cs3005_2024T3_ET_AN_p6_Im2.webp",
+        "/data/images/cs3005_2024T3_ET_AN_p6_Im4.webp",
+        "/data/images/cs3005_2024T3_ET_AN_p6_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 116,
+      "text": "Choose the correct statement for fscanf() and scanf().",
+      "type": "MCQ",
+      "options": [
+        "fscanf() always reads from standard input whereas scanf() specifies a stream from which to read",
+        "fscanf() specifies a stream from which to read whereas scanf() reads only from standard input",
+        "fscanf() and scanf() have no difference in their functionalities",
+        "fscanf() and scanf() can read from any specified stream"
+      ],
+      "correct_answer": "fscanf() specifies a stream from which to read whereas scanf() reads only from standard input",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 117,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p6_Im6.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p6_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p6_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p6_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p6_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p6_Im10.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p6_Im6.webp",
+        "/data/images/cs3005_2024T3_ET_AN_p6_Im7.webp",
+        "/data/images/cs3005_2024T3_ET_AN_p6_Im8.webp",
+        "/data/images/cs3005_2024T3_ET_AN_p6_Im9.webp",
+        "/data/images/cs3005_2024T3_ET_AN_p6_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 118,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "9",
+        "6",
+        "8",
+        "7"
+      ],
+      "correct_answer": "8",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 119,
+      "text": "Consider the following code to check whether the input number is Prime or not. Consider that input is a positive integer. However, it contains a logical error. [IMAGE: /data/images/cs3005_2024T3_ET_AN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "7",
+        "12",
+        "25",
+        "27"
+      ],
+      "correct_answer": "25",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 120,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Counts the number of odd numbers from 1 to n.",
+        "Counts the number of even numbers from 1 to n.",
+        "The sum of odd numbers from 1 to n.",
+        "The sum of even numbers from 1 to n."
+      ],
+      "correct_answer": "Counts the number of odd numbers from 1 to n.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 121,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p9_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p9_Im6.webp|inline] [IMAGE: /data/images/cs3005_2024T3_ET_AN_p9_Im7.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p10_Im1.webp|block]"
+      ],
+      "correct_answer": "",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p9_Im4.webp",
+        "/data/images/cs3005_2024T3_ET_AN_p9_Im5.webp",
+        "/data/images/cs3005_2024T3_ET_AN_p9_Im6.webp",
+        "/data/images/cs3005_2024T3_ET_AN_p9_Im7.webp",
+        "/data/images/cs3005_2024T3_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 122,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p10_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "6",
+        "2",
+        "14",
+        "1"
+      ],
+      "correct_answer": "14",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 123,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "25",
+        "11",
+        "27",
+        "36"
+      ],
+      "correct_answer": "36",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 124,
+      "text": "Which of the following statement(s) is/are true regarding the \u201cstatic\u201d keyword in C?",
+      "type": "multichoice",
+      "options": [
+        "A static variable inside a function retains its value between function calls.",
+        "A static global variable has file scope, meaning it is only accessible within the file where it is declared.",
+        "Static variables must be initialized at compile-time.",
+        "A static function can be called from other files of the same program."
+      ],
+      "correct_answer": [
+        "A static variable inside a function retains its value between function calls.",
+        "A static global variable has file scope, meaning it is only accessible within the file where it is declared."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 125,
+      "text": "Which of the following statements about pointers is/are true?",
+      "type": "multichoice",
+      "options": [
+        "A pointer can be incremented to point to the next memory location of its type.",
+        "A pointer variable cannot be reassigned after initialization.",
+        "Dereferencing a pointer gives the value stored at the memory address it holds.",
+        "Dereferencing a pointer gives the memory address it holds."
+      ],
+      "correct_answer": [
+        "A pointer can be incremented to point to the next memory location of its type.",
+        "Dereferencing a pointer gives the value stored at the memory address it holds."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 126,
+      "text": "Which of the following statement(s) is/are true about unions in C?",
+      "type": "multichoice",
+      "options": [
+        "Unions can contain members of different data types.",
+        "The size of a union is the sum of the sizes of all its members.",
+        "Unions can be nested within other unions or structures.",
+        "The size of a union is dynamically allocated based on the size of its members."
+      ],
+      "correct_answer": [
+        "Unions can contain members of different data types.",
+        "Unions can be nested within other unions or structures."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 127,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p12_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "19",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p12_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 128,
+      "text": "Consider the following code. [IMAGE: /data/images/cs3005_2024T3_ET_AN_p13_Im1.webp|block] What will be the output of the program?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 129,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p13_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "60",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 130,
+      "text": "[IMAGE: /data/images/cs3005_2024T3_ET_AN_p14_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T3_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    }
+  ],
+  "id": "cs3005-2024t3-et-an",
+  "course_code": "CS3005",
+  "course_name": "Programming in C",
+  "level": "Degree",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

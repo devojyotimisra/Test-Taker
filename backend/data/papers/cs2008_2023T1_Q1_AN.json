@@ -1,0 +1,588 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE",
+  "filename": "cs2008_2023T1_Q1_AN.pdf",
+  "total_questions": 24,
+  "total_marks": 24.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 193,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING PRACTICE\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 194,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [String Matching] Enter the sequence of steps to be followed, in general, in end to end machine learning project. Enter the answer as a 6-character string. For example, entering the answer as (without quotes) \u2018BADCFE\u2019 implies that the first step is B, followed by the second step A and so on. A. Select suitable model B. Train the model C. Pre-process the data D. Collect data E. Fine tune model F. Present your solution Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "DCABEF",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 195,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following APIs can be used to construct an ML pipeline for data preprocessing and modeling?",
+      "type": "MCQ",
+      "options": [
+        "Pipeline",
+        "ColumnTransformer",
+        "FeatureUnion",
+        "All of these"
+      ],
+      "correct_answer": "All of these",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 196,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider following data: [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p3_Im1.webp|block] Which one of the following APIs can be used to extract features from the above data?",
+      "type": "MCQ",
+      "options": [
+        "DictVectorizer",
+        "HashingVectorizer",
+        "FeatureHasher"
+      ],
+      "correct_answer": "DictVectorizer",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 197,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider following data: [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p3_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "7,6",
+        "6,6",
+        "6,7",
+        "7,7"
+      ],
+      "correct_answer": "7,6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 198,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose that we load a data set that contains 1000 samples in a Pandas Dataframe. Each sample has 30 features. However, a few samples in the data set miss the values for all features. Therefore, those samples need to be dropped. Choose the method that removes such samples from the dataset?",
+      "type": "MCQ",
+      "options": [
+        "drop(columns=[\u2018all\u2019])",
+        "drop(how=\u2018all\u2019)",
+        "dropna()",
+        "dropna(how=\u2018all\u2019)",
+        "dropna.all()"
+      ],
+      "correct_answer": "dropna(how=\u2018all\u2019)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 199,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The statement that each feature in the input data set has a (physical) meaning associated with it is",
+      "type": "MCQ",
+      "options": [
+        "True, for all ML problems",
+        "True, for some ML problems",
+        "False, for all ML problems",
+        "can not be decided"
+      ],
+      "correct_answer": "True, for some ML problems",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 200,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A company collects 40000 samples (examples) to build a Machine Learning model for an application. They decide to use 30% of the total samples for testing (to be stored in the variable trainset ) and the rest 70% for training (to be stored in the variable trainset ). They also want to sample the same set of samples across multiple runs. Which of the following line (statement) achieves this task? Assume that all samples are stored in the variable data .",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p5_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p5_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p5_Im3.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p5_Im5.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 201,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following utilities of sklearn.datasets helps us to get the realworld data from the internet?",
+      "type": "MCQ",
+      "options": [
+        "load_",
+        "fetch_",
+        "generate_",
+        "get_"
+      ],
+      "correct_answer": "fetch_",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 202,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following ML task/steps for a regression dataset: 1. Read the data from a file (named \u2018dataset.csv\u2019). It has 7 columns. The last column is the target variable, the rest of them are numerical features. 2. Drop rows with missing values. 3. After removing samples with missing values split the data into training and test sets. Take about the first 80% of rows in the training set and the rest of them into the test set. 4. Train a simple linear regression model, with intercept, on the training set. 5. Report R2 score on the test set. Which of the following code snippets correctly accomplishes the above task? Assume necessary imports.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p7_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p7_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p8_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p8_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p7_Im4.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p7_Im4.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p7_Im5.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p8_Im1.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 203,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following code where X_train, y_train is the training data. X_test, y_test is the test data. [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p8_Im4.webp|block] Which evaluation metric will be contained in the \u2018score\u2019?",
+      "type": "MCQ",
+      "options": [
+        "mean_squared_error",
+        "mean_absolute_error",
+        "R2_score",
+        "Accuracy"
+      ],
+      "correct_answer": "R2_score",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 204,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How to make SGDRegressor stop after 1000 epochs?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p9_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p9_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p9_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p9_Im6.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p9_Im4.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p9_Im5.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 205,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose we want to transform features in a dataset using polynomial transformation. The sklearn API provides the functionality in which of the following modules?",
+      "type": "MCQ",
+      "options": [
+        "sklearn.dataset",
+        "sklearn.model_selection",
+        "sklearn.preprocessing",
+        "sklearn.featureSelection",
+        "sklearn.featureExtraction"
+      ],
+      "correct_answer": "sklearn.preprocessing",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 206,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider following dataset: [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p10_Im3.webp|block] Which one of the following code snippets will correctly preprocess above data? Assume necessary imports. The data is stored in a dataframe named X.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p11_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p11_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p12_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p12_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p11_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p11_Im3.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p10_Im3.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p11_Im1.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p11_Im3.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p12_Im1.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p12_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 207,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 For a dataset with 1000 data points and 100 features, the following code will generate how many models during execution? Note: X is the feature matrix and y is the target vector. [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1000",
+        "100",
+        "99",
+        "999"
+      ],
+      "correct_answer": "1000",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 208,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following cross-validation strategy: [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p13_Im4.webp|block] Assume we apply this strategy to some data set. Which of the following options is/are correct?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p13_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im4.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im4.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p13_Im4.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p13_Im5.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p13_Im6.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p14_Im2.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p14_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 209,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following code is correct if we want the mean absolute error to be minimized during the computation of cross_val_score?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im8.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im8.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p14_Im6.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p14_Im7.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p14_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 210,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 We know that applying polynomial transformation to the samples is often helpful. Assume we imported all the required modules. [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p15_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(2,2)",
+        "(2,6)",
+        "(6,2)",
+        "(2,3)",
+        "(3,2)",
+        "(2,5)",
+        "(5,2)"
+      ],
+      "correct_answer": "(2,3)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 211,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A team has built a dataset for a regression problem. It contains 1000 samples. Each sample x is of size 2. All the features are binary, that is, x i \u2208 {0, 1}. The team decided to use polynomial feature transformation of degree 2 as follows, [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p15_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p15_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 212,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a regression problem with L2 regularization. Suppose we instantiate the model as shown below, [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p16_Im3.webp|block] What is the range of \u2018alpha\u2019?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p16_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p16_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p16_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p16_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p16_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p16_Im3.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p16_Im4.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p16_Im5.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p16_Im6.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p16_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 213,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 (Multiple Select) Consider a data set shown below. The data set was loaded using Pandas and stored in the variable \u2018data\u2019 as a data frame. [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p17_Im1.webp|block] Suppose that we want to get the value of \u2018chlorides\u2018 of the third sample (2nd by index). Which of the following lines of code does this?",
+      "type": "multichoice",
+      "options": [
+        "data.chlorides[2]",
+        "data[\u2018chlorides\u2019][2]",
+        "data[2][4]",
+        "data.iloc[2,4]"
+      ],
+      "correct_answer": [
+        "data.chlorides[2]",
+        "data[\u2018chlorides\u2019][2]",
+        "data.iloc[2,4]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 214,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 (MSQ) Suppose that we plot the histogram of numerical features in a data set. This reveals which of the following information?",
+      "type": "multichoice",
+      "options": [
+        "Scale of the features",
+        "(left or right) Skew of the distribution",
+        "Modes in the distribution",
+        "Deduce total number of samples in the dataset"
+      ],
+      "correct_answer": [
+        "Scale of the features",
+        "(left or right) Skew of the distribution",
+        "Modes in the distribution",
+        "Deduce total number of samples in the dataset"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 215,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Why is data preprocessing necessary?",
+      "type": "multichoice",
+      "options": [
+        "While recording or noting down, the data collector forgot the values to be recorded and entered blanks.",
+        "Some columns have values only between 0 and 1.",
+        "The data is divided into multiple files and has to be combined.",
+        "The data has only numbers in all the columns."
+      ],
+      "correct_answer": [
+        "While recording or noting down, the data collector forgot the values to be recorded and entered blanks.",
+        "The data is divided into multiple files and has to be combined."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 216,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [MSQ] Which of the following will produce constantly reducing learning rates?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im5.webp|block]",
+        ""
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p19_Im1.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p19_Im3.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p19_Im5.webp",
+        "/data/images/cs2008_2023T1_Q1_AN_p19_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    }
+  ],
+  "id": "cs2008-2023t1-q1-an",
+  "course_code": "CS2008",
+  "course_name": "Machine Learning Practice",
+  "level": "Diploma in Data Science",
+  "term": "Jan 2023",
+  "year": 2023,
+  "exam_type": "Quiz 1",
+  "session": "Afternoon"
+}

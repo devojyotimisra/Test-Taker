@@ -1,0 +1,543 @@
+{
+  "title": "DEGREE LEVEL: AI: SEARCH METHODS FOR PROBLEM SOLVING",
+  "filename": "cs3003_2022T3_ET_FN.pdf",
+  "total_questions": 24,
+  "total_marks": 24.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 37,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL: AI: SEARCH METHODS FOR PROBLEM SOLVING\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECT TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT ,PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 38,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Let 500 be the start state and 131 be the goal state, find the shortest path from start to goal. Enter the path starting with 500 as a comma separated list of states. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 500,411,747 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "500,302,320,122,131",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Consider a 5-3-2 water jug puzzle with three jugs a, b, c of capacity 5L, 3L, 2L, respectively. A state is represented as a three digit string ABC, where A, B, C denote the volume of water present in the jugs a, b, c, respectively. For example, 302 denotes a state where jug a has 3 liters of water, jug b is empty and jug c has 2 liters of water. Two types of moves (state transitions) are allowed: xEy: pick up jug x and empty it into jug y, xFy: pick up jug x and fill up (top up) jug y. So the possible moves are: aEb, aEc, aFb, aFc, bEa, bEc, bFa, bFc, cEa, cEb, cFa, cFb. Tie-breaker: in some states, both xEy and xFy may produce the same output state, in such cases, choose xEy to break the tie. For example, from the 302 state, both aEb and aFb produce the same output state 032, therefore, to break the tie choose aEb as the move. For the 5-3-2 water jug puzzle, the MoveGen function takes a state ABC and returns a set of states that can be produced in one move. For example, MoveGen(500) returns { 230, 302 }.",
+      "group_id": "640653455593",
+      "section_name": "AI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 39,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Let 500 be the start state and 131 be the goal state, find the sequence of moves that produce the shortest path from start to goal. Enter the sequence of moves as a comma separated list. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: aFb,bFc,cEa Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "aFc,cEb,aFc,cFb",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Consider a 5-3-2 water jug puzzle with three jugs a, b, c of capacity 5L, 3L, 2L, respectively. A state is represented as a three digit string ABC, where A, B, C denote the volume of water present in the jugs a, b, c, respectively. For example, 302 denotes a state where jug a has 3 liters of water, jug b is empty and jug c has 2 liters of water. Two types of moves (state transitions) are allowed: xEy: pick up jug x and empty it into jug y, xFy: pick up jug x and fill up (top up) jug y. So the possible moves are: aEb, aEc, aFb, aFc, bEa, bEc, bFa, bFc, cEa, cEb, cFa, cFb. Tie-breaker: in some states, both xEy and xFy may produce the same output state, in such cases, choose xEy to break the tie. For example, from the 302 state, both aEb and aFb produce the same output state 032, therefore, to break the tie choose aEb as the move. For the 5-3-2 water jug puzzle, the MoveGen function takes a state ABC and returns a set of states that can be produced in one move. For example, MoveGen(500) returns { 230, 302 }.",
+      "group_id": "640653455593",
+      "section_name": "AI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 40,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 SEARCH FOR OPTIMAL SOLUTION Which of the following variants of Depth First Iterative Deepening (DFID) is guaranteed to find an optimal solution?",
+      "type": "MCQ",
+      "options": [
+        "DFID that inspects only new nodes",
+        "DFID that inspects new as well as open nodes",
+        "DFID that inspects new as well as closed nodes",
+        "None of these"
+      ],
+      "correct_answer": "DFID that inspects new as well as closed nodes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 41,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 SEARCH FOR OPTIMAL SOLUTION Given a state space (and a search space) that is too large to fit into main memory, and with Euclidean edge costs, and with the best admissible heuristics, which of the following algorithms will you choose to find an optimal path?",
+      "type": "MCQ",
+      "options": [
+        "Depth First Search",
+        "Breadth First Search",
+        "Dijkstra's algorithm",
+        "Branch and Bound Search",
+        "A*",
+        "WA* for some w",
+        "Sparse Memory Graph Search (SMGS)"
+      ],
+      "correct_answer": "Sparse Memory Graph Search (SMGS)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 42,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 SEARCH FOR OPTIMAL SOLUTION In the map, nodes are placed on a grid where each tile is 10x10 in size, is the Manhattan distance heuristic admissible? [IMAGE: /data/images/cs3003_2022T3_ET_FN_p5_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "No",
+        "yes",
+        "Cannot be determined"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 43,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 SEARCH FOR OPTIMAL SOLUTION Given a finite state space with edge costs that may or may not be Euclidean and a heuristic function whose properties are not known, which of the following algorithms are suitable for finding the optimal path?",
+      "type": "multichoice",
+      "options": [
+        "Depth First Search",
+        "Breadth First Search",
+        "Dijkstra's algorithm",
+        "Branch and Bound Search",
+        "A*",
+        "WA* for some w",
+        "Sparse Memory Graph Search (SMGS)"
+      ],
+      "correct_answer": [
+        "Dijkstra's algorithm",
+        "Branch and Bound Search"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 44,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 SEARCH FOR OPTIMAL SOLUTION Which of the following are true about the Branch-and-Bound method (discussed in the lecture) that is used for finding optimal tours for the Traveling Salesman Problem?",
+      "type": "multichoice",
+      "options": [
+        "The root of the search tree represents all possible tours.",
+        "The root of the search tree represents the shortest/optimal tour.",
+        "Each node in the search tree represents a set of tours.",
+        "Each node in the search tree represents a single tour.",
+        "The costs of the search tree nodes monotonically INCREASE from the root to leaf.",
+        "The costs of the search tree nodes monotonically DECREASE from the root to leaf."
+      ],
+      "correct_answer": [
+        "The root of the search tree represents all possible tours.",
+        "Each node in the search tree represents a set of tours.",
+        "The costs of the search tree nodes monotonically INCREASE from the root to leaf."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 45,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following are strategies for MAX?",
+      "type": "multichoice",
+      "options": [
+        "C,D,E,F",
+        "C,D,G,H",
+        "A,C,I,J",
+        "B,D,J,L"
+      ],
+      "correct_answer": [
+        "C,D,E,F",
+        "C,D,G,H"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES The figure shows a 4-ply game tree with evaluation function values at the horizon. The nodes in the horizon are assigned labels A,B,C,...,P. Use these labels when asked to enter a horizon node or a list of horizon nodes. Tie-breaker: when several nodes qualify then select the left most node, if tie persists then select the deepest node among the left most nodes. [IMAGE: /data/images/cs3003_2022T3_ET_FN_p8_Im1.webp|block]",
+      "group_id": "640653455601",
+      "section_name": "AI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 46,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 List the horizon nodes in the best strategy for MAX. Enter the nodes in the ascending order of node labels. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,B,E,F",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES The figure shows a 4-ply game tree with evaluation function values at the horizon. The nodes in the horizon are assigned labels A,B,C,...,P. Use these labels when asked to enter a horizon node or a list of horizon nodes. Tie-breaker: when several nodes qualify then select the left most node, if tie persists then select the deepest node among the left most nodes. [IMAGE: /data/images/cs3003_2022T3_ET_FN_p8_Im1.webp|block]",
+      "group_id": "640653455601",
+      "section_name": "AI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 47,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 List the first five horizon nodes pruned by Alpha-Beta. Enter a comma separated sorted list of node labels. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "D,G,H,J,L",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES The figure shows a 4-ply game tree with evaluation function values at the horizon. The nodes in the horizon are assigned labels A,B,C,...,P. Use these labels when asked to enter a horizon node or a list of horizon nodes. Tie-breaker: when several nodes qualify then select the left most node, if tie persists then select the deepest node among the left most nodes. [IMAGE: /data/images/cs3003_2022T3_ET_FN_p8_Im1.webp|block]",
+      "group_id": "640653455601",
+      "section_name": "AI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 48,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The Forward-Checking algorithm begins by assigning X1=a. What are the NEXT four values assigned to variables by the Forward-Checking algorithm? List the values as a comma separated list in the order they are assigned. Enter a comma separated list of values. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: a,6,1,p Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "d,1,2,3 d,3,4,q",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "CONSTRAINT SATISFACTION The figure shows a constraint graph of a Binary CSP and a part of the matching diagram. When a pair of variables (like, X1 and X5) do not have a constraint in the constraint graph then assume a UNIVERSAL RELATION in the matching diagram. [IMAGE: /data/images/cs3003_2022T3_ET_FN_p10_Im1.webp|block] Process the variables, and their values, in ALPHABETIC order.",
+      "group_id": "640653455619",
+      "section_name": "AI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 49,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the first solution found by the Forward-Checking algorithm? Enter a comma separated list of values. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: a,6,1,p Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "a,d,3,4,q",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "CONSTRAINT SATISFACTION The figure shows a constraint graph of a Binary CSP and a part of the matching diagram. When a pair of variables (like, X1 and X5) do not have a constraint in the constraint graph then assume a UNIVERSAL RELATION in the matching diagram. [IMAGE: /data/images/cs3003_2022T3_ET_FN_p10_Im1.webp|block] Process the variables, and their values, in ALPHABETIC order.",
+      "group_id": "640653455619",
+      "section_name": "AI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 50,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 List the first three nodes (including S) expanded by AO* algorithm. List the nodes in the order they are expanded. Observe that primitive nodes are not expanded. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,D,E S,D,E,A,B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "PROBLEM DECOMPOSITION The figure shows an AND-OR graph that depicts how a problem S can be decomposed and transformed into one or more simpler problems. Nodes are uniquely identified by labels (S, A, B, \u2026). The number in each node is the heuristic estimate of the cost of solving that node. Nodes with double lines are primitive nodes and their values are actual costs. Observe that a primitive node is added to the graph by its parent when the parent is expanded, and the primitive node is labeled as SOLVED and it will not be expanded subsequently. Tie-breaker 1: For nodes with the same cost, expand in the ascending order of node labels. Tie-breaker 2: For AND nodes, expand the unsolved branch with the highest cost. [IMAGE: /data/images/cs3003_2022T3_ET_FN_p13_Im1.webp|block] The cost of each edge is 10. Solve for S, then answer the given subquestions.",
+      "group_id": "640653455605",
+      "section_name": "AI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 51,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Determine the value of the start node S after each node expansion. List the first three values of S that correspond to the first three node expansions. Enter a comma separated list of numbers. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 12,42,17 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "110,130,140 110,130,140,170,190",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "PROBLEM DECOMPOSITION The figure shows an AND-OR graph that depicts how a problem S can be decomposed and transformed into one or more simpler problems. Nodes are uniquely identified by labels (S, A, B, \u2026). The number in each node is the heuristic estimate of the cost of solving that node. Nodes with double lines are primitive nodes and their values are actual costs. Observe that a primitive node is added to the graph by its parent when the parent is expanded, and the primitive node is labeled as SOLVED and it will not be expanded subsequently. Tie-breaker 1: For nodes with the same cost, expand in the ascending order of node labels. Tie-breaker 2: For AND nodes, expand the unsolved branch with the highest cost. [IMAGE: /data/images/cs3003_2022T3_ET_FN_p13_Im1.webp|block] The cost of each edge is 10. Solve for S, then answer the given subquestions.",
+      "group_id": "640653455605",
+      "section_name": "AI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 52,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the final value of the start node S? Enter a number. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 42",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "190",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "PROBLEM DECOMPOSITION The figure shows an AND-OR graph that depicts how a problem S can be decomposed and transformed into one or more simpler problems. Nodes are uniquely identified by labels (S, A, B, \u2026). The number in each node is the heuristic estimate of the cost of solving that node. Nodes with double lines are primitive nodes and their values are actual costs. Observe that a primitive node is added to the graph by its parent when the parent is expanded, and the primitive node is labeled as SOLVED and it will not be expanded subsequently. Tie-breaker 1: For nodes with the same cost, expand in the ascending order of node labels. Tie-breaker 2: For AND nodes, expand the unsolved branch with the highest cost. [IMAGE: /data/images/cs3003_2022T3_ET_FN_p13_Im1.webp|block] The cost of each edge is 10. Solve for S, then answer the given subquestions.",
+      "group_id": "640653455605",
+      "section_name": "AI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 53,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the given AND-OR graph, is the heuristic admissible?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "PROBLEM DECOMPOSITION The figure shows an AND-OR graph that depicts how a problem S can be decomposed and transformed into one or more simpler problems. Nodes are uniquely identified by labels (S, A, B, \u2026). The number in each node is the heuristic estimate of the cost of solving that node. Nodes with double lines are primitive nodes and their values are actual costs. Observe that a primitive node is added to the graph by its parent when the parent is expanded, and the primitive node is labeled as SOLVED and it will not be expanded subsequently. Tie-breaker 1: For nodes with the same cost, expand in the ascending order of node labels. Tie-breaker 2: For AND nodes, expand the unsolved branch with the highest cost. [IMAGE: /data/images/cs3003_2022T3_ET_FN_p13_Im1.webp|block] The cost of each edge is 10. Solve for S, then answer the given subquestions.",
+      "group_id": "640653455605",
+      "section_name": "AI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 54,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following rule-data tuples are in the conflict-set?",
+      "type": "multichoice",
+      "options": [
+        "R1,101,107",
+        "R2,107",
+        "R6,104,105",
+        "R7,105",
+        "R7,106",
+        "R3,102,107",
+        "R7,105,106",
+        "R8,105,106"
+      ],
+      "correct_answer": [
+        "R1,101,107",
+        "R2,107",
+        "R6,104,105",
+        "R7,105",
+        "R7,106"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "RULE BASED EXPERT SYSTEMS A Rete Net for classification of machines is shown in the figure. The labels A1, A2, A3, ..., A10, A11, A12, A13, ..., B1, B2, ..., B5, R1, R2, ..., R8, uniquely identify the nodes in the network. When required, use the given label ordering to break ties and to enter your answers. [IMAGE: /data/images/cs3003_2022T3_ET_FN_p16_Im1.webp|block]",
+      "group_id": "640653455610",
+      "section_name": "AI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 55,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 If the Inference Engine uses Specificity as the conflict resolution strategy then identify the rule- data tuples that will be ready to fire. If multiple rule-data tuples qualify then choose one. Enter a comma separated list with a rule label followed by timestamps in sorted order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: R1,101,102,103 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "R1,101,107 R1,107,101 R6,104,105 R6,105,104",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "RULE BASED EXPERT SYSTEMS A Rete Net for classification of machines is shown in the figure. The labels A1, A2, A3, ..., A10, A11, A12, A13, ..., B1, B2, ..., B5, R1, R2, ..., R8, uniquely identify the nodes in the network. When required, use the given label ordering to break ties and to enter your answers. [IMAGE: /data/images/cs3003_2022T3_ET_FN_p16_Im1.webp|block]",
+      "group_id": "640653455610",
+      "section_name": "AI"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 56,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 If the Inference Engine uses Recency as the conflict resolution strategy then identify the rule-data tuples that will be ready to fire. If multiple rule-data tuples qualify then choose one. Enter a comma separated list with a rule label followed by timestamps in sorted order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: R1,101,102,103 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "R1,101,107 R1,107,101 R2,107",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "RULE BASED EXPERT SYSTEMS A Rete Net for classification of machines is shown in the figure. The labels A1, A2, A3, ..., A10, A11, A12, A13, ..., B1, B2, ..., B5, R1, R2, ..., R8, uniquely identify the nodes in the network. When required, use the given label ordering to break ties and to enter your answers. [IMAGE: /data/images/cs3003_2022T3_ET_FN_p16_Im1.webp|block]",
+      "group_id": "640653455610",
+      "section_name": "AI"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 57,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following are applicable actions for the given problem?",
+      "type": "multichoice",
+      "options": [
+        "Putdown(D)",
+        "Stack(D,A)",
+        "Stack(D,C)",
+        "Pickup(A)",
+        "Stack(A,D)",
+        "Stack(B,C)"
+      ],
+      "correct_answer": [
+        "Putdown(D)",
+        "Stack(D,A)",
+        "Stack(D,C)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING [IMAGE: /data/images/cs3003_2022T3_ET_FN_p19_Im1.webp|block]",
+      "group_id": "640653455614",
+      "section_name": "AI"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 58,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following are relevant actions for the given problem?",
+      "type": "multichoice",
+      "options": [
+        "Stack(A,D)",
+        "Stack(B,C)",
+        "Putdown(D)",
+        "Pickup(A)",
+        "Stack(C,B)",
+        "Stack(D,C)"
+      ],
+      "correct_answer": [
+        "Stack(A,D)",
+        "Stack(B,C)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING [IMAGE: /data/images/cs3003_2022T3_ET_FN_p19_Im1.webp|block]",
+      "group_id": "640653455614",
+      "section_name": "AI"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 59,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the planning graph, which of the following are mutex action pairs in Layer 1?",
+      "type": "multichoice",
+      "options": [
+        "Putdown(D), Stack(D,A)",
+        "Putdown(D), Stack(D,C)",
+        "Putdown(D), Stack(D,B)",
+        "Putdown(D), Pickup(A)",
+        "Putdown(D), Unstack(C,B)"
+      ],
+      "correct_answer": [
+        "Putdown(D), Stack(D,A)",
+        "Putdown(D), Stack(D,C)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING [IMAGE: /data/images/cs3003_2022T3_ET_FN_p19_Im1.webp|block]",
+      "group_id": "640653455614",
+      "section_name": "AI"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 60,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the planning graph, which of the following are mutex proposition pairs in Layer 1?",
+      "type": "multichoice",
+      "options": [
+        "onTable(D), on(D,A)",
+        "onTable(D), on(D,C)",
+        "onTable(D), holding(D)",
+        "onTable(B), clear(A)",
+        "on(C,B), on(C,D)"
+      ],
+      "correct_answer": [
+        "onTable(D), on(D,A)",
+        "onTable(D), on(D,C)",
+        "onTable(D), holding(D)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2022T3_ET_FN_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING [IMAGE: /data/images/cs3003_2022T3_ET_FN_p19_Im1.webp|block]",
+      "group_id": "640653455614",
+      "section_name": "AI"
+    }
+  ],
+  "id": "cs3003-2022t3-et-fn",
+  "course_code": "CS3003",
+  "course_name": "AI: Search Methods for Problem Solving",
+  "level": "Degree",
+  "term": "Sep 2022",
+  "year": 2022,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

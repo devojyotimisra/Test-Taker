@@ -42,3 +42,31 @@ export type QuestionStatus =
   | "answered"
   | "marked"
   | "marked_answered";
+
+export interface CatalogItem {
+  id: string;
+  filename: string;
+  json_file: string;
+  title: string;
+  course_code: string;
+  course_name: string;
+  level: string;
+  year: number;
+  term: string;
+  term_code: string;
+  exam_type: string;
+  session: string;
+  total_questions: number;
+  total_marks: number;
+  json_url: string;
+}
+
+export interface CourseInfo {
+  code: string;
+  name: string;
+  level: string;
+  total_papers: number;
+  years: number[];
+  terms: string[];
+  exam_types: string[];
+}

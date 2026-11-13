@@ -1,0 +1,526 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)",
+  "filename": "cs3002_2025T3_Q2_NA.pdf",
+  "total_questions": 20,
+  "total_marks": 95.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 27,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 28,
+      "text": "Which of the following structural graph coverage criteria subsumes All DU-Paths Coverage on a data flow graph?",
+      "type": "MCQ",
+      "options": [
+        "Edge-pair coverage",
+        "Edge coverage",
+        "Prime path coverage",
+        "Node coverage"
+      ],
+      "correct_answer": "Prime path coverage",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 29,
+      "text": "Consider four partitions with blocks [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p1_Im3.webp|inline] , [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p1_Im4.webp|inline] , [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p1_Im5.webp|inline] , and [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p1_Im6.webp|inline] .What is the minimum number of tests required to satisfy Each Choice Coverage (ECC) criterion?",
+      "type": "MCQ",
+      "options": [
+        "8",
+        "4",
+        "5",
+        "7"
+      ],
+      "correct_answer": "4",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p1_Im3.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p1_Im4.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p1_Im5.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p1_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 30,
+      "text": "Consider the predicate [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p2_Im3.webp|inline] . Which of the following options represents [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p2_Im4.webp|inline] , i.e. the conditions under which clause [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p2_Im5.webp|inline] determines [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p2_Im6.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p2_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p2_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p2_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p2_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p2_Im9.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p2_Im3.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p2_Im4.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p2_Im5.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p2_Im6.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p2_Im7.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p2_Im8.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p2_Im9.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p2_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 31,
+      "text": "An organization is developing a mobile application for a food delivery service. One of the features specified is that the user should be able to track their order in real-time on the app. What kind of requirement does this represent?",
+      "type": "MCQ",
+      "options": [
+        "User requirement",
+        "Business requirement",
+        "Regulatory requirement",
+        "Non-functional requirement"
+      ],
+      "correct_answer": "User requirement",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 32,
+      "text": "Consider a system that categorizes job applicants based on their cumulative work experience according to the following categories: \u2022 If work experience is between 0 to 1 year, the applicant is categorized as Entry-Level. \u2022 If work experience is between 2 to 3 years, the applicant is categorized as Junior. \u2022 If work experience is between 4 to 5 years, the applicant is categorized as Mid-Level. \u2022 If work experience is 6 years or more, the applicant is categorized as Senior. Assume that work experience is expressed in whole years. How many equivalence class partitions can be identified in this scenario?",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "6"
+      ],
+      "correct_answer": "5",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 33,
+      "text": "Active Clause Coverage (ACC) is equivalent to which of the following classical coverage criteria for source code?",
+      "type": "MCQ",
+      "options": [
+        "Branch coverage",
+        "Decision coverage",
+        "Modified condition decision coverage (MCDC)",
+        "Statement coverage"
+      ],
+      "correct_answer": "Modified condition decision coverage (MCDC)",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 34,
+      "text": "Consider the following range for a product's warranty period. [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p4_Im1.webp|inline] . Which of the following test inputs would satisfy Boundary Value Analysis (BVA) for the given partition?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p4_Im6.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p4_Im1.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p4_Im3.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p4_Im4.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p4_Im6.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 35,
+      "text": "Consider the following code segment for symbolic testing. // Compute the sum of positive integers, return on any negative input. int series(int a) { int sum = a; int i = 0; while(true) { r = sym_input(); if(r < 0) { break; } sum = sum + r; i++; } return sum; } Choose the appropriate path constraint (PC) for the while loop with a sequence of [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p4_Im8.webp|inline] true outcomes followed by a false . Consider each [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p4_Im9.webp|inline] as a fresh symbolic value.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p5_Im1.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p5_Im5.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p5_Im3.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p4_Im8.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p4_Im9.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p5_Im1.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p5_Im3.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p5_Im4.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 36,
+      "text": "Consider the predicate [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p5_Im6.webp|inline] . Which of the following options are true?",
+      "type": "multichoice",
+      "options": [
+        "The predicate is in CNF.",
+        "There are 2 3 possible valuations for this predicate.",
+        "The predicate is in DNF.",
+        "There are 2 6 possible valuations for this predicate."
+      ],
+      "correct_answer": [
+        "The predicate is in CNF.",
+        "There are 2 6 possible valuations for this predicate."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 37,
+      "text": "Considering the row numbers (#) given in the truth table, which of the following is a CACC pair for the clause [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p6_Im2.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "(2,5)",
+        "(2,6)",
+        "(1,5)",
+        "(1,8)"
+      ],
+      "correct_answer": "(1,5)",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p6_Im2.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p5_Im7.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p5_Im8.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the predicate [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p5_Im7.webp|inline] and its truth table given below. Note that the blank cells represent the value [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p5_Im8.webp|inline] in the truth table. [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p6_Im1.webp|block] Based on the above data ,answer the given subquestions.",
+      "group_id": "6406531815617",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 38,
+      "text": "Considering the row numbers (#) given in the truth table, which of the following is a RICC pair for the clause [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p6_Im5.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "(1, 3) for [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p6_Im6.webp|inline] , no feasible pair for [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p6_Im7.webp|inline]",
+        "(1, 4) for [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p6_Im8.webp|inline] , no feasible pair for [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p6_Im9.webp|inline]",
+        "(2, 4) for [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p6_Im10.webp|inline] , no feasible pair for [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p6_Im11.webp|inline]",
+        "(2, 6) for [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im2.webp|inline] , no feasible pair for [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im3.webp|inline]"
+      ],
+      "correct_answer": "(2, 6) for [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im2.webp|inline] , no feasible pair for [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im3.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p6_Im5.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p5_Im7.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p5_Im8.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p6_Im1.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p6_Im6.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p6_Im7.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p6_Im8.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p6_Im9.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p6_Im10.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p6_Im11.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im2.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the predicate [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p5_Im7.webp|inline] and its truth table given below. Note that the blank cells represent the value [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p5_Im8.webp|inline] in the truth table. [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p6_Im1.webp|block] Based on the above data ,answer the given subquestions.",
+      "group_id": "6406531815617",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 39,
+      "text": "What is the cyclomatic complexity of [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im9.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": "3",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im9.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im4.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im5.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im6.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im7.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the control flow graph (CFG), [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im4.webp|inline] , where \u2022 Set of vertices [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im5.webp|inline] \u2022 Set of edges [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im6.webp|inline] \u2022 Initial vertex [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im7.webp|inline] \u2022 Final vertex [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im8.webp|inline]",
+      "group_id": "6406531815620",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 40,
+      "text": "How many test requirements are there for edge-pair coverage on [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im11.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "9",
+        "7",
+        "10",
+        "8"
+      ],
+      "correct_answer": "7",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im11.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im4.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im5.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im6.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im7.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the control flow graph (CFG), [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im4.webp|inline] , where \u2022 Set of vertices [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im5.webp|inline] \u2022 Set of edges [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im6.webp|inline] \u2022 Initial vertex [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im7.webp|inline] \u2022 Final vertex [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im8.webp|inline]",
+      "group_id": "6406531815620",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 41,
+      "text": "What is the minimum number of test paths needed to achieve edge coverage on [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p8_Im0.webp|inline] .",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p8_Im0.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im4.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im5.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im6.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im7.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the control flow graph (CFG), [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im4.webp|inline] , where \u2022 Set of vertices [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im5.webp|inline] \u2022 Set of edges [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im6.webp|inline] \u2022 Initial vertex [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im7.webp|inline] \u2022 Final vertex [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p7_Im8.webp|inline]",
+      "group_id": "6406531815620",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 42,
+      "text": "How many test requirements are there to satisfy All-Defs Coverage for variable x ?",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "correct_answer": "2",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following data flow graph and answer the subsequent questions. [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p8_Im3.webp|block]",
+      "group_id": "6406531815624",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 43,
+      "text": "How many test requirements are there to satisfy All-Uses Coverage for variable x ?",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correct_answer": "6",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following data flow graph and answer the subsequent questions. [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p8_Im3.webp|block]",
+      "group_id": "6406531815624",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 44,
+      "text": "Which of the following is not a def-clear path for variable x ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p9_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p9_Im5.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p8_Im3.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p9_Im3.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p9_Im4.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p9_Im5.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following data flow graph and answer the subsequent questions. [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p8_Im3.webp|block]",
+      "group_id": "6406531815624",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 45,
+      "text": "Identify the path constraint that represents an equivalence class of input vectors containing all inputs that lead to the abort() call at LINE-2 .",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im5.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p10_Im0.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p10_Im3.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p10_Im5.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p10_Im6.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p10_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider that concolic testing technique (DART) is used to test the following code segment. int mean(int a, int b){ return (a + b)/2; } int square(int n) { return n * n; } int process(int a, int b) { int t1 = mean(a, b); int t2 = square(t1) - (a * b) if(t2 <= 0) { // LINE-1 abort(); // LINE-2 } return t2; } Assume that [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im0.webp|inline] and [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im1.webp|inline] respresent the symbolic values for the variables a and b respectively, in the method process . Answer the subsequent questions.",
+      "group_id": "6406531815628",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 46,
+      "text": "Consider that DART generates a random input: [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im8.webp|inline] . Which path constraint (PC) is generated for the next execution at LINE-1 ? Hint: DART negates the path constraint in the current execution to get the path constraint for the next execution.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im9.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2025T3_Q2_NA_p10_Im8.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p10_Im0.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p10_Im9.webp",
+        "/data/images/cs3002_2025T3_Q2_NA_p10_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider that concolic testing technique (DART) is used to test the following code segment. int mean(int a, int b){ return (a + b)/2; } int square(int n) { return n * n; } int process(int a, int b) { int t1 = mean(a, b); int t2 = square(t1) - (a * b) if(t2 <= 0) { // LINE-1 abort(); // LINE-2 } return t2; } Assume that [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im0.webp|inline] and [IMAGE: /data/images/cs3002_2025T3_Q2_NA_p10_Im1.webp|inline] respresent the symbolic values for the variables a and b respectively, in the method process . Answer the subsequent questions.",
+      "group_id": "6406531815628",
+      "section_name": "Sw Testing"
+    }
+  ],
+  "id": "cs3002-2025t3-q2-na",
+  "course_code": "CS3002",
+  "course_name": "Software Testing",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

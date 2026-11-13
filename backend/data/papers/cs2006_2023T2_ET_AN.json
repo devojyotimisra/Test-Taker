@@ -1,0 +1,810 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT 2 (COMPUTER BASED EXAM)",
+  "filename": "cs2006_2023T2_ET_AN.pdf",
+  "total_questions": 33,
+  "total_marks": 33.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 368,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT 2 (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 369,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below HTML document. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p2_Im1.webp|block] Suppose you open the \u201cindex.html\u201d file in a browser, and click on the table cell with the text \u201cPihu\u201d. Which of the following shows the correct sequence of output?",
+      "type": "MCQ",
+      "options": [
+        "Cell Clicked !! Table Clicked !!",
+        "Table Clicked !! Cell Clicked !!",
+        "Cell Clicked !!",
+        "Table Clicked !!"
+      ],
+      "correct_answer": "Table Clicked !! Cell Clicked !!",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 370,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below HTML document. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p3_Im1.webp|block] Suppose you open the \u201cindex.html\u201d file in a browser, and click on the table cell with the text \u201cPihu\u201d. Which of the following shows the correct sequence of output?",
+      "type": "MCQ",
+      "options": [
+        "Cell Clicked !! Table Clicked !!",
+        "Table Clicked !! Cell Clicked !!",
+        "Cell Clicked !!",
+        "Table Clicked !!"
+      ],
+      "correct_answer": "Cell Clicked !! Table Clicked !!",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 371,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following JavaScript program, and predict the output if executed. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p4_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Function Invoked !! 1",
+        "Function Invoked !! 2",
+        "Function Invoked !! 3",
+        "The program will cause an infinite loop and keep printing the message \u201cFunction Invoked !!\u201d"
+      ],
+      "correct_answer": "Function Invoked !! 1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 372,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Match the Vue directives / constructs with their function. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p5_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-A, 2-B, 3-C, 4-D",
+        "1-C, 2-B, 3-D, 4-A",
+        "1-C, 2-D, 3-A, 4-B",
+        "1-C, 2-B, 3-A, 4-D"
+      ],
+      "correct_answer": "1-C, 2-B, 3-A, 4-D",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 373,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below Vue application with markup file \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p6_Im1.webp|block] [IMAGE: /data/images/cs2006_2023T2_ET_AN_p6_Im2.webp|block] Suppose the application is deployed under a subdirectory named \u201c/myapp/\u201d of a domain named \u201chttps://appdev2-may2023.com\u201d, and you want to navigate to a page that renders \u201cHello First Component !!\u201d. What should be the correct URL to get the desired output?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p7_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p7_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p7_Im4.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p6_Im1.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p6_Im2.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p7_Im2.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p7_Im4.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p7_Im5.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 374,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below Vue application with markup file \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p7_Im7.webp|block] [IMAGE: /data/images/cs2006_2023T2_ET_AN_p8_Im1.webp|block] Suppose you open the \u201cindex.html\u201d file in a browser, and click on the link with the text \u201cHome\u201d. What will be rendered by the browser except the router links in the navigation menu?",
+      "type": "MCQ",
+      "options": [
+        "Hello First Component !!",
+        "Hello Second Component !!",
+        "404",
+        "Blank Page"
+      ],
+      "correct_answer": "Hello First Component !!",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p7_Im7.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 375,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below javascript program, and predict the output, if executed. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p9_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Promise Resolved : Promise is resolved Value received from previous block : undefined In Finally block : undefined Value received from previous block : 39",
+        "Promise Resolved : Promise is rejected Value received from previous block : undefined In Finally block : 34 Value received from previous block : 39",
+        "Promise Resolved : Promise is rejected Value received from previous block : undefined In Finally block : undefined Value received from previous block : 34",
+        "Promise Rejected : Promise is resolved Value received from previous block : undefined In Finally block : undefined Value received from previous block : 34"
+      ],
+      "correct_answer": "Promise Rejected : Promise is resolved Value received from previous block : undefined In Finally block : undefined Value received from previous block : 34",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p9_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 376,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is true regarding long polling?",
+      "type": "MCQ",
+      "options": [
+        "The server does not close the connection until it has a message to send.",
+        "The server sends the response immediately, even if the requested data is not available.",
+        "The server will always close the connection if the response data is not available.",
+        "None of these."
+      ],
+      "correct_answer": "The server does not close the connection until it has a message to send.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 377,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following flask application. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "50 Seconds",
+        "60 Seconds",
+        "0 Seconds",
+        "None of these"
+      ],
+      "correct_answer": "0 Seconds",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 378,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What will be the output of the following javascript code. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Not Promoted",
+        "Promoted",
+        "Not Promoted Job Done",
+        "Promoted Job Done"
+      ],
+      "correct_answer": "Promoted Job Done",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 379,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below Vue application with markup file \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p13_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p13_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p14_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p13_Im3.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p13_Im1.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p13_Im3.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p13_Im5.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p13_Im6.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 380,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below Vue application with markup file \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p14_Im3.webp|block] [IMAGE: /data/images/cs2006_2023T2_ET_AN_p15_Im1.webp|block] [IMAGE: /data/images/cs2006_2023T2_ET_AN_p16_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Name: std1, Course: mad1",
+        "Name: std2, Course: mad2",
+        "Name: std3, Course: mad1",
+        "Not Found"
+      ],
+      "correct_answer": "Not Found",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p14_Im3.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p15_Im1.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 381,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is/are not the example(s) of ephemeral state?",
+      "type": "multichoice",
+      "options": [
+        "Currently selected tab/page in a multi page/tab document",
+        "User Preferences",
+        "Loading Icons",
+        "Shopping Cart"
+      ],
+      "correct_answer": [
+        "User Preferences",
+        "Shopping Cart"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 382,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true in general?",
+      "type": "multichoice",
+      "options": [
+        "As an application developer, it is not possible to hide javascript from the user.",
+        "\u201cDenail of Service\u201d is an attack that injects malicious client side scripts.",
+        "CORS is a mechanism used to control and manage cross-origin requests in a web application.",
+        "The terms \u201cprivacy\u201d and \u201csecurity\u201d are the same when it comes to web applications."
+      ],
+      "correct_answer": [
+        "As an application developer, it is not possible to hide javascript from the user.",
+        "CORS is a mechanism used to control and manage cross-origin requests in a web application."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 383,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are correct regarding the execution context in JavaScript?",
+      "type": "multichoice",
+      "options": [
+        "All the code that is not inside any function is run inside Global execution context.",
+        "A global execution context is created when a function is called.",
+        "A function execution context is created when the function is called.",
+        "All of these"
+      ],
+      "correct_answer": [
+        "All the code that is not inside any function is run inside Global execution context.",
+        "A function execution context is created when the function is called."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 384,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is/are correct regarding the prototype in javascript?",
+      "type": "multichoice",
+      "options": [
+        "Prototype is used by objects to inherit features.",
+        "Prototype of an object can be null.",
+        "Inheritance is not possible in JavaScript.",
+        "Every object may not have a prototype."
+      ],
+      "correct_answer": [
+        "Prototype is used by objects to inherit features.",
+        "Prototype of an object can be null."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 385,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "Caching can reduce the number of calls to the database",
+        "CDN is a group of servers that cache content",
+        "Caching can only be done at the browser level",
+        "All of these"
+      ],
+      "correct_answer": [
+        "Caching can reduce the number of calls to the database",
+        "CDN is a group of servers that cache content"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 386,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is/are true regarding the celery in python?",
+      "type": "multichoice",
+      "options": [
+        "Celery stores the result of a task in a result backend.",
+        "Celery typically runs the tasks asynchronously.",
+        "Celery beat is used to schedule tasks.",
+        "None of these."
+      ],
+      "correct_answer": [
+        "Celery stores the result of a task in a result backend.",
+        "Celery typically runs the tasks asynchronously.",
+        "Celery beat is used to schedule tasks."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 387,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is false regarding async and await?",
+      "type": "MCQ",
+      "options": [
+        "The \u201cawait\u201d can be used inside any function.",
+        "The \u201cawait\u201d keyword is typically used to wait for a promise and get its fulfilment value.",
+        "The \u201cawait\u201d keyword pauses the execution of code of the async function till the promise is in pending state, and executes the code outside the function, in the meantime.",
+        "The \u201cawait\u201d can only be used inside an async function, except browser console."
+      ],
+      "correct_answer": "The \u201cawait\u201d can be used inside any function.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 388,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is false regarding HTTP and fetch API?",
+      "type": "MCQ",
+      "options": [
+        "A fetch call is capable of sending image data.",
+        "The \u201cAccept\u201d HTTP header is used by HTTP clients to tell the server which type of content they expect/prefer as response.",
+        "The HTTP headers \u201cAccept\u201d and \u201cContent-Type\u201d are essentially the same.",
+        "A fetch call allows a developer to add custom headers in the request."
+      ],
+      "correct_answer": "The HTTP headers \u201cAccept\u201d and \u201cContent-Type\u201d are essentially the same.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 389,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p21_Im1.webp|block] Suppose you open \u201cindex.html\u201d file in a browser, and type the text \u201cApp Dev II\u201d in the text box shown (after removing the previous text, if any), and hard refresh the page once, without clicking anywhere. What will be the value shown in the text box, and the \u201cage\u201d placeholder, respectively?",
+      "type": "MCQ",
+      "options": [
+        "Text Box: DefaultDefault age Placeholder: Default",
+        "Text Box: DefaultDefaultDefaultDefault age Placeholder: Default",
+        "Text Box: DefaultDefaultDefaultDefault age Placeholder: [ \"App\", \"Dev\", \"II\" ]",
+        "Text Box: DefaultDefault age Placeholder: [ \"App\", \"Dev\", \"II\" ]"
+      ],
+      "correct_answer": "Text Box: DefaultDefault age Placeholder: [ \"App\", \"Dev\", \"II\" ]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p21_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 390,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below flask app, and an HTML file named \u201cindex.html\u201d. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p23_Im1.webp|block] [IMAGE: /data/images/cs2006_2023T2_ET_AN_p23_Im2.webp|block] Suppose you open the \u201cindex.html\u201d in a browser. What will be the approximate time taken by the second fetch call (i.e., \"http://127.0.0.1:5000/endpoint2\") to complete and log the data on the console?",
+      "type": "MCQ",
+      "options": [
+        "20 seconds",
+        "30 seconds",
+        "10 seconds",
+        "50 seconds"
+      ],
+      "correct_answer": "30 seconds",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p23_Im1.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p23_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 391,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the flask application. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p25_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "30 Seconds",
+        "40 Seconds",
+        "0 Seconds",
+        "None of these"
+      ],
+      "correct_answer": "0 Seconds",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p25_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 392,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below Vue application with markup file \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p26_Im1.webp|block] [IMAGE: /data/images/cs2006_2023T2_ET_AN_p26_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "On the circle",
+        "Not on the circle",
+        "true",
+        "False"
+      ],
+      "correct_answer": "Not on the circle",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p26_Im1.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p26_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 393,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below Vue application with markup file \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p27_Im2.webp|block] [IMAGE: /data/images/cs2006_2023T2_ET_AN_p28_Im1.webp|block] [IMAGE: /data/images/cs2006_2023T2_ET_AN_p29_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Name: std1, Course: mad1",
+        "Name: std2, Course: mad2",
+        "std1 std3",
+        "std1 std2 std3"
+      ],
+      "correct_answer": "std1 std3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p27_Im2.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p28_Im1.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p29_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 394,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below Vue application with markup file \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p30_Im1.webp|block] [IMAGE: /data/images/cs2006_2023T2_ET_AN_p31_Im1.webp|block] [IMAGE: /data/images/cs2006_2023T2_ET_AN_p32_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Name: std1, Course: mad1",
+        "Name: std2, Course: mad2",
+        "Name: std3, Course: mad1",
+        "std1 std2 std3"
+      ],
+      "correct_answer": "Name: std1, Course: mad1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p30_Im1.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p31_Im1.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p32_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 395,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below Vue component and a Vuex store implementation. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p33_Im1.webp|block] You are supposed to invoke the mutation function \u201cupdate_total_cost\u201d from the method named \u201cupdate_store_cost\u201d of the Vue component \u201cproduct\u201d. The \u201cupdate_total_cost\u201d mutation function should update the store data variable \u201ctotal_cost\u201d with an appropriate value. The cost is the product of \u201ccount\u201d and \u201cprice\u201d parameters of the function \u201cupdate_store_cost\u201d. Assume that both these parameters are of Numeric type, and need not be typecasted. Which of the following is/are the possible replacements for \u201cplaceholder1\u201d and \u201cplaceholder2\u201d?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im6.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p33_Im1.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p34_Im4.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p34_Im5.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p34_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 396,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the given 2 implementations. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p35_Im1.webp|block] [IMAGE: /data/images/cs2006_2023T2_ET_AN_p35_Im2.webp|block] Suppose there are currently 1000 users in the database, and the application is supposed to generate 1000 HTML reports. Which of the following statement(s) is/are true (assuming there are more than 1 worker available in the celery system)?",
+      "type": "multichoice",
+      "options": [
+        "Approach 1 will finish the task in less time than approach 2.",
+        "Approach 2 will finish the task in less time than approach 1.",
+        "Both the approaches are comparable.",
+        "Both the approaches will be comparable if there is only 1 worker available."
+      ],
+      "correct_answer": [
+        "Approach 1 will finish the task in less time than approach 2.",
+        "Both the approaches will be comparable if there is only 1 worker available."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p35_Im1.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p35_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 397,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true regarding flask_caching and caching in general?",
+      "type": "multichoice",
+      "options": [
+        "The cache decorator does not include the function parameters in the cache key.",
+        "The memoize decorator does not include the function parameters in the cache key.",
+        "The requests without request bodies are generally not cacheable.",
+        "Hard refreshing a web page clears the browser cache for that specific web page."
+      ],
+      "correct_answer": [
+        "The cache decorator does not include the function parameters in the cache key.",
+        "Hard refreshing a web page clears the browser cache for that specific web page."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 398,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is/are true?",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p37_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p37_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p37_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p37_Im5.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p37_Im4.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p37_Im5.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p37_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 399,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2006_2023T2_ET_AN_p37_Im7.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Caching all the players of a country on a backend server.",
+        "Caching all the players of a country in the user's browser.",
+        "Caching will not improve the performance.",
+        "None of these."
+      ],
+      "correct_answer": [
+        "Caching all the players of a country on a backend server.",
+        "Caching all the players of a country in the user's browser."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p37_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 400,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement is/are true in context of lighthouse?",
+      "type": "multichoice",
+      "options": [
+        "\u201cFirst contentful paint\u201d for a webpage is the size of the smallest visible element on a webpage.",
+        "\u201cFirst contentful paint\u201d for a webpage is the time the browser takes to paint the first visible content on the webpage.",
+        "\u201cLargest contentful paint\u201d for a webpage is the time the browser takes to paint the largest visible content on the webpage.",
+        "\u201cLargest contentfull paint\u201d for a webpage is the size of the largest visible content on the webpage."
+      ],
+      "correct_answer": [
+        "\u201cFirst contentful paint\u201d for a webpage is the time the browser takes to paint the first visible content on the webpage.",
+        "\u201cLargest contentful paint\u201d for a webpage is the time the browser takes to paint the largest visible content on the webpage."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    }
+  ],
+  "id": "cs2006-2023t2-et-an",
+  "course_code": "CS2006",
+  "course_name": "Application Development 2",
+  "level": "Diploma in Programming",
+  "term": "May 2023",
+  "year": 2023,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

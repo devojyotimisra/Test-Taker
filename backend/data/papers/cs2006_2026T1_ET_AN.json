@@ -1,0 +1,794 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)",
+  "filename": "cs2006_2026T1_ET_AN.pdf",
+  "total_questions": 33,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Which of the following statements is true regarding the \"this\" keyword in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "Arrow functions do not have their own \"this\" and inherit it from the surrounding scope.",
+        "\"this\" in an arrow function refers to the global object.",
+        "\"this\" inside a regular function refers to the object that owns the function.",
+        "\"this\" always points to the window object in browser environments."
+      ],
+      "correct_answer": "Arrow functions do not have their own \"this\" and inherit it from the surrounding scope.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the below JavaScript program. [IMAGE: /data/images/cs2006_2026T1_ET_AN_p1_Im3.webp|block] What will be the output of the above program?",
+      "type": "MCQ",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "15",
+        "18"
+      ],
+      "correct_answer": "9",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "What is the main advantage of using JWT over session-based authentication?",
+      "type": "MCQ",
+      "options": [
+        "JWTs are stateless and eliminate the need for server-side session storage.",
+        "JWTs require server-side storage for each session.",
+        "JWTs are longer and contain more data than session IDs.",
+        "JWTs automatically handle token expiration without additional logic."
+      ],
+      "correct_answer": "JWTs are stateless and eliminate the need for server-side session storage.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Which of the following HTTP methods does WebSocket use for initial handshake?",
+      "type": "MCQ",
+      "options": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE"
+      ],
+      "correct_answer": "GET",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "You are creating a cricket analytics app. The file battingStats.js exports: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p2_Im3.webp|block] In app.js , which import statement correctly imports both strikeRate and playerName? (Assume both js files are in the same folder.)",
+      "type": "MCQ",
+      "options": [
+        "import strikeRate, playerName from \"./battingStats.js\";",
+        "import { strikeRate, playerName } from \"./battingStats.js\";",
+        "import * as stats from \"./battingStats.js\";",
+        "require(\"./battingStats.js\");"
+      ],
+      "correct_answer": "import { strikeRate, playerName } from \"./battingStats.js\";",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "A JWT is structured as \"header.payload.signature\" . In Flask-JWT-Extended, what does the payload section contain?",
+      "type": "MCQ",
+      "options": [
+        "Encryption keys used to secure the token",
+        "User claims such as identity and expiration time",
+        "The signing algorithm details",
+        "The token signature hash"
+      ],
+      "correct_answer": "User claims such as identity and expiration time",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the below JavaScript program. [IMAGE: /data/images/cs2006_2026T1_ET_AN_p3_Im3.webp|block] What will be the output of the above program?",
+      "type": "MCQ",
+      "options": [
+        "Done!",
+        "Failed!",
+        "Done! Failed!",
+        "Failed! Done!"
+      ],
+      "correct_answer": "Failed!",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the below Vuex store configuration: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p4_Im1.webp|block] If the addItemAsync action is dispatched with the item 'Vue', what will be the state of items after 2 seconds ?",
+      "type": "MCQ",
+      "options": [
+        "['React', 'Angular', 'Vue']",
+        "['React', 'Angular']",
+        "['Vue']",
+        "['React']"
+      ],
+      "correct_answer": "['React', 'Angular', 'Vue']",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the below Vue app. [IMAGE: /data/images/cs2006_2026T1_ET_AN_p5_Im1.webp|block] What happens when the user navigates to an undefined route like \"/unknown\"?",
+      "type": "MCQ",
+      "options": [
+        "Browser redirects to /contact and displays \"Contact\".",
+        "Browser navigates to /unknown and shows a blank page.",
+        "Browser navigates to /unknown but renders nothing.",
+        "Error: No matching route."
+      ],
+      "correct_answer": "Browser redirects to /contact and displays \"Contact\".",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "What will be the output of the following JavaScript code? [IMAGE: /data/images/cs2006_2026T1_ET_AN_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "undefined, number, false, false",
+        "undefined, NaN, true, true",
+        "undefined, number, true, false",
+        "undefined, NaN, false, false"
+      ],
+      "correct_answer": "undefined, number, false, false",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the following JavaScript program: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p6_Im1.webp|block] What will be the output of the above program on a browser's console?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p7_Im1.webp|block] [IMAGE: /data/images/cs2006_2026T1_ET_AN_p7_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p7_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p6_Im1.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p7_Im1.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p7_Im3.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider the following JavaScript program: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p7_Im5.webp|block] What will be the output of the above program?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p8_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p8_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p8_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p8_Im4.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p7_Im5.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p8_Im4.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p8_Im5.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "What happens when this Flask caching code runs? [IMAGE: /data/images/cs2006_2026T1_ET_AN_p9_Im1.webp|block] If requests for IDs 1, 2, 1 are made within 3 minutes, what's the total response time?",
+      "type": "MCQ",
+      "options": [
+        "9 seconds",
+        "6 seconds",
+        "3 seconds",
+        "0 second"
+      ],
+      "correct_answer": "6 seconds",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the following JavaScript program: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p10_Im1.webp|block] What will be printed in the console when the code runs?",
+      "type": "MCQ",
+      "options": [
+        "Passed [80, 80, 30]",
+        "Failed [0, 0, 0]",
+        "Failed [80, 80, 30]",
+        "Passed [0, 0, 0]"
+      ],
+      "correct_answer": "Failed [80, 80, 30]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Match the Vue directive with its functionality: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2013A, 2\u2013D, 3\u2013C, 4\u2013B",
+        "1\u2013D, 2\u2013B, 3\u2013C, 4\u2013A",
+        "1\u2013B, 2\u2013C, 3\u2013D, 4\u2013A",
+        "1\u2013B, 2\u2013D, 3\u2013C, 4\u2013A"
+      ],
+      "correct_answer": "1\u2013B, 2\u2013D, 3\u2013C, 4\u2013A",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "In a Single Page Application (SPA), what are the benefits of client-side routing over server-side routing?",
+      "type": "multichoice",
+      "options": [
+        "Seamless page transitions without full reloads",
+        "Reduced load on the backend server",
+        "Slower navigation between pages",
+        "Better SEO performance by default"
+      ],
+      "correct_answer": [
+        "Seamless page transitions without full reloads",
+        "Reduced load on the backend server"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Which of the following is/are the correct statement?",
+      "type": "multichoice",
+      "options": [
+        "Cookie size can impact the website performance.",
+        "Cookie size does not affect performance in any practical/meaningful sense.",
+        "A request to static.example.com will include cookies set for example.com.",
+        "A request to static.example.com will not include cookies set for example.com."
+      ],
+      "correct_answer": [
+        "Cookie size does not affect performance in any practical/meaningful sense.",
+        "A request to static.example.com will include cookies set for example.com."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Consider the following Vue application with markup index.html and JavaScript file app.js. File: index.html [IMAGE: /data/images/cs2006_2026T1_ET_AN_p12_Im1.webp|block] File: script.js [IMAGE: /data/images/cs2006_2026T1_ET_AN_p12_Im2.webp|block] Suppose the application is running on http://127.0.0.1:8080. What will be rendered by the browser?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p13_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p13_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p13_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p13_Im4.webp|block]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p12_Im1.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p12_Im2.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p13_Im2.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p13_Im4.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p13_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Consider the following endpoints created with a working setup of flask-security and flask- sqlalchemy. [IMAGE: /data/images/cs2006_2026T1_ET_AN_p13_Im6.webp|block] Three requests are made to this application: 1.GET /api/free (no authentication headers) 2.GET /api/private (no authentication headers) 3.GET /api/adminonly with valid authentication token but user has role 'user' (not 'admin') What will be the response status codes for these requests, respectively?",
+      "type": "MCQ",
+      "options": [
+        "200, 401, 403",
+        "200, 200, 200",
+        "200, 403, 401",
+        "401, 401, 403"
+      ],
+      "correct_answer": "200, 401, 403",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p13_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Consider the following code snippet running in a browser. [IMAGE: /data/images/cs2006_2026T1_ET_AN_p14_Im3.webp|block] What will be the output on the console?",
+      "type": "MCQ",
+      "options": [
+        "Axe 15 25 35",
+        "Axe 25 25 35",
+        "Sword 25 25 35",
+        "Axe 25 35 35"
+      ],
+      "correct_answer": "Axe 15 25 35",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p14_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Consider the following code snippet running on a browser. [IMAGE: /data/images/cs2006_2026T1_ET_AN_p15_Im1.webp|block] What is the output on the console?",
+      "type": "MCQ",
+      "options": [
+        "50 undefined 50",
+        "50 50 50",
+        "50 undefined undefined",
+        "undefined undefined undefined"
+      ],
+      "correct_answer": "50 undefined 50",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "A student is preparing travel gear and uses Vue 2 with Vuex to track packed items. The application below is incomplete: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p16_Im1.webp|block] Which of the following correctly fills Line X and Line Y so the app works?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p16_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p17_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p17_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T1_ET_AN_p17_Im2.webp|block]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p16_Im1.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p16_Im5.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p17_Im2.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p17_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Consider the flask application app.py and an HTML file index.html : app.py: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p17_Im4.webp|block] index.html: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p18_Im1.webp|block] If a user visits index.html at 10:10:10 AM , what will be logged in the console ?",
+      "type": "MCQ",
+      "options": [
+        "20, 50",
+        "20, 40",
+        "40, 40",
+        "50, 50"
+      ],
+      "correct_answer": "20, 40",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p17_Im4.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Consider the following Flask JWT code: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p19_Im1.webp|block] A request is made to /login with { \"username\": \"Jassi\" } and then /profile is accessed. Which statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "/profile returns \"Welcome Jassi\" only if a valid JWT token is provided in the Authorization header",
+        "If no token is provided, /profile returns an unauthorized error",
+        "The JWT token must be included in the POST body to access /profile",
+        "None of these"
+      ],
+      "correct_answer": [
+        "/profile returns \"Welcome Jassi\" only if a valid JWT token is provided in the Authorization header",
+        "If no token is provided, /profile returns an unauthorized error"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "Riya uses Git and performs these steps: \u2022 Creates a new branch and switches to it \u2022 Stages changes for commit \u2022 Commits the changes with a message \u2022 Pushes the branch to remote Which commands correctly match these operations?",
+      "type": "multichoice",
+      "options": [
+        "git checkout -b feature-branch",
+        "git add .",
+        "git commit -m \"Initial commit\"",
+        "git push origin feature-branch",
+        "git branch feature-branch && git checkout main",
+        "git push feature-branch origin"
+      ],
+      "correct_answer": [
+        "git checkout -b feature-branch",
+        "git add .",
+        "git commit -m \"Initial commit\"",
+        "git push origin feature-branch"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "Two students use a Vue.js app for course content. \u2022 The sidebar appears immediately when the page loads \u2022 The Assignments section takes a while to appear after clicking The component is: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p20_Im3.webp|block] Which statement is/are explaining the delay?",
+      "type": "multichoice",
+      "options": [
+        "The sidebar is likely part of a parent component that already rendered before the API call",
+        "The Assignments component must wait for the API response before showing data",
+        "Vue blocks all components until API calls finish",
+        "The delay happens because the data is loaded asynchronously after component creation"
+      ],
+      "correct_answer": [
+        "The sidebar is likely part of a parent component that already rendered before the API call",
+        "The Assignments component must wait for the API response before showing data",
+        "The delay happens because the data is loaded asynchronously after component creation"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p20_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "Which of the following statement(s) is/are true about GraphQL?",
+      "type": "multichoice",
+      "options": [
+        "Mutations in GraphQL can be used to change the underlying data store.",
+        "GraphQL services are created by defining types and fields of those types, then providing functions for each field.",
+        "GraphQL can only fetch data from a single source.",
+        "GraphQL allows only GET operations."
+      ],
+      "correct_answer": [
+        "Mutations in GraphQL can be used to change the underlying data store.",
+        "GraphQL services are created by defining types and fields of those types, then providing functions for each field."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "How many times will \"computed run\" be logged during the initial render?",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "1",
+        "Many times because of the loop",
+        "Only after user interaction"
+      ],
+      "correct_answer": "1",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p22_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following Vue.js application: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p22_Im1.webp|block]",
+      "group_id": "6406532125911",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "If calculate() changes data like: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p23_Im1.webp|block] What happens when the button is clicked?",
+      "type": "MCQ",
+      "options": [
+        "bigValue() will not execute again",
+        "bigValue() will execute again because a dependency changed",
+        "Only time updates",
+        "An error is thrown by Vue"
+      ],
+      "correct_answer": "bigValue() will execute again because a dependency changed",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p23_Im1.webp",
+        "/data/images/cs2006_2026T1_ET_AN_p22_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following Vue.js application: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p22_Im1.webp|block]",
+      "group_id": "6406532125911",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "Why is bigValue() defined as a computed property instead of a method?",
+      "type": "MCQ",
+      "options": [
+        "Computed properties are always faster than methods",
+        "Computed properties are cached based on dependencies",
+        "Methods cannot read data properties",
+        "Computed properties run only once"
+      ],
+      "correct_answer": "Computed properties are cached based on dependencies",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p22_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following Vue.js application: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p22_Im1.webp|block]",
+      "group_id": "6406532125911",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 32,
+      "text": "What happens immediately after clicking \"Product 2\" ?",
+      "type": "MCQ",
+      "options": [
+        "The Product component is destroyed and recreated, so updated() is never called",
+        "The route changes, the component is reused, and updated() is called",
+        "The route changes, but neither watcher nor lifecycle hooks run",
+        "A new Vue instance is created for the route"
+      ],
+      "correct_answer": "The route changes, the component is reused, and updated() is called",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p24_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following Vue 2 application: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p24_Im1.webp|block] Assume the Vue application is loaded at the url http://127.0.0.1:5000/#/product/1 . The user then clicks on the Product 2 router link.",
+      "group_id": "6406532125920",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 33,
+      "text": "Why is the updated() lifecycle hook triggered in this scenario?",
+      "type": "MCQ",
+      "options": [
+        "Because Vue Router always recreates routed components on every navigation",
+        "Because lifecycle hooks fire for any URL change even without reactive updates",
+        "Because router-view forces a complete component tree redraw",
+        "Because changing the watched route parameter updates component state and causes a component update"
+      ],
+      "correct_answer": "Because changing the watched route parameter updates component state and causes a component update",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_ET_AN_p24_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following Vue 2 application: [IMAGE: /data/images/cs2006_2026T1_ET_AN_p24_Im1.webp|block] Assume the Vue application is loaded at the url http://127.0.0.1:5000/#/product/1 . The user then clicks on the Product 2 router link.",
+      "group_id": "6406532125920",
+      "section_name": "Appdev2"
+    }
+  ],
+  "id": "cs2006-2026t1-et-an",
+  "course_code": "CS2006",
+  "course_name": "Application Development 2",
+  "level": "Diploma in Programming",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

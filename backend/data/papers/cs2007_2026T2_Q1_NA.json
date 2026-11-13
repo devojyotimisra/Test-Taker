@@ -1,0 +1,393 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
+  "filename": "cs2007_2026T2_Q1_NA.pdf",
+  "total_questions": 12,
+  "total_marks": 35.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider a mean-centred dataset [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im3.webp|inline] consisting of 5000 points in [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im4.webp|inline] with features [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im5.webp|inline] .Every data point satisfies [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im6.webp|block] The independent base feature [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im7.webp|inline] has variance [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im8.webp|inline] . The remaining features [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im9.webp|inline] are mutually uncorrelated, uncorrelated with [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im10.webp|inline] , and each has variance [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im11.webp|inline] .Standard PCA is performed on this dataset. Let [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im12.webp|inline] denote the eigenvalues of the covariance matrix in descending order. Which of the following statements is strictly true?",
+      "type": "MCQ",
+      "options": [
+        "Exactly 3 eigenvalues are zero: [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im13.webp|inline] , and [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im14.webp|block]",
+        "Exactly 4 eigenvalues are zero( [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im15.webp|inline] ), and [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im16.webp|block]",
+        "Exactly 4 eigenvalues are zero( [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im17.webp|inline] ), and [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im18.webp|block]",
+        "Exactly 2 eigenvalues are zero( [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im19.webp|inline] ), and [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im20.webp|inline] lies somewhere in the [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im1.webp|inline] - [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im2.webp|inline] - [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im3.webp|inline] subspace."
+      ],
+      "correct_answer": "Exactly 4 eigenvalues are zero( [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im15.webp|inline] ), and [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p1_Im16.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im3.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im4.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im5.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im6.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im7.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im8.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im9.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im10.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im11.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im12.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im13.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im14.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im15.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im16.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im17.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im18.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im19.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p1_Im20.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im1.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im2.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Let [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im4.webp|inline] .Define [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im5.webp|block] Which of the following is the correct expression for [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im6.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im10.webp|block]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im11.webp|block]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im12.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im11.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im4.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im5.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im6.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im10.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im11.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the one-dimensional dataset [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im13.webp|block] Suppose [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im14.webp|inline] -means is run with [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im15.webp|inline] clusters. At iteration [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im16.webp|inline] , the centroids are [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im17.webp|block] The assignment step is performed using these centroids to produce new assignments [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im18.webp|inline] for each point. Compute [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p2_Im19.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "4",
+        "8",
+        "24",
+        "44"
+      ],
+      "correct_answer": "24",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im13.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im14.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im15.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im16.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im17.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im18.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p2_Im19.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Which of the following statements is [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im3.webp|inline] true for the [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im4.webp|inline] -means algorithm with [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im5.webp|inline] cluster centres, between consecutive iterations [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im6.webp|inline] and [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im7.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "If ,then at least one data point will change its cluster assignment from iteration [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im9.webp|inline] to [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im10.webp|inline] . [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im11.webp|block]",
+        "If , then no data point will change its cluster assignment from iteration [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im12.webp|inline] to [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im13.webp|inline] .",
+        "If a data point changes its cluster assignment from cluster [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im14.webp|inline] to cluster [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im15.webp|inline] , it is guaranteed that the centroid of cluster [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im16.webp|inline] strictly changes, i.e., [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im17.webp|inline] .",
+        "It is not possible for the [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im18.webp|inline] -means algorithm to revisit a configuration, where a configuration corresponds to the [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im19.webp|inline] -way partition generated by clustering at the end of each iteration."
+      ],
+      "correct_answer": "It is not possible for the [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im18.webp|inline] -means algorithm to revisit a configuration, where a configuration corresponds to the [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im19.webp|inline] -way partition generated by clustering at the end of each iteration.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im3.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im4.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im5.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im6.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im7.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im9.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im10.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im11.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im12.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im13.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im14.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im15.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im16.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im17.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im18.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im19.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "A dataset containing 1,000 points is clustered using the [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p3_Im20.webp|inline] -means algorithm. Which of the following values of [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im1.webp|inline] is most likely to yield the [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im2.webp|inline] value of objective function of [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im3.webp|inline] -means?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im9.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_Q1_NA_p3_Im20.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im1.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im2.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im3.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im5.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im6.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im7.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following kernel function defined for scalar inputs [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im10.webp|inline] : [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im11.webp|block] Which of the following feature maps [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im12.webp|inline] satisfies [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im13.webp|inline] for all [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im14.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im15.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im16.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im17.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im18.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p4_Im18.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im10.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im11.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im12.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im13.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im14.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im15.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im16.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im17.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p4_Im18.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Let [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im1.webp|inline] be a convex function.Which of the following choices of [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im2.webp|inline] [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im3.webp|inline] that [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im4.webp|block] holds for [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im5.webp|inline] convex function [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im6.webp|inline] and [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im7.webp|inline] [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im8.webp|inline] ?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im12.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im13.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im14.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im15.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im12.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im15.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im1.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im2.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im3.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im4.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im5.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im6.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im7.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im8.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im10.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im12.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im13.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im14.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im15.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Assume that [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im16.webp|block] are valid (positive semi-definite) kernels. Which of the following are [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im17.webp|inline] valid kernels?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im19.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im20.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im21.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im19.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2007_2026T2_Q1_NA_p5_Im20.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im16.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im17.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im19.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im20.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p5_Im21.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider a GMM with [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im1.webp|inline] components.During the E-step for a single data point [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im2.webp|inline] , you are given only the following two quantities for the first component: [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im3.webp|block] where [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im4.webp|inline] is the prior mixing weight and [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im5.webp|inline] is the posterior responsibility. All other component parameters and densities are unknown. Based strictly on these two values and the mathematical definition of the E-step responsibility, [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im6.webp|block] which of the following quantities can be uniquely determined as exact numerical values?",
+      "type": "multichoice",
+      "options": [
+        "The marginal probability density of the data point, [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im8.webp|inline] .",
+        "The ratio of the conditional density to the marginal density for component [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im10.webp|inline] : [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im11.webp|inline] .",
+        "The ratio of the joint probability of component [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im12.webp|inline] to the sum of joint [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im13.webp|block] probabilities of all other components: .",
+        "The sum of posterior responsibilities for all components other than [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im15.webp|block] component [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im14.webp|inline] :"
+      ],
+      "correct_answer": [
+        "The ratio of the conditional density to the marginal density for component [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im10.webp|inline] : [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im11.webp|inline] .",
+        "The ratio of the joint probability of component [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im12.webp|inline] to the sum of joint [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im13.webp|block] probabilities of all other components: .",
+        "The sum of posterior responsibilities for all components other than [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im15.webp|block] component [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p6_Im14.webp|inline] :"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im1.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im2.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im3.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im4.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im5.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im6.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im8.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im10.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im11.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im12.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im13.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im15.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p6_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript Consider a two-component Gaussian Mixture Model (GMM) with mixing weights [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im1.webp|inline] and [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im2.webp|inline] .For a particular observation [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im3.webp|inline] , the component conditional densities satisfy [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im4.webp|block] During the E-step of the EM algorithm, the posterior responsibility of component [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im5.webp|inline] is computed as [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im6.webp|inline] .Determine the value of [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im7.webp|inline] , correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.30 to 0.36",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im1.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im2.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im3.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im4.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im5.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im6.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Let [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im8.webp|inline] be a dataset of [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im9.webp|inline] observations where each [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im10.webp|inline] .It is given that [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im11.webp|block] The covariance matrix computed from [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im12.webp|inline] has eigenvalues [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im13.webp|block] Let [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im14.webp|inline] be the direction of maximum variance with [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im15.webp|inline] . Find the value of [IMAGE: /data/images/cs2007_2026T2_Q1_NA_p7_Im16.webp|block] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "100",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im8.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im9.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im10.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im11.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im12.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im13.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im14.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im15.webp",
+        "/data/images/cs2007_2026T2_Q1_NA_p7_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    }
+  ],
+  "id": "cs2007-2026t2-q1-na",
+  "course_code": "CS2007",
+  "course_name": "Machine Learning Techniques",
+  "level": "Diploma in Data Science",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

@@ -1,0 +1,540 @@
+{
+  "title": "DEGREE LEVEL : BIG DATA AND BIOLOGICAL NETWORKS (COMPUTER BASED EXAM)",
+  "filename": "bt4002_2025T1_Q2_NA.pdf",
+  "total_questions": 23,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 295,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : BIG DATA AND BIOLOGICAL NETWORKS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 296,
+      "text": "What happens to scale-free networks when subjected to random node removal?",
+      "type": "MCQ",
+      "options": [
+        "The network disintegrates rapidly",
+        "The diameter and characteristic path length decrease significantly",
+        "The network remains largely insensitive to the perturbation",
+        "The diameter and characteristic path length increase significantly"
+      ],
+      "correct_answer": "The network remains largely insensitive to the perturbation",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 297,
+      "text": "Consider a regular lattice with n = 7 and m = 14 . The number of triangular sub-graphs in the given network is",
+      "type": "MCQ",
+      "options": [
+        "70",
+        "35",
+        "140",
+        "360"
+      ],
+      "correct_answer": "35",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 298,
+      "text": "Consider the following set of metabolic reactions: R1: P + Q \u2192 2R R2: 2Q + S \u2192 T R3: R + T \u2192 3U R4: P + U \u2192 V + S What is the density of the undirected substrate graph formed?",
+      "type": "MCQ",
+      "options": [
+        "0.33",
+        "0.56",
+        "0.27",
+        "0.73"
+      ],
+      "correct_answer": "0.33",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 299,
+      "text": "If a metabolite with high betweenness centrality is knocked out, what is the likely consequence?",
+      "type": "MCQ",
+      "options": [
+        "Pathway redundancy increases, paradoxically making the metabolic network more resilient.",
+        "The network always compensates through alternative routes, ensuring no functional loss.",
+        "Metabolic pathways may become fragmented, potentially disrupting essential biochemical functions.",
+        "Only directly connected reactions are affected, while the overall network remains stable."
+      ],
+      "correct_answer": "Metabolic pathways may become fragmented, potentially disrupting essential biochemical functions.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 300,
+      "text": "What is the average degree (regardless of the direction) of the 3-mer De-Bruijn graph constructed from \u201cTCAGAGGT\u201d?",
+      "type": "MCQ",
+      "options": [
+        "4.1",
+        "2.4",
+        "3.4",
+        "2"
+      ],
+      "correct_answer": "2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 301,
+      "text": "What is the total number of edges of the De-Bruijn Graph generated from the 3-mers obtained from \u201cATCGGTACAACTCTCTCATGCG\u201d?",
+      "type": "MCQ",
+      "options": [
+        "15",
+        "14",
+        "19",
+        "17"
+      ],
+      "correct_answer": "19",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 302,
+      "text": "A researcher is studying network motifs in a biological network and generates randomized networks for comparison. Which of the following statements are correct regarding the randomization process?",
+      "type": "multichoice",
+      "options": [
+        "Randomized networks must ideally retain the same number of nodes and edges as the original network.",
+        "Randomized networks can have a different degree distribution to ensure statistical significance.",
+        "Randomized networks can be generated using the configuration model, to ensure that the degree sequence of the original network is preserved.",
+        "Randomized networks can be generated by randomly adding new nodes and edges."
+      ],
+      "correct_answer": [
+        "Randomized networks must ideally retain the same number of nodes and edges as the original network.",
+        "Randomized networks can be generated using the configuration model, to ensure that the degree sequence of the original network is preserved."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 303,
+      "text": "The Girvan\u2013Newman algorithm for community detection involves which of the following steps?",
+      "type": "multichoice",
+      "options": [
+        "Remove edges with the highest betweenness first.",
+        "Re-compute the betweenness after each edge removal.",
+        "Remove edges with the lowest betweenness first.",
+        "Remove nodes with the lowest betweenness first."
+      ],
+      "correct_answer": [
+        "Remove edges with the highest betweenness first.",
+        "Re-compute the betweenness after each edge removal."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 304,
+      "text": "A researcher is modeling the spread of an infectious disease on a small-world network. Which of the following are true in the context of the likelihood of a disease outbreak?",
+      "type": "multichoice",
+      "options": [
+        "The diameter of the network is an important factor, as it influences how quickly the disease can reach distant nodes.",
+        "The clustering coefficient is one of the parameters that determine the likelihood of localized outbreaks.",
+        "The degree distribution has no impact on disease spread in small-world networks.",
+        "The transmissibility of the disease is independent of the network structure."
+      ],
+      "correct_answer": [
+        "The diameter of the network is an important factor, as it influences how quickly the disease can reach distant nodes.",
+        "The clustering coefficient is one of the parameters that determine the likelihood of localized outbreaks."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 305,
+      "text": "Which of these are challenges one might encounter in the process of genome assembly?",
+      "type": "multichoice",
+      "options": [
+        "Erroneous reads",
+        "Large volumes of data",
+        "Duplicate sequences",
+        "Incomplete graph"
+      ],
+      "correct_answer": [
+        "Erroneous reads",
+        "Large volumes of data",
+        "Duplicate sequences"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 306,
+      "text": "Consider the following two statements: a. Statement 1: Reads from the genome sequencing are prone to error. b. Statement 2: Sequence alignment can be used to overcome this problem. Based on your observations, which of the following statements is not true?",
+      "type": "multichoice",
+      "options": [
+        "Both statements are true and statement 2 is a potential solution for statement 1",
+        "Both statements are true but statement 2 is not a solution to statement 1",
+        "Both statements are false",
+        "Statement 1 is false but Statement 2 is true"
+      ],
+      "correct_answer": [
+        "Both statements are true but statement 2 is not a solution to statement 1",
+        "Both statements are false",
+        "Statement 1 is false but Statement 2 is true"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 307,
+      "text": "Microbe \u2018M\u2019 has 50 reactions that are stuck when grown by itself. When \u2018M\u2019 is grown with \u2018N\u2019, the stuck reactions reduce to 40. When \u2018M\u2019 is paired with \u2018O\u2019, the number drops to 42. Which of the following statements hold true?",
+      "type": "multichoice",
+      "options": [
+        "MSI of \u2018M\u2019 in the presence of \u2018N\u2019 is 0.2.",
+        "MSI of \u2018M\u2019 in the presence of \u2018O\u2019 is 0.16.",
+        "MSI of \u2018M\u2019 in the presence of \u2018N\u2019 and \u2018O\u2019 is 0.36.",
+        "MSI of \u2018N\u2019 in the presence of \u2018M\u2019 is 0.2."
+      ],
+      "correct_answer": [
+        "MSI of \u2018M\u2019 in the presence of \u2018N\u2019 is 0.2.",
+        "MSI of \u2018M\u2019 in the presence of \u2018O\u2019 is 0.16."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 308,
+      "text": "[IMAGE: /data/images/bt4002_2025T1_Q2_NA_p5_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Gene 1 \u2192 Gene 2",
+        "Gene 1 \u2192 Gene 3",
+        "Gene 3 \u2192 Gene 2",
+        "Gene 3 \u2192 Gene 1"
+      ],
+      "correct_answer": [
+        "Gene 1 \u2192 Gene 2",
+        "Gene 1 \u2192 Gene 3"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2025T1_Q2_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 309,
+      "text": "How are network motifs related to the organization of gene regulatory networks?",
+      "type": "multichoice",
+      "options": [
+        "They represent common patterns of gene regulation that appear frequently in the network",
+        "They can be interconnected to form modules, which can regulate specific gene sets",
+        "They are not relevant at all levels of regulatory networks",
+        "They are always independent of the modules in the network"
+      ],
+      "correct_answer": [
+        "They represent common patterns of gene regulation that appear frequently in the network",
+        "They can be interconnected to form modules, which can regulate specific gene sets"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 310,
+      "text": "Which of the following are true about feed-forward loop (FFL) motifs in transcriptional regulatory networks?",
+      "type": "multichoice",
+      "options": [
+        "FFLs are simple sequences of gene interactions with no regulation involved.",
+        "FFLs can involve both positive and negative regulation, which helps control gene expression in a dynamic manner.",
+        "FFLs are mainly found in eukaryotic organisms and are not present in prokaryotes.",
+        "In an FFL, feedback can either increase (amplify) or decrease (attenuate) the gene expression signal."
+      ],
+      "correct_answer": [
+        "FFLs can involve both positive and negative regulation, which helps control gene expression in a dynamic manner.",
+        "In an FFL, feedback can either increase (amplify) or decrease (attenuate) the gene expression signal."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 311,
+      "text": "Consider a graph that was constructed by comparing n DNA sequences. If the two sequences can be aligned with a score greater than a threshold value, we assign an edge between the two in the graph. Given this, which of the following is true:",
+      "type": "multichoice",
+      "options": [
+        "Inserting a new node to the graph requires n comparisons",
+        "Inserting a new node is a node level task",
+        "If all the alignments have the same score, the resultant graph is a complete graph",
+        "There will be two connected components in the resultant graph"
+      ],
+      "correct_answer": [
+        "Inserting a new node to the graph requires n comparisons",
+        "Inserting a new node is a node level task",
+        "If all the alignments have the same score, the resultant graph is a complete graph"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 312,
+      "text": "Which of the following does not makes an appropriate pair?",
+      "type": "multichoice",
+      "options": [
+        "Node classification \u2013 Predicting drug-drug interaction",
+        "Graph classification \u2013 Predicting toxicity of a chemical compound",
+        "Link Prediction \u2013 Predicting function of novel proteins",
+        "Graph regression \u2013 Predicting free energy of hydration"
+      ],
+      "correct_answer": [
+        "Node classification \u2013 Predicting drug-drug interaction",
+        "Link Prediction \u2013 Predicting function of novel proteins"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 313,
+      "text": "How many solutions are possible for a string reconstruction problem with 13 words?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4002_2025T1_Q2_NA_p7_Im3.webp|inline] [IMAGE: /data/images/bt4002_2025T1_Q2_NA_p7_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/bt4002_2025T1_Q2_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2025T1_Q2_NA_p7_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4002_2025T1_Q2_NA_p7_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2025T1_Q2_NA_p7_Im3.webp",
+        "/data/images/bt4002_2025T1_Q2_NA_p7_Im4.webp",
+        "/data/images/bt4002_2025T1_Q2_NA_p7_Im5.webp",
+        "/data/images/bt4002_2025T1_Q2_NA_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 314,
+      "text": "What is the number of 5-mers generated from the sequence : \u201cAGATATATTATTGTCTTTTTTGTCA\u201d?",
+      "type": "MCQ",
+      "options": [
+        "20",
+        "22",
+        "15",
+        "21"
+      ],
+      "correct_answer": "21",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 315,
+      "text": "What is the total number of nodes of the De-Bruijn Graph generated from the 3-mers obtained from \u201cTACTCTAAG\u201d?",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "4"
+      ],
+      "correct_answer": "7",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 316,
+      "text": "Given the two sequences \u201cGATTACA\u201d, \u201cGTCGACGCA\u201d, and the scoring paradigm: matches: \u201c+1\u201d, mismatches: \u201c-1\u201d and gap: \u201c-2\u201d, find the final score for the best global alignment between the two sequences.",
+      "type": "MCQ",
+      "options": [
+        "10",
+        "-11",
+        "-3",
+        "2"
+      ],
+      "correct_answer": "-3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 317,
+      "text": "Given the k-mers : \u2019GCCGT\u2019, \u2019CGTAG\u2019, \u2019TAGGC\u2019, \u2019GTAGG\u2019, \u2019CTATG\u2019, \u2019CCGTA\u2019, \u2019TATGC\u2019, \u2019TGCCG\u2019, \u2019AGGCG\u2019, \u2019ATGCC\u2019, reconstruct the sequence from which the k-mers were generated.",
+      "type": "MCQ",
+      "options": [
+        "CTATACCGTAGGCG",
+        "CTATGCCGTAGGCG",
+        "ATCGGTACAACGG",
+        "TATGCCGTAGGCGC"
+      ],
+      "correct_answer": "CTATGCCGTAGGCG",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    }
+  ],
+  "id": "bt4002-2025t1-q2-na",
+  "course_code": "BT4002",
+  "course_name": "Introduction to Bioinformatics",
+  "level": "Degree",
+  "term": "Jan 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

@@ -1,0 +1,434 @@
+{
+  "title": "DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)",
+  "filename": "cs3003_2023T3_Q1_NA.pdf",
+  "total_questions": 21,
+  "total_marks": 21.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 20,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 21,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following states are reachable from the start state in exactly 3 moves?",
+      "type": "multichoice",
+      "options": [
+        "(LRL-)",
+        "(L-RL)",
+        "(RLL-)",
+        "(L-LR)",
+        "(LL-R)"
+      ],
+      "correct_answer": [
+        "(LRL-)",
+        "(L-RL)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "STATE SPACE Recall the rabbits crossing puzzle from the practice assignment. Two groups of rabbits, each group at opposite ends of a path, want to cross the path by making only forward jumps: a rabbit can jump forward to an adjacent empty spot, or jump forward over one rabbit and land in an empty spot. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p2_Im1.webp|block] The start state is (R-LL) , where R is a rabbit that wants to go right, and L is a rabbit that wants to go left, and the dash marks the empty spot. Construct all the states that are reachable from the start state and build a state space graph out of those states, call it Graph-12.",
+      "group_id": "640653676785",
+      "section_name": "AI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 22,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 From (R-LL) , the minimum number of moves needed to reach (LL-R) is __________ .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "STATE SPACE Recall the rabbits crossing puzzle from the practice assignment. Two groups of rabbits, each group at opposite ends of a path, want to cross the path by making only forward jumps: a rabbit can jump forward to an adjacent empty spot, or jump forward over one rabbit and land in an empty spot. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p2_Im1.webp|block] The start state is (R-LL) , where R is a rabbit that wants to go right, and L is a rabbit that wants to go left, and the dash marks the empty spot. Construct all the states that are reachable from the start state and build a state space graph out of those states, call it Graph-12.",
+      "group_id": "640653676785",
+      "section_name": "AI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 23,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 For Graph-12, which of the following algorithms will find the shortest path from (R-LL) to (LL-R) ? Assume a suitable MoveGen order for each algorithm.",
+      "type": "multichoice",
+      "options": [
+        "Depth First Search",
+        "Breadth First Search",
+        "DFID-C (revisits CLOSED nodes)"
+      ],
+      "correct_answer": [
+        "Depth First Search",
+        "Breadth First Search",
+        "DFID-C (revisits CLOSED nodes)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "STATE SPACE Recall the rabbits crossing puzzle from the practice assignment. Two groups of rabbits, each group at opposite ends of a path, want to cross the path by making only forward jumps: a rabbit can jump forward to an adjacent empty spot, or jump forward over one rabbit and land in an empty spot. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p2_Im1.webp|block] The start state is (R-LL) , where R is a rabbit that wants to go right, and L is a rabbit that wants to go left, and the dash marks the empty spot. Construct all the states that are reachable from the start state and build a state space graph out of those states, call it Graph-12.",
+      "group_id": "640653676785",
+      "section_name": "AI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 24,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 List the first 4 nodes (including the start node) inspected by Depth First Search. List the nodes in the order they were inspected. If the algorithm terminates early then list the nodes inspected up until termination. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,A,C,I",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two-way edges. Take S as the start node and G as the goal node. The MoveGen function returns neighbours in alphabetical order. In all the algorithms below, the RemoveSeen procedure will remove nodes from the output of MoveGen if those nodes are present in OPEN/CLOSED lists. Use Manhattan distance when needed. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN.",
+      "group_id": "640653676789",
+      "section_name": "AI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 25,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the path found by Depth First Search? Enter the path as a comma separated list of node labels. Enter NIL if no path is found. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,G Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,A,C,I,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two-way edges. Take S as the start node and G as the goal node. The MoveGen function returns neighbours in alphabetical order. In all the algorithms below, the RemoveSeen procedure will remove nodes from the output of MoveGen if those nodes are present in OPEN/CLOSED lists. Use Manhattan distance when needed. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN.",
+      "group_id": "640653676789",
+      "section_name": "AI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 26,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 List the first 4 nodes inspected by Breadth First Search. List the nodes in the order they were inspected. If the algorithm terminates early then list the nodes inspected up until termination. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,A,B,C",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two-way edges. Take S as the start node and G as the goal node. The MoveGen function returns neighbours in alphabetical order. In all the algorithms below, the RemoveSeen procedure will remove nodes from the output of MoveGen if those nodes are present in OPEN/CLOSED lists. Use Manhattan distance when needed. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN.",
+      "group_id": "640653676789",
+      "section_name": "AI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 27,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the path found by Breadth First Search? Enter the path as a comma separated list of node labels. Enter NIL if no path is found. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,G Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,A,D,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two-way edges. Take S as the start node and G as the goal node. The MoveGen function returns neighbours in alphabetical order. In all the algorithms below, the RemoveSeen procedure will remove nodes from the output of MoveGen if those nodes are present in OPEN/CLOSED lists. Use Manhattan distance when needed. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN.",
+      "group_id": "640653676789",
+      "section_name": "AI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 28,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 List the first 4 nodes inspected by Best First Search. List the nodes in the order they were inspected. If the algorithm terminates early then list the nodes inspected up until termination. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,B,F,E",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two-way edges. Take S as the start node and G as the goal node. The MoveGen function returns neighbours in alphabetical order. In all the algorithms below, the RemoveSeen procedure will remove nodes from the output of MoveGen if those nodes are present in OPEN/CLOSED lists. Use Manhattan distance when needed. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN.",
+      "group_id": "640653676789",
+      "section_name": "AI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 29,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the path found by Best First Search? Enter the path as a comma separated list of node labels. Enter NIL if no path is found. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,G Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,B,F,J,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two-way edges. Take S as the start node and G as the goal node. The MoveGen function returns neighbours in alphabetical order. In all the algorithms below, the RemoveSeen procedure will remove nodes from the output of MoveGen if those nodes are present in OPEN/CLOSED lists. Use Manhattan distance when needed. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN.",
+      "group_id": "640653676789",
+      "section_name": "AI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 30,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 List the first 4 nodes inspected by Hill Climbing. List the nodes in the order they were inspected. If the algorithm terminates early then list the nodes inspected up until termination. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,B,F,E",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two-way edges. Take S as the start node and G as the goal node. The MoveGen function returns neighbours in alphabetical order. In all the algorithms below, the RemoveSeen procedure will remove nodes from the output of MoveGen if those nodes are present in OPEN/CLOSED lists. Use Manhattan distance when needed. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN.",
+      "group_id": "640653676789",
+      "section_name": "AI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 31,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the path found by Hill Climbing? Enter the path as a comma separated list of node labels. Enter NIL if no path is found. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,G Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "Nil",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map with several locations on a grid where each tile is 1x1 in size. The locations are at grid points and are connected by two-way edges. Take S as the start node and G as the goal node. The MoveGen function returns neighbours in alphabetical order. In all the algorithms below, the RemoveSeen procedure will remove nodes from the output of MoveGen if those nodes are present in OPEN/CLOSED lists. Use Manhattan distance when needed. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p5_Im1.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN.",
+      "group_id": "640653676789",
+      "section_name": "AI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 32,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Select all valid path representations of the tour.",
+      "type": "multichoice",
+      "options": [
+        "B,I,G,H,E,A,D,J,F,C,B",
+        "A,D,J,F,C,B,I,G,H,E,A",
+        "B,I,G,H,E,A,D,J,F,C",
+        "A,D,J,F,C,B,I,G,H,E"
+      ],
+      "correct_answer": [
+        "B,I,G,H,E,A,D,J,F,C",
+        "A,D,J,F,C,B,I,G,H,E"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Genetic Algorithm A tour of 10 cities is shown below. The edges are bi-directional. Use A,B,C,...,H,I,J as the reference (index) sequence to prepare tour representations. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "640653676798",
+      "section_name": "AI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 33,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Select all valid adjacency representations of the tour.",
+      "type": "multichoice",
+      "options": [
+        "D,I,B,J,A,C,H,E,G,F",
+        "E,C,F,A,H,J,I,G,B,D",
+        "E,I,B,J,D,C,H,A,G,F",
+        "H,C,F,E,A,J,I,G,B,D"
+      ],
+      "correct_answer": [
+        "D,I,B,J,A,C,H,E,G,F",
+        "E,C,F,A,H,J,I,G,B,D"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Genetic Algorithm A tour of 10 cities is shown below. The edges are bi-directional. Use A,B,C,...,H,I,J as the reference (index) sequence to prepare tour representations. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "640653676798",
+      "section_name": "AI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 34,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Convert the path representation G,E,H,D,J,F,B,I,C,A to ordinal representation.",
+      "type": "MCQ",
+      "options": [
+        "7,5,6,4,6,4,2,3,2,1",
+        "2,8,6,6,4,1,2,3,2,1",
+        "2,8,6,6,1,3,2,3,2,1",
+        "1,6,6,4,4,4,4,2,1,1"
+      ],
+      "correct_answer": "7,5,6,4,6,4,2,3,2,1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Genetic Algorithm A tour of 10 cities is shown below. The edges are bi-directional. Use A,B,C,...,H,I,J as the reference (index) sequence to prepare tour representations. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "640653676798",
+      "section_name": "AI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 35,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Two tours in path representation are given below. Generate offspring using Partially Mapped Crossover (PMX), use the locations from 4 to 7 (both inclusive) as the mapping segment. Enter any one of the two child tours in the textbox. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p13_Im1.webp|block] Enter a comma separated list of cities. DO NOT ENTER SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "G,J,B,H,E,A,D,I,C,F H,I,G,D,J,F,B,E,A,C",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p13_Im1.webp",
+        "/data/images/cs3003_2023T3_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Genetic Algorithm A tour of 10 cities is shown below. The edges are bi-directional. Use A,B,C,...,H,I,J as the reference (index) sequence to prepare tour representations. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "640653676798",
+      "section_name": "AI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 36,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Use B as the starting city, construct a tour using Nearest Neighbour Heuristic. The tour is __________ . Enter the path representation of the tour, start from B and trace the cities selected by the Nearest Neighbour Heuristic. Enter a comma separated list of city names. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer format: B,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "B,A,D,C,E",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix for 5 cities and the corresponding edge costs (in sorted order) are provided below. Use this information to construct TSP tours. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p14_Im1.webp|block]",
+      "group_id": "640653676803",
+      "section_name": "AI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 37,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the cost of the tour generated by Nearest Neighbour Heuristic? Enter a number. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer format: 17",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "201",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix for 5 cities and the corresponding edge costs (in sorted order) are provided below. Use this information to construct TSP tours. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p14_Im1.webp|block]",
+      "group_id": "640653676803",
+      "section_name": "AI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 38,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Construct a tour using Greedy Heuristic. Enter the path representation of the tour starting from city B. Enter a comma separated list of city names. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer format: B,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "B,D,A,C,E B,E,C,A,D",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix for 5 cities and the corresponding edge costs (in sorted order) are provided below. Use this information to construct TSP tours. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p14_Im1.webp|block]",
+      "group_id": "640653676803",
+      "section_name": "AI"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 39,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the cost of the tour generated by Greedy Heuristic? Enter a number. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer format: 17",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "210",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix for 5 cities and the corresponding edge costs (in sorted order) are provided below. Use this information to construct TSP tours. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p14_Im1.webp|block]",
+      "group_id": "640653676803",
+      "section_name": "AI"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 40,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Construct the savings tour using B as the base city. The savings for including the pairs of cities AC, AD and AE are 88, 48 and 61, respectively. Compute the savings for the remaining three pairs of cities, and use them to simulate the algorithm. Enter the path representation of the tour starting from city B. Enter a comma separated list of city names. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer format: B,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "B,A,E,C,D B,D,C,E,A",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2023T3_Q1_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP The distance matrix for 5 cities and the corresponding edge costs (in sorted order) are provided below. Use this information to construct TSP tours. [IMAGE: /data/images/cs3003_2023T3_Q1_NA_p14_Im1.webp|block]",
+      "group_id": "640653676803",
+      "section_name": "AI"
+    }
+  ],
+  "id": "cs3003-2023t3-q1-na",
+  "course_code": "CS3003",
+  "course_name": "AI: Search Methods for Problem Solving",
+  "level": "Degree",
+  "term": "Sep 2023",
+  "year": 2023,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

@@ -1,0 +1,836 @@
+{
+  "title": "DIPLOMA LEVEL : TOOLS IN DATA SCIENCE (COMPUTER BASED EXAM)",
+  "filename": "se2002_2025T2_ET_AN.pdf",
+  "total_questions": 35,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 348,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : TOOLS IN DATA SCIENCE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 349,
+      "text": "In a data science team using Git with feature branches, what is the recommended approach for integrating experimental analysis without disrupting the main workflow?",
+      "type": "MCQ",
+      "options": [
+        "Commit directly to main branch with descriptive messages",
+        "Create feature branch, conduct experiments, squash commits, and merge via pull request after peer review",
+        "Use git stash for all experimental work",
+        "Create separate repository for each experiment"
+      ],
+      "correct_answer": "Create feature branch, conduct experiments, squash commits, and merge via pull request after peer review",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 350,
+      "text": "A retail analyst wants to find the total sales per store from a Pandas DataFrame df with columns store_id and sales_amount. Which is the most efficient Pandas command?",
+      "type": "MCQ",
+      "options": [
+        "df['sales_amount'].sum()",
+        "df.groupby('store_id')['sales_amount'].sum()",
+        "df['sales_amount'].groupby('store_id')",
+        "df.pivot_table(index='sales_amount', values='store_id')"
+      ],
+      "correct_answer": "df.groupby('store_id')['sales_amount'].sum()",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 351,
+      "text": "A team is troubleshooting why a page loads slowly due to an API call taking a long time. Which Chrome DevTools tab should they use to find the slow request?",
+      "type": "MCQ",
+      "options": [
+        "Sources",
+        "Network",
+        "Console",
+        "Application"
+      ],
+      "correct_answer": "Network",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 352,
+      "text": "When standardizing inconsistent date formats in a dataset using OpenRefine, which transformation approach is most effective for handling multiple date patterns?",
+      "type": "MCQ",
+      "options": [
+        "Simple text replacement operations",
+        "GREL expressions with multiple conditional date parsing functions",
+        "Manual editing row by row",
+        "Export to Excel and use built-in date formatting"
+      ],
+      "correct_answer": "GREL expressions with multiple conditional date parsing functions",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 353,
+      "text": "For a MySQL database storing e-commerce analytics with complex joins and time-based queries, which indexing approach optimizes query performance?",
+      "type": "MCQ",
+      "options": [
+        "Single primary key index per table",
+        "Composite indexes on frequently joined columns, covering indexes for common queries, and partitioning by date ranges",
+        "Unique indexes on all columns",
+        "No indexes to avoid write overhead"
+      ],
+      "correct_answer": "Composite indexes on frequently joined columns, covering indexes for common queries, and partitioning by date ranges",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 354,
+      "text": "When processing a streaming data source that generates CSV files every minute, which approach handles the data most efficiently without memory overflow?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p3_Im2.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p3_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p3_Im4.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p3_Im2.webp",
+        "/data/images/se2002_2025T2_ET_AN_p3_Im4.webp",
+        "/data/images/se2002_2025T2_ET_AN_p3_Im5.webp",
+        "/data/images/se2002_2025T2_ET_AN_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 355,
+      "text": "When working with uv in a team environment, which approach ensures reproducible dependency management across different development machines?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p3_Im7.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p3_Im8.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p3_Im9.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p3_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p3_Im8.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p3_Im7.webp",
+        "/data/images/se2002_2025T2_ET_AN_p3_Im8.webp",
+        "/data/images/se2002_2025T2_ET_AN_p3_Im9.webp",
+        "/data/images/se2002_2025T2_ET_AN_p3_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 356,
+      "text": "For analyzing urban traffic patterns using GPS coordinate data, which combination of Python libraries provides the most comprehensive geospatial analysis capabilities?",
+      "type": "MCQ",
+      "options": [
+        "Pandas + Matplotlib + NumPy",
+        "GeoPandas + Shapely + Folium + Contextily",
+        "Plotly + Seaborn + SciPy",
+        "Bokeh + PyProj"
+      ],
+      "correct_answer": "GeoPandas + Shapely + Folium + Contextily",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 357,
+      "text": "For a web scraper that encounters 429 (Too Many Requests) status codes, which response strategy demonstrates ethical behavior?",
+      "type": "MCQ",
+      "options": [
+        "Switch to different IP addresses to bypass the limit",
+        "Implement exponential backoff starting with the Retry-After header value, reduce request frequency permanently",
+        "Continue scraping but filter out 429 responses",
+        "Use browser automation to appear more human-like"
+      ],
+      "correct_answer": "Implement exponential backoff starting with the Retry-After header value, reduce request frequency permanently",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 358,
+      "text": "A data scientist accidentally committed sensitive credentials to a Git repository. Which sequence of commands safely removes the credentials from history?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im3.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p4_Im3.webp",
+        "/data/images/se2002_2025T2_ET_AN_p4_Im4.webp",
+        "/data/images/se2002_2025T2_ET_AN_p4_Im5.webp",
+        "/data/images/se2002_2025T2_ET_AN_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 359,
+      "text": "For analyzing a massive time-series dataset that exceeds available RAM, which pandas strategy optimizes memory usage during aggregation operations?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im8.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p5_Im2.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p5_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im8.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p4_Im7.webp",
+        "/data/images/se2002_2025T2_ET_AN_p4_Im8.webp",
+        "/data/images/se2002_2025T2_ET_AN_p5_Im2.webp",
+        "/data/images/se2002_2025T2_ET_AN_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 360,
+      "text": "For a machine learning API serving models with inconsistent response times, which monitoring strategy provides the most actionable insights?",
+      "type": "MCQ",
+      "options": [
+        "Track only HTTP response status codes",
+        "Model inference time + request queue depth + resource utilization + error rate tracking",
+        "Monitor only successful prediction accuracy",
+        "Focus exclusively on network bandwidth usage"
+      ],
+      "correct_answer": "Model inference time + request queue depth + resource utilization + error rate tracking",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 361,
+      "text": "When designing prompts for a clinical AI assistant, which approach best balances medical accuracy with regulatory compliance?",
+      "type": "MCQ",
+      "options": [
+        "Provide definitive medical diagnoses to assist doctors",
+        "Focus on pattern recognition while explicitly requiring human clinical judgment and including appropriate medical disclaimers",
+        "Restrict responses to general medical information only",
+        "Avoid medical topics entirely to prevent liability"
+      ],
+      "correct_answer": "Focus on pattern recognition while explicitly requiring human clinical judgment and including appropriate medical disclaimers",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 1: Healthcare Data Analytics Platform A hospital system is developing a HIPAA-compliant analytics platform to process electronic health records, predict patient outcomes, and support clinical decision-making while ensuring data privacy and regulatory compliance.",
+      "group_id": "6406531431647",
+      "section_name": "TDS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 362,
+      "text": "Which factors most significantly impact computational costs when processing large-scale clinical datasets with LLMs?(Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "Token density of clinical notes and medical terminology",
+        "Complexity of medical reasoning required for clinical insights",
+        "HIPAA compliance overhead and security measures",
+        "Context window usage for patient history analysis",
+        "Geographic location of healthcare facility"
+      ],
+      "correct_answer": [
+        "Token density of clinical notes and medical terminology",
+        "Complexity of medical reasoning required for clinical insights",
+        "Context window usage for patient history analysis"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 1: Healthcare Data Analytics Platform A hospital system is developing a HIPAA-compliant analytics platform to process electronic health records, predict patient outcomes, and support clinical decision-making while ensuring data privacy and regulatory compliance.",
+      "group_id": "6406531431647",
+      "section_name": "TDS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 363,
+      "text": "Which prompt engineering approach generates the most clinically valuable insights for patient care optimization?",
+      "type": "MCQ",
+      "options": [
+        "\"Analyze patient symptoms\"",
+        "\"Review medical records\"",
+        "\"Based on this patient's lab results (glucose: 180 mg/dL, HbA1c: 8.2%), vital signs, and medication history, identify potential adjustment strategies for diabetes management while considering contraindications and monitoring requirements.\"",
+        "\"Suggest treatments for diabetes\""
+      ],
+      "correct_answer": "\"Based on this patient's lab results (glucose: 180 mg/dL, HbA1c: 8.2%), vital signs, and medication history, identify potential adjustment strategies for diabetes management while considering contraindications and monitoring requirements.\"",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 1: Healthcare Data Analytics Platform A hospital system is developing a HIPAA-compliant analytics platform to process electronic health records, predict patient outcomes, and support clinical decision-making while ensuring data privacy and regulatory compliance.",
+      "group_id": "6406531431647",
+      "section_name": "TDS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 364,
+      "text": "When a critical defect pattern is identified requiring immediate production line adjustment, which Git workflow ensures rapid deployment of updated quality parameters while maintaining manufacturing compliance?",
+      "type": "MCQ",
+      "options": [
+        "Push changes directly to production branch to minimize downtime",
+        "Create quality-hotfix branch, implement changes with detailed validation, require quality engineer approval, and deploy with rollback capability",
+        "Apply temporary manual overrides and update version control later",
+        "Use email to communicate changes without version control"
+      ],
+      "correct_answer": "Create quality-hotfix branch, implement changes with detailed validation, require quality engineer approval, and deploy with rollback capability",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2: Smart Manufacturing Quality Control System An automotive manufacturer implements an IoT-based quality control system that monitors production line metrics, detects defects in real-time, and optimizes manufacturing processes across multiple assembly plants. System Architecture: \u25cf IoT sensors at production stations (coordinates provided for each plant) \u25cf Quality control hub: (42.3601 o N, 71.0589 o W) \u25cf Real-time data streams: temperature, pressure, vibration, visual inspection \u25cf ML models for defect prediction and process optimization",
+      "group_id": "6406531431651",
+      "section_name": "TDS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 365,
+      "text": "Quality engineers need to analyze sensor data to identify equipment performance degradation patterns. Which command-line approach efficiently processes large sensor log files to extract anomalous readings?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p7_Im3.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_AN_p7_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p7_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p7_Im3.webp",
+        "/data/images/se2002_2025T2_ET_AN_p7_Im4.webp",
+        "/data/images/se2002_2025T2_ET_AN_p7_Im5.webp",
+        "/data/images/se2002_2025T2_ET_AN_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2: Smart Manufacturing Quality Control System An automotive manufacturer implements an IoT-based quality control system that monitors production line metrics, detects defects in real-time, and optimizes manufacturing processes across multiple assembly plants. System Architecture: \u25cf IoT sensors at production stations (coordinates provided for each plant) \u25cf Quality control hub: (42.3601 o N, 71.0589 o W) \u25cf Real-time data streams: temperature, pressure, vibration, visual inspection \u25cf ML models for defect prediction and process optimization",
+      "group_id": "6406531431651",
+      "section_name": "TDS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 366,
+      "text": "For deploying the quality control system across geographically distributed manufacturing plants with strict latency and reliability requirements, which architecture approach ensures optimal performance?",
+      "type": "MCQ",
+      "options": [
+        "Centralized cloud-only deployment",
+        "Edge computing with local ML inference, container orchestration, and federated data synchronization",
+        "Single server per plant without redundancy",
+        "Manual quality control without automated systems"
+      ],
+      "correct_answer": "Edge computing with local ML inference, container orchestration, and federated data synchronization",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2: Smart Manufacturing Quality Control System An automotive manufacturer implements an IoT-based quality control system that monitors production line metrics, detects defects in real-time, and optimizes manufacturing processes across multiple assembly plants. System Architecture: \u25cf IoT sensors at production stations (coordinates provided for each plant) \u25cf Quality control hub: (42.3601 o N, 71.0589 o W) \u25cf Real-time data streams: temperature, pressure, vibration, visual inspection \u25cf ML models for defect prediction and process optimization",
+      "group_id": "6406531431651",
+      "section_name": "TDS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 367,
+      "text": "When detecting defects in real-time during high-speed production, which algorithmic approach best balances accuracy with processing speed requirements?",
+      "type": "MCQ",
+      "options": [
+        "Data based statistical analysis",
+        "Optimized computer vision pipeline with cascaded classifiers and early rejection mechanisms",
+        "Manual visual inspection only",
+        "Random sampling for quality checks"
+      ],
+      "correct_answer": "Optimized computer vision pipeline with cascaded classifiers and early rejection mechanisms",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2: Smart Manufacturing Quality Control System An automotive manufacturer implements an IoT-based quality control system that monitors production line metrics, detects defects in real-time, and optimizes manufacturing processes across multiple assembly plants. System Architecture: \u25cf IoT sensors at production stations (coordinates provided for each plant) \u25cf Quality control hub: (42.3601 o N, 71.0589 o W) \u25cf Real-time data streams: temperature, pressure, vibration, visual inspection \u25cf ML models for defect prediction and process optimization",
+      "group_id": "6406531431651",
+      "section_name": "TDS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 368,
+      "text": "The system uses GPS coordinates to optimize supply chain logistics between plants. What is the computational advantage of using the Haversine formula in manufacturing logistics?",
+      "type": "MCQ",
+      "options": [
+        "Accurate distance calculations for optimizing transportation routes and delivery scheduling",
+        "Calculating exact production times",
+        "Determining equipment maintenance schedules",
+        "Measuring network latency between plants"
+      ],
+      "correct_answer": "Accurate distance calculations for optimizing transportation routes and delivery scheduling",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2: Smart Manufacturing Quality Control System An automotive manufacturer implements an IoT-based quality control system that monitors production line metrics, detects defects in real-time, and optimizes manufacturing processes across multiple assembly plants. System Architecture: \u25cf IoT sensors at production stations (coordinates provided for each plant) \u25cf Quality control hub: (42.3601 o N, 71.0589 o W) \u25cf Real-time data streams: temperature, pressure, vibration, visual inspection \u25cf ML models for defect prediction and process optimization",
+      "group_id": "6406531431651",
+      "section_name": "TDS"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 369,
+      "text": "Which log entry correctly represents a successful console objective action during the tournament window?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im5.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im6.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im5.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_AN_p9_Im5.webp",
+        "/data/images/se2002_2025T2_ET_AN_p9_Im6.webp",
+        "/data/images/se2002_2025T2_ET_AN_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: Gaming Platform User Behavior Analysis You're analyzing server logs from a multiplayer gaming platform during a major tournament event. The logs contain player actions, performance metrics, and system resource utilization data. [IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im1.webp|block] Analysis Requirements: \u25cfFilter competitive gaming actions (kills, deaths, objectives) during tournament hours (14:00- 20:59) \u25cfDifferentiate between PC and console gaming patterns \u25cfTrack successful game events (status codes 200-299) \u25cfAnalyze player performance across different game modes",
+      "group_id": "6406531431657",
+      "section_name": "TDS"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 370,
+      "text": "For analyzing \"competitive gaming actions during tournament hours with successful responses\", which log fields are essential?",
+      "type": "MCQ",
+      "options": [
+        "PlayerIP, PlayerID, Platform, MatchID",
+        "Timestamp, ACTION, GameMode, StatusCode, ActionType",
+        "PlayerID, ResponseTime, UserAgent, Level",
+        "PlayerIP, Timestamp, Platform, ResponseTime"
+      ],
+      "correct_answer": "Timestamp, ACTION, GameMode, StatusCode, ActionType",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: Gaming Platform User Behavior Analysis You're analyzing server logs from a multiplayer gaming platform during a major tournament event. The logs contain player actions, performance metrics, and system resource utilization data. [IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im1.webp|block] Analysis Requirements: \u25cfFilter competitive gaming actions (kills, deaths, objectives) during tournament hours (14:00- 20:59) \u25cfDifferentiate between PC and console gaming patterns \u25cfTrack successful game events (status codes 200-299) \u25cfAnalyze player performance across different game modes",
+      "group_id": "6406531431657",
+      "section_name": "TDS"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 371,
+      "text": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p10_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p10_Im4.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p10_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p10_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p10_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p10_Im3.webp",
+        "/data/images/se2002_2025T2_ET_AN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_AN_p10_Im4.webp",
+        "/data/images/se2002_2025T2_ET_AN_p10_Im5.webp",
+        "/data/images/se2002_2025T2_ET_AN_p10_Im6.webp",
+        "/data/images/se2002_2025T2_ET_AN_p10_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: Gaming Platform User Behavior Analysis You're analyzing server logs from a multiplayer gaming platform during a major tournament event. The logs contain player actions, performance metrics, and system resource utilization data. [IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im1.webp|block] Analysis Requirements: \u25cfFilter competitive gaming actions (kills, deaths, objectives) during tournament hours (14:00- 20:59) \u25cfDifferentiate between PC and console gaming patterns \u25cfTrack successful game events (status codes 200-299) \u25cfAnalyze player performance across different game modes",
+      "group_id": "6406531431657",
+      "section_name": "TDS"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 372,
+      "text": "To filter gaming actions between 14:00 and 20:59 tournament hours, which condition correctly validates the time range?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p10_Im8.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p10_Im9.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p10_Im10.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p10_Im9.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_AN_p10_Im8.webp",
+        "/data/images/se2002_2025T2_ET_AN_p10_Im9.webp",
+        "/data/images/se2002_2025T2_ET_AN_p10_Im10.webp",
+        "/data/images/se2002_2025T2_ET_AN_p11_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: Gaming Platform User Behavior Analysis You're analyzing server logs from a multiplayer gaming platform during a major tournament event. The logs contain player actions, performance metrics, and system resource utilization data. [IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im1.webp|block] Analysis Requirements: \u25cfFilter competitive gaming actions (kills, deaths, objectives) during tournament hours (14:00- 20:59) \u25cfDifferentiate between PC and console gaming patterns \u25cfTrack successful game events (status codes 200-299) \u25cfAnalyze player performance across different game modes",
+      "group_id": "6406531431657",
+      "section_name": "TDS"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 373,
+      "text": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im7.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p11_Im3.webp",
+        "/data/images/se2002_2025T2_ET_AN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_AN_p11_Im5.webp",
+        "/data/images/se2002_2025T2_ET_AN_p11_Im6.webp",
+        "/data/images/se2002_2025T2_ET_AN_p11_Im7.webp",
+        "/data/images/se2002_2025T2_ET_AN_p11_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: Gaming Platform User Behavior Analysis You're analyzing server logs from a multiplayer gaming platform during a major tournament event. The logs contain player actions, performance metrics, and system resource utilization data. [IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im1.webp|block] Analysis Requirements: \u25cfFilter competitive gaming actions (kills, deaths, objectives) during tournament hours (14:00- 20:59) \u25cfDifferentiate between PC and console gaming patterns \u25cfTrack successful game events (status codes 200-299) \u25cfAnalyze player performance across different game modes",
+      "group_id": "6406531431657",
+      "section_name": "TDS"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 374,
+      "text": "Which approach most accurately identifies console gaming platforms from the Platform field?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im9.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im10.webp|block]",
+        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im11.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im12.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_AN_p11_Im9.webp",
+        "/data/images/se2002_2025T2_ET_AN_p11_Im10.webp",
+        "/data/images/se2002_2025T2_ET_AN_p11_Im11.webp",
+        "/data/images/se2002_2025T2_ET_AN_p11_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: Gaming Platform User Behavior Analysis You're analyzing server logs from a multiplayer gaming platform during a major tournament event. The logs contain player actions, performance metrics, and system resource utilization data. [IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im1.webp|block] Analysis Requirements: \u25cfFilter competitive gaming actions (kills, deaths, objectives) during tournament hours (14:00- 20:59) \u25cfDifferentiate between PC and console gaming patterns \u25cfTrack successful game events (status codes 200-299) \u25cfAnalyze player performance across different game modes",
+      "group_id": "6406531431657",
+      "section_name": "TDS"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 375,
+      "text": "For identifying successful gaming events, which status code condition is most appropriate?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im2.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im3.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_AN_p12_Im2.webp",
+        "/data/images/se2002_2025T2_ET_AN_p12_Im3.webp",
+        "/data/images/se2002_2025T2_ET_AN_p12_Im5.webp",
+        "/data/images/se2002_2025T2_ET_AN_p12_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: Gaming Platform User Behavior Analysis You're analyzing server logs from a multiplayer gaming platform during a major tournament event. The logs contain player actions, performance metrics, and system resource utilization data. [IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im1.webp|block] Analysis Requirements: \u25cfFilter competitive gaming actions (kills, deaths, objectives) during tournament hours (14:00- 20:59) \u25cfDifferentiate between PC and console gaming patterns \u25cfTrack successful game events (status codes 200-299) \u25cfAnalyze player performance across different game modes",
+      "group_id": "6406531431657",
+      "section_name": "TDS"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 376,
+      "text": "To efficiently count different action types (KILL, DEATH, OBJECTIVE) from filtered tournament data, which approach is optimal?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im7.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im8.webp|block]",
+        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im9.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im10.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_AN_p12_Im7.webp",
+        "/data/images/se2002_2025T2_ET_AN_p12_Im8.webp",
+        "/data/images/se2002_2025T2_ET_AN_p12_Im9.webp",
+        "/data/images/se2002_2025T2_ET_AN_p12_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: Gaming Platform User Behavior Analysis You're analyzing server logs from a multiplayer gaming platform during a major tournament event. The logs contain player actions, performance metrics, and system resource utilization data. [IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im1.webp|block] Analysis Requirements: \u25cfFilter competitive gaming actions (kills, deaths, objectives) during tournament hours (14:00- 20:59) \u25cfDifferentiate between PC and console gaming patterns \u25cfTrack successful game events (status codes 200-299) \u25cfAnalyze player performance across different game modes",
+      "group_id": "6406531431657",
+      "section_name": "TDS"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 377,
+      "text": "If tournament action counts appear inconsistently high, which systematic debugging approach identifies the issue?",
+      "type": "MCQ",
+      "options": [
+        "Assume tournament data corruption and exclude results",
+        "Validate each filter systematically: time range \u2192 game mode \u2192 action type \u2192 status codes \u2192 platform detection",
+        "Reduce dataset randomly and extrapolate",
+        "Focus only on successful status codes"
+      ],
+      "correct_answer": "Validate each filter systematically: time range \u2192 game mode \u2192 action type \u2192 status codes \u2192 platform detection",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: Gaming Platform User Behavior Analysis You're analyzing server logs from a multiplayer gaming platform during a major tournament event. The logs contain player actions, performance metrics, and system resource utilization data. [IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im1.webp|block] Analysis Requirements: \u25cfFilter competitive gaming actions (kills, deaths, objectives) during tournament hours (14:00- 20:59) \u25cfDifferentiate between PC and console gaming patterns \u25cfTrack successful game events (status codes 200-299) \u25cfAnalyze player performance across different game modes",
+      "group_id": "6406531431657",
+      "section_name": "TDS"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 378,
+      "text": "For processing massive gaming log files (100GB+) with memory constraints, which Python approach provides optimal performance?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p13_Im2.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_AN_p13_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p13_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_AN_p13_Im2.webp",
+        "/data/images/se2002_2025T2_ET_AN_p13_Im4.webp",
+        "/data/images/se2002_2025T2_ET_AN_p13_Im5.webp",
+        "/data/images/se2002_2025T2_ET_AN_p13_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: Gaming Platform User Behavior Analysis You're analyzing server logs from a multiplayer gaming platform during a major tournament event. The logs contain player actions, performance metrics, and system resource utilization data. [IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im1.webp|block] Analysis Requirements: \u25cfFilter competitive gaming actions (kills, deaths, objectives) during tournament hours (14:00- 20:59) \u25cfDifferentiate between PC and console gaming patterns \u25cfTrack successful game events (status codes 200-299) \u25cfAnalyze player performance across different game modes",
+      "group_id": "6406531431657",
+      "section_name": "TDS"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 379,
+      "text": "What is the primary advantage of multi-modal RAG systems for supply chain management compared to traditional ERP systems?",
+      "type": "MCQ",
+      "options": [
+        "Lower implementation costs and simpler maintenance",
+        "Real-time integration of supplier performance, market dynamics, and regulatory changes for adaptive supply chain optimization",
+        "Exclusive focus on historical transaction data",
+        "Reduced data storage requirements"
+      ],
+      "correct_answer": "Real-time integration of supplier performance, market dynamics, and regulatory changes for adaptive supply chain optimization",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 4: Supply Chain Optimization RAG System. A global logistics company implements an advanced RAG system that integrates supplier data, transportation networks, demand forecasting, and regulatory information to optimize supply chain decisions across multiple industries and geographical regions. Multi-Modal Supply Chain RAG Architecture: \u25cfSupplier Intelligence: Vendor profiles, performance metrics, capacity data, compliance records \u25cfTransportation Networks: Route optimization, carrier performance, fuel costs, delivery tracking \u25cfMarket Analysis: Demand forecasting, price volatility, seasonal patterns, economic indicators \u25cfRegulatory Compliance: Trade regulations, customs requirements, sustainability standards \u25cfRisk Assessment: Supply disruptions, geopolitical factors, weather impacts, financial stability",
+      "group_id": "6406531431668",
+      "section_name": "TDS"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 380,
+      "text": "Which system prompt design best supports strategic supply chain decision-making across multiple stakeholders?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p14_Im4.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p14_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p14_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_AN_p14_Im4.webp",
+        "/data/images/se2002_2025T2_ET_AN_p14_Im5.webp",
+        "/data/images/se2002_2025T2_ET_AN_p14_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 4: Supply Chain Optimization RAG System. A global logistics company implements an advanced RAG system that integrates supplier data, transportation networks, demand forecasting, and regulatory information to optimize supply chain decisions across multiple industries and geographical regions. Multi-Modal Supply Chain RAG Architecture: \u25cfSupplier Intelligence: Vendor profiles, performance metrics, capacity data, compliance records \u25cfTransportation Networks: Route optimization, carrier performance, fuel costs, delivery tracking \u25cfMarket Analysis: Demand forecasting, price volatility, seasonal patterns, economic indicators \u25cfRegulatory Compliance: Trade regulations, customs requirements, sustainability standards \u25cfRisk Assessment: Supply disruptions, geopolitical factors, weather impacts, financial stability",
+      "group_id": "6406531431668",
+      "section_name": "TDS"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 381,
+      "text": "A supply chain manager asks: \"Given current semiconductor shortages, rising fuel costs, and new sustainability regulations, how should we restructure our electronics component sourcing strategy for the next quarter?\" Which response demonstrates optimal supply chain synthesis?",
+      "type": "MCQ",
+      "options": [
+        "\"Semiconductor shortages require finding alternative suppliers and adjusting inventory levels.\"",
+        "\"Here are 20 suppliers with current pricing and availability data: [lists suppliers with specifications]\"",
+        "\"Let's analyze this systematically: Current semiconductor lead times average 16-24 weeks (vs. normal 4-6 weeks). Three strategic options emerge: 1) Dual-sourcing with 60% Asian suppliers, 40% nearshore (reduces risk but increases costs 12-18%), 2) Forward buying with 90-day inventory (capital impact: $2.3M, storage costs: $45K/month), 3) Design modifications using available components (6-week timeline, engineering costs). Fuel cost increases affect logistics by 8-15%. New EU sustainability regs require supplier carbon disclosure. Which risk tolerance and capital constraints guide your preference?\"",
+        "\"Supply chain restructuring requires comprehensive analysis of multiple interdependent factors.\""
+      ],
+      "correct_answer": "\"Let's analyze this systematically: Current semiconductor lead times average 16-24 weeks (vs. normal 4-6 weeks). Three strategic options emerge: 1) Dual-sourcing with 60% Asian suppliers, 40% nearshore (reduces risk but increases costs 12-18%), 2) Forward buying with 90-day inventory (capital impact: $2.3M, storage costs: $45K/month), 3) Design modifications using available components (6-week timeline, engineering costs). Fuel cost increases affect logistics by 8-15%. New EU sustainability regs require supplier carbon disclosure. Which risk tolerance and capital constraints guide your preference?\"",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 4: Supply Chain Optimization RAG System. A global logistics company implements an advanced RAG system that integrates supplier data, transportation networks, demand forecasting, and regulatory information to optimize supply chain decisions across multiple industries and geographical regions. Multi-Modal Supply Chain RAG Architecture: \u25cfSupplier Intelligence: Vendor profiles, performance metrics, capacity data, compliance records \u25cfTransportation Networks: Route optimization, carrier performance, fuel costs, delivery tracking \u25cfMarket Analysis: Demand forecasting, price volatility, seasonal patterns, economic indicators \u25cfRegulatory Compliance: Trade regulations, customs requirements, sustainability standards \u25cfRisk Assessment: Supply disruptions, geopolitical factors, weather impacts, financial stability",
+      "group_id": "6406531431668",
+      "section_name": "TDS"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 382,
+      "text": "Which processing sequence correctly describes the supply chain RAG system's comprehensive optimization workflow?",
+      "type": "MCQ",
+      "options": [
+        "Supply Chain Query \u2192 Supplier Database Search \u2192 Cost Comparison Report",
+        "Supply Chain Query \u2192 Keyword Matching \u2192 Return Cheapest Options",
+        "Supply Chain Query \u2192 Multi-Modal Analysis (supplier performance + market conditions + regulatory requirements + risk factors) \u2192 Scenario Modeling \u2192 Optimization Recommendations with Risk-Adjusted Trade-offs",
+        "Supply Chain Query \u2192 Historical Data Retrieval \u2192 Standard Report Generation"
+      ],
+      "correct_answer": "Supply Chain Query \u2192 Multi-Modal Analysis (supplier performance + market conditions + regulatory requirements + risk factors) \u2192 Scenario Modeling \u2192 Optimization Recommendations with Risk-Adjusted Trade-offs",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 4: Supply Chain Optimization RAG System. A global logistics company implements an advanced RAG system that integrates supplier data, transportation networks, demand forecasting, and regulatory information to optimize supply chain decisions across multiple industries and geographical regions. Multi-Modal Supply Chain RAG Architecture: \u25cfSupplier Intelligence: Vendor profiles, performance metrics, capacity data, compliance records \u25cfTransportation Networks: Route optimization, carrier performance, fuel costs, delivery tracking \u25cfMarket Analysis: Demand forecasting, price volatility, seasonal patterns, economic indicators \u25cfRegulatory Compliance: Trade regulations, customs requirements, sustainability standards \u25cfRisk Assessment: Supply disruptions, geopolitical factors, weather impacts, financial stability",
+      "group_id": "6406531431668",
+      "section_name": "TDS"
+    }
+  ],
+  "id": "se2002-2025t2-et-an",
+  "course_code": "SE2002",
+  "course_name": "Tools in Data Science",
+  "level": "Diploma in Data Science",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

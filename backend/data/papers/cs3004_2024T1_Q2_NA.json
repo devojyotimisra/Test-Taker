@@ -1,0 +1,369 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)",
+  "filename": "cs3004_2024T1_Q2_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 17.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 92,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 93,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What are the possible outcomes if we don\u2019t do bias correction in ADAM?",
+      "type": "MCQ",
+      "options": [
+        "The Algorithm will not converge to a local or global minima.",
+        "It would lead to initial updates that are much smaller.",
+        "It would lead to initial updates which are much larger."
+      ],
+      "correct_answer": "It would lead to initial updates which are much larger.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 94,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the assertion and the corresponding reason, Assertion (A): The RMSProp Algorithm starts oscillating around the minima. Reason (R): RMSProp is sensitive to initial learning rate value.",
+      "type": "MCQ",
+      "options": [
+        "A is true but R is not the correct reason",
+        "A is True and R is the correct reason",
+        "A is False and therefore R"
+      ],
+      "correct_answer": "A is true but R is not the correct reason",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 95,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose you have a deep neural network trained on a dataset with a small amount of labeled examples. After applying L2 regularization during training with a fixed value of regularization parameter, the following observations are made: \u2022 The empirical error decreases significantly. \u2022 The true error remains high. \u2022 The variance of the error on different subsets of the training data is relatively low. \u2022 When tested on a diverse set of unseen data, the model\u2019s performance is inconsistent. Which of the following statements provides a plausible explanation for this scenario?",
+      "type": "MCQ",
+      "options": [
+        "The model is underfitting due to excessive regularization.",
+        "L2 regularization effectively reduces both overfitting and underfitting.",
+        "The inconsistency in performance on unseen data is expected due to the limited labeled examples in the training set.",
+        "The model is still overfitting to the training data, and the regularization parameter needs adjustment."
+      ],
+      "correct_answer": "The model is still overfitting to the training data, and the regularization parameter needs adjustment.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 96,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What are the maximum and minimum possible values of the derivative of sigmoid function?",
+      "type": "MCQ",
+      "options": [
+        "1, 0",
+        "0.5, 0",
+        "0.5, 0.25",
+        "0.25, 0"
+      ],
+      "correct_answer": "0.25, 0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 97,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a feed-forward neural network containing three inputs and one output. It contains 50 hidden layers, each containing two neurons. The activation function used in all the hidden layers is ReLU, the output layer uses the Sigmoid activation function for binary classification. The network is trained with a binary cross-entropy loss function. Assume all weights are initialized to 1 and all biases to 0. For an input of [-10, 5, -20], what will be the output of the neural network?",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "1",
+        "0.5",
+        "0.25",
+        "-25",
+        "Insufficient information"
+      ],
+      "correct_answer": "0.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 98,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose we have a neural network with two hidden layers, each containing two neurons. The network contains two inputs and one output. Weights: w ij = 1 for all weights Biases: b i = 0 for all biases Input: x = [10, -1]. We consider the following two scenarios: Scenario 1: We use Maxout activation for the hidden layers with k = 2 linear functions. Scenario 2: We use ReLU activation with dropout with a dropout probability of 0.5 Which of the following is true concerning the outputs in each scenario?",
+      "type": "MCQ",
+      "options": [
+        "The outputs of both scenarios will be the same.",
+        "The output of Scenario 1 is expected to be greater than that of Scenario 2.",
+        "The output of Scenario 1 is expected to be lesser than that of Scenario 2."
+      ],
+      "correct_answer": "The output of Scenario 1 is expected to be greater than that of Scenario 2.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 99,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a neural network with one hidden layer containing two neurons. The input layer contains 2 neurons and the output layer contains one neuron. ReLU activation is used for the hidden layers and sigmoid is used for the output layer. Considering weights w ij = 0.5 for all weights and biases b i = 0 for all biases. Assuming a dropout probability of 0.5, if an input vector x = [1, -2] is fed to this network, which of the following seems to be the expected output?",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "0.5",
+        "0.25",
+        "1"
+      ],
+      "correct_answer": "0.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 100,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements are true w.r.t. AdaDelta Algorithm?",
+      "type": "multichoice",
+      "options": [
+        "In a surface with steep curvature, both v t and u t decrease which stops learning rate from reducing aggressively.",
+        "At low curvature regions v t starts decreasing and learning rate starts increasing.",
+        "AdaDelta allows numerator to increase or decrease based on current gradients only.",
+        "AdaDelta converges quicker than RMSProp Algorithm."
+      ],
+      "correct_answer": [
+        "At low curvature regions v t starts decreasing and learning rate starts increasing.",
+        "AdaDelta converges quicker than RMSProp Algorithm."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 101,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 After training a neural network using vanilla gradient descent, you notice that it performs exceptionally well on the training set (99% accuracy) but poorly on the test set (50% accuracy). Which of the following techniques could be employed to address this overfitting issue and improve generalization performance?",
+      "type": "multichoice",
+      "options": [
+        "RMSprop optimizer",
+        "Dropout",
+        "Data augmentation",
+        "Decaying learning rate"
+      ],
+      "correct_answer": [
+        "Dropout",
+        "Data augmentation"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 102,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following optimization algorithms encounter problem of oscillating around the minima?",
+      "type": "multichoice",
+      "options": [
+        "AdaGrad",
+        "RMSProp",
+        "Nesterov Accelerated Gradient Descent",
+        "ADAM",
+        "Momentum Based Gradient Descent"
+      ],
+      "correct_answer": [
+        "RMSProp",
+        "Nesterov Accelerated Gradient Descent",
+        "ADAM",
+        "Momentum Based Gradient Descent"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 103,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a network where sigmoid activation is used at all hidden layers. Which of the following will be true?",
+      "type": "multichoice",
+      "options": [
+        "Initializing the weights to very low values causes the gradients to vanish.",
+        "Initializing the weights to very high values causes the gradients to vanish.",
+        "The weight updates are possible only in the direction of the first or third quadrant.",
+        "The weight updates are possible only in the direction of the second or fourth quadrant."
+      ],
+      "correct_answer": [
+        "Initializing the weights to very high values causes the gradients to vanish.",
+        "The weight updates are possible only in the direction of the first or third quadrant."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 104,
+      "text": "Number : Yes Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Compute the convolution sum by sliding the kernel over the input block. [IMAGE: /data/images/cs3004_2024T1_Q2_NA_p9_Im2.webp|block] where, (cid:0) denotes the convolution operation. Enter the sum of elements in A . Enter your answer correct to two decimal points.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T1_Q2_NA_p9_Im2.webp",
+        "/data/images/cs3004_2024T1_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider an Input matrix X of shape 4\u00d74 and the kernel (filter) of shape 3\u00d73 with a bias b = 1. Assume, stride equals 1 and no padding. [IMAGE: /data/images/cs3004_2024T1_Q2_NA_p9_Im1.webp|block] Note: In all your calculations, truncate the result to 2 decimal points, that is, if the intermediate result is 2.34434, then take it as 2.34 for the next step. Based on the above data answer the given subquestions.",
+      "group_id": "640653766094",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 105,
+      "text": "Number : Yes Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The feature map A is then passed through a max pooling layer with the kernel size of 2 \u00d7 2. The result is then passed as an input to the sigmoid (logistic) function. [IMAGE: /data/images/cs3004_2024T1_Q2_NA_p10_Im1.webp|block] What is the output value y ? Enter your answer to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.86 to 0.90",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T1_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3004_2024T1_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider an Input matrix X of shape 4\u00d74 and the kernel (filter) of shape 3\u00d73 with a bias b = 1. Assume, stride equals 1 and no padding. [IMAGE: /data/images/cs3004_2024T1_Q2_NA_p9_Im1.webp|block] Note: In all your calculations, truncate the result to 2 decimal points, that is, if the intermediate result is 2.34434, then take it as 2.34 for the next step. Based on the above data answer the given subquestions.",
+      "group_id": "640653766094",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 106,
+      "text": "Number : Yes Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2024T1_Q2_NA_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T1_Q2_NA_p11_Im1.webp",
+        "/data/images/cs3004_2024T1_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider an Input matrix X of shape 4\u00d74 and the kernel (filter) of shape 3\u00d73 with a bias b = 1. Assume, stride equals 1 and no padding. [IMAGE: /data/images/cs3004_2024T1_Q2_NA_p9_Im1.webp|block] Note: In all your calculations, truncate the result to 2 decimal points, that is, if the intermediate result is 2.34434, then take it as 2.34 for the next step. Based on the above data answer the given subquestions.",
+      "group_id": "640653766094",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 107,
+      "text": "Number : Yes Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the value of stride s ?. Assume zero padding ( p = 0)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "An MRI image of size 500 \u00d7 500 \u00d7 10 is feed as an input to a convolutional layer. Suppose that we want to produce an output of size 241 \u00d7 241 \u00d7 5 using a set of kernels. Suppose the kernel size is 20 \u00d7 20 \u00d7 10. Answer the given subquestions",
+      "group_id": "640653766098",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 108,
+      "text": "Number : Yes Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many parameters (excluding bias) are there in the convolutional layer?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20000",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "An MRI image of size 500 \u00d7 500 \u00d7 10 is feed as an input to a convolutional layer. Suppose that we want to produce an output of size 241 \u00d7 241 \u00d7 5 using a set of kernels. Suppose the kernel size is 20 \u00d7 20 \u00d7 10. Answer the given subquestions",
+      "group_id": "640653766098",
+      "section_name": "Deep Learning"
+    }
+  ],
+  "id": "cs3004-2024t1-q2-na",
+  "course_code": "CS3004",
+  "course_name": "Deep Learning",
+  "level": "Degree",
+  "term": "Jan 2024",
+  "year": 2024,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

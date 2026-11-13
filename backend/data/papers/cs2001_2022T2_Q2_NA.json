@@ -1,0 +1,429 @@
+{
+  "title": "Database Management Systems - May 2022 Quiz 2",
+  "filename": "cs2001_2022T2_Q2_NA.pdf",
+  "total_questions": 18,
+  "total_marks": 18.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 64,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q2_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 65,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following statements. Statement 1: Minimum arity of a node is defined as the arity of the tree. Statement 2: Arity of the Binary Search Tree is 1.",
+      "type": "MCQ",
+      "options": [
+        "Statement 1 is correct, statement 2 is wrong.",
+        "Statement 1 is wrong, statement 2 is correct.",
+        "Both the statements are correct.",
+        "Both the statements are wrong."
+      ],
+      "correct_answer": "Both the statements are wrong.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 66,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Decomposition",
+        "Union",
+        "Pseudo-transitivity",
+        "Augmentation"
+      ],
+      "correct_answer": "Union",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q2_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 67,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following statements: 1. HyperText Transfer Protocol (HTTP) is used for communication with the Web server 2. HTTP provides formatting, hypertext link, and image display features. 3. The HTTP protocol is connectionless. Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "Statements 1 & 2 are correct.",
+        "Statements 2 & 3 are correct.",
+        "Statements 1 & 3 are correct.",
+        "All the statements are correct."
+      ],
+      "correct_answer": "Statements 1 & 3 are correct.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 68,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the tables Name and Rule shown in the Table 2 and Table 3 respectively. [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p4_Im1.webp|block] Which among the following is the correct matching of Name and Rule ?",
+      "type": "MCQ",
+      "options": [
+        "1-A, 2-D, 3-C, 4-B",
+        "1-B, 2-A, 3-D, 4-C",
+        "1-A, 2-C, 3-D, 4-B",
+        "1-A, 2-C, 3-B, 4-D"
+      ],
+      "correct_answer": "1-A, 2-C, 3-D, 4-B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 69,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "BCNF"
+      ],
+      "correct_answer": "2NF",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 70,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the relation CAR ( LicenseNo, EngineSerialNo, Model, Year ) and the following functional dependencies set [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p5_Im4.webp|block] If the relation CAR is decomposed into two relations C1 and C2 , which of the following is a lossless decomposition?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p6_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p5_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q2_NA_p5_Im4.webp",
+        "/data/images/cs2001_2022T2_Q2_NA_p5_Im5.webp",
+        "/data/images/cs2001_2022T2_Q2_NA_p5_Im6.webp",
+        "/data/images/cs2001_2022T2_Q2_NA_p6_Im2.webp",
+        "/data/images/cs2001_2022T2_Q2_NA_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 71,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p6_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p6_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p6_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p6_Im9.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q2_NA_p6_Im4.webp",
+        "/data/images/cs2001_2022T2_Q2_NA_p6_Im5.webp",
+        "/data/images/cs2001_2022T2_Q2_NA_p6_Im6.webp",
+        "/data/images/cs2001_2022T2_Q2_NA_p6_Im7.webp",
+        "/data/images/cs2001_2022T2_Q2_NA_p6_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 72,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p7_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p7_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p8_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_Q2_NA_p8_Im2.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q2_NA_p7_Im1.webp",
+        "/data/images/cs2001_2022T2_Q2_NA_p7_Im4.webp",
+        "/data/images/cs2001_2022T2_Q2_NA_p7_Im6.webp",
+        "/data/images/cs2001_2022T2_Q2_NA_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 73,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider table employee inside the database organization . Table employee has the data as shown in table 4 : [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p8_Im3.webp|block] How many rows will be fetched and display by the Python code given below? [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q2_NA_p8_Im3.webp",
+        "/data/images/cs2001_2022T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 74,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p10_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "{ Course, Section, Time }",
+        "{ Course, Section, Instructor }",
+        "{ Instructor, RoomNo }",
+        "{ Course, Section, Time, Instructor }"
+      ],
+      "correct_answer": [
+        "{ Course, Section, Time }",
+        "{ Course, Section, Instructor }"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 75,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the table R shown in the Table 1 [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p10_Im4.webp|block] Which among the following holds true for the given table?",
+      "type": "multichoice",
+      "options": [
+        "X \u2192 Y",
+        "X \u2192\u2192 Y",
+        "X \u2192\u2192 Z",
+        "Y \u2192 Z"
+      ],
+      "correct_answer": [
+        "X \u2192\u2192 Y",
+        "X \u2192\u2192 Z"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q2_NA_p10_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 76,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a relational schema BankAccount (Name, AadharNo, AccountNo,ContactNo) with the following functional dependencies: [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p11_Im3.webp|block] Above relation BankAccount is decomposed into three smaller relations. BankAccount1 ( Name, AadharNo ), BankAccount2 ( AadharNo, AccountNo ) and BankAccount3 ( AccountNo,ContactNo ). Based on the given information, which among the following is incorrect?",
+      "type": "multichoice",
+      "options": [
+        "The number of super keys for relation BankAccount are 15.",
+        "The decomposition of BankAccount is lossy.",
+        "AccountNo \u2192 ContactNo is preserved in the decomposed relations.",
+        "ContactNo \u2192 Name is not preserved in the decomposed relations."
+      ],
+      "correct_answer": [
+        "The decomposition of BankAccount is lossy.",
+        "ContactNo \u2192 Name is not preserved in the decomposed relations."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q2_NA_p11_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 77,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q2_NA_p12_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Both X covers Y and Y covers X",
+        "X covers Y",
+        "Y covers X",
+        "Neither X covers Y nor Y covers X"
+      ],
+      "correct_answer": [
+        "Y covers X"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 78,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 If the maximum level of a complete binary search tree is 5, then what is the maximum number of nodes? NOTE: Enter your answer to the nearest integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "63",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 79,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the capacity of the disk?",
+      "type": "MCQ",
+      "options": [
+        "16 GB",
+        "32 GB",
+        "32 MB",
+        "16 MB"
+      ],
+      "correct_answer": "16 GB",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 Answer the given subquestions on the basis of the following data. Consider a magnetic disk with 8 platters, 2 surfaces/platter, 1024 tracks/surface, 2048 sectors/track, and 512 bytes/sector. The disk rotates with 6000 revolutions per minute.",
+      "group_id": "640653351293",
+      "section_name": "DBMS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 80,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the minimum number of bits required for addressing all the sectors? NOTE: Enter your answer to the nearest integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "25",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 Answer the given subquestions on the basis of the following data. Consider a magnetic disk with 8 platters, 2 surfaces/platter, 1024 tracks/surface, 2048 sectors/track, and 512 bytes/sector. The disk rotates with 6000 revolutions per minute.",
+      "group_id": "640653351293",
+      "section_name": "DBMS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 81,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Given that the rotational speed of the disk is 6000 revolutions per minute. Consider the seek time is 3ms. What will be the rotational latency?",
+      "type": "MCQ",
+      "options": [
+        "10 sec",
+        "5 sec",
+        "10 ms",
+        "5 ms"
+      ],
+      "correct_answer": "5 ms",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 Answer the given subquestions on the basis of the following data. Consider a magnetic disk with 8 platters, 2 surfaces/platter, 1024 tracks/surface, 2048 sectors/track, and 512 bytes/sector. The disk rotates with 6000 revolutions per minute.",
+      "group_id": "640653351293",
+      "section_name": "DBMS"
+    }
+  ],
+  "id": "cs2001-2022t2-q2-na",
+  "course_code": "CS2001",
+  "course_name": "Database Management Systems",
+  "level": "Diploma in Programming",
+  "term": "May 2022",
+  "year": 2022,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

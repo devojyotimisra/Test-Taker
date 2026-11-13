@@ -1,0 +1,615 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)",
+  "filename": "cs3001_2024T2_ET_FN.pdf",
+  "total_questions": 27,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 23,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 24,
+      "text": "Which of the following is the primary responsibility of the data scientists at a software company?",
+      "type": "MCQ",
+      "options": [
+        "To communicate with users and create prototypes.",
+        "To shape the terms of service of the software product, software licenses, privacy policy etc.",
+        "To analyze data generated from various teams and users in order to assist the organization in making better decisions.",
+        "To address and resolve issues that clients encounter."
+      ],
+      "correct_answer": "To analyze data generated from various teams and users in order to assist the organization in making better decisions.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 25,
+      "text": "Which of the following is the benefit of using project management tools?",
+      "type": "MCQ",
+      "options": [
+        "It helps to document and archive the knowledge of one project that might be required in some other project.",
+        "It helps all members of the team to get a big picture as well as detailed view of progress.",
+        "It helps in easy migration of developers between different projects.",
+        "It helps the developers to become more productive by using tools like IDEs."
+      ],
+      "correct_answer": "It helps all members of the team to get a big picture as well as detailed view of progress.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 26,
+      "text": "What is velocity from the agile project estimation perspective?",
+      "type": "MCQ",
+      "options": [
+        "Number of user stories per sprint",
+        "Number of points per sprint",
+        "The time required to complete an agile project",
+        "The point assigned to each user story"
+      ],
+      "correct_answer": "Number of points per sprint",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 27,
+      "text": "Which of the following diagrams models the sequence of message exchanges among parts of a system?",
+      "type": "MCQ",
+      "options": [
+        "Class diagram",
+        "State machine diagram",
+        "Activity view",
+        "Interaction view"
+      ],
+      "correct_answer": "Interaction view",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 28,
+      "text": "Which of the following types of software metrics considers the number of lines of code which include code, comments, white spaces etc.?",
+      "type": "MCQ",
+      "options": [
+        "Cyclomatic complexity",
+        "Raw Metrics",
+        "Halstead's Metrics",
+        "None of these"
+      ],
+      "correct_answer": "Raw Metrics",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 29,
+      "text": "Consider an eCommerce portal that has been integrated with a payment gateway with a set of APIs. Which of the following debugging strategies involves the task of searching the documentation and code examples to understand the correct use of the APIs?",
+      "type": "MCQ",
+      "options": [
+        "Input manipulation",
+        "Backwards",
+        "Forwards",
+        "Blackbox debugging"
+      ],
+      "correct_answer": "Blackbox debugging",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 30,
+      "text": "Heroku and Google App Engine are examples of ___________.",
+      "type": "MCQ",
+      "options": [
+        "Bare metal server",
+        "Infrastructure-as-a-service",
+        "Platform-as-a-service",
+        "Software-as-a-service"
+      ],
+      "correct_answer": "Platform-as-a-service",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 31,
+      "text": "Which of the following is true about the production environment of deployment?",
+      "type": "MCQ",
+      "options": [
+        "It is primarily created for performing integration and system testing.",
+        "It is also known as live environment where all the users can interact with the deployed system.",
+        "It is the local environment for individual developers that provides IDEs and other tools.",
+        "It exactly resembles the production environment, and it runs on a remote machine."
+      ],
+      "correct_answer": "It is also known as live environment where all the users can interact with the deployed system.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 32,
+      "text": "In which of the software deployment strategies are changes incrementally rolled out to a small subset of users?",
+      "type": "MCQ",
+      "options": [
+        "Blue/Green deployment",
+        "Canary deployment",
+        "Versioned deployment",
+        "None of these"
+      ],
+      "correct_answer": "Canary deployment",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 33,
+      "text": "[IMAGE: /data/images/cs3001_2024T2_ET_FN_p4_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "4,80,00,000",
+        "8,95,00,000",
+        "16,90,00,000",
+        "2,85,00,000"
+      ],
+      "correct_answer": "16,90,00,000",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T2_ET_FN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 34,
+      "text": "Suppose you are creating a prototype for a web application which is presented on multiple papers as handdrawn UIs of different screens. In the above case, identify the type of prototype technique you have chosen.",
+      "type": "MCQ",
+      "options": [
+        "Storyboards",
+        "Paper prototype",
+        "Digital mock-ups",
+        "Interactive prototype"
+      ],
+      "correct_answer": "Paper prototype",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 35,
+      "text": "Suppose a software organization is designing the UI of a web application for an employee payroll system. For all the icons on the buttons and links, they have chosen various animal pictures. Which one of the following UI evaluation heuristics would be missing in this design?",
+      "type": "MCQ",
+      "options": [
+        "Flexibility",
+        "Recognition over recall",
+        "Clean and functional design",
+        "Freedom"
+      ],
+      "correct_answer": "Recognition over recall",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 36,
+      "text": "Consider an EdTech company that decided to develop an educational portal based on GenAI services. However, there are some requirements that are ambiguous or conflicting. As a result, the company has arranged a meeting of all the managers of different departments to discuss the issues and requirements and reach some consensus on them. In the given scenario, which of the following requirement gathering techniques is in use?",
+      "type": "MCQ",
+      "options": [
+        "Questionnaires",
+        "Interviews",
+        "Focus group",
+        "Documentations"
+      ],
+      "correct_answer": "Focus group",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 37,
+      "text": "Which of the SMART characteristics of user stories specifies that if the implementation of a user story is not possible in one iteration, then subdivide the story into smaller ones?",
+      "type": "MCQ",
+      "options": [
+        "Specific",
+        "Measurable",
+        "Achievable",
+        "Relevant",
+        "Timeboxed"
+      ],
+      "correct_answer": "Achievable",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 38,
+      "text": "A software company has to develop a job portal that will allow job seekers to apply for different organizations at different positions. Therefore, the entire task of the project is divided into different modules, and the interactions between the modules are outlined. Which phase of the SDLC is the software currently in?",
+      "type": "MCQ",
+      "options": [
+        "Requirements gathering",
+        "Design",
+        "Development",
+        "Testing",
+        "Maintenance"
+      ],
+      "correct_answer": "Design",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 39,
+      "text": "[IMAGE: /data/images/cs3001_2024T2_ET_FN_p6_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Has high coupling and high cohesion",
+        "Has high coupling and low cohesion",
+        "Has low coupling and high cohesion",
+        "Has low coupling and low cohesion"
+      ],
+      "correct_answer": "Has high coupling and high cohesion",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T2_ET_FN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 40,
+      "text": "[IMAGE: /data/images/cs3001_2024T2_ET_FN_p6_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "4",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T2_ET_FN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 41,
+      "text": "Consider a mobile application for enhancing image quality. The image quality enhancement application is made up of several data filters. The filters are connected one after another. Each filter processes the data it receives and sends the output to the next filter in line. Which type of architecture is used to design the data processing software?",
+      "type": "MCQ",
+      "options": [
+        "Client-server",
+        "Pipe and filter",
+        "Model-view-controller",
+        "Peer-to-peer"
+      ],
+      "correct_answer": "Pipe and filter",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 42,
+      "text": "[IMAGE: /data/images/cs3001_2024T2_ET_FN_p7_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Personnel shortfall",
+        "Lack of experience building banking applications",
+        "Budget slippage",
+        "Product not competitive in the market"
+      ],
+      "correct_answer": "Personnel shortfall",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T2_ET_FN_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 43,
+      "text": "[IMAGE: /data/images/cs3001_2024T2_ET_FN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Iterator design pattern",
+        "Adapter design pattern",
+        "Strategy design pattern",
+        "Facade design pattern"
+      ],
+      "correct_answer": "Strategy design pattern",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T2_ET_FN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 44,
+      "text": "Which of the following is/are considered as the primary objective(s) of monitoring tools for enhancing the performance of web applications?",
+      "type": "multichoice",
+      "options": [
+        "It stores the results of common operations in memory.",
+        "It helps to understand customer behaviour.",
+        "It compresses static pages.",
+        "It can be used to analyze page resources, find optimization suggestions, check SEO and accessibility metrics and calculate your performance score."
+      ],
+      "correct_answer": [
+        "It helps to understand customer behaviour.",
+        "It can be used to analyze page resources, find optimization suggestions, check SEO and accessibility metrics and calculate your performance score."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 45,
+      "text": "[IMAGE: /data/images/cs3001_2024T2_ET_FN_p9_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "{months = -4, months = 0, months = 25}",
+        "{months = -4, months = 4, months = 25, months = 48}",
+        "{months = -4, months = 4, months = 40, months = 48}",
+        "{months = -4, months = 0, months = 4, months = 25, months = 48}"
+      ],
+      "correct_answer": [
+        "{months = -4, months = 4, months = 25, months = 48}",
+        "{months = -4, months = 0, months = 4, months = 25, months = 48}"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 46,
+      "text": "[IMAGE: /data/images/cs3001_2024T2_ET_FN_p9_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "A inherits from B",
+        "B is composition of A",
+        "B is associated C",
+        "D and E inherit from A"
+      ],
+      "correct_answer": [
+        "B is composition of A",
+        "D and E inherit from A"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T2_ET_FN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 47,
+      "text": "Identify the set(s) of valid test cases for branch coverage.",
+      "type": "multichoice",
+      "options": [
+        "{-5, 5}",
+        "{-5, 0, 2, 5}",
+        "{-5, 2, 5, 10}",
+        "{-5, 0, 1, 2, 5}"
+      ],
+      "correct_answer": [
+        "{-5, 0, 2, 5}",
+        "{-5, 0, 1, 2, 5}"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T2_ET_FN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3001_2024T2_ET_FN_p10_Im2.webp|block]",
+      "group_id": "640653906755",
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 48,
+      "text": "Identify the set(s) of valid test cases for multiple condition coverage.",
+      "type": "MCQ",
+      "options": [
+        "{-5, 5}",
+        "{-5, 0, 2, 5}",
+        "{-5, 2, 5, 10}",
+        "{-5, 0, 1, 2, 5}"
+      ],
+      "correct_answer": "{-5, 0, 1, 2, 5}",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T2_ET_FN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3001_2024T2_ET_FN_p10_Im2.webp|block]",
+      "group_id": "640653906755",
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 49,
+      "text": "Identify the number of linearly independent paths in the code base.",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "4",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T2_ET_FN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3001_2024T2_ET_FN_p10_Im2.webp|block]",
+      "group_id": "640653906755",
+      "section_name": "Sw Engg"
+    }
+  ],
+  "id": "cs3001-2024t2-et-fn",
+  "course_code": "CS3001",
+  "course_name": "Software Engineering",
+  "level": "Degree",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

@@ -1,0 +1,410 @@
+{
+  "title": "DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)",
+  "filename": "cs3003_2025T3_Q1_NA.pdf",
+  "total_questions": 20,
+  "total_marks": 19.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 118,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 119,
+      "text": "[IMAGE: /data/images/cs3003_2025T3_Q1_NA_p2_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "State A",
+        "State B",
+        "State C",
+        "State D"
+      ],
+      "correct_answer": [
+        "State B",
+        "State C"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p2_Im2.webp",
+        "/data/images/cs3003_2025T3_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "STATE SPACE Consider 3-puzzle (a smaller version of 8-puzzle) where a tile (carrying a numeric label) can slide one position either horizontally or vertically into the adjacent empty spot, effectively swapping the tile and the adjacent empty spot. A tile cannot slide diagonally. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p2_Im1.webp|block] Begin from the start state and build the state space graph by generating valid moves, call it Graph- 1230, use this graph to answer the sub-questions.",
+      "group_id": "6406531535532",
+      "section_name": "AI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 120,
+      "text": "Select the statements that are true about Graph-1230.",
+      "type": "multichoice",
+      "options": [
+        "Every move is reversible.",
+        "Every state has a path to every other state.",
+        "Some states have more than two neighbours.",
+        "Every state has exactly two neighbours.",
+        "Every state has exactly one neighbour."
+      ],
+      "correct_answer": [
+        "Every move is reversible.",
+        "Every state has a path to every other state.",
+        "Every state has exactly two neighbours."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "STATE SPACE Consider 3-puzzle (a smaller version of 8-puzzle) where a tile (carrying a numeric label) can slide one position either horizontally or vertically into the adjacent empty spot, effectively swapping the tile and the adjacent empty spot. A tile cannot slide diagonally. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p2_Im1.webp|block] Begin from the start state and build the state space graph by generating valid moves, call it Graph- 1230, use this graph to answer the sub-questions.",
+      "group_id": "6406531535532",
+      "section_name": "AI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 121,
+      "text": "The number of unique states in Graph-1230 is __________ .",
+      "type": "MCQ",
+      "options": [
+        "less than 8",
+        "equal to 8",
+        "more than 8"
+      ],
+      "correct_answer": "more than 8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "STATE SPACE Consider 3-puzzle (a smaller version of 8-puzzle) where a tile (carrying a numeric label) can slide one position either horizontally or vertically into the adjacent empty spot, effectively swapping the tile and the adjacent empty spot. A tile cannot slide diagonally. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p2_Im1.webp|block] Begin from the start state and build the state space graph by generating valid moves, call it Graph- 1230, use this graph to answer the sub-questions.",
+      "group_id": "6406531535532",
+      "section_name": "AI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 122,
+      "text": "List the first 4 nodes inspected by Depth First Search. List the nodes in the order they are inspected. If the algorithm terminates early then list the nodes inspected up until termination. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,F,C,A",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The MoveGen function and the heuristic function for a state space is provided below. Take S as the start node and G as the goal node. When required use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Assume that the RemoveSeen procedure will drop the neighbours that are already present in the OPEN or CLOSED list.",
+      "group_id": "6406531535536",
+      "section_name": "AI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 123,
+      "text": "What is the path found by Depth First Search? Enter the path as a comma separated list of node labels. Enter NIL if a path to goal is not found. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,G Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,F,C,A,B,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The MoveGen function and the heuristic function for a state space is provided below. Take S as the start node and G as the goal node. When required use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Assume that the RemoveSeen procedure will drop the neighbours that are already present in the OPEN or CLOSED list.",
+      "group_id": "6406531535536",
+      "section_name": "AI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 124,
+      "text": "List the first 4 nodes inspected by Breadth First Search. List the nodes in the order they are inspected. If the algorithm terminates early then list the nodes inspected up until termination. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,F,H,C",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The MoveGen function and the heuristic function for a state space is provided below. Take S as the start node and G as the goal node. When required use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Assume that the RemoveSeen procedure will drop the neighbours that are already present in the OPEN or CLOSED list.",
+      "group_id": "6406531535536",
+      "section_name": "AI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 125,
+      "text": "What is the path found by Breadth First Search? Enter the path as a comma separated list of node labels. Enter NIL if a path to goal is not found. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,G Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,H,E,I,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The MoveGen function and the heuristic function for a state space is provided below. Take S as the start node and G as the goal node. When required use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Assume that the RemoveSeen procedure will drop the neighbours that are already present in the OPEN or CLOSED list.",
+      "group_id": "6406531535536",
+      "section_name": "AI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 126,
+      "text": "List the first 4 nodes inspected by Best First Search. List the nodes in the order they are inspected. If the algorithm terminates early then list the nodes inspected up until termination. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,H,E,D",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The MoveGen function and the heuristic function for a state space is provided below. Take S as the start node and G as the goal node. When required use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Assume that the RemoveSeen procedure will drop the neighbours that are already present in the OPEN or CLOSED list.",
+      "group_id": "6406531535536",
+      "section_name": "AI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 127,
+      "text": "What is the path found by Best First Search? Enter the path as a comma separated list of node labels. Enter NIL if a path to goal is not found. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,G Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,H,E,D,B,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The MoveGen function and the heuristic function for a state space is provided below. Take S as the start node and G as the goal node. When required use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Assume that the RemoveSeen procedure will drop the neighbours that are already present in the OPEN or CLOSED list.",
+      "group_id": "6406531535536",
+      "section_name": "AI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 128,
+      "text": "List the first 4 nodes inspected by Hill Climbing. List the nodes in the order they are inspected. If the algorithm terminates early then list the nodes inspected up until termination. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,H,E,D",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The MoveGen function and the heuristic function for a state space is provided below. Take S as the start node and G as the goal node. When required use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Assume that the RemoveSeen procedure will drop the neighbours that are already present in the OPEN or CLOSED list.",
+      "group_id": "6406531535536",
+      "section_name": "AI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 129,
+      "text": "What is the path found by Hill Climbing? Enter the path as a comma separated list of node labels. Enter NIL if a path to goal is not found. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: S,X,Y,G Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "Nil",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The MoveGen function and the heuristic function for a state space is provided below. Take S as the start node and G as the goal node. When required use alphabetical order to break ties. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p3_Im3.webp|block] When we say a node is inspected/expanded/refined it means: the node is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Assume that the RemoveSeen procedure will drop the neighbours that are already present in the OPEN or CLOSED list.",
+      "group_id": "6406531535536",
+      "section_name": "AI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 130,
+      "text": "Convert the path representation A,C,K,F,B,H,G,I,D,L,E,J to ordinal representation. Use A,B,C,...,L as the reference (index) sequence.",
+      "type": "MCQ",
+      "options": [
+        "1,2,9,4,1,4,3,3,1,3,1,1",
+        "9,4,10,4,2,1,1,5,3,3,1,1",
+        "1,2,9,8,1,3,3,4,1,3,1,1",
+        "3,10,8,3,2,2,5,1,3,3,2,1"
+      ],
+      "correct_answer": "1,2,9,4,1,4,3,3,1,3,1,1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Genetic Algorithm Answer the given subquestions.",
+      "group_id": "6406531535545",
+      "section_name": "AI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 131,
+      "text": "Path representations of two tours are given below. Generate offspring using Cycle Crossover. P1: I,D,L,E,J,A,C,K,F,B,H,G P2: C,K,I,D,B,E,J,A,H,L,G,F Select the child tours.",
+      "type": "multichoice",
+      "options": [
+        "I,K,L,D,J,E,C,A,F,B,H,G",
+        "C,D,I,E,B,A,J,K,H,L,G,F",
+        "I,D,L,K,B,A,E,H,C,J,F,G",
+        "A,L,I,E,J,D,C,K,H,F,G,B"
+      ],
+      "correct_answer": [
+        "I,K,L,D,J,E,C,A,F,B,H,G",
+        "C,D,I,E,B,A,J,K,H,L,G,F"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Genetic Algorithm Answer the given subquestions.",
+      "group_id": "6406531535545",
+      "section_name": "AI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 132,
+      "text": "Single-point crossover can be used with __________ .",
+      "type": "MCQ",
+      "options": [
+        "Adjacency Representation.",
+        "Path Representation",
+        "Ordinal Representation",
+        "All of these"
+      ],
+      "correct_answer": "Ordinal Representation",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Genetic Algorithm Answer the given subquestions.",
+      "group_id": "6406531535545",
+      "section_name": "AI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 133,
+      "text": "For the case of 3-edge exchange, how many child tours are possible? Enter the number of child tours in the text box. (Assume that no pair of edges from the selected 3 edges share any city in common.) Enter an integer. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: 17",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Genetic Algorithm Answer the given subquestions.",
+      "group_id": "6406531535545",
+      "section_name": "AI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 134,
+      "text": "Use \u201cA\u201d as the starting city, construct a tour using Nearest Neighbour Heuristic. The tour is __________ . Enter the path representation of the tour, starting from \u201cA\u201d and tracing the cities as selected by the Nearest Neighbour Heuristic. Enter a comma separated list of city names. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer format: A,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,B,E,D,C",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP Use the distance matrix to construct TSP tours. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "6406531535550",
+      "section_name": "AI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 135,
+      "text": "Use \u201cA\u201d as the fulcrum (base) node and use Savings Heuristic to construct the TSP tour. Identify the new edge added in the first merge operation. Enter the new edge and its savings. Enter an edge XY and an integer as a comma separated list. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer format: XY,17 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "DE,120 ED,120",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP Use the distance matrix to construct TSP tours. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "6406531535550",
+      "section_name": "AI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 136,
+      "text": "Use \u201cA\u201d as the fulcrum (base) node and use Savings Heuristic to construct the TSP tour. Enter the path representation of the Savings tour, starting from \u201cA\u201d. Enter a comma separated list of city names. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer format: A,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,B,E,D,C A,C,D,E,B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP Use the distance matrix to construct TSP tours. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "6406531535550",
+      "section_name": "AI"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 137,
+      "text": "What is the cost of the tour generated by Savings Heuristic?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T3_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP Use the distance matrix to construct TSP tours. [IMAGE: /data/images/cs3003_2025T3_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "6406531535550",
+      "section_name": "AI"
+    }
+  ],
+  "id": "cs3003-2025t3-q1-na",
+  "course_code": "CS3003",
+  "course_name": "AI: Search Methods for Problem Solving",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

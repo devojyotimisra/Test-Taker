@@ -1,0 +1,349 @@
+{
+  "title": "DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)",
+  "filename": "ms2002_2025T2_Q1_AN.pdf",
+  "total_questions": 16,
+  "total_marks": 20.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 210,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 211,
+      "text": "When is a \u201cPie Chart\u201d the best visualisation option for presenting data?",
+      "type": "MCQ",
+      "options": [
+        "When the outliers in the data need to be shown",
+        "When trends in the data need to be shown",
+        "When proportions in the data need to be shown",
+        "None of these"
+      ],
+      "correct_answer": "When proportions in the data need to be shown",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 212,
+      "text": "Given Figure-1, what is the message that can be best conveyed through the graph? [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Message: \u201cMileages trend for different Models\u201d",
+        "Message: \u201cRelationship between Car Weight and Mileage\u201d",
+        "Message: \u201cRelationship between Models and their Car Weights\u201d",
+        "Message: \u201cCar Model wise minimum and maximum Avg. Mileage and Avg. Car Weights\u201d",
+        "Message: \u201cModel wise relationship between Car Weight and Mileage\u201d",
+        "Message: \u201cCar weight wise Mileage trend for different Models\u201d",
+        "Message: \u201cMileage wise relationship between Models and their Car Weights\u201d"
+      ],
+      "correct_answer": "Message: \u201cCar Model wise minimum and maximum Avg. Mileage and Avg. Car Weights\u201d",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 213,
+      "text": "For the summary statistics provided in Table-1, which of the following is true? [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The distribution is right skewed",
+        "The distribution is symmetric",
+        "The distribution is left skewed",
+        "Cannot say without the skewness value"
+      ],
+      "correct_answer": "The distribution is right skewed",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 214,
+      "text": "Four teams (1, 2, 3 and 4) have qualified for the final of the cricket world cup. Team 1 plays Team 2. Team 3 plays Team 4. The winners then play in the final. In a game between Team \u201ci\u201d and Team \u201cj\u201d, the probability of team \u201ci\u201d winning is given by {i /(i+j)}. Then what is the conditional probability that \u201cTeam 1\u201d will win the World Cup? (Note: Enter your answer in decimals rounded to two decimal places. For example, if your answer is \u201c0.245\u201d, enter it as \u201c0.25\u201d )",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.06 to 0.09",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 215,
+      "text": "Based on Table-2, you think the data is normally distributed such that the buckets split the distribution into areas that have equal probability. Then what is the probability of selling a cycle in any given bucket?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.13 to 0.15",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Wheels sells bicycles. DrMilo, the owner of the shop, is curious to know about his customer base. Hence, he collects data on the total sales made to different age groups in the year 2024. This data is given in Table-2. He hires you (a student in the BA course) as a data analyst and asks for your opinion. Then answer the given subquestions. (Note: For all questions in this comprehension, if your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d) [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p4_Im1.webp|block]",
+      "group_id": "6406531298067",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 216,
+      "text": "Based on Table-2, you think the data is normally distributed such that the buckets split the distribution into areas that have equal probability. Then what is the expected number of cycles that will be sold to the age group of \u201c25 to 30 years\u201d?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "35 to 36",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Wheels sells bicycles. DrMilo, the owner of the shop, is curious to know about his customer base. Hence, he collects data on the total sales made to different age groups in the year 2024. This data is given in Table-2. He hires you (a student in the BA course) as a data analyst and asks for your opinion. Then answer the given subquestions. (Note: For all questions in this comprehension, if your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d) [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p4_Im1.webp|block]",
+      "group_id": "6406531298067",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 217,
+      "text": "What is the value of the computed test statistic to perform a test to check if the Data in Table-2 follows a normal distribution?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "29 to 33",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Wheels sells bicycles. DrMilo, the owner of the shop, is curious to know about his customer base. Hence, he collects data on the total sales made to different age groups in the year 2024. This data is given in Table-2. He hires you (a student in the BA course) as a data analyst and asks for your opinion. Then answer the given subquestions. (Note: For all questions in this comprehension, if your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d) [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p4_Im1.webp|block]",
+      "group_id": "6406531298067",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 218,
+      "text": "How many (count of) degrees of freedom is present for the performed test (to check if the data in Table-2 follows a normal distribution)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Wheels sells bicycles. DrMilo, the owner of the shop, is curious to know about his customer base. Hence, he collects data on the total sales made to different age groups in the year 2024. This data is given in Table-2. He hires you (a student in the BA course) as a data analyst and asks for your opinion. Then answer the given subquestions. (Note: For all questions in this comprehension, if your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d) [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p4_Im1.webp|block]",
+      "group_id": "6406531298067",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 219,
+      "text": "If the \u201cNull Hypothesis\u201d is rejected at a significance level of 0.1, then what will be the conclusion at a significance level of 0.5?",
+      "type": "MCQ",
+      "options": [
+        "Cannot say, insufficient data",
+        "Null Hypothesis is rejected",
+        "Null Hypothesis is not rejected"
+      ],
+      "correct_answer": "Null Hypothesis is rejected",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Wheels sells bicycles. DrMilo, the owner of the shop, is curious to know about his customer base. Hence, he collects data on the total sales made to different age groups in the year 2024. This data is given in Table-2. He hires you (a student in the BA course) as a data analyst and asks for your opinion. Then answer the given subquestions. (Note: For all questions in this comprehension, if your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d) [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p4_Im1.webp|block]",
+      "group_id": "6406531298067",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 220,
+      "text": "What is the sample size that DrMilo has provided for your analysis?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "250",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Wheels sells bicycles. DrMilo, the owner of the shop, is curious to know about his customer base. Hence, he collects data on the total sales made to different age groups in the year 2024. This data is given in Table-2. He hires you (a student in the BA course) as a data analyst and asks for your opinion. Then answer the given subquestions. (Note: For all questions in this comprehension, if your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d) [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p4_Im1.webp|block]",
+      "group_id": "6406531298067",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 221,
+      "text": "What type of representation is Table-3?",
+      "type": "MCQ",
+      "options": [
+        "Contingency Table",
+        "Frequency Table",
+        "None of these",
+        "Both Contingency Table & Frequency Table"
+      ],
+      "correct_answer": "Contingency Table",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A cosmetics brand \u201cSwamiIsBeautiful\u201d manufactures three products, \u201cFace Creams (FC)\u201d, \u201cBody Lotion (BL)\u201d and \u201cLip Gloze (LG)\u201d. The company believes displaying all their products together in a single shelf at a retailer store will help boost their sales, as people tend to pick up the items together. Hence, they are currently spending a lot of money to make sure that the retailers display the products together. However, on hearing this, Dr.Milo feels sceptical as it is counter intuitive. He feels that the sales of the products are independent. To check his theory, data in Table-3 was collected. Table-3 contains the total sales (in quantity) of the three products across retail stores. Here, the retail stores were classified in two types: \u201cType-1: The three products are displayed together\u201d, \u201cType-2: The three products are not displayed together\u201d. Given this information answer the given subquestions. (Note: For all questions in this comprehension, if your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d) [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p7_Im1.webp|block]",
+      "group_id": "6406531298074",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 222,
+      "text": "What is the expected frequency for \u201cBL\u201d in Type-2 stores?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "237 to 239",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A cosmetics brand \u201cSwamiIsBeautiful\u201d manufactures three products, \u201cFace Creams (FC)\u201d, \u201cBody Lotion (BL)\u201d and \u201cLip Gloze (LG)\u201d. The company believes displaying all their products together in a single shelf at a retailer store will help boost their sales, as people tend to pick up the items together. Hence, they are currently spending a lot of money to make sure that the retailers display the products together. However, on hearing this, Dr.Milo feels sceptical as it is counter intuitive. He feels that the sales of the products are independent. To check his theory, data in Table-3 was collected. Table-3 contains the total sales (in quantity) of the three products across retail stores. Here, the retail stores were classified in two types: \u201cType-1: The three products are displayed together\u201d, \u201cType-2: The three products are not displayed together\u201d. Given this information answer the given subquestions. (Note: For all questions in this comprehension, if your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d) [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p7_Im1.webp|block]",
+      "group_id": "6406531298074",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 223,
+      "text": "What is the value of the computed test statistic for the hypothesis test that DrMilo will perform to check if his intuition is correct?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "18 to 22",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A cosmetics brand \u201cSwamiIsBeautiful\u201d manufactures three products, \u201cFace Creams (FC)\u201d, \u201cBody Lotion (BL)\u201d and \u201cLip Gloze (LG)\u201d. The company believes displaying all their products together in a single shelf at a retailer store will help boost their sales, as people tend to pick up the items together. Hence, they are currently spending a lot of money to make sure that the retailers display the products together. However, on hearing this, Dr.Milo feels sceptical as it is counter intuitive. He feels that the sales of the products are independent. To check his theory, data in Table-3 was collected. Table-3 contains the total sales (in quantity) of the three products across retail stores. Here, the retail stores were classified in two types: \u201cType-1: The three products are displayed together\u201d, \u201cType-2: The three products are not displayed together\u201d. Given this information answer the given subquestions. (Note: For all questions in this comprehension, if your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d) [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p7_Im1.webp|block]",
+      "group_id": "6406531298074",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 224,
+      "text": "What is the Null Hypothesise for the hypothesis test that DrMilo will be performing? (choose all that is applicable)",
+      "type": "multichoice",
+      "options": [
+        "The total sales is independent among the different products and different retail store types",
+        "The total sales is not independent among the different products and different retail store types",
+        "The total sales is uniformly distributed among the different products and different retail store types",
+        "The total sales is uniformly distributed only among the different products",
+        "The total sales is uniformly distributed only among the different retail store types",
+        "None of these"
+      ],
+      "correct_answer": [
+        "The total sales is independent among the different products and different retail store types"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A cosmetics brand \u201cSwamiIsBeautiful\u201d manufactures three products, \u201cFace Creams (FC)\u201d, \u201cBody Lotion (BL)\u201d and \u201cLip Gloze (LG)\u201d. The company believes displaying all their products together in a single shelf at a retailer store will help boost their sales, as people tend to pick up the items together. Hence, they are currently spending a lot of money to make sure that the retailers display the products together. However, on hearing this, Dr.Milo feels sceptical as it is counter intuitive. He feels that the sales of the products are independent. To check his theory, data in Table-3 was collected. Table-3 contains the total sales (in quantity) of the three products across retail stores. Here, the retail stores were classified in two types: \u201cType-1: The three products are displayed together\u201d, \u201cType-2: The three products are not displayed together\u201d. Given this information answer the given subquestions. (Note: For all questions in this comprehension, if your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d) [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p7_Im1.webp|block]",
+      "group_id": "6406531298074",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 225,
+      "text": "Given Figure-2, at a 20% level of significance, what will be the conclusion of the hypothesis test? (choose all that is applicable) [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p9_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Reject the Null Hypothesis",
+        "Do Not Reject the Null Hypothesis",
+        "Reject the Alternative Hypothesis",
+        "Do Not Reject the Alternative Hypothesis",
+        "Accept the Null Hypothesis",
+        "Do Not Accept the Null Hypothesis",
+        "Accept the Alternative Hypothesis",
+        "Do Not Accept the Alternative Hypothesis"
+      ],
+      "correct_answer": [
+        "Reject the Null Hypothesis"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q1_AN_p9_Im1.webp",
+        "/data/images/ms2002_2025T2_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A cosmetics brand \u201cSwamiIsBeautiful\u201d manufactures three products, \u201cFace Creams (FC)\u201d, \u201cBody Lotion (BL)\u201d and \u201cLip Gloze (LG)\u201d. The company believes displaying all their products together in a single shelf at a retailer store will help boost their sales, as people tend to pick up the items together. Hence, they are currently spending a lot of money to make sure that the retailers display the products together. However, on hearing this, Dr.Milo feels sceptical as it is counter intuitive. He feels that the sales of the products are independent. To check his theory, data in Table-3 was collected. Table-3 contains the total sales (in quantity) of the three products across retail stores. Here, the retail stores were classified in two types: \u201cType-1: The three products are displayed together\u201d, \u201cType-2: The three products are not displayed together\u201d. Given this information answer the given subquestions. (Note: For all questions in this comprehension, if your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d) [IMAGE: /data/images/ms2002_2025T2_Q1_AN_p7_Im1.webp|block]",
+      "group_id": "6406531298074",
+      "section_name": "Business Analytics"
+    }
+  ],
+  "id": "ms2002-2025t2-q1-an",
+  "course_code": "MS2002",
+  "course_name": "Business Analytics",
+  "level": "Diploma in Data Science",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Afternoon"
+}

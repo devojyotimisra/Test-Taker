@@ -1,0 +1,497 @@
+{
+  "title": "DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)",
+  "filename": "cs2001_2026T1_ET_FN.pdf",
+  "total_questions": 21,
+  "total_marks": 42.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider a B+ tree index to be built on the attribute EmployeeID of a table Employees , with the following properties: \u2022 The length of the attribute EmployeeID is 16 bytes. \u2022 The size of each child pointer is 8 bytes. \u2022 The size of each disk block size is 512 bytes. \u2022 The size of each record pointer is 10 bytes. With the given information, what is the best choice for the order of the non-leaf nodes of the B+ tree?",
+      "type": "MCQ",
+      "options": [
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "correct_answer": "22",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_answer": "4",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p2_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "{A \u2192 D, C \u2192 D, AB \u2192 C, D \u2192 A}",
+        "{C \u2192 D, AD \u2192 B, AB \u2192 D, D \u2192 C}",
+        "{A \u2192 B, C \u2192 D, AB \u2192 C, D \u2192 B}",
+        "{C \u2192 D, AB \u2192 D, B \u2192 A, A \u2192 D }"
+      ],
+      "correct_answer": "{C \u2192 D, AB \u2192 D, B \u2192 A, A \u2192 D }",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p3_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p3_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p4_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p3_Im5.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p3_Im1.webp",
+        "/data/images/cs2001_2026T1_ET_FN_p3_Im5.webp",
+        "/data/images/cs2001_2026T1_ET_FN_p3_Im6.webp",
+        "/data/images/cs2001_2026T1_ET_FN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p4_Im3.webp|block] Identify the hash function, that generates unique hash values for the following search key values: 11, 19, 25, 32, 7.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p4_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p4_Im7.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p4_Im3.webp",
+        "/data/images/cs2001_2026T1_ET_FN_p4_Im4.webp",
+        "/data/images/cs2001_2026T1_ET_FN_p4_Im5.webp",
+        "/data/images/cs2001_2026T1_ET_FN_p4_Im7.webp",
+        "/data/images/cs2001_2026T1_ET_FN_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "10000100 OR 00000110",
+        "00000101 OR 00100100",
+        "10000100 AND 00100100",
+        "10000100 OR 00100100"
+      ],
+      "correct_answer": "10000100 OR 00100100",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Q1 is correct but Q2 is wrong",
+        "Q2 is correct but Q1 is wrong",
+        "Both Q1 and Q2 are wrong",
+        "Both Q1 and Q2 are correct"
+      ],
+      "correct_answer": "Both Q1 and Q2 are correct",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p7_Im1.webp|block] The query returns:",
+      "type": "MCQ",
+      "options": [
+        "Names of employees who work on at least one project",
+        "Names of employees who work on exactly one project",
+        "Names of employees who work on all projects",
+        "Names of employees who do not work on any project"
+      ],
+      "correct_answer": "Names of employees who work on all projects",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Schedule S is as given: [IMAGE: /data/images/cs2001_2026T1_ET_FN_p7_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Schedule S is conflict serializable.",
+        "Schedule S can be two-phase lockable.",
+        "Two phase lockable schedules are always serializable.",
+        "Schedule S is not two-phase lockable."
+      ],
+      "correct_answer": [
+        "Schedule S is conflict serializable.",
+        "Two phase lockable schedules are always serializable.",
+        "Schedule S is not two-phase lockable."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p8_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p8_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p8_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p9_Im1.webp|block]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p8_Im5.webp|block]",
+        ""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p8_Im2.webp",
+        "/data/images/cs2001_2026T1_ET_FN_p8_Im5.webp",
+        "/data/images/cs2001_2026T1_ET_FN_p8_Im6.webp",
+        "/data/images/cs2001_2026T1_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider a relation schema S (A,B,C,D,E,G) and the set of functional dependencies, F = {A \u2192 BC, B \u2192 D, D \u2192 E, E \u2192 B, C \u2192 G}. This schema is decomposed into two relations S1 (A,B,D,E) and S2 (A,C,G). Consider the following statements given below regarding the decomposition of S1 and S2 . Choose the correct option(s).",
+      "type": "multichoice",
+      "options": [
+        "The decomposition of S into S1 and S2 is dependency preserving.",
+        "The decomposition of S into S1 and S2 is lossless.",
+        "The schema S1 is in 2NF.",
+        "The schema S2 is in 3NF."
+      ],
+      "correct_answer": [
+        "The decomposition of S into S1 and S2 is dependency preserving.",
+        "The decomposition of S into S1 and S2 is lossless.",
+        "The schema S1 is in 2NF."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "[IMAGE: /data/images/cs2001_2026T1_ET_FN_p9_Im4.webp|block] Which of the following sequences will result in the given tree?",
+      "type": "multichoice",
+      "options": [
+        "50, 25, 75, 65, 35, 12, 85, 10, 82, 40, 53, 90, 18",
+        "50, 25, 75, 65, 12, 35, 85, 10, 18, 40, 53, 90, 82",
+        "50, 65, 75, 25, 12, 35, 85, 10, 18, 40, 53, 90, 82",
+        "50, 25, 65, 75, 12, 35, 85, 10, 18, 53, 40, 82, 90"
+      ],
+      "correct_answer": [
+        "50, 25, 75, 65, 35, 12, 85, 10, 82, 40, 53, 90, 18",
+        "50, 25, 75, 65, 12, 35, 85, 10, 18, 40, 53, 90, 82"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Choose the correct statement(s).",
+      "type": "multichoice",
+      "options": [
+        "RAID 0 only uses data striping, no redundant information is maintained.",
+        "RAID 1 employs mirroring, maintaining two identical copies of the data on two different disks.",
+        "RAID 3 consists of bit-level striping with dedicated parity.",
+        "RAID 4 write performance is high as parity is distributed over multiple disks."
+      ],
+      "correct_answer": [
+        "RAID 0 only uses data striping, no redundant information is maintained.",
+        "RAID 1 employs mirroring, maintaining two identical copies of the data on two different disks."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the E-R Diagram as shown below: [IMAGE: /data/images/cs2001_2026T1_ET_FN_p11_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "A course can be managed by at most one instructor.",
+        "There might exist an instructor who does not work in any course.",
+        "The entity health is a weak entity and is existence dependent on instructors .",
+        "All courses have at least one instructor working on them."
+      ],
+      "correct_answer": [
+        "A course can be managed by at most one instructor.",
+        "There might exist an instructor who does not work in any course.",
+        "The entity health is a weak entity and is existence dependent on instructors ."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider the following log records of transactions where an immediate database modification scheme is used. [IMAGE: /data/images/cs2001_2026T1_ET_FN_p12_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "T1 can be ignored.",
+        "T2 and T3 need to be redone.",
+        "T4 and T5 need to be undone.",
+        "T3 can be ignored."
+      ],
+      "correct_answer": [
+        "T1 can be ignored.",
+        "T2 and T3 need to be redone.",
+        "T4 and T5 need to be undone."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript Consider you have a file in your hard disk of size 1200 KB. Seek time of your hard disk read head is 4 ms and rotational speed is 24,000 rpm. The disk has 200 sectors per track and 512 bytes per sector. Considering the fact that the file data is stored in consecutive sectors, how much time will be required to read the whole file after a read request is made? (answer in milliseconds and calculate upto two decimal places)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "35.24 to 35.26",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript [IMAGE: /data/images/cs2001_2026T1_ET_FN_p13_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Inscript [IMAGE: /data/images/cs2001_2026T1_ET_FN_p13_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Inscript [IMAGE: /data/images/cs2001_2026T1_ET_FN_p14_Im1.webp|block] Find the total number of super keys of S .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "32",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Inscript Consider a block nested-loop join for the two relations employees and works : [IMAGE: /data/images/cs2001_2026T1_ET_FN_p14_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "400800",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_FN_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    }
+  ],
+  "id": "cs2001-2026t1-et-fn",
+  "course_code": "CS2001",
+  "course_name": "Database Management Systems",
+  "level": "Diploma in Programming",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

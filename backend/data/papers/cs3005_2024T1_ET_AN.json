@@ -1,0 +1,607 @@
+{
+  "title": "DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)",
+  "filename": "cs3005_2024T1_ET_AN.pdf",
+  "total_questions": 27,
+  "total_marks": 27.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 69,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 70,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements about recursion in C programming is not true ?",
+      "type": "MCQ",
+      "options": [
+        "A recursive function calls itself.",
+        "Recursive functions must have a base case to prevent infinite calls.",
+        "The base case is optional for a recursive function.",
+        "Recursive functions are used to implement functions like factorial of a number."
+      ],
+      "correct_answer": "The base case is optional for a recursive function.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 71,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Let a pointer variable ptr hold the address of another integer variable var . Which of the following statements will correctly print the value of var ?",
+      "type": "MCQ",
+      "options": [
+        "printf(\"%d\", ptr);",
+        "printf(\"%d\", *ptr);",
+        "printf(\"%d\", ptr*);",
+        "printf(\"%d\", &ptr);"
+      ],
+      "correct_answer": "printf(\"%d\", *ptr);",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 72,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is not true about arrays in C?",
+      "type": "MCQ",
+      "options": [
+        "An array stores a collection of elements of the same data type.",
+        "Array index always starts with 1.",
+        "Elements of an array are stored in contiguous memory locations.",
+        "Array name acts like a constant pointer that always points to the first element of the array."
+      ],
+      "correct_answer": "Array index always starts with 1.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 73,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is true about structures in C?",
+      "type": "MCQ",
+      "options": [
+        "They can only contain variables of the same data type.",
+        "They always occupy a fixed size in memory regardless of members.",
+        "They allow grouping of variables under a single name, even with different data types.",
+        "They cannot be passed as arguments to functions."
+      ],
+      "correct_answer": "They allow grouping of variables under a single name, even with different data types.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 74,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In C programming, which memory region is typically used for dynamic memory allocation?",
+      "type": "MCQ",
+      "options": [
+        "Heap memory",
+        "Stack memory"
+      ],
+      "correct_answer": "Heap memory",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 75,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which function is used to write data to a file in C programming?",
+      "type": "MCQ",
+      "options": [
+        "fwrite()",
+        "fput()",
+        "write()",
+        "put()"
+      ],
+      "correct_answer": "fwrite()",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 76,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What does the #define directive do in C preprocessor?",
+      "type": "MCQ",
+      "options": [
+        "Declares a variable with the value to initialize it.",
+        "Defines textual symbols which are replaced by their values before compilation.",
+        "Defines a function which may have parameters",
+        "Includes a header file."
+      ],
+      "correct_answer": "Defines textual symbols which are replaced by their values before compilation.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 77,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Value of c: 200",
+        "Value of c: 170",
+        "Value of c: 0",
+        "Value of c: 180"
+      ],
+      "correct_answer": "Value of c: 0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 78,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "main \u2192 diff\u2192 sum \u2192 diff\u2192 printf",
+        "main \u2192 printf \u2192 diff \u2192 diff \u2192 sum",
+        "main \u2192 printf \u2192 sum \u2192 diff\u2192 diff",
+        "main \u2192 sum\u2192 diff \u2192 diff\u2192 printf"
+      ],
+      "correct_answer": "main \u2192 diff\u2192 sum \u2192 diff\u2192 printf",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 79,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "End Term Exam",
+        "Term",
+        "Term Exam",
+        "erm Exam"
+      ],
+      "correct_answer": "erm Exam",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 80,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p7_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Length: 11 Size: 11",
+        "Length: 11 Size: 12",
+        "Length: 12 Size: 11",
+        "Length: 12 Size: 12"
+      ],
+      "correct_answer": "Length: 11 Size: 12",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 81,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p8_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "2"
+      ],
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 82,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 83,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p10_Im1.webp|block] What will be the output of the above program?",
+      "type": "MCQ",
+      "options": [
+        "7 5 3 3",
+        "7 7 5 3",
+        "7 5 5 3",
+        "7 7 3 3"
+      ],
+      "correct_answer": "7 5 5 3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 84,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "a = 1, b = 2 a = 2, b = 1",
+        "a = 2, b = 1 a = 1, b = 2",
+        "a = 1, b = 1 a = 2, b = 2",
+        "a = 2, b = 2 a = 1, b = 1"
+      ],
+      "correct_answer": "a = 2, b = 1 a = 1, b = 2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 85,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 2 1 3 3",
+        "1 2 2 3 3",
+        "1 2 2 3 2",
+        "1 2 3 3 2"
+      ],
+      "correct_answer": "1 2 1 3 3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 86,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 2 3",
+        "2 3 4",
+        "3 4 5",
+        "1 3 5"
+      ],
+      "correct_answer": "2 3 4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 87,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p14_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Value of a: 0 Value of a: 1 Value of a: 2 Value of a: 3",
+        "Value of a: 1 Value of a: 2 Value of a: 3 Value of a: 4",
+        "The program will crash because the static variable \u201ca\u201d is not initialized.",
+        "Value of a: some_garbage_value Value of a: some_garbage_value Value of a: some_garbage_value Value of a: some_garbage_value"
+      ],
+      "correct_answer": "Value of a: 0 Value of a: 1 Value of a: 2 Value of a: 3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 88,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p15_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "epliru",
+        "xelams",
+        "expell",
+        "iarmus"
+      ],
+      "correct_answer": "epliru",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 89,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p16_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The initialization expression is executed only once before the loop starts.",
+        "If the condition expression is evaluated false, then the loop terminates.",
+        "The loop body is always executed at least once.",
+        "The increment/decrement expression is executed after each iteration of the loop."
+      ],
+      "correct_answer": [
+        "The initialization expression is executed only once before the loop starts.",
+        "If the condition expression is evaluated false, then the loop terminates.",
+        "The increment/decrement expression is executed after each iteration of the loop."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 90,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Select the correct statements from the below that dynamically allocate memory to hold 3 integer pointers. Assume size of int is 4 bytes, size of char is 1 byte and size of pointer is 8 bytes.",
+      "type": "multichoice",
+      "options": [
+        "int* a = malloc(24);",
+        "int** a = malloc(24);",
+        "int* a = malloc(3*sizeof(int));",
+        "int** a = malloc(3*sizeof(int*));"
+      ],
+      "correct_answer": [
+        "int** a = malloc(24);",
+        "int** a = malloc(3*sizeof(int*));"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 91,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p17_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2024T1_ET_AN_p17_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T1_ET_AN_p17_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T1_ET_AN_p18_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T1_ET_AN_p18_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3005_2024T1_ET_AN_p17_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2024T1_ET_AN_p18_Im2.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p17_Im3.webp",
+        "/data/images/cs3005_2024T1_ET_AN_p17_Im4.webp",
+        "/data/images/cs3005_2024T1_ET_AN_p17_Im5.webp",
+        "/data/images/cs3005_2024T1_ET_AN_p18_Im2.webp",
+        "/data/images/cs3005_2024T1_ET_AN_p18_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 92,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p18_Im5.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p18_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 93,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p19_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 94,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3005_2024T1_ET_AN_p19_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2024T1_ET_AN_p19_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 95,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction",
+      "type": "MCQ",
+      "options": [],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CSD"
+    }
+  ],
+  "id": "cs3005-2024t1-et-an",
+  "course_code": "CS3005",
+  "course_name": "Programming in C",
+  "level": "Degree",
+  "term": "Jan 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

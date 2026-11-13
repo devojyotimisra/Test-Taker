@@ -1,0 +1,648 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)",
+  "filename": "cs3001_2025T2_ET_FN.pdf",
+  "total_questions": 28,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 34,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 35,
+      "text": "A software company is preparing to launch a new product that collects user data. Who should be responsible for ensuring that the company\u2019s privacy policies comply with regulations?",
+      "type": "MCQ",
+      "options": [
+        "Data Scientists",
+        "Ethics and Policy Specialists",
+        "Engineering Managers",
+        "Support Team"
+      ],
+      "correct_answer": "Ethics and Policy Specialists",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 36,
+      "text": "A junior developer is stuck on a programming issue and needs guidance. The developer prefers a platform where experienced professionals can provide solutions, along with links to additional learning resources. Which platform should the developer use?",
+      "type": "MCQ",
+      "options": [
+        "Slack",
+        "Stack Overflow",
+        "GitHub Pages",
+        "JIRA"
+      ],
+      "correct_answer": "Stack Overflow",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 37,
+      "text": "A growing e-commerce startup is looking for an infrastructure solution that provides the highest performance for its online store. Cost is not a concern, but they need complete control over their servers. Which hosting option should they choose?",
+      "type": "MCQ",
+      "options": [
+        "Bare Metal Servers",
+        "Infrastructure-as-a-Service (IaaS)",
+        "Platform-as-a-Service (PaaS)",
+        "None of these"
+      ],
+      "correct_answer": "Bare Metal Servers",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 38,
+      "text": "A developer is implementing a sorting function for an e-commerce platform to arrange products by price efficiently. Which design aspect does this involve?",
+      "type": "MCQ",
+      "options": [
+        "Components",
+        "Interfaces",
+        "Data structures",
+        "Algorithms"
+      ],
+      "correct_answer": "Algorithms",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 39,
+      "text": "A software development team is working on an AI-powered chatbot for customer service. However, they realize late in the development process that the third-party AI module they integrated does not support some key languages their client requires. What type of risk does this represent?",
+      "type": "MCQ",
+      "options": [
+        "Business Risk",
+        "Project Risk",
+        "Technical Risk",
+        "None of these"
+      ],
+      "correct_answer": "Technical Risk",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 40,
+      "text": "During a software development project, the team completes a sprint and demonstrates the work done to stakeholders. Which Agile event is this?",
+      "type": "MCQ",
+      "options": [
+        "Sprint Planning",
+        "Sprint Retrospective",
+        "Sprint Review",
+        "Backlog Analysis"
+      ],
+      "correct_answer": "Sprint Review",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 41,
+      "text": "A mobile payment app refers to adding money as \"Charging Wallet\" instead of \"Add Money.\" Users find this term confusing. Which heuristic is being violated?",
+      "type": "MCQ",
+      "options": [
+        "Freedom to Explore",
+        "Use Familiar Languages and Metaphors",
+        "Prevent Errors",
+        "Show Status"
+      ],
+      "correct_answer": "Use Familiar Languages and Metaphors",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 42,
+      "text": "A researcher is trying to understand how warehouse employees manage inventory updates in real time. They shadow employees, take notes, and ask clarifying questions while observing daily operations. Which technique is being applied here?",
+      "type": "MCQ",
+      "options": [
+        "Questionnaires",
+        "Interviews",
+        "Naturalistic Observations",
+        "Focus Groups"
+      ],
+      "correct_answer": "Naturalistic Observations",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 43,
+      "text": "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p4_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p4_Im5.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T2_ET_FN_p4_Im2.webp",
+        "/data/images/cs3001_2025T2_ET_FN_p4_Im3.webp",
+        "/data/images/cs3001_2025T2_ET_FN_p4_Im5.webp",
+        "/data/images/cs3001_2025T2_ET_FN_p4_Im6.webp",
+        "/data/images/cs3001_2025T2_ET_FN_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 44,
+      "text": "Which of the following is a problem with the Big Bang approach of integration technique?",
+      "type": "MCQ",
+      "options": [
+        "Requires drivers and stubs",
+        "Difficult to localize errors",
+        "Can only be used for large systems",
+        "Requires bottom-up testing first"
+      ],
+      "correct_answer": "Difficult to localize errors",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 45,
+      "text": "A test engineer runs a small set of basic test cases to verify that the core functionalities of a newly deployed application are working before conducting further testing. What type of testing is this?",
+      "type": "MCQ",
+      "options": [
+        "Performance Testing",
+        "Beta Testing",
+        "Smoke Testing",
+        "Acceptance Testing"
+      ],
+      "correct_answer": "Smoke Testing",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 46,
+      "text": "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p5_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Factory Pattern",
+        "Builder Pattern",
+        "Facade Pattern",
+        "Adapter Pattern"
+      ],
+      "correct_answer": "Builder Pattern",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T2_ET_FN_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 47,
+      "text": "An organization is developing a collaborative document editing system where multiple users can edit the same document simultaneously. The system must operate without relying on a central server or any form of centralized control, ensuring direct communication among users. Which architectural style best fits this requirement?",
+      "type": "MCQ",
+      "options": [
+        "Client-Server",
+        "Pipe and Filter",
+        "Peer-to-Peer",
+        "Model-View-Controller"
+      ],
+      "correct_answer": "Peer-to-Peer",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 48,
+      "text": "A software company wants to build a structured and maintainable web application efficiently. Which of the following would be the best option for them?",
+      "type": "MCQ",
+      "options": [
+        "Using a basic text editor",
+        "Writing everything from scratch without any pre-built structure",
+        "Using a web application framework like Flask",
+        "Avoiding frameworks to reduce dependencies"
+      ],
+      "correct_answer": "Using a web application framework like Flask",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 49,
+      "text": "Bhavya is trying to understand why a variable in his Python program is getting the wrong value at a certain point. He decides to insert print statements in the code to check intermediate values. Which debugging technique is he using?",
+      "type": "MCQ",
+      "options": [
+        "Stepping in a debugger",
+        "Logging",
+        "Profiling",
+        "Dump & Diff"
+      ],
+      "correct_answer": "Logging",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 50,
+      "text": "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p6_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Data Coupling",
+        "Control Coupling",
+        "Common Coupling",
+        "Content Coupling"
+      ],
+      "correct_answer": "Control Coupling",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T2_ET_FN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 51,
+      "text": "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p6_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Sequential Cohesion",
+        "Functional Cohesion",
+        "Communicational Cohesion",
+        "Procedural Cohesion"
+      ],
+      "correct_answer": "Communicational Cohesion",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T2_ET_FN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 52,
+      "text": "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p7_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p7_Im4.webp|inline] [IMAGE: /data/images/cs3001_2025T2_ET_FN_p7_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p7_Im7.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T2_ET_FN_p7_Im3.webp",
+        "/data/images/cs3001_2025T2_ET_FN_p7_Im4.webp",
+        "/data/images/cs3001_2025T2_ET_FN_p7_Im5.webp",
+        "/data/images/cs3001_2025T2_ET_FN_p7_Im6.webp",
+        "/data/images/cs3001_2025T2_ET_FN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 53,
+      "text": "A software company is estimating the cost and effort required for developing a new inventory management system. The project manager decides to consult senior developers who have worked on similar projects before to get an estimate. Which estimation technique is being used?",
+      "type": "MCQ",
+      "options": [
+        "COCOMO Model",
+        "Expert Judgement",
+        "Delphi Technique",
+        "Heuristic Estimation"
+      ],
+      "correct_answer": "Expert Judgement",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 54,
+      "text": "A retail website optimizes its checkout process by reducing the number of steps from product selection to payment confirmation. Users can now complete a purchase with a single click if they have saved their payment details. What usability factor is being improved?",
+      "type": "MCQ",
+      "options": [
+        "Safety",
+        "Learnability",
+        "Efficiency",
+        "Memorability"
+      ],
+      "correct_answer": "Efficiency",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 55,
+      "text": "The development team updates a user story as follows: Before: \"As an admin, I want to generate reports on user activity.\" After: \"As an admin, I want to generate a daily report of user logins and purchases, formatted as a downloadable CSV file.\" Which SMART characteristic is best addressed in this improvement?",
+      "type": "MCQ",
+      "options": [
+        "Achievable",
+        "Measurable",
+        "Timeboxed",
+        "Relevant"
+      ],
+      "correct_answer": "Measurable",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 56,
+      "text": "A company is releasing a major update to its web application. What are the benefits of using a staging environment before production deployment?",
+      "type": "multichoice",
+      "options": [
+        "It helps identify configuration issues before going live",
+        "It allows users to interact with new features in a real environment",
+        "It prevents performance testing before making the application live",
+        "It ensures that the production environment remains stable"
+      ],
+      "correct_answer": [
+        "It helps identify configuration issues before going live",
+        "It ensures that the production environment remains stable"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 57,
+      "text": "Which of the following statements about Versioned Deployment are true?",
+      "type": "multichoice",
+      "options": [
+        "Users can choose which version they want",
+        "Only the latest version is kept alive",
+        "Older versions are removed immediately after an update",
+        "Requires maintaining multiple versions"
+      ],
+      "correct_answer": [
+        "Users can choose which version they want",
+        "Requires maintaining multiple versions"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 58,
+      "text": "Which of the following tasks are best suited for task queues?",
+      "type": "multichoice",
+      "options": [
+        "Sending bulk notifications to users",
+        "Rendering a webpage with static content",
+        "Processing large database updates asynchronously",
+        "Executing HTTP requests in real-time"
+      ],
+      "correct_answer": [
+        "Sending bulk notifications to users",
+        "Processing large database updates asynchronously"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 59,
+      "text": "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p9_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p9_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p9_Im6.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T2_ET_FN_p9_Im3.webp",
+        "/data/images/cs3001_2025T2_ET_FN_p9_Im4.webp",
+        "/data/images/cs3001_2025T2_ET_FN_p9_Im5.webp",
+        "/data/images/cs3001_2025T2_ET_FN_p9_Im6.webp",
+        "/data/images/cs3001_2025T2_ET_FN_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 60,
+      "text": "Identify the set(s) of valid test cases for branch coverage.",
+      "type": "multichoice",
+      "options": [
+        "{temperature = 0, temperature = 100}",
+        "{temperature = -5, temperature = 20, temperature = 50}",
+        "{temperature = -5, temperature = 20, temperature = 50, temperature = 105}",
+        "{temperature = -5, temperature = 20, temperature = 100, temperature = 50, temperature = 0}"
+      ],
+      "correct_answer": [
+        "{temperature = -5, temperature = 20, temperature = 50}",
+        "{temperature = -5, temperature = 20, temperature = 50, temperature = 105}",
+        "{temperature = -5, temperature = 20, temperature = 100, temperature = 50, temperature = 0}"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T2_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p10_Im1.webp|block]",
+      "group_id": "6406531422428",
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 61,
+      "text": "Identify the set(s) of valid test cases for multiple condition coverage.",
+      "type": "multichoice",
+      "options": [
+        "{temperature = 0, temperature = 100}",
+        "{temperature = -5, temperature = 20, temperature = 50}",
+        "{temperature = -5, temperature = 20, temperature = 50, temperature = 105}",
+        "{temperature = -5, temperature = 20, temperature = 100, temperature = 50, temperature = 0}"
+      ],
+      "correct_answer": [
+        "{temperature = -5, temperature = 20, temperature = 50, temperature = 105}"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T2_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3001_2025T2_ET_FN_p10_Im1.webp|block]",
+      "group_id": "6406531422428",
+      "section_name": "Sw Engg"
+    }
+  ],
+  "id": "cs3001-2025t2-et-fn",
+  "course_code": "CS3001",
+  "course_name": "Software Engineering",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

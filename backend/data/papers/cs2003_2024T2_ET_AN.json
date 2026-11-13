@@ -1,0 +1,835 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)",
+  "filename": "cs2003_2024T2_ET_AN.pdf",
+  "total_questions": 33,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 254,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 255,
+      "text": "Consider that you have installed some python packages using requirements.txt. Which command you will use to list the installed packages in the virtual environment?",
+      "type": "MCQ",
+      "options": [
+        "pip list",
+        "pip freeze",
+        "ls -la",
+        "ls"
+      ],
+      "correct_answer": "pip freeze",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 256,
+      "text": "A certain text document consisting of only alphanumeric characters (including spaces) takes 1,52,000 bits, when encoded with UCS-4 (32 bit) encoding. How many bits will the same document take if encoded with ASCII 7-bit encoding?",
+      "type": "MCQ",
+      "options": [
+        "24000 bits",
+        "68000 bits",
+        "33250 bits",
+        "152000 bits"
+      ],
+      "correct_answer": "33250 bits",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 257,
+      "text": "The ability of an application to work with different input modalities beyond keyboard highlights which of the following accessibility principle?",
+      "type": "MCQ",
+      "options": [
+        "Perceivable",
+        "Robust",
+        "Understandable",
+        "Operable"
+      ],
+      "correct_answer": "Operable",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 258,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p2_Im7.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p2_Im3.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p2_Im4.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p2_Im5.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p2_Im6.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 259,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p3_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p4_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p4_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p4_Im2.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p3_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p3_Im5.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p4_Im2.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 260,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p4_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A \u2192 1, B \u2192 2, C \u2192 3, D \u2192 4",
+        "A \u2192 4, B \u2192 1, C \u2192 2, D \u2192 3",
+        "A \u2192 4, B \u2192 3, C \u2192 2, D \u2192 1",
+        "A \u2192 3, B \u2192 2, C \u2192 1, D \u2192 4"
+      ],
+      "correct_answer": "A \u2192 4, B \u2192 1, C \u2192 2, D \u2192 3",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 261,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p4_Im6.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "AC0A FE01",
+        "CA10 EF0A",
+        "AC10 FE0A",
+        "AC01 0AEF"
+      ],
+      "correct_answer": "AC10 FE0A",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 262,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p6_Im1.webp|block] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p6_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p6_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p6_Im1.webp|block] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p6_Im3.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p5_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p6_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p6_Im3.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 263,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p6_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 - c, 2 - a, 3 - b, 4 - d",
+        "1 - a, 2 - b, 3 - c, 4 - d",
+        "1 - b, 2 - d, 3 - a, 4 - c",
+        "1 - d, 2 - c, 3 - b, 4 - a"
+      ],
+      "correct_answer": "1 - c, 2 - a, 3 - b, 4 - d",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p6_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 264,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p7_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "a = 8; b = 10; c = 16;",
+        "a = 10; b = 2; c = 16;",
+        "a = 8; b = 16; c = 10;",
+        "a = 2; b = 16; c = 8;"
+      ],
+      "correct_answer": "a = 8; b = 10; c = 16;",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 265,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "a - 4, b - 1, c - 6",
+        "a - 5, b - 3, c - 2",
+        "a - 5, b - 1, c - 2",
+        "a - 5, b - 3, c - 6"
+      ],
+      "correct_answer": "a - 5, b - 3, c - 2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 266,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p9_Im5.webp|inline] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p9_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p10_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p9_Im3.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p9_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p9_Im3.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p9_Im5.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p9_Im6.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 267,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p10_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-c, 2-e, 3-d",
+        "1-c, 2-a, 3-b",
+        "1-c, 2-a, 3-d",
+        "1-a, 2-d, 3-e"
+      ],
+      "correct_answer": "1-c, 2-e, 3-d",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 268,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p11_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p12_Im1.webp|block] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p12_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p12_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p12_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p11_Im2.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p12_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p12_Im3.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p12_Im4.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p12_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 269,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Only statement i is correct",
+        "Only statement ii is correct",
+        "Statements i and iii are correct",
+        "Statements ii and iv are correct"
+      ],
+      "correct_answer": "Only statement ii is correct",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 270,
+      "text": "You have a DRAM module with bus width of 8 bits, clock speed of 1.4 GHz, and operating in DDR (double-data-rate or two values per clock cycle) mode. What is the maximum bandwidth (in Giga- bytes per second) of data transfer achievable with this module?",
+      "type": "MCQ",
+      "options": [
+        "2.8",
+        "3.2",
+        "6.4",
+        "12.8"
+      ],
+      "correct_answer": "2.8",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 271,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p15_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p16_Im1.webp|block] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p16_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p16_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p15_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p16_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p16_Im3.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p16_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 272,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p17_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p18_Im1.webp|block] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p18_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p18_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p18_Im1.webp|block] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p18_Im3.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p17_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p18_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p18_Im3.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p18_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 273,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p19_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p19_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p19_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p19_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p20_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p20_Im2.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p19_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p19_Im3.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p19_Im4.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p19_Im5.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p20_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 274,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p20_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p21_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p21_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p21_Im5.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p21_Im2.webp|inline]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p20_Im3.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p21_Im2.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p21_Im4.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p21_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 275,
+      "text": "The lens of an HDD can read data on the rotating disk with the speed of 56,000 bits per second. The disk is designed such that 800 bits pass under the lens for every revolution of the disk, what should be the maximum speed of disk so that the lens does not miss any data?",
+      "type": "MCQ",
+      "options": [
+        "70 RPM",
+        "100 RPM",
+        "4200 RPM",
+        "8000 RPM"
+      ],
+      "correct_answer": "4200 RPM",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 276,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p22_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p22_Im4.webp|inline] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p22_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p22_Im7.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p22_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p22_Im4.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p22_Im6.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p22_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 277,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p23_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p23_Im4.webp|inline] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p23_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p23_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p23_Im7.webp|inline]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p23_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p23_Im4.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p23_Im5.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p23_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 278,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p24_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p24_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p24_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p24_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p24_Im5.webp|block]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p24_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p24_Im5.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p24_Im6.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p24_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 279,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p25_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p25_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p25_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p25_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p25_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p25_Im7.webp|block]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p25_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p25_Im5.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p25_Im6.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p25_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 280,
+      "text": "Which of the following statements is/are true about indexing?",
+      "type": "multichoice",
+      "options": [
+        "Indexes are special lookup tables that the database search engine can use to speed up data retrieval.",
+        "Columns that are frequently manipulated should not be indexed.",
+        "Indexes enhance the performance even if the table is updated frequently.",
+        "Indexes should be avoided for tables that have frequent, large batch updates or insert operations."
+      ],
+      "correct_answer": [
+        "Indexes are special lookup tables that the database search engine can use to speed up data retrieval.",
+        "Columns that are frequently manipulated should not be indexed.",
+        "Indexes should be avoided for tables that have frequent, large batch updates or insert operations."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 281,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p26_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p26_Im5.webp|inline] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p26_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p26_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p26_Im7.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p26_Im3.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p26_Im5.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p26_Im6.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p26_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 282,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p27_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p27_Im5.webp|inline] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p27_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p27_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "",
+        ""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p27_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p27_Im5.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p27_Im6.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p27_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 283,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p28_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p28_Im3.webp|inline] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p28_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p28_Im6.webp|inline] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p29_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "",
+        ""
+      ],
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p28_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p28_Im3.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p28_Im5.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p28_Im6.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p29_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 284,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p29_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p30_Im1.webp|block] [IMAGE: /data/images/cs2003_2024T2_ET_AN_p30_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p30_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p30_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p30_Im6.webp|block]",
+        ""
+      ],
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p29_Im3.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p30_Im1.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p30_Im3.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p30_Im5.webp",
+        "/data/images/cs2003_2024T2_ET_AN_p30_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 285,
+      "text": "At what distance (kms) should the router be placed from the client so that round-trip latency of the network remains as low as 150 milliseconds?",
+      "type": "MCQ",
+      "options": [
+        "8000 kilometers",
+        "7500 kilometers",
+        "4500 kilometers",
+        "3000 kilometers"
+      ],
+      "correct_answer": "4500 kilometers",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p30_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p30_Im7.webp|block]",
+      "group_id": "640653903834",
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 286,
+      "text": "What will be the round-trip latency (milliseconds) of the network if the router is placed at exactly midway from the client and the server?",
+      "type": "MCQ",
+      "options": [
+        "45",
+        "90",
+        "180",
+        "270"
+      ],
+      "correct_answer": "180",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_ET_AN_p30_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2024T2_ET_AN_p30_Im7.webp|block]",
+      "group_id": "640653903834",
+      "section_name": "AppDev1"
+    }
+  ],
+  "id": "cs2003-2024t2-et-an",
+  "course_code": "CS2003",
+  "course_name": "Application Development 1",
+  "level": "Diploma in Programming",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

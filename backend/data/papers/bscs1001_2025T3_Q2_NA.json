@@ -1,0 +1,349 @@
+{
+  "title": "FOUNDATION LEVEL : SEMESTER I: COMPUTATIONAL THINKING (COMPUTER BASED EXAM)",
+  "filename": "bscs1001_2025T3_Q2_NA.pdf",
+  "total_questions": 14,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"FOUNDATION LEVEL : SEMESTER I: COMPUTATIONAL THINKING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p1_Im3.webp|block] [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Useful Data has been mentioned above.",
+        "This data attachment is just for a reference & not for an evaluation."
+      ],
+      "correct_answer": "Useful Data has been mentioned above.",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p1_Im3.webp",
+        "/data/images/bscs1001_2025T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the procedure given below. [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p3_Im1.webp|block] If L1 and L2 are two lists, and L = eliminate(L1, L2) , choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "L contains all the elements of L2 that are not present in L1",
+        "L contains all the elements of L1 that are not present in L2",
+        "L contains all the elements common to L1 and L2",
+        "L contains the unique elements present in L1 or L2"
+      ],
+      "correct_answer": "L contains all the elements of L1 that are not present in L2",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the following pseudocode: [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p3_Im4.webp|block] At the end of execution of the pseudocode, which of the following is correct?",
+      "type": "MCQ",
+      "options": [
+        "bList = [2, 6, 7, 8, 3]",
+        "bList = [3, 8, 7, 6, 2]",
+        "bList = [28]",
+        "bList = [2, 6, 7, 2, 8, 7, 6, 2, 3]"
+      ],
+      "correct_answer": "bList = [3, 8, 7, 6, 2]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "The following pseudocode is executed using \"Scores\" dataset. Let M , P , and C be the lists of the sequence numbers of the students who have scored more than 75 marks in Mathematics, Physics, and Chemistry respectively. At the end of the execution, dict stores a dictionary with the sequence number of student mapped to the number of subjects in which the student has scored more than 75 marks. Choose the correct implementation(s) of nSub . [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p4_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p5_Im1.webp|block] [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p5_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p5_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p5_Im5.webp|block]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p4_Im2.webp",
+        "/data/images/bscs1001_2025T3_Q2_NA_p5_Im1.webp",
+        "/data/images/bscs1001_2025T3_Q2_NA_p5_Im3.webp",
+        "/data/images/bscs1001_2025T3_Q2_NA_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "The following pseudocode is executed using the \"Words\" dataset. Let X . Word and Y . Word be \" engineering \" and \" analysis \" respectively. [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p6_Im1.webp|block] At the end of the execution of the pseudocode shown below, which of the following statements is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p6_Im3.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p7_Im1.webp|block] [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p7_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p6_Im3.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p7_Im1.webp|block] [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p7_Im3.webp|block]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p6_Im1.webp",
+        "/data/images/bscs1001_2025T3_Q2_NA_p6_Im3.webp",
+        "/data/images/bscs1001_2025T3_Q2_NA_p6_Im5.webp",
+        "/data/images/bscs1001_2025T3_Q2_NA_p7_Im1.webp",
+        "/data/images/bscs1001_2025T3_Q2_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "The following pseudocode is executed using the \"Scores\" dataset. What will the value of B represent at the end of execution? [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p7_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Number of repeated marks in Physics",
+        "Minimum marks in Physics",
+        "Maximum marks in Physics",
+        "Most frequent marks in Physics"
+      ],
+      "correct_answer": "Most frequent marks in Physics",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "The following pseudocode is executed using the \"Shopping bills\" dataset. What will D represent at the end of the execution? [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p8_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "For an item C, and a shop S, D[C] [S] [\"Flag\"] is set to True if and only if the item is sold for a constant price, by the shop.",
+        "For an item C, and a shop S, D[C] [S] [\"Flag\"] is set to True if and only if the item is billed in more than one bill, by the shop.",
+        "For an item C, and a shop S, D[C] [S] [\"Flag\"] is set to True if and only if the item is sold for variable price, by the shop.",
+        "For an item C, and a shop S, D[C] [S] [\"Flag\"] is set to True if and only if the item is billed exactly one bill, by the shop."
+      ],
+      "correct_answer": "For an item C, and a shop S, D[C] [S] [\"Flag\"] is set to True if and only if the item is sold for variable price, by the shop.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "What is the value of L at the end of the execution of the following pseudocode? [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[7, 8, 9]",
+        "[8, 7, 9]",
+        "[8, 9, 7]",
+        "[9, 8, 7]"
+      ],
+      "correct_answer": "[7, 8, 9]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "The following pseudocode is executed on the \"Scores\" dataset. Which of the following statements is/are true at the end of the execution? [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p11_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "A represents the sequence numbers of students with a total score greater than 200.",
+        "Length(B) >= Length(A) will always be true.",
+        "B represents the sequence numbers of all students from Chennai in the dataset.",
+        "Length(A) >= Length(B) will always be true."
+      ],
+      "correct_answer": [
+        "A represents the sequence numbers of students with a total score greater than 200.",
+        "Length(A) >= Length(B) will always be true."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "The following pseudocode is executed using the \"Shopping Bills\" dataset. At the end of the execution, the variable D captures the following information: for each customer Z , D[Z] [\"Shop\"] stores the shops visited by Z , and D[Z] [\"Category\"] stores the categories of the items purchased by Z . But the pseudocode may have mistakes. Identify all such mistakes (if any). It is a Multiple Select Question (MSQ). [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p12_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Error in Line 1",
+        "Error in Line 10",
+        "Error in Line 13",
+        "Error in Line 14"
+      ],
+      "correct_answer": [
+        "Error in Line 10",
+        "Error in Line 14"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "What will the value of length(B) be at the end of the execution of the following pseudocode? [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p13_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "What will count represent at the end of the execution if the missing code is filled by below code? [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p14_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Total number of verbs in the dataset",
+        "Number of sentences that end with a non-verb",
+        "Number of sentences with at least one verb",
+        "Number of sentences that end with a verb"
+      ],
+      "correct_answer": "Number of sentences that end with a non-verb",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p14_Im1.webp",
+        "/data/images/bscs1001_2025T3_Q2_NA_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following pseudocode is executed using the \"Words\" dataset. [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p13_Im2.webp|block] Answer the given subquestions.",
+      "group_id": "6406531826842",
+      "section_name": "Sem1 CT"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "What will count represent at the end of the execution if the missing code is filled by below code? [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p14_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Total number of verbs in the dataset",
+        "Number of sentences that start with a verb",
+        "Number of sentences that do not start with a verb",
+        "Number of sentences that end with a verb"
+      ],
+      "correct_answer": "Number of sentences that do not start with a verb",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2025T3_Q2_NA_p14_Im4.webp",
+        "/data/images/bscs1001_2025T3_Q2_NA_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following pseudocode is executed using the \"Words\" dataset. [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p13_Im2.webp|block] Answer the given subquestions.",
+      "group_id": "6406531826842",
+      "section_name": "Sem1 CT"
+    }
+  ],
+  "id": "bscs1001-2025t3-q2-na",
+  "course_code": "BSCS1001",
+  "course_name": "Computational Thinking",
+  "level": "Foundation",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

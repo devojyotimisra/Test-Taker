@@ -1,0 +1,301 @@
+{
+  "title": "DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)",
+  "filename": "cs3003_2026T2_Q2_NA.pdf",
+  "total_questions": 15,
+  "total_marks": 17.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "[IMAGE: /data/images/cs3003_2026T2_Q2_NA_p1_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Printed graph sheets were provided on time.",
+        "Printed graph sheets were provided late.",
+        "Printed graph sheets were not provided.",
+        "I used the graph sheets.",
+        "I did not use graph sheets."
+      ],
+      "correct_answer": [
+        "Printed graph sheets were provided on time.",
+        "I used the graph sheets."
+      ],
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Inscript Make the necessary node refinements to complete the search tree like how Branch-and-Bound algorithm would have done before halting. How many times does each state occur in the final search tree? Enter the counts for S,A,B,C,D,G in the text box. Enter a comma separated list of integers. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1,2,2,3,3,4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q2_NA_p2_Im1.webp",
+        "/data/images/cs3003_2026T2_Q2_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Consider a state space where each move is reversible and has 6 states (S,A,B,C,D,G) with S as start and G as goal. The heuristic function is: [IMAGE: /data/images/cs3003_2026T2_Q2_NA_p2_Im1.webp|block] Wherever applicable use alphabetical order. Branch-and-Bound (BnB) algorithm is in mid-flight, the search tree as of the current moment is shown in the figure, where each node displays state and g-value. [IMAGE: /data/images/cs3003_2026T2_Q2_NA_p2_Im2.webp|block] Answer the sub-questions based on the information provided.",
+      "group_id": "6406532197411",
+      "section_name": "AI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Inscript What is the path found by A * for the given state space? Enter the path as a comma separated list, or enter NIL. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,B,D,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q2_NA_p2_Im1.webp",
+        "/data/images/cs3003_2026T2_Q2_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Consider a state space where each move is reversible and has 6 states (S,A,B,C,D,G) with S as start and G as goal. The heuristic function is: [IMAGE: /data/images/cs3003_2026T2_Q2_NA_p2_Im1.webp|block] Wherever applicable use alphabetical order. Branch-and-Bound (BnB) algorithm is in mid-flight, the search tree as of the current moment is shown in the figure, where each node displays state and g-value. [IMAGE: /data/images/cs3003_2026T2_Q2_NA_p2_Im2.webp|block] Answer the sub-questions based on the information provided.",
+      "group_id": "6406532197411",
+      "section_name": "AI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Inscript For w=2, what is the path found by WA * for the given state space? Enter the path as a comma separated list, or enter NIL. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,A,C,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q2_NA_p2_Im1.webp",
+        "/data/images/cs3003_2026T2_Q2_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Consider a state space where each move is reversible and has 6 states (S,A,B,C,D,G) with S as start and G as goal. The heuristic function is: [IMAGE: /data/images/cs3003_2026T2_Q2_NA_p2_Im1.webp|block] Wherever applicable use alphabetical order. Branch-and-Bound (BnB) algorithm is in mid-flight, the search tree as of the current moment is shown in the figure, where each node displays state and g-value. [IMAGE: /data/images/cs3003_2026T2_Q2_NA_p2_Im2.webp|block] Answer the sub-questions based on the information provided.",
+      "group_id": "6406532197411",
+      "section_name": "AI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Inscript Consider 6 cities A to F, how many tours are represented by the TSP BnB node (S_0, ~AB, ~AC, BE, ~DB, ~DA)? Infer the permanent segments before counting the tours.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "TSP Answer the given subquestions.",
+      "group_id": "6406532197415",
+      "section_name": "AI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "The TSP BnB procedure will return the optimal tour __________ .",
+      "type": "MCQ",
+      "options": [
+        "even if node refinement step disables segment inferencing",
+        "only when node refinement step uses segment inferencing"
+      ],
+      "correct_answer": "even if node refinement step disables segment inferencing",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "TSP Answer the given subquestions.",
+      "group_id": "6406532197415",
+      "section_name": "AI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript Let N be the number of cities. For the purpose of analysis, construct a relaxed (version of TSP BnB) tree in the following manner: expand S_0 by adding 2 children (one with XY and another with ~XY), similarly expand the children, and continue expanding until all branches are fully expanded, without ever applying cost estimates, tour constraints, or inferences. The number of leaf nodes in the relaxed tree will be of the order of __________ . Give your answer in Big-O notation. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "O(2^(N^2)) O(2^(N*N))",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "TSP Answer the given subquestions.",
+      "group_id": "6406532197415",
+      "section_name": "AI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript Consider the relaxed tree generated in the PREVIOUS question. If we prune all nodes that violate the tour condition, the number of leaf nodes in the pruned tree will be of the order of __________ . Give your answer in Big-O notation. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "O(N!)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "TSP Answer the given subquestions.",
+      "group_id": "6406532197415",
+      "section_name": "AI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript Identify the horizon nodes pruned by beta-cuts. Enter their node labels in the text box. Enter a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "G,H",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES [IMAGE: /data/images/cs3003_2026T2_Q2_NA_p6_Im1.webp|block] Answer the given subquestions.",
+      "group_id": "6406532197420",
+      "section_name": "AI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript Solve the game tree using SSS * algorithm. Identify the SOLVED horizon nodes that are removed from the queue by the pruning step. Not popped from the queue but pruned from the queue. Enter the node labels as a comma separated list in ASCENDING order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "C,I,K",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES [IMAGE: /data/images/cs3003_2026T2_Q2_NA_p6_Im1.webp|block] Answer the given subquestions.",
+      "group_id": "6406532197420",
+      "section_name": "AI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript What is the horizon effect? Give a concise and clear answer. Stay on point. NOTE: Your answer should not exceed 100 words. Max Word Count : 100 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES [IMAGE: /data/images/cs3003_2026T2_Q2_NA_p6_Im1.webp|block] Answer the given subquestions.",
+      "group_id": "6406532197420",
+      "section_name": "AI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Can the Forward State Space Planning algorithm discussed in the lecture solve Sussman Anomaly?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING Answer the given subquestions.",
+      "group_id": "6406532197424",
+      "section_name": "AI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Can the Goal Stack Planning algorithm discussed in the lecture solve Sussman Anomaly?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING Answer the given subquestions.",
+      "group_id": "6406532197424",
+      "section_name": "AI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "What is true about the Goal Stack Planning algorithm? (Note: a unit goal cannot be decomposed into subgoals.)",
+      "type": "multichoice",
+      "options": [
+        "During the plan building phase, it will solve every unit goal exactly once.",
+        "It will never repeat the same action twice in the final plan.",
+        "It will build the plan in a linear fashion without backtracking.",
+        "None of these."
+      ],
+      "correct_answer": [
+        "None of these."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING Answer the given subquestions.",
+      "group_id": "6406532197424",
+      "section_name": "AI"
+    }
+  ],
+  "id": "cs3003-2026t2-q2-na",
+  "course_code": "CS3003",
+  "course_name": "AI: Search Methods for Problem Solving",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

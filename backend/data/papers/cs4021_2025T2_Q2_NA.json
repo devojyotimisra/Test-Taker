@@ -1,0 +1,612 @@
+{
+  "title": "DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
+  "filename": "cs4021_2025T2_Q2_NA.pdf",
+  "total_questions": 27,
+  "total_marks": 51.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 203,
+      "text": "A graph G is a cluster graph if and only if it does not have an induced path on 3 vertices.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "group_id": "6406531339350",
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 204,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p1_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p1_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p1_Im3.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p1_Im1.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p1_Im3.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p1_Im5.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p1_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "group_id": "6406531339350",
+      "section_name": null
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 205,
+      "text": "In the DISJOINT CLUSTER VERTEX DELETION problem, if the subgraph induced on S is not a cluster graph, we can immediately return YES.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "group_id": "6406531339350",
+      "section_name": null
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 206,
+      "text": "In the DISJOINT CLUSTER VERTEX DELETION problem, if the subgraph induced on the vertices of S is not a cluster graph, we can immediately return NO.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "group_id": "6406531339350",
+      "section_name": null
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 207,
+      "text": "If the subgraph induced on the vertices of S is a cluster graph and a vertex in V ( G ) \\ S is adjacent to at least two vertices in S which are in different cliques, then we can delete it and leave the parameter unchanged.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "group_id": "6406531339350",
+      "section_name": null
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 208,
+      "text": "If the subgraph induced on the vertices of S is a cluster graph and a vertex in V ( G ) \\ S is adjacent to at least two vertices in S which are in different cliques, then we can delete it and decrease the parameter by 1.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "group_id": "6406531339350",
+      "section_name": null
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 209,
+      "text": "If the subgraph induced on the vertices of S is a cluster graph and a vertex in V ( G ) \\ S is adjacent to some but not all vertices in a clique of G [ S ], then we can delete it and leave the parameter unchanged.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "group_id": "6406531339350",
+      "section_name": null
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 210,
+      "text": "If the subgraph induced on the vertices of S is a cluster graph and a vertex in V ( G ) \\ S is adjacent to some but not all vertices in a clique of G [ S ], then we can delete it and decrease the parameter by 1.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "group_id": "6406531339350",
+      "section_name": null
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 211,
+      "text": "After modifying the input instance, we can solve DISJOINT CLUSTER VERTEX DELETION by solving a matching problem on a bipartite graph.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "group_id": "6406531339350",
+      "section_name": null
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 212,
+      "text": "DISJOINT CLUSTER VERTEX DELETION is polynomial time solvable.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "group_id": "6406531339350",
+      "section_name": null
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 213,
+      "text": "DISJOINT CLUSTER VERTEX DELETION is NP-hard.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "group_id": "6406531339350",
+      "section_name": null
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 214,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p3_Im3.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "group_id": "6406531339350",
+      "section_name": null
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 215,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p4_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "We still get a valid solution, and the algorithm remains a 2-approximation.",
+        "We still get a valid solution, and the algorithm becomes a 3-approximation.",
+        "We may no longer get a valid solution."
+      ],
+      "correct_answer": "We still get a valid solution, and the algorithm becomes a 3-approximation.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p4_Im2.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p4_Im1.webp|block]",
+      "group_id": "6406531339363",
+      "section_name": null
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 216,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p4_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "We still get a valid solution, and the algorithm remains a 2-approximation.",
+        "We still get a valid solution, and the algorithm becomes a (3/2)-approximation.",
+        "We may no longer get a valid solution."
+      ],
+      "correct_answer": "We may no longer get a valid solution.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p4_Im5.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p4_Im1.webp|block]",
+      "group_id": "6406531339363",
+      "section_name": null
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 217,
+      "text": "According to the reduction rules for DFVS, Figure 2 shows a valid intermediate instance in the reduction with k = 2.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In Figure 1, we have a graph G and an FVS of size 3 which is given by the box, i.e., S \u2236= {a,c,e}. We need to find a DISJOINT FVS of size 2. [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp|block] For each of the given statements in the subquestions, determine if it is true or false.",
+      "group_id": "6406531339366",
+      "section_name": null
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 218,
+      "text": "According to the reduction rules for DFVS, Figure 3 shows a valid intermediate instance in the reduction with k = 2.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In Figure 1, we have a graph G and an FVS of size 3 which is given by the box, i.e., S \u2236= {a,c,e}. We need to find a DISJOINT FVS of size 2. [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp|block] For each of the given statements in the subquestions, determine if it is true or false.",
+      "group_id": "6406531339366",
+      "section_name": null
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 219,
+      "text": "According to the reduction rules for DFVS, Figure 4 shows a valid intermediate instance in the reduction with k = 2.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In Figure 1, we have a graph G and an FVS of size 3 which is given by the box, i.e., S \u2236= {a,c,e}. We need to find a DISJOINT FVS of size 2. [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp|block] For each of the given statements in the subquestions, determine if it is true or false.",
+      "group_id": "6406531339366",
+      "section_name": null
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 220,
+      "text": "According to the reduction rules for DFVS, Figure 5 shows a valid intermediate instance in the reduction with k = 2.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In Figure 1, we have a graph G and an FVS of size 3 which is given by the box, i.e., S \u2236= {a,c,e}. We need to find a DISJOINT FVS of size 2. [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp|block] For each of the given statements in the subquestions, determine if it is true or false.",
+      "group_id": "6406531339366",
+      "section_name": null
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 221,
+      "text": "According to the reduction rules for DFVS, Figure 4 shows a valid intermediate instance in the reduction with k = 1.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In Figure 1, we have a graph G and an FVS of size 3 which is given by the box, i.e., S \u2236= {a,c,e}. We need to find a DISJOINT FVS of size 2. [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp|block] For each of the given statements in the subquestions, determine if it is true or false.",
+      "group_id": "6406531339366",
+      "section_name": null
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 222,
+      "text": "The graph in Figure 1 has a FVS disjoint from S of size 2.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In Figure 1, we have a graph G and an FVS of size 3 which is given by the box, i.e., S \u2236= {a,c,e}. We need to find a DISJOINT FVS of size 2. [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp|block] For each of the given statements in the subquestions, determine if it is true or false.",
+      "group_id": "6406531339366",
+      "section_name": null
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 223,
+      "text": "The graph in Figure 1 has a FVS disjoint from S of size 1.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In Figure 1, we have a graph G and an FVS of size 3 which is given by the box, i.e., S \u2236= {a,c,e}. We need to find a DISJOINT FVS of size 2. [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs4021_2025T2_Q2_NA_p6_Im1.webp|block] For each of the given statements in the subquestions, determine if it is true or false.",
+      "group_id": "6406531339366",
+      "section_name": null
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 224,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p8_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p8_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p8_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p8_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p8_Im4.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p8_Im3.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p8_Im5.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p8_Im6.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p8_Im7.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p8_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p8_Im3.webp|block]",
+      "group_id": "6406531339374",
+      "section_name": null
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 225,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p9_Im6.webp|inline]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p9_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p9_Im1.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p8_Im3.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p9_Im3.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p9_Im4.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p8_Im3.webp|block]",
+      "group_id": "6406531339374",
+      "section_name": null
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 226,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p9_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p9_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p9_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p9_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p9_Im12.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p9_Im12.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p9_Im8.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p8_Im3.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p9_Im9.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p9_Im10.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p9_Im11.webp",
+        "/data/images/cs4021_2025T2_Q2_NA_p9_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p8_Im3.webp|block]",
+      "group_id": "6406531339374",
+      "section_name": null
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 227,
+      "text": "For n = 4, calculate the number of sequences of length 4 consisting only of numbers 0, 1, and 2 such that each number occurs at least once.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "36",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p8_Im3.webp|block]",
+      "group_id": "6406531339374",
+      "section_name": null
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 228,
+      "text": "For n = 5, calculate the number of sequences of length 5 consisting only of numbers 0, 1, and 2 such that each number occurs at least once.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "150",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q2_NA_p8_Im3.webp|block]",
+      "group_id": "6406531339374",
+      "section_name": null
+    }
+  ],
+  "id": "cs4021-2025t2-q2-na",
+  "course_code": "CS4021",
+  "course_name": "Advanced Algorithms",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

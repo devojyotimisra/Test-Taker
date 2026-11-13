@@ -1,0 +1,547 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)",
+  "filename": "cs3004_2026T1_ET_FN.pdf",
+  "total_questions": 21,
+  "total_marks": 37.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider a two-dimensional image of size [IMAGE: /data/images/cs3004_2026T1_ET_FN_p1_Im3.webp|inline] and a square filter of size [IMAGE: /data/images/cs3004_2026T1_ET_FN_p1_Im4.webp|inline] . How much padding would you need on each side to keep the output height and width equal to the input height and width? Assume a stride of 1.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p1_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p1_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p1_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p1_Im6.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p1_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p1_Im4.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p1_Im5.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p1_Im6.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p1_Im7.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p1_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider a vanilla Recurrent Neural Network (RNN) and an LSTM network with the same input dimension, hidden dimension, and output dimension. Statement 1: The number of trainable parameters in a vanilla RNN is higher than that in an LSTM network. Statement 2: An LSTM has a higher number of parameters because it contains multiple gates (input gate, forget gate, output gate, and candidate state), each having separate weight matrices and biases. Choose the correct option from the following.",
+      "type": "MCQ",
+      "options": [
+        "Statement 1 is true, and Statement 2 is the correct reason.",
+        "Statement 1 is true, but Statement 2 is false.",
+        "Statement 1 is false, but Statement 2 is true.",
+        "Statement 1 is false, and Statement 2 is false."
+      ],
+      "correct_answer": "Statement 1 is false, but Statement 2 is true.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Which of the functions given below has the steepest slope at the point [IMAGE: /data/images/cs3004_2026T1_ET_FN_p2_Im3.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p2_Im7.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p2_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p2_Im4.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p2_Im5.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p2_Im6.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider a XOR function for input [IMAGE: /data/images/cs3004_2026T1_ET_FN_p2_Im8.webp|inline] , where the points [IMAGE: /data/images/cs3004_2026T1_ET_FN_p2_Im9.webp|inline] belong to one class and [IMAGE: /data/images/cs3004_2026T1_ET_FN_p2_Im10.webp|inline] belong to another class. It is not possible to separate these two classes by using a linear decision boundary. We consider a neural network with: \u2022 Input [IMAGE: /data/images/cs3004_2026T1_ET_FN_p2_Im11.webp|inline] \u2022 One hidden layer with 2 neurons and ReLU activation \u2022 Output layer: one neuron with linear activation [IMAGE: /data/images/cs3004_2026T1_ET_FN_p3_Im1.webp|block] The network is defined as: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p3_Im2.webp|block] Consider the weight matrices: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p3_Im3.webp|block] Can this network correctly classify XOR using a threshold at [IMAGE: /data/images/cs3004_2026T1_ET_FN_p3_Im4.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p2_Im8.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p2_Im9.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p2_Im10.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p2_Im11.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p3_Im1.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p3_Im2.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p3_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Match the attention mechanism in Column I with the correct description in Column II. [IMAGE: /data/images/cs3004_2026T1_ET_FN_p3_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p3_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im5.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p3_Im7.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p3_Im8.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im2.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im4.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Inscript What will be the output [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im10.webp|inline] ? Enter the answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im10.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im6.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im7.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im8.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a neural network with the following architecture: \u2022 Input: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im6.webp|inline] , Output: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im7.webp|inline] . \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im8.webp|inline] hidden layers with sigmoid(logistic) as the activation function, where each hidden layer has [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im9.webp|inline] neurons. One neuron in the output layer with sigmoid as the activation function. \u2022 All the weights are initialized as zero. Ignore the biases.",
+      "group_id": "6406532135772",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript What will be the output [IMAGE: /data/images/cs3004_2026T1_ET_FN_p5_Im1.webp|inline] if we change the activation function in the outer layer to linear?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p5_Im1.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im6.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im7.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im8.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a neural network with the following architecture: \u2022 Input: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im6.webp|inline] , Output: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im7.webp|inline] . \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im8.webp|inline] hidden layers with sigmoid(logistic) as the activation function, where each hidden layer has [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im9.webp|inline] neurons. One neuron in the output layer with sigmoid as the activation function. \u2022 All the weights are initialized as zero. Ignore the biases.",
+      "group_id": "6406532135772",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Suppose you perform the backpropagation using the original configuration of the network and update the parameters of the network using stochastic gradient descent. Let [IMAGE: /data/images/cs3004_2026T1_ET_FN_p5_Im2.webp|inline] be the weight associated with the first hidden layer to input. Then, which among the following will be true for [IMAGE: /data/images/cs3004_2026T1_ET_FN_p5_Im3.webp|inline] ?",
+      "type": "multichoice",
+      "options": [
+        "It remains the same after the first update using stochastic gradient descent.",
+        "Different neurons in the first hidden layer will receive different gradient updates.",
+        "All the elements in [IMAGE: /data/images/cs3004_2026T1_ET_FN_p5_Im5.webp|inline] will be zero after the first update.",
+        "Entries in [IMAGE: /data/images/cs3004_2026T1_ET_FN_p5_Im7.webp|inline] is either all positive or all negative."
+      ],
+      "correct_answer": [
+        "Entries in [IMAGE: /data/images/cs3004_2026T1_ET_FN_p5_Im7.webp|inline] is either all positive or all negative."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p5_Im2.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p5_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im6.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im7.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im8.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p4_Im9.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p5_Im5.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a neural network with the following architecture: \u2022 Input: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im6.webp|inline] , Output: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im7.webp|inline] . \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im8.webp|inline] hidden layers with sigmoid(logistic) as the activation function, where each hidden layer has [IMAGE: /data/images/cs3004_2026T1_ET_FN_p4_Im9.webp|inline] neurons. One neuron in the output layer with sigmoid as the activation function. \u2022 All the weights are initialized as zero. Ignore the biases.",
+      "group_id": "6406532135772",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript Find the total number of parameters in the network.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p5_Im8.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p5_Im9.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im1.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im2.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im4.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "For a binary classification task, consider an image [IMAGE: /data/images/cs3004_2026T1_ET_FN_p5_Im8.webp|inline] of size [IMAGE: /data/images/cs3004_2026T1_ET_FN_p5_Im9.webp|inline] passed through a toy convolutional network that has the following architecture: \u2022 ConvLayer: filter size = [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im1.webp|inline] , and number of filter/channels = 1, with stride 1 and no padding. \u2022 Convolved output is passed through a ReLU activation function. \u2022 Max-Pool Layer: filter size = [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im2.webp|inline] , with stride 2 and padding not applied. \u2022 Output of Max-pool layer is taken as [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im3.webp|inline] . \u2022 Ignore the bias. Following are the image and the kernel matrix [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im4.webp|inline] : [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im5.webp|block]",
+      "group_id": "6406532135776",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im7.webp|block] [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im8.webp|block] The loss is defined as [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im6.webp|inline] . If then compute .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im7.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im8.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im6.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p5_Im8.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p5_Im9.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im1.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im2.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im4.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p6_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "For a binary classification task, consider an image [IMAGE: /data/images/cs3004_2026T1_ET_FN_p5_Im8.webp|inline] of size [IMAGE: /data/images/cs3004_2026T1_ET_FN_p5_Im9.webp|inline] passed through a toy convolutional network that has the following architecture: \u2022 ConvLayer: filter size = [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im1.webp|inline] , and number of filter/channels = 1, with stride 1 and no padding. \u2022 Convolved output is passed through a ReLU activation function. \u2022 Max-Pool Layer: filter size = [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im2.webp|inline] , with stride 2 and padding not applied. \u2022 Output of Max-pool layer is taken as [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im3.webp|inline] . \u2022 Ignore the bias. Following are the image and the kernel matrix [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im4.webp|inline] : [IMAGE: /data/images/cs3004_2026T1_ET_FN_p6_Im5.webp|block]",
+      "group_id": "6406532135776",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "After training a neural network, the training error is observed to be 10%. It gives the test error to be 56%. Which of the following methods can be used to reduce the test error?",
+      "type": "multichoice",
+      "options": [
+        "Adam",
+        "ReLu activation",
+        "Injecting noise at input",
+        "Maxout",
+        "L2 regularization"
+      ],
+      "correct_answer": [
+        "Injecting noise at input",
+        "L2 regularization"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider a transformer model using scaled dot-product attention: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p7_Im3.webp|block] Assume a fixed input size and embedding dimension [IMAGE: /data/images/cs3004_2026T1_ET_FN_p7_Im4.webp|inline] . The model may use either single-head or multi-head attention. Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "Scaling by [IMAGE: /data/images/cs3004_2026T1_ET_FN_p7_Im5.webp|inline] helps prevent the dot-product values from becoming too large when [IMAGE: /data/images/cs3004_2026T1_ET_FN_p7_Im6.webp|inline] is high.",
+        "In multi-head attention, all heads share the same learned projections of [IMAGE: /data/images/cs3004_2026T1_ET_FN_p7_Im7.webp|inline] .",
+        "If all attention heads learn identical projection matrices, multi-head attention behaves equivalently to single-head attention.",
+        "For a fixed embedding dimension, increasing the number of heads always increases the total number of parameters in the query, key, and value projections."
+      ],
+      "correct_answer": [
+        "Scaling by [IMAGE: /data/images/cs3004_2026T1_ET_FN_p7_Im5.webp|inline] helps prevent the dot-product values from becoming too large when [IMAGE: /data/images/cs3004_2026T1_ET_FN_p7_Im6.webp|inline] is high.",
+        "If all attention heads learn identical projection matrices, multi-head attention behaves equivalently to single-head attention."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p7_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p7_Im4.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p7_Im5.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p7_Im6.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript Construct the co-occurrence matrix [IMAGE: /data/images/cs3004_2026T1_ET_FN_p8_Im5.webp|inline] , where rows represent target words and columns represent context words. Let [IMAGE: /data/images/cs3004_2026T1_ET_FN_p8_Im6.webp|inline] denote the element in the [IMAGE: /data/images/cs3004_2026T1_ET_FN_p8_Im7.webp|inline] -th row and [IMAGE: /data/images/cs3004_2026T1_ET_FN_p8_Im8.webp|inline] -th column. Enter the value of [IMAGE: /data/images/cs3004_2026T1_ET_FN_p8_Im9.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p8_Im5.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p8_Im6.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p8_Im7.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p8_Im8.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p8_Im9.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p8_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A text corpus contains the following three sentences: 1. students read the books in library 2. teachers read the books after class 3. students and teachers discuss in library After removing the stop words \"the'', \"in\", and \"and'', the vocabulary becomes: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p8_Im3.webp|block] Assume the context window size is [IMAGE: /data/images/cs3004_2026T1_ET_FN_p8_Im4.webp|inline] (one word to the left and one word to the right).",
+      "group_id": "6406532135783",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Based on the co-occurrence matrix constructed previously, determine whether [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im1.webp|inline] is positive, zero, or negative. (Use natural log).",
+      "type": "MCQ",
+      "options": [
+        "Positive",
+        "Zero",
+        "Negative"
+      ],
+      "correct_answer": "Positive",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im1.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p8_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A text corpus contains the following three sentences: 1. students read the books in library 2. teachers read the books after class 3. students and teachers discuss in library After removing the stop words \"the'', \"in\", and \"and'', the vocabulary becomes: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p8_Im3.webp|block] Assume the context window size is [IMAGE: /data/images/cs3004_2026T1_ET_FN_p8_Im4.webp|inline] (one word to the left and one word to the right).",
+      "group_id": "6406532135783",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Which of the following problems of the co-occurrence matrix are addressed by applying Singular Value Decomposition (SVD)? Choose all the correct options.",
+      "type": "multichoice",
+      "options": [
+        "High dimensional representation",
+        "Sparse matrix with many zeros",
+        "Captures latent semantic similarity between words",
+        "Increases vocabulary size",
+        "Produces dense low-dimensional embeddings"
+      ],
+      "correct_answer": [
+        "Sparse matrix with many zeros",
+        "Captures latent semantic similarity between words",
+        "Produces dense low-dimensional embeddings"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p8_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A text corpus contains the following three sentences: 1. students read the books in library 2. teachers read the books after class 3. students and teachers discuss in library After removing the stop words \"the'', \"in\", and \"and'', the vocabulary becomes: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p8_Im3.webp|block] Assume the context window size is [IMAGE: /data/images/cs3004_2026T1_ET_FN_p8_Im4.webp|inline] (one word to the left and one word to the right).",
+      "group_id": "6406532135783",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript Suppose [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im6.webp|inline] , [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im7.webp|inline] , [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im8.webp|inline] and [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im9.webp|inline] . The scaled dot-product attention operation for a single head, given by: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im10.webp|block] Compute the total number of elements in the resulting attention output.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "512",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im6.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im7.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im8.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im9.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im10.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im4.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im5.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im6.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im7.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im1.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im2.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im4.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given a transformer attention setup with the following configuration: \u2022 Sequence Length : [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im4.webp|inline] \u2022 Number of Heads : [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im5.webp|inline] \u2022 Embedding dimension : [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im6.webp|inline] \u2022 Input [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im7.webp|inline] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im1.webp|block] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im2.webp|inline] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im3.webp|inline] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im4.webp|inline] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im5.webp|inline]",
+      "group_id": "6406532135788",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript Suppose [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im11.webp|inline] , [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im12.webp|inline] , [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im13.webp|inline] and [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im14.webp|inline] . What will be the number of parameters in the Multihead Attention ? (ignore the bias)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12288",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im11.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im12.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im13.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im14.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im4.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im5.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im6.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im7.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im1.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im2.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im4.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given a transformer attention setup with the following configuration: \u2022 Sequence Length : [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im4.webp|inline] \u2022 Number of Heads : [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im5.webp|inline] \u2022 Embedding dimension : [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im6.webp|inline] \u2022 Input [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im7.webp|inline] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im1.webp|block] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im2.webp|inline] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im3.webp|inline] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im4.webp|inline] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im5.webp|inline]",
+      "group_id": "6406532135788",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Inscript Assume a Feed-Forward Network (FFN) follows the Multi-Head Attention layer in the encoder. The FFN consists of two linear transformations: [IMAGE: /data/images/cs3004_2026T1_ET_FN_p11_Im1.webp|block] Calculate the total number of parameters in the FFN layer (including bias terms), where [IMAGE: /data/images/cs3004_2026T1_ET_FN_p11_Im2.webp|inline] and [IMAGE: /data/images/cs3004_2026T1_ET_FN_p11_Im3.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "33088",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2026T1_ET_FN_p11_Im1.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p11_Im2.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p11_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im4.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im5.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im6.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p9_Im7.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im1.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im2.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im3.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im4.webp",
+        "/data/images/cs3004_2026T1_ET_FN_p10_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given a transformer attention setup with the following configuration: \u2022 Sequence Length : [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im4.webp|inline] \u2022 Number of Heads : [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im5.webp|inline] \u2022 Embedding dimension : [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im6.webp|inline] \u2022 Input [IMAGE: /data/images/cs3004_2026T1_ET_FN_p9_Im7.webp|inline] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im1.webp|block] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im2.webp|inline] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im3.webp|inline] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im4.webp|inline] \u2022 [IMAGE: /data/images/cs3004_2026T1_ET_FN_p10_Im5.webp|inline]",
+      "group_id": "6406532135788",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Inscript Assume that your CBOW model outputs a probability distribution over a vocabulary of 20,000 words for a given context. If the correct target word is word number 150, and the model's predicted probability for this word is 0.2, calculate the cross-entropy loss for this prediction. Enter the answer correct to two decimal places. (use natural log)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.57 to 1.63",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Inscript In the Skip-gram model with a window size of 2 (on each side), how many unique pairs of target and context words will be generated for the following sentence. Note: Ignore punctuation in your calculation ' Learning from data helps build intelligent systems for society '",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "30",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    }
+  ],
+  "id": "cs3004-2026t1-et-fn",
+  "course_code": "CS3004",
+  "course_name": "Deep Learning",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

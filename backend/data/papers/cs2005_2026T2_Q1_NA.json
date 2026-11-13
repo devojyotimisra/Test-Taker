@@ -1,0 +1,475 @@
+{
+  "title": "DIPLOMA LEVEL : PROGRAMMING CONCEPTS USING JAVA (COMPUTER BASED EXAM)",
+  "filename": "cs2005_2026T2_Q1_NA.pdf",
+  "total_questions": 16,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : PROGRAMMING CONCEPTS USING JAVA (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Which of the following statement(s) is/are true regarding activation records used during function calls?",
+      "type": "multichoice",
+      "options": [
+        "An activation record is removed from the stack immediately after a local variable is declared.",
+        "Local variables of a function are typically stored inside its activation record.",
+        "A return address is stored in the activation record so that control can return to the caller after the execution of the called function.",
+        "All activation records in the stack correspond only to recursive function calls.",
+        "When a function calls another function, the control link in the callee's activation record points to the activation record of the caller."
+      ],
+      "correct_answer": [
+        "Local variables of a function are typically stored inside its activation record.",
+        "A return address is stored in the activation record so that control can return to the caller after the execution of the called function.",
+        "When a function calls another function, the control link in the callee's activation record points to the activation record of the caller."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p2_Im1.webp|block] Choose the correct option to fill in the [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p2_Im2.webp|inline] so that the output is: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p2_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p2_Im8.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p3_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p2_Im7.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p2_Im1.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p2_Im2.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p2_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p2_Im7.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p2_Im8.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p3_Im3.webp|block] Which of the following statements is FALSE ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p3_Im4.webp|inline] generates compilation error because the method [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im1.webp|inline] cannot be overridden.",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im3.webp|inline] generates compilation error because variable [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im4.webp|inline] cannot be accessed in class [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im5.webp|inline] .",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im6.webp|inline] generates compilation error because a variable of type [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im7.webp|inline] cannot refer to an object of type [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im8.webp|inline] .",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im10.webp|inline] generates compilation error because a variable of type [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im11.webp|inline] cannot refer to an object of type [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im12.webp|inline] ."
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im10.webp|inline] generates compilation error because a variable of type [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im11.webp|inline] cannot refer to an object of type [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im12.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p3_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p3_Im4.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p4_Im1.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p4_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p4_Im4.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p4_Im5.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p4_Im6.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p4_Im7.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p4_Im8.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p4_Im10.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p4_Im11.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p4_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p4_Im13.webp|block] Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im2.webp|inline] generates compilation error because the class [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im3.webp|inline] is not declared as abstract.",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im5.webp|inline] generates compilation error because [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im6.webp|inline] of type [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im7.webp|inline] cannot invoke method [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im8.webp|inline] .",
+        "This code generates the output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im9.webp|block]",
+        "This code generates the output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im10.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im5.webp|inline] generates compilation error because [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im6.webp|inline] of type [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im7.webp|inline] cannot invoke method [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im8.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p4_Im13.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p5_Im2.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p5_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p5_Im5.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p5_Im6.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p5_Im7.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p5_Im8.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p5_Im9.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p5_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p5_Im11.webp|block] Choose the correct option regarding the output produced by the code.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p6_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p6_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p6_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p6_Im6.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p5_Im11.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p6_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p6_Im5.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "What is the output of the following code? [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "12",
+        "18",
+        "9",
+        "15"
+      ],
+      "correct_answer": "18",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the Java program below. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p7_Im4.webp|block] Choose the correct option regarding the output of the code.",
+      "type": "MCQ",
+      "options": [
+        "This code generates output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p8_Im3.webp|block]",
+        "This code generates output:",
+        "This code generates output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p8_Im4.webp|block]",
+        "This code generates a compile time error."
+      ],
+      "correct_answer": "This code generates a compile time error.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p7_Im4.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p8_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the following Java code. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p9_Im1.webp|block] Identify the correct option for the code given above.",
+      "type": "MCQ",
+      "options": [
+        "This code generates output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p9_Im3.webp|block]",
+        "This code generates output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p9_Im5.webp|block]",
+        "This code generates a compile time error, since the implementations of [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p10_Im2.webp|inline] from [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p10_Im3.webp|inline] and [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p10_Im4.webp|inline] are in conflict with each other.",
+        "This code generates a compile time error since [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p10_Im5.webp|inline] is not implemented in class [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p10_Im6.webp|inline]"
+      ],
+      "correct_answer": "This code generates output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p9_Im3.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p9_Im1.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p9_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p9_Im5.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p10_Im2.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p10_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p10_Im4.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p10_Im5.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following Java code. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p10_Im7.webp|block] What will the output be?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p11_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p11_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p11_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p11_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p11_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p11_Im3.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p10_Im7.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p11_Im1.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p11_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p11_Im4.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p11_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p12_Im1.webp|block] Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "This program generates compiler error at [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p12_Im3.webp|inline] Reason: An object of [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p12_Im4.webp|inline] cannot be created inside method [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p12_Im5.webp|inline] because it uses an object of [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p12_Im6.webp|inline] in its constructor.",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p12_Im7.webp|block] followed by runtime error Reason: A method inside class [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p12_Im8.webp|inline] is invoking method [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p12_Im9.webp|inline] inside class [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p12_Im10.webp|inline] , whereas [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p12_Im11.webp|inline] is invoking another method in class [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p12_Im12.webp|inline] .",
+        "This program generates compiler error at [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p13_Im2.webp|inline] Reason: A method inside class [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p13_Im3.webp|inline] is invoking method [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p13_Im4.webp|inline] inside class [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p13_Im5.webp|inline] , whereas [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p13_Im6.webp|inline] is invoking another method in class [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p13_Im7.webp|inline] .",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p13_Im9.webp|block]"
+      ],
+      "correct_answer": "This program generates the output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p13_Im9.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p12_Im1.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p12_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p12_Im4.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p12_Im5.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p12_Im6.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p12_Im7.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p12_Im8.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p12_Im9.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p12_Im10.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p12_Im11.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p12_Im12.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p13_Im2.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p13_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p13_Im4.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p13_Im5.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p13_Im6.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p13_Im7.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p13_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the code given below. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p13_Im10.webp|block] Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im2.webp|inline] generates compilation error because a variable of type [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im3.webp|inline] cannot refer to an object of type [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im4.webp|inline] .",
+        "This code generates the below output followed by runtime error at [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im5.webp|inline] because there is ambiguity in which [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im6.webp|inline] method is being invoked. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im7.webp|block]",
+        "This code generates the output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im8.webp|block]",
+        "This code generates the output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im10.webp|block]"
+      ],
+      "correct_answer": "This code generates the output: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im10.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p13_Im10.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p14_Im2.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p14_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p14_Im4.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p14_Im5.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p14_Im6.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p14_Im7.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p14_Im8.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p14_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider the code given below that checks whether two software modules are the same. Method [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im11.webp|inline] is overridden to compare two [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im12.webp|inline] objects as follows. If two modules have the same [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im13.webp|inline] and [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p14_Im14.webp|inline] , then they are considered the same. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p15_Im1.webp|block] Choose the correct option to fill in place of [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p15_Im2.webp|inline] so that the output is: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p15_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p15_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p16_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p16_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p14_Im11.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p14_Im12.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p14_Im13.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p14_Im14.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p15_Im1.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p15_Im2.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p15_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p15_Im6.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p16_Im1.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p16_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Consider the code given below. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p17_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p17_Im2.webp|block] Identify the appropriate statement to fill in the blank at [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p17_Im3.webp|inline] , such that the output is: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p18_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p18_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p18_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p18_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p18_Im5.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p17_Im1.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p17_Im2.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p17_Im3.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p18_Im1.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p18_Im5.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p18_Im6.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p18_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p19_Im1.webp|block] Identify the appropriate option to fill in the blank at line:1 such that output of the code will be: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p19_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p19_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p20_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p20_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p20_Im4.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p19_Im1.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p19_Im2.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p19_Im5.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p20_Im2.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p20_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider the Java program below. [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p20_Im5.webp|block] Identify the correct option(s) to fill in the blank at [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p20_Im6.webp|inline] , such that the output is: [IMAGE: /data/images/cs2005_2026T2_Q1_NA_p21_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p21_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p21_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p21_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2005_2026T2_Q1_NA_p21_Im7.webp|block]",
+        ""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T2_Q1_NA_p20_Im5.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p20_Im6.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p21_Im1.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p21_Im4.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p21_Im6.webp",
+        "/data/images/cs2005_2026T2_Q1_NA_p21_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    }
+  ],
+  "id": "cs2005-2026t2-q1-na",
+  "course_code": "CS2005",
+  "course_name": "Programming Concepts using Java",
+  "level": "Diploma in Programming",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

@@ -1,0 +1,358 @@
+{
+  "title": "DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)",
+  "filename": "bt4001_2025T1_Q1_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p1_Im4.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p1_Im6.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p2_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p1_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p1_Im3.webp",
+        "/data/images/bt4001_2025T1_Q1_NA_p1_Im4.webp",
+        "/data/images/bt4001_2025T1_Q1_NA_p1_Im5.webp",
+        "/data/images/bt4001_2025T1_Q1_NA_p1_Im6.webp",
+        "/data/images/bt4001_2025T1_Q1_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Calculate the optimal global alignment score for the DNA sequences GAATTC and GATTA. Scoring is done as follows: \u2022 For every match: +2 points \u2022 For every mismatch: -1 points \u2022 For every insertion or deletion: -2 points",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p2_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p3_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "50",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p3_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.625 to 0.64",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "A protein \u201cX\u201d has only three amino acids \u2013 \u201cSerine\u201d, \u201cLeucine\u201d and \u201cValine\u201d in the same order. Which of the following RNA strings translate into the protein \u201cX\u201d?",
+      "type": "multichoice",
+      "options": [
+        "CUC AGUGU A",
+        "CUUUUGAGCGUUGUU",
+        "AGUCUCGU A",
+        "UC AUU AGUG",
+        "UCGUUGGUU"
+      ],
+      "correct_answer": [
+        "AGUCUCGU A",
+        "UC AUU AGUG",
+        "UCGUUGGUU"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The figure below shows the genetic code describing the translation of an RNA codon into one of the twenty different amino acids. Use the figure below to answer the given subquestions. [IMAGE: /data/images/bt4001_2025T1_Q1_NA_p4_Im1.webp|block]",
+      "group_id": "6406531130445",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "What is the probability that a random RNA sequence of length 3 encodes for the \u201cArginine\u201d amino acid? Assume that the different positions of the 3-mer RNA sequence are set to a nucleotide independently and uniformly at random.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.09 to 0.0999",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The figure below shows the genetic code describing the translation of an RNA codon into one of the twenty different amino acids. Use the figure below to answer the given subquestions. [IMAGE: /data/images/bt4001_2025T1_Q1_NA_p4_Im1.webp|block]",
+      "group_id": "6406531130445",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Suppose protein X consists of 3 amino acids. What is the maximum number of possible mRNA sequences that can generate the protein X ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "216",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The figure below shows the genetic code describing the translation of an RNA codon into one of the twenty different amino acids. Use the figure below to answer the given subquestions. [IMAGE: /data/images/bt4001_2025T1_Q1_NA_p4_Im1.webp|block]",
+      "group_id": "6406531130445",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p6_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "180",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p6_Im2.webp",
+        "/data/images/bt4001_2025T1_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following cell signaling network and answer the given subquestions with respect to the same. Please note that the weight w e written next to each edge e is the probability of (information flow through) this edge, and that the probability (or score) of a path is calculated under the assumption that the information flow through different edges are independent of each other. [IMAGE: /data/images/bt4001_2025T1_Q1_NA_p6_Im1.webp|block]",
+      "group_id": "6406531130449",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p6_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p6_Im3.webp",
+        "/data/images/bt4001_2025T1_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following cell signaling network and answer the given subquestions with respect to the same. Please note that the weight w e written next to each edge e is the probability of (information flow through) this edge, and that the probability (or score) of a path is calculated under the assumption that the information flow through different edges are independent of each other. [IMAGE: /data/images/bt4001_2025T1_Q1_NA_p6_Im1.webp|block]",
+      "group_id": "6406531130449",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "In a random coloring of the path R a , X 1 , Y 1 , Z 1 , G 1 using 6 colors, what is the probability that this path is colorful? (Random coloring refers to coloring each node in the graph with one of the 6 colors uniformly and independently at random.)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.09 to 0.0999",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following cell signaling network and answer the given subquestions with respect to the same. Please note that the weight w e written next to each edge e is the probability of (information flow through) this edge, and that the probability (or score) of a path is calculated under the assumption that the information flow through different edges are independent of each other. [IMAGE: /data/images/bt4001_2025T1_Q1_NA_p6_Im1.webp|block]",
+      "group_id": "6406531130449",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Which of the given graphs can be the overlap graph representing all k -mers of a string representing some linear (non-circular) genome?",
+      "type": "multichoice",
+      "options": [
+        "Graph 1",
+        "Graph 2",
+        "Graph 3"
+      ],
+      "correct_answer": [
+        "Graph 1",
+        "Graph 2"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Answer the given subquestions about the graphs given below regarding overlap and de Bruijn graphs. Recall that the Hamiltonian path approach is used in an overlap graph and the Eulerian path approach is used in the de Bruijn graph for the genome assembly problem. (Hint: Be careful with the direction of the arrows.) [IMAGE: /data/images/bt4001_2025T1_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531130453",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Which of the given graphs can be the de Bruijn graph representing all k -mers of a string representing some linear (non-circular) genome?",
+      "type": "MCQ",
+      "options": [
+        "Graph 1",
+        "Graph 2",
+        "Graph 3"
+      ],
+      "correct_answer": "Graph 3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Answer the given subquestions about the graphs given below regarding overlap and de Bruijn graphs. Recall that the Hamiltonian path approach is used in an overlap graph and the Eulerian path approach is used in the de Bruijn graph for the genome assembly problem. (Hint: Be careful with the direction of the arrows.) [IMAGE: /data/images/bt4001_2025T1_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531130453",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p9_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p9_Im2.webp",
+        "/data/images/bt4001_2025T1_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "6406531130456",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Suppose we compute the score using the score matrix (S). What is the difference in the alignment score for the two global alignments? Enter the value as a single integer .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "6406531130456",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3 -3",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T1_Q1_NA_p10_Im1.webp",
+        "/data/images/bt4001_2025T1_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4001_2025T1_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "6406531130456",
+      "section_name": "Algorithmic Thinking in Bio"
+    }
+  ],
+  "id": "bt4001-2025t1-q1-na",
+  "course_code": "BT4001",
+  "course_name": "Computational Biology",
+  "level": "Degree",
+  "term": "Jan 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

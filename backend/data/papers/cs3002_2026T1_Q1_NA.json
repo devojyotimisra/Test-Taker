@@ -1,0 +1,505 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)",
+  "filename": "cs3002_2026T1_Q1_NA.pdf",
+  "total_questions": 21,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "In an organization, software quality is regarded as an important aspect. Therefore, test engineers carefully measure and improve software quality. Identify the minimum process maturity level of this organization.",
+      "type": "MCQ",
+      "options": [
+        "Level 1",
+        "Level 2",
+        "Level 3",
+        "Level 4"
+      ],
+      "correct_answer": "Level 4",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following statements regarding software design and choose the correct option. i) A module encapsulates functionality and interacts with other modules through well-defined interfaces. ii) Interfaces define the permitted interactions between modules without exposing internal implementation details.",
+      "type": "MCQ",
+      "options": [
+        "Statement i) is correct and Statement ii) is incorrect.",
+        "Statement ii) is correct and Statement i) is incorrect.",
+        "Both statements are incorrect.",
+        "Both statements are correct."
+      ],
+      "correct_answer": "Both statements are correct.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Which of the following options best describes the difference between test requirements and test cases?",
+      "type": "MCQ",
+      "options": [
+        "Test requirements define specific input values, while test cases define test objectives.",
+        "Test requirements represent the required coverage criteria, whereas test cases define an execution to satisfy one or more of those requirements.",
+        "Test requirements are created after executing test cases to measure test effectiveness.",
+        "Test cases and test requirements are interchangeable terms used at different stages of the testing process."
+      ],
+      "correct_answer": "Test requirements represent the required coverage criteria, whereas test cases define an execution to satisfy one or more of those requirements.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following statements regarding test automation with JUnit and choose the correct option. i) JUnit does not support test fixtures. ii) In a test class, each test method checks an assertion and reports to the test runner whether the test failed or succeeded.",
+      "type": "MCQ",
+      "options": [
+        "Statement i) is correct and Statement ii) is incorrect.",
+        "Statement ii) is correct and Statement i) is incorrect.",
+        "Both statements are incorrect.",
+        "Both statements are correct."
+      ],
+      "correct_answer": "Statement ii) is correct and Statement i) is incorrect.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "In the ____________ approach for integration testing, all individually tested modules are put together to construct the entire system which is tested as a whole. Fill in the blank with correct option.",
+      "type": "MCQ",
+      "options": [
+        "Top-down",
+        "Bottom-up",
+        "Big bang",
+        "Sandwich"
+      ],
+      "correct_answer": "Big bang",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider an email client application that sends a request to a mail server, the mail server then responds with new email messages for a user. Which type of interface does this scenario represent?",
+      "type": "MCQ",
+      "options": [
+        "External file interface",
+        "Message passing interface",
+        "Procedure call interface",
+        "Shared memory interface"
+      ],
+      "correct_answer": "Message passing interface",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following statements regarding structural graph coverage criteria, and choose the correct option. i) Prime paths are maximal simple paths. ii) Edge-pair coverage does not require self-loops to be visited. iii) Test paths to achieve node and edge coverage can be obtained by simple modifications to BFS algorithm over graphs.",
+      "type": "MCQ",
+      "options": [
+        "Statement i) and iii) are correct. Statement ii) is incorrect.",
+        "Statement i) is correct. Statement ii) and iii) are incorrect.",
+        "Statement ii) and iii) are correct. Statement i) is incorrect.",
+        "Statement i) and ii) are correct. Statement iii) is incorrect."
+      ],
+      "correct_answer": "Statement i) and iii) are correct. Statement ii) is incorrect.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Which of the following types of testing is done by end customer to ensure that the delivered products meets the committed requirements?",
+      "type": "MCQ",
+      "options": [
+        "Unit Testing",
+        "Integration Testing",
+        "Acceptance Testing",
+        "System Testing"
+      ],
+      "correct_answer": "Acceptance Testing",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "The ___________ in a control flow graph (CFG) represents the minimum number of paths required for basis path testing. Fill in the blank with the appropriate option.",
+      "type": "MCQ",
+      "options": [
+        "number of prime paths",
+        "number of linearly independent paths",
+        "number of DD-paths",
+        "number of edges"
+      ],
+      "correct_answer": "number of linearly independent paths",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Which of the following graph coverage criteria is equivalent to transition coverage on a finite state machine (FSM)?",
+      "type": "MCQ",
+      "options": [
+        "Node coverage",
+        "Edge coverage",
+        "Edge-pair coverage",
+        "Prime path coverage"
+      ],
+      "correct_answer": "Edge coverage",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Edge coverage on a CFG is equivalent to which of the following classical coverage criteria?",
+      "type": "MCQ",
+      "options": [
+        "Loop coverage",
+        "Branch coverage",
+        "Decision coverage",
+        "Statement coverage"
+      ],
+      "correct_answer": "Branch coverage",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Which of the following options represent a valid condition for a DD-path in a control flow graph (CFG)?",
+      "type": "multichoice",
+      "options": [
+        "It consists of a single vertex with in-degree [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p6_Im2.webp|inline] (initial vertex).",
+        "It consists of a single vertex with in-degree [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p6_Im4.webp|inline] or out-degree [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p6_Im5.webp|inline] .",
+        "It consists of a single vertex with in-degree and out-degree as 1.",
+        "It is a maximal chain of length [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p6_Im6.webp|inline] ."
+      ],
+      "correct_answer": [
+        "It consists of a single vertex with in-degree [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p6_Im2.webp|inline] (initial vertex).",
+        "It consists of a single vertex with in-degree and out-degree as 1."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2026T1_Q1_NA_p6_Im2.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p6_Im4.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p6_Im5.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Prime path coverage subsumes which of the following coverage criteria for control and data flow graphs?",
+      "type": "multichoice",
+      "options": [
+        "Edge-pair coverage",
+        "All Uses Coverage",
+        "Edge coverage",
+        "Complete path coverage"
+      ],
+      "correct_answer": [
+        "All Uses Coverage",
+        "Edge coverage"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the following Java code for [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p6_Im7.webp|inline] class, there are some faults in the implementation. The method [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p6_Im8.webp|inline] needs to be tested using the JUnit test class [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p6_Im9.webp|inline] . [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p7_Im1.webp|block] Identify which of the test cases would be able to uncover the faults in the program.",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2026T1_Q1_NA_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2026T1_Q1_NA_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2026T1_Q1_NA_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im2.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3002_2026T1_Q1_NA_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im2.webp|inline]"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2026T1_Q1_NA_p6_Im7.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p6_Im8.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p6_Im9.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p7_Im1.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p7_Im3.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p7_Im4.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p7_Im6.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "How many test requirements are there for edge-pair coverage?",
+      "type": "MCQ",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "8"
+      ],
+      "correct_answer": "10",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im3.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im4.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im5.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im6.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the control flow graph (CFG), [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im3.webp|inline] , where \u2022 Set of vertices [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im4.webp|inline] \u2022 Set of edges [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im5.webp|inline] \u2022 Initial vertex [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im6.webp|inline] \u2022 Final vertex [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im7.webp|inline]",
+      "group_id": "6406531963344",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "How many test requirements are there for prime path coverage?",
+      "type": "MCQ",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "13"
+      ],
+      "correct_answer": "12",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im3.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im4.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im5.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im6.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the control flow graph (CFG), [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im3.webp|inline] , where \u2022 Set of vertices [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im4.webp|inline] \u2022 Set of edges [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im5.webp|inline] \u2022 Initial vertex [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im6.webp|inline] \u2022 Final vertex [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im7.webp|inline]",
+      "group_id": "6406531963344",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "What is the cyclomatic complexity of the given CFG?",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": "3",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im3.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im4.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im5.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im6.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the control flow graph (CFG), [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im3.webp|inline] , where \u2022 Set of vertices [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im4.webp|inline] \u2022 Set of edges [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im5.webp|inline] \u2022 Initial vertex [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im6.webp|inline] \u2022 Final vertex [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p8_Im7.webp|inline]",
+      "group_id": "6406531963344",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "How many test requirements are there for All-Defs-Coverage for variable [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p9_Im4.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2026T1_Q1_NA_p9_Im4.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following data flow graph, and answer the subsequent questions. [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p9_Im3.webp|block]",
+      "group_id": "6406531963348",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "How many test requirements are there for All-Uses-Coverage for variable [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p10_Im2.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": "5",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2026T1_Q1_NA_p10_Im2.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following data flow graph, and answer the subsequent questions. [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p9_Im3.webp|block]",
+      "group_id": "6406531963348",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "How many unique du-paths are there for variable [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p10_Im4.webp|inline] ? Note: Do not consider subsumption for the du-paths.",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": "6",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2026T1_Q1_NA_p10_Im4.webp",
+        "/data/images/cs3002_2026T1_Q1_NA_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following data flow graph, and answer the subsequent questions. [IMAGE: /data/images/cs3002_2026T1_Q1_NA_p9_Im3.webp|block]",
+      "group_id": "6406531963348",
+      "section_name": "Sw Testing"
+    }
+  ],
+  "id": "cs3002-2026t1-q1-na",
+  "course_code": "CS3002",
+  "course_name": "Software Testing",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

@@ -1,0 +1,425 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)",
+  "filename": "cs2004_2026T2_ET_AN.pdf",
+  "total_questions": 15,
+  "total_marks": 32.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider the following least-squares problem: [IMAGE: /data/images/cs2004_2026T2_ET_AN_p1_Im3.webp|block] where [IMAGE: /data/images/cs2004_2026T2_ET_AN_p1_Im4.webp|block] [IMAGE: /data/images/cs2004_2026T2_ET_AN_p1_Im5.webp|block] Suppose one least-squares solution is Which of the following is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "The least-squares solution is unique.",
+        "There are infinitely many least-squares solutions. [IMAGE: /data/images/cs2004_2026T2_ET_AN_p1_Im6.webp|block]",
+        "The vectors produce exactly the same predictions.",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p1_Im7.webp|inline] is invertible."
+      ],
+      "correct_answer": [
+        "There are infinitely many least-squares solutions. [IMAGE: /data/images/cs2004_2026T2_ET_AN_p1_Im6.webp|block]",
+        "The vectors produce exactly the same predictions."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p1_Im3.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p1_Im4.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p1_Im5.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p1_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p1_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider a [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im1.webp|inline] matrix [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im2.webp|inline] satisfying [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im3.webp|block] If trace and determinant of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im4.webp|inline] are 9 and 20 respectively, which of the following statements is/are necessarily true?",
+      "type": "multichoice",
+      "options": [
+        "The matrix [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im6.webp|inline] is singular.",
+        "The trace of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im7.webp|inline] is [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im8.webp|inline] .",
+        "The matrix [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im10.webp|inline] is singular.",
+        "The determinant of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im11.webp|inline] is [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im12.webp|inline] ."
+      ],
+      "correct_answer": [
+        "The matrix [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im6.webp|inline] is singular.",
+        "The trace of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im7.webp|inline] is [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im8.webp|inline] .",
+        "The determinant of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im11.webp|inline] is [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im12.webp|inline] ."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p2_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p2_Im2.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p2_Im3.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p2_Im4.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p2_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p2_Im7.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p2_Im8.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p2_Im10.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p2_Im11.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p2_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Inscript Find the minimum distance between the point [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im13.webp|inline] and the plane [IMAGE: /data/images/cs2004_2026T2_ET_AN_p2_Im14.webp|block] Enter your answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.70 to 1.76",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p2_Im13.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p2_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Inscript Let [IMAGE: /data/images/cs2004_2026T2_ET_AN_p3_Im1.webp|inline] Find the value of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p3_Im2.webp|inline] such that [IMAGE: /data/images/cs2004_2026T2_ET_AN_p3_Im3.webp|inline]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p3_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p3_Im2.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Inscript A delivery company records the time [IMAGE: /data/images/cs2004_2026T2_ET_AN_p3_Im4.webp|inline] (in hours) required to deliver a package. The delivery time has the PDF [IMAGE: /data/images/cs2004_2026T2_ET_AN_p3_Im5.webp|block] Under a new routing system, the delivery time becomes [IMAGE: /data/images/cs2004_2026T2_ET_AN_p3_Im6.webp|block] What is the expected delivery time under the new routing system?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p3_Im4.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p3_Im5.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the function [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im1.webp|block] Which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im3.webp|inline] is convex on [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im4.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im5.webp|inline] is concave on [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im6.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im8.webp|inline] is convex for [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im9.webp|inline] and concave for [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im10.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im11.webp|inline] is neither convex nor concave on any interval."
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im8.webp|inline] is convex for [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im9.webp|inline] and concave for [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im10.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im3.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im4.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im5.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im8.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im9.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im10.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Let [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im12.webp|inline] be a discrete random variable such that [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im13.webp|inline] with [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im14.webp|inline] where [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im15.webp|inline] is an unknown parameter. Consider the random sample [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im16.webp|inline] from [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im17.webp|inline] . The maximum likelihood estimate of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im18.webp|inline] is:",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im20.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im21.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p4_Im22.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im12.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im13.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im14.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im15.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im16.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im17.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im18.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im20.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im21.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p4_Im22.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Let [IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im1.webp|inline] where [IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im2.webp|inline] and [IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im3.webp|inline] are independent. Define [IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im4.webp|inline] Which of the following is the value of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im5.webp|inline]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im11.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im10.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im2.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im3.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im4.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im5.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im7.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im8.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im10.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider a constrained optimization problem in [IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im12.webp|inline] with a single inequality constraint: [IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im13.webp|block] At the point [IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im14.webp|inline] which of the following is/are feasible directions at [IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im15.webp|inline]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im16.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im17.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im18.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im19.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im16.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im17.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p5_Im19.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im12.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im13.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im14.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im15.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im16.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im17.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im18.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p5_Im19.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the function [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im1.webp|block] where [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im2.webp|inline] is a constant. Which of the following is/are true?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im4.webp|inline] is continuous at [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im5.webp|inline] for [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im6.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im8.webp|inline] is continuous at [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im9.webp|inline] for [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im10.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im11.webp|inline] is differentiable at [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im12.webp|inline] for [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im13.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im14.webp|inline] is not differentiable at [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im15.webp|inline] for [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im16.webp|inline] ."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im8.webp|inline] is continuous at [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im9.webp|inline] for [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im10.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im14.webp|inline] is not differentiable at [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im15.webp|inline] for [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im16.webp|inline] ."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im2.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im4.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im5.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im8.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im9.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im10.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im11.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im12.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im13.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im14.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im15.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Let [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im17.webp|inline] be a Hermitian matrix whose eigenvalues are [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im18.webp|inline] Which of the following statements is/are necessarily true?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im19.webp|inline] is positive definite.",
+        "There exists a nonzero vector [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im20.webp|inline] such that [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im21.webp|inline] , where [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im22.webp|inline] denotes the conjugate transpose of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im23.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im24.webp|inline] is invertible.",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im25.webp|inline] is Hermitian."
+      ],
+      "correct_answer": [
+        "There exists a nonzero vector [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im20.webp|inline] such that [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im21.webp|inline] , where [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im22.webp|inline] denotes the conjugate transpose of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im23.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im24.webp|inline] is invertible.",
+        "[IMAGE: /data/images/cs2004_2026T2_ET_AN_p6_Im25.webp|inline] is Hermitian."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im17.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im18.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im19.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im20.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im21.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im22.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im23.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im24.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p6_Im25.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript A nonnegative random variable [IMAGE: /data/images/cs2004_2026T2_ET_AN_p7_Im1.webp|inline] satisfies [IMAGE: /data/images/cs2004_2026T2_ET_AN_p7_Im2.webp|inline] Using Markov's inequality, find the smallest value of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p7_Im3.webp|inline] such that [IMAGE: /data/images/cs2004_2026T2_ET_AN_p7_Im4.webp|inline] Enter your answer as an integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "80",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p7_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p7_Im2.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p7_Im3.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript What is the sum of the eigenvalues of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p7_Im8.webp|inline]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "34",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p7_Im8.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p7_Im5.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p7_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Suppose [IMAGE: /data/images/cs2004_2026T2_ET_AN_p7_Im5.webp|inline] is a real [IMAGE: /data/images/cs2004_2026T2_ET_AN_p7_Im6.webp|inline] matrix with singular values [IMAGE: /data/images/cs2004_2026T2_ET_AN_p7_Im7.webp|inline]",
+      "group_id": "6406532279767",
+      "section_name": "MLF"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript What is the rank of [IMAGE: /data/images/cs2004_2026T2_ET_AN_p8_Im1.webp|inline]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T2_ET_AN_p8_Im1.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p7_Im5.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p7_Im6.webp",
+        "/data/images/cs2004_2026T2_ET_AN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Suppose [IMAGE: /data/images/cs2004_2026T2_ET_AN_p7_Im5.webp|inline] is a real [IMAGE: /data/images/cs2004_2026T2_ET_AN_p7_Im6.webp|inline] matrix with singular values [IMAGE: /data/images/cs2004_2026T2_ET_AN_p7_Im7.webp|inline]",
+      "group_id": "6406532279767",
+      "section_name": "MLF"
+    }
+  ],
+  "id": "cs2004-2026t2-et-an",
+  "course_code": "CS2004",
+  "course_name": "Machine Learning Foundations",
+  "level": "Diploma in Data Science",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

@@ -1,0 +1,512 @@
+{
+  "title": "DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)",
+  "filename": "da5004_2026T1_ET_FN.pdf",
+  "total_questions": 21,
+  "total_marks": 44.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Inscript Consider a Multi-Head Attention sub-layer with the following hyper-parameters: \u2022 Embedding dimension ( [IMAGE: /data/images/da5004_2026T1_ET_FN_p1_Im3.webp|inline] ) = 256 \u2022 Number of heads ( [IMAGE: /data/images/da5004_2026T1_ET_FN_p1_Im4.webp|inline] ) = 4 \u2022 key/value dimension per head ( [IMAGE: /data/images/da5004_2026T1_ET_FN_p1_Im5.webp|inline] ) = [IMAGE: /data/images/da5004_2026T1_ET_FN_p1_Im6.webp|inline] . Calculate the total number of trainable parameters contained only in the projection matrices [IMAGE: /data/images/da5004_2026T1_ET_FN_p1_Im7.webp|inline] and [IMAGE: /data/images/da5004_2026T1_ET_FN_p1_Im8.webp|inline] . (Ignore biases). Enter the integer value.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "262144",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_FN_p1_Im3.webp",
+        "/data/images/da5004_2026T1_ET_FN_p1_Im4.webp",
+        "/data/images/da5004_2026T1_ET_FN_p1_Im5.webp",
+        "/data/images/da5004_2026T1_ET_FN_p1_Im6.webp",
+        "/data/images/da5004_2026T1_ET_FN_p1_Im7.webp",
+        "/data/images/da5004_2026T1_ET_FN_p1_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Inscript For T5-Base, the model dimension is 768 and FFN dimension is 3072. Ignore bias. Find the number of parameters in the FFN of one encoder layer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4718592",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Inscript A batch of 5 sentences is passed through a Transformer Encoder. The sequences are padded to a maximum length of 20 tokens. The embedding dimension ( [IMAGE: /data/images/da5004_2026T1_ET_FN_p2_Im1.webp|inline] ) is 64. What is the total number of elements (volume) in the output tensor produced by the final layer of the encoder for this batch?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6400",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Inscript Calculate the KV Cache memory size in Megabytes for a single request (batch size = 1) with the following parameters: \u2022 Number of layers: 24 \u2022 Embedding dimension (d_model): 1024 \u2022 Sequence length (n): 2048 tokens \u2022 Precision: 16-bit (2 bytes per element) \u2022 Assume standard Multi-Head Attention (MHA) where total KV dimension per layer is 2 x d_model (2 for K+V)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "192",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "In BERT's Next Sentence Prediction task, how are the negative (NotNext) examples created?",
+      "type": "MCQ",
+      "options": [
+        "By taking the sentence that immediately precedes the current sentence.",
+        "By reversing the word order of the actual next sentence.",
+        "By picking a random sentence from the corpus (50% of the time).",
+        "By masking all verbs in the actual next sentence."
+      ],
+      "correct_answer": "By picking a random sentence from the corpus (50% of the time).",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "What happens when a very large model is trained for many epochs on a relatively small dataset in the T5 scaling-law setting?",
+      "type": "MCQ",
+      "options": [
+        "The performance continues to improve linearly with more training steps.",
+        "The performance degrades due to overfitting (memorization) of the training data.",
+        "The model automatically learns to augment the data, preventing overfitting.",
+        "The performance plateaus but does not degrade."
+      ],
+      "correct_answer": "The performance degrades due to overfitting (memorization) of the training data.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "PagedAttention is designed to address which specific inefficiency in Large Language Model (LLM) serving?",
+      "type": "MCQ",
+      "options": [
+        "High computational latency of matrix multiplication.",
+        "Memory fragmentation and waste in the KV cache due to pre-allocating contiguous memory blocks for variable-length sequences.",
+        "Low bandwidth of the internet connection during API calls.",
+        "The difficulty of training models on long sequences."
+      ],
+      "correct_answer": "Memory fragmentation and waste in the KV cache due to pre-allocating contiguous memory blocks for variable-length sequences.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "The standard Self-Attention mechanism has a time complexity of [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im2.webp|inline] , where [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im3.webp|inline] is the sequence length and [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im4.webp|inline] is the embedding dimension. In Kernel-based Linear Attention methods (like Linear Transformers), the associativity of matrix multiplication is exploited to compute [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im5.webp|inline] instead of [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im6.webp|inline] . What is the resulting time complexity of this Linear Attention mechanism?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im10.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im11.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im9.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_FN_p4_Im2.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im3.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im4.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im5.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im6.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im7.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im9.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im10.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "In a standard Transformer layer utilizing Rotary Positional Embeddings (RoPE), at which specific stage of the forward pass is the rotary transformation applied?",
+      "type": "MCQ",
+      "options": [
+        "To the input embeddings [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im12.webp|inline] immediately before the Linear projections for [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im13.webp|inline] , [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im14.webp|inline] , and [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im15.webp|inline] .",
+        "To the [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im16.webp|inline] and [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im17.webp|inline] vectors simultaneously using a coupled weight matrix within the Attention head.",
+        "To the [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im18.webp|inline] and [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im19.webp|inline] vectors independently, after their linear projections but before the scaled dot-product calculation.",
+        "To the [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im20.webp|inline] and [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im21.webp|inline] vectors after the linear projections to ensure the entire latent space is rotationally invariant."
+      ],
+      "correct_answer": "To the [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im18.webp|inline] and [IMAGE: /data/images/da5004_2026T1_ET_FN_p4_Im19.webp|inline] vectors independently, after their linear projections but before the scaled dot-product calculation.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_FN_p4_Im12.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im13.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im14.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im15.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im16.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im17.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im18.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im19.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im20.webp",
+        "/data/images/da5004_2026T1_ET_FN_p4_Im21.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "In a Transformer using ALiBi, the attention score is modified as: [IMAGE: /data/images/da5004_2026T1_ET_FN_p5_Im1.webp|block] Suppose a researcher proposes modifying ALiBi to: [IMAGE: /data/images/da5004_2026T1_ET_FN_p5_Im2.webp|block] and claims that: \u201cThe model will still learn to focus on nearby tokens through training.\u201d Which of the following is the most accurate critique of this proposal?",
+      "type": "MCQ",
+      "options": [
+        "The modification will not affect attention behavior significantly because softmax normalizes all scores, making additive biases irrelevant.",
+        "The modification will cause instability because the attention scores will become negative for nearby tokens and positive for distant tokens.",
+        "The modification is equivalent to scaling (Q) and (K) vectors differently and therefore does not fundamentally change the positional bias.",
+        "The modification will bias attention toward distant tokens, and due to the exponential nature of softmax, this effect can dominate learned [IMAGE: /data/images/da5004_2026T1_ET_FN_p5_Im5.webp|inline] similarities, making it difficult for training to recover locality."
+      ],
+      "correct_answer": "The modification will bias attention toward distant tokens, and due to the exponential nature of softmax, this effect can dominate learned [IMAGE: /data/images/da5004_2026T1_ET_FN_p5_Im5.webp|inline] similarities, making it difficult for training to recover locality.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_FN_p5_Im1.webp",
+        "/data/images/da5004_2026T1_ET_FN_p5_Im2.webp",
+        "/data/images/da5004_2026T1_ET_FN_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Comparing the architectures of BERT and GPT, select all the structural differences that are true.",
+      "type": "multichoice",
+      "options": [
+        "BERT uses bidirectional self-attention, allowing tokens to attend to both left and right contexts.",
+        "GPT uses masked (causal) self-attention, allowing tokens to attend only to previous tokens.",
+        "BERT is an autoregressive model, while GPT is an autoencoding model.",
+        "During pre-training, BERT predicts masked tokens, whereas GPT predicts the next token in the sequence."
+      ],
+      "correct_answer": [
+        "BERT uses bidirectional self-attention, allowing tokens to attend to both left and right contexts.",
+        "GPT uses masked (causal) self-attention, allowing tokens to attend only to previous tokens.",
+        "During pre-training, BERT predicts masked tokens, whereas GPT predicts the next token in the sequence."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Based on the architectural comparison experiments (Encoder-Decoder vs. Decoder-only vs. Encoder-only) discussed in the lectures:",
+      "type": "multichoice",
+      "options": [
+        "Encoder-Decoder architectures generally perform best for sequence-to- sequence tasks like Translation and Summarization.",
+        "A Decoder-only model with a Prefix-LM objective can match the performance of an Encoder-Decoder model.",
+        "Sharing parameters between the encoder and decoder always improves performance regardless of task.",
+        "Encoder-only models (like BERT) are typically less suitable for generation tasks compared to Encoder-Decoder models."
+      ],
+      "correct_answer": [
+        "Encoder-Decoder architectures generally perform best for sequence-to- sequence tasks like Translation and Summarization.",
+        "A Decoder-only model with a Prefix-LM objective can match the performance of an Encoder-Decoder model.",
+        "Encoder-only models (like BERT) are typically less suitable for generation tasks compared to Encoder-Decoder models."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Select all true statements regarding KV Caching during the autoregressive inference of LLMs.",
+      "type": "multichoice",
+      "options": [
+        "It trades off increased memory usage for reduced computational latency.",
+        "It avoids recomputing the Key and Value vectors for tokens that have already been processed in previous steps.",
+        "It is essential during the training phase to speed up backpropagation.",
+        "The memory required for the KV cache grows linearly with the sequence length and batch size."
+      ],
+      "correct_answer": [
+        "It trades off increased memory usage for reduced computational latency.",
+        "It avoids recomputing the Key and Value vectors for tokens that have already been processed in previous steps.",
+        "The memory required for the KV cache grows linearly with the sequence length and batch size."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Select all correct statements regarding Decoding Strategies in language generation.",
+      "type": "multichoice",
+      "options": [
+        "Beam Search with a beam width [IMAGE: /data/images/da5004_2026T1_ET_FN_p7_Im2.webp|inline] is mathematically equivalent to Greedy Search.",
+        "Greedy search is deterministic and often leads to repetitive or degenerative text loops.",
+        "Top- [IMAGE: /data/images/da5004_2026T1_ET_FN_p7_Im4.webp|inline] sampling guarantees that the generated text will always be grammatically correct.",
+        "Top- [IMAGE: /data/images/da5004_2026T1_ET_FN_p7_Im5.webp|inline] (Nucleus) sampling allows for a dynamic vocabulary size at each step, whereas Top- [IMAGE: /data/images/da5004_2026T1_ET_FN_p7_Im6.webp|inline] uses a fixed number of candidates."
+      ],
+      "correct_answer": [
+        "Beam Search with a beam width [IMAGE: /data/images/da5004_2026T1_ET_FN_p7_Im2.webp|inline] is mathematically equivalent to Greedy Search.",
+        "Greedy search is deterministic and often leads to repetitive or degenerative text loops.",
+        "Top- [IMAGE: /data/images/da5004_2026T1_ET_FN_p7_Im5.webp|inline] (Nucleus) sampling allows for a dynamic vocabulary size at each step, whereas Top- [IMAGE: /data/images/da5004_2026T1_ET_FN_p7_Im6.webp|inline] uses a fixed number of candidates."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_FN_p7_Im2.webp",
+        "/data/images/da5004_2026T1_ET_FN_p7_Im4.webp",
+        "/data/images/da5004_2026T1_ET_FN_p7_Im5.webp",
+        "/data/images/da5004_2026T1_ET_FN_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "In a feature-based approach using a pretrained transformer (like BERT) for a Multiple-Choice QA task, which of the following statements regarding the methodology are correct? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "The weights of the pretrained transformer are updated via backpropagation during the training phase.",
+        "The input must be formatted as multiple pairs, such as [CLS] Question [SEP] Choice_n, creating a distinct representation for each candidate answer.",
+        "The final prediction is determined by passing the fixed output representations through a trainable linear layer and applying a Softmax function.",
+        "The model generates the correct answer string token-by-token using an autoregressive decoding strategy like Greedy Search."
+      ],
+      "correct_answer": [
+        "The input must be formatted as multiple pairs, such as [CLS] Question [SEP] Choice_n, creating a distinct representation for each candidate answer.",
+        "The final prediction is determined by passing the fixed output representations through a trainable linear layer and applying a Softmax function."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "A Transformer processes a sequence of length 5 using 6 identical self-attention layers. Count the total number of allowed attention links across all layers and Choose the option representing the correct pair (A) BERT (B) GPT",
+      "type": "MCQ",
+      "options": [
+        "BERT: 150, GPT: 90",
+        "BERT: 90, GPT: 150",
+        "BERT: 150, GPT: 150",
+        "BERT: 90, GPT: 90",
+        "BERT: 30, GPT: 36",
+        "BERT: 36, GPT: 30"
+      ],
+      "correct_answer": "BERT: 150, GPT: 90",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Consider the architecture of BART . Which of the following descriptions best match its structural design?",
+      "type": "MCQ",
+      "options": [
+        "A Decoder-only model similar to GPT, but with bidirectional attention in the first layer.",
+        "An Encoder-only model similar to BERT, but trained with a causal masking objective.",
+        "An encoder-decoder model where the encoder processes a corrupted input bidirectionally and the decoder autoregressively reconstructs the original sequence.",
+        "A dual-encoder model where one encoder processes the context and another processes the query."
+      ],
+      "correct_answer": "An encoder-decoder model where the encoder processes a corrupted input bidirectionally and the decoder autoregressively reconstructs the original sequence.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Why is Flash Attention considered an \"IO-aware\" algorithm?",
+      "type": "MCQ",
+      "options": [
+        "It reduces the number of parameters in the model to fit in GPU memory.",
+        "It compresses the input data using JPEG-like encoding before processing.",
+        "It optimizes the movement of data between the high-bandwidth memory (HBM) and the faster on-chip SRAM to avoid memory bandwidth bottlenecks.",
+        "It writes all intermediate attention matrices to the hard disk to save RAM."
+      ],
+      "correct_answer": "It optimizes the movement of data between the high-bandwidth memory (HBM) and the faster on-chip SRAM to avoid memory bandwidth bottlenecks.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "In a transformer with relative positional encoding (RPE), attention logits between a query at position 4 and keys at positions 2 and 6 depend on relative distances [IMAGE: /data/images/da5004_2026T1_ET_FN_p8_Im3.webp|inline] where [IMAGE: /data/images/da5004_2026T1_ET_FN_p8_Im4.webp|inline] is the position of query and [IMAGE: /data/images/da5004_2026T1_ET_FN_p8_Im5.webp|inline] is the position of key. Suppose the learned scalar biases as per RPE are: \u2022 [IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im1.webp|inline] \u2022 [IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im2.webp|inline] \u2022 [IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im3.webp|inline] \u2022 [IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im4.webp|inline] \u2022 [IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im5.webp|inline] The base (content-only) attention logits are: \u2022 [IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im6.webp|inline] \u2022 [IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im7.webp|inline] What are the final attention logits after incorporating RPE?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im10.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im11.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im13.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im13.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_FN_p8_Im3.webp",
+        "/data/images/da5004_2026T1_ET_FN_p8_Im4.webp",
+        "/data/images/da5004_2026T1_ET_FN_p8_Im5.webp",
+        "/data/images/da5004_2026T1_ET_FN_p9_Im1.webp",
+        "/data/images/da5004_2026T1_ET_FN_p9_Im2.webp",
+        "/data/images/da5004_2026T1_ET_FN_p9_Im3.webp",
+        "/data/images/da5004_2026T1_ET_FN_p9_Im4.webp",
+        "/data/images/da5004_2026T1_ET_FN_p9_Im5.webp",
+        "/data/images/da5004_2026T1_ET_FN_p9_Im6.webp",
+        "/data/images/da5004_2026T1_ET_FN_p9_Im7.webp",
+        "/data/images/da5004_2026T1_ET_FN_p9_Im9.webp",
+        "/data/images/da5004_2026T1_ET_FN_p9_Im10.webp",
+        "/data/images/da5004_2026T1_ET_FN_p9_Im11.webp",
+        "/data/images/da5004_2026T1_ET_FN_p9_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "An engineer is designing a Transformer model capable of length extrapolation (handling sequences longer than those seen during training) while minimizing the number of trainable weights. They are evaluating Absolute Positional Encodings (APE), Relative Positional Encodings (RPE), Rotary Positional Encodings (RoPE), and Attention with Linear Biases (ALiBi).Which of the following statements correctly describes the parameterization and behavior of these techniques?",
+      "type": "MCQ",
+      "options": [
+        "RoPE is considered a learned encoding because the model must optimize the rotation angles [IMAGE: /data/images/da5004_2026T1_ET_FN_p9_Im14.webp|inline] as trainable parameters during the backpropagation phase.",
+        "The engineer should choose APE or RPE to minimize weights, as both rely exclusively on fixed sinusoidal functions without requiring a lookup table.",
+        "RoPE and ALiBi are preferable for this use case because they utilize fixed mathematical transformations, whereas standard APE and RPE typically require learning position- specific embedding weights.",
+        "ALiBi is the only technique among the four that requires the model to learn a unique \"slope\" parameter for each attention head to determine the rate of penalty decay."
+      ],
+      "correct_answer": "RoPE and ALiBi are preferable for this use case because they utilize fixed mathematical transformations, whereas standard APE and RPE typically require learning position- specific embedding weights.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_FN_p9_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    }
+  ],
+  "id": "da5004-2026t1-et-fn",
+  "course_code": "DA5004",
+  "course_name": "Large Language Models",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

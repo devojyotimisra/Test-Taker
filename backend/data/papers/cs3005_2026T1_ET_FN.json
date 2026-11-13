@@ -1,0 +1,603 @@
+{
+  "title": "DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)",
+  "filename": "cs3005_2026T1_ET_FN.pdf",
+  "total_questions": 25,
+  "total_marks": 81.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "What is the decimal equivalent of the following 8-bit signed binary number represented using the two\u2019s complement convention ? (11100101) 2",
+      "type": "MCQ",
+      "options": [
+        "-27",
+        "-21",
+        "-35",
+        "229"
+      ],
+      "correct_answer": "-27",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct_answer": "6",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "8",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": "6",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following C program: [IMAGE: /data/images/cs3005_2026T1_ET_FN_p3_Im4.webp|block] What will be the output?",
+      "type": "MCQ",
+      "options": [
+        "50",
+        "10",
+        "Garbage value",
+        "Compilation error"
+      ],
+      "correct_answer": "10",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the code: [IMAGE: /data/images/cs3005_2026T1_ET_FN_p4_Im3.webp|block] What will be the value of c?",
+      "type": "MCQ",
+      "options": [
+        "14",
+        "12",
+        "17",
+        "19"
+      ],
+      "correct_answer": "12",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "What is the correct way to access a structure member using a pointer to a structure?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p4_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p4_Im4.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p4_Im5.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p4_Im6.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "We want to dynamically allocate memory at runtime for 10 integer elements and store the returned address in a pointer. Which of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p5_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p5_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p5_Im2.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p5_Im2.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p5_Im4.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p5_Im5.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "In C preprocessor directives, what does the [IMAGE: /data/images/cs3005_2026T1_ET_FN_p5_Im7.webp|inline] operator do when used in macro definitions?",
+      "type": "MCQ",
+      "options": [
+        "Concatenates two tokens",
+        "Compares two tokens",
+        "Excludes a token",
+        "Multiplies two tokens"
+      ],
+      "correct_answer": "Concatenates two tokens",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following C program: [IMAGE: /data/images/cs3005_2026T1_ET_FN_p6_Im1.webp|block] What will be the output?",
+      "type": "MCQ",
+      "options": [
+        "15",
+        "10",
+        "5",
+        "Garbage value"
+      ],
+      "correct_answer": "5",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "A 4-byte integer [IMAGE: /data/images/cs3005_2026T1_ET_FN_p6_Im4.webp|inline] is stored starting at memory address [IMAGE: /data/images/cs3005_2026T1_ET_FN_p6_Im5.webp|inline] . What value will be stored at address [IMAGE: /data/images/cs3005_2026T1_ET_FN_p6_Im6.webp|inline] in a Little-Endian system ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p6_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p6_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p6_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p6_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p6_Im10.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p6_Im4.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p6_Im5.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p6_Im6.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p6_Im7.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p6_Im8.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p6_Im9.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p6_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the following code: [IMAGE: /data/images/cs3005_2026T1_ET_FN_p7_Im1.webp|block] What will be the output?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p7_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p7_Im7.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p7_Im1.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p7_Im3.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p7_Im4.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p7_Im5.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p7_Im8.webp|block] What will be the output of the given code?",
+      "type": "MCQ",
+      "options": [
+        "1 3 4 5",
+        "0 3 3 4",
+        "0 1 2 3",
+        "0 3 4 5"
+      ],
+      "correct_answer": "0 3 4 5",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p8_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p8_Im3.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p8_Im1.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p8_Im3.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p8_Im5.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p8_Im6.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Assume [IMAGE: /data/images/cs3005_2026T1_ET_FN_p8_Im8.webp|inline] contains: [IMAGE: /data/images/cs3005_2026T1_ET_FN_p8_Im9.webp|block] Consider the following C code snippet. What will be printed on the screen? [IMAGE: /data/images/cs3005_2026T1_ET_FN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p9_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p9_Im6.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p8_Im8.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p8_Im9.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p9_Im1.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p9_Im3.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p9_Im4.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p9_Im6.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider the C program below. [IMAGE: /data/images/cs3005_2026T1_ET_FN_p9_Im8.webp|block] What will be the output of the above C program?",
+      "type": "MCQ",
+      "options": [
+        "63",
+        "45",
+        "27",
+        "14"
+      ],
+      "correct_answer": "27",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p9_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider the following C program: [IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im2.webp|block] Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im3.webp|inline] becomes 12",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im5.webp|inline] becomes 12",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im6.webp|inline] and [IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im7.webp|inline] both point to [IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im9.webp|inline] and [IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im10.webp|inline] both point to [IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im11.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im5.webp|inline] becomes 12",
+        "[IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im6.webp|inline] and [IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im7.webp|inline] both point to [IMAGE: /data/images/cs3005_2026T1_ET_FN_p10_Im8.webp|inline]"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p10_Im2.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p10_Im3.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p10_Im5.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p10_Im6.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p10_Im7.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p10_Im8.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p10_Im9.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p10_Im10.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p10_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Which of the following statements about arrays in C are correct?",
+      "type": "multichoice",
+      "options": [
+        "Array elements are stored in contiguous memory locations.",
+        "Array size can be changed after declaration.",
+        "The array name acts like a pointer to the first element in most expressions.",
+        "Arrays can store elements of different data types.",
+        "Array indexing starts from 0."
+      ],
+      "correct_answer": [
+        "Array elements are stored in contiguous memory locations.",
+        "The array name acts like a pointer to the first element in most expressions.",
+        "Array indexing starts from 0."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Which of the following statements about [IMAGE: /data/images/cs3005_2026T1_ET_FN_p11_Im3.webp|inline] in C are correct?",
+      "type": "multichoice",
+      "options": [
+        "Size of the [IMAGE: /data/images/cs3005_2026T1_ET_FN_p11_Im4.webp|inline] is equal to the sum of all member sizes",
+        "All members share the same memory location",
+        "Each member has its own separate memory",
+        "Only one member can hold a valid value at a time"
+      ],
+      "correct_answer": [
+        "All members share the same memory location",
+        "Only one member can hold a valid value at a time"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p11_Im3.webp",
+        "/data/images/cs3005_2026T1_ET_FN_p11_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Which of the following file modes delete the existing content of a file when opened ?",
+      "type": "multichoice",
+      "options": [
+        "\"w\"",
+        "\"w+\"",
+        "\"r+\"",
+        "\"a\""
+      ],
+      "correct_answer": [
+        "\"w\"",
+        "\"w+\""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Inscript Consider the following computation steps: 1. R[0] = 2 2. R[1] = 3 3. R[1] = R[1] + R[0] 4. R[0] = R[0] + 1 5. If R[0] \u2264 5 go to step-3, otherwise, go to step-6 6. R[2] = R[1] What is the final value of R[2] at the end of computation?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "17",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Inscript Consider the following C program: [IMAGE: /data/images/cs3005_2026T1_ET_FN_p12_Im1.webp|block] What will be the output printed on the screen ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "24",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Inscript Consider the following C program: [IMAGE: /data/images/cs3005_2026T1_ET_FN_p13_Im1.webp|block] What will be the output printed on the screen ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "30",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Inscript Consider the following C code: [IMAGE: /data/images/cs3005_2026T1_ET_FN_p14_Im1.webp|block] What will be the output?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "18",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Inscript Consider the following C code snippet. What will be the output? [IMAGE: /data/images/cs3005_2026T1_ET_FN_p15_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2026T1_ET_FN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    }
+  ],
+  "id": "cs3005-2026t1-et-fn",
+  "course_code": "CS3005",
+  "course_name": "Programming in C",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

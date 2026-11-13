@@ -1,0 +1,405 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II",
+  "filename": "cs2006_2023T1_Q1_AN.pdf",
+  "total_questions": 17,
+  "total_marks": 17.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 152,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 153,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are false regarding javascript language?",
+      "type": "multichoice",
+      "options": [
+        "The \u201cundefined\u201d and \u201cnull\u201d are primitive data types.",
+        "Event capturing is the default behaviour for event propagation.",
+        "The language uses a call stack to execute statements of a program.",
+        "The \u201cpass\u201d is a keyword in the language."
+      ],
+      "correct_answer": [
+        "Event capturing is the default behaviour for event propagation.",
+        "The \u201cpass\u201d is a keyword in the language."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 154,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true?",
+      "type": "multichoice",
+      "options": [
+        "The \u201cv-show\u201d directive has higher rendering cost than \u201cv-if\u201d.",
+        "The \u201cv-if\u201d directive has higher rendering cost than \u201cv-show\u201d.",
+        "The \u201cv-show\u201d directive has higher toggle cost than \u201cv-if\u201d.",
+        "The \u201cv-if\u201d directive has higher toggle cost than \u201cv-show\u201d."
+      ],
+      "correct_answer": [
+        "The \u201cv-show\u201d directive has higher rendering cost than \u201cv-if\u201d.",
+        "The \u201cv-if\u201d directive has higher toggle cost than \u201cv-show\u201d."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 155,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is the correct definition of an immediately invoked function expression (IIFE)?",
+      "type": "MCQ",
+      "options": [
+        "let x = function () { return \u201cIIFE\u201d }",
+        "function () { return \u201cIIFE\u201d }",
+        "(function () { return \u201cIIFE\u201d } ) ()",
+        "function () { return \u201cIIFE\u201d } ()"
+      ],
+      "correct_answer": "(function () { return \u201cIIFE\u201d } ) ()",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 156,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following two programs. [IMAGE: /data/images/cs2006_2023T1_Q1_AN_p3_Im1.webp|block] What will be the output of the first and second program, respectively?",
+      "type": "MCQ",
+      "options": [
+        "8, 10",
+        "Error: Identifier \u2018x\u2019 is already declared, Error: Identifier \u2018y\u2019 is already declared",
+        "8, Error: Identifier \u2018y\u2019 is already declared",
+        "Error: Identifier \u2018x\u2019 is already declared, 10"
+      ],
+      "correct_answer": "8, Error: Identifier \u2018y\u2019 is already declared",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T1_Q1_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 157,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is/are not higher order function(s) in javascript language?",
+      "type": "multichoice",
+      "options": [
+        "call()",
+        "map()",
+        "slice()",
+        "find()"
+      ],
+      "correct_answer": [
+        "call()",
+        "slice()"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 158,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true?",
+      "type": "multichoice",
+      "options": [
+        "A variable declared using var can be re-declared and updated within its scope.",
+        "A variable declared using let can be re-declared and updated within its scope.",
+        "A variable declared using const can be re-declared, but cannot be updated within its scope.",
+        "A variable declared using let cannot be re-declared, but can be updated within its scope."
+      ],
+      "correct_answer": [
+        "A variable declared using var can be re-declared and updated within its scope.",
+        "A variable declared using let cannot be re-declared, but can be updated within its scope."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 159,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below javascript program, and predict the output, if executed. [IMAGE: /data/images/cs2006_2023T1_Q1_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Number is: 20",
+        "Number is: 10",
+        "Number is: undefined",
+        "Number is: null"
+      ],
+      "correct_answer": "Number is: 10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T1_Q1_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 160,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below javascript program, and predict the output, if executed in a REPL environment. [IMAGE: /data/images/cs2006_2023T1_Q1_AN_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "10 20 10 30",
+        "10 20 10 10",
+        "10 20 10 undefined",
+        "20 20 30 30"
+      ],
+      "correct_answer": "10 20 10 10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T1_Q1_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 161,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2023T1_Q1_AN_p7_Im1.webp|block] Suppose if you open the file \u201cindex.html\u201d in a browser, what will be rendered by the browser?",
+      "type": "MCQ",
+      "options": [
+        "Welcome to the App Development I course quiz exam !!",
+        "Welcome to the App Development II course quiz exam !!",
+        "Welcome to the Python course quiz exam !!",
+        "Welcome to the course quiz exam !!"
+      ],
+      "correct_answer": "Welcome to the App Development I course quiz exam !!",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T1_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 162,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following javascript program and predict the output. [IMAGE: /data/images/cs2006_2023T1_Q1_AN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Y is not defined 7",
+        "9 X is not defined",
+        "7 9",
+        "Y is not defined X is not defined"
+      ],
+      "correct_answer": "Y is not defined 7",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T1_Q1_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 163,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2023T1_Q1_AN_p9_Im1.webp|block] Suppose if you open the file \u201cindex.html\u201d in a browser, what will be rendered inside the div element with ID \u201capp\u201d?",
+      "type": "MCQ",
+      "options": [
+        "9",
+        "5",
+        "10",
+        "6"
+      ],
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T1_Q1_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 164,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2023T1_Q1_AN_p11_Im1.webp|block] Suppose a developer wants to create a feature that whenever a user clicks on the span element with ID \u2018like\u2019 in like component, it increases the \u2018\u2019likes\u2019 data of Post component by 1. Which of the following code is best suited for \u201ccode1\u201d placeholder?",
+      "type": "MCQ",
+      "options": [
+        "@click=\u201demit(\u2018like\u2019)\u201d",
+        "click = \u201cemit(\u2018like\u2019)\u201d",
+        "@click=\u201d$emit(\u2018like\u2019)\u201d",
+        "click = \u201c$emit(\u2018like\u2019)\u201d"
+      ],
+      "correct_answer": "@click=\u201d$emit(\u2018like\u2019)\u201d",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T1_Q1_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 165,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below javascript program, and predict the output, if executed in a script and REPL environment. [IMAGE: /data/images/cs2006_2023T1_Q1_AN_p12_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "For Script: First: 50 Second: 100 For REPL: First: 50 Second: 50",
+        "For Script: First: 50 Second: undefined For REPL: First: 50 Second: 100",
+        "For Script: First: 50 Second: 100 For REPL: First: 50 Second: undefined",
+        "For Script: First: 50 Second: undefined For REPL: First: 50 Second: 50"
+      ],
+      "correct_answer": "For Script: First: 50 Second: undefined For REPL: First: 50 Second: 50",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T1_Q1_AN_p12_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 166,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below javascript program, and predict how many times the text \u201cAbhi\u201d will be shown on the console, till the program execution is completed. Also, predict the minimum time the program will take to display the text \u201cAbhi\u201d 12 times on the console. [IMAGE: /data/images/cs2006_2023T1_Q1_AN_p13_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The text \u201cAbhi\u201d will be shown 10 times The program will not display the text \u201cAbhi\u201d 12 times",
+        "The text \u201cAbhi\u201d will be shown 15 times The program will take a minimum of 3 seconds to display the text \u201cAbhi\u201d 12 times",
+        "The text \u201cAbhi\u201d will be shown 15 times The program will take a minimum of 2.5 seconds to display the text \u201cAbhi\u201d 12 times",
+        "The text \u201cAbhi\u201d will be shown 10 times The program will take a minimum of 1.5 seconds to display the text \u201cAbhi\u201d 12 times"
+      ],
+      "correct_answer": "The text \u201cAbhi\u201d will be shown 15 times The program will take a minimum of 2.5 seconds to display the text \u201cAbhi\u201d 12 times",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T1_Q1_AN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 167,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Predict the output of following javascript code. [IMAGE: /data/images/cs2006_2023T1_Q1_AN_p14_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Something went wrong",
+        "70 75 70",
+        "70 75 undefined",
+        "Undefined undefined undefined"
+      ],
+      "correct_answer": "70 75 undefined",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T1_Q1_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 168,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2023T1_Q1_AN_p15_Im1.webp|block] What will be the text color of the element having ID \u201cpart1Id\u201d and \u201cpart2Id\u201d, respectively, when the user loads the application for the first time?",
+      "type": "MCQ",
+      "options": [
+        "Green, Red",
+        "Red, Green",
+        "Red, Red",
+        "Green, Green"
+      ],
+      "correct_answer": "Green, Red",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T1_Q1_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    }
+  ],
+  "id": "cs2006-2023t1-q1-an",
+  "course_code": "CS2006",
+  "course_name": "Application Development 2",
+  "level": "Diploma in Programming",
+  "term": "Jan 2023",
+  "year": 2023,
+  "exam_type": "Quiz 1",
+  "session": "Afternoon"
+}

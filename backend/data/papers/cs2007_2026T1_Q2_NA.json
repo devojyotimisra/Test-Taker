@@ -1,0 +1,460 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
+  "filename": "cs2007_2026T1_Q2_NA.pdf",
+  "total_questions": 16,
+  "total_marks": 31.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider a linear regression model applied to a dataset in which each data-point is described by two features. The first feature is always [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im3.webp|inline] . The [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im4.webp|inline] data-point's feature-label pair is represented as [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im5.webp|inline] . Let [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im6.webp|inline] be the optimal weight vector that minimizes the sum of squared errors. Consider two scenarios: [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im7.webp|inline] : [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im8.webp|inline] , for each data-point [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im9.webp|inline] . [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im10.webp|inline] : [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im11.webp|inline] , for each data-point [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im12.webp|inline] . Which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im13.webp|inline] is possible, but [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im14.webp|inline] is impossible.",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im15.webp|inline] is impossible, but [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im16.webp|inline] is possible.",
+        "One of [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im17.webp|inline] or [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im18.webp|inline] is possible.",
+        "Both [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im19.webp|inline] and [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im20.webp|inline] are impossible."
+      ],
+      "correct_answer": "Both [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im19.webp|inline] and [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p1_Im20.webp|inline] are impossible.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im3.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im4.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im5.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im6.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im7.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im8.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im9.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im10.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im11.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im12.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im13.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im14.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im15.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im16.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im17.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im18.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im19.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p1_Im20.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "In Ridge Regression, the optimal weight vector is given by [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p2_Im1.webp|inline] . The regularization parameter [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p2_Im2.webp|inline] is determined using 5-fold cross-validation. The following table summarizes the average Training Error and Validation Error (Mean Squared Error) obtained for various values of [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p2_Im3.webp|inline] : [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p2_Im4.webp|block] Based on the cross-validation results provided, what is the most appropriate choice for [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p2_Im5.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "0.001",
+        "0.1",
+        "1.0",
+        "10.0",
+        "100"
+      ],
+      "correct_answer": "1.0",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p2_Im1.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p2_Im2.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p2_Im3.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p2_Im4.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p2_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider a training dataset [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p2_Im8.webp|inline] where all input points [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p2_Im9.webp|inline] are distinct. Which of the following models is [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p2_Im10.webp|inline] to achieve a training error of zero?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p2_Im12.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p2_Im13.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p2_Im14.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p2_Im14.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p2_Im8.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p2_Im9.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p2_Im10.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p2_Im12.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p2_Im13.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p2_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following classification models and their geometric properties: [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p3_Im1.webp|block] Select the correct many-to-one matching:",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p3_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p3_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p3_Im1.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p3_Im3.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p3_Im5.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p3_Im6.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider a training dataset for a classification problem with four data-points. Red circles represent data-points with label [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p3_Im8.webp|inline] and green squares represent data-points with label [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p3_Im9.webp|inline] . A test-point is located at [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p3_Im10.webp|inline] . Dotted circles centered at [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p3_Im11.webp|inline] with radii [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p3_Im12.webp|inline] and [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p3_Im13.webp|inline] are drawn for your convenience. [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im1.webp|block] KNN with Euclidean distance and [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im2.webp|inline] is the classifier. Now, a new training data-point with label [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im3.webp|inline] is added somewhere inside the outermost circle of radius [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im4.webp|inline] such that it leaves the predicted label of the test data-point unchanged. Let [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im5.webp|inline] be the set of all points that could be the potential location of this new training data-point. Find the area of the region corresponding to [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im6.webp|inline] . [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im7.webp|inline] : We use KNN with [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im8.webp|inline] for both datasets.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im12.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im13.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im14.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im10.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p3_Im8.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p3_Im9.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p3_Im10.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p3_Im11.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p3_Im12.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p3_Im13.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im1.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im2.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im3.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im4.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im5.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im6.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im7.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im8.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im10.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im12.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im13.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "A dataset is said to be [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p4_Im15.webp|inline] if we can find a linear classifier that achieves zero error for that dataset. Select all linearly separable datasets. The red circles represent data-points with label [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p5_Im1.webp|inline] while the green squares represent data-points with label [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p5_Im2.webp|inline] . The sizes of the squares and circles are blown up for clarity; the data-point sits at the center of the square/circle. [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p5_Im3.webp|inline] : The options are independent of each other. We are not looking for a single classifier that will work for multiple options. [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p5_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Dataset-1",
+        "Dataset-2",
+        "Dataset-3",
+        "Dataset-4"
+      ],
+      "correct_answer": [
+        "Dataset-3",
+        "Dataset-4"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p4_Im15.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p5_Im1.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p5_Im2.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p5_Im3.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "A researcher is modeling a dataset using linear regression of the form [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p5_Im7.webp|inline] . They are considering two different probabilistic assumptions for the independent and identically distributed (i.i.d.) noise term [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p5_Im8.webp|inline] : \u2022 Assumption A: The noise follows a Gaussian distribution, [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p5_Im9.webp|inline] . \u2022 Assumption B: The noise follows a Laplace distribution, [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p5_Im10.webp|inline] . The training dataset is known to contain several extreme outliers resulting from sensor malfunctions. Which of the following statements correctly describes the behavior of the Maximum Likelihood Estimation (MLE) for the parameter vector [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im1.webp|inline] ?",
+      "type": "multichoice",
+      "options": [
+        "Under Assumption A, the MLE is equivalent to minimizing Mean Squared Error (MSE), which is highly sensitive to outliers because the penalty grows quadratically.",
+        "Under Assumption B, the MLE is equivalent to L1 regularization, which is more robust to outliers because the penalty for large residuals grows linearly.",
+        "Both Assumption A and Assumption B lead to the same optimal parameter vector [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im4.webp|inline] regardless of the presence of outliers.",
+        "All the given options are correct"
+      ],
+      "correct_answer": [
+        "Under Assumption A, the MLE is equivalent to minimizing Mean Squared Error (MSE), which is highly sensitive to outliers because the penalty grows quadratically.",
+        "Under Assumption B, the MLE is equivalent to L1 regularization, which is more robust to outliers because the penalty for large residuals grows linearly."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p5_Im7.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p5_Im8.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p5_Im9.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p5_Im10.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im1.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript Find the entropy of the parent node. Enter your answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.87 to 1.07",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im5.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im6.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im7.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im8.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im9.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im10.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im11.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im12.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im13.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a node in a decision tree that has 5 data-points. The [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im5.webp|inline] data-point is represented by a feature-label pair [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im6.webp|inline] , where [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im7.webp|inline] { [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im8.webp|inline] , [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im9.webp|inline] }. [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im10.webp|block] Consider the split [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im11.webp|inline] at the parent node resulting in left and right child nodes. The left child node has all data points for which [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im12.webp|inline] is true. Entropy is used to determine the purity of the nodes.Recall that the formula for the entropy of a node is: [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im13.webp|block] where [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im14.webp|inline] is the fraction of positive data-points in the node. Use at least three digits after the decimal point in all intermediate calculations.",
+      "group_id": "6406532035179",
+      "section_name": "MLT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript Find the entropy of the right child. Enter your answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.71 to 0.91",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im5.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im6.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im7.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im8.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im9.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im10.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im11.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im12.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im13.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a node in a decision tree that has 5 data-points. The [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im5.webp|inline] data-point is represented by a feature-label pair [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im6.webp|inline] , where [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im7.webp|inline] { [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im8.webp|inline] , [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im9.webp|inline] }. [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im10.webp|block] Consider the split [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im11.webp|inline] at the parent node resulting in left and right child nodes. The left child node has all data points for which [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im12.webp|inline] is true. Entropy is used to determine the purity of the nodes.Recall that the formula for the entropy of a node is: [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im13.webp|block] where [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im14.webp|inline] is the fraction of positive data-points in the node. Use at least three digits after the decimal point in all intermediate calculations.",
+      "group_id": "6406532035179",
+      "section_name": "MLT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript Find the information gain. Enter your answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.22 to 0.42",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im5.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im6.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im7.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im8.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im9.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im10.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im11.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im12.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im13.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p6_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a node in a decision tree that has 5 data-points. The [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im5.webp|inline] data-point is represented by a feature-label pair [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im6.webp|inline] , where [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im7.webp|inline] { [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im8.webp|inline] , [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im9.webp|inline] }. [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im10.webp|block] Consider the split [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im11.webp|inline] at the parent node resulting in left and right child nodes. The left child node has all data points for which [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im12.webp|inline] is true. Entropy is used to determine the purity of the nodes.Recall that the formula for the entropy of a node is: [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im13.webp|block] where [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p6_Im14.webp|inline] is the fraction of positive data-points in the node. Use at least three digits after the decimal point in all intermediate calculations.",
+      "group_id": "6406532035179",
+      "section_name": "MLT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Using the Naive Bayes assumption and the data provided, calculate the joint probability [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p8_Im4.webp|inline] for a new test instance [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p8_Im5.webp|inline] . Enter your answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.15 to 0.21",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p8_Im4.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p8_Im5.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p8_Im1.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p8_Im2.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are provided with a training set of 5 observations, each consisting of four binary features [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p8_Im1.webp|inline] and a binary target label [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p8_Im2.webp|inline] . [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p8_Im3.webp|block] .",
+      "group_id": "6406532035183",
+      "section_name": "MLT"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript To address zero-probability estimates using Laplace smoothing, the dataset is augmented with synthetic observations. Specifically, add the following two samples to the original table: 1. One sample in which all features ( ( X 1 , X 2 , X 3 , X 4 ) ) take the value 1 and the class label is Y = 1. 2. One sample in which all features ( ( X 1 , X 2 , X 3 , X 4 ) ) take the value 1 and the class label is Y = 0. Based on this new augmented dataset of 7 samples, calculate the updated conditional probability [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p9_Im1.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p9_Im1.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p8_Im1.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p8_Im2.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are provided with a training set of 5 observations, each consisting of four binary features [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p8_Im1.webp|inline] and a binary target label [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p8_Im2.webp|inline] . [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p8_Im3.webp|block] .",
+      "group_id": "6406532035183",
+      "section_name": "MLT"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "For the Naive Bayes model described in the main data with [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p9_Im2.webp|inline] binary features and a binary class label, how many independent parameters are required to fully specify the model? Answer for the original dataset with 5 training examples.",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct_answer": "9",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p9_Im2.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p8_Im1.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p8_Im2.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are provided with a training set of 5 observations, each consisting of four binary features [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p8_Im1.webp|inline] and a binary target label [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p8_Im2.webp|inline] . [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p8_Im3.webp|block] .",
+      "group_id": "6406532035183",
+      "section_name": "MLT"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Let the linear regression model's solution be written as [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p9_Im5.webp|inline] , where [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p9_Im6.webp|inline] . Let [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p9_Im7.webp|inline] be a valid kernel function. What will be the prediction for an unseen data point [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p9_Im8.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p9_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p10_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p10_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p10_Im5.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T1_Q2_NA_p10_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p9_Im5.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p9_Im6.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p9_Im7.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p9_Im8.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p9_Im9.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p10_Im2.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p10_Im4.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p10_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript Perform a 3-NN regressor for the following dataset: [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p10_Im6.webp|block] where, [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p10_Im7.webp|inline] is a feature vector and [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p10_Im8.webp|inline] is the label. What will be the predicted value for the test data point [IMAGE: /data/images/cs2007_2026T1_Q2_NA_p10_Im9.webp|inline] ? ___________ Enter the answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T1_Q2_NA_p10_Im6.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p10_Im7.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p10_Im8.webp",
+        "/data/images/cs2007_2026T1_Q2_NA_p10_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    }
+  ],
+  "id": "cs2007-2026t1-q2-na",
+  "course_code": "CS2007",
+  "course_name": "Machine Learning Techniques",
+  "level": "Diploma in Data Science",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

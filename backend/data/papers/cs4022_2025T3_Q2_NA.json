@@ -1,0 +1,394 @@
+{
+  "title": "DEGREE LEVEL : OPERATING SYSTEMS (COMPUTER BASED EXAM)",
+  "filename": "cs4022_2025T3_Q2_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 46.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 5,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : OPERATING SYSTEMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 6,
+      "text": "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Process 1 and Process 2 will enter their critical sections simultaneously, leading to race conditions.",
+        "Process 1 will always enter its critical section before Process 2.",
+        "Process 2 will always enter its critical section before Process 1.",
+        "Deadlock can occur if both processes try to enter their critical sections simultaneously."
+      ],
+      "correct_answer": "Process 1 will always enter its critical section before Process 2.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2025T3_Q2_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 7,
+      "text": "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Mutual exclusion",
+        "Progress",
+        "Bounded waiting",
+        "None of these"
+      ],
+      "correct_answer": "Progress",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2025T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 8,
+      "text": "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p2_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "7F 42 43 44 02 01 01 00",
+        "7F 45 4D 50 02 01 01 00",
+        "7F 45 4C 46 02 01 01 00",
+        "7F 50 51 52 02 01 01 00"
+      ],
+      "correct_answer": "7F 45 4C 46 02 01 01 00",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2025T3_Q2_NA_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 9,
+      "text": "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0x800000000000000F",
+        "0x000000000000000D",
+        "0x000000000000000F",
+        "0x8000000000000005"
+      ],
+      "correct_answer": "0x000000000000000D",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2025T3_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 10,
+      "text": "State True or False: In inter-process communication (IPC) using shared memory, the commonly used system calls are send and receive.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 11,
+      "text": "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p4_Im6.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2025T3_Q2_NA_p4_Im1.webp",
+        "/data/images/cs4022_2025T3_Q2_NA_p4_Im3.webp",
+        "/data/images/cs4022_2025T3_Q2_NA_p4_Im4.webp",
+        "/data/images/cs4022_2025T3_Q2_NA_p4_Im6.webp",
+        "/data/images/cs4022_2025T3_Q2_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 12,
+      "text": "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p4_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "execl",
+        "execvp",
+        "execlp",
+        "exec"
+      ],
+      "correct_answer": "execlp",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2025T3_Q2_NA_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 13,
+      "text": "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "a - 1, b - 2, c - 3",
+        "a - 2, b - 1, c - 3",
+        "a - 2, b - 3, c - 1",
+        "a - 1, b - 3, c - 2"
+      ],
+      "correct_answer": "a - 1, b - 3, c - 2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2025T3_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 14,
+      "text": "What is a disadvantage associated with the Shortest Job First (SJF) scheduling algorithm in operating systems?",
+      "type": "MCQ",
+      "options": [
+        "Inefficiency for short jobs",
+        "Starvation",
+        "Lack of flexibility",
+        "None of these"
+      ],
+      "correct_answer": "Starvation",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 15,
+      "text": "In the context of response time, which of the following statements is correct for the First-Come- First-Serve (FCFS) and Round Robin scheduling algorithms?",
+      "type": "MCQ",
+      "options": [
+        "Round Robin provides the same or a lower response time compared to FCFS.",
+        "FCFS provides a lower response time compared to Round Robin.",
+        "Both FCFS and Round Robin give the same response time to each process.",
+        "None of these"
+      ],
+      "correct_answer": "Round Robin provides the same or a lower response time compared to FCFS.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 16,
+      "text": "Select all the correct statements",
+      "type": "multichoice",
+      "options": [
+        "Mutexes use busy wait while trying to acquire the lock.",
+        "Mutexes can be also implemented with spinlocks",
+        "A blocking semaphore with S initialized to 1 is similar to a mutex.",
+        "The Thundering herd problem of the mutexes can be solved using a queue."
+      ],
+      "correct_answer": [
+        "A blocking semaphore with S initialized to 1 is similar to a mutex.",
+        "The Thundering herd problem of the mutexes can be solved using a queue."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 17,
+      "text": "Choose all the correct statements regarding compiling and linking multiple C source files using gcc.",
+      "type": "multichoice",
+      "options": [
+        "The command gcc file1.c file2.c -o output produces an executable named output.",
+        "The command gcc -c file1.c file2.c -o output produces an executable named output.",
+        "The command gcc -c file1.c file2.c produces file1.o and file2.o.",
+        "The command gcc file1.o file2.o -c -o output produces an executable named output.",
+        "The command gcc file1.o file2.o -o output links the object files into an executable named output."
+      ],
+      "correct_answer": [
+        "The command gcc file1.c file2.c -o output produces an executable named output.",
+        "The command gcc -c file1.c file2.c produces file1.o and file2.o.",
+        "The command gcc file1.o file2.o -o output links the object files into an executable named output."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 18,
+      "text": "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p6_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "70",
+        "80",
+        "90",
+        "100",
+        "110",
+        "120"
+      ],
+      "correct_answer": [
+        "70",
+        "80",
+        "110"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2025T3_Q2_NA_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 19,
+      "text": "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p7_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2025T3_Q2_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 20,
+      "text": "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p8_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2025T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 21,
+      "text": "[IMAGE: /data/images/cs4022_2025T3_Q2_NA_p8_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7 to 9",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2025T3_Q2_NA_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    }
+  ],
+  "id": "cs4022-2025t3-q2-na",
+  "course_code": "CS4022",
+  "course_name": "Operating Systems",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

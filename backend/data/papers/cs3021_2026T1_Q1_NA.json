@@ -1,0 +1,465 @@
+{
+  "title": "DEGREE LEVEL : THEORY OF COMPUTATION (COMPUTER BASED EXAM)",
+  "filename": "cs3021_2026T1_Q1_NA.pdf",
+  "total_questions": 16,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : THEORY OF COMPUTATION (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider the following DFA. [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p2_Im3.webp|block] Which of the following strings are accepted by the automaton?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im2.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p2_Im3.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p2_Im4.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p2_Im5.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p2_Im6.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p3_Im2.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Which statements about [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im5.webp|inline] -closures are essential in proving NFA\u2013DFA equivalence?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im6.webp|inline] -closure ensures that all NFA states reachable without consuming input are represented.",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im7.webp|inline] -closure removes nondeterminism from the automaton.",
+        "Without [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im8.webp|inline] -closure, some accepting NFA computations may be missed by the DFA.",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im9.webp|inline] -closure guarantees that the DFA has fewer states than the NFA."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im6.webp|inline] -closure ensures that all NFA states reachable without consuming input are represented.",
+        "Without [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im8.webp|inline] -closure, some accepting NFA computations may be missed by the DFA."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p3_Im5.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p3_Im6.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p3_Im7.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p3_Im8.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p3_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider grammar: [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im10.webp|block] Which of the following statements is/are TRUE?",
+      "type": "multichoice",
+      "options": [
+        "Grammar is unambiguous",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im11.webp|inline] has exactly one parse tree",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im12.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im13.webp|inline]"
+      ],
+      "correct_answer": [
+        "Grammar is unambiguous",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im11.webp|inline] has exactly one parse tree",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p3_Im12.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p3_Im10.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p3_Im11.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p3_Im12.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p3_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Which of the following grammars is/are in Greibach Normal Form (GNF)?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im2.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im4.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im5.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Let [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im7.webp|inline] be a nondeterministic finite automaton (NFA), where: \u2022 [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im8.webp|inline] is a finite set of states with [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im9.webp|inline] , \u2022 [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im10.webp|inline] is the input alphabet, \u2022 [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im11.webp|inline] is the transition function, \u2022 [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im12.webp|inline] is the start state, \u2022 [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im13.webp|inline] is the set of accepting states with [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im14.webp|inline] . Assume that all [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im15.webp|inline] subsets of [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im16.webp|inline] are reachable during subset construction, so the equivalent DFA [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im17.webp|inline] has exactly [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p4_Im18.webp|inline] reachable states. A DFA state [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p5_Im1.webp|inline] is accepting if and only if [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p5_Im2.webp|inline] .How many accepting states does the DFA [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p5_Im3.webp|inline] have?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "48",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im7.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im8.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im9.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im10.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im11.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im12.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im13.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im14.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im15.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im16.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im17.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p4_Im18.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p5_Im1.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p5_Im2.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following nondeterministic finite automaton (NFA). The start state is [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p5_Im4.webp|inline] , and [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p5_Im5.webp|inline] is/are the only accepting state. Transition Table: [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p5_Im6.webp|block] Which of the following input strings is/are accepted by the NFA?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p5_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p5_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p5_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p5_Im12.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p5_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p5_Im11.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p5_Im4.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p5_Im5.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p5_Im6.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p5_Im8.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p5_Im10.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p5_Im11.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p5_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following languages over the alphabet [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im1.webp|inline] : [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im2.webp|block] [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im3.webp|block] It is known that [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im4.webp|inline] is a regular language and [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im5.webp|inline] is a context-free language (CFL) . Let [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im6.webp|inline] . Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "The resulting language [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im8.webp|inline] is regular.",
+        "The resulting language [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im10.webp|inline] is context-free.",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im12.webp|inline]"
+      ],
+      "correct_answer": [
+        "The resulting language [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im10.webp|inline] is context-free.",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im11.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im1.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im2.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im3.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im4.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im5.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im6.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im8.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im10.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im11.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Which of the following languages are infinite and regular ?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im13.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im14.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im15.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im16.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im13.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p6_Im15.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im13.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im14.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im15.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p6_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Let [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im1.webp|inline] and [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im2.webp|inline] . What is [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im3.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im8.webp|inline]",
+        "Empty set"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im1.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im2.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im3.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im5.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im7.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Let the alphabet be [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im9.webp|inline] . Consider the following regular expression: [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im10.webp|block] Which of the following languages is denoted by [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im11.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "All strings that either start with [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im12.webp|inline] or end with [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im13.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im14.webp|inline]",
+        "All strings containing substring [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im15.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im16.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p7_Im14.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im9.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im10.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im11.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im12.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im13.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im14.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im15.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p7_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Given the following Parse Tree. [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p8_Im1.webp|block] Which grammar generates this tree?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p8_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p8_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p8_Im1.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p8_Im3.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p8_Im5.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p8_Im6.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p8_Im8.webp|block] To prove that [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p8_Im9.webp|inline] is not regular using the Pumping Lemma, the most suitable choice of string is:",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p8_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p9_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p9_Im5.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p9_Im2.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p8_Im8.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p8_Im9.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p8_Im10.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p9_Im2.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p9_Im4.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p9_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Consider the following automaton: [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p9_Im6.webp|block] Which regular expression correctly represents the language accepted by the automaton?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p9_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p9_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p9_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p9_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3021_2026T1_Q1_NA_p9_Im7.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p9_Im6.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p9_Im7.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p9_Im8.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p9_Im9.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p9_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Given the grammar: [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p10_Im1.webp|block] After removing null productions (keep [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p10_Im2.webp|inline] if needed), what will be the total number of productions?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p10_Im1.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Let [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p10_Im3.webp|inline] be the language over [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p10_Im4.webp|inline] defined by [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p10_Im5.webp|block] What is the minimum number of states in a DFA that recognizes [IMAGE: /data/images/cs3021_2026T1_Q1_NA_p10_Im6.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3021_2026T1_Q1_NA_p10_Im3.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p10_Im4.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p10_Im5.webp",
+        "/data/images/cs3021_2026T1_Q1_NA_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Theory of Computation"
+    }
+  ],
+  "id": "cs3021-2026t1-q1-na",
+  "course_code": "CS3021",
+  "course_name": "Computer Architecture",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

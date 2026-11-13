@@ -1,0 +1,489 @@
+{
+  "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
+  "filename": "cs2002_2026T2_Q1_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Inscript Consider the following Python function: [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p1_Im3.webp|block] If the function is called as: [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p1_Im4.webp|inline] What value will the function return?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "15",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p1_Im3.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p1_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Inscript Consider a connected undirected graph [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p2_Im1.webp|inline] with [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p2_Im2.webp|inline] vertices and [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p2_Im3.webp|inline] edges. What is the minimum number of edges that must be added to [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p2_Im4.webp|inline] to make it a complete graph?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "18",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p2_Im1.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p2_Im2.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p2_Im3.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the following function: [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p2_Im5.webp|block] What is the asymptotic running time of the function?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p2_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p2_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p2_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p3_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p2_Im9.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p2_Im5.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p2_Im7.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p2_Im9.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p2_Im10.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "We have an input list of two-dimensional points: [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p3_Im3.webp|block] We sort these in ascending order by the second coordinate. Which of the following corresponds to a stable sort of this input?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p3_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p3_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p3_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p3_Im3.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p3_Im4.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p3_Im6.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p3_Im7.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p3_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the following standard implementation of the Insertion Sort algorithm: [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p3_Im9.webp|block] Suppose you pass a list L containing exactly 8 distinct elements (n = 8) into this function. What are the absolute minimum and maximum number of swap operations that could possibly execute to fully sort the list?",
+      "type": "MCQ",
+      "options": [
+        "Minimum: 0, Maximum: 36",
+        "Minimum: 0, Maximum: 28",
+        "Minimum: 7, Maximum: 36",
+        "Minimum: 7, Maximum: 28"
+      ],
+      "correct_answer": "Minimum: 0, Maximum: 28",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p3_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "You are given a non-empty list [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p4_Im3.webp|inline] of [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p4_Im4.webp|inline] integers with a specific structural property: all odd numbers appear before all even numbers in the list . Within their respective groups, the numbers are not sorted and can appear in any random order. Furthermore, the exact counts of odd and even numbers are not given and could be anything (for instance, the list could contain all odds, all evens, or any arbitrary mix of both). For example: [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p4_Im5.webp|inline] (where all odds come before all evens). What is the time complexity of the most efficient algorithm to find the exact count of odd numbers and even numbers in this list?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p4_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p4_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p4_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p4_Im3.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p4_Im4.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p4_Im5.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p4_Im6.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p4_Im7.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p4_Im8.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p4_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following partition algorithm used in Quicksort . The algorithm takes a list [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p4_Im10.webp|inline] and two 0-based indices , [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p4_Im11.webp|inline] and [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p4_Im12.webp|inline] , and uses the first element [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p4_Im13.webp|inline] as the pivot. [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p5_Im1.webp|block] Suppose the partition algorithm is called as: [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p5_Im2.webp|block] After one complete execution of [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p5_Im3.webp|inline] , what will be the state of the list [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p5_Im4.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p5_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p5_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p5_Im10.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p4_Im10.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p4_Im11.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p4_Im12.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p4_Im13.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p5_Im1.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p5_Im2.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p5_Im3.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p5_Im4.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p5_Im6.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p5_Im7.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p5_Im8.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p5_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Let Q be an initially empty queue that supports the standard queue operations Enqueue and Dequeue . The following sequence of operations is performed on Q : [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p6_Im1.webp|block] After performing the given sequence of operations, what will be the front and rear elements of queue Q ?",
+      "type": "MCQ",
+      "options": [
+        "Front: 3, Rear: 9",
+        "Front: 7, Rear: 1",
+        "Front: 7, Rear: 9",
+        "Front: 1, Rear: 9"
+      ],
+      "correct_answer": "Front: 7, Rear: 9",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following Python function for cycle detection in an undirected graph represented using an adjacency list . [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p6_Im4.webp|block] The function parameters have the following meanings: \u2022 [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im1.webp|inline] is the adjacency list representation of an undirected graph with vertices numbered from [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im2.webp|inline] to [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im3.webp|inline] . \u2022 [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im4.webp|inline] is the starting vertex from which the function is invoked. \u2022 [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im5.webp|inline] is [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im6.webp|inline] if vertex [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im7.webp|inline] has already been visited during the current traversal; otherwise it is [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im8.webp|inline] . \u2022 [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im9.webp|inline] stores the vertex from which the current vertex [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im10.webp|inline] was reached during the traversal. For the initial call, [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im11.webp|inline] may be set to [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im12.webp|inline] or [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im13.webp|inline] . Assume that: 1. The graph may contain one or more connected components. 2. The function is called exactly once from a single starting vertex [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im14.webp|inline] . 3. There is no outer loop that invokes the function on other unvisited vertices. Which of the following statements is true about the graph traversal strategy used and the portion of the graph on which cycle detection is performed?",
+      "type": "MCQ",
+      "options": [
+        "The function uses Depth-First Search (DFS) and can detect a cycle only in the connected component containing the starting vertex [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im16.webp|inline] .",
+        "The function uses Breadth-First Search (BFS) and can detect a cycle only in the connected component containing the starting vertex [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im18.webp|inline] .",
+        "The function uses Depth-First Search (DFS) and can detect cycles in all connected components of the graph.",
+        "The function uses Breadth-First Search (BFS) and can detect cycles in all connected components of the graph."
+      ],
+      "correct_answer": "The function uses Depth-First Search (DFS) and can detect a cycle only in the connected component containing the starting vertex [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im16.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p6_Im4.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im1.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im2.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im3.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im4.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im5.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im6.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im7.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im8.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im9.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im10.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im11.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im12.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im13.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im14.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im16.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im18.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider a connected, directed graph [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p7_Im19.webp|inline] on which Depth First Search (DFS) is executed. For an edge [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im1.webp|inline] in [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im2.webp|inline] , let the following be the pre and post numbers computed by DFS. [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im3.webp|block] [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im4.webp|block] Which of the following options is correct for edge [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im5.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "Edge [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im7.webp|inline] is a tree/forward edge.",
+        "Edge [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im8.webp|inline] is a cross edge.",
+        "Edge [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im10.webp|inline] is a back edge."
+      ],
+      "correct_answer": "Edge [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im10.webp|inline] is a back edge.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p7_Im19.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im1.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im2.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im3.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im4.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im5.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im7.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im8.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the following functions: \u2022 [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im11.webp|inline] \u2022 [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im12.webp|inline] \u2022 [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im13.webp|inline] Which of the following is/are True ?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im14.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im15.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im3.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p8_Im15.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im3.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im11.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im12.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im13.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im14.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p8_Im15.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im1.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "[IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im4.webp|block] Consider the following linked list structure, where each node is an object of the given class [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im5.webp|inline] and it has a [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im6.webp|inline] pointer that points to the first node of the linked list and a [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im7.webp|inline] pointer that points to the last node of the linked list. [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im8.webp|block] Which of the following operations can be completed in O(1) (constant) time.",
+      "type": "multichoice",
+      "options": [
+        "Delete the last node from the list.",
+        "Insert a new node immediately after the first node.",
+        "Insert a new node at the end of the list.",
+        "Delete a specific node given only its data value."
+      ],
+      "correct_answer": [
+        "Insert a new node immediately after the first node.",
+        "Insert a new node at the end of the list."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im4.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im5.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im6.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im7.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Let [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im10.webp|inline] be a connected, undirected graph, and let [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im11.webp|inline] be a Breadth-First Search (BFS) tree generated by running BFS on [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im12.webp|inline] starting from a source vertex [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im13.webp|inline] . Let [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im14.webp|inline] denote the shortest path distance (number of edges) from the source vertex [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im15.webp|inline] to any vertex [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p9_Im16.webp|inline] . If [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p10_Im1.webp|inline] is an edge in the original graph [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p10_Im2.webp|inline] that does NOT belong to the BFS tree [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p10_Im3.webp|inline] (i.e., a cross- edge), which of the following statements regarding their distances from the source vertex [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p10_Im4.webp|inline] are TRUE ? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "It is possible that [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p10_Im6.webp|inline]",
+        "It is possible that [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p10_Im7.webp|inline]",
+        "It is possible that [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p10_Im9.webp|inline]",
+        "It is possible that [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p10_Im10.webp|inline]"
+      ],
+      "correct_answer": [
+        "It is possible that [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p10_Im6.webp|inline]",
+        "It is possible that [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p10_Im7.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im10.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im11.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im12.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im13.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im14.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im15.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p9_Im16.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p10_Im1.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p10_Im2.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p10_Im3.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p10_Im4.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p10_Im6.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p10_Im7.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p10_Im9.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p10_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the following Directed Acyclic Graph(DAG): [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p10_Im11.webp|block] Identify the valid topological ordering(s)",
+      "type": "multichoice",
+      "options": [
+        "A, B, D, C, E",
+        "A, B, C, D, E",
+        "A, C, B, D, E",
+        "A, C, D, B, E",
+        "A, C, B, E, D"
+      ],
+      "correct_answer": [
+        "A, B, C, D, E",
+        "A, C, B, D, E"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p10_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript Consider the following implementation of the [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p11_Im1.webp|inline] function, which merges two sorted lists into a single sorted list: [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p11_Im2.webp|block] Let four sorted lists [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p11_Im3.webp|inline] and [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p11_Im4.webp|inline] , each containing 5 elements , are merged into a single sorted list using the following two-way merge strategy using above [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p11_Im5.webp|inline] function: \u2022 Merge [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p11_Im6.webp|inline] and [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p11_Im7.webp|inline] to obtain [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p11_Im8.webp|inline] . \u2022 Merge [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p12_Im1.webp|inline] and [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p12_Im2.webp|inline] to obtain [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p12_Im3.webp|inline] . \u2022 Merge [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p12_Im4.webp|inline] and [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p12_Im5.webp|inline] to obtain the final sorted list [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p12_Im6.webp|inline] . What is the maximum number of element comparisons performed by the [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p12_Im7.webp|inline] function during the entire process?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "37",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p11_Im1.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p11_Im2.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p11_Im3.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p11_Im4.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p11_Im5.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p11_Im6.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p11_Im7.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p11_Im8.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p12_Im1.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p12_Im2.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p12_Im3.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p12_Im4.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p12_Im5.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p12_Im6.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p12_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript A hash table with 8 slots (indexed [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p12_Im8.webp|inline] to [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p12_Im9.webp|inline] ) uses open addressing with linear probing ( [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p12_Im10.webp|inline] ). After inserting 5 keys, the current state of the table is shown below: [IMAGE: /data/images/cs2002_2026T2_Q1_NA_p12_Im11.webp|block] Probe Operation: A probe operation is a single check of a hash table index. Finding a key at the first checked index requires 1 probe . If the key is found after checking three indices, it requires 3 probes . Assuming each of the 5 keys currently in the table is searched for exactly once, what is the total number of probe operations required to complete all 5 successful searches?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2026T2_Q1_NA_p12_Im8.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p12_Im9.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p12_Im10.webp",
+        "/data/images/cs2002_2026T2_Q1_NA_p12_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    }
+  ],
+  "id": "cs2002-2026t2-q1-na",
+  "course_code": "CS2002",
+  "course_name": "Programming, Data Structures and Algorithms using Python",
+  "level": "Diploma in Programming",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

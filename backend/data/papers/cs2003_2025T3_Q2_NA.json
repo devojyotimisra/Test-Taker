@@ -1,0 +1,430 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)",
+  "filename": "cs2003_2025T3_Q2_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 47,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 48,
+      "text": "A client sends a signal to a satellite 36,000 km above Earth. Speed of electromagnetic waves in vacuum = 3 \u00d7 10 8 m/s. Compute RTT for client \u2194 satellite.",
+      "type": "MCQ",
+      "options": [
+        "0.24 s",
+        "0.36 s",
+        "0.48 s",
+        "0.72 s"
+      ],
+      "correct_answer": "0.24 s",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 49,
+      "text": "Consider the following flask app. [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p1_Im3.webp|block] What will be the output if you visit 127.0.0.1:5000/hello ?",
+      "type": "MCQ",
+      "options": [
+        "\"Hello World!\"",
+        "\"Home\"",
+        "404 Not Found",
+        "\"Hello /hello\""
+      ],
+      "correct_answer": "\"Hello World!\"",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 50,
+      "text": "Consider the following flask app. [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p2_Im3.webp|block] If a POST request is sent to 127.0.0.1:5000/data/5 , what will be the output on the browser?",
+      "type": "MCQ",
+      "options": [
+        "\"GET Data\"",
+        "\"Data ID: 5\"",
+        "405 Method Not Allowed",
+        "404 Not Found"
+      ],
+      "correct_answer": "405 Method Not Allowed",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 51,
+      "text": "Consider the following flask app. [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p3_Im1.webp|block] What will be the output on the browser, if you visit 127.0.0.1:5000/post/23 ?",
+      "type": "MCQ",
+      "options": [
+        "Post ID: 23",
+        "\"All posts\"",
+        "404 Not Found",
+        "Flask throws AssertionError"
+      ],
+      "correct_answer": "Post ID: 23",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 52,
+      "text": "Consider the following code: app.py [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p3_Im4.webp|block] You are running a Flask web application locally using the command: python app.py. On which URL will the application be accessible in the browser?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p4_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p4_Im6.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p3_Im4.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p4_Im2.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p4_Im3.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p4_Im4.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 53,
+      "text": "Match the Flask-RESTful components with their correct description/role: [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p4_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 \u2192 A, 2 \u2192 B, 3 \u2192 C, 4 \u2192 D",
+        "1 \u2192 E, 2 \u2192 C, 3 \u2192 B, 4 \u2192 A",
+        "1 \u2192 B, 2 \u2192 C, 3 \u2192 A, 4 \u2192 D",
+        "1 \u2192 B, 2 \u2192 C, 3 \u2192 A, 4 \u2192 E"
+      ],
+      "correct_answer": "1 \u2192 B, 2 \u2192 C, 3 \u2192 A, 4 \u2192 E",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 54,
+      "text": "What happens if you don\u2019t return a proper dictionary/JSON in Flask-Restful API methods?",
+      "type": "MCQ",
+      "options": [
+        "Returns None",
+        "Raises an error that the value is not serializable",
+        "Converts into plain text",
+        "Automatically converts into JSON format"
+      ],
+      "correct_answer": "Raises an error that the value is not serializable",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 55,
+      "text": "Consider the following table. [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p5_Im3.webp|block] Which of the following matches is correct?",
+      "type": "MCQ",
+      "options": [
+        "i - c, ii - a, iii - d, iv - b",
+        "i - d, ii - c, iii - a, iv - b",
+        "i - b, ii - c, iii - d, iv - a",
+        "i - d, ii - c, iii - b, iv - a"
+      ],
+      "correct_answer": "i - d, ii - c, iii - b, iv - a",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 56,
+      "text": "Consider the following Flask SQLalchemy code. [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p6_Im1.webp|block] What is true about the credits column?",
+      "type": "MCQ",
+      "options": [
+        "It is an auto-increment column.",
+        "If the value is not provided, it takes 3.",
+        "It is an auto-increment that starts from 3.",
+        "It can\u2019t store a value other than 3."
+      ],
+      "correct_answer": "If the value is not provided, it takes 3.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 57,
+      "text": "Consider the following Flask code: [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p6_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "return str(int(argv1)+int(argv2))",
+        "return int(argv1)+int(argv2)",
+        "return argv1+argv2",
+        "return str(int(argv1+argv2))"
+      ],
+      "correct_answer": "return str(int(argv1)+int(argv2))",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 58,
+      "text": "Consider the following Flask code: [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p7_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p7_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p7_Im6.webp|inline]"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p7_Im1.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p7_Im3.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p7_Im5.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p7_Im6.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p7_Im7.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 59,
+      "text": "Consider the URL: https://example.com:8080/index.html?user=admin#section2 Which of the following is/are True?",
+      "type": "multichoice",
+      "options": [
+        "https is the protocol.",
+        "8080 is the default port of HTTPS.",
+        "index.html is the html file which got rendered.",
+        "user=admin is part of the query string.",
+        "#section2 is sent to the server as part of the request."
+      ],
+      "correct_answer": [
+        "https is the protocol.",
+        "index.html is the html file which got rendered.",
+        "user=admin is part of the query string."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 60,
+      "text": "Match the JavaScript event binding method with its correct description: [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p8_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 \u2192 A, 2 \u2192 B, 3 \u2192 C, 4 \u2192 E",
+        "1 \u2192 B, 2 \u2192 A, 3 \u2192 C, 4 \u2192 E",
+        "1 \u2192 B, 2 \u2192 A, 3 \u2192 C, 4 \u2192 D",
+        "1 \u2192 A, 2 \u2192 B, 3 \u2192 D, 4 \u2192 C"
+      ],
+      "correct_answer": "1 \u2192 B, 2 \u2192 A, 3 \u2192 C, 4 \u2192 E",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 61,
+      "text": "Consider the following JavaScript output methods. Which of these statements is/are true ?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p9_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p9_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p9_Im3.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p9_Im4.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p9_Im5.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 62,
+      "text": "You are building a Flask-RESTful API with the following code: [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p10_Im1.webp|block] Which of the following statements is/are true?(Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p10_Im3.webp|inline] [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p10_Im5.webp|block]",
+        "",
+        "The Api class automatically handles URL routing for all resources",
+        "This API will return HTML content when accessed via a browser"
+      ],
+      "correct_answer": [
+        "",
+        "The Api class automatically handles URL routing for all resources"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p10_Im1.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p10_Im3.webp",
+        "/data/images/cs2003_2025T3_Q2_NA_p10_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 63,
+      "text": "Consider the following table students: [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p11_Im1.webp|block] Which of the following SQL queries will return the names of students who are 20 years old and have grade 'A' ?",
+      "type": "multichoice",
+      "options": [
+        "SELECT name FROM students WHERE age = 20 AND grade = 'A';",
+        "SELECT * FROM students WHERE age = 20 OR grade = 'A';",
+        "SELECT name FROM students WHERE students.age = 20 AND grade = 'A';",
+        "SELECT name FROM students WHERE student.grade = 'A' OR student.age = 20;"
+      ],
+      "correct_answer": [
+        "SELECT name FROM students WHERE age = 20 AND grade = 'A';",
+        "SELECT name FROM students WHERE students.age = 20 AND grade = 'A';"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    }
+  ],
+  "id": "cs2003-2025t3-q2-na",
+  "course_code": "CS2003",
+  "course_name": "Application Development 1",
+  "level": "Diploma in Programming",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

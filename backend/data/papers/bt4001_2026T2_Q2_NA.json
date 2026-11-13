@@ -1,0 +1,548 @@
+{
+  "title": "DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)",
+  "filename": "bt4001_2026T2_Q2_NA.pdf",
+  "total_questions": 18,
+  "total_marks": 47.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "What is the asymptotic space complexity required to store the topology of the phylogenetic tree?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im10.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im11.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im12.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im13.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im11.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im3.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im4.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im5.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im6.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im7.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im8.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im9.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im10.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im11.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im12.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An additive distance matrix [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im3.webp|inline] , defined for [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im4.webp|inline] species, requires [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im5.webp|inline] space when stored as a full distance matrix. We apply the additive phylogeny algorithm on [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im6.webp|inline] to construct a simple phylogenetic tree [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im7.webp|inline] with [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im8.webp|inline] leaves and at most [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im9.webp|inline] branching points (internal nodes), and store it to a file. Assume that every value stored in both the files including the names of the leaves are integers, and requires same amount of storage space. Answer the given subquestions with respect to the same.",
+      "group_id": "6406532194233",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "What is the asymptotic space complexity required to store the branch lengths of the phylogenetic tree?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im2.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im3.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im4.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im5.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im6.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im7.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im8.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im9.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p2_Im2.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p2_Im4.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p2_Im5.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An additive distance matrix [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im3.webp|inline] , defined for [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im4.webp|inline] species, requires [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im5.webp|inline] space when stored as a full distance matrix. We apply the additive phylogeny algorithm on [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im6.webp|inline] to construct a simple phylogenetic tree [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im7.webp|inline] with [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im8.webp|inline] leaves and at most [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im9.webp|inline] branching points (internal nodes), and store it to a file. Assume that every value stored in both the files including the names of the leaves are integers, and requires same amount of storage space. Answer the given subquestions with respect to the same.",
+      "group_id": "6406532194233",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "What is the asymptotic time complexity required to retrieve the distance between two leaves [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im7.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im8.webp|inline] using [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im9.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im10.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im11.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im12.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im13.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im10.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p2_Im7.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p2_Im8.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p2_Im9.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im3.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im4.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im5.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im6.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im7.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im8.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im9.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p2_Im10.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p2_Im11.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p2_Im12.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p2_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An additive distance matrix [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im3.webp|inline] , defined for [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im4.webp|inline] species, requires [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im5.webp|inline] space when stored as a full distance matrix. We apply the additive phylogeny algorithm on [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im6.webp|inline] to construct a simple phylogenetic tree [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im7.webp|inline] with [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im8.webp|inline] leaves and at most [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im9.webp|inline] branching points (internal nodes), and store it to a file. Assume that every value stored in both the files including the names of the leaves are integers, and requires same amount of storage space. Answer the given subquestions with respect to the same.",
+      "group_id": "6406532194233",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Suppose the distance matrix [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p2_Im14.webp|inline] is not available, and only the files containing information on the phylogenetic tree are accessible. Then, what is the asymptotic time complexity required to retrieve the distance between two leaves [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im1.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im2.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im7.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im6.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p2_Im14.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p3_Im1.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p3_Im2.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im3.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im4.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im5.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im6.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im7.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im8.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p1_Im9.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p3_Im4.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p3_Im6.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p3_Im7.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p3_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An additive distance matrix [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im3.webp|inline] , defined for [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im4.webp|inline] species, requires [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im5.webp|inline] space when stored as a full distance matrix. We apply the additive phylogeny algorithm on [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im6.webp|inline] to construct a simple phylogenetic tree [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im7.webp|inline] with [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im8.webp|inline] leaves and at most [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p1_Im9.webp|inline] branching points (internal nodes), and store it to a file. Assume that every value stored in both the files including the names of the leaves are integers, and requires same amount of storage space. Answer the given subquestions with respect to the same.",
+      "group_id": "6406532194233",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "What is the nucleotide at position (i) in the given set of motifs?",
+      "type": "MCQ",
+      "options": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "correct_answer": "G",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p3_Im9.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p3_Im10.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p3_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the profile matrix given below. [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im9.webp|inline] [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im10.webp|block] This profile matrix was computed from a set of five motifs as shown below. Three nucleotides in the motif set are missing. Use the given profile matrix above to infer the missing nucleotides and answer the given subquestions with respect to the same. [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im11.webp|block]",
+      "group_id": "6406532194238",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Determine the nucleotide/s at positions (ii) and (iii).",
+      "type": "MCQ",
+      "options": [
+        "A",
+        "C",
+        "G",
+        "T"
+      ],
+      "correct_answer": "T",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p3_Im9.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p3_Im10.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p3_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the profile matrix given below. [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im9.webp|inline] [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im10.webp|block] This profile matrix was computed from a set of five motifs as shown below. Three nucleotides in the motif set are missing. Use the given profile matrix above to infer the missing nucleotides and answer the given subquestions with respect to the same. [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p3_Im11.webp|block]",
+      "group_id": "6406532194238",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript Calculate [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p4_Im5.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p4_Im5.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p4_Im3.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following distance matrix [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p4_Im3.webp|inline] . [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p4_Im4.webp|block] Answer the given subquestions with respect to the same.",
+      "group_id": "6406532194242",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Suppose the UPGMA algorithm is applied to this distance matrix. Which of the following pair(s) of leaves can be merged first?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im2.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im2.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im5.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p4_Im3.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p4_Im4.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im2.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im4.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im5.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following distance matrix [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p4_Im3.webp|inline] . [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p4_Im4.webp|block] Answer the given subquestions with respect to the same.",
+      "group_id": "6406532194242",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following procedure for assigning strings to nodes of a suffix tree [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im7.webp|inline] constructed from the string [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im8.webp|inline] . Here, [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im9.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im10.webp|inline] represent the set of nodes and edges of [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im11.webp|inline] respectively. Which of the following correctly describes the string assigned to a leaf [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im12.webp|inline] of the suffix tree? [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im13.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A prefix of [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im14.webp|inline] .",
+        "A suffix of [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im15.webp|inline] .",
+        "Any random substring of [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im2.webp|inline] .",
+        "Any random subsequence of [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im3.webp|inline] .",
+        "Cannot be determined from the information provided"
+      ],
+      "correct_answer": "A suffix of [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p5_Im15.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im7.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im8.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im9.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im10.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im11.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im12.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im13.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im14.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p5_Im15.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im2.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "The waiting time [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im4.webp|inline] (in arbitrary units) between successive transcription-initiation events at a promoter is modelled by the density [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im5.webp|block] Find the maximum likelihood estimate of the parameter [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im6.webp|inline] for a sample of unit size [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im7.webp|inline] , with [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im8.webp|inline] being the observed sample value.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im10.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im11.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im12.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im13.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im10.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im4.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im5.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im6.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im7.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im8.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im10.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im11.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im12.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "A researcher clusters tumour samples using vanilla soft [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im14.webp|inline] -means and steadily increases the stiffness parameter [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im15.webp|inline] towards very large values. Which statement best describes the behaviour of the algorithm, and what does the corresponding GMM assumption imply?",
+      "type": "MCQ",
+      "options": [
+        "Every sample tends to receive responsibility [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im16.webp|inline] for all clusters; this corresponds to [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p6_Im17.webp|inline] .",
+        "Assignments become winner-takes-all, recovering hard [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im1.webp|inline] -means; since [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im2.webp|inline] , this corresponds to [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im3.webp|inline] .",
+        "Assignments become winner-takes-all, recovering hard [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im5.webp|inline] -means; since [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im6.webp|inline] , this corresponds to [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im7.webp|inline] .",
+        "The mixing proportions [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im8.webp|inline] become unequal, allowing clusters of different sizes."
+      ],
+      "correct_answer": "Assignments become winner-takes-all, recovering hard [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im1.webp|inline] -means; since [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im2.webp|inline] , this corresponds to [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im3.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im14.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im15.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im16.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p6_Im17.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p7_Im1.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p7_Im2.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p7_Im3.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p7_Im5.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p7_Im6.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p7_Im7.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript You are asked to construct the suffix array of an alien DNA sequence of length [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im9.webp|inline] , where the sequence includes the symbol [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im10.webp|inline] . If the alien DNA is composed of [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im11.webp|inline] different types of nucleotides, then what is the number of entries in the suffix array?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "17",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p7_Im9.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p7_Im10.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p7_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Determine which among the following is the reference DNA sequence?",
+      "type": "MCQ",
+      "options": [
+        "TTGTCCCCCGGGT$",
+        "TTGTCAACTGGGT$",
+        "ATGTCAACCGGGT$",
+        "ATGTCAACCGGGG$",
+        "TTTGCAACCGGGT$"
+      ],
+      "correct_answer": "ATGTCAACCGGGT$",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p7_Im12.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You join a job that involves working on sample reads for disease [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im12.webp|inline] . The figure given below represents the suffix trie of the reference human genome (for a healthy person). [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p8_Im1.webp|block] Answer the given subquestions with respect to the same.",
+      "group_id": "6406532194246",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "In this simplified model, assume a person [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p9_Im3.webp|inline] does not have the disease [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p9_Im4.webp|inline] (i.e., [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p9_Im5.webp|inline] is healthy) if the sample read collected (from [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p9_Im6.webp|inline] ) does not have any mutation. The options given below are the reads collected from different individuals. Determine which among these individuals is/are healthy?",
+      "type": "multichoice",
+      "options": [
+        "TTAC",
+        "GTCA",
+        "ATGT",
+        "GGCC"
+      ],
+      "correct_answer": [
+        "GTCA",
+        "ATGT"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p9_Im3.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p9_Im4.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p9_Im5.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p9_Im6.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p7_Im12.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You join a job that involves working on sample reads for disease [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p7_Im12.webp|inline] . The figure given below represents the suffix trie of the reference human genome (for a healthy person). [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p8_Im1.webp|block] Answer the given subquestions with respect to the same.",
+      "group_id": "6406532194246",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Given the profile matrix of a set of motifs, find the profile-most probable [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p9_Im7.webp|inline] -mer in the sequence ATGTGCA. [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p9_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "ATGT",
+        "TGTG",
+        "GTGC",
+        "TGCA"
+      ],
+      "correct_answer": "ATGT",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p9_Im7.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p9_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "A set of gene expression profiles is clustered into two co-expression modules using soft [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im1.webp|inline] -means. For a particular gene, the distance of its expression vector from the two module centroids is [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im2.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im3.webp|inline] , respectively. Using the soft [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im4.webp|inline] -means formula with stiffness [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im5.webp|inline] , compute the probabilities that this gene belongs to each module. The probability formula is: [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im6.webp|block] What are the probabilities [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im7.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im8.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im10.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im11.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im12.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im13.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im15.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im16.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im17.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im18.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im15.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im16.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im1.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im2.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im3.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im4.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im5.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im6.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im7.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im8.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im10.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im11.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im12.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im13.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im15.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im16.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im17.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im18.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "The GC-content distribution of a bacterial metagenome is modelled as a two-component Gaussian Mixture Model, where each component corresponds to a distinct taxonomic bin: \u2022 Component 1: Mean [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im19.webp|inline] , Variance [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im20.webp|inline] , Weight [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im21.webp|inline] \u2022 Component 2: Mean [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im22.webp|inline] , Variance [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im23.webp|inline] , Weight [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im24.webp|inline] Given a contig with normalized GC score [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im25.webp|inline] , calculate the responsibilities (posterior probabilities) for each component. Hint: [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p10_Im26.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p11_Im2.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p11_Im3.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p11_Im4.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p11_Im6.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p11_Im7.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p11_Im9.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p11_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_Q2_NA_p11_Im9.webp|inline] , [IMAGE: /data/images/bt4001_2026T2_Q2_NA_p11_Im10.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im19.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im20.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im21.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im22.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im23.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im24.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im25.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p10_Im26.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p11_Im2.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p11_Im3.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p11_Im4.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p11_Im5.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p11_Im6.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p11_Im7.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p11_Im9.webp",
+        "/data/images/bt4001_2026T2_Q2_NA_p11_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    }
+  ],
+  "id": "bt4001-2026t2-q2-na",
+  "course_code": "BT4001",
+  "course_name": "Computational Biology",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

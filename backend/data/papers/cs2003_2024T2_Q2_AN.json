@@ -1,0 +1,448 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)",
+  "filename": "cs2003_2024T2_Q2_AN.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 33,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 34,
+      "text": "Read the statements given below carefully and select the correct option. Statement 1 : The GET method is the same as the HEAD method. It is used to transfer the header section only. Statement 2 : The GET method retrieves information from the given server using a given URI.GET request can retrieve the data.",
+      "type": "MCQ",
+      "options": [
+        "Both statements 1 and 2 are correct",
+        "Both statements 1 and 2 are incorrect",
+        "Statement 1 is correct but statement 2 is incorrect",
+        "Statement 1 is incorrect but statement 2 is correct"
+      ],
+      "correct_answer": "Statement 1 is incorrect but statement 2 is correct",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 35,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "One to One",
+        "One to Many",
+        "Many to Many",
+        "Many to One"
+      ],
+      "correct_answer": "Many to Many",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 36,
+      "text": "A certain video on the web occupies 3 gigabytes of memory of the server. If the number of viewers of the video over time is given by the curve shown below and assuming that each viewer requires an individual connection to the server to view the video, what should be the minimum RAM requirement of the server that can process requests from all the viewers simultaneously at any point of time? [IMAGE: /data/images/cs2003_2024T2_Q2_AN_p2_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1.9 GB",
+        "5.7 GB",
+        "1.9 TB",
+        "5.7 TB"
+      ],
+      "correct_answer": "5.7 TB",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 37,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p3_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p3_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p4_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p3_Im5.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p3_Im1.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p3_Im5.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p3_Im6.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 38,
+      "text": "Consider the following Python code snippet, and select the correct output list if the code is run on the terminal. [IMAGE: /data/images/cs2003_2024T2_Q2_AN_p4_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[0.25, 1, 4, 6.26, 12.25, 20.25]",
+        "[1, 4, 0.25, 12.25, 6.25, 20.25]",
+        "[40.5, 12.5, 24.5, 0.5, 8.0, 2.0]",
+        "[0.5, 2.0, 8.0, 12.5, 24.5, 40.5]"
+      ],
+      "correct_answer": "[40.5, 12.5, 24.5, 0.5, 8.0, 2.0]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 39,
+      "text": "Consider the following flask application. [IMAGE: /data/images/cs2003_2024T2_Q2_AN_p5_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p5_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p6_Im1.webp|block]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p5_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p6_Im1.webp|block]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p5_Im1.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p5_Im5.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p5_Im6.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 40,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p6_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "http://127.0.0.1:5000/api/ver1/12727",
+        "http://127.0.0.1:5000/api/12727",
+        "http://127.0.0.1:5000/ver2/12727",
+        "http://127.0.0.1:5000/api/ver2"
+      ],
+      "correct_answer": [
+        "http://127.0.0.1:5000/api/ver1/12727",
+        "http://127.0.0.1:5000/api/ver2"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 41,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p7_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p8_Im1.webp|block] [IMAGE: /data/images/cs2003_2024T2_Q2_AN_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p8_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p8_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p8_Im6.webp|block]",
+        ""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p7_Im2.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p7_Im1.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p8_Im1.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p8_Im3.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p8_Im5.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p7_Im1.webp|block]",
+      "group_id": "640653852361",
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 42,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p8_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p8_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p8_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p8_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p8_Im11.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p8_Im11.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p8_Im7.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p7_Im1.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p8_Im8.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p8_Im9.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p8_Im10.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p8_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p7_Im1.webp|block]",
+      "group_id": "640653852361",
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 43,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p9_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "http://127.0.0.1:5000/103",
+        "http://127.0.0.1:5000/user/103",
+        "http://127.0.0.1:5000?id=103",
+        "http://127.0.0.1:5000/user?id=103"
+      ],
+      "correct_answer": [
+        "http://127.0.0.1:5000/user/103",
+        "http://127.0.0.1:5000/user?id=103"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p9_Im2.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p9_Im1.webp|block]",
+      "group_id": "640653852368",
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 44,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p10_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p10_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p10_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p10_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p10_Im7.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p10_Im3.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p9_Im1.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p10_Im4.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p10_Im5.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p10_Im6.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p10_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p9_Im1.webp|block]",
+      "group_id": "640653852368",
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 45,
+      "text": "You have a DRAM module with bus width of 64 bits, clock speed of 400 MHz, and operating in DDR (double-data-rate or two values per clock cycle) mode. What is the maximum memory bandwidth in Gigabytes per second achievable with this module if it is working in dual channel mode (two memory interfaces are used)?",
+      "type": "MCQ",
+      "options": [
+        "51.2",
+        "102.4",
+        "25.6",
+        "12.8"
+      ],
+      "correct_answer": "12.8",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 46,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p11_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p11_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p12_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p12_Im1.webp|block]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p11_Im1.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p11_Im4.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p11_Im5.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 47,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p12_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p12_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p13_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p13_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p13_Im4.webp|block]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p12_Im2.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p12_Im5.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p13_Im2.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p13_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 48,
+      "text": "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p13_Im5.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p13_Im7.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p14_Im1.webp|block] [IMAGE: /data/images/cs2003_2024T2_Q2_AN_p14_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2024T2_Q2_AN_p14_Im1.webp|block] [IMAGE: /data/images/cs2003_2024T2_Q2_AN_p14_Im3.webp|block]",
+        ""
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p13_Im5.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p13_Im7.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p14_Im1.webp",
+        "/data/images/cs2003_2024T2_Q2_AN_p14_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 49,
+      "text": "Consider the following HTML Document and select the correct statement(s) from the following if a user types the password \u201cmad1password\u201d in the password field letter by letter. [IMAGE: /data/images/cs2003_2024T2_Q2_AN_p14_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The HTML form is integrated with backend validation.",
+        "The HTML form is integrated with Frontend HTML5 validation.",
+        "The background colour of the password field remains red for the first 4 letters, then turns green for the next 4 letters, and then again turns red for the remaining letters.",
+        "The background colour of the password field remains red for the first 4 letters, then turns green for the next 4 letters, and then remains green for the remaining allowable letters."
+      ],
+      "correct_answer": [
+        "The HTML form is integrated with Frontend HTML5 validation.",
+        "The background colour of the password field remains red for the first 4 letters, then turns green for the next 4 letters, and then remains green for the remaining allowable letters."
+      ],
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2024T2_Q2_AN_p14_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    }
+  ],
+  "id": "cs2003-2024t2-q2-an",
+  "course_code": "CS2003",
+  "course_name": "Application Development 1",
+  "level": "Diploma in Programming",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "Quiz 2",
+  "session": "Afternoon"
+}

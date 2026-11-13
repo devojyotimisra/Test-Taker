@@ -1,0 +1,1188 @@
+{
+  "title": "DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
+  "filename": "cs4021_2024T2_ET_FN.pdf",
+  "total_questions": 54,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 324,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 325,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "At each iteration, pick the remaining request with the fewest number of conflicts with other remaining requests (breaking ties arbitrarily).",
+        "At each iteration, pick the remaining request with the earliest start time.",
+        "At each iteration, pick the remaining request with the earliest finish time.",
+        "At each iteration, pick the remaining request which requires the least time (i.e., has the smallest value of t i \u2014 s i ) (breaking ties arbitrarily)."
+      ],
+      "correct_answer": "At each iteration, pick the remaining request with the earliest finish time.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 326,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p1_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p1_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p1_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p1_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p1_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p1_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p1_Im6.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p1_Im4.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p1_Im5.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p1_Im6.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p1_Im7.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p1_Im8.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p1_Im9.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p1_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 327,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Neither algorithm always correctly determines whether or not a given tree graph has a perfect matching.",
+        "Both algorithms always correctly determine whether or not a given tree graph has a perfect matching.",
+        "Algorithm B always correctly determines whether or not a given tree graph has a perfect matching; algorithm A does not.",
+        "Algorithm A always correctly determines whether or not a given tree graph has a perfect matching; algorithm B does not."
+      ],
+      "correct_answer": "Algorithm B always correctly determines whether or not a given tree graph has a perfect matching; algorithm A does not.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 328,
+      "text": "Which of the following statements is true? Statement 1: For every graph G and every maximum flow on G , there always exists an edge such that increasing the capacity on that edge will increase the maximum flow that\u2019s possible in the graph. Statement 2: Suppose the maximum ( s,t )-flow of some graph has value f . Now we increase the capacity of every edge by 1. Then the maximum ( s,t )-flow in this modified graph will have value at most f + 1.",
+      "type": "MCQ",
+      "options": [
+        "Statement 1",
+        "Statement 2",
+        "Both statements",
+        "Neither statement"
+      ],
+      "correct_answer": "Neither statement",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 329,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes, this is a valid set of constraints.",
+        "No, the sum in the objective function should be taken only over neighbors of u .",
+        "No, the sum in the second constraint should be taken only over in-neighbors of v and out-neighbors of v , respectively."
+      ],
+      "correct_answer": "Yes, this is a valid set of constraints.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 330,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p4_Im1.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p4_Im3.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p4_Im4.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p4_Im6.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 331,
+      "text": "A subset S of vertices in an undirected graph G is half-independent if each vertex in S is adjacent to at most one other vertex in S . Is it true that finding the size of the largest half-independent set of vertices in a given undirected graph is NP-hard?",
+      "type": "MCQ",
+      "options": [
+        "Yes, this can be shown by a reduction from the standard maximum independent set problem.",
+        "Yes, and this can be shown by reducing the half-independent set problem to the standard maximum independent set problem.",
+        "No, the problem of finding a largest half-independent set of vertices is in P since it can be reduced to the problem of finding a maximum matching."
+      ],
+      "correct_answer": "Yes, this can be shown by a reduction from the standard maximum independent set problem.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 332,
+      "text": "Can the disk with dimensions [2,1,2] be placed above [3,2,3]?",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im8.webp|block]",
+      "group_id": "640653907066",
+      "section_name": null
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 333,
+      "text": "Can the disk with dimensions [2,2,2] be placed above [3,2,3]?",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "NO",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im8.webp|block]",
+      "group_id": "640653907066",
+      "section_name": null
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 334,
+      "text": "Suppose the input consists of the following triplets: [[3, 5, 7], [3, 2, 2], [3, 1, 1], [5, 5, 9]]. What\u2019s the answer?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im8.webp|block]",
+      "group_id": "640653907066",
+      "section_name": null
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 335,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "This approach is correct.",
+        "This approach is incorrect, because we might miss some disks that can be placed on top of d i ,as the given array may not be sorted by height.",
+        "This approach is incorrect because the values we are looking up may not be computed correctly when we need them."
+      ],
+      "correct_answer": "This approach is incorrect, because we might miss some disks that can be placed on top of d i ,as the given array may not be sorted by height.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p6_Im1.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im8.webp|block]",
+      "group_id": "640653907066",
+      "section_name": null
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 336,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p6_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "This approach is correct.",
+        "This approach is incorrect, because we might miss some disks that can be placed on top of d i , as the given array may not be sorted by height.",
+        "This approach is incorrect because the values we are looking up may not be computed correctly when we need them."
+      ],
+      "correct_answer": "This approach is incorrect because the values we are looking up may not be computed correctly when we need them.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p6_Im4.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im8.webp|block]",
+      "group_id": "640653907066",
+      "section_name": null
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 337,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "This approach is correct.",
+        "This approach is incorrect, because we might miss some disks that can be placed on top of d i , as the given array may not be sorted by height.",
+        "This approach is incorrect because the values we are looking up may not be computed correctly when we need them."
+      ],
+      "correct_answer": "This approach is correct.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p7_Im1.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im8.webp|block]",
+      "group_id": "640653907066",
+      "section_name": null
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 338,
+      "text": "What is the complexity of this algorithm?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p7_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p7_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p4_Im8.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p7_Im4.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p7_Im5.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p7_Im6.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p4_Im8.webp|block]",
+      "group_id": "640653907066",
+      "section_name": null
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 339,
+      "text": "If we have 1 die with 6 sides, how many ways can we achieve a target sum of 4?",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "We are given a set of N dice, each with S sides, and a target integer T , which represents a target sum to obtain when rolling all of the dice and summing their values. Your goal is to determine the total number of dice-roll permutations that sum up to exactly that target value. All three input values will always be positive integers. Each of the dice has an equal probability of landing on any number from 1 to S . Identical total dice rolls obtained from different individual dice rolls (for example, [2, 3] vs. [3, 2]) count as different dice-roll permutations. If there\u2019s no possible dice-roll combination that sums up to the target given the input dice, the answer is zero.",
+      "group_id": "640653907074",
+      "section_name": null
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 340,
+      "text": "If we have 3 dice with 17 sides each, how many ways can we achieve a target sum of 7?",
+      "type": "MCQ",
+      "options": [
+        "10",
+        "15",
+        "17",
+        "18"
+      ],
+      "correct_answer": "15",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "We are given a set of N dice, each with S sides, and a target integer T , which represents a target sum to obtain when rolling all of the dice and summing their values. Your goal is to determine the total number of dice-roll permutations that sum up to exactly that target value. All three input values will always be positive integers. Each of the dice has an equal probability of landing on any number from 1 to S . Identical total dice rolls obtained from different individual dice rolls (for example, [2, 3] vs. [3, 2]) count as different dice-roll permutations. If there\u2019s no possible dice-roll combination that sums up to the target given the input dice, the answer is zero.",
+      "group_id": "640653907074",
+      "section_name": null
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 341,
+      "text": "Suppose the input consists of 3 dice, each with 4 sides, and the target sum is 9. What\u2019s the answer?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "We are given a set of N dice, each with S sides, and a target integer T , which represents a target sum to obtain when rolling all of the dice and summing their values. Your goal is to determine the total number of dice-roll permutations that sum up to exactly that target value. All three input values will always be positive integers. Each of the dice has an equal probability of landing on any number from 1 to S . Identical total dice rolls obtained from different individual dice rolls (for example, [2, 3] vs. [3, 2]) count as different dice-roll permutations. If there\u2019s no possible dice-roll combination that sums up to the target given the input dice, the answer is zero.",
+      "group_id": "640653907074",
+      "section_name": null
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 342,
+      "text": "In which of the following scenarios will the answer be zero?",
+      "type": "multichoice",
+      "options": [
+        "The target sum is less than the number of dice.",
+        "The target sum is greater than SN , the product of the number of dice and the number of sides.",
+        "The target sum is not divisible by the number of dice.",
+        "The target sum is equal to the number of dice."
+      ],
+      "correct_answer": [
+        "The target sum is less than the number of dice.",
+        "The target sum is greater than SN , the product of the number of dice and the number of sides."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "We are given a set of N dice, each with S sides, and a target integer T , which represents a target sum to obtain when rolling all of the dice and summing their values. Your goal is to determine the total number of dice-roll permutations that sum up to exactly that target value. All three input values will always be positive integers. Each of the dice has an equal probability of landing on any number from 1 to S . Identical total dice rolls obtained from different individual dice rolls (for example, [2, 3] vs. [3, 2]) count as different dice-roll permutations. If there\u2019s no possible dice-roll combination that sums up to the target given the input dice, the answer is zero.",
+      "group_id": "640653907074",
+      "section_name": null
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 343,
+      "text": "If we have one die with six sides, what are the achievable targets?",
+      "type": "MCQ",
+      "options": [
+        "0, 1, 2, 3, 4, 5, 6",
+        "1, 2, 3, 4, 5, 6",
+        "1, 2, 3, 4, 5, 6, 7",
+        "0, 1, 2, 3, 4, 5, 6, 7"
+      ],
+      "correct_answer": "1, 2, 3, 4, 5, 6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "We are given a set of N dice, each with S sides, and a target integer T , which represents a target sum to obtain when rolling all of the dice and summing their values. Your goal is to determine the total number of dice-roll permutations that sum up to exactly that target value. All three input values will always be positive integers. Each of the dice has an equal probability of landing on any number from 1 to S . Identical total dice rolls obtained from different individual dice rolls (for example, [2, 3] vs. [3, 2]) count as different dice-roll permutations. If there\u2019s no possible dice-roll combination that sums up to the target given the input dice, the answer is zero.",
+      "group_id": "640653907074",
+      "section_name": null
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 344,
+      "text": "Let DP[ N,T ] denote the number of ways to achieve a target sum of T > 0 using N > 0 dice. Which of the following recursive formulas is correct if all the dice have S sides?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p10_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p9_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p9_Im3.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p9_Im4.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p9_Im5.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "We are given a set of N dice, each with S sides, and a target integer T , which represents a target sum to obtain when rolling all of the dice and summing their values. Your goal is to determine the total number of dice-roll permutations that sum up to exactly that target value. All three input values will always be positive integers. Each of the dice has an equal probability of landing on any number from 1 to S . Identical total dice rolls obtained from different individual dice rolls (for example, [2, 3] vs. [3, 2]) count as different dice-roll permutations. If there\u2019s no possible dice-roll combination that sums up to the target given the input dice, the answer is zero.",
+      "group_id": "640653907074",
+      "section_name": null
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 345,
+      "text": "What is the value of DP[0, 0]?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "We are given a set of N dice, each with S sides, and a target integer T , which represents a target sum to obtain when rolling all of the dice and summing their values. Your goal is to determine the total number of dice-roll permutations that sum up to exactly that target value. All three input values will always be positive integers. Each of the dice has an equal probability of landing on any number from 1 to S . Identical total dice rolls obtained from different individual dice rolls (for example, [2, 3] vs. [3, 2]) count as different dice-roll permutations. If there\u2019s no possible dice-roll combination that sums up to the target given the input dice, the answer is zero.",
+      "group_id": "640653907074",
+      "section_name": null
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 346,
+      "text": "What is the value of DP[0, T ] for any T > 0?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "We are given a set of N dice, each with S sides, and a target integer T , which represents a target sum to obtain when rolling all of the dice and summing their values. Your goal is to determine the total number of dice-roll permutations that sum up to exactly that target value. All three input values will always be positive integers. Each of the dice has an equal probability of landing on any number from 1 to S . Identical total dice rolls obtained from different individual dice rolls (for example, [2, 3] vs. [3, 2]) count as different dice-roll permutations. If there\u2019s no possible dice-roll combination that sums up to the target given the input dice, the answer is zero.",
+      "group_id": "640653907074",
+      "section_name": null
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 347,
+      "text": "What is the value of DP[ N , 0] for any N > 0?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "We are given a set of N dice, each with S sides, and a target integer T , which represents a target sum to obtain when rolling all of the dice and summing their values. Your goal is to determine the total number of dice-roll permutations that sum up to exactly that target value. All three input values will always be positive integers. Each of the dice has an equal probability of landing on any number from 1 to S . Identical total dice rolls obtained from different individual dice rolls (for example, [2, 3] vs. [3, 2]) count as different dice-roll permutations. If there\u2019s no possible dice-roll combination that sums up to the target given the input dice, the answer is zero.",
+      "group_id": "640653907074",
+      "section_name": null
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 348,
+      "text": "What is the value of DP[ N , T ] if T < N ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "We are given a set of N dice, each with S sides, and a target integer T , which represents a target sum to obtain when rolling all of the dice and summing their values. Your goal is to determine the total number of dice-roll permutations that sum up to exactly that target value. All three input values will always be positive integers. Each of the dice has an equal probability of landing on any number from 1 to S . Identical total dice rolls obtained from different individual dice rolls (for example, [2, 3] vs. [3, 2]) count as different dice-roll permutations. If there\u2019s no possible dice-roll combination that sums up to the target given the input dice, the answer is zero.",
+      "group_id": "640653907074",
+      "section_name": null
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 349,
+      "text": "What is the complexity of this algorithm ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p11_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p11_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p11_Im2.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p11_Im2.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p11_Im4.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p11_Im5.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p11_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "We are given a set of N dice, each with S sides, and a target integer T , which represents a target sum to obtain when rolling all of the dice and summing their values. Your goal is to determine the total number of dice-roll permutations that sum up to exactly that target value. All three input values will always be positive integers. Each of the dice has an equal probability of landing on any number from 1 to S . Identical total dice rolls obtained from different individual dice rolls (for example, [2, 3] vs. [3, 2]) count as different dice-roll permutations. If there\u2019s no possible dice-roll combination that sums up to the target given the input dice, the answer is zero.",
+      "group_id": "640653907074",
+      "section_name": null
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 350,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p12_Im1.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p11_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p11_Im7.webp|block]",
+      "group_id": "640653907088",
+      "section_name": null
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 351,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p12_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p12_Im4.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p11_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p11_Im7.webp|block]",
+      "group_id": "640653907088",
+      "section_name": null
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 352,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p12_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p12_Im5.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p11_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p11_Im7.webp|block]",
+      "group_id": "640653907088",
+      "section_name": null
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 353,
+      "text": "Let G be an undirected connected graph and T be a depth-first search (DFS) tree of G rooted at a vertex r . An edge of G is called a back edge if the endpoints of the edge are on the same root to leaf path in T . That is, an edge is from a vertex to one of its ancestors in the DFS tree. An edge that is not a back edge is called a cross edge . Indeed, such an edge points from a vertex to a previously visited vertex that is neither an ancestor nor a descendant. Which of the following statements are true?",
+      "type": "multichoice",
+      "options": [
+        "There are no back edges in G .",
+        "There are no cross edges in G .",
+        "DFS can be used to test whether G has a Hamiltonian path.",
+        "The set of leaves of T forms an independent set in G ."
+      ],
+      "correct_answer": [
+        "There are no cross edges in G .",
+        "The set of leaves of T forms an independent set in G ."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "In this given subquestion, we will examine the relationship of treewidth with other graph parameters.",
+      "group_id": "640653907092",
+      "section_name": null
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 354,
+      "text": "Let G be an undirected connected graph and T be a depth-first search (DFS) tree of G rooted at a vertex r . Depth of T is the length of a longest path from root to a leaf. Let q be the depth of T . Which of the following statements are true?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p13_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p13_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p13_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p13_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p13_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p13_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p13_Im3.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p13_Im4.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p13_Im5.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p13_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In this given subquestion, we will examine the relationship of treewidth with other graph parameters.",
+      "group_id": "640653907092",
+      "section_name": null
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 355,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p13_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p14_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p14_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p14_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p13_Im7.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p14_Im4.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p14_Im5.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p14_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In this given subquestion, we will examine the relationship of treewidth with other graph parameters.",
+      "group_id": "640653907092",
+      "section_name": null
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 356,
+      "text": "If the ILP is feasible, its optimal solution must be greater than or equal to 54.3",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Suppose we are given an ILP which seeks to minimize an objective functions subject to constraints. We solve the LP relaxation and find an optimal solution with the objective evaluating to 54.3. What can you say about the original ILP?",
+      "group_id": "640653907100",
+      "section_name": null
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 357,
+      "text": "If the ILP is feasible, its optimal solution must be less than or equal to 54.3.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Suppose we are given an ILP which seeks to minimize an objective functions subject to constraints. We solve the LP relaxation and find an optimal solution with the objective evaluating to 54.3. What can you say about the original ILP?",
+      "group_id": "640653907100",
+      "section_name": null
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 358,
+      "text": "It is possible that the ILP\u2019s optimal solution (if it exists) will be 50 \u00d710 2331 .",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Suppose we are given an ILP which seeks to minimize an objective functions subject to constraints. We solve the LP relaxation and find an optimal solution with the objective evaluating to 54.3. What can you say about the original ILP?",
+      "group_id": "640653907100",
+      "section_name": null
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 359,
+      "text": "It is possible that the ILP\u2019s optimal solution (if it exists) will also be 54.3.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Suppose we are given an ILP which seeks to minimize an objective functions subject to constraints. We solve the LP relaxation and find an optimal solution with the objective evaluating to 54.3. What can you say about the original ILP?",
+      "group_id": "640653907100",
+      "section_name": null
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 360,
+      "text": "The ILP is guaranteed to be feasible.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Suppose we are given an ILP which seeks to minimize an objective functions subject to constraints. We solve the LP relaxation and find an optimal solution with the objective evaluating to 54.3. What can you say about the original ILP?",
+      "group_id": "640653907100",
+      "section_name": null
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "original_number": 361,
+      "text": "What is the size of each A i ?",
+      "type": "MCQ",
+      "options": [
+        "3 n",
+        "2 n",
+        "n 3",
+        "n 2"
+      ],
+      "correct_answer": "2 n",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p15_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p15_Im3.webp|block]",
+      "group_id": "640653907109",
+      "section_name": null
+    },
+    {
+      "id": 39,
+      "number": 39,
+      "original_number": 362,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p16_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "2 n",
+        "n",
+        "1",
+        "0"
+      ],
+      "correct_answer": "1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p16_Im3.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p15_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p15_Im3.webp|block]",
+      "group_id": "640653907109",
+      "section_name": null
+    },
+    {
+      "id": 40,
+      "number": 40,
+      "original_number": 363,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p16_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "3 n",
+        "2 n",
+        "1",
+        "0"
+      ],
+      "correct_answer": "0",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p16_Im4.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p15_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p15_Im3.webp|block]",
+      "group_id": "640653907109",
+      "section_name": null
+    },
+    {
+      "id": 41,
+      "number": 41,
+      "original_number": 364,
+      "text": "For n = 4, calculate the number of sequences of length 3 consisting only of numbers 0, 1, and 2 such that each number occurs at least once.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "36",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p15_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p15_Im3.webp|block]",
+      "group_id": "640653907109",
+      "section_name": null
+    },
+    {
+      "id": 42,
+      "number": 42,
+      "original_number": 365,
+      "text": "For n = 6, calculate the number of sequences of length 5 consisting only of numbers 0, 1, and 2 such that each number occurs at least once.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "540",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p15_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p15_Im3.webp|block]",
+      "group_id": "640653907109",
+      "section_name": null
+    },
+    {
+      "id": 43,
+      "number": 43,
+      "original_number": 366,
+      "text": "How many numbers in the interval [1; r ] are divisible by p i ? The answer to this question is:",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p17_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p17_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p17_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p17_Im1.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p17_Im3.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p17_Im5.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im2.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p17_Im1.webp|block]",
+      "group_id": "640653907106",
+      "section_name": null
+    },
+    {
+      "id": 44,
+      "number": 44,
+      "original_number": 367,
+      "text": "The final answer is:",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p17_Im1.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im5.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im6.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p17_Im1.webp|block]",
+      "group_id": "640653907106",
+      "section_name": null
+    },
+    {
+      "id": 45,
+      "number": 45,
+      "original_number": 368,
+      "text": "A graph G is a cluster graph if and only if it does not have an induced path on 3 vertices.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im8.webp|block]",
+      "group_id": "640653907115",
+      "section_name": null
+    },
+    {
+      "id": 46,
+      "number": 46,
+      "original_number": 369,
+      "text": "In the DISJOINT CLUSTER VERTEX DELETION problem, if the subgraph induced on S is not a cluster graph, we can immediately return YES.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im8.webp|block]",
+      "group_id": "640653907115",
+      "section_name": null
+    },
+    {
+      "id": 47,
+      "number": 47,
+      "original_number": 370,
+      "text": "In the DISJOINT CLUSTER VERTEX DELETION problem, if the subgraph induced on the vertices of S is not a cluster graph, we can immediately return NO.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im8.webp|block]",
+      "group_id": "640653907115",
+      "section_name": null
+    },
+    {
+      "id": 48,
+      "number": 48,
+      "original_number": 371,
+      "text": "If the subgraph induced on the vertices of S is a cluster graph and a vertex in V(G)\\S is adjacent to at least two vertices in S which are in different cliques, then we can delete it and leave the parameter unchanged.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im8.webp|block]",
+      "group_id": "640653907115",
+      "section_name": null
+    },
+    {
+      "id": 49,
+      "number": 49,
+      "original_number": 372,
+      "text": "If the subgraph induced on the vertices of S is a cluster graph and a vertex in V(G)\\S is adjacent to at least two vertices in S which are in different cliques, then we can delete it and decrease the parameter by 1.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im8.webp|block]",
+      "group_id": "640653907115",
+      "section_name": null
+    },
+    {
+      "id": 50,
+      "number": 50,
+      "original_number": 373,
+      "text": "If the subgraph induced on the vertices of S is a cluster graph and a vertex in V(G)\\S is adjacent to some but not all vertices in a clique of G [ S ], then we can delete it and leave the parameter unchanged.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im8.webp|block]",
+      "group_id": "640653907115",
+      "section_name": null
+    },
+    {
+      "id": 51,
+      "number": 51,
+      "original_number": 374,
+      "text": "If the subgraph induced on the vertices of S is a cluster graph and a vertex in V(G)\\S is adjacent to some but not all vertices in a clique of G [ S ], then we can delete it and decrease the parameter by 1.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im8.webp|block]",
+      "group_id": "640653907115",
+      "section_name": null
+    },
+    {
+      "id": 52,
+      "number": 52,
+      "original_number": 375,
+      "text": "After modifying the input instance, we can solve DISJOINT CLUSTER VERTEX DELETION by solving a matching problem on a bipartite graph.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im8.webp|block]",
+      "group_id": "640653907115",
+      "section_name": null
+    },
+    {
+      "id": 53,
+      "number": 53,
+      "original_number": 376,
+      "text": "DISJOINT CLUSTER VERTEX DELETION is NP-Hard.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im8.webp|block]",
+      "group_id": "640653907115",
+      "section_name": null
+    },
+    {
+      "id": 54,
+      "number": 54,
+      "original_number": 377,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p20_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_ET_FN_p20_Im3.webp",
+        "/data/images/cs4021_2024T2_ET_FN_p18_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_ET_FN_p18_Im8.webp|block]",
+      "group_id": "640653907115",
+      "section_name": null
+    }
+  ],
+  "id": "cs4021-2024t2-et-fn",
+  "course_code": "CS4021",
+  "course_name": "Advanced Algorithms",
+  "level": "Degree",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

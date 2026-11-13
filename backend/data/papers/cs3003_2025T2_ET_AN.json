@@ -1,0 +1,653 @@
+{
+  "title": "DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)",
+  "filename": "cs3003_2025T2_ET_AN.pdf",
+  "total_questions": 29,
+  "total_marks": 28.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 78,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 79,
+      "text": "[IMAGE: /data/images/cs3003_2025T2_ET_AN_p0_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Printed graph sheets were provided on time.",
+        "Printed graph sheets were provided late.",
+        "Printed graph sheets were not provided.",
+        "I used the graph sheets.",
+        "I did not use graph sheets."
+      ],
+      "correct_answer": [
+        "Printed graph sheets were provided on time.",
+        "I used the graph sheets."
+      ],
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 80,
+      "text": "What is the path found by the Best First Search algorithm? Enter the path as a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: S,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,C,F,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map on a uniform grid where each tile is 1x1 in size. The start node is S and the goal node is G. The MoveGen function returns nodes in alphabetical order. Use Manhattan Distance as the heuristic function. Tie-breaker: If several nodes have the same cost, use node labels to break the tie. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p1_Im1.webp|block]",
+      "group_id": "6406531433232",
+      "section_name": null
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 81,
+      "text": "What is the path found by A* search algorithm? Enter the path as a comma separated list of node labels. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: S,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,B,A,E,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map on a uniform grid where each tile is 1x1 in size. The start node is S and the goal node is G. The MoveGen function returns nodes in alphabetical order. Use Manhattan Distance as the heuristic function. Tie-breaker: If several nodes have the same cost, use node labels to break the tie. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p1_Im1.webp|block]",
+      "group_id": "6406531433232",
+      "section_name": null
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 82,
+      "text": "What is the path found by Branch-and-Bound search algorithm? Enter the path as a comma separated list of node labels. Use the Branch-and-Bound variation that avoids cyclic expansions like S,B,S,B,S,B,... NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: S,X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,B,A,E,G",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map on a uniform grid where each tile is 1x1 in size. The start node is S and the goal node is G. The MoveGen function returns nodes in alphabetical order. Use Manhattan Distance as the heuristic function. Tie-breaker: If several nodes have the same cost, use node labels to break the tie. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p1_Im1.webp|block]",
+      "group_id": "6406531433232",
+      "section_name": null
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 83,
+      "text": "For the given map, which algorithm finds the shortest path from S to G?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3003_2025T2_ET_AN_p2_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3003_2025T2_ET_AN_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3003_2025T2_ET_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3003_2025T2_ET_AN_p3_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3003_2025T2_ET_AN_p2_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p1_Im1.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p2_Im2.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p2_Im3.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p2_Im5.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map on a uniform grid where each tile is 1x1 in size. The start node is S and the goal node is G. The MoveGen function returns nodes in alphabetical order. Use Manhattan Distance as the heuristic function. Tie-breaker: If several nodes have the same cost, use node labels to break the tie. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p1_Im1.webp|block]",
+      "group_id": "6406531433232",
+      "section_name": null
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 84,
+      "text": "Select the correct statement(s) about the given graph.",
+      "type": "MCQ",
+      "options": [
+        "Heuristic is admissible.",
+        "Heuristic is not admissible.",
+        "Heuristic is admissible in some cases and not admissible in other cases.",
+        "There is not enough information to determine admissibility."
+      ],
+      "correct_answer": "Heuristic is admissible.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH The figure shows a map on a uniform grid where each tile is 1x1 in size. The start node is S and the goal node is G. The MoveGen function returns nodes in alphabetical order. Use Manhattan Distance as the heuristic function. Tie-breaker: If several nodes have the same cost, use node labels to break the tie. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p1_Im1.webp|block]",
+      "group_id": "6406531433232",
+      "section_name": null
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 85,
+      "text": "Let S0 (ref. no. a1) be the first node to be refined, identify the next 4 nodes (2nd to 5th node) that are refined by the TSP BnB algorithm. Enter the nodes (node reference numbers) in the order they are refined. Enter a comma separated list of node reference numbers. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: a9,b9,c9,d9 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "b1,c1,d2,b2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP BnB TSP BnB algorithm is solving a TSP instance where the cities are A, B, C, .... and so on. The BnB search tree (at the point when the algorithm discovers the optimal tour) is provided below. Each node in the search tree displays an edge (either XY or \u00acXY), a cost value, and a unique reference number (a1, b1, ..., c1, ..., d1, ..., e1, e2). Use the reference numbers to break ties. When required, use reference numbers in short answers. What information can you glean from the search tree? Answer the sub-questions based on the information gleaned from the search tree. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p4_Im1.webp|block]",
+      "group_id": "6406531433238",
+      "section_name": null
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 86,
+      "text": "Which node represents the optimal tour? Enter the node reference number in the text box, or enter NIL if it is not possible to determine the optimal tour. Enter a node reference number. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: a9 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "d5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP BnB TSP BnB algorithm is solving a TSP instance where the cities are A, B, C, .... and so on. The BnB search tree (at the point when the algorithm discovers the optimal tour) is provided below. Each node in the search tree displays an edge (either XY or \u00acXY), a cost value, and a unique reference number (a1, b1, ..., c1, ..., d1, ..., e1, e2). Use the reference numbers to break ties. When required, use reference numbers in short answers. What information can you glean from the search tree? Answer the sub-questions based on the information gleaned from the search tree. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p4_Im1.webp|block]",
+      "group_id": "6406531433238",
+      "section_name": null
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 87,
+      "text": "What is the cost of the optimal tour? Enter the cost of the optimal tour in the text box, or enter NIL if it is not possible to determine the optimal tour. Enter an integer. NO SPACES, TABS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 42 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "366",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP BnB TSP BnB algorithm is solving a TSP instance where the cities are A, B, C, .... and so on. The BnB search tree (at the point when the algorithm discovers the optimal tour) is provided below. Each node in the search tree displays an edge (either XY or \u00acXY), a cost value, and a unique reference number (a1, b1, ..., c1, ..., d1, ..., e1, e2). Use the reference numbers to break ties. When required, use reference numbers in short answers. What information can you glean from the search tree? Answer the sub-questions based on the information gleaned from the search tree. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p4_Im1.webp|block]",
+      "group_id": "6406531433238",
+      "section_name": null
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 88,
+      "text": "Determine the number of cities in the TSP instance. Enter the number of cities in the text box, or enter NIL if it is not possible to determine the number of cities. Enter an integer. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 42 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP BnB TSP BnB algorithm is solving a TSP instance where the cities are A, B, C, .... and so on. The BnB search tree (at the point when the algorithm discovers the optimal tour) is provided below. Each node in the search tree displays an edge (either XY or \u00acXY), a cost value, and a unique reference number (a1, b1, ..., c1, ..., d1, ..., e1, e2). Use the reference numbers to break ties. When required, use reference numbers in short answers. What information can you glean from the search tree? Answer the sub-questions based on the information gleaned from the search tree. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p4_Im1.webp|block]",
+      "group_id": "6406531433238",
+      "section_name": null
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 89,
+      "text": "Start from city A, what is the path representation of the optimal tour? Enter the path representation in the text box, or enter NIL if it is not possible to determine the optimal tour. Enter a comma separated list of cities (city labels). NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: A,B,C Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,B,D,C,E A,E,C,D,B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP BnB TSP BnB algorithm is solving a TSP instance where the cities are A, B, C, .... and so on. The BnB search tree (at the point when the algorithm discovers the optimal tour) is provided below. Each node in the search tree displays an edge (either XY or \u00acXY), a cost value, and a unique reference number (a1, b1, ..., c1, ..., d1, ..., e1, e2). Use the reference numbers to break ties. When required, use reference numbers in short answers. What information can you glean from the search tree? Answer the sub-questions based on the information gleaned from the search tree. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p4_Im1.webp|block]",
+      "group_id": "6406531433238",
+      "section_name": null
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 90,
+      "text": "Which of the following is a strategy for the MAX player?",
+      "type": "multichoice",
+      "options": [
+        "I,K",
+        "E,F,G",
+        "E,F",
+        "I,J,K"
+      ],
+      "correct_answer": [
+        "I,K",
+        "E,F"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES The figure shows a game tree with evaluation function values at the leaf nodes. The leaf nodes are labeled from A to K. Use these labels to enter a leaf node or a list of leaf nodes in short answers (textbox). Tie-breaker: When several nodes carry the same best cost then select the deepest node, if tie persists then select the leftmost of the deepest nodes to break the tie. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p7_Im1.webp|block]",
+      "group_id": "6406531433244",
+      "section_name": null
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 91,
+      "text": "List the leaf nodes in the best strategy for MAX. Enter the node labels in alphabetical order. Enter a comma separated list of node labels in alphabetical order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,C,D",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES The figure shows a game tree with evaluation function values at the leaf nodes. The leaf nodes are labeled from A to K. Use these labels to enter a leaf node or a list of leaf nodes in short answers (textbox). Tie-breaker: When several nodes carry the same best cost then select the deepest node, if tie persists then select the leftmost of the deepest nodes to break the tie. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p7_Im1.webp|block]",
+      "group_id": "6406531433244",
+      "section_name": null
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 92,
+      "text": "List the leaf nodes inspected by Alpha-Beta algorithm. Enter a comma separated list of node labels in alphabetical order. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,B,E,I",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES The figure shows a game tree with evaluation function values at the leaf nodes. The leaf nodes are labeled from A to K. Use these labels to enter a leaf node or a list of leaf nodes in short answers (textbox). Tie-breaker: When several nodes carry the same best cost then select the deepest node, if tie persists then select the leftmost of the deepest nodes to break the tie. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p7_Im1.webp|block]",
+      "group_id": "6406531433244",
+      "section_name": null
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 93,
+      "text": "[IMAGE: /data/images/cs3003_2025T2_ET_AN_p8_Im1.webp|block] Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,B,E,I A,E,I,B I,E,A,B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p8_Im1.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "GAMES The figure shows a game tree with evaluation function values at the leaf nodes. The leaf nodes are labeled from A to K. Use these labels to enter a leaf node or a list of leaf nodes in short answers (textbox). Tie-breaker: When several nodes carry the same best cost then select the deepest node, if tie persists then select the leftmost of the deepest nodes to break the tie. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p7_Im1.webp|block]",
+      "group_id": "6406531433244",
+      "section_name": null
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 94,
+      "text": "[IMAGE: /data/images/cs3003_2025T2_ET_AN_p10_Im1.webp|block] Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "S,B,A B,A",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p10_Im1.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "PROBLEM DECOMPOSITION The figure shows an AND-OR graph that depicts how a problem S can be decomposed into one or more smaller problems. Nodes are uniquely identified by labels (S, A, B, \u2026). The number in each node is the heuristic estimate of the cost of solving that node. Nodes shown in double lines are primitive nodes and their values are actual costs. Observe that a primitive node is added to the graph by its parent when the parent is expanded, and the primitive node is labeled as SOLVED and it will not be expanded subsequently. The cost of each edge is 2 units. Tie-breaker 1: If several nodes have the same cost then break the tie using node labels. Tie-breaker 2: For AND nodes, expand the unsolved branch with the highest cost. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p9_Im1.webp|block] Use AO* algorithm to solve S, then answer the subquestions.",
+      "group_id": "6406531433249",
+      "section_name": null
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 95,
+      "text": "Determine the value of the start node S after each node is expanded. Enter the value of S after each node is expanded. Enter a comma separated list of numbers. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: 12,42,17 Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "34,37,56 37,56",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "PROBLEM DECOMPOSITION The figure shows an AND-OR graph that depicts how a problem S can be decomposed into one or more smaller problems. Nodes are uniquely identified by labels (S, A, B, \u2026). The number in each node is the heuristic estimate of the cost of solving that node. Nodes shown in double lines are primitive nodes and their values are actual costs. Observe that a primitive node is added to the graph by its parent when the parent is expanded, and the primitive node is labeled as SOLVED and it will not be expanded subsequently. The cost of each edge is 2 units. Tie-breaker 1: If several nodes have the same cost then break the tie using node labels. Tie-breaker 2: For AND nodes, expand the unsolved branch with the highest cost. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p9_Im1.webp|block] Use AO* algorithm to solve S, then answer the subquestions.",
+      "group_id": "6406531433249",
+      "section_name": null
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 96,
+      "text": "[IMAGE: /data/images/cs3003_2025T2_ET_AN_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "56",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p11_Im1.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "PROBLEM DECOMPOSITION The figure shows an AND-OR graph that depicts how a problem S can be decomposed into one or more smaller problems. Nodes are uniquely identified by labels (S, A, B, \u2026). The number in each node is the heuristic estimate of the cost of solving that node. Nodes shown in double lines are primitive nodes and their values are actual costs. Observe that a primitive node is added to the graph by its parent when the parent is expanded, and the primitive node is labeled as SOLVED and it will not be expanded subsequently. The cost of each edge is 2 units. Tie-breaker 1: If several nodes have the same cost then break the tie using node labels. Tie-breaker 2: For AND nodes, expand the unsolved branch with the highest cost. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p9_Im1.webp|block] Use AO* algorithm to solve S, then answer the subquestions.",
+      "group_id": "6406531433249",
+      "section_name": null
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 97,
+      "text": "Which of the following rule-data tuples occur in the conflict set?",
+      "type": "multichoice",
+      "options": [
+        "(Liquid-Fuel-Rocket, 102, 107)",
+        "(Solid-Fuel-Rocket, 107, 101)",
+        "(Windmill, 105, 104)",
+        "(Generator, 104)",
+        "(Generator, 106)",
+        "(Rocket, 107)"
+      ],
+      "correct_answer": [
+        "(Windmill, 105, 104)",
+        "(Generator, 104)",
+        "(Generator, 106)",
+        "(Rocket, 107)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p12_Im1.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p12_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "RULE BASED EXPERT SYSTEMS A Rete Net for a rule based system to identify engines, turbines and motors is shown in the figure. Here, BoM refers to Bill-of-Materials, which is a list of parts and their quantities needed for assembling a machine. The nodes in the network are uniquely identified by labels: A1,A2,... for Alpha nodes; B1,B2,... for beta nodes; R1,R2,... for rules. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p12_Im1.webp|block] The Working Memory contains the following WMEs uniquely identified by timestamps (sequence numbers). Assume that WMEs reside in the appropriate Alpha node, and Beta nodes simply point to elements in the ancestor Alpha nodes. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p12_Im2.webp|block] The sub-questions are based on the first Match-Resolve-Execute cycle. Determine the locations of the WMEs and compute the conflict set, then answer the given sub-questions.",
+      "group_id": "6406531433253",
+      "section_name": null
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 98,
+      "text": "If the Inference Engine uses Specificity for conflict resolution then which rule-data tuple will fire in the first round?",
+      "type": "MCQ",
+      "options": [
+        "(Liquid-Fuel-Rocket, 102, 107)",
+        "(Solid-Fuel-Rocket, 107, 101)",
+        "(Windmill, 105, 104)",
+        "(Generator, 104)",
+        "(Generator, 106)",
+        "(Rocket, 107)"
+      ],
+      "correct_answer": "(Windmill, 105, 104)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p12_Im1.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p12_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "RULE BASED EXPERT SYSTEMS A Rete Net for a rule based system to identify engines, turbines and motors is shown in the figure. Here, BoM refers to Bill-of-Materials, which is a list of parts and their quantities needed for assembling a machine. The nodes in the network are uniquely identified by labels: A1,A2,... for Alpha nodes; B1,B2,... for beta nodes; R1,R2,... for rules. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p12_Im1.webp|block] The Working Memory contains the following WMEs uniquely identified by timestamps (sequence numbers). Assume that WMEs reside in the appropriate Alpha node, and Beta nodes simply point to elements in the ancestor Alpha nodes. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p12_Im2.webp|block] The sub-questions are based on the first Match-Resolve-Execute cycle. Determine the locations of the WMEs and compute the conflict set, then answer the given sub-questions.",
+      "group_id": "6406531433253",
+      "section_name": null
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 99,
+      "text": "If the Inference Engine uses Recency for conflict resolution which rule-data tuple will fire in the first round?",
+      "type": "MCQ",
+      "options": [
+        "(Liquid-Fuel-Rocket, 102, 107)",
+        "(Solid-Fuel-Rocket, 107, 101)",
+        "(Windmill, 105, 104)",
+        "(Generator, 104)",
+        "(Generator, 106)",
+        "(Rocket, 107)"
+      ],
+      "correct_answer": "(Rocket, 107)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p12_Im1.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p12_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "RULE BASED EXPERT SYSTEMS A Rete Net for a rule based system to identify engines, turbines and motors is shown in the figure. Here, BoM refers to Bill-of-Materials, which is a list of parts and their quantities needed for assembling a machine. The nodes in the network are uniquely identified by labels: A1,A2,... for Alpha nodes; B1,B2,... for beta nodes; R1,R2,... for rules. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p12_Im1.webp|block] The Working Memory contains the following WMEs uniquely identified by timestamps (sequence numbers). Assume that WMEs reside in the appropriate Alpha node, and Beta nodes simply point to elements in the ancestor Alpha nodes. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p12_Im2.webp|block] The sub-questions are based on the first Match-Resolve-Execute cycle. Determine the locations of the WMEs and compute the conflict set, then answer the given sub-questions.",
+      "group_id": "6406531433253",
+      "section_name": null
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 100,
+      "text": "Which of the following are applicable actions in the start state?",
+      "type": "multichoice",
+      "options": [
+        "Putdown(D)",
+        "Unstack(D,A)",
+        "Unstack(E,B)",
+        "Pickup(C)",
+        "Pickup(A)",
+        "Stack(A,B)",
+        "Stack(B,C)"
+      ],
+      "correct_answer": [
+        "Unstack(D,A)",
+        "Unstack(E,B)",
+        "Pickup(C)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p14_Im1.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a Blocks World with a single one-armed robot is given below. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p14_Im1.webp|block] Consider the following planning problem. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p15_Im1.webp|block]",
+      "group_id": "6406531433257",
+      "section_name": null
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 101,
+      "text": "Which of the following are relevant actions in the goal state?",
+      "type": "multichoice",
+      "options": [
+        "Putdown(D)",
+        "Unstack(D,A)",
+        "Unstack(E,B)",
+        "Pickup(C)",
+        "Pickup(A)",
+        "Stack(A,B)",
+        "Stack(B,C)"
+      ],
+      "correct_answer": [
+        "Stack(A,B)",
+        "Stack(B,C)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p14_Im1.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a Blocks World with a single one-armed robot is given below. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p14_Im1.webp|block] Consider the following planning problem. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p15_Im1.webp|block]",
+      "group_id": "6406531433257",
+      "section_name": null
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 102,
+      "text": "In the planning graph, which of the following are mutex action pairs in Layer 1?",
+      "type": "multichoice",
+      "options": [
+        "Unstack(D,A), Pickup(C)",
+        "Unstack(D,A), Unstack(E,B)",
+        "Pickup(C), Stack(A,B)",
+        "Pickup(C), Stack(B,C)"
+      ],
+      "correct_answer": [
+        "Unstack(D,A), Pickup(C)",
+        "Unstack(D,A), Unstack(E,B)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p14_Im1.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a Blocks World with a single one-armed robot is given below. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p14_Im1.webp|block] Consider the following planning problem. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p15_Im1.webp|block]",
+      "group_id": "6406531433257",
+      "section_name": null
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 103,
+      "text": "In the planning graph, which of the following are mutex proposition pairs in Layer 1?",
+      "type": "multichoice",
+      "options": [
+        "clear(A), holding(E)",
+        "clear(A), clear(B)",
+        "clear(C), on(D,A)",
+        "clear(C), holding(E)"
+      ],
+      "correct_answer": [
+        "clear(A), holding(E)",
+        "clear(A), clear(B)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p14_Im1.webp",
+        "/data/images/cs3003_2025T2_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "AUTOMATED PLANNING The domain description of a Blocks World with a single one-armed robot is given below. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p14_Im1.webp|block] Consider the following planning problem. [IMAGE: /data/images/cs3003_2025T2_ET_AN_p15_Im1.webp|block]",
+      "group_id": "6406531433257",
+      "section_name": null
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 104,
+      "text": "Is the given CSP arc consistent?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p16_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "CONSTRAINT SATISFACTION [IMAGE: /data/images/cs3003_2025T2_ET_AN_p16_Im3.webp|block]",
+      "group_id": "6406531433262",
+      "section_name": null
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 105,
+      "text": "Is the given CSP path consistent?",
+      "type": "MCQ",
+      "options": [
+        "No",
+        "Yes",
+        "Cannot be determined"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p16_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "CONSTRAINT SATISFACTION [IMAGE: /data/images/cs3003_2025T2_ET_AN_p16_Im3.webp|block]",
+      "group_id": "6406531433262",
+      "section_name": null
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 106,
+      "text": "Does the given CSP have a solution? Enter the solution for regions A,B,C as a comma separated list of colours. Enter NIL if there is no solution. NO SPACES, TABS, DOTS, BRACKETS OR EXTRANEOUS CHARACTERS. Answer format: r,b,r Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "g,r,b g,b,r",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2025T2_ET_AN_p16_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "CONSTRAINT SATISFACTION [IMAGE: /data/images/cs3003_2025T2_ET_AN_p16_Im3.webp|block]",
+      "group_id": "6406531433262",
+      "section_name": null
+    }
+  ],
+  "id": "cs3003-2025t2-et-an",
+  "course_code": "CS3003",
+  "course_name": "AI: Search Methods for Problem Solving",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

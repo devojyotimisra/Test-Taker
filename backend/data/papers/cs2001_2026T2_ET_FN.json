@@ -1,0 +1,529 @@
+{
+  "title": "DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)",
+  "filename": "cs2001_2026T2_ET_FN.pdf",
+  "total_questions": 21,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider the following relations: Student ( student_id , name , dept_id ) Department ( dept_id , dept_name ) Which of the following SQL queries correctly retrieves the names of students who belong to either [IMAGE: /data/images/cs2001_2026T2_ET_FN_p1_Im3.webp|inline] or [IMAGE: /data/images/cs2001_2026T2_ET_FN_p1_Im4.webp|inline] department and whose name ends with the character [IMAGE: /data/images/cs2001_2026T2_ET_FN_p1_Im5.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p2_Im1.webp|block] [IMAGE: /data/images/cs2001_2026T2_ET_FN_p2_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p2_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p1_Im3.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p1_Im4.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p1_Im5.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p2_Im1.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p2_Im3.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following relations. [IMAGE: /data/images/cs2001_2026T2_ET_FN_p3_Im1.webp|block] Consider the following SQL query. [IMAGE: /data/images/cs2001_2026T2_ET_FN_p3_Im2.webp|block] What will be the output of the above query?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im1.webp|block] [IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p3_Im1.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p3_Im2.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p4_Im1.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p4_Im3.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the relation [IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im5.webp|block] with functional dependencies [IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im6.webp|block] Which of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im7.webp|inline] is in BCNF.",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im8.webp|inline] is in 3NF but not BCNF.",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im10.webp|inline] is in 2NF but not 3NF.",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im11.webp|inline] is not in 2NF."
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im10.webp|inline] is in 2NF but not 3NF.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p4_Im5.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p4_Im6.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p4_Im7.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p4_Im8.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p4_Im10.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p4_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following schedule: [IMAGE: /data/images/cs2001_2026T2_ET_FN_p5_Im1.webp|block] How many serial schedules are conflict-equivalent to [IMAGE: /data/images/cs2001_2026T2_ET_FN_p5_Im2.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p5_Im1.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the relational schema R(A, B, C, D, E, F), where the domains for A, B, C, D, E and F include atomic values only. If R satisfies the functional dependencies {AB \u2192 CDE, ABC \u2192 EF, E \u2192 F}, then identify the correct statement(s).",
+      "type": "MCQ",
+      "options": [
+        "R is in 2NF and also in 3NF",
+        "R is in 2NF but not in 3NF",
+        "R is in BCNF but not in 3NF",
+        "R is in 3NF and also in BCNF"
+      ],
+      "correct_answer": "R is in 2NF but not in 3NF",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following relations: [IMAGE: /data/images/cs2001_2026T2_ET_FN_p5_Im5.webp|block] [IMAGE: /data/images/cs2001_2026T2_ET_FN_p5_Im6.webp|block] Which of the following relational algebra expressions retrieves the values of [IMAGE: /data/images/cs2001_2026T2_ET_FN_p5_Im7.webp|inline] for tuples where [IMAGE: /data/images/cs2001_2026T2_ET_FN_p6_Im1.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p6_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p6_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p6_Im3.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p5_Im5.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p5_Im6.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p5_Im7.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p6_Im1.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p6_Im3.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p6_Im5.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p6_Im6.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following ER relationship: [IMAGE: /data/images/cs2001_2026T2_ET_FN_p6_Im8.webp|block] Which of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "Every student must enroll in at least one course.",
+        "A student can enroll in at most one course.",
+        "A course must have at least one student.",
+        "A course can have at most one student."
+      ],
+      "correct_answer": "A course must have at least one student.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p6_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the relation [IMAGE: /data/images/cs2001_2026T2_ET_FN_p6_Im9.webp|block] with functional dependency set [IMAGE: /data/images/cs2001_2026T2_ET_FN_p6_Im10.webp|inline] , comprising of the following FDs: [IMAGE: /data/images/cs2001_2026T2_ET_FN_p6_Im11.webp|block] Which of the following functional dependencies is implied by [IMAGE: /data/images/cs2001_2026T2_ET_FN_p6_Im12.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "A [IMAGE: /data/images/cs2001_2026T2_ET_FN_p7_Im2.webp|inline] E",
+        "B [IMAGE: /data/images/cs2001_2026T2_ET_FN_p7_Im4.webp|inline] A",
+        "C [IMAGE: /data/images/cs2001_2026T2_ET_FN_p7_Im5.webp|inline] E",
+        "E [IMAGE: /data/images/cs2001_2026T2_ET_FN_p7_Im6.webp|inline] A"
+      ],
+      "correct_answer": "A [IMAGE: /data/images/cs2001_2026T2_ET_FN_p7_Im2.webp|inline] E",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p6_Im9.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p6_Im10.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p6_Im11.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p6_Im12.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p7_Im2.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p7_Im4.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p7_Im5.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "A static hash file contains 11 buckets numbered from 0 to 10. A hash function maps each search- key value [IMAGE: /data/images/cs2001_2026T2_ET_FN_p7_Im7.webp|inline] to one of these buckets. It is observed that the records with the following search-key values are stored in the specified buckets: [IMAGE: /data/images/cs2001_2026T2_ET_FN_p7_Im8.webp|block] Which of the following could be the hash function used by the file?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p7_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p7_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p7_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p7_Im12.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p7_Im9.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p7_Im7.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p7_Im8.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p7_Im9.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p7_Im10.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p7_Im11.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p7_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the following checkpoint situation: \u2022 [IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im1.webp|inline] was active when the checkpoint was taken and committed before the crash. \u2022 [IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im2.webp|inline] committed before the checkpoint. \u2022 [IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im3.webp|inline] started after the checkpoint and committed before the crash. \u2022 [IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im4.webp|inline] was active when the crash occurred. Which of the following correctly describes the recovery action?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im6.webp|inline] need REDO and [IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im7.webp|inline] needs UNDO.",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im9.webp|inline] need UNDO and [IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im10.webp|inline] needs REDO.",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im11.webp|inline] need REDO and [IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im12.webp|inline] needs UNDO.",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im13.webp|inline] need REDO."
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im6.webp|inline] need REDO and [IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im7.webp|inline] needs UNDO.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p8_Im1.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p8_Im2.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p8_Im3.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p8_Im4.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p8_Im6.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p8_Im7.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p8_Im9.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p8_Im10.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p8_Im11.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p8_Im12.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p8_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Consider an immediate database modification scheme. The initial values of the data items are [IMAGE: /data/images/cs2001_2026T2_ET_FN_p8_Im14.webp|block] The following log records are generated. The values shown in an update record are the old value and the new value, respectively. [IMAGE: /data/images/cs2001_2026T2_ET_FN_p9_Im1.webp|block] Transactions [IMAGE: /data/images/cs2001_2026T2_ET_FN_p9_Im2.webp|inline] , [IMAGE: /data/images/cs2001_2026T2_ET_FN_p9_Im3.webp|inline] , and [IMAGE: /data/images/cs2001_2026T2_ET_FN_p9_Im4.webp|inline] have not committed before the crash, whereas [IMAGE: /data/images/cs2001_2026T2_ET_FN_p9_Im5.webp|inline] has committed. After recovery is completed, what is the value of [IMAGE: /data/images/cs2001_2026T2_ET_FN_p9_Im6.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2400",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p8_Im14.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p9_Im1.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p9_Im2.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p9_Im3.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p9_Im4.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p9_Im5.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript [IMAGE: /data/images/cs2001_2026T2_ET_FN_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript Consider a magnetic disk with: \u2022 6 platters \u2022 2 surfaces per platter \u2022 2048 tracks per surface \u2022 4096 sectors per track \u2022 Capacity = 24 GB Assume [IMAGE: /data/images/cs2001_2026T2_ET_FN_p10_Im2.webp|block] Find the capacity of one sector in bytes.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "256",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript [IMAGE: /data/images/cs2001_2026T2_ET_FN_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p12_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p12_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p12_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p12_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p12_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p12_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p12_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p12_Im1.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p12_Im3.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p12_Im5.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p12_Im6.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p12_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider the following schedule S and answer question [IMAGE: /data/images/cs2001_2026T2_ET_FN_p12_Im8.webp|block] Which of the following is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "The schedule is 2-phase lockable",
+        "The schedule is not 2-phase lockable",
+        "Schedule is Serializable",
+        "Schedule is not Serializable"
+      ],
+      "correct_answer": [
+        "The schedule is not 2-phase lockable",
+        "Schedule is not Serializable"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p12_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Consider the following relation Employee . [IMAGE: /data/images/cs2001_2026T2_ET_FN_p13_Im3.webp|block] A bitmap index is constructed on the attribute Team , with one bitmap for each distinct value of Team . The bits in each bitmap correspond to the rows of the table in the order shown above. Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "The bitmap corresponding to team A is [IMAGE: /data/images/cs2001_2026T2_ET_FN_p13_Im4.webp|inline] .",
+        "The bitmap corresponding to team B is [IMAGE: /data/images/cs2001_2026T2_ET_FN_p13_Im5.webp|inline] .",
+        "The bitwise operation [IMAGE: /data/images/cs2001_2026T2_ET_FN_p14_Im2.webp|inline] produces [IMAGE: /data/images/cs2001_2026T2_ET_FN_p14_Im3.webp|inline] .",
+        "The bitwise operation [IMAGE: /data/images/cs2001_2026T2_ET_FN_p14_Im5.webp|inline] produces [IMAGE: /data/images/cs2001_2026T2_ET_FN_p14_Im6.webp|inline] ."
+      ],
+      "correct_answer": [
+        "The bitmap corresponding to team A is [IMAGE: /data/images/cs2001_2026T2_ET_FN_p13_Im4.webp|inline] .",
+        "The bitmap corresponding to team B is [IMAGE: /data/images/cs2001_2026T2_ET_FN_p13_Im5.webp|inline] .",
+        "The bitwise operation [IMAGE: /data/images/cs2001_2026T2_ET_FN_p14_Im2.webp|inline] produces [IMAGE: /data/images/cs2001_2026T2_ET_FN_p14_Im3.webp|inline] ."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p13_Im3.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p13_Im4.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p13_Im5.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p14_Im2.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p14_Im3.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p14_Im5.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p14_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Consider the following statements. 1. In RAID 2, the Hamming code is used for parity. 2. RAID 4 has a striping unit of disk block instead of a single bit. 3. The Write performance of RAID 5 is poorer than that of RAID 6. 4. RAID 10 provides better throughput and latency than all other RAID levels except RAID 0.",
+      "type": "MCQ",
+      "options": [
+        "Statement 1, 2 and 3 are correct.",
+        "Statement 1 and 3 are correct.",
+        "Statement 1, 3 and 4 are correct.",
+        "Statement 1, 2 and 4 are correct."
+      ],
+      "correct_answer": "Statement 1, 2 and 4 are correct.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Inscript Consider a Block nested loop join for the two relations, employee and project . Assuming the worst-case memory availability and employee as the outer relation, the provided details are as follows: \u2022 Total number of block transfers: 18300 \u2022 Total number of seeks required: 800 \u2022 Number of blocks in the outer relation: 300 What is the number of blocks in the inner relation?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "60",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Inscript Consider the following backup schedule used by a company: [IMAGE: /data/images/cs2001_2026T2_ET_FN_p15_Im1.webp|block] If a system failure occurs on Sunday before the backup for the day has been completed, what is the minimum number of backup sets that must be loaded for complete recovery?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T2_ET_FN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    }
+  ],
+  "id": "cs2001-2026t2-et-fn",
+  "course_code": "CS2001",
+  "course_name": "Database Management Systems",
+  "level": "Diploma in Programming",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

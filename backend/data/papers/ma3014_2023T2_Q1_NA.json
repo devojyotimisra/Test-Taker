@@ -1,0 +1,313 @@
+{
+  "title": "DEGREE LEVEL : STATISTICAL COMPUTING (COMPUTER BASED EXAM)",
+  "filename": "ma3014_2023T2_Q1_NA.pdf",
+  "total_questions": 13,
+  "total_marks": 13.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 156,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : STATISTICAL COMPUTING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistical Computing"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 157,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider an Accept-Reject method to draw samples from Beta(3, 4) distribution. Which among the following can act as a proposal distribution? Select all that apply:",
+      "type": "multichoice",
+      "options": [
+        "Normal(0, 4)",
+        "Uniform(0, 1/2)",
+        "Bernoulli{0, 1}",
+        "F (2, 2)",
+        "Beta(0.5, 0.5)"
+      ],
+      "correct_answer": [
+        "Normal(0, 4)",
+        "F (2, 2)",
+        "Beta(0.5, 0.5)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistical Computing"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 158,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/ma3014_2023T2_Q1_NA_p2_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p2_Im6.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ma3014_2023T2_Q1_NA_p2_Im3.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p2_Im4.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p2_Im5.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p2_Im6.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistical Computing"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 159,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/ma3014_2023T2_Q1_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The method need not produce samples from F .",
+        "On average, the method will generate the samples fast.",
+        "On average, the method will generate the samples low.",
+        "There will not be any effect on the sample generation."
+      ],
+      "correct_answer": "The method need not produce samples from F .",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ma3014_2023T2_Q1_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistical Computing"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 160,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The mixed congruential method is used to generate pseudorandom draw of size 1000 from U (0, 1). The histogram for the 1000 generated pseudorandom numbers is as follows: [IMAGE: /data/images/ma3014_2023T2_Q1_NA_p3_Im4.webp|block] By visualizing the plotted histogram, do the pseudorandom draws appear to be i.i.d U (0, 1) distributed?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Insufficient information"
+      ],
+      "correct_answer": "Insufficient information",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ma3014_2023T2_Q1_NA_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistical Computing"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 161,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/ma3014_2023T2_Q1_NA_p4_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Box-Muller",
+        "Accept reject with exponential(1) proposal",
+        "Inverse transform",
+        "All of these"
+      ],
+      "correct_answer": "Box-Muller",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ma3014_2023T2_Q1_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistical Computing"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 162,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 To generate pseudorandom draws using the multiplicative congruential method, we have set seed = 5, a = 7 and m = 4. After how many steps, will the deterministic sequence follows?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistical Computing"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 163,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/ma3014_2023T2_Q1_NA_p6_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ma3014_2023T2_Q1_NA_p6_Im1.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Use the following information and answer the given subquestions. [IMAGE: /data/images/ma3014_2023T2_Q1_NA_p5_Im1.webp|block]",
+      "group_id": "640653578997",
+      "section_name": "Statistical Computing"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 164,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 An analyst advised to change the proposal distribution to Beta (2, 1). Shall we act upon his/her advice?",
+      "type": "MCQ",
+      "options": [
+        "Yes, because it will increase the efficiency.",
+        "No, because it will reduce the efficiency.",
+        "Insufficient information to determine."
+      ],
+      "correct_answer": "No, because it will reduce the efficiency.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ma3014_2023T2_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Use the following information and answer the given subquestions. [IMAGE: /data/images/ma3014_2023T2_Q1_NA_p5_Im1.webp|block]",
+      "group_id": "640653578997",
+      "section_name": "Statistical Computing"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 165,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Select the correct statements from the following:",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p7_Im4.webp|block]",
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p7_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p7_Im7.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ma3014_2023T2_Q1_NA_p7_Im1.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p7_Im4.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p7_Im6.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Use the following information and answer the given subquestions. [IMAGE: /data/images/ma3014_2023T2_Q1_NA_p7_Im1.webp|block]",
+      "group_id": "640653579000",
+      "section_name": "Statistical Computing"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 166,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Find the probability of acceptance for the accept-reject if \u03b1 = 3. Enter the answer correct to three decimal places. Note: e = 2.723",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.310 to 0.318",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ma3014_2023T2_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Use the following information and answer the given subquestions. [IMAGE: /data/images/ma3014_2023T2_Q1_NA_p7_Im1.webp|block]",
+      "group_id": "640653579000",
+      "section_name": "Statistical Computing"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 167,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Complete the function (1), in the given code snippet.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p10_Im2.webp|block]",
+        "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p10_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/ma3014_2023T2_Q1_NA_p9_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ma3014_2023T2_Q1_NA_p9_Im1.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p9_Im3.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p9_Im5.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p9_Im6.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p10_Im2.webp",
+        "/data/images/ma3014_2023T2_Q1_NA_p10_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Use the following information and answer the given subquestions. [IMAGE: /data/images/ma3014_2023T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "640653579003",
+      "section_name": "Statistical Computing"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 168,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is/are true about the given code snippet?",
+      "type": "MCQ",
+      "options": [
+        "Both Inverse Transform and Accept-Reject algorithms are implemented.",
+        "Only one of Inverse Transform and Accept-Reject algorithms are implemented.",
+        "The given implemented Accept-Reject is correct as the support of function g is the same as that of function f.",
+        "The given implemented Accept-Reject is incorrect for the given function f and g.",
+        "The given implemented Inverse Transform algorithm is correct as the cumulative distribution function of f is invertible."
+      ],
+      "correct_answer": "Both Inverse Transform and Accept-Reject algorithms are implemented.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ma3014_2023T2_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Use the following information and answer the given subquestions. [IMAGE: /data/images/ma3014_2023T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "640653579003",
+      "section_name": "Statistical Computing"
+    }
+  ],
+  "id": "ma3014-2023t2-q1-na",
+  "course_code": "MA3014",
+  "course_name": "Operations Research",
+  "level": "Degree",
+  "term": "May 2023",
+  "year": 2023,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

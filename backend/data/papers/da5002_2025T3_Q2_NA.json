@@ -1,0 +1,435 @@
+{
+  "title": "DEGREE LEVEL : MATHEMATICAL FOUNDATIONS OF GENERATIVE AI (COMPUTER BASED EXAM)",
+  "filename": "da5002_2025T3_Q2_NA.pdf",
+  "total_questions": 15,
+  "total_marks": 47.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 90,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : MATHEMATICAL FOUNDATIONS OF GENERATIVE AI (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 91,
+      "text": "In a Denoising Diffusion Probabilistic Model (DDPM), the sampling process works by running the reverse diffusion steps: [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im2.webp|block] Are these reverse steps in DDPM usually stochastic (i.e., involve random noise at each step) rather than purely deterministic?",
+      "type": "MCQ",
+      "options": [
+        "Correct",
+        "Incorrect"
+      ],
+      "correct_answer": "Correct",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 92,
+      "text": "A DDPM is trained with [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im3.webp|inline] time steps. If the initial time step [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im4.webp|inline] has a very small [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im5.webp|inline] (variance), and the final time step [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im6.webp|inline] has a very large [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im7.webp|inline] , what is the resulting value of the total added noise component [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im8.webp|inline] at [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im9.webp|inline] and [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im10.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im11.webp|inline] : Close to [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im12.webp|inline] ; [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im13.webp|inline] : Close to [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im14.webp|inline] .",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im15.webp|inline] : Close to [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im16.webp|inline] ; [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im17.webp|inline] : Close to [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im18.webp|inline] .",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im19.webp|inline] : Close to [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im20.webp|inline] ; [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im21.webp|inline] : Close to [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im22.webp|inline] .",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im23.webp|inline] : Close to [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im24.webp|inline] ; [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im25.webp|inline] : Close to [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im26.webp|inline] ."
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im11.webp|inline] : Close to [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im12.webp|inline] ; [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im13.webp|inline] : Close to [IMAGE: /data/images/da5002_2025T3_Q2_NA_p1_Im14.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im3.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im4.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im5.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im6.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im7.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im8.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im9.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im10.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im11.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im12.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im13.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im14.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im15.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im16.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im17.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im18.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im19.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im20.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im21.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im22.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im23.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im24.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im25.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p1_Im26.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 93,
+      "text": "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The [IMAGE: /data/images/da5002_2025T3_Q2_NA_p2_Im3.webp|inline] is fixed because the variance is independent of the data, determined only by the time step [IMAGE: /data/images/da5002_2025T3_Q2_NA_p2_Im4.webp|inline] .",
+        "Fixing the variance simplifies the ELBO such that the objective only needs to predict the noise, which implicitly predicts the mean.",
+        "The variance [IMAGE: /data/images/da5002_2025T3_Q2_NA_p2_Im6.webp|inline] is not fixed; the U-Net predicts both the mean [IMAGE: /data/images/da5002_2025T3_Q2_NA_p2_Im7.webp|inline] and the variance [IMAGE: /data/images/da5002_2025T3_Q2_NA_p2_Im8.webp|inline] simultaneously.",
+        "The variance is fixed because the U-Net is designed only to denoise, not to estimate uncertainty."
+      ],
+      "correct_answer": "Fixing the variance simplifies the ELBO such that the objective only needs to predict the noise, which implicitly predicts the mean.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p2_Im1.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p2_Im3.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p2_Im4.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p2_Im6.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p2_Im7.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p2_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 94,
+      "text": "In a Vector Quantized VAE, the encoder outputs a continuous vector which is then:",
+      "type": "MCQ",
+      "options": [
+        "Sent directly to the decoder with no change.",
+        "Thresholded element-wise at 0.",
+        "Replaced by the nearest code vector from a learned codebook.",
+        "Sorted in descending order."
+      ],
+      "correct_answer": "Replaced by the nearest code vector from a learned codebook.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 95,
+      "text": "In contrast to a standard VAE, a VQ-VAE does NOT typically include which of the following?",
+      "type": "multichoice",
+      "options": [
+        "The reparameterization trick ( [IMAGE: /data/images/da5002_2025T3_Q2_NA_p3_Im1.webp|inline] ).",
+        "A reconstruction loss term (like MSE or Cross-Entropy).",
+        "A decoder network.",
+        "A KL Divergence loss term."
+      ],
+      "correct_answer": [
+        "The reparameterization trick ( [IMAGE: /data/images/da5002_2025T3_Q2_NA_p3_Im1.webp|inline] ).",
+        "A KL Divergence loss term."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 96,
+      "text": "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p3_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "18",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 97,
+      "text": "In the standard VAE graphical model, what is the sequence of dependencies that constitutes the generative process (Inference)?",
+      "type": "MCQ",
+      "options": [
+        "Input [IMAGE: /data/images/da5002_2025T3_Q2_NA_p3_Im4.webp|inline] Decoder [IMAGE: /data/images/da5002_2025T3_Q2_NA_p3_Im5.webp|inline] Latent [IMAGE: /data/images/da5002_2025T3_Q2_NA_p3_Im6.webp|inline] Prior [IMAGE: /data/images/da5002_2025T3_Q2_NA_p3_Im7.webp|inline] Reconstruction [IMAGE: /data/images/da5002_2025T3_Q2_NA_p3_Im8.webp|inline] .",
+        "Encoder [IMAGE: /data/images/da5002_2025T3_Q2_NA_p3_Im9.webp|inline] Latent [IMAGE: /data/images/da5002_2025T3_Q2_NA_p3_Im10.webp|inline] Prior [IMAGE: /data/images/da5002_2025T3_Q2_NA_p3_Im11.webp|inline] .",
+        "Prior [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im2.webp|inline] Latent [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im3.webp|inline] Decoder [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im4.webp|inline] Sample [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im5.webp|inline] .",
+        "Input [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im7.webp|inline] Encoder [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im8.webp|inline] Latent [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im9.webp|inline] Decoder [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im10.webp|inline] Reconstruction [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im11.webp|inline] ."
+      ],
+      "correct_answer": "Prior [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im2.webp|inline] Latent [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im3.webp|inline] Decoder [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im4.webp|inline] Sample [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im5.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p3_Im4.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p3_Im5.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p3_Im6.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p3_Im7.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p3_Im8.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p3_Im9.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p3_Im10.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p3_Im11.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im2.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im3.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im4.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im5.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im7.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im8.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im9.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im10.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 98,
+      "text": "Posterior collapse (where [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im12.webp|inline] for all [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im13.webp|inline] ) is a failure mode in VAEs. Which component of the VAE loss, when overwhelmingly strong, is the primary mathematical driver of this phenomenon?",
+      "type": "MCQ",
+      "options": [
+        "The gradient flow from the decoder to the encoder.",
+        "The Reconstruction Loss (expected log-likelihood).",
+        "The mean term, [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im14.webp|inline] , of the reparameterization trick.",
+        "The [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im15.webp|inline] -weighted KL Divergence term."
+      ],
+      "correct_answer": "The [IMAGE: /data/images/da5002_2025T3_Q2_NA_p4_Im15.webp|inline] -weighted KL Divergence term.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im12.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im13.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im14.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p4_Im15.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 99,
+      "text": "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p5_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p5_Im6.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p5_Im1.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p5_Im3.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p5_Im4.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p5_Im6.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 100,
+      "text": "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p5_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p6_Im3.webp|inline] [IMAGE: /data/images/da5002_2025T3_Q2_NA_p6_Im4.webp|block]",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p6_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p5_Im8.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p6_Im2.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p6_Im3.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p6_Im4.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 101,
+      "text": "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p6_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im1.webp|block] [IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im3.webp|block]",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im5.webp|block]",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im5.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p6_Im7.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im1.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im3.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im5.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 102,
+      "text": "Consider a variance-preserving diffusion process with a variance schedule [IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im7.webp|inline] , and define [IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im8.webp|block] The forward diffusion process is given by [IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im9.webp|block] which admits the reparameterization [IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im10.webp|block] The reverse process is modeled as [IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im11.webp|block] For this linear-Gaussian forward process, what are the correct expressions for the posterior mean and variance of [IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im12.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im13.webp|inline] [IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im14.webp|block]",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im15.webp|inline] [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im1.webp|block]",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im3.webp|inline] [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im5.webp|inline] [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im6.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im13.webp|inline] [IMAGE: /data/images/da5002_2025T3_Q2_NA_p7_Im14.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im7.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im8.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im9.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im10.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im11.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im12.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im13.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im14.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p7_Im15.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im1.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im3.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im4.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im5.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 103,
+      "text": "In a [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im7.webp|inline] -VAE, the Evidence Lower Bound (ELBO) is modified as: [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im8.webp|block] Increasing [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im9.webp|inline] (i.e., [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im10.webp|inline] ) tends to:",
+      "type": "multichoice",
+      "options": [
+        "Strengthen disentanglement between latent dimensions.",
+        "Encourage sharper image reconstructions. (in case of image dataset)",
+        "Reduce mutual information between [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im12.webp|inline] and [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im13.webp|inline] .",
+        "Make the latent posterior [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im14.webp|inline] closer to the prior [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im15.webp|inline] ."
+      ],
+      "correct_answer": [
+        "Strengthen disentanglement between latent dimensions.",
+        "Reduce mutual information between [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im12.webp|inline] and [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im13.webp|inline] .",
+        "Make the latent posterior [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im14.webp|inline] closer to the prior [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im15.webp|inline] ."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im7.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im8.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im9.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im10.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im12.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im13.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im14.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im15.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 104,
+      "text": "If the KL term [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im16.webp|inline] goes to nearly 0 for all [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im17.webp|inline] during training the VAE, what situation might be happening?",
+      "type": "MCQ",
+      "options": [
+        "The encoder ignores the input [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im18.webp|inline] and outputs something close to the prior for all inputs.",
+        "The encoder perfectly memorizes each input in [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im19.webp|inline] ."
+      ],
+      "correct_answer": "The encoder ignores the input [IMAGE: /data/images/da5002_2025T3_Q2_NA_p8_Im18.webp|inline] and outputs something close to the prior for all inputs.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im16.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im17.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im18.webp",
+        "/data/images/da5002_2025T3_Q2_NA_p8_Im19.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    }
+  ],
+  "id": "da5002-2025t3-q2-na",
+  "course_code": "DA5002",
+  "course_name": "Mathematical Foundations of Generative AI",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

@@ -1,0 +1,816 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)",
+  "filename": "da5006_2026T2_ET_FN.pdf",
+  "total_questions": 38,
+  "total_marks": 73.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "An RGB image of size 128\u00d796 is stored with 32-bit floating-point values for every channel. Ignoring metadata, how many bytes are required?",
+      "type": "MCQ",
+      "options": [
+        "36,864",
+        "73,728",
+        "147,456",
+        "294,912"
+      ],
+      "correct_answer": "147,456",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Let a 1-D filter be h =[2,-1,3]. A library routine performs cross-correlation. Which filter should be supplied to the routine to reproduce mathematical convolution with h , ignoring boundary effects?",
+      "type": "MCQ",
+      "options": [
+        "[2,-1,3]",
+        "[-2,1,-3]",
+        "[3,-1,2]",
+        "[3,1,2]"
+      ],
+      "correct_answer": "[3,-1,2]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "At a point on an ideal straight intensity edge, the local image-gradient vector is most naturally interpreted as pointing:",
+      "type": "MCQ",
+      "options": [
+        "Along the tangent direction of the edge",
+        "Approximately normal to the edge",
+        "Along the direction of maximum smoothing",
+        "Along the local isophote"
+      ],
+      "correct_answer": "Approximately normal to the edge",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "An image is smoothed successively with Gaussian kernels of standard deviations 2 and 3. Ignoring discretization, the equivalent single Gaussian has standard deviation:",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2026T2_ET_FN_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5006_2026T2_ET_FN_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5006_2026T2_ET_FN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5006_2026T2_ET_FN_p2_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2026T2_ET_FN_p2_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2026T2_ET_FN_p2_Im3.webp",
+        "/data/images/da5006_2026T2_ET_FN_p2_Im4.webp",
+        "/data/images/da5006_2026T2_ET_FN_p2_Im5.webp",
+        "/data/images/da5006_2026T2_ET_FN_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Which design choice is most directly responsible for the rotation robustness of a SIFT descriptor?",
+      "type": "MCQ",
+      "options": [
+        "Detecting candidate keypoints across multiple image scales",
+        "Expressing local gradient orientations relative to an assigned keypoint orientation",
+        "Normalizing the descriptor vector after histogram construction",
+        "Building an image pyramid without assigning an orientation"
+      ],
+      "correct_answer": "Expressing local gradient orientations relative to an assigned keypoint orientation",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "A hidden activation h is used by two downstream branches, and both branches affect the same scalar loss L . During backpropagation, the gradient with respect to h is obtained by:",
+      "type": "MCQ",
+      "options": [
+        "Taking the larger of the two branch gradients",
+        "Summing the gradient contributions from the two branches",
+        "Multiplying the two branch gradients",
+        "Averaging the two branch gradients regardless of the graph"
+      ],
+      "correct_answer": "Summing the gradient contributions from the two branches",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Suppose successive gradients keep pointing in a similar direction over several updates. Compared with plain gradient descent using the same nominal learning rate, momentum tends to:",
+      "type": "MCQ",
+      "options": [
+        "Cancel updates in that direction",
+        "Build velocity in that direction while smoothing short-term gradient fluctuations",
+        "Make the gradient exactly unbiased",
+        "Force every parameter to use the same accumulated gradient"
+      ],
+      "correct_answer": "Build velocity in that direction while smoothing short-term gradient fluctuations",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Training loss continues to decrease, but validation loss has begun to increase consistently. Which interpretation is most appropriate?",
+      "type": "MCQ",
+      "options": [
+        "The model is necessarily underfitting",
+        "Generalization is worsening even though optimization on the training set is improving",
+        "The training objective is necessarily non-differentiable",
+        "The model has reached the global optimum on unseen data"
+      ],
+      "correct_answer": "Generalization is worsening even though optimization on the training set is improving",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "A 3\u00d73 convolution maps 16 input channels to 32 output channels. If the input spatial size changes from 64\u00d764 to 128\u00d7128 while the layer configuration is unchanged, the number of trainable convolution weights:",
+      "type": "MCQ",
+      "options": [
+        "Doubles",
+        "Quadruples",
+        "Remains unchanged",
+        "Is halved"
+      ],
+      "correct_answer": "Remains unchanged",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "A convolution kernel is reused at many spatial locations. The gradient of the loss with respect to one kernel coefficient therefore contains:",
+      "type": "MCQ",
+      "options": [
+        "A contribution from only the central output location",
+        "Contributions accumulated from all output locations where that coefficient was used",
+        "Only the gradient of the bias corresponding to that output channel",
+        "A contribution from exactly one spatial location chosen during the forward pass"
+      ],
+      "correct_answer": "Contributions accumulated from all output locations where that coefficient was used",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "[IMAGE: /data/images/da5006_2026T2_ET_FN_p4_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It forces F(x) to be constant",
+        "The block can approach an identity mapping when the residual F(x) approaches zero",
+        "It prevents gradients from entering the residual branch",
+        "It makes every convolution invertible"
+      ],
+      "correct_answer": "The block can approach an identity mapping when the residual F(x) approaches zero",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2026T2_ET_FN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "A depthwise-separable convolution first applies a spatial filter independently to each input channel and then uses a 1\u00d71 convolution across channels. Its main computational advantage over a dense spatial convolution is that it:",
+      "type": "MCQ",
+      "options": [
+        "Eliminates channel mixing from the layer",
+        "Factorizes spatial filtering and channel mixing into cheaper operations",
+        "Uses a larger spatial kernel with the same parameter count",
+        "Forces the number of output channels to equal the number of input channels"
+      ],
+      "correct_answer": "Factorizes spatial filtering and channel mixing into cheaper operations",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "When adapting a pretrained CNN to a related task with a relatively small labeled dataset, which training choice is generally the more conservative starting point?",
+      "type": "MCQ",
+      "options": [
+        "Reinitialize the entire network and use a very large learning rate",
+        "Retain pretrained features and update them cautiously, often with a smaller learning rate than newly initialized layers",
+        "Freeze the newly added prediction head and update only the old classifier",
+        "Randomly permute pretrained channels before optimization"
+      ],
+      "correct_answer": "Retain pretrained features and update them cautiously, often with a smaller learning rate than newly initialized layers",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Which processing pattern is characteristic of a two-stage object detector?",
+      "type": "MCQ",
+      "options": [
+        "Dense prediction of final detections in one stage with no proposal-processing step",
+        "Generation of candidate regions followed by prediction on those candidate regions",
+        "Pixel-wise class prediction without object localization",
+        "Sequence-level prediction using recurrent hidden states"
+      ],
+      "correct_answer": "Generation of candidate regions followed by prediction on those candidate regions",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "For semantic image segmentation with C classes, the model output before the final class decision is naturally organized as:",
+      "type": "MCQ",
+      "options": [
+        "One C -dimensional vector for the entire image only",
+        "A spatial grid with C class scores at each output location",
+        "One bounding box for each of the C classes",
+        "A sequence with one recurrent state per class and no spatial layout"
+      ],
+      "correct_answer": "A spatial grid with C class scores at each output location",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Compared with a basic recurrent update, the gating mechanisms in LSTMs and GRUs are primarily intended to:",
+      "type": "MCQ",
+      "options": [
+        "Remove nonlinearities from the recurrent computation",
+        "Regulate information retention and update across timesteps",
+        "Make the model invariant to permutation of the sequence",
+        "Replace recurrent state with a fixed convolution kernel"
+      ],
+      "correct_answer": "Regulate information retention and update across timesteps",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "In self-attention, changing the query vector for one token while keeping keys and values fixed directly changes:",
+      "type": "MCQ",
+      "options": [
+        "The number of tokens in the sequence",
+        "The attention weights used to combine the value vectors for that token",
+        "The dimensionality of every value vector",
+        "The number of transformer layers"
+      ],
+      "correct_answer": "The attention weights used to combine the value vectors for that token",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "A standard way to convert an image for processing by a Vision Transformer is to:",
+      "type": "MCQ",
+      "options": [
+        "Treat the complete image batch as a single token",
+        "Divide the image into patches and map the patches to token embeddings",
+        "Replace each patch with its ground-truth class before attention",
+        "Use only the global mean RGB value as the token sequence"
+      ],
+      "correct_answer": "Divide the image into patches and map the patches to token embeddings",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Which statement correctly distinguishes the two model families?",
+      "type": "MCQ",
+      "options": [
+        "A GAN necessarily contains an explicit encoder that outputs a Gaussian posterior",
+        "A VAE uses a latent-variable objective with a regularized approximate posterior, whereas a GAN uses an adversarial training objective",
+        "A VAE is trained only through a discriminator",
+        "GANs and VAEs have the same training objective but different optimizers"
+      ],
+      "correct_answer": "A VAE uses a latent-variable objective with a regularized approximate posterior, whereas a GAN uses an adversarial training objective",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Classifier-free guidance during sampling is based on combining:",
+      "type": "MCQ",
+      "options": [
+        "Predictions from two external classifiers trained on different label sets",
+        "Conditional and unconditional denoising predictions from the diffusion model",
+        "The forward-noise sample and a segmentation mask with equal weights",
+        "Two independently sampled latent codes without conditioning information"
+      ],
+      "correct_answer": "Conditional and unconditional denoising predictions from the diffusion model",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Select all correct statements",
+      "type": "multichoice",
+      "options": [
+        "A normalized averaging filter preserves a constant-valued region away from boundary effects.",
+        "Increasing Gaussian scale suppresses progressively finer image structure.",
+        "Image pyramids represent image information at multiple spatial scales.",
+        "Cross-correlation always flips the filter before applying it."
+      ],
+      "correct_answer": [
+        "A normalized averaging filter preserves a constant-valued region away from boundary effects.",
+        "Increasing Gaussian scale suppresses progressively finer image structure.",
+        "Image pyramids represent image information at multiple spatial scales."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Select all correct statements .",
+      "type": "multichoice",
+      "options": [
+        "Backpropagation applies the chain rule efficiently through a computation graph.",
+        "Regularization can change the learned solution even when the network architecture is unchanged.",
+        "Gradient-descent variants can modify how current and past gradient information is used to update parameters.",
+        "Improving training means validation performance must increase after every individual parameter update."
+      ],
+      "correct_answer": [
+        "Backpropagation applies the chain rule efficiently through a computation graph.",
+        "Regularization can change the learned solution even when the network architecture is unchanged.",
+        "Gradient-descent variants can modify how current and past gradient information is used to update parameters."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Select all correct statements.",
+      "type": "multichoice",
+      "options": [
+        "Weight sharing allows the same convolution kernel parameters to be used at multiple spatial locations.",
+        "Inception-style designs can use multiple processing branches.",
+        "Residual connections create shortcut paths across learned transformations.",
+        "Finetuning requires discarding all pretrained weights before optimization starts."
+      ],
+      "correct_answer": [
+        "Weight sharing allows the same convolution kernel parameters to be used at multiple spatial locations.",
+        "Inception-style designs can use multiple processing branches.",
+        "Residual connections create shortcut paths across learned transformations."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Select all correct statements.",
+      "type": "multichoice",
+      "options": [
+        "Two-stage detectors separate candidate-region generation from later prediction on candidates.",
+        "Single-stage detectors can produce final detection predictions without a separate proposal-processing stage.",
+        "Segmentation is a dense prediction task with spatially resolved outputs.",
+        "Object detection and segmentation necessarily produce identical output representations."
+      ],
+      "correct_answer": [
+        "Two-stage detectors separate candidate-region generation from later prediction on candidates.",
+        "Single-stage detectors can produce final detection predictions without a separate proposal-processing stage.",
+        "Segmentation is a dense prediction task with spatially resolved outputs."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "Select all correct statements .",
+      "type": "multichoice",
+      "options": [
+        "Recurrent models can process ordered sequences of visual features.",
+        "Backpropagation through a recurrent model propagates gradient information across unrolled timesteps.",
+        "LSTMs and GRUs use gating mechanisms.",
+        "Randomly permuting all video frames leaves every temporal model output unchanged by definition."
+      ],
+      "correct_answer": [
+        "Recurrent models can process ordered sequences of visual features.",
+        "Backpropagation through a recurrent model propagates gradient information across unrolled timesteps.",
+        "LSTMs and GRUs use gating mechanisms."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "Select all correct statements.",
+      "type": "multichoice",
+      "options": [
+        "Soft attention can form a weighted combination of visual features.",
+        "Self-attention allows token representations to depend directly on other tokens.",
+        "Vision Transformers adapt transformer-style token processing to visual inputs.",
+        "Transformer-based segmentation is restricted to producing one class label for an entire image."
+      ],
+      "correct_answer": [
+        "Soft attention can form a weighted combination of visual features.",
+        "Self-attention allows token representations to depend directly on other tokens.",
+        "Vision Transformers adapt transformer-style token processing to visual inputs."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "Select all correct statements.",
+      "type": "multichoice",
+      "options": [
+        "GAN training involves adversarial objectives.",
+        "VAEs introduce latent variables and regularize an approximate posterior.",
+        "DDPMs use a noise-based forward process together with a learned reverse denoising process.",
+        "Classifier-free guidance requires a separate external classifier at sampling time."
+      ],
+      "correct_answer": [
+        "GAN training involves adversarial objectives.",
+        "VAEs introduce latent variables and regularize an approximate posterior.",
+        "DDPMs use a noise-based forward process together with a learned reverse denoising process."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "Select all correct statements .",
+      "type": "multichoice",
+      "options": [
+        "SimCLR is a self-supervised contrastive representation-learning method.",
+        "MoCo is a contrastive representation-learning method.",
+        "CLIP learns relationships between visual and textual representations.",
+        "In SimCLR, a positive pair is formed by two unrelated images solely because they receive the same predicted class."
+      ],
+      "correct_answer": [
+        "SimCLR is a self-supervised contrastive representation-learning method.",
+        "MoCo is a contrastive representation-learning method.",
+        "CLIP learns relationships between visual and textual representations."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "Inscript An input feature map has spatial size 63\u00d763. A 5\u00d75 convolution is applied with stride 2 and padding 1. Compute the output size along one spatial dimension.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "31",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "Inscript An image is smoothed successively by Gaussian kernels with \u03c3 1 =1.2 and \u03c3 2 =1.6. Ignoring discretization, compute the equivalent single Gaussian standard deviation.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 32,
+      "text": "Inscript [IMAGE: /data/images/da5006_2026T2_ET_FN_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2026T2_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 33,
+      "text": "Inscript A convolutional layer uses 3\u00d73 kernels, 16 input channels and 32 output channels. The layer has one bias per output channel. Compute the total number of trainable parameters.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4640",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 34,
+      "text": "Inscript A depthwise-separable convolution receives 32 channels. It uses a 3\u00d73 depthwise convolution followed by a 1\u00d71 pointwise convolution producing 64 output channels. Ignore biases. Compute the total number of weights.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2336",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 35,
+      "text": "Inscript [IMAGE: /data/images/da5006_2026T2_ET_FN_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "152",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2026T2_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 36,
+      "text": "Inscript [IMAGE: /data/images/da5006_2026T2_ET_FN_p11_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.730 to 0.732",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2026T2_ET_FN_p11_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 37,
+      "text": "Inscript [IMAGE: /data/images/da5006_2026T2_ET_FN_p12_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.817 to 0.819",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2026T2_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "original_number": 38,
+      "text": "Inscript [IMAGE: /data/images/da5006_2026T2_ET_FN_p12_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.363 to 1.365",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2026T2_ET_FN_p12_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    }
+  ],
+  "id": "da5006-2026t2-et-fn",
+  "course_code": "DA5006",
+  "course_name": "Deep Learning for Computer Vision",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

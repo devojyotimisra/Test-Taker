@@ -1,0 +1,994 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "cs2008_2024T3_ET_AN.pdf",
+  "total_questions": 39,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 331,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 332,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "correct_answer": "6",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 333,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p1_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[5, 6]",
+        "[4, 5]",
+        "[8, 6]",
+        "[2, 3]"
+      ],
+      "correct_answer": "[8, 6]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p1_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 334,
+      "text": "You have loaded a dataset with 1000 samples and 20 features into a Pandas DataFrame. Some samples have missing values for a few features. If you want to remove rows with fewer than 15 non-null values, what method would you use?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p2_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p2_Im3.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p2_Im4.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p2_Im5.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p2_Im6.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 335,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p2_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1.25",
+        "2.56",
+        "4.25",
+        "1.12",
+        "Given code will return an error."
+      ],
+      "correct_answer": "1.12",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p2_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 336,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It adjusts the learning rate based on the number of iterations.",
+        "It defines the initial value for the learning rate and keeps it constant throughout training.",
+        "It determines the maximum step size allowed during training.",
+        "It specifies the fraction of the dataset used for each step in the stochastic gradient descent."
+      ],
+      "correct_answer": "It defines the initial value for the learning rate and keeps it constant throughout training.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 337,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p3_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It determines the number of features to select for each base model.",
+        "It controls the number of base learners (models) to train in the ensemble.",
+        "It decides the maximum number of samples to use in each base model.",
+        "It ensures randomness in the sample selection for each base model."
+      ],
+      "correct_answer": "It controls the number of base learners (models) to train in the ensemble.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 338,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The percentage of training samples used to train each base estimator.",
+        "The number of base estimators trained on subsets of the training data.",
+        "The maximum number of features used by each base estimator during training.",
+        "The total number of samples used to train all base estimators combined."
+      ],
+      "correct_answer": "The percentage of training samples used to train each base estimator.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 339,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p4_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It increases the variance among individual trees.",
+        "It decreases the variance among individual trees.",
+        "It reduces the number of samples used for training each tree.",
+        "It reduces overfitting by restricting tree depth."
+      ],
+      "correct_answer": "It decreases the variance among individual trees.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 340,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The total amount spent by each customer.",
+        "The cluster assignments indicating which group each customer belongs to.",
+        "The number of items purchased by each customer.",
+        "The centroid coordinates of the clusters formed."
+      ],
+      "correct_answer": "The cluster assignments indicating which group each customer belongs to.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 341,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It increases the model\u2019s capacity to fit the training data closely, potentially causing overfitting.",
+        "It adds a stronger regularization term to the loss function, reducing the model\u2019s complexity and helping prevent overfitting.",
+        "It makes the model more prone to overfitting by increasing its sensitivity to noise in the training data.",
+        "It directly affects the learning rate, controlling how fast the model converges during training."
+      ],
+      "correct_answer": "It adds a stronger regularization term to the loss function, reducing the model\u2019s complexity and helping prevent overfitting.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 342,
+      "text": "Consider the following two statements and select the correct answer: 1. Statement 1: The multinomial Naive Bayes classifier is suitable for classification with discrete features 2. Statement 2: Two dependent features do not impact GaussianNB performance because internally it calculates the conditional probability independently for each feature.",
+      "type": "MCQ",
+      "options": [
+        "Both statements are True",
+        "Only statement 1 is True",
+        "Only statement 2 is True",
+        "Both statements are False"
+      ],
+      "correct_answer": "Only statement 1 is True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 343,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p7_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p7_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p7_Im1.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p7_Im3.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p7_Im5.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p7_Im6.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 344,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p7_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p7_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p7_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p8_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p8_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p7_Im9.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p7_Im8.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p7_Im9.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p7_Im10.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p8_Im2.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 345,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p8_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "s1 = s2",
+        "s1 < s2",
+        "s1 > s2"
+      ],
+      "correct_answer": "s1 = s2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 346,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p8_Im6.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p9_Im1.webp|block] [IMAGE: /data/images/cs2008_2024T3_ET_AN_p9_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p9_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p9_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p9_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p9_Im1.webp|block] [IMAGE: /data/images/cs2008_2024T3_ET_AN_p9_Im3.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p8_Im6.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p9_Im1.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p9_Im3.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p9_Im4.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p9_Im5.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 347,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p9_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[0]",
+        "[1]",
+        "[0.5]",
+        "[2]"
+      ],
+      "correct_answer": "[0]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 348,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p10_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Output score is likely to increase.",
+        "Output score is likely to decrease.",
+        "Output score may increase or decrease depending on other factors.",
+        "Output score will remain the same."
+      ],
+      "correct_answer": "Output score is likely to decrease.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 349,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p10_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Outputs the number of iterations and the final silhouette score of the clusters.",
+        "Outputs the cluster labels for each data point and the maximum distance between clusters.",
+        "Outputs the coordinates of the cluster centroids and the number of points in each cluster.",
+        "Outputs the coordinates of the cluster centroids and the sum of squared distances of samples to their closest cluster center."
+      ],
+      "correct_answer": "Outputs the coordinates of the cluster centroids and the sum of squared distances of samples to their closest cluster center.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p10_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 350,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p11_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p11_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p11_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p11_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p11_Im3.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p11_Im4.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p11_Im5.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p11_Im6.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p11_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 351,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p11_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p12_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p12_Im3.webp|inline] [IMAGE: /data/images/cs2008_2024T3_ET_AN_p12_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p12_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p11_Im8.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p12_Im2.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p12_Im3.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p12_Im5.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p12_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 352,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p12_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p12_Im9.webp|block]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p12_Im10.webp|block]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p12_Im11.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p12_Im7.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p12_Im9.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p12_Im10.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p12_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 353,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "64"
+      ],
+      "correct_answer": "16",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 354,
+      "text": "Which of the following are techniques for dimensionality reduction?",
+      "type": "multichoice",
+      "options": [
+        "PCA (Principal Component Analysis)",
+        "StandardScaler",
+        "Lasso Regression",
+        "t-SNE (t-distributed Stochastic Neighbor Embedding)"
+      ],
+      "correct_answer": [
+        "PCA (Principal Component Analysis)",
+        "Lasso Regression",
+        "t-SNE (t-distributed Stochastic Neighbor Embedding)"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 355,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p13_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "When data is streaming or generated incrementally.",
+        "When the dataset is small.",
+        "When the dataset cannot fit in memory.",
+        "When the training labels are noisy."
+      ],
+      "correct_answer": [
+        "When data is streaming or generated incrementally.",
+        "When the dataset cannot fit in memory."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p13_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 356,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p14_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p14_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p14_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p14_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p14_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p14_Im7.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p14_Im3.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p14_Im5.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p14_Im6.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p14_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 357,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p15_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[1, 2, 3, 6, 7]",
+        "[1, 2, 3, 4, 5, 7]",
+        "[2, 4, 6, 8]",
+        "[1, 2, 3, 6, 8, 9]",
+        "[2, 5, 8]",
+        "[4, 5, 6, 7, 8, 9]"
+      ],
+      "correct_answer": [
+        "[1, 2, 3, 4, 5, 7]",
+        "[1, 2, 3, 6, 8, 9]",
+        "[4, 5, 6, 7, 8, 9]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 358,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p15_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p15_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p15_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p15_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p15_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p15_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p15_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p15_Im8.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p15_Im4.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p15_Im5.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p15_Im6.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p15_Im7.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p15_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 359,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im7.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p16_Im1.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p16_Im3.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p16_Im5.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p16_Im6.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p16_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 360,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im8.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im12.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p16_Im11.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p16_Im8.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p16_Im9.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p16_Im10.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p16_Im11.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p16_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 361,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p17_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The neural network contains 3 hidden layers with 5 neurons in each hidden layer",
+        "The neural network contains 5 hidden layers with 3 neurons in each hidden layer",
+        "The neural network contains 2 hidden layers with 3 neurons in the second hidden layer",
+        "The neural network contains 2 hidden layers with 5 neurons in the first hidden layer",
+        "None of the given options are correct"
+      ],
+      "correct_answer": [
+        "The neural network contains 2 hidden layers with 3 neurons in the second hidden layer",
+        "The neural network contains 2 hidden layers with 5 neurons in the first hidden layer"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 362,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p17_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The number of samples at node N is 15. If split, the left child will have 10 samples, and the right child will have 5 samples.",
+        "The number of samples at node N is 8. If split, the left child will have 4 samples, and the right child will have 4 samples.",
+        "The number of samples at node N is 9. If split, the left child will have 2 samples, and the right child will have 7 samples.",
+        "The number of samples at node N is 14. If split, the left child will have 4 samples, and the right child will have 10 samples.",
+        "The number of samples at node N is 6. If split, the left child will have 3 samples, and the right child will have 3 samples."
+      ],
+      "correct_answer": [
+        "The number of samples at node N is 15. If split, the left child will have 10 samples, and the right child will have 5 samples.",
+        "The number of samples at node N is 8. If split, the left child will have 4 samples, and the right child will have 4 samples.",
+        "The number of samples at node N is 14. If split, the left child will have 4 samples, and the right child will have 10 samples."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p17_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 363,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p18_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p18_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 364,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p19_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.6",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 365,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p19_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p19_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 366,
+      "text": "Which of the following commands will return the total sales across all regions?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p20_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p20_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p20_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p20_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p20_Im3.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p20_Im1.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p20_Im3.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p20_Im5.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p20_Im6.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p20_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p20_Im1.webp|block]",
+      "group_id": "6406531043402",
+      "section_name": "MLP"
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 367,
+      "text": "Which of the following commands will return the names of employees in the \u201dNorth\u201d region?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im4.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p20_Im1.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p21_Im2.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p21_Im3.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p21_Im4.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p21_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p20_Im1.webp|block]",
+      "group_id": "6406531043402",
+      "section_name": "MLP"
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "original_number": 368,
+      "text": "Which of the following methods can be used to find the employee(s) with the highest sales?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im10.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im10.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p20_Im1.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p21_Im7.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p21_Im8.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p21_Im9.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p21_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p20_Im1.webp|block]",
+      "group_id": "6406531043402",
+      "section_name": "MLP"
+    },
+    {
+      "id": 39,
+      "number": 39,
+      "original_number": 369,
+      "text": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p21_Im11.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The total sales for each region.",
+        "The average sales for each month.",
+        "The average sales for each region.",
+        "None of these."
+      ],
+      "correct_answer": "The average sales for each region.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2024T3_ET_AN_p21_Im11.webp",
+        "/data/images/cs2008_2024T3_ET_AN_p20_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2024T3_ET_AN_p20_Im1.webp|block]",
+      "group_id": "6406531043402",
+      "section_name": "MLP"
+    }
+  ],
+  "id": "cs2008-2024t3-et-an",
+  "course_code": "CS2008",
+  "course_name": "Machine Learning Practice",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

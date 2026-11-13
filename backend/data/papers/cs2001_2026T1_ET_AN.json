@@ -1,0 +1,492 @@
+{
+  "title": "DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)",
+  "filename": "cs2001_2026T1_ET_AN.pdf",
+  "total_questions": 21,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider a B-tree index to be built on the attribute EmployeeID of a table Employees , with the following properties: \u2022 The length of the attribute EmployeeID is 16 bytes. \u2022 The size of each child pointer is 8 bytes. \u2022 The size of each record pointer is 8 bytes. \u2022 The size of each disk block is 488 bytes. With the given information, what is the best choice for the order of the non-leaf nodes of the B- tree?",
+      "type": "MCQ",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "correct_answer": "16",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the table BandRecords as given below: [IMAGE: /data/images/cs2001_2026T1_ET_AN_p2_Im1.webp|block] Let us create two different bitmap indices, one on the Tour attribute and the other on the Genre attribute. Which of the following options will give the correct result if we want to find all bands performing in 'RetroLive' and having the genre 'Rock' ? Note: Options are in the form of Tour (operation) Genre",
+      "type": "MCQ",
+      "options": [
+        "10000100 AND 00100100",
+        "00000101 OR 11001001",
+        "00001001 AND 11001001",
+        "00001001 OR 00100100"
+      ],
+      "correct_answer": "00001001 AND 11001001",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the relational schemas Student , Course and Enrolled : [IMAGE: /data/images/cs2001_2026T1_ET_AN_p2_Im4.webp|block] Now consider the following SQL query: [IMAGE: /data/images/cs2001_2026T1_ET_AN_p3_Im1.webp|block] The query returns:",
+      "type": "MCQ",
+      "options": [
+        "Names of students who failed in all courses",
+        "Names of students who failed in at least one course",
+        "Names of students who have not failed in any course",
+        "Names of students who are enrolled in all courses"
+      ],
+      "correct_answer": "Names of students who have not failed in any course",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p2_Im4.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the hash functions given below. \u2022 [IMAGE: /data/images/cs2001_2026T1_ET_AN_p3_Im4.webp|inline] \u2022 [IMAGE: /data/images/cs2001_2026T1_ET_AN_p3_Im5.webp|inline] \u2022 [IMAGE: /data/images/cs2001_2026T1_ET_AN_p3_Im6.webp|inline] \u2022 [IMAGE: /data/images/cs2001_2026T1_ET_AN_p3_Im7.webp|inline] Identify the hash function(s) that can generate unique hash values for the following search key values: [IMAGE: /data/images/cs2001_2026T1_ET_AN_p3_Im8.webp|inline] .",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p3_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p3_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p4_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p3_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p4_Im2.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p3_Im4.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p3_Im5.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p3_Im6.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p3_Im7.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p3_Im8.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p3_Im9.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p3_Im10.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p4_Im2.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the definition of the table Products : [IMAGE: /data/images/cs2001_2026T1_ET_AN_p4_Im5.webp|block] The following sequence of queries is executed on this table: [IMAGE: /data/images/cs2001_2026T1_ET_AN_p4_Im6.webp|block] Which of the following results in an invalid operation on the table Products ?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p4_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p4_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p4_Im10.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p4_Im8.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p4_Im5.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p4_Im6.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p4_Im7.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p4_Im8.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p4_Im9.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p4_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Schedule S is as given: [IMAGE: /data/images/cs2001_2026T1_ET_AN_p5_Im1.webp|block] Which of the following options is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "Schedule S is not conflict serializable.",
+        "Schedule S can be two-phase lockable.",
+        "Two phase lockable schedules are always serializable.",
+        "Schedule S is not two-phase lockable."
+      ],
+      "correct_answer": [
+        "Schedule S is not conflict serializable.",
+        "Two phase lockable schedules are always serializable.",
+        "Schedule S is not two-phase lockable."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider a relation schema T ( A,B,C,D,E,F ) and the set of functional dependencies, F = { A \u2192 BC, C \u2192 D, D \u2192 C, B \u2192 E, E \u2192 F}. This schema is decomposed into two relations T1 ( A,B,C,E ) and T2 ( A,C,D,F ). Consider the following statements given below regarding the decomposition of T1 and T2 . Choose the correct option(s).",
+      "type": "multichoice",
+      "options": [
+        "The decomposition of T into T1 and T2 is dependency preserving.",
+        "The decomposition of T into T1 and T2 is lossless.",
+        "The schema T1 is in 2NF.",
+        "The schema T2 is in 3NF."
+      ],
+      "correct_answer": [
+        "The decomposition of T into T1 and T2 is lossless.",
+        "The schema T1 is in 2NF."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the following monthly backup schedule used by a company: [IMAGE: /data/images/cs2001_2026T1_ET_AN_p6_Im1.webp|block] If a failure occurs on the 24th day of the month after the backup for the day has been completed, how many backup sets have to be loaded for a full recovery?",
+      "type": "MCQ",
+      "options": [
+        "10",
+        "11",
+        "9",
+        "8"
+      ],
+      "correct_answer": "10",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the instance of a relation V . Which among the following functional dependency set(s) can be inferred from the given information? [IMAGE: /data/images/cs2001_2026T1_ET_AN_p6_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "{ P \u2192 R, R \u2192 S, P Q \u2192 R, S \u2192 P }",
+        "{ R \u2192 S, P Q \u2192 S, Q \u2192 P, P \u2192 S}",
+        "{ P \u2192 S, R \u2192 S, P Q \u2192 R, S \u2192 Q}",
+        "{ R \u2192 S, P Q \u2192 S, P \u2192 S, Q \u2192 R}"
+      ],
+      "correct_answer": "{ R \u2192 S, P Q \u2192 S, Q \u2192 P, P \u2192 S}",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the following relational schema: [IMAGE: /data/images/cs2001_2026T1_ET_AN_p7_Im1.webp|block] Choose the correct SQL query to find the names of departments where the total marks of students is greater than the total marks in any department where the average marks is less than 60.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p7_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p7_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p8_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p7_Im5.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p7_Im1.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p7_Im5.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p7_Im6.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Choose the relational algebra expression that is equivalent to the following tuple calculus expression: [IMAGE: /data/images/cs2001_2026T1_ET_AN_p8_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p8_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p8_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2026T1_ET_AN_p8_Im7.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p8_Im2.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p8_Im4.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p8_Im5.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p8_Im7.webp",
+        "/data/images/cs2001_2026T1_ET_AN_p8_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider a B+ tree index built on the key attribute of a data file having 62,50,000 records. Let the order of the B+ tree be 50. Find out the maximum number of nodes to be accessed to search a key from the given B+ tree.",
+      "type": "MCQ",
+      "options": [
+        "7",
+        "23",
+        "4",
+        "5"
+      ],
+      "correct_answer": "5",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Choose the correct statement(s).",
+      "type": "multichoice",
+      "options": [
+        "RAID 2 uses designated drive for parity.",
+        "RAID Level-1 does not stripe the data over different disks.",
+        "RAID 3 consists of bit-level striping with dedicated parity.",
+        "RAID 4 has a striping unit of a disk block instead of a single bit, as in RAID 3"
+      ],
+      "correct_answer": [
+        "RAID 2 uses designated drive for parity.",
+        "RAID Level-1 does not stripe the data over different disks.",
+        "RAID 4 has a striping unit of a disk block instead of a single bit, as in RAID 3"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the ER Diagram as shown below: [IMAGE: /data/images/cs2001_2026T1_ET_AN_p10_Im1.webp|block] Which of the following statement(s) is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "Every item must be produced by some company",
+        "Minimum number of tables required to convert this ERD to Relation Model is 5",
+        "An item can be ordered by at most one customer",
+        "There may exist a company which has not produced any items"
+      ],
+      "correct_answer": [
+        "Every item must be produced by some company",
+        "Minimum number of tables required to convert this ERD to Relation Model is 5"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript Consider the given log records at an instance of time: [IMAGE: /data/images/cs2001_2026T1_ET_AN_p11_Im1.webp|block] Suppose there is a system crash after the last log record. What will be the value of the expression (B-A)+(C-D) , based on the values stored on the disk at that point?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "600",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript Consider you have a file in your hard disk of size 900 KB. Seek time of your hard disk read head is 5 ms and rotational speed is 30,000 rpm. The disk has 250 sectors per track and 512 bytes per sector. Considering the fact that the file data is stored in consecutive sectors, how much time will be required to read the whole file after a read request is made? (answer in milliseconds and calculate upto one decimal place)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20.4 to 20.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript Consider a system using the Most Recently Used (MRU) page replacement policy. The system has a main memory buffer with 3 slots, and the page reference sequence is as follows: 2, 1, 3, 2, 4, 2, 1, 5, 2, 1, 4 Calculate the total number of page hits during this sequence.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Inscript Consider the following schedule S with five transactions T1, T2, T3, T4, T5: [IMAGE: /data/images/cs2001_2026T1_ET_AN_p12_Im1.webp|block] Where, R i (X) denotes a read operation by transaction Ti on a data item X, and W i (X) denotes a write operation by transaction Ti on a data item X. What is the possible number of conflict serializable schedules of the above schedule S?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Inscript Consider the relation R (A, B, C, D, E, F) and the following functional dependencies set F = { AB \u2192 C, C \u2192 D, D \u2192 E, E \u2192 F} Find the total number of super keys of R .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "16",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Inscript Consider a block nested-loop join for the two relations students and enrollments : [IMAGE: /data/images/cs2001_2026T1_ET_AN_p13_Im1.webp|block] Assuming the worst-case memory availability and considering students as the outer relation, what is the total number of block transfers required?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "540900",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2026T1_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    }
+  ],
+  "id": "cs2001-2026t1-et-an",
+  "course_code": "CS2001",
+  "course_name": "Database Management Systems",
+  "level": "Diploma in Programming",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

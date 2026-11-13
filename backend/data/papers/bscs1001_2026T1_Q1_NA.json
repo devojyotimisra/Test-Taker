@@ -1,0 +1,311 @@
+{
+  "title": "QUALIFIER LEVEL : COMPUTATIONAL THINKING (COMPUTER BASED EXAM)",
+  "filename": "bscs1001_2026T1_Q1_NA.pdf",
+  "total_questions": 12,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"QUALIFIER LEVEL : COMPUTATIONAL THINKING (COMPUTER BASED EXAM)\" MANDATORILY YOU HAVE TO ATTEND ALL THE SECTIONS",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "[IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p2_Im3.webp|block] [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Useful Data has been mentioned above.",
+        "This data attachment is just for a reference & not for an evaluation."
+      ],
+      "correct_answer": "Useful Data has been mentioned above.",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T1_Q1_NA_p2_Im3.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "The following procedure is executed using the Scores dataset. [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p4_Im1.webp|block] What does the procedure Mystery(\"M\") compute?",
+      "type": "MCQ",
+      "options": [
+        "The average Physics score of all students",
+        "The average Physics score of male students",
+        "The total score of male students",
+        "The total Physics score of male students"
+      ],
+      "correct_answer": "The average Physics score of male students",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T1_Q1_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "The following pseudocode is executed using the Scores table. At the end of the execution, the variable CountBA captures the number of students with total marks less than average total marks and below average in exactly one subject. Assume that the variable AvgT holds the value of average total marks. Similarly, the variables AvgP , AvgC and AvgM hold the value of average marks of Physics, Chemistry and Mathematics respectively. Choose the correct choice to complete the pseudocode. [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p5_Im4.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p5_Im5.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p5_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T1_Q1_NA_p5_Im1.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p5_Im4.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p5_Im5.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Based on the Scores dataset, the Procedure highTotal(S) returns True if student name 'S' has a TOTAL score greater than 180 . Choose the correct pseudocode for Procedure highTotal(S) . (Consider all students have distinct names)",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p6_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p7_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p7_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T1_Q1_NA_p6_Im4.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p7_Im1.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "What does the given pseudocode achieve using the Words table? [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Bins the rows in the Words table into four tables based on word length",
+        "Bins the rows in the Words table into four tables based on whether the word has more vowels or more consonants",
+        "Bins the rows in the Words table into four tables based on the ratio of vowels to total letters",
+        "Bins the rows in the Words table into four tables based on whether the word contains only vowels"
+      ],
+      "correct_answer": "Bins the rows in the Words table into four tables based on the ratio of vowels to total letters",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T1_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "The following pseudocode is executed using the Shopping bills dataset to find the number of bills with one of the top three total bill amounts. Choose the correct code block to complete the pseudocode. [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p9_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p10_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p10_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T1_Q1_NA_p9_Im1.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p9_Im4.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p10_Im1.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p10_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "The following procedure is executed using the Shopping Bills dataset. Choose all the correct options given below. [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p10_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The procedure ignores all bills from shops other than SV Stores",
+        "Bills from SV Stores with amount \u2265 400 do not affect either [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p10_Im5.webp|inline] or [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p10_Im6.webp|inline]",
+        "The value stored in [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p10_Im8.webp|inline] depends on the order of cards in Pile 1",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p10_Im9.webp|inline] represents the number of SV Stores bills whose total amount is strictly less than 400",
+        "At the end of execution, (sum/count) will give the average total bill amount of all bills from SV Stores"
+      ],
+      "correct_answer": [
+        "The procedure ignores all bills from shops other than SV Stores",
+        "Bills from SV Stores with amount \u2265 400 do not affect either [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p10_Im5.webp|inline] or [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p10_Im9.webp|inline] represents the number of SV Stores bills whose total amount is strictly less than 400"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T1_Q1_NA_p10_Im4.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p10_Im5.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p10_Im6.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p10_Im8.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p10_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "The following procedure finds the highest amount of bill generated at Sun General from the Shopping Bills dataset. But the programmer may have made mistakes in one or more steps. Identify all such steps (if any) Step 1. Arrange all cards in a single pile called Pile 1 Step 2. Maintain a variable max and initialize it to 0 Step 3. If Pile 1 is empty then stop the iteration Step 4. Read the top card in Pile 1 Step 5. If the shop name is Sun General and max > total bill amount then store total bill amount in max Step 6. Move the current card to another pile called Pile 2 and repeat from step 3",
+      "type": "MCQ",
+      "options": [
+        "Step 1",
+        "Step 2",
+        "Step 3",
+        "Step 4",
+        "Step 5",
+        "Step 6",
+        "No mistake"
+      ],
+      "correct_answer": "Step 5",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following pseudocode operating on Scores dataset. [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p12_Im1.webp|block] Which of the following statements are true?",
+      "type": "multichoice",
+      "options": [
+        "The algorithm counts the number of ordered pairs of students having the same [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p12_Im3.webp|inline] and [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p12_Im4.webp|inline] .",
+        "Each pair of students with the same [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p12_Im6.webp|inline] and [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p12_Im7.webp|inline] is counted exactly once.",
+        "The algorithm avoids comparing a student with itself.",
+        "The final value of [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p12_Im8.webp|inline] depends on the initial ordering of rows in Table1."
+      ],
+      "correct_answer": [
+        "Each pair of students with the same [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p12_Im6.webp|inline] and [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p12_Im7.webp|inline] is counted exactly once.",
+        "The algorithm avoids comparing a student with itself."
+      ],
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T1_Q1_NA_p12_Im1.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p12_Im3.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p12_Im4.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p12_Im6.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p12_Im7.webp",
+        "/data/images/bscs1001_2026T1_Q1_NA_p12_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the Olympics dataset. The following pseudocode is executed: [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p13_Im1.webp|block] Which of the following must be true after execution?",
+      "type": "multichoice",
+      "options": [
+        "silver_count equals the number of silver medals awarded to male athletes during Olympics hosted by USA.",
+        "If gender_check equals silver_count , then all silver medal winners during Olympics hosted by USA were male",
+        "silver_count equals the number of silver medals awarded to athletes during Olympics hosted by USA.",
+        "silver_count counts the total number of silver medals won by athletes who are from USA."
+      ],
+      "correct_answer": [
+        "silver_count equals the number of silver medals awarded to male athletes during Olympics hosted by USA.",
+        "silver_count equals the number of silver medals awarded to athletes during Olympics hosted by USA."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T1_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "The following pseudocode is executed using a dataset similar to the \"Words\" dataset, based on the paragraph below. \"Patience and persistence often unlock hidden potential.\" [IMAGE: /data/images/bscs1001_2026T1_Q1_NA_p14_Im1.webp|block] Ignore case while comparing letters. What will be the value of Score at the end of execution?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "19",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T1_Q1_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    }
+  ],
+  "id": "bscs1001-2026t1-q1-na",
+  "course_code": "BSCS1001",
+  "course_name": "Computational Thinking",
+  "level": "Foundation",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

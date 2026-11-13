@@ -1,0 +1,936 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "cs2008_2023T3_ET_AN.pdf",
+  "total_questions": 38,
+  "total_marks": 38.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 175,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 176,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It calculates the total quantity for each category.",
+        "It calculates the average quantity for each category.",
+        "It groups the data by the \u2019Category\u2019 column.",
+        "It filters out rows where the \u2019Quantity\u2019 column is zero."
+      ],
+      "correct_answer": "It calculates the total quantity for each category.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 177,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p3_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p3_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p3_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p3_Im7.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p3_Im1.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p3_Im4.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p3_Im6.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 178,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the Ridge regression model in scikit-learn, represented by the Ridge class. Which of the following statements about Ridge regression is correct?",
+      "type": "MCQ",
+      "options": [
+        "Ridge regression is specifically designed for handling non-linear relationships in the data.",
+        "The regularization term in Ridge regression is added to the sum of squared residuals.",
+        "Increasing the value of the regularization parameter ( alpha ) in Ridge regression tends to overfit the model.",
+        "Ridge regression is equivalent to ElasticNet regression when the regularization parameter ( alpha ) is set to one."
+      ],
+      "correct_answer": "The regularization term in Ridge regression is added to the sum of squared residuals.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 179,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p4_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Speeds up the process of finding neighbors on unscaled data.",
+        "k-nearest neighbors relies on computing distances. Normalizing features ensures that each feature contributes approximately equally to the distance computation.",
+        "Scaling the data significantly improves the accuracy of k-nearest neighbor models.",
+        "It doesn\u2019t matter. K-nearest neighbors works equally well with or without normalizing the dataset."
+      ],
+      "correct_answer": "k-nearest neighbors relies on computing distances. Normalizing features ensures that each feature contributes approximately equally to the distance computation.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 180,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The upper limit on the number of documents considered during vectorization.",
+        "The maximum number of features (words) to be extracted based on term frequency.",
+        "The maximum number of randomly selected features (words).",
+        "The upper limit on the number of characters allowed in each document."
+      ],
+      "correct_answer": "The maximum number of features (words) to be extracted based on term frequency.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 181,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "40",
+        "44"
+      ],
+      "correct_answer": "12",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 182,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It determines the maximum fraction of neurons to be used to train the model",
+        "It is the learning rate",
+        "It is the L1 regularization rate.",
+        "It is the L2 regularization rate.",
+        "None of these"
+      ],
+      "correct_answer": "It is the L2 regularization rate.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 183,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p8_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p8_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p8_Im7.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p8_Im1.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p8_Im3.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p8_Im4.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p8_Im6.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 184,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p9_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p9_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p9_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p9_Im6.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p9_Im1.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p9_Im3.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p9_Im5.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p9_Im6.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p9_Im7.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p9_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 185,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p10_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The classifier is based on perceptron model.",
+        "The classifier is based on logistic regression model.",
+        "The learning rate decays every iteration.",
+        "The learning rate is 0.0001.",
+        "It will run exactly for 1000 iterations, which is independent of the data.",
+        "None of these."
+      ],
+      "correct_answer": [
+        "The classifier is based on logistic regression model.",
+        "The learning rate decays every iteration."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 186,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p10_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p10_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p11_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p11_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p11_Im2.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p10_Im4.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p10_Im5.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p10_Im6.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p11_Im2.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p11_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 187,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p11_Im5.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "\u2018lasso\u2019",
+        "\u2018poly\u2019",
+        "\u2018scale\u2019",
+        "\u2018rbf\u2019"
+      ],
+      "correct_answer": [
+        "\u2018poly\u2019",
+        "\u2018rbf\u2019"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p11_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 188,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following are true about multilayer perceptron model in sklearn?",
+      "type": "multichoice",
+      "options": [
+        "It is an iterative algorithm/model.",
+        "It can be used to capture non-linear relationships between features and labels.",
+        "It can be used for regression as well as classification.",
+        "It can be used for clustering.",
+        "None of these"
+      ],
+      "correct_answer": [
+        "It is an iterative algorithm/model.",
+        "It can be used to capture non-linear relationships between features and labels.",
+        "It can be used for regression as well as classification."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 189,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p13_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "age",
+        "bmi",
+        "bp",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "correct_answer": [
+        "bmi",
+        "bp",
+        "s4",
+        "s5"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 190,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You\u2019ve built a linear regression model to predict the temperature of a particular place 5 days from today, based on today\u2019s humidity and wind speed. The model\u2019s coefficients for the features are as follows: - Coefficient for humidity: +2.4 - Coefficient for wind speed: \u22122 What does the coefficient for \u201dwind speed\u201d (5000) represent in this context?",
+      "type": "multichoice",
+      "options": [
+        "For each additional unit of increase in wind speed, the temperature is expected to decrease by 2 units.",
+        "For each additional unit of increase in wind speed, the temperature is expected to increase by 2 units.",
+        "Humidity has a stronger impact on salary than years of experience.",
+        "The coefficient doesn\u2019t have any meaningful interpretation in this scenario."
+      ],
+      "correct_answer": [
+        "For each additional unit of increase in wind speed, the temperature is expected to decrease by 2 units.",
+        "Humidity has a stronger impact on salary than years of experience."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 191,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p15_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p15_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p15_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p15_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p15_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p15_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p15_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p15_Im7.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p15_Im1.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p15_Im3.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p15_Im5.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p15_Im6.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p15_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 192,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following estimators are exactly same?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p16_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p16_Im3.webp|inline] [IMAGE: /data/images/cs2008_2023T3_ET_AN_p16_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p16_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p16_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p16_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p16_Im3.webp|inline] [IMAGE: /data/images/cs2008_2023T3_ET_AN_p16_Im5.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p16_Im2.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p16_Im3.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p16_Im5.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p16_Im6.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p16_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 193,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p16_Im8.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p16_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p16_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p17_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p17_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p16_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p17_Im4.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p16_Im8.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p16_Im9.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p16_Im10.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p17_Im2.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p17_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 194,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Choose the correct statements.",
+      "type": "multichoice",
+      "options": [
+        "Hierarchical agglomerative clustering does not need the initial number of clusters to group the data.",
+        "K-means clustering does not need the number of clusters to group the data.",
+        "K-means clustering can be agglomerative or divisive.",
+        "Hierarchical clustering can be agglomerative or divisive.",
+        "None of these"
+      ],
+      "correct_answer": [
+        "Hierarchical agglomerative clustering does not need the initial number of clusters to group the data.",
+        "K-means clustering can be agglomerative or divisive."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 195,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p18_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[6,5,3.75]",
+        "[5,5,3]",
+        "[6,5,4]",
+        "[5,5,5]"
+      ],
+      "correct_answer": "[6,5,4]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 196,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p18_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(2, 10)",
+        "(2, 11)",
+        "(2, 9)",
+        "(2, 8)"
+      ],
+      "correct_answer": "(2, 10)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p18_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 197,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p19_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p19_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p19_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p19_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p20_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p19_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p19_Im2.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p19_Im3.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p19_Im5.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p19_Im6.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p20_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 198,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p20_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[0.85,0.1,0.05]",
+        "[1.05 0.35]",
+        "[3,2,1]",
+        "There are some mistakes in the 3rd /4th line of code, hence it will produce error."
+      ],
+      "correct_answer": "[1.05 0.35]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p20_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 199,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p21_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "dtc1",
+        "dtc2",
+        "dtc3",
+        "dtc4"
+      ],
+      "correct_answer": "dtc1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p21_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 200,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p21_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "1",
+        "5",
+        "10",
+        "None of these"
+      ],
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p21_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 201,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p22_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.7",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p22_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 202,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p23_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p23_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 203,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p24_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "250",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p24_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 204,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p25_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p25_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 205,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p26_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Number of samples at node N = 10. If it is split, it will result in 5 nodes in the left child and 5 nodes in the right child.",
+        "Number of samples at node N = 5. If it is split, it will result in 2 nodes in the left child and 3 nodes in the right child.",
+        "Number of samples at node N = 12. If it is split, it will result in 5 nodes in the left child and 7 nodes in the right child.",
+        "Number of samples at node N = 4. If it is split, it will result in 3 nodes in the left child and 1 node in the right child."
+      ],
+      "correct_answer": [
+        "Number of samples at node N = 5. If it is split, it will result in 2 nodes in the left child and 3 nodes in the right child.",
+        "Number of samples at node N = 4. If it is split, it will result in 3 nodes in the left child and 1 node in the right child."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p26_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 206,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p27_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p27_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 207,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p28_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p28_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p28_Im4.webp|inline] [IMAGE: /data/images/cs2008_2023T3_ET_AN_p28_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p28_Im7.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p28_Im1.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p28_Im3.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p28_Im4.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p28_Im6.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p28_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 208,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p29_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "19",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p29_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 209,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Predict number of Accidents per 1000 Driver to happen for Age 28 and driving red car ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "91 to 93",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p30_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p30_Im1.webp|block]",
+      "group_id": "640653697767",
+      "section_name": "MLP"
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 210,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 To improve the given Linear Regression model which of the following preprocessing step you suggest?",
+      "type": "MCQ",
+      "options": [
+        "OrdinalEncoder()",
+        "DecisionTree()",
+        "LabelEncoder()",
+        "StandardScaler()"
+      ],
+      "correct_answer": "StandardScaler()",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p30_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p30_Im1.webp|block]",
+      "group_id": "640653697767",
+      "section_name": "MLP"
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 211,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p32_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[1 1 0 1 0]",
+        "[0 0 0 1 0]",
+        "[0 1 0 0 0]",
+        "[0 1 0 1 0]"
+      ],
+      "correct_answer": "[0 1 0 1 0]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p32_Im2.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p32_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p32_Im1.webp|block]",
+      "group_id": "640653697792",
+      "section_name": "MLP"
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "original_number": 212,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2023T3_ET_AN_p33_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.78 to 0.82",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2023T3_ET_AN_p33_Im3.webp",
+        "/data/images/cs2008_2023T3_ET_AN_p32_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2023T3_ET_AN_p32_Im1.webp|block]",
+      "group_id": "640653697792",
+      "section_name": "MLP"
+    }
+  ],
+  "id": "cs2008-2023t3-et-an",
+  "course_code": "CS2008",
+  "course_name": "Machine Learning Practice",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2023",
+  "year": 2023,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

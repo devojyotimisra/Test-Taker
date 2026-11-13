@@ -3,13 +3,43 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
 import path from "path";
+import fs from "fs";
 
 const proxyTarget = process.env.VITE_API_PROXY || "http://127.0.0.1:8000";
+
+function serveLocalData() {
+  return {
+    name: "serve-local-data",
+    configureServer(server: any) {
+      server.middlewares.use("/data", (req: any, res: any, next: any) => {
+        const reqPath = decodeURIComponent((req.url || "").split("?")[0]);
+        const targetPath = path.join(path.resolve(import.meta.dirname, "../data"), reqPath);
+        if (fs.existsSync(targetPath) && fs.statSync(targetPath).isFile()) {
+          const ext = path.extname(targetPath).toLowerCase();
+          const mimeMap: Record<string, string> = {
+            ".json": "application/json",
+            ".webp": "image/webp",
+            ".jpg": "image/jpeg",
+            ".jpeg": "image/jpeg",
+            ".png": "image/png",
+            ".svg": "image/svg+xml",
+          };
+          res.setHeader("Content-Type", mimeMap[ext] || "application/octet-stream");
+          res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+          fs.createReadStream(targetPath).pipe(res);
+          return;
+        }
+        next();
+      });
+    },
+  };
+}
 
 export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
+    serveLocalData(),
     VitePWA({
       registerType: "autoUpdate",
       includeAssets: [
@@ -115,10 +145,6 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: proxyTarget,
-        changeOrigin: true,
-      },
-      "/data": {
         target: proxyTarget,
         changeOrigin: true,
       },

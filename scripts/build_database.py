@@ -259,26 +259,26 @@ def build_database():
     papers_out_dir.mkdir(parents=True, exist_ok=True)
     images_out_dir.mkdir(parents=True, exist_ok=True)
 
-    source_dir = BASE_DIR / "temp" / "papers"
+    source_dir = BASE_DIR / "papers" if (BASE_DIR / "papers").is_dir() else BASE_DIR / "temp" / "papers"
     pdf_files = list(source_dir.glob("*.pdf"))
     total_files = len(pdf_files)
-    print(f"Starting conversion of {total_files} PDF files...")
 
     cpu_cores = os.cpu_count() or 4
     num_workers = max(1, cpu_cores - 2)
-    print(f"Processing in parallel using {num_workers} worker processes (Cores: {cpu_cores} - 2)...")
+    print(f"Building database from {total_files} PDFs using {num_workers} workers...")
 
     tasks = [(str(f), str(images_out_dir), str(papers_out_dir)) for f in pdf_files]
 
     catalog_records = []
     success_count = 0
     error_count = 0
+    failed_names = []
 
     with ProcessPoolExecutor(max_workers=num_workers) as executor:
         futures = {executor.submit(process_single_pdf, task): task for task in tasks}
         for future in as_completed(futures):
             res = future.result()
-            if res["success"]:
+            if res["success"] and res.get("total_questions", 0) > 0:
                 stem = res["stem"]
                 paper_json_path = papers_out_dir / f"{stem}.json"
                 if not res.get("cached"):
@@ -305,13 +305,7 @@ def build_database():
                 success_count += 1
             else:
                 error_count += 1
-                print(f"Error parsing {res['filename']}: {res['error']}")
-
-            processed = success_count + error_count
-            if processed % 100 == 0 or processed == total_files:
-                elapsed = time.time() - start_time
-                rate = processed / elapsed if elapsed > 0 else 0
-                print(f"[{processed}/{total_files}] processed ({rate:.1f} files/sec, {elapsed:.1f}s elapsed)...")
+                failed_names.append(res.get("filename", "unknown"))
 
     catalog_records.sort(key=lambda x: (
         -x["year"],
@@ -363,10 +357,8 @@ def build_database():
         json.dump(courses_list, f, indent=2)
 
     total_time = time.time() - start_time
-    print(f"Finished build in {total_time:.2f} seconds!")
-    print(f"Total Successful: {success_count}, Errors: {error_count}")
-    print(f"Catalog saved to {catalog_path}")
-    print(f"Courses dictionary saved to {courses_path}")
+    err_str = f" ({error_count} failed: {failed_names[:3]})" if error_count else ""
+    print(f"Done in {total_time:.1f}s: {success_count} papers cataloged{err_str}.")
 
 if __name__ == "__main__":
     build_database()

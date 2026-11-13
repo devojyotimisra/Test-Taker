@@ -52,7 +52,8 @@ export function FormulaRenderer({
             src={primary}
             alt="Question Diagram"
             className="inline-block max-w-full h-auto object-contain mx-auto rounded-lg cursor-zoom-in transition-transform duration-200 hover:scale-[1.01]"
-            loading="lazy"
+            loading="eager"
+            decoding="async"
             onError={(e) => {
               const target = e.currentTarget;
               if (!target.dataset.fallbackTried && fallback && fallback !== target.src) {
@@ -80,7 +81,8 @@ export function FormulaRenderer({
           alt="Formula"
           className="inline-block align-middle h-auto max-w-full px-1 mx-0.5 rounded bg-white/85 dark:bg-white/95"
           style={{ verticalAlign: "middle" }}
-          loading="lazy"
+          loading="eager"
+          decoding="async"
           onError={(e) => {
             const target = e.currentTarget;
             if (!target.dataset.fallbackTried && fallback && fallback !== target.src) {

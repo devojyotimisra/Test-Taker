@@ -263,6 +263,27 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                     <div className="text-sm sm:text-base leading-relaxed font-sans text-foreground">
                       <FormulaRenderer text={currentQ.text} />
                     </div>
+                    {(() => {
+                      const untagged = (currentQ.images || []).filter((img) => {
+                        const fn = img.split("/").pop();
+                        if (!fn) return false;
+                        const inText = (currentQ.text || "").includes(fn);
+                        const inComp = (currentQ.comprehension_passage || "").includes(fn);
+                        const inOpts = (currentQ.options || []).some((o) => (o || "").includes(fn));
+                        return !inText && !inComp && !inOpts;
+                      });
+                      if (untagged.length === 0) return null;
+                      return (
+                        <div className="flex flex-col gap-3 my-2">
+                          {untagged.map((img, i) => (
+                            <FormulaRenderer
+                              key={i}
+                              text={`[IMAGE: ${img}|block]`}
+                            />
+                          ))}
+                        </div>
+                      );
+                    })()}
                   </div>
 
                   <div className="flex flex-col gap-3 my-auto">
@@ -293,8 +314,8 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                             className={`h-12 flex-1 w-full rounded-xl border px-4 py-3 text-base font-mono shadow-xs focus-visible:outline-none focus-visible:ring-2 ${
                               isCurrentRevealed && currentScoreDetail
                                 ? currentScoreDetail.status === "correct"
-                                  ? "border-emerald-500 bg-emerald-500/10 ring-1 ring-emerald-500 text-foreground"
-                                  : "border-destructive bg-destructive/10 ring-1 ring-destructive text-foreground"
+                                ? "border-emerald-500 bg-emerald-500/10 ring-1 ring-emerald-500 text-foreground"
+                                : "border-destructive bg-destructive/10 ring-1 ring-destructive text-foreground"
                                 : "border-input bg-card focus-visible:ring-ring"
                             }`}
                           />
@@ -315,6 +336,38 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                           <div className="flex items-center justify-between pt-2 border-t border-border/60 text-xs sm:text-sm">
                             <span className="text-muted-foreground font-medium">
                               Accepted Answer / Range:
+                            </span>
+                            <span className="font-mono font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-md border border-emerald-500/20">
+                              {String(
+                                currentScoreDetail?.correct_answer ??
+                                  currentQ.correct_answer ??
+                                  "",
+                              )}
+                            </span>
+                          </div>
+                        )}
+                      </div>
+                    ) : (!currentQ.options || currentQ.options.length === 0) ? (
+                      <div className="p-4 rounded-xl border border-border bg-muted/20 space-y-3 shrink-0">
+                        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block">
+                          Enter Short Answer:
+                        </label>
+                        <div className="flex items-center gap-3 w-full">
+                          <input
+                            type="text"
+                            value={(answers[currentQ.id] as string) || ""}
+                            onChange={(e) =>
+                              handleNumericChange(e.target.value)
+                            }
+                            placeholder="Type answer..."
+                            disabled={isCurrentRevealed}
+                            className="h-12 flex-1 w-full rounded-xl border px-4 py-3 text-base font-mono bg-card"
+                          />
+                        </div>
+                        {isCurrentRevealed && (
+                          <div className="flex items-center justify-between pt-2 border-t border-border/60 text-xs sm:text-sm">
+                            <span className="text-muted-foreground font-medium">
+                              Accepted Answer:
                             </span>
                             <span className="font-mono font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-md border border-emerald-500/20">
                               {String(

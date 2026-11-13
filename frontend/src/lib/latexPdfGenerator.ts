@@ -282,374 +282,347 @@ export async function downloadPaperPdf(
   onProgress?.("Loading formulas & diagrams...");
   await preloadPaperAssets(paper);
 
-  onProgress?.("Rendering document...");
+  onProgress?.("Formatting document...");
   const rawName = `${item.course_code}_${item.year}_${item.exam_type}_Solutions`;
   const cleanFilename = rawName.replace(/[^a-zA-Z0-9_-]/g, "_").replace(/_+/g, "_");
   const paperHtml = buildPaperHtml(paper, item);
 
-  const iframe = document.createElement("iframe");
-  iframe.style.position = "fixed";
-  iframe.style.top = "0";
-  iframe.style.left = "0";
-  iframe.style.width = "794px";
-  iframe.style.height = "1000px";
-  iframe.style.opacity = "0.001";
-  iframe.style.pointerEvents = "none";
-  iframe.style.zIndex = "-99999";
-  document.body.appendChild(iframe);
+  const container = document.createElement("div");
+  container.id = "print-paper-render-root";
+  container.style.position = "fixed";
+  container.style.left = "0";
+  container.style.top = "0";
+  container.style.width = "794px";
+  container.style.backgroundColor = "#ffffff";
+  container.style.color = "#111827";
+  container.style.zIndex = "-99999";
+  container.style.opacity = "0.001";
+  container.style.pointerEvents = "none";
+
+  container.innerHTML = `
+    <style id="paper-pdf-dedicated-styles">
+      #print-paper-render-root, #print-paper-render-root * {
+        box-sizing: border-box;
+      }
+      #print-paper-render-root {
+        background-color: #ffffff !important;
+        color: #111827 !important;
+        font-family: "Times New Roman", Times, "Nimbus Roman", "Liberation Serif", Georgia, serif !important;
+        font-size: 10.5pt !important;
+        line-height: 1.5 !important;
+      }
+      .page-container {
+        width: 794px;
+        margin: 0 auto;
+        padding: 16mm 14mm 18mm 14mm;
+        background-color: #ffffff !important;
+      }
+      .masthead-wrapper {
+        text-align: center;
+        margin-bottom: 14px;
+        padding-bottom: 10px;
+        border-bottom: 2.5px solid #1e3a8a;
+      }
+      .masthead-inst {
+        font-size: 14.5pt;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        color: #0f172a !important;
+        text-transform: uppercase;
+        margin-bottom: 2px;
+      }
+      .masthead-dept {
+        font-size: 8.5pt;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        color: #475569 !important;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+      }
+      .masthead-title {
+        font-size: 13.5pt;
+        font-weight: 700;
+        color: #1e3a8a !important;
+        margin-bottom: 3px;
+      }
+      .masthead-subtitle {
+        font-size: 10pt;
+        font-style: italic;
+        color: #334155 !important;
+        margin-bottom: 8px;
+      }
+      .metadata-box {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #f8fafc !important;
+        border: 1px solid #cbd5e1;
+        border-left: 3.5px solid #1e3a8a;
+        margin-top: 6px;
+        margin-bottom: 8px;
+      }
+      .metadata-box td {
+        padding: 5px 8px;
+        font-size: 9pt;
+        vertical-align: middle;
+        border: 1px solid #e2e8f0;
+        color: #0f172a !important;
+      }
+      .meta-label {
+        font-weight: 700;
+        color: #1e3a8a !important;
+        margin-right: 4px;
+        text-transform: uppercase;
+        font-size: 8pt;
+        letter-spacing: 0.4px;
+      }
+      .meta-val {
+        color: #0f172a !important;
+        font-weight: 600;
+      }
+      .notice-box {
+        background-color: #f1f5f9 !important;
+        border: 1px solid #e2e8f0;
+        border-radius: 4px;
+        padding: 4px 8px;
+        font-size: 8pt;
+        color: #475569 !important;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 14px;
+      }
+      .section-banner {
+        font-size: 11pt;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        color: #1e3a8a !important;
+        background-color: #f1f5f9 !important;
+        border-left: 3.5px solid #1e3a8a;
+        padding: 5px 10px;
+        margin: 18px 0 12px 0;
+      }
+      .question-card {
+        margin-bottom: 14px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #e2e8f0;
+      }
+      .q-header-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 6px;
+        padding-bottom: 3px;
+        border-bottom: 1px dashed #cbd5e1;
+      }
+      .q-number-badge {
+        font-size: 11pt;
+        font-weight: 700;
+        color: #0f172a !important;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .q-type-tag {
+        font-size: 7.5pt;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        background-color: #f1f5f9 !important;
+        color: #475569 !important;
+        border: 1px solid #cbd5e1;
+        padding: 1px 5px;
+        border-radius: 3px;
+      }
+      .q-marks-tag {
+        font-size: 8.5pt;
+        font-weight: 700;
+        color: #0369a1 !important;
+        background-color: #f0f9ff !important;
+        border: 1px solid #bae6fd;
+        padding: 1px 6px;
+        border-radius: 3px;
+      }
+      .passage-container {
+        background-color: #f8fafc !important;
+        border: 1px solid #cbd5e1;
+        border-left: 3.5px solid #64748b;
+        border-radius: 0 4px 4px 0;
+        padding: 6px 10px;
+        margin: 6px 0 10px 0;
+      }
+      .passage-label {
+        font-size: 7.5pt;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        color: #475569 !important;
+        margin-bottom: 3px;
+      }
+      .passage-body {
+        font-size: 9.5pt;
+        line-height: 1.4;
+        color: #1e293b !important;
+      }
+      .q-body-text {
+        font-size: 10.5pt;
+        line-height: 1.45;
+        color: #111827 !important;
+        margin-bottom: 8px;
+      }
+      .options-list {
+        margin-left: 4px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .option-item {
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+        padding: 3px 6px;
+        border-radius: 3px;
+        font-size: 10pt;
+        line-height: 1.4;
+        background-color: #ffffff !important;
+        border: 1px solid transparent;
+        color: #111827 !important;
+      }
+      .option-item.correct-choice {
+        background-color: #ecfdf5 !important;
+        border-color: #a7f3d0 !important;
+        color: #065f46 !important;
+        font-weight: 600;
+      }
+      .option-label {
+        font-weight: 700;
+        color: #1e3a8a !important;
+        min-width: 22px;
+        font-size: 10pt;
+      }
+      .option-item.correct-choice .option-label {
+        color: #047857 !important;
+      }
+      .option-text {
+        flex: 1;
+        color: inherit !important;
+      }
+      .correct-indicator {
+        font-size: 7.5pt;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: #d1fae5 !important;
+        color: #047857 !important;
+        border: 1px solid #6ee7b7;
+        padding: 1px 6px;
+        border-radius: 9999px;
+        margin-left: 6px;
+        letter-spacing: 0.3px;
+      }
+      .solution-box {
+        margin-top: 6px;
+        padding: 5px 10px;
+        background-color: #f0fdf4 !important;
+        border: 1px solid #bbf7d0;
+        border-left: 3.5px solid #16a34a;
+        border-radius: 0 4px 4px 0;
+        font-size: 9.5pt;
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+      }
+      .solution-title {
+        font-weight: 700;
+        color: #15803d !important;
+        font-size: 8.5pt;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        white-space: nowrap;
+      }
+      .solution-content {
+        color: #166534 !important;
+        font-weight: 600;
+      }
+      .summary-container {
+        margin-top: 24px;
+        padding-top: 14px;
+        border-top: 2.5px solid #1e3a8a;
+      }
+      .summary-header {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .summary-header h3 {
+        font-size: 12pt;
+        font-weight: 700;
+        color: #0f172a !important;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+      }
+      .summary-header p {
+        font-size: 8pt;
+        color: #64748b !important;
+        font-style: italic;
+        margin-top: 2px;
+      }
+      .summary-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 9pt;
+        background-color: #ffffff !important;
+      }
+      .summary-table th {
+        background-color: #1e3a8a !important;
+        color: #ffffff !important;
+        font-weight: 700;
+        padding: 5px 6px;
+        text-align: center;
+        border: 1px solid #1e3a8a;
+        text-transform: uppercase;
+        font-size: 7.5pt;
+        letter-spacing: 0.4px;
+      }
+      .summary-table td {
+        padding: 4px 6px;
+        border: 1px solid #cbd5e1;
+        color: #1e293b !important;
+        background-color: #ffffff !important;
+      }
+      .summary-table tr:nth-child(even) td {
+        background-color: #f8fafc !important;
+      }
+      .summary-table td.correct-val {
+        color: #047857 !important;
+        font-weight: 600;
+      }
+      .diagram-block {
+        text-align: center;
+        margin: 8px 0;
+      }
+      .diagram-block img {
+        max-width: 88%;
+        max-height: 280px;
+        height: auto;
+        border: 1px solid #e2e8f0;
+        border-radius: 4px;
+        padding: 4px;
+        background-color: #ffffff !important;
+        display: inline-block;
+      }
+      .diagram-inline {
+        vertical-align: middle;
+        max-height: 1.4em;
+        border-radius: 2px;
+      }
+    </style>
+    ${paperHtml}
+  `;
+
+  document.body.appendChild(container);
 
   try {
-    const doc = iframe.contentDocument || iframe.contentWindow?.document;
-    if (!doc) {
-      throw new Error("Unable to create printing context.");
-    }
-
-    doc.open();
-    doc.write(`
-      <!DOCTYPE html>
-      <html>
-        <head>
-          <meta charset="utf-8" />
-          <title>${escapeHtml(cleanFilename)}</title>
-          <style>
-            * {
-              box-sizing: border-box;
-              margin: 0;
-              padding: 0;
-            }
-            html, body {
-              background-color: #ffffff;
-              color: #111827;
-              font-family: "Times New Roman", Times, "Nimbus Roman", "Liberation Serif", Georgia, serif;
-              font-size: 10.5pt;
-              line-height: 1.5;
-            }
-            .page-container {
-              width: 794px;
-              margin: 0 auto;
-              padding: 16mm 14mm 18mm 14mm;
-              background-color: #ffffff;
-            }
-            .masthead-wrapper {
-              text-align: center;
-              margin-bottom: 14px;
-              padding-bottom: 10px;
-              border-bottom: 2.5px solid #1e3a8a;
-            }
-            .masthead-inst {
-              font-size: 14.5pt;
-              font-weight: 700;
-              letter-spacing: 1.2px;
-              color: #0f172a;
-              text-transform: uppercase;
-              margin-bottom: 2px;
-            }
-            .masthead-dept {
-              font-size: 8.5pt;
-              font-weight: 600;
-              letter-spacing: 0.8px;
-              color: #475569;
-              text-transform: uppercase;
-              margin-bottom: 6px;
-            }
-            .masthead-title {
-              font-size: 13.5pt;
-              font-weight: 700;
-              color: #1e3a8a;
-              margin-bottom: 3px;
-            }
-            .masthead-subtitle {
-              font-size: 10pt;
-              font-style: italic;
-              color: #334155;
-              margin-bottom: 8px;
-            }
-            .metadata-box {
-              width: 100%;
-              border-collapse: collapse;
-              background-color: #f8fafc;
-              border: 1px solid #cbd5e1;
-              border-left: 3.5px solid #1e3a8a;
-              margin-top: 6px;
-              margin-bottom: 8px;
-            }
-            .metadata-box td {
-              padding: 5px 8px;
-              font-size: 9pt;
-              vertical-align: middle;
-              border: 1px solid #e2e8f0;
-            }
-            .meta-label {
-              font-weight: 700;
-              color: #1e3a8a;
-              margin-right: 4px;
-              text-transform: uppercase;
-              font-size: 8pt;
-              letter-spacing: 0.4px;
-            }
-            .meta-val {
-              color: #0f172a;
-              font-weight: 600;
-            }
-            .notice-box {
-              background-color: #f1f5f9;
-              border: 1px solid #e2e8f0;
-              border-radius: 4px;
-              padding: 4px 8px;
-              font-size: 8pt;
-              color: #475569;
-              font-style: italic;
-              text-align: center;
-              margin-bottom: 14px;
-            }
-            .section-banner {
-              font-size: 11pt;
-              font-weight: 700;
-              letter-spacing: 0.6px;
-              text-transform: uppercase;
-              color: #1e3a8a;
-              background-color: #f1f5f9;
-              border-left: 3.5px solid #1e3a8a;
-              padding: 5px 10px;
-              margin: 18px 0 12px 0;
-              break-inside: avoid;
-              page-break-inside: avoid;
-            }
-            .question-card {
-              margin-bottom: 14px;
-              padding-bottom: 12px;
-              border-bottom: 1px solid #e2e8f0;
-              break-inside: avoid;
-              page-break-inside: avoid;
-            }
-            .q-header-row {
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              margin-bottom: 6px;
-              padding-bottom: 3px;
-              border-bottom: 1px dashed #cbd5e1;
-            }
-            .q-number-badge {
-              font-size: 11pt;
-              font-weight: 700;
-              color: #0f172a;
-              display: flex;
-              align-items: center;
-              gap: 8px;
-            }
-            .q-type-tag {
-              font-size: 7.5pt;
-              font-weight: 700;
-              text-transform: uppercase;
-              letter-spacing: 0.4px;
-              background-color: #f1f5f9;
-              color: #475569;
-              border: 1px solid #cbd5e1;
-              padding: 1px 5px;
-              border-radius: 3px;
-            }
-            .q-marks-tag {
-              font-size: 8.5pt;
-              font-weight: 700;
-              color: #0369a1;
-              background-color: #f0f9ff;
-              border: 1px solid #bae6fd;
-              padding: 1px 6px;
-              border-radius: 3px;
-            }
-            .passage-container {
-              background-color: #f8fafc;
-              border: 1px solid #cbd5e1;
-              border-left: 3.5px solid #64748b;
-              border-radius: 0 4px 4px 0;
-              padding: 6px 10px;
-              margin: 6px 0 10px 0;
-              break-inside: avoid;
-              page-break-inside: avoid;
-            }
-            .passage-label {
-              font-size: 7.5pt;
-              font-weight: 700;
-              text-transform: uppercase;
-              letter-spacing: 0.6px;
-              color: #475569;
-              margin-bottom: 3px;
-            }
-            .passage-body {
-              font-size: 9.5pt;
-              line-height: 1.4;
-              color: #1e293b;
-            }
-            .q-body-text {
-              font-size: 10.5pt;
-              line-height: 1.45;
-              color: #111827;
-              margin-bottom: 8px;
-            }
-            .options-list {
-              margin-left: 4px;
-              margin-top: 6px;
-              margin-bottom: 6px;
-              display: flex;
-              flex-direction: column;
-              gap: 4px;
-              break-inside: avoid;
-              page-break-inside: avoid;
-            }
-            .option-item {
-              display: flex;
-              align-items: baseline;
-              gap: 8px;
-              padding: 3px 6px;
-              border-radius: 3px;
-              font-size: 10pt;
-              line-height: 1.4;
-              background-color: #ffffff;
-              border: 1px solid transparent;
-              break-inside: avoid;
-              page-break-inside: avoid;
-            }
-            .option-item.correct-choice {
-              background-color: #ecfdf5;
-              border-color: #a7f3d0;
-              color: #065f46;
-              font-weight: 600;
-            }
-            .option-label {
-              font-weight: 700;
-              color: #1e3a8a;
-              min-width: 22px;
-              font-size: 10pt;
-            }
-            .option-item.correct-choice .option-label {
-              color: #047857;
-            }
-            .option-text {
-              flex: 1;
-            }
-            .correct-indicator {
-              font-size: 7.5pt;
-              font-weight: 700;
-              text-transform: uppercase;
-              background-color: #d1fae5;
-              color: #047857;
-              border: 1px solid #6ee7b7;
-              padding: 1px 6px;
-              border-radius: 9999px;
-              margin-left: 6px;
-              letter-spacing: 0.3px;
-            }
-            .solution-box {
-              margin-top: 6px;
-              padding: 5px 10px;
-              background-color: #f0fdf4;
-              border: 1px solid #bbf7d0;
-              border-left: 3.5px solid #16a34a;
-              border-radius: 0 4px 4px 0;
-              font-size: 9.5pt;
-              display: flex;
-              align-items: baseline;
-              gap: 8px;
-              break-inside: avoid;
-              page-break-inside: avoid;
-            }
-            .solution-title {
-              font-weight: 700;
-              color: #15803d;
-              font-size: 8.5pt;
-              text-transform: uppercase;
-              letter-spacing: 0.4px;
-              white-space: nowrap;
-            }
-            .solution-content {
-              color: #166534;
-              font-weight: 600;
-            }
-            .summary-container {
-              margin-top: 24px;
-              padding-top: 14px;
-              border-top: 2.5px solid #1e3a8a;
-              break-inside: avoid;
-              page-break-inside: avoid;
-            }
-            .summary-header {
-              text-align: center;
-              margin-bottom: 10px;
-            }
-            .summary-header h3 {
-              font-size: 12pt;
-              font-weight: 700;
-              color: #0f172a;
-              letter-spacing: 0.8px;
-              text-transform: uppercase;
-            }
-            .summary-header p {
-              font-size: 8pt;
-              color: #64748b;
-              font-style: italic;
-              margin-top: 2px;
-            }
-            .summary-table {
-              width: 100%;
-              border-collapse: collapse;
-              font-size: 9pt;
-              background-color: #ffffff;
-            }
-            .summary-table th {
-              background-color: #1e3a8a;
-              color: #ffffff;
-              font-weight: 700;
-              padding: 5px 6px;
-              text-align: center;
-              border: 1px solid #1e3a8a;
-              text-transform: uppercase;
-              font-size: 7.5pt;
-              letter-spacing: 0.4px;
-            }
-            .summary-table td {
-              padding: 4px 6px;
-              border: 1px solid #cbd5e1;
-              color: #1e293b;
-            }
-            .summary-table tr:nth-child(even) {
-              background-color: #f8fafc;
-            }
-            .summary-table td.correct-val {
-              color: #047857;
-              font-weight: 600;
-            }
-            .diagram-block {
-              text-align: center;
-              margin: 8px 0;
-              break-inside: avoid;
-              page-break-inside: avoid;
-            }
-            .diagram-block img {
-              max-width: 88%;
-              max-height: 280px;
-              height: auto;
-              border: 1px solid #e2e8f0;
-              border-radius: 4px;
-              padding: 4px;
-              background-color: #ffffff;
-              display: inline-block;
-            }
-            .diagram-inline {
-              vertical-align: middle;
-              max-height: 1.4em;
-              border-radius: 2px;
-            }
-          </style>
-        </head>
-        <body>
-          ${paperHtml}
-        </body>
-      </html>
-    `);
-    doc.close();
-
-    const images = Array.from(doc.querySelectorAll("img"));
+    const images = Array.from(container.querySelectorAll("img"));
     if (images.length > 0) {
       await Promise.all(
         images.map(
@@ -668,46 +641,120 @@ export async function downloadPaperPdf(
 
     await new Promise((r) => setTimeout(r, 150));
 
-    onProgress?.("Downloading PDF...");
-    const html2pdfModule = await import("html2pdf.js");
-    const html2pdf = (html2pdfModule.default || html2pdfModule) as any;
+    onProgress?.("Rendering pages...");
+    const [html2canvasModule, jsPdfModule] = await Promise.all([
+      import("html2canvas"),
+      import("jspdf"),
+    ]);
+    const html2canvas = html2canvasModule.default || html2canvasModule;
+    const { jsPDF } = jsPdfModule;
 
-    const opt = {
-      margin: [10, 10, 10, 10] as [number, number, number, number],
-      filename: `${cleanFilename}.pdf`,
-      image: { type: "jpeg" as const, quality: 0.98 },
-      html2canvas: {
-        scale: 2,
-        useCORS: true,
-        logging: false,
-        backgroundColor: "#ffffff",
-        windowWidth: 794,
-        scrollX: 0,
-        scrollY: 0,
+    const canvas = await html2canvas(container, {
+      scale: 2,
+      useCORS: true,
+      logging: false,
+      backgroundColor: "#ffffff",
+      width: 794,
+      windowWidth: 794,
+      scrollX: 0,
+      scrollY: 0,
+      onclone: (clonedDoc: Document) => {
+        clonedDoc.documentElement.classList.remove("dark");
+        clonedDoc.documentElement.removeAttribute("class");
+        clonedDoc.documentElement.style.backgroundColor = "#ffffff";
+        clonedDoc.documentElement.style.color = "#111827";
+        if (clonedDoc.body) {
+          clonedDoc.body.classList.remove("dark");
+          clonedDoc.body.removeAttribute("class");
+          clonedDoc.body.style.backgroundColor = "#ffffff";
+          clonedDoc.body.style.color = "#111827";
+          clonedDoc.body.style.margin = "0";
+          clonedDoc.body.style.padding = "0";
+        }
+        const clonedTarget = clonedDoc.getElementById("print-paper-render-root");
+        if (clonedTarget) {
+          clonedTarget.style.position = "static";
+          clonedTarget.style.opacity = "1";
+          clonedTarget.style.zIndex = "1";
+          clonedTarget.style.backgroundColor = "#ffffff";
+          clonedTarget.style.color = "#111827";
+          clonedTarget.style.width = "794px";
+          clonedDoc.body.innerHTML = "";
+          clonedDoc.body.appendChild(clonedTarget);
+        }
       },
-      jsPDF: {
-        unit: "mm",
-        format: "a4",
-        orientation: "portrait" as const,
-      },
-      pagebreak: {
-        mode: ["avoid-all", "css", "legacy"],
-        avoid: [
-          ".question-card",
-          ".passage-container",
-          ".options-list",
-          ".option-item",
-          ".solution-box",
-          ".diagram-block",
-          ".summary-container",
-        ],
-      },
-    };
+    });
 
-    await html2pdf().set(opt).from(doc.body).save();
+    onProgress?.("Compiling PDF document...");
+    const a4Aspect = 297 / 210;
+    const pageHeightPx = Math.floor(canvas.width * a4Aspect);
+    const containerRect = container.getBoundingClientRect();
+    const cardElements = Array.from(
+      container.querySelectorAll(".question-card, .passage-container, .summary-container, .masthead-wrapper")
+    );
+    const cardTops = cardElements.map((el) => {
+      const rect = el.getBoundingClientRect();
+      return Math.round((rect.top - containerRect.top) * 2);
+    });
+
+    const pdf = new jsPDF({
+      orientation: "portrait",
+      unit: "mm",
+      format: "a4",
+      compress: true,
+    });
+
+    let currentY = 0;
+    let pageIndex = 0;
+
+    while (currentY < canvas.height) {
+      let sliceHeight = pageHeightPx;
+      if (currentY + sliceHeight < canvas.height) {
+        const splitThreshold = currentY + sliceHeight;
+        const candidateCut = cardTops
+          .filter((top) => top > currentY + pageHeightPx * 0.72 && top <= splitThreshold)
+          .pop();
+        if (candidateCut && candidateCut > currentY + 400) {
+          sliceHeight = candidateCut - currentY;
+        }
+      } else {
+        sliceHeight = canvas.height - currentY;
+      }
+
+      const pageCanvas = document.createElement("canvas");
+      pageCanvas.width = canvas.width;
+      pageCanvas.height = pageHeightPx;
+      const ctx = pageCanvas.getContext("2d");
+      if (ctx) {
+        ctx.fillStyle = "#ffffff";
+        ctx.fillRect(0, 0, pageCanvas.width, pageCanvas.height);
+        ctx.drawImage(
+          canvas,
+          0,
+          currentY,
+          canvas.width,
+          sliceHeight,
+          0,
+          0,
+          canvas.width,
+          sliceHeight
+        );
+      }
+
+      const imgData = pageCanvas.toDataURL("image/jpeg", 0.95);
+      if (pageIndex > 0) {
+        pdf.addPage([210, 297], "portrait");
+      }
+      pdf.addImage(imgData, "JPEG", 0, 0, 210, 297, undefined, "FAST");
+
+      currentY += sliceHeight;
+      pageIndex++;
+    }
+
+    pdf.save(`${cleanFilename}.pdf`);
   } finally {
-    if (document.body.contains(iframe)) {
-      document.body.removeChild(iframe);
+    if (document.body.contains(container)) {
+      document.body.removeChild(container);
     }
   }
 }

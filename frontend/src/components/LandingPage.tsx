@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import {
   FileText,
   Upload,
@@ -9,7 +9,6 @@ import {
   ChevronLeft,
   ChevronRight,
   X,
-  Layers,
   Sparkles,
 } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
@@ -25,7 +24,9 @@ interface LandingPageProps {
 
 export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
   const { toast } = useToast();
-  const [activeTab, setActiveTab] = useState<"library" | "upload">("library");
+  const [activeTab, setActiveTab] = useState<"library" | "upload">(() => {
+    return (sessionStorage.getItem("tt_active_tab") as "library" | "upload") || "library";
+  });
 
   const [uploading, setUploading] = useState<boolean>(false);
   const [dragOver, setDragOver] = useState<boolean>(false);
@@ -34,16 +35,27 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
   const [courses, setCourses] = useState<CourseInfo[]>([]);
   const [loadingCatalog, setLoadingCatalog] = useState<boolean>(true);
 
-  const [searchQuery, setSearchQuery] = useState<string>("");
-  const [selectedLevel, setSelectedLevel] = useState<string>("All");
-  const [selectedCourse, setSelectedCourse] = useState<string>("All");
-  const [selectedYear, setSelectedYear] = useState<string>("All");
-  const [selectedExam, setSelectedExam] = useState<string>("All");
+  const [searchQuery, setSearchQuery] = useState<string>(() => {
+    return sessionStorage.getItem("tt_search_query") || "";
+  });
+  const [selectedCourse, setSelectedCourse] = useState<string>(() => {
+    return sessionStorage.getItem("tt_selected_course") || "All";
+  });
+  const [selectedYear, setSelectedYear] = useState<string>(() => {
+    return sessionStorage.getItem("tt_selected_year") || "All";
+  });
+  const [selectedExam, setSelectedExam] = useState<string>(() => {
+    return sessionStorage.getItem("tt_selected_exam") || "All";
+  });
 
-  const [currentPageNum, setCurrentPageNum] = useState<number>(1);
+  const [currentPageNum, setCurrentPageNum] = useState<number>(() => {
+    const saved = sessionStorage.getItem("tt_page_num");
+    return saved ? parseInt(saved, 10) || 1 : 1;
+  });
   const pageSize = 24;
 
   const [loadingPaperId, setLoadingPaperId] = useState<string | null>(null);
+  const isFirstRender = useRef(true);
 
   useEffect(() => {
     let isMounted = true;
@@ -120,19 +132,8 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
     }
   };
 
-  const levels = [
-    { id: "All", label: "All Levels" },
-    { id: "Foundation", label: "Foundation" },
-    { id: "Diploma in Programming", label: "Diploma Programming" },
-    { id: "Diploma in Data Science", label: "Diploma Data Science" },
-    { id: "Degree", label: "Degree" },
-  ];
-
   const filteredCatalog = useMemo(() => {
     return catalog.filter((item) => {
-      if (selectedLevel !== "All" && item.level !== selectedLevel) {
-        return false;
-      }
       if (selectedCourse !== "All" && item.course_code !== selectedCourse) {
         return false;
       }
@@ -149,11 +150,39 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
       }
       return true;
     });
-  }, [catalog, selectedLevel, selectedCourse, selectedYear, selectedExam, searchQuery]);
+  }, [catalog, selectedCourse, selectedYear, selectedExam, searchQuery]);
 
   useEffect(() => {
+    sessionStorage.setItem("tt_active_tab", activeTab);
+  }, [activeTab]);
+
+  useEffect(() => {
+    sessionStorage.setItem("tt_search_query", searchQuery);
+  }, [searchQuery]);
+
+  useEffect(() => {
+    sessionStorage.setItem("tt_selected_course", selectedCourse);
+  }, [selectedCourse]);
+
+  useEffect(() => {
+    sessionStorage.setItem("tt_selected_year", selectedYear);
+  }, [selectedYear]);
+
+  useEffect(() => {
+    sessionStorage.setItem("tt_selected_exam", selectedExam);
+  }, [selectedExam]);
+
+  useEffect(() => {
+    sessionStorage.setItem("tt_page_num", String(currentPageNum));
+  }, [currentPageNum]);
+
+  useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
     setCurrentPageNum(1);
-  }, [selectedLevel, selectedCourse, selectedYear, selectedExam, searchQuery]);
+  }, [selectedCourse, selectedYear, selectedExam, searchQuery]);
 
   const totalPages = Math.ceil(filteredCatalog.length / pageSize) || 1;
   const paginatedPapers = useMemo(() => {
@@ -161,14 +190,9 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
     return filteredCatalog.slice(start, start + pageSize);
   }, [filteredCatalog, currentPageNum, pageSize]);
 
-  const availableCourses = useMemo(() => {
-    if (selectedLevel === "All") return courses;
-    return courses.filter((c) => c.level === selectedLevel);
-  }, [courses, selectedLevel]);
-
   return (
-    <div className="min-h-screen flex flex-col justify-between bg-background text-foreground transition-colors overflow-y-auto no-scrollbar">
-      <header className="shrink-0 border-b border-border/80 bg-background/80 backdrop-blur-md sticky top-0 z-30">
+    <div className="min-h-screen flex flex-col justify-between bg-background text-foreground transition-colors no-scrollbar">
+      <header className="sticky top-0 z-40 w-full border-b border-border/80 bg-background/95 backdrop-blur-md">
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="h-9 w-9 rounded-xl bg-primary flex items-center justify-center text-primary-foreground shadow-md shadow-primary/25">
@@ -195,7 +219,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                 <BookOpen className="h-3.5 w-3.5" />
                 <span>Question Papers</span>
                 <span className="ml-1 text-[10px] px-1.5 py-0.2 rounded-full bg-primary/10 text-primary font-bold">
-                  {catalog.length || 1417}
+                  {catalog.length || 1414}
                 </span>
               </button>
               <button
@@ -253,31 +277,8 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
               </div>
             </div>
 
-            <div className="flex flex-col gap-3 bg-card border border-border rounded-2xl p-3 sm:p-4 shadow-xs">
-              <div className="flex flex-wrap items-center gap-1.5">
-                <span className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider mr-1.5 flex items-center gap-1">
-                  <Layers className="h-3 w-3" /> Level:
-                </span>
-                {levels.map((lvl) => (
-                  <button
-                    key={lvl.id}
-                    type="button"
-                    onClick={() => {
-                      setSelectedLevel(lvl.id);
-                      setSelectedCourse("All");
-                    }}
-                    className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all ${
-                      selectedLevel === lvl.id
-                        ? "bg-primary text-primary-foreground font-semibold shadow-xs"
-                        : "bg-muted/50 hover:bg-muted text-muted-foreground hover:text-foreground"
-                    }`}
-                  >
-                    {lvl.label}
-                  </button>
-                ))}
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-2 border-t border-border/40">
+            <div className="bg-card border border-border rounded-2xl p-3 sm:p-4 shadow-xs">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
                 <div className="flex flex-col gap-1">
                   <label className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
                     Course / Subject
@@ -287,8 +288,8 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                     onChange={(e) => setSelectedCourse(e.target.value)}
                     className="w-full px-2.5 py-1.5 bg-background border border-border rounded-lg text-xs text-foreground focus:outline-hidden focus:ring-1 focus:ring-primary"
                   >
-                    <option value="All">All Courses ({availableCourses.length})</option>
-                    {availableCourses.map((c) => (
+                    <option value="All">All Courses ({courses.length})</option>
+                    {courses.map((c) => (
                       <option key={c.code} value={c.code}>
                         {c.code} - {c.name} ({c.total_papers})
                       </option>
@@ -343,16 +344,21 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                 <BookOpen className="h-10 w-10 text-muted-foreground mx-auto mb-2 opacity-50" />
                 <h3 className="font-bold text-sm text-foreground">No Question Papers Match Your Filters</h3>
                 <p className="text-xs text-muted-foreground mt-1 max-w-sm mx-auto">
-                  Try adjusting the level, course, year, or search terms to find matching exam papers.
+                  Try adjusting the course, year, or search terms to find matching exam papers.
                 </p>
                 <button
                   type="button"
                   onClick={() => {
-                    setSelectedLevel("All");
                     setSelectedCourse("All");
                     setSelectedYear("All");
                     setSelectedExam("All");
                     setSearchQuery("");
+                    setCurrentPageNum(1);
+                    sessionStorage.removeItem("tt_search_query");
+                    sessionStorage.removeItem("tt_selected_course");
+                    sessionStorage.removeItem("tt_selected_year");
+                    sessionStorage.removeItem("tt_selected_exam");
+                    sessionStorage.removeItem("tt_page_num");
                   }}
                   className="mt-3 px-3.5 py-1.5 bg-primary/10 text-primary hover:bg-primary/20 rounded-lg text-xs font-semibold"
                 >
@@ -527,16 +533,6 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                   </div>
                 </CardContent>
               </Card>
-
-              <div className="text-center">
-                <button
-                  type="button"
-                  onClick={() => setActiveTab("library")}
-                  className="text-xs text-primary hover:underline font-semibold"
-                >
-                  &larr; Or browse all 1,417 pre-loaded exam papers
-                </button>
-              </div>
             </div>
           </div>
         )}

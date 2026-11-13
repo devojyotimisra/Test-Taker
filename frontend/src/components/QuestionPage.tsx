@@ -131,7 +131,7 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
 
   return (
     <div className="h-screen max-h-screen flex flex-col bg-background text-foreground transition-colors overflow-hidden no-scrollbar">
-      <header className="shrink-0 border-b border-border/80 bg-background/85 backdrop-blur-md px-3 sm:px-4 py-2">
+      <header className="shrink-0 sticky top-0 z-40 border-b border-border/80 bg-background/95 backdrop-blur-md px-3 sm:px-4 py-2">
         <div className="max-w-7xl mx-auto flex flex-col sm:grid sm:grid-cols-3 items-center justify-between gap-2 sm:gap-3">
           <div className="flex items-center justify-between w-full sm:w-auto sm:justify-self-start gap-2 sm:gap-3">
             <div className="flex items-center gap-1.5 sm:gap-2">

@@ -8,13 +8,13 @@ import {
   fetchJsonWithFallback,
   preloadPaperAssets,
 } from "./lib/assetService";
-import { Loader2, Sparkles, Image as ImageIcon } from "lucide-react";
+import { Loader2, Sparkles, Image as ImageIcon, X, FileUp } from "lucide-react";
 
 const apiBase = import.meta.env.VITE_API_URL || "";
 
 interface LoadingPaperState {
   title: string;
-  stage: "fetching" | "caching";
+  stage: "uploading" | "fetching" | "caching";
   loadedImages: number;
   totalImages: number;
 }
@@ -47,16 +47,21 @@ export function App() {
 
     setLoadingPaper({
       title: file.name,
-      stage: "fetching",
+      stage: "uploading",
       loadedImages: 0,
       totalImages: 0,
     });
+
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 30000);
 
     try {
       const res = await fetch(`${apiBase}/api/upload-pdf`, {
         method: "POST",
         body: formData,
+        signal: controller.signal,
       });
+      clearTimeout(timeout);
 
       if (!res.ok) {
         let errorMsg = "Failed to parse the question paper PDF.";
@@ -118,13 +123,16 @@ export function App() {
         duration: 4000,
       });
     } catch (err: any) {
+      clearTimeout(timeout);
       setLoadingPaper(null);
       toast({
         type: "error",
         title: "Upload Error",
         description:
-          err.message && err.message.includes("fetch")
-            ? "Could not connect to the server. Please verify your connection."
+          err.name === "AbortError"
+            ? "Upload timed out. Please check if the backend server is running."
+            : err.message && err.message.includes("fetch")
+            ? "Could not connect to the backend server. Please make sure the Python server is running."
             : err.message || "An unexpected error occurred while uploading.",
         duration: 6000,
       });
@@ -221,23 +229,40 @@ export function App() {
 
       {loadingPaper && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-xs p-4 animate-in fade-in duration-200">
-          <div className="w-full max-w-md bg-card border border-border p-6 rounded-2xl shadow-2xl flex flex-col items-center text-center space-y-4">
+          <div className="w-full max-w-md bg-card border border-border p-6 rounded-2xl shadow-2xl flex flex-col items-center text-center space-y-4 relative">
+            <button
+              type="button"
+              onClick={() => setLoadingPaper(null)}
+              className="absolute top-4 right-4 p-1.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+              title="Cancel"
+            >
+              <X className="h-4 w-4" />
+            </button>
+
             <div className="h-14 w-14 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary relative">
               <Loader2 className="h-7 w-7 animate-spin" />
               {loadingPaper.stage === "caching" && (
                 <ImageIcon className="h-3.5 w-3.5 absolute bottom-2 right-2 text-primary" />
               )}
+              {loadingPaper.stage === "uploading" && (
+                <FileUp className="h-3.5 w-3.5 absolute bottom-2 right-2 text-primary" />
+              )}
             </div>
 
-            <div className="space-y-1.5 w-full">
+            <div className="space-y-1.5 w-full px-2">
               <h3 className="font-bold text-base text-foreground line-clamp-2">
                 {loadingPaper.title}
               </h3>
               <p className="text-xs text-muted-foreground flex items-center justify-center gap-1.5">
-                {loadingPaper.stage === "fetching" ? (
+                {loadingPaper.stage === "uploading" ? (
+                  <>
+                    <FileUp className="h-3.5 w-3.5 text-primary shrink-0" />
+                    <span>Parsing uploaded PDF & extracting questions...</span>
+                  </>
+                ) : loadingPaper.stage === "fetching" ? (
                   <>
                     <Sparkles className="h-3.5 w-3.5 text-primary shrink-0" />
-                    <span>Loading exam structure from repository...</span>
+                    <span>Loading question paper...</span>
                   </>
                 ) : loadingPaper.totalImages > 0 ? (
                   <>

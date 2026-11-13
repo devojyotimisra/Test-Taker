@@ -3,11 +3,9 @@ import {
   X,
   Minus,
   Maximize2,
-  HelpCircle,
   GripHorizontal,
   Calculator,
 } from "lucide-react";
-import { Button } from "./ui/button";
 import { cn } from "../lib/utils";
 
 interface ScientificCalculatorProps {
@@ -21,10 +19,11 @@ export function ScientificCalculator({
   isOpen,
   onClose,
 }: ScientificCalculatorProps) {
+  const calcRef = useRef<HTMLDivElement>(null);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [hasInitializedPos, setHasInitializedPos] = useState(false);
   const [isMinimized, setIsMinimized] = useState(false);
-  const [showHelp, setShowHelp] = useState(false);
+  const [isDragging, setIsDragging] = useState(false);
   const [angleMode, setAngleMode] = useState<AngleMode>("deg");
 
   const [inputVal, setInputVal] = useState("0");
@@ -68,7 +67,9 @@ export function ScientificCalculator({
   }, []);
 
   const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
-    if ((e.target as HTMLElement).closest("button")) return;
+    if ((e.target as HTMLElement).closest("button") || (e.target as HTMLElement).closest("input")) return;
+    e.preventDefault();
+    setIsDragging(true);
     dragRef.current = {
       isDragging: true,
       startX: e.clientX,
@@ -76,27 +77,46 @@ export function ScientificCalculator({
       posX: position.x,
       posY: position.y,
     };
-    (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
   };
 
-  const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
-    if (!dragRef.current.isDragging) return;
-    const dx = e.clientX - dragRef.current.startX;
-    const dy = e.clientY - dragRef.current.startY;
-    const maxX = Math.max(0, window.innerWidth - (isMinimized ? 240 : 460));
-    const maxY = Math.max(0, window.innerHeight - (isMinimized ? 50 : 250));
-    setPosition({
-      x: Math.min(maxX, Math.max(0, dragRef.current.posX + dx)),
-      y: Math.min(maxY, Math.max(0, dragRef.current.posY + dy)),
-    });
-  };
+  useEffect(() => {
+    if (!isDragging) return;
 
-  const handlePointerUp = (e: React.PointerEvent<HTMLDivElement>) => {
-    dragRef.current.isDragging = false;
-    try {
-      (e.currentTarget as HTMLElement).releasePointerCapture(e.pointerId);
-    } catch {}
-  };
+    const prevUserSelect = document.body.style.userSelect;
+    document.body.style.userSelect = "none";
+
+    const handlePointerMove = (e: PointerEvent) => {
+      const dx = e.clientX - dragRef.current.startX;
+      const dy = e.clientY - dragRef.current.startY;
+      const rect = calcRef.current?.getBoundingClientRect();
+      const width = rect?.width || (isMinimized ? 240 : 464);
+      const height = rect?.height || (isMinimized ? 40 : 360);
+      const maxX = Math.max(0, window.innerWidth - width);
+      const maxY = Math.max(0, window.innerHeight - height);
+
+      setPosition({
+        x: Math.min(maxX, Math.max(0, dragRef.current.posX + dx)),
+        y: Math.min(maxY, Math.max(0, dragRef.current.posY + dy)),
+      });
+    };
+
+    const handlePointerUp = () => {
+      setIsDragging(false);
+      dragRef.current.isDragging = false;
+      document.body.style.userSelect = prevUserSelect;
+    };
+
+    window.addEventListener("pointermove", handlePointerMove);
+    window.addEventListener("pointerup", handlePointerUp);
+    window.addEventListener("pointercancel", handlePointerUp);
+
+    return () => {
+      window.removeEventListener("pointermove", handlePointerMove);
+      window.removeEventListener("pointerup", handlePointerUp);
+      window.removeEventListener("pointercancel", handlePointerUp);
+      document.body.style.userSelect = prevUserSelect;
+    };
+  }, [isDragging, isMinimized]);
 
   const formatResult = (val: number): string => {
     if (isNaN(val)) return "Math Error";
@@ -417,20 +437,22 @@ export function ScientificCalculator({
 
   return (
     <div
+      ref={calcRef}
       style={{
-        left: `${position.x}px`,
-        top: `${position.y}px`,
+        transform: `translate3d(${position.x}px, ${position.y}px, 0)`,
       }}
       className={cn(
-        "fixed z-50 rounded-xl border border-border shadow-2xl bg-card text-card-foreground select-none overflow-hidden transition-all duration-150 backdrop-blur-md",
+        "fixed top-0 left-0 z-50 rounded-xl border border-border shadow-2xl bg-card text-card-foreground select-none overflow-hidden backdrop-blur-md will-change-transform",
+        isDragging ? "transition-none" : "transition-[width,height] duration-150",
         isMinimized ? "w-[240px]" : "w-[440px] sm:w-[464px]"
       )}
     >
       <div
         onPointerDown={handlePointerDown}
-        onPointerMove={handlePointerMove}
-        onPointerUp={handlePointerUp}
-        className="px-3 py-2 bg-muted/80 border-b border-border flex items-center justify-between cursor-grab active:cursor-grabbing text-xs font-semibold text-foreground"
+        className={cn(
+          "px-3 py-2 bg-muted/80 border-b border-border flex items-center justify-between text-xs font-semibold text-foreground touch-none select-none",
+          isDragging ? "cursor-grabbing" : "cursor-grab"
+        )}
       >
         <div className="flex items-center gap-1.5">
           <GripHorizontal className="h-4 w-4 text-muted-foreground" />
@@ -439,14 +461,6 @@ export function ScientificCalculator({
         </div>
 
         <div className="flex items-center gap-1">
-          <button
-            type="button"
-            onClick={() => setShowHelp((prev) => !prev)}
-            className="p-1 rounded hover:bg-background/80 text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
-            title="Calculator Instructions"
-          >
-            <HelpCircle className="h-3.5 w-3.5" />
-          </button>
           <button
             type="button"
             onClick={() => setIsMinimized((prev) => !prev)}
@@ -472,88 +486,23 @@ export function ScientificCalculator({
 
       {!isMinimized && (
         <div className="p-2.5 sm:p-3 space-y-2.5">
-          {showHelp ? (
-            <div className="space-y-3 max-h-[360px] overflow-y-auto text-xs pr-1">
-              <div className="flex items-center justify-between border-b border-border pb-1.5 font-bold text-foreground">
-                <span>Calculator Instructions (TCS iON)</span>
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="h-6 px-2 text-xs cursor-pointer"
-                  onClick={() => setShowHelp(false)}
-                >
-                  Back to Keypad
-                </Button>
-              </div>
-
-              <div className="space-y-2 text-muted-foreground leading-relaxed">
-                <div>
-                  <h4 className="font-semibold text-foreground">Overview</h4>
-                  <p>
-                    Performs basic and scientific mathematical operations
-                    including modulo, square root, cube root, trigonometric,
-                    exponential, logarithmic, and hyperbolic functions.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold text-emerald-600 dark:text-emerald-400">
-                    Do&apos;s
-                  </h4>
-                  <ul className="list-disc pl-4 space-y-0.5">
-                    <li>Press [C] before beginning a new calculation.</li>
-                    <li>
-                      Select angle unit (Deg or Rad) before calculating
-                      trigonometric values.
-                    </li>
-                    <li>
-                      Use memory buttons ([M+], [M-], [MR], [MC]) for cumulative
-                      totals.
-                    </li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold text-rose-600 dark:text-rose-400">
-                    Don&apos;ts
-                  </h4>
-                  <ul className="list-disc pl-4 space-y-0.5">
-                    <li>Do not perform division by zero.</li>
-                    <li>
-                      Do not switch angle mode midway through an active
-                      expression.
-                    </li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold text-foreground">Memory Keys</h4>
-                  <p>
-                    [MS] Store to memory · [MR] Recall memory · [MC] Clear
-                    memory · [M+] Add to memory · [M-] Subtract from memory.
-                  </p>
-                </div>
-              </div>
+          <div className="rounded-lg border border-border overflow-hidden bg-background shadow-inner">
+            <div className="h-5 px-2.5 bg-muted/40 font-mono text-[11px] text-muted-foreground flex items-center justify-end truncate">
+              {historyVal || "\u00A0"}
             </div>
-          ) : (
-            <>
-              <div className="rounded-lg border border-border overflow-hidden bg-background shadow-inner">
-                <div className="h-5 px-2.5 bg-muted/40 font-mono text-[11px] text-muted-foreground flex items-center justify-end truncate">
-                  {historyVal || "\u00A0"}
-                </div>
-                <div className="h-10 px-2.5 flex items-center justify-between font-mono">
-                  {hasMemory ? (
-                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-primary/10 border border-primary/20 text-primary">
-                      M
-                    </span>
-                  ) : (
-                    <span className="w-4" />
-                  )}
-                  <span className="text-xl font-bold text-foreground truncate select-all">
-                    {inputVal}
-                  </span>
-                </div>
-              </div>
+            <div className="h-10 px-2.5 flex items-center justify-between font-mono">
+              {hasMemory ? (
+                <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-primary/10 border border-primary/20 text-primary">
+                  M
+                </span>
+              ) : (
+                <span className="w-4" />
+              )}
+              <span className="text-xl font-bold text-foreground truncate select-all">
+                {inputVal}
+              </span>
+            </div>
+          </div>
 
               <div className="grid grid-cols-11 gap-1">
                 <button
@@ -996,10 +945,9 @@ export function ScientificCalculator({
                   +
                 </button>
               </div>
-            </>
-          )}
         </div>
       )}
     </div>
   );
 }
+

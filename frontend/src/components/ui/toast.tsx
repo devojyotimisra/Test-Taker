@@ -1,5 +1,11 @@
 import * as React from "react";
-import { AlertCircle, CheckCircle2, AlertTriangle, Info, X } from "lucide-react";
+import {
+  AlertCircle,
+  CheckCircle2,
+  AlertTriangle,
+  Info,
+  X,
+} from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export type ToastType = "error" | "success" | "warning" | "info";
@@ -17,7 +23,9 @@ interface ToastContextType {
   dismiss: (id: string) => void;
 }
 
-const ToastContext = React.createContext<ToastContextType | undefined>(undefined);
+const ToastContext = React.createContext<ToastContextType | undefined>(
+  undefined,
+);
 
 export function ToastProvider({ children }: { children: React.ReactNode }) {
   const [toasts, setToasts] = React.useState<ToastItem[]>([]);
@@ -27,9 +35,17 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const toast = React.useCallback(
-    ({ type = "info", title, description, duration = 5000 }: Omit<ToastItem, "id">) => {
+    ({
+      type = "info",
+      title,
+      description,
+      duration = 5000,
+    }: Omit<ToastItem, "id">) => {
       const id = Math.random().toString(36).substring(2, 9);
-      setToasts((prev) => [...prev, { id, type, title, description, duration }]);
+      setToasts((prev) => [
+        ...prev,
+        { id, type, title, description, duration },
+      ]);
 
       if (duration > 0) {
         window.setTimeout(() => {
@@ -37,7 +53,7 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
         }, duration);
       }
     },
-    [dismiss]
+    [dismiss],
   );
 
   return (
@@ -60,7 +76,7 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
               t.type === "warning" &&
                 "bg-amber-500/10 border-amber-500/30 text-foreground dark:bg-amber-950/40 dark:border-amber-500/40 shadow-amber-500/5",
               t.type === "info" &&
-                "bg-card/95 border-border text-card-foreground"
+                "bg-card/95 border-border text-card-foreground",
             )}
           >
             <div className="shrink-0 mt-0.5">
@@ -73,9 +89,7 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
               {t.type === "warning" && (
                 <AlertTriangle className="h-5 w-5 text-amber-600 dark:text-amber-400" />
               )}
-              {t.type === "info" && (
-                <Info className="h-5 w-5 text-primary" />
-              )}
+              {t.type === "info" && <Info className="h-5 w-5 text-primary" />}
             </div>
 
             <div className="flex-1 min-w-0 pr-1">
@@ -111,4 +125,3 @@ export function useToast() {
   }
   return context;
 }
-

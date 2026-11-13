@@ -1,10 +1,10 @@
-import { defineConfig } from "vite"
-import react from "@vitejs/plugin-react"
-import tailwindcss from "@tailwindcss/vite"
-import { VitePWA } from "vite-plugin-pwa"
-import path from "path"
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import { VitePWA } from "vite-plugin-pwa";
+import path from "path";
 
-const proxyTarget = process.env.VITE_API_PROXY || "http://127.0.0.1:8000"
+const proxyTarget = process.env.VITE_API_PROXY || "http://127.0.0.1:8000";
 
 export default defineConfig({
   plugins: [
@@ -22,7 +22,8 @@ export default defineConfig({
       manifest: {
         name: "Test Taker - Exam Platform",
         short_name: "Test Taker",
-        description: "Deterministic high-speed exam practice and test-taking platform for IIT Madras BS Degree question papers.",
+        description:
+          "Deterministic high-speed exam practice and test-taking platform for IIT Madras BS Degree question papers.",
         theme_color: "#0f172a",
         background_color: "#0f172a",
         display: "standalone",
@@ -123,4 +124,4 @@ export default defineConfig({
       },
     },
   },
-})
+});

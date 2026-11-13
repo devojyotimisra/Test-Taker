@@ -1,10 +1,9 @@
 import base64
 import io
-import os
 import re
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple, Union
-from PIL import Image, ImageChops, ImageOps
+from typing import Any, Dict, List, Optional, Tuple
+from PIL import Image
 import pdfplumber
 from pypdf import PdfReader
 from models import Paper, Question

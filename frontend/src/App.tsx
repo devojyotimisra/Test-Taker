@@ -74,7 +74,8 @@ export function App() {
         toast({
           type: "error",
           title: "Questions Not Found",
-          description: "Failed to retrieve the parsed questions from the server.",
+          description:
+            "Failed to retrieve the parsed questions from the server.",
           duration: 6000,
         });
         return;

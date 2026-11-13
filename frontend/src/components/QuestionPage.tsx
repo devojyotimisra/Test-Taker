@@ -201,15 +201,22 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                       {currentQ.type === "MCQ" && "Multiple Choice"}
                       {currentQ.type === "multichoice" &&
                         "Multiple Select (MSQ) · Select all that apply"}
-                      {currentQ.type === "numeric" && "Numerical / Short Answer"}
+                      {currentQ.type === "numeric" &&
+                        "Numerical / Short Answer"}
                     </Badge>
                     {currentQ.group_id && (
-                      <Badge variant="secondary" className="text-xs bg-primary/10 text-primary border-primary/20">
+                      <Badge
+                        variant="secondary"
+                        className="text-xs bg-primary/10 text-primary border-primary/20"
+                      >
                         Comprehension Set
                       </Badge>
                     )}
                     {currentQ.section_name && (
-                      <Badge variant="secondary" className="text-xs hidden sm:inline-flex">
+                      <Badge
+                        variant="secondary"
+                        className="text-xs hidden sm:inline-flex"
+                      >
                         {currentQ.section_name}
                       </Badge>
                     )}
@@ -237,7 +244,9 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                           <span>Comprehension / Common Data Context</span>
                         </div>
                         <div className="text-xs sm:text-sm leading-relaxed text-foreground/90 border-t border-primary/20 pt-2.5">
-                          <FormulaRenderer text={currentQ.comprehension_passage} />
+                          <FormulaRenderer
+                            text={currentQ.comprehension_passage}
+                          />
                         </div>
                       </div>
                     )}
@@ -261,7 +270,11 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                               handleNumericChange(e.target.value)
                             }
                             onKeyDown={(e) => {
-                              if (e.key === "Enter" && !isCurrentRevealed && hasCurrentAnswer) {
+                              if (
+                                e.key === "Enter" &&
+                                !isCurrentRevealed &&
+                                hasCurrentAnswer
+                              ) {
                                 handleCheckAnswer();
                               }
                             }}

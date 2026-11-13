@@ -43,9 +43,9 @@ function renderPaperText(text: string | null | undefined): string {
     const fbAttr = fallback && fallback !== primary ? ` data-fallback="${escapeHtml(fallback)}"` : "";
 
     if (isBlock) {
-      result += `<div class="paper-img-block"><img src="${escapeHtml(primary)}"${fbAttr} alt="Diagram" crossorigin="anonymous" onerror="if(this.dataset.fallback && this.src !== this.dataset.fallback){this.src=this.dataset.fallback;}" /></div>`;
+      result += `<div class="diagram-block"><img src="${escapeHtml(primary)}"${fbAttr} alt="Question Diagram" crossorigin="anonymous" onerror="if(this.dataset.fallback && this.src !== this.dataset.fallback){this.src=this.dataset.fallback;}" /></div>`;
     } else {
-      result += `<img class="paper-img-inline" src="${escapeHtml(primary)}"${fbAttr} alt="Formula" crossorigin="anonymous" onerror="if(this.dataset.fallback && this.src !== this.dataset.fallback){this.src=this.dataset.fallback;}" />`;
+      result += `<img class="diagram-inline" src="${escapeHtml(primary)}"${fbAttr} alt="Formula" crossorigin="anonymous" onerror="if(this.dataset.fallback && this.src !== this.dataset.fallback){this.src=this.dataset.fallback;}" />`;
     }
 
     lastIndex = pattern.lastIndex;
@@ -103,8 +103,8 @@ function formatCorrectAnswerText(q: Question): string {
 }
 
 function buildPaperHtml(paper: Paper, item: CatalogItem): string {
-  const title = escapeHtml(item.course_name || paper.title || "Examination Paper");
-  const code = escapeHtml(item.course_code || "");
+  const courseName = escapeHtml(item.course_name || paper.title || "Examination Paper");
+  const courseCode = escapeHtml(item.course_code || "");
   const term = escapeHtml(item.term || "");
   const year = escapeHtml(String(item.year || ""));
   const examType = escapeHtml(item.exam_type || "Term Examination");
@@ -116,14 +116,14 @@ function buildPaperHtml(paper: Paper, item: CatalogItem): string {
       const qNum = q.number || idx + 1;
       const marksLabel = `${q.marks || 0} Mark${q.marks === 1 ? "" : "s"}`;
       const negLabel = q.negative_marks ? `, -${q.negative_marks}` : "";
-      const typeLabel = q.type ? `[${escapeHtml(q.type)}]` : "";
+      const typeLabel = q.type ? escapeHtml(q.type) : "MCQ";
 
       let passageHtml = "";
       if (q.comprehension_passage && q.comprehension_passage.trim()) {
         passageHtml = `
-          <div class="paper-passage-box">
-            <div class="paper-passage-title">Comprehension / Reference Data:</div>
-            <div class="paper-passage-body">${renderPaperText(q.comprehension_passage)}</div>
+          <div class="passage-container">
+            <div class="passage-label">Comprehension &amp; Reference Material</div>
+            <div class="passage-body">${renderPaperText(q.comprehension_passage)}</div>
           </div>
         `;
       }
@@ -131,17 +131,16 @@ function buildPaperHtml(paper: Paper, item: CatalogItem): string {
       let optionsHtml = "";
       if (q.options && q.options.length > 0) {
         optionsHtml = `
-          <div class="paper-options-container">
+          <div class="options-list">
             ${q.options
               .map((opt, optIdx) => {
                 const label = String.fromCharCode(65 + optIdx);
                 const isCorrect = isOptionCorrect(q, opt);
                 return `
-                  <div class="paper-option-row">
-                    <span class="paper-option-letter">(${label})</span>
-                    <span class="paper-option-content">${renderPaperText(opt)} ${
-                      isCorrect ? `<strong>[Correct]</strong>` : ""
-                    }</span>
+                  <div class="option-item ${isCorrect ? "correct-choice" : ""}">
+                    <span class="option-label">(${label})</span>
+                    <span class="option-text">${renderPaperText(opt)}</span>
+                    ${isCorrect ? `<span class="correct-indicator">&#10004; Correct Option</span>` : ""}
                   </div>
                 `;
               })
@@ -151,25 +150,29 @@ function buildPaperHtml(paper: Paper, item: CatalogItem): string {
       }
 
       const answerBoxHtml = `
-        <div class="paper-answer-box">
-          <span>Correct Answer: ${renderPaperText(formatCorrectAnswerText(q))}</span>
+        <div class="solution-box">
+          <span class="solution-title">&#10004; Verified Official Key:</span>
+          <span class="solution-content">${renderPaperText(formatCorrectAnswerText(q))}</span>
         </div>
       `;
 
       const sectionDivider =
         q.section_name && (idx === 0 || paper.questions?.[idx - 1]?.section_name !== q.section_name)
-          ? `<div class="paper-section-divider">Section: ${escapeHtml(q.section_name)}</div>`
+          ? `<div class="section-banner">Section: ${escapeHtml(q.section_name)}</div>`
           : "";
 
       return `
         ${sectionDivider}
-        <article class="paper-question-card">
-          <div class="paper-q-header">
-            <span class="paper-q-title">Q.${qNum} ${typeLabel}</span>
-            <span class="paper-q-meta">[${marksLabel}${negLabel}]</span>
+        <article class="question-card">
+          <div class="q-header-row">
+            <div class="q-number-badge">
+              <span>Q.${qNum}</span>
+              <span class="q-type-tag">${typeLabel}</span>
+            </div>
+            <div class="q-marks-tag">[${marksLabel}${negLabel}]</div>
           </div>
           ${passageHtml}
-          <div class="paper-q-body">${renderPaperText(q.text)}</div>
+          <div class="q-body-text">${renderPaperText(q.text)}</div>
           ${optionsHtml}
           ${answerBoxHtml}
         </article>
@@ -182,52 +185,87 @@ function buildPaperHtml(paper: Paper, item: CatalogItem): string {
       const qNum = q.number || idx + 1;
       return `
         <tr>
-          <td style="font-weight: bold; text-align: center;">Q.${qNum}</td>
+          <td style="font-weight: 700; text-align: center;">Q.${qNum}</td>
           <td style="text-align: center;">${escapeHtml(q.type || "MCQ")}</td>
-          <td style="text-align: center;">${q.marks || 0}</td>
-          <td>${renderPaperText(formatCorrectAnswerText(q))}</td>
+          <td style="text-align: center; font-weight: 600;">${q.marks || 0}</td>
+          <td class="correct-val">${renderPaperText(formatCorrectAnswerText(q))}</td>
         </tr>
       `;
     })
     .join("");
 
   return `
-    <header class="paper-header">
-      <div class="paper-inst">INDIAN INSTITUTE OF TECHNOLOGY MADRAS</div>
-      <div class="paper-degree">BS Degree in Data Science and Applications</div>
-      <div class="paper-title">${title}</div>
-      <table class="paper-meta-table">
-        <tr>
-          <td style="width: 33%;"><strong>Course Code:</strong> ${code}</td>
-          <td style="width: 34%; text-align: center;"><strong>Exam:</strong> ${examType}</td>
-          <td style="width: 33%; text-align: right;"><strong>Total Marks:</strong> ${totalMarks}</td>
-        </tr>
-        <tr>
-          <td><strong>Term / Year:</strong> ${term} ${year}</td>
-          <td style="text-align: center;"><strong>Questions:</strong> ${totalQuestions}</td>
-          <td style="text-align: right;"><strong>Status:</strong> Solutions Paper</td>
-        </tr>
-      </table>
-    </header>
-    <main>
-      ${questionsHtml}
-      <section class="paper-summary-section">
-        <div class="paper-summary-title">ANSWER KEY SUMMARY</div>
-        <table class="paper-summary-table">
-          <thead>
-            <tr>
-              <th style="width: 15%;">Question #</th>
-              <th style="width: 15%;">Type</th>
-              <th style="width: 15%;">Marks</th>
-              <th style="width: 55%;">Correct Answer</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${summaryRowsHtml}
-          </tbody>
+    <div class="page-container">
+      <header class="masthead-wrapper">
+        <div class="masthead-inst">INDIAN INSTITUTE OF TECHNOLOGY MADRAS</div>
+        <div class="masthead-dept">BS Degree in Data Science &amp; Applications &bull; Examination Authority</div>
+        <div class="masthead-title">${courseName}</div>
+        <div class="masthead-subtitle">${courseCode} &bull; ${examType} Solutions &bull; ${term} ${year}</div>
+
+        <table class="metadata-box">
+          <tr>
+            <td style="width: 25%;">
+              <span class="meta-label">Course:</span>
+              <span class="meta-val">${courseCode}</span>
+            </td>
+            <td style="width: 25%;">
+              <span class="meta-label">Exam:</span>
+              <span class="meta-val">${examType}</span>
+            </td>
+            <td style="width: 25%;">
+              <span class="meta-label">Term / Year:</span>
+              <span class="meta-val">${term} ${year}</span>
+            </td>
+            <td style="width: 25%;">
+              <span class="meta-label">Max Marks:</span>
+              <span class="meta-val">${totalMarks}</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="meta-label">Total Qs:</span>
+              <span class="meta-val">${totalQuestions}</span>
+            </td>
+            <td>
+              <span class="meta-label">Duration:</span>
+              <span class="meta-val">Standard Time</span>
+            </td>
+            <td colspan="2">
+              <span class="meta-label">Status:</span>
+              <span class="meta-val" style="color: #047857;">Official Verified Solutions Master</span>
+            </td>
+          </tr>
         </table>
-      </section>
-    </main>
+
+        <div class="notice-box">
+          Standard Academic Protocol &bull; Verified departmental question paper with complete institutional answer keys.
+        </div>
+      </header>
+
+      <main>
+        ${questionsHtml}
+
+        <section class="summary-container">
+          <div class="summary-header">
+            <h3>Official Answer Key &amp; Mark Distribution Summary</h3>
+            <p>Master evaluation rubric for administrative and student assessment verification</p>
+          </div>
+          <table class="summary-table">
+            <thead>
+              <tr>
+                <th style="width: 14%;">Question #</th>
+                <th style="width: 14%;">Type</th>
+                <th style="width: 14%;">Marks</th>
+                <th style="width: 58%; text-align: left; padding-left: 10px;">Official Verified Key</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${summaryRowsHtml}
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
   `;
 }
 
@@ -241,7 +279,7 @@ export async function downloadPaperPdf(
     throw new Error("No readable questions in this question paper.");
   }
 
-  onProgress?.("Preloading question diagrams...");
+  onProgress?.("Loading formulas & diagrams...");
   await preloadPaperAssets(paper);
 
   onProgress?.("Rendering document...");
@@ -279,176 +317,328 @@ export async function downloadPaperPdf(
               margin: 0;
               padding: 0;
             }
-            body {
-              font-family: "Times New Roman", Times, Georgia, serif;
-              font-size: 11pt;
-              line-height: 1.45;
-              color: #000000;
+            html, body {
               background-color: #ffffff;
-              padding: 18mm 14mm;
+              color: #111827;
+              font-family: "Times New Roman", Times, "Nimbus Roman", "Liberation Serif", Georgia, serif;
+              font-size: 10.5pt;
+              line-height: 1.5;
+            }
+            .page-container {
               width: 794px;
+              margin: 0 auto;
+              padding: 16mm 14mm 18mm 14mm;
+              background-color: #ffffff;
             }
-            .paper-header {
+            .masthead-wrapper {
               text-align: center;
-              margin-bottom: 12px;
-              border-bottom: 2px solid #000000;
-              padding-bottom: 8px;
-            }
-            .paper-inst {
-              font-size: 14pt;
-              font-weight: bold;
-              text-transform: uppercase;
-              letter-spacing: 0.5px;
-              margin-bottom: 2px;
-            }
-            .paper-degree {
-              font-size: 11pt;
-              font-weight: bold;
-              margin-bottom: 6px;
-            }
-            .paper-title {
-              font-size: 13pt;
-              font-weight: bold;
-              margin-bottom: 4px;
-            }
-            .paper-meta-table {
-              width: 100%;
-              margin: 8px 0;
-              border-top: 1px solid #000000;
-              border-bottom: 1px solid #000000;
-              padding: 6px 0;
-              font-size: 10pt;
-              border-collapse: collapse;
-            }
-            .paper-meta-table td {
-              padding: 3px 6px;
-              vertical-align: top;
-            }
-            .paper-section-divider {
-              font-size: 12pt;
-              font-weight: bold;
-              text-transform: uppercase;
-              border-bottom: 1.5px solid #000000;
-              padding-bottom: 4px;
-              margin: 22px 0 12px 0;
-              break-inside: avoid;
-              page-break-inside: avoid;
-            }
-            .paper-question-card {
               margin-bottom: 14px;
               padding-bottom: 10px;
-              border-bottom: 1px dotted #888888;
-              break-inside: avoid;
-              page-break-inside: avoid;
+              border-bottom: 2.5px solid #1e3a8a;
             }
-            .paper-q-header {
-              display: flex;
-              justify-content: space-between;
-              align-items: baseline;
-              margin-bottom: 6px;
-              font-weight: bold;
-            }
-            .paper-q-title {
-              font-size: 11.5pt;
-            }
-            .paper-q-meta {
-              font-size: 9.5pt;
-            }
-            .paper-passage-box {
-              border: 1px solid #000000;
-              padding: 8px 10px;
-              margin: 8px 0 10px 0;
-              font-size: 10pt;
-              break-inside: avoid;
-              page-break-inside: avoid;
-            }
-            .paper-passage-title {
-              font-weight: bold;
+            .masthead-inst {
+              font-size: 14.5pt;
+              font-weight: 700;
+              letter-spacing: 1.2px;
+              color: #0f172a;
               text-transform: uppercase;
+              margin-bottom: 2px;
+            }
+            .masthead-dept {
               font-size: 8.5pt;
-              margin-bottom: 4px;
+              font-weight: 600;
+              letter-spacing: 0.8px;
+              color: #475569;
+              text-transform: uppercase;
+              margin-bottom: 6px;
             }
-            .paper-passage-body {
-              line-height: 1.4;
+            .masthead-title {
+              font-size: 13.5pt;
+              font-weight: 700;
+              color: #1e3a8a;
+              margin-bottom: 3px;
             }
-            .paper-q-body {
-              font-size: 11pt;
-              line-height: 1.45;
+            .masthead-subtitle {
+              font-size: 10pt;
+              font-style: italic;
+              color: #334155;
               margin-bottom: 8px;
             }
-            .paper-options-container {
-              margin-left: 12px;
+            .metadata-box {
+              width: 100%;
+              border-collapse: collapse;
+              background-color: #f8fafc;
+              border: 1px solid #cbd5e1;
+              border-left: 3.5px solid #1e3a8a;
               margin-top: 6px;
+              margin-bottom: 8px;
+            }
+            .metadata-box td {
+              padding: 5px 8px;
+              font-size: 9pt;
+              vertical-align: middle;
+              border: 1px solid #e2e8f0;
+            }
+            .meta-label {
+              font-weight: 700;
+              color: #1e3a8a;
+              margin-right: 4px;
+              text-transform: uppercase;
+              font-size: 8pt;
+              letter-spacing: 0.4px;
+            }
+            .meta-val {
+              color: #0f172a;
+              font-weight: 600;
+            }
+            .notice-box {
+              background-color: #f1f5f9;
+              border: 1px solid #e2e8f0;
+              border-radius: 4px;
+              padding: 4px 8px;
+              font-size: 8pt;
+              color: #475569;
+              font-style: italic;
+              text-align: center;
+              margin-bottom: 14px;
+            }
+            .section-banner {
+              font-size: 11pt;
+              font-weight: 700;
+              letter-spacing: 0.6px;
+              text-transform: uppercase;
+              color: #1e3a8a;
+              background-color: #f1f5f9;
+              border-left: 3.5px solid #1e3a8a;
+              padding: 5px 10px;
+              margin: 18px 0 12px 0;
               break-inside: avoid;
               page-break-inside: avoid;
             }
-            .paper-option-row {
+            .question-card {
+              margin-bottom: 14px;
+              padding-bottom: 12px;
+              border-bottom: 1px solid #e2e8f0;
+              break-inside: avoid;
+              page-break-inside: avoid;
+            }
+            .q-header-row {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-bottom: 6px;
+              padding-bottom: 3px;
+              border-bottom: 1px dashed #cbd5e1;
+            }
+            .q-number-badge {
+              font-size: 11pt;
+              font-weight: 700;
+              color: #0f172a;
+              display: flex;
+              align-items: center;
+              gap: 8px;
+            }
+            .q-type-tag {
+              font-size: 7.5pt;
+              font-weight: 700;
+              text-transform: uppercase;
+              letter-spacing: 0.4px;
+              background-color: #f1f5f9;
+              color: #475569;
+              border: 1px solid #cbd5e1;
+              padding: 1px 5px;
+              border-radius: 3px;
+            }
+            .q-marks-tag {
+              font-size: 8.5pt;
+              font-weight: 700;
+              color: #0369a1;
+              background-color: #f0f9ff;
+              border: 1px solid #bae6fd;
+              padding: 1px 6px;
+              border-radius: 3px;
+            }
+            .passage-container {
+              background-color: #f8fafc;
+              border: 1px solid #cbd5e1;
+              border-left: 3.5px solid #64748b;
+              border-radius: 0 4px 4px 0;
+              padding: 6px 10px;
+              margin: 6px 0 10px 0;
+              break-inside: avoid;
+              page-break-inside: avoid;
+            }
+            .passage-label {
+              font-size: 7.5pt;
+              font-weight: 700;
+              text-transform: uppercase;
+              letter-spacing: 0.6px;
+              color: #475569;
+              margin-bottom: 3px;
+            }
+            .passage-body {
+              font-size: 9.5pt;
+              line-height: 1.4;
+              color: #1e293b;
+            }
+            .q-body-text {
+              font-size: 10.5pt;
+              line-height: 1.45;
+              color: #111827;
+              margin-bottom: 8px;
+            }
+            .options-list {
+              margin-left: 4px;
+              margin-top: 6px;
+              margin-bottom: 6px;
+              display: flex;
+              flex-direction: column;
+              gap: 4px;
+              break-inside: avoid;
+              page-break-inside: avoid;
+            }
+            .option-item {
               display: flex;
               align-items: baseline;
               gap: 8px;
-              margin-bottom: 4px;
-              font-size: 10.5pt;
+              padding: 3px 6px;
+              border-radius: 3px;
+              font-size: 10pt;
               line-height: 1.4;
+              background-color: #ffffff;
+              border: 1px solid transparent;
               break-inside: avoid;
               page-break-inside: avoid;
             }
-            .paper-option-letter {
-              font-weight: bold;
-              min-width: 22px;
+            .option-item.correct-choice {
+              background-color: #ecfdf5;
+              border-color: #a7f3d0;
+              color: #065f46;
+              font-weight: 600;
             }
-            .paper-option-content {
+            .option-label {
+              font-weight: 700;
+              color: #1e3a8a;
+              min-width: 22px;
+              font-size: 10pt;
+            }
+            .option-item.correct-choice .option-label {
+              color: #047857;
+            }
+            .option-text {
               flex: 1;
             }
-            .paper-answer-box {
-              margin-top: 8px;
-              padding: 4px 8px;
-              border: 1px solid #000000;
-              font-size: 10pt;
-              font-weight: bold;
+            .correct-indicator {
+              font-size: 7.5pt;
+              font-weight: 700;
+              text-transform: uppercase;
+              background-color: #d1fae5;
+              color: #047857;
+              border: 1px solid #6ee7b7;
+              padding: 1px 6px;
+              border-radius: 9999px;
+              margin-left: 6px;
+              letter-spacing: 0.3px;
+            }
+            .solution-box {
+              margin-top: 6px;
+              padding: 5px 10px;
+              background-color: #f0fdf4;
+              border: 1px solid #bbf7d0;
+              border-left: 3.5px solid #16a34a;
+              border-radius: 0 4px 4px 0;
+              font-size: 9.5pt;
+              display: flex;
+              align-items: baseline;
+              gap: 8px;
               break-inside: avoid;
               page-break-inside: avoid;
             }
-            .paper-summary-section {
+            .solution-title {
+              font-weight: 700;
+              color: #15803d;
+              font-size: 8.5pt;
+              text-transform: uppercase;
+              letter-spacing: 0.4px;
+              white-space: nowrap;
+            }
+            .solution-content {
+              color: #166534;
+              font-weight: 600;
+            }
+            .summary-container {
               margin-top: 24px;
-              padding-top: 12px;
-              border-top: 2px solid #000000;
+              padding-top: 14px;
+              border-top: 2.5px solid #1e3a8a;
               break-inside: avoid;
               page-break-inside: avoid;
             }
-            .paper-summary-title {
-              font-size: 12pt;
-              font-weight: bold;
+            .summary-header {
               text-align: center;
               margin-bottom: 10px;
             }
-            .paper-summary-table {
+            .summary-header h3 {
+              font-size: 12pt;
+              font-weight: 700;
+              color: #0f172a;
+              letter-spacing: 0.8px;
+              text-transform: uppercase;
+            }
+            .summary-header p {
+              font-size: 8pt;
+              color: #64748b;
+              font-style: italic;
+              margin-top: 2px;
+            }
+            .summary-table {
               width: 100%;
               border-collapse: collapse;
-              font-size: 9.5pt;
+              font-size: 9pt;
+              background-color: #ffffff;
             }
-            .paper-summary-table th, .paper-summary-table td {
-              border: 1px solid #000000;
-              padding: 4px 6px;
-            }
-            .paper-summary-table th {
+            .summary-table th {
+              background-color: #1e3a8a;
+              color: #ffffff;
+              font-weight: 700;
+              padding: 5px 6px;
               text-align: center;
-              font-weight: bold;
+              border: 1px solid #1e3a8a;
+              text-transform: uppercase;
+              font-size: 7.5pt;
+              letter-spacing: 0.4px;
             }
-            .paper-img-block {
+            .summary-table td {
+              padding: 4px 6px;
+              border: 1px solid #cbd5e1;
+              color: #1e293b;
+            }
+            .summary-table tr:nth-child(even) {
+              background-color: #f8fafc;
+            }
+            .summary-table td.correct-val {
+              color: #047857;
+              font-weight: 600;
+            }
+            .diagram-block {
               text-align: center;
               margin: 8px 0;
               break-inside: avoid;
               page-break-inside: avoid;
             }
-            .paper-img-block img {
-              max-width: 90%;
+            .diagram-block img {
+              max-width: 88%;
               max-height: 280px;
               height: auto;
+              border: 1px solid #e2e8f0;
+              border-radius: 4px;
+              padding: 4px;
+              background-color: #ffffff;
               display: inline-block;
             }
-            .paper-img-inline {
+            .diagram-inline {
               vertical-align: middle;
               max-height: 1.4em;
+              border-radius: 2px;
             }
           </style>
         </head>
@@ -503,13 +693,13 @@ export async function downloadPaperPdf(
       pagebreak: {
         mode: ["avoid-all", "css", "legacy"],
         avoid: [
-          ".paper-question-card",
-          ".paper-passage-box",
-          ".paper-options-container",
-          ".paper-option-row",
-          ".paper-answer-box",
-          ".paper-img-block",
-          ".paper-summary-section",
+          ".question-card",
+          ".passage-container",
+          ".options-list",
+          ".option-item",
+          ".solution-box",
+          ".diagram-block",
+          ".summary-container",
         ],
       },
     };

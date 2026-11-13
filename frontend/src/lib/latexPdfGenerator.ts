@@ -1072,7 +1072,14 @@ export async function downloadPaperPdf(
     const cat = source as CatalogItem;
     item = cat;
     if (onProgress) onProgress("Retrieving examination data...");
-    paper = await fetchJsonWithFallback<Paper>(cat.json_file);
+    const targetUrl =
+      cat.json_url ||
+      (cat.json_file
+        ? cat.json_file.includes("/")
+          ? cat.json_file
+          : `papers/${cat.json_file}`
+        : "");
+    paper = await fetchJsonWithFallback<Paper>(targetUrl);
   }
 
   if (!item) {

@@ -50,25 +50,46 @@ export async function fetchJsonWithFallback<T = unknown>(subPath: string, timeou
     return jsonCache.get(cleanPath) as T;
   }
 
+  const pathsToTry = [cleanPath];
+  if (!cleanPath.startsWith("papers/") && cleanPath.endsWith(".json") && cleanPath !== "catalog.json" && cleanPath !== "courses.json") {
+    pathsToTry.push(`papers/${cleanPath}`);
+  }
+
   const baseUrls = getDataBaseUrls();
   const errors: string[] = [];
 
-  for (const base of baseUrls) {
-    const url = base.startsWith("http") ? `${base}/${cleanPath}` : `${base}/${cleanPath}`;
-    try {
-      const controller = new AbortController();
-      const timer = setTimeout(() => controller.abort(), timeoutMs);
-      const res = await fetch(url, { signal: controller.signal });
-      clearTimeout(timer);
-      if (res.ok) {
-        const data = (await res.json()) as T;
-        jsonCache.set(cleanPath, data);
-        return data;
+  for (const path of pathsToTry) {
+    if (jsonCache.has(path)) {
+      return jsonCache.get(path) as T;
+    }
+    for (const base of baseUrls) {
+      const url = `${base}/${path}`;
+      try {
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), timeoutMs);
+        const res = await fetch(url, { signal: controller.signal });
+        clearTimeout(timer);
+        if (res.ok) {
+          const contentType = res.headers.get("content-type") || "";
+          if (contentType.includes("text/html")) {
+            errors.push(`${url}: received html instead of json`);
+            continue;
+          }
+          const text = await res.text();
+          if (text.trim().startsWith("<")) {
+            errors.push(`${url}: received html doctype instead of json`);
+            continue;
+          }
+          const data = JSON.parse(text) as T;
+          jsonCache.set(cleanPath, data);
+          jsonCache.set(path, data);
+          return data;
+        }
+        errors.push(`${url}: status ${res.status}`);
+      } catch (err: unknown) {
+        const msg = err instanceof Error ? err.message : String(err);
+        errors.push(`${url}: ${msg}`);
       }
-      errors.push(`${url}: status ${res.status}`);
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : String(err);
-      errors.push(`${url}: ${msg}`);
     }
   }
 

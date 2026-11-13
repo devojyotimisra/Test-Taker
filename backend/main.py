@@ -30,18 +30,39 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-is_vercel = os.getenv("VERCEL") == "1"
+is_serverless = bool(
+    os.getenv("VERCEL")
+    or os.getenv("VERCEL_ENV")
+    or os.getenv("AWS_LAMBDA_FUNCTION_NAME")
+    or not os.access(".", os.W_OK)
+)
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-if is_vercel:
+if is_serverless:
     UPLOAD_DIR = Path("/tmp/uploads")
     IMAGE_DIR = Path("/tmp/image")
 else:
     UPLOAD_DIR = BASE_DIR / os.getenv("UPLOAD_DIR", "temp/uploads")
     IMAGE_DIR = BASE_DIR / os.getenv("IMAGE_DIR", "temp/image")
 
-UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
-IMAGE_DIR.mkdir(parents=True, exist_ok=True)
+try:
+    UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+except Exception:
+    UPLOAD_DIR = Path("/tmp/uploads")
+    try:
+        UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+    except Exception:
+        pass
+
+try:
+    IMAGE_DIR.mkdir(parents=True, exist_ok=True)
+except Exception:
+    IMAGE_DIR = Path("/tmp/image")
+    try:
+        IMAGE_DIR.mkdir(parents=True, exist_ok=True)
+    except Exception:
+        pass
 FRONTEND_DIST = BASE_DIR / "frontend" / "dist"
 
 current_paper: Optional[Paper] = None

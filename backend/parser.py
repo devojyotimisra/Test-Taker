@@ -4,7 +4,6 @@ import os
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, Union
-import numpy as np
 from PIL import Image, ImageChops, ImageOps
 import pdfplumber
 from pypdf import PdfReader
@@ -80,12 +79,19 @@ def classify_icon_pil(pil_img: Image.Image) -> Optional[str]:
     try:
         if pil_img.size != (16, 16):
             return None
-        arr = np.array(pil_img.convert("RGBA"))
-        mask = (arr[:, :, 3] > 50) & ((arr[:, :, 0] < 240) | (arr[:, :, 1] < 240) | (arr[:, :, 2] < 240))
-        if not mask.any():
+        rgba = pil_img.convert("RGBA")
+        green_count = 0
+        red_count = 0
+        for pixel in rgba.getdata():
+            r, g, b, a = pixel[:4]
+            if a > 50 and (r < 240 or g < 240 or b < 240):
+                if g > r:
+                    green_count += 1
+                else:
+                    red_count += 1
+        if green_count == 0 and red_count == 0:
             return None
-        mean_rgb = arr[mask][:, :3].mean(axis=0)
-        return "tick" if mean_rgb[1] > mean_rgb[0] else "cross"
+        return "tick" if green_count > red_count else "cross"
     except Exception:
         return None
 

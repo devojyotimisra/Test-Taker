@@ -3,6 +3,7 @@ export type AnswerType = "MCQ" | "multichoice" | "numeric";
 export interface Question {
   id: number;
   number: number;
+  original_number?: number | null;
   text: string;
   type: AnswerType;
   options: string[] | null;

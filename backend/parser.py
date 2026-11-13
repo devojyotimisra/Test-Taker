@@ -293,17 +293,23 @@ def parse_with_pdfplumber(
     paper_subject = ""
     state = "skip"
 
-    def finish_q():
-        nonlocal current_q
+    def finish_q(next_num: Optional[int] = None):
+        nonlocal current_q, paper_subject
         if current_q is not None:
+            if current_q["number"] is None:
+                if next_num is not None and next_num > 1:
+                    current_q["number"] = next_num - 1
+                else:
+                    current_q["number"] = 1
             full_txt = " ".join(current_q["body_parts"]).strip()
-            if SUBJECT_CHECK_RE.search(full_txt):
+            if SUBJECT_CHECK_RE.search(full_txt) or (current_q["marks"] == 0 and "ARE YOU SURE YOU HAVE TO WRITE EXAM" in full_txt):
                 current_q["subject_check"] = True
                 m = SUBJECT_CHECK_RE.search(full_txt)
                 if m:
-                    nonlocal paper_subject
                     paper_subject = re.sub(r"\s+", " ", m.group(1)).strip()
-            questions.append(current_q)
+            has_content = bool(current_q["body_parts"] or current_q["options"] or current_q["answers"] or current_q["subject_check"])
+            if has_content:
+                questions.append(current_q)
             current_q = None
 
     for line in all_lines:
@@ -313,17 +319,18 @@ def parse_with_pdfplumber(
         if plain and len(line.get("tokens", [])) > 0:
             first_tok = line["tokens"][0]
             size = first_tok.get("size") or 10.0
-            if size >= 15.0 and not re.match(r"^Group\b", plain, re.I) and not META_RE.match(plain):
+            if size >= 15.0 and not re.match(r"^(Group|Question Paper Preview)\b", plain, re.I) and not META_RE.match(plain):
                 finish_q()
-                current_section = plain
+                current_section = plain.strip()
+                current_group = None
                 state = "skip"
                 continue
 
         # Question Header
         m_q = QNUM_RE.search(plain)
         if m_q:
-            finish_q()
             num = int(m_q.group(1))
+            finish_q(next_num=num)
             qid = m_q.group(2)
             raw_type = (m_q.group(3) or "").upper()
             q_dict = {
@@ -341,9 +348,16 @@ def parse_with_pdfplumber(
                 "section_name": current_section,
                 "subject_check": False,
             }
-            if current_group and (current_group["first"] is None or current_group["first"] <= num <= (current_group["last"] or num)):
-                q_dict["group_id"] = current_group["gid"]
-                q_dict["comprehension_passage"] = " ".join(current_group["passage_parts"]).strip()
+            if current_group:
+                if current_group["first"] is not None and current_group["last"] is not None:
+                    if current_group["first"] <= num <= current_group["last"]:
+                        q_dict["group_id"] = current_group["gid"]
+                        q_dict["comprehension_passage"] = " ".join(current_group["passage_parts"]).strip()
+                    elif num > current_group["last"]:
+                        current_group = None
+                elif current_group["first"] is None:
+                    q_dict["group_id"] = current_group["gid"]
+                    q_dict["comprehension_passage"] = " ".join(current_group["passage_parts"]).strip()
 
             current_q = q_dict
             state = "qhead"
@@ -354,6 +368,52 @@ def parse_with_pdfplumber(
             if m_n:
                 current_q["negative_marks"] = float(m_n.group(1))
             continue
+
+        # Pre-content detection before first explicit Question Number
+        if current_q is None and not questions and not current_group:
+            m_m = MARKS_RE.search(plain)
+            is_lbl = bool(LABEL_RE.match(plain))
+            is_sub = bool(re.search(r"THIS IS QUESTION PAPER FOR THE SUBJECT", plain, re.I))
+            is_opt_start = bool(re.match(r"^\s*Options\s*:\s*$", plain, re.I))
+            if m_m or is_lbl or is_sub or is_opt_start:
+                current_q = {
+                    "number": None,
+                    "qid": "init_1",
+                    "qtype": "MCQ",
+                    "label": "",
+                    "marks": 1.0,
+                    "negative_marks": 0.0,
+                    "body_parts": [],
+                    "options": [],
+                    "answers": [],
+                    "group_id": None,
+                    "comprehension_passage": None,
+                    "section_name": current_section,
+                    "subject_check": False,
+                }
+                if m_m:
+                    current_q["marks"] = float(m_m.group(1))
+                m_n = NEG_RE.search(plain)
+                if m_n:
+                    current_q["negative_marks"] = float(m_n.group(1))
+                if is_lbl:
+                    lm = LABEL_RE.match(plain)
+                    if lm:
+                        current_q["label"] = lm.group(1).strip()
+                    state = "body"
+                    continue
+                elif is_sub:
+                    rendered = render_token_line(line)
+                    if rendered:
+                        current_q["body_parts"].append(rendered)
+                    state = "body"
+                    continue
+                elif is_opt_start:
+                    state = "options"
+                    continue
+                else:
+                    state = "qhead"
+                    continue
 
         # Comprehension Group Header
         m_g = QGROUP_RE.match(plain)
@@ -392,7 +452,9 @@ def parse_with_pdfplumber(
                     if current_q:
                         current_q["label"] = label
                     state = "body"
-            continue
+                continue
+            elif not META_RE.match(plain) and not NOISE_RE.match(plain):
+                state = "passage" if state == "ghead" else "body"
 
         if not plain and line["type"] != "image_block":
             continue
@@ -455,13 +517,24 @@ def parse_with_pdfplumber(
 
     finish_q()
 
-    # Reindex questions
+    # Filter and sort questions deterministically
+    valid_q_dicts = []
+    for q_dict in questions:
+        if skip_confirmation and q_dict.get("subject_check"):
+            continue
+        has_text = bool(" ".join(q_dict.get("body_parts", [])).strip())
+        has_opts = bool(q_dict.get("options"))
+        has_ans = bool(q_dict.get("answers"))
+        if not has_text and not has_opts and not has_ans:
+            continue
+        valid_q_dicts.append(q_dict)
+
+    if all(q.get("number") is not None for q in valid_q_dicts):
+        valid_q_dicts.sort(key=lambda q: q["number"])
+
     final_questions: List[Question] = []
     idx = 1
-    for q_dict in questions:
-        if skip_confirmation and q_dict["subject_check"]:
-            continue
-
+    for q_dict in valid_q_dicts:
         label_lower = (q_dict["label"] or "").lower()
         qtype_upper = (q_dict["qtype"] or "").upper()
 
@@ -491,6 +564,7 @@ def parse_with_pdfplumber(
             Question(
                 id=idx,
                 number=idx,
+                original_number=q_dict.get("number"),
                 text=body_text,
                 type=final_type,
                 options=opts,
@@ -665,17 +739,23 @@ def parse_pdf_to_paper(
         paper_subject = ""
         state = "skip"
 
-        def finish_q_fitz():
-            nonlocal current_q
+        def finish_q_fitz(next_num: Optional[int] = None):
+            nonlocal current_q, paper_subject
             if current_q is not None:
+                if current_q["number"] is None:
+                    if next_num is not None and next_num > 1:
+                        current_q["number"] = next_num - 1
+                    else:
+                        current_q["number"] = 1
                 full_txt = " ".join(current_q["body_parts"]).strip()
-                if SUBJECT_CHECK_RE.search(full_txt):
+                if SUBJECT_CHECK_RE.search(full_txt) or (current_q["marks"] == 0 and "ARE YOU SURE YOU HAVE TO WRITE EXAM" in full_txt):
                     current_q["subject_check"] = True
                     m = SUBJECT_CHECK_RE.search(full_txt)
                     if m:
-                        nonlocal paper_subject
                         paper_subject = re.sub(r"\s+", " ", m.group(1)).strip()
-                questions.append(current_q)
+                has_content = bool(current_q["body_parts"] or current_q["options"] or current_q["answers"] or current_q["subject_check"])
+                if has_content:
+                    questions.append(current_q)
                 current_q = None
 
         for pno, page in enumerate(doc):
@@ -766,16 +846,17 @@ def parse_pdf_to_paper(
                     t_fr = [f for f in fr if f["kind"] == "t" and f["text"].strip()]
                     first_sz = t_fr[0]["size"] if t_fr else 10.0
                     first_bold = all(f["flags"] & 16 for f in t_fr) if t_fr else False
-                    if first_sz >= 15.0 and first_bold and not re.match(r"^Group\b", plain, re.I) and not META_RE.match(plain):
+                    if first_sz >= 15.0 and first_bold and not re.match(r"^(Group|Question Paper Preview)\b", plain, re.I) and not META_RE.match(plain):
                         finish_q_fitz()
-                        current_section = plain
+                        current_section = plain.strip()
+                        current_group = None
                         state = "skip"
                         continue
 
                 m_q = QNUM_RE.search(plain)
                 if m_q:
-                    finish_q_fitz()
                     num = int(m_q.group(1))
+                    finish_q_fitz(next_num=num)
                     qid = m_q.group(2)
                     raw_type = (m_q.group(3) or "").upper()
                     q_dict = {
@@ -793,9 +874,16 @@ def parse_pdf_to_paper(
                         "section_name": current_section,
                         "subject_check": False,
                     }
-                    if current_group and (current_group["first"] is None or current_group["first"] <= num <= (current_group["last"] or num)):
-                        q_dict["group_id"] = current_group["gid"]
-                        q_dict["comprehension_passage"] = " ".join(current_group["passage_parts"]).strip()
+                    if current_group:
+                        if current_group["first"] is not None and current_group["last"] is not None:
+                            if current_group["first"] <= num <= current_group["last"]:
+                                q_dict["group_id"] = current_group["gid"]
+                                q_dict["comprehension_passage"] = " ".join(current_group["passage_parts"]).strip()
+                            elif num > current_group["last"]:
+                                current_group = None
+                        elif current_group["first"] is None:
+                            q_dict["group_id"] = current_group["gid"]
+                            q_dict["comprehension_passage"] = " ".join(current_group["passage_parts"]).strip()
 
                     current_q = q_dict
                     state = "qhead"
@@ -806,6 +894,60 @@ def parse_pdf_to_paper(
                     if m_n:
                         current_q["negative_marks"] = float(m_n.group(1))
                     continue
+
+                # Pre-content detection before first explicit Question Number
+                if current_q is None and not questions and not current_group:
+                    m_m = MARKS_RE.search(plain)
+                    is_lbl = bool(LABEL_RE.match(plain))
+                    is_sub = bool(re.search(r"THIS IS QUESTION PAPER FOR THE SUBJECT", plain, re.I))
+                    is_opt_start = bool(re.match(r"^\s*Options\s*:\s*$", plain, re.I))
+                    if m_m or is_lbl or is_sub or is_opt_start:
+                        current_q = {
+                            "number": None,
+                            "qid": "init_1",
+                            "qtype": "MCQ",
+                            "label": "",
+                            "marks": 1.0,
+                            "negative_marks": 0.0,
+                            "body_parts": [],
+                            "options": [],
+                            "answers": [],
+                            "group_id": None,
+                            "comprehension_passage": None,
+                            "section_name": current_section,
+                            "subject_check": False,
+                        }
+                        if m_m:
+                            current_q["marks"] = float(m_m.group(1))
+                        m_n = NEG_RE.search(plain)
+                        if m_n:
+                            current_q["negative_marks"] = float(m_n.group(1))
+                        if is_lbl:
+                            lm = LABEL_RE.match(plain)
+                            if lm:
+                                current_q["label"] = lm.group(1).strip()
+                            state = "body"
+                            continue
+                        elif is_sub:
+                            line_parts = []
+                            for f in fr:
+                                if f["kind"] == "t" and f["text"]:
+                                    line_parts.append(f["text"])
+                                elif f["kind"] == "i":
+                                    src_i, _ = images.save_image(f["xref"])
+                                    is_b = f["bbox"].height >= 30.0
+                                    line_parts.append(images.render_block(src_i, is_block=is_b))
+                            rendered_str = " ".join(line_parts).strip()
+                            if rendered_str:
+                                current_q["body_parts"].append(rendered_str)
+                            state = "body"
+                            continue
+                        elif is_opt_start:
+                            state = "options"
+                            continue
+                        else:
+                            state = "qhead"
+                            continue
 
                 m_g = QGROUP_RE.match(plain)
                 if m_g:
@@ -843,7 +985,9 @@ def parse_pdf_to_paper(
                             if current_q:
                                 current_q["label"] = label
                             state = "body"
-                    continue
+                        continue
+                    elif not META_RE.match(plain) and not NOISE_RE.match(plain):
+                        state = "passage" if state == "ghead" else "body"
 
                 if not plain and not any(f["kind"] == "i" for f in fr):
                     continue
@@ -931,12 +1075,24 @@ def parse_pdf_to_paper(
         finish_q_fitz()
         doc.close()
 
+        # Filter and sort questions deterministically
+        valid_q_dicts = []
+        for q_dict in questions:
+            if skip_confirmation and q_dict.get("subject_check"):
+                continue
+            has_text = bool(" ".join(q_dict.get("body_parts", [])).strip())
+            has_opts = bool(q_dict.get("options"))
+            has_ans = bool(q_dict.get("answers"))
+            if not has_text and not has_opts and not has_ans:
+                continue
+            valid_q_dicts.append(q_dict)
+
+        if all(q.get("number") is not None for q in valid_q_dicts):
+            valid_q_dicts.sort(key=lambda q: q["number"])
+
         final_questions_fitz: List[Question] = []
         idx = 1
-        for q_dict in questions:
-            if skip_confirmation and q_dict["subject_check"]:
-                continue
-
+        for q_dict in valid_q_dicts:
             label_lower = (q_dict["label"] or "").lower()
             qtype_upper = (q_dict["qtype"] or "").upper()
 
@@ -966,6 +1122,7 @@ def parse_pdf_to_paper(
                 Question(
                     id=idx,
                     number=idx,
+                    original_number=q_dict.get("number"),
                     text=body_text,
                     type=final_type,
                     options=opts,

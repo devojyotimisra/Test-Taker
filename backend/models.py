@@ -5,6 +5,7 @@ from pydantic import BaseModel
 class Question(BaseModel):
     id: int
     number: int
+    original_number: Optional[int] = None
     text: str
     type: str
     options: Optional[List[str]] = None

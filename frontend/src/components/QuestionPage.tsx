@@ -163,6 +163,9 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                 </div>
                 <div className="text-[10px] sm:text-[11px] text-muted-foreground mt-0.5">
                   Question {currentIndex + 1} of {questions.length}
+                  {currentQ?.original_number && currentQ.original_number !== (currentIndex + 1) && (
+                    <span className="ml-1 opacity-80 font-mono">(PDF Q{currentQ.original_number})</span>
+                  )}
                 </div>
               </div>
             </div>
@@ -197,6 +200,11 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                     <Badge variant="default" className="text-xs px-2.5 py-0.5">
                       Question {currentIndex + 1}
                     </Badge>
+                    {currentQ.original_number && currentQ.original_number !== (currentIndex + 1) && (
+                      <Badge variant="secondary" className="text-xs font-mono bg-muted/80 text-muted-foreground border-border">
+                        PDF Q{currentQ.original_number}
+                      </Badge>
+                    )}
                     <Badge variant="outline" className="text-xs">
                       {currentQ.type === "MCQ" && "Multiple Choice"}
                       {currentQ.type === "multichoice" &&
@@ -524,12 +532,17 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                             <button
                               key={q.id}
                               onClick={() => setCurrentIndex(idx)}
-                              className={`flex-1 h-11 lg:h-full min-w-0 rounded-xl font-mono text-sm font-bold border transition-colors duration-150 cursor-pointer flex items-center justify-center relative shrink-0 lg:shrink ${btnStyle}`}
+                              className={`flex-1 h-11 lg:h-full min-w-0 rounded-xl font-mono text-sm font-bold border transition-colors duration-150 cursor-pointer flex flex-col items-center justify-center relative shrink-0 lg:shrink py-1 ${btnStyle}`}
                             >
-                              <span>{idx + 1}</span>
+                              <span className="leading-tight">{idx + 1}</span>
+                              {q.original_number && q.original_number !== (idx + 1) && (
+                                <span className="text-[9px] font-normal opacity-70 leading-tight">
+                                  Q{q.original_number}
+                                </span>
+                              )}
                               {isAnswered && !isChecked && (
                                 <span
-                                  className={`absolute bottom-2 h-1.5 w-1.5 rounded-full ${
+                                  className={`absolute bottom-1 h-1 w-1 rounded-full ${
                                     isCurrent ? "bg-white" : "bg-primary"
                                   }`}
                                 />

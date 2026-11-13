@@ -189,6 +189,19 @@ def reset_session():
     return {"status": "ok"}
 
 
+@app.post("/api/admin/save-paper")
+async def save_paper_endpoint(paper_id: int, file: UploadFile = File(...)):
+    content = await file.read()
+    if not content:
+        raise HTTPException(status_code=400, detail="Empty file")
+    dest_dir = BASE_DIR / "backend" / "temp" / "papers"
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    target_file = dest_dir / f"paper_{paper_id}.pdf"
+    with open(target_file, "wb") as f:
+        f.write(content)
+    return {"status": "saved", "paper_id": paper_id, "size": len(content)}
+
+
 @app.get("/temp/image/{filename}")
 @app.get("/api/image/{filename}")
 def serve_image(filename: str):

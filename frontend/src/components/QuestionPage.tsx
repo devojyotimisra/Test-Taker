@@ -18,6 +18,7 @@ import { Timer } from "./Timer";
 import { FormulaRenderer } from "./FormulaRenderer";
 import { ScientificCalculator } from "./ScientificCalculator";
 import { Paper, QuestionScore, UserAnswers } from "@/types";
+import { scoreQuestion } from "@/lib/scorer";
 
 const apiBase = import.meta.env.VITE_API_URL || "";
 
@@ -105,18 +106,9 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
   const handleCheckAnswer = async () => {
     if (!currentQ) return;
     const ans = answers[currentQ.id];
-    try {
-      const response = await fetch(`${apiBase}/api/check-question`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question_id: currentQ.id, answer: ans }),
-      });
-      if (response.ok) {
-        const sc: QuestionScore = await response.json();
-        setScores((prev) => ({ ...prev, [currentQ.id]: sc }));
-        setRevealedQuestions((prev) => new Set(prev).add(currentQ.id));
-      }
-    } catch {}
+    const sc = scoreQuestion(currentQ, ans);
+    setScores((prev) => ({ ...prev, [currentQ.id]: sc }));
+    setRevealedQuestions((prev) => new Set(prev).add(currentQ.id));
   };
 
   const handleNext = () => {

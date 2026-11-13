@@ -4,6 +4,7 @@ import { QuestionPage } from "./components/QuestionPage";
 import { NotFoundPage } from "./components/NotFoundPage";
 import { useToast } from "./components/ui/toast";
 import { Paper, Question, CatalogItem } from "./types";
+import { fetchJsonWithFallback, preloadPaperImages } from "./lib/assetService";
 
 const apiBase = import.meta.env.VITE_API_URL || "";
 
@@ -116,32 +117,12 @@ export function App() {
 
   const handleSelectCatalogPaper = async (item: CatalogItem) => {
     try {
-      let paperData: Paper | null = null;
-      const dataBase = (import.meta.env.VITE_DATA_BASE_URL || "/data").replace(/\/+$/, "");
-      const cleanJsonPath = item.json_url.replace(/^\/?data\//, "");
-      const targetUrl = item.json_url.startsWith("http")
-        ? item.json_url
-        : `${dataBase}/${cleanJsonPath}`;
-
-      try {
-        const directRes = await fetch(targetUrl);
-        if (directRes.ok) {
-          paperData = await directRes.json();
-        }
-      } catch {}
-
-      if (!paperData && apiBase) {
-        try {
-          const apiRes = await fetch(`${apiBase}/data/${cleanJsonPath}`);
-          if (apiRes.ok) {
-            paperData = await apiRes.json();
-          }
-        } catch {}
-      }
-
+      const paperData = await fetchJsonWithFallback<Paper>(item.json_url);
       if (!paperData) {
         throw new Error("Failed to load question paper data.");
       }
+
+      preloadPaperImages(paperData);
 
       if (apiBase) {
         try {

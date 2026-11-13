@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { ZoomIn, X } from "lucide-react";
+import { resolveImageSource } from "../lib/assetService";
 
 interface FormulaRendererProps {
   text: string;
@@ -39,22 +40,7 @@ export function FormulaRenderer({
         raw.toLowerCase().endsWith(".jpeg");
     }
 
-    let finalSrc = src;
-    if (
-      !src.startsWith("data:") &&
-      !src.startsWith("http://") &&
-      !src.startsWith("https://")
-    ) {
-      const apiBase = (import.meta.env.VITE_API_URL || "").replace(/\/+$/, "");
-      const dataBase = (import.meta.env.VITE_DATA_BASE_URL || (apiBase ? `${apiBase}/data` : "/data")).replace(/\/+$/, "");
-      if (src.startsWith("/data/") || src.startsWith("data/")) {
-        const subPath = src.replace(/^\/?data\//, "");
-        finalSrc = `${dataBase}/${subPath}`;
-      } else {
-        const filename = src.split("/").pop() || src;
-        finalSrc = `${apiBase}/temp/image/${filename}`;
-      }
-    }
+    const { primary, fallback } = resolveImageSource(src);
 
     if (isBlock) {
       parts.push(
@@ -63,15 +49,22 @@ export function FormulaRenderer({
           className="group relative block my-3 overflow-hidden rounded-xl border border-border bg-card p-2 sm:p-3 shadow-xs text-center"
         >
           <img
-            src={finalSrc}
+            src={primary}
             alt="Question Diagram"
             className="inline-block max-w-full h-auto object-contain mx-auto rounded-lg cursor-zoom-in transition-transform duration-200 hover:scale-[1.01]"
             loading="lazy"
-            onClick={() => setZoomedImage(finalSrc)}
+            onError={(e) => {
+              const target = e.currentTarget;
+              if (!target.dataset.fallbackTried && fallback && fallback !== target.src) {
+                target.dataset.fallbackTried = "true";
+                target.src = fallback;
+              }
+            }}
+            onClick={() => setZoomedImage(primary)}
           />
           <button
             type="button"
-            onClick={() => setZoomedImage(finalSrc)}
+            onClick={() => setZoomedImage(primary)}
             className="absolute top-3 right-3 p-1.5 rounded-lg bg-background/80 hover:bg-background border border-border/60 text-muted-foreground hover:text-foreground opacity-0 group-hover:opacity-100 transition-opacity shadow-xs"
             title="View original full-size image"
           >
@@ -83,11 +76,18 @@ export function FormulaRenderer({
       parts.push(
         <img
           key={`img-inline-${match.index}`}
-          src={finalSrc}
+          src={primary}
           alt="Formula"
           className="inline-block align-middle h-auto max-w-full px-1 mx-0.5 rounded bg-white/85 dark:bg-white/95"
           style={{ verticalAlign: "middle" }}
           loading="lazy"
+          onError={(e) => {
+            const target = e.currentTarget;
+            if (!target.dataset.fallbackTried && fallback && fallback !== target.src) {
+              target.dataset.fallbackTried = "true";
+              target.src = fallback;
+            }
+          }}
         />,
       );
     }

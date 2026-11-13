@@ -16,6 +16,7 @@ import { Card, CardContent } from "./ui/card";
 import { ThemeToggle } from "./ThemeToggle";
 import { useToast } from "./ui/toast";
 import { CatalogItem, CourseInfo } from "../types";
+import { fetchJsonWithFallback } from "../lib/assetService";
 
 interface LandingPageProps {
   onUpload: (file: File) => Promise<void>;
@@ -46,18 +47,15 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
 
   useEffect(() => {
     let isMounted = true;
-    const dataBase = (import.meta.env.VITE_DATA_BASE_URL || "/data").replace(/\/+$/, "");
     const loadData = async () => {
       try {
-        const catRes = await fetch(`${dataBase}/catalog.json`);
-        if (catRes.ok) {
-          const catData = await catRes.json();
-          if (isMounted) setCatalog(catData);
-        }
-        const courseRes = await fetch(`${dataBase}/courses.json`);
-        if (courseRes.ok) {
-          const courseData = await courseRes.json();
-          if (isMounted) setCourses(courseData);
+        const [catData, courseData] = await Promise.all([
+          fetchJsonWithFallback<CatalogItem[]>("catalog.json"),
+          fetchJsonWithFallback<CourseInfo[]>("courses.json"),
+        ]);
+        if (isMounted) {
+          setCatalog(catData);
+          setCourses(courseData);
         }
       } catch {
       } finally {

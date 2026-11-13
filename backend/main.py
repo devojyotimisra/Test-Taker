@@ -216,7 +216,7 @@ def serve_image(filename: str):
     )
 
 
-DATA_DIR = Path(__file__).resolve().parent / "data"
+DATA_DIR = BASE_DIR / "data"
 
 
 @app.get("/api/catalog")

@@ -19,7 +19,7 @@ import { ThemeToggle } from "./ThemeToggle";
 import { useToast } from "./ui/toast";
 import { CatalogItem, CourseInfo } from "../types";
 import { fetchJsonWithFallback } from "../lib/assetService";
-import { generateAndPrintLatexPdf } from "../lib/latexPdfGenerator";
+import { downloadLatexPdf } from "../lib/latexPdfGenerator";
 
 interface LandingPageProps {
   onUpload: (file: File) => Promise<void>;
@@ -294,6 +294,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
 
   const [loadingPaperId, setLoadingPaperId] = useState<string | null>(null);
   const [downloadingPaperId, setDownloadingPaperId] = useState<string | null>(null);
+  const isBusy = Boolean(uploading || loadingPaperId || downloadingPaperId);
   const isFirstRender = useRef(true);
 
   useEffect(() => {
@@ -320,6 +321,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
   }, []);
 
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (isBusy) return;
     const file = e.target.files?.[0];
     if (!file) return;
     if (!file.name.toLowerCase().endsWith(".pdf")) {
@@ -343,6 +345,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
   const handleDrop = async (e: React.DragEvent) => {
     e.preventDefault();
     setDragOver(false);
+    if (isBusy) return;
     const file = e.dataTransfer.files?.[0];
     if (!file) return;
     if (!file.name.toLowerCase().endsWith(".pdf")) {
@@ -362,7 +365,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
   };
 
   const handleSelectPaperClick = async (item: CatalogItem) => {
-    if (!onSelectPaper || loadingPaperId) return;
+    if (!onSelectPaper || isBusy) return;
     setLoadingPaperId(item.id);
     try {
       await onSelectPaper(item);
@@ -372,27 +375,27 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
   };
 
   const handleDownloadPaperPdf = async (item: CatalogItem) => {
-    if (downloadingPaperId) return;
+    if (isBusy) return;
     setDownloadingPaperId(item.id);
     toast({
       type: "info",
-      title: "Generating LaTeX PDF",
-      description: `Preparing "${item.course_code} - ${item.exam_type}" with formulas & diagrams...`,
+      title: "Downloading LaTeX PDF",
+      description: `Building PDF with verified answers for "${item.course_code} - ${item.exam_type}"...`,
       duration: 3500,
     });
 
     try {
-      await generateAndPrintLatexPdf(item);
+      await downloadLatexPdf(item);
       toast({
         type: "success",
-        title: "PDF Ready",
-        description: "Choose 'Save as PDF' in your browser print preview to download.",
+        title: "Download Complete",
+        description: `Saved "${item.course_code}_${item.year}_${item.exam_type}_Solutions.pdf" to your downloads.`,
         duration: 5000,
       });
     } catch (err: any) {
       toast({
         type: "error",
-        title: "PDF Generation Failed",
+        title: "PDF Download Failed",
         description: err.message || "An error occurred while compiling the PDF.",
         duration: 6000,
       });
@@ -535,12 +538,13 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
             <div className="flex items-center bg-muted/60 p-1 rounded-xl border border-border/60">
               <button
                 type="button"
-                onClick={() => setActiveTab("library")}
+                disabled={isBusy}
+                onClick={() => !isBusy && setActiveTab("library")}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                   activeTab === "library"
                     ? "bg-background text-foreground shadow-xs"
                     : "text-muted-foreground hover:text-foreground"
-                }`}
+                } ${isBusy ? "opacity-50 cursor-not-allowed" : "cursor-pointer"}`}
               >
                 <BookOpen className="h-3.5 w-3.5" />
                 <span>Question Papers</span>
@@ -550,12 +554,13 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
               </button>
               <button
                 type="button"
-                onClick={() => setActiveTab("upload")}
+                disabled={isBusy}
+                onClick={() => !isBusy && setActiveTab("upload")}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                   activeTab === "upload"
                     ? "bg-background text-foreground shadow-xs"
                     : "text-muted-foreground hover:text-foreground"
-                }`}
+                } ${isBusy ? "opacity-50 cursor-not-allowed" : "cursor-pointer"}`}
               >
                 <Upload className="h-3.5 w-3.5" />
                 <span>Upload PDF</span>
@@ -749,8 +754,8 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                               <button
                                 type="button"
                                 onClick={() => handleDownloadPaperPdf(item)}
-                                disabled={isDownloadingThis}
-                                className="h-8 px-2.5 rounded-lg border border-border bg-background hover:bg-muted text-foreground text-xs font-medium shadow-2xs hover:border-primary/50 transition-all flex items-center gap-1 cursor-pointer disabled:opacity-50"
+                                disabled={isBusy}
+                                className="h-8 px-2.5 rounded-lg border border-border bg-background hover:bg-muted text-foreground text-xs font-medium shadow-2xs hover:border-primary/50 transition-all flex items-center gap-1 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                                 title="Download LaTeX Typeset PDF"
                               >
                                 {isDownloadingThis ? (
@@ -764,8 +769,8 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                               <button
                                 type="button"
                                 onClick={() => handleSelectPaperClick(item)}
-                                disabled={isLoadingThis}
-                                className="h-8 px-3 rounded-lg bg-primary text-primary-foreground text-xs font-semibold shadow-xs hover:opacity-90 transition-opacity flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+                                disabled={isBusy}
+                                className="h-8 px-3 rounded-lg bg-primary text-primary-foreground text-xs font-semibold shadow-xs hover:opacity-90 transition-opacity flex items-center gap-1.5 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                               >
                                 {isLoadingThis ? (
                                   <div className="h-3 w-3 rounded-full border-2 border-primary-foreground border-t-transparent animate-spin" />
@@ -834,17 +839,25 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
               <Card
                 onDragOver={(e) => {
                   e.preventDefault();
-                  setDragOver(true);
+                  if (!isBusy) setDragOver(true);
                 }}
                 onDragLeave={() => setDragOver(false)}
-                onDrop={handleDrop}
+                onDrop={(e) => {
+                  e.preventDefault();
+                  setDragOver(false);
+                  if (!isBusy) handleDrop(e);
+                }}
                 className={`border-2 border-dashed transition-all shadow-md ${
-                  dragOver ? "border-primary bg-primary/5 scale-[1.01]" : "border-border bg-card"
+                  dragOver && !isBusy ? "border-primary bg-primary/5 scale-[1.01]" : "border-border bg-card"
                 }`}
               >
                 <CardContent className="p-8 sm:p-12 text-center space-y-4">
                   <div className="h-14 w-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mx-auto shadow-xs">
-                    <Upload className="h-7 w-7" />
+                    {uploading ? (
+                      <div className="h-7 w-7 rounded-full border-2 border-primary border-t-transparent animate-spin" />
+                    ) : (
+                      <Upload className="h-7 w-7" />
+                    )}
                   </div>
 
                   <div className="space-y-1">
@@ -852,22 +865,28 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                       {uploading ? "Analyzing & Parsing PDF..." : "Upload Assessment PDF"}
                     </h3>
                     <p className="text-xs text-muted-foreground max-w-sm mx-auto">
-                      Drag and drop any question paper PDF here, or select from your computer to load questions and diagrams.
+                      {uploading
+                        ? "Please wait while questions and diagrams are being extracted..."
+                        : "Drag and drop any question paper PDF here, or select from your computer to load questions and diagrams."}
                     </p>
                   </div>
 
                   <div className="pt-2">
-                    <label className="cursor-pointer inline-block">
+                    <label className={`inline-block ${isBusy ? "cursor-not-allowed opacity-60" : "cursor-pointer"}`}>
                       <input
                         type="file"
                         accept=".pdf"
                         onChange={handleFileChange}
                         className="hidden"
-                        disabled={uploading}
+                        disabled={isBusy}
                       />
-                      <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-primary-foreground font-medium text-sm shadow-xs hover:opacity-90 transition-opacity">
-                        <FileText className="h-4 w-4" />
-                        <span>{uploading ? "Uploading..." : "Select PDF File"}</span>
+                      <span className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-primary-foreground font-medium text-sm shadow-xs transition-opacity ${isBusy ? "pointer-events-none opacity-60" : "hover:opacity-90"}`}>
+                        {uploading ? (
+                          <div className="h-4 w-4 rounded-full border-2 border-primary-foreground border-t-transparent animate-spin" />
+                        ) : (
+                          <FileText className="h-4 w-4" />
+                        )}
+                        <span>{uploading ? "Analyzing & Parsing PDF..." : "Select PDF File"}</span>
                       </span>
                     </label>
                   </div>

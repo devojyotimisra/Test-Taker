@@ -20,6 +20,9 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",
     "clsx": "^2.1.1",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.14.0",
+    "jspdf": "^4.2.1",
     "lucide-react": "^1.72.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",

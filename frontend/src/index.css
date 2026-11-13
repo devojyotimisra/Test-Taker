@@ -181,7 +181,6 @@
     @apply bg-background text-foreground font-sans;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    overflow-x: hidden;
   }
 
   body::-webkit-scrollbar {

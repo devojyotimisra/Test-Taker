@@ -1,12 +1,11 @@
 import mimetypes
 import os
 from pathlib import Path
-from typing import Optional
 from fastapi import FastAPI, File, HTTPException, Request, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from starlette.exceptions import HTTPException as StarletteHTTPException
-from app.parser import Paper, parse_pdf_to_paper
+from app.parser import parse_pdf_to_paper
 
 app = FastAPI(title="Assessment API")
 
@@ -56,22 +55,6 @@ except Exception:
     except Exception:
         pass
 
-current_paper: Optional[Paper] = None
-
-
-def get_active_paper() -> Optional[Paper]:
-    global current_paper
-    if current_paper is not None:
-        return current_paper
-    cache_path = UPLOAD_DIR / "current_paper.json"
-    if cache_path.is_file():
-        try:
-            with open(cache_path, "r", encoding="utf-8") as f:
-                current_paper = Paper.model_validate_json(f.read())
-        except Exception:
-            pass
-    return current_paper
-
 
 @app.get("/")
 @app.get("/api")
@@ -84,36 +67,8 @@ def health_check():
     }
 
 
-@app.get("/api/paper")
-def get_paper_info():
-    paper = get_active_paper()
-    if paper is None:
-        return {"paper": None}
-    return {
-        "paper": {
-            "title": paper.title,
-            "filename": paper.filename,
-            "total_questions": paper.total_questions,
-            "total_marks": paper.total_marks,
-        }
-    }
-
-
-@app.get("/api/questions")
-def get_questions_list():
-    paper = get_active_paper()
-    if paper is None:
-        return []
-    result = []
-    for q in paper.questions:
-        item = q.model_dump()
-        result.append(item)
-    return result
-
-
 @app.post("/api/upload-pdf")
 async def upload_pdf_file(file: UploadFile = File(...)):
-    global current_paper
     if not file.filename.lower().endswith(".pdf"):
         raise HTTPException(status_code=400, detail="Only PDF files are supported")
 
@@ -141,36 +96,7 @@ async def upload_pdf_file(file: UploadFile = File(...)):
             detail="No questions could be extracted from this PDF. Please ensure it contains structured question numbers.",
         )
 
-    current_paper = paper
-
-    cache_path = UPLOAD_DIR / "current_paper.json"
-    try:
-        with open(cache_path, "w", encoding="utf-8") as f:
-            f.write(paper.model_dump_json())
-    except Exception:
-        pass
-
-    return {
-        "paper": {
-            "title": paper.title,
-            "filename": paper.filename,
-            "total_questions": paper.total_questions,
-            "total_marks": paper.total_marks,
-        }
-    }
-
-
-@app.post("/api/reset")
-def reset_session():
-    global current_paper
-    current_paper = None
-    cache_path = UPLOAD_DIR / "current_paper.json"
-    if cache_path.is_file():
-        try:
-            cache_path.unlink(missing_ok=True)
-        except Exception:
-            pass
-    return {"status": "ok"}
+    return {"paper": paper.model_dump()}
 
 
 @app.get("/temp/image/{filename}")

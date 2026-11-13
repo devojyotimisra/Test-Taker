@@ -60,30 +60,7 @@ export function App() {
       }
 
       const data = await res.json();
-      if (!data.paper) {
-        toast({
-          type: "error",
-          title: "PDF Parsing Failed",
-          description: "Server could not generate question paper details.",
-          duration: 6000,
-        });
-        return;
-      }
-
-      const qRes = await fetch(`${apiBase}/api/questions`);
-      if (!qRes.ok) {
-        toast({
-          type: "error",
-          title: "Questions Not Found",
-          description:
-            "Failed to retrieve the parsed questions from the server.",
-          duration: 6000,
-        });
-        return;
-      }
-
-      const qList: Question[] = await qRes.json();
-      if (!qList || qList.length === 0) {
+      if (!data.paper || !data.paper.questions || data.paper.questions.length === 0) {
         toast({
           type: "error",
           title: "No Questions Extracted",
@@ -93,13 +70,12 @@ export function App() {
         return;
       }
 
-      data.paper.questions = qList;
       setPaper(data.paper);
       setCurrentPage("test");
       toast({
         type: "success",
         title: "Paper Loaded Successfully",
-        description: `Loaded "${data.paper.title || file.name}" with ${qList.length} questions.`,
+        description: `Loaded "${data.paper.title || file.name}" with ${data.paper.questions.length} questions.`,
         duration: 4000,
       });
     } catch (err: any) {
@@ -124,13 +100,6 @@ export function App() {
 
       preloadPaperImages(paperData);
 
-      if (apiBase) {
-        try {
-          const paperId = item.json_file.replace(".json", "");
-          await fetch(`${apiBase}/api/select-paper/${paperId}`, { method: "POST" });
-        } catch {}
-      }
-
       setPaper(paperData);
       setCurrentPage("test");
       toast({
@@ -149,10 +118,7 @@ export function App() {
     }
   };
 
-  const handleBack = async () => {
-    try {
-      await fetch(`${apiBase}/api/reset`, { method: "POST" });
-    } catch {}
+  const handleBack = () => {
     setPaper(null);
     setCurrentPage("landing");
   };

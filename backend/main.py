@@ -1,11 +1,14 @@
+import json
 import mimetypes
 import os
+import re
 from pathlib import Path
 from fastapi import FastAPI, File, HTTPException, Request, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, Response
 from starlette.exceptions import HTTPException as StarletteHTTPException
 from app.parser import parse_pdf_to_paper
+from app.latex_compiler import compile_paper_to_pdf, generate_latex_source
 
 app = FastAPI(title="Assessment API")
 
@@ -110,6 +113,103 @@ def serve_image(filename: str):
         file_path,
         media_type=media_type or "image/png",
         headers={"Cache-Control": "public, max-age=31536000"}
+    )
+
+
+DATA_PAPERS_DIR = BASE_DIR / "data" / "papers"
+CATALOG_PATH = BASE_DIR / "data" / "catalog.json"
+
+
+def get_catalog_map() -> dict:
+    if CATALOG_PATH.is_file():
+        try:
+            with open(CATALOG_PATH, "r", encoding="utf-8") as f:
+                items = json.load(f)
+                return {item.get("id"): item for item in items if isinstance(item, dict)}
+        except Exception:
+            return {}
+    return {}
+
+
+@app.get("/api/papers/{paper_id}/pdf")
+def get_paper_pdf(paper_id: str):
+    clean_id = paper_id.replace(".json", "")
+    target = DATA_PAPERS_DIR / f"{clean_id}.json"
+    if not target.is_file():
+        raise HTTPException(status_code=404, detail="Paper not found")
+
+    with open(target, "r", encoding="utf-8") as f:
+        paper_data = json.load(f)
+
+    catalog_map = get_catalog_map()
+    catalog_item = catalog_map.get(clean_id) or {
+        "course_code": clean_id.split("_")[0].upper() if "_" in clean_id else "IITM",
+        "exam_type": "Term Exam",
+        "year": "2025",
+        "term": "",
+    }
+
+    try:
+        pdf_bytes = compile_paper_to_pdf(paper_data, catalog_item)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"LaTeX compilation failed: {str(e)}")
+
+    out_name = f"{catalog_item.get('course_code', 'Paper')}_{catalog_item.get('year', '')}_{catalog_item.get('exam_type', 'Exam')}_Solutions.pdf"
+    clean_name = re.sub(r"[^a-zA-Z0-9_\-\.]", "_", out_name)
+
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={
+            "Content-Disposition": f'attachment; filename="{clean_name}"',
+            "Cache-Control": "public, max-age=86400",
+        },
+    )
+
+
+@app.get("/api/papers/{paper_id}/tex")
+def get_paper_tex(paper_id: str):
+    clean_id = paper_id.replace(".json", "")
+    target = DATA_PAPERS_DIR / f"{clean_id}.json"
+    if not target.is_file():
+        raise HTTPException(status_code=404, detail="Paper not found")
+
+    with open(target, "r", encoding="utf-8") as f:
+        paper_data = json.load(f)
+
+    catalog_map = get_catalog_map()
+    catalog_item = catalog_map.get(clean_id) or {}
+    tex_code = generate_latex_source(paper_data, catalog_item)
+
+    out_name = f"{clean_id}_Solutions.tex"
+    return Response(
+        content=tex_code,
+        media_type="text/plain; charset=utf-8",
+        headers={
+            "Content-Disposition": f'attachment; filename="{out_name}"',
+        },
+    )
+
+
+@app.post("/api/compile-latex-pdf")
+async def compile_custom_latex(request: Request):
+    payload = await request.json()
+    paper_data = payload.get("paper")
+    if not paper_data or not isinstance(paper_data, dict):
+        raise HTTPException(status_code=400, detail="Missing or invalid paper data")
+    catalog_item = payload.get("catalog_item") or {}
+
+    try:
+        pdf_bytes = compile_paper_to_pdf(paper_data, catalog_item)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"LaTeX compilation failed: {str(e)}")
+
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={
+            "Content-Disposition": 'attachment; filename="Examination_Paper_Solutions.pdf"',
+        },
     )
 
 

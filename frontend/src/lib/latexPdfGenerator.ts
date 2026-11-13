@@ -484,10 +484,55 @@ function buildLatexHtml(paper: Paper, item: CatalogItem): string {
   `;
 }
 
+export async function downloadLatexSource(item: CatalogItem): Promise<void> {
+  const apiBase = import.meta.env.VITE_API_URL || "";
+  const rawName = `${item.course_code}_${item.year}_${item.exam_type}_Solutions`;
+  const cleanFilename = rawName.replace(/[^a-zA-Z0-9_-]/g, "_").replace(/_+/g, "_");
+
+  const res = await fetch(`${apiBase}/api/papers/${encodeURIComponent(item.id)}/tex`);
+  if (!res.ok) {
+    throw new Error("Unable to fetch LaTeX source from backend.");
+  }
+  const text = await res.text();
+  const blob = new Blob([text], { type: "text/x-tex;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${cleanFilename}.tex`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
 export async function downloadLatexPdf(
   item: CatalogItem,
   onProgress?: (status: string) => void
 ): Promise<void> {
+  const rawName = `${item.course_code}_${item.year}_${item.exam_type}_Solutions`;
+  const cleanFilename = rawName.replace(/[^a-zA-Z0-9_-]/g, "_").replace(/_+/g, "_");
+
+  onProgress?.("Compiling authentic LaTeX PDF...");
+  const apiBase = import.meta.env.VITE_API_URL || "";
+  try {
+    const res = await fetch(`${apiBase}/api/papers/${encodeURIComponent(item.id)}/pdf`);
+    if (res.ok) {
+      const blob = await res.blob();
+      if (blob && blob.size > 1000) {
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `${cleanFilename}.pdf`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        return;
+      }
+    }
+  } catch {
+  }
+
   onProgress?.("Fetching exam paper...");
   const paper = await fetchJsonWithFallback<Paper>(item.json_url);
   if (!paper || !paper.questions || paper.questions.length === 0) {
@@ -534,8 +579,6 @@ export async function downloadLatexPdf(
   await new Promise((r) => setTimeout(r, 200));
 
   onProgress?.("Generating and downloading PDF...");
-  const rawName = `${item.course_code}_${item.year}_${item.exam_type}_Solutions`;
-  const cleanFilename = rawName.replace(/[^a-zA-Z0-9_-]/g, "_").replace(/_+/g, "_");
 
   const opt = {
     margin: [10, 10, 10, 10] as [number, number, number, number],

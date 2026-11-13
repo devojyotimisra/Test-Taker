@@ -12,12 +12,14 @@ import {
   Check,
   X,
   Sparkles,
+  Download,
 } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 import { ThemeToggle } from "./ThemeToggle";
 import { useToast } from "./ui/toast";
 import { CatalogItem, CourseInfo } from "../types";
 import { fetchJsonWithFallback } from "../lib/assetService";
+import { generateAndPrintLatexPdf } from "../lib/latexPdfGenerator";
 
 interface LandingPageProps {
   onUpload: (file: File) => Promise<void>;
@@ -291,6 +293,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
   const pageSize = 24;
 
   const [loadingPaperId, setLoadingPaperId] = useState<string | null>(null);
+  const [downloadingPaperId, setDownloadingPaperId] = useState<string | null>(null);
   const isFirstRender = useRef(true);
 
   useEffect(() => {
@@ -365,6 +368,36 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
       await onSelectPaper(item);
     } finally {
       setLoadingPaperId(null);
+    }
+  };
+
+  const handleDownloadPaperPdf = async (item: CatalogItem) => {
+    if (downloadingPaperId) return;
+    setDownloadingPaperId(item.id);
+    toast({
+      type: "info",
+      title: "Generating LaTeX PDF",
+      description: `Preparing "${item.course_code} - ${item.exam_type}" with formulas & diagrams...`,
+      duration: 3500,
+    });
+
+    try {
+      await generateAndPrintLatexPdf(item);
+      toast({
+        type: "success",
+        title: "PDF Ready",
+        description: "Choose 'Save as PDF' in your browser print preview to download.",
+        duration: 5000,
+      });
+    } catch (err: any) {
+      toast({
+        type: "error",
+        title: "PDF Generation Failed",
+        description: err.message || "An error occurred while compiling the PDF.",
+        duration: 6000,
+      });
+    } finally {
+      setDownloadingPaperId(null);
     }
   };
 
@@ -659,6 +692,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5">
                   {paginatedPapers.map((item) => {
                     const isLoadingThis = loadingPaperId === item.id;
+                    const isDownloadingThis = downloadingPaperId === item.id;
                     return (
                       <Card
                         key={item.id}
@@ -711,19 +745,36 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                               ) : null}
                             </div>
 
-                            <button
-                              type="button"
-                              onClick={() => handleSelectPaperClick(item)}
-                              disabled={isLoadingThis}
-                              className="px-3 py-1.5 rounded-lg bg-primary text-primary-foreground text-xs font-semibold shadow-xs hover:opacity-90 transition-opacity flex items-center gap-1.5"
-                            >
-                              {isLoadingThis ? (
-                                <div className="h-3 w-3 rounded-full border-2 border-primary-foreground border-t-transparent animate-spin" />
-                              ) : (
-                                <Sparkles className="h-3 w-3" />
-                              )}
-                              <span>{isLoadingThis ? "Loading..." : "Start Test"}</span>
-                            </button>
+                            <div className="flex items-center gap-1.5">
+                              <button
+                                type="button"
+                                onClick={() => handleDownloadPaperPdf(item)}
+                                disabled={isDownloadingThis}
+                                className="h-8 px-2.5 rounded-lg border border-border bg-background hover:bg-muted text-foreground text-xs font-medium shadow-2xs hover:border-primary/50 transition-all flex items-center gap-1 cursor-pointer disabled:opacity-50"
+                                title="Download LaTeX Typeset PDF"
+                              >
+                                {isDownloadingThis ? (
+                                  <div className="h-3 w-3 rounded-full border-2 border-primary border-t-transparent animate-spin" />
+                                ) : (
+                                  <Download className="h-3.5 w-3.5 text-muted-foreground" />
+                                )}
+                                <span className="hidden sm:inline">{isDownloadingThis ? "PDF..." : "PDF"}</span>
+                              </button>
+
+                              <button
+                                type="button"
+                                onClick={() => handleSelectPaperClick(item)}
+                                disabled={isLoadingThis}
+                                className="h-8 px-3 rounded-lg bg-primary text-primary-foreground text-xs font-semibold shadow-xs hover:opacity-90 transition-opacity flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+                              >
+                                {isLoadingThis ? (
+                                  <div className="h-3 w-3 rounded-full border-2 border-primary-foreground border-t-transparent animate-spin" />
+                                ) : (
+                                  <Sparkles className="h-3 w-3" />
+                                )}
+                                <span>{isLoadingThis ? "Loading..." : "Start Test"}</span>
+                              </button>
+                            </div>
                           </div>
                         </CardContent>
                       </Card>

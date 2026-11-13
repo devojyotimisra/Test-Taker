@@ -1,0 +1,116 @@
+{
+  "title": "DEGREE LEVEL : PRIVACY & SECURITY IN ONLINE SOCIAL MEDIA (PEN AND PAPER EXAM)",
+  "filename": "cs4003_2023T1_ET_FN.pdf",
+  "total_questions": 5,
+  "total_marks": 5.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 124,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : PRIVACY & SECURITY IN ONLINE SOCIAL MEDIA (PEN AND PAPER EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PSM"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 125,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [5 *1 mark = 5 marks] 1. What is the importance of doing a pilot study? 2. In 2016, Twitter\u2019s sampling technique had an inherent bias. What bias is this? 3. How is TF-IDF different from Bag of words? 4. Pick any one platform (Twitter, Reddit, Facebook etc.) and give an example to demonstrate the phenomenon of homophily in social media. 5. LIWC is used for analyzing text, why is it handy to use LIWC?",
+      "type": "MCQ",
+      "options": [
+        "I have written answers on the answer sheets",
+        "Not applicable"
+      ],
+      "correct_answer": "I have written answers on the answer sheets",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PSM"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 126,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [11 * 2 marks = 22 marks] 6. What are the 2 big user behaviour because of which social media is the way it is in our lives? Give one example for each. 7. You run a company, and data breach occurred in your company. What steps will you take according to FTC / OECD guidelines? 8. Mention the ethical concerns in the Emotional Contagion and OkCupid experiments. 9. What is context collapse? Give one example scenario in which context collapse happens on social media. 10. Explain with an example how field trials can be useful to build technologies that can help users\u2019 privacy on social media? 11. Draw two examples from real world showing how information revelation happens on online social networks. 12. While discussing the linguistic characterization of divisive discussions, we looked at the following figure. a. Could you explain why performance of BERT remains constant while performance of TF-IDF improves as more comments are added? [1M] b. Across the three topics, performance for \u201cclimate change\u201d topic is better than other topics. What could be the cause of this? [1M] [IMAGE: /data/images/cs4003_2023T1_ET_FN_p3_Im1.webp|block] 13. Explain the difference between contextual word embeddings and static word embeddings, and mention pros and cons for the two categories. 14. What is variance? Explain variance with data, including why it is important to report variance when data is reported. 15. You are asked by a Law enforcement agency to build a tool to identify cyber bullying posts on social media. What are some of the technical challenges you will highlight to them because of which it is very hard to identify cyber bullying posts. 16. You have designed a fake news detection system where you partnered with professional fact- checkers to put warning labels on articles that were found to be false. What could be a potential drawback of such warning labels on news stories?",
+      "type": "MCQ",
+      "options": [
+        "I have written answers on the answer sheets",
+        "Not applicable"
+      ],
+      "correct_answer": "I have written answers on the answer sheets",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4003_2023T1_ET_FN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PSM"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 127,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [4 * 4 marks = 16 marks] 17. What is the importance of having privacy laws in social media? Elaborate any two-finance sector-specific privacy laws? 18. Consider the below table: [IMAGE: /data/images/cs4003_2023T1_ET_FN_p4_Im1.webp|block] a. How would you make this dataset anonymous? b. Provide an anonymized table using any of the anonymization techniques you learned during the PSOSM course? c. What can be the potential attacks on your anonymized dataset? 19. Consider the graph below and compute the betweenness centrality of node 4. Show complete working in the solution. [IMAGE: /data/images/cs4003_2023T1_ET_FN_p4_Im2.webp|block] 20. Briefly describe the 3R approach to building ethics into the design of experiments. How can the 3R approach be used to modify the Emotional Contagion experiment and make it less intrusive and more ethically sound?",
+      "type": "MCQ",
+      "options": [
+        "I have written answers on the answer sheets",
+        "Not applicable"
+      ],
+      "correct_answer": "I have written answers on the answer sheets",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4003_2023T1_ET_FN_p4_Im1.webp",
+        "/data/images/cs4003_2023T1_ET_FN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PSM"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 128,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [7 marks] 21. Write a code to connect with Twitter\u2019s streaming API. The stream should track tweets which mention the word \u201cGlobal Warming\u201d. On every hit dump the tweet object as a Json file and disconnect the stream when 1,000 tweets are collected.",
+      "type": "MCQ",
+      "options": [
+        "I have written answers on the answer sheets",
+        "Not applicable"
+      ],
+      "correct_answer": "I have written answers on the answer sheets",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PSM"
+    }
+  ],
+  "id": "cs4003-2023t1-et-fn",
+  "course_code": "CS4003",
+  "course_name": "Reinforcement Learning",
+  "level": "Degree",
+  "term": "Jan 2023",
+  "year": 2023,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

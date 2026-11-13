@@ -1,0 +1,581 @@
+{
+  "title": "DEGREE LEVEL : MATHEMATICAL FOUNDATIONS OF GENERATIVE AI (COMPUTER BASED EXAM)",
+  "filename": "da5002_2026T2_Q1_NA.pdf",
+  "total_questions": 20,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : MATHEMATICAL FOUNDATIONS OF GENERATIVE AI (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Let [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im3.webp|inline] be a convex, left semi-continuous function with [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im4.webp|inline] , and let [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im5.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im6.webp|inline] be two probability distributions with densities defined on the same support [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im7.webp|inline] . The [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im8.webp|inline] -divergence is defined as: [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im9.webp|block] Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im10.webp|inline] is always symmetric, i.e. [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im11.webp|inline] .",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im12.webp|inline] if and only if [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im13.webp|inline] .",
+        "The KL-divergence [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im14.webp|inline] is obtained by setting [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im15.webp|inline] .",
+        "The KL-divergence [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im16.webp|inline] is obtained by setting [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im17.webp|inline] ."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im12.webp|inline] if and only if [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im13.webp|inline] .",
+        "The KL-divergence [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im14.webp|inline] is obtained by setting [IMAGE: /data/images/da5002_2026T2_Q1_NA_p1_Im15.webp|inline] ."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im3.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im4.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im5.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im6.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im7.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im8.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im9.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im10.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im11.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im12.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im13.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im14.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im15.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im16.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p1_Im17.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Each of the following [IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im1.webp|inline] -divergences is obtained by a specific choice of generator [IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im2.webp|inline] . Which pairing of generator and divergence is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im4.webp|inline] gives the Total Variation distance.",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im5.webp|inline] gives the KL-divergence.",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im7.webp|inline] gives the (forward) KL-divergence.",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im8.webp|inline] gives the Jensen--Shannon divergence.",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im9.webp|inline] gives Total Variation distance."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im7.webp|inline] gives the (forward) KL-divergence.",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im9.webp|inline] gives Total Variation distance."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p2_Im1.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p2_Im2.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p2_Im4.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p2_Im5.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p2_Im7.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p2_Im8.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p2_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Assume GAN training has converged to the global optimum, i.e., [IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im10.webp|inline] . Which of the following statements is correct? Select all that apply.",
+      "type": "multichoice",
+      "options": [
+        "The generator's loss is exactly zero.",
+        "The discriminator outputs [IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im11.webp|inline] everywhere, but the generator's loss is not zero.",
+        "At convergence the discriminator outputs [IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im12.webp|inline] on real samples and [IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im13.webp|inline] on generated samples.",
+        "At optima, [IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im14.webp|inline] ."
+      ],
+      "correct_answer": [
+        "The discriminator outputs [IMAGE: /data/images/da5002_2026T2_Q1_NA_p2_Im11.webp|inline] everywhere, but the generator's loss is not zero."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p2_Im10.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p2_Im11.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p2_Im12.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p2_Im13.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p2_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Which among the following functions can be used as [IMAGE: /data/images/da5002_2026T2_Q1_NA_p3_Im1.webp|inline] -divergence generators? Select all that apply.",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p3_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p3_Im7.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p3_Im1.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p3_Im3.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p3_Im4.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p3_Im6.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Which of the following statements about the generator and discriminator in a Generative Adversarial Network (GAN) are correct?",
+      "type": "multichoice",
+      "options": [
+        "The discriminator is a binary classifier trained on a mix of real samples and generated samples.",
+        "If the discriminator becomes too strong too quickly at telling real data apart from the generator's fakes, the generator's gradients vanish and it stops learning.",
+        "The generator's goal is to maximize the discriminator's classification accuracy.",
+        "The discriminator minimizes the difference between real and generated data distributions."
+      ],
+      "correct_answer": [
+        "The discriminator is a binary classifier trained on a mix of real samples and generated samples.",
+        "If the discriminator becomes too strong too quickly at telling real data apart from the generator's fakes, the generator's gradients vanish and it stops learning."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "In a conditional GAN, both the generator [IMAGE: /data/images/da5002_2026T2_Q1_NA_p3_Im8.webp|inline] and discriminator [IMAGE: /data/images/da5002_2026T2_Q1_NA_p3_Im9.webp|inline] receive the conditioning variable [IMAGE: /data/images/da5002_2026T2_Q1_NA_p3_Im10.webp|inline] as additional input. Which of the following are correct statements about cGANs?",
+      "type": "multichoice",
+      "options": [
+        "At inference time, sampling [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im2.webp|inline] for a fixed [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im3.webp|inline] and varying [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im4.webp|inline] produces diverse samples all belonging to class [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im5.webp|inline] .",
+        "The cGAN objective is identical to the unconditional GAN objective when [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im6.webp|inline] is taken to be a constant for all samples.",
+        "A cGAN can only be trained if [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im8.webp|inline] is a discrete (categorical) label; continuous conditioning variables are not possible within this framework.",
+        "If the discriminator ignores [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im9.webp|inline] entirely, the generator may learn to ignore [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im10.webp|inline] too, producing samples that are realistic but not class-consistent."
+      ],
+      "correct_answer": [
+        "At inference time, sampling [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im2.webp|inline] for a fixed [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im3.webp|inline] and varying [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im4.webp|inline] produces diverse samples all belonging to class [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im5.webp|inline] .",
+        "The cGAN objective is identical to the unconditional GAN objective when [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im6.webp|inline] is taken to be a constant for all samples.",
+        "If the discriminator ignores [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im9.webp|inline] entirely, the generator may learn to ignore [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im10.webp|inline] too, producing samples that are realistic but not class-consistent."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p3_Im8.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p3_Im9.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p3_Im10.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im2.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im3.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im4.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im5.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im6.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im8.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im9.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "For a convex function [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im11.webp|inline] , the convex (Fenchel) conjugate is given by [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im12.webp|block] Which of the following is the Fenchel conjugate [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im13.webp|inline] of the total variation distance?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im14.webp|inline] for all [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im15.webp|inline] .",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im16.webp|inline] for all [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im17.webp|inline] . [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im18.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im19.webp|inline] for all [IMAGE: /data/images/da5002_2026T2_Q1_NA_p4_Im20.webp|inline] ."
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im11.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im12.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im13.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im14.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im15.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im16.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im17.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im18.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im19.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p4_Im20.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the standard GAN objective from the classifier-guided perspective: [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im1.webp|block] Suppose the generator is fixed and the discriminator is trained to perfect accuracy. The discriminator acheive the optimum at [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im2.webp|inline] for the fixed generator. What is the gradient of [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im3.webp|inline] with respect to [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im4.webp|inline] in the region where [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im5.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "A large positive gradient, pushing [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im7.webp|inline] toward [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im8.webp|inline] .",
+        "A well-defined gradient that decreases monotonically toward zero.",
+        "A zero or undefined gradient, providing no useful learning signal for the generator.",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im10.webp|inline] ."
+      ],
+      "correct_answer": "A zero or undefined gradient, providing no useful learning signal for the generator.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im1.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im2.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im3.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im4.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im5.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im7.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im8.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "In a CGAN trained on face dataset, the label [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im11.webp|inline] is a length-2 one-hot vector: Blond [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im12.webp|inline] vs. Not Blond [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im13.webp|inline] . As a controlled test, a single fixed noise vector [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im14.webp|inline] is decoded twice - once with [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im15.webp|inline] and once with [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im16.webp|inline] changing only the label. The two generated faces are nearly identical in pose, identity, and background; only the hair colour differs. What does this best demonstrate about a well-trained CGAN?",
+      "type": "MCQ",
+      "options": [
+        "The label input [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im17.webp|inline] has no real effect on the output; the result is purely due to random chance.",
+        "The CGAN has decoupled the label attribute (hair colour) from the rest: [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im18.webp|inline] governs identity/pose/background, while [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im19.webp|inline] independently governs the conditioned attribute.",
+        "The generator ignores [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im20.webp|inline] once a label is provided, relying only on [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im21.webp|inline] to generate the entire image.",
+        "One-hot label vectors must always have length exactly 2 for a CGAN to work correctly."
+      ],
+      "correct_answer": "The CGAN has decoupled the label attribute (hair colour) from the rest: [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im18.webp|inline] governs identity/pose/background, while [IMAGE: /data/images/da5002_2026T2_Q1_NA_p5_Im19.webp|inline] independently governs the conditioned attribute.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im11.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im12.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im13.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im14.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im15.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im16.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im17.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im18.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im19.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im20.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p5_Im21.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "In a conditional GAN, the discriminator's outputs on four fake \"car'' samples (label [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im2.webp|inline] ) are [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im3.webp|block] If we train the generator with the non-saturating loss [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im4.webp|inline] , how do the discriminator's outputs and the loss behave?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im5.webp|inline] and [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im6.webp|inline] increases.",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im8.webp|inline] and [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im9.webp|inline] decreases toward [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im10.webp|inline] , because the discriminator is being fooled into rating fakes as real.",
+        "Both [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im11.webp|inline] and [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im12.webp|inline] stay constant.",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im13.webp|inline] and [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im14.webp|inline] becomes negative."
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im8.webp|inline] and [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im9.webp|inline] decreases toward [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im10.webp|inline] , because the discriminator is being fooled into rating fakes as real.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im2.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im3.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im4.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im5.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im6.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im8.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im9.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im10.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im11.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im12.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im13.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "A student proposes modifying a standard GAN so that, instead of feeding random noise [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im15.webp|inline] into the generator, they occasionally feed in real images and ask the generator to reproduce them. Which of the following best describes the likely consequence of this modification?",
+      "type": "MCQ",
+      "options": [
+        "It would have no effect, since the generator treats all inputs identically.",
+        "It shifts the generator's task toward reconstructing inputs, so it no longer learns to sample novel images from the noise [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im16.webp|inline] .",
+        "It guarantees the generator will perfectly memorize the training set.",
+        "It removes the need for a discriminator entirely."
+      ],
+      "correct_answer": "It shifts the generator's task toward reconstructing inputs, so it no longer learns to sample novel images from the noise [IMAGE: /data/images/da5002_2026T2_Q1_NA_p6_Im16.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im15.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p6_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript Let [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im1.webp|inline] and [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im2.webp|inline] be two probability distributions over [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im3.webp|inline] : [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im4.webp|block] Compute [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im5.webp|inline] . Use natural logarithm to give the answer. Enter your answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.45 to 0.49",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im1.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im2.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im3.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im4.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript In a GAN, the real and generated distributions are mixtures of Dirac deltas on [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im6.webp|inline] : [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im7.webp|block] Compute the GAN value function [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im8.webp|inline] at the optimal discriminator [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im9.webp|inline] . (Use natural logarithm). Enter your answer correct to three decimal places. Use: [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im10.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im11.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im12.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q1_NA_p7_Im13.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-1.33 to -1.31",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im6.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im7.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im8.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im9.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im10.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im11.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im12.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p7_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript During the discriminator update step, the generator is held fixed and the discriminator is trained to maximize [IMAGE: /data/images/da5002_2026T2_Q1_NA_p8_Im1.webp|block] with batch size [IMAGE: /data/images/da5002_2026T2_Q1_NA_p8_Im2.webp|inline] . At one step, the discriminator outputs are: [IMAGE: /data/images/da5002_2026T2_Q1_NA_p8_Im3.webp|block] Use: [IMAGE: /data/images/da5002_2026T2_Q1_NA_p8_Im4.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q1_NA_p8_Im5.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q1_NA_p8_Im6.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q1_NA_p8_Im7.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q1_NA_p8_Im8.webp|inline] . Compute the value of [IMAGE: /data/images/da5002_2026T2_Q1_NA_p8_Im9.webp|inline] for this mini-batch. Give your answer correct to three decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.51 to -0.49",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p8_Im1.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p8_Im2.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p8_Im3.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p8_Im4.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p8_Im5.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p8_Im6.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p8_Im7.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p8_Im8.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p8_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript Consider a CGAN for Fashion-MNIST (10 classes, grayscale images of size [IMAGE: /data/images/da5002_2026T2_Q1_NA_p8_Im10.webp|inline] ). The critic receives the [IMAGE: /data/images/da5002_2026T2_Q1_NA_p8_Im11.webp|inline] image concatenated along the channel axis with 10 additional one-hot label channels (each of spatial size [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im1.webp|inline] ), giving a combined input tensor of shape [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im2.webp|inline] . The critic's first layer is a Conv2D with a [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im3.webp|inline] kernel, no bias, mapping the [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im4.webp|inline] input to a [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im5.webp|inline] output (stride 2). Compute the number of trainable parameters in this layer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11264",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p8_Im10.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p8_Im11.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im1.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im2.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im3.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im4.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript Compute the average work (total transport cost) [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im14.webp|inline] of this plan. Enter the answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im14.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im6.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im7.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im8.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im9.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im10.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im11.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im12.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider two discrete distributions over [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im6.webp|inline] : [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im7.webp|block] The ground distance is [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im8.webp|inline] . Consider a transport plan [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im9.webp|inline] , which is a [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im10.webp|inline] matrix [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im11.webp|inline] with entries [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im12.webp|inline] . [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im13.webp|block]",
+      "group_id": "6406532166226",
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "A different valid plan between the same [IMAGE: /data/images/da5002_2026T2_Q1_NA_p10_Im1.webp|inline] is given as [IMAGE: /data/images/da5002_2026T2_Q1_NA_p10_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p10_Im4.webp|inline] is the optimal plan and [IMAGE: /data/images/da5002_2026T2_Q1_NA_p10_Im5.webp|inline] is suboptimal.",
+        "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p10_Im7.webp|inline] achieves the minimum work ( [IMAGE: /data/images/da5002_2026T2_Q1_NA_p10_Im8.webp|inline] ) and is therefore optimal, while [IMAGE: /data/images/da5002_2026T2_Q1_NA_p10_Im9.webp|inline] is valid but suboptimal.",
+        "Both plans are optimal.",
+        "Neither plan is valid."
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2026T2_Q1_NA_p10_Im7.webp|inline] achieves the minimum work ( [IMAGE: /data/images/da5002_2026T2_Q1_NA_p10_Im8.webp|inline] ) and is therefore optimal, while [IMAGE: /data/images/da5002_2026T2_Q1_NA_p10_Im9.webp|inline] is valid but suboptimal.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p10_Im1.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p10_Im2.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im6.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im7.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im8.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im9.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im10.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im11.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im12.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p9_Im13.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p10_Im4.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p10_Im5.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p10_Im7.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p10_Im8.webp",
+        "/data/images/da5002_2026T2_Q1_NA_p10_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider two discrete distributions over [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im6.webp|inline] : [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im7.webp|block] The ground distance is [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im8.webp|inline] . Consider a transport plan [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im9.webp|inline] , which is a [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im10.webp|inline] matrix [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im11.webp|inline] with entries [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im12.webp|inline] . [IMAGE: /data/images/da5002_2026T2_Q1_NA_p9_Im13.webp|block]",
+      "group_id": "6406532166226",
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Inscript Compute the full FID score. Enter the answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3.25",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p10_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Inception features (assumed Gaussian) for real and generated image sets are 2-dimensional with diagonal covariance matrices: [IMAGE: /data/images/da5002_2026T2_Q1_NA_p10_Im10.webp|block]",
+      "group_id": "6406532166229",
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "What does a lower FID indicate?",
+      "type": "MCQ",
+      "options": [
+        "Worse generative quality (generated features further from real features).",
+        "Better generative quality (generated features closer to real features)."
+      ],
+      "correct_answer": "Better generative quality (generated features closer to real features).",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q1_NA_p10_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Inception features (assumed Gaussian) for real and generated image sets are 2-dimensional with diagonal covariance matrices: [IMAGE: /data/images/da5002_2026T2_Q1_NA_p10_Im10.webp|block]",
+      "group_id": "6406532166229",
+      "section_name": "Mathematical Foundations of Generative AI"
+    }
+  ],
+  "id": "da5002-2026t2-q1-na",
+  "course_code": "DA5002",
+  "course_name": "Mathematical Foundations of Generative AI",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

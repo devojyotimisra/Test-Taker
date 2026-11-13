@@ -1,0 +1,506 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "cs2008_2025T1_Q1_AN.pdf",
+  "total_questions": 21,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 146,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 147,
+      "text": "What is the primary risk of not performing a train-test split in a machine learning workflow?",
+      "type": "MCQ",
+      "options": [
+        "The training time will increase.",
+        "The model might overfit the training data and perform poorly on new data.",
+        "The dataset may become unbalanced.",
+        "The model may fail to converge."
+      ],
+      "correct_answer": "The model might overfit the training data and perform poorly on new data.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 148,
+      "text": "Why is data preprocessing necessary before using it for model building?",
+      "type": "MCQ",
+      "options": [
+        "The data may contain outliers or missing values due to errors in data collection.",
+        "Features may have different scales, affecting model performance.",
+        "The dataset may include non-numerical features that need to be converted to numerical representations.",
+        "All of these"
+      ],
+      "correct_answer": "All of these",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 149,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It specifies the tolerance level for early stopping based on the change in the validation error.",
+        "It controls the learning rate of the stochastic regressor during training.",
+        "It determines the maximum number of iterations for the training process.",
+        "It defines the fraction of the validation set used for early stopping."
+      ],
+      "correct_answer": "It specifies the tolerance level for early stopping based on the change in the validation error.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 150,
+      "text": "Suppose we want to transform features in a dataset using polynomial transformation. The sklearn API provides the functionality in which of the following modules?",
+      "type": "MCQ",
+      "options": [
+        "sklearn.dataset",
+        "sklearn.model_selection",
+        "sklearn.preprocessing",
+        "sklearn.featureSelection",
+        "sklearn.featureExtraction"
+      ],
+      "correct_answer": "sklearn.preprocessing",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 151,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1000",
+        "100",
+        "99",
+        "999"
+      ],
+      "correct_answer": "1000",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 152,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p4_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p4_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p4_Im1.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p4_Im3.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p4_Im5.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 153,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p4_Im7.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p4_Im8.webp|inline] [IMAGE: /data/images/cs2008_2025T1_Q1_AN_p4_Im9.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p5_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p5_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p4_Im8.webp|inline] [IMAGE: /data/images/cs2008_2025T1_Q1_AN_p4_Im9.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p5_Im4.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p4_Im7.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p4_Im8.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p4_Im9.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p5_Im2.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 154,
+      "text": "Which of the following Evaluation metrics can be used in a regression problem?",
+      "type": "multichoice",
+      "options": [
+        "Mean Squared Error",
+        "Accuracy",
+        "F1-Score",
+        "Mean Absolute Error",
+        "credit score",
+        "CGPA"
+      ],
+      "correct_answer": [
+        "Mean Squared Error",
+        "Mean Absolute Error"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 155,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p5_Im5.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3.5",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 156,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p6_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.4",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 157,
+      "text": "Which of the columns in the banking data are nominal features?",
+      "type": "multichoice",
+      "options": [
+        "Job",
+        "Marital",
+        "Education",
+        "Housing",
+        "Contact"
+      ],
+      "correct_answer": [
+        "Job",
+        "Marital",
+        "Housing",
+        "Contact"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the given Table 1: Banking data for the given subquestions stored as pandas dataframe in variable df [IMAGE: /data/images/cs2008_2025T1_Q1_AN_p7_Im1.webp|block]",
+      "group_id": "6406531113854",
+      "section_name": "MLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 158,
+      "text": "Choose the correct option to find the number of null values (represented as nan) present in the Contact column",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p8_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p7_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p7_Im1.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p7_Im4.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p7_Im5.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p7_Im6.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the given Table 1: Banking data for the given subquestions stored as pandas dataframe in variable df [IMAGE: /data/images/cs2008_2025T1_Q1_AN_p7_Im1.webp|block]",
+      "group_id": "6406531113854",
+      "section_name": "MLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 159,
+      "text": "In Contact column which of the following statistical measures can be used to replace nan values?",
+      "type": "MCQ",
+      "options": [
+        "Mean",
+        "Median",
+        "Mode",
+        "Variance"
+      ],
+      "correct_answer": "Mode",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the given Table 1: Banking data for the given subquestions stored as pandas dataframe in variable df [IMAGE: /data/images/cs2008_2025T1_Q1_AN_p7_Im1.webp|block]",
+      "group_id": "6406531113854",
+      "section_name": "MLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 160,
+      "text": "Which of the following options can be used to compute the median of the Balance column for each category in the Marital feature?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p8_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p8_Im7.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p7_Im1.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p8_Im4.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p8_Im5.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p8_Im6.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the given Table 1: Banking data for the given subquestions stored as pandas dataframe in variable df [IMAGE: /data/images/cs2008_2025T1_Q1_AN_p7_Im1.webp|block]",
+      "group_id": "6406531113854",
+      "section_name": "MLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 161,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p8_Im8.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "35.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p8_Im8.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the given Table 1: Banking data for the given subquestions stored as pandas dataframe in variable df [IMAGE: /data/images/cs2008_2025T1_Q1_AN_p7_Im1.webp|block]",
+      "group_id": "6406531113854",
+      "section_name": "MLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 162,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "secondary",
+        "329",
+        "2859",
+        "Error: Datatype not matching"
+      ],
+      "correct_answer": "2859",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p9_Im1.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the given Table 1: Banking data for the given subquestions stored as pandas dataframe in variable df [IMAGE: /data/images/cs2008_2025T1_Q1_AN_p7_Im1.webp|block]",
+      "group_id": "6406531113854",
+      "section_name": "MLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 163,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(7,5)",
+        "(3,5)",
+        "(5,3)",
+        "(5,7)"
+      ],
+      "correct_answer": "(5,7)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p10_Im1.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the Following codeblock for the given subquestions. [IMAGE: /data/images/cs2008_2025T1_Q1_AN_p9_Im4.webp|block]",
+      "group_id": "6406531113861",
+      "section_name": "MLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 164,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p10_Im4.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "13",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p10_Im4.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the Following codeblock for the given subquestions. [IMAGE: /data/images/cs2008_2025T1_Q1_AN_p9_Im4.webp|block]",
+      "group_id": "6406531113861",
+      "section_name": "MLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 165,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p10_Im5.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "36",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p10_Im5.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the Following codeblock for the given subquestions. [IMAGE: /data/images/cs2008_2025T1_Q1_AN_p9_Im4.webp|block]",
+      "group_id": "6406531113861",
+      "section_name": "MLP"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 166,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p11_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p11_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p11_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_Q1_AN_p11_Im7.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_Q1_AN_p11_Im1.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p9_Im4.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p11_Im3.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p11_Im4.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p11_Im5.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p11_Im7.webp",
+        "/data/images/cs2008_2025T1_Q1_AN_p11_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the Following codeblock for the given subquestions. [IMAGE: /data/images/cs2008_2025T1_Q1_AN_p9_Im4.webp|block]",
+      "group_id": "6406531113861",
+      "section_name": "MLP"
+    }
+  ],
+  "id": "cs2008-2025t1-q1-an",
+  "course_code": "CS2008",
+  "course_name": "Machine Learning Practice",
+  "level": "Diploma in Data Science",
+  "term": "Jan 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Afternoon"
+}

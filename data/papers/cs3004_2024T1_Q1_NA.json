@@ -1,0 +1,310 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)",
+  "filename": "cs3004_2024T1_Q1_NA.pdf",
+  "total_questions": 15,
+  "total_marks": 15.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 42,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 43,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a neuron with binary inputs x 1 and x 2 , and an output y . The neuron computes the weighted sum of its inputs and produces an output according to a threshold. The threshold is denoted as \u03b8 . The activation function is such that y = 1 if the weighted sum is greater than or equal to \u03b8 , otherwise y = 0. Which of the following statements are correct regarding the neuron\u2019s ability to represent logical AND and OR functions?",
+      "type": "multichoice",
+      "options": [
+        "The neuron can implement the AND function by setting appropriate weights and a threshold.",
+        "The neuron can implement the OR function by setting appropriate weights and a threshold.",
+        "There exists a single set of weights and a threshold that allows the same neuron to correctly implement both the AND and OR functions simultaneously.",
+        "Neurons are limited to implementing either the AND or the OR function and cannot represent both simultaneously."
+      ],
+      "correct_answer": [
+        "The neuron can implement the AND function by setting appropriate weights and a threshold.",
+        "The neuron can implement the OR function by setting appropriate weights and a threshold.",
+        "Neurons are limited to implementing either the AND or the OR function and cannot represent both simultaneously."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 44,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose we have a perceptron with two inputs, x 1 and x 2 . This perceptron undergoes training on a small dataset containing three points: (\u22121, 2) labeled as class 0, (0,\u22121) labeled as class 1, and (2, 1) labeled as class 0. The weights of the perceptron are initialized to zeros, and the model is trained until it reaches convergence. Given this scenario, what would be the assigned output class by the trained perceptron for the new point (\u22122, 0)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 45,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are training a neural network for sentiment analysis on a dataset of 10,000 text reviews. The dataset is divided into 80% for training and 20% for testing. You decide to use Minibatch Gradient Descent with a batch size of 32. If you perform a total of 100 epochs, how many parameter updates will be performed in total?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "25000",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 46,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Let\u2019s assume a continuous function f( x 1 , x 2 ) is approximated using 3D tower function with a 3 hidden layer neural network using 100 towers. How many minimum number of neurons will we need to approximate the function f( x 1 , x 2 ) ?",
+      "type": "MCQ",
+      "options": [
+        "201",
+        "300",
+        "801",
+        "701",
+        "800"
+      ],
+      "correct_answer": "801",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 47,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2024T1_Q1_NA_p5_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.012 to 0.020",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T1_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 48,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2024T1_Q1_NA_p5_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.7 to 0.9",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T1_Q1_NA_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 49,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2024T1_Q1_NA_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Increasing the value of b shifts the sigmoid function to the left (i.e., towards negative infinity)",
+        "Increasing the value of b shifts the sigmoid function to the right (i.e., towards positive infinity)",
+        "Decreasing the value of w increases the steepness of the sigmoid function",
+        "Increasing the value of w decreases the steepness of the sigmoid function"
+      ],
+      "correct_answer": "Increasing the value of b shifts the sigmoid function to the left (i.e., towards negative infinity)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T1_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 50,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is true, given the optimal learning rate?",
+      "type": "MCQ",
+      "options": [
+        "Batch gradient descent is always guaranteed to converge to the global optimum of a loss function.",
+        "Stochastic gradient descent is always guaranteed to converge to the global optimum of a loss function.",
+        "For convex loss functions, stochastic gradient descent is guaranteed to eventually converge to the global optimum while batch gradient descent is not.",
+        "For convex loss functions, both stochastic gradient descent and batch gradient descent will eventually converge to the global optimum.",
+        "For convex loss functions, neither stochastic gradient descent nor batch gradient descent are guaranteed to converge to the global optimum.",
+        "For convex loss functions, batch gradient descent is guaranteed to eventually converge to the global optimum while stochastic gradient descent is not."
+      ],
+      "correct_answer": "For convex loss functions, batch gradient descent is guaranteed to eventually converge to the global optimum while stochastic gradient descent is not.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 51,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many parameters (including biases) are there in the entire network?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4285",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T1_Q1_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T1_Q1_NA_p7_Im3.webp|block]",
+      "group_id": "640653739602",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 52,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose that all elements in the input vector are zero and the corresponding true label is also 0. Further, suppose that all the parameters are initialized to zero. What is the loss value if cross-entropy loss is used? Use natural logarithm ln.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.4 to 1.8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T1_Q1_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T1_Q1_NA_p7_Im3.webp|block]",
+      "group_id": "640653739602",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 53,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Assuming that all weights between layers h 3 and O are initialized to one, with no bias associated with any neuron, what would be the computed cross-entropy loss for a given single data point? If the provided information is insufficient, please enter \u22121.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.4 to 1.8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T1_Q1_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T1_Q1_NA_p7_Im3.webp|block]",
+      "group_id": "640653739602",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 54,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Compute the cross entropy loss. Note:If you think the given information is not sufficient to calculate the loss, then enter -1 as answer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.3 to 0.4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T1_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T1_Q1_NA_p10_Im1.webp|block]",
+      "group_id": "640653739606",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 55,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2024T1_Q1_NA_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.1 to 0.2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T1_Q1_NA_p11_Im1.webp",
+        "/data/images/cs3004_2024T1_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T1_Q1_NA_p10_Im1.webp|block]",
+      "group_id": "640653739606",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 56,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following image: [IMAGE: /data/images/cs3004_2024T1_Q1_NA_p12_Im1.webp|block] As per your understanding of optimization algorithms, which of the following mappings will be correct (assume optimal learning rate)?",
+      "type": "MCQ",
+      "options": [
+        "1: Gradient Descent 2: Momentum based Gradient Descent 3: Nesterov Accelerated Gradient Descent",
+        "1: Momentum based Gradient Descent 2: Gradient Descent 3: Nesterov Accelerated Gradient Descent",
+        "1: Gradient Descent 2: Nesterov Accelerated Gradient Descent 3: Momentum based Gradient Descent",
+        "1: Momentum based Gradient Descent 2: Nesterov Accelerated Gradient Descent 3: Gradient Descent"
+      ],
+      "correct_answer": "1: Momentum based Gradient Descent 2: Nesterov Accelerated Gradient Descent 3: Gradient Descent",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T1_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    }
+  ],
+  "id": "cs3004-2024t1-q1-na",
+  "course_code": "CS3004",
+  "course_name": "Deep Learning",
+  "level": "Degree",
+  "term": "Jan 2024",
+  "year": 2024,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

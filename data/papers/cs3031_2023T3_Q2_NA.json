@@ -1,0 +1,367 @@
+{
+  "title": "DEGREE LEVEL : COMPUTER SYSTEM DESIGNS (COMPUTER BASED EXAM)",
+  "filename": "cs3031_2023T3_Q2_NA.pdf",
+  "total_questions": 16,
+  "total_marks": 16.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 158,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : COMPUTER SYSTEM DESIGNS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 159,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In a J-K flipflop, when J = 0 and K = 0, it toggles the flipflop\u2019s state.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 160,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In a positive-edge-triggered D flipflop, if the D input is 0 and the clock signal transitions from low to high, Q output is 1.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 161,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In a NAND-based gated D latch, when the write enable input is 0, it denotes the Memory Hold state.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 162,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In a NAND-based gated D latch is edge-triggered, while a D flip-flop is level-sensitive.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 163,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Master-slave J-K flipflops are capable of preventing race-around conditions, whereas regular JK flipflops lack this capability.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 164,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The Boolean function for a combinational circuit with four inputs is represented by the following K-map. [IMAGE: /data/images/cs3031_2023T3_Q2_NA_p4_Im1.webp|block] Which literal will be present twice in the minimized SOP expression?",
+      "type": "MCQ",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "D",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2023T3_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 165,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following expression: [IMAGE: /data/images/cs3031_2023T3_Q2_NA_p4_Im4.webp|block] Which of the following K-maps represents the expression correctly?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs3031_2023T3_Q2_NA_p5_Im3.webp|block]",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p5_Im4.webp|block]",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p5_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2023T3_Q2_NA_p4_Im4.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p5_Im1.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p5_Im3.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p5_Im4.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 166,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a function, f which has four input variables ( x , y , z , w ). The function is defined to be high when the number is divided by 4 leaves the remainder of 1. Draw the Karnaugh Map (K-Map) for this function. Given inputs x , y , z , and w , along with their complements, if we want to implement the minimized expression using only 2-input NOR gates, what is the minimum number of NOR gates required?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 167,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3031_2023T3_Q2_NA_p7_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The flipflop remains in reset state when inputs are changed to J = 1, K = 0",
+        "The flipflop remains in reset state even when inputs are changed to J = 1, K = 1",
+        "The outputs of the flipflop will toggle when inputs are changed to J = 1, K = 1",
+        "The flipflop will go into set state when inputs are changed to J = 1, K = 0"
+      ],
+      "correct_answer": [
+        "The flipflop remains in reset state when inputs are changed to J = 1, K = 0",
+        "The flipflop remains in reset state even when inputs are changed to J = 1, K = 1"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2023T3_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 168,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3031_2023T3_Q2_NA_p7_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p8_Im2.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p8_Im2.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2023T3_Q2_NA_p7_Im4.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p7_Im5.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p7_Im6.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p7_Im7.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 169,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A half adder is implemented using XOR and AND gates, and a full adder is implemented using two half adders and an OR gate. The propagation delay of AND gate is half of that of the XOR gate and the propagation delay of OR gate is 1.6 nanoseconds. If a 4-bit ripple carry adder is implemented using four full adders, then what will be the total propagation time of this adder circuit, considering the delay of one XOR gate is 4 nanoseconds.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "32",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 170,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the circuit shown below, D1 and D2 are positive triggered D flipflops, x1 and x2 are input of D1 and D2 flipflop. Choose the correct timing diagram of the output Y. [IMAGE: /data/images/cs3031_2023T3_Q2_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p9_Im5.webp|block]",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p9_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p9_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p9_Im6.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2023T3_Q2_NA_p9_Im1.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p9_Im5.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p9_Im6.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 171,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 We want to implement a 2-bit Gray code counter( an output sequence changing from 00 \u2192 01 \u2192 11 \u2192 10 \u2192 00) using the J-K flipflops as shown in the figure below. What should be the values of J1, K1, J2 and K2? [IMAGE: /data/images/cs3031_2023T3_Q2_NA_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p10_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p10_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p10_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p10_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2023T3_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p10_Im3.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p10_Im4.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p10_Im6.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p10_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 172,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the circuit diagram as shown below. Assuming it was initially cleared to 0, state the output Y for the next 4 clock pulses. Note: 1st one J-K flipflop 2nd one is D flipflop [IMAGE: /data/images/cs3031_2023T3_Q2_NA_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0101",
+        "1010",
+        "1100",
+        "0011"
+      ],
+      "correct_answer": "1010",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2023T3_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 173,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 We want to implement circuit that output sequence changing from 000 \u2192 001 \u2192 011 \u2192 111 \u2192 000 using J-K flipflops, as shown in the figure below. What combination of gates should GT1 and GT2 be? [IMAGE: /data/images/cs3031_2023T3_Q2_NA_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "OR, AND",
+        "AND, XOR",
+        "OR, XOR",
+        "AND, AND"
+      ],
+      "correct_answer": "AND, AND",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2023T3_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer System Designs"
+    }
+  ],
+  "id": "cs3031-2023t3-q2-na",
+  "course_code": "CS3031",
+  "course_name": "Computer Systems Design",
+  "level": "Degree",
+  "term": "Sep 2023",
+  "year": 2023,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

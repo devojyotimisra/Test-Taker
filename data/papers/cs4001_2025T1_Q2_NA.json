@@ -1,0 +1,101 @@
+{
+  "title": "DEGREE LEVEL : DATA VISUALIZATION DESIGN (PEN AND PAPER EXAM)",
+  "filename": "cs4001_2025T1_Q2_NA.pdf",
+  "total_questions": 4,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 60,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DATA VISUALIZATION DESIGN (PEN AND PAPER EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Data Visualization"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 61,
+      "text": "Instructions: The exam is pen & paper based and should be answered in the sheets provided to you. Part A (Multiple Choice Questions): Each question has four choices, out of which only one is the correct answer. (12\u00d73=36 marks) 1. In William Cleveland and Robert McGill\u2019s paper, which aspect do they explore about graphical design? a. Human vision b. Mathematical models c. Statistical inference d. Data preprocessing 2. As per the encoding semantics framework discussed ( Visual Thinking for Design by Colin Ware), What is the semantic meaning of nested or partitioned regions? [IMAGE: /data/images/cs4001_2025T1_Q2_NA_p1_Im3.webp|block] a. Related entities b. Hierarchical concepts c. Parts of a conceptual structure d. Magnitude or quantity 3. In a data visualization, you use gridlines to improve the readability of a line chart. Which principle explains why gridlines are effective? a. The law of Pr\u00e4gnanz from Gestalt principles. b. Weber\u2019s Law, emphasizing relative differences over absolute ones. c. The Stroop Effect, which prioritizes textual clarity. d. The concept of popout based on color contrast. 4. Which of the following encodings is not suitable for quantitative data? a. Text labels b. Pattern texture c. Length d. Angle 5. A designer is creating an infographic with multiple overlapping regions. Which design approach would best help viewers distinguish the boundaries between regions? a. Use higher chrominance contrast than luminance contrast. b. Add thick, contrasting borders to the regions. c. Blur the edges to reduce visual clutter. d. Use similar colors for adjacent regions. 6. Which Gestalt principle is illustrated in the Carrefour logo, where the white negative space forms a \"C\" while contrasting with the colored arrows? [IMAGE: /data/images/cs4001_2025T1_Q2_NA_p2_Im1.webp|block] a. Proximity b. Continuity c. Closure d. Figure-ground 7. A magazine company wanted to gauge its popularity with readers by including a short survey at the end of an issue, which readers could fill out and mail back. Based on the responses, the magazine reported that an overwhelming 98% of readers thoroughly enjoyed the publication. What type of bias is present in this study? a. Collider Bias b. Publication Bias c. Selection Bias d. Survivorship Bias 8. What key lesson is illustrated by the Abraham Wald Plane Armor problem? a. Survivorship bias and missing data b. Misunderstanding correlation and causation c. Proper use of descriptive statistics d. Addressing publication bias 9. During a town hall meeting, a local government presents a graph showing a steady decline in pollution levels over the last decade. However, the graph starts at a very high pollution level, and the scale is adjusted to make the decline appear more dramatic. What is this an example of? a. Effective visualization b. Misleading representation c. Statistical inference d. Data manipulation 10. When evaluating data, which question is LEAST critical to consider? a. What is the source of the data? b. Has the data undergone peer review? c. How does the software format the data? d. What is the context of the data presentation? 11. A data analyst finds that some income data in a dataset is missing. To address this, they replace missing values with the average income. Which step of data preparation does this represent? a. Transformation b. Grouping c. Imputation d. Outlier detection 12. The average score obtained by 9 groups of students across 3 subjects Physics, Chemistry and Mathematics is shown in the form of a visualization as seen below [IMAGE: /data/images/cs4001_2025T1_Q2_NA_p3_Im1.webp|block] Which of the following Tufte\u2019s design principles for graphical excellence does the visualization employ? a. Utilize narratives of space and time b. Show cause and effect, where possible c. Escape flatland, use small multiples, parallel sequencing d. Establish context",
+      "type": "MCQ",
+      "options": [
+        "I have written answers on the answer sheets",
+        "Not applicable"
+      ],
+      "correct_answer": "I have written answers on the answer sheets",
+      "marks": 36.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4001_2025T1_Q2_NA_p1_Im3.webp",
+        "/data/images/cs4001_2025T1_Q2_NA_p2_Im1.webp",
+        "/data/images/cs4001_2025T1_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Data Visualization"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 62,
+      "text": "Part B \u2013 Multiple Select Question: Each question has choices, out of which one or more than one choice(s) is the correct answer. (8\u00d74=32 marks) 1. In a bar chart comparing sales data for different regions, which strategies can make the region with the lowest sales more noticeable? (Select all that apply.) a. Increase the width of the bars for the lowest sales region. b. Use a contrasting color for the bar representing the lowest sales region. c. Add a label with the exact sales value for the lowest region. d. Highlight the bar with a bold border. 2. Imagine designing a warning system for pilots. Which elements can you use to ensure critical information \u201cpops out\u201d immediately? a. High contrast between the warning text and the background. b. Motion-based blinking text or symbols. c. Use of non-saturated pastel colors for the warning. d. Distinct shapes to differentiate critical information. 3. Which of the following statements accurately describe map projections, the transformations used to represent the curved surface of a globe on a two-dimensional plane? a. All map projections can perfectly represent the spherical surface without any distortions. b. Depending on the map's purpose, certain distortions in map projections are deemed acceptable, while others are not. c. Map projections prioritize specific properties of the globe, leading to trade-offs with other properties in the representation. d. The widely used Mercator projection, developed for navigation purposes, is considered the best projection due to its minimal distortions. 4. What are the three levels of estimation in Cleveland\u2019s pattern perception framework? a. Discrimination b. Simplification c. Ranking d. Ratioing 5. In a streaming platform like Netflix, movies and TV shows are organized into horizontal rows based on genre or theme (e.g., Action, Comedy, Drama). When the user scrolls, all the titles in the row move together horizontally. which of the following Gestalt principles are demonstrated? [IMAGE: /data/images/cs4001_2025T1_Q2_NA_p5_Im1.webp|block] a. Continuity b. Common fate c. Emergence d. Proximity e. Closure f. Similarity 6. Select the correct statements regarding bias in data collection or interpretation. a. Survivorship bias can exaggerate the success rate of a process. b. Publication bias ensures that all published studies meet the highest research standards. c. Selection bias occurs only when participants are intentionally excluded from a study. d. Healthy user bias can result in overestimating the effectiveness of a health intervention. 7. A dataset with a certain number of observations has the following summary statistics: [IMAGE: /data/images/cs4001_2025T1_Q2_NA_p5_Im2.webp|block] A data analyst reviewed the dataset and determined that the highest value should be discarded. Which of the following measures would change as a result? a. Mode b. Mean c. Median d. Range 8. Which practices align with Tufte\u2019s principles for clear and efficient data visualization? a. A legend should always be provided even if there are labels to identify bars/points b. Ensure that the visualization offers maximum data using minimum pixels c. Establishing Spatial, Temporal, and Numerical context enhances the story communicated by the visualization d. Imposing a metaphor to fit the theme of the story is a good way to captivate the reader",
+      "type": "MCQ",
+      "options": [
+        "I have written answers on the answer sheets",
+        "Not applicable"
+      ],
+      "correct_answer": "I have written answers on the answer sheets",
+      "marks": 32.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4001_2025T1_Q2_NA_p5_Im1.webp",
+        "/data/images/cs4001_2025T1_Q2_NA_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Data Visualization"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 63,
+      "text": "Part C \u2013 Short Answer Questions: Write 100-150 words answers to each question. Answer using pen & paper and add sketches/drawings to support them in the paper provided to you. (4x8=32 marks) Local governments deliver essential public services to millions of people in India. Yet little is known about the optimal way to organize them. Smaller units might enable better monitoring of politicians and stronger electoral accountability, but they could also be more easily captured by local elites or miss out on economies of scale. In a paper in the AER, authors Veda Narasimhan and Jeffrey Weaver provide evidence on this question by studying over 100,000 villages in India's most populous state of UP. 1. The researchers draw their conclusions from an administrative rule in Uttar Pradesh, whereby villages with populations over 1,000 are assigned their own local government, while smaller villages are grouped together into larger units. How this particular grouping, which is a result of an arbitrary administrative choice, nevertheless is quite useful in comparing them on how the size of local government units affects public service delivery? 2. Identify the key insight that the visualization is trying to highlight and how it has succeeded (or failed) in achieving it. 3. List at least 2 visualization techniques that you have learned from the course and explain they have been used in the visualization. 4. If you were to use a different chart or a set of charts, what would it/they be? Why? [IMAGE: /data/images/cs4001_2025T1_Q2_NA_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "I have written answers on the answer sheets",
+        "Not applicable"
+      ],
+      "correct_answer": "I have written answers on the answer sheets",
+      "marks": 32.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4001_2025T1_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Data Visualization"
+    }
+  ],
+  "id": "cs4001-2025t1-q2-na",
+  "course_code": "CS4001",
+  "course_name": "Speech Technology",
+  "level": "Degree",
+  "term": "Jan 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

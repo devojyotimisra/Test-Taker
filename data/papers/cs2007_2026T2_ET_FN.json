@@ -1,0 +1,578 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
+  "filename": "cs2007_2026T2_ET_FN.pdf",
+  "total_questions": 20,
+  "total_marks": 43.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Let [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im3.webp|inline] be [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im4.webp|inline] points in [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im5.webp|inline] that are linearly separable by a hyperplane through the origin. Construct [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im6.webp|inline] where [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im7.webp|inline] is a constant. The perceptron algorithm (initialised at [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im8.webp|inline] , learning rate [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im9.webp|inline] ) is run on both [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im10.webp|inline] and [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im11.webp|inline] , using the same ordering of points in both runs. Which of the following statements are true?",
+      "type": "multichoice",
+      "options": [
+        "The mistake bound of the perceptron on [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im12.webp|inline] is strictly larger than its mistake bound on [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im13.webp|inline] .",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im14.webp|inline] may fail to be linearly separable.",
+        "The perceptron is guaranteed to converge on [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im15.webp|inline] .",
+        "The perceptron produces exactly the same decision boundary on [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im16.webp|inline] and on [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im17.webp|inline] ."
+      ],
+      "correct_answer": [
+        "The perceptron is guaranteed to converge on [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im15.webp|inline] .",
+        "The perceptron produces exactly the same decision boundary on [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im16.webp|inline] and on [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im17.webp|inline] ."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im3.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im4.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im5.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im6.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im7.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im8.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im9.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im10.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im11.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im12.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im13.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im14.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im15.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im16.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im17.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider binary classification on input features [IMAGE: /data/images/cs2007_2026T2_ET_FN_p1_Im18.webp|inline] . Define the decision boundary of a trained classifier as the set of points at which its predicted label changes. For which of the following method(s) can this decision boundary be non-linear in [IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im1.webp|inline] ?",
+      "type": "multichoice",
+      "options": [
+        "Perceptron.",
+        "Logistic regression, predicting the positive class when [IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im3.webp|inline] .",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im5.webp|inline] -nearest-neighbour with Euclidean distance.",
+        "A decision tree using axis-aligned splits.",
+        "Gaussian Na\u00efve Bayes in which the class-conditional feature variances differ between the two classes.",
+        "A support vector machine with a linear kernel.",
+        "A support vector machine with an RBF (Gaussian) kernel."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im5.webp|inline] -nearest-neighbour with Euclidean distance.",
+        "A decision tree using axis-aligned splits.",
+        "Gaussian Na\u00efve Bayes in which the class-conditional feature variances differ between the two classes.",
+        "A support vector machine with an RBF (Gaussian) kernel."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p1_Im18.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p2_Im1.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p2_Im3.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p2_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Let [IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im6.webp|inline] be the sigmoid (logistic) function. Select all statements below that are true for every [IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im7.webp|inline] .",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im8.webp|inline] .",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im9.webp|inline] is a non-decreasing function but not strictly increasing.",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im10.webp|inline] is a strictly increasing function.",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im11.webp|inline] is convex on all of [IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im12.webp|inline] ."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im8.webp|inline] .",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im10.webp|inline] is a strictly increasing function."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p2_Im6.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p2_Im7.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p2_Im8.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p2_Im9.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p2_Im10.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p2_Im11.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p2_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Identify the correct relationship(s) between bias, variance, and the hyperparameter [IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im13.webp|inline] in the [IMAGE: /data/images/cs2007_2026T2_ET_FN_p2_Im14.webp|inline] - Nearest Neighbours algorithm.",
+      "type": "multichoice",
+      "options": [
+        "Increasing [IMAGE: /data/images/cs2007_2026T2_ET_FN_p3_Im2.webp|inline] leads to an increase in bias.",
+        "Decreasing [IMAGE: /data/images/cs2007_2026T2_ET_FN_p3_Im4.webp|inline] leads to an increase in bias.",
+        "Increasing [IMAGE: /data/images/cs2007_2026T2_ET_FN_p3_Im5.webp|inline] leads to an increase in variance.",
+        "Decreasing [IMAGE: /data/images/cs2007_2026T2_ET_FN_p3_Im6.webp|inline] leads to an increase in variance."
+      ],
+      "correct_answer": [
+        "Increasing [IMAGE: /data/images/cs2007_2026T2_ET_FN_p3_Im2.webp|inline] leads to an increase in bias.",
+        "Decreasing [IMAGE: /data/images/cs2007_2026T2_ET_FN_p3_Im6.webp|inline] leads to an increase in variance."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p2_Im13.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p2_Im14.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p3_Im2.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p3_Im4.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p3_Im5.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the effect of each operation below on a model's bias and variance. Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "Regularising the weights in a linear/logistic regression model increases bias and decreases variance.",
+        "Increasing the maximum depth of a decision tree increases bias and decreases variance.",
+        "Increasing the number of hidden units in a neural network decreases bias and increases variance.",
+        "Removing all the non-support-vectors from the training set of an SVM leaves both bias and variance unchanged."
+      ],
+      "correct_answer": [
+        "Regularising the weights in a linear/logistic regression model increases bias and decreases variance.",
+        "Increasing the number of hidden units in a neural network decreases bias and increases variance.",
+        "Removing all the non-support-vectors from the training set of an SVM leaves both bias and variance unchanged."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Inscript In logistic regression, a point is classified positive only if [IMAGE: /data/images/cs2007_2026T2_ET_FN_p3_Im7.webp|inline] . What score threshold [IMAGE: /data/images/cs2007_2026T2_ET_FN_p3_Im8.webp|inline] (with [IMAGE: /data/images/cs2007_2026T2_ET_FN_p3_Im9.webp|inline] at the boundary of this rule) does this correspond to? (Round to 2 decimal places.)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.08 to 1.10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p3_Im7.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p3_Im8.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p3_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript You build a fully-connected feed-forward neural network for a classification task. The input is a [IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im1.webp|inline] - dimensional vector; the network has two hidden layers of [IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im2.webp|inline] neurons each, followed by an output layer of [IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im3.webp|inline] neurons. Every layer is densely (fully) connected to the next. Ignoring all bias terms, compute the total number of weight parameters in the network. (Enter [IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im4.webp|inline] if it cannot be determined.)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "180",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p4_Im1.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p4_Im2.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p4_Im3.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Let [IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im5.webp|inline] be the solution to the ordinary least-squares linear regression problem [IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im6.webp|inline] . Which of the following is always satisfied at [IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im7.webp|inline] ? Note that here [IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im8.webp|inline] is your feature matrix and [IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im9.webp|inline] is the label vector.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im13.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im14.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p4_Im11.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p4_Im5.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p4_Im6.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p4_Im7.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p4_Im8.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p4_Im9.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p4_Im11.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p4_Im13.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p4_Im14.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider a scenario where we use leave-one-out cross-validation (LOOCV) with a Support Vector Machine (SVM) for binary classification. Given a dataset [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im3.webp|inline] , the cross- validation error for a sample [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im4.webp|inline] is [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im5.webp|inline] if [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im6.webp|inline] and [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im7.webp|inline] otherwise, where [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im8.webp|inline] is the prediction for [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im9.webp|inline] produced by the SVM trained on [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im10.webp|inline] . The overall cross-validation error [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im11.webp|block] is . Let [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im12.webp|inline] be the number of support vectors obtained by training on the full dataset [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im13.webp|inline] . Which statement is true regarding the relationship between [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im14.webp|inline] and [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im15.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im17.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im18.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im19.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im20.webp|inline] is independent of [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im21.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im17.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im3.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im4.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im5.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im6.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im7.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im8.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im9.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im10.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im11.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im12.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im13.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im14.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im15.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im17.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im18.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im19.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im20.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im21.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript Consider one-dimensional ridge regression with no bias term. Given [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im22.webp|inline] and [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im23.webp|inline] , with [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im24.webp|inline] , compute the optimal [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im25.webp|inline] . Note that [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im26.webp|inline] is [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im27.webp|inline] th data point and [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im28.webp|inline] is [IMAGE: /data/images/cs2007_2026T2_ET_FN_p5_Im29.webp|inline] th label. (Round to 2 decimal places.)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.19 to 0.21",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im22.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im23.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im24.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im25.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im26.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im27.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im28.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p5_Im29.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p6_Im1.webp|block] For the covariance matrix , compute the variance captured along the first principal component.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p6_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p6_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p6_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p6_Im1.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p6_Im3.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p6_Im4.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p6_Im6.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Given a dataset with [IMAGE: /data/images/cs2007_2026T2_ET_FN_p6_Im8.webp|inline] discrete attributes, each taking exactly 5 possible values (where [IMAGE: /data/images/cs2007_2026T2_ET_FN_p6_Im9.webp|inline] ), for a three-class classification task, the number of parameters to be estimated for learning a na\u00efve Bayes classifier is:",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p6_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p6_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p6_Im11.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p6_Im8.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p6_Im9.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p6_Im10.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p6_Im11.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p7_Im2.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "For an optimal soft-margin SVM solution (no bias term), a training point satisfies [IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im4.webp|inline] . Here [IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im5.webp|inline] denotes the slack variable for this point, and [IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im6.webp|inline] is the Lagrange multiplier on the constraint [IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im7.webp|inline] . Which statement is necessarily true?",
+      "type": "MCQ",
+      "options": [
+        "The point is misclassified by [IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im8.webp|inline] .",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im9.webp|inline] .",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im11.webp|inline] and [IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im12.webp|inline] .",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im13.webp|inline] ."
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im11.webp|inline] and [IMAGE: /data/images/cs2007_2026T2_ET_FN_p7_Im12.webp|inline] .",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p7_Im4.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p7_Im5.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p7_Im6.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p7_Im7.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p7_Im8.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p7_Im9.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p7_Im11.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p7_Im12.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p7_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider a binary classification dataset in which the two classes are perfectly linearly separable. You are considering a Perceptron, Logistic Regression, and a Decision Tree. If the objective is to learn a linear decision boundary and no probability estimates are required, which of the following classifiers are appropriate choices?",
+      "type": "MCQ",
+      "options": [
+        "Perceptron only",
+        "Logistic Regression only",
+        "Both Perceptron and Logistic Regression",
+        "Decision Tree only"
+      ],
+      "correct_answer": "Both Perceptron and Logistic Regression",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "A Euclidean-distance-based [IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im1.webp|inline] -means clustering algorithm was run on a dataset of [IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im2.webp|inline] points with [IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im3.webp|inline] . If the points [IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im4.webp|inline] and [IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im5.webp|inline] are both part of cluster [IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im6.webp|inline] , then which ONE of the following points is necessarily also part of cluster [IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im7.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im12.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im13.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im12.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p8_Im1.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p8_Im2.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p8_Im3.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p8_Im4.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p8_Im5.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p8_Im6.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p8_Im7.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p8_Im9.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p8_Im10.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p8_Im12.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p8_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript [IMAGE: /data/images/cs2007_2026T2_ET_FN_p8_Im14.webp|block] Note: coordinates of x 1 vector are intentionally not provided.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.71 to 2.73",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p8_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Which of the following statements about entropy and information gain in decision-tree learning are correct?",
+      "type": "multichoice",
+      "options": [
+        "If a feature splits a node into perfectly pure children, its information gain at that node equals the entropy of that node.",
+        "A node whose examples all belong to a single class has entropy [IMAGE: /data/images/cs2007_2026T2_ET_FN_p9_Im2.webp|inline] and needs no further splitting.",
+        "Information gain can be negative if a split increases impurity.",
+        "After a parent node is split into child nodes, no individual child node can have entropy greater than the parent node's entropy."
+      ],
+      "correct_answer": [
+        "If a feature splits a node into perfectly pure children, its information gain at that node equals the entropy of that node.",
+        "A node whose examples all belong to a single class has entropy [IMAGE: /data/images/cs2007_2026T2_ET_FN_p9_Im2.webp|inline] and needs no further splitting."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p9_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Which of the following statements about bagging are correct?",
+      "type": "multichoice",
+      "options": [
+        "Bagging reduces the variance of the ensemble's prediction.",
+        "Bagging substantially reduces the bias of the base learner.",
+        "Bagging tends to help most when the base learners are diverse (weakly correlated with one another).",
+        "Bagging tends to help most with high-variance, low-bias base learners such as deep, unpruned decision trees.",
+        "averaging all base learner reduces variance, if every base learner produces identical predictions."
+      ],
+      "correct_answer": [
+        "Bagging reduces the variance of the ensemble's prediction.",
+        "Bagging tends to help most when the base learners are diverse (weakly correlated with one another).",
+        "Bagging tends to help most with high-variance, low-bias base learners such as deep, unpruned decision trees."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Suppose we model data as [IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im1.webp|inline] with a single unknown parameter [IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im2.webp|inline] and known variance [IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im3.webp|inline] (each [IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im4.webp|inline] ). You perform maximum-likelihood estimation of [IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im5.webp|inline] . The MLE of [IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im6.webp|inline] must satisfy which of the following equations? Note that [IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im7.webp|inline] is a feature and [IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im8.webp|inline] is a label.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im12.webp|inline] [IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im13.webp|block]",
+        "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im14.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T2_ET_FN_p10_Im10.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2026T2_ET_FN_p10_Im1.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p10_Im2.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p10_Im3.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p10_Im4.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p10_Im5.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p10_Im6.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p10_Im7.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p10_Im8.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p10_Im10.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p10_Im12.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p10_Im13.webp",
+        "/data/images/cs2007_2026T2_ET_FN_p10_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    }
+  ],
+  "id": "cs2007-2026t2-et-fn",
+  "course_code": "CS2007",
+  "course_name": "Machine Learning Techniques",
+  "level": "Diploma in Data Science",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

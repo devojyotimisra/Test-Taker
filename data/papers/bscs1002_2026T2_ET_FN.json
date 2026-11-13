@@ -1,0 +1,483 @@
+{
+  "title": "FOUNDATION LEVEL : PROGRAMMING IN PYTHON (COMPUTER BASED EXAM)",
+  "filename": "bscs1002_2026T2_ET_FN.pdf",
+  "total_questions": 19,
+  "total_marks": 38.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"FOUNDATION LEVEL : PROGRAMMING IN PYTHON (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider the following code snippet: [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p1_Im3.webp|block] What does the code snippet print?",
+      "type": "MCQ",
+      "options": [
+        "True -4 True 1",
+        "False -2 False 0",
+        "True -2 False 0",
+        "True 0 True 0"
+      ],
+      "correct_answer": "True -2 False 0",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following code snippet. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p2_Im1.webp|block] What is the output?",
+      "type": "MCQ",
+      "options": [
+        "4",
+        "10",
+        "16",
+        "100"
+      ],
+      "correct_answer": "10",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p2_Im4.webp|block] Which of the following best describes what [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p2_Im5.webp|inline] does to the list [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p2_Im6.webp|inline] between indices [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p2_Im7.webp|inline] and [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p2_Im8.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "It reverses the entire sub-list from [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p2_Im9.webp|inline] to [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p2_Im10.webp|inline] , regardless of whether the elements are multiples of 3.",
+        "It reverses only the elements that are not multiples of 3 in the range [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im2.webp|inline] , leaving multiples of 3 in their original positions.",
+        "It moves all multiples of 3 to the left and all other elements to the right (a partition), without changing the relative order of the non-multiples themselves.",
+        "It sorts the sub-list from [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im4.webp|inline] to [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im5.webp|inline] in ascending order."
+      ],
+      "correct_answer": "It reverses only the elements that are not multiples of 3 in the range [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im2.webp|inline] , leaving multiples of 3 in their original positions.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p2_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p2_Im5.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p2_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p2_Im7.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p2_Im8.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p2_Im9.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p2_Im10.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following code snippet. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im6.webp|block] What will be the output?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im7.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im8.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im9.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im9.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im7.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im8.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im9.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the following code snippet. Note: [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im11.webp|inline] returns the largest integer less than or equal to [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im12.webp|inline] . For example, [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im13.webp|inline] returns [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im14.webp|inline] , and [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im15.webp|inline] returns [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p3_Im16.webp|inline] . [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p4_Im1.webp|block] What is the output of the above code?",
+      "type": "MCQ",
+      "options": [
+        "1 [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p4_Im3.webp|inline]",
+        "16 [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p4_Im4.webp|inline]",
+        "1616 [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p4_Im6.webp|inline]",
+        "16 [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "1616 [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p4_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im11.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im12.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im13.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im14.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im15.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p3_Im16.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p4_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p4_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p4_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p4_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following class used at the school fruit stall to track volunteer hours. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p5_Im1.webp|block] What are the values of [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p5_Im2.webp|inline] and [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p5_Im3.webp|inline] , respectively?",
+      "type": "MCQ",
+      "options": [
+        "True, 1.25",
+        "True, 7.00",
+        "False, 7.00",
+        "False, 1.25"
+      ],
+      "correct_answer": "True, 7.00",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p5_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p5_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "You are debugging a Python script that manages a local database file ( [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p6_Im1.webp|inline] ). The script contains the following function: [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p6_Im2.webp|block] Which of the following strings can be passed as the [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p6_Im3.webp|inline] argument so that the script successfully creates the missing file, writes the data, and returns [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p6_Im4.webp|inline] without throwing an error?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p6_Im7.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p6_Im9.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p6_Im10.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p6_Im7.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p6_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p6_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p6_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p6_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p6_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p6_Im7.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p6_Im9.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p6_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the following code snippet. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im1.webp|block] Select all correct statements.",
+      "type": "multichoice",
+      "options": [
+        "Removing [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im3.webp|inline] changes the output by 10.",
+        "Removing the entire [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im5.webp|inline] block (i.e., removing both [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im6.webp|inline] and [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im7.webp|inline] ) changes [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im8.webp|inline] by 1000.",
+        "The program prints [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im9.webp|inline] .",
+        "The program prints [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im10.webp|inline] ."
+      ],
+      "correct_answer": [
+        "Removing the entire [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im5.webp|inline] block (i.e., removing both [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im6.webp|inline] and [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im7.webp|inline] ) changes [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im8.webp|inline] by 1000.",
+        "The program prints [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p7_Im10.webp|inline] ."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p7_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p7_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p7_Im5.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p7_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p7_Im7.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p7_Im8.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p7_Im9.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p7_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following snippet. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p8_Im1.webp|block] Select all that apply.",
+      "type": "multichoice",
+      "options": [
+        "The first line of output is [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p8_Im3.webp|inline] .",
+        "The first line of output is [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p8_Im5.webp|inline] .",
+        "The second line of output is [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p8_Im6.webp|inline] .",
+        "The third line of output is [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p8_Im7.webp|inline] .",
+        "The fourth line of output is [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p8_Im8.webp|inline] ."
+      ],
+      "correct_answer": [
+        "The first line of output is [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p8_Im3.webp|inline] .",
+        "The second line of output is [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p8_Im6.webp|inline] .",
+        "The third line of output is [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p8_Im7.webp|inline] ."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p8_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p8_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p8_Im5.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p8_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p8_Im7.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p8_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript Consider the following code snippet. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p9_Im1.webp|block] What is the output of the above code?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript At Hari's yoga class, a running total is maintained while processing attendance codes. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p10_Im1.webp|block] What is the output of the above code?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "21",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript Consider the following code snippet. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p10_Im2.webp|block] How many function calls (including the initial call) occur for [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p10_Im3.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p10_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p10_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript Consider the following code snippet. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p11_Im1.webp|block] Enter the sum of all the values present in the dictionary.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript In Madhava's shop, each item is stored in its own tray. Each tray can have a maximum of 40 items. Madhava stores the inventory as a dictionary, where the key is the item name and the value is a list containing the quantity of that item in each tray. When Madhava counts the inventory, an item contributes to the total only if its overall quantity is at least 80 . Otherwise, the item is added to a reload list. Consider the following code. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p12_Im1.webp|block] What is the output of the above code?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "181",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "What does the given code print?",
+      "type": "MCQ",
+      "options": [
+        "Ahmed 2755",
+        "Vishaka 2755",
+        "Harry 2353",
+        "Raises a [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p14_Im3.webp|inline] because Purushottam is missing [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p14_Im4.webp|inline] and [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p14_Im5.webp|inline]"
+      ],
+      "correct_answer": "Vishaka 2755",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p13_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p13_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p13_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p14_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p14_Im4.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p14_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The sweet shop owned by Madhava has four salespersons. Their sales are tracked using dictionaries. Each salesperson earns points based on their sales and the daily bonus for that day (5 for weekdays and 8 for weekends). Note: [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p13_Im1.webp|inline] returns the element for which the [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p13_Im2.webp|inline] function returns the largest value. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p13_Im3.webp|block]",
+      "group_id": "6406532267522",
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Madhava also tracks his shop's daily sales as a list of tuples containing the day, sweet name, and sales amount. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p14_Im6.webp|block] Which of the following code snippets correctly prints the day and total sales for the day with the highest total sales (across all sweets sold that day)?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p14_Im8.webp|block]",
+        "",
+        "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p15_Im1.webp|block] [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p15_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/bscs1002_2026T2_ET_FN_p14_Im8.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p14_Im6.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p13_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p13_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p13_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p14_Im8.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p15_Im1.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p15_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The sweet shop owned by Madhava has four salespersons. Their sales are tracked using dictionaries. Each salesperson earns points based on their sales and the daily bonus for that day (5 for weekdays and 8 for weekends). Note: [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p13_Im1.webp|inline] returns the element for which the [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p13_Im2.webp|inline] function returns the largest value. [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p13_Im3.webp|block]",
+      "group_id": "6406532267522",
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript What is the element at position [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p16_Im2.webp|inline] in [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p16_Im3.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p16_Im2.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p16_Im3.webp",
+        "/data/images/bscs1002_2026T2_ET_FN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following code snippet: [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p16_Im1.webp|block]",
+      "group_id": "6406532267525",
+      "section_name": "Programming in Python"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Inscript What is the value of the second line of output?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "90",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1002_2026T2_ET_FN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following code snippet: [IMAGE: /data/images/bscs1002_2026T2_ET_FN_p16_Im1.webp|block]",
+      "group_id": "6406532267525",
+      "section_name": "Programming in Python"
+    }
+  ],
+  "id": "bscs1002-2026t2-et-fn",
+  "course_code": "BSCS1002",
+  "course_name": "Programming in Python",
+  "level": "Foundation",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

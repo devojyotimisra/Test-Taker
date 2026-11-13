@@ -1,0 +1,441 @@
+{
+  "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
+  "filename": "cs2002_2025T3_Q2_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 30,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 31,
+      "text": "In the given graph, if we try to find the shortest path from node P to all other nodes using Dijkstra\u2019s algorithm , which node is the [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p1_Im3.webp|inline] node to be included in the visited set? Consider that P is the 1st visited node. [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "U",
+        "R",
+        "S",
+        "T"
+      ],
+      "correct_answer": "S",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p1_Im3.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 32,
+      "text": "Consider the following algorithm to solve the single source shortest path problem for a graph (directed or undirected) with positive integer edge weights and a source vertex s .Replace each edge (u,v) of weight w in the graph with a path of length w consisting of unit-weight edges from u to v (by introducing new intermediate vertices). For example: edge (u, v) with weight w = 3 [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p2_Im4.webp|block] Run BFS on this modified graph from the source s to find the shortest path to each of the original vertices in the graph. Which of the following statements is/are true? I. The algorithm solves the single source shortest path problem correctly. II. Although the size of the modified graph is larger than the original graph, the algorithm is as efficient as Dijkstra\u2019s algorithm.",
+      "type": "MCQ",
+      "options": [
+        "I is True but II is False",
+        "I is False but II is True",
+        "Both I and II are False",
+        "Both I and II are True"
+      ],
+      "correct_answer": "I is True but II is False",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 33,
+      "text": "What is the weight of a minimum spanning tree in the graph given below? [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p3_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 34,
+      "text": "Let [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p3_Im4.webp|inline] be a connected undirected graph with distinct positive edge weights .Consider a partition (cut) of the vertex set [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p3_Im5.webp|inline] into two non-empty subsets [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p3_Im6.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p3_Im7.webp|inline] such that: \u2022 [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p3_Im8.webp|inline] , and \u2022 [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p3_Im9.webp|inline] Let [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im1.webp|inline] be the minimum-weight edge among all edges that cross this cut , i.e., [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im2.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im3.webp|inline] . Which of the following statements is/are true? I. For every pair of nodes [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im4.webp|inline] such that [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im5.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im6.webp|inline] , the edge [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im7.webp|inline] must lie on the shortest path from [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im8.webp|inline] to [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im9.webp|inline] . II. The edge [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im10.webp|inline] must be part of the minimum spanning tree (MST) of [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im11.webp|inline] .",
+      "type": "MCQ",
+      "options": [
+        "I is True but II is False",
+        "I is False but II is True",
+        "Both I and II are False",
+        "Both I and II are True"
+      ],
+      "correct_answer": "I is False but II is True",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p3_Im4.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p3_Im5.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p3_Im6.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p3_Im7.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p3_Im8.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p3_Im9.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im1.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im2.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im3.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im4.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im5.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im6.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im7.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im8.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im9.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im10.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 35,
+      "text": "Consider a max-heap of size [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im14.webp|inline] consisting of distinct elements and implemented using an array. Which of the following operations can be performed in [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im15.webp|inline] time?",
+      "type": "multichoice",
+      "options": [
+        "Inserting a new element",
+        "Deleting the maximum element",
+        "Merging with another max-heap of size [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im16.webp|inline]",
+        "Update the value at the known index"
+      ],
+      "correct_answer": [
+        "Inserting a new element",
+        "Deleting the maximum element",
+        "Update the value at the known index"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im14.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im15.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 36,
+      "text": "Consider a max-heap of size [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p4_Im17.webp|inline] consisting of distinct elements and implemented using an array.Which of the following statements is/are true about the max-heap ?",
+      "type": "multichoice",
+      "options": [
+        "The smallest element in the max-heap is always at a leaf node.",
+        "The smallest element in the max-heap is always located at one of the leaf nodes in the last level of the heap.",
+        "The second largest element in the max-heap must be located in the level immediately below the root (i.e., among the root\u2019s children).",
+        "Finding the smallest element in the max-heap takes O (log n ) time."
+      ],
+      "correct_answer": [
+        "The smallest element in the max-heap is always at a leaf node.",
+        "The second largest element in the max-heap must be located in the level immediately below the root (i.e., among the root\u2019s children)."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p4_Im17.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 37,
+      "text": "What is the worst-case running time complexity of the searching operation in [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im6.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im8.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im6.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im3.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im4.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im5.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im7.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im8.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im9.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The height of a binary search tree is defined as the number of nodes in the longest path from the root to the leaf (both included). Consider a binary search tree [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im3.webp|inline] of height [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im4.webp|inline] . Note that [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im5.webp|inline] need not be balanced.",
+      "group_id": "6406531828136",
+      "section_name": "PDSA"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 38,
+      "text": "Suppose the number of elements in [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im11.webp|inline] is [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im12.webp|inline] . Which of the following statement(s) is/are correct ?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im13.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p6_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p6_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im11.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im12.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im3.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im4.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im5.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p5_Im13.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p6_Im2.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p6_Im4.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p6_Im5.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The height of a binary search tree is defined as the number of nodes in the longest path from the root to the leaf (both included). Consider a binary search tree [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im3.webp|inline] of height [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im4.webp|inline] . Note that [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p5_Im5.webp|inline] need not be balanced.",
+      "group_id": "6406531828136",
+      "section_name": "PDSA"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 39,
+      "text": "What is the minimum number of nodes possible in an AVL tree of height 6 ? Consider the tree with a single node having height 1.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 40,
+      "text": "After inserting the following elements into an empty AVL Tree : 30, 20, 10, 28, 25, 40 Which of the following nodes will be the root in the final AVL Tree?",
+      "type": "MCQ",
+      "options": [
+        "25",
+        "20",
+        "30",
+        "28"
+      ],
+      "correct_answer": "28",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 41,
+      "text": "Given below is a set of characters and their frequencies: [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p7_Im3.webp|block] Using Huffman encoding, construct the Huffman tree for this set of characters. What is the maximum number of bits needed to encode any character?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 42,
+      "text": "Consider a problem scenario where you have to conduct [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p7_Im4.webp|inline] job interviews [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p7_Im5.webp|inline] . Each candidate is available only between start_time and end_time . If any interview finishes at time T , then the other interviews can be started at time T or afterwards. Which of the following greedy strategies would you apply to schedule the interviews such that the maximum number of candidates can be interviewed without any conflicts?",
+      "type": "MCQ",
+      "options": [
+        "Always choose the candidate whose start_time is at the earliest.",
+        "Always choose the candidate who is available for the shortest time.",
+        "Always choose the candidate whose availability overlaps with the minimum number of other candidates.",
+        "Always choose the candidate whose end_time is the earliest."
+      ],
+      "correct_answer": "Always choose the candidate whose end_time is the earliest.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p7_Im4.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p7_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 43,
+      "text": "In an integer list L of length n , two elements L[i] and L[j] form an inversion if L[i] > L[j] and i < j . Consider a list L of length n in which all elements are distinct and the list L has [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p8_Im2.webp|inline] inversions. The minimum possible value of n is ___.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 44,
+      "text": "Which of the following statements is incorrect ?",
+      "type": "MCQ",
+      "options": [
+        "The worst case running time of Quick select algorithm to find the k th largest number is O ( n ).",
+        "The time taken to find the median in an unsorted list using the Median of Medians (MoM) algorithm is O ( n ).",
+        "Quick select algorithm is an example of the divide-and-conquer approach to solving problems.",
+        "Using Fast Select (Quick Select using MoM for pivot selection) strategy, the worst-case running time will be O ( n )."
+      ],
+      "correct_answer": "The worst case running time of Quick select algorithm to find the k th largest number is O ( n ).",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 45,
+      "text": "Consider the following recursive function to return the minimum element in the list L of size n . def find_min(L, low, high): if low == high: return L[low] mid = (low + high) // 2 min1 = find_min(L, low, mid) min2 = find_min(L, mid+1, high) return min(min1, min2) Which of the following represents the correct recurrence relation for the given function find_min ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im2.webp|inline] , [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im5.webp|inline] , [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im7.webp|inline] , [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im9.webp|inline] , [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im5.webp|inline] , [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im2.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im3.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im5.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im6.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im7.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im8.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im9.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 46,
+      "text": "Consider the following recurrences and choose the correct option. 1. [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im11.webp|inline] 2. [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im12.webp|inline] Base Case: [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im13.webp|inline]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im14.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im15.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im16.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p9_Im17.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p10_Im2.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p10_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p10_Im5.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p10_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2025T3_Q2_NA_p10_Im2.webp|inline] and [IMAGE: /data/images/cs2002_2025T3_Q2_NA_p10_Im3.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im11.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im12.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im13.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im14.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im15.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im16.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p9_Im17.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p10_Im2.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p10_Im3.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p10_Im5.webp",
+        "/data/images/cs2002_2025T3_Q2_NA_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    }
+  ],
+  "id": "cs2002-2025t3-q2-na",
+  "course_code": "CS2002",
+  "course_name": "Programming, Data Structures and Algorithms using Python",
+  "level": "Diploma in Programming",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

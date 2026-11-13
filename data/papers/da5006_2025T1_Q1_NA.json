@@ -1,0 +1,780 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)",
+  "filename": "da5006_2025T1_Q1_NA.pdf",
+  "total_questions": 37,
+  "total_marks": 60.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 153,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 154,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p1_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 155,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p2_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 156,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p2_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "30",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 157,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p3_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.34 to -0.33",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 158,
+      "text": "What is the size of the feature map after applying two successive convolution operations with given parameters? Image size = 64 x 64, Kernel size = 3 x 3, Padding = 2 and Stride = 3. (In calculation, take floor(x) whenever x is non-integer. If the answer is FxF, write F in the blank).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 159,
+      "text": "Let an input to a convolutional layer in a CNN have size D f \u00d7 D f \u00d7 M where D f = 32 and M = 100, and output feature map (after passing input through conv layer) has D f \u00d7 D f \u00d7 N size where N = 64. Let the kernel in the conv layer be k \u00d7 k where k = 5. Calculate the number of parameters for this convolution layer. (Assume appropriate padding is applied for all convolutions so the input and output sizes are equal. Ignore the bias term in the calculation)._________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "160000",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 160,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p4_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.260 to -0.210",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 161,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p4_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "119.33",
+        "110.5",
+        "134.25",
+        "0"
+      ],
+      "correct_answer": "119.33",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 162,
+      "text": "Which of the following statements is True ?",
+      "type": "MCQ",
+      "options": [
+        "Gaussian filter is Separable filter because it is non linear.",
+        "Median filter is a non separable filter",
+        "Gaussian filter is a High Pass filter.",
+        "Mean filter is a non separable filter because it is non linear"
+      ],
+      "correct_answer": "Median filter is a non separable filter",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 163,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p5_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0.18, 1.5, 1.5, 0.20,\u22121.5,\u22120.015",
+        "0.92, 2.5, 1, 2.5, 2.5, 1",
+        "0.18,\u22121.5, 0, 0.20, 0,\u22120.015",
+        "0.91, 1, 0, 0.2, 1, 1.7"
+      ],
+      "correct_answer": "0.18,\u22121.5, 0, 0.20, 0,\u22120.015",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 164,
+      "text": "Identify the correct sequence of steps in a Canny edge detection pipeline. Steps are listed below: 1. Compute gradient magnitude and direction 2. Connect individual components 3. Smoothen the image 4. Threshold into strong, weak, or no edge 5. Gaussian Filter and Hysteresis 6. Non-maximum suppression 7. Apply derivative to get edges",
+      "type": "MCQ",
+      "options": [
+        "6\u2192 1\u2192 4\u2192 5 \u2192 2",
+        "3\u2192 1\u2192 6\u2192 4 \u2192 2",
+        "3\u2192 5\u2192 1\u2192 4 \u2192 2",
+        "6\u2192 1\u2192 5\u2192 7 \u2192 2"
+      ],
+      "correct_answer": "3\u2192 1\u2192 6\u2192 4 \u2192 2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 165,
+      "text": "Identify the correct sequence of steps in Scale Invariant Feature Transform (SIFT) method. Steps listed below: 1. Keypoint Descriptor 2. Keypoint Localization 3. Scale-space Extrema Detection 4. Orientation Estimation",
+      "type": "MCQ",
+      "options": [
+        "4\u2192 2\u2192 1\u2192 3",
+        "3\u2192 2\u2192 4\u2192 1",
+        "3\u2192 1\u2192 2\u2192 4",
+        "None of these."
+      ],
+      "correct_answer": "3\u2192 2\u2192 4\u2192 1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 166,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p6_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 iii, 2\u2192 i, 3 \u2192 ii",
+        "1\u2192 iii, 2\u2192 ii, 3 \u2192 i",
+        "1\u2192 ii, 2\u2192 iii, 3 \u2192 ii",
+        "None of these"
+      ],
+      "correct_answer": "1\u2192 iii, 2\u2192 i, 3 \u2192 ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 167,
+      "text": "Suppose we have a codebook of 2048 SIFT visual words. We extract 1000 SIFT descriptors (SIFT is a 128-dimensional feature) from a new image. What is the dimensionality of the BoW (Bag-of-Words) descriptor?",
+      "type": "MCQ",
+      "options": [
+        "1000",
+        "128",
+        "128 \u00d7 2048",
+        "2048"
+      ],
+      "correct_answer": "2048",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 168,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 vi, 2\u2192 iii, 3\u2192 v, 4 \u2192 i",
+        "1\u2192 i, 2\u2192 iv, 3 \u2192 iii, 4\u2192 ii",
+        "1\u2192 i, 2\u2192 v, 3 \u2192 iii, 4\u2192 iv",
+        "1\u2192 iv, 2\u2192 iii, 3\u2192 ii, 4 \u2192 i"
+      ],
+      "correct_answer": "1\u2192 iv, 2\u2192 iii, 3\u2192 ii, 4 \u2192 i",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 169,
+      "text": "Consider a Convolutional Neural Network which processes an RGB image. It has 128 kernels each of spatial dimension 5 \u00d7 5 in the first layer. They are convolved with a stride 1. This is followed by a max-pooling layer with stride 2 and kernel size 5 \u00d7 5. What would be the receptive field size of a single neuron in the pooling layer? (Recap: A receptive field is the size of the region in the input image, which influences the activation of that specific neuron.)",
+      "type": "MCQ",
+      "options": [
+        "5 \u00d7 5",
+        "7 \u00d7 7",
+        "9 \u00d7 9",
+        "3 \u00d7 3"
+      ],
+      "correct_answer": "9 \u00d7 9",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 170,
+      "text": "Consider the following two statements. Which of the following statements are true? (a) Convolution operator is both commutative and associative. (b) Fourier transform of a convolved image FT (a * b), is not the product of the Fourier transform of the constituent images FT(a) x FT(b)",
+      "type": "MCQ",
+      "options": [
+        "a and b",
+        "not a but b",
+        "a but not b",
+        "Neither a nor b"
+      ],
+      "correct_answer": "a but not b",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 171,
+      "text": "A 3x3 kernel generates an output image of dimension 20x20 after convolution. The (approximate) number of computations performed to obtain this output image is:",
+      "type": "MCQ",
+      "options": [
+        "3600",
+        "180",
+        "400",
+        "9"
+      ],
+      "correct_answer": "3600",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 172,
+      "text": "Which of the following statements are True?",
+      "type": "MCQ",
+      "options": [
+        "Vanilla Gradient Descent converges faster than Momentum-based GD.",
+        "Momentum based GD oscillates around minima before convergence.",
+        "Noise in Stochastic Gradient descent weight updates \u2013 can lead to faster convergence.",
+        "None of these"
+      ],
+      "correct_answer": "Momentum based GD oscillates around minima before convergence.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 173,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p8_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 iii, 2\u2192 iv, 3\u2192 i, 4 \u2192 ii",
+        "1\u2192 iii, 2\u2192 i, 3 \u2192 ii, 4 \u2192v",
+        "1\u2192 iii, 2\u2192 iv, 3\u2192 v, 4 \u2192 ii",
+        "1\u2192 iv, 2\u2192 iii, 3\u2192 i, 4 \u2192 ii"
+      ],
+      "correct_answer": "1\u2192 iii, 2\u2192 iv, 3\u2192 v, 4 \u2192 ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 174,
+      "text": "Which of the following statements is false ?",
+      "type": "multichoice",
+      "options": [
+        "Linear contrast stretching is a local operation.",
+        "Moving average is an example of local operation.",
+        "Convolution in the spatial domain can be obtained through addition in the frequency domain.",
+        "All of these."
+      ],
+      "correct_answer": [
+        "Linear contrast stretching is a local operation.",
+        "Convolution in the spatial domain can be obtained through addition in the frequency domain."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 175,
+      "text": "Which of the following statements are false ?",
+      "type": "multichoice",
+      "options": [
+        "Momentum in optimization can cause oscillations around minima when encountering flat regions or saddle points due to the dominance of the momentum term over the small gradient.",
+        "Stochastic Gradient Descent (SGD) with its inherent noise can be beneficial in escaping local minima and saddle points, provided that there is enough gradient information in the neighborhood.",
+        "Adagrad is an optimization algorithm introduced to overcome the diminishing learning rate problem in techniques like RMSProp.",
+        "ADAM is introduced to solve problems in RMSProp by combining RMSProp and Adagrad techniques."
+      ],
+      "correct_answer": [
+        "Adagrad is an optimization algorithm introduced to overcome the diminishing learning rate problem in techniques like RMSProp.",
+        "ADAM is introduced to solve problems in RMSProp by combining RMSProp and Adagrad techniques."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 176,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p9_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p10_Im4.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p10_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p10_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p10_Im4.webp|block]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p9_Im3.webp",
+        "/data/images/da5006_2025T1_Q1_NA_p10_Im4.webp",
+        "/data/images/da5006_2025T1_Q1_NA_p10_Im5.webp",
+        "/data/images/da5006_2025T1_Q1_NA_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 177,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p10_Im7.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)"
+      ],
+      "correct_answer": [
+        "(a)",
+        "(d)"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p10_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 178,
+      "text": "Which of the following statements are true ? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p11_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p11_Im6.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p11_Im4.webp",
+        "/data/images/da5006_2025T1_Q1_NA_p11_Im5.webp",
+        "/data/images/da5006_2025T1_Q1_NA_p11_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 179,
+      "text": "Which of the following are true ? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p11_Im8.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p11_Im9.webp|inline] [IMAGE: /data/images/da5006_2025T1_Q1_NA_p11_Im10.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p11_Im8.webp|block]",
+        ""
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p11_Im8.webp",
+        "/data/images/da5006_2025T1_Q1_NA_p11_Im9.webp",
+        "/data/images/da5006_2025T1_Q1_NA_p11_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 180,
+      "text": "Enter the correct answer for blank (a) ____________ NOTE: Enter the exact answer without any extra space in the beginning or at the end. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "high",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p12_Im1.webp|block] Based on the above data answer the given subquestions.",
+      "group_id": "6406531130624",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 181,
+      "text": "Enter the correct answer for blank (b) ____________ NOTE: Enter the exact answer without any extra space in the beginning or at the end. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "high",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p12_Im1.webp|block] Based on the above data answer the given subquestions.",
+      "group_id": "6406531130624",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 182,
+      "text": "Enter the correct answer for blank (a) ____________ NOTE: Enter the exact answer without any extra space in the beginning or at the end. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "thick coarse large scale",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p13_Im1.webp|block] Based on the above data answer the given subquestions.",
+      "group_id": "6406531130627",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 183,
+      "text": "Enter the correct answer for blank (b) ____________ NOTE: Enter the exact answer without any extra space in the beginning or at the end. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "fine",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p13_Im1.webp|block] Based on the above data answer the given subquestions.",
+      "group_id": "6406531130627",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 184,
+      "text": "a 11 = ____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p14_Im1.webp|block] Based on the above data answer the given subquestions.",
+      "group_id": "6406531130631",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 185,
+      "text": "a 12 = ____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.5",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p14_Im1.webp|block] Based on the above data answer the given subquestions.",
+      "group_id": "6406531130631",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 186,
+      "text": "a 21 = ____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p14_Im1.webp|block] Based on the above data answer the given subquestions.",
+      "group_id": "6406531130631",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 187,
+      "text": "a 22 = ____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p14_Im1.webp|block] Based on the above data answer the given subquestions.",
+      "group_id": "6406531130631",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 188,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p16_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p16_Im1.webp",
+        "/data/images/da5006_2025T1_Q1_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p15_Im1.webp|block]",
+      "group_id": "6406531130646",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 189,
+      "text": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p16_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "55",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T1_Q1_NA_p16_Im2.webp",
+        "/data/images/da5006_2025T1_Q1_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T1_Q1_NA_p15_Im1.webp|block]",
+      "group_id": "6406531130646",
+      "section_name": "DL(CV)"
+    }
+  ],
+  "id": "da5006-2025t1-q1-na",
+  "course_code": "DA5006",
+  "course_name": "Deep Learning for Computer Vision",
+  "level": "Degree",
+  "term": "Jan 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

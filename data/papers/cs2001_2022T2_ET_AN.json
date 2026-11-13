@@ -1,0 +1,659 @@
+{
+  "title": "Database Management Systems - May 2022 End Term (Afternoon)",
+  "filename": "cs2001_2022T2_ET_AN.pdf",
+  "total_questions": 28,
+  "total_marks": 28.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 327,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the precision for the model when predicting the positive class (enter only the numerical value in percentage, without the \u201c%\u201d symbol and round it to two decimal places)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12.00 to 13.00",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 328,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_ET_AN_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 329,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_ET_AN_p1_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p1_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 330,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A role Department_Lead has the privilege of delete and update on all the tables of the database. A new role Employee1 is created, and the following statement is executed. grant Department_Lead to Employee1 What privileges will be inherited by Employee1 ?",
+      "type": "MCQ",
+      "options": [
+        "All privileges - select, insert, delete and update",
+        "Only select",
+        "Only delete and update",
+        "Only select and insert"
+      ],
+      "correct_answer": "Only delete and update",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 331,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following statements: Statement 1 : In case a transaction is not completely executed due to logical errors, the redo operation is used for transaction rollback. Statement 2 : A transaction T 1 needs to be undone, if it contains the record < T 1 , start > and also contains the record < T 1 , commit >. Statement 3 : A transaction T 1 needs to be redone, if it contains the record < T 1 , start >, but does not contain the record < T 1 , commit >. Statement 4 : When a transaction T 1 finishes its last statement successfully, the log record < T 1 , commit > is written. Which among the given statements is/are correct?",
+      "type": "MCQ",
+      "options": [
+        "Only statement 1",
+        "Statement 2 & 3",
+        "Statement 1 & 4",
+        "Only statement 4"
+      ],
+      "correct_answer": "Only statement 4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 332,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a relational schema student ( roll_no, name, class ). In order to insert a record in student table, which of the following category of SQL command is used for this purpose?",
+      "type": "MCQ",
+      "options": [
+        "DML",
+        "TCL",
+        "DDL",
+        "DCL"
+      ],
+      "correct_answer": "DML",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 333,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_ET_AN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p4_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p4_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p4_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p4_Im1.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p4_Im4.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p4_Im5.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 334,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the relation players (Name, Team, Coach, Runs) with the data: [IMAGE: /data/images/cs2001_2022T2_ET_AN_p5_Im1.webp|block] Check whether the relation players is in 4NF or not. If not, then decomposed it into 4NF. Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p6_Im1.webp|block] [IMAGE: /data/images/cs2001_2022T2_ET_AN_p6_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p6_Im4.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p5_Im1.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p6_Im1.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p6_Im3.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 335,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the given grocery table which represents the items purchased while grocery shopping [IMAGE: /data/images/cs2001_2022T2_ET_AN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p7_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p7_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p7_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p7_Im1.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p7_Im4.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p7_Im5.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 336,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following schedule S with four transactions T1, T2, T3,T4: S : R 3( A ); W 4( A ); R 2( A ); W 2( A ); R 4( B ); R 1( B ); Where, Ri(A) denotes a read operation by transaction Ti on a data item A, Wi(A) denotes a write operation by transaction Ti on a data item A. What is the possible number of conflict serializable schedule of the above schedule S ?",
+      "type": "MCQ",
+      "options": [
+        "4",
+        "3",
+        "1",
+        "0"
+      ],
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 337,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_ET_AN_p8_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p9_Im1.webp|block] [IMAGE: /data/images/cs2001_2022T2_ET_AN_p9_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p10_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p10_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p9_Im1.webp|block] [IMAGE: /data/images/cs2001_2022T2_ET_AN_p9_Im3.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p8_Im3.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p9_Im1.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p9_Im3.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p10_Im1.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p10_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 338,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the relation Car ( Car_num_plate,Engine_num,Model,Make, Fuel_type ). Construct a bitmap index for relation Car on the attribute Fuel_type .The number of records in the relation Car is x . The size of the bitmap index file is 1000 bytes. The attribute Fuel_type has 4 different values(i.e., Petrol, Diesel, CNG, Electric). The value of the x is",
+      "type": "MCQ",
+      "options": [
+        "250",
+        "500",
+        "1000",
+        "2000"
+      ],
+      "correct_answer": "2000",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 339,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a primary sparse index on the instructor table . The number of records in the instructor relation is 10000. The block size is 512 bytes. The record size is 32 bytes. The size of the search key is 16 bytes and the size of the block pointer is 14 bytes. The number of the blocks in the primary sparse indexing file is",
+      "type": "MCQ",
+      "options": [
+        "16",
+        "36",
+        "37",
+        "625"
+      ],
+      "correct_answer": "37",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 340,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the smartphone relation as shown below: smartphone ( IMEI , brand, color, price ) (Note: IMEI is the unique number of each smartphone.) Construct a B tree indexing of order 8 using search key as IMEI. If the size of the block is 1024 bytes. IMEI attribute is of varchar datatype and size is 13 bytes. The size of the tree pointer is 64 bytes. The size of the record pointer of a non-leaf node of the B tree is",
+      "type": "MCQ",
+      "options": [
+        "60 bytes",
+        "64 bytes",
+        "73 bytes",
+        "128 bytes"
+      ],
+      "correct_answer": "60 bytes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 341,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following case study: An IITM Online Degree Project needs a database to store information about instructors (identified by ins_id, name and phone as attributes), courses (identified by cid, cname and credits as attributes), and health information (identified by health_id and checkup_date as attributes). The instructor can work in various courses and courses can have more than one instructor; each course is managed by an instructor and an instructor can manage more than one courses. A health information must be identified uniquely by health_id when the instructor is known. We are not interested in information about a health record once the instructor leaves the organization. Choose the correct ER-Diagram based on the given information.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p13_Im1.webp|block] [IMAGE: /data/images/cs2001_2022T2_ET_AN_p13_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/cs2001_2022T2_ET_AN_p14_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/cs2001_2022T2_ET_AN_p14_Im3.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p13_Im1.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p13_Im3.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p14_Im1.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p14_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 342,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a RAID-4 system with 5 disks which stores the following data shown in Figure 3: [IMAGE: /data/images/cs2001_2022T2_ET_AN_p15_Im1.webp|block] According to the figure, Disk-3 has crashed. Identify the correct data present in the three blocks of Disk-3. Also, assuming that the binary values represent 8 bit ASCII code, identify the correct data word present inside the RAID-4 storage system. Consider the following statements and identify the correct statements. 1. Block A: 0100, Block B: 0110, Block C: 0101 2. Block A: 0100, Block B: 1011, Block C: 0010 3. Block A: 0100, Block B: 0100, Block C: 0101 4. The word is : \u2019leader\u2019 5. The word is: \u2019LEADER\u2019 Note : \u2022 Assuming block size is 4 bits. \u2022 Disk-5 is the parity disk. \u2022 The ASCII value of \u2019A\u2019 is 65 and \u2019a\u2019 is 97 .",
+      "type": "MCQ",
+      "options": [
+        "Statements 3 & 4",
+        "Statements 2 & 5",
+        "Statements 1 & 4",
+        "Statements 3 & 5"
+      ],
+      "correct_answer": "Statements 3 & 5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 343,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the given schedules S1 and S2 which performs independent tasks. [IMAGE: /data/images/cs2001_2022T2_ET_AN_p16_Im1.webp|block] Which among the following statement is correct?",
+      "type": "MCQ",
+      "options": [
+        "Both S1 and S2 follow the rigorous two-phase locking protocol.",
+        "Both S1 and S2 follow the Strict two-phase locking protocol.",
+        "Only S2 follows Strict two-phase locking protocol.",
+        "Only S1 follows Strict two-phase locking protocol."
+      ],
+      "correct_answer": "Only S2 follows Strict two-phase locking protocol.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 344,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the relation as shown in the table : [IMAGE: /data/images/cs2001_2022T2_ET_AN_p17_Im3.webp|block] Which of the following SQL statement gives the result given below? [IMAGE: /data/images/cs2001_2022T2_ET_AN_p17_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p18_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p18_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p18_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p18_Im4.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p17_Im3.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p17_Im4.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p18_Im2.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p18_Im4.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p18_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 345,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_ET_AN_p18_Im6.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p19_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p19_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p19_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p19_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p19_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p19_Im5.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p18_Im6.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p19_Im2.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p19_Im4.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p19_Im5.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p19_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 346,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Choose the correct sets of functional dependencies for the relation R ( A,B,C,D ) under which R is in 3NF but not in BCNF.",
+      "type": "multichoice",
+      "options": [
+        "{ AB \u2192 CD}",
+        "{ AB \u2192 CD,C \u2192 A}",
+        "{ AB \u2192 C,B \u2192 D,C \u2192 D}",
+        "{ AB \u2192 C,C \u2192 D,AB \u2192 D}"
+      ],
+      "correct_answer": [
+        "{ AB \u2192 CD,C \u2192 A}"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 347,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_ET_AN_p20_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The decomposition is lossless.",
+        "B \u2192 E",
+        "B \u2192 G",
+        "D \u2192 C",
+        "D \u2192 A"
+      ],
+      "correct_answer": [
+        "D \u2192 C",
+        "D \u2192 A"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p20_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 348,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a state of transactions as shown in Figure 2. [IMAGE: /data/images/cs2001_2022T2_ET_AN_p20_Im4.webp|block] According to the above figure, which among the following statement(s) is/are incorrect?",
+      "type": "multichoice",
+      "options": [
+        "The transaction T4 can be ignored.",
+        "The transactions that need to be undone are T2 and T5.",
+        "The transactions T1 and T3 can be ignored.",
+        "The transactions that need to be redone are T1 and T3."
+      ],
+      "correct_answer": [
+        "The transactions T1 and T3 can be ignored."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p20_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 349,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following schedule S with three transactions T1, T2 and T3: S : R 2( A ); W 2( A ); C 2; R 3( A ); W 3( A ); C 3; R 1( B ); W 1( B ); R 1( D ); C 1; Where Ri(A) denotes a read operation by transaction Ti on a data item X, Wi(A) denotes a write operation by transaction Ti on a data item A, Ci denotes a commit by Ti. Which among the following statement(s) is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "S is a recoverable schedule.",
+        "S is a non recoverable schedule.",
+        "S is a cascadeless schedule",
+        "S is a cascading rollback"
+      ],
+      "correct_answer": [
+        "S is a recoverable schedule.",
+        "S is a cascadeless schedule"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 350,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider two logs of transaction as shown below, where immediate database modification scheme is used in Table 1 and deferred database modification scheme is used in Table 2 . [IMAGE: /data/images/cs2001_2022T2_ET_AN_p22_Im1.webp|block] In Table 1 & Table 2, if a system crash occurs after the step 6 and the recovery of the system is successfully completed, identify the correct actions from the above diagram.",
+      "type": "multichoice",
+      "options": [
+        "After completion of recovery in immediate database modification scheme, the value of P , Q and R in the buffer will be 750, 1000 and 1000 respectively.",
+        "In Table 1, { T 0 } needs to be redone and { T 1 } needs to be undone.",
+        "After completion of recovery in immediate database modification scheme, the value of P , Q and R in the buffer will be 400, 800 and 1500 respectively",
+        "After completion of recovery in deferred database modification scheme, the value of A and B in the buffer will be 1600 and 1400 respectively"
+      ],
+      "correct_answer": [
+        "After completion of recovery in immediate database modification scheme, the value of P , Q and R in the buffer will be 400, 800 and 1500 respectively"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p22_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 351,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following relations: [IMAGE: /data/images/cs2001_2022T2_ET_AN_p23_Im1.webp|block] Choose the correct SQL statement(s) to find names of the music which were produced by producer name \u2019YourFavMusic.com\u2019 but the songs which were not sung by singer \u2019Lady Jaye\u2019.",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p23_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p23_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p23_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p23_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_ET_AN_p23_Im7.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_ET_AN_p23_Im1.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p23_Im5.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p23_Im6.webp",
+        "/data/images/cs2001_2022T2_ET_AN_p23_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 352,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following schedule S with four transactions T1, T2, T3 and T4: S : R 2( B ); R 1( B ); R 1( A ); W 1( A ); R 3( C ); W 3( C ); R 4( B ) The number of serial schedule for given schedule S is_______",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "24",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 353,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Construct a binary search tree by inserting the following values in the following order 30, 20, 27, 86, 103, 25, 60, 90, 10, 15. What is the sum of the key values in non-leaf (including root) nodes of the constructed binary search tree?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "276",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 354,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0",
+      "type": "MCQ",
+      "options": [],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    }
+  ],
+  "id": "cs2001-2022t2-et-an",
+  "course_code": "CS2001",
+  "course_name": "Database Management Systems",
+  "level": "Diploma in Programming",
+  "term": "May 2022",
+  "year": 2022,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

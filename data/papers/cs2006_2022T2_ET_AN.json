@@ -1,0 +1,803 @@
+{
+  "title": "App dev2",
+  "filename": "cs2006_2022T2_ET_AN.pdf",
+  "total_questions": 33,
+  "total_marks": 33.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 227,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2006_2022T2_ET_AN_p0_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p0_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 228,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true regarding JavaScript language?",
+      "type": "multichoice",
+      "options": [
+        "JavaScript is a low level programming language.",
+        "The \u201cconst\u201d keyword can be used to declare objects with block level scope.",
+        "Int, char are some primitive data types in the JavaScript language.",
+        "The JavaScript language supports both the first order and higher order functions."
+      ],
+      "correct_answer": [
+        "The \u201cconst\u201d keyword can be used to declare objects with block level scope.",
+        "The JavaScript language supports both the first order and higher order functions."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 229,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are false?",
+      "type": "multichoice",
+      "options": [
+        "A web application must implement token based authentication to make the application secure.",
+        "The JAMStack approach separates out the frontend from the backend, and they both can be updated/modified independently without affecting the other.",
+        "It is recommended to avoid the usage of verbs in the API data URLs.",
+        "The idea behind bringing an API is to implement caching."
+      ],
+      "correct_answer": [
+        "A web application must implement token based authentication to make the application secure.",
+        "The idea behind bringing an API is to implement caching."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 230,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true regarding Celery and Redis?",
+      "type": "multichoice",
+      "options": [
+        "A Celery system can only use Redis as the message broker.",
+        "A Celery system may consist of a number of batch jobs.",
+        "A Celery system needs worker(s) to execute tasks.",
+        "All of these"
+      ],
+      "correct_answer": [
+        "A Celery system may consist of a number of batch jobs.",
+        "A Celery system needs worker(s) to execute tasks."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 231,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true regarding webhooks and polling?",
+      "type": "multichoice",
+      "options": [
+        "A webhook uses HTTP protocol.",
+        "The term \u201cpolling\u201d generally refers to short polling.",
+        "Webhooks are used for 1 way communication, unlike web sockets.",
+        "In polling, the connection to the server is kept open, until the data is available."
+      ],
+      "correct_answer": [
+        "A webhook uses HTTP protocol.",
+        "The term \u201cpolling\u201d generally refers to short polling.",
+        "Webhooks are used for 1 way communication, unlike web sockets."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 232,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true regarding cookies?",
+      "type": "multichoice",
+      "options": [
+        "Cookies are stored on the server.",
+        "Cookies are stored on the browser.",
+        "Browser sends the cookies to the origin server automatically in general.",
+        "Client has to include cookies manually with the request, in general."
+      ],
+      "correct_answer": [
+        "Cookies are stored on the browser.",
+        "Browser sends the cookies to the origin server automatically in general."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 233,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true regarding OAuth?",
+      "type": "multichoice",
+      "options": [
+        "It is a protocol to allow access to resources, hosted on a different server, on behalf of a user.",
+        "It is used for authorization.",
+        "It is used for authentication.",
+        "None of these"
+      ],
+      "correct_answer": [
+        "It is a protocol to allow access to resources, hosted on a different server, on behalf of a user.",
+        "It is used for authorization."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 234,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is true regarding the Closure in JavaScript?",
+      "type": "multichoice",
+      "options": [
+        "Closure is the state of the outer function.",
+        "Closure is the state of a variable.",
+        "Closure is a function along with its lexical environment or surrounding state.",
+        "Closures are created every time a function is created in JavaScript."
+      ],
+      "correct_answer": [
+        "Closure is a function along with its lexical environment or surrounding state.",
+        "Closures are created every time a function is created in JavaScript."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 235,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following shows the correct output if the javascript program written below is executed? [IMAGE: /data/images/cs2006_2022T2_ET_AN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[1, 8, 125, 343, 512]",
+        "[8, 27, 64, 343, 512]",
+        "[8, 27, 125, 343, 512]",
+        "None of these"
+      ],
+      "correct_answer": "[8, 27, 125, 343, 512]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 236,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p5_Im1.webp|block] Suppose you open \u201cindex.html\u201d file in a browser, and type the text \u201cIIT Madras\u201d in the text box shown (after removing the previous text, if any), and hard refresh the page twice, without clicking anywhere. What will be the value shown in the text box, and the \u201cage\u201d placeholder, respectively?",
+      "type": "MCQ",
+      "options": [
+        "The app will show an error in the console",
+        "Default, Default",
+        "IIT, Madras",
+        "None of these"
+      ],
+      "correct_answer": "IIT, Madras",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 237,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is false regarding CORS and CSRF?",
+      "type": "MCQ",
+      "options": [
+        "The flask framework enforces CSRF protection by default.",
+        "The CORS mechanism allows a developer to secure a web application from external origins.",
+        "The CORS headers are generally prefixed with the value \u201cAccess-Control- Allow\u201d.",
+        "An anti CSRF token must be sent with the request, if CSRF protection is enabled."
+      ],
+      "correct_answer": "The flask framework enforces CSRF protection by default.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 238,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p7_Im1.webp|block] [IMAGE: /data/images/cs2006_2022T2_ET_AN_p7_Im2.webp|block] What will be the color of text rendered inside the div with ID \u201crun\u201d, if the user clicks on the button with text \u201cSix\u201d, 3 times and the button with text \u201cFour\u201d, 4 times?",
+      "type": "MCQ",
+      "options": [
+        "Black",
+        "Blue",
+        "White",
+        "None of these"
+      ],
+      "correct_answer": "Blue",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p7_Im1.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 239,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p8_Im2.webp|block] [IMAGE: /data/images/cs2006_2022T2_ET_AN_p9_Im1.webp|block] What will be the color and font-weight of the text \u201cIITM online degree\u201d?",
+      "type": "MCQ",
+      "options": [
+        "blue, normal",
+        "black, normal",
+        "blue, bold",
+        "black, bold"
+      ],
+      "correct_answer": "blue, bold",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p8_Im2.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 240,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p10_Im1.webp|block] [IMAGE: /data/images/cs2006_2022T2_ET_AN_p10_Im2.webp|block] What will be rendered on the screen?",
+      "type": "MCQ",
+      "options": [
+        "Rohit: 100/210 Kohli: 110/210",
+        "Rohit: 0.48 Kohli: 0.52",
+        "Rohit: 100 Kohli: 110",
+        "None of these"
+      ],
+      "correct_answer": "Rohit: 100/210 Kohli: 110/210",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p10_Im1.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 241,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p11_Im1.webp|block] [IMAGE: /data/images/cs2006_2022T2_ET_AN_p12_Im1.webp|block] What will be rendered inside the div with ID \u201ccollections\u201d, when the user selects the option \u201cType Two\u201d ?",
+      "type": "MCQ",
+      "options": [
+        "2 3 4 6 7",
+        "2 4 6",
+        "3 7",
+        "None of these"
+      ],
+      "correct_answer": "3 7",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p11_Im1.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 242,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p13_Im1.webp|block] Suppose the user types \u201cApple\u201d in the input box (after removing the existing text, if any). What will be rendered inside the div with ID \u201cresult\u201d?",
+      "type": "MCQ",
+      "options": [
+        "Searching for:",
+        "Apple",
+        "Searching for: \u2018type something \u2026\u2019",
+        "Searching for: Apple"
+      ],
+      "correct_answer": "Searching for: Apple",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 243,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p14_Im2.webp|block] [IMAGE: /data/images/cs2006_2022T2_ET_AN_p15_Im1.webp|block] Suppose the application is running on \u2018http://127.0.0.1:8080/\u2019. If the user visits the application for the first time and clicks on the button \u201cGo to profile\u201d, what will be displayed on the screen?",
+      "type": "MCQ",
+      "options": [
+        "Welcome narendra",
+        "Welcome",
+        "narendra",
+        "None of these"
+      ],
+      "correct_answer": "Welcome narendra",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p14_Im2.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 244,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p16_Im1.webp|block] [IMAGE: /data/images/cs2006_2022T2_ET_AN_p17_Im1.webp|block] Suppose the application is running on \u2018http://127.0.0.1:8080/\u2019. What will be rendered for the URL \u201c http://127.0.0.1:8080/#/\u201d ?",
+      "type": "MCQ",
+      "options": [
+        "Movies",
+        "Movies Some Error",
+        "Movies Soley",
+        "Movies Dexter"
+      ],
+      "correct_answer": "Movies Some Error",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p16_Im1.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 245,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p19_Im1.webp|block] What will be rendered inside the \u201ccustom-comp\u201d component?",
+      "type": "MCQ",
+      "options": [
+        "Welcome Rohit Sharma",
+        "Welcome Virat Kohli",
+        "Welcome",
+        "None of these"
+      ],
+      "correct_answer": "Welcome Virat Kohli",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 246,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is the correct way to do class binding in Vue (to apply \u2018classA\u2019 on the div element), if the data object in the Vue constructor is defined as below? [IMAGE: /data/images/cs2006_2022T2_ET_AN_p20_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2022T2_ET_AN_p20_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2022T2_ET_AN_p20_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2022T2_ET_AN_p20_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2022T2_ET_AN_p20_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2022T2_ET_AN_p20_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2022T2_ET_AN_p20_Im6.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p20_Im1.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p20_Im3.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p20_Im5.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p20_Im6.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p20_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 247,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are false?",
+      "type": "multichoice",
+      "options": [
+        "The server sent events is a mechanism for a server to push events, and it must require service workers on the client to function properly.",
+        "In general, a webhook is meant to pull message(s) from an application.",
+        "The usage of a message broker over \u201cpoint-to-point\u201d communication makes the application scalable.",
+        "There is no difference between webhooks and short polling."
+      ],
+      "correct_answer": [
+        "In general, a webhook is meant to pull message(s) from an application.",
+        "There is no difference between webhooks and short polling."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 248,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true regarding Celery and Redis, assuming a task named \u201csend_email\u201d is defined using 2 approaches given below? Approach 1: send_email.delay() Approach 2: send_email.apply_async(countdown = 10)",
+      "type": "multichoice",
+      "options": [
+        "The approach 1 will wait for a user input before dispatching the task to the celery system.",
+        "The approach 2 will dispatch the task to the celery system after waiting for 10 seconds, and start the execution, assuming a worker is available.",
+        "The approach 2 will immediately dispatch the task to the celery system, but start the execution after waiting for 10 seconds, assuming a worker is available.",
+        "The approach 1 will immediately dispatch the task to the celery system, and start the execution, assuming a worker is available."
+      ],
+      "correct_answer": [
+        "The approach 2 will immediately dispatch the task to the celery system, but start the execution after waiting for 10 seconds, assuming a worker is available.",
+        "The approach 1 will immediately dispatch the task to the celery system, and start the execution, assuming a worker is available."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 249,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are false regarding Vuex and Vue router?",
+      "type": "multichoice",
+      "options": [
+        "In general, an application should have separate Vuex stores for all the components.",
+        "A path defined in the routes array in Vue router can consist of a number of children paths.",
+        "The wildcard (*) should be put at the top of the routes array in the Vue router, so that it matches with all the paths, which are not implemented.",
+        "A Vuex store must be used with all Vue applications."
+      ],
+      "correct_answer": [
+        "In general, an application should have separate Vuex stores for all the components.",
+        "The wildcard (*) should be put at the top of the routes array in the Vue router, so that it matches with all the paths, which are not implemented.",
+        "A Vuex store must be used with all Vue applications."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 250,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true regarding fetch API?",
+      "type": "multichoice",
+      "options": [
+        "The credentials property of the Request interface allows the user agent to send or receive cookies in cross-origin requests.",
+        "The value \u201comit\u201d of \u201ccredentials\u201d will force the browser not to send cookies with the request.",
+        "The value \u201cinclude\u201d of \u201ccredentials\u201d will allow the browser to send credentials even in cross-origin requests.",
+        "The value \u201cinclude\u201d of \u201ccredentials\u201d will allow the browser to send credentials only for same origin requests."
+      ],
+      "correct_answer": [
+        "The credentials property of the Request interface allows the user agent to send or receive cookies in cross-origin requests.",
+        "The value \u201comit\u201d of \u201ccredentials\u201d will force the browser not to send cookies with the request.",
+        "The value \u201cinclude\u201d of \u201ccredentials\u201d will allow the browser to send credentials even in cross-origin requests."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 251,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following shows the correct output, if the javascript program written below is executed? [IMAGE: /data/images/cs2006_2022T2_ET_AN_p23_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Failed: 2 About to finish Finished !! Over",
+        "Passed: 0 About to finish Finished !! undefined",
+        "Passed: 0 About to finish Finished !! Over",
+        "Failed: 8 About to finish Finished !! undefined"
+      ],
+      "correct_answer": "Failed: 8 About to finish Finished !! undefined",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p23_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 252,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2006_2022T2_ET_AN_p24_Im1.webp|block] [IMAGE: /data/images/cs2006_2022T2_ET_AN_p25_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2022T2_ET_AN_p26_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2006_2022T2_ET_AN_p26_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2006_2022T2_ET_AN_p26_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p24_Im1.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p25_Im1.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p26_Im2.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p26_Im3.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p26_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 253,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following javascript program, and predict the output, if executed. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p27_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "10 30",
+        "10 20",
+        "10 undefined",
+        "The program will raise an error"
+      ],
+      "correct_answer": "10 20",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p27_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 254,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following javascript program, and predict the output, if executed. Also, predict the minimum time taken (in seconds) to log the value \u201cExecuting\u201d on the console. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p28_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Executing Execution Started Excution Started Time: 2 seconds",
+        "Execution Started Excution Startd Executing Time: 2 seconds",
+        "Executing Execution Started Excution Started Time: 0 seconds",
+        "Execution Started Excution Started Executing Time: 0 seconds"
+      ],
+      "correct_answer": "Executing Execution Started Excution Started Time: 0 seconds",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p28_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 255,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following JavaScript program. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p29_Im1.webp|block] What will be logged on to the console?",
+      "type": "MCQ",
+      "options": [
+        "[\u2018Outer\u2019, 2, 1]",
+        "[\u2018Outer\u2019, 1, 2]",
+        "[2, 1, \u2018Outer\u2019]",
+        "[\u2018Outer\u2019]"
+      ],
+      "correct_answer": "[\u2018Outer\u2019]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p29_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 256,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p30_Im1.webp|block] [IMAGE: /data/images/cs2006_2022T2_ET_AN_p30_Im2.webp|block] What will be rendered inside the div for ID \u201crun\u201d, if the user clicks on the button with text \u201cSix\u201d, 3 times and the button with text \u201cFour\u201d, 4 times?",
+      "type": "MCQ",
+      "options": [
+        "24",
+        "34",
+        "48",
+        "None of these"
+      ],
+      "correct_answer": "24",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p30_Im1.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p30_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 257,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p32_Im1.webp|block] [IMAGE: /data/images/cs2006_2022T2_ET_AN_p33_Im1.webp|block] What will be rendered inside the div with ID \u201ccollections\u201d, when the browser loads the application for the first time?",
+      "type": "MCQ",
+      "options": [
+        "2 3 4 6 7",
+        "2 4 6",
+        "3 7",
+        "None of these"
+      ],
+      "correct_answer": "2 4 6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p32_Im1.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p33_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 258,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_ET_AN_p34_Im1.webp|block] [IMAGE: /data/images/cs2006_2022T2_ET_AN_p35_Im1.webp|block] What will be rendered inside the router-view component of Movies component for the URL \u201c http://127.0.0.1:8080/#/hindi\u201d?",
+      "type": "MCQ",
+      "options": [
+        "Some Error",
+        "Soley",
+        "Dexter",
+        "None of these"
+      ],
+      "correct_answer": "Dexter",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_ET_AN_p34_Im1.webp",
+        "/data/images/cs2006_2022T2_ET_AN_p35_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 259,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are correct regarding cookies, local storage, and session storage?",
+      "type": "MCQ",
+      "options": [
+        "The local storage is a browser based persistent storage.",
+        "Cookies are preferred over session or local storage, when the data needs to be sent with every request.",
+        "The cookies can be set from the server as well as using javascript on the client.",
+        "All of these"
+      ],
+      "correct_answer": "All of these",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "App dev2"
+    }
+  ],
+  "id": "cs2006-2022t2-et-an",
+  "course_code": "CS2006",
+  "course_name": "Application Development 2",
+  "level": "Diploma in Programming",
+  "term": "May 2022",
+  "year": 2022,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

@@ -1,0 +1,388 @@
+{
+  "title": "FOUNDATION LEVEL: STATISTICS FOR DATA SCIENCE I (COMPUTER BASED EXAM)",
+  "filename": "bsma1002_2026T1_Q1_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"FOUNDATION LEVEL: STATISTICS FOR DATA SCIENCE I (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "A group of students were asked about their preferred fruit, and their responses are recorded and shown in Table 1: [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p2_Im3.webp|block] Identify the correct pie chart and bar chart based on the given data: [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p3_Im1.webp|block] [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p3_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Pie Chart A and Bar Chart A",
+        "Pie Chart A and Bar Chart B",
+        "Pie Chart B and Bar Chart A",
+        "Pie Chart B and Bar Chart B"
+      ],
+      "correct_answer": "Pie Chart A and Bar Chart A",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T1_Q1_NA_p2_Im3.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p3_Im1.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Match the data types listed in Column A with the corresponding measurement scales in Column B, as shown in Table 2. [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-D, 2-C, 3-B, 4-A",
+        "1-D, 2-C, 3-A, 4-B",
+        "1-D, 2-A, 3-C, 4-B",
+        "1-D, 2-A, 3-B, 4-C"
+      ],
+      "correct_answer": "1-D, 2-A, 3-C, 4-B",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T1_Q1_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Choose the correct statement(s).",
+      "type": "multichoice",
+      "options": [
+        "For representing ordinal data, a Pareto chart is more suitable than a standard bar chart.",
+        "A stacked bar chart can be used to represent the association between two categorical variables.",
+        "A scatter plot can be used to represent the association between two numerical variables.",
+        "A pie chart is more suitable than a bar chart for representing data with a large number of categories."
+      ],
+      "correct_answer": [
+        "For representing ordinal data, a Pareto chart is more suitable than a standard bar chart.",
+        "A stacked bar chart can be used to represent the association between two categorical variables.",
+        "A scatter plot can be used to represent the association between two numerical variables."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "[IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p5_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The sample consists of all residents in that district.",
+        "The diet-quality scores are measured on an ordinal scale.",
+        "The population consists of all residents of the district.",
+        "Concluding that \u201cresidents in the district generally follow a Healthy diet\u2019\u2019 is an example of descriptive statistics."
+      ],
+      "correct_answer": [
+        "The diet-quality scores are measured on an ordinal scale.",
+        "The population consists of all residents of the district."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T1_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Which of the following statement(s) is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "The weight of luggage carried by passengers is a numerical and continuous variable.",
+        "Restaurant ratings (poor, fair, good, excellent) represent a categorical variable",
+        "The brand of mobile phone used by students is a numerical variable.",
+        "The number of books read by a student in a month is a numerical and discrete variable."
+      ],
+      "correct_answer": [
+        "The weight of luggage carried by passengers is a numerical and continuous variable.",
+        "Restaurant ratings (poor, fair, good, excellent) represent a categorical variable",
+        "The number of books read by a student in a month is a numerical and discrete variable."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Which of the following statement(s) is/are true about the Point Bi-serial correlation coefficient?",
+      "type": "multichoice",
+      "options": [
+        "It is the measure of association between one numerical variable and one binary categorical variable.",
+        "It is the measure of association between two nominal categorical variables.",
+        "It is the measure used only when both variables are continuous.",
+        "It is a special case of the Pearson correlation coefficient."
+      ],
+      "correct_answer": [
+        "It is the measure of association between one numerical variable and one binary categorical variable.",
+        "It is a special case of the Pearson correlation coefficient."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Among those diagnosed with heart disease, what is the percentage of those who also have diabetes?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "60",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T1_Q1_NA_p6_Im1.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The association between diabetes and heart disease for a sample population of [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p6_Im1.webp|inline] is summarized in Table 3. [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p6_Im2.webp|block] Based on the given information, answer the given sub-questions:",
+      "group_id": "6406531951241",
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Among those who do not have diabetes, what is the percentage of people who have heart disease? Enter the answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11.40 to 11.46",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T1_Q1_NA_p6_Im1.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The association between diabetes and heart disease for a sample population of [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p6_Im1.webp|inline] is summarized in Table 3. [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p6_Im2.webp|block] Based on the given information, answer the given sub-questions:",
+      "group_id": "6406531951241",
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Find the total number of products purchased by Sneha and Nikita together.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T1_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The number of products purchased by each individual customer is shown in Table 4. [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p7_Im1.webp|block] Based on the given information, answer the given sub-questions:",
+      "group_id": "6406531951244",
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "What is the value of [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p7_Im2.webp|inline] ? Enter the answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.30 to 0.32",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T1_Q1_NA_p7_Im2.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The number of products purchased by each individual customer is shown in Table 4. [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p7_Im1.webp|block] Based on the given information, answer the given sub-questions:",
+      "group_id": "6406531951244",
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Find the value of [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p8_Im1.webp|inline] . Enter the answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.27 to 0.29",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T1_Q1_NA_p8_Im1.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The number of products purchased by each individual customer is shown in Table 4. [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p7_Im1.webp|block] Based on the given information, answer the given sub-questions:",
+      "group_id": "6406531951244",
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "A dataset contains the following 9 observations: 15, 25, 29, 23, 35, 42, 31, 54, 60 Find the Inter quartile Range (IQR) of the given dataset.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "17",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "The baking time (in minutes) and the corresponding texture rating (on a scale of 1\u201310) for four baked items are shown in Table 5. [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p9_Im1.webp|block] Let [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p9_Im2.webp|inline] represent the correlation coefficient between baking time and texture rating. Which of the following statement (s) is/are true?",
+      "type": "multichoice",
+      "options": [
+        "The approximate value of [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p9_Im4.webp|inline] is 0.30 and indicates a weak positive correlation.",
+        "The approximate value of [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p9_Im6.webp|inline] is 0.99 and indicates a strong positive correlation.",
+        "The relationship between baking time and texture rating shows a negative correlation, suggesting that longer baking times result in lower texture ratings.",
+        "The positive value of [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p9_Im7.webp|inline] indicates that as baking time increases, the texture rating tends to increase."
+      ],
+      "correct_answer": [
+        "The approximate value of [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p9_Im6.webp|inline] is 0.99 and indicates a strong positive correlation.",
+        "The positive value of [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p9_Im7.webp|inline] indicates that as baking time increases, the texture rating tends to increase."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T1_Q1_NA_p9_Im1.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p9_Im2.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p9_Im4.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p9_Im6.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "[IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "155",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T1_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider the following dataset: 110, 135, 140, 145, 152, 166, 170, 190, 200, 210 Find the median of the given dataset.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "159",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "[IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p11_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "If [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p11_Im3.webp|inline] , then the Cov [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p11_Im4.webp|inline] .",
+        "[IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p11_Im6.webp|inline]",
+        "Cov [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p11_Im7.webp|inline] = Cov [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p11_Im8.webp|inline]",
+        "Correlation is a unitless measure of association."
+      ],
+      "correct_answer": [
+        "If [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p11_Im3.webp|inline] , then the Cov [IMAGE: /data/images/bsma1002_2026T1_Q1_NA_p11_Im4.webp|inline] .",
+        "Correlation is a unitless measure of association."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T1_Q1_NA_p11_Im1.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p11_Im3.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p11_Im4.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p11_Im6.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p11_Im7.webp",
+        "/data/images/bsma1002_2026T1_Q1_NA_p11_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    }
+  ],
+  "id": "bsma1002-2026t1-q1-na",
+  "course_code": "BSMA1002",
+  "course_name": "Statistics for Data Science 1",
+  "level": "Foundation",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

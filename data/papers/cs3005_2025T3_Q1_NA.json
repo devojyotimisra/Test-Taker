@@ -1,0 +1,405 @@
+{
+  "title": "DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)",
+  "filename": "cs3005_2025T3_Q1_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 46.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 116,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 117,
+      "text": "Which of the following correctly ranks the memory units from fastest to slowest access time?",
+      "type": "MCQ",
+      "options": [
+        "Cache \u2192 Registers \u2192 RAM \u2192 Hard Disk \u2192 Optical Disk",
+        "Registers \u2192 Cache \u2192 RAM \u2192 SSD \u2192 Hard Disk",
+        "RAM \u2192 Registers \u2192 Cache \u2192 SSD \u2192 Hard Disk",
+        "Registers \u2192 RAM \u2192 Cache \u2192 HDD \u2192 SSD"
+      ],
+      "correct_answer": "Registers \u2192 Cache \u2192 RAM \u2192 SSD \u2192 Hard Disk",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 118,
+      "text": "In an N-bit signed integer representation using 2\u2019s complement, what is the range of values?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p2_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p2_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p2_Im2.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_Q1_NA_p2_Im2.webp",
+        "/data/images/cs3005_2025T3_Q1_NA_p2_Im4.webp",
+        "/data/images/cs3005_2025T3_Q1_NA_p2_Im5.webp",
+        "/data/images/cs3005_2025T3_Q1_NA_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 119,
+      "text": "Which of the following statements about Boolean conditions in C is true ?",
+      "type": "MCQ",
+      "options": [
+        "In C, 0 represents true, and any non-zero value represents false.",
+        "In C, 0 represents false, and any non-zero value represents true.",
+        "C treats only positive integers as true.",
+        "In C, positive integers represent true, and negative integers represent false."
+      ],
+      "correct_answer": "In C, 0 represents false, and any non-zero value represents true.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 120,
+      "text": "The decimal number 2748 is represented in hexadecimal as:",
+      "type": "MCQ",
+      "options": [
+        "0xABC",
+        "0xABD",
+        "0xABE",
+        "0xABF"
+      ],
+      "correct_answer": "0xABC",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 121,
+      "text": "What is the minimum number of bits required to represent all integer values from \u2212120 to +120 in a signed binary representation?",
+      "type": "MCQ",
+      "options": [
+        "5 Bits",
+        "6 bits",
+        "7 bits",
+        "8 bits",
+        "9 bits"
+      ],
+      "correct_answer": "8 bits",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 122,
+      "text": "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "a = 13, b = -4, c = 12",
+        "a = 12, b = -3, c = 11",
+        "a = 14, b = -5, c = 13",
+        "a = 11, b = -2, c = 10"
+      ],
+      "correct_answer": "a = 13, b = -4, c = 12",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_Q1_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 123,
+      "text": "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "100",
+        "200",
+        "300",
+        "400"
+      ],
+      "correct_answer": "400",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_Q1_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 124,
+      "text": "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p4_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "6 5 4",
+        "6 4 5",
+        "6 3 5",
+        "6 5 3"
+      ],
+      "correct_answer": "6 5 3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_Q1_NA_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 125,
+      "text": "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Sum of first N natural numbers",
+        "Sum of squares of first N natural numbers",
+        "Sum of cubes of first N natural numbers",
+        "Factorial of N"
+      ],
+      "correct_answer": "Sum of squares of first N natural numbers",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 126,
+      "text": "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0 1 2 5 6",
+        "0 1 5 6",
+        "1 2 3 6",
+        "1 2 3 5 6"
+      ],
+      "correct_answer": "1 2 3 6",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 127,
+      "text": "Which of the following are key functions of the Arithmetic Logic Unit (ALU)?",
+      "type": "multichoice",
+      "options": [
+        "Addition and subtraction",
+        "Logical comparisons (>, <, =)",
+        "Memory storage management",
+        "Multiplication and division",
+        "Instruction decoding"
+      ],
+      "correct_answer": [
+        "Addition and subtraction",
+        "Logical comparisons (>, <, =)",
+        "Multiplication and division"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 128,
+      "text": "Which statement is true about short-circuit evaluation in C?",
+      "type": "multichoice",
+      "options": [
+        "In expr1 && expr2, if expr1 is false, expr2 is not evaluated.",
+        "In expr1 || expr2, if expr1 is true, expr2 is not evaluated.",
+        "In expr1 && expr2, if expr1 is true, expr2 is not evaluated.",
+        "In expr1 || expr2, if expr1 is false, expr2 is not evaluated."
+      ],
+      "correct_answer": [
+        "In expr1 && expr2, if expr1 is false, expr2 is not evaluated.",
+        "In expr1 || expr2, if expr1 is true, expr2 is not evaluated."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 129,
+      "text": "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p7_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p7_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p7_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p7_Im8.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_Q1_NA_p7_Im3.webp",
+        "/data/images/cs3005_2025T3_Q1_NA_p7_Im5.webp",
+        "/data/images/cs3005_2025T3_Q1_NA_p7_Im6.webp",
+        "/data/images/cs3005_2025T3_Q1_NA_p7_Im7.webp",
+        "/data/images/cs3005_2025T3_Q1_NA_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 130,
+      "text": "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p8_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "a = 6, b = 4",
+        "a = 3, b = 5",
+        "a = 2, b = -3",
+        "a = 4, b = 6"
+      ],
+      "correct_answer": [
+        "a = 2, b = -3",
+        "a = 4, b = 6"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 131,
+      "text": "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p9_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "13",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 132,
+      "text": "[IMAGE: /data/images/cs3005_2025T3_Q1_NA_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3005_2025T3_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Programming in C"
+    }
+  ],
+  "id": "cs3005-2025t3-q1-na",
+  "course_code": "CS3005",
+  "course_name": "Programming in C",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

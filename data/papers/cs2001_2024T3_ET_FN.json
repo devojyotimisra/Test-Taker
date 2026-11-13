@@ -1,0 +1,534 @@
+{
+  "title": "DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)",
+  "filename": "cs2001_2024T3_ET_FN.pdf",
+  "total_questions": 21,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 130,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 131,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "team",
+        "rating",
+        "age",
+        "type"
+      ],
+      "correct_answer": "type",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 132,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p2_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p3_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p3_Im4.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p2_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p2_Im4.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p2_Im5.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p3_Im2.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p3_Im3.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 133,
+      "text": "Consider seek time of your hard disk read head is 2ms, rotational speed is 60,000 RPM. The disk has 300 sectors/track and sector size is 256 bytes. What will be the transfer rate (KB/ms)?",
+      "type": "MCQ",
+      "options": [
+        "75 KB/ms",
+        "25 KB/ms",
+        "50 KB/ms",
+        "100 KB/ms"
+      ],
+      "correct_answer": "75 KB/ms",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 134,
+      "text": "Consider a non-empty B+-tree of order 13. What are the maximum and minimum number of keys that can be placed in the root node?",
+      "type": "MCQ",
+      "options": [
+        "max. number of keys = 13, min. number of keys = 6.",
+        "max. number of keys = 12, min. number of keys = 1.",
+        "max. number of keys = 14, min. number of keys = 1.",
+        "max. number of keys = 14, min. number of keys = 7."
+      ],
+      "correct_answer": "max. number of keys = 12, min. number of keys = 1.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 135,
+      "text": "Consider a multilevel index with five levels as L1, L2, L3, L4 and L5. Let L1 be the innermost and L5 be the outermost levels. Let the index blocking factor or the maximum number of entries held by a block be 50. If the number of blocks in level L1 is 62,50,000, then how many blocks are required at L2, L3, L4 and L5?",
+      "type": "MCQ",
+      "options": [
+        "Number of blocks at L2 is 125000, Number of blocks at L3 is 2500, Number of blocks at L4 is 50, Number of blocks at L5 is 1",
+        "Number of blocks at L2 is 125000, Number of blocks at L3 is 2000, Number of blocks at L4 is 50, Number of blocks at L5 is 1",
+        "Number of blocks at L2 is 120000, Number of blocks at L3 is 2400, Number of blocks at L4 is 40, Number of blocks at L5 is 1",
+        "Number of blocks at L2 is 120000, Number of blocks at L3 is 3000, Number of blocks at L4 is 60, Number of blocks at L5 is 1"
+      ],
+      "correct_answer": "Number of blocks at L2 is 125000, Number of blocks at L3 is 2500, Number of blocks at L4 is 50, Number of blocks at L5 is 1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 136,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p4_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "correct_answer": "3",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 137,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "correct_answer": "5",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 138,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A = 1000, B = 750, C = 1700, D = 710",
+        "A = 1000, B = 750, C = 1700, D = 690",
+        "A = 1000, B = 350, C = 1700, D = 710",
+        "A = 1000, B = 350, C = 1700, D = 690"
+      ],
+      "correct_answer": "A = 1000, B = 750, C = 1700, D = 710",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 139,
+      "text": "Consider the following statements: 1. Hot backup refers to keeping a database up and running while the backup is being performed concurrently. 2. Cold backup is mainly used for Transaction Log Backup. 3. Transactional Logging is used in circumstances where a possibly inconsistent backup is taken. Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "Statements 1 and 2 are correct",
+        "Statements 1 and 3 are correct",
+        "All the statements are correct",
+        "Only Statement 1 is correct"
+      ],
+      "correct_answer": "Statements 1 and 3 are correct",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 140,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p6_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "T2 can be ignored and T3 needs to be redone.",
+        "T4 needs to be undone and T5 needs to be redone.",
+        "T1 needs to be redone and T4 can be undone.",
+        "T3 needs to be undone and T4 needs to be redone."
+      ],
+      "correct_answer": [
+        "T2 can be ignored and T3 needs to be redone.",
+        "T1 needs to be redone and T4 can be undone."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 141,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p7_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "A precedence graph of the schedule is acyclic",
+        "The given schedule is not view serializable",
+        "The given schedule is view serializable but not conflict serializable",
+        "The given schedule is view serializable and conflict serializable"
+      ],
+      "correct_answer": [
+        "A precedence graph of the schedule is acyclic",
+        "The given schedule is view serializable and conflict serializable"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 142,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p7_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "S1 and S2 are conflict equivalent.",
+        "S1 and S2 are not conflict equivalent.",
+        "S1 and S2 are view equivalent.",
+        "S1 and S2 are not view equivalent."
+      ],
+      "correct_answer": [
+        "S1 and S2 are conflict equivalent.",
+        "S1 and S2 are view equivalent."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 143,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p8_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p8_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p8_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p8_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p8_Im7.webp|block]",
+        ""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p8_Im1.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p8_Im4.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p8_Im6.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 144,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p9_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p9_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p9_Im4.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p9_Im1.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p9_Im3.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p9_Im4.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p9_Im6.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 145,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p9_Im8.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p10_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p10_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p10_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p10_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p10_Im5.webp|block]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p9_Im8.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p10_Im2.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p10_Im3.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p10_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 146,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p10_Im6.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The decomposition of R into R1 and R2 is dependency preserving.",
+        "The decomposition of R into R1 and R2 is lossless.",
+        "The schema R1 is in 3NF.",
+        "The schema R2 is in 2NF."
+      ],
+      "correct_answer": [
+        "The decomposition of R into R1 and R2 is dependency preserving.",
+        "The schema R1 is in 3NF.",
+        "The schema R2 is in 2NF."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 147,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p11_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "A bank offers more than one loan",
+        "An account is managed by more than one bank",
+        "Every loan must be availed by at least one customer",
+        "Every customer must be holding at least one account"
+      ],
+      "correct_answer": [
+        "A bank offers more than one loan",
+        "Every customer must be holding at least one account"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 148,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p12_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p12_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p12_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p12_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p12_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p12_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p12_Im7.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p12_Im1.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p12_Im3.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p12_Im5.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p12_Im6.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p12_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 149,
+      "text": "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p12_Im8.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p12_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p13_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p13_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p13_Im5.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p12_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p13_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2024T3_ET_FN_p13_Im5.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2024T3_ET_FN_p12_Im8.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p12_Im9.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p13_Im2.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p13_Im4.webp",
+        "/data/images/cs2001_2024T3_ET_FN_p13_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 150,
+      "text": "Consider a Block nested loop join for the two relations, instructor and department . Assuming the worst-case memory availability and instructor as the outer relation, the provided details are as follows: \u2022 Total number of block transfers: 25000 \u2022 Total number of seeks required: 500 \u2022 Number of block in the outer relation: 250 What is the number of blocks in the inner relation?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "100",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    }
+  ],
+  "id": "cs2001-2024t3-et-fn",
+  "course_code": "CS2001",
+  "course_name": "Database Management Systems",
+  "level": "Diploma in Programming",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

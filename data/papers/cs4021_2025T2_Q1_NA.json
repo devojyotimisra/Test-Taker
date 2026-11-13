@@ -1,0 +1,638 @@
+{
+  "title": "DEGREE LEVEL :ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
+  "filename": "cs4021_2025T2_Q1_NA.pdf",
+  "total_questions": 27,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 107,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL :ADVANCED ALGORITHMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 108,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p1_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p1_Im2.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p1_Im1.webp|block]",
+      "group_id": "6406531279443",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 109,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p1_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p1_Im5.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p1_Im1.webp|block]",
+      "group_id": "6406531279443",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 110,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p1_Im6.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p1_Im6.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p1_Im1.webp|block]",
+      "group_id": "6406531279443",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 111,
+      "text": "There is a polynomial-time reduction from BoxDepth to MaxClique.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider the given problem, called BoxDepth: Given a set of n axis-aligned rectangles in the plane, how big is the largest subset of these rectangles that contain a common point? For each statement given in the subquestions, determine if it is true or false.",
+      "group_id": "6406531279447",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 112,
+      "text": "There is a polynomial-time algorithm for BoxDepth.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider the given problem, called BoxDepth: Given a set of n axis-aligned rectangles in the plane, how big is the largest subset of these rectangles that contain a common point? For each statement given in the subquestions, determine if it is true or false.",
+      "group_id": "6406531279447",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 113,
+      "text": "Only one of the statements in the previous question can be true assuming P \u2260 NP .",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider the given problem, called BoxDepth: Given a set of n axis-aligned rectangles in the plane, how big is the largest subset of these rectangles that contain a common point? For each statement given in the subquestions, determine if it is true or false.",
+      "group_id": "6406531279447",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 114,
+      "text": "Suppose your friend comes up with an algorithm to solve Partition in time O(nM) , where n is the size of the input set and M is the sum of the absolute values of its elements. Which of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "Such an algorithm cannot be possibly correct, since it runs in polynomial time and Partition is NP-hard.",
+        "Even if such an algorithm exists, then it does not imply that P=NP."
+      ],
+      "correct_answer": "Even if such an algorithm exists, then it does not imply that P=NP.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 115,
+      "text": "The problem AllOrNothing3Sat asks, given a 3CNF boolean formula, whether there is an assignment to the variables such that each clause either has three True literals or has three False literals. Consider the following statements: (1) There is a polynomial-time algorithm to solve AllOrNothing3Sat. (2) There is a polynomial-time reduction from 3SAT to AllOrNothing3Sat. Assuming P \u2260 NP, which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        "Both statements are true.",
+        "Statement (1) is true and statement (2) is false.",
+        "Statement (1) is false and statement (2) is true.",
+        "Both statements are false."
+      ],
+      "correct_answer": "Statement (1) is true and statement (2) is false.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 116,
+      "text": "Which of the following statements is true about a flow network?",
+      "type": "multichoice",
+      "options": [
+        "Increasing the capacity of one edge ( u,v ) by 1 can result in an increase of at most 1 in the max flow.",
+        "Increasing the capacity of one edge ( u,v ) by 1 will result in an increase of at least 1 in the max flow.",
+        "Decreasing the capacity of one edge ( u,v ) by 1 can result in a decrease of at most 1 in the max flow.",
+        "Decreasing the capacity of one edge ( u,v ) by 1 will result in a decrease of at least 1 in the max flow."
+      ],
+      "correct_answer": [
+        "Increasing the capacity of one edge ( u,v ) by 1 can result in an increase of at most 1 in the max flow.",
+        "Decreasing the capacity of one edge ( u,v ) by 1 can result in a decrease of at most 1 in the max flow."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 117,
+      "text": "Given a flow network ( G, s, t, c ) and a flow f , how will you determine if f is maximum flow?",
+      "type": "MCQ",
+      "options": [
+        "If there is any edge that is not saturated to full capacity, then we can conclude that f is not a maximum flow.",
+        "If the residual graph does not have any augmenting paths then f is a maximum flow.",
+        "If the value of the flow f is not the sum of the capacities of the edges coming out of the source s then f is not a maximum flow.",
+        "If the value of the flow f is not the sum of the capacities of the edges coming into the sink t then f is not a maximum flow."
+      ],
+      "correct_answer": "If the residual graph does not have any augmenting paths then f is a maximum flow.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 118,
+      "text": "SWISH-SPECIAL is in P.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p5_Im1.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In this question, we consider a card game called SWISH. In the commercial version of SWISH, there are 60 transparent cards. Those cards are made up of three columns and four rows, they are obtained by placing a point in each ofthe four possible positions (accounting for symmetries), and then a circle in each of the other possible positions. Some example cards are shown below. [IMAGE: /data/images/cs4021_2025T2_Q1_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs4021_2025T2_Q1_NA_p6_Im1.webp|block]",
+      "group_id": "6406531279455",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 119,
+      "text": "SWISH-SPECIAL is in NP.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p5_Im1.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In this question, we consider a card game called SWISH. In the commercial version of SWISH, there are 60 transparent cards. Those cards are made up of three columns and four rows, they are obtained by placing a point in each ofthe four possible positions (accounting for symmetries), and then a circle in each of the other possible positions. Some example cards are shown below. [IMAGE: /data/images/cs4021_2025T2_Q1_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs4021_2025T2_Q1_NA_p6_Im1.webp|block]",
+      "group_id": "6406531279455",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 120,
+      "text": "SWISH-SPECIAL is NP-hard.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p5_Im1.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In this question, we consider a card game called SWISH. In the commercial version of SWISH, there are 60 transparent cards. Those cards are made up of three columns and four rows, they are obtained by placing a point in each ofthe four possible positions (accounting for symmetries), and then a circle in each of the other possible positions. Some example cards are shown below. [IMAGE: /data/images/cs4021_2025T2_Q1_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs4021_2025T2_Q1_NA_p6_Im1.webp|block]",
+      "group_id": "6406531279455",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 121,
+      "text": "SWISH-SPECIAL is NP-complete.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p5_Im1.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In this question, we consider a card game called SWISH. In the commercial version of SWISH, there are 60 transparent cards. Those cards are made up of three columns and four rows, they are obtained by placing a point in each ofthe four possible positions (accounting for symmetries), and then a circle in each of the other possible positions. Some example cards are shown below. [IMAGE: /data/images/cs4021_2025T2_Q1_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs4021_2025T2_Q1_NA_p6_Im1.webp|block]",
+      "group_id": "6406531279455",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 122,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im2.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279460",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 123,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "None",
+        "One",
+        "Three",
+        "All"
+      ],
+      "correct_answer": "All",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p9_Im1.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279460",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 124,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p9_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "None",
+        "One",
+        "Three",
+        "All"
+      ],
+      "correct_answer": "One",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p9_Im4.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279460",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 125,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p9_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "1/5",
+        "4/5",
+        "1"
+      ],
+      "correct_answer": "4/5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p9_Im5.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279460",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 126,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "1/3",
+        "2/3",
+        "1"
+      ],
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p10_Im1.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279460",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 127,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p10_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "25",
+        "60",
+        "90",
+        "120"
+      ],
+      "correct_answer": "90",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p10_Im4.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279460",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 128,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p10_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "25",
+        "50",
+        "90",
+        "100"
+      ],
+      "correct_answer": "100",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p10_Im5.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279460",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 129,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p11_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p11_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p11_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p11_Im3.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p11_Im1.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p11_Im3.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p11_Im5.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p11_Im6.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p11_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279460",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 130,
+      "text": "Further, if the good event occurs, then:",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p11_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p11_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p11_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p12_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p11_Im8.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p11_Im8.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p11_Im9.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p11_Im10.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p12_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279460",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 131,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p12_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p12_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p12_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p12_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p12_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p12_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p12_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p12_Im9.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p12_Im3.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p12_Im4.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p12_Im5.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p12_Im6.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p12_Im7.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p12_Im9.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p12_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279460",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 132,
+      "text": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p12_Im11.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p12_Im12.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p13_Im2.webp|inline]",
+        "",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p13_Im4.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p12_Im12.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p12_Im11.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p12_Im12.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p13_Im2.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p13_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279460",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 133,
+      "text": "We continue the notation from the previous question. Suppose the randomly assigned weights lead to the good event, that is, there is an unique perfect matching in G with minimum weight, and say this minimum weight is r . What can you say about the determinant of Z in this case?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p13_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p13_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p13_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p13_Im8.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p13_Im5.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p13_Im6.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p13_Im8.webp",
+        "/data/images/cs4021_2025T2_Q1_NA_p13_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279460",
+      "section_name": "Advanced Algorithms"
+    }
+  ],
+  "id": "cs4021-2025t2-q1-na",
+  "course_code": "CS4021",
+  "course_name": "Advanced Algorithms",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

@@ -1,0 +1,595 @@
+{
+  "title": "DIPLOMA LEVEL : INTRODUCTION TO DEEP LEARNING AND GENERATIVE AI (COMPUTER BASED EXAM)",
+  "filename": "da2001_2025T3_Q2_NA.pdf",
+  "total_questions": 26,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 130,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : INTRODUCTION TO DEEP LEARNING AND GENERATIVE AI (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 131,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "stacked_x_dim0: [3, 3], stacked_x_dim1: [4, 4]",
+        "stacked_x_dim0: [4, 3], stacked_x_dim1: [3, 4]",
+        "stacked_x_dim0: [3, 4], stacked_x_dim1: [4, 3]",
+        "stacked_x_dim0: [4, 4], stacked_x_dim1: [3, 3]"
+      ],
+      "correct_answer": "stacked_x_dim0: [3, 4], stacked_x_dim1: [4, 3]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 132,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p1_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It will successfully convert gpu_tensor to a NumPy array on the CPU.",
+        "It will successfully convert gpu_tensor to a NumPy array that also resides on the GPU.",
+        "It will raise a RuntimeError because NumPy arrays cannot directly operate on GPU memory.",
+        "It will create a view of the gpu_tensor on the CPU without copying data.",
+        "The numpy() method is not available for GPU tensors."
+      ],
+      "correct_answer": "It will raise a RuntimeError because NumPy arrays cannot directly operate on GPU memory.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p1_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 133,
+      "text": "The Huber Loss function is introduced as a robust alternative to Mean Squared Error (MSE) and Mean Absolute Error (MAE). What is the primary characteristic of Huber Loss that makes it robust to outliers?",
+      "type": "MCQ",
+      "options": [
+        "It always produces a gradient of zero for all errors, preventing large updates.",
+        "It exclusively uses a quadratic penalty, but only for errors exactly at the threshold.",
+        "It transitions from a quadratic loss for small errors to a linear loss for large errors, thereby down-weighting the impact of outliers.",
+        "It entirely ignores errors beyond a certain delta, considering them irrelevant.",
+        "It applies a logarithmic transformation to all error values before computing the loss."
+      ],
+      "correct_answer": "It transitions from a quadratic loss for small errors to a linear loss for large errors, thereby down-weighting the impact of outliers.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 134,
+      "text": "A deep learning model contains a stack of three consecutive 3x3 convolutional layers, each with a stride of 1and sufficient padding to preserve spatial dimensions. What is the side length of the effective receptive field of a neuron in the third layer with respect to the input?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 135,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p3_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "348",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 136,
+      "text": "The Momentum optimizer helps overcome which limitation of vanilla Gradient Descent?",
+      "type": "MCQ",
+      "options": [
+        "Slow convergence near the minimum due to large learning rate.",
+        "Zig-zag oscillations in narrow valleys due to gradient directions changing frequently.",
+        "Vanishing gradients caused by activation functions.",
+        "Overfitting due to excessive updates."
+      ],
+      "correct_answer": "Zig-zag oscillations in narrow valleys due to gradient directions changing frequently.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 137,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p4_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.03 to 0.04",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 138,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p4_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p4_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p5_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p4_Im7.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p4_Im2.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p4_Im5.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p4_Im7.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 139,
+      "text": "What happens if the latent space in a GAN has too few dimensions for the task complexity?",
+      "type": "MCQ",
+      "options": [
+        "Training becomes faster and results improve.",
+        "The discriminator becomes too powerful.",
+        "The generator memorizes all training images.",
+        "Generated images lack diversity and may look similar"
+      ],
+      "correct_answer": "Generated images lack diversity and may look similar",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 140,
+      "text": "At Nash Equilibrium in a perfectly trained GAN, what is the expected output of the discriminator D(G(z)) for a generated sample?",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "0.25",
+        "0.5",
+        "1"
+      ],
+      "correct_answer": "0.5",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 141,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p6_Im3.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p6_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p6_Im6.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p6_Im1.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p6_Im3.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p6_Im4.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p6_Im6.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 142,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Vanishing Gradients",
+        "Mode Collapse",
+        "Overfitting",
+        "Discriminator Saturation"
+      ],
+      "correct_answer": "Mode Collapse",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 143,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p7_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p7_Im8.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p7_Im9.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p7_Im9.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p7_Im4.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p7_Im5.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p7_Im6.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p7_Im7.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p7_Im8.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p7_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 144,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p8_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 145,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p8_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(10,8,32)",
+        "(10,28,8)",
+        "(28,10,8)",
+        "(8,10,28)"
+      ],
+      "correct_answer": "(28,10,8)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 146,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p9_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.02 to 0.03",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 147,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p9_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "8.58",
+        "2.15",
+        "0.72",
+        "4.71"
+      ],
+      "correct_answer": "8.58",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p9_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 148,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p10_Im3.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p10_Im4.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p10_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p10_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p10_Im1.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p10_Im3.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p10_Im4.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p10_Im6.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p10_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 149,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p10_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p11_Im2.webp|inline] [IMAGE: /data/images/da2001_2025T3_Q2_NA_p11_Im3.webp|block]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p11_Im5.webp|block]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p11_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p11_Im6.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p10_Im8.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p11_Im2.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p11_Im3.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p11_Im5.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p11_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 150,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p11_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It specifies how many epochs with no improvement in the monitored metric are tolerated beforereducing the learning rate.",
+        "It automatically restarts training after the learning rate is reduced.",
+        "It determines the number of epochs required for validation loss to reach the minimum.",
+        "It defines how many epochs the learning rate should remain frozen after being reduced."
+      ],
+      "correct_answer": "It specifies how many epochs with no improvement in the monitored metric are tolerated beforereducing the learning rate.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p11_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 151,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p12_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.3 to 0.4",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 152,
+      "text": "In an LSTM (Long Short-Term Memory) network, which pair of components correctly represents the short-term and long-term memory respectively?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p12_Im3.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p12_Im5.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p12_Im6.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p12_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p12_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p12_Im3.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p12_Im5.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p12_Im6.webp",
+        "/data/images/da2001_2025T3_Q2_NA_p12_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 153,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Matrix multiplication (\u00b7)",
+        "Element-wise multiplication ( \u2299)",
+        "Cross product (x)",
+        "Element-wise addition (+)"
+      ],
+      "correct_answer": "Element-wise multiplication ( \u2299)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 154,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p13_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Using mini-batch gradient descent with batch size = 32",
+        "Using stochastic gradient descent (SGD) with batch size = 1",
+        "Using batch gradient descent processing all samples at once",
+        "Using mini-batch gradient descent with batch size = 16"
+      ],
+      "correct_answer": "Using stochastic gradient descent (SGD) with batch size = 1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p13_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 155,
+      "text": "[IMAGE: /data/images/da2001_2025T3_Q2_NA_p14_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.0001 to 0.0001",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_Q2_NA_p14_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    }
+  ],
+  "id": "da2001-2025t3-q2-na",
+  "course_code": "DA2001",
+  "course_name": "Introduction to Deep Learning and Generative AI",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

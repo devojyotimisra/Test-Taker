@@ -1,0 +1,848 @@
+{
+  "title": "DIPLOMA LEVEL : TOOLS IN DATA SCIENCE (COMPUTER BASED EXAM)",
+  "filename": "se2002_2025T2_ET_FN.pdf",
+  "total_questions": 35,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 358,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : TOOLS IN DATA SCIENCE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 359,
+      "text": "When using uv for Python package management, which command sequence correctly creates a new project with a specific Python version and installs dependencies?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p1_Im2.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p1_Im3.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p1_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p1_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p1_Im2.webp",
+        "/data/images/se2002_2025T2_ET_FN_p1_Im3.webp",
+        "/data/images/se2002_2025T2_ET_FN_p1_Im5.webp",
+        "/data/images/se2002_2025T2_ET_FN_p1_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 360,
+      "text": "In Git workflow for collaborative data science projects, what is the most appropriate sequence for integrating feature changes?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p1_Im7.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p1_Im8.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p1_Im9.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p1_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p1_Im8.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p1_Im7.webp",
+        "/data/images/se2002_2025T2_ET_FN_p1_Im8.webp",
+        "/data/images/se2002_2025T2_ET_FN_p1_Im9.webp",
+        "/data/images/se2002_2025T2_ET_FN_p1_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 361,
+      "text": "When designing error handling in Python data processing pipelines, which approach generally offers the most robust and maintainable solution for unexpected runtime errors?",
+      "type": "MCQ",
+      "options": [
+        "Using only generic try-except blocks",
+        "Using try-except-finally with specific exception types and proper logging",
+        "Using pre-emptive condition checks (if-else) without exception handling",
+        "Allowing all exceptions to propagate to the top level"
+      ],
+      "correct_answer": "Using try-except-finally with specific exception types and proper logging",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 362,
+      "text": "A data scientist needs to identify unique treatment combinations in a clinical trial dataset with 50,000 rows. Which pandas approach would be most memory-efficient for large datasets?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p2_Im2.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p2_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p2_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p2_Im2.webp",
+        "/data/images/se2002_2025T2_ET_FN_p2_Im3.webp",
+        "/data/images/se2002_2025T2_ET_FN_p2_Im5.webp",
+        "/data/images/se2002_2025T2_ET_FN_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 363,
+      "text": "A developer debugging an API integration notices intermittent 429 status codes. Which Chrome DevTools approach would best help identify the rate limiting pattern?",
+      "type": "MCQ",
+      "options": [
+        "Console tab with error filtering",
+        "Network tab with timing analysis and request throttling simulation",
+        "Application tab for storage inspection",
+        "Performance tab for bottleneck analysis"
+      ],
+      "correct_answer": "Network tab with timing analysis and request throttling simulation",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 364,
+      "text": "For a geospatial analysis project involving buffer operations, spatial joins, and interactive mapping, which combination of libraries provides the most comprehensive solution?",
+      "type": "MCQ",
+      "options": [
+        "Matplotlib + NumPy + Pandas",
+        "GeoPandas + Shapely + Folium",
+        "Plotly + Seaborn + SciPy",
+        "Bokeh + NetworkX + PyProj"
+      ],
+      "correct_answer": "GeoPandas + Shapely + Folium",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 365,
+      "text": "When cleaning a dataset with company names like \"Microsoft Corp\", \"Microsoft Corporation\", \"MSFT\", which OpenRefine technique would be most effective?",
+      "type": "MCQ",
+      "options": [
+        "Simple find and replace operations",
+        "Clustering algorithms with fingerprinting and n-gram comparison",
+        "Regular expression matching only",
+        "Manual standardization"
+      ],
+      "correct_answer": "Clustering algorithms with fingerprinting and n-gram comparison",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 366,
+      "text": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im4.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im7.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p3_Im3.webp",
+        "/data/images/se2002_2025T2_ET_FN_p3_Im4.webp",
+        "/data/images/se2002_2025T2_ET_FN_p3_Im5.webp",
+        "/data/images/se2002_2025T2_ET_FN_p3_Im6.webp",
+        "/data/images/se2002_2025T2_ET_FN_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 367,
+      "text": "When designing a SQLite database for time-series sensor data with millions of records, which indexing strategy optimizes both query performance and storage efficiency?",
+      "type": "MCQ",
+      "options": [
+        "Primary key index only",
+        "Composite index on (timestamp, sensor_id) with partial indexes for active sensors",
+        "Individual indexes on all columns",
+        "No indexing to save storage space"
+      ],
+      "correct_answer": "Composite index on (timestamp, sensor_id) with partial indexes for active sensors",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 368,
+      "text": "A data analyst needs to identify customers with purchase patterns similar to high-value segments. Which pandas operation most efficiently computes customer similarity?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im2.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p4_Im2.webp",
+        "/data/images/se2002_2025T2_ET_FN_p4_Im4.webp",
+        "/data/images/se2002_2025T2_ET_FN_p4_Im5.webp",
+        "/data/images/se2002_2025T2_ET_FN_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 369,
+      "text": "You are working with a very large CSV file that is too big to fit into memory. Which pandas method is the best way to read and process the file without running out of memory?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im8.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im9.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im8.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p4_Im7.webp",
+        "/data/images/se2002_2025T2_ET_FN_p4_Im8.webp",
+        "/data/images/se2002_2025T2_ET_FN_p4_Im9.webp",
+        "/data/images/se2002_2025T2_ET_FN_p4_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 370,
+      "text": "A developer optimizing database-heavy applications needs to identify query bottlenecks and connection issues. Which monitoring approach provides comprehensive insights?",
+      "type": "MCQ",
+      "options": [
+        "Application logs only",
+        "Database query profiling + connection pool metrics + application performance monitoring",
+        "Network traffic analysis only",
+        "Memory usage tracking exclusively"
+      ],
+      "correct_answer": "Database query profiling + connection pool metrics + application performance monitoring",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 371,
+      "text": "The research assistant uses a system prompt to guide its behavior. Which system prompt design principle is most important for educational effectiveness?",
+      "type": "MCQ",
+      "options": [
+        "Providing direct answers to maximize efficiency",
+        "Balancing information delivery with Socratic questioning to promote learning",
+        "Limiting responses to prevent information overload",
+        "Using technical jargon to maintain academic rigor"
+      ],
+      "correct_answer": "Balancing information delivery with Socratic questioning to promote learning",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 1: AI-Powered Research Assistant Development Dr. Kumar is developing an AI research assistant for environmental science students. The system needs to process academic papers, generate summaries, and answer domain specific questions while encouraging critical thinking.",
+      "group_id": "6406531404983",
+      "section_name": "TDS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 372,
+      "text": "When students submit complex research queries, which factors most significantly impact the LLM's operational costs and response quality? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "Token count of input prompts and generated responses",
+        "Complexity and specificity of the query requiring deeper reasoning",
+        "Time of day when queries are submitted",
+        "Context window utilization for multi-turn conversations",
+        "Student's academic level"
+      ],
+      "correct_answer": [
+        "Token count of input prompts and generated responses",
+        "Complexity and specificity of the query requiring deeper reasoning",
+        "Context window utilization for multi-turn conversations"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 1: AI-Powered Research Assistant Development Dr. Kumar is developing an AI research assistant for environmental science students. The system needs to process academic papers, generate summaries, and answer domain specific questions while encouraging critical thinking.",
+      "group_id": "6406531404983",
+      "section_name": "TDS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 373,
+      "text": "Which prompt engineering technique would generate the most pedagogically valuable response for environmental research?",
+      "type": "MCQ",
+      "options": [
+        "\"Explain climate change impacts\"",
+        "\"Write about environmental issues\"",
+        "\"Analyze the interconnected effects of ocean acidification on marine ecosystems, considering pH changes, species adaptation, and food web dynamics. What research methodologies would be most appropriate for studying these relationships?\"",
+        "\"Discuss environmental problems briefly\""
+      ],
+      "correct_answer": "\"Analyze the interconnected effects of ocean acidification on marine ecosystems, considering pH changes, species adaptation, and food web dynamics. What research methodologies would be most appropriate for studying these relationships?\"",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 1: AI-Powered Research Assistant Development Dr. Kumar is developing an AI research assistant for environmental science students. The system needs to process academic papers, generate summaries, and answer domain specific questions while encouraging critical thinking.",
+      "group_id": "6406531404983",
+      "section_name": "TDS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 374,
+      "text": "The development team uses Git for version control of traffic algorithms. When a critical traffic routing bug is discovered in production, which Git workflow ensures rapid deployment of fixes while maintaining code integrity?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im4.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im5.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im5.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p7_Im4.webp",
+        "/data/images/se2002_2025T2_ET_FN_p7_Im5.webp",
+        "/data/images/se2002_2025T2_ET_FN_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2: Smart City Traffic Management System A metropolitan city is implementing a real-time traffic management system that processes data from IoT sensors, traffic cameras, and GPS devices to optimize traffic flow across 500+ intersections. System Architecture: \u25cf IoT sensors at intersections (Lat/Long coordinates provided) \u25cf Central processing hub: (28.6139 o N, 77.2090 o E) \u25cf Real-time data streams: traffic density, weather conditions, accident reports \u25cf ML models for traffic prediction and route optimization",
+      "group_id": "6406531404987",
+      "section_name": "TDS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 375,
+      "text": "Traffic engineers need to analyze historical data patterns. Which command-line approach efficiently processes large log files to extract peak traffic periods and route preferences?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im7.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im8.webp|block]",
+        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im9.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im10.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p7_Im7.webp",
+        "/data/images/se2002_2025T2_ET_FN_p7_Im8.webp",
+        "/data/images/se2002_2025T2_ET_FN_p7_Im9.webp",
+        "/data/images/se2002_2025T2_ET_FN_p7_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2: Smart City Traffic Management System A metropolitan city is implementing a real-time traffic management system that processes data from IoT sensors, traffic cameras, and GPS devices to optimize traffic flow across 500+ intersections. System Architecture: \u25cf IoT sensors at intersections (Lat/Long coordinates provided) \u25cf Central processing hub: (28.6139 o N, 77.2090 o E) \u25cf Real-time data streams: traffic density, weather conditions, accident reports \u25cf ML models for traffic prediction and route optimization",
+      "group_id": "6406531404987",
+      "section_name": "TDS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 376,
+      "text": "For deploying the traffic management system across distributed edge computing nodes at intersections, which containerization strategy optimizes resource utilization and ensures consistent performance?",
+      "type": "MCQ",
+      "options": [
+        "Single monolithic container with all services",
+        "Multi-stage Docker builds with service mesh architecture and resource constraints",
+        "Virtual machines for each intersection",
+        "Direct installation on edge hardware without containerization"
+      ],
+      "correct_answer": "Multi-stage Docker builds with service mesh architecture and resource constraints",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2: Smart City Traffic Management System A metropolitan city is implementing a real-time traffic management system that processes data from IoT sensors, traffic cameras, and GPS devices to optimize traffic flow across 500+ intersections. System Architecture: \u25cf IoT sensors at intersections (Lat/Long coordinates provided) \u25cf Central processing hub: (28.6139 o N, 77.2090 o E) \u25cf Real-time data streams: traffic density, weather conditions, accident reports \u25cf ML models for traffic prediction and route optimization",
+      "group_id": "6406531404987",
+      "section_name": "TDS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 377,
+      "text": "When optimizing traffic routes for emergency vehicles during peak hours, which algorithmic approach best balances computational efficiency with real-time requirements?",
+      "type": "MCQ",
+      "options": [
+        "Brute force calculation of all possible routes",
+        "A pathfinding with dynamic edge weights based on real-time traffic data",
+        "Random route selection",
+        "Static pre-computed emergency routes"
+      ],
+      "correct_answer": "A pathfinding with dynamic edge weights based on real-time traffic data",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2: Smart City Traffic Management System A metropolitan city is implementing a real-time traffic management system that processes data from IoT sensors, traffic cameras, and GPS devices to optimize traffic flow across 500+ intersections. System Architecture: \u25cf IoT sensors at intersections (Lat/Long coordinates provided) \u25cf Central processing hub: (28.6139 o N, 77.2090 o E) \u25cf Real-time data streams: traffic density, weather conditions, accident reports \u25cf ML models for traffic prediction and route optimization",
+      "group_id": "6406531404987",
+      "section_name": "TDS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 378,
+      "text": "The system calculates distances between intersections for route optimization. What is the primary computational advantage of implementing the Haversine formula in the traffic management context?",
+      "type": "MCQ",
+      "options": [
+        "Provides accurate great-circle distances for GPS coordinates without requiring road network data",
+        "Calculates exact travel time including traffic conditions",
+        "Determines elevation changes for fuel efficiency",
+        "Measures road surface quality for vehicle routing"
+      ],
+      "correct_answer": "Provides accurate great-circle distances for GPS coordinates without requiring road network data",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2: Smart City Traffic Management System A metropolitan city is implementing a real-time traffic management system that processes data from IoT sensors, traffic cameras, and GPS devices to optimize traffic flow across 500+ intersections. System Architecture: \u25cf IoT sensors at intersections (Lat/Long coordinates provided) \u25cf Central processing hub: (28.6139 o N, 77.2090 o E) \u25cf Real-time data streams: traffic density, weather conditions, accident reports \u25cf ML models for traffic prediction and route optimization",
+      "group_id": "6406531404987",
+      "section_name": "TDS"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 379,
+      "text": "Which of the following Apache log entries correctly represents a successful mobile checkout transaction that occurred during the peak analysis window (12:00\u201315:59)?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p10_Im1.webp|block] [IMAGE: /data/images/se2002_2025T2_ET_FN_p10_Im3.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p10_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_FN_p10_Im1.webp",
+        "/data/images/se2002_2025T2_ET_FN_p10_Im3.webp",
+        "/data/images/se2002_2025T2_ET_FN_p10_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: E-commerce Platform Log Analysis You're analyzing Apache access logs from a major e-commerce platform. The logs contain customer browsing patterns, purchase behaviors, and system performance metrics during Black Friday sales. Log Format Specification: [IMAGE: /data/images/se2002_2025T2_ET_FN_p9_Im1.webp|block] Analysis Requirements: \u25cf Filter purchases (POST to /checkout/) during peak hours (12:00-15:59) \u25cf Identify mobile vs desktop traffic patterns \u25cf Track successful transactions (status codes 200-299) \u25cf Analyze product category performance",
+      "group_id": "6406531404993",
+      "section_name": "TDS"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 380,
+      "text": "To extract essential fields for the analysis \"mobile checkout transactions between 12:00-15:59 with successful status codes\", which data elements are required?",
+      "type": "MCQ",
+      "options": [
+        "IP, UserAgent, Referrer, VirtualHost",
+        "Timestamp, HTTP_METHOD, URL, StatusCode, UserAgent",
+        "RemoteUser, AuthUser, ResponseSize, ServerIP",
+        "IP, Timestamp, Referrer, ResponseSize"
+      ],
+      "correct_answer": "Timestamp, HTTP_METHOD, URL, StatusCode, UserAgent",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: E-commerce Platform Log Analysis You're analyzing Apache access logs from a major e-commerce platform. The logs contain customer browsing patterns, purchase behaviors, and system performance metrics during Black Friday sales. Log Format Specification: [IMAGE: /data/images/se2002_2025T2_ET_FN_p9_Im1.webp|block] Analysis Requirements: \u25cf Filter purchases (POST to /checkout/) during peak hours (12:00-15:59) \u25cf Identify mobile vs desktop traffic patterns \u25cf Track successful transactions (status codes 200-299) \u25cf Analyze product category performance",
+      "group_id": "6406531404993",
+      "section_name": "TDS"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 381,
+      "text": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p10_Im6.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "%d/%b/%Y:%H:%M:%S",
+        "%d/%b/%Y:%H:%M:%S %z",
+        "%Y-%m-%d %H:%M:%S %Z",
+        "%d-%b-%Y:%H:%M:%S GMT"
+      ],
+      "correct_answer": "%d/%b/%Y:%H:%M:%S %z",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p10_Im6.webp",
+        "/data/images/se2002_2025T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: E-commerce Platform Log Analysis You're analyzing Apache access logs from a major e-commerce platform. The logs contain customer browsing patterns, purchase behaviors, and system performance metrics during Black Friday sales. Log Format Specification: [IMAGE: /data/images/se2002_2025T2_ET_FN_p9_Im1.webp|block] Analysis Requirements: \u25cf Filter purchases (POST to /checkout/) during peak hours (12:00-15:59) \u25cf Identify mobile vs desktop traffic patterns \u25cf Track successful transactions (status codes 200-299) \u25cf Analyze product category performance",
+      "group_id": "6406531404993",
+      "section_name": "TDS"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 382,
+      "text": "To identify checkout transactions occurring between 12:00 and 15:59, which Python condition correctly validates the time range?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im2.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im3.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_FN_p11_Im2.webp",
+        "/data/images/se2002_2025T2_ET_FN_p11_Im3.webp",
+        "/data/images/se2002_2025T2_ET_FN_p11_Im5.webp",
+        "/data/images/se2002_2025T2_ET_FN_p11_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: E-commerce Platform Log Analysis You're analyzing Apache access logs from a major e-commerce platform. The logs contain customer browsing patterns, purchase behaviors, and system performance metrics during Black Friday sales. Log Format Specification: [IMAGE: /data/images/se2002_2025T2_ET_FN_p9_Im1.webp|block] Analysis Requirements: \u25cf Filter purchases (POST to /checkout/) during peak hours (12:00-15:59) \u25cf Identify mobile vs desktop traffic patterns \u25cf Track successful transactions (status codes 200-299) \u25cf Analyze product category performance",
+      "group_id": "6406531404993",
+      "section_name": "TDS"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 383,
+      "text": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im8.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im9.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im10.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im11.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im9.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p11_Im7.webp",
+        "/data/images/se2002_2025T2_ET_FN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_FN_p11_Im8.webp",
+        "/data/images/se2002_2025T2_ET_FN_p11_Im9.webp",
+        "/data/images/se2002_2025T2_ET_FN_p11_Im10.webp",
+        "/data/images/se2002_2025T2_ET_FN_p11_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: E-commerce Platform Log Analysis You're analyzing Apache access logs from a major e-commerce platform. The logs contain customer browsing patterns, purchase behaviors, and system performance metrics during Black Friday sales. Log Format Specification: [IMAGE: /data/images/se2002_2025T2_ET_FN_p9_Im1.webp|block] Analysis Requirements: \u25cf Filter purchases (POST to /checkout/) during peak hours (12:00-15:59) \u25cf Identify mobile vs desktop traffic patterns \u25cf Track successful transactions (status codes 200-299) \u25cf Analyze product category performance",
+      "group_id": "6406531404993",
+      "section_name": "TDS"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 384,
+      "text": "To identify mobile traffic from the UserAgent string, which Python approach provides the most reliable mobile device detection?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im12.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im2.webp|block]",
+        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im4.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im5.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_FN_p11_Im12.webp",
+        "/data/images/se2002_2025T2_ET_FN_p12_Im2.webp",
+        "/data/images/se2002_2025T2_ET_FN_p12_Im4.webp",
+        "/data/images/se2002_2025T2_ET_FN_p12_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: E-commerce Platform Log Analysis You're analyzing Apache access logs from a major e-commerce platform. The logs contain customer browsing patterns, purchase behaviors, and system performance metrics during Black Friday sales. Log Format Specification: [IMAGE: /data/images/se2002_2025T2_ET_FN_p9_Im1.webp|block] Analysis Requirements: \u25cf Filter purchases (POST to /checkout/) during peak hours (12:00-15:59) \u25cf Identify mobile vs desktop traffic patterns \u25cf Track successful transactions (status codes 200-299) \u25cf Analyze product category performance",
+      "group_id": "6406531404993",
+      "section_name": "TDS"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 385,
+      "text": "For determining successful transactions, which condition correctly identifies HTTP status codes indicating success?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im7.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im8.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im8.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_FN_p12_Im6.webp",
+        "/data/images/se2002_2025T2_ET_FN_p12_Im7.webp",
+        "/data/images/se2002_2025T2_ET_FN_p12_Im8.webp",
+        "/data/images/se2002_2025T2_ET_FN_p12_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: E-commerce Platform Log Analysis You're analyzing Apache access logs from a major e-commerce platform. The logs contain customer browsing patterns, purchase behaviors, and system performance metrics during Black Friday sales. Log Format Specification: [IMAGE: /data/images/se2002_2025T2_ET_FN_p9_Im1.webp|block] Analysis Requirements: \u25cf Filter purchases (POST to /checkout/) during peak hours (12:00-15:59) \u25cf Identify mobile vs desktop traffic patterns \u25cf Track successful transactions (status codes 200-299) \u25cf Analyze product category performance",
+      "group_id": "6406531404993",
+      "section_name": "TDS"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 386,
+      "text": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im10.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im11.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im12.webp|block]",
+        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im2.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im3.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p12_Im10.webp",
+        "/data/images/se2002_2025T2_ET_FN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_FN_p12_Im11.webp",
+        "/data/images/se2002_2025T2_ET_FN_p12_Im12.webp",
+        "/data/images/se2002_2025T2_ET_FN_p13_Im2.webp",
+        "/data/images/se2002_2025T2_ET_FN_p13_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: E-commerce Platform Log Analysis You're analyzing Apache access logs from a major e-commerce platform. The logs contain customer browsing patterns, purchase behaviors, and system performance metrics during Black Friday sales. Log Format Specification: [IMAGE: /data/images/se2002_2025T2_ET_FN_p9_Im1.webp|block] Analysis Requirements: \u25cf Filter purchases (POST to /checkout/) during peak hours (12:00-15:59) \u25cf Identify mobile vs desktop traffic patterns \u25cf Track successful transactions (status codes 200-299) \u25cf Analyze product category performance",
+      "group_id": "6406531404993",
+      "section_name": "TDS"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 387,
+      "text": "If the transaction count appears unexpectedly high, which systematic debugging approach would identify the root cause?",
+      "type": "MCQ",
+      "options": [
+        "Assume data corruption and discard results",
+        "Validate each filter condition independently: time range \u2192 HTTP method \u2192 URL pattern \u2192 status code",
+        "Reduce the dataset size randomly",
+        "Check only the timestamp filter"
+      ],
+      "correct_answer": "Validate each filter condition independently: time range \u2192 HTTP method \u2192 URL pattern \u2192 status code",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: E-commerce Platform Log Analysis You're analyzing Apache access logs from a major e-commerce platform. The logs contain customer browsing patterns, purchase behaviors, and system performance metrics during Black Friday sales. Log Format Specification: [IMAGE: /data/images/se2002_2025T2_ET_FN_p9_Im1.webp|block] Analysis Requirements: \u25cf Filter purchases (POST to /checkout/) during peak hours (12:00-15:59) \u25cf Identify mobile vs desktop traffic patterns \u25cf Track successful transactions (status codes 200-299) \u25cf Analyze product category performance",
+      "group_id": "6406531404993",
+      "section_name": "TDS"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 388,
+      "text": "When processing very large Apache log files (10GB+), which of the following Python approaches offers the best memory efficiency?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im6.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im7.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im8.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im7.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_FN_p13_Im6.webp",
+        "/data/images/se2002_2025T2_ET_FN_p13_Im7.webp",
+        "/data/images/se2002_2025T2_ET_FN_p13_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 3: E-commerce Platform Log Analysis You're analyzing Apache access logs from a major e-commerce platform. The logs contain customer browsing patterns, purchase behaviors, and system performance metrics during Black Friday sales. Log Format Specification: [IMAGE: /data/images/se2002_2025T2_ET_FN_p9_Im1.webp|block] Analysis Requirements: \u25cf Filter purchases (POST to /checkout/) during peak hours (12:00-15:59) \u25cf Identify mobile vs desktop traffic patterns \u25cf Track successful transactions (status codes 200-299) \u25cf Analyze product category performance",
+      "group_id": "6406531404993",
+      "section_name": "TDS"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 389,
+      "text": "What is the primary advantage of multi-modal RAG systems over text-only approaches in academic research contexts?",
+      "type": "MCQ",
+      "options": [
+        "Reduced computational complexity for information retrieval",
+        "Comprehensive understanding through integration of textual concepts, visual data, and computational methods",
+        "Simplified system architecture and maintenance",
+        "Lower storage requirements for research materials"
+      ],
+      "correct_answer": "Comprehensive understanding through integration of textual concepts, visual data, and computational methods",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 4: Academic Research RAG System with Multi-Modal Analysis A research university implements an advanced RAG system that processes academic papers, datasets, code repositories, and experimental results to support interdisciplinary research across STEM fields. Advanced Multi-Modal RAG Architecture: \u25cf Text Processing: Research papers, grants, technical documentation \u25cf Code Analysis: GitHub repositories, computational notebooks, algorithm implementations \u25cf Data Integration: Experimental datasets, simulation results, sensor data \u25cf Visual Processing: Figures, charts, experimental images, technical diagrams \u25cf Semantic Linking: Cross-reference relationships between concepts, methods, and findings",
+      "group_id": "6406531405004",
+      "section_name": "TDS"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 390,
+      "text": "Which system prompt design best supports interdisciplinary research collaboration and knowledge synthesis?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im1.webp|block] [IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im3.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im5.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im6.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2025T2_ET_FN_p15_Im1.webp",
+        "/data/images/se2002_2025T2_ET_FN_p15_Im3.webp",
+        "/data/images/se2002_2025T2_ET_FN_p15_Im5.webp",
+        "/data/images/se2002_2025T2_ET_FN_p15_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 4: Academic Research RAG System with Multi-Modal Analysis A research university implements an advanced RAG system that processes academic papers, datasets, code repositories, and experimental results to support interdisciplinary research across STEM fields. Advanced Multi-Modal RAG Architecture: \u25cf Text Processing: Research papers, grants, technical documentation \u25cf Code Analysis: GitHub repositories, computational notebooks, algorithm implementations \u25cf Data Integration: Experimental datasets, simulation results, sensor data \u25cf Visual Processing: Figures, charts, experimental images, technical diagrams \u25cf Semantic Linking: Cross-reference relationships between concepts, methods, and findings",
+      "group_id": "6406531405004",
+      "section_name": "TDS"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 391,
+      "text": "A researcher asks: \"How can machine learning techniques be applied to optimize renewable energy grid integration, and what interdisciplinary approaches show promise?\" Which response demonstrates the most effective research synthesis approach?",
+      "type": "MCQ",
+      "options": [
+        "\"Machine learning can predict energy demand and optimize grid operations through various algorithms.\"",
+        "\"Here are 10 recent papers on ML applications in renewable energy: [lists papers with summaries]\"",
+        "\"Let's explore the intersection of several fields: What specific grid integration challenges interest you? ML approaches range from demand forecasting (time series analysis) to real-time optimization (reinforcement learning), while power systems engineering provides domain constraints. Materials science advances in energy storage create new optimization opportunities. Which aspect aligns with your research focus?\"",
+        "\"This is a complex topic requiring extensive literature review across multiple disciplines.\""
+      ],
+      "correct_answer": "\"Let's explore the intersection of several fields: What specific grid integration challenges interest you? ML approaches range from demand forecasting (time series analysis) to real-time optimization (reinforcement learning), while power systems engineering provides domain constraints. Materials science advances in energy storage create new optimization opportunities. Which aspect aligns with your research focus?\"",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 4: Academic Research RAG System with Multi-Modal Analysis A research university implements an advanced RAG system that processes academic papers, datasets, code repositories, and experimental results to support interdisciplinary research across STEM fields. Advanced Multi-Modal RAG Architecture: \u25cf Text Processing: Research papers, grants, technical documentation \u25cf Code Analysis: GitHub repositories, computational notebooks, algorithm implementations \u25cf Data Integration: Experimental datasets, simulation results, sensor data \u25cf Visual Processing: Figures, charts, experimental images, technical diagrams \u25cf Semantic Linking: Cross-reference relationships between concepts, methods, and findings",
+      "group_id": "6406531405004",
+      "section_name": "TDS"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 392,
+      "text": "Which processing sequence correctly describes the multi-modal RAG system's comprehensive research synthesis workflow?",
+      "type": "MCQ",
+      "options": [
+        "Research Query \u2192 Text Search Only \u2192 Generate Literature Summary",
+        "Research Query \u2192 Keyword Matching \u2192 Return Most Recent Papers",
+        "Research Query \u2192 Multi-Modal Embedding (text + code + visual + data) \u2192 Cross-Disciplinary Retrieval \u2192 Concept Mapping \u2192 Synthesized Research Insights with Method Integration",
+        "Research Query \u2192 Database Search \u2192 Template Response Generation"
+      ],
+      "correct_answer": "Research Query \u2192 Multi-Modal Embedding (text + code + visual + data) \u2192 Cross-Disciplinary Retrieval \u2192 Concept Mapping \u2192 Synthesized Research Insights with Method Integration",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 4: Academic Research RAG System with Multi-Modal Analysis A research university implements an advanced RAG system that processes academic papers, datasets, code repositories, and experimental results to support interdisciplinary research across STEM fields. Advanced Multi-Modal RAG Architecture: \u25cf Text Processing: Research papers, grants, technical documentation \u25cf Code Analysis: GitHub repositories, computational notebooks, algorithm implementations \u25cf Data Integration: Experimental datasets, simulation results, sensor data \u25cf Visual Processing: Figures, charts, experimental images, technical diagrams \u25cf Semantic Linking: Cross-reference relationships between concepts, methods, and findings",
+      "group_id": "6406531405004",
+      "section_name": "TDS"
+    }
+  ],
+  "id": "se2002-2025t2-et-fn",
+  "course_code": "SE2002",
+  "course_name": "Tools in Data Science",
+  "level": "Diploma in Data Science",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

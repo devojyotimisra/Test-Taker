@@ -1,0 +1,660 @@
+{
+  "title": "DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)",
+  "filename": "ms2002_2023T1_ET_AN.pdf",
+  "total_questions": 32,
+  "total_marks": 32.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 347,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 348,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In Regression, \u201cMarginal\u201d slope and \u201cPartial\u201d slope coincide if the explanatory variables are dependent.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 349,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The data on emissions from vehicular traffic for the first six months in 2023 and 2022 are provided in the Table below. If an analyst wants to develop a visualization that highlights \u201c The months with the highest increase in emissions in 2023 as compared to 2022 \u201d, then which of the formulas would be apt to capture the required information for presentation [IMAGE: /data/images/ms2002_2023T1_ET_AN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(Tons of CO2 Emissions in 2023 - Tons of CO2 Emissions in 2022)/ Tons of CO2 Emissions in 2022",
+        "(Tons of CO2 Emissions in 2023 - Tons of CO2 Emissions in 2022)",
+        "None of these"
+      ],
+      "correct_answer": "(Tons of CO2 Emissions in 2023 - Tons of CO2 Emissions in 2022)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 350,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are solving a regression problem with 8 explanatory variables. The data has 150 observations, and the R-square value was found to be 0.75. You are adding one more explanatory variable to the dataset, making a total of 9 variables. The adjusted R square value increases to 0.86. What does it signify?",
+      "type": "MCQ",
+      "options": [
+        "The new variable does not improve the model",
+        "The new variable alone has high explanatory power",
+        "Adjusted R squared can never be greater than R squared. Calculation error",
+        "None of these"
+      ],
+      "correct_answer": "Adjusted R squared can never be greater than R squared. Calculation error",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 351,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How is Hypothetical Composite Unit computed in DEA for a DMU using graphical method?",
+      "type": "MCQ",
+      "options": [
+        "By drawing line connecting the origin and DMU",
+        "By moving horizontally towards the frontier",
+        "By moving vertically towards the frontier",
+        "All of these"
+      ],
+      "correct_answer": "By drawing line connecting the origin and DMU",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 352,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How to identify the HCU of an inefficient DMU using Linear Programming Method?",
+      "type": "MCQ",
+      "options": [
+        "Using the shadow price",
+        "By moving horizontally towards the frontier",
+        "By moving vertically towards the frontier",
+        "All of these"
+      ],
+      "correct_answer": "Using the shadow price",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 353,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many constraints will be present in the dual formulation?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following is the Primal LP Formulation for a resource allocation problem. Given this, answer the subquestions [IMAGE: /data/images/ms2002_2023T1_ET_AN_p4_Im1.webp|block]",
+      "group_id": "640653566331",
+      "section_name": null
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 354,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many decision variables will be required to formulate the dual?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following is the Primal LP Formulation for a resource allocation problem. Given this, answer the subquestions [IMAGE: /data/images/ms2002_2023T1_ET_AN_p4_Im1.webp|block]",
+      "group_id": "640653566331",
+      "section_name": null
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 355,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the objective function \u201cco-efficient\u201d for the dual decision variable corresponding to the \u201cConstraint-4\u201d in the primal?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following is the Primal LP Formulation for a resource allocation problem. Given this, answer the subquestions [IMAGE: /data/images/ms2002_2023T1_ET_AN_p4_Im1.webp|block]",
+      "group_id": "640653566331",
+      "section_name": null
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 356,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is/ are valid constraints/ objective function in the dual formulation for the provided primal formulation {Note: X i \u2013 represents the i th decision variable in the dual formulation}",
+      "type": "multichoice",
+      "options": [
+        "Minimize (10X 1 + 20X 2 + 5X 3 + 7X 4 +12X 5 + 11X 6 )",
+        "Minimize (200X 1 + 50X 2 + 70X 3 + 20X 4 +70X 5 + 70X 6 )",
+        "X 1 + 2X 2 + 4X 3 + X 4 >= 10",
+        "X 1 + X 2 + 4X 3 + X 4 <= 10",
+        "X 1 >= 12",
+        "X 1 <= 12",
+        "X 1 + 3X 2 + X 4 >= 5",
+        "X 1 + 3X 2 + X 4 <= 5"
+      ],
+      "correct_answer": [
+        "X 1 >= 12",
+        "X 1 + 3X 2 + X 4 >= 5"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following is the Primal LP Formulation for a resource allocation problem. Given this, answer the subquestions [IMAGE: /data/images/ms2002_2023T1_ET_AN_p4_Im1.webp|block]",
+      "group_id": "640653566331",
+      "section_name": null
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 357,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Considering a threshold of 0.7, how many \u201cTrue Positives\u201d are present in the confusion matrix if the aim is to predict if a student will pass the course? NOTE: Enter the answer as a numeric percentage value rounded to the nearest integer without the % symbol.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A logistic regression model is fit to predict if a student will pass the BA course (Y=1 pass, Y=0 fail). The results of the fitted model are given in the table below. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2023T1_ET_AN_p6_Im3.webp|block]",
+      "group_id": "640653566336",
+      "section_name": null
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 358,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Considering a threshold of 0.7, how many \u201cFalse Positives\u201d are present in the confusion matrix if the aim is to predict if a student will pass the course? NOTE: Enter the answer as a numeric percentage value rounded to the nearest integer without the % symbol.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A logistic regression model is fit to predict if a student will pass the BA course (Y=1 pass, Y=0 fail). The results of the fitted model are given in the table below. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2023T1_ET_AN_p6_Im3.webp|block]",
+      "group_id": "640653566336",
+      "section_name": null
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 359,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Considering a threshold of 0.7, how many \u201cFalse Negatives\u201d are present in the confusion matrix if the aim is to predict if a student will pass the course? NOTE: Enter the answer as a numeric percentage value rounded to the nearest integer without the % symbol.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A logistic regression model is fit to predict if a student will pass the BA course (Y=1 pass, Y=0 fail). The results of the fitted model are given in the table below. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2023T1_ET_AN_p6_Im3.webp|block]",
+      "group_id": "640653566336",
+      "section_name": null
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 360,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Considering a threshold of 0.7, how many \u201cTrue Negatives\u201d are present in the confusion matrix if the aim is to predict if a student will pass the course? NOTE: Enter the answer as a numeric percentage value rounded to the nearest integer without the % symbol.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A logistic regression model is fit to predict if a student will pass the BA course (Y=1 pass, Y=0 fail). The results of the fitted model are given in the table below. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2023T1_ET_AN_p6_Im3.webp|block]",
+      "group_id": "640653566336",
+      "section_name": null
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 361,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the accuracy of the built logistic model for predicting if a student will fail the course if a threshold of 0.7 is taken? NOTE: Enter the answer as a numeric percentage value rounded to two decimal places without the % symbol. For example, if your answer is \u201c10.256 %\u201d, enter it as \u201c10.26\u201d",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "83.0 to 84.0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A logistic regression model is fit to predict if a student will pass the BA course (Y=1 pass, Y=0 fail). The results of the fitted model are given in the table below. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2023T1_ET_AN_p6_Im3.webp|block]",
+      "group_id": "640653566336",
+      "section_name": null
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 362,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the precision of the built logistic model for predicting if a student will pass the course if a threshold of 0.7 is taken? NOTE: Enter the answer as a numeric percentage value rounded to the nearest integer without the % symbol.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "75",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A logistic regression model is fit to predict if a student will pass the BA course (Y=1 pass, Y=0 fail). The results of the fitted model are given in the table below. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2023T1_ET_AN_p6_Im3.webp|block]",
+      "group_id": "640653566336",
+      "section_name": null
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 363,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the recall of the built logistic model for predicting if a student will fail the course if a threshold of 0.7 is taken? NOTE: Enter the answer as a numeric percentage value rounded to two decimal places without the % symbol. For example, if your answer is \u201c10.256 %\u201d, enter it as \u201c10.26\u201d",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "66.0 to 67.0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A logistic regression model is fit to predict if a student will pass the BA course (Y=1 pass, Y=0 fail). The results of the fitted model are given in the table below. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2023T1_ET_AN_p6_Im3.webp|block]",
+      "group_id": "640653566336",
+      "section_name": null
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 364,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the expected frequency of \u201cChennai\u201d people preferring \u201cBrand-B\u201d? NOTE: If your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "153 to 157",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given the sales volume of three brands, \u201cA\u201d, \u201cB\u201d, and \u201cC\u201d in 4 cities in the table below. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2023T1_ET_AN_p11_Im1.webp|block]",
+      "group_id": "640653566344",
+      "section_name": null
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 365,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the expected frequency for \u201cDelhi\u201d people preferring \u201cBrand-C\u201d? NOTE: If your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "118 to 122",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given the sales volume of three brands, \u201cA\u201d, \u201cB\u201d, and \u201cC\u201d in 4 cities in the table below. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2023T1_ET_AN_p11_Im1.webp|block]",
+      "group_id": "640653566344",
+      "section_name": null
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 366,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the value of the computed Chi-Square test statistic? NOTE: If your answer is in decimal, enter it rounded to two decimal places. For example, if your answer is \u201c10.256\u201d, enter it as \u201c10.26\u201d",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "125 to 131",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given the sales volume of three brands, \u201cA\u201d, \u201cB\u201d, and \u201cC\u201d in 4 cities in the table below. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2023T1_ET_AN_p11_Im1.webp|block]",
+      "group_id": "640653566344",
+      "section_name": null
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 367,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the degrees of freedom for the chi-square test that you perform for this problem? NOTE: Enter your answer to the nearest integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given the sales volume of three brands, \u201cA\u201d, \u201cB\u201d, and \u201cC\u201d in 4 cities in the table below. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2023T1_ET_AN_p11_Im1.webp|block]",
+      "group_id": "640653566344",
+      "section_name": null
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 368,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 At the significance level 0.01, chi-squared tabular value is 16.18. What do you conclude?",
+      "type": "MCQ",
+      "options": [
+        "Reject the null hypothesis and conclude that the categorical variables are not independent",
+        "Accept the null hypothesis and conclude that the categorical variables are not independent",
+        "Accept the null hypothesis and conclude that the categorical variables are independent",
+        "Reject the null hypothesis and conclude that the categorical variables are independent",
+        "Accept the alternative hypothesis and conclude that the categorical variables are independent",
+        "Fail to accept the alternative hypothesis and conclude that the categorical variables are not independent",
+        "Fail to reject the alternative hypothesis and conclude that the categorical variables are independent",
+        "None of these"
+      ],
+      "correct_answer": "Reject the null hypothesis and conclude that the categorical variables are not independent",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given the sales volume of three brands, \u201cA\u201d, \u201cB\u201d, and \u201cC\u201d in 4 cities in the table below. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2023T1_ET_AN_p11_Im1.webp|block]",
+      "group_id": "640653566344",
+      "section_name": null
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 369,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 When do you choose \u201ccharts\u201d for representing data?",
+      "type": "multichoice",
+      "options": [
+        "To show how data changes over time",
+        "Show distribution of data",
+        "Show complete data",
+        "Show slice of data"
+      ],
+      "correct_answer": [
+        "To show how data changes over time",
+        "Show distribution of data",
+        "Show slice of data"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 370,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 When performing the goodness of fit test by grouping the given observations into bins, the expected frequency represents the __ (choose all that are applicable)",
+      "type": "multichoice",
+      "options": [
+        "Probability Mass Function",
+        "Probability Density Function",
+        "Cumulative Distribution Function",
+        "The actual count of values in the sample that fall in each bin",
+        "None of these"
+      ],
+      "correct_answer": [
+        "Probability Mass Function",
+        "Probability Density Function"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 371,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the demand when the price is Rs.1?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "If a constant elasticity curve models the demand response curve for the data given in the following table, then answer the given subquestions [IMAGE: /data/images/ms2002_2023T1_ET_AN_p16_Im1.webp|block]",
+      "group_id": "640653566351",
+      "section_name": null
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 372,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the price elasticity for the demand response curve?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "If a constant elasticity curve models the demand response curve for the data given in the following table, then answer the given subquestions [IMAGE: /data/images/ms2002_2023T1_ET_AN_p16_Im1.webp|block]",
+      "group_id": "640653566351",
+      "section_name": null
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 373,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The relationship between Demand \u201cD\u201d and Selling Price \u201cP\u201d is given by the equation D(p) = 120 \u2013 5*P. If the intention is to maximize the profit, then what is the optimal selling price if the item is going to be sold at Rs. 20 per unit?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "22",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 374,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 There are 6 business units. There are two outputs and one input under consideration. You are solving the optimization problem for business unit 4 and find that the efficiency is 0.8. You find that the dual variables corresponding to the constraints of business units 3 and 5 are non-zero and the dual variables corresponding to the constraints of other units are zero. The dual variables corresponding to the constraints of business units 3 and 5 are 0.3 and 0.5 respectively. You are given the following table where sales and number of leads are the two outputs. What is the sales in HCU 4? [IMAGE: /data/images/ms2002_2023T1_ET_AN_p18_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9499 to 9501",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 375,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The table below provides the summary statistic for a random variable. Then what distribution could be a good fit for this random variable? (select all that is/are applicable) [IMAGE: /data/images/ms2002_2023T1_ET_AN_p18_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Poisson distribution",
+        "Symmetric Gaussian distribution",
+        "Uniform distribution",
+        "Exponential distribution"
+      ],
+      "correct_answer": "Poisson distribution",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 376,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is productive efficiency?",
+      "type": "MCQ",
+      "options": [
+        "It is an aspect of economic efficiency focussing on maximizing the output under given constraints.",
+        "Productive efficiency does not worry about optimal allocation, or choice of products",
+        "Effective usage of technology for maximizing the revenue",
+        "Consists of all combinations of outputs such that the production of one product cannot be increased without sacrificing the output of the other (without any change in technology)",
+        "Both It is an aspect of economic efficiency focussing on maximizing the output under given constraints & Productive efficiency does not worry about optimal allocation, or choice of products"
+      ],
+      "correct_answer": "Both It is an aspect of economic efficiency focussing on maximizing the output under given constraints & Productive efficiency does not worry about optimal allocation, or choice of products",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 377,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/ms2002_2023T1_ET_AN_p20_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Normalizing constraint for the denominator",
+        "All DMUs including k will have weights assigned by k and it will be less than 1",
+        "Non-negativity constraint for the decision variables",
+        "All of these"
+      ],
+      "correct_answer": "All of these",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2023T1_ET_AN_p20_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 378,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 There are 7 business units and you are using the DEA to compare them. You solve the LP for business unit 4. You find from the constraint expression that business unit 2 has obtained an efficiency of 1 and business unit 7 has obtained an efficiency of 1 with the optimal weights of business unit 5. Which of the following statements is correct?",
+      "type": "multichoice",
+      "options": [
+        "Business unit 3 may be inefficient",
+        "Business unit 2 will be efficient",
+        "Business unit 7 may be inefficient",
+        "Business unit 7 will be efficient"
+      ],
+      "correct_answer": [
+        "Business unit 2 will be efficient",
+        "Business unit 7 will be efficient"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    }
+  ],
+  "id": "ms2002-2023t1-et-an",
+  "course_code": "MS2002",
+  "course_name": "Business Analytics",
+  "level": "Diploma in Data Science",
+  "term": "Jan 2023",
+  "year": 2023,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

@@ -1,0 +1,635 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)",
+  "filename": "da5006_2024T3_Q1_NA.pdf",
+  "total_questions": 30,
+  "total_marks": 46.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 142,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 143,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p0_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "54",
+        "10",
+        "0",
+        "18"
+      ],
+      "correct_answer": "0",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p0_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 144,
+      "text": "Which of the following statements is false?",
+      "type": "MCQ",
+      "options": [
+        "Linear contrast stretching is a point operation.",
+        "Moving average is an example of local operation.",
+        "Convolution in the spatial domain can be obtained through addition in the frequency domain.",
+        "All of these."
+      ],
+      "correct_answer": "Convolution in the spatial domain can be obtained through addition in the frequency domain.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 145,
+      "text": "Which of the following statements is True",
+      "type": "MCQ",
+      "options": [
+        "Gaussian filter is Separable filter because it is non linear.",
+        "Median filter is a non separable filter",
+        "Gaussian filter is a High Pass filter.",
+        "Mean filter is a non separable filter because it is non linear"
+      ],
+      "correct_answer": "Median filter is a non separable filter",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 146,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0.18, 1.5, 1.5, 0.20,\u22121.5,\u22120.015",
+        "0.92, 2.5, 1, 2.5, 2.5, 1",
+        "0.18,\u22121.5, 0, 0.20, 0,\u22120.015",
+        "0.91, 1, 0, 0.2, 1, 1.7"
+      ],
+      "correct_answer": "0.18,\u22121.5, 0, 0.20, 0,\u22120.015",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 147,
+      "text": "Identify the correct sequence of steps in a Canny edge detection pipeline. Steps are listed below: 1. Compute gradient magnitude and direction 2. Connect individual components 3. Smoothen the image 4. Threshold into strong, weak, or no edge 5. Gaussian Filter and Hysteresis 6. Non-maximum suppression 7. Apply derivative to get edges",
+      "type": "MCQ",
+      "options": [
+        "6\u2192 1\u2192 4\u2192 5 \u2192 2",
+        "3\u2192 1\u2192 6\u2192 4 \u2192 2",
+        "3\u2192 5\u2192 1\u2192 4 \u2192 2",
+        "6\u2192 8\u2192 5\u2192 7 \u2192 2"
+      ],
+      "correct_answer": "3\u2192 1\u2192 6\u2192 4 \u2192 2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 148,
+      "text": "Identify the correct sequence of steps in Scale Invariant Feature Transform (SIFT) method. Steps listed below: 1. Keypoint Descriptor 2. Keypoint Localization 3. Scale-space Extrema Detection 4. Orientation Estimation",
+      "type": "MCQ",
+      "options": [
+        "4\u2192 2\u2192 1\u2192 3",
+        "3\u2192 2\u2192 4\u2192 1",
+        "3\u2192 1\u2192 2\u2192 4",
+        "None of these."
+      ],
+      "correct_answer": "3\u2192 2\u2192 4\u2192 1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 149,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 iii, 2\u2192 i, 3 \u2192 ii",
+        "1\u2192 iii, 2\u2192 ii, 3 \u2192 i",
+        "1\u2192 ii, 2\u2192 iii, 3 \u2192 i",
+        "None of these."
+      ],
+      "correct_answer": "1\u2192 iii, 2\u2192 i, 3 \u2192 ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 150,
+      "text": "Suppose we have a codebook of 2048 SIFT visual words. We extract 1000 SIFT descriptors (SIFT is a 128-dimensional feature) from a new image. What is the dimensionality of the BoW (Bag-of-Words) descriptor?",
+      "type": "MCQ",
+      "options": [
+        "1000",
+        "128",
+        "128 \u00d7 2048",
+        "2048"
+      ],
+      "correct_answer": "2048",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 151,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 vi, 2\u2192 iii, 3\u2192 v, 4 \u2192 i",
+        "1\u2192 i, 2 \u2192iv, 3 \u2192 iii, 4\u2192 ii",
+        "1\u2192 i, 2 \u2192v, 3 \u2192 iii, 4\u2192 iv",
+        "1\u2192 iv, 2\u2192 iii, 3\u2192 ii, 4 \u2192 i"
+      ],
+      "correct_answer": "1\u2192 iv, 2\u2192 iii, 3\u2192 ii, 4 \u2192 i",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 152,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p3_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "5 \u00d7 5",
+        "7 \u00d7 7",
+        "9 \u00d7 9",
+        "3 \u00d7 3"
+      ],
+      "correct_answer": "9 \u00d7 9",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 153,
+      "text": "Which of the following statements are false?",
+      "type": "multichoice",
+      "options": [
+        "Momentum in optimization can cause oscillations around minima when encountering flat regions or saddle points due to the dominance of the momentum term over the small gradient.",
+        "Stochastic Gradient Descent (SGD) with its inherent noise can be beneficial in escaping local minima and saddle points, provided that there is enough gradient information in the neighborhood.",
+        "Adagrad is an optimization algorithm introduced to overcome the diminishing learning rate problem in techniques like RMSProp.",
+        "ADAM is introduced to solve problems in RMSProp by combining RMSProp and Adagrad techniques."
+      ],
+      "correct_answer": [
+        "Adagrad is an optimization algorithm introduced to overcome the diminishing learning rate problem in techniques like RMSProp.",
+        "ADAM is introduced to solve problems in RMSProp by combining RMSProp and Adagrad techniques."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 154,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p4_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p4_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p4_Im6.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p4_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p4_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p4_Im7.webp|block]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p4_Im3.webp",
+        "/data/images/da5006_2024T3_Q1_NA_p4_Im5.webp",
+        "/data/images/da5006_2024T3_Q1_NA_p4_Im6.webp",
+        "/data/images/da5006_2024T3_Q1_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 155,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p5_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p5_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p5_Im6.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p5_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p5_Im5.webp|block]",
+        ""
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p5_Im1.webp",
+        "/data/images/da5006_2024T3_Q1_NA_p5_Im5.webp",
+        "/data/images/da5006_2024T3_Q1_NA_p5_Im6.webp",
+        "/data/images/da5006_2024T3_Q1_NA_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 156,
+      "text": "Which of the following statements are true ? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p5_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p5_Im10.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p6_Im2.webp|inline]"
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p6_Im2.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p5_Im9.webp",
+        "/data/images/da5006_2024T3_Q1_NA_p5_Im10.webp",
+        "/data/images/da5006_2024T3_Q1_NA_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 157,
+      "text": "Which of the following are true ? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p6_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p6_Im6.webp|inline] [IMAGE: /data/images/da5006_2024T3_Q1_NA_p6_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p6_Im4.webp|block]",
+        ""
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p6_Im4.webp",
+        "/data/images/da5006_2024T3_Q1_NA_p6_Im6.webp",
+        "/data/images/da5006_2024T3_Q1_NA_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 158,
+      "text": "Enter the correct answer for (a). NOTE: Enter the exact answer without any space in the beginning or at the end. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "high",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The gradient of an image I, points in the direction of most rapid change in intensity, taking image derivatives accentuates (a) ____________ frequencies and hence amplifies noise, since the proportion of noise to signal is larger at (b) __________ frequencies. The solution to this is (c) _________ the image prior to computing gradients.",
+      "group_id": "640653994491",
+      "section_name": null
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 159,
+      "text": "Enter the correct answer for (b). NOTE: Enter the exact answer without any space in the beginning or at the end. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "high",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The gradient of an image I, points in the direction of most rapid change in intensity, taking image derivatives accentuates (a) ____________ frequencies and hence amplifies noise, since the proportion of noise to signal is larger at (b) __________ frequencies. The solution to this is (c) _________ the image prior to computing gradients.",
+      "group_id": "640653994491",
+      "section_name": null
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 160,
+      "text": "Enter the correct answer for (c). NOTE: Enter the exact answer without any space in the beginning or at the end. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "smooth",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The gradient of an image I, points in the direction of most rapid change in intensity, taking image derivatives accentuates (a) ____________ frequencies and hence amplifies noise, since the proportion of noise to signal is larger at (b) __________ frequencies. The solution to this is (c) _________ the image prior to computing gradients.",
+      "group_id": "640653994491",
+      "section_name": null
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 161,
+      "text": "Enter the correct answer for (a). NOTE: Enter the exact answer without any space in the beginning or at the end. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "thick coarse large scale",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "In Canny edge detection, large value of the Gaussian kernel spread, \u03c3 leads to (a) __________ edges, and small value of \u03c3 leads to (b) __________ edges.",
+      "group_id": "640653994495",
+      "section_name": null
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 162,
+      "text": "Enter the correct answer for (b) . NOTE: Enter the exact answer without any space in the beginning or at the end. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "fine",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "In Canny edge detection, large value of the Gaussian kernel spread, \u03c3 leads to (a) __________ edges, and small value of \u03c3 leads to (b) __________ edges.",
+      "group_id": "640653994495",
+      "section_name": null
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 163,
+      "text": "Enter the correct answer for a 11",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "640653994499",
+      "section_name": null
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 164,
+      "text": "Enter the correct answer for a 12",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.5",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "640653994499",
+      "section_name": null
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 165,
+      "text": "Enter the correct answer for a 21",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "640653994499",
+      "section_name": null
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 166,
+      "text": "Enter the correct answer for a 22",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "640653994499",
+      "section_name": null
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 167,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 168,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 169,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p11_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "30",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p11_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 170,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p12_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.34 to -0.29",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 171,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q1_NA_p12_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "14",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q1_NA_p12_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    }
+  ],
+  "id": "da5006-2024t3-q1-na",
+  "course_code": "DA5006",
+  "course_name": "Deep Learning for Computer Vision",
+  "level": "Degree",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

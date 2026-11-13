@@ -1,0 +1,550 @@
+{
+  "title": "DEGREE LEVEL : DATA SCIENCE AND AI LAB (COMPUTER BASED EXAM)",
+  "filename": "da4001_2025T3_Q2_NA.pdf",
+  "total_questions": 25,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 38,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DATA SCIENCE AND AI LAB (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 39,
+      "text": "In text generation with GPT-2, what effect does increasing the temperature parameter generally have?",
+      "type": "MCQ",
+      "options": [
+        "It makes the output more deterministic and repetitive.",
+        "It increases randomness by flattening the probability distribution, making less likely words more probable to be chosen.",
+        "It strictly limits the vocabulary size considered at each step.",
+        "It increases the penalty for repeating n-grams."
+      ],
+      "correct_answer": "It increases randomness by flattening the probability distribution, making less likely words more probable to be chosen.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 40,
+      "text": "[IMAGE: /data/images/da4001_2025T3_Q2_NA_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "chain.invoke({\"prompt\": \"What is the capital of France?\"})",
+        "chain.invoke(\"What is the capital of France\")",
+        "chain.invoke(\"France\")",
+        "chain.invoke({\"country\": \"France\"})"
+      ],
+      "correct_answer": "chain.invoke({\"country\": \"France\"})",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2025T3_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 41,
+      "text": "Fill in the missing function call to correctly compile and execute the LangGraph workflow. graph = StateGraph() # ... add nodes and edges ... app = graph.________() output = app.________({\"query\": \"What is LangGraph?\"})",
+      "type": "MCQ",
+      "options": [
+        "connect(), execute()",
+        "run(), output()",
+        "setup(), call()",
+        "compile(), invoke()"
+      ],
+      "correct_answer": "compile(), invoke()",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 42,
+      "text": "In LangGraph, which of the following statements correctly describe the role of State ? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "State acts as a shared memory that passes data between nodes",
+        "State defines the execution order of nodes in the graph",
+        "State is automatically reset after every node execution",
+        "State stores intermediate results produced by each node during execution"
+      ],
+      "correct_answer": [
+        "State acts as a shared memory that passes data between nodes",
+        "State stores intermediate results produced by each node during execution"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 43,
+      "text": "What does the following line do? x = x.to('cuda')",
+      "type": "MCQ",
+      "options": [
+        "Moves tensor x to the GPU for computation.",
+        "Creates a copy of x on CPU.",
+        "Converts x to a CUDA integer type.",
+        "Enables mixed-precision computation."
+      ],
+      "correct_answer": "Moves tensor x to the GPU for computation.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 44,
+      "text": "You are training a neural network using PyTorch. The following code blocks are parts of a typical training loop. Arrange them in the correct order to form a valid training loop for one epoch. Make necessary assumptions and choose the correct option (A) outputs = model(inputs) loss = criterion(outputs, labels) (B) optimizer.step() (C) for inputs, labels in dataloader: (D) loss.backward() (E) optimizer.zero_grad()",
+      "type": "MCQ",
+      "options": [
+        "(C) \u2192 (E) \u2192 (A) \u2192 (D) \u2192 (B)",
+        "(C) \u2192 (B) \u2192 (E) \u2192 (A) \u2192 (D)",
+        "(E) \u2192 (C) \u2192 (A) \u2192 (B) \u2192 (D)",
+        "(C) \u2192 (E) \u2192 (A) \u2192 (B) \u2192 (D)"
+      ],
+      "correct_answer": "(C) \u2192 (E) \u2192 (A) \u2192 (D) \u2192 (B)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 45,
+      "text": "[IMAGE: /data/images/da4001_2025T3_Q2_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "\"END\", \"greet\"",
+        "\"greet\", END",
+        "\"start\", \"end\"",
+        "\"entry\", \"exit\""
+      ],
+      "correct_answer": "\"greet\", END",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2025T3_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 46,
+      "text": "When performing gradient accumulation in PyTorch, which of the following statements are true?",
+      "type": "MCQ",
+      "options": [
+        "Gradients computed by loss.backward() are added to the existing .grad attributes of model parameters rather than replacing them.",
+        "To accumulate gradients over multiple mini-batches before an optimizer step, you must call optimizer.zero_grad() after every loss.backward() .",
+        "Calling loss.backward() automatically clears the previously stored gradients in the model parameters.",
+        "Gradient accumulation in PyTorch is enabled by setting requires_grad=True for model parameters."
+      ],
+      "correct_answer": "Gradients computed by loss.backward() are added to the existing .grad attributes of model parameters rather than replacing them.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 47,
+      "text": "[IMAGE: /data/images/da4001_2025T3_Q2_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "{\"message\": \"Hello Sachin!\"}",
+        "{\"Hello Sachin!\"}",
+        "{\"name\": \"Sachin\", \"message\": \"Hello Sachin!\"}",
+        "None"
+      ],
+      "correct_answer": "{\"name\": \"Sachin\", \"message\": \"Hello Sachin!\"}",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2025T3_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 48,
+      "text": "[IMAGE: /data/images/da4001_2025T3_Q2_NA_p6_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.73 to 0.77",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2025T3_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 49,
+      "text": "The parent node of a decision tree P has 50 samples belonging to class A and 50 samples belonging to class B from a total of 100 samples. After the split at node P , the left child L has the 50 points belonging to class B and the right child R has the 50 points belonging to class A . What is the absolute value of Entropy(P) - (Entropy(L) + Entropy(R)) ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 50,
+      "text": "What will this code retrieve? vectorstore = FAISS.from_documents(chunks, embedding_model) results = vectorstore.similarity_search(\"product launch\", k=3) print(type(results[0]))",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da4001_2025T3_Q2_NA_p7_Im2.webp|inline]",
+        "[IMAGE: /data/images/da4001_2025T3_Q2_NA_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/da4001_2025T3_Q2_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/da4001_2025T3_Q2_NA_p7_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da4001_2025T3_Q2_NA_p7_Im2.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2025T3_Q2_NA_p7_Im2.webp",
+        "/data/images/da4001_2025T3_Q2_NA_p7_Im4.webp",
+        "/data/images/da4001_2025T3_Q2_NA_p7_Im5.webp",
+        "/data/images/da4001_2025T3_Q2_NA_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 51,
+      "text": "A dataset df contains 20000 rows and 7 columns. The columns are named id , road_type , num_lanes , weather , speed_limit , area and public . The number of unique values taken by the columns are as follows: id - 20000, road_type - 4, num_lanes - 4, weather - 3, speed_limit - 25, area - 30, public - 2.The following transformations were done on the dataset. df = df.drop(columns=['id']) encoder = ColumnTransformer( transformers=[ ('road_type', OneHotEncoder(drop = None, handle_unknown='ignore'), ['road_type']), ('weather', OneHotEncoder(drop = None, handle_unknown='ignore'), ['weather']), ('area', OrdinalEncoder(handle_unknown=\"use_encoded_value\",unknown_value=100), ['area']) ], remainder='passthrough' ) X_encoded = encoder.fit_transform(df) How many columns are present in the dataset X_encoded ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 52,
+      "text": "What is the output of the following snippet of code? import numpy as np A = np.array([ [1, 5, 9], [10, 2, 1], [0, 2, 3] ]) array_sum = A.sum(axis=1) print(array_sum)",
+      "type": "MCQ",
+      "options": [
+        "[15, 13, 5]",
+        "[11, 9, 13]",
+        "33",
+        "[9, 10, 3]"
+      ],
+      "correct_answer": "[15, 13, 5]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 53,
+      "text": "[IMAGE: /data/images/da4001_2025T3_Q2_NA_p8_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Add a RunnableLambda(print) immediately after the prompt: chain = prompt | RunnableLambda(print) | model .",
+        "Set the verbose flag to True when configuring the model.",
+        "Use print(chain.invoke(input)) and check the final output, as the intermediate steps are not directly accessible.",
+        "Invoke the prompt component directly: prompt.invoke(input) ."
+      ],
+      "correct_answer": [
+        "Add a RunnableLambda(print) immediately after the prompt: chain = prompt | RunnableLambda(print) | model .",
+        "Invoke the prompt component directly: prompt.invoke(input) ."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da4001_2025T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 54,
+      "text": "x and y are 1D NumPy arrays, that is, x.ndim = 1 and y.ndim = 1 . Also, x.shape == y.shape . What would happen if we run x @ y ?",
+      "type": "MCQ",
+      "options": [
+        "We would get the dot product between the two vectors represented by the arrays.",
+        "We would get the outer product between the two vectors represented by the arrays.",
+        "We would get the element-wise product of the two vectors represented by the arrays.",
+        "The code would throw a SyntaxError."
+      ],
+      "correct_answer": "We would get the dot product between the two vectors represented by the arrays.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 55,
+      "text": "You are working with two datasets and trying to combine them to get two columns in the combined_dataset using the following code: from datasets import concatenate_datasets, load_dataset ds1 = load_dataset(\"imdb\", split=\"train[:4000]\") ds2 = load_dataset(\"csv\", data_files=\"reviews.csv\") combined_dataset = concatenate_datasets([ds1, ds2]) Assume the following: The ds1 dataset has columns: text (string), label (int). The ds2 dataset has columns: review (string), sentiment (int).",
+      "type": "multichoice",
+      "options": [
+        "The combined dataset will automatically align the columns and combine rows successfully.",
+        "To combine the datasets, you must align the column names using .rename_column() or .map() .",
+        "The concatenate_datasets() function requires both datasets to have the same split names.",
+        "Both datasets must have the same schema (column names and types) to be concatenated.",
+        "The concatenate_datasets() function modifies ds1 and ds2 in place."
+      ],
+      "correct_answer": [
+        "To combine the datasets, you must align the column names using .rename_column() or .map() .",
+        "Both datasets must have the same schema (column names and types) to be concatenated."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 56,
+      "text": "You need to add a new column char_count , representing the character count of the text column in your dataset. Which of the following code snippets will achieve this using the .map() method?",
+      "type": "multichoice",
+      "options": [
+        "def add_char_count(example): return {\"char_count\": len(example[\"text\"])} dataset = dataset.map(add_char_count)",
+        "def add_char_count(example): example[\"char_count\"] = len(example[\"text\"]) return example dataset = dataset.map(add_char_count)",
+        "dataset = dataset.add_column(\"char_count\", dataset[\"text\"].apply(len))",
+        "dataset[\"char_count\"] = dataset[\"text\"].map(len)"
+      ],
+      "correct_answer": [
+        "def add_char_count(example): return {\"char_count\": len(example[\"text\"])} dataset = dataset.map(add_char_count)",
+        "def add_char_count(example): example[\"char_count\"] = len(example[\"text\"]) return example dataset = dataset.map(add_char_count)"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 57,
+      "text": "You notice your RAG system returns irrelevant results. Which change might help? # Current setup splitter = RecursiveCharacterTextSplitter(chunk_size=5000, chunk_overlap=500) retriever = vectorstore.as_retriever(search_kwargs={\"k\": 1})",
+      "type": "multichoice",
+      "options": [
+        "Increase k to 5 to get more context.",
+        "Decrease chunk_size to 500 for more focused chunks.",
+        "Remove chunk_overlap completely."
+      ],
+      "correct_answer": [
+        "Increase k to 5 to get more context.",
+        "Decrease chunk_size to 500 for more focused chunks."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 58,
+      "text": "What will be the output of the following code? from langchain_text_splitters import RecursiveCharacterTextSplitter text = \"Hello world. How are you? I am fine.\" splitter = RecursiveCharacterTextSplitter(chunk_size=15, chunk_overlap=5) chunks = splitter.split_text(text) print(len(chunks))",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 59,
+      "text": "In a standard 8-bit grayscale image, what pixel values typically represent pure black and pure white, respectively?",
+      "type": "MCQ",
+      "options": [
+        "0 for black, 255 for white.",
+        "255 for black, 0 for white.",
+        "0 for black, 1 for white.",
+        "-1 for black, 1 for white."
+      ],
+      "correct_answer": "0 for black, 255 for white.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 60,
+      "text": "How is a standard color (RGB) image typically represented as a NumPy array?",
+      "type": "MCQ",
+      "options": [
+        "As a 1D vector of all pixel values.",
+        "As a 2D array with the shape (Height, Width).",
+        "As a 3D array with the shape (3, Height, Width).",
+        "As a 3D array with the shape (Height, Width, 3)."
+      ],
+      "correct_answer": "As a 3D array with the shape (Height, Width, 3).",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 61,
+      "text": "Which of the following statements regarding Data Augmentation are correct?",
+      "type": "multichoice",
+      "options": [
+        "Involves creation of modified copies of existing data through techniques such as rotation, scaling, cropping among others.",
+        "It artificially expands the dataset to help the model generalize better on unseen data and reduce overfitting.",
+        "The primary objective is to make the images smaller to achieve faster training.",
+        "It is used for the removal of noise from images and converting it to grayscale."
+      ],
+      "correct_answer": [
+        "Involves creation of modified copies of existing data through techniques such as rotation, scaling, cropping among others.",
+        "It artificially expands the dataset to help the model generalize better on unseen data and reduce overfitting."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 62,
+      "text": "What is the main difference between PIL.Image.open() and cv2.imread() when loading a color image?",
+      "type": "MCQ",
+      "options": [
+        "Pillow loads the image as a NumPy array, while OpenCV loads it in a custom format.",
+        "Pillow (PIL) loads the image in RGB format, while OpenCV (cv2) loads it in BGR format."
+      ],
+      "correct_answer": "Pillow (PIL) loads the image in RGB format, while OpenCV (cv2) loads it in BGR format.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DS AI Lab"
+    }
+  ],
+  "id": "da4001-2025t3-q2-na",
+  "course_code": "DA4001",
+  "course_name": "Data Visualization",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

@@ -1,0 +1,429 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)",
+  "filename": "cs2003_2026T1_Q2_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "You want to create an app where students can log in and download hall tickets. To make this more efficient, you want to have some very quick way to check whether a given user has already downloaded their hall ticket or not. Which kind of database will you prefer?",
+      "type": "MCQ",
+      "options": [
+        "RDBMS",
+        "Doc-oriented database",
+        "Graph database",
+        "Key-value store"
+      ],
+      "correct_answer": "Key-value store",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Which of the following enables asynchronous communication between client and server without loading the entire web page?",
+      "type": "MCQ",
+      "options": [
+        "CGI",
+        "FTP",
+        "SMTP",
+        "AJAX"
+      ],
+      "correct_answer": "AJAX",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the following Flask application. [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p2_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p2_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p2_Im4.webp|inline]",
+        "Hello Guest! Your role is member.",
+        "Hello Alice! Your role is ADMIN.",
+        "Hello ALICE! Your role is admin."
+      ],
+      "correct_answer": "Hello ALICE! Your role is admin.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_Q2_NA_p2_Im1.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p2_Im2.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following Python code. [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p3_Im1.webp|block] Which of the following is the correct output of the above code?",
+      "type": "MCQ",
+      "options": [
+        "56",
+        "11",
+        "6",
+        "30"
+      ],
+      "correct_answer": "11",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "A server has a 16-core CPU, 64 GB RAM and 1 Gbps network connection. The server is running a single instance of an app that can generate a maximum of 500 HTML pages per second, each of which results in a 100KB image to be downloaded by the client. What is the maximum number of requests per second that can be handled by this setup?",
+      "type": "MCQ",
+      "options": [
+        "10,000",
+        "1250",
+        "1000",
+        "500"
+      ],
+      "correct_answer": "500",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "A web server is connected to a 5Mbps network line. Each HTTP request contains 4KB of header information and 6KB of payload. What is the maximum number of requests per second the web server can support?(Note: 1KB=1000B, 1MB=1000KB and so on)",
+      "type": "MCQ",
+      "options": [
+        "500",
+        "62",
+        "124",
+        "31"
+      ],
+      "correct_answer": "62",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following HTML/CSS code. [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p4_Im2.webp|block] What will be the output when the above HTML file is rendered?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p4_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_Q2_NA_p4_Im2.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p4_Im3.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p4_Im4.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p4_Im6.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "You have a DRAM module with bus width of 64 bits, clock speed of 1 GHz, and operating in DDR (double-data-rate or two values per clock cycle) mode. What is the maximum bandwidth (in Giga- bytes per second) of data transfer achievable with this module?",
+      "type": "MCQ",
+      "options": [
+        "8 GigaBytes/s",
+        "16 GigaBytes/s",
+        "24 GigaBytes/s",
+        "None of these"
+      ],
+      "correct_answer": "16 GigaBytes/s",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Which of the following flask routes can take dynamic value in the URL like \u201c /user/55 \u201d?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p5_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p5_Im5.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_Q2_NA_p5_Im3.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p5_Im4.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p5_Im5.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the following Python Flask code. [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p5_Im7.webp|block] [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p5_Im8.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "http://127.0.0.1:5000/user/IITM",
+        "http://127.0.0.1:5000/user/101",
+        "http://127.0.0.1:5000/user/10/greet",
+        "http://127.0.0.1:5000/user",
+        "http://127.0.0.1:5000/user/BS?id=101"
+      ],
+      "correct_answer": [
+        "http://127.0.0.1:5000/user/IITM",
+        "http://127.0.0.1:5000/user/101",
+        "http://127.0.0.1:5000/user/BS?id=101"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_Q2_NA_p5_Im7.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p5_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the following HTML and Python Flask code. [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p6_Im3.webp|block] [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p6_Im4.webp|block] [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p6_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Output is: 3",
+        "Output is:",
+        "Output is: 1 2 3",
+        "Output is: 1 2 3 3"
+      ],
+      "correct_answer": "Output is:",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_Q2_NA_p6_Im3.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p6_Im4.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p6_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider the following HTML code. [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p7_Im3.webp|block] What will be the output in the console window when the above HTML doc is rendered on the browser ?",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "3",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_Q2_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Consider the following Python Flask code. [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p8_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "curl -X POST --json '{\"uid\":\"admin\",\"pwd\":\"xyz\"}' http://127.0.0.1:5000/login",
+        "curl -X GET --json '{\"uid\":\"admin\",\"pwd\":\"xyz\"}' http://127.0.0.1:5000/login",
+        "URL request: http://127.0.0.1:5000/login",
+        "curl --json '{\"uid\":\"admin\",\"pwd\":\"12345\"}' http://127.0.0.1:5000/login",
+        "curl -X POST --json '{\"uid\":\"admin\",\"pwd\":\"12345\"}' http://127.0.0.1:5000/login"
+      ],
+      "correct_answer": [
+        "curl -X GET --json '{\"uid\":\"admin\",\"pwd\":\"xyz\"}' http://127.0.0.1:5000/login",
+        "URL request: http://127.0.0.1:5000/login"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the following Python Flask RESTful API code. [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p9_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p9_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p9_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p9_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p10_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p9_Im7.webp|block]",
+        ""
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_Q2_NA_p9_Im1.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p9_Im2.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p9_Im6.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p9_Im7.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Which of the following relationships exists between the \u201cUser\u201d and \u201cProfile\u201d models?",
+      "type": "MCQ",
+      "options": [
+        "Many-to-Many",
+        "Many-to-One",
+        "One-to-Many",
+        "One-to-One"
+      ],
+      "correct_answer": "One-to-One",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_Q2_NA_p10_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following SQLAlchemy class models. [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p10_Im3.webp|block]",
+      "group_id": "6406532035122",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "What will be the output if the following commands are executed in the python shell. [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p11_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p11_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p11_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_Q2_NA_p11_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2026T1_Q2_NA_p11_Im1.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p10_Im3.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p11_Im3.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p11_Im4.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p11_Im6.webp",
+        "/data/images/cs2003_2026T1_Q2_NA_p11_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following SQLAlchemy class models. [IMAGE: /data/images/cs2003_2026T1_Q2_NA_p10_Im3.webp|block]",
+      "group_id": "6406532035122",
+      "section_name": "Appdev1"
+    }
+  ],
+  "id": "cs2003-2026t1-q2-na",
+  "course_code": "CS2003",
+  "course_name": "Application Development 1",
+  "level": "Diploma in Programming",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

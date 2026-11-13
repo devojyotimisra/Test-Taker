@@ -1,0 +1,621 @@
+{
+  "title": "FOUNDATION LEVEL : COMPUTATIONAL THINKING (COMPUTER BASED EXAM)",
+  "filename": "bscs1001_2026T2_ET_FN.pdf",
+  "total_questions": 22,
+  "total_marks": 86.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"FOUNDATION LEVEL : COMPUTATIONAL THINKING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p1_Im3.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Useful Data has been mentioned above.",
+        "This data attachment is just for a reference & not for an evaluation."
+      ],
+      "correct_answer": "Useful Data has been mentioned above.",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p1_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "The following pseudocode is executed using the \"Scores\" table. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p3_Im1.webp|block] What does [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p3_Im2.webp|inline] represent?",
+      "type": "MCQ",
+      "options": [
+        "The average of the highest Chemistry marks scored across all the cities.",
+        "The average Chemistry marks scored by all students in the dataset.",
+        "The highest Chemistry marks among all cities, divided by the number of students.",
+        "The average of the lowest Chemistry marks scored across all the cities."
+      ],
+      "correct_answer": "The average of the highest Chemistry marks scored across all the cities.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p3_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "The following pseudocode is executed using the \"Library\" dataset. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p4_Im1.webp|block] What will the [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p4_Im2.webp|inline] dictionary represent at the end of execution?",
+      "type": "MCQ",
+      "options": [
+        "Dictionary with authors as keys mapped to the span of years (difference between latest and earliest publication year) between their first and most recent book.",
+        "Dictionary with authors as keys mapped to the year of their most recent publication.",
+        "Dictionary with authors as keys mapped to the total number of books they have published.",
+        "Dictionary with authors as keys mapped to the year of their first publication."
+      ],
+      "correct_answer": "Dictionary with authors as keys mapped to the span of years (difference between latest and earliest publication year) between their first and most recent book.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p4_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Assume that A is the adjacency matrix of the graph shown below. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p5_Im1.webp|block] Consider the following pseudocode: [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p5_Im2.webp|block] The procedure is called as follows: [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p5_Im3.webp|block] What will be the value of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p5_Im4.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p5_Im8.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p5_Im9.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p6_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p5_Im6.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p5_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p5_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p5_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p5_Im4.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p5_Im6.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p5_Im8.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p5_Im9.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "The following pseudocode is executed using the \"Words\" dataset. What will A represent at the end of the execution? [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p6_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Number of words that end with a comma.",
+        "Number of words that end with a comma and have a letter count greater than ratio of number of words to sum of letter count.",
+        "Number of words that end with a comma and have a letter count less than or equal to the average letter count of dataset.",
+        "Number of words that end with a comma and have a letter count greater than the average letter count of dataset."
+      ],
+      "correct_answer": "Number of words that end with a comma and have a letter count greater than the average letter count of dataset.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "The following flowchart is executed using the \"Scores\" dataset. Assume that Rida and Siddharth both have scored the lowest total marks across the whole dataset which is 173. Let cards are arranged in such a way that Rida's card is below Siddharth's card, what will the values of A and B be at the end of the execution? [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p7_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p7_Im5.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p7_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p7_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p7_Im5.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p7_Im6.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "The following table contains information regarding books in a library. Each row in the table corresponds to a book and is authored by exactly two authors, with equal contributions from both. There is a pool of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im1.webp|inline] authors, each author being assigned a unique index between 0 and [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im2.webp|inline] . There are [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im3.webp|inline] books in total. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im4.webp|block] The table is represented by a dictionary named [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im5.webp|inline] , with the keys as serial numbers and values as the corresponding lists of authors. Assume that [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im6.webp|inline] has already been computed. For example: [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im7.webp|block] Given a pair of authors [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im8.webp|inline] , with [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im9.webp|inline] , what does the value [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im10.webp|inline] represent at the end of the execution of the following pseudocode? [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im11.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It represents the number of books published by authors [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im13.webp|inline] or [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im14.webp|inline]",
+        "It represents the number of books in which authors [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im16.webp|inline] and [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im17.webp|inline] have collaborated",
+        "It represents the number of books published by author [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im18.webp|inline] plus the number of books published by author [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im19.webp|inline]",
+        "It represents the number of books published by author [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p9_Im2.webp|inline] in which they have not collaborated with author [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p9_Im3.webp|inline]"
+      ],
+      "correct_answer": "It represents the number of books in which authors [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im16.webp|inline] and [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p8_Im17.webp|inline] have collaborated",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im4.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im5.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im6.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im7.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im8.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im9.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im10.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im11.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im13.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im14.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im16.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im17.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im18.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p8_Im19.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p9_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "What is the value of D[10] ?",
+      "type": "MCQ",
+      "options": [
+        "7",
+        "10",
+        "30",
+        "20"
+      ],
+      "correct_answer": "10",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the implementation of the following procedure getDictionary . Assume that the procedure absolute takes an integer as parameter and returns the absolute value. For example, absolute(-2) = 2 and absolute(3) = 3. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p9_Im4.webp|block] Let D be the value returned by getDictionary([10, 20, 5, 10, 40, 15, 23, 7, 16]) . Answer the given subquestions based on D .",
+      "group_id": "6406532297625",
+      "section_name": "CT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript What is the value of length(keys(D)) ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the implementation of the following procedure getDictionary . Assume that the procedure absolute takes an integer as parameter and returns the absolute value. For example, absolute(-2) = 2 and absolute(3) = 3. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p9_Im4.webp|block] Let D be the value returned by getDictionary([10, 20, 5, 10, 40, 15, 23, 7, 16]) . Answer the given subquestions based on D .",
+      "group_id": "6406532297625",
+      "section_name": "CT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the graph given below. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p10_Im3.webp|block] Which of the following statement(s) is/are true?",
+      "type": "multichoice",
+      "options": [
+        "There are 4 cliques of size three present in the graph.",
+        "The nodes 0, 1, 2 and 4 form a clique of size four.",
+        "The maximum size of clique that appears in the graph is 4.",
+        "The nodes 0 and 1 form a clique of size two."
+      ],
+      "correct_answer": [
+        "The maximum size of clique that appears in the graph is 4.",
+        "The nodes 0 and 1 form a clique of size two."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p10_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the following undirected graph [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p11_Im2.webp|inline] : [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p11_Im3.webp|block] Which of the following statements are correct? Select all that apply.",
+      "type": "multichoice",
+      "options": [
+        "There are exactly 2 cliques of size three present in the graph",
+        "The degree of vertex 2 is 3",
+        "The maximum size of a clique present in the graph is 3",
+        "The vertices 1, 2, and 3 form a clique of size three",
+        "The vertices 2, 4, and 5 form a clique of size three",
+        "The vertices 4 and 6 form a clique of size two"
+      ],
+      "correct_answer": [
+        "There are exactly 2 cliques of size three present in the graph",
+        "The degree of vertex 2 is 3",
+        "The maximum size of a clique present in the graph is 3",
+        "The vertices 1, 2, and 3 form a clique of size three",
+        "The vertices 4 and 6 form a clique of size two"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p11_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p11_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider the procedure below, where [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p11_Im5.webp|inline] is a non-empty list of positive numbers. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p11_Im6.webp|block] At the end of execution, which of the following statement(s) is/are correct about [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p11_Im7.webp|inline] ?",
+      "type": "multichoice",
+      "options": [
+        "The first element of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im2.webp|inline] equals the first element of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im3.webp|inline] .",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im4.webp|inline] is a list of numbers in non-decreasing order.",
+        "The last element of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im5.webp|inline] equals the maximum element of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im6.webp|inline] .",
+        "The number of elements in [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im8.webp|inline] is one less than that of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im9.webp|inline] ."
+      ],
+      "correct_answer": [
+        "The first element of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im2.webp|inline] equals the first element of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im3.webp|inline] .",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im4.webp|inline] is a list of numbers in non-decreasing order.",
+        "The last element of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im5.webp|inline] equals the maximum element of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im6.webp|inline] ."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p11_Im5.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p11_Im6.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p11_Im7.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p12_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p12_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p12_Im4.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p12_Im5.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p12_Im6.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p12_Im8.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p12_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Consider the following pseudocode where ListV represents a list of all vertices of the graph given below: [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im10.webp|block] The matrix [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im11.webp|inline] represents the directed graph below: [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im1.webp|block] The initial matrix is: [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im2.webp|block] Which of the following can be the value of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im3.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im7.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im8.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p14_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im7.webp|block]",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p12_Im10.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p12_Im11.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p13_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p13_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p13_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p13_Im7.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p13_Im8.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "The following pseudocode is executed using the \"Shopping Bills\" dataset. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p14_Im3.webp|block] If [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p14_Im4.webp|inline] is required to represent the number of unordered pairs of bills issued by different customers from the same shop, which implementation of the [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p14_Im5.webp|inline] procedure is correct?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p15_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p15_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p15_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p14_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p14_Im4.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p14_Im5.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p15_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p15_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p15_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript Let [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p16_Im1.webp|inline] be a row in the \"Words\" table such that [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p16_Im2.webp|inline] . What will be the value of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p16_Im3.webp|inline] at the end of execution of the following pseudocode? [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p16_Im4.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p16_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p16_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p16_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p16_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "What is the value of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p17_Im4.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "2",
+        "0",
+        "1"
+      ],
+      "correct_answer": "2",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p17_Im4.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p16_Im5.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p16_Im6.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p17_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p17_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p17_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the implementation of the procedure [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p16_Im5.webp|inline] . [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p16_Im6.webp|inline] is a list of integers (may contain duplicates). [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p17_Im1.webp|block] Let [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p17_Im2.webp|inline] be the dictionary returned by [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p17_Im3.webp|inline] .",
+      "group_id": "6406532297635",
+      "section_name": "CT"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript What is the value of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p17_Im7.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p17_Im7.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p16_Im5.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p16_Im6.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p17_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p17_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p17_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the implementation of the procedure [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p16_Im5.webp|inline] . [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p16_Im6.webp|inline] is a list of integers (may contain duplicates). [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p17_Im1.webp|block] Let [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p17_Im2.webp|inline] be the dictionary returned by [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p17_Im3.webp|inline] .",
+      "group_id": "6406532297635",
+      "section_name": "CT"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im5.webp|inline] is a recursive procedure that accepts [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im6.webp|inline] as an argument and returns [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im7.webp|inline] which is a list containing only those scores that are greater than or equal to 75, in their original order. Select the correct implementation(s) of the procedure [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im8.webp|inline] .",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p19_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p19_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p19_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p19_Im3.webp|block]",
+        ""
+      ],
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p18_Im5.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p18_Im6.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p18_Im7.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p18_Im8.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p18_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p18_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p18_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p18_Im4.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p19_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p19_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p20_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p20_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A teacher stores the scores obtained by students in a list [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im1.webp|inline] . The teacher wants to create a list called [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im2.webp|inline] containing only those scores that are greater than or equal to 75. The scores must appear in [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im3.webp|inline] in the same order in which they appear in [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im4.webp|inline] . Answer the given subquestions based on this information",
+      "group_id": "6406532297639",
+      "section_name": "CT"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im4.webp|inline] is a non-recursive procedure that accepts [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im5.webp|inline] as an argument and returns [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im6.webp|inline] . Select the correct implementation(s) of the procedure.",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p21_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p21_Im4.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im3.webp|block]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p20_Im4.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p20_Im5.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p20_Im6.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p18_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p18_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p18_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p18_Im4.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p21_Im4.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p22_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p22_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A teacher stores the scores obtained by students in a list [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im1.webp|inline] . The teacher wants to create a list called [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im2.webp|inline] containing only those scores that are greater than or equal to 75. The scores must appear in [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im3.webp|inline] in the same order in which they appear in [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im4.webp|inline] . Answer the given subquestions based on this information",
+      "group_id": "6406532297639",
+      "section_name": "CT"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im4.webp|inline] is a list of strings containing information about the outcomes of cricket matches played by India in a tournament. Assume that each element in the list is either [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im5.webp|inline] or [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im6.webp|inline] . For example, if five matches have been played, [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im1.webp|inline] could be: [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im2.webp|block] We call a list of outcomes a blank slate if the number of wins is equal to the number of losses. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im3.webp|inline] is a procedure that accepts [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im4.webp|inline] as input and returns [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im5.webp|inline] if it is a blank slate and [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im6.webp|inline] otherwise. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im7.webp|block] Select the correct code fragment(s) to complete the pseudocode.",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p24_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p24_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p24_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p24_Im5.webp|block]"
+      ],
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p22_Im4.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p22_Im5.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p22_Im6.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p23_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p23_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p23_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p23_Im4.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p23_Im5.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p23_Im6.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p23_Im7.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p24_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p24_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p24_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Inscript Consider the following procedure [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p25_Im1.webp|inline] . [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p25_Im2.webp|block] What is the value of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p25_Im3.webp|inline] after the execution of the procedure?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_ET_FN_p25_Im1.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p25_Im2.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p25_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    }
+  ],
+  "id": "bscs1001-2026t2-et-fn",
+  "course_code": "BSCS1001",
+  "course_name": "Computational Thinking",
+  "level": "Foundation",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

@@ -1,0 +1,796 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)",
+  "filename": "cs2006_2024T2_ET_FN.pdf",
+  "total_questions": 33,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 227,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 228,
+      "text": "What of the following is the primary objective of a CSRF token?",
+      "type": "MCQ",
+      "options": [
+        "To encrypt the user's session",
+        "To validate that the request comes from the authenticated user",
+        "To store the user's password securely",
+        "To compress the HTTP request"
+      ],
+      "correct_answer": "To validate that the request comes from the authenticated user",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 229,
+      "text": "Suppose an application is being loaded from the origin https://example.com. Which of the following origins will the browser allow while making a fetch call, by default?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p1_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p1_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p1_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p1_Im6.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p1_Im3.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p1_Im4.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p1_Im5.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p1_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 230,
+      "text": "What is the correct sequence of steps to update the state in Vuex when handling an asynchronous operation?",
+      "type": "MCQ",
+      "options": [
+        "State \u2192 Dispatch an action \u2192 Commit a mutation \u2192 State change",
+        "Dispatch an action \u2192 Commit a mutation \u2192 State change",
+        "Commit a mutation \u2192 Dispatch an action \u2192 State change",
+        "State change \u2192 Commit a mutation \u2192 Dispatch an action"
+      ],
+      "correct_answer": "Dispatch an action \u2192 Commit a mutation \u2192 State change",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 231,
+      "text": "Suppose you are developing an application for millions of users that will perform intensive data analysis and return the results asynchronously. Arrange the following set of actions/operations to achieve an efficient and scalable design. I) Save the result to a database II) Invoke a callback URL III) Queue the analysis job",
+      "type": "MCQ",
+      "options": [
+        "II, I, III",
+        "III, I, II",
+        "III, II, I",
+        "I, II, III"
+      ],
+      "correct_answer": "III, I, II",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 232,
+      "text": "Which of the following statements about Redis is true?",
+      "type": "MCQ",
+      "options": [
+        "Redis is a relational database that uses SQL for querying data.",
+        "Redis is an in-memory data structure store, commonly used as a database, cache, and message broker.",
+        "Redis can only store string data types and does not support complex data structures like lists or sets.",
+        "Redis cannot handle numerous operations per second."
+      ],
+      "correct_answer": "Redis is an in-memory data structure store, commonly used as a database, cache, and message broker.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 233,
+      "text": "Which of the following scenarios is an example of a Cross-Site Request Forgery (CSRF) attack?",
+      "type": "MCQ",
+      "options": [
+        "A user receives an email containing a link to a phishing site that asks for their login credentials.",
+        "A user clicks on a malicious link while logged into their bank account, and without their knowledge, a money transfer request is sent to the bank's server using the user's authenticated session.",
+        "A hacker uses a brute-force attack to guess the password of a user's online account.",
+        "A user is tricked into downloading and installing malware that steals their sensitive information."
+      ],
+      "correct_answer": "A user clicks on a malicious link while logged into their bank account, and without their knowledge, a money transfer request is sent to the bank's server using the user's authenticated session.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 234,
+      "text": "Match the following technologies with their typical use cases: [IMAGE: /data/images/cs2006_2024T2_ET_FN_p3_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 - C, 2 - A, 3 - D, 4 - B, 5 - E",
+        "1 - D, 2 - E, 3 - A, 4 - C, 5 - B",
+        "1 - C, 2 - C, 3 - E, 4 - A, 5 - D",
+        "1 - D, 2 - A, 3 - C, 4 - D, 5 - B"
+      ],
+      "correct_answer": "1 - C, 2 - A, 3 - D, 4 - B, 5 - E",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 235,
+      "text": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p3_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "1",
+        "undefined",
+        "Error"
+      ],
+      "correct_answer": "2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 236,
+      "text": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p4_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "storedUsername: 'course_user', removedUsername: null, clearedStorage: null",
+        "storedUsername: 'course_user', removedUsername: undefined, clearedStorage: null",
+        "storedUsername: 'course_user', removedUsername: null, clearedStorage: undefined",
+        "storedUsername: 'course_user', removedUsername: undefined, clearedStorage: undefined"
+      ],
+      "correct_answer": "storedUsername: 'course_user', removedUsername: null, clearedStorage: undefined",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 237,
+      "text": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "regularResult = 40, arrowResult = 40",
+        "regularResult = undefined, arrowResult = undefined",
+        "regularResult = 40, arrowResult = undefined",
+        "regularResult = undefined, arrowResult = 40"
+      ],
+      "correct_answer": "regularResult = 40, arrowResult = undefined",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 238,
+      "text": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The approach 1 will toggle the page title between \u201cTitle A\u201d and \u201cTitle B\u201d after every 1 second (approx).",
+        "The approach 2 will toggle the page title between \u201cTitle A\u201d and \u201cTitle B\u201d after every 1 second (approx).",
+        "None of the approaches will toggle the page title after every 1 second.",
+        "None of these"
+      ],
+      "correct_answer": "None of the approaches will toggle the page title after every 1 second.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 239,
+      "text": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p6_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p6_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p6_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p7_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p7_Im1.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p6_Im3.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p6_Im5.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p6_Im6.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 240,
+      "text": "Which of the following statement(s) is/are true about webhooks?",
+      "type": "multichoice",
+      "options": [
+        "Webhooks use HTTP requests to communicate events from one service to another.",
+        "Webhooks require the recipient service to periodically poll the sender for updates.",
+        "Webhooks are typically implemented using HTTP POST requests.",
+        "Webhooks guarantee that events will be delivered in order and exactly once."
+      ],
+      "correct_answer": [
+        "Webhooks use HTTP requests to communicate events from one service to another.",
+        "Webhooks are typically implemented using HTTP POST requests."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 241,
+      "text": "Which of the following statement(s) is/are true regarding javascript?",
+      "type": "multichoice",
+      "options": [
+        "Function declarations are hoisted along with their definitions.",
+        "Variable declarations with var are hoisted with their initializations.",
+        "let and const declarations are hoisted to the top of their block but remain uninitialized until execution reaches the declaration.",
+        "Only function declarations are hoisted, not function definition."
+      ],
+      "correct_answer": [
+        "Function declarations are hoisted along with their definitions.",
+        "let and const declarations are hoisted to the top of their block but remain uninitialized until execution reaches the declaration."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 242,
+      "text": "Which of the following scenarios are best suited for using Celery tasks?",
+      "type": "multichoice",
+      "options": [
+        "Handling real-time user interactions on a website.",
+        "Sending out periodic email notifications to users.",
+        "Generating and displaying dynamic content on a web page.",
+        "Performing long-running data processing tasks in the background."
+      ],
+      "correct_answer": [
+        "Sending out periodic email notifications to users.",
+        "Performing long-running data processing tasks in the background."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 243,
+      "text": "Which of the following statements is/are true regarding webhooks and server sent events (SSE)?",
+      "type": "multichoice",
+      "options": [
+        "Webhooks are typically used for server-to-server communication, while SSE is used for server-to-client communication.",
+        "Webhooks require the client to maintain an open connection to receive updates, while SSE does not.",
+        "Webhooks are initiated by the server, while SSE connections are initiated by the client.",
+        "SSE supports bidirectional communication, whereas webhooks do not."
+      ],
+      "correct_answer": [
+        "Webhooks are typically used for server-to-server communication, while SSE is used for server-to-client communication.",
+        "Webhooks are initiated by the server, while SSE connections are initiated by the client."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 244,
+      "text": "Which of the following is/are the correct ways to achieve the following. 1. Always apply class named \u201cerrorClass\u201d, 2. The class named \u201cactiveClass\u201d should only be applied when the Vue data variable \u201cisActive\u201d is truthy",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p8_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p8_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p8_Im3.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p8_Im4.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p8_Im5.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 245,
+      "text": "Which of the following is/are true about Server-Sent Events (SSE)?",
+      "type": "multichoice",
+      "options": [
+        "SSE connections are established using HTTP.",
+        "SSE supports bidirectional communication between client and server.",
+        "SSE automatically switches to web socket if the connection is successful.",
+        "SSE is suitable for sending updates to multiple clients simultaneously."
+      ],
+      "correct_answer": [
+        "SSE connections are established using HTTP.",
+        "SSE is suitable for sending updates to multiple clients simultaneously."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 246,
+      "text": "Which of the following HTTP header(s) can be used to control caching behavior in web applications?",
+      "type": "multichoice",
+      "options": [
+        "Cache-Control",
+        "Expires",
+        "Bearer",
+        "Content-Type"
+      ],
+      "correct_answer": [
+        "Cache-Control",
+        "Expires"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 247,
+      "text": "Which of the following statement(s) is/are true regarding long and short polling?",
+      "type": "multichoice",
+      "options": [
+        "A webhook is the same as short polling.",
+        "The short polling can be used to know the state of an asynchronous task, and trigger an action if the task gets completed.",
+        "The long polling cannot be achieved using HTTP protocol.",
+        "Long Polling can be used to achieve real time communication."
+      ],
+      "correct_answer": [
+        "The short polling can be used to know the state of an asynchronous task, and trigger an action if the task gets completed.",
+        "Long Polling can be used to achieve real time communication."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 248,
+      "text": "Consider the following Vue.js 2 component using CDN. [IMAGE: /data/images/cs2006_2024T2_ET_FN_p10_Im1.webp|block] After entering \"Orange\" in the input box and clicking the \"Add\" button, what will be seen in the browser?",
+      "type": "MCQ",
+      "options": [
+        "1. Apple 2. Banana 3. Orange 4. Orange",
+        "1. Apple 2. Banana 3. Orange",
+        "1. Apple 2. Banana 3. Orange 3. Orange",
+        "1. Apple 2. Banana"
+      ],
+      "correct_answer": "1. Apple 2. Banana 3. Orange 4. Orange",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 249,
+      "text": "Consider the following javascript code running on browser [IMAGE: /data/images/cs2006_2024T2_ET_FN_p11_Im1.webp|block] What will be the output in the browser console?",
+      "type": "MCQ",
+      "options": [
+        "6 40",
+        "null 40",
+        "6 null",
+        "0222 null"
+      ],
+      "correct_answer": "0222 null",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 250,
+      "text": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Rex barks true true",
+        "Rex barks false true",
+        "Rex barks. true false",
+        "Rex barks. false false"
+      ],
+      "correct_answer": "Rex barks true true",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 251,
+      "text": "Consider the below flask application. [IMAGE: /data/images/cs2006_2024T2_ET_FN_p13_Im1.webp|block] 1. First visit 2. Second visit after 2 minutes and 30 seconds 3. Third visit after 1 minute from the second visit What will be the approximate difference in response times between the first and third requests?",
+      "type": "MCQ",
+      "options": [
+        "5 seconds",
+        "0 seconds",
+        "10 seconds",
+        "180 seconds"
+      ],
+      "correct_answer": "0 seconds",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 252,
+      "text": "Consider the below JavaScript program. [IMAGE: /data/images/cs2006_2024T2_ET_FN_p14_Im1.webp|block] [IMAGE: /data/images/cs2006_2024T2_ET_FN_p14_Im2.webp|block] What will be the output of the above program?",
+      "type": "MCQ",
+      "options": [
+        "Step 1: 0.6 Step 2: 1.2 Step 4: 6.2 Step 6: Finally block executed",
+        "Step 1: 0.6 Step 3: Less than 0.75 Step 4: 1 Step 5: Fallback value Step 6: Finally block executed",
+        "Step 1: 0.6 Step 2: 1.2 Step 3: Error Step 4: 1 Step 5: Fallback value Step 6: Finally block executed",
+        "Step 1: 0.6 Step 3: Less than 0.75 Step 4: 1 Step 6: Finally block executed"
+      ],
+      "correct_answer": "Step 1: 0.6 Step 3: Less than 0.75 Step 4: 1 Step 5: Fallback value Step 6: Finally block executed",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p14_Im1.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 253,
+      "text": "In a Vue CLI project with Vuex, you have the following configuration: [IMAGE: /data/images/cs2006_2024T2_ET_FN_p16_Im1.webp|block] [IMAGE: /data/images/cs2006_2024T2_ET_FN_p17_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p17_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p17_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p17_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p17_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p17_Im3.webp|inline]",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p16_Im1.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p17_Im1.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p17_Im3.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p17_Im5.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p17_Im6.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p17_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 254,
+      "text": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p18_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "\u201cNetwork Error\u201d",
+        "\u201cHTTP Error: 404\u201d",
+        "\u201cData is not JSON serializable\u201d",
+        "Data returned by the API"
+      ],
+      "correct_answer": "\u201cData is not JSON serializable\u201d",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 255,
+      "text": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p19_Im1.webp|block] Two requests are given to localhost:5000/compute/10/20 and localhost:5000/compute/5/10 within 60 seconds. What would be the json response from the server respectively?",
+      "type": "MCQ",
+      "options": [
+        "{\u201cresult\u201d : 200} and {\u201cresult\u201d: 50}",
+        "{\u201cresult\u201d : 50} and {\u201cresult\u201d: 200}",
+        "{\u201cresult\u201d: 100} and {\u201cresult\u201d : 100}",
+        "{\u201cresult\u201d: 200} and {\u201cresult\u201d: 200}"
+      ],
+      "correct_answer": "{\u201cresult\u201d: 200} and {\u201cresult\u201d: 200}",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 256,
+      "text": "Which code snippet represents a Webhook receiver implementation?",
+      "type": "MCQ",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "B",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p20_Im1.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p20_Im2.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p21_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p20_Im1.webp|block] Options: [IMAGE: /data/images/cs2006_2024T2_ET_FN_p20_Im2.webp|block] [IMAGE: /data/images/cs2006_2024T2_ET_FN_p21_Im1.webp|block]",
+      "group_id": "640653902532",
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 257,
+      "text": "Which code snippet represents a Pub/Sub implementation?",
+      "type": "MCQ",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer": "C",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p20_Im1.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p20_Im2.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p21_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p20_Im1.webp|block] Options: [IMAGE: /data/images/cs2006_2024T2_ET_FN_p20_Im2.webp|block] [IMAGE: /data/images/cs2006_2024T2_ET_FN_p21_Im1.webp|block]",
+      "group_id": "640653902532",
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 258,
+      "text": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p24_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Page Not Found",
+        "Unknown User",
+        "Name: Animesh, State: MP",
+        "Name: Arnav, State: Goa"
+      ],
+      "correct_answer": "Name: Arnav, State: Goa",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p24_Im2.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p22_Im3.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p23_Im1.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p24_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p22_Im3.webp|block] [IMAGE: /data/images/cs2006_2024T2_ET_FN_p23_Im1.webp|block] [IMAGE: /data/images/cs2006_2024T2_ET_FN_p24_Im1.webp|block]",
+      "group_id": "640653902541",
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 259,
+      "text": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p25_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Page Not Found",
+        "Name: Animesh, State: MP",
+        "Name: Arnav, State: Goa",
+        "Unknown User"
+      ],
+      "correct_answer": "Unknown User",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2024T2_ET_FN_p25_Im1.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p22_Im3.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p23_Im1.webp",
+        "/data/images/cs2006_2024T2_ET_FN_p24_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2006_2024T2_ET_FN_p22_Im3.webp|block] [IMAGE: /data/images/cs2006_2024T2_ET_FN_p23_Im1.webp|block] [IMAGE: /data/images/cs2006_2024T2_ET_FN_p24_Im1.webp|block]",
+      "group_id": "640653902541",
+      "section_name": "AppDev2"
+    }
+  ],
+  "id": "cs2006-2024t2-et-fn",
+  "course_code": "CS2006",
+  "course_name": "Application Development 2",
+  "level": "Diploma in Programming",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

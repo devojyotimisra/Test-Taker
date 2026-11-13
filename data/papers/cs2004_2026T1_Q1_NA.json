@@ -1,0 +1,484 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)",
+  "filename": "cs2004_2026T1_Q1_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Let the vectors [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p2_Im3.webp|inline] be orthogonal. Which of the following must be true?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p2_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p2_Im3.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p2_Im4.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p2_Im5.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p2_Im6.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the function [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p2_Im8.webp|inline] : [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p2_Im9.webp|block] Which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im2.webp|inline] is continuous at [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im3.webp|inline] , but not differentiable at [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im4.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im6.webp|inline] is both continuous and differentiable at [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im7.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im8.webp|inline] is neither continuous nor differentiable at [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im9.webp|inline] .",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im10.webp|inline] is differentiable at [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im11.webp|inline] , but not continuous at [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im12.webp|inline] ."
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im2.webp|inline] is continuous at [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im3.webp|inline] , but not differentiable at [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im4.webp|inline] .",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p2_Im8.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p2_Im9.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im2.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im3.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im4.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im6.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im7.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im8.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im9.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im10.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im11.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the following matrices: [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im13.webp|block] Which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im14.webp|inline] is diagonalizable, [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im15.webp|inline] is not diagonalizable.",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im16.webp|inline] is not diagonalizable, [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im17.webp|inline] is diagonalizable.",
+        "Both [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im18.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im19.webp|inline] are diagonalizable.",
+        "Neither [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im20.webp|inline] nor [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im21.webp|inline] is diagonalizable"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im16.webp|inline] is not diagonalizable, [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p3_Im17.webp|inline] is diagonalizable.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im13.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im14.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im15.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im16.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im17.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im18.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im19.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im20.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p3_Im21.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider a dataset [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im1.webp|inline] for a regression problem where each element is of the form [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im2.webp|inline] , for [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im3.webp|inline] . [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im4.webp|inline] is the feature and [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im5.webp|inline] is the label of the [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im6.webp|inline] data-point. [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im7.webp|block] Let [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im8.webp|inline] be two regression models such that: [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im9.webp|block] Which of the following options is correct?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im11.webp|inline] has the lower mean squared loss.",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im13.webp|inline] has the lower mean squared loss.",
+        "Both models have same mean squared loss."
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im13.webp|inline] has the lower mean squared loss.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im1.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im2.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im3.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im4.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im5.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im6.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im7.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im8.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im9.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im11.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Which of the following is a basis for the column space of the matrix [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im14.webp|inline] given below? [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im15.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im16.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im17.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im18.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im19.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p4_Im16.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im14.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im15.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im16.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im17.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im18.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p4_Im19.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im1.webp|block] The matrix has eigenvalues [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im2.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im3.webp|inline] . Which of the following options is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im9.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im8.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im1.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im2.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im3.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im5.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im7.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im8.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Which of the following is/are true?",
+      "type": "multichoice",
+      "options": [
+        "If [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im10.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im11.webp|inline] are matrices of the same size, then [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im12.webp|inline] .",
+        "The rank of a matrix is equal to the number of non-zero rows in it.",
+        "If [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im13.webp|inline] is a matrix which is obtained by permuting the rows of the [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im14.webp|inline] identity matrix, then the rank of [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im15.webp|inline] is [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im16.webp|inline] .",
+        "If [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im17.webp|inline] is a non-zero column vector in [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im18.webp|inline] , then the rank of the matrix [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im19.webp|inline] is [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im20.webp|inline] ."
+      ],
+      "correct_answer": [
+        "If [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im13.webp|inline] is a matrix which is obtained by permuting the rows of the [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im14.webp|inline] identity matrix, then the rank of [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im15.webp|inline] is [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im16.webp|inline] .",
+        "If [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im17.webp|inline] is a non-zero column vector in [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im18.webp|inline] , then the rank of the matrix [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im19.webp|inline] is [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p5_Im20.webp|inline] ."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im10.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im11.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im12.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im13.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im14.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im15.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im16.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im17.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im18.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im19.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p5_Im20.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Let [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im1.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im2.webp|inline] be two lines in [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im3.webp|inline] defined in parametric form: [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im4.webp|block] For example, every point on line [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im5.webp|inline] is of the form [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im6.webp|inline] . Which of the following is/are true?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im8.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im9.webp|inline] are parallel",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im11.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im12.webp|inline] are not parallel",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im13.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im14.webp|inline] intersect at a point",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im15.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im16.webp|inline] do not intersect at any point"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im11.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im12.webp|inline] are not parallel",
+        "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im15.webp|inline] and [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im16.webp|inline] do not intersect at any point"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im1.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im2.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im3.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im4.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im5.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im6.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im8.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im9.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im11.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im12.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im13.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im14.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im15.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Which of the following is/are true ?",
+      "type": "multichoice",
+      "options": [
+        "Every square matrix with real entries has at least one real eigenvalue.",
+        "A set of two eigenvectors corresponding to the same eigenvalue of a square matrix must be linearly dependent.",
+        "Given a square matrix of order [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im17.webp|inline] , the set of all eigenvectors for an eigenvalue [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im18.webp|inline] , along with the zero vector, forms a subspace of [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im19.webp|inline] .",
+        "A square matrix is not invertible if and only if [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im20.webp|inline] is one of its eigenvalues."
+      ],
+      "correct_answer": [
+        "Given a square matrix of order [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im17.webp|inline] , the set of all eigenvectors for an eigenvalue [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im18.webp|inline] , along with the zero vector, forms a subspace of [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im19.webp|inline] .",
+        "A square matrix is not invertible if and only if [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p6_Im20.webp|inline] is one of its eigenvalues."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im17.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im18.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im19.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p6_Im20.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Suppose you are building a credit card fraud detection system and have two approaches: (i) Manually writing rules such as \"If transaction amount is above Rs. 50,000 and the location is overseas, mark it as fraud.\u201d (ii) Training a model using millions of past transactions labeled as fraud or not fraud. Which of the following options is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "Approach (i) is not machine learning.",
+        "Approach (ii) is machine learning.",
+        "Both approaches are machine learning.",
+        "Neither approach is machine learning."
+      ],
+      "correct_answer": [
+        "Approach (i) is not machine learning.",
+        "Approach (ii) is machine learning."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p7_Im4.webp|block] Consider the function [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p7_Im3.webp|inline] given by . If the best linear approximation to [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p7_Im5.webp|inline] at [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p7_Im6.webp|inline] is given as [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p7_Im7.webp|inline] , find [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p7_Im8.webp|inline] . Your answer should be an integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p7_Im4.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p7_Im3.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p7_Im5.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p7_Im6.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p7_Im7.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Find the directional derivative of the function [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p7_Im9.webp|inline] given by [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p7_Im10.webp|inline] at the point [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im2.webp|block] [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im1.webp|inline] in the direction of the vector . Your answer should be an integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p7_Im9.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p7_Im10.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im2.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Find [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im9.webp|inline] . Your answer should be an integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "16",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im9.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im3.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im4.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im5.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im6.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im7.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im3.webp|block] Let be the projection matrix that projects vectors in [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im4.webp|inline] onto the line [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im5.webp|inline] . [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im6.webp|block] Let be the matrix that projects vectors in [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im7.webp|inline] onto the nullspace of [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im8.webp|inline] .",
+      "group_id": "6406531951393",
+      "section_name": "MLF"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Find [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p9_Im1.webp|inline] . Your answer should be an integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p9_Im1.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im3.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im4.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im5.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im6.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im7.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p8_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im3.webp|block] Let be the projection matrix that projects vectors in [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im4.webp|inline] onto the line [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im5.webp|inline] . [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im6.webp|block] Let be the matrix that projects vectors in [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im7.webp|inline] onto the nullspace of [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p8_Im8.webp|inline] .",
+      "group_id": "6406531951393",
+      "section_name": "MLF"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "If [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p9_Im4.webp|inline] is the smallest eigenvalue of [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p9_Im5.webp|inline] , enter the value of [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p9_Im6.webp|inline] . Your answer should be an integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-3",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p9_Im4.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p9_Im5.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p9_Im6.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p9_Im2.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the matrix [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p9_Im2.webp|inline] given below: [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p9_Im3.webp|block]",
+      "group_id": "6406531951396",
+      "section_name": "MLF"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "If [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p9_Im7.webp|inline] is an eigenvector of [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p9_Im8.webp|inline] corresponding to [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p9_Im9.webp|inline] , find [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p9_Im10.webp|inline] . Enter your answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.24 to 1.26",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2026T1_Q1_NA_p9_Im7.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p9_Im8.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p9_Im9.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p9_Im10.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p9_Im2.webp",
+        "/data/images/cs2004_2026T1_Q1_NA_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the matrix [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p9_Im2.webp|inline] given below: [IMAGE: /data/images/cs2004_2026T1_Q1_NA_p9_Im3.webp|block]",
+      "group_id": "6406531951396",
+      "section_name": "MLF"
+    }
+  ],
+  "id": "cs2004-2026t1-q1-na",
+  "course_code": "CS2004",
+  "course_name": "Machine Learning Foundations",
+  "level": "Diploma in Data Science",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

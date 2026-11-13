@@ -1,0 +1,554 @@
+{
+  "title": "DEGREE LEVEL : MATHEMATICAL FOUNDATIONS OF GENERATIVE AI (COMPUTER BASED EXAM)",
+  "filename": "da5002_2026T2_Q2_NA.pdf",
+  "total_questions": 19,
+  "total_marks": 39.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : MATHEMATICAL FOUNDATIONS OF GENERATIVE AI (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "In Variational auto-encoder, the variational latent posterior [IMAGE: /data/images/da5002_2026T2_Q2_NA_p1_Im3.webp|inline] and the conditional data likelihood [IMAGE: /data/images/da5002_2026T2_Q2_NA_p1_Im4.webp|inline] is represented using",
+      "type": "MCQ",
+      "options": [
+        "Deterministic neural network",
+        "Probabilistic neural network"
+      ],
+      "correct_answer": "Probabilistic neural network",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p1_Im3.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p1_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "A Variational Autoencoder (VAE) has been trained on a dataset. Which of the following procedures correctly generates a new data sample from the trained model?",
+      "type": "MCQ",
+      "options": [
+        "Pass a training sample through the encoder and use the resulting latent mean [IMAGE: /data/images/da5002_2026T2_Q2_NA_p1_Im5.webp|inline] directly as the generated sample.",
+        "Sample a latent vector [IMAGE: /data/images/da5002_2026T2_Q2_NA_p1_Im6.webp|inline] from the prior distribution and pass it through the decoder to obtain a generated sample.",
+        "Sample a latent vector [IMAGE: /data/images/da5002_2026T2_Q2_NA_p1_Im7.webp|inline] from the prior distribution and pass it through the encoder to obtain a generated sample.",
+        "Optimize the KL divergence term during inference until it becomes zero, and then decode the resulting latent representation."
+      ],
+      "correct_answer": "Sample a latent vector [IMAGE: /data/images/da5002_2026T2_Q2_NA_p1_Im6.webp|inline] from the prior distribution and pass it through the decoder to obtain a generated sample.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p1_Im5.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p1_Im6.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p1_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "The variational (Fenchel) lower bound on an [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im2.webp|inline] -divergence is [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im3.webp|block] where the function [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im4.webp|inline] is represented by a neural network [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im5.webp|inline] with parameters [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im6.webp|inline] . In practice, [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im7.webp|inline] is built as [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im8.webp|inline] , where [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im9.webp|inline] is an unconstrained neural network and [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im10.webp|inline] is an activation function specific to the chosen [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im11.webp|inline] -divergence. The full training objective is the saddle- point (min-max) problem [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im12.webp|block] What is the purpose of the activation function [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im13.webp|inline] applied at the output of the critic network?",
+      "type": "MCQ",
+      "options": [
+        "To normalize the critic output to lie in [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im14.webp|inline] regardless of the divergence.",
+        "To map the unconstrained network output [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im16.webp|inline] into the domain of [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im17.webp|inline] , so that [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im18.webp|inline] is a valid input to [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im19.webp|inline] .",
+        "To guarantee that [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im20.webp|inline] is a 1-Lipschitz function.",
+        "To make the critic network deeper."
+      ],
+      "correct_answer": "To map the unconstrained network output [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im16.webp|inline] into the domain of [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im17.webp|inline] , so that [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im18.webp|inline] is a valid input to [IMAGE: /data/images/da5002_2026T2_Q2_NA_p2_Im19.webp|inline] .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im2.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im3.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im4.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im5.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im6.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im7.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im8.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im9.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im10.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im11.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im12.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im13.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im14.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im16.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im17.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im18.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im19.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p2_Im20.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Suppose a black box generates samples from a normal distribution with mean [IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im1.webp|inline] and variance [IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im2.webp|inline] , i.e. [IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im3.webp|inline] . Using the reparameterization trick from VAEs, which of the following expresses a sample [IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im4.webp|inline] as a deterministic function of [IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im5.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im10.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im11.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im7.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im1.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im2.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im3.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im4.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im5.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im7.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im9.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im10.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "In the EM algorithm for a GMM with [IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im12.webp|inline] components, which choice of [IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im13.webp|inline] in the [IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im14.webp|inline] -step makes the ELBO equal to [IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im15.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im16.webp|inline] , the prior over the mixture components.",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im17.webp|inline] , the component responsibilities.",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im18.webp|inline]",
+        "None of these"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p3_Im17.webp|inline] , the component responsibilities.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im12.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im13.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im14.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im15.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im16.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im17.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p3_Im18.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im3.webp|inline] .",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im5.webp|inline] .",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im6.webp|inline] .",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im7.webp|inline] ."
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im5.webp|inline] .",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im1.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im3.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im5.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im6.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "A Variational-Auto Encoder (VAE) is trained by maximizing the Evidence Lower Bound (ELBO), which consists of a reconstruction term and a regularization term. Consider the reconstruction term of a VAE, [IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im8.webp|block] estimated with a single Monte Carlo sample [IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im9.webp|inline] so that [IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im10.webp|inline] . Encoder: [IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im11.webp|inline] Decoder: [IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im12.webp|inline] If we sample [IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im13.webp|inline] directly from [IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im14.webp|inline] , which parameters among [IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im15.webp|inline] can receive gradients from [IMAGE: /data/images/da5002_2026T2_Q2_NA_p4_Im16.webp|inline] ? Select all that apply.",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p5_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p5_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p5_Im8.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im8.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im9.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im10.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im11.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im12.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im13.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im14.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im15.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p4_Im16.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p5_Im2.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p5_Im3.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p5_Im5.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p5_Im6.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p5_Im7.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p5_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "The training objective of a Variational Autoencoder (VAE) consists of a reconstruction term and a Kullback-Leibler (KL) divergence term. In a [IMAGE: /data/images/da5002_2026T2_Q2_NA_p5_Im9.webp|inline] -VAE, the KL divergence term is multiplied by a hyperparameter [IMAGE: /data/images/da5002_2026T2_Q2_NA_p5_Im10.webp|inline] . Which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "Minimizing [reconstruction loss [IMAGE: /data/images/da5002_2026T2_Q2_NA_p5_Im11.webp|inline] KL loss] is equivalent to maximizing the Evidence Lower Bound (ELBO).",
+        "Choosing a very small value of \u03b2 increases the influence of the KL divergence term, forcing the approximate posterior to collapse towards the prior.",
+        "Choosing a very large value of \u03b2 places greater emphasis on matching the approximate posterior to the prior, which may degrade reconstruction quality."
+      ],
+      "correct_answer": [
+        "Minimizing [reconstruction loss [IMAGE: /data/images/da5002_2026T2_Q2_NA_p5_Im11.webp|inline] KL loss] is equivalent to maximizing the Evidence Lower Bound (ELBO).",
+        "Choosing a very large value of \u03b2 places greater emphasis on matching the approximate posterior to the prior, which may degrade reconstruction quality."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p5_Im9.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p5_Im10.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p5_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "[IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im1.webp|block] A latent variable model defines . Directly maximizing [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im2.webp|inline] is intractable, so training maximizes the Evidence Lower Bound (ELBO) instead. Which of the following are correct?",
+      "type": "multichoice",
+      "options": [
+        "The ELBO is a upper bound on [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im4.webp|inline] .",
+        "The ELBO depends both on the model parameters [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im6.webp|inline] and on the variational posterior [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im7.webp|inline] .",
+        "The gap between [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im8.webp|inline] and the ELBO equals [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im9.webp|inline] .",
+        "The ELBO equals [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im10.webp|inline] for every choice of [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im11.webp|inline] , regardless of the posterior."
+      ],
+      "correct_answer": [
+        "The ELBO depends both on the model parameters [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im6.webp|inline] and on the variational posterior [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im7.webp|inline] .",
+        "The gap between [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im8.webp|inline] and the ELBO equals [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im9.webp|inline] ."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p6_Im1.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p6_Im2.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p6_Im4.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p6_Im6.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p6_Im7.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p6_Im8.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p6_Im9.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p6_Im10.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p6_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Which of the following statements correctly contrast DDPM sampling with a standard GAN/VAE?",
+      "type": "multichoice",
+      "options": [
+        "Generating a sample using a DDPM requires [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im12.webp|inline] sequential reverse diffusion steps, whereas a standard GAN or VAE typically generates a sample using a single forward pass through the generator or decoder.",
+        "A trained DDPM directly generate a data sample in a single network evaluation.",
+        "During training, a DDPM randomly samples a timestep [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im13.webp|inline] and learns to denoise the corresponding noisy sample [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im14.webp|inline] , rather than always training at a fixed noise level.",
+        "During sampling, a DDPM starts from a real training sample and removes the added noise in a single denoising step."
+      ],
+      "correct_answer": [
+        "Generating a sample using a DDPM requires [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im12.webp|inline] sequential reverse diffusion steps, whereas a standard GAN or VAE typically generates a sample using a single forward pass through the generator or decoder.",
+        "During training, a DDPM randomly samples a timestep [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im13.webp|inline] and learns to denoise the corresponding noisy sample [IMAGE: /data/images/da5002_2026T2_Q2_NA_p6_Im14.webp|inline] , rather than always training at a fixed noise level."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p6_Im12.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p6_Im13.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p6_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Which of the following statements about the generator and discriminator in a standard GAN are correct?",
+      "type": "multichoice",
+      "options": [
+        "The generator never sees real data directly; it learns only through the gradient signal that flows back from the discriminator.",
+        "The discriminator is a binary classifier trained on a mix of real samples (label 1) and generated samples (label 0).",
+        "The discriminator's role is to distinguish real samples from generated ones.",
+        "The discriminator generates new data samples from the latent space."
+      ],
+      "correct_answer": [
+        "The generator never sees real data directly; it learns only through the gradient signal that flows back from the discriminator.",
+        "The discriminator is a binary classifier trained on a mix of real samples (label 1) and generated samples (label 0).",
+        "The discriminator's role is to distinguish real samples from generated ones."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Which among the following is true for a denoising diffusion probabilistic model (DDPM)?",
+      "type": "multichoice",
+      "options": [
+        "The forward process in DDPM gradually adds noise to the input.",
+        "The forward process in DDPM learns to generate data by denoising.",
+        "In the reverse process of DDPM, we stack the VAE decoders.",
+        "In the reverse process of DDPM, we stack the VAE encoders."
+      ],
+      "correct_answer": [
+        "The forward process in DDPM gradually adds noise to the input.",
+        "In the reverse process of DDPM, we stack the VAE decoders."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript In a GAN inversion via latent regression, the term: [IMAGE: /data/images/da5002_2026T2_Q2_NA_p7_Im3.webp|inline] is added to the GAN objective, where [IMAGE: /data/images/da5002_2026T2_Q2_NA_p7_Im4.webp|inline] is a hyperparameter. If the inversion were perfect, what value would this penalty term take?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p7_Im3.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript In a VQ-VAE, the encoder output is replaced by its nearest vector from a learnable dictionary (codebook) [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im1.webp|inline] , each [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im2.webp|inline] . For an input with encoder output [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im3.webp|inline] , the quantization picks [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im4.webp|block] A trained VQ-VAE has a dictionary of [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im5.webp|inline] vectors in [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im6.webp|inline] : [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im7.webp|block] For a particular input, the encoder outputs [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im8.webp|inline] . Compute the squared distance [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im9.webp|inline] to each of the three codebook vectors, and state the index [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im10.webp|inline] of the vector to which [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im11.webp|inline] is quantized.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im1.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im2.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im3.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im4.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im5.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im6.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im7.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im8.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im9.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im10.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript For a 3-dimensional sample, the true clean sample is [IMAGE: /data/images/da5002_2026T2_Q2_NA_p9_Im2.webp|inline] , and the denoising network predicts [IMAGE: /data/images/da5002_2026T2_Q2_NA_p9_Im3.webp|inline] . Compute the loss [IMAGE: /data/images/da5002_2026T2_Q2_NA_p9_Im4.webp|inline] . Enter the answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.10 to 0.14",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p9_Im2.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p9_Im3.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p9_Im4.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im12.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im13.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im14.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im15.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im16.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In a DDPM the denoising network is a U-Net that takes the noisy latent [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im12.webp|inline] together with an embedding of the timestep [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im13.webp|inline] , and outputs a tensor [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im14.webp|inline] of the same shape as [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im15.webp|inline] . The U-Net is trained by the denoising regression [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im16.webp|inline] . The U-Net's output feeds the reverse- step mean [IMAGE: /data/images/da5002_2026T2_Q2_NA_p9_Im1.webp|block]",
+      "group_id": "6406532193444",
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript At a particular time step [IMAGE: /data/images/da5002_2026T2_Q2_NA_p9_Im5.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q2_NA_p9_Im6.webp|block] For a particular sample [IMAGE: /data/images/da5002_2026T2_Q2_NA_p9_Im7.webp|inline] , the network predicts [IMAGE: /data/images/da5002_2026T2_Q2_NA_p9_Im8.webp|block] Compute the reverse-step mean. Enter your answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.77 to 0.81",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p9_Im5.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p9_Im6.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p9_Im7.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p9_Im8.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im12.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im13.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im14.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im15.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p8_Im16.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In a DDPM the denoising network is a U-Net that takes the noisy latent [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im12.webp|inline] together with an embedding of the timestep [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im13.webp|inline] , and outputs a tensor [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im14.webp|inline] of the same shape as [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im15.webp|inline] . The U-Net is trained by the denoising regression [IMAGE: /data/images/da5002_2026T2_Q2_NA_p8_Im16.webp|inline] . The U-Net's output feeds the reverse- step mean [IMAGE: /data/images/da5002_2026T2_Q2_NA_p9_Im1.webp|block]",
+      "group_id": "6406532193444",
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript For the observed image [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im14.webp|inline] , carry out one E-step: compute the responsibility [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im15.webp|inline] of component 1 for this image. Give your answer to three decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.88 to 0.92",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im14.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im15.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im1.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im2.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im3.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im4.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im5.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im6.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im7.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im8.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im9.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im10.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im11.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im12.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A mixture of two Bernoulli components models binary image vectors [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im1.webp|inline] . Component [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im2.webp|inline] has pixel probabilities [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im3.webp|inline] (with [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im4.webp|inline] the probability that pixel [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im5.webp|inline] is [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im6.webp|inline] ) and mixing weight [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im7.webp|inline] , and within a component the pixels are independent, so [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im8.webp|block] The latent [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im9.webp|inline] is fitted by EM, whose E-step responsibility and M-step weight update are [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im10.webp|block] Take [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im11.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im12.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im13.webp|inline] .",
+      "group_id": "6406532193447",
+      "section_name": "Mathematical Foundations of Generative AI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Inscript A dataset of [IMAGE: /data/images/da5002_2026T2_Q2_NA_p11_Im1.webp|inline] images yields component-1 responsibilities [IMAGE: /data/images/da5002_2026T2_Q2_NA_p11_Im2.webp|block] Compute the updated mixing weight [IMAGE: /data/images/da5002_2026T2_Q2_NA_p11_Im3.webp|inline] from the M-step. Enter the answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.58 to 0.62",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5002_2026T2_Q2_NA_p11_Im1.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p11_Im2.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p11_Im3.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im1.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im2.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im3.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im4.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im5.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im6.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im7.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im8.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im9.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im10.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im11.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im12.webp",
+        "/data/images/da5002_2026T2_Q2_NA_p10_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A mixture of two Bernoulli components models binary image vectors [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im1.webp|inline] . Component [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im2.webp|inline] has pixel probabilities [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im3.webp|inline] (with [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im4.webp|inline] the probability that pixel [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im5.webp|inline] is [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im6.webp|inline] ) and mixing weight [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im7.webp|inline] , and within a component the pixels are independent, so [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im8.webp|block] The latent [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im9.webp|inline] is fitted by EM, whose E-step responsibility and M-step weight update are [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im10.webp|block] Take [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im11.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im12.webp|inline] , [IMAGE: /data/images/da5002_2026T2_Q2_NA_p10_Im13.webp|inline] .",
+      "group_id": "6406532193447",
+      "section_name": "Mathematical Foundations of Generative AI"
+    }
+  ],
+  "id": "da5002-2026t2-q2-na",
+  "course_code": "DA5002",
+  "course_name": "Mathematical Foundations of Generative AI",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

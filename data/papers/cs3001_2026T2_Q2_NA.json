@@ -1,0 +1,654 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)",
+  "filename": "cs3001_2026T2_Q2_NA.pdf",
+  "total_questions": 28,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "A software company is developing a payroll system for 500 companies. The analyst prepares a fixed list of 25 questions and verbally asks exactly the same questions to HR managers from every company. Which requirement gathering technique is being used?",
+      "type": "MCQ",
+      "options": [
+        "Unstructured interview",
+        "Semi-structured interview",
+        "Structured interview",
+        "Observation"
+      ],
+      "correct_answer": "Structured interview",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "An online banking application computes customer interest. Due to a mistake in the source code, the formula [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p1_Im3.webp|block] was implemented instead of [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p1_Im4.webp|block] The incorrect statement in the source code is an example of:",
+      "type": "MCQ",
+      "options": [
+        "Error",
+        "Fault",
+        "Failure",
+        "Test Case"
+      ],
+      "correct_answer": "Fault",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T2_Q2_NA_p1_Im3.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p1_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "A ride-sharing company has completed a sprint. During a meeting, the team demonstrates the completed driver tracking feature to customers and receives feedback. Which Scrum activity is being performed?",
+      "type": "MCQ",
+      "options": [
+        "Sprint Planning",
+        "Daily Scrum",
+        "Sprint Review",
+        "Sprint Retrospective"
+      ],
+      "correct_answer": "Sprint Review",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "A team completed the following story points in the last four sprints: [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p2_Im3.webp|block] What is the average velocity?",
+      "type": "MCQ",
+      "options": [
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "correct_answer": "21",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T2_Q2_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "An e-commerce company maintains the following modules: \u25cf Inventory Management \u25cf Payment Processing \u25cf Recommendation Engine Each module is assigned a single, well-defined objective. All three modules directly access and modify the same global dictionary data structure that stores product information. Any change to the structure of this shared dictionary requires modifications in all three modules. Which statement is true?",
+      "type": "MCQ",
+      "options": [
+        "High cohesion and high coupling",
+        "High cohesion and low coupling",
+        "Low cohesion and high coupling",
+        "Low cohesion and low coupling"
+      ],
+      "correct_answer": "High cohesion and high coupling",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "A developer notices that a video editing application is slow. The team wants to identify: \u25cf functions consuming maximum CPU \u25cf memory hot spots \u25cf performance bottlenecks Which of the following debugging techniques should be used?",
+      "type": "MCQ",
+      "options": [
+        "Logging",
+        "Profiling Tool",
+        "Stepping in debugger",
+        "Dump and Diff"
+      ],
+      "correct_answer": "Profiling Tool",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "A university portal must support: \u25cf student registration \u25cf fee payment \u25cf grade viewing A new class named [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p4_Im1.webp|inline] is introduced with a single method: [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p4_Im2.webp|block] The method internally coordinates the registration, payment, and grade management subsystems to complete the admission process. Which of the following design patterns is followed in this case?",
+      "type": "MCQ",
+      "options": [
+        "Factory",
+        "Adapter",
+        "Facade",
+        "Builder"
+      ],
+      "correct_answer": "Facade",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T2_Q2_NA_p4_Im1.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "A company develops an Online Travel Booking System. 1. Travelers use the mobile app to search and book flights. 2. Travel agents inside the company update airline contracts and pricing. 3. A payment gateway processes customer transactions. 4. The airline reservation system exchanges seat availability data with the application. Which option correctly identifies the client type for each case?",
+      "type": "MCQ",
+      "options": [
+        "1-External User, 2-Internal User, 3-Software Client, 4-Software Client",
+        "1-Internal User, 2-External User, 3-Software Client, 4-Software Client",
+        "1-External User, 2-Software Client, 3-Internal User, 4-Software Client",
+        "1-Software Client, 2-Internal User, 3-External User, 4-Software Client"
+      ],
+      "correct_answer": "1-External User, 2-Internal User, 3-Software Client, 4-Software Client",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "A software company releases a new digital banking application to 100 selected customers. The customers use the application in real-world conditions and report usability issues. Which testing phase is being performed?",
+      "type": "MCQ",
+      "options": [
+        "Unit Testing",
+        "Integration Testing",
+        "Alpha Testing",
+        "Beta Testing"
+      ],
+      "correct_answer": "Beta Testing",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the following requirements for an online examination system: Requirement 1: Students shall be able to submit answers online. Requirement 2: The system shall process and save submissions within 2 seconds. Which statement is true?",
+      "type": "MCQ",
+      "options": [
+        "Both are functional requirements.",
+        "Requirement 1 is functional and Requirement 2 is non-functional.",
+        "Requirement 1 is non-functional and Requirement 2 is functional.",
+        "Both are non-functional requirements."
+      ],
+      "correct_answer": "Requirement 1 is functional and Requirement 2 is non-functional.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the user story as follow: As a customer, I want to track my food delivery, So that I know when my order will arrive. The story is refined as: \"...the delivery status must refresh every 15 seconds.\" Which SMART property is improved?",
+      "type": "MCQ",
+      "options": [
+        "Specific",
+        "Relevant",
+        "Measurable",
+        "Achievable"
+      ],
+      "correct_answer": "Measurable",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "A healthcare portal allows doctors to prescribe medicines and patients to book appointments. However, new users frequently struggle to discover how appointments can be cancelled because there is no guidance or tutorial. Which usability goal is most affected?",
+      "type": "MCQ",
+      "options": [
+        "Efficiency",
+        "Learnability",
+        "Safety",
+        "Memorability"
+      ],
+      "correct_answer": "Learnability",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "A UX designer creates clickable screens using Figma. Users can navigate between screens, enter sample data, and simulate workflows. What type of prototype is this?",
+      "type": "MCQ",
+      "options": [
+        "Storyboard",
+        "Paper Prototype",
+        "Interactive Prototype",
+        "Digital Mock-up"
+      ],
+      "correct_answer": "Interactive Prototype",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "An e-commerce website allows customers to browse products and compare prices without requiring login. Which design heuristic is supported?",
+      "type": "MCQ",
+      "options": [
+        "Freedom",
+        "Recognition over Recall",
+        "Consistency",
+        "Show Status"
+      ],
+      "correct_answer": "Freedom",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Module A directly accesses and modifies the internal variables of Module B . What type of coupling exists?",
+      "type": "MCQ",
+      "options": [
+        "Data Coupling",
+        "Control Coupling",
+        "Common Coupling",
+        "Content Coupling"
+      ],
+      "correct_answer": "Content Coupling",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider the Python function: [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p7_Im3.webp|block] What is the cyclomatic complexity?",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "3",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T2_Q2_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "A compiler processes source code through the modules -- lexical analysis, parsing, semantic analysis, optimization, and code generation. The output of one module is used as input to the next module. Which architecture style best matches this system?",
+      "type": "MCQ",
+      "options": [
+        "MVC",
+        "Client-Server",
+        "Pipe-and-Filter",
+        "Peer-to-Peer"
+      ],
+      "correct_answer": "Pipe-and-Filter",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "A marketplace supports three delivery modes: \u25cf Physical Shipping \u25cf Email Delivery \u25cf Instant Download A single interface [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p8_Im3.webp|inline] forces every implementation to provide: [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p8_Im4.webp|block] even when many methods are irrelevant. Which SOLID principle is violated?",
+      "type": "MCQ",
+      "options": [
+        "Single Responsibility Principle",
+        "Open-Closed Principle",
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle"
+      ],
+      "correct_answer": "Interface Segregation Principle",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T2_Q2_NA_p8_Im3.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "A large organization develops software using teams located in Chennai, Bangalore, and Delhi. Before implementation begins, interface specifications are finalized. Which statements about interfaces are correct?",
+      "type": "multichoice",
+      "options": [
+        "They specify permitted requests and outputs.",
+        "They reveal the complete implementation details.",
+        "They allow independent development of components.",
+        "Implementation can change without affecting dependent modules if the interface remains unchanged."
+      ],
+      "correct_answer": [
+        "They specify permitted requests and outputs.",
+        "They allow independent development of components.",
+        "Implementation can change without affecting dependent modules if the interface remains unchanged."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "A startup is developing an AI-based legal document analysis system. Since requirements are unclear, they build a prototype and show it to lawyers for feedback. Which are advantages of using a prototype model?",
+      "type": "multichoice",
+      "options": [
+        "Helps clarify user expectations.",
+        "Helps identify design issues early.",
+        "Guarantees zero defects in the final product.",
+        "Enables early requirement refinement."
+      ],
+      "correct_answer": [
+        "Helps clarify user expectations.",
+        "Helps identify design issues early.",
+        "Enables early requirement refinement."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Consider the UML class diagram shown below. [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im3.webp|block] Assume: \u25cf [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im4.webp|inline] places [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im5.webp|inline] s. \u25cf [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im6.webp|inline] contains multiple [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im7.webp|inline] s. \u25cf [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im8.webp|inline] is a special type of [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im9.webp|inline] . Identify the valid relationships.",
+      "type": "multichoice",
+      "options": [
+        "Association between [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im10.webp|inline] and [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im11.webp|inline]",
+        "Composition between [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im12.webp|inline] and [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im13.webp|inline]",
+        "Inheritance between [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p10_Im2.webp|inline] and [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p10_Im3.webp|inline]",
+        "Composition between [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p10_Im5.webp|inline] and [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p10_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "Association between [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im10.webp|inline] and [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im11.webp|inline]",
+        "Composition between [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im12.webp|inline] and [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p9_Im13.webp|inline]",
+        "Inheritance between [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p10_Im2.webp|inline] and [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p10_Im3.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T2_Q2_NA_p9_Im3.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p9_Im4.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p9_Im5.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p9_Im6.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p9_Im7.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p9_Im8.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p9_Im9.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p9_Im10.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p9_Im11.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p9_Im12.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p9_Im13.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p10_Im2.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p10_Im3.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p10_Im5.webp",
+        "/data/images/cs3001_2026T2_Q2_NA_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "What type of risk is described?",
+      "type": "MCQ",
+      "options": [
+        "Business Risk",
+        "Technical Risk",
+        "Project Risk",
+        "It is not a risk."
+      ],
+      "correct_answer": "Technical Risk",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "A company depends on a third-party fraud detection service for validating online transactions. There is a risk that defects in the third-party service may impact the application.",
+      "group_id": "6406532197377",
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Which mitigation strategy is most suitable?",
+      "type": "MCQ",
+      "options": [
+        "Conduct customer surveys",
+        "Benchmark and regularly inspect the external component",
+        "Explore the market",
+        "Reduce project scope"
+      ],
+      "correct_answer": "Benchmark and regularly inspect the external component",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "A company depends on a third-party fraud detection service for validating online transactions. There is a risk that defects in the third-party service may impact the application.",
+      "group_id": "6406532197377",
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Which COCOMO project category best describes the project?",
+      "type": "MCQ",
+      "options": [
+        "Organic",
+        "Semi-detached",
+        "Embedded",
+        "Cannot be determined"
+      ],
+      "correct_answer": "Organic",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T2_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A company is developing an online furniture shopping platform. The requirements are well understood, the development team consists of highly experienced developers, and the estimated project size is 50 KLOC. [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "6406532197380",
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "Using the Basic COCOMO model, what is the approximate initial effort for the project?",
+      "type": "MCQ",
+      "options": [
+        "146 Person-Months",
+        "185 Person-Months",
+        "220 Person-Months",
+        "305 Person-Months"
+      ],
+      "correct_answer": "146 Person-Months",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T2_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A company is developing an online furniture shopping platform. The requirements are well understood, the development team consists of highly experienced developers, and the estimated project size is 50 KLOC. [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "6406532197380",
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "Which of the following statements are true?",
+      "type": "multichoice",
+      "options": [
+        "UI Design and Database Design can proceed simultaneously.",
+        "Testing can begin immediately after Requirements Analysis .",
+        "Implementation depends on both UI Design and Database Design .",
+        "Deployment can start before Testing is completed."
+      ],
+      "correct_answer": [
+        "UI Design and Database Design can proceed simultaneously.",
+        "Implementation depends on both UI Design and Database Design ."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T2_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A university is developing an online examination portal. Before implementation, the development team prepares the following activity network. [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p12_Im1.webp|block]",
+      "group_id": "6406532197383",
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "Which task must be completed immediately before Deployment ?",
+      "type": "MCQ",
+      "options": [
+        "UI Design",
+        "Database Design",
+        "Implementation",
+        "Testing"
+      ],
+      "correct_answer": "Testing",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T2_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A university is developing an online examination portal. Before implementation, the development team prepares the following activity network. [IMAGE: /data/images/cs3001_2026T2_Q2_NA_p12_Im1.webp|block]",
+      "group_id": "6406532197383",
+      "section_name": "Sw Engg"
+    }
+  ],
+  "id": "cs3001-2026t2-q2-na",
+  "course_code": "CS3001",
+  "course_name": "Software Engineering",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

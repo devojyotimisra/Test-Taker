@@ -1,0 +1,826 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT 1 (COMPUTER BASED EXAM)",
+  "filename": "cs2003_2023T2_ET_AN.pdf",
+  "total_questions": 33,
+  "total_marks": 33.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 117,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT 1 (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 118,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following snippet of HTML and its output rendered on the browser: [IMAGE: /data/images/cs2003_2023T2_ET_AN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "correct_answer": "GET",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 119,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A 6000 rpm magnetic disk is being used to store data. The disk can only spin in one direction and is operating at 6000 revolutions per minute. If the operating system sends a request to the disk controller to fetch data from the disk, but by the time the request reached the disk controller, the information had already moved 35 degrees passed the reader, what will be the latency (in milliseconds) before it can start retrieving data?",
+      "type": "MCQ",
+      "options": [
+        "0.97",
+        "9.03",
+        "90.3",
+        "97"
+      ],
+      "correct_answer": "9.03",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 120,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2003_2023T2_ET_AN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p5_Im1.webp|block] [IMAGE: /data/images/cs2003_2023T2_ET_AN_p5_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p5_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p5_Im5.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p4_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p5_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p5_Im3.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 121,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following function to be tested and test functions given in the Python code snippet below. [IMAGE: /data/images/cs2003_2023T2_ET_AN_p6_Im1.webp|block] On running this file on the terminal using pytest, the summary of the output is; [IMAGE: /data/images/cs2003_2023T2_ET_AN_p6_Im2.webp|block] What command will result into the outcome given above?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p6_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p7_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p6_Im7.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p6_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p6_Im2.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p6_Im5.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p6_Im7.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 122,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2003_2023T2_ET_AN_p7_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "C048 A865",
+        "C0A8 4865",
+        "C0A8 6548",
+        "C065 A848"
+      ],
+      "correct_answer": "C0A8 4865",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 123,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 An HTML code and CSS code is given below. Which of the following correctly represents its rendered output? [IMAGE: /data/images/cs2003_2023T2_ET_AN_p7_Im5.webp|block] [IMAGE: /data/images/cs2003_2023T2_ET_AN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p8_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p8_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p9_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p7_Im5.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p8_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p8_Im4.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p8_Im5.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p9_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 124,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2003_2023T2_ET_AN_p9_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Many-to-Many",
+        "One-to-Many",
+        "One-to-One",
+        "The tables are not at all related"
+      ],
+      "correct_answer": "The tables are not at all related",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 125,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Python code snippet. [IMAGE: /data/images/cs2003_2023T2_ET_AN_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Only 2 and 4",
+        "Only 4",
+        "Only 3 and 4",
+        "Only 3"
+      ],
+      "correct_answer": "Only 4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 126,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the code below and match the conditions in Column A with respect to the coverage types in Column B. [IMAGE: /data/images/cs2003_2023T2_ET_AN_p11_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-d, 2-a, 3-b, 4-c",
+        "1-c, 2-d, 3-b, 4-a",
+        "1-c, 2-d, 3-a, 4-b",
+        "1-b, 2-d, 3-c, 4-a"
+      ],
+      "correct_answer": "1-c, 2-d, 3-b, 4-a",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p11_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 127,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Match the following types of testing with their functionality. [IMAGE: /data/images/cs2003_2023T2_ET_AN_p12_Im1.webp|block] Which of the following is the correct matching?",
+      "type": "MCQ",
+      "options": [
+        "A \u2192 1, B \u2192 2, C \u2192 3, D \u2192 4",
+        "A \u2192 4, B \u2192 3, C \u2192 2, D \u2192 1",
+        "A \u2192 3, B \u2192 2, C \u2192 1, D \u2192 4",
+        "A \u2192 4, B \u2192 1, C \u2192 2, D \u2192 3"
+      ],
+      "correct_answer": "A \u2192 4, B \u2192 1, C \u2192 2, D \u2192 3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 128,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following table \u201cemp\u201d created in SQLite database corresponding to model class \u201cEmployee\u201d using flask_sqlalchemy. [IMAGE: /data/images/cs2003_2023T2_ET_AN_p13_Im1.webp|block] Which of the following code snippets will change the designation of male teachers to professor and will increase their salaries to 6000 correctly when typed in the Python console?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p13_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p13_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p14_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p14_Im1.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p13_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p13_Im4.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p13_Im5.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 129,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following python code snippet app.py, the html files, base.html and home.html residing in \u201ctemplates\u201d folder. [IMAGE: /data/images/cs2003_2023T2_ET_AN_p15_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p15_Im3.webp|inline] [IMAGE: /data/images/cs2003_2023T2_ET_AN_p15_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p15_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p16_Im2.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p15_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p15_Im3.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p15_Im4.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p15_Im6.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p16_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 130,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following SQL create statement. [IMAGE: /data/images/cs2003_2023T2_ET_AN_p16_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p17_Im1.webp|block] [IMAGE: /data/images/cs2003_2023T2_ET_AN_p17_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p17_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p16_Im3.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p17_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p17_Im3.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p17_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 131,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following statements and select the correct option. Statement 1 : It is not necessary to implement server-side validation if client-side validation has been implemented. Statement 2 : Client-side validation can be implemented with HTML5.",
+      "type": "MCQ",
+      "options": [
+        "Statement 1 is true while statement 2 is false",
+        "Statement 2 is true while statement 1 is false",
+        "Both statements are true",
+        "Both statements are false"
+      ],
+      "correct_answer": "Statement 2 is true while statement 1 is false",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 132,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following statements and select the correct answer. Statement 1 : In PaaS, developers are provided with an up-to-date development environment with the languages and frameworks of their choice. Statement 2 : Microsoft Azure provides IaaS as well as PaaS services.",
+      "type": "MCQ",
+      "options": [
+        "Statement 1 is true, but statement 2 is false",
+        "Statement 2 is true, but statement 1 is false",
+        "Both statements are false",
+        "Both statements are true"
+      ],
+      "correct_answer": "Both statements are true",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 133,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following statements and choose the correct option. Statement 1 : If we submit the form using the GET method, then the form data is appended inside the body of the HTTP request. Statement 2 : Never use GET method in form to send sensitive data while it is good for non-secure data, like query strings in Google",
+      "type": "MCQ",
+      "options": [
+        "Both statements 1 and 2 are true, and statement 2 is a correct explanation of statement 1",
+        "Both statements 1 and 2 are true, but statement 2 is not a correct explanation of statement 1",
+        "Statement 1 is true and statement 2 is false",
+        "Statement 2 is true and statement 1 is false"
+      ],
+      "correct_answer": "Statement 2 is true and statement 1 is false",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 134,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following git command will remove a file from the staged area but keeps the file in the directory?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p19_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p19_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p19_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p19_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p19_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p19_Im3.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p19_Im4.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p19_Im5.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p19_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 135,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following python code snippet. [IMAGE: /data/images/cs2003_2023T2_ET_AN_p20_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p20_Im4.webp|inline] [IMAGE: /data/images/cs2003_2023T2_ET_AN_p20_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p21_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p20_Im4.webp|inline] [IMAGE: /data/images/cs2003_2023T2_ET_AN_p20_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p21_Im2.webp|block]",
+        ""
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p20_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p20_Im4.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p20_Im5.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p21_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 136,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2003_2023T2_ET_AN_p21_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p21_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p21_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p22_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p22_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p21_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p22_Im4.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p21_Im3.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p21_Im5.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p21_Im6.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p22_Im2.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p22_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 137,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the statements are true?",
+      "type": "multichoice",
+      "options": [
+        "HTML5 is based on SGML",
+        "XHTML is based on XML which in turn is based on SGML",
+        "HTML5 is not backwards compatible with older versions of HTML",
+        "XML is both human and machine-readable"
+      ],
+      "correct_answer": [
+        "XHTML is based on XML which in turn is based on SGML",
+        "XML is both human and machine-readable"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 138,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Choose the correct code snippet to implement logging by importing python logging module",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p23_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p23_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p23_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p23_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p23_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p23_Im5.webp|block]",
+        ""
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p23_Im3.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p23_Im4.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p23_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 139,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a typical Amazon Alexa device. Which of the following would constitute the view of the application behind such a device?",
+      "type": "multichoice",
+      "options": [
+        "The AI voice",
+        "The body of the device",
+        "The LED light around the device",
+        "None of these"
+      ],
+      "correct_answer": [
+        "The AI voice",
+        "The LED light around the device"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 140,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is true of \u201ccold storage\u201d like Amazon Glacier?",
+      "type": "multichoice",
+      "options": [
+        "They have low cost and high durability.",
+        "They have high cost and low durability.",
+        "Latency of retrieval is very low.",
+        "Latency of retrieval is very high."
+      ],
+      "correct_answer": [
+        "They have low cost and high durability.",
+        "Latency of retrieval is very high."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 141,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following graph that represents the variation in bandwidth of a network for an entire day (24 hours). Three users were connected to the network at three different times of the day. Which user has consumed the highest amount of data? [IMAGE: /data/images/cs2003_2023T2_ET_AN_p25_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "User 1",
+        "User 2",
+        "User 3",
+        "All the three users consumed same amount of data"
+      ],
+      "correct_answer": "User 2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p25_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 142,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following restful implementation using flask. [IMAGE: /data/images/cs2003_2023T2_ET_AN_p26_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p26_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p26_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p26_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p26_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p26_Im3.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p26_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p26_Im3.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p26_Im5.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p26_Im6.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p26_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 143,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following python code snippet. What will be the rendered output? [IMAGE: /data/images/cs2003_2023T2_ET_AN_p27_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p28_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p28_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p28_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p28_Im5.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p27_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p28_Im2.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p28_Im4.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p28_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 144,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2003_2023T2_ET_AN_p29_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p29_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p29_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p29_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p29_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p29_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p29_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p29_Im3.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p29_Im4.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p29_Im6.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p29_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 145,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What will be the output of the following Python code snippet? [IMAGE: /data/images/cs2003_2023T2_ET_AN_p30_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p30_Im4.webp|inline] [IMAGE: /data/images/cs2003_2023T2_ET_AN_p30_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p30_Im7.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p30_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p30_Im4.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p30_Im6.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p30_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 146,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following flask application. [IMAGE: /data/images/cs2003_2023T2_ET_AN_p31_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "a-2, b-1, c-5, d-6",
+        "a-5, b-3, c-2, d-4",
+        "a-5, b-1, c-2, d-6",
+        "a-2, b-3, c-4, d-6"
+      ],
+      "correct_answer": "a-5, b-3, c-2, d-4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p31_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 147,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following sorting algorithm which sorts any given unsorted array of numbers in ascending order. What would be its time complexity? (Assume appending and deleting an element from an array does not affect time complexity) Step 1: Create an empty array. Step 2: Find the element in the unsorted array with the minimum value. Step 3: Append this element to the array created in step 1. Step 4: Delete this element from the unsorted array. Step 5: Repeat steps 1 to 4 until the unsorted array is empty.",
+      "type": "MCQ",
+      "options": [
+        "O ( N 2 )",
+        "O ( N )",
+        "O ( logN )",
+        "O ( NlogN )"
+      ],
+      "correct_answer": "O ( N 2 )",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 148,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following flask application. [IMAGE: /data/images/cs2003_2023T2_ET_AN_p33_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "343343",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p33_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 149,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Follow the code given below [IMAGE: /data/images/cs2003_2023T2_ET_AN_p34_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p35_Im1.webp|block] [IMAGE: /data/images/cs2003_2023T2_ET_AN_p35_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p35_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p35_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_AN_p35_Im1.webp|block] [IMAGE: /data/images/cs2003_2023T2_ET_AN_p35_Im3.webp|block]",
+        ""
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2023T2_ET_AN_p34_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p35_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p35_Im3.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p35_Im4.webp",
+        "/data/images/cs2003_2023T2_ET_AN_p35_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev1"
+    }
+  ],
+  "id": "cs2003-2023t2-et-an",
+  "course_code": "CS2003",
+  "course_name": "Application Development 1",
+  "level": "Diploma in Programming",
+  "term": "May 2023",
+  "year": 2023,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

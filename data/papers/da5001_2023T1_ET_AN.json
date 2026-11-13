@@ -1,0 +1,520 @@
+{
+  "title": "DEGREE LEVEL : INTRODUCTION TO BIG DATA (COMPUTER BASED EXAM)",
+  "filename": "da5001_2023T1_ET_AN.pdf",
+  "total_questions": 22,
+  "total_marks": 22.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 294,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : INTRODUCTION TO BIG DATA (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 295,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What happens when a Spark Structured Streaming pipeline operating with Kafka as the source is subject to a machine failure?",
+      "type": "MCQ",
+      "options": [
+        "The data being processed when the failure happened will have produced partial results that result in incorrect outputs.",
+        "The pipeline will not be restarted automatically.",
+        "The pipeline will be restarted automatically by Spark which is able to pick up the exact data from Kafka which was being processed at the time of error",
+        "Spark will throw an error and halt",
+        "Spark will gracefully shut down, reboot that machine which failed and start the Structured Streaming pipeline again to continue from where it left off"
+      ],
+      "correct_answer": "The pipeline will be restarted automatically by Spark which is able to pick up the exact data from Kafka which was being processed at the time of error",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 296,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A company with headquarters (HQ) in the Middle East operates on a Sunday-Thursday weekday schedule with Friday & Saturday as weekend days. It computes end of week revenue numbers by first computing sales for each day at 1AM local time of the next day, and then summing up the weekly sales every Sunday early morning at 3AM local time. This number gets reported to leadership every Sunday morning 9AM local time. As a result of management change, it has decided to relocate its HQ to India. Which of the following changes will need to be done to its ETL pipeline?",
+      "type": "MCQ",
+      "options": [
+        "No change to business time since that remains constant at 1AM local time, only the schedule for the final weekly sum operation needs to be changed to the operational time of Monday 3AM India time instead of Sunday 3AM Middle East time.",
+        "Since time zone has changed as well as week definition too, the definition of business time has changed. So, the ETL has to be rewritten entirely.",
+        "Nothing needs to change since daily sales is available at 1AM Middle East time which is anyway behind India time and so the numbers will be available before leadership comes in at 9AM.",
+        "Event time has changed since the event of week ending has changed in definition, and so the ETL needs to be changed to consider the new event in the data.",
+        "No change required."
+      ],
+      "correct_answer": "No change to business time since that remains constant at 1AM local time, only the schedule for the final weekly sum operation needs to be changed to the operational time of Monday 3AM India time instead of Sunday 3AM Middle East time.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 297,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the class, we saw the UDF for mobilenet_v2. Specifically, the predict() function contained the below lines of code [IMAGE: /data/images/da5001_2023T1_ET_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "They check the syntax of the model function so that there are no errors",
+        "They load the model into memory so that the loop iteration over each image does not need to do the same operation again and again given model load times are prohibitively expensive for DL models",
+        "They invoke PyTorch libraries that have already been setup for model scoring on GCP using APIs embedded within the function",
+        "They are Map-style UDFs that make it an embarrassingly parallel computation thus making the execution parallelized and fast."
+      ],
+      "correct_answer": "They load the model into memory so that the loop iteration over each image does not need to do the same operation again and again given model load times are prohibitively expensive for DL models",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2023T1_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 298,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Dhoni is on the crease with a bat in hand that has sensors embedded throughout. The sensors talk to the spider cam every second. The spider cam is itself a powerful ARM-based computer which has connectivity to the cloud through the wire on which it hangs. Using this connectivity, it can send as much or as little data as required and also receive instructions from the cloud. There is a machine learning model which suggests to the batsman to loosen the grip on his bat or tighten it based on the shots played using the sensor measurements. The way the suggestion happens is using dynamic vibration intensity communicated to the sensors embedded in the bat handle. Your task is to design the data pipeline that enables such feedback to Dhoni ideally before every ball with as much accuracy as possible throughout the match. Which of the following options best satisfies the requirements?",
+      "type": "MCQ",
+      "options": [
+        "Ingest all data into Pub/Sub, process using Google Cloud Dataflow, invoke the ML model, and then write back output from Cloud to the spider cam to relay to the bat.",
+        "Compress the ML model to fit into the spider cam\u2019s available resource, and write pipelines to execute the model in the spider cam itself",
+        "Compress the data in the spider cam every 5 seconds, write to Pub/Sub the compressed data, invoke the ML model and then write back output from Cloud to the spider cam to relay to the bat.",
+        "Compress the ML model to fit into the spider cam\u2019s available resource, and write pipelines to execute in the spider cam itself, with periodically data being sent to the cloud, retrain the model using Google Cloud ML and then redeploy the model to the spider cam."
+      ],
+      "correct_answer": "Compress the ML model to fit into the spider cam\u2019s available resource, and write pipelines to execute in the spider cam itself, with periodically data being sent to the cloud, retrain the model using Google Cloud ML and then redeploy the model to the spider cam.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 299,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the class, we saw the UDF for mobilenet_v2. By definition, UDFs are scalar. In Spark, there is another class of user defined routines called UDAFs, which stand for User Defined Aggregator Functions. UDAFs are meant to provide a means to write a custom aggregation function which aggregates over a grouping of values to arrive at a single value. UDAF structure differs saliently from UDFs in that it exposes the notion of a buffer as a way of maintaining intermediate state before finalizing aggregate output. Why is a buffer required for UDAF and not for a UDF?",
+      "type": "MCQ",
+      "options": [
+        "A UDF is a scalar operation executing on 1 row at a time and producing output immediately, and therefore there is no intermediate output necessary. Whereas, a UDAF operates on multiple rows which will require multiple passes for the final output thereby requiring a buffer.",
+        "A UDF is a scalar operation executing on many rows at a time, grouped by a key and producing a single output, and therefore there is no intermediate output necessary. Whereas, a UDAF operates on multiple rows which will require multiple passes for the final output thereby requiring a buffer.",
+        "A UDF is a scalar operation executing on 1 row at a time and producing output immediately, and therefore there is no intermediate output necessary. Whereas, a UDAF operates on multiple rows of unbounded size requiring a divide-and-conquer approach for computing aggregates, which uses the intermediate buffer to store partial values before finalizing the result aggregate.",
+        "A UDF is a scalar operation executing on many rows at a time, grouped by a key and producing a single output, and therefore there is no intermediate output necessary. Whereas, a UDAF operates on multiple rows of unbounded size requiring a divide-and-conquer approach for computing aggregates, which uses the intermediate buffer to store partial values before finalizing the result aggregate."
+      ],
+      "correct_answer": "A UDF is a scalar operation executing on 1 row at a time and producing output immediately, and therefore there is no intermediate output necessary. Whereas, a UDAF operates on multiple rows of unbounded size requiring a divide-and-conquer approach for computing aggregates, which uses the intermediate buffer to store partial values before finalizing the result aggregate.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 300,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are appointed as a Data Engineer in a company that has a legacy reporting application written in Java which suffers from both performance and maintainability problems. The reporting application plots dashboards with near real-time refresh (once every minute) of key business indicators to help management take live decisions. The application reads data directly from the source database of MongoDB, aggregates using simple counts and shows them visually in a UI. The performance problem of this application comes because the source database is at times overloaded and therefore the dashboard is not able to refresh fast enough. The maintainability issue is because every time a new KPI summary is required, the source has to be changed to include it. Choose from the options below the option that best tackles both problems:",
+      "type": "MCQ",
+      "options": [
+        "Since MongoDB is OLTP, it is not able to support business reporting. So, replace it with Hadoop which supports OLAP better",
+        "Extract raw data from MongoDB using Change Data Capture (CDC) once every minute into Kafka, and then use Spark Streaming to compute the KPIs and then populate into a NoSQL DB like Redis for the UI to consume.",
+        "Convert the application from using plain Java to using Spark Streaming in Java",
+        "Query MongoDB every 1 minute for new data using a check on document inserted timestamp, use Spark Streaming to compute the KPIs with the queried data, and then populate into a NoSQL DB like Redis for the UI to consume."
+      ],
+      "correct_answer": "Extract raw data from MongoDB using Change Data Capture (CDC) once every minute into Kafka, and then use Spark Streaming to compute the KPIs and then populate into a NoSQL DB like Redis for the UI to consume.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 301,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are given a Spark Streaming pipeline that invokes a pre-trained DL model for every image it receives as input and produces the classification result in quick time. The model with the best recall rate from the PyTorch library takes 3.1 seconds on an average to execute on a Quad CPU Spark worker machine. However, the output is expected to be produced consistently within 3 seconds from having received the input. What is the best option to meet the expectations without compromising on false negatives and minimizing the amount of money & effort that is spent further?",
+      "type": "MCQ",
+      "options": [
+        "Use a different DL model that is faster but has half the recall rate.",
+        "Build a custom model that compresses the highest recall rate model just enough to be able to execute within the stipulated time, and measure recall.",
+        "Parallelize the DL model code using Divide-and-Conquer so that it runs faster.",
+        "Change Spark machine to use GPUs"
+      ],
+      "correct_answer": "Build a custom model that compresses the highest recall rate model just enough to be able to execute within the stipulated time, and measure recall.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 302,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following code snippets will give a runtime error? (Note: df is a spark dataframe. It has a column called content which has images represented as byte array)",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p8_Im2.webp|block]",
+        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p8_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p9_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5001_2023T1_ET_AN_p8_Im2.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2023T1_ET_AN_p8_Im2.webp",
+        "/data/images/da5001_2023T1_ET_AN_p8_Im3.webp",
+        "/data/images/da5001_2023T1_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 303,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Since it is the onset of summer, there is a surge in railway ticket bookings. The business head at IRCTC is interested in a real-time view of what are the top 10 destinations being booked in descending order of count of tickets purchased where port of origin is one of the tier-1 urban centres such as Mumbai, Delhi, Chennai etc. She wants to see this be presented in a monitor mounted in her office wall that refreshes with the latest info on an India map every 1 minute along with the time of update so that she gets the confirmation that this is the latest data, so that she can plan for new summer-special trains as required. What solution option below best solves for the need?",
+      "type": "MCQ",
+      "options": [
+        "Route a copy of the ticket purchase to a Kafka topic, use Spark Structured Streaming to continuously read from this topic and update the aggregates by destinations, and emit using output mode \u201cUpdate\u201d.",
+        "Route a copy of the ticket purchase to a Kafka topic, use Spark Structured Streaming to periodically read from this topic every 1 minute and update the aggregates by destinations, and emit top aggregates using the output mode \u201cComplete\u201d.",
+        "Route a copy of the ticket purchase to a Kafka topic, use Spark Structured Streaming to periodically read from this topic every 1 minute and count the destinations in that batch, and emit only top aggregates in that batch using the output mode \u201cAppend\u201d."
+      ],
+      "correct_answer": "Route a copy of the ticket purchase to a Kafka topic, use Spark Structured Streaming to periodically read from this topic every 1 minute and update the aggregates by destinations, and emit top aggregates using the output mode \u201cComplete\u201d.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 304,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a Structured Streaming application running on Google Dataproc firing up every 10 seconds, consuming any number of records from Kafka available since last read, and emitting some computed answers to another Kafka topic. Consider also that apart from the functional logic, the same application is also emitting into a file the start time and end time of every batch invocation for audit purposes. Assume there is a failure in one of the Dataproc machines that results in a failure of a specific run. For the external world (i.e. anybody consuming the outputs of this application), will they see the effect of the failure at all, or will it be as though there was no failure? Select the ones from the list below that answer this question.",
+      "type": "MCQ",
+      "options": [
+        "Yes, the failure is visible. The only visible effect for the external world would be in the form of a slowdown in runtime for completion of that batch as Structured Streaming retries the batch that failed thus taking twice as much time as normal.",
+        "Yes, the failure is visible because the side effect of emitting timestamps in a batch will be visible as 2 consecutive Start timestamps without any end timestamp as Structured Streaming retries the failed batch.",
+        "No, no failure is visible since Structured Streaming uses transactions and idempotence to achieve exactly-once processing.",
+        "No, no failure is visible since Structured Streaming can process the same data in a retry resulting in the same outputs again."
+      ],
+      "correct_answer": "Yes, the failure is visible because the side effect of emitting timestamps in a batch will be visible as 2 consecutive Start timestamps without any end timestamp as Structured Streaming retries the failed batch.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 305,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a Kafka system that has two brokers with the exact same specifications. Let\u2019s consider a topic A with a single partition, whose two copies are being maintained by Kafka. Consider the following cases: Case 1: Both the copies reside in the same broker Case 2: Each broker has one copy of the partition Two of the key promises of Kafka are: (i) Availability (ii) Throughput Regarding which of the above promises, case 1 is at a disadvantage as compared to case 2?",
+      "type": "MCQ",
+      "options": [
+        "Only (i)",
+        "Only (ii)",
+        "Both (i) and (ii)",
+        "Neither (i) nor (ii)"
+      ],
+      "correct_answer": "Only (i)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 306,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Let us say we are using structured streaming for continuously reading data from Kafka and storing the results back into a Kafka topic. Now, instead, we decide that we need to just perform a one-time batch operation, where there is a need to read specific data from Kafka (i.e. using pre- determined offsets). How will we need to modify the code to make it work?",
+      "type": "MCQ",
+      "options": [
+        "The read and write commands will remain the same, but the remaining code will need to be modified, as operations on streaming data frames are not supported on static data frames.",
+        "Only the read and write commands need to be modified to specify that it's a batch operation.",
+        "The entire code will need to be modified as the APIs for stream and batch processing are completely different."
+      ],
+      "correct_answer": "Only the read and write commands need to be modified to specify that it's a batch operation.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 307,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Kubernetes is an open-source system for automating deployment, scaling and management of containerized applications. Google Datastore and HBase are both highly-scalable NoSQL database systems for interactive, real-time applications. Consider the following pipeline choices for effecting the same outcome: [IMAGE: /data/images/da5001_2023T1_ET_AN_p13_Im1.webp|block] Which option below represents the correct order of pipeline options that has the \u201cmost IaaS\u201d entry to the left and the \u201cmost PaaS\u201d entry to the right?",
+      "type": "MCQ",
+      "options": [
+        "(i), (v), (iii), (iv), (ii)",
+        "(i), (ii), (iii), (iv), (v)",
+        "(ii), (iii), (i), (iv), (v)",
+        "(v), (iii), (i), (iv), (ii)",
+        "All are equally PaaS / IaaS"
+      ],
+      "correct_answer": "(i), (v), (iii), (iv), (ii)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2023T1_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 308,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A big data streaming application that reads from using Kafka as source is observed to be really slow. The Kafka cluster has 2 broker nodes and this application is reading from 1 topic that has 10 partitions. On closer investigation, it was found that Kafka is not scaling to the velocity of input data coming in. How will you scale Kafka further?",
+      "type": "multichoice",
+      "options": [
+        "Increase memory in each of the brokers in the cluster",
+        "Add disks to each broker in the cluster",
+        "Add new brokers to the cluster",
+        "Create more topics and change input application to reroute data to all topics to be able to spread input data better",
+        "Double the number of partitions for this single topic to be able to spread input data better"
+      ],
+      "correct_answer": [
+        "Increase memory in each of the brokers in the cluster",
+        "Add new brokers to the cluster"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 309,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are given the task of improving the performance of a Spark SQL program. You suspect that the culprit is the main transformation job in the program. When you run EXPLAIN on that SQL, you see that Spark wrongly estimates that there are only 10 values for the key being aggregated, whereas in reality the underlying data has a million values for that key. What actions would you perform from the below to ensure that the right estimates are used?",
+      "type": "multichoice",
+      "options": [
+        "Create all tables as native Spark SQL tables (i.e. available as CatalogTables).",
+        "Partition all tables on the same key on which the aggregate is happening.",
+        "Ensure cost based optimizer (CBO) is ON.",
+        "Run ANALYZE on all tables.",
+        "Cache the table in a step with actions ahead of the SQL statement that is the culprit."
+      ],
+      "correct_answer": [
+        "Create all tables as native Spark SQL tables (i.e. available as CatalogTables).",
+        "Ensure cost based optimizer (CBO) is ON.",
+        "Run ANALYZE on all tables."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 310,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What differentiates \u201cstreaming processing\u201d from \u201cbatch processing\u201d in the context of big data?",
+      "type": "multichoice",
+      "options": [
+        "Batch operates on a set of data elements taken together while streaming operates on data individually as it streams in",
+        "Batch operates on data that is static while streaming operates on data that is dynamically changing",
+        "Batch processing can assume data as fully specified and complete while streaming cannot make that assumption",
+        "Batch processing is typically high latency while streaming processing is necessary for real-time latencies",
+        "Batch processing can operate on massively larger data sets than streaming can"
+      ],
+      "correct_answer": [
+        "Batch operates on data that is static while streaming operates on data that is dynamically changing",
+        "Batch processing can assume data as fully specified and complete while streaming cannot make that assumption",
+        "Batch processing is typically high latency while streaming processing is necessary for real-time latencies"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 311,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What are the core components for a Big Data Streaming application?",
+      "type": "multichoice",
+      "options": [
+        "Data needs to be retrievable from a persistent store that supports message replay. Replay refers to being able to fetch a specific set of data from that persistent store on- demand., where the data is chosen based on filters usually defined on sequence numbers or timestamps",
+        "Data processing needs to be splittable across machines using divide-and- conquer, and composable into steps that execute very quickly",
+        "Hadoop needs to be setup for its big data capabilities",
+        "The application needs to have the cloud-native properties of being resilient, manageable and observable",
+        "Application needs to be deployable on public cloud natively using PaaS components"
+      ],
+      "correct_answer": [
+        "Data needs to be retrievable from a persistent store that supports message replay. Replay refers to being able to fetch a specific set of data from that persistent store on- demand., where the data is chosen based on filters usually defined on sequence numbers or timestamps",
+        "Data processing needs to be splittable across machines using divide-and- conquer, and composable into steps that execute very quickly",
+        "The application needs to have the cloud-native properties of being resilient, manageable and observable"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 312,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements are true?",
+      "type": "multichoice",
+      "options": [
+        "In pull delivery, your subscriber application initiates requests to the Pub/Sub server to retrieve messages.",
+        "In push delivery, Pub/Sub initiates requests to your subscriber application to deliver messages.",
+        "Pull subscription is preferred when efficiency and throughput of message processing is critical.",
+        "The rate of delivery needs to be controlled by the subscriber client in push subscription."
+      ],
+      "correct_answer": [
+        "In pull delivery, your subscriber application initiates requests to the Pub/Sub server to retrieve messages.",
+        "In push delivery, Pub/Sub initiates requests to your subscriber application to deliver messages.",
+        "Pull subscription is preferred when efficiency and throughput of message processing is critical."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 313,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Observe the below image and select the options that are true. [IMAGE: /data/images/da5001_2023T1_ET_AN_p17_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Each subscriber gets one third of all messages published into Topic 1 .",
+        "Each subscriber gets one third of all messages published into Topic 1 by Publisher 1",
+        "Each subscriber gets all messages published into Topic 1 ."
+      ],
+      "correct_answer": [
+        "Each subscriber gets all messages published into Topic 1 ."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2023T1_ET_AN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 314,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A Spark Streaming application is configured to execute once per minute. However, each run takes 10+ minutes consistently resulting in a never-ending backlog of work. The code in a nutshell looks as follows: [IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im1.webp|block] Your goal is to optimize the code to bring down execution of each iteration within 1 minute. Which of the following represent options that will help in this mission?",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im5.webp|inline] [IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im6.webp|block]",
+        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im5.webp|inline] [IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im6.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2023T1_ET_AN_p18_Im1.webp",
+        "/data/images/da5001_2023T1_ET_AN_p18_Im5.webp",
+        "/data/images/da5001_2023T1_ET_AN_p18_Im6.webp",
+        "/data/images/da5001_2023T1_ET_AN_p18_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 315,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are given a Spark program that runs on a Google Dataproc cluster on a daily schedule from 1AM-12PM to produce as output the total amount of purchases made by every customer the previous day. The data is coming into GCS every minute from a variety of sources as standalone files. Therefore, the business leader now feels that having to wait till 12PM the next day is no longer acceptable and instead wants approximate purchase information for each customer at least every hour. What\u2019s more, she wants to control the computation of the outcome completely with flexibility to change the schedule as she wishes without the need for you or any other developer to be involved. Which amongst the below represents the best option to achieve the above?",
+      "type": "multichoice",
+      "options": [
+        "Change the code to assume hourly data instead of daily data, change scheduler to run every hour & let her manage the execution of the code on Dataproc",
+        "Change the code to leverage Spark Streaming with streaming window as \u201c1 hour\u201d, & let her manage the execution of the code on Dataproc",
+        "Change the code to leverage Spark Streaming with streaming window as \u201c1 hour\u201d, convert from Dataproc to Dataflow, & let her manage the execution of the code on Dataflow",
+        "Write a Cloud Function to move all incoming per-minute standalone files from GCS to Pub/Sub, change the code to leverage Spark Streaming with streaming window as \u201c1 hour\u201d, convert from Dataproc to Dataflow, point source to Pub/Sub, & let her manage the execution of the code on Dataflow"
+      ],
+      "correct_answer": [
+        "Change the code to leverage Spark Streaming with streaming window as \u201c1 hour\u201d, convert from Dataproc to Dataflow, & let her manage the execution of the code on Dataflow"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to BigData"
+    }
+  ],
+  "id": "da5001-2023t1-et-an",
+  "course_code": "DA5001",
+  "course_name": "Big Data",
+  "level": "Degree",
+  "term": "Jan 2023",
+  "year": 2023,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

@@ -1,0 +1,453 @@
+{
+  "title": "DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
+  "filename": "cs4021_2026T1_Q1_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "We are given as input a set of n requests (e.g., for the use of a classroom), with a known start time [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p2_Im3.webp|inline] and finish time [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p2_Im4.webp|inline] for each request [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p2_Im5.webp|inline] . Assume that all start and finish times are distinct . Two requests are said to conflict if their intervals overlap, i.e., if [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p2_Im6.webp|inline] and [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p2_Im7.webp|inline] . Our goal is to select a maximum-cardinality subset of the given requests that contains no conflicts . Example: Given three requests consuming the intervals [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p2_Im8.webp|inline] , [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p2_Im9.webp|inline] , and [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p2_Im10.webp|inline] , the optimal solution selects the first and third requests. We aim to design a greedy algorithm of the following form: At each iteration, we select a new request [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p2_Im11.webp|inline] , include it in the solution-so-far, and delete from future consideration all requests that conflict with [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p2_Im12.webp|inline] . Which of the following greedy rules is guaranteed to always compute an optimal solution?",
+      "type": "MCQ",
+      "options": [
+        "At each iteration, pick the remaining request with the fewest number of conflicts with other remaining requests (breaking ties arbitrarily).",
+        "At each iteration, pick the remaining request with the earliest start time .",
+        "At each iteration, pick the remaining request with the earliest finish time .",
+        "At each iteration, pick the remaining request which requires the least time (i.e., has the smallest value of [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im3.webp|inline] ) (breaking ties arbitrarily)."
+      ],
+      "correct_answer": "At each iteration, pick the remaining request with the earliest finish time .",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q1_NA_p2_Im3.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p2_Im4.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p2_Im5.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p2_Im6.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p2_Im7.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p2_Im8.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p2_Im9.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p2_Im10.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p2_Im11.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p2_Im12.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following statements about maximum flow in a graph: Statement 1: For every graph [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im4.webp|inline] and every maximum flow on [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im5.webp|inline] , there always exists an edge such that increasing the capacity on that edge will increase the maximum flow possible in the graph. Statement 2: Suppose the maximum [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im6.webp|inline] -flow of some graph has value [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im7.webp|inline] . Now we increase the capacity of every edge by 1. Then the maximum [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im8.webp|inline] -flow in this modified graph will have value at most [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im9.webp|inline] . Which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        "Only Statement 1 is true",
+        "Only Statement 2 is true",
+        "Both Statement 1 and Statement 2 are true",
+        "Neither Statement 1 nor Statement 2 is true"
+      ],
+      "correct_answer": "Neither Statement 1 nor Statement 2 is true",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q1_NA_p3_Im4.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p3_Im5.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p3_Im6.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p3_Im7.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p3_Im8.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p3_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Given a flow network [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im10.webp|inline] and a flow [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im11.webp|inline] , how will you determine if [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im12.webp|inline] is a maximum flow?",
+      "type": "MCQ",
+      "options": [
+        "If there is any edge that is not saturated to full capacity, then we can conclude that [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im13.webp|inline] is not a maximum flow.",
+        "If the residual graph does not have any augmenting paths, then [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im14.webp|inline] is a maximum flow.",
+        "If the value of the flow [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p4_Im2.webp|inline] is not the sum of the capacities of the edges coming out of the source [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p4_Im3.webp|inline] , then [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p4_Im4.webp|inline] is not a maximum flow.",
+        "If the value of the flow [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p4_Im5.webp|inline] is not the sum of the capacities of the edges coming into the sink [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p4_Im6.webp|inline] , then [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p4_Im7.webp|inline] is not a maximum flow."
+      ],
+      "correct_answer": "If the residual graph does not have any augmenting paths, then [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p3_Im14.webp|inline] is a maximum flow.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q1_NA_p3_Im10.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p3_Im11.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p3_Im12.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p3_Im13.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p3_Im14.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p4_Im2.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p4_Im3.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p4_Im4.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p4_Im5.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p4_Im6.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "A popular conference is being held, and there are several types of seats: VIP, Regular, and Economy. Each type of seat has a limited number of available spots. Each attendee has a preference for the type of seat they want, and the total number of attendees is greater than the number of available seats. The goal is to allocate the seats to attendees such that each attendee is assigned to their preferred seat type, and no seat type exceeds its capacity. How can the given problem of allocating seats to attendees based on their preferences and seat type capacities be effectively solved?",
+      "type": "MCQ",
+      "options": [
+        "Using a greedy algorithm to assign seats based on attendee preferences.",
+        "Modeling the problem as a maximum flow network with capacities representing seat limits and flows representing the number of attendees assigned to each seat type.",
+        "Implementing a first-come, first-serve approach without considering the preferences or seat type capacities.",
+        "Assigning all attendees to the VIP seats first and distributing the remaining attendees among Regular and Economy seats."
+      ],
+      "correct_answer": "Modeling the problem as a maximum flow network with capacities representing seat limits and flows representing the number of attendees assigned to each seat type.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Let A be a decision problem. Suppose: \u2022 A is in NP \u2022 A is NP-hard Which of the following must be true?",
+      "type": "MCQ",
+      "options": [
+        "A is in P",
+        "A is NP-complete",
+        "A is not solvable in polynomial time",
+        "P = NP"
+      ],
+      "correct_answer": "A is NP-complete",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "The family satisfies the hereditary property, that is, if [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im6.webp|inline] is a good set and [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im7.webp|inline] , then [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im8.webp|inline] is also a good set.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im6.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im7.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im8.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im2.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im3.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im4.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a universe [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im2.webp|inline] { [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im3.webp|inline] } of [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im4.webp|inline] couples. A subset [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im5.webp|inline] is good if it has at most three couples in it. Consider the family of all good sets. What can you say about this family?",
+      "group_id": "6406531961457",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider two good sets [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im10.webp|inline] and [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im11.webp|inline] where [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im12.webp|inline] and [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im13.webp|inline] . Then there exists an element [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im14.webp|inline] such that [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im15.webp|inline] { [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im16.webp|inline] } is a good set.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im10.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im11.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im12.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im13.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im14.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im15.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im16.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im2.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im3.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im4.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a universe [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im2.webp|inline] { [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im3.webp|inline] } of [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im4.webp|inline] couples. A subset [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p5_Im5.webp|inline] is good if it has at most three couples in it. Consider the family of all good sets. What can you say about this family?",
+      "group_id": "6406531961457",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the following greedy approach to find the Longest Increasing Subsequence (LIS) : Select the first element of the list. Then repeatedly select the next element that is strictly larger than the last selected element . On which of the following inputs does this greedy algorithm give an incorrect answer?",
+      "type": "multichoice",
+      "options": [
+        "[1, 3, 5, 7, 9, 11, 13, 15, 17, 19]",
+        "[20, 18, 16, 14, 12, 10, 8, 6, 4, 2]",
+        "[15, 1, 2, 3, 4, 5, 6, 7, 8, 16]",
+        "[2, 9, 3, 6, 5, 1, 7, 8, 4, 10]"
+      ],
+      "correct_answer": [
+        "[15, 1, 2, 3, 4, 5, 6, 7, 8, 16]",
+        "[2, 9, 3, 6, 5, 1, 7, 8, 4, 10]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q1_NA_p6_Im1.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The Longest Increasing Subsequence problem is defined as follows. Given a list [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p6_Im1.webp|inline] of size [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p6_Im2.webp|inline] non-negative integers, determine the Longest Increasing Subsequence(LIS), i.e., the longest possible subsequence in which the elements of the subsequence are sorted in increasing order.",
+      "group_id": "6406531961461",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following algorithm to compute the length of the Longest Increasing Subsequence (LIS) of a sequence [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p6_Im5.webp|inline] . Algorithm: LIS-Length [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p6_Im6.webp|block] Which of the following expressions should replace the blank( ___ ) so that the algorithm correctly computes the LIS length?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im2.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q1_NA_p6_Im5.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p6_Im6.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p6_Im1.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p6_Im2.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im2.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im4.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im5.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The Longest Increasing Subsequence problem is defined as follows. Given a list [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p6_Im1.webp|inline] of size [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p6_Im2.webp|inline] non-negative integers, determine the Longest Increasing Subsequence(LIS), i.e., the longest possible subsequence in which the elements of the subsequence are sorted in increasing order.",
+      "group_id": "6406531961461",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Which of the following set systems [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im7.webp|inline] is/are matroids?",
+      "type": "multichoice",
+      "options": [
+        "Let [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im8.webp|inline] = {1, 2, 3}. Let [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im9.webp|inline] = { [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im10.webp|inline] , {1}, {2}, {3}, {1,2}, {1,3}}.",
+        "Let [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im11.webp|inline] = {1, 2, 3}. Let [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im12.webp|inline] = { [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im13.webp|inline] , {1}, {2}, {3}, {1,2}, {2,3}, {1,2,3}}.",
+        "Let [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im14.webp|inline] = {1,2,3,4}. Let [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im15.webp|inline] = { [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im16.webp|inline] }.",
+        "Let [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im17.webp|inline] = {1,2,3}. Let [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im18.webp|inline] = { [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im19.webp|inline] , {1}, {2}, {1,2}, {1,3}}."
+      ],
+      "correct_answer": [
+        "Let [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im8.webp|inline] = {1, 2, 3}. Let [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im9.webp|inline] = { [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im10.webp|inline] , {1}, {2}, {3}, {1,2}, {1,3}}.",
+        "Let [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im14.webp|inline] = {1,2,3,4}. Let [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im15.webp|inline] = { [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p7_Im16.webp|inline] }."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im7.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im8.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im9.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im10.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im11.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im12.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im13.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im14.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im15.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im16.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im17.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im18.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p7_Im19.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the following problem, called BoxDepth : Given a set of [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p8_Im1.webp|inline] axis-aligned rectangles in the plane, determine the size of the largest subset of rectangles that contain a common point. Which of the following statement(s) is/are TRUE ?",
+      "type": "multichoice",
+      "options": [
+        "There is a polynomial-time reduction from BoxDepth to MaxClique.",
+        "There is a polynomial-time algorithm for BoxDepth.",
+        "Only one of the statements (There is a polynomial-time reduction from BoxDepth to MaxClique) and (There is a polynomial-time algorithm for BoxDepth) can be true assuming [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p8_Im4.webp|inline] .",
+        "BoxDepth can be solved in polynomial time by sweeping a vertical line and maintaining the maximum number of overlapping rectangles at any point."
+      ],
+      "correct_answer": [
+        "There is a polynomial-time reduction from BoxDepth to MaxClique.",
+        "There is a polynomial-time algorithm for BoxDepth.",
+        "BoxDepth can be solved in polynomial time by sweeping a vertical line and maintaining the maximum number of overlapping rectangles at any point."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q1_NA_p8_Im1.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "[IMAGE: /data/images/cs4021_2026T1_Q1_NA_p8_Im5.webp|inline] is an unsorted array composed of positive and negative numbers. We wish to compute the maximum subarray sum within the array. Example: [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p8_Im6.webp|block] Here, the sum of the elements in the subarray from index 4 to 6 in array [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p8_Im7.webp|inline] is 11, which is the maximum among all possible subarrays of array [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p8_Im8.webp|inline] . Hence, the output should be 11. Consider the following algorithm: Algorithm: Max-Subarray-Sum [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p9_Im1.webp|block] Which of the following expressions should replace the blank( ___ ) so that the algorithm correctly computes the maximum sum subarray?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2026T1_Q1_NA_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2026T1_Q1_NA_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2026T1_Q1_NA_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2026T1_Q1_NA_p9_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2026T1_Q1_NA_p9_Im7.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q1_NA_p8_Im5.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p8_Im6.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p8_Im7.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p8_Im8.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p9_Im1.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p9_Im3.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p9_Im4.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p9_Im5.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "A university wants to cover all departments {1,2,3,4,5,6,7,8,9} using the minimum number of workshops. Each workshop can train certain departments. Workshops and coverage: \u2022 W1: {1, 2, 3, 4} \u2022 W2: {3, 5, 6} \u2022 W3: {2, 7, 8} \u2022 W4: {4, 6, 9} \u2022 W5: {1, 5, 8} What is the minimum number of workshops required to cover all departments?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the following tree: [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p10_Im1.webp|block] What is the size of the maximum independent set of this tree?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Let G be a bipartite graph with: \u2022 Total number of vertices = 20 \u2022 Size of maximum matching = 8 What is the size of the maximum independent set in G?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider the network given below with source [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p11_Im1.webp|inline] and sink [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p11_Im2.webp|inline] , with the numbers on the edges denoting maximum capacity across a particular edge. [IMAGE: /data/images/cs4021_2026T1_Q1_NA_p11_Im3.webp|block] The value of the maximum flow in the given network is______ .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "14",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2026T1_Q1_NA_p11_Im1.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p11_Im2.webp",
+        "/data/images/cs4021_2026T1_Q1_NA_p11_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    }
+  ],
+  "id": "cs4021-2026t1-q1-na",
+  "course_code": "CS4021",
+  "course_name": "Advanced Algorithms",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

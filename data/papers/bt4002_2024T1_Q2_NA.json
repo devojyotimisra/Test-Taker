@@ -1,0 +1,534 @@
+{
+  "title": "DEGREE LEVEL : BIG DATA AND BIOLOGICAL NETWORKS (COMPUTER BASED EXAM)",
+  "filename": "bt4002_2024T1_Q2_NA.pdf",
+  "total_questions": 22,
+  "total_marks": 22.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : BIG DATA AND BIOLOGICAL NETWORKS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many solutions are possible for a string reconstruction problem with 12 words?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p1_Im3.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p1_Im4.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p1_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p1_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2024T1_Q2_NA_p1_Im3.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p1_Im4.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p1_Im5.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p1_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the number of 4-mers generated from the sequence : \u201cAGATATATTATTGTCTTTTTTGTCA\u201d?",
+      "type": "MCQ",
+      "options": [
+        "20",
+        "22",
+        "15",
+        "21"
+      ],
+      "correct_answer": "22",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the average degree (regardless of the direction) of the 3-mer overlap graph constructed from \u201cATGATACT\u201d?",
+      "type": "MCQ",
+      "options": [
+        "4.1",
+        "2.4",
+        "3.4",
+        "2"
+      ],
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the total number of edges of the De-Bruijn Graph generated from the 3-mers obtained from \u201cATGATCTAAATATCAAG\u201d?",
+      "type": "MCQ",
+      "options": [
+        "15",
+        "14",
+        "16",
+        "17"
+      ],
+      "correct_answer": "15",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In a directed protein-protein interaction network, the researchers want to identify protein clusters that interact densely with each other but have sparse connections to other proteins in the network. Which method would be the most effective in discovering these hubs?",
+      "type": "MCQ",
+      "options": [
+        "Using betweenness centrality.",
+        "Using the degree distribution.",
+        "Using Girvan-Newman algorithm.",
+        "Finding nodes with high in-degree but low out-degree."
+      ],
+      "correct_answer": "Using Girvan-Newman algorithm.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is true regarding motif identification in networks?",
+      "type": "MCQ",
+      "options": [
+        "Motifs are patterns found in random networks",
+        "Motifs are exclusively found in biological networks and are absent in other types of networks.",
+        "Motif identification involves detecting recurring and significant subgraph patterns in a network.",
+        "Motifs are only relevant in small networks and have no significance in larger- scale networks."
+      ],
+      "correct_answer": "Motif identification involves detecting recurring and significant subgraph patterns in a network.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the gene interaction networks given below for 4 different conditions (2 normal and 2 diseased). [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p4_Im3.webp|block] Which of the following can be observed from the networks shown?",
+      "type": "MCQ",
+      "options": [
+        "A-E is a housekeeping interaction",
+        "E-B is a housekeeping interaction",
+        "A-D is a differential interaction between normal and disease networks",
+        "E-D is a differential interaction between normal and disease networks"
+      ],
+      "correct_answer": "A-D is a differential interaction between normal and disease networks",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2024T1_Q2_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Investigator X is tasked with identifying the spread of a virus in a city. The team has narrowed down the origin of the spread to 4 locations and obtained the contact tracing information for 4 suspected individuals. The social contact network is represented as a bipartite graph. Answer the following questions based on the provided network. [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p5_Im3.webp|block] Find the projection of the location contact network at 11:00. Note: No transition time is considered for traveling between locations.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p6_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p7_Im1.webp|block] [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p7_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2024T1_Q2_NA_p5_Im3.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p6_Im4.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p7_Im1.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(i)-A, (ii) - B, (iii) -C",
+        "(i)-B, (ii) - A, (iii) -C",
+        "(i)-C, (ii) - A, (iii) -B",
+        "(i)-C, (ii) - B, (iii) -A"
+      ],
+      "correct_answer": "(i)-C, (ii) - B, (iii) -A",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2024T1_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the total number of nodes of the De-Bruijn Graph generated from the 2-mers obtained from \u201cTACTCTAAG\u201d?",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Given the two sequences \u201cAGAGCTTA\u201d, \u201cAAGAGTTGA\u201d, and the scoring paradigm: matches: \u201c+2\u201d, mismatches: \u201c-3\u201d and gap: \u201c-1\u201d, find the final score for the best global alignment between the two sequences.",
+      "type": "MCQ",
+      "options": [
+        "10",
+        "11",
+        "2",
+        "8"
+      ],
+      "correct_answer": "11",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Given the k-mers : \u2019GCCGT\u2019, \u2019CGTAG\u2019, \u2019TAGGC\u2019, \u2019GTAGG\u2019, \u2019CTATG\u2019, \u2019CCGTA\u2019, \u2019TATGC\u2019, \u2019TGCCG\u2019, \u2019AGGCG\u2019, \u2019ATGCC\u2019, reconstruct the sequence from which the k-mers were generated.",
+      "type": "MCQ",
+      "options": [
+        "CTATACCGTAGGCG",
+        "CTATGCCGTAGGCG",
+        "ATCGGTACAACGG",
+        "TATGCCGTAGGCGC"
+      ],
+      "correct_answer": "CTATGCCGTAGGCG",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 We have a graph that was constructed by comparing n DNA sequences. If the two sequences can be aligned with a score greater than a threshold value, we assign an edge between the two in the graph. Given this, which of the following is true:",
+      "type": "multichoice",
+      "options": [
+        "Inserting a new node to the graph requires n comparisons",
+        "Inserting a new node is a node level task",
+        "If all the alignments have the same score, the resultant graph is a complete graph",
+        "There will be two connected components in the resultant graph"
+      ],
+      "correct_answer": [
+        "Inserting a new node to the graph requires n comparisons",
+        "Inserting a new node is a node level task",
+        "If all the alignments have the same score, the resultant graph is a complete graph"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following makes an appropriate pair?",
+      "type": "multichoice",
+      "options": [
+        "Node classification \u2013 Predicting drug-drug interaction",
+        "Graph classification \u2013 Predicting toxicity of a chemical compound",
+        "Link Prediction \u2013 Predicting function of novel proteins",
+        "Graph regression \u2013 Predicting free energy of hydration"
+      ],
+      "correct_answer": [
+        "Graph classification \u2013 Predicting toxicity of a chemical compound",
+        "Graph regression \u2013 Predicting free energy of hydration"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of these are challenges one might encounter in the process of genome assembly?",
+      "type": "multichoice",
+      "options": [
+        "Erroneous reads",
+        "Large volumes of data",
+        "Duplicate sequences",
+        "Incomplete graph"
+      ],
+      "correct_answer": [
+        "Erroneous reads",
+        "Large volumes of data",
+        "Duplicate sequences"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following two statements: Statement 1: Reads from the genome sequencing are prone to error. Statement 2: Sequence alignment can be used to overcome this problem. Based on your observations, which of the following statements is not true?",
+      "type": "multichoice",
+      "options": [
+        "Both statements are true and statement 2 is a potential solution for statement 1",
+        "Both statements are true but statement 2 is not a solution to statement 1",
+        "Both statements are false",
+        "Statement 1 is false but Statement 2 is true"
+      ],
+      "correct_answer": [
+        "Both statements are true but statement 2 is not a solution to statement 1",
+        "Both statements are false",
+        "Statement 1 is false but Statement 2 is true"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p12_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im1.webp|block] [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im3.webp|block]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im4.webp|block]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im4.webp|block]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im6.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2024T1_Q2_NA_p12_Im3.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p13_Im1.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p13_Im3.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p13_Im4.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p13_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im7.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im8.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p14_Im2.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p14_Im3.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p14_Im4.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p14_Im2.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p14_Im3.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p14_Im4.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2024T1_Q2_NA_p13_Im7.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p13_Im8.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p14_Im2.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p14_Im3.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p14_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the dimension of the stoichiometric matrix of the provided network?",
+      "type": "MCQ",
+      "options": [
+        "4\u00d74",
+        "5\u00d75",
+        "4\u00d75",
+        "5\u00d74"
+      ],
+      "correct_answer": "4\u00d75",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2024T1_Q2_NA_p14_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Use the following metabolic network to answer the given questions. [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p14_Im5.webp|block]",
+      "group_id": "640653765999",
+      "section_name": null
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p15_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "R1 - R2",
+        "b1 + b2 - R2",
+        "b1 + b2 - b3",
+        "R2 - R1"
+      ],
+      "correct_answer": "R1 - R2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2024T1_Q2_NA_p15_Im3.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p14_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Use the following metabolic network to answer the given questions. [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p14_Im5.webp|block]",
+      "group_id": "640653765999",
+      "section_name": null
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the stoichiometric matrix of the provided network? Note: The order of reactions is (R1, R2, b1, b2, b3)",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p16_Im3.webp|block]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p16_Im5.webp|block]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p16_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p16_Im6.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2024T1_Q2_NA_p14_Im5.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p16_Im3.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p16_Im5.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p16_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Use the following metabolic network to answer the given questions. [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p14_Im5.webp|block]",
+      "group_id": "640653765999",
+      "section_name": null
+    }
+  ],
+  "id": "bt4002-2024t1-q2-na",
+  "course_code": "BT4002",
+  "course_name": "Introduction to Bioinformatics",
+  "level": "Degree",
+  "term": "Jan 2024",
+  "year": 2024,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

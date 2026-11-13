@@ -1,0 +1,394 @@
+{
+  "title": "DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)",
+  "filename": "bt4001_2026T1_Q2_NA.pdf",
+  "total_questions": 16,
+  "total_marks": 31.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Which of the following statements is false about UPGMA?",
+      "type": "MCQ",
+      "options": [
+        "UPGMA is a simple clustering heuristic that proceeds via iterative pairwise grouping in each step.",
+        "Given a distance matrix, it starts by grouping two taxa with the largest pairwise distance in the distance matrix.",
+        "The distances between this new composite taxon and all remaining taxa are calculated to create a reduced matrix.",
+        "The grouping process is repeated and another newly reduced matrix is created."
+      ],
+      "correct_answer": "Given a distance matrix, it starts by grouping two taxa with the largest pairwise distance in the distance matrix.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "For some string [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p1_Im3.webp|inline] we have [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p1_Im4.webp|inline] . Which of the following represents the original string [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p1_Im5.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p1_Im6.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p1_Im7.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im2.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im4.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im2.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p1_Im3.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p1_Im4.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p1_Im5.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p1_Im6.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p1_Im7.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im2.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "In a gene expression analysis study, we are clustering cells based on their expression levels of two genes using (vanilla) soft K-means clustering . The stiffness parameter is [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im5.webp|inline] . In the first iteration, suppose the cluster centroids represent two cell types with mean gene expression profiles: [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im6.webp|block] Now consider a new cell [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im7.webp|inline] , where the coordinates represent its expression levels of the two genes. Which of the following options correctly represents the responsibilities (soft cluster memberships) of cell [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im8.webp|inline] belonging to cell types [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im9.webp|inline] and [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im10.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im11.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im12.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im13.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im14.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im12.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im5.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im6.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im7.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im8.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im9.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im10.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im11.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im12.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im13.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following hard K-means clustering problem with five points: [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im15.webp|inline] , [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im16.webp|inline] , [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im17.webp|inline] , [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im18.webp|inline] , and [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p2_Im19.webp|inline] . The number of clusters is [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im1.webp|inline] , and the initial centroids are [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im2.webp|inline] and [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im3.webp|inline] . After how many iterations will the algorithm terminate, and what will be the final centroids?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im7.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im8.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im5.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im15.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im16.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im17.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im18.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p2_Im19.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p3_Im1.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p3_Im2.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p3_Im3.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p3_Im5.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p3_Im7.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p3_Im8.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p3_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Inscript What is the number of nodes in the suffix trie constructed on the genome: [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im10.webp|inline] . Assume the branch on the single-letter suffix [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im11.webp|inline] is not represented in this trie. Enter your answer as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "33",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p3_Im10.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p3_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Inscript Consider a clustering setup with [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im12.webp|inline] clusters. One cluster center has already been fixed at [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im13.webp|inline] . We now wish to select the second cluster center from the remaining points [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p3_Im14.webp|inline] . In order to encourage diversity between clusters, points that are farther from the existing center are given higher preference. Specifically, each point is assigned a selection probability proportional to the square of its distance from the nearest existing center (similar to a soft assignment where distant points receive higher weight). The Euclidean distances of the remaining points from [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p4_Im1.webp|inline] are: [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p4_Im2.webp|block] What is the probability of selecting [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p4_Im3.webp|inline] as the second cluster center under this distance-based soft selection scheme? Round your answer to two decimal digits.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.2 to 0.3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p3_Im12.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p3_Im13.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p3_Im14.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p4_Im1.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p4_Im2.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript The number of elements in the Burrows-Wheeler matrix is [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p4_Im4.webp|inline] . What is the length of the original genome sequence (including the [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p4_Im5.webp|inline] symbol)? Enter the value as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p4_Im4.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p4_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript What is the minimum possible length of the run-length encoding of a genome sequence of length [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p5_Im1.webp|inline] . (Hint: Beware that the length of a run-length encoding of a string should include the characters in the encoded string, as well as their counts.) Enter the value as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p6_Im2.webp|inline] ________________________. Enter the value as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p6_Im2.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p5_Im2.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p5_Im3.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You enter an alien world as a renowned computational biologist and discover five different species. The distance matrix among these species is provided below. [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p5_Im2.webp|block] Now, to construct the phylogeny on these species, you apply the Neighbor-Joining algorithm and generate the following [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p5_Im3.webp|inline] matrix. [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p6_Im1.webp|block] Answer the given sub-questions based on the same.",
+      "group_id": "6406532039892",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p6_Im3.webp|inline] _____________________. Enter the value as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-14",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p6_Im3.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p5_Im2.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p5_Im3.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You enter an alien world as a renowned computational biologist and discover five different species. The distance matrix among these species is provided below. [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p5_Im2.webp|block] Now, to construct the phylogeny on these species, you apply the Neighbor-Joining algorithm and generate the following [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p5_Im3.webp|inline] matrix. [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p6_Im1.webp|block] Answer the given sub-questions based on the same.",
+      "group_id": "6406532039892",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im1.webp|inline] ______________________. Enter the value as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-20",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im1.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p5_Im2.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p5_Im3.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You enter an alien world as a renowned computational biologist and discover five different species. The distance matrix among these species is provided below. [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p5_Im2.webp|block] Now, to construct the phylogeny on these species, you apply the Neighbor-Joining algorithm and generate the following [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p5_Im3.webp|inline] matrix. [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p6_Im1.webp|block] Answer the given sub-questions based on the same.",
+      "group_id": "6406532039892",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Which of the following species forms a cherry in the resulting phylogeny?",
+      "type": "MCQ",
+      "options": [
+        "B and A",
+        "B and D",
+        "B and E",
+        "B and C"
+      ],
+      "correct_answer": "B and D",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p5_Im2.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p5_Im3.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You enter an alien world as a renowned computational biologist and discover five different species. The distance matrix among these species is provided below. [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p5_Im2.webp|block] Now, to construct the phylogeny on these species, you apply the Neighbor-Joining algorithm and generate the following [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p5_Im3.webp|inline] matrix. [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p6_Im1.webp|block] Answer the given sub-questions based on the same.",
+      "group_id": "6406532039892",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Find the consensus of the motifs?",
+      "type": "MCQ",
+      "options": [
+        "CAGAAT",
+        "CGGAAT",
+        "TAGAGG",
+        "GGGACT"
+      ],
+      "correct_answer": "GGGACT",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im4.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im5.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im6.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Given below is the profile matrix for a set of [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im4.webp|inline] motifs [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im5.webp|inline] . [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im6.webp|inline] . [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im7.webp|block] Answer the given sub-questions with respect to the same.",
+      "group_id": "6406532039897",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Use the profile matrix to determine which of the following [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p8_Im3.webp|inline] -mers have the highest probability?",
+      "type": "MCQ",
+      "options": [
+        "ACAGGA",
+        "GAGACT",
+        "AGGACT",
+        "ACGGAA",
+        "GGGAAA"
+      ],
+      "correct_answer": "GAGACT",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p8_Im3.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im4.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im5.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im6.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Given below is the profile matrix for a set of [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im4.webp|inline] motifs [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im5.webp|inline] . [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im6.webp|inline] . [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im7.webp|block] Answer the given sub-questions with respect to the same.",
+      "group_id": "6406532039897",
+      "section_name": "Algorithmic Thinking in Bio"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript Calculate the entropy of the first column. Round up the answer to [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p8_Im4.webp|inline] decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.57 to 1.58",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2026T1_Q2_NA_p8_Im4.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im4.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im5.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im6.webp",
+        "/data/images/bt4001_2026T1_Q2_NA_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Given below is the profile matrix for a set of [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im4.webp|inline] motifs [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im5.webp|inline] . [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im6.webp|inline] . [IMAGE: /data/images/bt4001_2026T1_Q2_NA_p7_Im7.webp|block] Answer the given sub-questions with respect to the same.",
+      "group_id": "6406532039897",
+      "section_name": "Algorithmic Thinking in Bio"
+    }
+  ],
+  "id": "bt4001-2026t1-q2-na",
+  "course_code": "BT4001",
+  "course_name": "Computational Biology",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

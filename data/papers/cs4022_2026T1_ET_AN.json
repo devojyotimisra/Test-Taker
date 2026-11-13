@@ -1,0 +1,464 @@
+{
+  "title": "DEGREE LEVEL : OPERATING SYSTEM (COMPUTER BASED EXAM)",
+  "filename": "cs4022_2026T1_ET_AN.pdf",
+  "total_questions": 21,
+  "total_marks": 45.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : OPERATING SYSTEM (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider the below plots representing the order in which the requests are serviced by different disk scheduling algorithms. [IMAGE: /data/images/cs4022_2026T1_ET_AN_p2_Im1.webp|block] Match the above plots with the corresponding disk scheduling algorithm.",
+      "type": "MCQ",
+      "options": [
+        "(1) - C-SCAN, (2) - FCFS, (3) - SCAN, (4) - C-LOOK",
+        "(1) - C-LOOK, (2) - FCFS, (3) - SCAN, (4) - C-SCAN",
+        "(1) - SCAN, (2) - C-SCAN, (3) - C-LOOK, (4) - FCFS",
+        "(1) - C-LOOK, (2) - C-SCAN, (3) - FCFS, (4) - SCAN"
+      ],
+      "correct_answer": "(1) - C-SCAN, (2) - FCFS, (3) - SCAN, (4) - C-LOOK",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following program. Assume execlp succeeds. [IMAGE: /data/images/cs4022_2026T1_ET_AN_p3_Im1.webp|block] Which output order is guaranteed?",
+      "type": "MCQ",
+      "options": [
+        "parent done appears before hello",
+        "hello appears before parent done",
+        "Only parent done appears",
+        "The order is non-deterministic"
+      ],
+      "correct_answer": "hello appears before parent done",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the following resource-allocation situation. \u2022 Process P1 holds resource R1 and waits for R2. \u2022 Process P2 holds resource R2 and waits for R3. \u2022 Process P3 holds resource R3 and waits for R1. \u2022 None of the processes releases its currently held resource until it acquires the requested one. Which deadlock condition is most directly exhibited by the waiting pattern above?",
+      "type": "MCQ",
+      "options": [
+        "Mutual exclusion",
+        "Preemption",
+        "Circular wait",
+        "Time sharing"
+      ],
+      "correct_answer": "Circular wait",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "If the memory map for a device starts at address 0x40001000 and has a size of 8192 bytes, what is the last valid address in the memory map?",
+      "type": "MCQ",
+      "options": [
+        "0x40002000",
+        "0x40002FFE",
+        "0x40002FFF",
+        "0x40003000"
+      ],
+      "correct_answer": "0x40002FFF",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider that the following commands are executed in a shell with root (/) as the current directory. [IMAGE: /data/images/cs4022_2026T1_ET_AN_p4_Im3.webp|block] What is the absolute path of the file report.txt?",
+      "type": "MCQ",
+      "options": [
+        "/data/processed/report.txt",
+        "/data/raw/monthly/report.txt",
+        "/data/processed/monthly/report.txt",
+        "/monthly/report.txt"
+      ],
+      "correct_answer": "/data/processed/monthly/report.txt",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "In xv6 on RISC-V, which register contains the system call number when the user process traps into the kernel?",
+      "type": "MCQ",
+      "options": [
+        "a0",
+        "a7",
+        "sp",
+        "sepc"
+      ],
+      "correct_answer": "a7",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "When a shell executes a command and then waits for it to finish before printing the next prompt, which sequence of system calls is most likely used?",
+      "type": "MCQ",
+      "options": [
+        "exec \u2192 fork \u2192 wait",
+        "wait \u2192 fork \u2192 exec",
+        "fork \u2192 wait \u2192 exec",
+        "fork \u2192 exec \u2192 wait"
+      ],
+      "correct_answer": "fork \u2192 exec \u2192 wait",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "In a 64-bit RISC-V system, the scause register stores trap information. What will be the value of scause for an Environment call from U-mode?",
+      "type": "MCQ",
+      "options": [
+        "0x0000000000000008",
+        "0x8000000000000008",
+        "0x0000000000000009",
+        "0x8000000000000009"
+      ],
+      "correct_answer": "0x0000000000000008",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "What is the major disadvantage of the First-Come, First-Served (FCFS) CPU scheduling algorithm?",
+      "type": "MCQ",
+      "options": [
+        "Starvation of long processes",
+        "Convoy effect due to long CPU-bound processes",
+        "It always requires page replacement",
+        "It cannot be implemented without virtual memory"
+      ],
+      "correct_answer": "Convoy effect due to long CPU-bound processes",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "When a process successfully invokes the exec system call, which of the following definitely remains unchanged?",
+      "type": "MCQ",
+      "options": [
+        "Program counter value",
+        "Address space contents",
+        "Process identifier (PID)",
+        "User stack contents"
+      ],
+      "correct_answer": "Process identifier (PID)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the code segment (for xv6) given below. [IMAGE: /data/images/cs4022_2026T1_ET_AN_p6_Im3.webp|block] What are the base address and the end address of the count reg?",
+      "type": "MCQ",
+      "options": [
+        "The base address is 0xD200401A, and the end address is 0xD200401C.",
+        "The base address is 0xD2004018, and the end address is 0xD2004019.",
+        "The base address is 0xD200401A, and the end address is 0xD200401B.",
+        "The base address is 0xD2004026, and the end address is 0xD2004027."
+      ],
+      "correct_answer": "The base address is 0xD200401A, and the end address is 0xD200401B.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider the following code snippet [IMAGE: /data/images/cs4022_2026T1_ET_AN_p7_Im1.webp|block] Which of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "The program creates three threads, each printing \"Operating Systems\" 50 times, and \"Done\" is printed only after all thread outputs are completed.",
+        "The program creates three threads, each printing \"Operating Systems\" 50 times, but \"Done\" may appear before some thread outputs.",
+        "The program creates one thread at a time due to pthread join, resulting in sequential execution.",
+        "The program prints \"Operating Systems\" exactly 50 times in total and then prints \"Done\"."
+      ],
+      "correct_answer": "The program creates three threads, each printing \"Operating Systems\" 50 times, and \"Done\" is printed only after all thread outputs are completed.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Consider the following processes in an xv6-like operating system: \u2022 Process P1 is waiting in the ready queue. \u2022 Process P2 is currently executing on the CPU. \u2022 Process P3 is blocked waiting for disk I/O. \u2022 Process P4 has terminated, but its parent has not yet called wait().",
+      "type": "multichoice",
+      "options": [
+        "P1 is in the RUNNABLE state.",
+        "P2 is in the RUNNING state.",
+        "P3 is in the SLEEPING state.",
+        "P4 is in the ZOMBIE state.",
+        "P3 is in the RUNNABLE state.",
+        "P4 is in the RUNNING state."
+      ],
+      "correct_answer": [
+        "P1 is in the RUNNABLE state.",
+        "P2 is in the RUNNING state.",
+        "P3 is in the SLEEPING state.",
+        "P4 is in the ZOMBIE state."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Assume that context switches can occur at any time during execution. The variable counter is shared between two concurrent threads/processes. Initial value: counter = 100 Program A R1 = counter R1 = R1 + 30 counter = R1 Program B R2 = counter R2 = R2 - 20 counter = R2 Which of the following can be the possible final values of counter?",
+      "type": "multichoice",
+      "options": [
+        "80",
+        "110",
+        "130",
+        "90",
+        "100",
+        "120"
+      ],
+      "correct_answer": [
+        "80",
+        "110",
+        "130"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Choose all correct statements regarding compiling and linking multiple C source files using gcc.",
+      "type": "multichoice",
+      "options": [
+        "gcc file1.c file2.c -o output produces an executable named output.",
+        "gcc -c file1.c file2.c produces file1.o and file2.o.",
+        "gcc file1.o file2.o -o output links the object files into an executable named output.",
+        "gcc -c file1.c file2.c -o output produces an executable named output.",
+        "gcc file1.o file2.o -c -o output produces an executable named output."
+      ],
+      "correct_answer": [
+        "gcc file1.c file2.c -o output produces an executable named output.",
+        "gcc -c file1.c file2.c produces file1.o and file2.o.",
+        "gcc file1.o file2.o -o output links the object files into an executable named output."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript A system has 256 MiB of physical memory and uses a page size of 4 KiB. How many page frames are present in RAM? Assume 1 MiB = 2 20 bytes and 1 KiB = 2 10 bytes.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "65536",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript Consider the following processes, all arriving at time 0 and entering the ready queue in the order shown below. [IMAGE: /data/images/cs4022_2026T1_ET_AN_p10_Im1.webp|block] If the CPU scheduling policy is Round Robin with time quantum 2, what is the average response time?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Inscript Consider the following processes scheduled using FCFS. [IMAGE: /data/images/cs4022_2026T1_ET_AN_p10_Im2.webp|block] What is the average waiting time?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_ET_AN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Inscript Consider the following processes scheduled using non-preemptive SJF. [IMAGE: /data/images/cs4022_2026T1_ET_AN_p11_Im1.webp|block] What is the average response time?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_ET_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Inscript A system uses a 32-bit virtual address space with a page size of 4 KiB and a single-level page table. How many entries are required in the page table? Assume 1 KiB = 2 10 bytes",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1048576",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    }
+  ],
+  "id": "cs4022-2026t1-et-an",
+  "course_code": "CS4022",
+  "course_name": "Operating Systems",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

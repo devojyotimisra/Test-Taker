@@ -1,0 +1,775 @@
+{
+  "title": "DEGREE LEVEL :REINFORCEMENT LEARNING (COMPUTER BASED EXAM )",
+  "filename": "da5007_2023T3_ET_FN.pdf",
+  "total_questions": 32,
+  "total_marks": 32.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 124,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL :REINFORCEMENT LEARNING (COMPUTER BASED EXAM )\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 125,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Useful Data has been mentioned above.",
+        "This data attachment is just for a reference & not for an evaluation."
+      ],
+      "correct_answer": "Useful Data has been mentioned above.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 126,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the context of a multi arm bandit (MAB) problem and stationary reward distribution, consider following: Assertion: UCB minimizes the regret better than \u03f5-greedy approach. Reason: \u03b5-greedy approach keeps the probability of choosing a suboptimal arm constant.",
+      "type": "MCQ",
+      "options": [
+        "Assertion and Reason are both true and Reason is a correct explanation of Assertion.",
+        "Assertion and Reason are both true and Reason is not a correct explanation of Assertion.",
+        "Assertion is true and Reason is false",
+        "Both Assertion and Reason are false."
+      ],
+      "correct_answer": "Assertion and Reason are both true and Reason is a correct explanation of Assertion.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 127,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the policy improvement step of policy iteration for a finite MDP, if the tie among actions, which have the same maximum value, is broken randomly, what would happen to the convergence of the algorithm?",
+      "type": "MCQ",
+      "options": [
+        "The algorithm\u2019s convergence is independent of how ties are broken",
+        "The algorithm may oscillate between multiple optimal policies and may never converge or convergence may be delayed",
+        "The algorithm will certainly not converge",
+        "None of these"
+      ],
+      "correct_answer": "The algorithm may oscillate between multiple optimal policies and may never converge or convergence may be delayed",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 128,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Real-time dynamic programming, or RTDP, is an on-policy trajectory-sampling version of which of the following algorithms?",
+      "type": "MCQ",
+      "options": [
+        "Value iteration.",
+        "Q-learning.",
+        "SARSA.",
+        "TD.",
+        "None of these."
+      ],
+      "correct_answer": "Value iteration.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 129,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is the correct 5-step truncated corrected return starting from time t ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5007_2023T3_ET_FN_p4_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p4_Im2.webp",
+        "/data/images/da5007_2023T3_ET_FN_p4_Im3.webp",
+        "/data/images/da5007_2023T3_ET_FN_p4_Im5.webp",
+        "/data/images/da5007_2023T3_ET_FN_p4_Im6.webp",
+        "/data/images/da5007_2023T3_ET_FN_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 130,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is the correct way to represent policy for policy search methods?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p5_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p5_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5007_2023T3_ET_FN_p5_Im2.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p5_Im2.webp",
+        "/data/images/da5007_2023T3_ET_FN_p5_Im4.webp",
+        "/data/images/da5007_2023T3_ET_FN_p5_Im5.webp",
+        "/data/images/da5007_2023T3_ET_FN_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 131,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a grid world with obstacles and boundary walls. An agent can take only 4 actions, i.e. north, south, east or west. In a state, an action that might lead to an obstacle or out of boundary, does not change the state. The agent is trained sufficiently. Which of the following settings will lead to the agent finding the shortest (i.e. least number of steps) to the goal? Note that a trajectory ends if the agent reaches the goal.",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p6_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p6_Im6.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p5_Im7.webp",
+        "/data/images/da5007_2023T3_ET_FN_p6_Im2.webp",
+        "/data/images/da5007_2023T3_ET_FN_p6_Im4.webp",
+        "/data/images/da5007_2023T3_ET_FN_p6_Im5.webp",
+        "/data/images/da5007_2023T3_ET_FN_p6_Im6.webp",
+        "/data/images/da5007_2023T3_ET_FN_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 132,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What are the advantages of policy search methods over other approaches?",
+      "type": "multichoice",
+      "options": [
+        "They can lead to simpler solution description.",
+        "They offer better convergence as compared to function approximation based methods.",
+        "In continuous action setting, they work better than value function based approaches.",
+        "They are robust to partial observability.",
+        "None of these."
+      ],
+      "correct_answer": [
+        "They can lead to simpler solution description.",
+        "They offer better convergence as compared to function approximation based methods.",
+        "In continuous action setting, they work better than value function based approaches.",
+        "They are robust to partial observability."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 133,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p7_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p7_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p7_Im4.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p7_Im1.webp",
+        "/data/images/da5007_2023T3_ET_FN_p7_Im3.webp",
+        "/data/images/da5007_2023T3_ET_FN_p7_Im4.webp",
+        "/data/images/da5007_2023T3_ET_FN_p7_Im6.webp",
+        "/data/images/da5007_2023T3_ET_FN_p7_Im7.webp",
+        "/data/images/da5007_2023T3_ET_FN_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 134,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p8_Im1.webp|block] [IMAGE: /data/images/da5007_2023T3_ET_FN_p8_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.80 to 1.85",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p8_Im1.webp",
+        "/data/images/da5007_2023T3_ET_FN_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 135,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In every visit Monte Carlo methods, multiple samples for one state are obtained from a single trajectory. Which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        "There is an increase in bias of the estimates.",
+        "There is an increase in variance of the estimates.",
+        "It does not affect the bias or variance of estimates.",
+        "Both bias and variance of the estimates increase.",
+        "None of these."
+      ],
+      "correct_answer": "There is an increase in bias of the estimates.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 136,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p9_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p9_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p9_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5007_2023T3_ET_FN_p9_Im4.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p9_Im2.webp",
+        "/data/images/da5007_2023T3_ET_FN_p9_Im4.webp",
+        "/data/images/da5007_2023T3_ET_FN_p9_Im5.webp",
+        "/data/images/da5007_2023T3_ET_FN_p9_Im6.webp",
+        "/data/images/da5007_2023T3_ET_FN_p9_Im7.webp",
+        "/data/images/da5007_2023T3_ET_FN_p9_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 137,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p10_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p10_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p10_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p10_Im8.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p10_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5007_2023T3_ET_FN_p10_Im8.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p10_Im1.webp",
+        "/data/images/da5007_2023T3_ET_FN_p10_Im3.webp",
+        "/data/images/da5007_2023T3_ET_FN_p10_Im4.webp",
+        "/data/images/da5007_2023T3_ET_FN_p10_Im5.webp",
+        "/data/images/da5007_2023T3_ET_FN_p10_Im6.webp",
+        "/data/images/da5007_2023T3_ET_FN_p10_Im8.webp",
+        "/data/images/da5007_2023T3_ET_FN_p10_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 138,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The output layer is a fully connected linear layer in DQNs. Can we use a sigmoid or ReLU activation at the output layer instead?",
+      "type": "MCQ",
+      "options": [
+        "We can\u2019t use either ReLU or sigmoid because it becomes difficult to backpropagate the errors if the last layer has a non-linear activation function.",
+        "We can use ReLU but not sigmoid. This is because all the Q values need not lie between 0 and 1.",
+        "We cannot use either ReLU or sigmoid. This is because the Q value could be any real number.",
+        "None of these"
+      ],
+      "correct_answer": "We can\u2019t use either ReLU or sigmoid because it becomes difficult to backpropagate the errors if the last layer has a non-linear activation function.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 139,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is the correct update rule for policy parameter \u03b8 if the policy is represented in soft-max fashion for a multi arm bandit?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p11_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p11_Im3.webp|inline] [IMAGE: /data/images/da5007_2023T3_ET_FN_p11_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p11_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p11_Im2.webp",
+        "/data/images/da5007_2023T3_ET_FN_p11_Im3.webp",
+        "/data/images/da5007_2023T3_ET_FN_p11_Im5.webp",
+        "/data/images/da5007_2023T3_ET_FN_p11_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 140,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is the correct update rule for MC with policy gradient?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p12_Im4.webp|block]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p12_Im5.webp|block]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p12_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p12_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5007_2023T3_ET_FN_p12_Im4.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p12_Im4.webp",
+        "/data/images/da5007_2023T3_ET_FN_p12_Im5.webp",
+        "/data/images/da5007_2023T3_ET_FN_p12_Im6.webp",
+        "/data/images/da5007_2023T3_ET_FN_p12_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 141,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p12_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Left",
+        "Right",
+        "Up",
+        "Down",
+        "Insufficient information",
+        "None of these."
+      ],
+      "correct_answer": "Insufficient information",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p12_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 142,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is correct Q-learning update rule with options ? Make suitable assumptions, the symbols have usual meaning. s is the state encountered at timestep t .",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p13_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p13_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p13_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p13_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p13_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5007_2023T3_ET_FN_p13_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p13_Im3.webp",
+        "/data/images/da5007_2023T3_ET_FN_p13_Im4.webp",
+        "/data/images/da5007_2023T3_ET_FN_p13_Im5.webp",
+        "/data/images/da5007_2023T3_ET_FN_p13_Im6.webp",
+        "/data/images/da5007_2023T3_ET_FN_p13_Im7.webp",
+        "/data/images/da5007_2023T3_ET_FN_p13_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 143,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is a markov option? Assume the agent is traversing a grid world.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p14_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p14_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p14_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p14_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5007_2023T3_ET_FN_p14_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5007_2023T3_ET_FN_p14_Im2.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p14_Im2.webp",
+        "/data/images/da5007_2023T3_ET_FN_p14_Im4.webp",
+        "/data/images/da5007_2023T3_ET_FN_p14_Im5.webp",
+        "/data/images/da5007_2023T3_ET_FN_p14_Im6.webp",
+        "/data/images/da5007_2023T3_ET_FN_p14_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 144,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p14_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "yes, yes, no",
+        "no, no, no",
+        "yes, yes, yes",
+        "no, no, yes"
+      ],
+      "correct_answer": "no, no, yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p14_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 145,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider following steps involved in Monte Carlo Tree Search: A Simulation B Backup C Expansion D Selection Organize the above steps in their chronological order:",
+      "type": "MCQ",
+      "options": [
+        "ABCD",
+        "DCAB",
+        "BCAD",
+        "CBAD",
+        "None of these"
+      ],
+      "correct_answer": "DCAB",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 146,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p16_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Assertion and Reason are both true and Reason is a correct explanation of Assertion.",
+        "Assertion and Reason are both true and Reason is not a correct explanation of Assertion.",
+        "Assertion is true and Reason is false",
+        "Both Assertion and Reason are false."
+      ],
+      "correct_answer": "Assertion and Reason are both true and Reason is a correct explanation of Assertion.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 147,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 UCT is different from the original version of MCTS in which of the following steps?",
+      "type": "MCQ",
+      "options": [
+        "Expansion",
+        "Selection",
+        "Backup",
+        "Simulation"
+      ],
+      "correct_answer": "Selection",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 148,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements are FALSE about solving MDPs using dynamic programming?",
+      "type": "multichoice",
+      "options": [
+        "If the state space is large or computation power is limited, it is preferred to update only some states through random sampling or selecting states seen in trajectories.",
+        "Knowledge of transition probabilities is not necessary for solving MDPs using dynamic programming.",
+        "Methods that update only a subset of states at a time guarantee performance equal to or better than classic DP.",
+        "DP methods bootstrap but do not sample."
+      ],
+      "correct_answer": [
+        "Knowledge of transition probabilities is not necessary for solving MDPs using dynamic programming.",
+        "Methods that update only a subset of states at a time guarantee performance equal to or better than classic DP."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 149,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following are on policy algorithms?",
+      "type": "multichoice",
+      "options": [
+        "SARSA",
+        "Expeted SARSA",
+        "Q-Learning",
+        "DQN",
+        "DDQN",
+        "None of these"
+      ],
+      "correct_answer": [
+        "SARSA",
+        "Expeted SARSA"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 150,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p19_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p19_Im1.webp",
+        "/data/images/da5007_2023T3_ET_FN_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2023T3_ET_FN_p18_Im2.webp|block]",
+      "group_id": "640653698553",
+      "section_name": "RL"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 151,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p19_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.512",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p19_Im2.webp",
+        "/data/images/da5007_2023T3_ET_FN_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2023T3_ET_FN_p18_Im2.webp|block]",
+      "group_id": "640653698553",
+      "section_name": "RL"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 152,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p20_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.44",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p20_Im1.webp",
+        "/data/images/da5007_2023T3_ET_FN_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2023T3_ET_FN_p18_Im2.webp|block]",
+      "group_id": "640653698553",
+      "section_name": "RL"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 153,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p20_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p20_Im2.webp",
+        "/data/images/da5007_2023T3_ET_FN_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2023T3_ET_FN_p18_Im2.webp|block]",
+      "group_id": "640653698553",
+      "section_name": "RL"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 154,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 If you have to train a DQN for an Atari-like game with only 10 actions, how many neurons would the final layer have?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 155,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5007_2023T3_ET_FN_p21_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3142",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2023T3_ET_FN_p21_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    }
+  ],
+  "id": "da5007-2023t3-et-fn",
+  "course_code": "DA5007",
+  "course_name": "Natural Language Processing",
+  "level": "Degree",
+  "term": "Sep 2023",
+  "year": 2023,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

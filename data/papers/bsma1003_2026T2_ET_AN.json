@@ -1,0 +1,552 @@
+{
+  "title": "FOUNDATION LEVEL : MATHEMATICS FOR DATA SCIENCE II (COMPUTER BASED EXAM)",
+  "filename": "bsma1003_2026T2_ET_AN.pdf",
+  "total_questions": 20,
+  "total_marks": 56.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"FOUNDATION LEVEL : MATHEMATICS FOR DATA SCIENCE II (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p1_Im3.webp|inline] be a [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p1_Im4.webp|inline] matrix. While solving the system [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p1_Im5.webp|inline] using Gaussian elimination, the augmented matrix [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p1_Im6.webp|inline] is reduced to [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p1_Im7.webp|block] Which of the following statements is not true ?",
+      "type": "MCQ",
+      "options": [
+        "The system [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p1_Im8.webp|inline] has infinitely many solutions.",
+        "The matrix [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p1_Im9.webp|inline] is invertible.",
+        "Every solution of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p1_Im10.webp|inline] is uniquely determined by assigning arbitrary values to exactly one variable.",
+        "Every [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p1_Im11.webp|inline] matrix that is equivalent to [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p1_Im12.webp|inline] is not invertible."
+      ],
+      "correct_answer": "The matrix [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p1_Im9.webp|inline] is invertible.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p1_Im3.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p1_Im4.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p1_Im5.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p1_Im6.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p1_Im7.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p1_Im8.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p1_Im9.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p1_Im10.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p1_Im11.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p1_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im1.webp|inline] be a function. Which of the following statements guarantees that [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im2.webp|inline] has a limit at [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im3.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "Linear approximation of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im5.webp|inline] exists at [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im6.webp|inline] .",
+        "All the limits of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im8.webp|inline] are the same along any straight line passing through [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im9.webp|inline] .",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im10.webp|inline] is not differentiable at [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im11.webp|inline] .",
+        "There is a sequence [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im12.webp|inline] converging to [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im13.webp|inline] such that the limit of the sequence [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im14.webp|inline] does not exist."
+      ],
+      "correct_answer": "Linear approximation of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im5.webp|inline] exists at [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im6.webp|inline] .",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im1.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im2.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im3.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im5.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im6.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im8.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im9.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im10.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im11.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im12.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im13.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im14.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im15.webp|inline] be an arbitrary [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im16.webp|inline] matrix. Which of the following statements are necessarily true ?",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im18.webp|inline] [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im19.webp|block]",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im20.webp|block]",
+        "",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im21.webp|inline]"
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im20.webp|block]",
+        ""
+      ],
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im15.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im16.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im18.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im19.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im20.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im21.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im1.webp|block] Which of the following statements are true ?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im5.webp|inline]",
+        "There does not exist a subset of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im6.webp|inline] that is both a maximal linearly independent set and a minimal spanning set for [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im7.webp|inline] .",
+        "There is a subset of four vectors which is linearly independent.",
+        "There is a subset of four vectors which is linearly dependent."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im3.webp|inline]",
+        "There is a subset of four vectors which is linearly dependent."
+      ],
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im1.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im3.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im5.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im6.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im8.webp|inline] denote the standard inner product on [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im9.webp|inline] , i.e., [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im10.webp|inline] . Which of the following options are true for the vector [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im11.webp|inline] , such that [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im12.webp|inline] and [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im13.webp|inline] , where [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im14.webp|inline] and [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im15.webp|inline] .",
+      "type": "multichoice",
+      "options": [
+        "No such [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im16.webp|inline] exists.",
+        "There are infinitely many such vectors which satisfy the properties of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im17.webp|inline] .",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im18.webp|inline] is unique in [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im19.webp|inline] .",
+        "Any vector in the set [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im2.webp|inline] satisfies the properties of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im3.webp|inline] .",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im5.webp|inline] is the only vector which satisfies the properties of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im6.webp|inline] ."
+      ],
+      "correct_answer": [
+        "There are infinitely many such vectors which satisfy the properties of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p3_Im17.webp|inline] .",
+        "Any vector in the set [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im2.webp|inline] satisfies the properties of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im3.webp|inline] ."
+      ],
+      "marks": 7.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im8.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im9.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im10.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im11.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im12.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im13.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im14.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im15.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im16.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im17.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im18.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p3_Im19.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im2.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im3.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im5.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following two conditions for a function [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im7.webp|inline] : [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im8.webp|inline] [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im9.webp|inline] is differentiable in [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im10.webp|inline] . [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im11.webp|inline] There are infinitely many critical points. Which of the following functions [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im12.webp|inline] satisfy both of the above conditions?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im14.webp|block]",
+        "",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im15.webp|inline] .",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im16.webp|inline] ."
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im15.webp|inline] ."
+      ],
+      "marks": 7.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im7.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im8.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im9.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im10.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im11.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im12.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im14.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im15.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im17.webp|inline] . What is the minimum number of vectors that must be removed from [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im18.webp|inline] so that the remaining vectors form a basis for [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p5_Im1.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im17.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im18.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p5_Im2.webp|inline] be a linear transformation such that [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p5_Im3.webp|block] Find the nullity of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p5_Im4.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p5_Im2.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p5_Im3.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p5_Im5.webp|inline] and [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p5_Im6.webp|inline] be two vectors in [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p5_Im7.webp|inline] with the standard inner product such that [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p5_Im8.webp|inline] and [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p5_Im9.webp|inline] are perpendicular to each other. Find the value of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p5_Im10.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p5_Im5.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p5_Im6.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p5_Im7.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p5_Im8.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p5_Im9.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p5_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript For what value of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p6_Im1.webp|inline] is the Hessian test inconclusive for the function [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p6_Im2.webp|inline] at the point [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p6_Im3.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p6_Im1.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p6_Im2.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p6_Im4.webp|inline] be a linear transformation. The ordered basis [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p6_Im5.webp|block] of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p6_Im6.webp|inline] is mapped by [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p6_Im7.webp|inline] as follows: [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p6_Im8.webp|block] Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p6_Im9.webp|inline] . If [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p6_Im10.webp|inline] , find the value of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p6_Im11.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p6_Im4.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p6_Im5.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p6_Im6.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p6_Im7.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p6_Im8.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p6_Im9.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p6_Im10.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p6_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im1.webp|inline] is a square matrix of order 4. When the following sequence of row operations is performed on [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im2.webp|inline] , the result is the identity matrix: [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im3.webp|inline] Swap the third and fourth rows. [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im4.webp|inline] Add three times the second row to the third row. [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im5.webp|inline] Divide the third row by 10. [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im6.webp|inline] Multiply the first row by 3. Compute the determinant of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im7.webp|inline] up to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-3.5 to -3.0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im1.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im2.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im3.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im4.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im5.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im6.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript Consider the statement about the following functions [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im8.webp|inline] and [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im9.webp|inline] from [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im10.webp|inline] to [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im11.webp|inline] . [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im12.webp|block] [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im13.webp|block] Statement 1: [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im14.webp|inline] is continuous at the origin. Statement 2: [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im15.webp|inline] is continuous at the origin. Find out the number of correct statements. Enter [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p7_Im16.webp|inline] if none of the statements is correct.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im8.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im9.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im10.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im11.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im12.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im13.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im14.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im15.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p7_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Maths2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript If [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p8_Im4.webp|inline] is a vector which lies along a direction in which there is no change in [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p8_Im5.webp|inline] , then find the value of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p8_Im6.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-9",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p8_Im4.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p8_Im5.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p8_Im6.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p8_Im1.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p8_Im3.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p8_Im1.webp|inline] be a real-valued function such that the direction of steepest ascent at the point [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p8_Im3.webp|block] [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p8_Im2.webp|inline] is .",
+      "group_id": "6406532279693",
+      "section_name": "Maths2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im1.webp|inline] denote the set of all unit directions along which there is no change in [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im2.webp|inline] . Find [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im3.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im1.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im2.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im3.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p8_Im1.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p8_Im3.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p8_Im1.webp|inline] be a real-valued function such that the direction of steepest ascent at the point [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p8_Im3.webp|block] [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p8_Im2.webp|inline] is .",
+      "group_id": "6406532279693",
+      "section_name": "Maths2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im7.webp|inline] denote the tangent plane to the graph of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im8.webp|inline] at the point [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im9.webp|inline] . Which of the following options describes the affine subspace [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im10.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im12.webp|inline]",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im14.webp|inline]",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im15.webp|inline]",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im16.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im12.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im7.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im8.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im9.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im10.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im4.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im5.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im6.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im12.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im14.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im15.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im4.webp|inline] be the real valued function defined by [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im5.webp|inline] for all [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im6.webp|inline] .",
+      "group_id": "6406532279696",
+      "section_name": "Maths2"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript Find the approximate value of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im1.webp|inline] using linear approximation of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im2.webp|inline] at [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im3.webp|inline] correct up to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.1 to 0.1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p10_Im1.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p10_Im2.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p10_Im3.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im4.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im5.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im4.webp|inline] be the real valued function defined by [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im5.webp|inline] for all [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p9_Im6.webp|inline] .",
+      "group_id": "6406532279696",
+      "section_name": "Maths2"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Which of the following sets is the range of the function [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im6.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im8.webp|inline]",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im10.webp|inline] .",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im11.webp|inline] .",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im12.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im10.webp|inline] .",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p10_Im6.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p10_Im4.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p10_Im5.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p10_Im8.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p10_Im10.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p10_Im11.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p10_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Suppose [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im4.webp|inline] is a function defined by [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im5.webp|block]",
+      "group_id": "6406532279699",
+      "section_name": "Maths2"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Inscript Consider the following domain [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p11_Im1.webp|block] Find the absolute minima of [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p11_Im2.webp|inline] over [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p11_Im3.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1003_2026T2_ET_AN_p11_Im1.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p11_Im2.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p11_Im3.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p10_Im4.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p10_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Suppose [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im4.webp|inline] is a function defined by [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p10_Im5.webp|block]",
+      "group_id": "6406532279699",
+      "section_name": "Maths2"
+    }
+  ],
+  "id": "bsma1003-2026t2-et-an",
+  "course_code": "BSMA1003",
+  "course_name": "Mathematics for Data Science 2",
+  "level": "Foundation",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

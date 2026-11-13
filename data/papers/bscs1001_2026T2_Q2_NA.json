@@ -1,0 +1,393 @@
+{
+  "title": "FOUNDATION LEVEL : COMPUTATIONAL THINKING (COMPUTER BASED EXAM)",
+  "filename": "bscs1001_2026T2_Q2_NA.pdf",
+  "total_questions": 15,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"FOUNDATION LEVEL : COMPUTATIONAL THINKING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p1_Im3.webp|block] [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Useful Data has been mentioned above.",
+        "This data attachment is just for a reference & not for an evaluation."
+      ],
+      "correct_answer": "Useful Data has been mentioned above.",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p1_Im3.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "The following pseudocode is executed using the Scores dataset. [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p3_Im1.webp|block] What does L contain at the end of the execution?",
+      "type": "MCQ",
+      "options": [
+        "Towns/cities where the highest and second highest total scores among students from that town/city differ by at most 10",
+        "Towns/cities where every student has a total score within 10 marks of every other student from that town/city",
+        "Towns/cities where the highest and second highest total scores among students from that town/city differ by more than 10",
+        "Towns/cities where the first two students read from that town/city differ in total score by at most 10"
+      ],
+      "correct_answer": "Towns/cities where the highest and second highest total scores among students from that town/city differ by at most 10",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "The following pseudocode is executed using the Library dataset. [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p4_Im1.webp|block] What does D store at the end of the execution?",
+      "type": "MCQ",
+      "options": [
+        "For each publisher, the name and year of one of its earliest English books in the dataset",
+        "For each publisher, the name and year of one of its latest English books in the dataset",
+        "For each publisher, the number of English books published by it",
+        "For each publisher, the name and year of its earliest book, irrespective of language"
+      ],
+      "correct_answer": "For each publisher, the name and year of one of its earliest English books in the dataset",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "The following pseudocode is executed on the Words dataset. [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p5_Im1.webp|block] What does [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p5_Im2.webp|inline] represent at the end of execution?",
+      "type": "MCQ",
+      "options": [
+        "Total number of words having at least 8 letters.",
+        "Total number of nouns having at least 8 letters.",
+        "Total number of sentences having at least 8 words.",
+        "Total number of distinct words having at least 8 letters."
+      ],
+      "correct_answer": "Total number of words having at least 8 letters.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p5_Im1.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "The following procedure takes a list of integers as input. [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p5_Im5.webp|block] What is returned by [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p5_Im6.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p5_Im8.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p5_Im9.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p6_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p5_Im8.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p5_Im5.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p5_Im6.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p5_Im7.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p5_Im8.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p5_Im9.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "The following pseudocode is executed using the Shopping Bills dataset. [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p6_Im3.webp|block] What does [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p6_Im4.webp|inline] represent for a category C ?",
+      "type": "MCQ",
+      "options": [
+        "The average price of distinct item names in category C, where each item name is counted once",
+        "The average unit price of all purchased units belonging to category C across all bills",
+        "The average total bill amount of bills that contain at least one item from category C",
+        "The total cost of all items belonging to category C across all bills"
+      ],
+      "correct_answer": "The average unit price of all purchased units belonging to category C across all bills",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p6_Im3.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "The following pseudocode is executed using the Shopping Bills dataset. What will D represent at the end of the execution? [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "For an item C, and a shop S, [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p7_Im3.webp|inline] is set to True if and only if the item is sold for a constant price",
+        "For an item C, and a shop S, [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p7_Im4.webp|inline] is set to True if and only if the item is billed in more than one bill",
+        "For an item C, and a shop S, [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p7_Im6.webp|inline] is set to True if and only if the item is sold for variable price",
+        "For an item C, and a shop S, [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p7_Im7.webp|inline] is set to True if and only if the item is billed in exactly one bill"
+      ],
+      "correct_answer": "For an item C, and a shop S, [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p7_Im6.webp|inline] is set to True if and only if the item is sold for variable price",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p7_Im1.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p7_Im3.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p7_Im4.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p7_Im6.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "The following pseudocode is executed using the Words dataset. Choose all the correct statements. [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p8_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p8_Im3.webp|inline] counts nouns that are palindromes",
+        "Every word in L is a noun such that no pair of letters at symmetric positions (first\u2013last, second\u2013second-last, etc.) is the same.",
+        "A word whose [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p9_Im2.webp|inline] is not \"Noun\" can still increase [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p9_Im3.webp|inline] if the word is a palindrome",
+        "A noun with [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p9_Im5.webp|inline] equal to 1 will always increase [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p9_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p8_Im3.webp|inline] counts nouns that are palindromes",
+        "Every word in L is a noun such that no pair of letters at symmetric positions (first\u2013last, second\u2013second-last, etc.) is the same.",
+        "A noun with [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p9_Im5.webp|inline] equal to 1 will always increase [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p9_Im6.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p8_Im1.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p8_Im3.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p9_Im2.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p9_Im3.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p9_Im5.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "The procedure visitedShop returns the list of names of people who have visited a particular shop in the Shopping Bills dataset. It accepts the shop's name as a parameter. Additionally, each customer must be represented exactly once in the returned list. The following pseudocode may have mistakes. Identify all such mistakes (if any). [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p9_Im7.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Error in line 2",
+        "Error in line 6",
+        "Error in line 7",
+        "Error in line 16",
+        "Error in line 18",
+        "Error in line 19",
+        "No error"
+      ],
+      "correct_answer": [
+        "Error in line 2",
+        "Error in line 7",
+        "Error in line 16"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "The following pseudocode is executed on the Scores dataset. Assume [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p10_Im1.webp|inline] uniquely identifies each student. [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p10_Im2.webp|block] Which of the following statements are always true?",
+      "type": "multichoice",
+      "options": [
+        "Every sequence number stored in [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p10_Im4.webp|inline] is also present in [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p10_Im5.webp|inline] .",
+        "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p10_Im6.webp|inline] stores the sequence numbers of students whose Mathematics marks are at least 90.",
+        "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p10_Im8.webp|inline]",
+        "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p10_Im9.webp|inline]"
+      ],
+      "correct_answer": [
+        "Every sequence number stored in [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p10_Im4.webp|inline] is also present in [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p10_Im5.webp|inline] .",
+        "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p10_Im6.webp|inline] stores the sequence numbers of students whose Mathematics marks are at least 90.",
+        "[IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p10_Im9.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p10_Im1.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p10_Im2.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p10_Im4.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p10_Im5.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p10_Im6.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p10_Im8.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p10_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "The following pseudocode is executed using the Library dataset. Choose all the correct statements. [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p11_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "For each genre G, [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p11_Im3.webp|inline] contains each author at most once",
+        "For each genre G, [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p11_Im5.webp|inline] is the total number of pages across all books in that genre",
+        "If an author has three books in the same genre, at most one of those books contributes to [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p11_Im6.webp|inline]",
+        "If an author has more than one book in the same genre with different page counts, [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p11_Im7.webp|inline] may depend on the order in which the rows are read",
+        "For each genre G, [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p11_Im8.webp|inline] is the sum of pages of the latest book written by each author in that genre"
+      ],
+      "correct_answer": [
+        "For each genre G, [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p11_Im3.webp|inline] contains each author at most once",
+        "If an author has three books in the same genre, at most one of those books contributes to [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p11_Im6.webp|inline]",
+        "If an author has more than one book in the same genre with different page counts, [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p11_Im7.webp|inline] may depend on the order in which the rows are read"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p11_Im1.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p11_Im3.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p11_Im5.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p11_Im6.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p11_Im7.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p11_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript Consider the following procedure. [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p12_Im1.webp|block] What is returned by [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p12_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p12_Im1.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p12_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript The given pseudocode is executed using a dataset having the same fields as the Words dataset, and contains the following words: \"I ordered this product from Gitark. I am very happy to share my review regarding this awesome product. It is not only nice to use, but also has a very cool look. I think this is the best product which can be bought in this price range.\" Consider the following information: 1. [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p12_Im3.webp|inline] returns a list of unique elements of list L. For example, [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p12_Im4.webp|inline] will return [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p12_Im5.webp|inline] . 2. [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p12_Im6.webp|inline] returns the number of common elements in lists L1 and L2. 3. Ignore the upper and lower case, and punctuation symbols while comparing with other words. [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p13_Im1.webp|block] What will be the value of posSen at the end of the execution of the above pseudocode?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p12_Im3.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p12_Im4.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p12_Im5.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p12_Im6.webp",
+        "/data/images/bscs1001_2026T2_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript What is the value of S at the end of the execution of the following pseudocode? [IMAGE: /data/images/bscs1001_2026T2_Q2_NA_p14_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "63",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bscs1001_2026T2_Q2_NA_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "CT"
+    }
+  ],
+  "id": "bscs1001-2026t2-q2-na",
+  "course_code": "BSCS1001",
+  "course_name": "Computational Thinking",
+  "level": "Foundation",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

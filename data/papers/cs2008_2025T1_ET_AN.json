@@ -1,0 +1,775 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "cs2008_2025T1_ET_AN.pdf",
+  "total_questions": 31,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 171,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 172,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[0.25, 1, 0, 0]",
+        "[0.5, 0, 1, 0]",
+        "[0, 1, 0, 0]",
+        "[1, 0, 0, 1]"
+      ],
+      "correct_answer": "[0.25, 1, 0, 0]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 173,
+      "text": "Consider the following code snippet: [IMAGE: /data/images/cs2008_2025T1_ET_AN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(20640, 8)",
+        "(20640, 5)",
+        "(20640, 44)",
+        "(20640, 49)"
+      ],
+      "correct_answer": "(20640, 49)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 174,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p2_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "13.6",
+        "14.0",
+        "14.2",
+        "14.5"
+      ],
+      "correct_answer": "14.0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 175,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p3_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p4_Im1.webp|block] [IMAGE: /data/images/cs2008_2025T1_ET_AN_p4_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p3_Im5.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p3_Im3.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p3_Im5.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p4_Im1.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 176,
+      "text": "What is the primary computational bottleneck of the KNeighborsClassifier?",
+      "type": "MCQ",
+      "options": [
+        "Training the model.",
+        "Choosing the best k value.",
+        "Storing and searching through all training samples at prediction time.",
+        "Calculating class probabilities."
+      ],
+      "correct_answer": "Storing and searching through all training samples at prediction time.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 177,
+      "text": "The following code attempts to implement Ridge regression on the Boston housing dataset but contains an error. The missing part should be correctly filled in to avoid issues during training. [IMAGE: /data/images/cs2008_2025T1_ET_AN_p5_Im1.webp|block] Which of the following correctly fills the missing part while ensuring proper preprocessing?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p5_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p5_Im3.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p5_Im1.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p5_Im3.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p5_Im5.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p5_Im6.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 178,
+      "text": "Which of the following techniques can be used for hyperparameter tuning in SGD Regression?",
+      "type": "MCQ",
+      "options": [
+        "GridSearchCV",
+        "ElasticNetCV",
+        "SelectKBest",
+        "Feature Scaling with StandardScaler"
+      ],
+      "correct_answer": "GridSearchCV",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 179,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p6_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p6_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p7_Im1.webp|block] [IMAGE: /data/images/cs2008_2025T1_ET_AN_p7_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p7_Im1.webp|block] [IMAGE: /data/images/cs2008_2025T1_ET_AN_p7_Im3.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p6_Im2.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p6_Im4.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p7_Im1.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 180,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p7_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p7_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p7_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p7_Im7.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p7_Im4.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p7_Im5.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p7_Im7.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p7_Im8.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p7_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 181,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p7_Im10.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p8_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p8_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p7_Im10.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p8_Im4.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p8_Im5.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 182,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p8_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p8_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p8_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p9_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p9_Im4.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p9_Im2.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p8_Im7.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p8_Im8.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p8_Im9.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p9_Im2.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 183,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p9_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p9_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p9_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p9_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p9_Im9.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p9_Im5.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p9_Im6.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p9_Im7.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p9_Im8.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p9_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 184,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p9_Im10.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "It decides how many features are to be considered by each of the estimators",
+        "It signifies the influence of each estimator towards the prediction",
+        "It offers the order in which each estimator is considered before making a prediction",
+        "It provides weights to different classes in a multiclass classification problem"
+      ],
+      "correct_answer": "It signifies the influence of each estimator towards the prediction",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p9_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 185,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p9_Im11.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p10_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p10_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p10_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p10_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p10_Im6.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p9_Im11.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p10_Im2.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p10_Im3.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p10_Im4.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 186,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p10_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p11_Im1.webp|block] [IMAGE: /data/images/cs2008_2025T1_ET_AN_p11_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p11_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p11_Im1.webp|block] [IMAGE: /data/images/cs2008_2025T1_ET_AN_p11_Im3.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p10_Im7.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p11_Im1.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p11_Im3.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p11_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 187,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The predicted classes for the new data points.",
+        "The decision boundary values for the classes.",
+        "The posterior probabilities of the classes for the new data points.",
+        "The likelihood estimates for the new data points."
+      ],
+      "correct_answer": "The posterior probabilities of the classes for the new data points.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 188,
+      "text": "Which of the following statements are true with regard to logistic regression?",
+      "type": "multichoice",
+      "options": [
+        "The decision boundary of a logistic regression model is always a straight line.",
+        "The solver parameter in logistic regression determines the optimization algorithm used for training the model.",
+        "Logistic regression can naturally handle multi-class classification without any modifications.",
+        "The regularization strength in logistic regression can be controlled using the C parameter."
+      ],
+      "correct_answer": [
+        "The solver parameter in logistic regression determines the optimization algorithm used for training the model.",
+        "The regularization strength in logistic regression can be controlled using the C parameter."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 189,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im6.webp|inline] [IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im6.webp|inline] [IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im7.webp|block]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p13_Im1.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p13_Im3.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p13_Im5.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p13_Im6.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p13_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 190,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im8.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im11.webp|inline] [IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im12.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im11.webp|inline] [IMAGE: /data/images/cs2008_2025T1_ET_AN_p13_Im12.webp|block]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p13_Im8.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p13_Im10.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p13_Im11.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p13_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 191,
+      "text": "In top-down hierarchical clustering, clusters are recursively split until each data point is its own cluster. The choice of a distance metric plays a crucial role in determining the quality of clustering. Which of the following distance (similarity) metrics are commonly used in hierarchical clustering?",
+      "type": "multichoice",
+      "options": [
+        "Euclidean Distance",
+        "Tree Distance",
+        "Centroid Distance",
+        "Minkowski Distance"
+      ],
+      "correct_answer": [
+        "Euclidean Distance",
+        "Minkowski Distance"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 192,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p14_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p14_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p14_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p14_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p14_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p14_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p14_Im6.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p14_Im3.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p14_Im4.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p14_Im5.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p14_Im6.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p14_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 193,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p15_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p15_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p15_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p15_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p15_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p15_Im7.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p15_Im1.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p15_Im5.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p15_Im6.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p15_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 194,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p16_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9.2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 195,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p17_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.20",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 196,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p18_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p18_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p18_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p19_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p19_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p18_Im4.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p18_Im2.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p18_Im1.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p18_Im4.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p18_Im6.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p19_Im2.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p19_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p18_Im1.webp|block]",
+      "group_id": "6406531252154",
+      "section_name": "MLP"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 197,
+      "text": "Which option will help in filtering data to find females who are alive after titanic incident ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p19_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p19_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p19_Im8.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p19_Im6.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p18_Im1.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p19_Im6.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p19_Im7.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p19_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p18_Im1.webp|block]",
+      "group_id": "6406531252154",
+      "section_name": "MLP"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 198,
+      "text": "What is the given code below trying to accomplish for the given titanic dataset ? [IMAGE: /data/images/cs2008_2025T1_ET_AN_p19_Im9.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p20_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p20_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p20_Im5.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p19_Im9.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p18_Im1.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p20_Im2.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p20_Im4.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p20_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p18_Im1.webp|block]",
+      "group_id": "6406531252154",
+      "section_name": "MLP"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 199,
+      "text": "Consider the following and select the corrrect option: Assertion: This is a good model as we see a very high accuracy of 97% Reason: In the case of imbalanced datasets, accuracy might not be the best metric for evaluating a model",
+      "type": "MCQ",
+      "options": [
+        "Both the assertion and reason are correct, and the reason is a correct explanation of the assertion",
+        "Both the assertion and reason are correct, but the reason is not a correct explanation of the assertion.",
+        "The assertion is correct, but the reason is incorrect.",
+        "The assertion is incorrect, but the reason is correct."
+      ],
+      "correct_answer": "The assertion is incorrect, but the reason is correct.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p20_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p20_Im6.webp|block]",
+      "group_id": "6406531252158",
+      "section_name": "MLP"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 200,
+      "text": "How many points belong to class 1 in the original dataset?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "73",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p20_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p20_Im6.webp|block]",
+      "group_id": "6406531252158",
+      "section_name": "MLP"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 201,
+      "text": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p21_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.99",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T1_ET_AN_p21_Im3.webp",
+        "/data/images/cs2008_2025T1_ET_AN_p20_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2008_2025T1_ET_AN_p20_Im6.webp|block]",
+      "group_id": "6406531252158",
+      "section_name": "MLP"
+    }
+  ],
+  "id": "cs2008-2025t1-et-an",
+  "course_code": "CS2008",
+  "course_name": "Machine Learning Practice",
+  "level": "Diploma in Data Science",
+  "term": "Jan 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

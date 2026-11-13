@@ -1,0 +1,411 @@
+{
+  "title": "DEGREE LEVEL : REINFORCEMENT LEARNING (COMPUTER BASED EXAM)",
+  "filename": "da5007_2024T2_Q1_NA.pdf",
+  "total_questions": 19,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 209,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : REINFORCEMENT LEARNING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 210,
+      "text": "Note: 1. For numerical answer type questions, enter your answer correct upto two decimal places without rounding up or off unless stated otherwise.",
+      "type": "MCQ",
+      "options": [
+        "Instructions has been mentioned above.",
+        "This Instructions is just for a reference & not for an evaluation."
+      ],
+      "correct_answer": "Instructions has been mentioned above.",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 211,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p2_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.095 to 0.105",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p2_Im2.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p2_Im1.webp|block]",
+      "group_id": "640653829795",
+      "section_name": "RL"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 212,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p2_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.795 to 0.805",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p2_Im3.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p2_Im1.webp|block]",
+      "group_id": "640653829795",
+      "section_name": "RL"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 213,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Arm A 1 is the optimal arm.",
+        "Arm A 2 is the optimal arm.",
+        "Arm A 3 is the optimal arm.",
+        "An optimal arm can not be determined.",
+        "There is a tie for the optimal arm."
+      ],
+      "correct_answer": "Arm A 3 is the optimal arm.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p3_Im1.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p2_Im1.webp|block]",
+      "group_id": "640653829795",
+      "section_name": "RL"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 214,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p3_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Arm A 1 has to provide a reward of 4 or more.",
+        "Arm A 2 has to provide a reward strictly more than 6.",
+        "Arm A 3 has to provide a reward strictly less than 0.",
+        "It can not be determined.",
+        "None of these."
+      ],
+      "correct_answer": "Arm A 2 has to provide a reward strictly more than 6.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p3_Im4.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p2_Im1.webp|block]",
+      "group_id": "640653829795",
+      "section_name": "RL"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 215,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p3_Im5.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3.12 to 3.13",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p3_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 216,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p4_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3.245 to 3.255",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p4_Im2.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p4_Im1.webp|block]",
+      "group_id": "640653829801",
+      "section_name": "RL"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 217,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p5_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.395 to 1.405",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p5_Im1.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p4_Im1.webp|block]",
+      "group_id": "640653829801",
+      "section_name": "RL"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 218,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p5_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.66 to 0.67",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p5_Im2.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p4_Im1.webp|block]",
+      "group_id": "640653829801",
+      "section_name": "RL"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 219,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p5_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.82 to 2.83",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p5_Im3.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p4_Im1.webp|block]",
+      "group_id": "640653829801",
+      "section_name": "RL"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 220,
+      "text": "Which of the following is the correct Bellman equation for stochastic transitions, stochastic policy and stochastic rewards? The symbols have the usual meaning.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p6_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p6_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p6_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p6_Im2.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p6_Im4.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p6_Im5.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p6_Im6.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p6_Im7.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p6_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "RL"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 221,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p7_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-4",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p7_Im2.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p7_Im1.webp|block]",
+      "group_id": "640653829807",
+      "section_name": "RL"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 222,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p7_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-7",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p7_Im3.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p7_Im1.webp|block]",
+      "group_id": "640653829807",
+      "section_name": "RL"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 223,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p8_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "1 and 2.",
+        "1 and 3.",
+        "2 and 3.",
+        "2 and 5.",
+        "13 and 9",
+        "4 and 8.",
+        "None of these"
+      ],
+      "correct_answer": [
+        "2 and 5.",
+        "13 and 9",
+        "4 and 8."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p8_Im1.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p7_Im1.webp|block]",
+      "group_id": "640653829807",
+      "section_name": "RL"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 224,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p9_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p9_Im2.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "640653829811",
+      "section_name": "RL"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 225,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p10_Im1.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "640653829811",
+      "section_name": "RL"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 226,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p10_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "16.03 to 16.13",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p10_Im2.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "640653829811",
+      "section_name": "RL"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 227,
+      "text": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p10_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12.23 to 12.25",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5007_2024T2_Q1_NA_p10_Im3.webp",
+        "/data/images/da5007_2024T2_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5007_2024T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "640653829811",
+      "section_name": "RL"
+    }
+  ],
+  "id": "da5007-2024t2-q1-na",
+  "course_code": "DA5007",
+  "course_name": "Natural Language Processing",
+  "level": "Degree",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

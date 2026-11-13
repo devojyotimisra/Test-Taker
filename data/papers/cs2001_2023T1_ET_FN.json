@@ -1,0 +1,621 @@
+{
+  "title": "DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)",
+  "filename": "cs2001_2023T1_ET_FN.pdf",
+  "total_questions": 26,
+  "total_marks": 26.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 320,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 321,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Choose the correct order of execution of SQL clauses.",
+      "type": "MCQ",
+      "options": [
+        "FROM \u2192 WHERE \u2192 HAVING \u2192 GROUP BY\u2192 SELECT \u2192 ORDER BY",
+        "FROM \u2192 WHERE \u2192 GROUP BY \u2192 HAVING \u2192 SELECT \u2192 ORDER BY",
+        "SELECT \u2192 FROM \u2192 WHERE \u2192 GROUP BY \u2192 HAVING \u2192 ORDER BY",
+        "SELECT \u2192 FROM \u2192 WHERE \u2192 ORDER BY \u2192GROUP BY \u2192 HAVING"
+      ],
+      "correct_answer": "FROM \u2192 WHERE \u2192 GROUP BY \u2192 HAVING \u2192 SELECT \u2192 ORDER BY",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 322,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a magnetic disk with 16 platters, 2 surfaces/platter, 1024 tracks/surface, 2048 sectors/track, and 1024 bytes/sector. The disk rotates with 6000 revolutions per minute. What is the capacity of the disk?",
+      "type": "MCQ",
+      "options": [
+        "64 GB",
+        "32 GB",
+        "32 MB",
+        "64 MB"
+      ],
+      "correct_answer": "64 GB",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 323,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2023T1_ET_FN_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p2_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p2_Im3.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p2_Im4.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p2_Im5.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p2_Im6.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 324,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Insert the key values in the following order into an empty 2-3-4 tree: 20, 45, 12, 34, 25, 56, 74, 2, 96 in reverse order. The internal nodes of the resultant 2-3-4 tree must contain which of the following key values. [ Note: Using early splitting strategy ]",
+      "type": "MCQ",
+      "options": [
+        "2, 20, 34, 56, 96",
+        "25, 45, 74",
+        "2, 12, 34, 56",
+        "45, 12, 25, 74"
+      ],
+      "correct_answer": "45, 12, 25, 74",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 325,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Choose the correct SQL code which is used to create the table schedule .",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p5_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p5_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p5_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p5_Im2.webp|block]",
+        ""
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p4_Im1.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p5_Im2.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p5_Im3.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following schema diagram of IPLt20 and answer the given subquestions. [IMAGE: /data/images/cs2001_2023T1_ET_FN_p4_Im1.webp|block]",
+      "group_id": "640653564040",
+      "section_name": "DBMS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 326,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a scenario when the team named \u2019Mumbai Indians\u2019 captain \u2019Rohit Sharma\u2019 gets injured, and he is out of the team. The team management has decided to make \u2019Surya Kumar Yadav\u2019 as the captain of \u2019Mumbai Indians\u2019. Which of the following SQL query is used to update the captain of the team \u2019Mumbai Indians\u2019?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p6_Im1.webp|block] [IMAGE: /data/images/cs2001_2023T1_ET_FN_p6_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p6_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p4_Im1.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p6_Im1.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p6_Im3.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following schema diagram of IPLt20 and answer the given subquestions. [IMAGE: /data/images/cs2001_2023T1_ET_FN_p4_Im1.webp|block]",
+      "group_id": "640653564040",
+      "section_name": "DBMS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 327,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 According to the figure disk-3 has crashed. What data is present in the two blocks of disk-3? Note: Assume block size is 4 bits",
+      "type": "MCQ",
+      "options": [
+        "block A: 0101, block B: 0101",
+        "block A: 0010, block B: 0100",
+        "block A: 0001, block B: 0000",
+        "block A: 0110, block B: 0111"
+      ],
+      "correct_answer": "block A: 0110, block B: 0111",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p6_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a RAID-4 system with 5 disks which stores the following data shown in Figure 2 and answer the given subquestions. [IMAGE: /data/images/cs2001_2023T1_ET_FN_p6_Im5.webp|block]",
+      "group_id": "640653564061",
+      "section_name": "DBMS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 328,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Assume that the binary values represent 8 bit ASCII code. What is the data word present inside this RAID-4 storage system? Note: The ASCII value of \u2018A\u2019 is 65 and \u2018a\u2019 is 97.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p7_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p7_Im3.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p6_Im5.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p7_Im3.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p7_Im4.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p7_Im5.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p7_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a RAID-4 system with 5 disks which stores the following data shown in Figure 2 and answer the given subquestions. [IMAGE: /data/images/cs2001_2023T1_ET_FN_p6_Im5.webp|block]",
+      "group_id": "640653564061",
+      "section_name": "DBMS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 329,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2023T1_ET_FN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A-1, B-2, C-5, D-4",
+        "A-1, B-2, C-6, D-3",
+        "A-2, B-1, C-5, D-3",
+        "A-2, B-1, C-6, D-4"
+      ],
+      "correct_answer": "A-2, B-1, C-5, D-3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p9_Im1.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the table score as shown below and answer the given subquestions. [IMAGE: /data/images/cs2001_2023T1_ET_FN_p8_Im1.webp|block]",
+      "group_id": "640653564043",
+      "section_name": "DBMS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 330,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following SQL query can be used to retrieve the roll numbers and average marks ( m1, m2, m3 ) of all students who have scored more than 60 in subject s1 , sorted in descending order of their average marks?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p10_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p10_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p10_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p10_Im5.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p8_Im1.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p10_Im4.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p10_Im5.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the table score as shown below and answer the given subquestions. [IMAGE: /data/images/cs2001_2023T1_ET_FN_p8_Im1.webp|block]",
+      "group_id": "640653564043",
+      "section_name": "DBMS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 331,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a nested loop join for the two relations instructor and department . [IMAGE: /data/images/cs2001_2023T1_ET_FN_p11_Im1.webp|block] Assuming the worst-case memory availability and considering instructor as the outer relation, which of the following options is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "Number of block transfers = 60070",
+        "Number of block transfers = 140600",
+        "Number of seeks = 2070",
+        "Number of seeks = 2600"
+      ],
+      "correct_answer": [
+        "Number of block transfers = 140600",
+        "Number of seeks = 2600"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 332,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2023T1_ET_FN_p11_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "If T 5 requests a data item held by T 10 then T 5 will \u201dwait\u201d",
+        "If T 5 requests a data item held by T 10 then T 10 will \u201dwait\u201d",
+        "If T 15 requests a data item held by T 10 , then T 10 will be killed (\u201ddie\u201d)",
+        "If T 15 requests a data item held by T 10 , then T 15 will be killed (\u201ddie\u201d)"
+      ],
+      "correct_answer": [
+        "If T 5 requests a data item held by T 10 then T 5 will \u201dwait\u201d",
+        "If T 15 requests a data item held by T 10 , then T 15 will be killed (\u201ddie\u201d)"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p11_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 333,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the given timeline of five transactions T1, T2, T3, T4, T5 respectively as shown in Figure 3. [IMAGE: /data/images/cs2001_2023T1_ET_FN_p12_Im1.webp|block] Which of the following actions will be taken by the recovery manager?",
+      "type": "multichoice",
+      "options": [
+        "Transaction T2 and T4 needs to be redone.",
+        "Transaction T1 and T2 are ignored.",
+        "Transaction T3 and T4 needs to be redone.",
+        "Transaction T3 and T5 needs to be undone.",
+        "Transaction T1 needs to be redone."
+      ],
+      "correct_answer": [
+        "Transaction T2 and T4 needs to be redone.",
+        "Transaction T3 and T5 needs to be undone."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 334,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the diagram below indicating the files that should be backed up in each respective type of backup. [IMAGE: /data/images/cs2001_2023T1_ET_FN_p13_Im1.webp|block] Which of the following options is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "x should be a differential backup",
+        "y must be ABCD",
+        "z must be a full backup",
+        "x should be an incremental backup"
+      ],
+      "correct_answer": [
+        "y must be ABCD",
+        "x should be an incremental backup"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 335,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2023T1_ET_FN_p13_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p14_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p14_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p14_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p14_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p14_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p13_Im4.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p14_Im2.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p14_Im3.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p14_Im5.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p14_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 336,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2023T1_ET_FN_p14_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p14_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p14_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p14_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p14_Im11.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2023T1_ET_FN_p14_Im10.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p14_Im7.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p14_Im8.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p14_Im9.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p14_Im10.webp",
+        "/data/images/cs2001_2023T1_ET_FN_p14_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 337,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The following numbers are inserted into an empty binary search tree in the given order: 21, 32, 1, 8, 9, 10, 15, 16, 27. What is the height of the resulting binary search tree?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 338,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2023T1_ET_FN_p15_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 339,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2023T1_ET_FN_p16_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 340,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2023T1_ET_FN_p17_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "24",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 341,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following schedule S . S:W1(A), W3(A), W3(C), R2(A), W2(A), W1(B), W3(B) Consider the following statements. Statement 1: The given schedule S is Conflict serializable. Statement 2: All Conflict serializable schedules are 2-P lockable. Statement 3: The given schedule is 2-P lockable. Which of the following options is correct?",
+      "type": "MCQ",
+      "options": [
+        "Statement 1 is correct",
+        "Statement 2 is correct",
+        "Statement 3 is correct",
+        "All of these statements are correct"
+      ],
+      "correct_answer": "Statement 1 is correct",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 342,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2023T1_ET_FN_p19_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-b, 2-d, 3-f",
+        "1-a, 2-c, 3-e",
+        "1-b, 2-c, 3-e",
+        "1-a, 2-d, 3-f"
+      ],
+      "correct_answer": "1-b, 2-c, 3-e",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2023T1_ET_FN_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 343,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a B-tree based index with an order p = 25. Assume that each node in the B-tree is 80% full. What is the maximum number of keys that can be accommodated in the given B-tree if the height of the tree is 4?",
+      "type": "MCQ",
+      "options": [
+        "32,99,999",
+        "35,40,000",
+        "30,40,000",
+        "31,99,999"
+      ],
+      "correct_answer": "31,99,999",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 344,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is/are true regarding weak entities in an ER diagram?",
+      "type": "multichoice",
+      "options": [
+        "Weak entities always depend on strong entity for their existence.",
+        "Weak entities cannot have attributes of their own.",
+        "Weak entities are always part of a one-to-many relationship.",
+        "Weak entity sets are represented by a double rectangle symbol."
+      ],
+      "correct_answer": [
+        "Weak entities always depend on strong entity for their existence.",
+        "Weak entity sets are represented by a double rectangle symbol."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 345,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the percentage of space utilization in RAID 1?",
+      "type": "MCQ",
+      "options": [
+        "100%",
+        "50%",
+        "75%",
+        "25%"
+      ],
+      "correct_answer": "50%",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    }
+  ],
+  "id": "cs2001-2023t1-et-fn",
+  "course_code": "CS2001",
+  "course_name": "Database Management Systems",
+  "level": "Diploma in Programming",
+  "term": "Jan 2023",
+  "year": 2023,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

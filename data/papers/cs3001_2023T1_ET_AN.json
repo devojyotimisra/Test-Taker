@@ -1,0 +1,619 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)",
+  "filename": "cs3001_2023T1_ET_AN.pdf",
+  "total_questions": 27,
+  "total_marks": 27.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 267,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 268,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 At which stage of the software development life cycle does the software code gets implemented and turns into a working software product?",
+      "type": "MCQ",
+      "options": [
+        "Requirements gathering",
+        "Design",
+        "Development",
+        "Testing",
+        "Deployment"
+      ],
+      "correct_answer": "Development",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 269,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A software development team is working on a project to create a new mobile application for a bank. During the requirement-gathering phase, the team wants to explore the government guidelines and regulations for online banking systems. Which requirement-gathering technique would be most effective for this purpose?",
+      "type": "MCQ",
+      "options": [
+        "Questionnaires",
+        "Interviews",
+        "Focus groups and workshops",
+        "Documentation"
+      ],
+      "correct_answer": "Documentation",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 270,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose a software company is developing a search engine. They have implemented an algorithm so that if the user mistypes the search query, it will suggest a correct query that will enable effective searching. Which of the design heuristics are fulfilled in this given scenario?",
+      "type": "MCQ",
+      "options": [
+        "Consistency",
+        "Freedom",
+        "Recognition over recall",
+        "Support error recovery"
+      ],
+      "correct_answer": "Support error recovery",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 271,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 With respect to software engineering gold plating is considered a _______ risk. Fill in the blank with the appropriate option.",
+      "type": "MCQ",
+      "options": [
+        "Technical",
+        "Project",
+        "Business",
+        "Technical and project"
+      ],
+      "correct_answer": "Business",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 272,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which kind of development tool gives all the following capabilities: \u2022 Syntax checking \u2022 Find where a particular function has been used \u2022 Renaming a variable/class name throughout the entire code base",
+      "type": "MCQ",
+      "options": [
+        "Text Editors",
+        "Compilers and interpreters",
+        "IDEs",
+        "Debugging tools"
+      ],
+      "correct_answer": "IDEs",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 273,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In which of the following hosting service, the provider is responsible for providing a part of the infrastructure without providing the software layer?",
+      "type": "MCQ",
+      "options": [
+        "Bare Metal Servers",
+        "Infrastructure-as-a-service",
+        "Platform-as-a-service",
+        "All of these"
+      ],
+      "correct_answer": "Infrastructure-as-a-service",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 274,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements are true about the staging environment?",
+      "type": "MCQ",
+      "options": [
+        "It provides the local environment to a software developer which contains the tools like IDE.",
+        "It provides an environment with several testing tools and focuses on integration testing.",
+        "It provides an environment that exactly resembles the production environment.",
+        "It provides the actual production environment."
+      ],
+      "correct_answer": "It provides an environment that exactly resembles the production environment.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 275,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following types of testing determines whether a software product meets non- functional requirements or not?",
+      "type": "MCQ",
+      "options": [
+        "Unit testing",
+        "Alpha testing",
+        "Beta testing",
+        "Smoke testing",
+        "Performance testing"
+      ],
+      "correct_answer": "Performance testing",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 276,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a distributed voice communication app that enables direct conversation between any two nodes in the network and which is not governed or supervised by a central authority. Identify the type of software architecture of the video application.",
+      "type": "MCQ",
+      "options": [
+        "Client-server architecture",
+        "Pipe and filter architecture",
+        "MVC architecture",
+        "Peer-to-peer architecture"
+      ],
+      "correct_answer": "Peer-to-peer architecture",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 277,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following teams in a software organization is responsible for all the tasks listed below? \u2022 Address the different kinds of problems faced by the clients. \u2022 Provide regular feedback to other teams about the product and its defects and shortcomings.",
+      "type": "MCQ",
+      "options": [
+        "Marketing team",
+        "Sales team",
+        "Data scientists",
+        "Ethics and policy specialists",
+        "Support team"
+      ],
+      "correct_answer": "Support team",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 278,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2023T1_ET_AN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Specific",
+        "Measurable",
+        "Achievable",
+        "Relevant",
+        "Time-bound"
+      ],
+      "correct_answer": "Achievable",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2023T1_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 279,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2023T1_ET_AN_p7_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Primary user",
+        "Secondary user",
+        "Tertiary user",
+        "Not user"
+      ],
+      "correct_answer": "Secondary user",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2023T1_ET_AN_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 280,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A developer has developed a GUI-based text editor. The text editor has different functionalities, which are indicated by the icons embedded on different buttons and links. However, instead of using the traditional types of icons used in standard editors, the developer has created all new types of icons using several animal pictures. As a result, the users find it extremely difficult to remember which icon represents which functionalities. They have to refer to the manual every time they want to use the text editor. Which of the usability goals is missing in the GUI?",
+      "type": "MCQ",
+      "options": [
+        "Safety",
+        "Effectiveness",
+        "Learnability",
+        "Memorability"
+      ],
+      "correct_answer": "Memorability",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 281,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2023T1_ET_AN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Sequential cohesion",
+        "Communicational cohesion",
+        "Procedural cohesion",
+        "Coincidental cohesion"
+      ],
+      "correct_answer": "Communicational cohesion",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2023T1_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 282,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2023T1_ET_AN_p9_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Data coupling",
+        "Control coupling",
+        "Common coupling",
+        "Content coupling"
+      ],
+      "correct_answer": "Common coupling",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2023T1_ET_AN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 283,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider an eCommerce portal that has been integrated with a payment gateway with a set of APIs. Which of the following debugging strategies involves the task of searching the documentation and code examples to understand the correct use of the APIs?",
+      "type": "MCQ",
+      "options": [
+        "Input manipulation",
+        "Backwards",
+        "Forwards",
+        "Blackbox debugging"
+      ],
+      "correct_answer": "Blackbox debugging",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 284,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2023T1_ET_AN_p10_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-B, 2-D, 3-C, 4-A",
+        "1-B, 2-A, 3-C, 4-D",
+        "1-C, 2-D, 3-B, 4-A",
+        "1-C, 2-A, 3-B, 4-D"
+      ],
+      "correct_answer": "1-C, 2-D, 3-B, 4-A",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2023T1_ET_AN_p10_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 285,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose the risk assessed for schedule slippage is 1.2. The impact of the risk due to schedule slippage is 3. What is the probability of schedule slippage occurring during project development?",
+      "type": "MCQ",
+      "options": [
+        "30%",
+        "36%",
+        "40%",
+        "3.6%"
+      ],
+      "correct_answer": "40%",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 286,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A software company has to develop a task planner application. The team formed for development is small in size and the members are well-experienced. The requirements for the application are well-understood. The values for the constants in the COCOMO model for the different types of the project are as follows: \u2022 Organic project: a = 2.4, b = 1.05 \u2022 Semi-detached project: a = 3.0, b = 1.12 \u2022 Embedded project: a = 3.6, b = 1.20 Considering the source code of 20,000 lines, what is the initial estimated effort for the project?",
+      "type": "MCQ",
+      "options": [
+        "85.56 person months",
+        "55.76 person months",
+        "131.08 person months",
+        "78,757.65 person months"
+      ],
+      "correct_answer": "55.76 person months",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 287,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2023T1_ET_AN_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3001_2023T1_ET_AN_p13_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2023T1_ET_AN_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2023T1_ET_AN_p13_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2023T1_ET_AN_p13_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3001_2023T1_ET_AN_p13_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2023T1_ET_AN_p13_Im1.webp",
+        "/data/images/cs3001_2023T1_ET_AN_p13_Im3.webp",
+        "/data/images/cs3001_2023T1_ET_AN_p13_Im5.webp",
+        "/data/images/cs3001_2023T1_ET_AN_p13_Im6.webp",
+        "/data/images/cs3001_2023T1_ET_AN_p13_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 288,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2023T1_ET_AN_p14_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Single responsibility principle",
+        "Open-close principle",
+        "Liskov substitution principle",
+        "Interface segregation principle",
+        "Dependency inversion principle"
+      ],
+      "correct_answer": "Interface segregation principle",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2023T1_ET_AN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 289,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2023T1_ET_AN_p15_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Factory design pattern",
+        "Builder design pattern",
+        "Adapter design pattern",
+        "Facade design pattern"
+      ],
+      "correct_answer": "Facade design pattern",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2023T1_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 290,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2023T1_ET_AN_p16_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "I --> V --> IV --> II",
+        "I --> III --> II --> IV --> V",
+        "IV --> V --> II",
+        "III --> II --> V"
+      ],
+      "correct_answer": "IV --> V --> II",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2023T1_ET_AN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 291,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which kinds of integration testing approaches must require the use of stubs?",
+      "type": "multichoice",
+      "options": [
+        "Big Bang approach",
+        "Bottom-Up approach",
+        "Top-down approach",
+        "Mixed approach"
+      ],
+      "correct_answer": [
+        "Top-down approach",
+        "Mixed approach"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 292,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2023T1_ET_AN_p18_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": [
+        "5"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2023T1_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 293,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2023T1_ET_AN_p18_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": [
+        "3"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2023T1_ET_AN_p18_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    }
+  ],
+  "id": "cs3001-2023t1-et-an",
+  "course_code": "CS3001",
+  "course_name": "Software Engineering",
+  "level": "Degree",
+  "term": "Jan 2023",
+  "year": 2023,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

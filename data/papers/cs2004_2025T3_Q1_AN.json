@@ -1,0 +1,442 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)",
+  "filename": "cs2004_2025T3_Q1_AN.pdf",
+  "total_questions": 19,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 110,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 111,
+      "text": "A bank wants to decide whether a loan applicant should be given a loan or not, based on features like income, credit score and past records. Which of the following machine learning techniques is applicable for this scenario?",
+      "type": "MCQ",
+      "options": [
+        "Regression",
+        "Classification",
+        "Clustering",
+        "Dimensionality Reduction"
+      ],
+      "correct_answer": "Classification",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 112,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p1_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p1_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p1_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p1_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p1_Im3.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p1_Im4.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p1_Im5.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p1_Im6.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p1_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 113,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p2_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p2_Im7.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p2_Im1.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p2_Im3.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p2_Im5.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p2_Im6.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 114,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p2_Im8.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "72",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p2_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 115,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p3_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1024",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 116,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p3_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLF"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 117,
+      "text": "Which of these models has the smallest squared loss on this training dataset?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p4_Im3.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p4_Im1.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p4_Im3.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p4_Im5.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p4_Im6.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p4_Im1.webp|block]",
+      "group_id": "6406531527846",
+      "section_name": "MLF"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 118,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "No",
+        "Yes",
+        "Insufficient information to answer the question"
+      ],
+      "correct_answer": "No",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p5_Im1.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p4_Im1.webp|block]",
+      "group_id": "6406531527846",
+      "section_name": "MLF"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 119,
+      "text": "Which of the following sets forms a basis for the row space of A ?",
+      "type": "MCQ",
+      "options": [
+        "{(1, 0, 2), (0, 1,\u22121)}",
+        "{(1, 0, 2), (0, 1,\u22121), (0, 0,\u22121)}",
+        "{(1, 0, 2), (0,\u22121, 1), (0,\u22121,\u22124)}",
+        "{(0, 1,\u22121), (0, 0,\u22124)}"
+      ],
+      "correct_answer": "{(1, 0, 2), (0, 1,\u22121), (0, 0,\u22121)}",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p5_Im4.webp|block]",
+      "group_id": "6406531527853",
+      "section_name": "MLF"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 120,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p5_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p6_Im5.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p6_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p5_Im5.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p5_Im4.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p5_Im6.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p6_Im2.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p6_Im4.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p6_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p5_Im4.webp|block]",
+      "group_id": "6406531527853",
+      "section_name": "MLF"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 121,
+      "text": "Which of the following is/are true?",
+      "type": "multichoice",
+      "options": [
+        "A is an orthogonal matrix",
+        "A is invertible",
+        "A is symmetric"
+      ],
+      "correct_answer": [
+        "A is an orthogonal matrix",
+        "A is invertible"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p6_Im6.webp|block]",
+      "group_id": "6406531527856",
+      "section_name": "MLF"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 122,
+      "text": "Which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        "A does not have real eigenvalues",
+        "A has two distinct real eigenvalues",
+        "A has two real eigenvalues, not necessarily distinct"
+      ],
+      "correct_answer": "A does not have real eigenvalues",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p6_Im6.webp|block]",
+      "group_id": "6406531527856",
+      "section_name": "MLF"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 123,
+      "text": "If a square matrix A is diagonalizable, then A is invertible.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "There is no common data for this question. There are three independent sub-questions for which you have to answer True/False.",
+      "group_id": "6406531527859",
+      "section_name": "MLF"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 124,
+      "text": "The eigenvalues of a real symmetric matrix are real.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "There is no common data for this question. There are three independent sub-questions for which you have to answer True/False.",
+      "group_id": "6406531527859",
+      "section_name": "MLF"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 125,
+      "text": "A square matrix A of shape n x n is diagonalizable if and only if it has n distinct eigenvalues.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "There is no common data for this question. There are three independent sub-questions for which you have to answer True/False.",
+      "group_id": "6406531527859",
+      "section_name": "MLF"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 126,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p8_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p8_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p8_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p8_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p8_Im2.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p8_Im1.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p8_Im4.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p8_Im6.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p8_Im7.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p8_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p8_Im1.webp|block]",
+      "group_id": "6406531527849",
+      "section_name": "MLF"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 127,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p8_Im9.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p8_Im9.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p8_Im1.webp|block]",
+      "group_id": "6406531527849",
+      "section_name": "MLF"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 128,
+      "text": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(A)",
+        "(B)"
+      ],
+      "correct_answer": "(A)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2004_2025T3_Q1_AN_p9_Im1.webp",
+        "/data/images/cs2004_2025T3_Q1_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2004_2025T3_Q1_AN_p8_Im1.webp|block]",
+      "group_id": "6406531527849",
+      "section_name": "MLF"
+    }
+  ],
+  "id": "cs2004-2025t3-q1-an",
+  "course_code": "CS2004",
+  "course_name": "Machine Learning Foundations",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Afternoon"
+}

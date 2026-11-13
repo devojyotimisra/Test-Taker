@@ -1,0 +1,485 @@
+{
+  "title": "DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)",
+  "filename": "da5004_2025T2_Q1_NA.pdf",
+  "total_questions": 22,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 134,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 135,
+      "text": "Transformers process input tokens:",
+      "type": "MCQ",
+      "options": [
+        "One at a time (sequentially)",
+        "In reverse order",
+        "All at once (in parallel)",
+        "Only after seeing the full input"
+      ],
+      "correct_answer": "All at once (in parallel)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 136,
+      "text": "What is the purpose of the softmax function in the attention mechanism?",
+      "type": "MCQ",
+      "options": [
+        "Normalize attention scores to a probability distribution",
+        "Add non-linearity to the model",
+        "To predict the correct class for the loss function",
+        "Remove redundant features from the input"
+      ],
+      "correct_answer": "Normalize attention scores to a probability distribution",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 137,
+      "text": "What is the main difference between GPT and BERT pre-training objectives?",
+      "type": "MCQ",
+      "options": [
+        "GPT uses Masked Language Modeling, BERT uses Causal Language Modeling",
+        "GPT uses Causal Language Modeling, BERT uses Masked Language Modeling",
+        "Both use Masked Language Modeling",
+        "Both use Causal Language Modeling"
+      ],
+      "correct_answer": "GPT uses Causal Language Modeling, BERT uses Masked Language Modeling",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 138,
+      "text": "In Top-K sampling for language generation, increasing the value of K typically has which of the following effects?",
+      "type": "MCQ",
+      "options": [
+        "It makes the output more deterministic and repetitive.",
+        "It reduces the probability of selecting high-frequency words.",
+        "It increases the diversity of the generated text but may reduce coherence if K is too large.",
+        "It guarantees grammatical correctness by focusing on top-ranked tokens only."
+      ],
+      "correct_answer": "It increases the diversity of the generated text but may reduce coherence if K is too large.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 139,
+      "text": "Why are residual connections important in transformer architectures?",
+      "type": "MCQ",
+      "options": [
+        "They reduce memory consumption.",
+        "They add extra cost of compute by adding batch normalization.",
+        "They help in training deep networks by enabling gradient flow.",
+        "They remove the need for layer normalization."
+      ],
+      "correct_answer": "They help in training deep networks by enabling gradient flow.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 140,
+      "text": "Which of the following statements are true regarding causal language modeling (CLM)?",
+      "type": "multichoice",
+      "options": [
+        "The model only attends to past and current tokens during training.",
+        "The model is trained by predicting the next token in a sequence.",
+        "The model uses bidirectional context.",
+        "The CLM objective is commonly used for encoder-only models."
+      ],
+      "correct_answer": [
+        "The model only attends to past and current tokens during training.",
+        "The model is trained by predicting the next token in a sequence."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 141,
+      "text": "Which of the following are valid reasons why transformer-based large language models are widely used in natural language processing?",
+      "type": "multichoice",
+      "options": [
+        "Transformers process input sequences in parallel, enabling faster training.",
+        "They use recurrence to remember long-term dependencies more effectively than LSTMs.",
+        "Transformers are limited to short text inputs due to their architecture.",
+        "Large transformer models can be fine-tuned for various NLP tasks using a single pre-trained model."
+      ],
+      "correct_answer": [
+        "Transformers process input sequences in parallel, enabling faster training.",
+        "Large transformer models can be fine-tuned for various NLP tasks using a single pre-trained model."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 142,
+      "text": "Which elements are included in BERT\u2019s input representation for Next Sentence Prediction?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p4_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p4_Im4.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p4_Im2.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p4_Im3.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p4_Im4.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 143,
+      "text": "How does Top-p (nucleus) sampling differ from Top-K sampling in language generation?",
+      "type": "multichoice",
+      "options": [
+        "It samples only from a fixed number of tokens at each step.",
+        "It samples from the smallest set of tokens whose cumulative probability exceeds p.",
+        "It always selects the top-p tokens with equal probability.",
+        "It guarantees diversity by selecting all low-probability tokens."
+      ],
+      "correct_answer": [
+        "It samples from the smallest set of tokens whose cumulative probability exceeds p."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 144,
+      "text": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p5_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.98 to 2.08",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 145,
+      "text": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p6_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.81 to 0.87",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 146,
+      "text": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p6_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.9 to 1.1",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 147,
+      "text": "Select the scaled dot-product attention for the first head:",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p9_Im1.webp|block] [IMAGE: /data/images/da5004_2025T2_Q1_NA_p9_Im3.webp|block]",
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p9_Im5.webp|block]",
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p9_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p9_Im5.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p8_Im1.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p9_Im1.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p9_Im3.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p9_Im5.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279486",
+      "section_name": "LLM"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 148,
+      "text": "Select the scaled dot-product attention for the second head:",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p9_Im8.webp|block]",
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p9_Im9.webp|block]",
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p9_Im10.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p9_Im8.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p8_Im1.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p9_Im8.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p9_Im9.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p9_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279486",
+      "section_name": "LLM"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 149,
+      "text": "Concatenate the outputs from both the attention heads, then apply the output projection matrix W o to produce the final output of the multi-head attention mechanism. Select the correct result of this operation.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p10_Im1.webp|block] [IMAGE: /data/images/da5004_2025T2_Q1_NA_p10_Im3.webp|block]",
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p10_Im4.webp|block]",
+        "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p10_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p8_Im1.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p10_Im1.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p10_Im3.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p10_Im4.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "group_id": "6406531279486",
+      "section_name": "LLM"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 150,
+      "text": "For the given input matrix X and multihead attention output MHA( X ), apply a residual connection and store the result in matrix R , and finally compute the sum of all elements in matrix R .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "36",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "6406531279490",
+      "section_name": "LLM"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 151,
+      "text": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p12_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p12_Im1.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "6406531279490",
+      "section_name": "LLM"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 152,
+      "text": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p12_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p12_Im2.webp",
+        "/data/images/da5004_2025T2_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "6406531279490",
+      "section_name": "LLM"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 153,
+      "text": "In exhaustive search, at timestep t=1, we run the decoder once to obtain probability distributions over all tokens in the vocabulary. Given the 6 tokens available in the table in the main question, how many times must we run the decoder at timestep t=4?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "216",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The table presents the conditional probability distribution over vocabulary tokens at each timestep during sequence generation. Each column corresponds to a timestep (from 1 to 5), and the values represent the probability of selecting each token given the tokens chosen in all previous timesteps. For timestep t, the values in the column represent: [IMAGE: /data/images/da5004_2025T2_Q1_NA_p13_Im1.webp|block]",
+      "group_id": "6406531279494",
+      "section_name": "LLM"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 154,
+      "text": "How many total sequences of exactly length 5 are possible according to exhaustive search?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7776",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The table presents the conditional probability distribution over vocabulary tokens at each timestep during sequence generation. Each column corresponds to a timestep (from 1 to 5), and the values represent the probability of selecting each token given the tokens chosen in all previous timesteps. For timestep t, the values in the column represent: [IMAGE: /data/images/da5004_2025T2_Q1_NA_p13_Im1.webp|block]",
+      "group_id": "6406531279494",
+      "section_name": "LLM"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 155,
+      "text": "If we use top-k sampling with k=2 at timestep 1, what is the normalized probability of selecting token \u201csky\u201d at the timestep=1?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.41",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The table presents the conditional probability distribution over vocabulary tokens at each timestep during sequence generation. Each column corresponds to a timestep (from 1 to 5), and the values represent the probability of selecting each token given the tokens chosen in all previous timesteps. For timestep t, the values in the column represent: [IMAGE: /data/images/da5004_2025T2_Q1_NA_p13_Im1.webp|block]",
+      "group_id": "6406531279494",
+      "section_name": "LLM"
+    }
+  ],
+  "id": "da5004-2025t2-q1-na",
+  "course_code": "DA5004",
+  "course_name": "Large Language Models",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

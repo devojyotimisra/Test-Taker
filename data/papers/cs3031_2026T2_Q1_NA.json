@@ -1,0 +1,294 @@
+{
+  "title": "DEGREE LEVEL : COMPUTER SYSTEMS DESIGN (COMPUTER BASED EXAM)",
+  "filename": "cs3031_2026T2_Q1_NA.pdf",
+  "total_questions": 13,
+  "total_marks": 30.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : COMPUTER SYSTEMS DESIGN (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Inscript Consider the circuit diagram shown below: [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p1_Im3.webp|block] Given that we only have 2:1 mux gates, what is the minimum number of mux gates needed to represent the circuit diagram above?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2026T2_Q1_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Inscript Answer the following question based on given timing diagram. [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p2_Im1.webp|block] Given that we only have 2-input XOR gates, what is the minimum number of XOR gates needed to represent a circuit with an output timing diagram same as Y?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2026T2_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Inscript What is the minimum number of 2:1 multiplexers required to design the circuit that implements the function [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p2_Im2.webp|inline] ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2026T2_Q1_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Inscript Find the minimum number of literals in the SOP form: ab + [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p2_Im3.webp|inline] + [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p2_Im4.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2026T2_Q1_NA_p2_Im3.webp",
+        "/data/images/cs3031_2026T2_Q1_NA_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Inscript What is the minimum number of bits required to represent number [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p3_Im1.webp|inline] in binary?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2026T2_Q1_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Inscript A 4\u00d716 decoder is implemented using NOT gates (delay = 1 ns) and 4-input AND gates (delay = 2 ns). What is the maximum delay from any input to any output? Note: If the answer is 4 ns, write 4.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Given that [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p4_Im1.webp|inline] , which of the following statements is always true?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3031_2026T2_Q1_NA_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2026T2_Q1_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2026T2_Q1_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2026T2_Q1_NA_p4_Im7.webp|inline]",
+        "None of these"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3031_2026T2_Q1_NA_p4_Im6.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2026T2_Q1_NA_p4_Im1.webp",
+        "/data/images/cs3031_2026T2_Q1_NA_p4_Im3.webp",
+        "/data/images/cs3031_2026T2_Q1_NA_p4_Im4.webp",
+        "/data/images/cs3031_2026T2_Q1_NA_p4_Im6.webp",
+        "/data/images/cs3031_2026T2_Q1_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the circuit shown below. Given that the inputs are supplied uniformly random. What is the probability of the output [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p4_Im8.webp|inline] being at logic 1? [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p4_Im9.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0.75",
+        "0.33",
+        "0.25",
+        "1",
+        "0.50"
+      ],
+      "correct_answer": "0.50",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2026T2_Q1_NA_p4_Im8.webp",
+        "/data/images/cs3031_2026T2_Q1_NA_p4_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "For the given POS function, find the equivalent minimized SOP expression: [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3031_2026T2_Q1_NA_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2026T2_Q1_NA_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2026T2_Q1_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3031_2026T2_Q1_NA_p5_Im7.webp|inline]",
+        "None of these"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3031_2026T2_Q1_NA_p5_Im6.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2026T2_Q1_NA_p5_Im1.webp",
+        "/data/images/cs3031_2026T2_Q1_NA_p5_Im3.webp",
+        "/data/images/cs3031_2026T2_Q1_NA_p5_Im4.webp",
+        "/data/images/cs3031_2026T2_Q1_NA_p5_Im6.webp",
+        "/data/images/cs3031_2026T2_Q1_NA_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the given Boolean function of three variables: [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p5_Im8.webp|inline] . For which of the following conditions on inputs x, y, z, the output f is always at logic 1?",
+      "type": "MCQ",
+      "options": [
+        "2 or more inputs are at logic 0",
+        "2 or more inputs are at logic 1",
+        "Any odd number of inputs are at logic 0",
+        "Any odd number of inputs are at logic 1"
+      ],
+      "correct_answer": "Any odd number of inputs are at logic 0",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2026T2_Q1_NA_p5_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "What will be the output of the given circuit, as shown below? [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3031_2026T2_Q1_NA_p6_Im3.webp|inline]",
+        "1",
+        "0",
+        "X"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3031_2026T2_Q1_NA_p6_Im3.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2026T2_Q1_NA_p6_Im1.webp",
+        "/data/images/cs3031_2026T2_Q1_NA_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "If [IMAGE: /data/images/cs3031_2026T2_Q1_NA_p6_Im5.webp|inline] , where a and b are the bases of the respective numbers. What are the values of a and b?",
+      "type": "MCQ",
+      "options": [
+        "a = 3, b = 4",
+        "a = 4, b = 5",
+        "a = 5, b = 6",
+        "a = 6, b = 7",
+        "a = 7, b = 8"
+      ],
+      "correct_answer": "a = 5, b = 6",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3031_2026T2_Q1_NA_p6_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Computer Systems Design"
+    }
+  ],
+  "id": "cs3031-2026t2-q1-na",
+  "course_code": "CS3031",
+  "course_name": "Computer Systems Design",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

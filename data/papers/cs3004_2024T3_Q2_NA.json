@@ -1,0 +1,520 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)",
+  "filename": "cs3004_2024T3_Q2_NA.pdf",
+  "total_questions": 24,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 69,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 70,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p1_Im4.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p1_Im4.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p1_Im3.webp|block]",
+      "group_id": "6406531029931",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 71,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p2_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p2_Im1.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p1_Im3.webp|block]",
+      "group_id": "6406531029931",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 72,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p2_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.549 to 0.556",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p2_Im2.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p1_Im3.webp|block]",
+      "group_id": "6406531029931",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 73,
+      "text": "Which of the following optimization algorithms adapts the learning rate based on the current gradient and the history of gradients?",
+      "type": "multichoice",
+      "options": [
+        "Gradient Descent with exponentially decaying learning rate",
+        "RMSProp",
+        "Nesterov Accelerated Gradient Descent with step decay",
+        "ADAM",
+        "Ada-Delta"
+      ],
+      "correct_answer": [
+        "RMSProp",
+        "ADAM",
+        "Ada-Delta"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 74,
+      "text": "Which of the following are regularization technique(S)?",
+      "type": "multichoice",
+      "options": [
+        "Dataset augmentation",
+        "Activation Functions",
+        "L2 regularization",
+        "Adding Noise to the inputs or outputs",
+        "Optimization techniques",
+        "All of these"
+      ],
+      "correct_answer": [
+        "Dataset augmentation",
+        "L2 regularization",
+        "Adding Noise to the inputs or outputs"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 75,
+      "text": "Which of the following activation function(s) is (are) prone to vanishing gradient problem?",
+      "type": "multichoice",
+      "options": [
+        "Logistic Sigmoid",
+        "Tanh",
+        "ReLU",
+        "Leaky ReLu",
+        "GELU",
+        "MaxOut"
+      ],
+      "correct_answer": [
+        "Logistic Sigmoid",
+        "Tanh",
+        "ReLU"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 76,
+      "text": "Which optimization algorithm combines the advantages of RM-Sprop and momentum?",
+      "type": "MCQ",
+      "options": [
+        "Nesterov Accelerated Gradient Descent",
+        "Adam",
+        "Adagrad",
+        "Adadelta"
+      ],
+      "correct_answer": "Adam",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 77,
+      "text": "What is the key reason for the development of adaptive optimization algorithms like RMSprop and Adam?",
+      "type": "MCQ",
+      "options": [
+        "To increase the model size",
+        "To adapt the learning rate for each parameter dynamically",
+        "To reduce the number of layers in deep networks",
+        "To decay the initial learning rate"
+      ],
+      "correct_answer": "To adapt the learning rate for each parameter dynamically",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 78,
+      "text": "What is the derivative of the Leaky ReLU activation function with respect to its input?",
+      "type": "MCQ",
+      "options": [
+        "0 for negative inputs, 1 for positive inputs.",
+        "1 for negative inputs, 0 for positive inputs.",
+        "0.01 for negative inputs, 1 for positive inputs.",
+        "0.05 for negative inputs, 1 for positive inputs.",
+        "1 for all inputs."
+      ],
+      "correct_answer": "0.01 for negative inputs, 1 for positive inputs.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 79,
+      "text": "Which of the following options represents the correct ordering in terms of the bias of the models illustrated in the images below? [IMAGE: /data/images/cs3004_2024T3_Q2_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A > B > C",
+        "B > C > A",
+        "C > B > A",
+        "A > C > B"
+      ],
+      "correct_answer": "A > C > B",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 80,
+      "text": "Which of the following is a common form of regularization that involves adding a penalty proportional to the square of the weights?",
+      "type": "MCQ",
+      "options": [
+        "Dropout",
+        "L1 Regularization",
+        "L2 Regularization",
+        "Batch Normalization"
+      ],
+      "correct_answer": "L2 Regularization",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 81,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p6_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p6_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p6_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p6_Im7.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p6_Im1.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p6_Im3.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p6_Im4.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p6_Im5.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p6_Im7.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p6_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 82,
+      "text": "Which architecture has fewer parameters (CONV or FC)?",
+      "type": "MCQ",
+      "options": [
+        "CONV Layer",
+        "FC"
+      ],
+      "correct_answer": "CONV Layer",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider an input image of shape 10\u00d710 with 3 channels of R-G-B, is processed using one of the following neural architectures: \u2022 Fully-connected layer (FC) with 2 neurons (Note: The input volume is \u201cflattened\u201d into a column vector before being fed into the layer.) \u2022 Convolutional layer (CONV) with three filters of size 2 \u00d7 2, a stride of 2 is used, and no padding is applied. Based on the above data answer the given subquestions.",
+      "group_id": "6406531029944",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 83,
+      "text": "What is the difference in the number of trainable parameters between these two neural architectures?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "564",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider an input image of shape 10\u00d710 with 3 channels of R-G-B, is processed using one of the following neural architectures: \u2022 Fully-connected layer (FC) with 2 neurons (Note: The input volume is \u201cflattened\u201d into a column vector before being fed into the layer.) \u2022 Convolutional layer (CONV) with three filters of size 2 \u00d7 2, a stride of 2 is used, and no padding is applied. Based on the above data answer the given subquestions.",
+      "group_id": "6406531029944",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 84,
+      "text": "Which of the following statements is/are true about a CONV layer?",
+      "type": "multichoice",
+      "options": [
+        "The total number of parameters depends on the depth of the input.",
+        "The total number of parameters depends on the padding.",
+        "The total number of parameters depends on the number of filters (kernel).",
+        "The total number of parameters depends on the stride."
+      ],
+      "correct_answer": [
+        "The total number of parameters depends on the depth of the input.",
+        "The total number of parameters depends on the number of filters (kernel)."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider an input image of shape 10\u00d710 with 3 channels of R-G-B, is processed using one of the following neural architectures: \u2022 Fully-connected layer (FC) with 2 neurons (Note: The input volume is \u201cflattened\u201d into a column vector before being fed into the layer.) \u2022 Convolutional layer (CONV) with three filters of size 2 \u00d7 2, a stride of 2 is used, and no padding is applied. Based on the above data answer the given subquestions.",
+      "group_id": "6406531029944",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 85,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p8_Im4.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "460800",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p8_Im4.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the below deep neural architecture, being applied on an image of size 128 \u00d7 128 with 3 channels of R-G-B. [IMAGE: /data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp|block] Assume i For convolution layers, a stride of 1 is used, and no padding is applied. ii There is no bias associated in any layer just as we did in our course iii Each time we slide the filter we get one value in the output. The resulting output is called a feature map iv Suppose Width, Height and Depth (number of channels) are denoted by W,H,D respectively, then the \u201cFeature map volume\u201d of the tensor (3-D array) = W \u00d7 H \u00d7 D (multiplication of W,H,D ). Based on the above data answer the given subquestions.",
+      "group_id": "6406531029948",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 86,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p9_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7776",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p9_Im1.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the below deep neural architecture, being applied on an image of size 128 \u00d7 128 with 3 channels of R-G-B. [IMAGE: /data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp|block] Assume i For convolution layers, a stride of 1 is used, and no padding is applied. ii There is no bias associated in any layer just as we did in our course iii Each time we slide the filter we get one value in the output. The resulting output is called a feature map iv Suppose Width, Height and Depth (number of channels) are denoted by W,H,D respectively, then the \u201cFeature map volume\u201d of the tensor (3-D array) = W \u00d7 H \u00d7 D (multiplication of W,H,D ). Based on the above data answer the given subquestions.",
+      "group_id": "6406531029948",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 87,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p9_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "115200",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p9_Im2.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the below deep neural architecture, being applied on an image of size 128 \u00d7 128 with 3 channels of R-G-B. [IMAGE: /data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp|block] Assume i For convolution layers, a stride of 1 is used, and no padding is applied. ii There is no bias associated in any layer just as we did in our course iii Each time we slide the filter we get one value in the output. The resulting output is called a feature map iv Suppose Width, Height and Depth (number of channels) are denoted by W,H,D respectively, then the \u201cFeature map volume\u201d of the tensor (3-D array) = W \u00d7 H \u00d7 D (multiplication of W,H,D ). Based on the above data answer the given subquestions.",
+      "group_id": "6406531029948",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 88,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p9_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p9_Im3.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the below deep neural architecture, being applied on an image of size 128 \u00d7 128 with 3 channels of R-G-B. [IMAGE: /data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp|block] Assume i For convolution layers, a stride of 1 is used, and no padding is applied. ii There is no bias associated in any layer just as we did in our course iii Each time we slide the filter we get one value in the output. The resulting output is called a feature map iv Suppose Width, Height and Depth (number of channels) are denoted by W,H,D respectively, then the \u201cFeature map volume\u201d of the tensor (3-D array) = W \u00d7 H \u00d7 D (multiplication of W,H,D ). Based on the above data answer the given subquestions.",
+      "group_id": "6406531029948",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 89,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "200704",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p10_Im1.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the below deep neural architecture, being applied on an image of size 128 \u00d7 128 with 3 channels of R-G-B. [IMAGE: /data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp|block] Assume i For convolution layers, a stride of 1 is used, and no padding is applied. ii There is no bias associated in any layer just as we did in our course iii Each time we slide the filter we get one value in the output. The resulting output is called a feature map iv Suppose Width, Height and Depth (number of channels) are denoted by W,H,D respectively, then the \u201cFeature map volume\u201d of the tensor (3-D array) = W \u00d7 H \u00d7 D (multiplication of W,H,D ). Based on the above data answer the given subquestions.",
+      "group_id": "6406531029948",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 90,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p10_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "51200",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p10_Im2.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the below deep neural architecture, being applied on an image of size 128 \u00d7 128 with 3 channels of R-G-B. [IMAGE: /data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp|block] Assume i For convolution layers, a stride of 1 is used, and no padding is applied. ii There is no bias associated in any layer just as we did in our course iii Each time we slide the filter we get one value in the output. The resulting output is called a feature map iv Suppose Width, Height and Depth (number of channels) are denoted by W,H,D respectively, then the \u201cFeature map volume\u201d of the tensor (3-D array) = W \u00d7 H \u00d7 D (multiplication of W,H,D ). Based on the above data answer the given subquestions.",
+      "group_id": "6406531029948",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 91,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p10_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "50176",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p10_Im3.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the below deep neural architecture, being applied on an image of size 128 \u00d7 128 with 3 channels of R-G-B. [IMAGE: /data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp|block] Assume i For convolution layers, a stride of 1 is used, and no padding is applied. ii There is no bias associated in any layer just as we did in our course iii Each time we slide the filter we get one value in the output. The resulting output is called a feature map iv Suppose Width, Height and Depth (number of channels) are denoted by W,H,D respectively, then the \u201cFeature map volume\u201d of the tensor (3-D array) = W \u00d7 H \u00d7 D (multiplication of W,H,D ). Based on the above data answer the given subquestions.",
+      "group_id": "6406531029948",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 92,
+      "text": "[IMAGE: /data/images/cs3004_2024T3_Q2_NA_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "150528",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2024T3_Q2_NA_p11_Im1.webp",
+        "/data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the below deep neural architecture, being applied on an image of size 128 \u00d7 128 with 3 channels of R-G-B. [IMAGE: /data/images/cs3004_2024T3_Q2_NA_p8_Im3.webp|block] Assume i For convolution layers, a stride of 1 is used, and no padding is applied. ii There is no bias associated in any layer just as we did in our course iii Each time we slide the filter we get one value in the output. The resulting output is called a feature map iv Suppose Width, Height and Depth (number of channels) are denoted by W,H,D respectively, then the \u201cFeature map volume\u201d of the tensor (3-D array) = W \u00d7 H \u00d7 D (multiplication of W,H,D ). Based on the above data answer the given subquestions.",
+      "group_id": "6406531029948",
+      "section_name": "Deep Learning"
+    }
+  ],
+  "id": "cs3004-2024t3-q2-na",
+  "course_code": "CS3004",
+  "course_name": "Deep Learning",
+  "level": "Degree",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

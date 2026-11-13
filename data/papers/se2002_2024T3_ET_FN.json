@@ -1,0 +1,874 @@
+{
+  "title": "DIPLOMA LEVEL : TOOLS IN DATA SCIENCE (COMPUTER BASED EXAM)",
+  "filename": "se2002_2024T3_ET_FN.pdf",
+  "total_questions": 36,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 321,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : TOOLS IN DATA SCIENCE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 322,
+      "text": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The numeric part of the order (123, 456, 789, 101)",
+        "Only the first character of the order ID (O, O, O, O)",
+        "The column will remain unchanged",
+        "Each character of the order ID will be split into separate cells (O, r, d, e, r, I, D, 1, 2, 3)"
+      ],
+      "correct_answer": "Each character of the order ID will be split into separate cells (O, r, d, e, r, I, D, 1, 2, 3)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 323,
+      "text": "You and your friend are building a KNN model to classify customers based on their shopping patterns. You use cross-validation to choose K = 6, while your friend guesses and sets K = 2. On the test set, you notice that your friend's model has a much higher training accuracy but much lower test accuracy than yours. Which of the following is the best explanation?",
+      "type": "MCQ",
+      "options": [
+        "Your friend\u2019s model has higher bias than yours",
+        "Your friend\u2019s model has higher variance and overfits the data",
+        "Your model underfits the data compared to your friend\u2019s model",
+        "Your model overfits the data compared to your friend\u2019s model"
+      ],
+      "correct_answer": "Your friend\u2019s model has higher variance and overfits the data",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 324,
+      "text": "You are running a K-means clustering algorithm on customer segmentation data. Each time you run the model, you get different cluster assignments, making it hard to compare results. Which parameter should you adjust in the kmeans() function to achieve more stable and consistent results?",
+      "type": "MCQ",
+      "options": [
+        "algorithm",
+        "max_iter",
+        "n_clusters",
+        "n_init"
+      ],
+      "correct_answer": "n_init",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 325,
+      "text": "You are fitting an ARIMA model to a stock price time series. You want to use no moving average component, 5 lags for autoregression, and 1 difference to make the series stationary. Which of the following model specifications should you use?",
+      "type": "MCQ",
+      "options": [
+        "ARIMA(..., trend = (5,1,0))",
+        "ARIMA(..., order = (5,1,0))",
+        "ARIMA(..., order = (0,5,1))",
+        "ARIMA(..., trend = (0,5,1))"
+      ],
+      "correct_answer": "ARIMA(..., order = (5,1,0))",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 326,
+      "text": "You are debugging a login issue on a website and want to check if the site is setting a \"session\" cookie properly. In Chrome DevTools, which tab should you open to view the cookies associated with the website?",
+      "type": "MCQ",
+      "options": [
+        "Elements",
+        "Network",
+        "Source",
+        "Application"
+      ],
+      "correct_answer": "Application",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 327,
+      "text": "You are building a linear regression model to predict house prices based on the number of bedrooms. You obtain a p-value of 0.03 for the coefficient of \"number of bedrooms.\" Which of the following conclusions can you draw?",
+      "type": "MCQ",
+      "options": [
+        "The relationship between number of bedrooms and house prices is statistically significant",
+        "There is no relationship between number of bedrooms and house prices",
+        "The analysis is inconclusive",
+        "The model is overfitting"
+      ],
+      "correct_answer": "The relationship between number of bedrooms and house prices is statistically significant",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 328,
+      "text": "You have a dataset of customer names that includes duplicates due to inconsistent capitalization and extra whitespace (e.g., 'John Doe', 'JOHN DOE', 'John Doe'). Which of the following tools would be best for cleaning and de-duplicating this data?",
+      "type": "MCQ",
+      "options": [
+        "OpenRefine",
+        "Tableau",
+        "MySQL",
+        "Microsoft Excel"
+      ],
+      "correct_answer": "OpenRefine",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 329,
+      "text": "You want to check if a button click on a website triggers an API call to the backend. Which tab in Chrome DevTools should you monitor to see the network request?",
+      "type": "MCQ",
+      "options": [
+        "Elements",
+        "Console",
+        "Sources",
+        "Network"
+      ],
+      "correct_answer": "Network",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 330,
+      "text": "You are creating a Streamlit app to display COVID-19 statistics. At the top of the app, you want to display an introductory message explaining the purpose of the app. Which of the following commands will achieve this ?",
+      "type": "MCQ",
+      "options": [
+        "st.add_text()",
+        "st.text()",
+        "st.insert_text()",
+        "st.display_text()"
+      ],
+      "correct_answer": "st.text()",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 331,
+      "text": "Your manager asks you to share your Tableau file with the sales team so they can see all the visualizations, dashboards, and underlying data. What type of file would you share with them to include everything needed for the team to view the content and access the data?",
+      "type": "MCQ",
+      "options": [
+        "A Microsoft Excel workbook",
+        "A Tableau workbook file (.twb) containing sheets, dashboards, and stories",
+        "A Tableau story file (.twb) containing a sequence of sheets and dashboards",
+        "A Tableau Packaged Workbook (.twbx) including all sheets, dashboards, stories, and data"
+      ],
+      "correct_answer": "A Tableau Packaged Workbook (.twbx) including all sheets, dashboards, stories, and data",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 332,
+      "text": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p5_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "data_df.book_genre.unique()",
+        "data_df.book_genre.category_name()",
+        "data_df['book_genre'].distinct()",
+        "data_df['book_genre'].unique()"
+      ],
+      "correct_answer": [
+        "data_df.book_genre.unique()",
+        "data_df['book_genre'].unique()"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 333,
+      "text": "You are asked to create an interactive map showing the locations of COVID-19 vaccination centers. Which of the following Python libraries would be most useful for geospatial analysis and visualization?",
+      "type": "multichoice",
+      "options": [
+        "Geopandas",
+        "QGIS",
+        "Folium",
+        "OpenStreetMap"
+      ],
+      "correct_answer": [
+        "Geopandas",
+        "Folium"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 334,
+      "text": "Which of the following actions should Reema take to validate the LLM's claims?",
+      "type": "MCQ",
+      "options": [
+        "Ask the LLM to provide sources for the claims it makes.",
+        "Use trusted sources (like academic journals, industry reports, or government publications) to verify the LLM's information.",
+        "Assume the LLM is always accurate and submit the report as-is.",
+        "Copy and paste the same prompt into another LLM (like Bard or Claude) and compare the responses."
+      ],
+      "correct_answer": "Use trusted sources (like academic journals, industry reports, or government publications) to verify the LLM's information.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 1 Reema is working on her project report and decides to use an LLM (like ChatGPT) to generate content for the \u201cIntroduction\u201d section of her report. Below is her interaction with the LLM. Reema: \"Write an introduction on the impact of AI on employment. Make it sound academic and professional.\" LLM: The rise of artificial intelligence (AI) has significantly transformed employment patterns worldwide. While automation increases productivity and efficiency, it also leads to displacement of certain jobs. Sectors like manufacturing and logistics are experiencing reduced demand for human labor, while jobs requiring creativity, empathy, and complex problem-solving are on the rise. Policymakers and educators are now focusing on reskilling workers to adapt to this change.",
+      "group_id": "6406531039378",
+      "section_name": "TDS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 335,
+      "text": "Reema realizes that the LLM's response was too short, and she wants more details for the introduction. She tries the following prompt: \"Give a more detailed and comprehensive introduction on the impact of AI on employment. Include key trends, specific examples, and the role of governments in addressing employment issues.\" The LLM takes longer to generate the response and produces a longer, more detailed introduction.Which of the following is TRUE about how this new prompt impacts usage and costs?",
+      "type": "multichoice",
+      "options": [
+        "The cost of LLM usage increases as more words are included in the output.",
+        "The cost of LLM usage depends only on the number of requests, not the length of the response.",
+        "The time it takes for the LLM to generate the output depends on the size of the prompt and the complexity of the instructions.",
+        "The time it takes for the LLM is dependent only on the size of the prompt"
+      ],
+      "correct_answer": [
+        "The cost of LLM usage increases as more words are included in the output.",
+        "The time it takes for the LLM to generate the output depends on the size of the prompt and the complexity of the instructions."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 1 Reema is working on her project report and decides to use an LLM (like ChatGPT) to generate content for the \u201cIntroduction\u201d section of her report. Below is her interaction with the LLM. Reema: \"Write an introduction on the impact of AI on employment. Make it sound academic and professional.\" LLM: The rise of artificial intelligence (AI) has significantly transformed employment patterns worldwide. While automation increases productivity and efficiency, it also leads to displacement of certain jobs. Sectors like manufacturing and logistics are experiencing reduced demand for human labor, while jobs requiring creativity, empathy, and complex problem-solving are on the rise. Policymakers and educators are now focusing on reskilling workers to adapt to this change.",
+      "group_id": "6406531039378",
+      "section_name": "TDS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 336,
+      "text": "Reema notices that the LLM sometimes produces \"generic\" and \"vague\" responses. She wants more specific, detailed, and structured answers. Which of the following prompts would most likely produce a more specific and useful response from the LLM?",
+      "type": "MCQ",
+      "options": [
+        "\"Write a detailed introduction on the impact of AI on employment.\"",
+        "\"List 3 key trends in the impact of AI on employment and provide a real-world example for each.\"",
+        "\"Discuss how AI impacts employment in different sectors.\"",
+        "\"Explain the impact of AI on employment.\""
+      ],
+      "correct_answer": "\"List 3 key trends in the impact of AI on employment and provide a real-world example for each.\"",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 1 Reema is working on her project report and decides to use an LLM (like ChatGPT) to generate content for the \u201cIntroduction\u201d section of her report. Below is her interaction with the LLM. Reema: \"Write an introduction on the impact of AI on employment. Make it sound academic and professional.\" LLM: The rise of artificial intelligence (AI) has significantly transformed employment patterns worldwide. While automation increases productivity and efficiency, it also leads to displacement of certain jobs. Sectors like manufacturing and logistics are experiencing reduced demand for human labor, while jobs requiring creativity, empathy, and complex problem-solving are on the rise. Policymakers and educators are now focusing on reskilling workers to adapt to this change.",
+      "group_id": "6406531039378",
+      "section_name": "TDS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 337,
+      "text": "The first step is to calculate the distance (in meters) between the Emergency Supply Center and each of the 4 hospitals using the Haversine formula. Which of the following is the correct distance (in meters,most closest) from the Emergency Supply Center (Latitude: 40.7222, Longitude: -74.0134) to Eastview Medical Center (Latitude: 40.7306, Longitude: -73.9866)?",
+      "type": "multichoice",
+      "options": [
+        "1,975 meters",
+        "2,346 meters",
+        "2,925 meters",
+        "3,254 meters"
+      ],
+      "correct_answer": [
+        "2,346 meters"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p8_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2 Geospatial Distance Calculation for Emergency Response Background: As part of the course, you have been introduced with the concept of Haversine formula and its use in distance calculations between two points. The below is a transcript of the conversation between a student in TDS and ChatGPT while they were trying to solve the questions in Graded Assignment 6. Student-ChatGPT Discussion Thread Student: Hi, I have two locations with the following coordinates: - Location A: Latitude = 40.748817, Longitude = -73.985428 - Location B: Latitude = 40.761293, Longitude = -73.982294 I need to calculate the distance between them. I heard that the Haversine formula can be used for this. Can you help me understand how to do this step-by-step? [IMAGE: /data/images/se2002_2024T3_ET_FN_p8_Im1.webp|block] [IMAGE: /data/images/se2002_2024T3_ET_FN_p9_Im1.webp|block] Student: Ah, I see my mistake. I\u2019ll correct the second part and continue with the calculation. Thanks! Assume that the student got the full marks for the answers in Graded Assignment 6. Use the information given in the above conversation to answer the given subquestions for the given scenario. Emergency Medical Supply Delivery in Storm-Critical Zones Background: The city of Hillton has been hit by a severe storm, leading to power outages and road closures. The city\u2019s emergency response team is tasked with delivering medical supplies to four hospitals located in different areas of the city. Due to time constraints, the response team wants to find the most optimal route to minimize travel distance. The team has access to a file called hospital_locations.csv, which contains the following information: - Hospital Name - Business ID - Latitude - Longitude The 4 hospitals in need of supplies are: 1. North Hill Hospital (Business ID: 2103) \u2014 (Latitude: 40.7128, Longitude: -74.0060) 2. Eastview Medical Center (Business ID: 2158) \u2014 (Latitude: 40.7306, Longitude: -73.9866) 3. Westbrook Hospital (Business ID: 1987) \u2014 (Latitude: 40.6995, Longitude: -74.1745) 4. Southend Clinic (Business ID: 2895) \u2014 (Latitude: 40.6526, Longitude: -73.9497) The emergency response team is currently stationed at the Emergency Supply Center at (Latitude: 40.7222, Longitude: -74.0134). The team must deliver supplies to each of the 4 hospitals and return to the supply center. The goal is to minimize the total distance traveled.",
+      "group_id": "6406531039382",
+      "section_name": "TDS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 338,
+      "text": "The response team wants to deliver to the nearest hospital first . Which of the following hospitals is closest to the Emergency Supply Center (Latitude: 40.7222, Longitude: -74.0134)?",
+      "type": "MCQ",
+      "options": [
+        "North Hill Hospital (Latitude: 40.7128, Longitude: -74.0060)",
+        "Eastview Medical Center (Latitude: 40.7306, Longitude: -73.9866)",
+        "Westbrook Hospital (Latitude: 40.6995, Longitude: -74.1745)",
+        "Southend Clinic (Latitude: 40.6526, Longitude: -73.9497)"
+      ],
+      "correct_answer": "North Hill Hospital (Latitude: 40.7128, Longitude: -74.0060)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p8_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2 Geospatial Distance Calculation for Emergency Response Background: As part of the course, you have been introduced with the concept of Haversine formula and its use in distance calculations between two points. The below is a transcript of the conversation between a student in TDS and ChatGPT while they were trying to solve the questions in Graded Assignment 6. Student-ChatGPT Discussion Thread Student: Hi, I have two locations with the following coordinates: - Location A: Latitude = 40.748817, Longitude = -73.985428 - Location B: Latitude = 40.761293, Longitude = -73.982294 I need to calculate the distance between them. I heard that the Haversine formula can be used for this. Can you help me understand how to do this step-by-step? [IMAGE: /data/images/se2002_2024T3_ET_FN_p8_Im1.webp|block] [IMAGE: /data/images/se2002_2024T3_ET_FN_p9_Im1.webp|block] Student: Ah, I see my mistake. I\u2019ll correct the second part and continue with the calculation. Thanks! Assume that the student got the full marks for the answers in Graded Assignment 6. Use the information given in the above conversation to answer the given subquestions for the given scenario. Emergency Medical Supply Delivery in Storm-Critical Zones Background: The city of Hillton has been hit by a severe storm, leading to power outages and road closures. The city\u2019s emergency response team is tasked with delivering medical supplies to four hospitals located in different areas of the city. Due to time constraints, the response team wants to find the most optimal route to minimize travel distance. The team has access to a file called hospital_locations.csv, which contains the following information: - Hospital Name - Business ID - Latitude - Longitude The 4 hospitals in need of supplies are: 1. North Hill Hospital (Business ID: 2103) \u2014 (Latitude: 40.7128, Longitude: -74.0060) 2. Eastview Medical Center (Business ID: 2158) \u2014 (Latitude: 40.7306, Longitude: -73.9866) 3. Westbrook Hospital (Business ID: 1987) \u2014 (Latitude: 40.6995, Longitude: -74.1745) 4. Southend Clinic (Business ID: 2895) \u2014 (Latitude: 40.6526, Longitude: -73.9497) The emergency response team is currently stationed at the Emergency Supply Center at (Latitude: 40.7222, Longitude: -74.0134). The team must deliver supplies to each of the 4 hospitals and return to the supply center. The goal is to minimize the total distance traveled.",
+      "group_id": "6406531039382",
+      "section_name": "TDS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 339,
+      "text": "The response team has decided to follow the \"nearest hospital first\" strategy. The team first goes from the Emergency Supply Center to the nearest hospital identified in the previous question , then proceeds to the next closest hospital from there, and so on until all hospitals are served. Based on this strategy, which of the following represents the correct order of hospitals to visit?",
+      "type": "MCQ",
+      "options": [
+        "North Hill Hospital \u2192 Eastview Medical Center \u2192 Southend Clinic \u2192 Westbrook Hospital",
+        "Eastview Medical Center \u2192 North Hill Hospital \u2192 Southend Clinic \u2192 Westbrook Hospital",
+        "North Hill Hospital \u2192 Southend Clinic \u2192 Eastview Medical Center \u2192 Westbrook Hospital",
+        "Eastview Medical Center \u2192 Southend Clinic \u2192 North Hill Hospital \u2192 Westbrook Hospital"
+      ],
+      "correct_answer": "North Hill Hospital \u2192 Eastview Medical Center \u2192 Southend Clinic \u2192 Westbrook Hospital",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p8_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2 Geospatial Distance Calculation for Emergency Response Background: As part of the course, you have been introduced with the concept of Haversine formula and its use in distance calculations between two points. The below is a transcript of the conversation between a student in TDS and ChatGPT while they were trying to solve the questions in Graded Assignment 6. Student-ChatGPT Discussion Thread Student: Hi, I have two locations with the following coordinates: - Location A: Latitude = 40.748817, Longitude = -73.985428 - Location B: Latitude = 40.761293, Longitude = -73.982294 I need to calculate the distance between them. I heard that the Haversine formula can be used for this. Can you help me understand how to do this step-by-step? [IMAGE: /data/images/se2002_2024T3_ET_FN_p8_Im1.webp|block] [IMAGE: /data/images/se2002_2024T3_ET_FN_p9_Im1.webp|block] Student: Ah, I see my mistake. I\u2019ll correct the second part and continue with the calculation. Thanks! Assume that the student got the full marks for the answers in Graded Assignment 6. Use the information given in the above conversation to answer the given subquestions for the given scenario. Emergency Medical Supply Delivery in Storm-Critical Zones Background: The city of Hillton has been hit by a severe storm, leading to power outages and road closures. The city\u2019s emergency response team is tasked with delivering medical supplies to four hospitals located in different areas of the city. Due to time constraints, the response team wants to find the most optimal route to minimize travel distance. The team has access to a file called hospital_locations.csv, which contains the following information: - Hospital Name - Business ID - Latitude - Longitude The 4 hospitals in need of supplies are: 1. North Hill Hospital (Business ID: 2103) \u2014 (Latitude: 40.7128, Longitude: -74.0060) 2. Eastview Medical Center (Business ID: 2158) \u2014 (Latitude: 40.7306, Longitude: -73.9866) 3. Westbrook Hospital (Business ID: 1987) \u2014 (Latitude: 40.6995, Longitude: -74.1745) 4. Southend Clinic (Business ID: 2895) \u2014 (Latitude: 40.6526, Longitude: -73.9497) The emergency response team is currently stationed at the Emergency Supply Center at (Latitude: 40.7222, Longitude: -74.0134). The team must deliver supplies to each of the 4 hospitals and return to the supply center. The goal is to minimize the total distance traveled.",
+      "group_id": "6406531039382",
+      "section_name": "TDS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 340,
+      "text": "The response team realizes that following the \"nearest hospital first\" strategy may not be optimal. They consider using a more advanced strategy where they plan the entire route before starting. The team uses geospatial optimization tools to find the shortest route using a \"traveling salesperson problem (TSP)\" approach. Which of the following tools would be the most appropriate for implementing this route optimization?",
+      "type": "MCQ",
+      "options": [
+        "QGIS to calculate the optimal route using the shortest path network analysis tool.",
+        "Excel to calculate the distances between each pair of hospitals and identify the optimal route manually.",
+        "Power BI to visualize the hospital locations on a map and create an optimized route.",
+        "A TSP algorithm using Python libraries like NetworkX, SciPy, or OR-Tools to calculate the optimal route."
+      ],
+      "correct_answer": "A TSP algorithm using Python libraries like NetworkX, SciPy, or OR-Tools to calculate the optimal route.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p8_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2 Geospatial Distance Calculation for Emergency Response Background: As part of the course, you have been introduced with the concept of Haversine formula and its use in distance calculations between two points. The below is a transcript of the conversation between a student in TDS and ChatGPT while they were trying to solve the questions in Graded Assignment 6. Student-ChatGPT Discussion Thread Student: Hi, I have two locations with the following coordinates: - Location A: Latitude = 40.748817, Longitude = -73.985428 - Location B: Latitude = 40.761293, Longitude = -73.982294 I need to calculate the distance between them. I heard that the Haversine formula can be used for this. Can you help me understand how to do this step-by-step? [IMAGE: /data/images/se2002_2024T3_ET_FN_p8_Im1.webp|block] [IMAGE: /data/images/se2002_2024T3_ET_FN_p9_Im1.webp|block] Student: Ah, I see my mistake. I\u2019ll correct the second part and continue with the calculation. Thanks! Assume that the student got the full marks for the answers in Graded Assignment 6. Use the information given in the above conversation to answer the given subquestions for the given scenario. Emergency Medical Supply Delivery in Storm-Critical Zones Background: The city of Hillton has been hit by a severe storm, leading to power outages and road closures. The city\u2019s emergency response team is tasked with delivering medical supplies to four hospitals located in different areas of the city. Due to time constraints, the response team wants to find the most optimal route to minimize travel distance. The team has access to a file called hospital_locations.csv, which contains the following information: - Hospital Name - Business ID - Latitude - Longitude The 4 hospitals in need of supplies are: 1. North Hill Hospital (Business ID: 2103) \u2014 (Latitude: 40.7128, Longitude: -74.0060) 2. Eastview Medical Center (Business ID: 2158) \u2014 (Latitude: 40.7306, Longitude: -73.9866) 3. Westbrook Hospital (Business ID: 1987) \u2014 (Latitude: 40.6995, Longitude: -74.1745) 4. Southend Clinic (Business ID: 2895) \u2014 (Latitude: 40.6526, Longitude: -73.9497) The emergency response team is currently stationed at the Emergency Supply Center at (Latitude: 40.7222, Longitude: -74.0134). The team must deliver supplies to each of the 4 hospitals and return to the supply center. The goal is to minimize the total distance traveled.",
+      "group_id": "6406531039382",
+      "section_name": "TDS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 341,
+      "text": "Which of the following best describes the purpose of using the Haversine formula in geospatial analysis?",
+      "type": "MCQ",
+      "options": [
+        "It calculates the distance between two points along a road or path on a map.",
+        "It computes the distance between two points along the surface of a sphere.",
+        "It measures the Euclidean distance between two points in a Cartesian coordinate system.",
+        "It calculates the total travel time between two points based on traffic conditions."
+      ],
+      "correct_answer": "It computes the distance between two points along the surface of a sphere.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p8_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 2 Geospatial Distance Calculation for Emergency Response Background: As part of the course, you have been introduced with the concept of Haversine formula and its use in distance calculations between two points. The below is a transcript of the conversation between a student in TDS and ChatGPT while they were trying to solve the questions in Graded Assignment 6. Student-ChatGPT Discussion Thread Student: Hi, I have two locations with the following coordinates: - Location A: Latitude = 40.748817, Longitude = -73.985428 - Location B: Latitude = 40.761293, Longitude = -73.982294 I need to calculate the distance between them. I heard that the Haversine formula can be used for this. Can you help me understand how to do this step-by-step? [IMAGE: /data/images/se2002_2024T3_ET_FN_p8_Im1.webp|block] [IMAGE: /data/images/se2002_2024T3_ET_FN_p9_Im1.webp|block] Student: Ah, I see my mistake. I\u2019ll correct the second part and continue with the calculation. Thanks! Assume that the student got the full marks for the answers in Graded Assignment 6. Use the information given in the above conversation to answer the given subquestions for the given scenario. Emergency Medical Supply Delivery in Storm-Critical Zones Background: The city of Hillton has been hit by a severe storm, leading to power outages and road closures. The city\u2019s emergency response team is tasked with delivering medical supplies to four hospitals located in different areas of the city. Due to time constraints, the response team wants to find the most optimal route to minimize travel distance. The team has access to a file called hospital_locations.csv, which contains the following information: - Hospital Name - Business ID - Latitude - Longitude The 4 hospitals in need of supplies are: 1. North Hill Hospital (Business ID: 2103) \u2014 (Latitude: 40.7128, Longitude: -74.0060) 2. Eastview Medical Center (Business ID: 2158) \u2014 (Latitude: 40.7306, Longitude: -73.9866) 3. Westbrook Hospital (Business ID: 1987) \u2014 (Latitude: 40.6995, Longitude: -74.1745) 4. Southend Clinic (Business ID: 2895) \u2014 (Latitude: 40.6526, Longitude: -73.9497) The emergency response team is currently stationed at the Emergency Supply Center at (Latitude: 40.7222, Longitude: -74.0134). The team must deliver supplies to each of the 4 hospitals and return to the supply center. The goal is to minimize the total distance traveled.",
+      "group_id": "6406531039382",
+      "section_name": "TDS"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 342,
+      "text": "Which of the below can be a valid log file entry based on the descriptions provided in the main question?",
+      "type": "multichoice",
+      "options": [
+        "40.77.167.48 - - [30/Apr/2024:07:12:09 -0500] \"GET /mplayer2.jsz HTTP/1.1\" 200 7416 \"-\" \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36\" www.s-anand.net 192.254.190.216",
+        "40.77.167.48 - - [30/Apr/2024:07:12:09 -0500] \"POST /mplayer2.jsz HTTP/1.1\" 200 7416 \"-\" \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36\" www.s-anand.net 192.254.190.216",
+        "40.77.167.48 - - [30-Apr-2024 07:12:09 -0500] \"GET /mplayer2.jsz HTTP/1.1\" 200 7416 \"-\" \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36\" www.s-anand.net 192.254.190.216",
+        "40.77.167.48 - - [30/Apr/2024:07:12:09 -0500] \"GET /mplayer2.jsz HTTP/1.1\" OK 7416 \"-\" \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36\" www.s-anand.net 192.254.190.216"
+      ],
+      "correct_answer": [
+        "40.77.167.48 - - [30/Apr/2024:07:12:09 -0500] \"GET /mplayer2.jsz HTTP/1.1\" 200 7416 \"-\" \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36\" www.s-anand.net 192.254.190.216",
+        "40.77.167.48 - - [30/Apr/2024:07:12:09 -0500] \"POST /mplayer2.jsz HTTP/1.1\" 200 7416 \"-\" \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36\" www.s-anand.net 192.254.190.216"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406531039388",
+      "section_name": "TDS"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 343,
+      "text": "Which of the following fields are necessary to filter \"GET requests made for pages under /telugump3/ from 10:00 until before 21:00 on Saturdays\"?",
+      "type": "MCQ",
+      "options": [
+        "Time, Request, URL, Method",
+        "Time, Request, Status, Size",
+        "Time, Method, URL, Status",
+        "Time, Status, URL, Referer"
+      ],
+      "correct_answer": "Time, Method, URL, Status",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406531039388",
+      "section_name": "TDS"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 344,
+      "text": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p14_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p14_Im4.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p14_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p14_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p14_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p14_Im4.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p14_Im3.webp",
+        "/data/images/se2002_2024T3_ET_FN_p13_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p14_Im4.webp",
+        "/data/images/se2002_2024T3_ET_FN_p14_Im5.webp",
+        "/data/images/se2002_2024T3_ET_FN_p14_Im6.webp",
+        "/data/images/se2002_2024T3_ET_FN_p14_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406531039388",
+      "section_name": "TDS"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 345,
+      "text": "Which of the following methods is best for identifying if a log entry's timestamp corresponds to a Saturday? (timestamp is a method in datetime library)",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im2.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im4.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im4.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p13_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p15_Im2.webp",
+        "/data/images/se2002_2024T3_ET_FN_p15_Im4.webp",
+        "/data/images/se2002_2024T3_ET_FN_p15_Im5.webp",
+        "/data/images/se2002_2024T3_ET_FN_p15_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406531039388",
+      "section_name": "TDS"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 346,
+      "text": "How would you identify log entries where the time is between 10:00 and 20:59 on Saturdays?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im7.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im8.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im9.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im10.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im7.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im10.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p13_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p15_Im7.webp",
+        "/data/images/se2002_2024T3_ET_FN_p15_Im8.webp",
+        "/data/images/se2002_2024T3_ET_FN_p15_Im9.webp",
+        "/data/images/se2002_2024T3_ET_FN_p15_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406531039388",
+      "section_name": "TDS"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 347,
+      "text": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im11.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im12.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im13.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im14.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p15_Im12.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p15_Im11.webp",
+        "/data/images/se2002_2024T3_ET_FN_p13_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p15_Im12.webp",
+        "/data/images/se2002_2024T3_ET_FN_p15_Im13.webp",
+        "/data/images/se2002_2024T3_ET_FN_p15_Im14.webp",
+        "/data/images/se2002_2024T3_ET_FN_p16_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406531039388",
+      "section_name": "TDS"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 348,
+      "text": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im7.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p16_Im3.webp",
+        "/data/images/se2002_2024T3_ET_FN_p13_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p16_Im5.webp",
+        "/data/images/se2002_2024T3_ET_FN_p16_Im6.webp",
+        "/data/images/se2002_2024T3_ET_FN_p16_Im7.webp",
+        "/data/images/se2002_2024T3_ET_FN_p16_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406531039388",
+      "section_name": "TDS"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 349,
+      "text": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im9.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im10.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im11.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im12.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im13.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p16_Im11.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p16_Im9.webp",
+        "/data/images/se2002_2024T3_ET_FN_p13_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p16_Im10.webp",
+        "/data/images/se2002_2024T3_ET_FN_p16_Im11.webp",
+        "/data/images/se2002_2024T3_ET_FN_p16_Im12.webp",
+        "/data/images/se2002_2024T3_ET_FN_p16_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406531039388",
+      "section_name": "TDS"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 350,
+      "text": "How would you identify if the Status code of a log entry indicates a successful request? (Assume that status is correctly stored in the variable \u2018status\u2019)",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p17_Im2.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p17_Im4.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p17_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p17_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p17_Im2.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p13_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p17_Im2.webp",
+        "/data/images/se2002_2024T3_ET_FN_p17_Im4.webp",
+        "/data/images/se2002_2024T3_ET_FN_p17_Im5.webp",
+        "/data/images/se2002_2024T3_ET_FN_p17_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406531039388",
+      "section_name": "TDS"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 351,
+      "text": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p17_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p17_Im8.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p17_Im9.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p17_Im10.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p17_Im11.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p17_Im8.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p17_Im7.webp",
+        "/data/images/se2002_2024T3_ET_FN_p13_Im1.webp",
+        "/data/images/se2002_2024T3_ET_FN_p17_Im8.webp",
+        "/data/images/se2002_2024T3_ET_FN_p17_Im9.webp",
+        "/data/images/se2002_2024T3_ET_FN_p17_Im10.webp",
+        "/data/images/se2002_2024T3_ET_FN_p17_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406531039388",
+      "section_name": "TDS"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 352,
+      "text": "If the count of log entries appears much smaller than expected, which of the following could be the reason?",
+      "type": "MCQ",
+      "options": [
+        "The filter for Saturday is incorrect.",
+        "The filter for time range is incorrect.",
+        "The filter for successful status codes is incorrect.",
+        "Any of the given option could be the reason."
+      ],
+      "correct_answer": "Any of the given option could be the reason.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p13_Im1.webp|block]",
+      "group_id": "6406531039388",
+      "section_name": "TDS"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 353,
+      "text": "The instructor wants to ensure that the agent\u2019s purpose is clear to the LLM. What is the role of the system prompt in controlling the LLM's behavior?",
+      "type": "MCQ",
+      "options": [
+        "It defines the role, constraints, and communication style of the LLM agent, ensuring it guides rather than solves.",
+        "It acts as a script that contains hard-coded responses for every student question.",
+        "It ensures that the LLM only responds with exact pre-written answers to specific queries.",
+        "It modifies the OpenAI model itself to force it to behave like a teaching assistant."
+      ],
+      "correct_answer": "It defines the role, constraints, and communication style of the LLM agent, ensuring it guides rather than solves.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 4 The course instructor of TDS is developing an LLM-powered learning assistant called EduBot . This assistant is used by students to learn concepts in geospatial analysis, optimization, and data science. This bot will be highly helpful for students in solving the questions given in the context of \u201cEmergency Medical Supply Delivery in Storm-Critical Zones\u201d in this question paper. The goal of the assistant is to help students think critically and solve problems independently without receiving direct answers or step-by-step solutions. The instructor defines the following constraints for the LLM assistant (EduBot): 1. Do not provide final answers \u2014 If a student asks for the solution, the agent must not give the final answer. 2. Do not provide step-by-step code \u2014 The agent must avoid giving Python, SQL, or R code directly. 3. Encourage critical thinking \u2014 The agent should guide students using reflective questions, sanity checks, and logical reasoning. 4. Use context-aware prompts \u2014 The agent should recognize when a student might have made a conceptual mistake (like unit errors) and provide guidance. The instructor asks you, as part of a course assignment, to design the system prompt that will be sent to OpenAI\u2019s API for creating this LLM-based agent. Your task is to answer the given sub- questions to ensure EduBot works as expected.",
+      "group_id": "6406531039400",
+      "section_name": "TDS"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 354,
+      "text": "Choose the best system prompt that achieves the instructor's goals.",
+      "type": "MCQ",
+      "options": [
+        "\u201c\u201d\u201dYou are an interactive assistant. Answer student questions directly and provide Python code or final answers if requested. If the student asks for clarification, provide a detailed step-by-step solution.\u201d\u201d\u201d",
+        "\u201c\u201d\u201dYou are a learning assistant for a Data Science course. Do not provide final answers or direct solutions. Do not provide Python or step-by-step code. Encourage critical thinking using reflective questions. Use sanity checks to help students validate their work. If a student provides a calculation, prompt them to review units, radian-to-degree conversions, or other potential points of error.\u201d\u201d\u201d",
+        "\u201c\u201d\u201dYou are a teaching assistant for a Data Science course. Answer questions using logical reasoning, and if the student requests the final solution, provide the exact distance or value. Ask follow-up questions to help students understand the answer.\u201d\u201d\u201d",
+        "\u201c\u201d\u201dYou are a simple assistant. Do not provide step-by-step guidance or explanations. When asked about concepts like geospatial distance, tell students to look up the concept themselves. If a student asks for the answer, refuse to respond.\u201d\u201d\u201d"
+      ],
+      "correct_answer": "\u201c\u201d\u201dYou are a learning assistant for a Data Science course. Do not provide final answers or direct solutions. Do not provide Python or step-by-step code. Encourage critical thinking using reflective questions. Use sanity checks to help students validate their work. If a student provides a calculation, prompt them to review units, radian-to-degree conversions, or other potential points of error.\u201d\u201d\u201d",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 4 The course instructor of TDS is developing an LLM-powered learning assistant called EduBot . This assistant is used by students to learn concepts in geospatial analysis, optimization, and data science. This bot will be highly helpful for students in solving the questions given in the context of \u201cEmergency Medical Supply Delivery in Storm-Critical Zones\u201d in this question paper. The goal of the assistant is to help students think critically and solve problems independently without receiving direct answers or step-by-step solutions. The instructor defines the following constraints for the LLM assistant (EduBot): 1. Do not provide final answers \u2014 If a student asks for the solution, the agent must not give the final answer. 2. Do not provide step-by-step code \u2014 The agent must avoid giving Python, SQL, or R code directly. 3. Encourage critical thinking \u2014 The agent should guide students using reflective questions, sanity checks, and logical reasoning. 4. Use context-aware prompts \u2014 The agent should recognize when a student might have made a conceptual mistake (like unit errors) and provide guidance. The instructor asks you, as part of a course assignment, to design the system prompt that will be sent to OpenAI\u2019s API for creating this LLM-based agent. Your task is to answer the given sub- questions to ensure EduBot works as expected.",
+      "group_id": "6406531039400",
+      "section_name": "TDS"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 355,
+      "text": "A student asks the following question to EduBot: \"How do I convert degrees to radians?\" The goal of the LLM assistant is to use logical reasoning to prompt the student to think critically . Instead of directly providing the formula, the assistant should encourage the student to recall or derive it on their own. The assistant should use concepts, relationships, and reasoning techniques that help the student make connections. Which of the below responses will be an ideal response from the agent in this situation?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im2.webp|block]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im4.webp|block]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im4.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p20_Im2.webp",
+        "/data/images/se2002_2024T3_ET_FN_p20_Im4.webp",
+        "/data/images/se2002_2024T3_ET_FN_p20_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 4 The course instructor of TDS is developing an LLM-powered learning assistant called EduBot . This assistant is used by students to learn concepts in geospatial analysis, optimization, and data science. This bot will be highly helpful for students in solving the questions given in the context of \u201cEmergency Medical Supply Delivery in Storm-Critical Zones\u201d in this question paper. The goal of the assistant is to help students think critically and solve problems independently without receiving direct answers or step-by-step solutions. The instructor defines the following constraints for the LLM assistant (EduBot): 1. Do not provide final answers \u2014 If a student asks for the solution, the agent must not give the final answer. 2. Do not provide step-by-step code \u2014 The agent must avoid giving Python, SQL, or R code directly. 3. Encourage critical thinking \u2014 The agent should guide students using reflective questions, sanity checks, and logical reasoning. 4. Use context-aware prompts \u2014 The agent should recognize when a student might have made a conceptual mistake (like unit errors) and provide guidance. The instructor asks you, as part of a course assignment, to design the system prompt that will be sent to OpenAI\u2019s API for creating this LLM-based agent. Your task is to answer the given sub- questions to ensure EduBot works as expected.",
+      "group_id": "6406531039400",
+      "section_name": "TDS"
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 356,
+      "text": "Assume that the EduBot is designed to provide context-aware, personalized guidance to students by using a RAG (Retrieval-Augmented Generation) system. The RAG system works as follows: 1. Course Material Storage: Custom course content (like PDFs, guides, and notes) is split into smaller chunks. Each chunk is vectorized using an embedding model. 2. Vector Database: The vectorized chunks are stored in a FAISS or Weaviate vector database. 3. Retriever: When a student asks a question, the system retrieves the most relevant content (based on semantic similarity) from the vector database. 4. LLM Contextualization: The retrieved content is added as context in the assistant's prompt, which is then used by the LLM (like GPT-4) to generate a personalized, context-aware response. Which of the following correctly describes the process flow of a RAG-based system for the IITM TDS Teaching Assistant?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im6.webp|inline] [IMAGE: /data/images/se2002_2024T3_ET_FN_p21_Im2.webp|block]",
+        "",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p21_Im4.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p21_Im5.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p21_Im4.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2024T3_ET_FN_p20_Im6.webp",
+        "/data/images/se2002_2024T3_ET_FN_p21_Im2.webp",
+        "/data/images/se2002_2024T3_ET_FN_p21_Im4.webp",
+        "/data/images/se2002_2024T3_ET_FN_p21_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Scenario 4 The course instructor of TDS is developing an LLM-powered learning assistant called EduBot . This assistant is used by students to learn concepts in geospatial analysis, optimization, and data science. This bot will be highly helpful for students in solving the questions given in the context of \u201cEmergency Medical Supply Delivery in Storm-Critical Zones\u201d in this question paper. The goal of the assistant is to help students think critically and solve problems independently without receiving direct answers or step-by-step solutions. The instructor defines the following constraints for the LLM assistant (EduBot): 1. Do not provide final answers \u2014 If a student asks for the solution, the agent must not give the final answer. 2. Do not provide step-by-step code \u2014 The agent must avoid giving Python, SQL, or R code directly. 3. Encourage critical thinking \u2014 The agent should guide students using reflective questions, sanity checks, and logical reasoning. 4. Use context-aware prompts \u2014 The agent should recognize when a student might have made a conceptual mistake (like unit errors) and provide guidance. The instructor asks you, as part of a course assignment, to design the system prompt that will be sent to OpenAI\u2019s API for creating this LLM-based agent. Your task is to answer the given sub- questions to ensure EduBot works as expected.",
+      "group_id": "6406531039400",
+      "section_name": "TDS"
+    }
+  ],
+  "id": "se2002-2024t3-et-fn",
+  "course_code": "SE2002",
+  "course_name": "Tools in Data Science",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

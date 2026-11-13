@@ -1,0 +1,495 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "da5013_2025T3_ET_AN.pdf",
+  "total_questions": 23,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "In the context of Single Image Super-Resolution (SISR), specifically in the \u201dPixel Shuffle\u201d layer (used in models like SRResNet), how are the tensor dimensions transformed?",
+      "type": "MCQ",
+      "options": [
+        "From (H, W, C) to (H/r, W/r, [IMAGE: /data/images/da5013_2025T3_ET_AN_p1_Im2.webp|inline] )",
+        "From (H, W, [IMAGE: /data/images/da5013_2025T3_ET_AN_p1_Im4.webp|inline] ) to (H \u00b7 r, W \u00b7 r, C)",
+        "From (H, W, C) to (H \u00b7 r, W \u00b7 r, C) using bilinear interpolation",
+        "From (H, W, C) to (H, W, C/r) using max pooling"
+      ],
+      "correct_answer": "From (H, W, [IMAGE: /data/images/da5013_2025T3_ET_AN_p1_Im4.webp|inline] ) to (H \u00b7 r, W \u00b7 r, C)",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T3_ET_AN_p1_Im2.webp",
+        "/data/images/da5013_2025T3_ET_AN_p1_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "In the YOLO v1 loss function, why is the square root of the width (w) and height (h) predicted instead of the raw values?",
+      "type": "MCQ",
+      "options": [
+        "To ensure the width and height values are always positive.",
+        "To ensure that small deviations in small boxes are penalized more than in large boxes.",
+        "To reduce the computational complexity of the gradient descent.",
+        "To normalize the coordinates between 0 and 1."
+      ],
+      "correct_answer": "To ensure that small deviations in small boxes are penalized more than in large boxes.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Which of the following equations correctly represents the building block of a Residual Network (ResNet), where x is input and F(x) is the residual mapping?",
+      "type": "MCQ",
+      "options": [
+        "H(x) = F(x)",
+        "H(x) = F(x) + x",
+        "H(x) = F(x) \u00b7 x",
+        "H(x) = F(x) - x"
+      ],
+      "correct_answer": "H(x) = F(x) + x",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "In the \u201dUnsupervised Monocular Depth Estimation\u201d approach, what provides the supervisory signal during training?",
+      "type": "MCQ",
+      "options": [
+        "Ground truth depth maps captured by Kinect/LiDAR.",
+        "Manual annotation of depth by humans.",
+        "The photometric consistency (reconstruction error) between the left image and the warped right image.",
+        "The classification accuracy of objects in the scene."
+      ],
+      "correct_answer": "The photometric consistency (reconstruction error) between the left image and the warped right image.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "AlexNet introduced \u201dLocal Response Normalization (LRN)\u201d. Although less common now (often replaced by Batch Norm), what was its original intended purpose?",
+      "type": "MCQ",
+      "options": [
+        "To aid generalization by creating competition for big activities amongst neuron outputs computed using different kernels.",
+        "To prevent the vanishing gradient problem in deep layers.",
+        "To reduce the number of parameters in the fully connected layers.",
+        "To strictly enforce a mean of 0 and variance of 1 across the batch."
+      ],
+      "correct_answer": "To aid generalization by creating competition for big activities amongst neuron outputs computed using different kernels.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Which type of image noise is independent of the signal intensity and is primarily caused by the electronics of the sensor (e.g., amplifiers)?",
+      "type": "MCQ",
+      "options": [
+        "Photon shot noise",
+        "Read noise",
+        "Quantization noise",
+        "Poisson noise"
+      ],
+      "correct_answer": "Read noise",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "The GoogLeNet architecture uses \u201dAuxiliary Classifiers\u201d connected to intermediate layers. What is their primary function?",
+      "type": "MCQ",
+      "options": [
+        "To classify background objects that the main classifier misses.",
+        "To inject additional gradient signal at lower layers to combat the vanishing gradient problem.",
+        "To generate region proposals for object detection.",
+        "To perform unsupervised pre-training."
+      ],
+      "correct_answer": "To inject additional gradient signal at lower layers to combat the vanishing gradient problem.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Which of the following are \u201dmonocular\u201d depth cues (cues available from a single image)?",
+      "type": "multichoice",
+      "options": [
+        "Texture gradient (texture becomes denser with distance).",
+        "Linear perspective (vanishing points).",
+        "Object size (known objects appear smaller when further away).",
+        "Stereo parallax (disparity between two views)."
+      ],
+      "correct_answer": [
+        "Texture gradient (texture becomes denser with distance).",
+        "Linear perspective (vanishing points).",
+        "Object size (known objects appear smaller when further away)."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Why are 1 \u00d7 1 convolutions (bottleneck layers) used in architectures like GoogLeNet and ResNet?",
+      "type": "multichoice",
+      "options": [
+        "To reduce the number of feature channels (dimensionality reduction) before expensive convolutions.",
+        "To add non-linearity to the decision function without changing the receptive field.",
+        "To increase the spatial resolution of the image.",
+        "To perform max pooling operations."
+      ],
+      "correct_answer": [
+        "To reduce the number of feature channels (dimensionality reduction) before expensive convolutions.",
+        "To add non-linearity to the decision function without changing the receptive field."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "In the YOLO detection framework, consider a grid cell that contains the center of an object. Which of the following statements are true?",
+      "type": "multichoice",
+      "options": [
+        "That specific grid cell is responsible for predicting the object\u2019s class and bounding box.",
+        "The confidence score reflects both the probability of an object being present and the IoU of the box.",
+        "Multiple grid cells will redundanty detect the same object, and all are kept in the final output without filtering.",
+        "The grid cell predicts class probabilities conditioned on the object being present (P(Class|Object))."
+      ],
+      "correct_answer": [
+        "That specific grid cell is responsible for predicting the object\u2019s class and bounding box.",
+        "The confidence score reflects both the probability of an object being present and the IoU of the box.",
+        "The grid cell predicts class probabilities conditioned on the object being present (P(Class|Object))."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "What are the key design characteristics of the VGGNet architecture?",
+      "type": "multichoice",
+      "options": [
+        "It uses a stack of small 3 \u00d7 3 convolution filters instead of large filters (e.g., 7 \u00d7 7).",
+        "It uses 2 \u00d7 2 Max Pooling with a stride of 2.",
+        "It uses a global average pooling layer instead of fully connected layers.",
+        "It uses Inception modules to capture multi-scale features."
+      ],
+      "correct_answer": [
+        "It uses a stack of small 3 \u00d7 3 convolution filters instead of large filters (e.g., 7 \u00d7 7).",
+        "It uses 2 \u00d7 2 Max Pooling with a stride of 2."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "To generate photo-realistic super-resolved images, SRGAN minimizes a perceptual loss function. This loss function consists of:",
+      "type": "multichoice",
+      "options": [
+        "Adversarial Loss (Generative Adversarial Network loss).",
+        "Content Loss (based on feature maps from a VGG network).",
+        "Cross-Entropy Loss (for pixel classification).",
+        "Standard pixel-wise MSE loss (as a minor component or baseline)."
+      ],
+      "correct_answer": [
+        "Adversarial Loss (Generative Adversarial Network loss).",
+        "Content Loss (based on feature maps from a VGG network)."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "In a standard stereo vision setup with two parallel cameras, which factors affect the depth (Z) estimation?",
+      "type": "multichoice",
+      "options": [
+        "The focal length (f) of the cameras.",
+        "The baseline distance (B) between the cameras.",
+        "The disparity (d) (difference in x-coordinates) of the matched point.",
+        "The shutter speed of the camera."
+      ],
+      "correct_answer": [
+        "The focal length (f) of the cameras.",
+        "The baseline distance (B) between the cameras.",
+        "The disparity (d) (difference in x-coordinates) of the matched point."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Regarding the LaKDNet architecture for image deblurring:",
+      "type": "multichoice",
+      "options": [
+        "It is a pure CNN model (efficient ConvNet).",
+        "It utilizes specialized blocks (LaKD blocks) to handle blur.",
+        "It uses depth-wise convolutions with large kernels to model long-range dependencies.",
+        "It requires a LiDAR sensor input to determine blur kernel."
+      ],
+      "correct_answer": [
+        "It is a pure CNN model (efficient ConvNet).",
+        "It utilizes specialized blocks (LaKD blocks) to handle blur.",
+        "It uses depth-wise convolutions with large kernels to model long-range dependencies."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Which of the following are considered challenges or \u201dnuisances\u201d in Object Recognition that contribute to the Semantic Gap?",
+      "type": "multichoice",
+      "options": [
+        "Viewpoint variation.",
+        "Illumination changes.",
+        "Occlusion (part of the object is hidden).",
+        "Background Clutter (object blends into background)."
+      ],
+      "correct_answer": [
+        "Viewpoint variation.",
+        "Illumination changes.",
+        "Occlusion (part of the object is hidden).",
+        "Background Clutter (object blends into background)."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider an input image of size 227 \u00d7 227. You apply a convolution with a kernel size of 11 \u00d7 11, a stride of 4, and padding of 0. What is the spatial width/height of the output feature map?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "54 to 56",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "In the original YOLO architecture, the image is split into a 7 \u00d7 7 grid. If the model is configured to predict B = 2 bounding boxes per grid cell, what is the total number of bounding boxes predicted for the entire image?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "97 to 99",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Calculate the Intersection over Union (IoU) for two 1D segments. Segment A = [2, 6] and Segment B = [4, 8]. (Round to 2 decimal places).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.32 to 0.34",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "A feature map has dimensions 14 \u00d7 14 \u00d7 512. We apply a 1 \u00d7 1 convolution layer with 128 filters. How many parameters (weights only, ignore bias) does this layer have?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "65530 to 65540",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Calculate the Precision for the \u201dCat\u201d class. (Round to 2 decimal places).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.87 to 0.89",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Read the scenario below and answer the given subquestions. A \u201dCat vs Dog\u201d classifier is tested on a dataset containing 100 images (80 Cats, 20 Dogs). The model predicts \u201dCat\u201d for 85 images and \u201dDog\u201d for 15 images. Out of the 85 \u201dCat\u201d predictions, 75 are actually Cats.",
+      "group_id": "6406531864611",
+      "section_name": "DLP"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Calculate the Recall for the \u201dCat\u201d class. (Round to 2 decimal places).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.93 to 0.95",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Read the scenario below and answer the given subquestions. A \u201dCat vs Dog\u201d classifier is tested on a dataset containing 100 images (80 Cats, 20 Dogs). The model predicts \u201dCat\u201d for 85 images and \u201dDog\u201d for 15 images. Out of the 85 \u201dCat\u201d predictions, 75 are actually Cats.",
+      "group_id": "6406531864611",
+      "section_name": "DLP"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Calculate the F1 Score for the \u201dCat\u201d class. (Round to 2 decimal places).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.90 to 0.92",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Read the scenario below and answer the given subquestions. A \u201dCat vs Dog\u201d classifier is tested on a dataset containing 100 images (80 Cats, 20 Dogs). The model predicts \u201dCat\u201d for 85 images and \u201dDog\u201d for 15 images. Out of the 85 \u201dCat\u201d predictions, 75 are actually Cats.",
+      "group_id": "6406531864611",
+      "section_name": "DLP"
+    }
+  ],
+  "id": "da5013-2025t3-et-an",
+  "course_code": "DA5013",
+  "course_name": "Deep Learning Practice",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

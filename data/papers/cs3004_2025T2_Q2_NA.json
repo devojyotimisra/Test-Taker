@@ -1,0 +1,394 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)",
+  "filename": "cs3004_2025T2_Q2_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 263,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 264,
+      "text": "Consider four training experiments, each involving a neural network trained on the same dataset for 50 epochs using gradient descent. The loss curves for these models are shown below. The model obtained at the end of 50 epochs is retained in each of the four cases. The solid curve is the training loss and the dashed curve is the validation loss. [IMAGE: /data/images/cs3004_2025T2_Q2_NA_p1_Im1.webp|block] Now consider these four statements. (A) Learning rate used is too high (B) Low bias and high variance (C) Low bias and low variance (D) High bias and low variance Choose the most appropriate pairing of models with the statements.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p1_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p1_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p1_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p1_Im3.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2025T2_Q2_NA_p1_Im1.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p1_Im3.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p1_Im5.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p1_Im6.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p1_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 265,
+      "text": "Which of the following optimizers use an adaptive learning rate?",
+      "type": "multichoice",
+      "options": [
+        "ADAM",
+        "RMSprop",
+        "Momentum based GD",
+        "Nesterov accelerated gradient descent"
+      ],
+      "correct_answer": [
+        "ADAM",
+        "RMSprop"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 266,
+      "text": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p2_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2025T2_Q2_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 267,
+      "text": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p3_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.64 to 74",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2025T2_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 268,
+      "text": "Which of these is the shape of the output volume after the convolution operation?",
+      "type": "MCQ",
+      "options": [
+        "64 \u00d7 64 \u00d7 16",
+        "62 \u00d7 62 \u00d7 16",
+        "64 \u00d7 64 \u00d7 8",
+        "32 \u00d7 32 \u00d7 8",
+        "32 \u00d7 32 \u00d7 16"
+      ],
+      "correct_answer": "64 \u00d7 64 \u00d7 16",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The input volume to a convolutional layer of a CNN has shape 64 \u00d7 64 \u00d7 8, where 8 is the depth or the number of channels. The conv-layer has 16 kernels each of spatial extent 5 \u00d7 5. The stride is 1 and padding is 2. Ignore biases.",
+      "group_id": "6406531323428",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 269,
+      "text": "Find the total number of parameters associated with the convolutional layer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3200",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The input volume to a convolutional layer of a CNN has shape 64 \u00d7 64 \u00d7 8, where 8 is the depth or the number of channels. The conv-layer has 16 kernels each of spatial extent 5 \u00d7 5. The stride is 1 and padding is 2. Ignore biases.",
+      "group_id": "6406531323428",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 270,
+      "text": "If the input volume to the convolutional layer is 128 \u00d7 128 \u00d7 8, would the number of parameters associated with the conv layer change?",
+      "type": "MCQ",
+      "options": [
+        "Yes, it will double.",
+        "Yes, it will halve.",
+        "Yes, it will quadrapule.",
+        "No, it will remain the same."
+      ],
+      "correct_answer": "No, it will remain the same.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The input volume to a convolutional layer of a CNN has shape 64 \u00d7 64 \u00d7 8, where 8 is the depth or the number of channels. The conv-layer has 16 kernels each of spatial extent 5 \u00d7 5. The stride is 1 and padding is 2. Ignore biases.",
+      "group_id": "6406531323428",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 271,
+      "text": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(1, 1)",
+        "(0, 0)",
+        "(\u22121,\u22121)",
+        "(1,\u22121)",
+        "(\u22121, 1)"
+      ],
+      "correct_answer": "(1, 1)",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2025T2_Q2_NA_p5_Im1.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p4_Im3.webp|block]",
+      "group_id": "6406531323440",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 272,
+      "text": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p5_Im4.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2025T2_Q2_NA_p5_Im4.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p4_Im3.webp|block]",
+      "group_id": "6406531323440",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 273,
+      "text": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p5_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes, there is at least one such value for which this happens.",
+        "Yes, there are infinitely many values for which this happens.",
+        "Yes, there are finitely many values from which this happens.",
+        "No, there is no such \u03bb> 0 for which this happens."
+      ],
+      "correct_answer": "No, there is no such \u03bb> 0 for which this happens.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2025T2_Q2_NA_p5_Im5.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p4_Im3.webp|block]",
+      "group_id": "6406531323440",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 274,
+      "text": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p6_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p6_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p6_Im4.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2025T2_Q2_NA_p6_Im2.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p6_Im1.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p6_Im4.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p6_Im6.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p6_Im1.webp|block]",
+      "group_id": "6406531323432",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 275,
+      "text": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p7_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p7_Im3.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2025T2_Q2_NA_p7_Im1.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p6_Im1.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p7_Im3.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p7_Im5.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p7_Im6.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p7_Im7.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p6_Im1.webp|block]",
+      "group_id": "6406531323432",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 276,
+      "text": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p7_Im9.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p7_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p7_Im12.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2025T2_Q2_NA_p7_Im9.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p6_Im1.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p7_Im11.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p7_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p6_Im1.webp|block]",
+      "group_id": "6406531323432",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 277,
+      "text": "Which of the following is the output produced by the conv+relu layer?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p8_Im5.webp|block]",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p8_Im6.webp|block]",
+        "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p8_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p8_Im5.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2025T2_Q2_NA_p8_Im1.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p8_Im5.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p8_Im6.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "For a regression problem, consider an image X of size 4\u00d74 and true label y that is passed through a toy convolutional network that has one convolutional layer with a single kernel followed by a max- pooling layer. Ignore the bias. [IMAGE: /data/images/cs3004_2025T2_Q2_NA_p8_Im1.webp|block] W denotes the kernel. S is the stride. P is the padding and K is the number of kernels. F is the spatial extent of the kernel for the max-pooling operation.",
+      "group_id": "6406531323436",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 278,
+      "text": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p8_Im8.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2025T2_Q2_NA_p8_Im8.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "For a regression problem, consider an image X of size 4\u00d74 and true label y that is passed through a toy convolutional network that has one convolutional layer with a single kernel followed by a max- pooling layer. Ignore the bias. [IMAGE: /data/images/cs3004_2025T2_Q2_NA_p8_Im1.webp|block] W denotes the kernel. S is the stride. P is the padding and K is the number of kernels. F is the spatial extent of the kernel for the max-pooling operation.",
+      "group_id": "6406531323436",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 279,
+      "text": "[IMAGE: /data/images/cs3004_2025T2_Q2_NA_p9_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2025T2_Q2_NA_p9_Im1.webp",
+        "/data/images/cs3004_2025T2_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "For a regression problem, consider an image X of size 4\u00d74 and true label y that is passed through a toy convolutional network that has one convolutional layer with a single kernel followed by a max- pooling layer. Ignore the bias. [IMAGE: /data/images/cs3004_2025T2_Q2_NA_p8_Im1.webp|block] W denotes the kernel. S is the stride. P is the padding and K is the number of kernels. F is the spatial extent of the kernel for the max-pooling operation.",
+      "group_id": "6406531323436",
+      "section_name": "Deep Learning"
+    }
+  ],
+  "id": "cs3004-2025t2-q2-na",
+  "course_code": "CS3004",
+  "course_name": "Deep Learning",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

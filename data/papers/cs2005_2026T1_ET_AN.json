@@ -1,0 +1,685 @@
+{
+  "title": "DIPLOMA LEVEL : PROGRAMMING CONCEPTS USING JAVA (COMPUTER BASED EXAM)",
+  "filename": "cs2005_2026T1_ET_AN.pdf",
+  "total_questions": 24,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : PROGRAMMING CONCEPTS USING JAVA (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p1_Im3.webp|block] What will the output be?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im6.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p1_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p2_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p2_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "From among the options, identify the appropriate function header(s) for function [IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im7.webp|inline] that takes as input an array of [IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im8.webp|inline] objects and prints the highest marks among them. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p3_Im1.webp|block] Choose the correct option(s).",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p3_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p3_Im7.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p2_Im7.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p2_Im8.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p3_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p3_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p3_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p3_Im6.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p4_Im1.webp|block] What will the output be?",
+      "type": "MCQ",
+      "options": [
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p4_Im3.webp|block]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p4_Im5.webp|block]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p4_Im6.webp|block]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p4_Im7.webp|block]"
+      ],
+      "correct_answer": "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p4_Im3.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p4_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p4_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p4_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p4_Im6.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p5_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p5_Im2.webp|block] Identify the appropriate statement to fill in the blank at [IMAGE: /data/images/cs2005_2026T1_ET_AN_p5_Im3.webp|inline] , such that the output is: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im2.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p5_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p5_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p5_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p5_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p6_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p6_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p6_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the following block of code. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im7.webp|block] Which among the following code blocks can replace the given code in order to generate a customized assertion error as shown below? [IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im9.webp|inline] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im10.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p7_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p7_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im9.webp|inline] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im10.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p6_Im7.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p6_Im8.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p6_Im9.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p6_Im10.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p7_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p8_Im1.webp|block] Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "It generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p8_Im3.webp|block]",
+        "Compilation fails because [IMAGE: /data/images/cs2005_2026T1_ET_AN_p8_Im4.webp|inline] and [IMAGE: /data/images/cs2005_2026T1_ET_AN_p8_Im5.webp|inline] cannot be converted to [IMAGE: /data/images/cs2005_2026T1_ET_AN_p8_Im6.webp|inline]",
+        "Compilation fails because [IMAGE: /data/images/cs2005_2026T1_ET_AN_p8_Im7.webp|inline] method has not been defined in classes [IMAGE: /data/images/cs2005_2026T1_ET_AN_p8_Im8.webp|inline] and [IMAGE: /data/images/cs2005_2026T1_ET_AN_p8_Im9.webp|inline]",
+        "It generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p9_Im1.webp|block]"
+      ],
+      "correct_answer": "It generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p9_Im1.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p8_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p8_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p8_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p8_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p8_Im6.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p8_Im7.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p8_Im8.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p8_Im9.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p9_Im2.webp|block] Choose the correct option to fill in place of [IMAGE: /data/images/cs2005_2026T1_ET_AN_p9_Im3.webp|inline] so that the output is: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p9_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p10_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p10_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p10_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p10_Im5.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p9_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p9_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p9_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p10_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p10_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p11_Im1.webp|block] Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p11_Im3.webp|inline]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p11_Im4.webp|inline]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p11_Im6.webp|inline]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p11_Im7.webp|inline]"
+      ],
+      "correct_answer": "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p11_Im6.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p11_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p11_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p11_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p11_Im6.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p11_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p12_Im1.webp|block] Which of the following is NOT true about the given code?",
+      "type": "MCQ",
+      "options": [
+        "This program may generate [IMAGE: /data/images/cs2005_2026T1_ET_AN_p12_Im3.webp|inline] .",
+        "The program may generate the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p12_Im5.webp|block]",
+        "The program may generate the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p12_Im6.webp|block]",
+        "The program may generate the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p13_Im1.webp|block]"
+      ],
+      "correct_answer": "This program may generate [IMAGE: /data/images/cs2005_2026T1_ET_AN_p12_Im3.webp|inline] .",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p12_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p12_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p12_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p12_Im6.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p13_Im2.webp|block] Choose the correct option to fill in the blank at [IMAGE: /data/images/cs2005_2026T1_ET_AN_p13_Im3.webp|inline] such that the program generates the following output. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p14_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p14_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p14_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p14_Im6.webp|inline]",
+        "All of these."
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p14_Im6.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p13_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p13_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p14_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p14_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p14_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p14_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p14_Im7.webp|block] Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p15_Im2.webp|block]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p15_Im4.webp|block]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p15_Im5.webp|block]",
+        "This program terminates abnormally due to unhandled exception(s)."
+      ],
+      "correct_answer": "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p15_Im4.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p14_Im7.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p15_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p15_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p15_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p15_Im6.webp|block] Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "It generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p16_Im2.webp|block]",
+        "It generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p16_Im3.webp|block]",
+        "It generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p16_Im5.webp|block]",
+        "It generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p16_Im6.webp|block]"
+      ],
+      "correct_answer": "It generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p16_Im5.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p15_Im6.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p16_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p16_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p16_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p16_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Consider the code given below. Assume that the file [IMAGE: /data/images/cs2005_2026T1_ET_AN_p16_Im7.webp|inline] contains the following lines of text in it. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p16_Im8.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p17_Im1.webp|block] Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p17_Im3.webp|inline] throws an [IMAGE: /data/images/cs2005_2026T1_ET_AN_p17_Im4.webp|inline]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p17_Im5.webp|block]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p17_Im7.webp|block]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p18_Im1.webp|block]"
+      ],
+      "correct_answer": "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p17_Im7.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p16_Im7.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p16_Im8.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p17_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p17_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p17_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p17_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p17_Im7.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p19_Im1.webp|block] What will the output be?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p19_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p19_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p19_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p19_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p19_Im6.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p19_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p19_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p19_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p19_Im6.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p19_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider the following code which has 4 user-defined threads, two threads would work as data adders to a dataset (object) and the other two work as data removers from the same dataset. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p20_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p20_Im2.webp|block] Choose all the options that would NEVER occur as a result of execution of this code.",
+      "type": "multichoice",
+      "options": [
+        "It may generate the output as: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p21_Im2.webp|block]",
+        "It may generate the output as: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p21_Im3.webp|block]",
+        "It may generate the output as: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p21_Im5.webp|block]",
+        "It may generate the output as: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p21_Im6.webp|block]"
+      ],
+      "correct_answer": [
+        "It may generate the output as: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p21_Im2.webp|block]",
+        "It may generate the output as: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p21_Im3.webp|block]"
+      ],
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p20_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p20_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p21_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p21_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p21_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p21_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider the code given below that checks whether two circles are identical. Method [IMAGE: /data/images/cs2005_2026T1_ET_AN_p21_Im7.webp|inline] is overridden to compare two [IMAGE: /data/images/cs2005_2026T1_ET_AN_p21_Im8.webp|inline] objects as follows. If two circles have the same radius and center, then both are considered identical. Based on the given information, answer the question that follows. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p22_Im1.webp|block] Choose the correct option to fill in place of [IMAGE: /data/images/cs2005_2026T1_ET_AN_p22_Im2.webp|inline] so that the output is: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p22_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p22_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p23_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p23_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p21_Im7.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p21_Im8.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p22_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p22_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p22_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p22_Im6.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p23_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p23_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Consider the following Java code that uses chained exceptions. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p24_Im1.webp|block] What can be the output of this code?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p24_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p24_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p24_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p24_Im5.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p24_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p24_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p24_Im6.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p24_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Method [IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im1.webp|inline] returns an infinite sequential ordered [IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im2.webp|inline] produced by iterative application of a function [IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im3.webp|inline] to an initial element [IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im4.webp|inline] , producing a [IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im5.webp|inline] consisting of [IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im6.webp|inline] , [IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im7.webp|inline] , [IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im8.webp|inline] , etc. Based on the above information, consider the code given below, and answer the question that follows. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im9.webp|block] What will the output be?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im13.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im14.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im15.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p25_Im11.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im6.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im7.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im8.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im9.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im11.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im13.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im14.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p25_Im15.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Consider the code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p26_Im1.webp|block] Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "The code always prints 2000.",
+        "The code prints any number in the range 1000 to 2000",
+        "The code prints any number in the range 0 to 1000",
+        "The code always prints 1000."
+      ],
+      "correct_answer": "The code prints any number in the range 1000 to 2000",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p26_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p27_Im1.webp|block] What will the output be?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p27_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p27_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p28_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p28_Im1.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p27_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p27_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p27_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p28_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p28_Im2.webp|block] What will the output be?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p28_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im3.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p28_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p28_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p29_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p29_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Method [IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im4.webp|inline] returns an [IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im5.webp|inline] that describes the specific value, if non-null; otherwise returns an [IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im6.webp|inline] . Based on this description, consider the code given below, and answer the question that follows. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im7.webp|block] Choose the correct option.",
+      "type": "MCQ",
+      "options": [
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p30_Im2.webp|block]",
+        "This program terminates due to [IMAGE: /data/images/cs2005_2026T1_ET_AN_p30_Im4.webp|inline] after printing the message: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p30_Im5.webp|block]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p30_Im6.webp|block]",
+        "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p30_Im7.webp|block]"
+      ],
+      "correct_answer": "This program generates the output: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p30_Im2.webp|block]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p29_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p29_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p29_Im6.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p29_Im7.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p30_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p30_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p30_Im5.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p30_Im6.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p30_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p31_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p31_Im2.webp|block] Choose the correct option to be filled in place of [IMAGE: /data/images/cs2005_2026T1_ET_AN_p31_Im3.webp|inline] such that the above program produces the GUI with rows input at the top, columns input in the center, and the button at the bottom.",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p32_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p32_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p32_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p32_Im5.webp|block]",
+      "marks": 6.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2005_2026T1_ET_AN_p31_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p31_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p31_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p32_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p32_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p32_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Java"
+    }
+  ],
+  "id": "cs2005-2026t1-et-an",
+  "course_code": "CS2005",
+  "course_name": "Programming Concepts using Java",
+  "level": "Diploma in Programming",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

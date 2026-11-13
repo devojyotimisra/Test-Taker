@@ -1,0 +1,80 @@
+{
+  "title": "Speech Tech",
+  "filename": "ee4001_2022T3_ET_AN.pdf",
+  "total_questions": 3,
+  "total_marks": 6.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 160,
+      "text": "Identify the sets of valid test cases for branch coverage.",
+      "type": "multichoice",
+      "options": [
+        "{day = 0, day = 5}",
+        "{day = -1, day = 5, day = 8}",
+        "{day = 0, day = 5, day = 7}",
+        "{day = 5, day = 6, day = 9}"
+      ],
+      "correct_answer": [
+        "{day = 0, day = 5, day = 7}",
+        "{day = 5, day = 6, day = 9}"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 161,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Identify the sets of valid test cases for multiple condition coverage.",
+      "type": "MCQ",
+      "options": [
+        "{day = 0, day = 8, day = 5, day = 7}",
+        "{day = -1, day = 8, day = 5, day = 1}",
+        "{day = 0, day = 5, day = 7}",
+        "{day = 5, day = 6, day = 9}"
+      ],
+      "correct_answer": "{day = 0, day = 8, day = 5, day = 7}",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 162,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THERE IS NO SPEECH TECHNOLOGY QP IN AFTERNOON SESSION",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Tech"
+    }
+  ],
+  "id": "ee4001-2022t3-et-an",
+  "course_code": "EE4001",
+  "course_name": "Digital Signal Processing",
+  "level": "Degree",
+  "term": "Sep 2022",
+  "year": 2022,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

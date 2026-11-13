@@ -1,0 +1,861 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)",
+  "filename": "cs2003_2025T3_ET_AN.pdf",
+  "total_questions": 33,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider the following flask app and Jinja2 template. [IMAGE: /data/images/cs2003_2025T3_ET_AN_p1_Im1.webp|block] If the flask app is running locally on http://127.0.0.1:5000. What will be the output on the browser for the base URL?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p2_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p2_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p2_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p1_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p2_Im2.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p2_Im3.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p2_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following flask app. [IMAGE: /data/images/cs2003_2025T3_ET_AN_p3_Im1.webp|block] If the application is running locally on http://127.0.0.1:5000, select the correct options.",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p3_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p4_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p4_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p3_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p4_Im2.webp|block]"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p3_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p3_Im4.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p4_Im2.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Which of the following statements is/are correct ?",
+      "type": "multichoice",
+      "options": [
+        "For the command: python file.py find 103 , the terminal output is: [IMAGE: /data/images/cs2003_2025T3_ET_AN_p5_Im3.webp|block]",
+        "For the command: python file.py find 103 , the terminal output is: [IMAGE: /data/images/cs2003_2025T3_ET_AN_p5_Im5.webp|block]",
+        "For the command: python file.py find 104 sid , the terminal output is: [IMAGE: /data/images/cs2003_2025T3_ET_AN_p6_Im1.webp|block]",
+        "For the command: python file.py find 102 , the terminal output is: [IMAGE: /data/images/cs2003_2025T3_ET_AN_p6_Im3.webp|block]",
+        "For the command: python file.py find 104 sid , the terminal output is: [IMAGE: /data/images/cs2003_2025T3_ET_AN_p6_Im5.webp|block]"
+      ],
+      "correct_answer": [
+        "For the command: python file.py find 103 , the terminal output is: [IMAGE: /data/images/cs2003_2025T3_ET_AN_p5_Im5.webp|block]",
+        "For the command: python file.py find 104 sid , the terminal output is: [IMAGE: /data/images/cs2003_2025T3_ET_AN_p6_Im5.webp|block]"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p5_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p5_Im3.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p5_Im5.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p6_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p6_Im3.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p6_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p5_Im1.webp|block]",
+      "group_id": "6406531852104",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Which of the following commands will give the terminal output as: [IMAGE: /data/images/cs2003_2025T3_ET_AN_p6_Im6.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "python file.py find 104 sid",
+        "python file.py 102 find sid",
+        "python file.py find 105 sid",
+        "python file.py find"
+      ],
+      "correct_answer": [
+        "python file.py 102 find sid",
+        "python file.py find"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p6_Im6.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p5_Im1.webp|block]",
+      "group_id": "6406531852104",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the following function to be tested and test functions given in the Python code snippet below. [IMAGE: /data/images/cs2003_2025T3_ET_AN_p7_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p7_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p7_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p7_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p7_Im8.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p7_Im7.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p7_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p7_Im2.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p7_Im6.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p7_Im7.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following SQL create statement. [IMAGE: /data/images/cs2003_2025T3_ET_AN_p8_Im1.webp|block] Which of the following flask_sqlalchemy models will create exactly the same table as created by the above SQL command?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p8_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p8_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p9_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p8_Im6.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p8_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p8_Im5.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p8_Im6.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p9_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following python code snippet. What will be the rendered output for the terminal output ? [IMAGE: /data/images/cs2003_2025T3_ET_AN_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p10_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p11_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p11_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p10_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p10_Im4.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p11_Im2.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p11_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "What will be the final styling applied to the element inside the div for the URL: http://127.0.0.1:5000/?color=green&size=30&msg=welcome+user",
+      "type": "MCQ",
+      "options": [
+        "background-color: blue, font-size: 20px, padding: 10px, color: white",
+        "background-color: green, font-size: 30px, padding: 20px, color: white",
+        "background-color: blue, font-size: 20px, padding: 30px, color: green",
+        "background-color: green, font-size: 30px, padding: 10px, color: white"
+      ],
+      "correct_answer": "background-color: green, font-size: 30px, padding: 10px, color: white",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p12_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p12_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following flask application and html template. Assume that the Flask app is running at http://127.0.0.1:5000. [IMAGE: /data/images/cs2003_2025T3_ET_AN_p12_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p12_Im2.webp|block]",
+      "group_id": "6406531852110",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "What will be the rendered output on the browser for the URL: http://127.0.0.1:5000/?color=green&size=30&msg=welcome+user",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p13_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p13_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p13_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p13_Im6.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p12_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p12_Im2.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p13_Im4.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p13_Im5.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p13_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following flask application and html template. Assume that the Flask app is running at http://127.0.0.1:5000. [IMAGE: /data/images/cs2003_2025T3_ET_AN_p12_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p12_Im2.webp|block]",
+      "group_id": "6406531852110",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Which of the following statements correctly differentiates between synchronous and asynchronous updates in frontend development?",
+      "type": "multichoice",
+      "options": [
+        "In synchronous updates, the UI waits for the operation to complete, while in asynchronous updates, the UI remains responsive.",
+        "Synchronous execution is blocking, whereas asynchronous execution is non- blocking.",
+        "Asynchronous updates are preferred for network requests and background tasks, while synchronous is best for quick operations.",
+        "Both synchronous and asynchronous updates allow the browser to continue execution without waiting."
+      ],
+      "correct_answer": [
+        "In synchronous updates, the UI waits for the operation to complete, while in asynchronous updates, the UI remains responsive.",
+        "Synchronous execution is blocking, whereas asynchronous execution is non- blocking.",
+        "Asynchronous updates are preferred for network requests and background tasks, while synchronous is best for quick operations."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p14_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 \u2192 C, 2 \u2192 D, 3 \u2192 B, 4 \u2192 A",
+        "1 \u2192 B, 2 \u2192 A, 3 \u2192 D, 4 \u2192 C",
+        "1 \u2192 A, 2 \u2192 B, 3 \u2192 E, 4 \u2192 C",
+        "1 \u2192 C, 2 \u2192 D, 3 \u2192 B, 4 \u2192 E"
+      ],
+      "correct_answer": "1 \u2192 C, 2 \u2192 D, 3 \u2192 B, 4 \u2192 E",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p14_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p15_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p15_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p15_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p15_Im5.webp|inline]",
+        "None of these."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p15_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p15_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p15_Im5.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p15_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p15_Im3.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p15_Im4.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p15_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p16_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p17_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p17_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p17_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p17_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p17_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p17_Im5.webp|block]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p16_Im2.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p16_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p17_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p17_Im3.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p17_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p16_Im1.webp|block]",
+      "group_id": "6406531852116",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "If the correct if-else block is used, what will be the output of the program for the sequence [2, 5, 8]?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p17_Im7.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p18_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p18_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p16_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p17_Im7.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p18_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p18_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p16_Im1.webp|block]",
+      "group_id": "6406531852116",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Which SQL query correctly retrieves the customer names and the services they requested ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p20_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p20_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p21_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p21_Im2.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p19_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p19_Im2.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p20_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p20_Im4.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p20_Im6.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p21_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A Household Services Application maintains the following three tables : [IMAGE: /data/images/cs2003_2025T3_ET_AN_p19_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p19_Im2.webp|block] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p20_Im1.webp|block] The Requests table represents service bookings made by customers.",
+      "group_id": "6406531852119",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Which query finds the number of service requests made by each customer ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p21_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p21_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p21_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p21_Im6.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p19_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p19_Im2.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p20_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p21_Im5.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p21_Im6.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p21_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A Household Services Application maintains the following three tables : [IMAGE: /data/images/cs2003_2025T3_ET_AN_p19_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p19_Im2.webp|block] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p20_Im1.webp|block] The Requests table represents service bookings made by customers.",
+      "group_id": "6406531852119",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "If the given tables are mapped to Flask-SQLAlchemy models (Customer, Service, Request), which query correctly retrieves all services requested by customer with id=1?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p22_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p22_Im3.webp|inline] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p22_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p22_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p19_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p19_Im2.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p20_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p22_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p22_Im3.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p22_Im5.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p22_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A Household Services Application maintains the following three tables : [IMAGE: /data/images/cs2003_2025T3_ET_AN_p19_Im1.webp|block] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p19_Im2.webp|block] [IMAGE: /data/images/cs2003_2025T3_ET_AN_p20_Im1.webp|block] The Requests table represents service bookings made by customers.",
+      "group_id": "6406531852119",
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Which of the following is the correct way to add a click event listener to a button with id=\"myBtn\" in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p22_Im8.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p22_Im9.webp|block]",
+        "",
+        "All of these"
+      ],
+      "correct_answer": "All of these",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p22_Im8.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p22_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p23_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p23_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p23_Im6.webp|block]",
+        "",
+        "Error: Missing argument"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p23_Im5.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p23_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p23_Im5.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p23_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p24_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p24_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p24_Im5.webp|block]",
+        "",
+        "Both [IMAGE: /data/images/cs2003_2025T3_ET_AN_p24_Im3.webp|block] and [IMAGE: /data/images/cs2003_2025T3_ET_AN_p24_Im5.webp|block]"
+      ],
+      "correct_answer": "Both [IMAGE: /data/images/cs2003_2025T3_ET_AN_p24_Im3.webp|block] and [IMAGE: /data/images/cs2003_2025T3_ET_AN_p24_Im5.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p24_Im1.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p24_Im4.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p24_Im5.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p24_Im3.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p24_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Consider the data table below in SQLite database. [IMAGE: /data/images/cs2003_2025T3_ET_AN_p25_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "SELECT * FROM products ORDER BY price ASC;",
+        "SELECT * FROM products ORDER BY price DESC;",
+        "SELECT price FROM products;",
+        "SELECT MAX(price) FROM products;"
+      ],
+      "correct_answer": "SELECT * FROM products ORDER BY price DESC;",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p25_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Which of the following commands is/are valid to run pytest from the command line?",
+      "type": "multichoice",
+      "options": [
+        "pytest",
+        "pytest test_file.py",
+        "pytest -run",
+        "pytest -k \u201clogin\u201d"
+      ],
+      "correct_answer": [
+        "pytest",
+        "pytest test_file.py",
+        "pytest -k \u201clogin\u201d"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Consider the following Python code. [IMAGE: /data/images/cs2003_2025T3_ET_AN_p26_Im1.webp|block] Which of the following assertion test case throws the exception?",
+      "type": "MCQ",
+      "options": [
+        "assert max_value([3, 7, 2]) == 7",
+        "assert max_value([]) is None",
+        "assert max_value(\"abczfk\") == \"z\"",
+        "assert max_value(1) == 1"
+      ],
+      "correct_answer": "assert max_value(1) == 1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p26_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "What does the following curl command do? [IMAGE: /data/images/cs2003_2025T3_ET_AN_p26_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Sends a POST request to retrieve data.",
+        "Sends a POST request to send form data.",
+        "Sends a POST request to send JSON data.",
+        "Sends a POST request to retrieve JSON data."
+      ],
+      "correct_answer": "Sends a POST request to send form data.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p26_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p27_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "required, minlength, and type=\"email\"",
+        "min, max, and minlength",
+        "required, type=\"password\", and action",
+        "type=\"email\", min, max, minlength, and required"
+      ],
+      "correct_answer": "type=\"email\", min, max, minlength, and required",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p27_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p28_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "GET /users - returns 200 with all users",
+        "GET /users/5 - returns 200 with user details for ID 5",
+        "POST /users - returns 201 with user created message",
+        "POST /users/5 - returns 201 with user created message"
+      ],
+      "correct_answer": [
+        "GET /users - returns 200 with all users",
+        "GET /users/5 - returns 200 with user details for ID 5",
+        "POST /users - returns 201 with user created message"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p28_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "Which statements about frontend and backend validation are TRUE?",
+      "type": "multichoice",
+      "options": [
+        "Frontend validation (HTML5/JavaScript) is sufficient for security",
+        "Frontend validation improves user experience by providing immediate feedback",
+        "Backend validation is mandatory for security because frontend can be bypassed",
+        "Backend validation should validate the same constraints as frontend"
+      ],
+      "correct_answer": [
+        "Frontend validation improves user experience by providing immediate feedback",
+        "Backend validation is mandatory for security because frontend can be bypassed",
+        "Backend validation should validate the same constraints as frontend"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p29_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "All three messages will be displayed",
+        "Only the info and warning messages will be displayed",
+        "Only the warning message will be displayed",
+        "Only the info and debug messages will be displayed"
+      ],
+      "correct_answer": "Only the info and warning messages will be displayed",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p29_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p30_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Once for all tests",
+        "Twice, once for each test",
+        "Once during collection phase only",
+        "It depends on the pytest configuration"
+      ],
+      "correct_answer": "Twice, once for each test",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p30_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p31_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "test_database and test_complex",
+        "Only test_calculation",
+        "test_calculation and test_complex",
+        "All three tests"
+      ],
+      "correct_answer": "Only test_calculation",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p31_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 32,
+      "text": "You are on the main branch and want to merge feature1 and feature2 branches. What is the correct command sequence?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p32_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p32_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p32_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p32_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p32_Im2.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p32_Im2.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p32_Im4.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p32_Im5.webp",
+        "/data/images/cs2003_2025T3_ET_AN_p32_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 33,
+      "text": "[IMAGE: /data/images/cs2003_2025T3_ET_AN_p32_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Returns a 404 error",
+        "Displays \"Welcome None\"",
+        "Redirects to the login page",
+        "Returns an error page with HTTP 403"
+      ],
+      "correct_answer": "Redirects to the login page",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2003_2025T3_ET_AN_p32_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev1"
+    }
+  ],
+  "id": "cs2003-2025t3-et-an",
+  "course_code": "CS2003",
+  "course_name": "Application Development 1",
+  "level": "Diploma in Programming",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

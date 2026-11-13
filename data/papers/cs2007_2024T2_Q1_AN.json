@@ -1,0 +1,374 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
+  "filename": "cs2007_2024T2_Q1_AN.pdf",
+  "total_questions": 17,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 116,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 117,
+      "text": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p1_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p1_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p1_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p1_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p1_Im3.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p1_Im4.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p1_Im5.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p1_Im6.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p1_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 118,
+      "text": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p1_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Both k 1 and k 2 are valid kernels.",
+        "k 1 is a valid kernel, but k 2 is not a valid kernel.",
+        "k 2 is a valid kernel, but k 1 is not a valid kernel.",
+        "Neither k 1 nor k 2 is a valid kernel."
+      ],
+      "correct_answer": "Both k 1 and k 2 are valid kernels.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p1_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 119,
+      "text": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p2_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p2_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p2_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p2_Im5.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p2_Im3.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p2_Im4.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p2_Im5.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p2_Im6.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p2_Im7.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p2_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 120,
+      "text": "Kernel PCA with a polynomial kernel of degree 3 is run on a dataset of 100 data-points. Let \u03d5 be the transformation corresponding to this kernel. If the largest eigenvalue of the centered kernel matrix is 10, find the largest eigenvalue of the covariance matrix of the transformed dataset, where \u03d5 is used to effect the transformation.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.1",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 121,
+      "text": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p3_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.8",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 122,
+      "text": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p3_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "16",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 123,
+      "text": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p4_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.25",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 124,
+      "text": "Find the variance of the dataset along the first principal component.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p4_Im2.webp|block]",
+      "group_id": "640653825117",
+      "section_name": "MLT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 125,
+      "text": "Find the variance of the dataset along the x-axis.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p4_Im2.webp|block]",
+      "group_id": "640653825117",
+      "section_name": "MLT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 126,
+      "text": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p5_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p6_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p6_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p5_Im5.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p5_Im1.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p4_Im2.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p5_Im5.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p6_Im2.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p4_Im2.webp|block]",
+      "group_id": "640653825117",
+      "section_name": "MLT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 127,
+      "text": "If ( x 1 , y 1 ) is the mean of the first cluster after convergence, find the value of x 1 + y 1 .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-5",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p6_Im4.webp|block]",
+      "group_id": "640653825121",
+      "section_name": "MLT"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 128,
+      "text": "If ( x 2 , y 2 ) is the mean of the second cluster after convergence, find the value of x 2 + y 2 .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p6_Im4.webp|block]",
+      "group_id": "640653825121",
+      "section_name": "MLT"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 129,
+      "text": "What is the posterior?",
+      "type": "MCQ",
+      "options": [
+        "Beta(12, 8)",
+        "Beta(11, 7)",
+        "Br (0.5)",
+        "Beta(8, 5)"
+      ],
+      "correct_answer": "Beta(12, 8)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In the context of Bayesian estimation, consider a Beta prior for the parameter p of a Bernoulli distribution: [IMAGE: /data/images/cs2007_2024T2_Q1_AN_p7_Im1.webp|block] The dataset has 8 ones and 5 zeros.",
+      "group_id": "640653825127",
+      "section_name": "MLT"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 130,
+      "text": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p8_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.6",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p8_Im1.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "In the context of Bayesian estimation, consider a Beta prior for the parameter p of a Bernoulli distribution: [IMAGE: /data/images/cs2007_2024T2_Q1_AN_p7_Im1.webp|block] The dataset has 8 ones and 5 zeros.",
+      "group_id": "640653825127",
+      "section_name": "MLT"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 131,
+      "text": "Find the log-likelihood of the dataset under this distribution.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p8_Im4.webp|inline] [IMAGE: /data/images/cs2007_2024T2_Q1_AN_p9_Im2.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p9_Im4.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p8_Im4.webp|inline] [IMAGE: /data/images/cs2007_2024T2_Q1_AN_p9_Im2.webp|block]",
+      "marks": 2.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p8_Im2.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p8_Im4.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p9_Im2.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p9_Im3.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p8_Im2.webp|block]",
+      "group_id": "640653825124",
+      "section_name": "MLT"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 132,
+      "text": "Consider a dataset that has 25 data-points. The data-point x i and its frequency is given in the following table: [IMAGE: /data/images/cs2007_2024T2_Q1_AN_p9_Im5.webp|block] In case the table is not clear: the value 0 appears once in the dataset, the value 1 appears four times in the dataset, and so on. Find the maximum likelihood estimate for the parameter \u03bb of the Poisson distribution given this dataset.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.52",
+      "marks": 2.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2024T2_Q1_AN_p9_Im5.webp",
+        "/data/images/cs2007_2024T2_Q1_AN_p8_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2024T2_Q1_AN_p8_Im2.webp|block]",
+      "group_id": "640653825124",
+      "section_name": "MLT"
+    }
+  ],
+  "id": "cs2007-2024t2-q1-an",
+  "course_code": "CS2007",
+  "course_name": "Machine Learning Techniques",
+  "level": "Diploma in Data Science",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "Quiz 1",
+  "session": "Afternoon"
+}

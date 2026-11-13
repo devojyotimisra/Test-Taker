@@ -1,0 +1,521 @@
+{
+  "title": "Machine Learning Techniques - Sep 2022 Quiz 2",
+  "filename": "cs2007_2022T3_Q2_NA.pdf",
+  "total_questions": 24,
+  "total_marks": 24.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 185,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is/are true regarding Vuex?",
+      "type": "multichoice",
+      "options": [
+        "A component which uses store state cannot have local state.",
+        "A component can have local state, even if it uses store state.",
+        "Getters in vuex is used to create derived state.",
+        "All of these"
+      ],
+      "correct_answer": [
+        "A component can have local state, even if it uses store state.",
+        "Getters in vuex is used to create derived state."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 186,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 187,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p2_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p2_Im1.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p2_Im3.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p2_Im4.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p2_Im6.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 188,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p2_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p2_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p2_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p2_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p3_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p3_Im2.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p2_Im8.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p2_Im9.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p2_Im10.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p2_Im11.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 189,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Gradient descent",
+        "Stochastic gradient descent"
+      ],
+      "correct_answer": "Gradient descent",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 190,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p3_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "1",
+        "0.666",
+        "0.5",
+        "0.25"
+      ],
+      "correct_answer": "0.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p3_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 191,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p4_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p4_Im7.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p4_Im3.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p4_Im4.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p4_Im5.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p4_Im6.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 192,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "1",
+        "Insufficient information to make a prediction"
+      ],
+      "correct_answer": "Insufficient information to make a prediction",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 193,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "S1 is true but S2 is false",
+        "S1 is false but S2 is true",
+        "Both S1 and S2 are true",
+        "Both S1 and S2 are false"
+      ],
+      "correct_answer": "S1 is true but S2 is false",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 194,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p6_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 195,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Tree-1",
+        "Tree-2"
+      ],
+      "correct_answer": "Tree-1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 196,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p7_Im4.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p8_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p8_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p8_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p8_Im5.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p7_Im4.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p8_Im3.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p8_Im5.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p8_Im6.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 197,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p8_Im8.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p8_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 198,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "24",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 199,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 200,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p12_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.3 to 0.4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 201,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the label assigned to the left child? Enter 1 or 0 .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A decision stump is a decision tree that has exactly one question at the parent node (root) which then splits into two prediction nodes (leaves): [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "640653445644",
+      "section_name": "MLT"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 202,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the entropy of the parent?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.92 to 1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A decision stump is a decision tree that has exactly one question at the parent node (root) which then splits into two prediction nodes (leaves): [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "640653445644",
+      "section_name": "MLT"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 203,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the entropy of the left child?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.80 to 0.83",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A decision stump is a decision tree that has exactly one question at the parent node (root) which then splits into two prediction nodes (leaves): [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "640653445644",
+      "section_name": "MLT"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 204,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the entropy of the right child?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.62 to 0.68",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A decision stump is a decision tree that has exactly one question at the parent node (root) which then splits into two prediction nodes (leaves): [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "640653445644",
+      "section_name": "MLT"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 205,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the information gain corresponding to the question at the parent node?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.21 to 0.29",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A decision stump is a decision tree that has exactly one question at the parent node (root) which then splits into two prediction nodes (leaves): [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "640653445644",
+      "section_name": "MLT"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 206,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p16_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p16_Im2.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p16_Im1.webp|block]",
+      "group_id": "640653445650",
+      "section_name": "MLT"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 207,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T3_Q2_NA_p16_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T3_Q2_NA_p16_Im3.webp",
+        "/data/images/cs2007_2022T3_Q2_NA_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2022T3_Q2_NA_p16_Im1.webp|block]",
+      "group_id": "640653445650",
+      "section_name": "MLT"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 208,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0",
+      "type": "MCQ",
+      "options": [],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    }
+  ],
+  "id": "cs2007-2022t3-q2-na",
+  "course_code": "CS2007",
+  "course_name": "Machine Learning Techniques",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2022",
+  "year": 2022,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

@@ -1,0 +1,466 @@
+{
+  "title": "Database Management Systems - May 2022 Quiz 1",
+  "filename": "cs2001_2022T2_Q1_NA.pdf",
+  "total_questions": 19,
+  "total_marks": 19.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 70,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 71,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which among the following levels of abstraction describes the information about the data stored in the database and the relationships among the data fields?",
+      "type": "MCQ",
+      "options": [
+        "Physical level",
+        "Logical level",
+        "View level",
+        "None of these"
+      ],
+      "correct_answer": "Logical level",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 72,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The ability to modify the physical schema without changing the logical schema is known as _________________",
+      "type": "MCQ",
+      "options": [
+        "Logical Data Independence",
+        "Physical Data Independence",
+        "View Data Independence",
+        "None of these"
+      ],
+      "correct_answer": "Physical Data Independence",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 73,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which among the following is used for accessing and manipulating the data organized by the appropriate data model?",
+      "type": "MCQ",
+      "options": [
+        "Data Definition Language",
+        "Data Manipulation Language",
+        "Data Control Language",
+        "Transaction Control Language"
+      ],
+      "correct_answer": "Data Manipulation Language",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 74,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p3_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p3_Im7.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p3_Im1.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p3_Im4.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p3_Im5.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 75,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p4_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p4_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p4_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p4_Im5.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p4_Im1.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p4_Im5.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p4_Im6.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 76,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p5_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p5_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p5_Im1.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p5_Im3.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p5_Im4.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p5_Im6.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 77,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p6_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p6_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p6_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p6_Im6.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p6_Im1.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p6_Im5.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p6_Im6.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 78,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "14.29",
+        "16.67",
+        "20.00",
+        "25.00"
+      ],
+      "correct_answer": "20.00",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 79,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p8_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p8_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p8_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p8_Im7.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p8_Im1.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p8_Im4.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p8_Im6.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 80,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p9_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p9_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p9_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p9_Im7.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p9_Im1.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p9_Im4.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p9_Im6.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 81,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p10_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p10_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p11_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p11_Im1.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p10_Im1.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p10_Im4.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p10_Im5.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 82,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 83,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "James",
+        "Shawn",
+        "Sklivia",
+        "Jass"
+      ],
+      "correct_answer": "Sklivia",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 84,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p13_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p14_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p14_Im5.webp|inline] [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p14_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p14_Im4.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p13_Im4.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p14_Im4.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p14_Im5.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p14_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 85,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p14_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p15_Im1.webp|block] [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p15_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p15_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p16_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2001_2022T2_Q1_NA_p15_Im5.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p14_Im7.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p15_Im1.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p15_Im3.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p15_Im5.webp",
+        "/data/images/cs2001_2022T2_Q1_NA_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 86,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p17_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Each member can be either an employee or a student or just a member of the degree project. However, a member cannot be an employee and a student at the same time.",
+        "Each employee can be an instructor or a project lead. However, an employee cannot be an instructor and a project lead at the same time.",
+        "Each student can be either a foundation_level student or a diploma_level student or both at the same time.",
+        "Each employee can be an instructor or a project lead or both at the same time.",
+        "Each member can be either an employee or a student or both at the same time."
+      ],
+      "correct_answer": [
+        "Each member can be either an employee or a student or just a member of the degree project. However, a member cannot be an employee and a student at the same time.",
+        "Each employee can be an instructor or a project lead or both at the same time."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 87,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2001_2022T2_Q1_NA_p18_Im1.webp|block] NOTE: Enter your answer to the nearest integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2001_2022T2_Q1_NA_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DBMS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 88,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0",
+      "type": "MCQ",
+      "options": [],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    }
+  ],
+  "id": "cs2001-2022t2-q1-na",
+  "course_code": "CS2001",
+  "course_name": "Database Management Systems",
+  "level": "Diploma in Programming",
+  "term": "May 2022",
+  "year": 2022,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

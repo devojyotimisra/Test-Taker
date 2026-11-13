@@ -1,0 +1,705 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "cs2008_2025T3_ET_FN.pdf",
+  "total_questions": 31,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Identify the errors in the following code: [IMAGE: /data/images/cs2008_2025T3_ET_FN_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "include_bias has to be kept true for polynomial features.",
+        "MinMaxScalar should be used for simple LinearRegression Models",
+        "model.fit_transform should be replace with model.fit",
+        "model.predict should be replaced with model.predict_proba"
+      ],
+      "correct_answer": "model.fit_transform should be replace with model.fit",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "You are using a ColumnTransformer to preprocess a dataset before training a model: [IMAGE: /data/images/cs2008_2025T3_ET_FN_p2_Im1.webp|block] What will be the shape of the transformed matrix X?",
+      "type": "MCQ",
+      "options": [
+        "(3,2)",
+        "(3,3)",
+        "(3,4)",
+        "(4,3)"
+      ],
+      "correct_answer": "(3,3)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "We use classification report to evaluate our classification model: [IMAGE: /data/images/cs2008_2025T3_ET_FN_p3_Im1.webp|block] Which of the following metrics are included in the classification report?",
+      "type": "multichoice",
+      "options": [
+        "Accuracy",
+        "Mean Squared Error",
+        "F1 Score",
+        "Cross Entropy Loss",
+        "Recall"
+      ],
+      "correct_answer": [
+        "Accuracy",
+        "F1 Score",
+        "Recall"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following cases for splitting train and test data for some real world dataset. [IMAGE: /data/images/cs2008_2025T3_ET_FN_p3_Im4.webp|block] Which of the following hold true?",
+      "type": "MCQ",
+      "options": [
+        "The selected samples(rows) in X_train will always be same for all the cases.",
+        "The selected samples(rows) in X_train will always be different for all the cases.",
+        "The selected samples(rows) in X_train will always be same for case 1 and case 3.",
+        "The selected samples(rows) in X_train will always be same for case 2 and case 3."
+      ],
+      "correct_answer": "The selected samples(rows) in X_train will always be same for case 1 and case 3.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "What is the output of the following code? (Round to 2 decimals) [IMAGE: /data/images/cs2008_2025T3_ET_FN_p4_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.73 to 0.77",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p5_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "You are given the following DataFrame: [IMAGE: /data/images/cs2008_2025T3_ET_FN_p6_Im1.webp|block] You want to perform the following imputation strategy: \u2022 Age \u2192 Replace missing values with the mean Age of each Department \u2022 Salary \u2192 Replace missing values with the median Salary of the entire column \u2022 Department \u2192 No imputation Which of the following code snippets correctly performs the above imputation?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p6_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p6_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p7_Im1.webp|block]"
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p6_Im1.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p6_Im4.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p6_Im6.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "You are given the following dataset and model: [IMAGE: /data/images/cs2008_2025T3_ET_FN_p7_Im2.webp|block] What is the value of prediction after running this code?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Select the correct statements from the following regarding GridSearchCV:",
+      "type": "multichoice",
+      "options": [
+        "best_score parameter of grid search returns the mean cross validated score of all the cross validation folds.",
+        "best_score parameter of grid search returns the max cross validated score of all the cross validation folds.",
+        "If there are 2 parameter sets A and B with A having 3 values and B having 4 values the total parameter combinations grid search will try is 7.",
+        "If there are 2 parameter sets A and B with A having 3 values and B having 4 values the total parameter combinations grid search will try is 12.",
+        "No other scoring metric other than R2 score and mean_squared_error can be used as the scoring metric for GridSearchCV in case of regression problems."
+      ],
+      "correct_answer": [
+        "best_score parameter of grid search returns the mean cross validated score of all the cross validation folds.",
+        "If there are 2 parameter sets A and B with A having 3 values and B having 4 values the total parameter combinations grid search will try is 12."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p8_Im3.webp|block] For the given above code calculate the sparcity (% of zeros) in one_hot . Enter your answer in percentage rounded to 2 decimals.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "80.00",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "You are using make_blobs to generate synthetic data for clustering: [IMAGE: /data/images/cs2008_2025T3_ET_FN_p9_Im1.webp|block] What will the output of the above clustering code?",
+      "type": "MCQ",
+      "options": [
+        "One cluster containing all points.",
+        "It will raise an error since n_samples is not divisible by centers",
+        "Two clusters, but not necessarily equal-sized; distribution of samples per cluster may vary.",
+        "Two clusters with exactly 4 points each."
+      ],
+      "correct_answer": "Two clusters with exactly 4 points each.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "What does metric in the following code measure? [IMAGE: /data/images/cs2008_2025T3_ET_FN_p9_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Accuracy",
+        "Precision",
+        "Recall",
+        "F1_Score"
+      ],
+      "correct_answer": "Precision",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "You are training a RandomForestRegressor on a dataset with 20 features and 10,000 samples. Consider the following code: [IMAGE: /data/images/cs2008_2025T3_ET_FN_p10_Im1.webp|block] Which of the following statements is TRUE about how this Random Forest model will behave?",
+      "type": "MCQ",
+      "options": [
+        "With bootstrap=True, every tree sees the entire dataset, but the samples are shuffled randomly for each tree.",
+        "The forest will use all 20 features for each split, but only 5 trees out of the 200 will be trained on bootstrap samples.",
+        "Setting max_features=5 means only 5 trees out of 200 will use feature subsets, while the rest use all features.",
+        "Each tree will consider only 5 randomly chosen features when looking for the best split at every node."
+      ],
+      "correct_answer": "Each tree will consider only 5 randomly chosen features when looking for the best split at every node.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "What will be the output of the following code ? (Round to two decimals) [IMAGE: /data/images/cs2008_2025T3_ET_FN_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.5",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "If pval = 0.03 for the following code, which of the option is correct at the 5% level? [IMAGE: /data/images/cs2008_2025T3_ET_FN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Series is non-stationary.",
+        "Series is stationary.",
+        "The series has trend.",
+        "The series is noise."
+      ],
+      "correct_answer": "Series is stationary.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "You are given the following four implementations of cosine similarity in NumPy. Which function correctly computes cosine similarity?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p13_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p13_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p13_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p13_Im6.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p13_Im3.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p13_Im5.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p13_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Which of the following can be used to evaluate the outputs of the K-Means algorithm?",
+      "type": "multichoice",
+      "options": [
+        "Negative Mean Absolute Error",
+        "Silhoutte Score",
+        "F1 Score",
+        "R2 Score",
+        "Inertia"
+      ],
+      "correct_answer": [
+        "Silhoutte Score",
+        "Inertia"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Select the correctly matched pairs of sklearn functions with the use of fit , fit_transform and transform .",
+      "type": "multichoice",
+      "options": [
+        "Learning the weights of logistic regression model on training data - fit_transform",
+        "Creating a decision tree on the training data - fit",
+        "fitting MinMaxScaler on test data - fit_transform",
+        "fitting MinMaxScaler on train data - fit_transform"
+      ],
+      "correct_answer": [
+        "Creating a decision tree on the training data - fit",
+        "fitting MinMaxScaler on train data - fit_transform"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "What is the output of the following code? [IMAGE: /data/images/cs2008_2025T3_ET_FN_p14_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p14_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Following is the code to tune the degree parameter of a polynomial regression model. [IMAGE: /data/images/cs2008_2025T3_ET_FN_p15_Im1.webp|block] What should the blank space contain?",
+      "type": "MCQ",
+      "options": [
+        "\"degree\"",
+        "\"PolynomialFeatures_degree\"",
+        "\"sgd__degree\"",
+        "\"poly__degree\""
+      ],
+      "correct_answer": "\"poly__degree\"",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Which of the following is a hyper parameter?",
+      "type": "multichoice",
+      "options": [
+        "intercept_ in LinearRegression",
+        "degree in PolynomialFeatures",
+        "n_neighbors in Ridge",
+        "min_samples_split in DecisionTreeClassifier"
+      ],
+      "correct_answer": [
+        "degree in PolynomialFeatures",
+        "min_samples_split in DecisionTreeClassifier"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "You are using statsmodels to forecast a time series. Which of the following represents the correct sequence of code to define an ARIMA model, train it, and view the results?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p16_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p16_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p16_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p16_Im5.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p16_Im4.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p16_Im5.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p16_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "For a LinearRegression model with equation [IMAGE: /data/images/cs2008_2025T3_ET_FN_p17_Im1.webp|block] assume that the noise term [IMAGE: /data/images/cs2008_2025T3_ET_FN_p17_Im2.webp|inline] . The model parameters satisfy the constraint [IMAGE: /data/images/cs2008_2025T3_ET_FN_p17_Im3.webp|block] A LinearRegression model is trained without intercept as shown below: [IMAGE: /data/images/cs2008_2025T3_ET_FN_p17_Im4.webp|block] What is the value of [IMAGE: /data/images/cs2008_2025T3_ET_FN_p17_Im5.webp|inline] ? Enter your answer rounded to three decimal places",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.230 to 0.240",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p17_Im1.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p17_Im2.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p17_Im3.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p17_Im4.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p17_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Which of the following is required for user-based collaborative filtering?",
+      "type": "MCQ",
+      "options": [
+        "User\u2013item interaction matrix",
+        "Item content features",
+        "User features (e.g. age, gender etc.)",
+        "Image embeddings"
+      ],
+      "correct_answer": "User\u2013item interaction matrix",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "Compute cosine similarity for the two items which have feature vectors as given below(rounded to 2 decimals). [IMAGE: /data/images/cs2008_2025T3_ET_FN_p18_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.61 to 0.65",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "Consider the following code snippet: [IMAGE: /data/images/cs2008_2025T3_ET_FN_p19_Im1.webp|block] If the shape of X is [IMAGE: /data/images/cs2008_2025T3_ET_FN_p19_Im2.webp|inline] , what will be the number of features in X_transformed ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "36",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p19_Im1.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p19_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "Given the following code using BaggingClassifier with KNeighborsClassifier as the base estimator: [IMAGE: /data/images/cs2008_2025T3_ET_FN_p20_Im1.webp|block] Which of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "Above code uses bootstrapping to generate samples for each base classifier.",
+        "model will be tested on out of the bags samples.",
+        "Due to weights=\"distance\" , each base KNN classifier will treat all neighbors equally in terms of voting power.",
+        "The ensemble will consist of 3 base KNN classifiers.",
+        "None of these"
+      ],
+      "correct_answer": "None of these",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p20_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "Which of the following algorithms may get impacted by feature scaling?",
+      "type": "multichoice",
+      "options": [
+        "LinearRegression",
+        "DecisionTree",
+        "SVM",
+        "NaiveBayes"
+      ],
+      "correct_answer": [
+        "LinearRegression",
+        "SVM"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "Given below a y_train list which consists of coffee order's preference by the customers in a cafe. [IMAGE: /data/images/cs2008_2025T3_ET_FN_p21_Im1.webp|block] MultiLabelBinarizer from sklearn library has been used to convert the y_train into numbers, so which of the following option matches with the output of the following code ? [IMAGE: /data/images/cs2008_2025T3_ET_FN_p21_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[[1 0 1 0],[1 0 0 1],[0 1 0 1],[0 1 1 0]]",
+        "[[0 0],[1 0],[0 1],[1 1],[1 0],[0 0],[0 0],[0 0]]",
+        "[[1 0 1 0 0 1 0 0],[1 0 0 1 1 0 0 0]]",
+        "[[1 0][1 0],[1 0] [0 1],[0 1] [0 1],[0 1][1 0]]"
+      ],
+      "correct_answer": "[[1 0 1 0],[1 0 0 1],[0 1 0 1],[0 1 1 0]]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p21_Im1.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p21_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "What could be the output for below code [IMAGE: /data/images/cs2008_2025T3_ET_FN_p22_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "['document' 'first' 'is' 'second' 'the' 'this']",
+        "{'this': 5, 'is': 2, 'the': 4, 'first': 1, 'document': 0, 'second': 3}",
+        "[5, 2, 4, 1, 0, 3] [IMAGE: /data/images/cs2008_2025T3_ET_FN_p22_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "{'this': 5, 'is': 2, 'the': 4, 'first': 1, 'document': 0, 'second': 3}",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p22_Im1.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p22_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLP"
+    }
+  ],
+  "id": "cs2008-2025t3-et-fn",
+  "course_code": "CS2008",
+  "course_name": "Machine Learning Practice",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

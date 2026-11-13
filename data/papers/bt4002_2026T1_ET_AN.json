@@ -1,0 +1,930 @@
+{
+  "title": "DEGREE LEVEL : BIG DATA AND BIOLOGICAL NETWORKS (COMPUTER BASED EXAM)",
+  "filename": "bt4002_2026T1_ET_AN.pdf",
+  "total_questions": 41,
+  "total_marks": 55.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : BIG DATA AND BIOLOGICAL NETWORKS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "In a biological network where nodes represent proteins and edges represent physical interactions, a specific node [IMAGE: /data/images/bt4002_2026T1_ET_AN_p1_Im3.webp|inline] has a very high betweenness centrality but a relatively low degree centrality. What is the most likely biological role of this protein?",
+      "type": "MCQ",
+      "options": [
+        "It is a global hub protein that interacts with almost every other protein in the cell.",
+        "It is a redundant protein that can be removed without affecting the network diameter.",
+        "It is a peripheral protein located at the end of a signalling cascade.",
+        "It acts as a bottleneck or bridge between two distinct functional modules."
+      ],
+      "correct_answer": "It acts as a bottleneck or bridge between two distinct functional modules.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "You are performing motif identification in a large gene regulatory network and are looking for a specific regulatory circuit (shown in the reference image). Which of the following visual layouts of newly discovered genetic circuits is isomorphic to your target motif, i.e., it has the exact same biological connectivity regardless of how the genes are physically arranged on the page? [IMAGE: /data/images/bt4002_2026T1_ET_AN_p1_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im1.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im3.webp|block]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im5.webp|block]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im5.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p1_Im4.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p2_Im1.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p2_Im3.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p2_Im5.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Which of the following statements describe synthetic lethality ?",
+      "type": "MCQ",
+      "options": [
+        "Two genes cannot compensate for each other\u2019s function",
+        "Loss of either gene alone is lethal",
+        "Loss of both genes together leads to cell death",
+        "Both genes are essential individually"
+      ],
+      "correct_answer": "Loss of both genes together leads to cell death",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "After counting the motif [IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im7.webp|inline] in [IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im8.webp|inline] randomized networks, you plot a distribution of the counts. If the count in the real network ( [IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im9.webp|inline] ) falls at the [IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im10.webp|inline] percentile of this distribution, what does this indicate?",
+      "type": "MCQ",
+      "options": [
+        "The configuration model is invalid for this specific network type.",
+        "The motif is likely a product of random noise and not biologically significant.",
+        "The subgraph is an 'anti-motif' that is significantly under-represented.",
+        "The [IMAGE: /data/images/bt4002_2026T1_ET_AN_p3_Im3.webp|inline] -value is [IMAGE: /data/images/bt4002_2026T1_ET_AN_p3_Im4.webp|inline] , suggesting the motif is highly significant."
+      ],
+      "correct_answer": "The motif is likely a product of random noise and not biologically significant.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p2_Im7.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p2_Im8.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p2_Im9.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p2_Im10.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p3_Im3.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "During DNA replication, what is the main role of helicase?",
+      "type": "MCQ",
+      "options": [
+        "Adding nucleotides to the growing DNA strand.",
+        "Unwinding the DNA double helix by breaking hydrogen bonds.",
+        "Sealing nicks between Okazaki fragments.",
+        "Stabilizing single-stranded DNA."
+      ],
+      "correct_answer": "Unwinding the DNA double helix by breaking hydrogen bonds.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "According to the central dogma of molecular biology, genetic information flows from:",
+      "type": "MCQ",
+      "options": [
+        "Protein to RNA to DNA.",
+        "RNA to DNA to protein.",
+        "DNA to RNA to protein.",
+        "DNA to protein to RNA."
+      ],
+      "correct_answer": "DNA to RNA to protein.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "In eukaryotic cells, which enzyme synthesizes RNA during transcription?",
+      "type": "MCQ",
+      "options": [
+        "DNA polymerase",
+        "RNA polymerase",
+        "Reverse transcriptase",
+        "Ligase"
+      ],
+      "correct_answer": "RNA polymerase",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "A researcher studies changes in RNA levels between tumor and normal cells to find dysregulated genes. Which -omics approach fits best?",
+      "type": "MCQ",
+      "options": [
+        "Genomics",
+        "Proteomics",
+        "Metabolomics",
+        "Transcriptomics"
+      ],
+      "correct_answer": "Transcriptomics",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the following statements: Assertion (A): The Eulerian Path algorithm is preferred over the Hamiltonian Path algorithm for the genome assembly problem. Reason (R): A Hamiltonian Path passes through all the nodes of a graph. Now, which of the following options is true:",
+      "type": "MCQ",
+      "options": [
+        "Both A and R are true, and R is the correct explanation for A",
+        "Both A and R are true, and R is not the correct explanation for A",
+        "A is true, but R is false",
+        "Both statements are false"
+      ],
+      "correct_answer": "Both A and R are true, and R is not the correct explanation for A",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Which of the following is true about genome assembly?",
+      "type": "MCQ",
+      "options": [
+        "It can be done only for prokaryotic genomes",
+        "Assembly comparing fragments obtained with one another",
+        "Assembling the genome using a De-Bruijn graph is more difficult than using an overlap graph",
+        "Success of assembly does not depend on how accurately we can sequence the fragments of DNA"
+      ],
+      "correct_answer": "Assembly comparing fragments obtained with one another",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "What is the goal of the pooling function [IMAGE: /data/images/bt4002_2026T1_ET_AN_p4_Im3.webp|inline] in graph pooling?",
+      "type": "MCQ",
+      "options": [
+        "To learn embeddings for individual edges",
+        "To optimize the message-passing mechanism between nodes",
+        "To map a set of node embeddings to a graph-level embedding",
+        "To improve the degree matrix representation"
+      ],
+      "correct_answer": "To map a set of node embeddings to a graph-level embedding",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "What is the primary purpose of introducing a normalization step in a neural network?",
+      "type": "MCQ",
+      "options": [
+        "Increases the depth of the network",
+        "Ensures differentiability of the loss function",
+        "Reduces variance in the distribution across mini-batches, stabilizing training",
+        "All of these"
+      ],
+      "correct_answer": "Reduces variance in the distribution across mini-batches, stabilizing training",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript The average degree (regardless of the direction) of the 4-mer overlap graph constructed from \u201cGAATTCAGTTC\u201d is (upto two decimal points)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.00",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript The best local alignment score for the sequences \"GTACTG\" and \"TAGTCTG\" with the scoring scheme, matches = +2, mismatches = -1, and a constant gap penalty of -10, is",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript Given two node embeddings [IMAGE: /data/images/bt4002_2026T1_ET_AN_p6_Im1.webp|inline] and [IMAGE: /data/images/bt4002_2026T1_ET_AN_p6_Im2.webp|inline] , The [IMAGE: /data/images/bt4002_2026T1_ET_AN_p6_Im3.webp|inline] \u2212norm [IMAGE: /data/images/bt4002_2026T1_ET_AN_p6_Im4.webp|inline] is",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "22 to 24",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p6_Im1.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p6_Im2.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p6_Im3.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p6_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript In the DeepWalk model using a standard Softmax function, if the graph [IMAGE: /data/images/bt4002_2026T1_ET_AN_p6_Im5.webp|inline] has 500 nodes and 1500 edges, the number of \"dot products\" that must be computed to evaluate the similarity [IMAGE: /data/images/bt4002_2026T1_ET_AN_p6_Im6.webp|inline] for a single node pair is",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "500 to 501",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p6_Im5.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Which of the following network representations can be used to determine whether a metabolite can be converted into another metabolite through a sequence of reactions?",
+      "type": "multichoice",
+      "options": [
+        "Substrate graph capturing the main transformation in each reaction",
+        "Reaction graph capturing all reactions in the system",
+        "Bipartite graph of metabolites and reactions",
+        "Signaling graph"
+      ],
+      "correct_answer": [
+        "Substrate graph capturing the main transformation in each reaction",
+        "Bipartite graph of metabolites and reactions"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Which information is lost or distorted after projecting a Drug-Target bipartite network into a Drug- Drug network?",
+      "type": "multichoice",
+      "options": [
+        "Information regarding targets that were only connected to a single drug (leaf nodes in the bipartite graph).",
+        "The topological distance (path length) between two drugs in the drug-drug space.",
+        "The specific identity of the target proteins shared between drugs.",
+        "The degree of 'overlap' (multiplicity) of targets between two drugs."
+      ],
+      "correct_answer": [
+        "Information regarding targets that were only connected to a single drug (leaf nodes in the bipartite graph).",
+        "The specific identity of the target proteins shared between drugs."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Which of the following statements about NetworkX graph objects are correct? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p7_Im3.webp|inline] creates an undirected graph that allows self-loops but not multiple edges between the same two nodes.",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p7_Im4.webp|inline] is used for directed graphs where the order of nodes in an edge [IMAGE: /data/images/bt4002_2026T1_ET_AN_p7_Im5.webp|inline] matters.",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p7_Im6.webp|inline] is required if you want to store multiple edges between the same two nodes with different attributes.",
+        "Once an edge is added to [IMAGE: /data/images/bt4002_2026T1_ET_AN_p7_Im7.webp|inline] , it cannot be removed."
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p7_Im3.webp|inline] creates an undirected graph that allows self-loops but not multiple edges between the same two nodes.",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p7_Im4.webp|inline] is used for directed graphs where the order of nodes in an edge [IMAGE: /data/images/bt4002_2026T1_ET_AN_p7_Im5.webp|inline] matters.",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p7_Im6.webp|inline] is required if you want to store multiple edges between the same two nodes with different attributes."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p7_Im3.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p7_Im4.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p7_Im5.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p7_Im6.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Gene expression regulation in eukaryotes can occur at:",
+      "type": "multichoice",
+      "options": [
+        "Transcriptional level",
+        "Replication level",
+        "Translational level",
+        "Post-translational modifications"
+      ],
+      "correct_answer": [
+        "Transcriptional level",
+        "Translational level",
+        "Post-translational modifications"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Key advantages of NGS over Sanger sequencing include:",
+      "type": "multichoice",
+      "options": [
+        "Cost-effective for screening many samples",
+        "Higher sensitivity for low-frequency variants",
+        "Massive parallel processing for high throughput",
+        "Requires gel electrophoresis for reads"
+      ],
+      "correct_answer": [
+        "Cost-effective for screening many samples",
+        "Higher sensitivity for low-frequency variants",
+        "Massive parallel processing for high throughput"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "What are the limitations of microarrays compared to RNA-seq? Select all that apply.",
+      "type": "multichoice",
+      "options": [
+        "Limited to predefined probes/transcripts",
+        "Narrow dynamic range for low/high expression",
+        "Cannot detect novel genes/isoforms",
+        "Requires high-quality input RNA only"
+      ],
+      "correct_answer": [
+        "Limited to predefined probes/transcripts",
+        "Narrow dynamic range for low/high expression",
+        "Cannot detect novel genes/isoforms"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Which enzymes are essential for completing lagging-strand synthesis?",
+      "type": "multichoice",
+      "options": [
+        "DNA polymerase I removes RNA primers",
+        "DNA ligase seals Okazaki fragment nicks",
+        "Primase synthesises new RNA primers repeatedly",
+        "Topoisomerase relaxes positive supercoils only"
+      ],
+      "correct_answer": [
+        "DNA polymerase I removes RNA primers",
+        "DNA ligase seals Okazaki fragment nicks",
+        "Primase synthesises new RNA primers repeatedly"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Which statements about tRNA are correct?",
+      "type": "multichoice",
+      "options": [
+        "tRNA carries amino acids to the ribosome",
+        "tRNA contains an anticodon loop",
+        "tRNA is synthesized during translation",
+        "Each tRNA is specific to an amino acid"
+      ],
+      "correct_answer": [
+        "tRNA carries amino acids to the ribosome",
+        "tRNA contains an anticodon loop",
+        "Each tRNA is specific to an amino acid"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "Which of the following are true for graph filters:",
+      "type": "multichoice",
+      "options": [
+        "Chebinosky-Filter is a spectral-based graph filter",
+        "Spectral-based graph filters utilize spectral graph theory to design the filtering operation in the frequency domain",
+        "Spatial-based graph filters explicitly leverage the graph structure",
+        "GAT-Filter is a spatial-based graph filter"
+      ],
+      "correct_answer": [
+        "Spatial-based graph filters explicitly leverage the graph structure",
+        "GAT-Filter is a spatial-based graph filter"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "The number of edges present in the substrate graph, reaction graph and bipartite graph constructed from this system will be:",
+      "type": "MCQ",
+      "options": [
+        "4, 2, 7",
+        "4, 3, 3",
+        "4, 3, 8",
+        "3, 2, 7"
+      ],
+      "correct_answer": "4, 3, 8",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p9_Im3.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p9_Im4.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p9_Im5.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following reaction system and answer the given sub-questions: [IMAGE: /data/images/bt4002_2026T1_ET_AN_p9_Im3.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p9_Im4.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p9_Im5.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p9_Im6.webp|block]",
+      "group_id": "6406532126118",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "Which node(s) in the substrate graph have the highest out-degree?",
+      "type": "MCQ",
+      "options": [
+        "A",
+        "B, C, D",
+        "A, B, C, D, E",
+        "A, B, C, D"
+      ],
+      "correct_answer": "A, B, C, D",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p9_Im3.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p9_Im4.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p9_Im5.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following reaction system and answer the given sub-questions: [IMAGE: /data/images/bt4002_2026T1_ET_AN_p9_Im3.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p9_Im4.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p9_Im5.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p9_Im6.webp|block]",
+      "group_id": "6406532126118",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "Inscript The number of unique 2-mers can be generated from the sequence \u201cGTACTATGCA\" is",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "Consider the following graph: [IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im1.webp|block] What will be the adjacency matrix [IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im2.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im5.webp|block]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im7.webp|block]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im8.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im8.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p11_Im1.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p11_Im2.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p11_Im5.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p11_Im7.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p11_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "Choose the most appropriate option: [IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im1.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im2.webp|inline] is the feature matrix and [IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im3.webp|inline] is the identity matrix",
+      "type": "MCQ",
+      "options": [
+        "(1), (A), (i); (2), (B), (ii); (3), (A), (ii); (4), (B), (ii)",
+        "(1), (B), (i); (2), (B), (i); (3), (A), (ii); (4), (A), (ii)",
+        "(1), (A), (ii); (2), (A), (i); (3), (B), (i); (4), (A), (i)",
+        "(1), (B), (i); (2), (A), (ii); (3), (A), (ii); (4), (B), (i)"
+      ],
+      "correct_answer": "(1), (B), (i); (2), (A), (ii); (3), (A), (ii); (4), (B), (i)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im1.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im2.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 32,
+      "text": "Perform a single-step filtering using the Graph Convolutional Network filter for the following graph: The feature vectors are: [IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im6.webp|inline] , [IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im7.webp|inline] , [IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im8.webp|inline] , [IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im9.webp|inline] , [IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im10.webp|inline] The parameter matrix ( [IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im11.webp|inline] ) is: [IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im12.webp|inline] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im13.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im14.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im15.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im2.webp|inline]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p12_Im15.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im6.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im7.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im8.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im9.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im10.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im11.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im12.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im13.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im14.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p12_Im15.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p13_Im2.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p13_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 33,
+      "text": "A two-layer neural network with 2 features, [IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im4.webp|inline] , [IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im5.webp|inline] is defined below: [IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im6.webp|block] Given the following numerical values: [IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im7.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im9.webp|block] Compute the values of [IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im8.webp|inline] and",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im3.webp|block]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p13_Im4.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p13_Im5.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p13_Im6.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p13_Im7.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p13_Im9.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p13_Im8.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p14_Im1.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p14_Im3.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p14_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 34,
+      "text": "Inscript You are constructing an Erd\u0151s-R\u00e9nyi random network, [IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im6.webp|inline] , to serve as a null model for a protein-protein interaction study. The network contains exactly [IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im7.webp|inline] nodes. Based on the connectivity of your experimental data, you require the expected total number of edges ( [IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im8.webp|inline] ) in this random network to be 500. Calculate the required edge probability [IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im9.webp|inline] for this model.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.09 to 0.11",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p14_Im6.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p14_Im7.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p14_Im8.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p14_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 35,
+      "text": "Inscript Match the specific network model or concept in Column A with its corresponding definition/application in Column B. (Answer should be in this format without space: \"1-E,2-F,3-A,...\") [IMAGE: /data/images/bt4002_2026T1_ET_AN_p15_Im1.webp|block] Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1-C,2-A,3-F,4-D,5-E,6-B 1-C, 2-A, 3-F, 4-D, 5-E, 6-B 1 - C, 2 - A, 3 - F, 4 - D, 5 - E, 6 - B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "BDBN"
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 36,
+      "text": "Inscript Identify the template strand and briefly explain how RNA polymerase \u201cknows\u201d which strand to use. NOTE: Your answer should not exceed 50 words. Max Word Count : 50 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The following DNA sequences are given: Strand I: 5\u2032 \u2192 3\u2032 : ATGCCGATGGCG Strand II: 3\u2032 \u2192 5\u2032 : TACGGCTACCGC",
+      "group_id": "6406532126135",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 37,
+      "text": "Inscript Write the RNA sequence synthesised and indicate its direction (5\u2032 \u2192 3\u2032). NOTE: Your answer should not exceed 20 words. Max Word Count : 20 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The following DNA sequences are given: Strand I: 5\u2032 \u2192 3\u2032 : ATGCCGATGGCG Strand II: 3\u2032 \u2192 5\u2032 : TACGGCTACCGC",
+      "group_id": "6406532126135",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "original_number": 38,
+      "text": "Inscript State the first amino acid encoded by this RNA and explain why translation starts at that position. NOTE: Your answer should not exceed 100 words. Max Word Count : 100 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The following DNA sequences are given: Strand I: 5\u2032 \u2192 3\u2032 : ATGCCGATGGCG Strand II: 3\u2032 \u2192 5\u2032 : TACGGCTACCGC",
+      "group_id": "6406532126135",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 39,
+      "number": 39,
+      "original_number": 39,
+      "text": "Inscript Write the corresponding mRNA sequence. NOTE: Your answer should not exceed 20 words. Max Word Count : 20 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p18_Im1.webp|block]",
+      "group_id": "6406532126139",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 40,
+      "number": 40,
+      "original_number": 40,
+      "text": "Inscript Identify the start codon and the stop codon(s) present in the mRNA. NOTE: Your answer should not exceed 20 words. Max Word Count : 20 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p18_Im1.webp|block]",
+      "group_id": "6406532126139",
+      "section_name": "BDBN"
+    },
+    {
+      "id": 41,
+      "number": 41,
+      "original_number": 41,
+      "text": "Inscript Write the amino acid sequence coded by this nucleotide sequence. NOTE: Your answer should not exceed 50 words. Max Word Count : 50 Min Word Count : 0 Highlight min word : Yes Single Line Response : No Number of Rows : 10 Number Of Columns : 70",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4002_2026T1_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p18_Im1.webp|block]",
+      "group_id": "6406532126139",
+      "section_name": "BDBN"
+    }
+  ],
+  "id": "bt4002-2026t1-et-an",
+  "course_code": "BT4002",
+  "course_name": "Introduction to Bioinformatics",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

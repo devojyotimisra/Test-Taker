@@ -1,0 +1,354 @@
+{
+  "title": "DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)",
+  "filename": "bt4001_2025T2_ET_FN.pdf",
+  "total_questions": 17,
+  "total_marks": 53.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p0_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "TACC, ATGT, CGGC, ACTA",
+        "ACCT, TGTC, GGCG, CTAA",
+        "TACC, TGTC, GGCG, CTAA",
+        "ACCT, ATGT, CGGC, ACTA"
+      ],
+      "correct_answer": "ACCT, ATGT, CGGC, ACTA",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T2_ET_FN_p0_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "14",
+        "41",
+        "57",
+        "128"
+      ],
+      "correct_answer": "41",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T2_ET_FN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p2_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T2_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p2_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T2_ET_FN_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p3_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T2_ET_FN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "If the k-mers represented by both N 1 and N 2 are fixed, then how many unique genome sequences can be constructed from this de Bruijn graph? Enter the answer as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The de Bruijn graph of some linear (i.e., non-circular) genome Dna comprises of 2 nodes ( N 1 and N 2 ) and 3 edges \u2013 two of these edges are directed from N 1 to N 2 and the remaining edge is directed from N 2 to N 1 . To reconstruct Dna , you are allowed to start only from the node N 1 . Answer the given subquestions with respect to the same.",
+      "group_id": "6406531425363",
+      "section_name": null
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Suppose you don\u2019t know the 2-mers representing N 1 and N 2 . Then which of the following is/are possible choices for Dna ?",
+      "type": "multichoice",
+      "options": [
+        "TATAT",
+        "CACAC",
+        "ATATA",
+        "AGAGG",
+        "TGTGG"
+      ],
+      "correct_answer": [
+        "TATAT",
+        "CACAC",
+        "ATATA"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The de Bruijn graph of some linear (i.e., non-circular) genome Dna comprises of 2 nodes ( N 1 and N 2 ) and 3 edges \u2013 two of these edges are directed from N 1 to N 2 and the remaining edge is directed from N 2 to N 1 . To reconstruct Dna , you are allowed to start only from the node N 1 . Answer the given subquestions with respect to the same.",
+      "group_id": "6406531425363",
+      "section_name": null
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "What is the value of the probability density function at x = 45 under this model? Round the answer to three decimal digits.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.060 to 0.070",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T2_ET_FN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p4_Im2.webp|block]",
+      "group_id": "6406531425366",
+      "section_name": null
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "What is the probability that this data point was generated by the first cluster? Round the answer to three decimal digits.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.36 to 0.38",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T2_ET_FN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p4_Im2.webp|block]",
+      "group_id": "6406531425366",
+      "section_name": null
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "How many units of space is required to the corresponding D trimmed matrix? Enter the answer as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "64",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "You are asked to construct a phylogeny on the distance matrix D using the Additive Phylogeny algorithm. At the end of the 5 th iteration, you notice the D bald matrix consumes 81 units of memory space. Assume every entry in a matrix requires 1 unit of space. Also assume the count of the iterations starts from 1. Answer the given subquestions with respect to the same.",
+      "group_id": "6406531425369",
+      "section_name": null
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "How many leaves will be there in the final phylogeny constructed at the end of the algorithm? Enter the answer as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "13",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "You are asked to construct a phylogeny on the distance matrix D using the Additive Phylogeny algorithm. At the end of the 5 th iteration, you notice the D bald matrix consumes 81 units of memory space. Assume every entry in a matrix requires 1 unit of space. Also assume the count of the iterations starts from 1. Answer the given subquestions with respect to the same.",
+      "group_id": "6406531425369",
+      "section_name": null
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p6_Im0.webp|block] Read the pseudocode carefully and calculate the number of iterations required by the UPGMA algorithm to construct the Ultrametric tree on D ? Enter the answer as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T2_ET_FN_p6_Im0.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are asked to construct a phylogeny on the distance matrix D using the Additive Phylogeny algorithm. At the end of the 5 th iteration, you notice the D bald matrix consumes 81 units of memory space. Assume every entry in a matrix requires 1 unit of space. Also assume the count of the iterations starts from 1. Answer the given subquestions with respect to the same.",
+      "group_id": "6406531425369",
+      "section_name": null
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "How many 6-mers in the sequence \u2018 ATTCCGGCCAACAG \u2019 have a nonzero probability of binding to the TF according to the PWM given in the table? Enter the answer as a single integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T2_ET_FN_p7_Im0.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p7_Im0.webp|block]",
+      "group_id": "6406531425373",
+      "section_name": null
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Which of the following substrings is most likely to be bound by the TF?",
+      "type": "MCQ",
+      "options": [
+        "TTCCGG",
+        "CCGGCC",
+        "ATTCCG",
+        "CCAACA"
+      ],
+      "correct_answer": "CCAACA",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T2_ET_FN_p7_Im0.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p7_Im0.webp|block]",
+      "group_id": "6406531425373",
+      "section_name": null
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p8_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p9_Im1.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p8_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T2_ET_FN_p8_Im3.webp",
+        "/data/images/bt4001_2025T2_ET_FN_p8_Im2.webp",
+        "/data/images/bt4001_2025T2_ET_FN_p8_Im4.webp",
+        "/data/images/bt4001_2025T2_ET_FN_p8_Im5.webp",
+        "/data/images/bt4001_2025T2_ET_FN_p8_Im6.webp",
+        "/data/images/bt4001_2025T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p8_Im2.webp|block]",
+      "group_id": "6406531425376",
+      "section_name": null
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p9_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p9_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p9_Im3.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2025T2_ET_FN_p9_Im2.webp",
+        "/data/images/bt4001_2025T2_ET_FN_p8_Im2.webp",
+        "/data/images/bt4001_2025T2_ET_FN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4001_2025T2_ET_FN_p8_Im2.webp|block]",
+      "group_id": "6406531425376",
+      "section_name": null
+    }
+  ],
+  "id": "bt4001-2025t2-et-fn",
+  "course_code": "BT4001",
+  "course_name": "Computational Biology",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

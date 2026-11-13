@@ -1,0 +1,375 @@
+{
+  "title": "DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)",
+  "filename": "bt4001_2024T2_ET_AN.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p1_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "36",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2024T2_ET_AN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p1_Im4.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "30",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2024T2_ET_AN_p1_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "In an alien world, mutations occur in every 10 million years only. A ultrametric tree is constructed on some of these alien species. If the height of the tree (defined as the maximum number of edges from the root to a leaf node in the tree) is 5, then calculate the age of the root node (in million years) of this ultrametric tree. (Hint: The distance between two nodes in consecutive levels is given in the question.)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "50",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "What is the number of free parameters that are learned in the EM setup of motif finding problem with an assumption of motif of length 5?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "15",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "2, (2.5, 2.5), (7.33, 6)",
+        "3, (2.5, 2.5), (7.5, 6)",
+        "2, (2.5, 2.5), (7, 6)",
+        "3, (4, 2.5), (7.33, 6)"
+      ],
+      "correct_answer": "2, (2.5, 2.5), (7.33, 6)",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2024T2_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p3_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "CI",
+        "LA",
+        "CIL",
+        "CIA",
+        "None of these"
+      ],
+      "correct_answer": "CIL",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2024T2_ET_AN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Which of the following statements about the EM algorithm is/are FALSE?",
+      "type": "multichoice",
+      "options": [
+        "The EM algorithm is guaranteed to find the global maximum likelihood.",
+        "The E-step of the EM algorithm computes the posterior probabilities of the latent variables.",
+        "The E-step and M-step are iterated until the parameter estimates converge.",
+        "The EM algorithm cannot handle continuous data."
+      ],
+      "correct_answer": [
+        "The EM algorithm is guaranteed to find the global maximum likelihood.",
+        "The EM algorithm cannot handle continuous data."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "You are studying the signalling pathway system of an alien world. Existing literature shows that information in the alien world is transmitted in the following procedure. \u201cA receptor protein in the cell membrane transmits information to a series of three kinase proteins that are sequentially activated inside the cell. The final activated kinase causes a transcription factor (TF) to get activated and translocated to the nucleus, wherein the TF protein regulates a target gene.\u201d As part of your research, you construct the underlying signalling network, and want to find the most probable pathway along which a specific gene g will receive the information from a receptor on the cell membrane. Will it suffice to use 10 colors to determine the most probable pathway?",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p5_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p5_Im3.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2024T2_ET_AN_p5_Im1.webp",
+        "/data/images/bt4001_2024T2_ET_AN_p5_Im3.webp",
+        "/data/images/bt4001_2024T2_ET_AN_p5_Im5.webp",
+        "/data/images/bt4001_2024T2_ET_AN_p5_Im6.webp",
+        "/data/images/bt4001_2024T2_ET_AN_p5_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p6_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2024T2_ET_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p7_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2024T2_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Suppose you don\u2019t know the 2-mers representing N 1 and N 2 . Then which of the following is/are possible choices for Dna ?",
+      "type": "multichoice",
+      "options": [
+        "TATATAAT",
+        "CACACAAC",
+        "ATATATAT",
+        "AGAGAGGG",
+        "TGTGTGTG"
+      ],
+      "correct_answer": [
+        "ATATATAT",
+        "TGTGTGTG"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The de Bruijn graph of some linear (i.e., non-circular) genome Dna comprises of 2 nodes ( N 1 and N 2 ) and 6 edges \u2013 three of these edges are directed from N 1 to N 2 and the remaining three edges are directed from N 2 to N 1 . To reconstruct Dna , you are allowed to start only from the node N 1 . Answer the given subquestions with respect to the same.",
+      "group_id": "640653904032",
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Which of the following statements is/are correct? I. If we are allowed to start from N 1 node only and the k-mers represented by both N 1 and N 2 are fixed, then there is exactly one genome sequence that can be reconstructed from this de Bruijn graph. II. If we are allowed to start from either node and the k-mers represented by both N 1 and N 2 are fixed, then there are exactly two genome sequences that can be reconstructed from this de Bruijn graph.",
+      "type": "MCQ",
+      "options": [
+        "Only I is correct",
+        "Only II is correct",
+        "Both I and II are correct",
+        "Neither I nor II is correct"
+      ],
+      "correct_answer": "Both I and II are correct",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "The de Bruijn graph of some linear (i.e., non-circular) genome Dna comprises of 2 nodes ( N 1 and N 2 ) and 6 edges \u2013 three of these edges are directed from N 1 to N 2 and the remaining three edges are directed from N 2 to N 1 . To reconstruct Dna , you are allowed to start only from the node N 1 . Answer the given subquestions with respect to the same.",
+      "group_id": "640653904032",
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Which of the following options is the original message?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p9_Im2.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p9_Im3.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p9_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p9_Im7.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2024T2_ET_AN_p8_Im3.webp",
+        "/data/images/bt4001_2024T2_ET_AN_p9_Im2.webp",
+        "/data/images/bt4001_2024T2_ET_AN_p9_Im3.webp",
+        "/data/images/bt4001_2024T2_ET_AN_p9_Im4.webp",
+        "/data/images/bt4001_2024T2_ET_AN_p9_Im5.webp",
+        "/data/images/bt4001_2024T2_ET_AN_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p8_Im3.webp|block]",
+      "group_id": "640653904038",
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Choose the option representing the original suffix array of the message.",
+      "type": "MCQ",
+      "options": [
+        "[12, 5, 11, 10, 0, 2, 4, 9, 1, 6, 3, 7, 8]",
+        "[12, 5, 11, 0, 10, 2, 4, 9, 1, 6, 3, 8, 7]",
+        "[12, 5, 11, 10, 0, 2, 4, 9, 1, 6, 3, 8, 7]",
+        "[12, 5, 10, 11, 0, 2, 4, 9, 1, 6, 3, 8, 7]"
+      ],
+      "correct_answer": "[12, 5, 10, 11, 0, 2, 4, 9, 1, 6, 3, 8, 7]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2024T2_ET_AN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p8_Im3.webp|block]",
+      "group_id": "640653904038",
+      "section_name": "Algorithmic Thinking"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "[IMAGE: /data/images/bt4001_2024T2_ET_AN_p9_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2024T2_ET_AN_p9_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algorithmic Thinking"
+    }
+  ],
+  "id": "bt4001-2024t2-et-an",
+  "course_code": "BT4001",
+  "course_name": "Computational Biology",
+  "level": "Degree",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

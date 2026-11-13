@@ -1,0 +1,574 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)",
+  "filename": "cs3001_2025T3_ET_FN.pdf",
+  "total_questions": 26,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Which of the following test cases ensures branch coverage for the Python code given below? [IMAGE: /data/images/cs3001_2025T3_ET_FN_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "x = 5, y = 10",
+        "x = 15, y = 10",
+        "Both x = 5, y = 10 and x = 15, y = 10",
+        "Only when x = y"
+      ],
+      "correct_answer": "Both x = 5, y = 10 and x = 15, y = 10",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T3_ET_FN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Which type of testing is carried out by the customer to decide whether to approve the product?",
+      "type": "MCQ",
+      "options": [
+        "Alpha testing",
+        "Acceptance testing",
+        "Smoke testing",
+        "System testing"
+      ],
+      "correct_answer": "Acceptance testing",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Which testing approach allows early testing of the main logic, even if the low-level modules are not yet implemented?",
+      "type": "MCQ",
+      "options": [
+        "Bottom-up",
+        "Top-down",
+        "Big bang",
+        "Mixed"
+      ],
+      "correct_answer": "Top-down",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "What is the cyclomatic complexity of the following Python function? [IMAGE: /data/images/cs3001_2025T3_ET_FN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "5",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T3_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider the following Python function: [IMAGE: /data/images/cs3001_2025T3_ET_FN_p3_Im1.webp|block] From a blackbox testing perspective, how many input equivalence classes are appropriate for testing this function?",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": "5",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T3_ET_FN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "You are building a complex product object in the seller onboarding process. A SellerProfile object requires many optional parameters such as GST number, website, alternate contact, and warehouse list. You want to allow a flexible and readable way to construct such objects without passing all parameters in a constructor. Which pattern best supports this requirement?",
+      "type": "MCQ",
+      "options": [
+        "Factory Pattern",
+        "Builder Pattern",
+        "Facade Pattern",
+        "Adapter Pattern"
+      ],
+      "correct_answer": "Builder Pattern",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "A DiscountCalculator class applies discount rules for Regular and Premium customers using a switch statement. Now, to add a new customer type VIP , the developer modifies the same method to add another case block. Which SOLID principle is being violated?",
+      "type": "MCQ",
+      "options": [
+        "Interface Segregation Principle",
+        "Dependency Inversion Principle",
+        "Open-Closed Principle",
+        "Liskov Substitution Principle"
+      ],
+      "correct_answer": "Open-Closed Principle",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "A software module defines an interface PaymentMethod . Another class UPIPayment implements this interface. What kind of relationship does UPIPayment have with PaymentMethod ?",
+      "type": "MCQ",
+      "options": [
+        "Inheritance",
+        "Composition",
+        "Dependency",
+        "Aggregation"
+      ],
+      "correct_answer": "Dependency",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "In a poorly designed legacy system, a module includes unrelated functions like loginUser() , calculateTax() , and sendEmail() . These functions do not share data or purpose. What type of cohesion does this module likely have?",
+      "type": "MCQ",
+      "options": [
+        "Functional cohesion",
+        "Sequential cohesion",
+        "Procedural cohesion",
+        "Coincidental cohesion"
+      ],
+      "correct_answer": "Coincidental cohesion",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Which of the following activities occur after a sprint is completed?",
+      "type": "multichoice",
+      "options": [
+        "Sprint planning",
+        "Sprint review",
+        "Daily stand-up",
+        "Sprint retrospective"
+      ],
+      "correct_answer": [
+        "Sprint review",
+        "Sprint retrospective"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Which of the following are true regarding an Activity Network?",
+      "type": "multichoice",
+      "options": [
+        "It helps identify independent tasks that can be done in parallel",
+        "It replaces the need for a Work Breakdown Structure",
+        "It represents the estimated cost for each task",
+        "It visually shows task dependencies and durations"
+      ],
+      "correct_answer": [
+        "It helps identify independent tasks that can be done in parallel",
+        "It visually shows task dependencies and durations"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "A project manager prepares a risk table with probabilities and numerical impact levels for each identified risk. Which of the following combinations would receive the highest priority?",
+      "type": "MCQ",
+      "options": [
+        "Probability: 20%, Impact: 2",
+        "Probability: 80%, Impact: 3",
+        "Probability: 50%, Impact: 4",
+        "Probability: 90%, Impact: 3"
+      ],
+      "correct_answer": "Probability: 90%, Impact: 3",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "A banking app places the \"Transfer Money\" button in the same position across the dashboard, accounts, and payments screens, using the same label and icon each time. Which heuristic is best demonstrated in this design?",
+      "type": "MCQ",
+      "options": [
+        "Flexibility and efficiency of use",
+        "Familiar metaphors",
+        "Consistency",
+        "Visibility of system status"
+      ],
+      "correct_answer": "Consistency",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "A project management app uses intuitive icons, consistent layouts, and familiar menu structures so that returning users can quickly resume work after a gap. Which usability goal does this reflect?",
+      "type": "MCQ",
+      "options": [
+        "Effectiveness",
+        "Efficiency",
+        "Learnability",
+        "Memorability"
+      ],
+      "correct_answer": "Memorability",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "During a design meeting, a product owner is unclear about a feature's purpose. The designer draws a simple sketch of a UI and explains how the user will interact with it. What benefit of prototyping does this illustrate?",
+      "type": "MCQ",
+      "options": [
+        "Ensures performance optimization",
+        "Clarifies vague requirements",
+        "Tests final implementation",
+        "Avoids need for feedback"
+      ],
+      "correct_answer": "Clarifies vague requirements",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "[IMAGE: /data/images/cs3001_2025T3_ET_FN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 and 3 is a functional, 2 is a nonfunctional requirement",
+        "1 and 2 are nonfunctional, 3 is a functional requirement",
+        "1 is a functional, 2 and 3 are nonfunctional requirements",
+        "1 and 2 are functional, 3 is a nonfunctional requirement"
+      ],
+      "correct_answer": "1 is a functional, 2 and 3 are nonfunctional requirements",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2025T3_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "The mobile sales team wants daily sales summaries, while the furniture department prefers 30- day summaries. You identify this difference while conducting a joint session with multiple stakeholders. What requirement gathering technique is this?",
+      "type": "MCQ",
+      "options": [
+        "Questionnaire",
+        "Focus Group",
+        "Observation",
+        "Structured Interview"
+      ],
+      "correct_answer": "Focus Group",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "A team of developers begins coding a complex online payment system without discussing a common structure. One developer modifies a function signature without informing others, breaking multiple components dependent on that function. Which phase was likely skipped or inadequately done?",
+      "type": "MCQ",
+      "options": [
+        "Requirement Gathering",
+        "Testing",
+        "Design",
+        "Maintenance"
+      ],
+      "correct_answer": "Design",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "A research institute wants to deploy a high-performance computing web application. It requires maximum speed, full system control, and does not mind paying a high upfront cost. Which hosting option is most appropriate for their needs?",
+      "type": "MCQ",
+      "options": [
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Shared Hosting",
+        "Bare Metal Server"
+      ],
+      "correct_answer": "Bare Metal Server",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Your team deploys a major update to a new server setup. If anything breaks, they want to instantly switch all users back to the older version. Which deployment strategy enables this type of rollback?",
+      "type": "MCQ",
+      "options": [
+        "Canary Deployment",
+        "Blue-Green Deployment",
+        "Version Deployment",
+        "Shadow Deployment"
+      ],
+      "correct_answer": "Blue-Green Deployment",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "A software company is planning to launch a new product. Before development begins, the team needs to identify the target audience and understand what features would add the most value. Which team is primarily responsible for this task?",
+      "type": "MCQ",
+      "options": [
+        "Engineering Team",
+        "Marketing Team",
+        "Support Team",
+        "Legal Team"
+      ],
+      "correct_answer": "Marketing Team",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Ananya is developing a Python-based web application. She wants a tool that not only allows her to write code but also helps her with syntax checking, renaming variables across the project, and locating function usage. Which of the following tools is most suitable for her?",
+      "type": "MCQ",
+      "options": [
+        "Notepad",
+        "Vim",
+        "Visual Studio Code",
+        "Python interpreter"
+      ],
+      "correct_answer": "Visual Studio Code",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "You see unexpected behavior in a GUI application and trace the function calls and state transitions starting from the button click that triggered the event. Which debugging strategy is most appropriate?",
+      "type": "MCQ",
+      "options": [
+        "Input manipulation",
+        "Forward tracing",
+        "Backward tracing",
+        "Blackbox debugging"
+      ],
+      "correct_answer": "Forward tracing",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "Your system supports an \"Add to Cart and Purchase\" workflow. To model how different objects interact during this process, which UML diagram would be most appropriate?",
+      "type": "MCQ",
+      "options": [
+        "Class Diagram",
+        "Sequence Diagram",
+        "Activity Diagram",
+        "Component Diagram"
+      ],
+      "correct_answer": "Sequence Diagram",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "Imagine you're joining a new open-source project hosted on GitHub. You want to make some improvements in the codebase and share your changes with the rest of the team. Starting from scratch, what is the correct order of steps you should follow to make changes locally and push them to the remote repository?",
+      "type": "MCQ",
+      "options": [
+        "Add \u2192 Commit \u2192 Push \u2192 Clone",
+        "Clone \u2192 Modify \u2192 Add \u2192 Commit \u2192 Push",
+        "Fork \u2192 Commit \u2192 Pull \u2192 Push",
+        "Push \u2192 Clone \u2192 Add \u2192 Merge"
+      ],
+      "correct_answer": "Clone \u2192 Modify \u2192 Add \u2192 Commit \u2192 Push",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    }
+  ],
+  "id": "cs3001-2025t3-et-fn",
+  "course_code": "CS3001",
+  "course_name": "Software Engineering",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

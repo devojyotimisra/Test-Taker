@@ -1,0 +1,450 @@
+{
+  "title": "DEGREE LEVEL : OPERATING SYSTEMS (COMPUTER BASED EXAM)",
+  "filename": "cs4022_2026T1_Q1_NA.pdf",
+  "total_questions": 19,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : OPERATING SYSTEMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "If the memory map for a device starts from the offset 0x40002000 and has a size of 4096 bytes in a 32-bit addressing scheme, what will be the last address in the memory map?",
+      "type": "MCQ",
+      "options": [
+        "0x40003000",
+        "0x40002EFF",
+        "0x40001FFF",
+        "0x40002FFF"
+      ],
+      "correct_answer": "0x40002FFF",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following memory-mapped register code: [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p2_Im3.webp|block] What are the access sizes of the [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p3_Im1.webp|inline] and [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p3_Im2.webp|inline] registers, respectively?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4022_2026T1_Q1_NA_p3_Im4.webp|inline] is 4-byte, and [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p3_Im5.webp|inline] is 1-byte.",
+        "Both registers are 1-byte.",
+        "Both registers are 4-byte.",
+        "[IMAGE: /data/images/cs4022_2026T1_Q1_NA_p3_Im7.webp|inline] is 1-byte, and [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p3_Im8.webp|inline] is 4-byte."
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4022_2026T1_Q1_NA_p3_Im4.webp|inline] is 4-byte, and [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p3_Im5.webp|inline] is 1-byte.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q1_NA_p2_Im3.webp",
+        "/data/images/cs4022_2026T1_Q1_NA_p3_Im1.webp",
+        "/data/images/cs4022_2026T1_Q1_NA_p3_Im2.webp",
+        "/data/images/cs4022_2026T1_Q1_NA_p3_Im4.webp",
+        "/data/images/cs4022_2026T1_Q1_NA_p3_Im5.webp",
+        "/data/images/cs4022_2026T1_Q1_NA_p3_Im7.webp",
+        "/data/images/cs4022_2026T1_Q1_NA_p3_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "What will be the output behavior of the following xv6 code snippet? [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p3_Im9.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Only [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p3_Im10.webp|inline] will be printed.",
+        "Only [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p3_Im11.webp|inline] will be printed.",
+        "Both lines will be printed, but the order is non-deterministic.",
+        "Parent always prints first, then child."
+      ],
+      "correct_answer": "Both lines will be printed, but the order is non-deterministic.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q1_NA_p3_Im9.webp",
+        "/data/images/cs4022_2026T1_Q1_NA_p3_Im10.webp",
+        "/data/images/cs4022_2026T1_Q1_NA_p3_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Which of the following correctly describes the sequence of steps when a new process is forked in xv6? (i) Allocate a new proc structure. (ii) Copy the parent\u2019s memory space to the child. (iii) Set up the trapframe for the child process. (iv) Add the child to the ready queue.",
+      "type": "MCQ",
+      "options": [
+        "(i) \u2192 (iii) \u2192 (ii) \u2192 (iv)",
+        "(ii) \u2192 (i) \u2192 (iii) \u2192 (iv)",
+        "(i) \u2192 (ii) \u2192 (iii) \u2192 (iv)",
+        "(iii) \u2192 (i) \u2192 (ii) \u2192 (iv)"
+      ],
+      "correct_answer": "(i) \u2192 (ii) \u2192 (iii) \u2192 (iv)",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Consider image of the page table entry is given below and the code for kvminit in vm.c. [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p4_Im3.webp|block] [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p5_Im1.webp|block] What will be the values of the first 5 bits (from the right) of the page table entry after the execution of [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p5_Im2.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "01110",
+        "00111",
+        "10110",
+        "10111"
+      ],
+      "correct_answer": "00111",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q1_NA_p4_Im3.webp",
+        "/data/images/cs4022_2026T1_Q1_NA_p5_Im1.webp",
+        "/data/images/cs4022_2026T1_Q1_NA_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following code snippet for the syscall function in kernel/syscall.c (RISC-V xv6): [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p6_Im1.webp|block] Why does xv6 store the system call number in the [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p6_Im2.webp|inline] register before invoking the kernel?",
+      "type": "MCQ",
+      "options": [
+        "To store the return value of the system call.",
+        "To indicate the number of bytes to be transferred.",
+        "To let the kernel identify which system call the user process is requesting.",
+        "To store the stack pointer for the child process."
+      ],
+      "correct_answer": "To let the kernel identify which system call the user process is requesting.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q1_NA_p6_Im1.webp",
+        "/data/images/cs4022_2026T1_Q1_NA_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "When a user types the command [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p6_Im5.webp|inline] in a Linux shell, which of the following sequences of system calls is most likely to occur for executing the command and then returning control to the shell?",
+      "type": "MCQ",
+      "options": [
+        "exec-fork-wait",
+        "wait-exec-fork",
+        "fork-wait-exec",
+        "fork-exec-wait"
+      ],
+      "correct_answer": "fork-exec-wait",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q1_NA_p6_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "A system has a virtual memory space of 8 GB and uses a single-level page table with 2 21 entries. What is the size of each page frame?",
+      "type": "MCQ",
+      "options": [
+        "2 KB",
+        "4 KB",
+        "8 KB",
+        "16 KB"
+      ],
+      "correct_answer": "4 KB",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider a system with 128 MB of physical memory and a 32-bit virtual address space. Given a page size of 8 KB, what will be the maximum number of page frames that can be present in RAM?",
+      "type": "MCQ",
+      "options": [
+        "2 12 frames",
+        "2 13 frames",
+        "2 14 frames",
+        "2 15 frames"
+      ],
+      "correct_answer": "2 14 frames",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "What could be the possible output of the following program? [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Child A: 4 Parent A: 6 Parent B: 14 Child B: 12",
+        "Parent A: 6 Child A: 4 Child B: 12 Parent B: 14",
+        "Parent A: 6 Parent B: 8 Child A: 3 Child B: 12",
+        "Child A: 2 Parent A: 6 Parent B: 14 Child B: 10"
+      ],
+      "correct_answer": "Parent A: 6 Child A: 4 Child B: 12 Parent B: 14",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "In RISC-V, during system calls, which register stores the current program counter?",
+      "type": "MCQ",
+      "options": [
+        "accumulator",
+        "exception program counter",
+        "mstatus",
+        "None of these"
+      ],
+      "correct_answer": "exception program counter",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider the given memory map. [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p9_Im3.webp|block] The memory address 0x200003CD corresponds to ________",
+      "type": "MCQ",
+      "options": [
+        "Mouse",
+        "Keyboard",
+        "Timers",
+        "Interrupt Controller",
+        "None of these"
+      ],
+      "correct_answer": "Mouse",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q1_NA_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "State True or False: In xv6, after a user process calls fork(), both the parent and child processes have separate copies of the trapframe, so changes in one do not affect the other.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "In xv6, a running process can be preempted by the scheduler due to a timer interrupt. What is the resulting state transition of the process?",
+      "type": "MCQ",
+      "options": [
+        "Running \u2192 Sleeping",
+        "Running \u2192 Zombie",
+        "Running \u2192 Runnable",
+        "State remains unchanged"
+      ],
+      "correct_answer": "Running \u2192 Runnable",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "When a process invokes the exec system call, which components in the Process Control Block (PCB) remain unchanged?",
+      "type": "MCQ",
+      "options": [
+        "Page table entries",
+        "Process identifier (PID)",
+        "The value of the program counter",
+        "File descriptor table and memory information"
+      ],
+      "correct_answer": "Process identifier (PID)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider a process A that forks B, B forks C, and C forks D. Processes A and B keep running, but process C terminates before D finishes. Later, D also terminates. Which process is responsible for waiting for and reaping process D?",
+      "type": "MCQ",
+      "options": [
+        "Process A",
+        "Process B",
+        "Process C",
+        "Process init"
+      ],
+      "correct_answer": "Process init",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Select the functions present in kernel/trampoline.S, and are responsible for switching from kernel pagetable to process pagetable and vice versa.",
+      "type": "multichoice",
+      "options": [
+        "userret",
+        "usertrapret",
+        "trampoline",
+        "usertrap"
+      ],
+      "correct_answer": [
+        "userret",
+        "trampoline"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Consider the following processes in an xv6-like operating system: \u2022 Process P1 is ready to run and waiting in the run queue. \u2022 Process P2 is currently executing on the CPU. \u2022 Process P3 has called [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p11_Im3.webp|inline] waiting for an I/O event. \u2022 Process P4 has exited but its parent has not yet called [IMAGE: /data/images/cs4022_2026T1_Q1_NA_p11_Im4.webp|inline] . Select all the correct statements about the states of the processes.",
+      "type": "multichoice",
+      "options": [
+        "Process P1 is in the RUNNABLE state.",
+        "Process P2 is in the RUNNING state.",
+        "Process P3 is in the SLEEPING state.",
+        "Process P4 is in the ZOMBIE state.",
+        "Process P3 is in the RUNNING state.",
+        "Process P4 is in the RUNNABLE state."
+      ],
+      "correct_answer": [
+        "Process P1 is in the RUNNABLE state.",
+        "Process P2 is in the RUNNING state.",
+        "Process P3 is in the SLEEPING state.",
+        "Process P4 is in the ZOMBIE state."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4022_2026T1_Q1_NA_p11_Im3.webp",
+        "/data/images/cs4022_2026T1_Q1_NA_p11_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "OS"
+    }
+  ],
+  "id": "cs4022-2026t1-q1-na",
+  "course_code": "CS4022",
+  "course_name": "Operating Systems",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

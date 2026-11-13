@@ -1,0 +1,463 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "da5013_2026T1_Q1_NA.pdf",
+  "total_questions": 20,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Consider subword tokenization methods such as Byte Pair Encoding (BPE) and WordPiece as employed in transformer-based language modeling pipelines. Which of the following statements correctly describes their fundamental properties?",
+      "type": "MCQ",
+      "options": [
+        "They always split words at true morpheme boundaries (the smallest units of meaning, e.g., \u201cun-\u201d + \u201cbreak\u201d + \u201cable\u201d).",
+        "They learn merge rules from corpus statistics (frequency/likelihood), not token semantics",
+        "They eliminate (Out Of Vocabulary) OOV by ensuring every word is a single token",
+        "They generalize perfectly to out-of-domain text without increasing sequence length."
+      ],
+      "correct_answer": "They learn merge rules from corpus statistics (frequency/likelihood), not token semantics",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider two subword tokenizers trained on the same text corpus. Tokenizer A uses a vocabulary of 8,000 tokens, whereas Tokenizer B uses a vocabulary of 64,000 tokens. Which of the following statements most accurately characterizes the implications of these vocabulary sizes for training efficiency in transformer-based language models?",
+      "type": "MCQ",
+      "options": [
+        "Larger vocabulary always reduces sequence length and total compute.",
+        "Smaller vocabulary always improves semantic alignment.",
+        "Larger vocabulary reduces sequence length but increases embedding parameters.",
+        "Vocabulary size has no effect once model is pretrained."
+      ],
+      "correct_answer": "Larger vocabulary reduces sequence length but increases embedding parameters.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "A subword tokenizer decomposes rare chemical entity names into a large number of fragments. During downstream fine-tuning, the model exhibits degraded performance on a chemical named entity recognition (NER) task. Which of the following represents the most principled corrective action?",
+      "type": "MCQ",
+      "options": [
+        "Increase the dropout rate during fine-tuning.",
+        "Retrain the tokenizer using an in-domain (chemical) corpus.",
+        "Reduce the batch size during training.",
+        "Apply label smoothing to the loss function."
+      ],
+      "correct_answer": "Retrain the tokenizer using an in-domain (chemical) corpus.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "[IMAGE: /data/images/da5013_2026T1_Q1_NA_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The output sequence will always contain exactly 12 non-padding tokens.",
+        "Special tokens may consume a portion of the 12-token length budget.",
+        "Word boundaries are preserved, since truncation occurs at whitespace boundaries.",
+        "Padding will never be applied when truncation is enabled."
+      ],
+      "correct_answer": "Special tokens may consume a portion of the 12-token length budget.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T1_Q1_NA_p3_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "[IMAGE: /data/images/da5013_2026T1_Q1_NA_p4_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "This is supervised fine-tuning with noisy labels.",
+        "This is instruction tuning because labels are present.",
+        "This performs continual pretraining with MLM objective.",
+        "This trains a classifier head implicitly."
+      ],
+      "correct_answer": "This performs continual pretraining with MLM objective.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T1_Q1_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "In the standard Transformer architecture (e.g., GPT or BERT), which component exhibits a computational complexity that scales quadratically ( [IMAGE: /data/images/da5013_2026T1_Q1_NA_p4_Im4.webp|inline] ) with respect to the input sequence length [IMAGE: /data/images/da5013_2026T1_Q1_NA_p4_Im5.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "The initial token and positional embedding lookup.",
+        "The element-wise addition in the Residual (Skip) connections.",
+        "The computation of the attention score matrix ( [IMAGE: /data/images/da5013_2026T1_Q1_NA_p5_Im1.webp|inline] ).",
+        "The linear projections in the Position-wise Feed-Forward Network (FFN)."
+      ],
+      "correct_answer": "The computation of the attention score matrix ( [IMAGE: /data/images/da5013_2026T1_Q1_NA_p5_Im1.webp|inline] ).",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T1_Q1_NA_p4_Im4.webp",
+        "/data/images/da5013_2026T1_Q1_NA_p4_Im5.webp",
+        "/data/images/da5013_2026T1_Q1_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "A model with 4B parameters (fp32) is being trained using the AdamW optimizer on a single 32GB GPU. Why is full fine-tuning impossible in this configuration?",
+      "type": "MCQ",
+      "options": [
+        "The 4B parameters alone require 32GB of VRAM, leaving no room for the OS or CUDA kernels.",
+        "The optimizer states (32GB) plus the model weights (16GB) and gradients (16GB) exceed the 32GB VRAM limit.",
+        "The tokenizer is unable to map a context length of 2048 to a 32-bit integer space.",
+        "The fp32 precision requires 8 bytes per parameter, meaning the 4B model needs 64GB just to load."
+      ],
+      "correct_answer": "The optimizer states (32GB) plus the model weights (16GB) and gradients (16GB) exceed the 32GB VRAM limit.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "During the full fine-tuning of a Large Language Model, you aim to regularize the training process by penalizing the growth of weight magnitudes. This ensures the model does not overfit the fine- tuning data by making excessively large updates to the pretrained parameters. Which parameter is specifically designed to apply this penalty?",
+      "type": "MCQ",
+      "options": [
+        "Gradient Accumulation.",
+        "Batch Size.",
+        "Checkpointing.",
+        "Weight Decay."
+      ],
+      "correct_answer": "Weight Decay.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Why does full fine-tuning of large language models often require more memory than inference using the same model?",
+      "type": "MCQ",
+      "options": [
+        "Inference uses larger batch sizes.",
+        "Inference stores optimizer states.",
+        "Training requires storing gradients and optimizer states.",
+        "Training uses longer input sequences."
+      ],
+      "correct_answer": "Training requires storing gradients and optimizer states.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Which technique is most effective at reducing GPU memory usage during training without modifying the model architecture?",
+      "type": "MCQ",
+      "options": [
+        "Gradient clipping.",
+        "Mixed-precision training.",
+        "Increasing learning rate warmup.",
+        "Saving checkpoints less frequently."
+      ],
+      "correct_answer": "Mixed-precision training.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the output of a Hugging Face tokenizer when applied to a batch of sequences with padding= \"max_length\" and return_tensors= \"pt\". Which of the following statements are correct? (Select ALL that apply)",
+      "type": "multichoice",
+      "options": [
+        "The input_ids tensor contains the numerical indices mapped from the vocabulary.",
+        "The attention_mask contains 0s for padding tokens and 1s for real tokens to prevent the model from attending to padding.",
+        "The token_type_ids (if present) are used primarily to distinguish between uppercase and lowercase letters.",
+        "In models like BERT, the input_ids will typically begin with a special token index (e.g., [CLS])."
+      ],
+      "correct_answer": [
+        "The input_ids tensor contains the numerical indices mapped from the vocabulary.",
+        "The attention_mask contains 0s for padding tokens and 1s for real tokens to prevent the model from attending to padding.",
+        "In models like BERT, the input_ids will typically begin with a special token index (e.g., [CLS])."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "[IMAGE: /data/images/da5013_2026T1_Q1_NA_p7_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Effective batch size is larger than 1.",
+        "Reduced memory usage compared to FP32 training.",
+        "Gradient clipping limits large parameter updates.",
+        "Gradient accumulation reduces the number of optimizer states."
+      ],
+      "correct_answer": [
+        "Effective batch size is larger than 1.",
+        "Reduced memory usage compared to FP32 training.",
+        "Gradient clipping limits large parameter updates."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T1_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Which of the following statements correctly distinguish different Transformer architectures and their typical training objectives? (Select ALL that apply)",
+      "type": "multichoice",
+      "options": [
+        "Encoder-only models are commonly trained with Masked Language Modeling objectives.",
+        "Decoder-only models rely on causal masking and autoregressive inference.",
+        "Encoder-decoder models are well suited for sequence-to-sequence tasks.",
+        "All Transformer architectures use identical attention masks."
+      ],
+      "correct_answer": [
+        "Encoder-only models are commonly trained with Masked Language Modeling objectives.",
+        "Decoder-only models rely on causal masking and autoregressive inference.",
+        "Encoder-decoder models are well suited for sequence-to-sequence tasks."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "[IMAGE: /data/images/da5013_2026T1_Q1_NA_p8_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Task Conditioning: The model learns to follow natural language formatting (Instruction/Input/Answer) rather than just mapping a sequence to a single integer ID.",
+        "Open Vocabulary: The model's prediction head remains the size of its full vocabulary (e.g., 50k+ tokens), allowing it to generate any string as an answer instead of being restricted to fixed logits for [IMAGE: /data/images/da5013_2026T1_Q1_NA_p8_Im3.webp|inline] classes.",
+        "Guaranteed Zero-Shot: This training format ensures the model will generalize perfectly to any unseen task prompt without further data.",
+        "Objective Shift: The training objective moves from minimizing cross-entropy loss over a discrete class index to minimizing next-token prediction loss over the sequence tokens."
+      ],
+      "correct_answer": [
+        "Task Conditioning: The model learns to follow natural language formatting (Instruction/Input/Answer) rather than just mapping a sequence to a single integer ID.",
+        "Open Vocabulary: The model's prediction head remains the size of its full vocabulary (e.g., 50k+ tokens), allowing it to generate any string as an answer instead of being restricted to fixed logits for [IMAGE: /data/images/da5013_2026T1_Q1_NA_p8_Im3.webp|inline] classes.",
+        "Objective Shift: The training objective moves from minimizing cross-entropy loss over a discrete class index to minimizing next-token prediction loss over the sequence tokens."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T1_Q1_NA_p8_Im1.webp",
+        "/data/images/da5013_2026T1_Q1_NA_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "A model is trained using the Causal Language Modeling (CLM) objective with a standard cross- entropy loss. Which of the following statements correctly describe the training dynamics? (Select ALL that apply)",
+      "type": "multichoice",
+      "options": [
+        "The loss at position [IMAGE: /data/images/da5013_2026T1_Q1_NA_p8_Im5.webp|inline] depends only on tokens [IMAGE: /data/images/da5013_2026T1_Q1_NA_p8_Im6.webp|inline] .",
+        "The attention mask is strictly upper triangular.",
+        "Future tokens contribute gradients to earlier positions.",
+        "The joint probability of the sequence is factorized autoregressively."
+      ],
+      "correct_answer": [
+        "The loss at position [IMAGE: /data/images/da5013_2026T1_Q1_NA_p8_Im5.webp|inline] depends only on tokens [IMAGE: /data/images/da5013_2026T1_Q1_NA_p8_Im6.webp|inline] .",
+        "The attention mask is strictly upper triangular.",
+        "The joint probability of the sequence is factorized autoregressively."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T1_Q1_NA_p8_Im5.webp",
+        "/data/images/da5013_2026T1_Q1_NA_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "When configuring TrainingArguments for a Transformer model, we include a learning rate warmup phase (e.g., warmup_steps=500). Which of the following statements correctly describe the purpose and behavior of this strategy? (Select ALL that apply)",
+      "type": "multichoice",
+      "options": [
+        "It involves linearly increasing the learning rate from 0 (or a small value) to the target maximum during the initial phase.",
+        "It helps prevent \"divergence'' or instability caused by large gradients when the model weights are far from their optimal state.",
+        "It significantly reduces the VRAM (memory) required to store optimizer states.",
+        "After the warmup phase, the learning rate typically follows a decay schedule (like linear or cosine) to ensure convergence."
+      ],
+      "correct_answer": [
+        "It involves linearly increasing the learning rate from 0 (or a small value) to the target maximum during the initial phase.",
+        "It helps prevent \"divergence'' or instability caused by large gradients when the model weights are far from their optimal state.",
+        "After the warmup phase, the learning rate typically follows a decay schedule (like linear or cosine) to ensure convergence."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "A transformer-based language model has 1.2 billion parameters and is fine-tuned using AdamW. Assume parameters, gradients, and optimizer states (first and second moments) are all stored in 32-bit precision (4 bytes each). Ignoring activations and buffers, calculate the total GPU memory required (in GB) to store parameters, gradients, and optimizer states. (Assume 1 GB = [IMAGE: /data/images/da5013_2026T1_Q1_NA_p9_Im3.webp|inline] bytes.)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "19.1 to 19.3",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T1_Q1_NA_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "A GPT-style transformer block has an embedding dimension of 768 and uses 12 attention heads. Consider a specific processing task with a very short sequence of only 3 tokens ( [IMAGE: /data/images/da5013_2026T1_Q1_NA_p10_Im1.webp|inline] ).Compute the total number of weight parameters (ignore biases) in the self-attention module, specifically for the Query, Key, Value, and Output projection matrices. Report your answer in millions, rounded to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.3 to 2.5",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2026T1_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "You are training a decoder-only language model with a vocabulary size of 32,000, maximum context length of 2048, and embedding dimension of 1024. The model uses learned positional embeddings. Calculate the total number of parameters in the embedding layer (token + positional embeddings). Report your answer in millions, rounded to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "34.7 to 35.1",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    }
+  ],
+  "id": "da5013-2026t1-q1-na",
+  "course_code": "DA5013",
+  "course_name": "Deep Learning Practice",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

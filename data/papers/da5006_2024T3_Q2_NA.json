@@ -1,0 +1,552 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)",
+  "filename": "da5006_2024T3_Q2_NA.pdf",
+  "total_questions": 26,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 131,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 132,
+      "text": "Number of Parameters: ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12800",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p1_Im1.webp|block]",
+      "group_id": "6406531031064",
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 133,
+      "text": "Computational Cost: ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "209715200",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p1_Im1.webp|block]",
+      "group_id": "6406531031064",
+      "section_name": null
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 134,
+      "text": "Number of parameters for depthwise convolution: ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "400",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p2_Im1.webp|block] Calculate the number of parameters and computational cost, but make use of Depthwise Seperable convolution and pointwise convolution instead of standard convolution.",
+      "group_id": "6406531031067",
+      "section_name": null
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 135,
+      "text": "Computational Cost for depthwise convolution: ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6553600",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p2_Im1.webp|block] Calculate the number of parameters and computational cost, but make use of Depthwise Seperable convolution and pointwise convolution instead of standard convolution.",
+      "group_id": "6406531031067",
+      "section_name": null
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 136,
+      "text": "Number of parameters for pointwise convolution: ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "512",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p2_Im1.webp|block] Calculate the number of parameters and computational cost, but make use of Depthwise Seperable convolution and pointwise convolution instead of standard convolution.",
+      "group_id": "6406531031067",
+      "section_name": null
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 137,
+      "text": "Computational cost for pointwise convolution: ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8388608",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p2_Im1.webp|block] Calculate the number of parameters and computational cost, but make use of Depthwise Seperable convolution and pointwise convolution instead of standard convolution.",
+      "group_id": "6406531031067",
+      "section_name": null
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 138,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p3_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p3_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p4_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p3_Im6.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p3_Im1.webp",
+        "/data/images/da5006_2024T3_Q2_NA_p3_Im5.webp",
+        "/data/images/da5006_2024T3_Q2_NA_p3_Im6.webp",
+        "/data/images/da5006_2024T3_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 139,
+      "text": "Which one of the following object detection networks uses an ROI pooling layer?",
+      "type": "MCQ",
+      "options": [
+        "Fast R-CNN",
+        "R-CNN",
+        "YOLO",
+        "All of these"
+      ],
+      "correct_answer": "Fast R-CNN",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 140,
+      "text": "Consider an object detection system evaluated on a dataset consisting of 1000 images. The system makes 1500 predictions across these images, and for each image, there are annotated ground truth bounding boxes. The system\u2019s precision-recall curve is calculated, and the precision at different recall levels for one of the classes is as follows: [IMAGE: /data/images/da5006_2024T3_Q2_NA_p4_Im4.webp|block] Calculate the Average Precision (AP) for this class using the 11-point interpolation method, which averages the precision values at recall levels {0.0, 0.1, 0.2, ..., 1.0}. The precision at recall 0.0 can be assumed to be 1.0. Additionally, the system\u2019s AP values for the other two classes are as follows: - AP for class 2: 0.78 - AP for class 3: 0.72 Based on these AP values, what is the mean Average Precision (mAP) across all three classes?",
+      "type": "MCQ",
+      "options": [
+        "0.70",
+        "0.69",
+        "0.73",
+        "0.76"
+      ],
+      "correct_answer": "0.73",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 141,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p5_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192iv, 2\u2192ii, 3\u2192v, 4\u2192i",
+        "1\u2192iv, 2\u2192iii, 3\u2192v, 4\u2192ii",
+        "1\u2192iv, 2\u2192v, 3\u2192ii, 4\u2192iii",
+        "1\u2192iii, 2\u2192v, 3\u2192i, 4\u2192ii"
+      ],
+      "correct_answer": "1\u2192iii, 2\u2192v, 3\u2192i, 4\u2192ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 142,
+      "text": "Which one of the following statements is False?",
+      "type": "MCQ",
+      "options": [
+        "In a max pooling layer, the unit that gets selected (maximum entry) in forward propagation gets all the gradient during backpropagation.",
+        "Residual blocks are used in ResNets to avoid the vanishing gradient problem.",
+        "Feature maps of initial layers of a CNN capture more abstract concepts than the feature maps of final layers.",
+        "Dilated convolution increases the receptive field size when compared to the standard convolution operator."
+      ],
+      "correct_answer": "Feature maps of initial layers of a CNN capture more abstract concepts than the feature maps of final layers.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 143,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Sigmoid of alignment scores",
+        "Softmax of alignment scores",
+        "ReLU of alignment scores",
+        "None of these"
+      ],
+      "correct_answer": "Softmax of alignment scores",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 144,
+      "text": "Which one of the following statements is false?",
+      "type": "MCQ",
+      "options": [
+        "Attention mechanisms cannot be applied to the bidirectional RNN model",
+        "An image captioning network cannot be trained end-to-end even though we are using 2 different modalities to train the network",
+        "One of the key components in the vanilla transformer are the recurrent connections that help them to deal with variable input length.",
+        "None of these"
+      ],
+      "correct_answer": "None of these",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 145,
+      "text": "Consider two 12\u00d712 bounding boxes(one on the upper left and one of the lower right) in an images with an overlapping region of 8 \u00d7 8. The Intersection over Union (IoU) between the two boxes is (choose the closest value):",
+      "type": "MCQ",
+      "options": [
+        "21%",
+        "25%",
+        "28%",
+        "37%"
+      ],
+      "correct_answer": "28%",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 146,
+      "text": "Which one of the following statements is true?",
+      "type": "MCQ",
+      "options": [
+        "Attention mechanisms cannot be applied to the bidirectional RNN model",
+        "An image captioning network cannot be trained end-to-end even though we are using 2 different modalities to train the network",
+        "One of the key components in the vanilla transformer are the recurrent connections that help them to deal with variable input length.",
+        "None of these"
+      ],
+      "correct_answer": "None of these",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 147,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p7_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 iv, 2\u2192 iii, 3\u2192 ii, 4 \u2192 i",
+        "1\u2192 ii, 2\u2192 iii, 3 \u2192 i, 4 \u2192iv",
+        "1\u2192 iv, 2\u2192 iii, 3\u2192 i, 4 \u2192 ii",
+        "1\u2192 ii, 2\u2192 iv, 3 \u2192 iii, 4\u2192 i"
+      ],
+      "correct_answer": "1\u2192 iv, 2\u2192 iii, 3\u2192 i, 4 \u2192 ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 148,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p7_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192 iii, 2\u2192 iv, 3\u2192 ii, 4 \u2192 i",
+        "1\u2192 iv, 2\u2192 i, 3 \u2192 iii, 4\u2192 ii",
+        "1\u2192 i, 2\u2192 ii, 3 \u2192 iii, 4\u2192 iv",
+        "1\u2192 i, 2\u2192 iii, 3 \u2192 ii, 4\u2192 iv"
+      ],
+      "correct_answer": "1\u2192 iv, 2\u2192 i, 3 \u2192 iii, 4\u2192 ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 149,
+      "text": "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1\u2192iii, 2\u2192ii, 3\u2192v, 4\u2192iv,5\u2192i",
+        "1\u2192iii, 2\u2192iv, 3\u2192i, 4\u2192ii,5\u2192v",
+        "1\u2192i, 2\u2192iii, 3\u2192iv, 4\u2192ii,5\u2192v",
+        "1\u2192v, 2\u2192iv, 3\u2192iii, 4\u2192i,5\u2192ii"
+      ],
+      "correct_answer": "1\u2192v, 2\u2192iv, 3\u2192iii, 4\u2192i,5\u2192ii",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 150,
+      "text": "Which of the following are true:",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p8_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p8_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/da5006_2024T3_Q2_NA_p8_Im7.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p8_Im5.webp",
+        "/data/images/da5006_2024T3_Q2_NA_p8_Im6.webp",
+        "/data/images/da5006_2024T3_Q2_NA_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 151,
+      "text": "Which of the following is true regarding Hard Attention and Soft Attention?",
+      "type": "multichoice",
+      "options": [
+        "Soft Attention is smooth and differentiable",
+        "Variance reduction techniques are used to train Soft Attention models",
+        "Soft Attention is computationally cheaper than Hard Attention when the source input is large",
+        "The inference (test time) overhead is low in Hard Attention when compared to Soft Attention models"
+      ],
+      "correct_answer": [
+        "Soft Attention is smooth and differentiable",
+        "The inference (test time) overhead is low in Hard Attention when compared to Soft Attention models"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 152,
+      "text": "Consider a Faster R-CNN object detection framework, which is being trained with a mini-batch size of 2. The RPN produces 512 proposals, out of which 5 and 95 of them are foreground proposals, corresponding to each image in the mini-batch. For a single mini-batch update, the bounding box regression loss will be computed _____________ times.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "100",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 153,
+      "text": "Number of weights in Weight Matrix U1 is: ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "33792",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The RNN given below is used for classification: [IMAGE: /data/images/da5006_2024T3_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "6406531031087",
+      "section_name": null
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 154,
+      "text": "Number of weights in Weight Matrix V1 is: ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "65536",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The RNN given below is used for classification: [IMAGE: /data/images/da5006_2024T3_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "6406531031087",
+      "section_name": null
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 155,
+      "text": "Number of weights in Weight Matrix U2 is: ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "32768",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The RNN given below is used for classification: [IMAGE: /data/images/da5006_2024T3_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "6406531031087",
+      "section_name": null
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 156,
+      "text": "Number of weights in Weight Matrix V2 is: ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "16384",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T3_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The RNN given below is used for classification: [IMAGE: /data/images/da5006_2024T3_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "6406531031087",
+      "section_name": null
+    }
+  ],
+  "id": "da5006-2024t3-q2-na",
+  "course_code": "DA5006",
+  "course_name": "Deep Learning for Computer Vision",
+  "level": "Degree",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

@@ -1,0 +1,398 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "da5013_2024T3_Q2_NA.pdf",
+  "total_questions": 16,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 174,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 175,
+      "text": "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p1_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p2_Im1.webp|block]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p2_Im4.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p2_Im1.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q2_NA_p1_Im3.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p1_Im4.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p2_Im1.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p2_Im3.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p2_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 176,
+      "text": "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p2_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(2, 3, 4, 1)",
+        "(1, 3, 5, 1)",
+        "(3, 5, 1)",
+        "(3, 1, 1, 5)"
+      ],
+      "correct_answer": "(3, 1, 1, 5)",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q2_NA_p2_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 177,
+      "text": "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p2_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "32 \u00d7 25",
+        "32 \u00d7 26",
+        "16 \u00d7 32 \u00d7 50",
+        "50 \u00d7 3"
+      ],
+      "correct_answer": "32 \u00d7 25",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q2_NA_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 178,
+      "text": "If an audio is of duration 10 seconds and sample rate is 48KHz, what happens to the length of audio in samples if the audio is downsampled to 16KHz?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p3_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p3_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p3_Im4.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q2_NA_p3_Im2.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p3_Im4.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p3_Im5.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 179,
+      "text": "If the current learning rate is 0.002 and the maximum learning rate to be achieved in 1000 steps is 0.004, what should be the step size for a linear learning rate scheduler?",
+      "type": "MCQ",
+      "options": [
+        "0.0002",
+        "0.00002",
+        "0.0000002",
+        "0.000002"
+      ],
+      "correct_answer": "0.000002",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 180,
+      "text": "What is the correct order of training commands?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p3_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p3_Im8.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p3_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p4_Im2.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p3_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p3_Im9.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q2_NA_p3_Im7.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p3_Im8.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p3_Im9.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 181,
+      "text": "To quantize the Whisper model to 8-bit integer during loading in Hugging Face, which of the following arguments should be passed?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p4_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q2_NA_p4_Im3.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p4_Im5.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p4_Im6.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 182,
+      "text": "Which of the following models can be used to obtain segments for speaker diarization?",
+      "type": "MCQ",
+      "options": [
+        "Whisper",
+        "Wav2Vec",
+        "Speecht5",
+        "GPT-3"
+      ],
+      "correct_answer": "Whisper",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 183,
+      "text": "Which of the following arguments should be passed during dataset loading to avoid loading the full dataset at once?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p4_Im8.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p4_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p5_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p5_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p4_Im9.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q2_NA_p4_Im8.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p4_Im9.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p5_Im2.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 184,
+      "text": "Which of the following loss functions can be used for speaker classification?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p5_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p5_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q2_NA_p5_Im4.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p5_Im6.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p5_Im7.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p5_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 185,
+      "text": "If a dataset has 25600 samples, batch size is 100, each epoch processes the whole dataset only once, and gradient accumulation is set to 32, how many updates does the model make?",
+      "type": "MCQ",
+      "options": [
+        "16",
+        "256",
+        "32",
+        "8"
+      ],
+      "correct_answer": "8",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 186,
+      "text": "Which of the following functions can be used to replace certain values in a PyTorch tensor?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p5_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p5_Im10.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p6_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p6_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p5_Im9.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q2_NA_p5_Im9.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p5_Im10.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p6_Im2.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 187,
+      "text": "Which of the following trainers is commonly used for ASR sequence-to-sequence training?",
+      "type": "MCQ",
+      "options": [
+        "ASRTrainer",
+        "Seq2SeqTrainer",
+        "LanguageModelTrainer",
+        "ClassificationTrainer"
+      ],
+      "correct_answer": "Seq2SeqTrainer",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 188,
+      "text": "What type of model is HiFi-GAN?",
+      "type": "MCQ",
+      "options": [
+        "Text-to-Text model",
+        "Vocoder",
+        "Decoder",
+        "Classifier"
+      ],
+      "correct_answer": "Vocoder",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 189,
+      "text": "Which of the following should be done when a CUDA Out of Memory error is encountered during training?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p6_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p6_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_Q2_NA_p6_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2024T3_Q2_NA_p6_Im5.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p6_Im6.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p6_Im7.webp",
+        "/data/images/da5013_2024T3_Q2_NA_p6_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    }
+  ],
+  "id": "da5013-2024t3-q2-na",
+  "course_code": "DA5013",
+  "course_name": "Deep Learning Practice",
+  "level": "Degree",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

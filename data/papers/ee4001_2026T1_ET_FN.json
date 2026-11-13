@@ -1,0 +1,417 @@
+{
+  "title": "DEGREE LEVEL : SPEECH TECHNOLOGY (PEN AND PAPER EXAM)",
+  "filename": "ee4001_2026T1_ET_FN.pdf",
+  "total_questions": 20,
+  "total_marks": 25.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SPEECH TECHNOLOGY (PEN AND PAPER EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Instructions : All option-based questions are MCQs, and all fill-in-the-blank questions are short answer questions. For Questions 3 to 20, answer all questions. \u2022 In MCQs, you must write the correct option and also the complete text of that option. \u2022 You must then provide a detailed explanation of why that specific option is the correct answer. \u2022 In short answer questions, write the answer clearly with proper explanation wherever needed. \u2022 In all problem-solving or example-based questions, present the solution with all intermediate steps clearly shown. \u2022 Step-wise explanation is compulsory for all such questions. \u2022 The final answer must be written clearly at the end.",
+      "type": "MCQ",
+      "options": [
+        "Instructions has been mentioned above.",
+        "This Instructions is just for a reference & not for an evaluation."
+      ],
+      "correct_answer": "Instructions has been mentioned above.",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "If a speech signal is sampled at 16,000 samples per second, how many samples are contained in a 10-millisecond frame?",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "How does HuBERT differ from Wav2Vec 2.0 in target generation? (a) Uses labeled phonemes (b) Uses online quantization only. (c) Uses offline clustering (e.g., k-means). (d) Does not use masking.",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Why is \u201ddeduplication\u201d a common step when tokenizing speech signals into phonetic tokens? (a) To remove noise from the original audio recording. (b) To account for the fact that speech units (like vowels) exist for multiple time frames (e.g., 70- 100ms) and map to the same cluster ID. (c) To increase the vocabulary size of the LLM. (d) To convert continuous SSL embeddings into discrete vectors.",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "In a neural codec framework using Residual Vector Quantization (RVQ),how many codewords are typically generated per vector? (a) Number of RVQ layers (b) Size of each codebook (c) Number of encoder layers (d) Sampling rate of the audio",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "You are training a Speech LLM. Your audio codec outputs 4 RVQ codebooks.The frame rate is 50 Hz. If you choose a strictly flattened Autoregressive (AR) decoding strategy (predicting layer 1, then layer 2, then layer 3, then layer 4 for frame 1, before moving to frame 2), what is the total sequence length of tokens the LLM must process for a 5-second audio clip? (a) 250 tokens (b) 1000 tokens (c) 1250 tokens (d) 5000 tokens",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Imagine that you design a closed-loop system where speech is synthesized from text (TTS) and then transcribed back into text (ASR). Which evaluation measure best captures the accuracy of the text reconstruction at the end of this loop? (a) Signal-to-noise ratio (SNR) of the reconstructed audio (b) Cosine similarity between mel-spectrograms of original and reconstructed audio (c) Perplexity of the reconstructed text under a language model (d) Word Error Rate (WER) between the original and reconstructed text",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "In the CELP algorithm, what does the \u201dCodebook index\u201d specifically represent? (a) The shape of the vocal tract (b) The index of a pre-defined excitation signal that best matches the residual (c) The volume level of the speaker (d) The duration of the phoneme",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "What is the mathematical advantage of RVQ over standard VQ for a high-dimensional vector space? (a) RVQ eliminates the search time for the closest centroid (b) VQ requires K N codebook entries for the same precision that RVQ achieves with K \u00d7 N entries (c) RVQ ensures the reconstructed vector is always mathematically identical to the original (d) RVQ works better with non-linear activation functions in the encoder",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Which system is most likely to fail if the same sentence is spoken by two different speakers with identical accents? (a) ASR (b) Speaker Verification (c) TTS (d) MT",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Why is predicting the immediate next frame (e.g., at t+1) often considered a \u201dtrivial\u201d task in speech processing? (a) Speech signals are completely random. (b) Digital speech has very low sample rates. (c) Closely occurring frames (10ms apart) in speech are highly correlated. (d) Next-token prediction is only effective for text, not audio.",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "In RNN-T, if the Joiner network uses a simple addition operation [IMAGE: /data/images/ee4001_2026T1_ET_FN_p5_Im3.webp|inline] , what happens if the Encoder output [IMAGE: /data/images/ee4001_2026T1_ET_FN_p5_Im4.webp|inline] becomes zero? (a) The model becomes a pure CTC model. (b) The model behaves like a pure unconditional Language Model. (c) The model fails to converge. (d) The output becomes random.",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ee4001_2026T1_ET_FN_p5_Im3.webp",
+        "/data/images/ee4001_2026T1_ET_FN_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "If we convert speech to pure text, what information is primarily lost? (a) The literal words spoken (b) The grammatical structure (c) Speaker identity and emotion (d) The language of the speaker",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "The SUPERB challenge is a benchmark specifically designed to evaluate: (a) Only Automatic Speech Recognition (ASR) models (b) Self-supervised models across multiple speech tasks (c) The physical hardware used for training (d) Text-only LLM performance",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Contrast the architectural paradigms of Wav2Vec 1.0 and Wav2Vec 2.0. How does the shift from a strictly autoregressive approach (Wav2Vec 1.0) to a bidirectional masked approach (Wav2Vec 2.0) impact the contextual representations learned?",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "When applying K-Means clustering for speech discretization, a specific vocabulary size (number of clusters, K) must be defined. Discuss the trade-offs between choosing a very small vocabulary (e.g., K=50) versus a very large vocabulary (e.g., K=2000). How does this choice impact phonetic discriminability and token sequence bit-rate?",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Given a latent vector: z=[1.2,0.8] and codebook vectors: c1=[1,1], c2=[0,0] (a) Find the closest codebook vector. (b) Compute the quantized output.",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Describe the process of modality alignment in a SpeechLLM incase of: (a) SpeechGPT (b) SLAM-ASR Explain with a simple architecture diagram.",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Describe the process of how a multi-layer 1D CNN block reduces the sequence length of high- frequency raw audio (e.g., 16 kHz) into a manageable sequence of latent representations. A single 1D CNN layer in a feature extractor has a kernel size of K=10, a stride of S=5, and zero padding P=0. If the input raw audio segment consists of I=400 samples, calculate the temporal dimension, O of the output feature map using the standard convolution formula.",
+      "type": "MCQ",
+      "options": [
+        "I have answered this question in the offline paper",
+        "I have skipped this question",
+        "This question does not apply to me"
+      ],
+      "correct_answer": "I have answered this question in the offline paper",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Speech Technology"
+    }
+  ],
+  "id": "ee4001-2026t1-et-fn",
+  "course_code": "EE4001",
+  "course_name": "Digital Signal Processing",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

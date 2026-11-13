@@ -1,0 +1,550 @@
+{
+  "title": "DIPLOMA LEVEL : INTRODUCTION TO DEEP LEARNING AND GENERATIVE AI (COMPUTER BASED EXAM)",
+  "filename": "da2001_2026T1_Q1_NA.pdf",
+  "total_questions": 23,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : INTRODUCTION TO DEEP LEARNING AND GENERATIVE AI (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "What will be the output of the following PyTorch code? [IMAGE: /data/images/da2001_2026T1_Q1_NA_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "29",
+        "43",
+        "48",
+        "53"
+      ],
+      "correct_answer": "43",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Consider the following code snippet: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p3_Im1.webp|block] What will be printed?",
+      "type": "MCQ",
+      "options": [
+        "torch.Size([5, 1, 3, 1]), torch.Size([5, 3,1])",
+        "torch.Size([1, 5, 1, 3, 1]), torch.Size([5, 3,1])",
+        "torch.Size([5, 1, 3, 1]), torch.Size([5, 3])",
+        "torch.Size([5, 3]), torch.Size([5, 3])"
+      ],
+      "correct_answer": "torch.Size([5, 1, 3, 1]), torch.Size([5, 3])",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "You want to train a linear model using stochastic gradient descent (SGD). Assume that the loss function and training loop are implemented correctly. Which of the following model definitions will result in the weights being updated during training?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p3_Im5.webp|block]",
+        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p4_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p4_Im2.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p3_Im5.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following training loop: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p4_Im3.webp|block] Which statement best describes the problem in this training loop?",
+      "type": "MCQ",
+      "options": [
+        "The forward pass is missing",
+        "Gradients accumulate across epochs, leading to incorrect updates",
+        "The optimizer cannot update parameters without model.eval()",
+        "The loss function cannot compute gradients"
+      ],
+      "correct_answer": "Gradients accumulate across epochs, leading to incorrect updates",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "You are given a dataset of 10 \u00d7 10 grayscale images. Your goal is to build a 5-class classifier. You have to adopt one of the following two options: \u25cf Model A: The input is flattened into a 100-dimensional vector, followed by a fully-connected layer with 5 neurons (without bias). \u25cf Model B: The input is directly given to a convolutional layer with five 10 \u00d7 10 filters. (without bias) Suppose you make your choice on the basis of the number of parameters in the models: \u25cf Let [IMAGE: /data/images/da2001_2026T1_Q1_NA_p5_Im1.webp|inline] = number of parameters in Model A . \u25cf Let [IMAGE: /data/images/da2001_2026T1_Q1_NA_p5_Im2.webp|inline] = number of parameters in Model B . Which of the following is correct?",
+      "type": "MCQ",
+      "options": [
+        "p_A > p_B",
+        "p_A = p_B",
+        "p_A < p_B"
+      ],
+      "correct_answer": "p_A = p_B",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p5_Im1.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "An image contains 16 channels. Which of the following code snippets correctly creates a convolution layer for this image?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p5_Im5.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p5_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p5_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p5_Im5.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p5_Im6.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p5_Im7.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p5_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Consider the following pytorch code to preprocess the FashionMNIST dataset. [IMAGE: /data/images/da2001_2026T1_Q1_NA_p5_Im9.webp|block] Which of the following hold true?",
+      "type": "MCQ",
+      "options": [
+        "The images in train_dataset will be converted to tensors and normalized before being returned.",
+        "The dataset will return normalized images in the range [\u22121,1] because FashionMNIST is grayscale.",
+        "The transforms are automatically applied to the test split while they are not applied to train split.",
+        "The dataset will return PIL images and not tensors."
+      ],
+      "correct_answer": "The dataset will return PIL images and not tensors.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p5_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "An input volume has shape 6x6x2 (height=6, width=6, depth=2 channels). Perform the following two steps on it. \u25cf Step 1: Apply 2x2 Max Pooling with stride=2 \u25cf Step 2: Then, apply 1x1 Convolution with 4 filters. What is the shape of the final output volume?",
+      "type": "MCQ",
+      "options": [
+        "3x3x2",
+        "3x3x4",
+        "6x6x4",
+        "3x3x8"
+      ],
+      "correct_answer": "3x3x4",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "In an Inception module, four parallel paths produce outputs of shapes: 28x28x64, 28x28x128, 28x28x32, and 28x28x32. After concatenation, what is the output shape?",
+      "type": "MCQ",
+      "options": [
+        "112\u00d728\u00d7128",
+        "28\u00d7112\u00d7256",
+        "28\u00d728\u00d7256",
+        "112\u00d7112\u00d7256"
+      ],
+      "correct_answer": "28\u00d728\u00d7256",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "A CNN produces an output feature map of size 7x7x512, which is followed by Global Average Pooling (GAP) and then a fully connected layer with 10 output classes. Which of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "GAP converts the feature map into a 49 \u00d7 512 vector before classification",
+        "GAP produces a 512-dimensional vector, resulting in 5120 trainable parameters in the final layer",
+        "GAP produces a 7 \u00d7 7 \u00d7 1 feature map, followed by a 10-unit fully connected layer",
+        "GAP increases the number of parameters compared to flattening"
+      ],
+      "correct_answer": "GAP produces a 512-dimensional vector, resulting in 5120 trainable parameters in the final layer",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the following code snippet: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p7_Im3.webp|block] What will be printed?",
+      "type": "MCQ",
+      "options": [
+        "torch.Size([3, 3, 4]), torch.Size([3, 3, 4]), 72",
+        "torch.Size([3, 3, 4]), torch.Size([3, 4]), 72",
+        "torch.Size([9, 4]), torch.Size([9, 4]), 72",
+        "torch.Size([3, 3, 4]), torch.Size([3, 3, 4]), 36"
+      ],
+      "correct_answer": "torch.Size([3, 3, 4]), torch.Size([3, 3, 4]), 72",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "A CNN uses three consecutive 3x3 convolution layers with stride 1 and no pooling. What is the receptive field of a neuron in the third layer?",
+      "type": "MCQ",
+      "options": [
+        "3x3",
+        "5x5",
+        "7x7",
+        "9x9"
+      ],
+      "correct_answer": "7x7",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "An input feature map of size 32x32 is convolved using SAME padding in the following two independent cases: Case I: \u25cf Filter size: 5x5 \u25cf Stride: 1 Case II: \u25cf Filter size: 3x3 \u25cf Stride: 1 What amount of padding is applied on each side (top, bottom, left, right) in Case I and Case II, respectively?",
+      "type": "MCQ",
+      "options": [
+        "Case I: 2 pixels, Case II: 1 pixel",
+        "Case I: 1 pixel, Case II: 2 pixels",
+        "Case I: 2 pixels, Case II: 0 pixels",
+        "Case I: 4 pixels, Case II: 2 pixels"
+      ],
+      "correct_answer": "Case I: 2 pixels, Case II: 1 pixel",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider an input image of size 12x12x4. In the convolution layer a single filter of size 12 x 12 is passed to the image. Now consider the image is resized to 14x14x4. How many additional parameters will be added to the convolution layer?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "A hidden layer in the feed_forward network of a CNN contains 5 neurons labelled A,B,C,D,E. We apply dropout to this hidden layer to prevent overfitting. During training the following observations occured - Epoch 1 - B and E were dropped out Epoch 2 - A and D were dropped out Select the false statements :",
+      "type": "multichoice",
+      "options": [
+        "During epoch 3 of training C will be dropped out",
+        "During epoch 4 of training none of the neurons will be dropped out for sure since all of them have been dropped in one of the previous epochs.",
+        "During inference all of A,B,C,D and E have equal chances of being dropped out",
+        "During inference none of the neurons will be dropped out."
+      ],
+      "correct_answer": [
+        "During epoch 3 of training C will be dropped out",
+        "During epoch 4 of training none of the neurons will be dropped out for sure since all of them have been dropped in one of the previous epochs.",
+        "During inference all of A,B,C,D and E have equal chances of being dropped out"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Consider the following CNN : [IMAGE: /data/images/da2001_2026T1_Q1_NA_p10_Im1.webp|block] Calculate the total number of parameters in the CNN.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "268650",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Given the input [IMAGE: /data/images/da2001_2026T1_Q1_NA_p11_Im2.webp|inline] , what is the output [IMAGE: /data/images/da2001_2026T1_Q1_NA_p11_Im3.webp|inline] of the network?",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "2.5"
+      ],
+      "correct_answer": "2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p11_Im2.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p11_Im3.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the below neural network with fixed weights and answer the given subquestions: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "6406531951472",
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Assume the target value is [IMAGE: /data/images/da2001_2026T1_Q1_NA_p11_Im6.webp|inline] . Using Mean Squared Error (MSE) as the loss function, compute the numerical value of the loss assuming the input [IMAGE: /data/images/da2001_2026T1_Q1_NA_p11_Im7.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.2 to 0.3",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p11_Im6.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p11_Im7.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the below neural network with fixed weights and answer the given subquestions: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "6406531951472",
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "For which of the following conditions on [IMAGE: /data/images/da2001_2026T1_Q1_NA_p12_Im1.webp|inline] will the first neuron of the hidden layer [IMAGE: /data/images/da2001_2026T1_Q1_NA_p12_Im2.webp|inline] not be activated ( [IMAGE: /data/images/da2001_2026T1_Q1_NA_p12_Im3.webp|inline] )?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p12_Im5.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p12_Im6.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p12_Im7.webp|inline]",
+        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p12_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p12_Im9.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p12_Im1.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p12_Im2.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p12_Im3.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p11_Im1.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p12_Im5.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p12_Im6.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p12_Im7.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p12_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the below neural network with fixed weights and answer the given subquestions: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p11_Im1.webp|block]",
+      "group_id": "6406531951472",
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Given the input: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p13_Im3.webp|block] What is the output [IMAGE: /data/images/da2001_2026T1_Q1_NA_p13_Im4.webp|inline] produced by the network?",
+      "type": "MCQ",
+      "options": [
+        "0.500",
+        "0.612",
+        "0.648",
+        "0.731"
+      ],
+      "correct_answer": "0.648",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p13_Im3.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p13_Im4.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p13_Im1.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following fixed neural network implemented in PyTorch. [IMAGE: /data/images/da2001_2026T1_Q1_NA_p13_Im1.webp|block] Loss function used: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p13_Im2.webp|block]",
+      "group_id": "6406531951476",
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "For the input: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p14_Im1.webp|block] The network output is: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p14_Im2.webp|block] Recall: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p14_Im3.webp|block] What is the gradient of the loss with respect to the hidden layer activations [IMAGE: /data/images/da2001_2026T1_Q1_NA_p14_Im4.webp|inline] (i.e. [IMAGE: /data/images/da2001_2026T1_Q1_NA_p14_Im5.webp|inline] )?",
+      "type": "MCQ",
+      "options": [
+        "[ 0.334, 0.334]",
+        "[ 0.334, -0.334]",
+        "[-0.334, 0.334]",
+        "[ 0.111, -0.111]"
+      ],
+      "correct_answer": "[ 0.334, -0.334]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p14_Im1.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p14_Im2.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p14_Im3.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p14_Im4.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p14_Im5.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p13_Im1.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following fixed neural network implemented in PyTorch. [IMAGE: /data/images/da2001_2026T1_Q1_NA_p13_Im1.webp|block] Loss function used: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p13_Im2.webp|block]",
+      "group_id": "6406531951476",
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Based on the hidden-layer weights and the output-layer weights , which of the following statements are correct ?",
+      "type": "multichoice",
+      "options": [
+        "Hidden neuron 0 produces larger activations when [IMAGE: /data/images/da2001_2026T1_Q1_NA_p14_Im8.webp|inline] .",
+        "Hidden neuron 0 produces larger activations when [IMAGE: /data/images/da2001_2026T1_Q1_NA_p14_Im9.webp|inline] .",
+        "Hidden neuron 1 produces larger activations when [IMAGE: /data/images/da2001_2026T1_Q1_NA_p14_Im10.webp|inline] .",
+        "If the predicted class is 1, then the hidden neuron 0 is highly activated.",
+        "If the predicted class is 0, then the hidden neuron 0 is highly activated.",
+        "If the predicted class is 0, then the hidden neuron 1 is highly activated."
+      ],
+      "correct_answer": [
+        "Hidden neuron 0 produces larger activations when [IMAGE: /data/images/da2001_2026T1_Q1_NA_p14_Im8.webp|inline] .",
+        "Hidden neuron 1 produces larger activations when [IMAGE: /data/images/da2001_2026T1_Q1_NA_p14_Im10.webp|inline] .",
+        "If the predicted class is 1, then the hidden neuron 0 is highly activated.",
+        "If the predicted class is 0, then the hidden neuron 1 is highly activated."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p13_Im1.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p13_Im2.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p14_Im8.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p14_Im9.webp",
+        "/data/images/da2001_2026T1_Q1_NA_p14_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following fixed neural network implemented in PyTorch. [IMAGE: /data/images/da2001_2026T1_Q1_NA_p13_Im1.webp|block] Loss function used: [IMAGE: /data/images/da2001_2026T1_Q1_NA_p13_Im2.webp|block]",
+      "group_id": "6406531951476",
+      "section_name": "DLGenAI"
+    }
+  ],
+  "id": "da2001-2026t1-q1-na",
+  "course_code": "DA2001",
+  "course_name": "Introduction to Deep Learning and Generative AI",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

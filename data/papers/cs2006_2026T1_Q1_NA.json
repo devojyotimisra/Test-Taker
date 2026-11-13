@@ -1,0 +1,431 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)",
+  "filename": "cs2006_2026T1_Q1_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Which of the following statements about JavaScript scope is/are correct in the browser?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p2_Im3.webp|inline] is function-scoped",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p2_Im4.webp|inline] and [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p2_Im5.webp|inline] are block-scoped",
+        "Variables declared with [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p2_Im6.webp|inline] are hoisted and initialized with [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p2_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p2_Im8.webp|inline] variables can be declared without initialization",
+        "Global variables are always attached to window (as a property)"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p2_Im3.webp|inline] is function-scoped",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p2_Im4.webp|inline] and [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p2_Im5.webp|inline] are block-scoped"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p2_Im3.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p2_Im4.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p2_Im5.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p2_Im6.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p2_Im7.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p2_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Which of the following statements about JavaScript functions is/are true?",
+      "type": "multichoice",
+      "options": [
+        "Every function in JavaScript is an object.",
+        "Arrow functions have their own \u201cthis\u201d binding",
+        "Function declarations are hoisted .",
+        "Function expressions assigned to variables are hoisted with their function value."
+      ],
+      "correct_answer": [
+        "Every function in JavaScript is an object.",
+        "Function declarations are hoisted ."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Consider the following JavaScript code: [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p3_Im2.webp|block] What will be printed on the console?",
+      "type": "MCQ",
+      "options": [
+        "20",
+        "10",
+        "undefined",
+        "3"
+      ],
+      "correct_answer": "20",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Consider the following JavaScript code: [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p4_Im1.webp|block] The above code is initially loaded in the browser, and then the browser is refreshed two times . What will be the final output printed in the console?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p4_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p4_Im1.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p4_Im3.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p4_Im5.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p4_Im6.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Match the following storage mechanisms used in the browser with their correct characteristics. [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p4_Im8.webp|block] Which of the following is the correct matching?",
+      "type": "MCQ",
+      "options": [
+        "1 \u2192 B, 2 \u2192 C, 3 \u2192 A",
+        "1 \u2192 B, 2 \u2192 A, 3 \u2192 C",
+        "1 \u2192 A, 2 \u2192 C, 3 \u2192 B",
+        "1 \u2192 B, 2 \u2192 C, 3 \u2192 D"
+      ],
+      "correct_answer": "1 \u2192 B, 2 \u2192 C, 3 \u2192 D",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Consider the following Vue application with markup index.html and javascript file app.js. index.html: [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p5_Im3.webp|block] app.js: [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p6_Im1.webp|block] What will be rendered by the browser after 4 seconds ?",
+      "type": "MCQ",
+      "options": [
+        "total payable amount is 6000",
+        "total payable amount is 8200",
+        "total payable amount is 1800",
+        "total payable amount is 7800"
+      ],
+      "correct_answer": "total payable amount is 8200",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p5_Im3.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "What will be the output of the following program ? [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Undefined",
+        "Modern Application Development 2",
+        "Will throw syntax error",
+        "None of these"
+      ],
+      "correct_answer": "Modern Application Development 2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Consider the following JavaScript code snippet: [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p7_Im4.webp|block] What is the final value of x , logged on the console?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Which of the following best describes UI State (Ephemeral State) in frontend applications?",
+      "type": "MCQ",
+      "options": [
+        "It includes all data stored permanently in the database and is shared across users",
+        "It represents the complete system data such as users, products, and transactions",
+        "It refers to short-lived interface elements like loading indicators or selected tabs",
+        "It handles complex application logic and long-term session management"
+      ],
+      "correct_answer": "It refers to short-lived interface elements like loading indicators or selected tabs",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Given that HTTP is stateless, which approach is commonly used to manage application state between the client and the server?",
+      "type": "MCQ",
+      "options": [
+        "Storing all state permanently in frontend memory across sessions",
+        "Allowing the frontend to handle complex business logic and data storage",
+        "Client or server maintaining state and explicitly exchanging it through requests",
+        "Eliminating state entirely from web applications"
+      ],
+      "correct_answer": "Client or server maintaining state and explicitly exchanging it through requests",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Consider the below Javascript function: [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p9_Im1.webp|block] What will be the output of the above program ?",
+      "type": "MCQ",
+      "options": [
+        "1 2 1",
+        "0 0 0",
+        "1 2 3",
+        "0 1 0"
+      ],
+      "correct_answer": "0 1 0",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Consider the following Vue app with html and javascript file given below: File: index.html [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p10_Im1.webp|block] File: script.js [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p10_Im2.webp|block] What will be rendered on the browser for the code setup given above ?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p11_Im1.webp|block] [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p11_Im3.webp|block]",
+        "",
+        "None of these."
+      ],
+      "correct_answer": "",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p10_Im1.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p10_Im2.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p11_Im1.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p11_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Consider the following JavaScript code: [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p12_Im1.webp|block] What would be the end result at the end of execution of the code?",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "13",
+        "8",
+        "11"
+      ],
+      "correct_answer": "13",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Consider the following JavaScript code: [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p13_Im1.webp|block] Which of the following statements are TRUE?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p13_Im3.webp|inline] returns \"Electronic device\"",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p13_Im4.webp|inline] returns \"Samsung is a Electronic device\"",
+        "Calling [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p13_Im5.webp|inline] throws a runtime error",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p13_Im7.webp|inline] returns \"Electronic device\""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p13_Im3.webp|inline] returns \"Electronic device\"",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p13_Im4.webp|inline] returns \"Samsung is a Electronic device\"",
+        "Calling [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p13_Im5.webp|inline] throws a runtime error"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p13_Im1.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p13_Im3.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p13_Im4.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p13_Im5.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p13_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "When the [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p14_Im3.webp|inline] lifecycle hook is invoked, which of the following statements becomes TRUE?",
+      "type": "MCQ",
+      "options": [
+        "The [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p14_Im5.webp|inline] element exists in the DOM but still contains {{ message }}",
+        "The DOM content already reflects the updated value \"Start A\"",
+        "The [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p14_Im7.webp|inline] hook has already executed",
+        "The DOM does not exist at all"
+      ],
+      "correct_answer": "The [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p14_Im5.webp|inline] element exists in the DOM but still contains {{ message }}",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p14_Im3.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p14_Im1.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p14_Im2.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p14_Im5.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p14_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following HTML and Vue component code carefully and answer the given sub- questions. File: index.html [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p14_Im1.webp|block] File: script.js [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p14_Im2.webp|block]",
+      "group_id": "6406531951430",
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "What will be the final text content displayed in the browser inside the [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p15_Im1.webp|inline] element after the component is fully mounted and all statements in the [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p15_Im2.webp|inline] hook have executed?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p15_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p15_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p15_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p15_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T1_Q1_NA_p15_Im8.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2026T1_Q1_NA_p15_Im1.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p15_Im2.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p14_Im1.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p14_Im2.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p15_Im4.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p15_Im5.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p15_Im6.webp",
+        "/data/images/cs2006_2026T1_Q1_NA_p15_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following HTML and Vue component code carefully and answer the given sub- questions. File: index.html [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p14_Im1.webp|block] File: script.js [IMAGE: /data/images/cs2006_2026T1_Q1_NA_p14_Im2.webp|block]",
+      "group_id": "6406531951430",
+      "section_name": "Appdev2"
+    }
+  ],
+  "id": "cs2006-2026t1-q1-na",
+  "course_code": "CS2006",
+  "course_name": "Application Development 2",
+  "level": "Diploma in Programming",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

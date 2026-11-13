@@ -1,0 +1,505 @@
+{
+  "title": "DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
+  "filename": "cs4021_2024T2_Q2_NA.pdf",
+  "total_questions": 22,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 182,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 183,
+      "text": "Consider the following graph. A triangle-free subset of seven vertices is highlighted. Find the size of the largest triangle-free subset of vertices in this graph. [IMAGE: /data/images/cs4021_2024T2_Q2_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct_answer": "8",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p2_Im1.webp",
+        "/data/images/cs4021_2024T2_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p1_Im3.webp|block]",
+      "group_id": "640653856651",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 184,
+      "text": "The TRIANGLE-FREEDOM problem is the following: the input is a simple undirected graph G and a positive integer k . An instance ( G , k ) is a YES-instance if and only if G has a subset S of at least k vertices that are triangle-free. What can you say about TRIANGLE-FREEDOM? Check all that apply.",
+      "type": "multichoice",
+      "options": [
+        "It is in P.",
+        "It is in NP.",
+        "It is NP-hard.",
+        "It is NP-complete."
+      ],
+      "correct_answer": [
+        "It is in NP.",
+        "It is NP-hard.",
+        "It is NP-complete."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p1_Im3.webp|block]",
+      "group_id": "640653856651",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 185,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Finding a Hamiltonian cycle in a graph is as hard as determining the answer to the Marbles Elimination question; i.e, there is a reduction from the problem of Marbles Elimination to the problem of finding a Hamiltonian cycle.",
+        "Determining the answer to the Marbles Elimination question is as hard as finding a Hamiltonian cycle in a graph; i.e, there is a reduction from the Hamiltonian cycle problem to the problem of Marbles Elimination.",
+        "Marbles Elimination is in P by a reduction to the Max Flow problem."
+      ],
+      "correct_answer": "Determining the answer to the Marbles Elimination question is as hard as finding a Hamiltonian cycle in a graph; i.e, there is a reduction from the Hamiltonian cycle problem to the problem of Marbles Elimination.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 186,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p3_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes, this is a valid set of constraints.",
+        "No, the sum in the objective function should be taken only over neighbors of u .",
+        "No, the sum in the second constraint should be taken only over in-neighbors of v and out-neighbors of v , respectively."
+      ],
+      "correct_answer": "Yes, this is a valid set of constraints.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 187,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Statement 1",
+        "Statement 2",
+        "Both statements",
+        "Neither statements"
+      ],
+      "correct_answer": "Neither statements",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 188,
+      "text": "The worst-case running time and expected running time are equal to within constant factors for any randomized algorithm.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following statements and answer the given subquestions if they are true or false.",
+      "group_id": "640653856657",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 189,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following statements and answer the given subquestions if they are true or false.",
+      "group_id": "640653856657",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 190,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p6_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "It is in P.",
+        "It is in NP.",
+        "It is NP-hard.",
+        "It is NP-complete."
+      ],
+      "correct_answer": [
+        "It is in P.",
+        "It is in NP."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 191,
+      "text": "Is it true that the algorithm always outputs a vertex cover?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "640653856661",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 192,
+      "text": "Consider the algorithm in the given question. Does the algorithm always output an optimal vertex cover?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "640653856661",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 193,
+      "text": "Consider the algorithm in the given question. Does the algorithm always output a 2-approximate vertex cover?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "640653856661",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 194,
+      "text": "Recall that the size of an optimal vertex cover is at most twice the size of a maximum matching of a graph G . Are there examples of graphs where the size of the optimal vertex cover is exactly equal to twice the size of its maximum matching? For example, this is not true for a path on three vertices: the size of both the maximum matching and minimum vertex cover is 1.",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p7_Im1.webp|block]",
+      "group_id": "640653856661",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 195,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p9_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p9_Im2.webp",
+        "/data/images/cs4021_2024T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p9_Im1.webp|block]",
+      "group_id": "640653856666",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 196,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p10_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p10_Im3.webp",
+        "/data/images/cs4021_2024T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p9_Im1.webp|block]",
+      "group_id": "640653856666",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 197,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p10_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p10_Im4.webp",
+        "/data/images/cs4021_2024T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p9_Im1.webp|block]",
+      "group_id": "640653856666",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 198,
+      "text": "The construction described here is a valid reduction from 3-SAT to 3-Coloring.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p9_Im1.webp|block]",
+      "group_id": "640653856666",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 199,
+      "text": "The construction described here is a valid reduction from 3-Coloring to 3-SAT.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p9_Im1.webp|block]",
+      "group_id": "640653856666",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 200,
+      "text": "Argue that to solve SCS, it is sufficient to find:",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p11_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p11_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p11_Im5.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p11_Im1.webp",
+        "/data/images/cs4021_2024T2_Q2_NA_p11_Im5.webp",
+        "/data/images/cs4021_2024T2_Q2_NA_p11_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "640653856672",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 201,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p12_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p12_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p12_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p12_Im3.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p12_Im1.webp",
+        "/data/images/cs4021_2024T2_Q2_NA_p11_Im1.webp",
+        "/data/images/cs4021_2024T2_Q2_NA_p12_Im3.webp",
+        "/data/images/cs4021_2024T2_Q2_NA_p12_Im5.webp",
+        "/data/images/cs4021_2024T2_Q2_NA_p12_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "640653856672",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 202,
+      "text": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p12_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A Hamiltonian cycle, i.e, a cycle that visits every vertex in the graph exactly once",
+        "A Hamiltonian path, i.e, a path that visits every vertex in the graph exactly once",
+        "A regular graph, i.e, a graph where every vertex has the same degree"
+      ],
+      "correct_answer": "A Hamiltonian path, i.e, a path that visits every vertex in the graph exactly once",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p12_Im7.webp",
+        "/data/images/cs4021_2024T2_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "640653856672",
+      "section_name": "Advanced Algorithms"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 203,
+      "text": "Does the greedy algorithm always produce the right answer?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs4021_2024T2_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs4021_2024T2_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "640653856672",
+      "section_name": "Advanced Algorithms"
+    }
+  ],
+  "id": "cs4021-2024t2-q2-na",
+  "course_code": "CS4021",
+  "course_name": "Advanced Algorithms",
+  "level": "Degree",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

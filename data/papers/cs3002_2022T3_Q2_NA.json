@@ -1,0 +1,414 @@
+{
+  "title": "Sw Testing",
+  "filename": "cs3002_2022T3_Q2_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 17.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 89,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q2_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 90,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p1_Im4.webp|block] [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p2_Im1.webp|block] [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p2_Im2.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p3_Im1.webp|block] [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p3_Im3.webp|block]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p3_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p3_Im1.webp|block] [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p3_Im3.webp|block]",
+        ""
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q2_NA_p1_Im4.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p2_Im1.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p2_Im2.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p3_Im1.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p3_Im3.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p3_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 91,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 When applying logic criteria to programs, predicates are taken from which of the following statements.",
+      "type": "multichoice",
+      "options": [
+        "for/while loops.",
+        "Variable assignment statements like a=5 or a=b+c .",
+        "Switch case statements.",
+        "If statements."
+      ],
+      "correct_answer": [
+        "for/while loops.",
+        "Switch case statements.",
+        "If statements."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 92,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following CFG. [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p4_Im1.webp|block] What is the number of prime paths for the above CFG?",
+      "type": "MCQ",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 93,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a software system that computes the monthly electricity charges for domestic usage. The input to the system is an integer that represents the units of electricity consumed, and the output is the electricity bill amount (a real value that is computed as the units consumed X unit charges). The charge per unit is as follows: [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p5_Im1.webp|block] What is the minimum number of test cases to be prepared for testing the software system using equivalence class partitioning technique?",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 94,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Match the following regarding data flow graphs. [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-D, 2-C, 3-B, 4-A",
+        "1-B, 2-A, 3-C, 4-D",
+        "1-C, 2-D, 3-A, 4-B",
+        "1-B, 2-A, 3-D, 4-C"
+      ],
+      "correct_answer": "1-C, 2-D, 3-A, 4-B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q2_NA_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 95,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the integration testing approaches starts with the top-level modules as well as the lowest-level modules, followed by the middle-level modules?",
+      "type": "MCQ",
+      "options": [
+        "Top-down approach",
+        "Bottom-up approach",
+        "Sandwich approach",
+        "Big bang approach"
+      ],
+      "correct_answer": "Sandwich approach",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 96,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider an integration testing scenario where two units access the same data file. Identify the type of coupling based on the interfaces for this scenario.",
+      "type": "MCQ",
+      "options": [
+        "Parameter coupling",
+        "Shared data coupling",
+        "External device coupling",
+        "Message-passing interfaces:"
+      ],
+      "correct_answer": "External device coupling",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 97,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 When it comes to partition-based testing with multiple inputs, which of the following techniques is better than the others?",
+      "type": "MCQ",
+      "options": [
+        "Equivalence partitioning.",
+        "Boundary value analysis.",
+        "Partitions and functional testing.",
+        "Decision tables."
+      ],
+      "correct_answer": "Decision tables.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 98,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What are the variables involved in the NextDate function input?",
+      "type": "MCQ",
+      "options": [
+        "Month, day and year.",
+        "Date containing month, day and year.",
+        "Today\u2019s date.",
+        "Range of dates."
+      ],
+      "correct_answer": "Date containing month, day and year.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "For the given subquestions, consider a function called NextDate which takes as input a valid date in mm/dd/yyyy (month followed by date followed by year) format and computes the date of the next day. For example, given 06/14/1996, the NextDate function will return 06/15/1996> and when given 02/28/2019 >, the NextDate function will return 03/01/2019 . Answer the given subquestions regarding input space partitioning test cases for the NextDate function.",
+      "group_id": "640653446438",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 99,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following are valid partitions for the day, as a part of the input to the NextDate function?",
+      "type": "MCQ",
+      "options": [
+        "Only one partition: 1 \u2264 day \u2264 31.",
+        "Two partitions: (1) day > 1 and (2) 30 \u2264 day \u2264 31.",
+        "Three partitions: (1) 1 \u2264 day \u2264 29, (2) day = 30 and (3) day = 31.",
+        "Four partitions: (1) 1 \u2264 day \u2264 28, (2) day = 29, (3) day = 30 and (4) day = 31."
+      ],
+      "correct_answer": "Four partitions: (1) 1 \u2264 day \u2264 28, (2) day = 29, (3) day = 30 and (4) day = 31.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "For the given subquestions, consider a function called NextDate which takes as input a valid date in mm/dd/yyyy (month followed by date followed by year) format and computes the date of the next day. For example, given 06/14/1996, the NextDate function will return 06/15/1996> and when given 02/28/2019 >, the NextDate function will return 03/01/2019 . Answer the given subquestions regarding input space partitioning test cases for the NextDate function.",
+      "group_id": "640653446438",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 100,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 State true or false: The partition (1) {month: month has 30 days}, (2) {month: month has 31 days}, (3) {month: month is February} is a valid partition for a month as a part of the input to the NextDate function?",
+      "type": "MCQ",
+      "options": [
+        "True.",
+        "False."
+      ],
+      "correct_answer": "True.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "For the given subquestions, consider a function called NextDate which takes as input a valid date in mm/dd/yyyy (month followed by date followed by year) format and computes the date of the next day. For example, given 06/14/1996, the NextDate function will return 06/15/1996> and when given 02/28/2019 >, the NextDate function will return 03/01/2019 . Answer the given subquestions regarding input space partitioning test cases for the NextDate function.",
+      "group_id": "640653446438",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 101,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "GACC (General Active Clause Coverage)",
+        "RACC (Restricted Active Clause Coverage)",
+        "RICC (Restricted Inactive Clause Coverage)",
+        "GICC (General Inactive Clause Coverage)"
+      ],
+      "correct_answer": "RICC (Restricted Inactive Clause Coverage)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 102,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p11_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p11_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p12_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p12_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p11_Im4.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q2_NA_p11_Im2.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p11_Im1.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p11_Im4.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p11_Im6.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p12_Im2.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p12_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following code segment for symbolic testing. [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "640653446443",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 103,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Let's consider that DART testing technique is applied, and guesses are, value 30 for x and 55 for y . Identify the path constraint that represents an equivalence class of input vectors containing all the input values that drive the program through the same path of execution that is executed by {x=30, y=55}.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p12_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p12_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p12_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p12_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p12_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q2_NA_p11_Im1.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p12_Im4.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p12_Im6.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p12_Im7.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p12_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following code segment for symbolic testing. [IMAGE: /data/images/cs3002_2022T3_Q2_NA_p11_Im1.webp|block]",
+      "group_id": "640653446443",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 104,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which rows in the given truth table will make the predicate p false ?",
+      "type": "MCQ",
+      "options": [
+        "Rows 5,7 and 8.",
+        "Rows 4,6 and 7.",
+        "Rows 5,6 and 8.",
+        "Rows 1,2,3 and 4."
+      ],
+      "correct_answer": "Rows 5,6 and 8.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "640653446447",
+      "section_name": "Sw Testing"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 105,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following represents p a , the conditions under which the clause a determines p ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p14_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p14_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p14_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p14_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p14_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3002_2022T3_Q2_NA_p13_Im1.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p14_Im2.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p14_Im3.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p14_Im4.webp",
+        "/data/images/cs3002_2022T3_Q2_NA_p14_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3002_2022T3_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "640653446447",
+      "section_name": "Sw Testing"
+    }
+  ],
+  "id": "cs3002-2022t3-q2-na",
+  "course_code": "CS3002",
+  "course_name": "Software Testing",
+  "level": "Degree",
+  "term": "Sep 2022",
+  "year": 2022,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

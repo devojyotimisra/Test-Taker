@@ -1,0 +1,380 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)",
+  "filename": "cs3004_2023T2_Q2_NA.pdf",
+  "total_questions": 16,
+  "total_marks": 16.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 71,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 72,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose that a neural network has millions of parameters (weights and biases). A team decides to use an optimization algorithm with a learning rate scheme that is local to each individual parameters in the network. Moreover, the learning rate changes in each iteration based on the magnitude of gradients pertaining to a parameter in the past. Which of the following optimization algorithms satisfy the team\u2019s requirements?",
+      "type": "multichoice",
+      "options": [
+        "GD with an exponentially decaying learning rate scheduler",
+        "AdaGrad",
+        "AdaM",
+        "NADAM",
+        "RMSProp",
+        "SGD with line search"
+      ],
+      "correct_answer": [
+        "AdaGrad",
+        "AdaM",
+        "NADAM",
+        "RMSProp"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 73,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T2_Q2_NA_p2_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Zig-zag movement along the horizontal axis",
+        "Zig-zag movement along the vertical axis",
+        "Mostly straight along the horizontal axis",
+        "Mostly straight along the vertical axis",
+        "Insufficient data"
+      ],
+      "correct_answer": [
+        "Zig-zag movement along the vertical axis",
+        "Mostly straight along the vertical axis"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T2_Q2_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 74,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T2_Q2_NA_p3_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "ADAM takes more memory than AdaGrad",
+        "ADAM takes lesser memory than AdaGrad",
+        "AdaGrad takes more memory than RMSprop",
+        "Vanilla GD takes lesser memory than AdaGrad"
+      ],
+      "correct_answer": [
+        "ADAM takes more memory than AdaGrad",
+        "Vanilla GD takes lesser memory than AdaGrad"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T2_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 75,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T2_Q2_NA_p4_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Model A has a low bias and low variance",
+        "Model B has a low bias",
+        "Model B has a high variance",
+        "Model A has a low bias"
+      ],
+      "correct_answer": [
+        "Model B has a low bias",
+        "Model A has a low bias"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T2_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 76,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T2_Q2_NA_p5_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p5_Im5.webp|block]",
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p5_Im6.webp|block]",
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p5_Im7.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p5_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p5_Im9.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p5_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p5_Im9.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T2_Q2_NA_p5_Im1.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p5_Im5.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p5_Im6.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p5_Im7.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p5_Im8.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p5_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 77,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T2_Q2_NA_p6_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p6_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p6_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p6_Im7.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T2_Q2_NA_p6_Im1.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p6_Im3.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p6_Im5.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p6_Im6.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 78,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following activation function(s) is (are) prone to vanishing gradient problem?",
+      "type": "multichoice",
+      "options": [
+        "Logistic Sigmoid",
+        "Tanh",
+        "ReLU",
+        "ReLu6",
+        "Leaky ReLu",
+        "GELU",
+        "MaxOut"
+      ],
+      "correct_answer": [
+        "Logistic Sigmoid",
+        "Tanh",
+        "ReLU",
+        "ReLu6"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 79,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose that we pad zeros of size 2 ( p = 2) around the sides of the image (in all channels). Assume stride 2 for the convolution operation. All the 20 filters have bias associated with it. What is the dimension of the output volume? Enter the number of elements in the output volume.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7220",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "An input image of dimension 35 \u00d7 35 \u00d7 3 is to be convolved with 20 filters (kernels) of spatial dimension 3 \u00d7 3. In all the sub-questions, assume a bias term for kernels.",
+      "group_id": "640653589881",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 80,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many numbers of parameters are there in the convolution layer?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "560",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "An input image of dimension 35 \u00d7 35 \u00d7 3 is to be convolved with 20 filters (kernels) of spatial dimension 3 \u00d7 3. In all the sub-questions, assume a bias term for kernels.",
+      "group_id": "640653589881",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 81,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T2_Q2_NA_p9_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "15011",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "An input image of dimension 35 \u00d7 35 \u00d7 3 is to be convolved with 20 filters (kernels) of spatial dimension 3 \u00d7 3. In all the sub-questions, assume a bias term for kernels.",
+      "group_id": "640653589881",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 82,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Create two feature maps by convolving the kernels K , F over the input matrix X and stack the outputs to create a tensor as shown below. The dimension of A is m x n x 2. The first feature map of size m x n is the output for K and the second feature map of size m x n is for F . What is the sum of the elements in the tensor A? [IMAGE: /data/images/cs3004_2023T2_Q2_NA_p10_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T2_Q2_NA_p10_Im2.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "640653589885",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 83,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T2_Q2_NA_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T2_Q2_NA_p11_Im1.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "640653589885",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 84,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T2_Q2_NA_p12_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "9",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T2_Q2_NA_p12_Im1.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "640653589885",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 85,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3004_2023T2_Q2_NA_p12_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T2_Q2_NA_p12_Im2.webp",
+        "/data/images/cs3004_2023T2_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "640653589885",
+      "section_name": "Deep Learning"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 86,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Enter the sum of updated bias (exclude weights).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3004_2023T2_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs3004_2023T2_Q2_NA_p10_Im1.webp|block]",
+      "group_id": "640653589885",
+      "section_name": "Deep Learning"
+    }
+  ],
+  "id": "cs3004-2023t2-q2-na",
+  "course_code": "CS3004",
+  "course_name": "Deep Learning",
+  "level": "Degree",
+  "term": "May 2023",
+  "year": 2023,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

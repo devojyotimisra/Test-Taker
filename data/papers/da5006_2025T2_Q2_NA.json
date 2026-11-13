@@ -1,0 +1,1040 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)",
+  "filename": "da5006_2025T2_Q2_NA.pdf",
+  "total_questions": 53,
+  "total_marks": 62.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 233,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 234,
+      "text": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p0_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p0_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p0_Im6.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p1_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p0_Im5.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p0_Im3.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p0_Im5.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p0_Im6.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p1_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 235,
+      "text": "Which of the following architectures introduced the ROI pooling layer for extracting fixed-size feature maps from variable-size region proposals?",
+      "type": "MCQ",
+      "options": [
+        "R-CNN",
+        "Fast R-CNN",
+        "Faster R-CNN",
+        "YOLO"
+      ],
+      "correct_answer": "Fast R-CNN",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 236,
+      "text": "Which object detection method first integrated a Region Proposal Network (RPN) to generate region proposals within the detection model?",
+      "type": "MCQ",
+      "options": [
+        "R-CNN",
+        "Fast R-CNN",
+        "Faster R-CNN",
+        "YOLO"
+      ],
+      "correct_answer": "Faster R-CNN",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 237,
+      "text": "Which architecture performs object detection as a single regression problem from image pixels to bounding boxes and class probabilities?",
+      "type": "MCQ",
+      "options": [
+        "R-CNN",
+        "Fast R-CNN",
+        "Faster R-CNN",
+        "YOLO"
+      ],
+      "correct_answer": "YOLO",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 238,
+      "text": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p2_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p2_Im7.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p2_Im1.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p2_Im3.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p2_Im4.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p2_Im5.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 239,
+      "text": "Consider the following statements P and Q regarding AlexNet and choose the correct option: (P) In AlexNet, a trainable Local Response Normalization Layers were introduced to emulate the competitive nature of real neurons, where highly active neurons suppress the activity of neighboring neurons, creating competition among different kernel outputs. (Q) In AlexNet, a total of 8 Convolutional layers contain only about 6-7% of the total parameters hence account for the least computation.",
+      "type": "MCQ",
+      "options": [
+        "Only statement P is true",
+        "Only statement Q is true",
+        "Both statements are true",
+        "None of these statements is true"
+      ],
+      "correct_answer": "None of these statements is true",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 240,
+      "text": "Consider two bounding boxes in an image: - Box A: top-left at (0, 0), bottom-right at (12, 12) - Box B: top-left at (4, 4), bottom-right at (16, 16) What is the Intersection over Union (IoU) between these two boxes ____________(in %)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "28",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 241,
+      "text": "Which one of the following statements is True?",
+      "type": "MCQ",
+      "options": [
+        "Attention mechanisms can be applied to the bidirectional RNN model",
+        "An image captioning network cannot be trained end-to-end even though we are using 2 different modalities to train the network",
+        "One of the key components in the vanilla transformer are the recurrent connections that help them to deal with variable input length.",
+        "All of these."
+      ],
+      "correct_answer": "Attention mechanisms can be applied to the bidirectional RNN model",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 242,
+      "text": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p4_Im4.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p4_Im2.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p3_Im3.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p3_Im4.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p3_Im5.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p4_Im2.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 243,
+      "text": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p4_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p4_Im8.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p4_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p4_Im7.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p4_Im5.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p4_Im6.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p4_Im7.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p4_Im8.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p4_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 244,
+      "text": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p4_Im10.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p4_Im11.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p5_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p5_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p5_Im5.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p5_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p4_Im10.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p4_Im11.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p5_Im2.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p5_Im3.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p5_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 245,
+      "text": "Which of the following techniques help mitigate the vanishing gradient problem in recurrent neural networks? 1. Gradient clipping 2. Use of ReLU activation to preserve gradient flow 3. Use of LSTM units 4. Data augmentation (e.g., reversing input sequence)",
+      "type": "MCQ",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "3 and 4 only",
+        "1, 2, and 3 only"
+      ],
+      "correct_answer": "2 and 3 only",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 246,
+      "text": "Which of the following techniques help mitigate the exploding gradient problem in recurrent neural networks? 1. Gradient clipping 2. Use of Sigmoid activation to prevent gradient growth 3. Use of LSTM units 4. Data augmentation (e.g., reversing input sequence)",
+      "type": "MCQ",
+      "options": [
+        "1 and 2 only",
+        "1 and 3 only",
+        "1, 2, and 3",
+        "All of these"
+      ],
+      "correct_answer": "1 and 3 only",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 247,
+      "text": "Which one of the following statements is false? (Pick the most appropriate one.)",
+      "type": "MCQ",
+      "options": [
+        "Attention mechanisms cannot be applied to the bidirectional RNN model",
+        "An image captioning network cannot be trained end-to-end even though we are using 2 different modalities to train the network",
+        "One of the key components in the vanilla transformer is the recurrent connection that help them to deal with variable input length.",
+        "All of these"
+      ],
+      "correct_answer": "All of these",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 248,
+      "text": "Which of the following is true regarding Hard Attention and Soft Attention?",
+      "type": "multichoice",
+      "options": [
+        "Soft Attention is smooth and differentiable",
+        "Variance reduction techniques are used to train Soft Attention models",
+        "Soft Attention is computationally cheaper than Hard Attention when the source input is large",
+        "The inference (test time) overhead is low in Hard Attention when compared to Soft Attention models"
+      ],
+      "correct_answer": [
+        "Soft Attention is smooth and differentiable",
+        "Soft Attention is computationally cheaper than Hard Attention when the source input is large",
+        "The inference (test time) overhead is low in Hard Attention when compared to Soft Attention models"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 249,
+      "text": "Which of the following are true:",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p6_Im4.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p6_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p6_Im6.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p6_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p6_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p6_Im4.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p6_Im5.webp",
+        "/data/images/da5006_2025T2_Q2_NA_p6_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 250,
+      "text": "Consider a Faster R-CNN object detection framework, which is being trained with a mini-batch size of 2. The RPN produces 512 proposals, out of which 256 and 128 of them are foreground proposals, corresponding to each image in the mini-batch. For a single mini-batch update, the bounding box regression loss will be computed_____________ times.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "384",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 251,
+      "text": "Decoder state at time t : _______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Suppose you want to build an encoder-decoder recurrent model with attention. The context vector at time step t is given by: [IMAGE: /data/images/da5006_2025T2_Q2_NA_p7_Im1.webp|block] where \u03b1 tj refers to the alignment score between the decoder state at time t _____________and the encoder state at time _____________. Note: Please write your answer using variables",
+      "group_id": "6406531333802",
+      "section_name": null
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 252,
+      "text": "Encoder state at time: _______________ Answers Case Sensitive : Yes",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "j",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Suppose you want to build an encoder-decoder recurrent model with attention. The context vector at time step t is given by: [IMAGE: /data/images/da5006_2025T2_Q2_NA_p7_Im1.webp|block] where \u03b1 tj refers to the alignment score between the decoder state at time t _____________and the encoder state at time _____________. Note: Please write your answer using variables",
+      "group_id": "6406531333802",
+      "section_name": null
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 253,
+      "text": "Hidden state h t\u22121 ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 0.66,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a Gated Recurrent Unit (GRU) cell at time step \u2019t\u2019. [IMAGE: /data/images/da5006_2025T2_Q2_NA_p8_Im1.webp|block] For each of the entities in the given subquestions, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531333805",
+      "section_name": null
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 254,
+      "text": "Hidden state h t _____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 0.66,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a Gated Recurrent Unit (GRU) cell at time step \u2019t\u2019. [IMAGE: /data/images/da5006_2025T2_Q2_NA_p8_Im1.webp|block] For each of the entities in the given subquestions, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531333805",
+      "section_name": null
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 255,
+      "text": "Current Input x t ________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 0.67,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a Gated Recurrent Unit (GRU) cell at time step \u2019t\u2019. [IMAGE: /data/images/da5006_2025T2_Q2_NA_p8_Im1.webp|block] For each of the entities in the given subquestions, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531333805",
+      "section_name": null
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 256,
+      "text": "Update gate z t _______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 0.67,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a Gated Recurrent Unit (GRU) cell at time step \u2019t\u2019. [IMAGE: /data/images/da5006_2025T2_Q2_NA_p8_Im1.webp|block] For each of the entities in the given subquestions, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531333805",
+      "section_name": null
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 257,
+      "text": "Reset gate r t ______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 0.67,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a Gated Recurrent Unit (GRU) cell at time step \u2019t\u2019. [IMAGE: /data/images/da5006_2025T2_Q2_NA_p8_Im1.webp|block] For each of the entities in the given subquestions, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531333805",
+      "section_name": null
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 258,
+      "text": "New hidden state content e h ____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 0.67,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a Gated Recurrent Unit (GRU) cell at time step \u2019t\u2019. [IMAGE: /data/images/da5006_2025T2_Q2_NA_p8_Im1.webp|block] For each of the entities in the given subquestions, enter the appropriate number from the figure that corresponds to it:",
+      "group_id": "6406531333805",
+      "section_name": null
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 259,
+      "text": "Number of Parameters:_____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6422528",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Let input have size D f \u00d7 D f \u00d7 M where D f = 10 and M = 256 and output feature map (after passing input through conv layer) has D f \u00d7 D f \u00d7 N size where N = 512. Assume padded convolution. Let width of the square kernel in conv layer be k where k = 7 (Ignore the bias term in the calculation). Calculate the number of parameters and computational cost for this convolution layer.",
+      "group_id": "6406531333812",
+      "section_name": null
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 260,
+      "text": "Computational Cost:___________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "642252800",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Let input have size D f \u00d7 D f \u00d7 M where D f = 10 and M = 256 and output feature map (after passing input through conv layer) has D f \u00d7 D f \u00d7 N size where N = 512. Assume padded convolution. Let width of the square kernel in conv layer be k where k = 7 (Ignore the bias term in the calculation). Calculate the number of parameters and computational cost for this convolution layer.",
+      "group_id": "6406531333812",
+      "section_name": null
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 261,
+      "text": "Number of parameters for depthwise seperable convolution:_______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12544",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Let input have size D f \u00d7 D f \u00d7 M where D f = 10 and M = 256 and output feature map (after passing input through conv layer) has D f \u00d7 D f \u00d7 N size where N = 512. Assume padded convolution. Let width of the square kernel in conv layer be k where k = 7 (Ignore the bias term in the calculation), calculate the number of parameters and computational cost, but make use of Depthwise Seperable convolution and pointwise convolution instead of standard convolution.",
+      "group_id": "6406531333815",
+      "section_name": null
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 262,
+      "text": "Computational Cost for depthwise seperable convolution:____________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1254400",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Let input have size D f \u00d7 D f \u00d7 M where D f = 10 and M = 256 and output feature map (after passing input through conv layer) has D f \u00d7 D f \u00d7 N size where N = 512. Assume padded convolution. Let width of the square kernel in conv layer be k where k = 7 (Ignore the bias term in the calculation), calculate the number of parameters and computational cost, but make use of Depthwise Seperable convolution and pointwise convolution instead of standard convolution.",
+      "group_id": "6406531333815",
+      "section_name": null
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 263,
+      "text": "Number of parameters for pointwise convolution:___________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "131072",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Let input have size D f \u00d7 D f \u00d7 M where D f = 10 and M = 256 and output feature map (after passing input through conv layer) has D f \u00d7 D f \u00d7 N size where N = 512. Assume padded convolution. Let width of the square kernel in conv layer be k where k = 7 (Ignore the bias term in the calculation), calculate the number of parameters and computational cost, but make use of Depthwise Seperable convolution and pointwise convolution instead of standard convolution.",
+      "group_id": "6406531333815",
+      "section_name": null
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 264,
+      "text": "Computational cost for pointwise convolution:__________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "13107200",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Let input have size D f \u00d7 D f \u00d7 M where D f = 10 and M = 256 and output feature map (after passing input through conv layer) has D f \u00d7 D f \u00d7 N size where N = 512. Assume padded convolution. Let width of the square kernel in conv layer be k where k = 7 (Ignore the bias term in the calculation), calculate the number of parameters and computational cost, but make use of Depthwise Seperable convolution and pointwise convolution instead of standard convolution.",
+      "group_id": "6406531333815",
+      "section_name": null
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 265,
+      "text": "Number of weights in Weight Matrix U1 is:______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "50",
+      "marks": 0.8,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "6406531333820",
+      "section_name": null
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 266,
+      "text": "Number of weights in Weight Matrix V1 is:______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "25",
+      "marks": 0.8,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "6406531333820",
+      "section_name": null
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 267,
+      "text": "Number of weights in Weight Matrix U2 is:__________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "100",
+      "marks": 0.8,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "6406531333820",
+      "section_name": null
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 268,
+      "text": "Number of weights in Weight Matrix V2 is:___________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "400",
+      "marks": 0.8,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "6406531333820",
+      "section_name": null
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 269,
+      "text": "Number of weights in Weight Matrix W is:_______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "800",
+      "marks": 0.8,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p13_Im1.webp|block]",
+      "group_id": "6406531333820",
+      "section_name": null
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "original_number": 270,
+      "text": "e 21 : _________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531333826",
+      "section_name": null
+    },
+    {
+      "id": 39,
+      "number": 39,
+      "original_number": 271,
+      "text": "e 22 : _________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531333826",
+      "section_name": null
+    },
+    {
+      "id": 40,
+      "number": 40,
+      "original_number": 272,
+      "text": "e 23 : _________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531333826",
+      "section_name": null
+    },
+    {
+      "id": 41,
+      "number": 41,
+      "original_number": 273,
+      "text": "\u03b1 21 : _________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.24 to 0.25",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531333826",
+      "section_name": null
+    },
+    {
+      "id": 42,
+      "number": 42,
+      "original_number": 274,
+      "text": "\u03b1 22 : _________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.09 to 0.1",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531333826",
+      "section_name": null
+    },
+    {
+      "id": 43,
+      "number": 43,
+      "original_number": 275,
+      "text": "\u03b1 23 : _________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.66 to 0.68",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531333826",
+      "section_name": null
+    },
+    {
+      "id": 44,
+      "number": 44,
+      "original_number": 276,
+      "text": "c 21 : _________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.5 to 1.6",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531333826",
+      "section_name": null
+    },
+    {
+      "id": 45,
+      "number": 45,
+      "original_number": 277,
+      "text": "c 22 : _________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.5 to 2.6",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p15_Im1.webp|block]",
+      "group_id": "6406531333826",
+      "section_name": null
+    },
+    {
+      "id": 46,
+      "number": 46,
+      "original_number": 278,
+      "text": "e 21 :_________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.01 to 0.01",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p19_Im1.webp|block]",
+      "group_id": "6406531333835",
+      "section_name": null
+    },
+    {
+      "id": 47,
+      "number": 47,
+      "original_number": 279,
+      "text": "e 22 :_________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-0.462",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p19_Im1.webp|block]",
+      "group_id": "6406531333835",
+      "section_name": null
+    },
+    {
+      "id": 48,
+      "number": 48,
+      "original_number": 280,
+      "text": "e 23 :_________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.462",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p19_Im1.webp|block]",
+      "group_id": "6406531333835",
+      "section_name": null
+    },
+    {
+      "id": 49,
+      "number": 49,
+      "original_number": 281,
+      "text": "\u03b1 21 :_________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.32 to 0.34",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p19_Im1.webp|block]",
+      "group_id": "6406531333835",
+      "section_name": null
+    },
+    {
+      "id": 50,
+      "number": 50,
+      "original_number": 282,
+      "text": "\u03b1 22 :_________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.22 to 0.24",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p19_Im1.webp|block]",
+      "group_id": "6406531333835",
+      "section_name": null
+    },
+    {
+      "id": 51,
+      "number": 51,
+      "original_number": 283,
+      "text": "\u03b1 23 :_________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.43 to 0.45",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p19_Im1.webp|block]",
+      "group_id": "6406531333835",
+      "section_name": null
+    },
+    {
+      "id": 52,
+      "number": 52,
+      "original_number": 284,
+      "text": "c 21 :_________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.4 to 1.6",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p19_Im1.webp|block]",
+      "group_id": "6406531333835",
+      "section_name": null
+    },
+    {
+      "id": 53,
+      "number": 53,
+      "original_number": 285,
+      "text": "c 22 :_________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.4 to 2.6",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2025T2_Q2_NA_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2025T2_Q2_NA_p19_Im1.webp|block]",
+      "group_id": "6406531333835",
+      "section_name": null
+    }
+  ],
+  "id": "da5006-2025t2-q2-na",
+  "course_code": "DA5006",
+  "course_name": "Deep Learning for Computer Vision",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

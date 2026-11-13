@@ -1,0 +1,627 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)",
+  "filename": "cs3001_2024T1_ET_FN.pdf",
+  "total_questions": 27,
+  "total_marks": 27.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 44,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "No"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 45,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following tool(s) is/are used as issue trackers?",
+      "type": "multichoice",
+      "options": [
+        "JIRA",
+        "VS Code",
+        "Pivotal Tracker",
+        "Stack overflow"
+      ],
+      "correct_answer": [
+        "JIRA",
+        "Pivotal Tracker"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 46,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is/are true about canary deployment?",
+      "type": "multichoice",
+      "options": [
+        "In this strategy, the users are allowed to choose the versions of software they want to use.",
+        "In this strategy, the changes are incrementally rolled out to a small subset of users.",
+        "In this strategy, a new production environment is created for the new version of the software without affecting the current one, and after sufficient testing of the new version, the users are routed from the current environment to the new environment.",
+        "The strategy has the drawback of maintaining multiple versions."
+      ],
+      "correct_answer": [
+        "In this strategy, the changes are incrementally rolled out to a small subset of users.",
+        "The strategy has the drawback of maintaining multiple versions."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 47,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following teams in a software organization is primarily responsible for conducting market research to identify potential customers?",
+      "type": "MCQ",
+      "options": [
+        "Software engineers",
+        "Marketing team",
+        "Sales team",
+        "Support team"
+      ],
+      "correct_answer": "Marketing team",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 48,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Stress testing is an example of ________________________. Fill in the blank with appropriate option.",
+      "type": "MCQ",
+      "options": [
+        "Unit testing",
+        "System testing",
+        "Acceptance testing",
+        "Performance testing"
+      ],
+      "correct_answer": "Performance testing",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 49,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is true about the production environment of deployment?",
+      "type": "MCQ",
+      "options": [
+        "It is primarily created for performing integration and system testing.",
+        "It is also known as live environment where all the users can interact with the deployed system.",
+        "It is the local environment for individual developers that provides IDEs and other tools.",
+        "It exactly reassembles the production environment, and it runs on a remote machine."
+      ],
+      "correct_answer": "It is also known as live environment where all the users can interact with the deployed system.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 50,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose one of the hosting service providers has a server with an 8-core processor and 32 GB of RAM, which is sliced into 8 virtual machines (VMs) such that each VM includes a 1-core and 4 GB of RAM. However, the VMs do not include any additional software layers for deploying web applications. The service provider offers these VMs to its clients to host their web applications. Which kind of hosing option is offered by the service provider?",
+      "type": "MCQ",
+      "options": [
+        "Bare Metal Servers",
+        "Infrastructure-as-a-service",
+        "Platform-as-a-service",
+        "None of these"
+      ],
+      "correct_answer": "Infrastructure-as-a-service",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 51,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a web application that has to send notification emails to thousands of its customers on a daily basis. The application is developed in such a way that the sending notification email code is executed outside the HTTP request-response cycle so that the performance of the web application does not degrade. Which of the following performance optimization strategies is used in this scenario?",
+      "type": "MCQ",
+      "options": [
+        "Caching",
+        "Task queue",
+        "Quick loading and rendering of web pages",
+        "Performance monitoring"
+      ],
+      "correct_answer": "Task queue",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 52,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2024T1_ET_FN_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T1_ET_FN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 53,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Identify the sets of valid test cases for branch coverage.",
+      "type": "multichoice",
+      "options": [
+        "{marks = 0, marks = 100}",
+        "{marks = -10, marks = 65, marks = 30}",
+        "{marks = -10, marks = 65, marks = 30, marks = 105}",
+        "{marks = -10, marks = 65, marks = 100, marks = 30, marks = 0}"
+      ],
+      "correct_answer": [
+        "{marks = -10, marks = 65, marks = 30}",
+        "{marks = -10, marks = 65, marks = 30, marks = 105}",
+        "{marks = -10, marks = 65, marks = 100, marks = 30, marks = 0}"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T1_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following code base in Python and answer the given subquestions. [IMAGE: /data/images/cs3001_2024T1_ET_FN_p7_Im1.webp|block]",
+      "group_id": "640653820707",
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 54,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Identify the sets of valid test cases for multiple condition coverage.",
+      "type": "multichoice",
+      "options": [
+        "{marks = 0, marks = 100}",
+        "{marks = -10, marks = 65, marks = 30}",
+        "{marks = -10, marks = 65, marks = 30, marks = 105}",
+        "{marks = -10, marks = 65, marks = 100, marks = 30, marks = 0}"
+      ],
+      "correct_answer": [
+        "{marks = -10, marks = 65, marks = 30, marks = 105}"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T1_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider the following code base in Python and answer the given subquestions. [IMAGE: /data/images/cs3001_2024T1_ET_FN_p7_Im1.webp|block]",
+      "group_id": "640653820707",
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 55,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2024T1_ET_FN_p8_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Single responsibility principle",
+        "Open-close principle",
+        "Liskov substitution principle",
+        "Interface segregation principle",
+        "Dependency inversion principle"
+      ],
+      "correct_answer": "Open-close principle",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T1_ET_FN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 56,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2024T1_ET_FN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Factory design pattern",
+        "Builder design pattern",
+        "Adapter design pattern",
+        "Facade design pattern"
+      ],
+      "correct_answer": "Facade design pattern",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T1_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 57,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Match the following: [IMAGE: /data/images/cs3001_2024T1_ET_FN_p10_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-B, 2-D, 3-C, 4-A",
+        "1-C, 2-D, 3-A, 4-B",
+        "1-C, 2-A, 3-D, 4-B",
+        "1-B, 2-A, 3-C, 4-D"
+      ],
+      "correct_answer": "1-C, 2-A, 3-D, 4-B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T1_ET_FN_p10_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 58,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A developer has implemented a module. However, while testing the module, he discovered that the output of a specific function did not correspond with the intended output. To facilitate debugging, the programmer incorporated multiple print statements into the function. Which of the following debugging techniques does the developer use in the above scenario?",
+      "type": "MCQ",
+      "options": [
+        "Logging",
+        "Dump and diff",
+        "Stepping in debugger",
+        "Profiling tool"
+      ],
+      "correct_answer": "Logging",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 59,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Match the following regarding the characteristics of good software design: [IMAGE: /data/images/cs3001_2024T1_ET_FN_p11_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-B, 2-A, 3-C, 4-D",
+        "1-B, 2-C, 3-A, 4-D",
+        "1-C, 2-A, 3-D, 4-B",
+        "1-C, 2-A, 3-B, 4-D"
+      ],
+      "correct_answer": "1-B, 2-C, 3-A, 4-D",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T1_ET_FN_p11_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 60,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2024T1_ET_FN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Common coupling",
+        "Content coupling",
+        "Control coupling",
+        "Data coupling"
+      ],
+      "correct_answer": "Control coupling",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T1_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 61,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A bank has developed a smartphone app that allows for quick transfers of funds to another bank account. To transfer money using the app, the user must input the account number, IFSC, and name of the account holder. The app then prompts the user to reenter the account number for confirmation. It will display an error icon in the reentered account number field and advise the user to enter the proper account number if the account number entered again for confirmation does not match. Which of the following heuristics of UI design is satisfied by the mobile app?",
+      "type": "MCQ",
+      "options": [
+        "Prevent errors",
+        "Show status",
+        "Support error recovery",
+        "Provide help"
+      ],
+      "correct_answer": "Support error recovery",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 62,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider that an organization developed a web application for its own employees. Employees can use the application to provide day-to-day reporting to their managers. However, the employees are finding that the application is very difficult to use, and they have to watch the demo videos for different usages of the application before they can actually use it. Which of the following usability goals is not satisfied by the design of the web application?",
+      "type": "MCQ",
+      "options": [
+        "Effectiveness",
+        "Efficiency",
+        "Safe to use",
+        "Learnability",
+        "Memorability"
+      ],
+      "correct_answer": "Learnability",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 63,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following types of software metrics measure the quality of your code based on the number of decisions a block of code contains?",
+      "type": "MCQ",
+      "options": [
+        "Cyclomatic complexity",
+        "Raw Metrics",
+        "Halstead's Metrics",
+        "None of these"
+      ],
+      "correct_answer": "Cyclomatic complexity",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 64,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the main objective of sprint retrospective in agile project management?",
+      "type": "MCQ",
+      "options": [
+        "To decide which work is to be done in the current sprint and how the chosen work will be done.",
+        "To prioritize the work for the development team.",
+        "Team demonstrates what they have completed in the given sprint.",
+        "To evaluate the last sprint - team dynamics, processes, tools etc."
+      ],
+      "correct_answer": "To evaluate the last sprint - team dynamics, processes, tools etc.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 65,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A given prototype is presented on multiple papers as hand-drawn UIs of different screens. Determine the type of the given prototype.",
+      "type": "MCQ",
+      "options": [
+        "Storyboards",
+        "Paper prototype",
+        "Digital mock-ups",
+        "Interactive prototype"
+      ],
+      "correct_answer": "Paper prototype",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 66,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the characteristics of user stories ensures that each user story has some business value to one or more stakeholders?",
+      "type": "MCQ",
+      "options": [
+        "Specific",
+        "Measurable",
+        "Achievable",
+        "Relevant",
+        "Timeboxed"
+      ],
+      "correct_answer": "Relevant",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 67,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 An organization has planned to develop a web application that will help its employees make better investment plans. After the deployment of the web application, the employees came up with a request to add a new feature to it. The organization accepted the request, and started adding the new feature. Identify the phase of the software development process that the software is in.",
+      "type": "MCQ",
+      "options": [
+        "Requirement gathering",
+        "Development phase",
+        "Design phase",
+        "Testing phase",
+        "Maintenence phase"
+      ],
+      "correct_answer": "Maintenence phase",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 68,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs3001_2024T1_ET_FN_p17_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs3001_2024T1_ET_FN_p17_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2024T1_ET_FN_p17_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2024T1_ET_FN_p17_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2024T1_ET_FN_p17_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3001_2024T1_ET_FN_p17_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2024T1_ET_FN_p17_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2024T1_ET_FN_p17_Im7.webp|inline]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T1_ET_FN_p17_Im1.webp",
+        "/data/images/cs3001_2024T1_ET_FN_p17_Im3.webp",
+        "/data/images/cs3001_2024T1_ET_FN_p17_Im5.webp",
+        "/data/images/cs3001_2024T1_ET_FN_p17_Im6.webp",
+        "/data/images/cs3001_2024T1_ET_FN_p17_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 69,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A software company has to develop a smart irrigation system for small to moderate-sized farms. The system consists of several sensors (like temperature sensors and soil moisture sensors), actuators (like water pumps), and software modules that automate the system. The company applies COCOMO model for calculating the effort to develop the system. The values for the constants in the COCOMO model for the different types of the project are as follows: \u2022 Organic project: a = 2.4, b = 1.05 \u2022 Semi-organic project: a = 3.0, b = 1.12 \u2022 Embedded project: a = 3.6, b = 1.20 Considering the source code of 1,00,000 lines and effort adjustment factor = 1.58, what is the final estimated effort for the project?",
+      "type": "multichoice",
+      "options": [
+        "478 person-month",
+        "824 person-month",
+        "905 person-month",
+        "1,429 person-month"
+      ],
+      "correct_answer": [
+        "1,429 person-month"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 70,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following risks identified for a project, their probability of occurring, and the impact of the risk. [IMAGE: /data/images/cs3001_2024T1_ET_FN_p18_Im3.webp|block] Which of the following risks must be dealt with first by the project manager?",
+      "type": "MCQ",
+      "options": [
+        "Personnel shortfall",
+        "Schedule slippage",
+        "Developing unnecessary features",
+        "Insufficient knowledge of product"
+      ],
+      "correct_answer": "Schedule slippage",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2024T1_ET_FN_p18_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    }
+  ],
+  "id": "cs3001-2024t1-et-fn",
+  "course_code": "CS3001",
+  "course_name": "Software Engineering",
+  "level": "Degree",
+  "term": "Jan 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

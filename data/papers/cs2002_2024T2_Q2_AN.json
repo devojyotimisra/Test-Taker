@@ -1,0 +1,405 @@
+{
+  "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
+  "filename": "cs2002_2024T2_Q2_AN.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 16,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 17,
+      "text": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A, C, F, B, E, D",
+        "A, C, F, B, D, E",
+        "A, C, B, F, E, D",
+        "A, C, B, F, D, E"
+      ],
+      "correct_answer": "A, C, F, B, E, D",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2024T2_Q2_AN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 18,
+      "text": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p2_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p2_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p2_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p2_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p2_Im5.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2024T2_Q2_AN_p2_Im2.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p2_Im3.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p2_Im5.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p2_Im6.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 19,
+      "text": "Consider a directed graph G with equal edge weights. Which of the following algorithms is most efficient to compute the shortest distance between every pair of nodes in G ?",
+      "type": "MCQ",
+      "options": [
+        "Run BFS once on every node",
+        "Run Dijkstra\u2019s algorithm once on every node",
+        "Run Bellman Ford\u2019s algorithm once on every node",
+        "Run Floyd-Warshall algorithm"
+      ],
+      "correct_answer": "Run BFS once on every node",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 20,
+      "text": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Only 1",
+        "Only 2",
+        "Both 1 and 2",
+        "Neither 1 nor 2"
+      ],
+      "correct_answer": "Both 1 and 2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2024T2_Q2_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 21,
+      "text": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p3_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[6, 7, 13, 9, 19, 16, 21, 26, 11]",
+        "[6, 7, 13, 9, 19, 16, 21, 11, 26]",
+        "[6, 7, 13, 9, 19, 21, 16, 26, 11]",
+        "[6, 7, 13, 9, 19, 21, 16, 11, 26]"
+      ],
+      "correct_answer": "[6, 7, 13, 9, 19, 16, 21, 26, 11]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2024T2_Q2_AN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 22,
+      "text": "Which one of the following is a possible sequence of elements in root-to-leaf paths in a top-down fashion in a binary search tree?",
+      "type": "MCQ",
+      "options": [
+        "50, 10, 36, 40, 31, 46",
+        "50, 90, 75, 88, 62, 68",
+        "45, 50, 49, 48, 44, 47",
+        "45, 50, 46, 49, 47, 48"
+      ],
+      "correct_answer": "45, 50, 46, 49, 47, 48",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 23,
+      "text": "While inserting the elements 45, 75, 15, 55, 5, 40, 62, 25, and 85 in an empty binary search tree in the sequence shown, the elements at maximum depth from root are__________________.",
+      "type": "MCQ",
+      "options": [
+        "40, 85",
+        "25, 40",
+        "62, 85",
+        "25, 62"
+      ],
+      "correct_answer": "25, 62",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 24,
+      "text": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p4_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p5_Im1.webp|block] [IMAGE: /data/images/cs2002_2024T2_Q2_AN_p5_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p5_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p6_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p5_Im1.webp|block] [IMAGE: /data/images/cs2002_2024T2_Q2_AN_p5_Im3.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2024T2_Q2_AN_p4_Im3.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p5_Im1.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p5_Im3.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p5_Im4.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 25,
+      "text": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p6_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correct_answer": "2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2024T2_Q2_AN_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 26,
+      "text": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p7_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p7_Im5.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2024T2_Q2_AN_p7_Im1.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p7_Im3.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p7_Im5.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p7_Im6.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 27,
+      "text": "Let G be a complete undirected graph with 5 vertices and 10 edges with weights of 1, 2, 3, 4, 5, 6, 7, 8, 9 and 10. The maximum possible weight that a minimum weight spanning tree of G can have is __________________.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "14",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 28,
+      "text": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p7_Im8.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "256",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2024T2_Q2_AN_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 29,
+      "text": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p8_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "13",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2024T2_Q2_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 30,
+      "text": "Which of the following statements is/are true for Heap sort ?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p9_Im2.webp|inline] [IMAGE: /data/images/cs2002_2024T2_Q2_AN_p9_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p9_Im2.webp|inline] [IMAGE: /data/images/cs2002_2024T2_Q2_AN_p9_Im4.webp|block]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2024T2_Q2_AN_p8_Im3.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p8_Im5.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p9_Im2.webp",
+        "/data/images/cs2002_2024T2_Q2_AN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 31,
+      "text": "For a set of symbols with probabilities of occurrence, which of the following statement(s) is/are true about the Huffman algorithm ?",
+      "type": "multichoice",
+      "options": [
+        "Symbols with lower probabilities value are generally closer to the root of the Huffman tree.",
+        "The Huffman tree is always a strict binary tree (each node has two children, except leaf nodes).",
+        "It generates prefix codes (no code is a prefix of another).",
+        "If probability values are distinct, then two symbols with the lowest probabilities always have the same code length.",
+        "There is always at least one symbol with a code of length one."
+      ],
+      "correct_answer": [
+        "The Huffman tree is always a strict binary tree (each node has two children, except leaf nodes).",
+        "It generates prefix codes (no code is a prefix of another).",
+        "If probability values are distinct, then two symbols with the lowest probabilities always have the same code length."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 32,
+      "text": "[IMAGE: /data/images/cs2002_2024T2_Q2_AN_p9_Im5.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "coins=[1, 2, 8, 9, 5, 10] and x = 13",
+        "coins=[10, 1, 2, 5] and x = 25",
+        "coins=[6, 1, 5, 7] and x = 15",
+        "coins = [1, 6, 7, 10, 15] and x = 35",
+        "coins = [1, 2, 5, 10, 25] and x = 40"
+      ],
+      "correct_answer": [
+        "coins=[1, 2, 8, 9, 5, 10] and x = 13",
+        "coins = [1, 6, 7, 10, 15] and x = 35"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2002_2024T2_Q2_AN_p9_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    }
+  ],
+  "id": "cs2002-2024t2-q2-an",
+  "course_code": "CS2002",
+  "course_name": "Programming, Data Structures and Algorithms using Python",
+  "level": "Diploma in Programming",
+  "term": "May 2024",
+  "year": 2024,
+  "exam_type": "Quiz 2",
+  "session": "Afternoon"
+}

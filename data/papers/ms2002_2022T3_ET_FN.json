@@ -1,0 +1,668 @@
+{
+  "title": "DIPLOMA LEVEL: BUSINESS ANALYTICS",
+  "filename": "ms2002_2022T3_ET_FN.pdf",
+  "total_questions": 33,
+  "total_marks": 33.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 276,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL: BUSINESS ANALYTICS\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 277,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Select which of the following are discrete data?",
+      "type": "multichoice",
+      "options": [
+        "Number of courses you are crediting in this IIT Madras BSc Degree program",
+        "Average weight of your batch in this BSc program",
+        "Size of your batch in this BSc program",
+        "Average age of your batch in this BSc program"
+      ],
+      "correct_answer": [
+        "Number of courses you are crediting in this IIT Madras BSc Degree program",
+        "Size of your batch in this BSc program"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 278,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are given a data of size 1000, which is centred at 50 and has a variance of 25. The median, mode, max and min values are 23, 22, 75 and 1 respectively. Then",
+      "type": "MCQ",
+      "options": [
+        "The data is right-tailed",
+        "The data is left-tailed",
+        "The data is symmetric",
+        "Cannot say"
+      ],
+      "correct_answer": "The data is right-tailed",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 279,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Let Y jk be the weight of the output O jk and X jk be the weight of the input I jk . Which of the following is the correct objective function of the DEA if we solve it as LP?",
+      "type": "MCQ",
+      "options": [
+        "Max Y jk * I jk",
+        "Max Y jk * O jk",
+        "Max (1/ Y jk * I jk )",
+        "Max \u2013 (Y jk * I jk )"
+      ],
+      "correct_answer": "Max Y jk * O jk",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 280,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In DEA, for calculating the weights of efficiency (weighted outputs/weighted inputs), when can the Linear Programming model can be used?",
+      "type": "MCQ",
+      "options": [
+        "After converting the ratio into the linear objective function",
+        "After normalizing the denominator",
+        "By setting a constraint on the efficiency of all DMUs to be lesser than or equal to 1",
+        "All of these"
+      ],
+      "correct_answer": "All of these",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 281,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Match the type of conjoint analysis to its method of administration [IMAGE: /data/images/ms2002_2022T3_ET_FN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1-C, 2-A, 3-B, 4-D",
+        "1-A, 2-C, 3-B, 4-D",
+        "1-B, 2-C, 3-A, 4-D",
+        "1-C, 2-B, 3-C, 4-D",
+        "None of these"
+      ],
+      "correct_answer": "1-C, 2-A, 3-B, 4-D",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 282,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A hypothesis was tested at 5% significance level and p-value turned out to be 0.054. What will be your correct decision?",
+      "type": "MCQ",
+      "options": [
+        "Reject the null hypothesis",
+        "Fail to reject the null hypothesis",
+        "Sufficient evidence to accept the null hypothesis",
+        "both Fail to reject the null hypothesis and Sufficient evidence to accept the null hypothesis are correct"
+      ],
+      "correct_answer": "Fail to reject the null hypothesis",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 283,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In Multiple Linear Regression, if the explanatory variables are highly correlated, then that phenomenon is called",
+      "type": "MCQ",
+      "options": [
+        "Normality",
+        "Singularity",
+        "Collinearity",
+        "Variation Inflation"
+      ],
+      "correct_answer": "Collinearity",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 284,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In Regression, Marginal slope and partial slope coincide, if the explanatory variables are dependent. Is the statement True or False?",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 285,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 VIF value less than 1 indicates that",
+      "type": "MCQ",
+      "options": [
+        "Multicollinearity is very high",
+        "Multicollinearity is very low",
+        "Calculation error",
+        "None of these"
+      ],
+      "correct_answer": "Calculation error",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 286,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Logistic Regression can create a non-linear decision boundary.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 287,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 From the Table given below, what is the number of True Negatives for Class B? [IMAGE: /data/images/ms2002_2022T3_ET_FN_p6_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "10",
+        "20",
+        "110"
+      ],
+      "correct_answer": "0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 288,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is productive efficiency?",
+      "type": "MCQ",
+      "options": [
+        "It is an aspect of economic efficiency focussing on maximizing the output under given constraints (without worrying about optimal allocation, or choice of products)",
+        "Effective usage of technology for maximizing the profitability",
+        "Consists of all combinations of outputs such that the production of one product cannot be increased without sacrificing the output of the other (without any change in technology)"
+      ],
+      "correct_answer": "It is an aspect of economic efficiency focussing on maximizing the output under given constraints (without worrying about optimal allocation, or choice of products)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 289,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The object of the conjoint analysis problem will be __?",
+      "type": "MCQ",
+      "options": [
+        "Minimize the distance between the attribute combination for the ideal product and the customer preferences",
+        "Minimize the distance between the attribute combination for the ideal product and the attribute combination for each possible variant",
+        "Minimize the distance between the possible customer preferences",
+        "None of these"
+      ],
+      "correct_answer": "None of these",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 290,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the value of adjusted R-squared (Round off to three decimal values)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.825 to 0.830",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "You are solving a regression problem with 7 explanatory variables. The data has 50 observations and the R-square value was found to be 0.85. Then answer the given subquestions",
+      "group_id": "640653451577",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 291,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are adding one more explanatory variable to the dataset making a total of 8 variables. The new R squared value is 0.862 adjusted R square value increases to 0.864. What does it signify?",
+      "type": "MCQ",
+      "options": [
+        "The new variable does not improve the model",
+        "The new variable alone has high explanatory power",
+        "Adjusted R squared can never be greater than R squared. Calculation error",
+        "None of these"
+      ],
+      "correct_answer": "Adjusted R squared can never be greater than R squared. Calculation error",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "You are solving a regression problem with 7 explanatory variables. The data has 50 observations and the R-square value was found to be 0.85. Then answer the given subquestions",
+      "group_id": "640653451577",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 292,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 From the given contingency table, find the expected frequency of people belonging to City A preferring brand B?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "158 to 164",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given the following contingency table based on a sample data with people belonging to two cities (City A, City B) and their brand preferences. You perform a chi-squared test of independence to make inferences about the population from this sample. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2022T3_ET_FN_p9_Im3.webp|block]",
+      "group_id": "640653451580",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 293,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the calculated value of chi-squared?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "13 to 19",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given the following contingency table based on a sample data with people belonging to two cities (City A, City B) and their brand preferences. You perform a chi-squared test of independence to make inferences about the population from this sample. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2022T3_ET_FN_p9_Im3.webp|block]",
+      "group_id": "640653451580",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 294,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 At the significance level 0.01, chi-squared tabular value is 11.34. What do you conclude?",
+      "type": "MCQ",
+      "options": [
+        "Reject the null hypothesis and conclude that the categorical variables are not independent",
+        "Fail to reject the null hypothesis and conclude that the categorical variables are not independent",
+        "Fail to reject the null hypothesis and conclude that the categorical variables are independent",
+        "Reject the null hypothesis and conclude that the categorical variables are independent"
+      ],
+      "correct_answer": "Reject the null hypothesis and conclude that the categorical variables are not independent",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You are given the following contingency table based on a sample data with people belonging to two cities (City A, City B) and their brand preferences. You perform a chi-squared test of independence to make inferences about the population from this sample. Then answer the given subquestions. [IMAGE: /data/images/ms2002_2022T3_ET_FN_p9_Im3.webp|block]",
+      "group_id": "640653451580",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 295,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose a factory manufactures products on three machines A, B and C. Suppose 35% of total output comes from machine A, 40% of total output comes from machine B and 25% of total output comes from machine C. From the past data, it is known that 5% of products by machine A are defectives, 10% of products by machine B are defectives and 12% of products by machine C are defectives. What is the probability that the product has come from machine C given that it is a defective?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.31 to 0.37",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 296,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Select the correct option from below:",
+      "type": "multichoice",
+      "options": [
+        "For inelastic product demand (\u03b5<1) the revenue can be increased by setting price close to zero.",
+        "For elastic product demand (\u03b5>1) the revenue can only be increased by setting price close to zero.",
+        "For inelastic product demand (\u03b5<1) the revenue can be increased by simply increasing the prices",
+        "For elastic product demand (\u03b5>1) the revenue can only be increased by simply increasing the prices"
+      ],
+      "correct_answer": [
+        "For elastic product demand (\u03b5>1) the revenue can only be increased by setting price close to zero.",
+        "For inelastic product demand (\u03b5<1) the revenue can be increased by simply increasing the prices"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 297,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 There are 7 business units and you are using the DEA to compare them. You solve the LP for business unit 5. You find from the constraint expression that business unit 4 has obtained an efficiency of 1 and business unit 7 has obtained an efficiency of 1 with the optimal weights of business unit 5. Which of the following statements is correct?",
+      "type": "multichoice",
+      "options": [
+        "Business unit 4 may be inefficient",
+        "Business unit 4 will be efficient",
+        "Business unit 7 may be inefficient",
+        "Business unit 7 will be efficient"
+      ],
+      "correct_answer": [
+        "Business unit 4 will be efficient",
+        "Business unit 7 will be efficient"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 298,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the Precision for predicting 1\u2019s ? (enter your value in percentage without the percentage symbol, rounded to two decimal places. Eg: If your answer is 0.12345, enter the answer as \u201c12.3\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "74.60 to 75.00",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Using the data given in Table 1, answer the given subquestions [IMAGE: /data/images/ms2002_2022T3_ET_FN_p13_Im2.webp|block]",
+      "group_id": "640653451587",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 299,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the Recall for predicting 1\u2019s ? (enter your value in percentage without the percentage symbol, rounded to two decimal places. Eg: If your answer is 0.12345, enter the answer as \u201c12.3\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "90.50 to 90.90",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Using the data given in Table 1, answer the given subquestions [IMAGE: /data/images/ms2002_2022T3_ET_FN_p13_Im2.webp|block]",
+      "group_id": "640653451587",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 300,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the accuracy of the predictor? (enter your value in percentage without the percentage symbol, rounded to two decimal places. Eg: If your answer is 0.12345, enter the answer as \u201c12.3\"]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.71 to 0.74",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Using the data given in Table 1, answer the given subquestions [IMAGE: /data/images/ms2002_2022T3_ET_FN_p13_Im2.webp|block]",
+      "group_id": "640653451587",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 301,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many False Negatives is the model predicting?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "19",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Using the data given in Table 1, answer the given subquestions [IMAGE: /data/images/ms2002_2022T3_ET_FN_p13_Im2.webp|block]",
+      "group_id": "640653451587",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 302,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many True Negatives is the model predicting?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "31",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Using the data given in Table 1, answer the given subquestions [IMAGE: /data/images/ms2002_2022T3_ET_FN_p13_Im2.webp|block]",
+      "group_id": "640653451587",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 303,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many pairs (for comparisons) will be generated in this problem?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "15",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "A manufacturer is going to make a product, and he is exploring possible variants (V1, V2, V3) for it. The variants of the products are determined by 5 attributes (A1, A2, A3, A4, A5). Pair-wise preference data will be collected from customers to perform the analysis. Using this information, answer the given subquestions.",
+      "group_id": "640653451599",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 304,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Then what is the size of the set of options on which the preference judgements are made?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "A manufacturer is going to make a product, and he is exploring possible variants (V1, V2, V3) for it. The variants of the products are determined by 5 attributes (A1, A2, A3, A4, A5). Pair-wise preference data will be collected from customers to perform the analysis. Using this information, answer the given subquestions.",
+      "group_id": "640653451599",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 305,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What statistical test needs to be carried out to see if the attendance is uniformly distributed across the terms?",
+      "type": "MCQ",
+      "options": [
+        "Chi-squared Goodness of Fit Test",
+        "Chi-Squared Test of Independence",
+        "Chi-Square Test of variance",
+        "Test of Means (Z-Test or T-test)"
+      ],
+      "correct_answer": "Chi-squared Goodness of Fit Test",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The BSc Team wanted to see if the live sessions get a uniform response across different terms. Accordingly, the BA course was taken as a pilot, and the total number of students who participated in the live sessions over the past three terms was obtained (data in the table below). Given this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2022T3_ET_FN_p17_Im1.webp|block]",
+      "group_id": "640653451603",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 306,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the value of the computed test statistic (Round your answer to one decimal place)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12.4 to 12.6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The BSc Team wanted to see if the live sessions get a uniform response across different terms. Accordingly, the BA course was taken as a pilot, and the total number of students who participated in the live sessions over the past three terms was obtained (data in the table below). Given this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2022T3_ET_FN_p17_Im1.webp|block]",
+      "group_id": "640653451603",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 307,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 If the attendance is indeed uniformly distributed, then how many participants will you expect to see across live sessions in any given term? (round your answer to two decimal places)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12.66 12.67",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2022T3_ET_FN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The BSc Team wanted to see if the live sessions get a uniform response across different terms. Accordingly, the BA course was taken as a pilot, and the total number of students who participated in the live sessions over the past three terms was obtained (data in the table below). Given this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2022T3_ET_FN_p17_Im1.webp|block]",
+      "group_id": "640653451603",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 308,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0",
+      "type": "MCQ",
+      "options": [],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    }
+  ],
+  "id": "ms2002-2022t3-et-fn",
+  "course_code": "MS2002",
+  "course_name": "Business Analytics",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2022",
+  "year": 2022,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

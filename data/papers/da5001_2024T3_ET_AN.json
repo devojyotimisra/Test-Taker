@@ -1,0 +1,511 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "da5001_2024T3_ET_AN.pdf",
+  "total_questions": 21,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 223,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 224,
+      "text": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(a) and (c)",
+        "(b) and (d)",
+        "(a), (c), and (d)",
+        "All of these"
+      ],
+      "correct_answer": "(a), (c), and (d)",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 225,
+      "text": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "LeNet",
+        "ResNet",
+        "AlexNet",
+        "VGG16",
+        "None"
+      ],
+      "correct_answer": "AlexNet",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 226,
+      "text": "Suppose I have an image of size 227\u00d7227. Which of the following code snippets correctly implements a Min Pooling operation with a window size of 2 \u00d7 2, stride of 2, and padding of 1 in PyTorch?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p4_Im1.webp|block] [IMAGE: /data/images/da5001_2024T3_ET_AN_p4_Im3.webp|block]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p4_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p4_Im1.webp",
+        "/data/images/da5001_2024T3_ET_AN_p4_Im3.webp",
+        "/data/images/da5001_2024T3_ET_AN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 227,
+      "text": "Consider a black-and-white image of dimension 227\u00d7227. Which of the following correctly demonstrates a function to flatten it along with the dimension of the newly formed vector?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p4_Im8.webp|inline]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p4_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p4_Im7.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p4_Im5.webp",
+        "/data/images/da5001_2024T3_ET_AN_p4_Im7.webp",
+        "/data/images/da5001_2024T3_ET_AN_p4_Im8.webp",
+        "/data/images/da5001_2024T3_ET_AN_p4_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 228,
+      "text": "Which of the following code snippets correctly implements the skip connection in ResNet?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p5_Im4.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p6_Im1.webp|block] [IMAGE: /data/images/da5001_2024T3_ET_AN_p6_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p5_Im4.webp|block]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p5_Im4.webp",
+        "/data/images/da5001_2024T3_ET_AN_p6_Im1.webp",
+        "/data/images/da5001_2024T3_ET_AN_p6_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 229,
+      "text": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "11",
+        "10",
+        "12",
+        "14"
+      ],
+      "correct_answer": "10",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 230,
+      "text": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "B, A, C, D",
+        "A, B, C, D",
+        "B, C, D, A",
+        "C, A, B, D"
+      ],
+      "correct_answer": "B, A, C, D",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 231,
+      "text": "Which of the following code snippets correctly models the loss function in YOLO?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p9_Im4.webp|block]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p9_Im5.webp|block]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p9_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p9_Im4.webp|block]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p9_Im4.webp",
+        "/data/images/da5001_2024T3_ET_AN_p9_Im5.webp",
+        "/data/images/da5001_2024T3_ET_AN_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 232,
+      "text": "Consider the following predictions and ground truths for a binary classification problem: - True Positives (TP): 30 - False Positives (FP): 10 - False Negatives (FN): 20 Which of the following correctly calculates the Precision and F1-Score for this classification task?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p9_Im8.webp|block]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p9_Im9.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p10_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p9_Im8.webp|block]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p9_Im8.webp",
+        "/data/images/da5001_2024T3_ET_AN_p9_Im9.webp",
+        "/data/images/da5001_2024T3_ET_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 233,
+      "text": "How many convolutional layers are there in the original YOLO architecture?",
+      "type": "MCQ",
+      "options": [
+        "24",
+        "19",
+        "53",
+        "75"
+      ],
+      "correct_answer": "24",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 234,
+      "text": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p10_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0.142",
+        "0.250",
+        "0.333",
+        "0.500"
+      ],
+      "correct_answer": "0.142",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p10_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 235,
+      "text": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p11_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Block A generates high-level global features and outputs an initial coarse depth map, while Block B refines the depth map using local details from the RGB image and the coarse depth map.",
+        "Block A performs refinement of the depth map using concatenated coarse depth and RGB features, while Block B generates the coarse depth map from the input RGB image.",
+        "Both Block A and Block B are coarse networks, with Block B performing an additional refinement step.",
+        "Block A generates a low-resolution coarse depth map but does not include global features, while Block B produces fine-grained depth without refinement."
+      ],
+      "correct_answer": "Block A generates high-level global features and outputs an initial coarse depth map, while Block B refines the depth map using local details from the RGB image and the coarse depth map.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p11_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 236,
+      "text": "Which of the following code snippets correctly implements the **downsampling** operation in a U-Net architecture?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p12_Im4.webp|block]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p13_Im2.webp|block]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p13_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p12_Im4.webp|block]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p12_Im4.webp",
+        "/data/images/da5001_2024T3_ET_AN_p13_Im2.webp",
+        "/data/images/da5001_2024T3_ET_AN_p13_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 237,
+      "text": "Consider the following predictions and ground truth values: - Predictions: [3.0,\u22120.5, 2.0, 7.0] - Ground Truth: [2.5, 0.0, 2.0, 8.0] The Mean Squared Error (MSE) is calculated using one of the following code snippets. Identify the correct implementation and its result.",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/da5001_2024T3_ET_AN_p14_Im3.webp|block]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p14_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/da5001_2024T3_ET_AN_p14_Im3.webp|block]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p14_Im1.webp",
+        "/data/images/da5001_2024T3_ET_AN_p14_Im3.webp",
+        "/data/images/da5001_2024T3_ET_AN_p14_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 238,
+      "text": "In a stereo vision system, left-right disparity is used to compute depth by comparing corresponding points in the left and right images. Which of the following statements about left right disparity is correct?",
+      "type": "MCQ",
+      "options": [
+        "Disparity is the absolute difference in pixel intensities between the left and right images.",
+        "Disparity increases as the depth of an object increases from the cameras.",
+        "Disparity is the horizontal shift between corresponding points in the left and right images.",
+        "Disparity is the vertical difference between points in the left and right images."
+      ],
+      "correct_answer": "Disparity is the horizontal shift between corresponding points in the left and right images.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 239,
+      "text": "What are the primary roles of the **generator** and **discriminator** in a Super-Resolution GAN (SRGAN) architecture?",
+      "type": "MCQ",
+      "options": [
+        "The generator produces high-resolution images from low-resolution inputs, while the discriminator distinguishes real high-resolution images from generated high-resolution images.",
+        "The generator distinguishes real high-resolution images from generated images, while the discriminator produces high-resolution images from low-resolution inputs.",
+        "Both the generator and discriminator produce high-resolution images from low-resolution inputs.",
+        "Both the generator and discriminator distinguish real high-resolution images from generated high-resolution images."
+      ],
+      "correct_answer": "The generator produces high-resolution images from low-resolution inputs, while the discriminator distinguishes real high-resolution images from generated high-resolution images.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 240,
+      "text": "Which of the following code snippets correctly adds gaussian noise to an image?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p15_Im4.webp|block]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p15_Im5.webp|block]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p15_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5001_2024T3_ET_AN_p15_Im4.webp|block]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p15_Im4.webp",
+        "/data/images/da5001_2024T3_ET_AN_p15_Im5.webp",
+        "/data/images/da5001_2024T3_ET_AN_p15_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 241,
+      "text": "What are the benefits of using depthwise and pointwise convolutions (as in depthwise separable convolutions) compared to standard convolutions?",
+      "type": "MCQ",
+      "options": [
+        "They reduce the number of parameters and computational cost, making the model more efficient.",
+        "They improve the accuracy of the model by learning richer spatial features.",
+        "They reduce overfitting by performing regularization during convolution operations.",
+        "They allow convolutions to operate across both spatial dimensions and depth channels simultaneously."
+      ],
+      "correct_answer": "They reduce the number of parameters and computational cost, making the model more efficient.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 242,
+      "text": "Which of the following code snippets correctly implements the **generator** for a super- resolution GAN (SRGAN) network?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p17_Im1.webp|block] [IMAGE: /data/images/da5001_2024T3_ET_AN_p17_Im3.webp|block]",
+        "[IMAGE: /data/images/da5001_2024T3_ET_AN_p17_Im5.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5001_2024T3_ET_AN_p17_Im1.webp",
+        "/data/images/da5001_2024T3_ET_AN_p17_Im3.webp",
+        "/data/images/da5001_2024T3_ET_AN_p17_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 243,
+      "text": "Which of the following are common use cases of super-resolution using SRGAN?",
+      "type": "multichoice",
+      "options": [
+        "Enhancing medical imaging scans for improved diagnosis.",
+        "Increasing the resolution of satellite images for geographical analysis.",
+        "Generating high-quality images for video streaming and upscaling.",
+        "Translating text from one language to another in images.",
+        "Improving the resolution of historical or archival images."
+      ],
+      "correct_answer": [
+        "Enhancing medical imaging scans for improved diagnosis.",
+        "Increasing the resolution of satellite images for geographical analysis.",
+        "Generating high-quality images for video streaming and upscaling.",
+        "Improving the resolution of historical or archival images."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Intro to Big Data"
+    }
+  ],
+  "id": "da5001-2024t3-et-an",
+  "course_code": "DA5001",
+  "course_name": "Big Data",
+  "level": "Degree",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

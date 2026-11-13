@@ -1,0 +1,361 @@
+{
+  "title": "FOUNDATION LEVEL : STATISTICS FOR DATA SCIENCE I (COMPUTER BASED EXAM)",
+  "filename": "bsma1002_2026T2_ET_FN.pdf",
+  "total_questions": 17,
+  "total_marks": 26.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"FOUNDATION LEVEL : STATISTICS FOR DATA SCIENCE I (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "Match the following Datasets with their correct Category, as shown in Table 1: [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(P)-(3), (Q)-(2), (R)-(1), (S)-(4)",
+        "(P)-(2), (Q)-(3), (R)-(4), (S)-(1)",
+        "(P)-(2), (Q)-(3), (R)-(1), (S)-(4)",
+        "(P)-(3), (Q)-(4), (R)-(2), (S)-(1)"
+      ],
+      "correct_answer": "(P)-(2), (Q)-(3), (R)-(4), (S)-(1)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T2_ET_FN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Inscript Find the median age of the group.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "34",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T2_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following stem-and-leaf plot shows the ages (in years) of a group of people in a survey. [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p2_Im1.webp|block]",
+      "group_id": "6406532265385",
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Inscript Find the Inter quartile Range (IQR) of the ages.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "19",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T2_ET_FN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The following stem-and-leaf plot shows the ages (in years) of a group of people in a survey. [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p2_Im1.webp|block]",
+      "group_id": "6406532265385",
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "A small manufacturing unit has 7 employees: 5 labourers earning Rs. 4000 each per month and 2 supervisors earning Rs. 18,000 each per month. Determine the mean, median, and mode of the monthly salaries of all employees in the unit.",
+      "type": "MCQ",
+      "options": [
+        "Mean = 8000, Median = 4000, Mode = 4000",
+        "Mean = 8000, Median = 18,000, Mode = 4000",
+        "Mean = 7000, Median = 4000, Mode = 18,000",
+        "Mean = 8000, Median = 4000, Mode = 18,000"
+      ],
+      "correct_answer": "Mean = 8000, Median = 4000, Mode = 4000",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "A group has 6 men and 3 women. A 4-member panel is chosen such that: \u2022 At least 2 women are included. \u2022 Two men [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p3_Im3.webp|inline] and [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p3_Im4.webp|inline] cannot be selected simultaneously Find the number of ways the panel can be formed.",
+      "type": "MCQ",
+      "options": [
+        "44",
+        "48",
+        "52",
+        "56"
+      ],
+      "correct_answer": "48",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T2_ET_FN_p3_Im3.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "The cumulative distribution function of a discrete random variable [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p3_Im5.webp|inline] is given below: [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p3_Im6.webp|block] Find the probability mass function of [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p3_Im7.webp|inline] .",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bsma1002_2026T2_ET_FN_p4_Im3.webp|block]",
+        "[IMAGE: /data/images/bsma1002_2026T2_ET_FN_p4_Im4.webp|block]",
+        "[IMAGE: /data/images/bsma1002_2026T2_ET_FN_p4_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T2_ET_FN_p3_Im5.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p3_Im6.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p3_Im7.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p4_Im3.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p4_Im4.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p4_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "The lifetime of a light bulb follows an exponential distribution with an expected lifetime of 8 hours. What is the probability that the bulb lasts more than 5 hours but less than 12 hours?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bsma1002_2026T2_ET_FN_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/bsma1002_2026T2_ET_FN_p4_Im8.webp|inline]",
+        "[IMAGE: /data/images/bsma1002_2026T2_ET_FN_p4_Im9.webp|inline]",
+        "[IMAGE: /data/images/bsma1002_2026T2_ET_FN_p4_Im10.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bsma1002_2026T2_ET_FN_p4_Im8.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T2_ET_FN_p4_Im7.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p4_Im8.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p4_Im9.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p4_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript Suppose the following data points [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p5_Im1.webp|inline] have perfect negative correlation. Find the value of [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p5_Im2.webp|inline] .",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T2_ET_FN_p5_Im1.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript The chance that a student will clear the quiz-1 paper is 0.38 and the chance that he will clear both quiz-1 and quiz-2 papers is 0.25. The chance that he will clear at least one quiz paper is 0.53. What is the chance that he will clear quiz-2 paper? Enter the answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript In an online degree program, 60% of the students are full-time, the rest are part-time. 50% of full- time and 20% of part-time students attend all live sessions. If a student attends all live sessions, find the probability that the student is part-time. Enter the answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.18 to 0.24",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Find the probability that exactly 1 defective item is found in the batch. Enter the answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T2_ET_FN_p6_Im1.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The cumulative distribution function (CDF) of the number of defective items ( [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p6_Im1.webp|inline] ) found in a randomly selected batch of bulbs is given in Figure 1: [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p6_Im2.webp|block] Based on the given information, answer the sub-questions:",
+      "group_id": "6406532265394",
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript Find the probability that at most 2 defective items are found in the batch. Enter the answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T2_ET_FN_p6_Im1.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "The cumulative distribution function (CDF) of the number of defective items ( [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p6_Im1.webp|inline] ) found in a randomly selected batch of bulbs is given in Figure 1: [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p6_Im2.webp|block] Based on the given information, answer the sub-questions:",
+      "group_id": "6406532265394",
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript Find the number of balls bowled.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "A bowler takes wickets following a binomial distribution. The expected number of wickets is 1.8 and variance is 1.26.",
+      "group_id": "6406532265399",
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript Find the probability that he takes at least one wicket. Enter the answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.87 to 0.89",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "A bowler takes wickets following a binomial distribution. The expected number of wickets is 1.8 and variance is 1.26.",
+      "group_id": "6406532265399",
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript A box contains 9 white and 6 black balls. 2 balls are drawn at random without replacement. Find the expected value of the number of white balls drawn. Enter the answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.17 to 1.23",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Which of the following statements is/are correct?",
+      "type": "multichoice",
+      "options": [
+        "If [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p8_Im2.webp|inline] is a random variable with mean [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p8_Im3.webp|inline] and standard deviation [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p8_Im4.webp|inline] , then [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p8_Im5.webp|inline] .",
+        "Standard deviation of a random variable has the same units as the units of a random variable.",
+        "Standard deviation of a random variable cannot have the same units as the expectation of a random variable.",
+        "If [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p9_Im3.webp|inline] are independent random variables, then [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p9_Im4.webp|inline] ."
+      ],
+      "correct_answer": [
+        "Standard deviation of a random variable has the same units as the units of a random variable.",
+        "If [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p9_Im3.webp|inline] are independent random variables, then [IMAGE: /data/images/bsma1002_2026T2_ET_FN_p9_Im4.webp|inline] ."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bsma1002_2026T2_ET_FN_p8_Im2.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p8_Im3.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p8_Im4.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p8_Im5.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p9_Im3.webp",
+        "/data/images/bsma1002_2026T2_ET_FN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Statistics1"
+    }
+  ],
+  "id": "bsma1002-2026t2-et-fn",
+  "course_code": "BSMA1002",
+  "course_name": "Statistics for Data Science 1",
+  "level": "Foundation",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

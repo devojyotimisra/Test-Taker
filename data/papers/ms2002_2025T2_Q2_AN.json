@@ -1,0 +1,359 @@
+{
+  "title": "DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)",
+  "filename": "ms2002_2025T2_Q2_AN.pdf",
+  "total_questions": 19,
+  "total_marks": 20.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 235,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 236,
+      "text": "How many degrees of freedom will be present for the \u201cRegression\u201d term in the ANOVA table (nomenclature as per excel)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Data on \u201cUrban Population (UP)\u201d of a country and the \u201cGDP\u201d of the same country are collected. The \u201cGDP\u201d is captured as a percentage (that is \u201c10.5%\u201d is captured as \u201c10.5\u201d) and the \u201cUP\u201d is captured in crores of people (that is \u201c1,20,00,000\u201d is captured as \u201c1.2\u201d). From the raw data, the analyst has identified that the relation is non-linear. Hence, the analyst applies a natural logarithmic transformation on both variables (the independent variable is \u201cGDP\u201d and the dependent variable is \u201cUP\u201d). The transformed data is modelled as a Simple Linear Regression and the developed model is presented in Figure-1. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p1_Im1.webp|block]",
+      "group_id": "6406531324399",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 237,
+      "text": "If the GDP in 2024 was 15%, then what is the predicted \u201cUP\u201d (in crores of people) based on the SLR model? (Note: Enter your answer rounded to two decimal places. For example, if your answer is \u201c1.235\u201d then enter it as \u201c1.24\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "44 to 46",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Data on \u201cUrban Population (UP)\u201d of a country and the \u201cGDP\u201d of the same country are collected. The \u201cGDP\u201d is captured as a percentage (that is \u201c10.5%\u201d is captured as \u201c10.5\u201d) and the \u201cUP\u201d is captured in crores of people (that is \u201c1,20,00,000\u201d is captured as \u201c1.2\u201d). From the raw data, the analyst has identified that the relation is non-linear. Hence, the analyst applies a natural logarithmic transformation on both variables (the independent variable is \u201cGDP\u201d and the dependent variable is \u201cUP\u201d). The transformed data is modelled as a Simple Linear Regression and the developed model is presented in Figure-1. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p1_Im1.webp|block]",
+      "group_id": "6406531324399",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 238,
+      "text": "What is the sample size for building the model in Figure-2?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Bakery is famous for three products \u201cBA Biscuits (BAB)\u201d, \u201cTA Controversy Cake (TACC)\u201d and \u201cHot Argument Drink (HAD)\u201d. Dr.Milo, the owner of the shop, is an aspiring data analyst. He has collected 5 days of data. On each day, he captures the number of each product made and total kilogram of cooking gas consumed. Using all the collected data, Dr.Milo has built a linear regression model in excel, and the partial regression output is provided in Figure-2. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp|block]",
+      "group_id": "6406531324402",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 239,
+      "text": "What is the value of Q1?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Bakery is famous for three products \u201cBA Biscuits (BAB)\u201d, \u201cTA Controversy Cake (TACC)\u201d and \u201cHot Argument Drink (HAD)\u201d. Dr.Milo, the owner of the shop, is an aspiring data analyst. He has collected 5 days of data. On each day, he captures the number of each product made and total kilogram of cooking gas consumed. Using all the collected data, Dr.Milo has built a linear regression model in excel, and the partial regression output is provided in Figure-2. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp|block]",
+      "group_id": "6406531324402",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 240,
+      "text": "What is the value of Q2? (Note: Enter your answer rounded to two decimal places. For example, if your answer is \u201c1.235\u201d then enter it as \u201c1.24\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1490.00 to 1496.00",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Bakery is famous for three products \u201cBA Biscuits (BAB)\u201d, \u201cTA Controversy Cake (TACC)\u201d and \u201cHot Argument Drink (HAD)\u201d. Dr.Milo, the owner of the shop, is an aspiring data analyst. He has collected 5 days of data. On each day, he captures the number of each product made and total kilogram of cooking gas consumed. Using all the collected data, Dr.Milo has built a linear regression model in excel, and the partial regression output is provided in Figure-2. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp|block]",
+      "group_id": "6406531324402",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 241,
+      "text": "What is the value of Q3? (Note: Enter your answer rounded to two decimal places. For example, if your answer is \u201c1.235\u201d then enter it as \u201c1.24\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "11.10 to 11.40",
+      "marks": 1.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Bakery is famous for three products \u201cBA Biscuits (BAB)\u201d, \u201cTA Controversy Cake (TACC)\u201d and \u201cHot Argument Drink (HAD)\u201d. Dr.Milo, the owner of the shop, is an aspiring data analyst. He has collected 5 days of data. On each day, he captures the number of each product made and total kilogram of cooking gas consumed. Using all the collected data, Dr.Milo has built a linear regression model in excel, and the partial regression output is provided in Figure-2. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp|block]",
+      "group_id": "6406531324402",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 242,
+      "text": "What is the value of Q4? (Note: Enter your answer rounded to two decimal places. For example, if your answer is \u201c1.235\u201d then enter it as \u201c1.24\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1503.00 to 1508.00",
+      "marks": 1.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Bakery is famous for three products \u201cBA Biscuits (BAB)\u201d, \u201cTA Controversy Cake (TACC)\u201d and \u201cHot Argument Drink (HAD)\u201d. Dr.Milo, the owner of the shop, is an aspiring data analyst. He has collected 5 days of data. On each day, he captures the number of each product made and total kilogram of cooking gas consumed. Using all the collected data, Dr.Milo has built a linear regression model in excel, and the partial regression output is provided in Figure-2. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp|block]",
+      "group_id": "6406531324402",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 243,
+      "text": "What is the value of Q5? (Note: Enter your answer rounded to two decimal places. For example, if your answer is \u201c1.235\u201d then enter it as \u201c1.24\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "43.00 to 45.00",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Bakery is famous for three products \u201cBA Biscuits (BAB)\u201d, \u201cTA Controversy Cake (TACC)\u201d and \u201cHot Argument Drink (HAD)\u201d. Dr.Milo, the owner of the shop, is an aspiring data analyst. He has collected 5 days of data. On each day, he captures the number of each product made and total kilogram of cooking gas consumed. Using all the collected data, Dr.Milo has built a linear regression model in excel, and the partial regression output is provided in Figure-2. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp|block]",
+      "group_id": "6406531324402",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 244,
+      "text": "At a 15% significance level, Dr. Milo thinks that the gas consumption at his company is affected by the number of BA, TACC and HAD that are made in a day. Then what do you conclude about Dr. Milo?",
+      "type": "MCQ",
+      "options": [
+        "Dr. Milo is dumb and does not know statistics.",
+        "Dr. Milo is a genius and he is right.",
+        "Cannot comment on Dr. Milo\u2019s conclusion without more information"
+      ],
+      "correct_answer": "Dr. Milo is dumb and does not know statistics.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Milo\u2019s Bakery is famous for three products \u201cBA Biscuits (BAB)\u201d, \u201cTA Controversy Cake (TACC)\u201d and \u201cHot Argument Drink (HAD)\u201d. Dr.Milo, the owner of the shop, is an aspiring data analyst. He has collected 5 days of data. On each day, he captures the number of each product made and total kilogram of cooking gas consumed. Using all the collected data, Dr.Milo has built a linear regression model in excel, and the partial regression output is provided in Figure-2. Using this information, answer the given subquestions. [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p2_Im1.webp|block]",
+      "group_id": "6406531324402",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 245,
+      "text": "At a threshold of 0.8, how many \u201cTrue Positives\u201d is the model predicting?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A matrimonial site has built a logistic classification model to predict if a person will get married or not (Married =1 and Not Married =0). The parameters used for this model are Age (in tens of years, that is, the data for a person who is \u201c40 years old\u201d is recorded as \u201c4\u201d) and Height (in feet). The built model\u2019s coefficients are provided in Table-1. The model is being tested using matrimonial profile data available in Table-2. Given this information, answer the given subquestions [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp|block]",
+      "group_id": "6406531324410",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 246,
+      "text": "At a threshold of 0.8, how many \u201cTrue Negatives\u201d is the model predicting?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A matrimonial site has built a logistic classification model to predict if a person will get married or not (Married =1 and Not Married =0). The parameters used for this model are Age (in tens of years, that is, the data for a person who is \u201c40 years old\u201d is recorded as \u201c4\u201d) and Height (in feet). The built model\u2019s coefficients are provided in Table-1. The model is being tested using matrimonial profile data available in Table-2. Given this information, answer the given subquestions [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp|block]",
+      "group_id": "6406531324410",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 247,
+      "text": "At a threshold of 0.8, how many \u201cFalse Positives\u201d is the model predicting?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A matrimonial site has built a logistic classification model to predict if a person will get married or not (Married =1 and Not Married =0). The parameters used for this model are Age (in tens of years, that is, the data for a person who is \u201c40 years old\u201d is recorded as \u201c4\u201d) and Height (in feet). The built model\u2019s coefficients are provided in Table-1. The model is being tested using matrimonial profile data available in Table-2. Given this information, answer the given subquestions [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp|block]",
+      "group_id": "6406531324410",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 248,
+      "text": "At a threshold of 0.8, how many \u201cFalse Negatives\u201d is the model predicting?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A matrimonial site has built a logistic classification model to predict if a person will get married or not (Married =1 and Not Married =0). The parameters used for this model are Age (in tens of years, that is, the data for a person who is \u201c40 years old\u201d is recorded as \u201c4\u201d) and Height (in feet). The built model\u2019s coefficients are provided in Table-1. The model is being tested using matrimonial profile data available in Table-2. Given this information, answer the given subquestions [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp|block]",
+      "group_id": "6406531324410",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 249,
+      "text": "At a threshold of 0.8, what is the ACCURACY of the model? (Note: Enter the answer in \u201c%\u201d rounded to two decimal places without the \u201c%\u201d symbol. For example, if the answer is \u201c1.234%\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "60",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A matrimonial site has built a logistic classification model to predict if a person will get married or not (Married =1 and Not Married =0). The parameters used for this model are Age (in tens of years, that is, the data for a person who is \u201c40 years old\u201d is recorded as \u201c4\u201d) and Height (in feet). The built model\u2019s coefficients are provided in Table-1. The model is being tested using matrimonial profile data available in Table-2. Given this information, answer the given subquestions [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp|block]",
+      "group_id": "6406531324410",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 250,
+      "text": "At a threshold of 0.8, what is the PRECISION of the model for predicting the Negative Class? (Note: Enter the answer in \u201c%\u201d rounded to two decimal places without the \u201c%\u201d symbol. For example, if the answer is \u201c1.234%\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "50",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A matrimonial site has built a logistic classification model to predict if a person will get married or not (Married =1 and Not Married =0). The parameters used for this model are Age (in tens of years, that is, the data for a person who is \u201c40 years old\u201d is recorded as \u201c4\u201d) and Height (in feet). The built model\u2019s coefficients are provided in Table-1. The model is being tested using matrimonial profile data available in Table-2. Given this information, answer the given subquestions [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp|block]",
+      "group_id": "6406531324410",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 251,
+      "text": "At a threshold of 0.8, what is the RECALL of the model for predicting the Positive Class? (Note: Enter the answer in \u201c%\u201d rounded to two decimal places without the \u201c%\u201d symbol. For example, if the answer is \u201c1.234%\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "66.00 to 67.00",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "A matrimonial site has built a logistic classification model to predict if a person will get married or not (Married =1 and Not Married =0). The parameters used for this model are Age (in tens of years, that is, the data for a person who is \u201c40 years old\u201d is recorded as \u201c4\u201d) and Height (in feet). The built model\u2019s coefficients are provided in Table-1. The model is being tested using matrimonial profile data available in Table-2. Given this information, answer the given subquestions [IMAGE: /data/images/ms2002_2025T2_Q2_AN_p5_Im2.webp|block]",
+      "group_id": "6406531324410",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 252,
+      "text": "What is the value of \u201cConstant\u201d (\u201cC\u201d) for the constant elasticity model? (Note: Enter the answer rounded to two decimal places. For example, if the answer is \u201c1.234\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3169 to 3170",
+      "marks": 0.5,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "A demand response curve has a constant price elasticity of +0.6. If the price of the product is 100 and the corresponding demand is 200, then answer the given subquestions.",
+      "group_id": "6406531324418",
+      "section_name": "Business Analytics"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 253,
+      "text": "What should be the price to achieve a demand of 300? (Note: Enter the answer rounded to two decimal places. For example, if the answer is \u201c1.234\u201d, then enter it as \u201c1.23\u201d)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "50 to 60",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "A demand response curve has a constant price elasticity of +0.6. If the price of the product is 100 and the corresponding demand is 200, then answer the given subquestions.",
+      "group_id": "6406531324418",
+      "section_name": "Business Analytics"
+    }
+  ],
+  "id": "ms2002-2025t2-q2-an",
+  "course_code": "MS2002",
+  "course_name": "Business Analytics",
+  "level": "Diploma in Data Science",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Afternoon"
+}

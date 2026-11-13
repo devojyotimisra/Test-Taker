@@ -1,0 +1,422 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)",
+  "filename": "cs2006_2025T1_Q1_AN.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 114,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 115,
+      "text": "Which of the following statements is true regarding \u201cv-if\u201d and \u201cv-show\u201d directives in VueJS?",
+      "type": "MCQ",
+      "options": [
+        "The \u201cv-if\u201d directive adds/removes elements from the DOM, while v-show only toggles visibility using CSS.",
+        "The \u201cv-show\u201d directive adds/removes elements from the DOM, while v-if only toggles visibility using CSS.",
+        "Both the \u201cv-if\u201d and \u201cv-show\u201d directives add/remove elements from the DOM.",
+        "Both the \u201cv-if\u201d and \u201cv-show\u201d directives toggle visibility using CSS."
+      ],
+      "correct_answer": "The \u201cv-if\u201d directive adds/removes elements from the DOM, while v-show only toggles visibility using CSS.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 116,
+      "text": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p1_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p1_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p1_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p2_Im2.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p1_Im7.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p1_Im3.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p1_Im4.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p1_Im5.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p1_Im6.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p1_Im7.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 117,
+      "text": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "hello, world",
+        "undefined, world",
+        "ReferenceError",
+        "undefined, undefined"
+      ],
+      "correct_answer": "undefined, world",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 118,
+      "text": "Which of the following statements is true about the let, const, and var keywords in JavaScript?",
+      "type": "MCQ",
+      "options": [
+        "var is block-scoped, while let and const are function-scoped.",
+        "const variables must always be initialized at the time of declaration.",
+        "Variables declared with let and const are hoisted and initialized with undefined.",
+        "let, const, and var have identical scoping rules."
+      ],
+      "correct_answer": "const variables must always be initialized at the time of declaration.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 119,
+      "text": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 2 3",
+        "1 1 1",
+        "1 2 1",
+        "0 1 0",
+        "0 1 1"
+      ],
+      "correct_answer": "1 2 1",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 120,
+      "text": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 and 2",
+        "1, 2 and 3",
+        "2, 3 and 4",
+        "All 4"
+      ],
+      "correct_answer": "1, 2 and 3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 121,
+      "text": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "4",
+        "8",
+        "16"
+      ],
+      "correct_answer": "8",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 122,
+      "text": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p5_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "3"
+      ],
+      "correct_answer": "3",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 123,
+      "text": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p6_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p6_Im4.webp|inline] [IMAGE: /data/images/cs2006_2025T1_Q1_AN_p6_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p6_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p7_Im1.webp|block] [IMAGE: /data/images/cs2006_2025T1_Q1_AN_p7_Im3.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p7_Im1.webp|block] [IMAGE: /data/images/cs2006_2025T1_Q1_AN_p7_Im3.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p6_Im3.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p6_Im4.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p6_Im5.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p6_Im6.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p7_Im1.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 124,
+      "text": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p7_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A large Oak tree",
+        "A medium Oak tree",
+        "A large Willow tree",
+        "A medium Willow tree"
+      ],
+      "correct_answer": "A medium Willow tree",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p7_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 125,
+      "text": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Only 'active'",
+        "'text-danger' and 'active'",
+        "No classes",
+        "Only 'text-danger'"
+      ],
+      "correct_answer": "Only 'active'",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 126,
+      "text": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The flight 103 has departed from terminal 1.",
+        "The flight 103 has arrived from terminal 2.",
+        "The flight 103 has delayed from terminal 3.",
+        "The flight 103 has from terminal.",
+        "ReferenceError"
+      ],
+      "correct_answer": "ReferenceError",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 127,
+      "text": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p10_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Learning App Dev 2 Exploring Vue JS",
+        "Learning App Dev 2 Exploring Frontend",
+        "Learned DBMS Learning App Dev 2 Exploring Frontend",
+        "Learned DBMS Learning App Dev 2 Exploring Vue JS"
+      ],
+      "correct_answer": "Learned DBMS Learning App Dev 2 Exploring Vue JS",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 128,
+      "text": "Consider the following HTML with relevant Vue CDN link attached. [IMAGE: /data/images/cs2006_2025T1_Q1_AN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "\"Updated App 1\" and \"Hello from App 2\"",
+        "\"Hello from App 1\" and \"Hello from App 2\"",
+        "\"Updated App 1\" and blank second div",
+        "Both divs will be blank"
+      ],
+      "correct_answer": "\"Updated App 1\" and \"Hello from App 2\"",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 129,
+      "text": "Consider the following HTML with relevant Vue CDN attached. [IMAGE: /data/images/cs2006_2025T1_Q1_AN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "total: 20, lastUpdatedBy: \"price\"",
+        "total: 40, lastUpdatedBy: \"quantity\"",
+        "total: 20, lastUpdatedBy: \"quantity\"",
+        "total: 40, lastUpdatedBy: \"price\""
+      ],
+      "correct_answer": "total: 40, lastUpdatedBy: \"quantity\"",
+      "marks": 4.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 130,
+      "text": "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p13_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p13_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p13_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p13_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p13_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2025T1_Q1_AN_p13_Im6.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2025T1_Q1_AN_p13_Im1.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p13_Im3.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p13_Im5.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p13_Im6.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p13_Im7.webp",
+        "/data/images/cs2006_2025T1_Q1_AN_p13_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Appdev2"
+    }
+  ],
+  "id": "cs2006-2025t1-q1-an",
+  "course_code": "CS2006",
+  "course_name": "Application Development 2",
+  "level": "Diploma in Programming",
+  "term": "Jan 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Afternoon"
+}

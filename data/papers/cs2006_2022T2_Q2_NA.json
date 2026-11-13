@@ -1,0 +1,427 @@
+{
+  "title": "AppDev-2",
+  "filename": "cs2006_2022T2_Q2_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 17.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 145,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p1_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_Q2_NA_p1_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 146,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. index.html: [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p1_Im4.webp|block] app.js: [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p2_Im1.webp|block] [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p2_Im2.webp|block] Say you open the file \u201cindex.html\u201d in the browser, and enter the text \u201ciitm\u201d in the text box shown (after removing the existing text from the input box), and click on the button with the text \u201cClick Me\u201d. After that, you refresh the page twice. What will be the text shown in the text input box, and the value of the \u201crefreshes\u201d placeholder, respectively?",
+      "type": "MCQ",
+      "options": [
+        "suffixiitmsuffix, -2",
+        "suffixsuffixiitmsuffix, -2",
+        "suffixsuffixiitmsuffix, -3",
+        "suffixiitmsuffix, -3"
+      ],
+      "correct_answer": "suffixsuffixiitmsuffix, -3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_Q2_NA_p1_Im4.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p2_Im1.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 147,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Suppose you are organizing a ceremony to award the startup companies who have progressed considerably well in the past few years. You have received a lot of registrations. The committee has decided to shortlist the companies based on the following 2 criteria: 1. The company must have a website 2. The company must have a capital of more than 40000 Fill in the code1 & code2 , which can be used in Vuex Store to update the \u201cawardees\u201d state variable with the objects of those companies who satisfy the above-mentioned criteria. [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2022T2_Q2_NA_p4_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2022T2_Q2_NA_p5_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2006_2022T2_Q2_NA_p5_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_Q2_NA_p4_Im1.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p4_Im4.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p5_Im2.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p5_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 148,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following JavaScript program running in a browser environment. [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p6_Im1.webp|block] Consider the \u2018dummyUrl\u2019 returns the HTML as payload. What will be logged on to the console?",
+      "type": "MCQ",
+      "options": [
+        "Network Error",
+        "Unexpected Error",
+        "Not Found",
+        "None of these"
+      ],
+      "correct_answer": "Unexpected Error",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 149,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. index.html: [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p7_Im1.webp|block] app.js: [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p7_Im2.webp|block] Suppose the application is running on \u201chttp://127.0.0.1:8080\u201d . What will be the value of message property of Create component for \u201chttp://127.0.0.1:8080/#/?update=true\u201d ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2022T2_Q2_NA_p8_Im2.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2022T2_Q2_NA_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2022T2_Q2_NA_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2022T2_Q2_NA_p8_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2022T2_Q2_NA_p8_Im2.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_Q2_NA_p7_Im1.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p7_Im2.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p8_Im2.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p8_Im4.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p8_Im5.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 150,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. index.html: [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p8_Im7.webp|block] app.js: [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Welcome mohan This is profile page of mohan",
+        "Welcome This is profile page of mohan",
+        "Welcome mohan This is profile page of",
+        "Welcome mohan"
+      ],
+      "correct_answer": "Welcome mohan This is profile page of mohan",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_Q2_NA_p8_Im7.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 151,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p10_Im1.webp|block] [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Welcome mohan This is home page of mohan",
+        "Welcome mohan This is home page",
+        "Welcome This is home page",
+        "Welcome This is home page of mohan"
+      ],
+      "correct_answer": "Welcome mohan This is home page",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_Q2_NA_p10_Im1.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 152,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following javascript program, and predict the output, if executed. [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1 1",
+        "4 4",
+        "2 5",
+        "4 5"
+      ],
+      "correct_answer": "4 4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_Q2_NA_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 153,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following javascript program, and predict the output, if executed. [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p13_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Test Passed !! Element Missing",
+        "Test Failed !! Element Found",
+        "Test Failed !! Element Missing",
+        "Test Passed !! Element Found"
+      ],
+      "correct_answer": "Test Passed !! Element Found",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_Q2_NA_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 154,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup \u201cindex.html\u201d and javascript file \u201capp.js\u201d. index.html: [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p14_Im1.webp|block] app.js: [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p14_Im2.webp|block] Say you open the file \u201cindex.html\u201d in the browser, and enter the text \u201cnptel\u201d in the text box shown (after removing the existing text from the input box). After that, you refresh the page thrice. What be the text shown in the text input box, and the value of the \u201crefreshes\u201d placeholder, respectively?",
+      "type": "MCQ",
+      "options": [
+        "suffixsuffixsuffixundefinedprefix, NaN",
+        "suffixsuffixsuffixundefinedprefix, -3",
+        "suffixsuffixundefinedprefix, NaN",
+        "suffixsuffixundefinedprefix, -3"
+      ],
+      "correct_answer": "suffixsuffixsuffixundefinedprefix, NaN",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_Q2_NA_p14_Im1.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 155,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following javascript program running in a browser environment. [IMAGE: /data/images/cs2006_2022T2_Q2_NA_p15_Im3.webp|block] What will be logged on to the console in (value, t) format, where \u201ct\u201d represents the approximate time in seconds (from the start of the execution of the program), and \u201cvalue\u201d represents the output value logged on to the console. For example: If 2 is logged on to console after 5 seconds, answer is (2, 5).",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2022T2_Q2_NA_p16_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2006_2022T2_Q2_NA_p16_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2022T2_Q2_NA_p16_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2022T2_Q2_NA_p15_Im3.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p16_Im3.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p16_Im4.webp",
+        "/data/images/cs2006_2022T2_Q2_NA_p16_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 156,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true regarding GraphQL and REST API?",
+      "type": "multichoice",
+      "options": [
+        "GraphQL is always better than an API, irrespective of the nature, scale and function of an application.",
+        "GraphQL can be used with every programming language, which is capable of making HTTP requests.",
+        "It is possible to cache the responses of REST API endpoints.",
+        "All of these"
+      ],
+      "correct_answer": [
+        "GraphQL can be used with every programming language, which is capable of making HTTP requests.",
+        "It is possible to cache the responses of REST API endpoints."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 157,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are correct regarding Vuex?",
+      "type": "multichoice",
+      "options": [
+        "Vuex provides a common solution to the parent component to the child component communication and vice-versa.",
+        "The usage of global variables over Vuex makes it easier to track the state changes.",
+        "Vuex is preferred in cases where multiple views depend on the same state.",
+        "Only the direct child components (not the descendants) have access to the Vuex store."
+      ],
+      "correct_answer": [
+        "Vuex provides a common solution to the parent component to the child component communication and vice-versa.",
+        "Vuex is preferred in cases where multiple views depend on the same state."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 158,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is correct regarding JWT?",
+      "type": "multichoice",
+      "options": [
+        "It is used as an access token to share information between two parties.",
+        "It contains encoded JSON data.",
+        "It contains encoded XML data.",
+        "Only payload, encoded in base64 format, is contained in JWT web token."
+      ],
+      "correct_answer": [
+        "It is used as an access token to share information between two parties.",
+        "It contains encoded JSON data."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 159,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is true regarding CORS?",
+      "type": "multichoice",
+      "options": [
+        "It allows servers to indicate which origins can load the resource from the server.",
+        "It allows the client to indicate from which server it can load resource.",
+        "Enabling CORS is not required for same origin request.",
+        "All of these"
+      ],
+      "correct_answer": [
+        "It allows servers to indicate which origins can load the resource from the server.",
+        "Enabling CORS is not required for same origin request."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 160,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are false regarding PWA and SPA?",
+      "type": "multichoice",
+      "options": [
+        "The idea of an SPA is to improve the SEO aspects of the web application.",
+        "A web application manifest provides the information required for a web app to be downloaded and presented to the user in a native like experience.",
+        "It is the service worker that helps a PWA serve cached contents of a page, when offline.",
+        "Both gmail.com and amazon.in are examples of SPA."
+      ],
+      "correct_answer": [
+        "The idea of an SPA is to improve the SEO aspects of the web application.",
+        "Both gmail.com and amazon.in are examples of SPA."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 161,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are false regarding token based authentication?",
+      "type": "multichoice",
+      "options": [
+        "The token generated generally expires after a certain time period, and this time period can also be customized according to the application requirements.",
+        "The client must send the token with the first request to authenticate, and need not send the token in the subsequent requests.",
+        "The fetch calls to a flask API will fail due to the CORS error by default.",
+        "If using flask-security for achieving token based authentication, all the API endpoints are protected by default."
+      ],
+      "correct_answer": [
+        "The client must send the token with the first request to authenticate, and need not send the token in the subsequent requests.",
+        "If using flask-security for achieving token based authentication, all the API endpoints are protected by default."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev-2"
+    }
+  ],
+  "id": "cs2006-2022t2-q2-na",
+  "course_code": "CS2006",
+  "course_name": "Application Development 2",
+  "level": "Diploma in Programming",
+  "term": "May 2022",
+  "year": 2022,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

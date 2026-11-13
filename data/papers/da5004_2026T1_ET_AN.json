@@ -1,0 +1,520 @@
+{
+  "title": "DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)",
+  "filename": "da5004_2026T1_ET_AN.pdf",
+  "total_questions": 21,
+  "total_marks": 43.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "In the standard Transformer Decoder , the Multi-Head Attention layer is \"Masked\". What is the specific purpose of this mask during training?",
+      "type": "MCQ",
+      "options": [
+        "To filter out padding tokens to save computation.",
+        "To prevent the model from attending to the [CLS] and [SEP] special tokens.",
+        "To preserve the auto-regressive property by ensuring that the prediction for position [IMAGE: /data/images/da5004_2026T1_ET_AN_p1_Im3.webp|inline] can only depend on known outputs at positions less than [IMAGE: /data/images/da5004_2026T1_ET_AN_p1_Im4.webp|inline] (preventing \"peeking\" into the future).",
+        "To force the model to focus on the Encoder output rather than the Decoder input."
+      ],
+      "correct_answer": "To preserve the auto-regressive property by ensuring that the prediction for position [IMAGE: /data/images/da5004_2026T1_ET_AN_p1_Im3.webp|inline] can only depend on known outputs at positions less than [IMAGE: /data/images/da5004_2026T1_ET_AN_p1_Im4.webp|inline] (preventing \"peeking\" into the future).",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p1_Im3.webp",
+        "/data/images/da5004_2026T1_ET_AN_p1_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "In the Span Corruption pre-training objective used by T5 (similar to the \"Denoising\" objective in BART), the input is: [IMAGE: /data/images/da5004_2026T1_ET_AN_p1_Im5.webp|block] (where [IMAGE: /data/images/da5004_2026T1_ET_AN_p1_Im6.webp|inline] and [IMAGE: /data/images/da5004_2026T1_ET_AN_p1_Im7.webp|inline] represent masked spans). What is the corresponding Target sequence that the decoder is trained to generate?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p1_Im8.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p2_Im2.webp|inline] (containing only the missing contents delimited by sentinels)",
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p2_Im4.webp|inline] (The full original sentence)",
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p2_Im5.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2026T1_ET_AN_p2_Im2.webp|inline] (containing only the missing contents delimited by sentinels)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p1_Im5.webp",
+        "/data/images/da5004_2026T1_ET_AN_p1_Im6.webp",
+        "/data/images/da5004_2026T1_ET_AN_p1_Im7.webp",
+        "/data/images/da5004_2026T1_ET_AN_p1_Im8.webp",
+        "/data/images/da5004_2026T1_ET_AN_p2_Im2.webp",
+        "/data/images/da5004_2026T1_ET_AN_p2_Im4.webp",
+        "/data/images/da5004_2026T1_ET_AN_p2_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "In Strided Local Attention , each token attends only to a local window of neighbors. While this reduces computational complexity to [IMAGE: /data/images/da5004_2026T1_ET_AN_p2_Im6.webp|inline] (linear in ), what is a significant limitation of a single layer of such attention?",
+      "type": "MCQ",
+      "options": [
+        "It has a limited receptive field and cannot capture long-range dependencies directly.",
+        "It requires more memory than full attention.",
+        "It cannot be parallelized on GPUs.",
+        "It causes the gradients to explode."
+      ],
+      "correct_answer": "It has a limited receptive field and cannot capture long-range dependencies directly.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "A transformer layer with absolute positional encoding and another with ALiBi are compared on sequences extended from length 128 to 512, without retraining. Which numerical behavior is most likely for ALiBi in this extrapolation scenario?",
+      "type": "MCQ",
+      "options": [
+        "Attention scores remain numerically well-shaped because ALiBi biases scale linearly with distance, not with a fixed maximum length.",
+        "The model cannot compute positional information beyond 128 because ALiBi stores one embedding per absolute position up to 128 only.",
+        "ALiBi attention becomes undefined for positions beyond 128 because its biases require precomputed lookup tables that stop at 128.",
+        "Attention scores collapse to near zero for distant positions because ALiBi uses fixed sinusoidal patterns tied to the original length 128."
+      ],
+      "correct_answer": "Attention scores remain numerically well-shaped because ALiBi biases scale linearly with distance, not with a fixed maximum length.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Based on the BERT pre-training phase, select all correct constraints and properties regarding the input data.",
+      "type": "multichoice",
+      "options": [
+        "The maximum context length (sequence length) supported is 512 tokens.",
+        "The input text must be contiguous (long-range contiguous text), meaning sentences are not shuffled randomly.",
+        "The vocabulary is built using BPE encoding.",
+        "Special tokens [IMAGE: /data/images/da5004_2026T1_ET_AN_p3_Im3.webp|inline] (at the start) and [IMAGE: /data/images/da5004_2026T1_ET_AN_p3_Im4.webp|inline] (to separate sentences) are explicitly added to the input sequence."
+      ],
+      "correct_answer": [
+        "The maximum context length (sequence length) supported is 512 tokens.",
+        "The input text must be contiguous (long-range contiguous text), meaning sentences are not shuffled randomly.",
+        "Special tokens [IMAGE: /data/images/da5004_2026T1_ET_AN_p3_Im3.webp|inline] (at the start) and [IMAGE: /data/images/da5004_2026T1_ET_AN_p3_Im4.webp|inline] (to separate sentences) are explicitly added to the input sequence."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p3_Im3.webp",
+        "/data/images/da5004_2026T1_ET_AN_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "Select the statements that correctly distinguish fine-tuning from zero-shot prompting for GPT-style models.",
+      "type": "multichoice",
+      "options": [
+        "In Fine-Tuning, the weights of the pre-trained model (and often a new specific head) are updated using backpropagation on a labeled dataset.",
+        "In Zero-Shot Prompting, the model weights are frozen (not updated); the task is formulated purely through the design of the input text (prompt).",
+        "Zero-Shot Prompting generally achieves higher accuracy than Fine-Tuning when abundant labeled data is available.",
+        "Fine-Tuning typically requires a task-specific output layer (like a linear classifier), whereas Zero-Shot Prompting relies on the model generating text directly."
+      ],
+      "correct_answer": [
+        "In Fine-Tuning, the weights of the pre-trained model (and often a new specific head) are updated using backpropagation on a labeled dataset.",
+        "In Zero-Shot Prompting, the model weights are frozen (not updated); the task is formulated purely through the design of the input text (prompt).",
+        "Fine-Tuning typically requires a task-specific output layer (like a linear classifier), whereas Zero-Shot Prompting relies on the model generating text directly."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Inscript You are using Top- [IMAGE: /data/images/da5004_2026T1_ET_AN_p3_Im5.webp|inline] (Nucleus) Sampling with [IMAGE: /data/images/da5004_2026T1_ET_AN_p3_Im6.webp|inline] .The model outputs the following sorted probability distribution for the next token: \u2022 \"apple\": 0.40 \u2022 \"banana\": 0.25 \u2022 \"cherry\": 0.15 \u2022 \"date\": 0.10 \u2022 \"elderberry\": 0.10 How many tokens will be included in the candidate pool from which the final token is sampled? Enter the integer count.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p3_Im5.webp",
+        "/data/images/da5004_2026T1_ET_AN_p3_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript A Large Language Model is pre-trained for [IMAGE: /data/images/da5004_2026T1_ET_AN_p4_Im1.webp|inline] [IMAGE: /data/images/da5004_2026T1_ET_AN_p4_Im2.webp|inline] steps. The batch size is [IMAGE: /data/images/da5004_2026T1_ET_AN_p4_Im3.webp|inline] sequences. The sequence length (context window) is [IMAGE: /data/images/da5004_2026T1_ET_AN_p4_Im4.webp|inline] tokens. Calculate the total number of tokens the model sees during pre-training.Enter your answer in Billions (B) . (e.g., if the answer is 500 Billion, enter 500).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1046 to 1050",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p4_Im1.webp",
+        "/data/images/da5004_2026T1_ET_AN_p4_Im2.webp",
+        "/data/images/da5004_2026T1_ET_AN_p4_Im3.webp",
+        "/data/images/da5004_2026T1_ET_AN_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript The computational complexity and memory requirement of the Self-Attention mechanism is quadratic with respect to the sequence length . Specifically, the Attention Score matrix has a size of [IMAGE: /data/images/da5004_2026T1_ET_AN_p5_Im1.webp|inline] . If you double the input sequence length (e.g., from 512 to 1024) while keeping the embedding dimension ( [IMAGE: /data/images/da5004_2026T1_ET_AN_p5_Im3.webp|inline] ) constant, by what factor does the memory required to store the Attention Score matrix increase? Enter the integer value.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p5_Im1.webp",
+        "/data/images/da5004_2026T1_ET_AN_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript Suppose a language model outputs the following logits for a vocabulary of size 4: [IMAGE: /data/images/da5004_2026T1_ET_AN_p5_Im4.webp|block] You apply High Temperature Sampling with temperature [IMAGE: /data/images/da5004_2026T1_ET_AN_p5_Im5.webp|inline] . After applying the softmax on the temperature-scaled logits, what is the probability assigned to the token \"apple\"? (Give your answer up to 2 decimal places). First, apply temperature scaling with [IMAGE: /data/images/da5004_2026T1_ET_AN_p5_Im6.webp|inline] :",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.43 to 0.49",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p5_Im4.webp",
+        "/data/images/da5004_2026T1_ET_AN_p5_Im5.webp",
+        "/data/images/da5004_2026T1_ET_AN_p5_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Consider a Strided Local Attention mechanism where each token attends to a window of [IMAGE: /data/images/da5004_2026T1_ET_AN_p6_Im1.webp|inline] tokens ( [IMAGE: /data/images/da5004_2026T1_ET_AN_p6_Im2.webp|inline] left, [IMAGE: /data/images/da5004_2026T1_ET_AN_p6_Im3.webp|inline] right). \u2022 Sequence Length ( ) = 1000 \u2022 Embedding Dimension ( [IMAGE: /data/images/da5004_2026T1_ET_AN_p6_Im5.webp|inline] ) = 64 \u2022 Window Size ( [IMAGE: /data/images/da5004_2026T1_ET_AN_p6_Im6.webp|inline] ) = 10 How many multiplications are performed to compute the unnormalized attention scores ( [IMAGE: /data/images/da5004_2026T1_ET_AN_p6_Im7.webp|inline] ) for one attention head?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "640000",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p6_Im1.webp",
+        "/data/images/da5004_2026T1_ET_AN_p6_Im2.webp",
+        "/data/images/da5004_2026T1_ET_AN_p6_Im3.webp",
+        "/data/images/da5004_2026T1_ET_AN_p6_Im5.webp",
+        "/data/images/da5004_2026T1_ET_AN_p6_Im6.webp",
+        "/data/images/da5004_2026T1_ET_AN_p6_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Adapter Layers are a parameter-efficient fine-tuning strategy. Where are these layers typically inserted within a Transformer block?",
+      "type": "MCQ",
+      "options": [
+        "Before the Self-Attention mechanism only.",
+        "After the Feed-Forward Network (FFN) block and/or after the Self-Attention block.",
+        "Replacing the Layer Normalization parameters.",
+        "In parallel to the main residual connection."
+      ],
+      "correct_answer": "After the Feed-Forward Network (FFN) block and/or after the Self-Attention block.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Why do standard LLM architectures include explicit Positional Encodings (like RoPE or Sinusoidal) despite the causal mask providing some implicit order?",
+      "type": "MCQ",
+      "options": [
+        "To reduce the memory footprint of the [IMAGE: /data/images/da5004_2026T1_ET_AN_p7_Im2.webp|inline] and matrices.",
+        "To ensure that the model can only attend to future tokens.",
+        "To provide a strong inductive bias that allows the model to learn structural and distance-based relationships more efficiently than relying on masking alone.",
+        "To fix a mathematical error in the original Dot-Product Attention formula."
+      ],
+      "correct_answer": "To provide a strong inductive bias that allows the model to learn structural and distance-based relationships more efficiently than relying on masking alone.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "In the context of Grouped Query Attention (GQA) , if we have [IMAGE: /data/images/da5004_2026T1_ET_AN_p7_Im5.webp|inline] query heads and [IMAGE: /data/images/da5004_2026T1_ET_AN_p7_Im6.webp|inline] groups, how many Key/Value heads are trained?",
+      "type": "MCQ",
+      "options": [
+        "1 Key/Value head (same as MQA).",
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p7_Im7.webp|inline] Key/Value heads (same as MHA).",
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p7_Im8.webp|inline] Key/Value heads (where [IMAGE: /data/images/da5004_2026T1_ET_AN_p7_Im9.webp|inline] ).",
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p7_Im10.webp|inline] Key/Value heads."
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2026T1_ET_AN_p7_Im8.webp|inline] Key/Value heads (where [IMAGE: /data/images/da5004_2026T1_ET_AN_p7_Im9.webp|inline] ).",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p7_Im5.webp",
+        "/data/images/da5004_2026T1_ET_AN_p7_Im6.webp",
+        "/data/images/da5004_2026T1_ET_AN_p7_Im7.webp",
+        "/data/images/da5004_2026T1_ET_AN_p7_Im8.webp",
+        "/data/images/da5004_2026T1_ET_AN_p7_Im9.webp",
+        "/data/images/da5004_2026T1_ET_AN_p7_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Consider Multi-Query Attention (MQA) . How does its architecture differ from standard Multi- Head Attention (MHA) to improve inference efficiency?",
+      "type": "MCQ",
+      "options": [
+        "It uses multiple query heads but only a single attention head.",
+        "It maintains multiple Query heads but shares a single Key and Value head across all Query heads.",
+        "It quantizes the Query vectors to 4 bits.",
+        "It removes the Value vectors entirely and uses Keys as Values."
+      ],
+      "correct_answer": "It maintains multiple Query heads but shares a single Key and Value head across all Query heads.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "In a transformer with relative positional encoding (RPE), attention logits between a query at position 5 and keys at positions 3 and 7 depend on relative distances [IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im1.webp|inline] where [IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im2.webp|inline] is the position of query and [IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im3.webp|inline] is the position of key. Suppose the learned scalar biases as per RPE are: \u2022 [IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im4.webp|inline] \u2022 [IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im5.webp|inline] \u2022 [IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im6.webp|inline] \u2022 [IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im7.webp|inline] \u2022 [IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im8.webp|inline] The base (content-only) attention logits are: \u2022 [IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im9.webp|inline] \u2022 [IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im10.webp|inline] What are the final attention logits after incorporating RPE?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im12.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im13.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im15.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im16.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im15.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p8_Im1.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im2.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im3.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im4.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im5.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im6.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im7.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im8.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im9.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im10.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im12.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im13.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im15.webp",
+        "/data/images/da5004_2026T1_ET_AN_p8_Im16.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "In ALiBi, the attention score is modified using a distance-based bias Suppose for a head the slope is: [IMAGE: /data/images/da5004_2026T1_ET_AN_p8_Im17.webp|inline] For a query at position [IMAGE: /data/images/da5004_2026T1_ET_AN_p9_Im1.webp|inline] , attending to keys at positions [IMAGE: /data/images/da5004_2026T1_ET_AN_p9_Im2.webp|inline] : What ALiBi bias values are subtracted from the logits for keys at positions 3, 5, and 8, respectively? Note: Assume absolute distances.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_ET_AN_p9_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2026T1_ET_AN_p9_Im8.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_ET_AN_p8_Im17.webp",
+        "/data/images/da5004_2026T1_ET_AN_p9_Im1.webp",
+        "/data/images/da5004_2026T1_ET_AN_p9_Im2.webp",
+        "/data/images/da5004_2026T1_ET_AN_p9_Im4.webp",
+        "/data/images/da5004_2026T1_ET_AN_p9_Im5.webp",
+        "/data/images/da5004_2026T1_ET_AN_p9_Im6.webp",
+        "/data/images/da5004_2026T1_ET_AN_p9_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "Which of the following statements about fine-tuning strategies such as gradual unfreezing and multi-task learning in the context of the T5 model are correct?",
+      "type": "multichoice",
+      "options": [
+        "In gradual unfreezing, layers are progressively unfrozen starting from the task-specific (top) layers toward the input (bottom) layers.",
+        "Multi-task learning in T5 typically improves performance uniformly across all tasks.",
+        "Multi-task pre-training (as used in T5) followed by task-specific fine-tuning often performs better than relying on multi-task learning alone.",
+        "Gradual unfreezing can help mitigate catastrophic forgetting of pre-trained representations during T5 fine-tuning."
+      ],
+      "correct_answer": [
+        "In gradual unfreezing, layers are progressively unfrozen starting from the task-specific (top) layers toward the input (bottom) layers.",
+        "Multi-task learning in T5 typically improves performance uniformly across all tasks.",
+        "Gradual unfreezing can help mitigate catastrophic forgetting of pre-trained representations during T5 fine-tuning."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Select all correct statements regarding Local Attention Variants (like Sparse, Dilated, or Windowed Attention).",
+      "type": "multichoice",
+      "options": [
+        "Many local attention variants reduce complexity toward linear with sequence length.",
+        "They always outperform full attention on all tasks, regardless of sequence length.",
+        "Stacking multiple layers of local attention increases the effective receptive field, similar to dilated convolutions in CNNs.",
+        "They can be combined with global tokens (e.g., in BigBird) to ensure some tokens can attend to the entire sequence."
+      ],
+      "correct_answer": [
+        "Many local attention variants reduce complexity toward linear with sequence length.",
+        "Stacking multiple layers of local attention increases the effective receptive field, similar to dilated convolutions in CNNs.",
+        "They can be combined with global tokens (e.g., in BigBird) to ensure some tokens can attend to the entire sequence."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "Which of the following techniques are used in Flash Attention to speed up attention computation and save memory?",
+      "type": "multichoice",
+      "options": [
+        "Tiling: Breaking the large matrices into smaller blocks that fit into the fast SRAM.",
+        "Recomputation: Recomputing the attention matrix during the backward pass instead of storing it in HBM.",
+        "Approximation: Using a low-rank approximation of the attention matrix to avoid exact calculation.",
+        "Kernel Fusion: Fusing multiple operations (MatMul, Mask, Softmax, Dropout) into a single kernel to reduce memory reads/writes."
+      ],
+      "correct_answer": [
+        "Tiling: Breaking the large matrices into smaller blocks that fit into the fast SRAM.",
+        "Recomputation: Recomputing the attention matrix during the backward pass instead of storing it in HBM.",
+        "Kernel Fusion: Fusing multiple operations (MatMul, Mask, Softmax, Dropout) into a single kernel to reduce memory reads/writes."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    }
+  ],
+  "id": "da5004-2026t1-et-an",
+  "course_code": "DA5004",
+  "course_name": "Large Language Models",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

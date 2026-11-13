@@ -1,0 +1,588 @@
+{
+  "title": "DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)",
+  "filename": "cs3001_2026T1_ET_AN.pdf",
+  "total_questions": 26,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "A developer wants to understand why a function was written in a particular way but the original developer has left the company. The information is missing. Which best practice was ignored?",
+      "type": "MCQ",
+      "options": [
+        "Version control",
+        "Knowledge documentation",
+        "Code refactoring",
+        "Development tools"
+      ],
+      "correct_answer": "Knowledge documentation",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "A software company wants to build a new Seller Portal. Before writing any code, a team studies competitors, identifies what sellers need, and checks market demand. Which role is primarily responsible for this activity?",
+      "type": "MCQ",
+      "options": [
+        "Software Engineer",
+        "Marketing Team",
+        "Support Team",
+        "Engineering Manager"
+      ],
+      "correct_answer": "Marketing Team",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "A software team wants to run integration tests and system tests and automatically remove faulty code and roll back if a test fails. Which environment is primarily used for this?",
+      "type": "MCQ",
+      "options": [
+        "Development",
+        "Testing",
+        "Staging",
+        "Production"
+      ],
+      "correct_answer": "Testing",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "A company releases a new version of its website to only 5% of users first, monitors its behavior, and later rolls it out to everyone. Which strategy is this?",
+      "type": "MCQ",
+      "options": [
+        "Blue-green deployment",
+        "Canary deployment",
+        "Version deployment",
+        "None of these"
+      ],
+      "correct_answer": "Canary deployment",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "A startup rents a virtual machine with 2 CPU cores and 8 GB RAM from AWS and installs its own web server and database. This is an example of:",
+      "type": "MCQ",
+      "options": [
+        "Bare-metal server",
+        "Platform as a Service",
+        "Infrastructure as a Service",
+        "Software as a Service"
+      ],
+      "correct_answer": "Infrastructure as a Service",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "A website responds very slowly when thousands of users request the same product page. The team stores the result of this query in memory so that future requests are served faster. Which technique is being used?",
+      "type": "MCQ",
+      "options": [
+        "Compression",
+        "Caching",
+        "Task queue",
+        "Load balancing"
+      ],
+      "correct_answer": "Caching",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Which of the following best describes system testing?",
+      "type": "MCQ",
+      "options": [
+        "Testing individual modules",
+        "Testing interfaces between modules",
+        "Testing code written by one developer",
+        "Testing the fully integrated software system"
+      ],
+      "correct_answer": "Testing the fully integrated software system",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "A banking application has five modules. Each module has already passed unit testing. The team integrates all five modules at once and then starts testing the full system. When a failure occurs, it is very difficult to find which module caused it. Which integration testing approach was used?",
+      "type": "MCQ",
+      "options": [
+        "Top-down",
+        "Bottom-up",
+        "Big-bang",
+        "Mixed"
+      ],
+      "correct_answer": "Big-bang",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Consider the Python function below. [IMAGE: /data/images/cs3001_2026T1_ET_AN_p4_Im1.webp|block] What is the cyclomatic complexity of function [IMAGE: /data/images/cs3001_2026T1_ET_AN_p4_Im2.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "3",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T1_ET_AN_p4_Im1.webp",
+        "/data/images/cs3001_2026T1_ET_AN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the Python function below. [IMAGE: /data/images/cs3001_2026T1_ET_AN_p4_Im5.webp|block] Which inputs belong to the same equivalence class?",
+      "type": "MCQ",
+      "options": [
+        "{2, 4, 6}",
+        "{2, 3, 4}",
+        "{1, 2, 3}",
+        "{0, 1}"
+      ],
+      "correct_answer": "{2, 4, 6}",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T1_ET_AN_p4_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "A development team builds a simplified working version of a system with limited functionality to help customers understand what they actually need. This version is discarded later. Which model does this describe?",
+      "type": "MCQ",
+      "options": [
+        "Waterfall model",
+        "Prototype model",
+        "Spiral model",
+        "Build-and-fix model"
+      ],
+      "correct_answer": "Prototype model",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "A seller requests the ability to [IMAGE: /data/images/cs3001_2026T1_ET_AN_p5_Im3.webp|inline] but does not specify whether this includes shipped, returned, or in-transit orders. This requirement is best described as:",
+      "type": "MCQ",
+      "options": [
+        "Ambiguous",
+        "Inconsistent",
+        "Incomplete",
+        "Invalid"
+      ],
+      "correct_answer": "Incomplete",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T1_ET_AN_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Different sales managers from various industries discuss their expectations from a seller portal. Some emphasize daily sales, while others prefer monthly summaries. Which technique best helps identify consensus and conflicts?",
+      "type": "MCQ",
+      "options": [
+        "Interviews",
+        "Questionnaires",
+        "Focus groups",
+        "Documentation analysis"
+      ],
+      "correct_answer": "Focus groups",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "A development team realizes that a user story cannot be completed within a single 2-week sprint. They divide it into smaller stories. Which SMART characteristic does this decision address?",
+      "type": "MCQ",
+      "options": [
+        "Specific",
+        "Measurable",
+        "Relevant",
+        "Achievable"
+      ],
+      "correct_answer": "Achievable",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "A word processor places the \u201cSave\u201d and \u201cClose\u201d buttons far apart to reduce accidental file closure. Which usability goal does this design decision address?",
+      "type": "MCQ",
+      "options": [
+        "Learnability",
+        "Memorability",
+        "Safety",
+        "Efficiency"
+      ],
+      "correct_answer": "Safety",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "A file manager allows users to move files by dragging icons instead of typing commands. This primarily supports which design heuristic?",
+      "type": "MCQ",
+      "options": [
+        "Freedom to explore",
+        "Consistency",
+        "Recognition over recall",
+        "Showing system status"
+      ],
+      "correct_answer": "Recognition over recall",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "A project manager asks senior developers who have worked on similar systems to provide cost and effort estimates based on their experience. Which estimation technique is being used?",
+      "type": "MCQ",
+      "options": [
+        "Heuristic estimation",
+        "COCOMO model",
+        "Expert judgment",
+        "Delphi technique"
+      ],
+      "correct_answer": "Expert judgment",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "At the end of a sprint, the team demonstrates completed features to stakeholders. This activity is called:",
+      "type": "MCQ",
+      "options": [
+        "Sprint Planning",
+        "Sprint Review",
+        "Sprint Retrospective",
+        "Daily Scrum"
+      ],
+      "correct_answer": "Sprint Review",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "Before creating a schedule, a team identifies all major project activities and divides them into smaller, assignable tasks. Which project scheduling activity is being performed?",
+      "type": "MCQ",
+      "options": [
+        "Determining the critical path",
+        "Creating an activity network",
+        "Allocating resources",
+        "Developing a work breakdown structure"
+      ],
+      "correct_answer": "Developing a work breakdown structure",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "A Seller object calls the [IMAGE: /data/images/cs3001_2026T1_ET_AN_p7_Im3.webp|inline] method of an Inventory object. What type of relationship does this represent?",
+      "type": "MCQ",
+      "options": [
+        "Inheritance",
+        "Dependency",
+        "Association",
+        "Aggregation"
+      ],
+      "correct_answer": "Association",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T1_ET_AN_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "A company is building a custom laptop ordering system. Every laptop must have: \u2022 Processor \u2022 RAM Additionally, customers may optionally choose: \u2022 Graphics card \u2022 Storage type \u2022 Operating system \u2022 Extended warranty \u2022 Pre-installed software Originally, the development team tried to handle all combinations by creating many versions of the laptop constructor for different combinations of options, which quickly became unmanageable. They then redesigned the system so that: \u2022 The customer first chooses the mandatory features \u2022 Then selects any number of optional features in any order Which design pattern best fits this redesign?",
+      "type": "MCQ",
+      "options": [
+        "Factory Pattern",
+        "Builder Pattern",
+        "Adapter Pattern",
+        "Facade Pattern"
+      ],
+      "correct_answer": "Builder Pattern",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Originally, the Seller class directly uses: [IMAGE: /data/images/cs3001_2026T1_ET_AN_p8_Im3.webp|block] Later, the company wants to support Google Pay, UPI, and Paytm. Each time a new payment type is added, Seller must be modified. Which SOLID principle is violated?",
+      "type": "MCQ",
+      "options": [
+        "Interface Segregation",
+        "Dependency Inversion",
+        "Liskov Substitution",
+        "Single Responsibility"
+      ],
+      "correct_answer": "Dependency Inversion",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T1_ET_AN_p8_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "A developer finishes work on branch [IMAGE: /data/images/cs3001_2026T1_ET_AN_p9_Im3.webp|inline] and wants to include it in the main project. Which command achieves this?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs3001_2026T1_ET_AN_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2026T1_ET_AN_p9_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2026T1_ET_AN_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs3001_2026T1_ET_AN_p9_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs3001_2026T1_ET_AN_p9_Im6.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T1_ET_AN_p9_Im3.webp",
+        "/data/images/cs3001_2026T1_ET_AN_p9_Im4.webp",
+        "/data/images/cs3001_2026T1_ET_AN_p9_Im5.webp",
+        "/data/images/cs3001_2026T1_ET_AN_p9_Im6.webp",
+        "/data/images/cs3001_2026T1_ET_AN_p9_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "A [IMAGE: /data/images/cs3001_2026T1_ET_AN_p9_Im8.webp|inline] module calls a function [IMAGE: /data/images/cs3001_2026T1_ET_AN_p9_Im9.webp|inline] in the [IMAGE: /data/images/cs3001_2026T1_ET_AN_p9_Im10.webp|inline] module. \u2022 If [IMAGE: /data/images/cs3001_2026T1_ET_AN_p9_Im11.webp|inline] , the [IMAGE: /data/images/cs3001_2026T1_ET_AN_p9_Im12.webp|inline] module displays account details \u2022 If [IMAGE: /data/images/cs3001_2026T1_ET_AN_p9_Im13.webp|inline] , it updates account information What type of coupling is illustrated here?",
+      "type": "MCQ",
+      "options": [
+        "Data coupling",
+        "Control coupling",
+        "Common coupling",
+        "Content coupling"
+      ],
+      "correct_answer": "Control coupling",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3001_2026T1_ET_AN_p9_Im8.webp",
+        "/data/images/cs3001_2026T1_ET_AN_p9_Im9.webp",
+        "/data/images/cs3001_2026T1_ET_AN_p9_Im10.webp",
+        "/data/images/cs3001_2026T1_ET_AN_p9_Im11.webp",
+        "/data/images/cs3001_2026T1_ET_AN_p9_Im12.webp",
+        "/data/images/cs3001_2026T1_ET_AN_p9_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "During requirement analysis of a digital wallet system, the development team identifies multiple types of clients. Which of the following can validly be considered clients of the system? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "End users performing transactions",
+        "Internal inventory management service",
+        "Payment gateway interacting via APIs",
+        "Developers who write the code"
+      ],
+      "correct_answer": [
+        "End users performing transactions",
+        "Internal inventory management service",
+        "Payment gateway interacting via APIs"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Sw Engg"
+    }
+  ],
+  "id": "cs3001-2026t1-et-an",
+  "course_code": "CS3001",
+  "course_name": "Software Engineering",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

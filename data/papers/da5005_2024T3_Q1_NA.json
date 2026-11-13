@@ -1,0 +1,569 @@
+{
+  "title": "DEGREE LEVEL : INTRODUCTION TO NATURAL LANGUAGE PROCESSING (COMPUTER BASED EXAM)",
+  "filename": "da5005_2024T3_Q1_NA.pdf",
+  "total_questions": 27,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 220,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : INTRODUCTION TO NATURAL LANGUAGE PROCESSING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 221,
+      "text": "In a whimsical language where adjectives change based on the weather, an FST is designed to transform \u201chappy\u201d into \u201chappyrain\u201d on rainy days and \u201chappysun\u201d on sunny days. If the FST has 5 states for \u201chappy\u201d and 3 states each for weather conditions, what\u2019s the minimum total number of states required?",
+      "type": "MCQ",
+      "options": [
+        "8",
+        "11",
+        "13",
+        "15"
+      ],
+      "correct_answer": "11",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 222,
+      "text": "[IMAGE: /data/images/da5005_2024T3_Q1_NA_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "\u201cunlearned\u201d",
+        "\u201cundefined\u201d",
+        "\u201cunfinished\u201d",
+        "All of these"
+      ],
+      "correct_answer": "All of these",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5005_2024T3_Q1_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 223,
+      "text": "[IMAGE: /data/images/da5005_2024T3_Q1_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The string is rejected.",
+        "The string is accepted.",
+        "The FSA transitions to an error state.",
+        "The output is \u201c11\u201d."
+      ],
+      "correct_answer": "The string is accepted.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5005_2024T3_Q1_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 224,
+      "text": "In a graph-based dependency parser using edge-factored scoring, the following edge scores have been calculated for a sentence: [IMAGE: /data/images/da5005_2024T3_Q1_NA_p3_Im4.webp|block] What is the score of the maximum spanning tree (assuming all other possible edges have lower scores)?",
+      "type": "MCQ",
+      "options": [
+        "1.5",
+        "1.6",
+        "1.7",
+        "1.8"
+      ],
+      "correct_answer": "1.6",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5005_2024T3_Q1_NA_p3_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 225,
+      "text": "In evaluating a dependency parser, the following results were obtained on a test set of 500 words: \u2022 450 words have the correct head \u2022 425 words have both the correct head and correct label \u2022 475 words have the correct label What are the Unlabeled Attachment Score (UAS) and Label Accuracy Score (LS)?",
+      "type": "MCQ",
+      "options": [
+        "UAS: 90%, LS: 85%",
+        "UAS: 90%, LS: 95%",
+        "UAS: 85%, LS: 95%",
+        "UAS: 85%, LS: 90%"
+      ],
+      "correct_answer": "UAS: 90%, LS: 95%",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 226,
+      "text": "A legal document analysis tool is being developed to identify key clauses. If the tool correctly identifies 80 relevant clauses out of 100 actual relevant clauses, and incorrectly flags 20 irrelevant clauses as relevant, what is the F1 score of the tool?",
+      "type": "MCQ",
+      "options": [
+        "0.80",
+        "0.82",
+        "0.85",
+        "0.89"
+      ],
+      "correct_answer": "0.82",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 227,
+      "text": "In the sentence \u201cThe old Shakespearean Globe Theatre on the banks of the Thames hosted a modern rendition of \u2019A Midsummer Night\u2019s Dream\u2019\u201d, which phrase is NOT a Named Entity?",
+      "type": "MCQ",
+      "options": [
+        "Shakespearean",
+        "Globe Theatre",
+        "Thames",
+        "A Midsummer Night\u2019s Dream"
+      ],
+      "correct_answer": "Shakespearean",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 228,
+      "text": "In processing the sentence \u201cAfter John beat him in chess, Bill lost his Queen,\u201d which NLP level is most crucial for understanding \u201cQueen\u201d ?",
+      "type": "MCQ",
+      "options": [
+        "Lexical",
+        "Semantic",
+        "Discourse",
+        "Pragmatic"
+      ],
+      "correct_answer": "Semantic",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 229,
+      "text": "Anaphora resolution, which falls under the discourse level of NLP, can be fully solved using only syntactic parsing techniques.",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 230,
+      "text": "In the sentence \u201cI saw her duck,\u201d morphological analysis alone is sufficient to determine whether \u201cduck\u201d is being used as a noun or a verb.",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 231,
+      "text": "What is a primary feature of agglutinative languages?",
+      "type": "MCQ",
+      "options": [
+        "Morphemes are fused together, making them inseparable.",
+        "Morphemes are added like beads on a string, each representing one grammatical feature.",
+        "Each word consists of a single morpheme.",
+        "Morphology does not exist in these languages."
+      ],
+      "correct_answer": "Morphemes are added like beads on a string, each representing one grammatical feature.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 232,
+      "text": "In morphological analysis, what is the primary difference between Item and Arrangement (IA) and Item and Process (IP) approaches?",
+      "type": "MCQ",
+      "options": [
+        "IA focuses on concatenation, while IP uses rules and allomorphs.",
+        "IA is used for synthetic languages, while IP is for analytic languages.",
+        "IA is word-based, while IP is morpheme-based.",
+        "IA uses paradigms, while IP uses linear sequencing."
+      ],
+      "correct_answer": "IA focuses on concatenation, while IP uses rules and allomorphs.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 233,
+      "text": "Context-Free Grammar (CFG) rules can only generate sentences with a fixed word order.",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 234,
+      "text": "The CKY parsing algorithm requires the grammar to be in Chomsky Normal Form (CNF).",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 235,
+      "text": "Treebanks are automatically generated without human intervention.",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 236,
+      "text": "In the sentence \u201cHe gave her a book,\u201d the dependency relationship between \u201cgave\u201d and \u201cbook\u201d is labeled as nsubj.",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 237,
+      "text": "In the sentence \u201cThe cat sat on the mat,\u201d the prepositional phrase \u201con the mat\u201d serves as a dependent of \u201csat\u201d in a case relation.",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 238,
+      "text": "Which of the following NLP tasks would benefit from processing at the discourse level?",
+      "type": "multichoice",
+      "options": [
+        "Generating a coherent multi-paragraph story",
+        "Summarizing a long document",
+        "Resolving pronouns in a conversation",
+        "Determining the sentiment of a single word",
+        "Identifying the topic shifts"
+      ],
+      "correct_answer": [
+        "Generating a coherent multi-paragraph story",
+        "Summarizing a long document",
+        "Resolving pronouns in a conversation",
+        "Identifying the topic shifts"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 239,
+      "text": "Which of the following are characteristics of Naive Bayes classifiers? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "Assumes independence between features",
+        "Often used for POS tagging and NER",
+        "Requires a large amount of training data",
+        "Provides probabilistic outputs",
+        "Cannot handle multi-class classification"
+      ],
+      "correct_answer": [
+        "Assumes independence between features",
+        "Often used for POS tagging and NER",
+        "Provides probabilistic outputs"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 240,
+      "text": "Which of the following are applications of clustering in NLP tasks? (Select all that apply)",
+      "type": "multichoice",
+      "options": [
+        "Grouping similar entities in NER",
+        "Unsupervised POS tagging",
+        "Sentiment analysis",
+        "Word clustering into syntactic categories",
+        "Machine translation"
+      ],
+      "correct_answer": [
+        "Grouping similar entities in NER",
+        "Unsupervised POS tagging",
+        "Word clustering into syntactic categories"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 241,
+      "text": "In developing a sarcasm detection system for social media posts, which levels of NLP processing would be most crucial?",
+      "type": "multichoice",
+      "options": [
+        "Phonological",
+        "Semantic",
+        "Discourse",
+        "Pragmatic",
+        "Syntactic"
+      ],
+      "correct_answer": [
+        "Semantic",
+        "Discourse",
+        "Pragmatic"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 242,
+      "text": "In a Hidden Markov Model (HMM) for POS tagging, the transition probability from the tag NOUN (noun) to VERB (verb) is 0.3, and the transition probability from VERB (verb) to DET (determiner) is 0.4. What is the joint transition probability of the sequence NOUN \u2192 VERB \u2192 DET ?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.11 to 0.13",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 243,
+      "text": "In a Conditional Random Field (CRF) model for POS tagging, if there are 6 features per word and the sentence has 10 words, how many total feature values does the model compute for this sentence?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "60",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 244,
+      "text": "In a POS tagging model, out of 500 total predictions made, 420 were correct. What is the accuracy of the model as a percentage (rounded to two decimal places)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "83 to 85",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 245,
+      "text": "In a binary classification task, the number of True Positives (TP) is 80, and the number of False Positives (FP) is 20. What is the precision of the model as a decimal (rounded to two decimal places)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.79 to 0.81",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 246,
+      "text": "In a semantic role labeling evaluation, a model has identified 100 correct semantic roles out of 120 total semantic roles it predicted. What is the precision of the model as a decimal (rounded to two decimal places)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.8 to 0.85",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "i-NLP"
+    }
+  ],
+  "id": "da5005-2024t3-q1-na",
+  "course_code": "DA5005",
+  "course_name": "Information Retrieval",
+  "level": "Degree",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

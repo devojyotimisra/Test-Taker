@@ -1,0 +1,423 @@
+{
+  "title": "DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)",
+  "filename": "da5004_2025T2_ET_FN.pdf",
+  "total_questions": 18,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 137,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 138,
+      "text": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p1_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p1_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p1_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p1_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p1_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_ET_FN_p1_Im3.webp",
+        "/data/images/da5004_2025T2_ET_FN_p1_Im4.webp",
+        "/data/images/da5004_2025T2_ET_FN_p1_Im5.webp",
+        "/data/images/da5004_2025T2_ET_FN_p1_Im6.webp",
+        "/data/images/da5004_2025T2_ET_FN_p1_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 139,
+      "text": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p2_Im5.webp|block]",
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p2_Im6.webp|block]",
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p2_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p2_Im6.webp|block]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_ET_FN_p2_Im1.webp",
+        "/data/images/da5004_2025T2_ET_FN_p2_Im5.webp",
+        "/data/images/da5004_2025T2_ET_FN_p2_Im6.webp",
+        "/data/images/da5004_2025T2_ET_FN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 140,
+      "text": "Which of the following statements about subword tokenizers (e.g., Byte Pair Encoding, SentencePiece) is true ?",
+      "type": "multichoice",
+      "options": [
+        "They always split words into individual characters.",
+        "They help handle rare words by breaking them into smaller units.",
+        "They require the vocabulary to contain every possible word in the language.",
+        "They can reduce the overall vocabulary size compared to word-level tokenizers."
+      ],
+      "correct_answer": [
+        "They help handle rare words by breaking them into smaller units.",
+        "They can reduce the overall vocabulary size compared to word-level tokenizers."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 141,
+      "text": "A GPT-based model is fine-tuned for story generation. During evaluation, you test different decoding strategies on the same prompt: 1. Method A: Every run produces the exact same story, even when executed multiple times. 2. Method B: The story changes slightly in each run, but overall structure and key events remain similar. 3. Method C: The story is wildly different each time, sometimes even changing the genre. Based on the observations, select the most likely decoding strategies for each method:",
+      "type": "multichoice",
+      "options": [
+        "Method A: Greedy decoding",
+        "Method A: Top-K sampling with K = 50",
+        "Method B: Top-P sampling with p = 0.9",
+        "Method C: Top-P sampling with p = 0.5 and high temperature T = 1.5",
+        "Method C: Beam search with K = 5"
+      ],
+      "correct_answer": [
+        "Method A: Greedy decoding",
+        "Method B: Top-P sampling with p = 0.9",
+        "Method C: Top-P sampling with p = 0.5 and high temperature T = 1.5"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 142,
+      "text": "Which of the following are valid design choices when building a transformer-based language model?",
+      "type": "multichoice",
+      "options": [
+        "Number of transformer layers",
+        "Learning rate schedule",
+        "Font style of the source code",
+        "Vocabulary size",
+        "Type of normalization (e.g., LayerNorm)"
+      ],
+      "correct_answer": [
+        "Number of transformer layers",
+        "Learning rate schedule",
+        "Vocabulary size",
+        "Type of normalization (e.g., LayerNorm)"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 143,
+      "text": "Which of the following statements about Top-k and Nucleus (Top-p) sampling are correct?",
+      "type": "multichoice",
+      "options": [
+        "Top-k keeps only the k most probable tokens before sampling.",
+        "Top-p dynamically chooses the smallest set of tokens whose cumulative probability exceeds p.",
+        "Top-k is always a subset of Top-p.",
+        "Top-p always has a fixed number of candidate tokens."
+      ],
+      "correct_answer": [
+        "Top-k keeps only the k most probable tokens before sampling.",
+        "Top-p dynamically chooses the smallest set of tokens whose cumulative probability exceeds p."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 144,
+      "text": "Which of the following preprocessing steps are commonly required when preparing data for transformer models like BERT?",
+      "type": "multichoice",
+      "options": [
+        "Lowercasing text (for uncased models)",
+        "Splitting into subword units using BPE or WordPiece",
+        "Removing all punctuation marks",
+        "Adding position indices for each token"
+      ],
+      "correct_answer": [
+        "Lowercasing text (for uncased models)",
+        "Splitting into subword units using BPE or WordPiece",
+        "Adding position indices for each token"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 145,
+      "text": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p4_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.38 to 0.44",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_ET_FN_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 146,
+      "text": "For the input \u201cyou enjoy tea often\u201d, compute the final representation of the word \u201ctea\u201d after the attention layer (i.e., after applying W Q , W K , W V , attention weights, and W O ). Enter the sum of the elements in the resulting vector.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.98 to 1.06",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_ET_FN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p5_Im1.webp|block]",
+      "group_id": "6406531422522",
+      "section_name": "LLM"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 147,
+      "text": "Suppose the input sentence is \u201ctea you enjoy often\u201d. Using the same matrices and processing method, what is the attention score (i.e., softmax entry from A ) for the query word \u201ctea\u201d attending to key word \u201coften\u201d?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.04 to 0.10",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_ET_FN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p5_Im1.webp|block]",
+      "group_id": "6406531422522",
+      "section_name": "LLM"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 148,
+      "text": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p7_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p8_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p8_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p8_Im5.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_ET_FN_p7_Im2.webp",
+        "/data/images/da5004_2025T2_ET_FN_p7_Im1.webp",
+        "/data/images/da5004_2025T2_ET_FN_p8_Im2.webp",
+        "/data/images/da5004_2025T2_ET_FN_p8_Im3.webp",
+        "/data/images/da5004_2025T2_ET_FN_p8_Im5.webp",
+        "/data/images/da5004_2025T2_ET_FN_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p7_Im1.webp|block]",
+      "group_id": "6406531422530",
+      "section_name": "LLM"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 149,
+      "text": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p8_Im7.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "120",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_ET_FN_p8_Im7.webp",
+        "/data/images/da5004_2025T2_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p7_Im1.webp|block]",
+      "group_id": "6406531422530",
+      "section_name": "LLM"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 150,
+      "text": "What percentage of entries in the attention matrix are zero (i.e., the sparsity)?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "80",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p7_Im1.webp|block]",
+      "group_id": "6406531422530",
+      "section_name": "LLM"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 151,
+      "text": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p9_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "(0, 1, 2, 3, 4)",
+        "(-1, 0, 1, 2, 3)",
+        "(-2, -1, 0, 1, 2)",
+        "(-3, -2, -1, 0, 1)"
+      ],
+      "correct_answer": "(-2, -1, 0, 1, 2)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_ET_FN_p9_Im2.webp",
+        "/data/images/da5004_2025T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p9_Im1.webp|block]",
+      "group_id": "6406531422525",
+      "section_name": "LLM"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 152,
+      "text": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p10_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p10_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p10_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T2_ET_FN_p10_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p10_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_ET_FN_p10_Im3.webp",
+        "/data/images/da5004_2025T2_ET_FN_p9_Im1.webp",
+        "/data/images/da5004_2025T2_ET_FN_p10_Im4.webp",
+        "/data/images/da5004_2025T2_ET_FN_p10_Im5.webp",
+        "/data/images/da5004_2025T2_ET_FN_p10_Im6.webp",
+        "/data/images/da5004_2025T2_ET_FN_p10_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p9_Im1.webp|block]",
+      "group_id": "6406531422525",
+      "section_name": "LLM"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 153,
+      "text": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p10_Im8.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_ET_FN_p10_Im8.webp",
+        "/data/images/da5004_2025T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p9_Im1.webp|block]",
+      "group_id": "6406531422525",
+      "section_name": "LLM"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 154,
+      "text": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "21.3 to 22.0",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2025T2_ET_FN_p11_Im1.webp",
+        "/data/images/da5004_2025T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5004_2025T2_ET_FN_p9_Im1.webp|block]",
+      "group_id": "6406531422525",
+      "section_name": "LLM"
+    }
+  ],
+  "id": "da5004-2025t2-et-fn",
+  "course_code": "DA5004",
+  "course_name": "Large Language Models",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

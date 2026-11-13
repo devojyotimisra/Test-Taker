@@ -1,0 +1,930 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)",
+  "filename": "da5006_2024T1_ET_AN.pdf",
+  "total_questions": 45,
+  "total_marks": 45.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 159,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 160,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p2_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T1_ET_AN_p2_Im5.webp|block]",
+        "[IMAGE: /data/images/da5006_2024T1_ET_AN_p2_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5006_2024T1_ET_AN_p2_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2024T1_ET_AN_p2_Im5.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p2_Im1.webp",
+        "/data/images/da5006_2024T1_ET_AN_p2_Im5.webp",
+        "/data/images/da5006_2024T1_ET_AN_p2_Im6.webp",
+        "/data/images/da5006_2024T1_ET_AN_p2_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 161,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the role of the Gaussian blur in the Canny edge detection algorithm, and how does the choice of the standard deviation parameter affect the performance of edge detection? Which option do you think best describes the role of the Gaussian blur and its relationship with the standard deviation parameter in the Canny edge detection algorithm?",
+      "type": "MCQ",
+      "options": [
+        "The Gaussian blur helps to reduce noise in the image and smooth out pixel intensity variations. The standard deviation parameter controls the amount of blurring applied, with higher values resulting in more aggressive smoothing, which may lead to loss of edge detail.",
+        "The Gaussian blur enhances edge contrast in the image and amplifies pixel intensity gradients. The standard deviation parameter determines the width of the blur kernel, with larger values resulting in sharper edges and finer details preserved.",
+        "The Gaussian blur serves to highlight high-frequency components in the image and accentuate edge boundaries. The standard deviation parameter dictates the level of detail preserved, with smaller values preserving finer details but potentially amplifying noise.",
+        "The Gaussian blur functions to dilate edge regions in the image and expand the edge boundaries. The standard deviation parameter controls the extent of dilation, with higher values resulting in broader edge regions but also increasing the risk of false edge detections."
+      ],
+      "correct_answer": "The Gaussian blur helps to reduce noise in the image and smooth out pixel intensity variations. The standard deviation parameter controls the amount of blurring applied, with higher values resulting in more aggressive smoothing, which may lead to loss of edge detail.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 162,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which property of the SIFT descriptor is primarily responsible for its resilience to changes in scale, viewpoint, and illumination?",
+      "type": "MCQ",
+      "options": [
+        "Scale space representation",
+        "Histogram of gradients",
+        "Keypoint detection",
+        "Orientation assignment"
+      ],
+      "correct_answer": "Scale space representation",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 163,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the Maximally Stable External Regions (MSER) algorithm, how does the tree structure contribute to the efficiency of region stability analysis?",
+      "type": "MCQ",
+      "options": [
+        "By enabling quick access to all regions in constant time.",
+        "By allowing for parallel computation of stability measures across regions.",
+        "By organizing regions hierarchically based on stability, facilitating efficient stability analysis.",
+        "By providing a compact representation of pixel intensities within each region, reducing computational overhead."
+      ],
+      "correct_answer": "By organizing regions hierarchically based on stability, facilitating efficient stability analysis.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 164,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In which scenarios is the Random Sample Consensus (RANSAC) algorithm more suitable compared to least squares?",
+      "type": "MCQ",
+      "options": [
+        "When the dataset contains a high percentage of outliers or erroneous data points.",
+        "When the dataset consists of noise-free and well-behaved data with minimal outliers.",
+        "When the computational resources are limited, and quick solutions are required.",
+        "When the dataset is small, and exact solutions are necessary without considering outliers."
+      ],
+      "correct_answer": "When the dataset contains a high percentage of outliers or erroneous data points.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 165,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In what way does VLAD (Vector of Locally Aggregated Descriptors) differ from Bag of Words (BoW) in representing visual features in images?",
+      "type": "MCQ",
+      "options": [
+        "VLAD captures spatial relationships between local descriptors, while BoW does not.",
+        "BoW captures spatial relationships between local descriptors, while VLAD does not.",
+        "VLAD and BoW both capture spatial relationships between local descriptors.",
+        "Neither VLAD nor BoW capture spatial relationships between local descriptors."
+      ],
+      "correct_answer": "VLAD captures spatial relationships between local descriptors, while BoW does not.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 166,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How does pyramid matching differ from Speeded-Up Robust Features (SURF) in image matching?",
+      "type": "MCQ",
+      "options": [
+        "Pyramid matching matches images at multiple resolutions using multi- resolution representations, while SURF focuses on detecting and describing local features invariant to scale and rotation.",
+        "SURF relies on gradient-based descriptors for feature matching, whereas pyramid matching utilizes histogram-based representations.",
+        "Pyramid matching is computationally more efficient compared to SURF, which requires extensive feature extraction and matching procedures.",
+        "SURF is more suitable for matching images with complex patterns and cluttered backgrounds, while pyramid matching excels in scenarios where multi-scale matching is critical, such as image registration across different resolutions."
+      ],
+      "correct_answer": "Pyramid matching matches images at multiple resolutions using multi- resolution representations, while SURF focuses on detecting and describing local features invariant to scale and rotation.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 167,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the context of Convolutional Neural Networks (CNNs), what is the primary challenge associated with backpropagation compared to traditional feedforward neural networks?",
+      "type": "MCQ",
+      "options": [
+        "The increased number of parameters and layers in CNNs make backpropagation computationally intensive and prone to overfitting.",
+        "The presence of convolutional and pooling layers in CNNs requires the development of specialized backpropagation algorithms for efficient gradient computation.",
+        "The non-linear activation functions used in CNNs introduce discontinuities in the error surface, making it difficult to find the global minimum during backpropagation.",
+        "The spatial structure of CNNs results in weight sharing and local connectivity, requiring careful consideration of the error propagation process during backpropagation."
+      ],
+      "correct_answer": "The spatial structure of CNNs results in weight sharing and local connectivity, requiring careful consideration of the error propagation process during backpropagation.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 168,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the primary advantage of Depthwise Separable Convolutions compared to standard Convolutional Neural Network (CNN) convolutions?",
+      "type": "MCQ",
+      "options": [
+        "Depthwise Separable Convolutions reduce computational complexity and memory footprint by separating the spatial and channel-wise convolutions.",
+        "Depthwise Separable Convolutions introduce additional parameters to capture complex spatial relationships within feature maps.",
+        "Depthwise Separable Convolutions increase model capacity by performing convolutions across multiple layers of the network.",
+        "Depthwise Separable Convolutions enhance feature representation by incorporating multiscale convolutions within the same layer."
+      ],
+      "correct_answer": "Depthwise Separable Convolutions reduce computational complexity and memory footprint by separating the spatial and channel-wise convolutions.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 169,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following strategies can help mitigate the risk of overfitting when fine-tuning pretrained models on a small dataset?",
+      "type": "MCQ",
+      "options": [
+        "Increasing the depth and width of the neural network architecture to capture more complex patterns in the data.",
+        "Applying dropout regularization to randomly deactivate neurons during training to prevent co-adaptation of features.",
+        "Decreasing the learning rate during fine-tuning to ensure more stable convergence and smoother optimization.",
+        "Increasing the batch size during fine-tuning to improve the stability of gradient estimation and accelerate convergence."
+      ],
+      "correct_answer": "Applying dropout regularization to randomly deactivate neurons during training to prevent co-adaptation of features.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 170,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the primary advantage of visualizing patches of maximally activating neurons in neural network interpretation?",
+      "type": "MCQ",
+      "options": [
+        "It helps identify the specific input features that contribute most strongly to the model\u2019s predictions.",
+        "It provides insights into the architectural design choices made in the neural network.",
+        "It quantifies the uncertainty associated with the model\u2019s predictions.",
+        "It measures the computational resources required to activate the neurons."
+      ],
+      "correct_answer": "It helps identify the specific input features that contribute most strongly to the model\u2019s predictions.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 171,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which layer of the neural network does Grad-CAM typically operate on?",
+      "type": "MCQ",
+      "options": [
+        "The input layer.",
+        "The output layer.",
+        "The convolutional layers.",
+        "The fully connected layers."
+      ],
+      "correct_answer": "The convolutional layers.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 172,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which component of Grad-CAM is responsible for weighting the importance of each feature map?",
+      "type": "MCQ",
+      "options": [
+        "The class activation map (CAM).",
+        "The global average pooling layer.",
+        "The guided backpropagation algorithm.",
+        "The gradient of the target class score with respect to the feature maps."
+      ],
+      "correct_answer": "The global average pooling layer.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 173,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the primary role of the Gram matrix in neural style transfer?",
+      "type": "MCQ",
+      "options": [
+        "To compute the style loss by measuring the similarity between feature maps from the content and style images.",
+        "To generate high-resolution images by applying a series of convolutions and upsampling operations.",
+        "To regularize the optimization process by penalizing large gradients in the feature space.",
+        "To visualize the internal representations learned by the neural network during training."
+      ],
+      "correct_answer": "To compute the style loss by measuring the similarity between feature maps from the content and style images.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 174,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is a potential limitation of non-maximum suppression (NMS) algorithms in object detection?",
+      "type": "MCQ",
+      "options": [
+        "They are computationally expensive and can significantly increase inference time.",
+        "They may fail to suppress redundant bounding boxes in cluttered scenes with multiple overlapping objects.",
+        "They require extensive hyperparameter tuning to achieve optimal performance across different datasets.",
+        "They are highly sensitive to variations in lighting conditions and viewpoints in the input images."
+      ],
+      "correct_answer": "They may fail to suppress redundant bounding boxes in cluttered scenes with multiple overlapping objects.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 175,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is a key feature of focal loss that distinguishes it from traditional loss functions in object detection?",
+      "type": "MCQ",
+      "options": [
+        "Focal loss introduces additional regularization terms to penalize large weights in the neural network.",
+        "Focal loss dynamically adjusts the loss weights based on the difficulty of each training example.",
+        "Focal loss computes the loss based on the Euclidean distance between predicted and groundtruth bounding boxes.",
+        "Focal loss prioritizes minimizing the overall loss across all classes equally."
+      ],
+      "correct_answer": "Focal loss dynamically adjusts the loss weights based on the difficulty of each training example.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 176,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is a unique challenge faced by Siamese networks in comparison to traditional neural networks?",
+      "type": "MCQ",
+      "options": [
+        "Siamese networks require significantly larger datasets for training due to their complex architecture.",
+        "Siamese networks need to learn a similarity metric between pairs of input samples, which requires specialized loss functions and training procedures.",
+        "Siamese networks are computationally more intensive, making them less scalable for real-time applications.",
+        "Siamese networks tend to suffer from overfitting more frequently than traditional neural networks due to their increased model complexity."
+      ],
+      "correct_answer": "Siamese networks need to learn a similarity metric between pairs of input samples, which requires specialized loss functions and training procedures.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 177,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following assertion and reason, and state which of them is true. Assertion: ProgressiveGAN uses Minibatch Standard Deviation. Reason: This value will be different if the generated images do not have the same diversity as the actual images, and the discriminator will penalize it as a result.",
+      "type": "MCQ",
+      "options": [
+        "Both Assertion and Reason are True; Reason is a correct explanation of the Assertion",
+        "Both Assertion and Reason are True; but Reason is not a correct explanation of the Assertion",
+        "Assertion is True; Reason is False",
+        "Assertion is False by itself"
+      ],
+      "correct_answer": "Both Assertion and Reason are True; Reason is a correct explanation of the Assertion",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 178,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p12_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T1_ET_AN_p13_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T1_ET_AN_p13_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T1_ET_AN_p13_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T1_ET_AN_p13_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2024T1_ET_AN_p13_Im4.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p12_Im3.webp",
+        "/data/images/da5006_2024T1_ET_AN_p13_Im2.webp",
+        "/data/images/da5006_2024T1_ET_AN_p13_Im4.webp",
+        "/data/images/da5006_2024T1_ET_AN_p13_Im5.webp",
+        "/data/images/da5006_2024T1_ET_AN_p13_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 179,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is false?",
+      "type": "MCQ",
+      "options": [
+        "Reparametrization trick is used in training VAEs to overcome the problem of non-differentiability of the objective function across a sampling step.",
+        "In denoising autoencoder, reconstructed output is compared against noise- free ground truth data point.",
+        "While training a GAN, Generator and Discriminator weights are not updated concurrently but updated sequentially.",
+        "When a GAN is completely trained, Discriminator D outputs very high probability (approximately 1) for images from Generator G, that is, D(G(z)) \u2248 1"
+      ],
+      "correct_answer": "When a GAN is completely trained, Discriminator D outputs very high probability (approximately 1) for images from Generator G, that is, D(G(z)) \u2248 1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 180,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p14_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5006_2024T1_ET_AN_p14_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T1_ET_AN_p14_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T1_ET_AN_p14_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5006_2024T1_ET_AN_p14_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5006_2024T1_ET_AN_p14_Im6.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p14_Im1.webp",
+        "/data/images/da5006_2024T1_ET_AN_p14_Im3.webp",
+        "/data/images/da5006_2024T1_ET_AN_p14_Im4.webp",
+        "/data/images/da5006_2024T1_ET_AN_p14_Im6.webp",
+        "/data/images/da5006_2024T1_ET_AN_p14_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 181,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p14_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Continual learning",
+        "Zero-shot learning",
+        "Few-shot learning",
+        "Unsupervised learning"
+      ],
+      "correct_answer": "Few-shot learning",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p14_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 182,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p15_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[1.1, 2.06, 1.08]",
+        "[0.25, 0.34, 0.18]",
+        "[0.2, 0.3, 0.1]",
+        "[1.2, 2.3, 1.1]"
+      ],
+      "correct_answer": "[0.25, 0.34, 0.18]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p15_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 183,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the advantage of the progressive training methodology proposed in the Progressive GAN paper?",
+      "type": "MCQ",
+      "options": [
+        "It allows for generating high-resolution images with unlimited variation.",
+        "It eliminates the need for using mini-batches during training.",
+        "It enables the discovery of large-scale structures before finer-scale details.",
+        "It ensures all layers in the networks remain fixed throughout the training process."
+      ],
+      "correct_answer": "It enables the discovery of large-scale structures before finer-scale details.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 184,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Contrastive Language Image Pre-training (CLIP) Can be used as a zero-shot classifier.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 185,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p16_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Maximum likelihood estimate",
+        "Minimum likelihood estimate",
+        "Maximizing mean square error",
+        "Minimizing mean square error",
+        "Maximizing negative log likelihood",
+        "Minimizing negative log likelihood"
+      ],
+      "correct_answer": [
+        "Minimum likelihood estimate",
+        "Maximizing mean square error",
+        "Minimizing mean square error",
+        "Maximizing negative log likelihood"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p16_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 186,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p17_Im3.webp|block] NOTE: Enter your answer in two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6.56",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p17_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 187,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p18_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 188,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p18_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p18_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 189,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a Faster R-CNN object detection framework, which is being trained with a mini-batch size of 2. The RPN produces 512 proposals, out of which 10 and 12 of them are foreground proposals, corresponding to each image in the mini-batch. For a single mini-batch update, the bounding box regression loss will be computed _____________ times.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "22",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 190,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Transformer encoder requires a sequence of __________ as input. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "vectors",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 191,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Given word embeddings for two words and weight matrix to generate queries, keys and values as below (in practice, these would be more complex or learned; for simplicity, we provide them here): [IMAGE: /data/images/da5006_2024T1_ET_AN_p21_Im1.webp|block] First element of attention vector is __________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.949 to 0.989",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p21_Im1.webp",
+        "/data/images/da5006_2024T1_ET_AN_p20_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Given word embeddings for two words and weight matrix to generate queries, keys and values as below (in practice, these would be more complex or learned; for simplicity, we provide them here): [IMAGE: /data/images/da5006_2024T1_ET_AN_p20_Im1.webp|block] Calculate the query, key, and value to calculate z 1 . Consider only the first word for calculating the scores; remember that attention output is calculated by a weighted sum of all value vectors. Also, the key vector dimension d k = 3",
+      "group_id": "640653821583",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 192,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Given word embeddings for two words and weight matrix to generate queries, keys and values as below (in practice, these would be more complex or learned; for simplicity, we provide them here): [IMAGE: /data/images/da5006_2024T1_ET_AN_p22_Im1.webp|block] Second element of attention vector is _____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.98 to 1.02",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p22_Im1.webp",
+        "/data/images/da5006_2024T1_ET_AN_p20_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Given word embeddings for two words and weight matrix to generate queries, keys and values as below (in practice, these would be more complex or learned; for simplicity, we provide them here): [IMAGE: /data/images/da5006_2024T1_ET_AN_p20_Im1.webp|block] Calculate the query, key, and value to calculate z 1 . Consider only the first word for calculating the scores; remember that attention output is calculated by a weighted sum of all value vectors. Also, the key vector dimension d k = 3",
+      "group_id": "640653821583",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 193,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Given word embeddings for two words and weight matrix to generate queries, keys and values as below (in practice, these would be more complex or learned; for simplicity, we provide them here): [IMAGE: /data/images/da5006_2024T1_ET_AN_p22_Im1.webp|block] Third element of attention vector is _________________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.010 to 0.050",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p22_Im1.webp",
+        "/data/images/da5006_2024T1_ET_AN_p20_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Given word embeddings for two words and weight matrix to generate queries, keys and values as below (in practice, these would be more complex or learned; for simplicity, we provide them here): [IMAGE: /data/images/da5006_2024T1_ET_AN_p20_Im1.webp|block] Calculate the query, key, and value to calculate z 1 . Consider only the first word for calculating the scores; remember that attention output is calculated by a weighted sum of all value vectors. Also, the key vector dimension d k = 3",
+      "group_id": "640653821583",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 194,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p23_Im2.webp|block] NOTE: Enter your answer in two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3.01",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p23_Im2.webp",
+        "/data/images/da5006_2024T1_ET_AN_p23_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T1_ET_AN_p23_Im1.webp|block]",
+      "group_id": "640653821604",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 195,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p24_Im1.webp|block] NOTE: Enter your answer in two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6.99",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p24_Im1.webp",
+        "/data/images/da5006_2024T1_ET_AN_p23_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T1_ET_AN_p23_Im1.webp|block]",
+      "group_id": "640653821604",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "original_number": 196,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p24_Im2.webp|block] NOTE: Enter your answer in two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5.01",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p24_Im2.webp",
+        "/data/images/da5006_2024T1_ET_AN_p23_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T1_ET_AN_p23_Im1.webp|block]",
+      "group_id": "640653821604",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 39,
+      "number": 39,
+      "original_number": 197,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p25_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p25_Im2.webp",
+        "/data/images/da5006_2024T1_ET_AN_p25_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T1_ET_AN_p25_Im1.webp|block]",
+      "group_id": "640653821609",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 40,
+      "number": 40,
+      "original_number": 198,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p26_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p26_Im1.webp",
+        "/data/images/da5006_2024T1_ET_AN_p25_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T1_ET_AN_p25_Im1.webp|block]",
+      "group_id": "640653821609",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 41,
+      "number": 41,
+      "original_number": 199,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/da5006_2024T1_ET_AN_p26_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "-4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5006_2024T1_ET_AN_p26_Im2.webp",
+        "/data/images/da5006_2024T1_ET_AN_p25_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5006_2024T1_ET_AN_p25_Im1.webp|block]",
+      "group_id": "640653821609",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 42,
+      "number": 42,
+      "original_number": 200,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Enter the correct answer for blank(a) :",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12288",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "In vision transformers, if treat each pixel as a token for an image of size 64 \u00d7 64 \u00d7 3, the number of parameters required for the self-attention calculation are ________ blank(a) ________ . What will be the number of parameters if consider patches of size 8 \u00d7 8 \u00d7 3 ________ blank(b) ________.",
+      "group_id": "640653821624",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 43,
+      "number": 43,
+      "original_number": 201,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Enter the correct answer for blank(b) :",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "64",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "In vision transformers, if treat each pixel as a token for an image of size 64 \u00d7 64 \u00d7 3, the number of parameters required for the self-attention calculation are ________ blank(a) ________ . What will be the number of parameters if consider patches of size 8 \u00d7 8 \u00d7 3 ________ blank(b) ________.",
+      "group_id": "640653821624",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 44,
+      "number": 44,
+      "original_number": 202,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Enter the correct answer for blank(a) : Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "resolution",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "In a ViT, all blocks have same ________ blank(a) ________ and number of ________ blank(b) ________",
+      "group_id": "640653821627",
+      "section_name": "DL(CV)"
+    },
+    {
+      "id": 45,
+      "number": 45,
+      "original_number": 203,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Enter the correct answer for blank(b) : Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "channels",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "In a ViT, all blocks have same ________ blank(a) ________ and number of ________ blank(b) ________",
+      "group_id": "640653821627",
+      "section_name": "DL(CV)"
+    }
+  ],
+  "id": "da5006-2024t1-et-an",
+  "course_code": "DA5006",
+  "course_name": "Deep Learning for Computer Vision",
+  "level": "Degree",
+  "term": "Jan 2024",
+  "year": 2024,
+  "exam_type": "End Term",
+  "session": "Afternoon"
+}

@@ -1,0 +1,386 @@
+{
+  "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
+  "filename": "cs2007_2025T3_Q2_NA.pdf",
+  "total_questions": 15,
+  "total_marks": 40.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 115,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 116,
+      "text": "Which of the following equations correctly represents the maximum likelihood problem for estimating [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im3.webp|inline] ?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im8.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im9.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im7.webp|block]",
+        ""
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p1_Im3.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p1_Im2.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p1_Im6.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p1_Im7.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p1_Im8.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p1_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im2.webp|block]",
+      "group_id": "6406531828221",
+      "section_name": "MLT"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 117,
+      "text": "Derive the maximum likelihood estimate of the parameter [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im1.webp|inline] in terms of the training examples [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im2.webp|inline] .",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im8.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im6.webp|block]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p2_Im1.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p2_Im2.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p1_Im2.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p2_Im6.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p2_Im7.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p2_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im2.webp|block]",
+      "group_id": "6406531828221",
+      "section_name": "MLT"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 118,
+      "text": "Find the maximum likelihood estimate [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im2.webp|inline] and [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im3.webp|inline] of [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im4.webp|inline] , [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im5.webp|inline] , and [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im6.webp|inline] , respectively.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im8.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im10.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im11.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im12.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im10.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p3_Im2.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p3_Im3.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p3_Im4.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p3_Im5.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p3_Im6.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p3_Im1.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p3_Im8.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p3_Im10.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p3_Im11.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p3_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im1.webp|block]",
+      "group_id": "6406531828224",
+      "section_name": "MLT"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 119,
+      "text": "What class would [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im13.webp|inline] belong to? Assume that no Laplacian smoothing has been done.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p3_Im13.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p3_Im1.webp|block]",
+      "group_id": "6406531828224",
+      "section_name": "MLT"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 120,
+      "text": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p4_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.09 to 0.13",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 121,
+      "text": "Consider the following trained decision tree learned for the dataset in Figure 1. [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p5_Im1.webp|block] Find the training error of the decision tree for the given dataset. Enter the answer correct to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.4",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 122,
+      "text": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p6_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.77 to 0.83",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 123,
+      "text": "Consider a dataset of 1000 points for a classification problem using k -NN algorithm. Select the correct statements from the following:",
+      "type": "multichoice",
+      "options": [
+        "If k = 5, it is enough if we store any 5 points in the training dataset.",
+        "If k = 5, we need to store the entire dataset.",
+        "The number of data-points that we have to store increases as k increases.",
+        "The number of data-points that we have to store is independent of the value of k."
+      ],
+      "correct_answer": [
+        "If k = 5, we need to store the entire dataset.",
+        "The number of data-points that we have to store is independent of the value of k."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 124,
+      "text": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p7_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p7_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p7_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p7_Im7.webp|inline]"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p7_Im1.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p7_Im3.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p7_Im4.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p7_Im6.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p7_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 125,
+      "text": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p7_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "n",
+        "2",
+        "6",
+        "4"
+      ],
+      "correct_answer": "2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p7_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 126,
+      "text": "Suppose we observe data sampled from the model [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p8_Im1.webp|inline] . Since [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p8_Im2.webp|inline] is unknown, we would like to estimate it using linear regression. Adding priors to the parameter [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p8_Im3.webp|inline] , i.e. [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p8_Im4.webp|inline] is equivalent to adding a [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p8_Im5.webp|inline] penalty on the parameters in the objective function defined by the log-likelihood.",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_answer": "True",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p8_Im1.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p8_Im2.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p8_Im3.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p8_Im4.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p8_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 127,
+      "text": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p8_Im8.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p8_Im9.webp|inline] will generalize better than [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p8_Im10.webp|inline] on the test dataset.",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p8_Im11.webp|inline] will generalize better than [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p8_Im12.webp|inline] on the test dataset.",
+        "Both the models will show similar performance on the test dataset."
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p8_Im9.webp|inline] will generalize better than [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p8_Im10.webp|inline] on the test dataset.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p8_Im8.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p8_Im9.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p8_Im10.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p8_Im11.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p8_Im12.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 128,
+      "text": "Consider four regression models (A, B, C, and D) fitted on the same dataset using Ridge or Lasso regression with different regularization parameters. Match each model with its corresponding regularization description given below. Models: A. Ridge regression with [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im1.webp|inline] B. Ridge regression with [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im2.webp|inline] C. Lasso regression with [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im3.webp|inline] D. Ridge regression with [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im4.webp|inline] Regularization Effects: 1. No regularization \u2014 same as Ordinary Least Squares (OLS) 2. Strong shrinkage \u2014 coefficients are small but non-zero 3. Moderate shrinkage \u2014 coefficients are reduced but not zero 4. Some coefficients are exactly zero due to sparsity. Which of the following correctly matches the models with their effects?",
+      "type": "MCQ",
+      "options": [
+        "A\u20131, B\u20133, C\u20134, D\u20132",
+        "A\u20131, B\u20132, C\u20134, D\u20133",
+        "A\u20131, B\u20133, C\u20132, D\u20134",
+        "A\u20132, B\u20131, C\u20133, D\u20134"
+      ],
+      "correct_answer": "A\u20131, B\u20133, C\u20134, D\u20132",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p9_Im1.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p9_Im2.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p9_Im3.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 129,
+      "text": "Consider a linear regression problem for the dataset [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im7.webp|inline] , where [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im8.webp|inline] and [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im9.webp|inline] for all [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im10.webp|inline] . Let [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im11.webp|inline] be the least square solution for this problem. Then, which of the following will hold?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im12.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im13.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im14.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p10_Im1.webp|block]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p9_Im12.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2025T3_Q2_NA_p9_Im7.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p9_Im8.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p9_Im9.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p9_Im10.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p9_Im11.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p9_Im12.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p9_Im13.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p9_Im14.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "MLT"
+    }
+  ],
+  "id": "cs2007-2025t3-q2-na",
+  "course_code": "CS2007",
+  "course_name": "Machine Learning Techniques",
+  "level": "Diploma in Data Science",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

@@ -1,0 +1,577 @@
+{
+  "title": "DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)",
+  "filename": "cs3003_2026T2_Q1_NA.pdf",
+  "total_questions": 27,
+  "total_marks": 25.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "[IMAGE: /data/images/cs3003_2026T2_Q1_NA_p1_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "Printed graph sheets were provided on time.",
+        "Printed graph sheets were provided late.",
+        "Printed graph sheets were not provided.",
+        "I used the graph sheets.",
+        "I did not use graph sheets."
+      ],
+      "correct_answer": [
+        "Printed graph sheets were provided on time.",
+        "I used the graph sheets."
+      ],
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "Inscript Design a state representation for the gameboard, enter its description in the textbox as succinct as possible. Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "Gameboard position Board position",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p2_Im1.webp",
+        "/data/images/cs3003_2026T2_Q1_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "STATE SPACE SEARCH A gameboard is made of hexagonal tiles, allowing 6 directions of movement from each tile: north, south, north-east, north-west, south-east, and south-west. A knight can move in two equivalent ways: take two steps in a chosen direction, turn 60 degrees left or right, and take one final step; or equivalently take one step in a chosen direction, turn 60 degrees left or right, and take two final steps. This rule generates 12 move choices as illustrated below. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p2_Im1.webp|block] A move is valid if its starting and landing tiles exist, even if the intervening tiles are missing. Problem Statement: Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p2_Im2.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3).",
+      "group_id": "6406532166099",
+      "section_name": "AI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Inscript The number of unique states in the gameboard state space is __________ . Enter an integer. NO SPACES, TABS, DOTS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: 42",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "12",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p2_Im1.webp",
+        "/data/images/cs3003_2026T2_Q1_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "STATE SPACE SEARCH A gameboard is made of hexagonal tiles, allowing 6 directions of movement from each tile: north, south, north-east, north-west, south-east, and south-west. A knight can move in two equivalent ways: take two steps in a chosen direction, turn 60 degrees left or right, and take one final step; or equivalently take one step in a chosen direction, turn 60 degrees left or right, and take two final steps. This rule generates 12 move choices as illustrated below. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p2_Im1.webp|block] A move is valid if its starting and landing tiles exist, even if the intervening tiles are missing. Problem Statement: Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p2_Im2.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3).",
+      "group_id": "6406532166099",
+      "section_name": "AI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "Inscript MoveGen(G) is __________ . Enter a comma separated list of positions. NO SPACES, TABS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: A,B,C,D Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "C,H",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p2_Im1.webp",
+        "/data/images/cs3003_2026T2_Q1_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "STATE SPACE SEARCH A gameboard is made of hexagonal tiles, allowing 6 directions of movement from each tile: north, south, north-east, north-west, south-east, and south-west. A knight can move in two equivalent ways: take two steps in a chosen direction, turn 60 degrees left or right, and take one final step; or equivalently take one step in a chosen direction, turn 60 degrees left or right, and take two final steps. This rule generates 12 move choices as illustrated below. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p2_Im1.webp|block] A move is valid if its starting and landing tiles exist, even if the intervening tiles are missing. Problem Statement: Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p2_Im2.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3).",
+      "group_id": "6406532166099",
+      "section_name": "AI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "Inscript d(C,G) is __________ . Enter a decimal number rounded to one decimal place. NO SPACES, TABS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: 42.1",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4.6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p2_Im1.webp",
+        "/data/images/cs3003_2026T2_Q1_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "STATE SPACE SEARCH A gameboard is made of hexagonal tiles, allowing 6 directions of movement from each tile: north, south, north-east, north-west, south-east, and south-west. A knight can move in two equivalent ways: take two steps in a chosen direction, turn 60 degrees left or right, and take one final step; or equivalently take one step in a chosen direction, turn 60 degrees left or right, and take two final steps. This rule generates 12 move choices as illustrated below. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p2_Im1.webp|block] A move is valid if its starting and landing tiles exist, even if the intervening tiles are missing. Problem Statement: Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p2_Im2.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3).",
+      "group_id": "6406532166099",
+      "section_name": "AI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "What is true about the gameboard state space? (Note: a path is a sequence of one or more moves.)",
+      "type": "multichoice",
+      "options": [
+        "At least one state has no path from another state.",
+        "Every state has a path to every other state.",
+        "Every state has at most two neighbours.",
+        "Every state has at least 12 neighbours."
+      ],
+      "correct_answer": [
+        "At least one state has no path from another state.",
+        "Every state has at most two neighbours."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p2_Im1.webp",
+        "/data/images/cs3003_2026T2_Q1_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "STATE SPACE SEARCH A gameboard is made of hexagonal tiles, allowing 6 directions of movement from each tile: north, south, north-east, north-west, south-east, and south-west. A knight can move in two equivalent ways: take two steps in a chosen direction, turn 60 degrees left or right, and take one final step; or equivalently take one step in a chosen direction, turn 60 degrees left or right, and take two final steps. This rule generates 12 move choices as illustrated below. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p2_Im1.webp|block] A move is valid if its starting and landing tiles exist, even if the intervening tiles are missing. Problem Statement: Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p2_Im2.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3).",
+      "group_id": "6406532166099",
+      "section_name": "AI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Can a knight complete a TSP tour on the gameboard, visiting all the positions?",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No",
+        "Cannot be determined"
+      ],
+      "correct_answer": "No",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p2_Im1.webp",
+        "/data/images/cs3003_2026T2_Q1_NA_p2_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "STATE SPACE SEARCH A gameboard is made of hexagonal tiles, allowing 6 directions of movement from each tile: north, south, north-east, north-west, south-east, and south-west. A knight can move in two equivalent ways: take two steps in a chosen direction, turn 60 degrees left or right, and take one final step; or equivalently take one step in a chosen direction, turn 60 degrees left or right, and take two final steps. This rule generates 12 move choices as illustrated below. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p2_Im1.webp|block] A move is valid if its starting and landing tiles exist, even if the intervening tiles are missing. Problem Statement: Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p2_Im2.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3).",
+      "group_id": "6406532166099",
+      "section_name": "AI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Inscript List the first 4 positions inspected by Depth-First Search. List the positions in the order they are inspected. If the algorithm terminates early then list the positions inspected up until termination. Enter a comma separated list of positions. NO SPACES, TABS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "F,E,A,L",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid knight move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. Valid knight move choices are as described in the STATE SPACE SEARCH section. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3). There is a knight in position F and no other pieces on the board. Take F as the start position and C as the goal position. Use the Euclidean Distance as the heuristic function. Use alphabetical order to break ties. Note: When we say a node (a state) is inspected/expanded/refined it means: the node (the state) is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Note: RemoveSeen procedure will drop neighbours already present in OPEN or CLOSED list.",
+      "group_id": "6406532166106",
+      "section_name": "AI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Inscript What is the path found by Depth-First Search? Enter the path as a comma separated list of positions. Enter NIL if a path to the goal is not found. NO SPACES, TABS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "F,E,A,L,H,G,C",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid knight move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. Valid knight move choices are as described in the STATE SPACE SEARCH section. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3). There is a knight in position F and no other pieces on the board. Take F as the start position and C as the goal position. Use the Euclidean Distance as the heuristic function. Use alphabetical order to break ties. Note: When we say a node (a state) is inspected/expanded/refined it means: the node (the state) is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Note: RemoveSeen procedure will drop neighbours already present in OPEN or CLOSED list.",
+      "group_id": "6406532166106",
+      "section_name": "AI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Inscript List the first 4 positions inspected by Breadth-First Search. List the positions in the order they are inspected. If the algorithm terminates early then list the positions inspected up until termination. Enter a comma separated list of positions. NO SPACES, TABS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "F,E,J,A",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid knight move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. Valid knight move choices are as described in the STATE SPACE SEARCH section. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3). There is a knight in position F and no other pieces on the board. Take F as the start position and C as the goal position. Use the Euclidean Distance as the heuristic function. Use alphabetical order to break ties. Note: When we say a node (a state) is inspected/expanded/refined it means: the node (the state) is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Note: RemoveSeen procedure will drop neighbours already present in OPEN or CLOSED list.",
+      "group_id": "6406532166106",
+      "section_name": "AI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript What is the path found by Breadth-First Search? Enter the path as a comma separated list of positions. Enter NIL if a path to the goal is not found. NO SPACES, TABS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "F,J,K,B,C",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid knight move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. Valid knight move choices are as described in the STATE SPACE SEARCH section. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3). There is a knight in position F and no other pieces on the board. Take F as the start position and C as the goal position. Use the Euclidean Distance as the heuristic function. Use alphabetical order to break ties. Note: When we say a node (a state) is inspected/expanded/refined it means: the node (the state) is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Note: RemoveSeen procedure will drop neighbours already present in OPEN or CLOSED list.",
+      "group_id": "6406532166106",
+      "section_name": "AI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Inscript List the first 4 positions inspected by Best-First Search. List the positions in the order they are inspected. If the algorithm terminates early then list the positions inspected up until termination. Enter a comma separated list of positions. NO SPACES, TABS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "F,E,A,L",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid knight move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. Valid knight move choices are as described in the STATE SPACE SEARCH section. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3). There is a knight in position F and no other pieces on the board. Take F as the start position and C as the goal position. Use the Euclidean Distance as the heuristic function. Use alphabetical order to break ties. Note: When we say a node (a state) is inspected/expanded/refined it means: the node (the state) is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Note: RemoveSeen procedure will drop neighbours already present in OPEN or CLOSED list.",
+      "group_id": "6406532166106",
+      "section_name": "AI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript What is the path found by Best-First Search? Enter the path as a comma separated list of positions. Enter NIL if a path to the goal is not found. NO SPACES, TABS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "F,E,A,L,H,G,C",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid knight move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. Valid knight move choices are as described in the STATE SPACE SEARCH section. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3). There is a knight in position F and no other pieces on the board. Take F as the start position and C as the goal position. Use the Euclidean Distance as the heuristic function. Use alphabetical order to break ties. Note: When we say a node (a state) is inspected/expanded/refined it means: the node (the state) is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Note: RemoveSeen procedure will drop neighbours already present in OPEN or CLOSED list.",
+      "group_id": "6406532166106",
+      "section_name": "AI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Inscript What is the path found by Hill Climbing? Enter the path as a comma separated list of positions. Enter NIL if a path to the goal is not found. NO SPACES, TABS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer Format: X,Y,Z Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "NIL",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid knight move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. Valid knight move choices are as described in the STATE SPACE SEARCH section. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3). There is a knight in position F and no other pieces on the board. Take F as the start position and C as the goal position. Use the Euclidean Distance as the heuristic function. Use alphabetical order to break ties. Note: When we say a node (a state) is inspected/expanded/refined it means: the node (the state) is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Note: RemoveSeen procedure will drop neighbours already present in OPEN or CLOSED list.",
+      "group_id": "6406532166106",
+      "section_name": "AI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "The heuristic function for the gameboard __________ .",
+      "type": "multichoice",
+      "options": [
+        "defines a maximization problem",
+        "defines a minimization problem",
+        "is monotonic",
+        "is non-monotonic"
+      ],
+      "correct_answer": [
+        "defines a minimization problem",
+        "is non-monotonic"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "SEARCH Figure shows a gameboard with 12 positions (tiles A to L). MoveGen takes a position and returns a list of valid knight move choices in alphabetical order, e.g., MoveGen(A) = [E,L]. Valid knight move choices are as described in the STATE SPACE SEARCH section. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p5_Im3.webp|block] Each position is a regular hexagon with unit sides, where opposite vertices are 2 units apart and opposite sides are sqrt(3) units apart. Take the distance between two positions as the Euclidean Distance between the center points of corresponding hexagons. For example, d(A,A) = 0, d(A,B) = 3, d(A,F) = sqrt(3). There is a knight in position F and no other pieces on the board. Take F as the start position and C as the goal position. Use the Euclidean Distance as the heuristic function. Use alphabetical order to break ties. Note: When we say a node (a state) is inspected/expanded/refined it means: the node (the state) is picked up from OPEN, and goal test is called, if goal test fails then MoveGen is called and, depending on the algorithm, the neighbours are selectively placed in OPEN. Note: RemoveSeen procedure will drop neighbours already present in OPEN or CLOSED list.",
+      "group_id": "6406532166106",
+      "section_name": "AI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Select the formulas that are in Conjunctive Normal Form.",
+      "type": "multichoice",
+      "options": [
+        "(A \u2227 B) \u2228 (\u00acB \u2227 C) \u2228 (\u00acD)",
+        "(A \u2228 B) \u2227 (\u00acB \u2228 C) \u2227 (\u00acD)",
+        "A \u2227 B \u2227 \u00acC \u2227 D",
+        "A \u2228 B \u2228 \u00acC \u2228 D",
+        "A \u2228 (B \u2227 (\u00acC \u2228 \u00acD))"
+      ],
+      "correct_answer": [
+        "(A \u2228 B) \u2227 (\u00acB \u2228 C) \u2227 (\u00acD)",
+        "A \u2227 B \u2227 \u00acC \u2227 D",
+        "A \u2228 B \u2228 \u00acC \u2228 D"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "ALGORITHMS Answer the given subquestions.",
+      "group_id": "6406532166115",
+      "section_name": "AI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Perturbation method(s) used for TSP tour creation is/are __________ .",
+      "type": "multichoice",
+      "options": [
+        "2-city exchange operator",
+        "3-edge exchange operator",
+        "single-point crossover operator",
+        "Nearest Neighbour Heuristic"
+      ],
+      "correct_answer": [
+        "2-city exchange operator",
+        "3-edge exchange operator"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "ALGORITHMS Answer the given subquestions.",
+      "group_id": "6406532166115",
+      "section_name": "AI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "If a genetic algorithm prematurely converges to a homogeneous suboptimal population, then which modification will prevent such convergence?",
+      "type": "MCQ",
+      "options": [
+        "Increasing the selection pressure.",
+        "Decreasing the mutation rate.",
+        "Increasing the mutation rate.",
+        "Truncating low rank parents before crossover."
+      ],
+      "correct_answer": "Increasing the mutation rate.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "ALGORITHMS Answer the given subquestions.",
+      "group_id": "6406532166115",
+      "section_name": "AI"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "If you initially implement Breadth-First Search using First-In-First-Out Queue and later replace the queue with Max-Priority Queue based on node depth (larger depth equals higher priority), then the memory footprint of the queue would __________ .",
+      "type": "MCQ",
+      "options": [
+        "drop to O(1)",
+        "practically remain the same",
+        "significantly decrease",
+        "significantly increase"
+      ],
+      "correct_answer": "significantly decrease",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "ALGORITHMS Answer the given subquestions.",
+      "group_id": "6406532166115",
+      "section_name": "AI"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "In the Simulated Annealing schedule, if the temperature parameter T drops to absolute zero very early in the search process, the algorithm will move from the current node N to a random neighbour X __________ .",
+      "type": "MCQ",
+      "options": [
+        "only if N is better than X",
+        "only if X is better than N",
+        "unconditionally (resulting in a random walk)"
+      ],
+      "correct_answer": "only if X is better than N",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "ALGORITHMS Answer the given subquestions.",
+      "group_id": "6406532166115",
+      "section_name": "AI"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "The given TSP is a __________ . (CAUTION: May require bull work.)",
+      "type": "MCQ",
+      "options": [
+        "Euclidean TSP",
+        "non Euclidean TSP"
+      ],
+      "correct_answer": "Euclidean TSP",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p11_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP Figure shows a distance matrix for 5 cities, use it to construct TSP tours. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p11_Im3.webp|block]",
+      "group_id": "6406532166121",
+      "section_name": "AI"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "Inscript Construct a tour using Nearest Neighbour Heuristic, start from city A. Enter the path representation of the tour in the order it is constructed. Enter a comma separated list of city names. NO SPACES, TABS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer format: A,X,Y Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,D,E,C,B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p11_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP Figure shows a distance matrix for 5 cities, use it to construct TSP tours. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p11_Im3.webp|block]",
+      "group_id": "6406532166121",
+      "section_name": "AI"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Inscript Use city A as the base (fulcrum) city to complete the savings list then construct the Savings tour. Enter the path representation of the tour starting from city A. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p12_Im1.webp|block] Enter a comma separated list of city names. NO SPACES, TABS, BRACKETS, PARENTHESIS OR UNWANTED CHARACTERS. Answer format: A,X,Y Answers Case Sensitive : No",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "A,B,D,E,C A,C,E,D,B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs3003_2026T2_Q1_NA_p12_Im1.webp",
+        "/data/images/cs3003_2026T2_Q1_NA_p11_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "TSP Figure shows a distance matrix for 5 cities, use it to construct TSP tours. [IMAGE: /data/images/cs3003_2026T2_Q1_NA_p11_Im3.webp|block]",
+      "group_id": "6406532166121",
+      "section_name": "AI"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "A major drawback of Nearest Neighbour Heuristic for TSP is __________ .",
+      "type": "multichoice",
+      "options": [
+        "it takes exponential computation time",
+        "it cannot handle sparse graphs",
+        "it often leaves a very long edge for the final return leg",
+        "it often returns premature subtours"
+      ],
+      "correct_answer": [
+        "it often leaves a very long edge for the final return leg"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "TSP ALGORITHMS Answer the given subquestions.",
+      "group_id": "6406532166125",
+      "section_name": "AI"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "What is the core principle used in the Savings Heuristic for TSP?",
+      "type": "multichoice",
+      "options": [
+        "Add the cheapest available edge to the tour.",
+        "Maximize the distance saved in merging two subtours.",
+        "Minimize the number of cities in each subtour.",
+        "Sort the cities by their distance from the base/fulcrum city."
+      ],
+      "correct_answer": [
+        "Maximize the distance saved in merging two subtours."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "TSP ALGORITHMS Answer the given subquestions.",
+      "group_id": "6406532166125",
+      "section_name": "AI"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "The savings S(a,b) for two cities a and b relative to base/fulcrum city n is __________ , where C(x,y) is the distance between cities x and y.",
+      "type": "MCQ",
+      "options": [
+        "C(a,b) - (C(n,a) + C(n,b))",
+        "(C(n,a) + C(n,b)) - 2*C(a,b)",
+        "(C(n,a) * C(n,b)) / C(a,b)",
+        "(C(n,a) + C(n,b)) - C(a,b)"
+      ],
+      "correct_answer": "(C(n,a) + C(n,b)) - C(a,b)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "TSP ALGORITHMS Answer the given subquestions.",
+      "group_id": "6406532166125",
+      "section_name": "AI"
+    }
+  ],
+  "id": "cs3003-2026t2-q1-na",
+  "course_code": "CS3003",
+  "course_name": "AI: Search Methods for Problem Solving",
+  "level": "Degree",
+  "term": "May 2026",
+  "year": 2026,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

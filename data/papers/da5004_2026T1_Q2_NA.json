@@ -1,0 +1,541 @@
+{
+  "title": "DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)",
+  "filename": "da5004_2026T1_Q2_NA.pdf",
+  "total_questions": 22,
+  "total_marks": 43.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "In the context of Multi-Head Attention, if the model dimension [IMAGE: /data/images/da5004_2026T1_Q2_NA_p1_Im3.webp|inline] and we employ [IMAGE: /data/images/da5004_2026T1_Q2_NA_p1_Im4.webp|inline] heads, what is the dimension of the concatenated output of the 8 heads before it is passed through the final linear output projection [IMAGE: /data/images/da5004_2026T1_Q2_NA_p1_Im5.webp|inline] ?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2026T1_Q2_NA_p1_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_Q2_NA_p1_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_Q2_NA_p1_Im8.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_Q2_NA_p1_Im9.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2026T1_Q2_NA_p1_Im8.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_Q2_NA_p1_Im3.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p1_Im4.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p1_Im5.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p1_Im6.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p1_Im7.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p1_Im8.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p1_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "In the Masked Language Modeling (MLM) objective of BERT, 15% of tokens are chosen for prediction. Of these chosen tokens, 80% are replaced with [IMAGE: /data/images/da5004_2026T1_Q2_NA_p1_Im10.webp|inline] , 10% are replaced with a random word, and 10% are left unchanged. What is the primary theoretical motivation for keeping 10% of the tokens unchanged ?",
+      "type": "MCQ",
+      "options": [
+        "To reduce the computational cost of the softmax layer during training.",
+        "To prevent the network from overfitting to the [IMAGE: /data/images/da5004_2026T1_Q2_NA_p2_Im2.webp|inline] token.",
+        "To mitigate the mismatch between pre-training (where [IMAGE: /data/images/da5004_2026T1_Q2_NA_p2_Im4.webp|inline] appears) and fine-tuning (where [IMAGE: /data/images/da5004_2026T1_Q2_NA_p2_Im5.webp|inline] does not appear), ensuring the model creates meaningful representations for non-masked words.",
+        "To act as a regularizer similar to Dropout."
+      ],
+      "correct_answer": "To mitigate the mismatch between pre-training (where [IMAGE: /data/images/da5004_2026T1_Q2_NA_p2_Im4.webp|inline] appears) and fine-tuning (where [IMAGE: /data/images/da5004_2026T1_Q2_NA_p2_Im5.webp|inline] does not appear), ensuring the model creates meaningful representations for non-masked words.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_Q2_NA_p1_Im10.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p2_Im2.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p2_Im4.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p2_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Why is the standard GPT architecture (Decoder-only with causal masking) generally unsuitable for the Masked Language Modeling (MLM) objective as implemented in BERT?",
+      "type": "MCQ",
+      "options": [
+        "GPT models are too small to learn bidirectional contexts.",
+        "The causal mask in GPT prevents the model from attending to future tokens, making it impossible to use right-side context to predict a masked token.",
+        "GPT does not have positional embeddings, which are required for MLM.",
+        "GPT uses ReLU activation, while BERT uses GELU, which is required for MLM."
+      ],
+      "correct_answer": "The causal mask in GPT prevents the model from attending to future tokens, making it impossible to use right-side context to predict a masked token.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "In the T5 (Text-to-Text Transfer Transformer) framework, every NLP task is cast as a text generation problem. If you use T5 for a Semantic Textual Similarity (STS-B) task, where the goal is to predict a similarity score (e.g., 3.8) between two sentences, how does the model output this score?",
+      "type": "MCQ",
+      "options": [
+        "It outputs a single scalar value from a regression head on top of the encoder.",
+        "It generates the string \"3.8\" token-by-token using the decoder.",
+        "It outputs a class label corresponding to a bucketed score range (e.g., \"High Similarity\").",
+        "T5 cannot be used for regression tasks like STS-B."
+      ],
+      "correct_answer": "It generates the string \"3.8\" token-by-token using the decoder.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "When using Temperature Sampling to mix datasets from different tasks during multi-task pre- training, let [IMAGE: /data/images/da5004_2026T1_Q2_NA_p2_Im6.webp|inline] be the probability of sampling a task [IMAGE: /data/images/da5004_2026T1_Q2_NA_p2_Im7.webp|inline] . The formula involves raising the proportion to the power of [IMAGE: /data/images/da5004_2026T1_Q2_NA_p3_Im1.webp|inline] . If we set the temperature [IMAGE: /data/images/da5004_2026T1_Q2_NA_p3_Im2.webp|inline] (a very large value), what happens to the sampling distribution across tasks?",
+      "type": "MCQ",
+      "options": [
+        "The model trains almost exclusively on the largest dataset (highest resource task).",
+        "The sampling distribution approaches a uniform distribution, where all tasks (large and small) are sampled with nearly equal probability.",
+        "The model trains almost exclusively on the smallest dataset (lowest resource task).",
+        "The sampling distribution remains proportional to the original dataset sizes."
+      ],
+      "correct_answer": "The sampling distribution approaches a uniform distribution, where all tasks (large and small) are sampled with nearly equal probability.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_Q2_NA_p2_Im6.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p2_Im7.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p3_Im1.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p3_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "When constructing training datasets for large language models (LLMs), which of the following best describes the key factors that must be balanced to achieve strong and reliable performance?",
+      "type": "MCQ",
+      "options": [
+        "Model depth, number of parameters, and learning rate",
+        "Scale, diversity, and quality of the training data",
+        "Vocabulary size, tokenization method, and batch size",
+        "Compute budget, optimizer choice, and hardware efficiency"
+      ],
+      "correct_answer": "Scale, diversity, and quality of the training data",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "Which of the following are components found within a standard Transformer Encoder layer?",
+      "type": "multichoice",
+      "options": [
+        "Multi-Head Self-Attention mechanism",
+        "Position-wise Feed-Forward Networks",
+        "Cross-Attention mechanism (Encoder-Decoder attention)",
+        "Masked Multi-Head Self-Attention"
+      ],
+      "correct_answer": [
+        "Multi-Head Self-Attention mechanism",
+        "Position-wise Feed-Forward Networks"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "Select all correct statements regarding the comparison between RNNs and Transformers.",
+      "type": "multichoice",
+      "options": [
+        "In Transformers, the path length between any two positions in the sequence is constant [IMAGE: /data/images/da5004_2026T1_Q2_NA_p4_Im2.webp|inline] , whereas in RNNs it is [IMAGE: /data/images/da5004_2026T1_Q2_NA_p4_Im3.webp|inline] (where [IMAGE: /data/images/da5004_2026T1_Q2_NA_p4_Im4.webp|inline] is the sequence length).",
+        "Transformers process tokens strictly sequentially during training in the same way as RNNs.",
+        "Transformers allow for significantly more parallelization during training compared to RNNs.",
+        "Attention mechanisms in Transformers utilize Query, Key, and Value vectors derived from input embeddings."
+      ],
+      "correct_answer": [
+        "In Transformers, the path length between any two positions in the sequence is constant [IMAGE: /data/images/da5004_2026T1_Q2_NA_p4_Im2.webp|inline] , whereas in RNNs it is [IMAGE: /data/images/da5004_2026T1_Q2_NA_p4_Im3.webp|inline] (where [IMAGE: /data/images/da5004_2026T1_Q2_NA_p4_Im4.webp|inline] is the sequence length).",
+        "Transformers allow for significantly more parallelization during training compared to RNNs.",
+        "Attention mechanisms in Transformers utilize Query, Key, and Value vectors derived from input embeddings."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_Q2_NA_p4_Im2.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p4_Im3.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p4_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "Select all correct findings from the T5 paper regarding Unsupervised Pre-training Objectives .",
+      "type": "multichoice",
+      "options": [
+        "The specific corruption rate (e.g., 10%, 15%, 25%) had a minimal effect on downstream performance.",
+        "Using a span length of around 3 tokens performed slightly better than masking single tokens.",
+        "The \"Deshuffling\" objective (reordering shuffled sentences) significantly outperformed the Span Corruption objective.",
+        "Replacing a corrupted span with a unique sentinel token worked better than simply dropping the tokens from the input."
+      ],
+      "correct_answer": [
+        "The specific corruption rate (e.g., 10%, 15%, 25%) had a minimal effect on downstream performance.",
+        "Using a span length of around 3 tokens performed slightly better than masking single tokens.",
+        "Replacing a corrupted span with a unique sentinel token worked better than simply dropping the tokens from the input."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "Consider the concept of Zero-Shot Transfer as popularized by GPT-2. Why might this be preferred over Supervised Fine-Tuning?",
+      "type": "multichoice",
+      "options": [
+        "It allows the model to handle tasks for which no labeled training data is available.",
+        "It always achieves higher accuracy than a fine-tuned SOTA model.",
+        "It avoids the need to store a separate specialized model (checkpoint) for every downstream task.",
+        "It mimics the human ability to perform tasks based on instructions without needing thousands of examples."
+      ],
+      "correct_answer": [
+        "It allows the model to handle tasks for which no labeled training data is available.",
+        "It avoids the need to store a separate specialized model (checkpoint) for every downstream task.",
+        "It mimics the human ability to perform tasks based on instructions without needing thousands of examples."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "Inscript Let [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im1.webp|inline] denote the activation of the [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im2.webp|inline] neuron for the [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im3.webp|inline] training sample. In Layer Normalization , normalization is performed across features for each individual sample . Let [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im4.webp|inline] be the number of neurons (features) in the hidden layer. For a given sample, the layer normalization statistics are computed as: [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im5.webp|block] [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im6.webp|block] [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im7.webp|block] where [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im8.webp|inline] is a small constant for numerical stability. [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im9.webp|block] Layer Normalization is applied independently to each sample in the given data above. For Sample 2 , after applying Layer Normalization. What is the maximum value in the normalized output vector [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im10.webp|inline] ? (ignore the learnable parameters [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im11.webp|inline] and [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im12.webp|inline] , and assume [IMAGE: /data/images/da5004_2026T1_Q2_NA_p5_Im13.webp|inline] ):",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.30 to 1.37",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im1.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im2.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im3.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im4.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im5.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im6.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im7.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im8.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im9.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im10.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im11.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im12.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p5_Im13.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "Is the given attention matrix valid for a causal language modelling task?",
+      "type": "MCQ",
+      "options": [
+        "True",
+        "False",
+        "Insufficient information"
+      ],
+      "correct_answer": "False",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_Q2_NA_p6_Im1.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a GPT model used for Causal Language Modelling . We feed the input sentence: [IMAGE: /data/images/da5004_2026T1_Q2_NA_p6_Im1.webp|block] Assume the context length is 7 (time steps t = 0 to t = 6). The attention matrix computed in one attention layer is given below: [IMAGE: /data/images/da5004_2026T1_Q2_NA_p6_Im2.webp|block]",
+      "group_id": "6406532040069",
+      "section_name": "LLM"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "Inscript At time step t = 5 (word: data ), what is the attention weight assigned to the word science ? (Provide exact answer)",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_Q2_NA_p6_Im1.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Consider a GPT model used for Causal Language Modelling . We feed the input sentence: [IMAGE: /data/images/da5004_2026T1_Q2_NA_p6_Im1.webp|block] Assume the context length is 7 (time steps t = 0 to t = 6). The attention matrix computed in one attention layer is given below: [IMAGE: /data/images/da5004_2026T1_Q2_NA_p6_Im2.webp|block]",
+      "group_id": "6406532040069",
+      "section_name": "LLM"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "Which of the following character pairs occurs with the highest frequency across the entire sentence before any BPE merges are performed?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5004_2026T1_Q2_NA_p7_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_Q2_NA_p7_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_Q2_NA_p8_Im2.webp|inline]",
+        "[IMAGE: /data/images/da5004_2026T1_Q2_NA_p8_Im4.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5004_2026T1_Q2_NA_p8_Im4.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_Q2_NA_p7_Im1.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p7_Im2.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p7_Im3.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p7_Im5.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p7_Im6.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p8_Im2.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p8_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Sentence Corpus: \"the key to artificial intelligence has always been the representation\" Pre-processing Instructions: \u2022 Convert all text to lowercase. \u2022 Append the end-of-word symbol [IMAGE: /data/images/da5004_2026T1_Q2_NA_p7_Im1.webp|inline] to every word (e.g., \"the\" becomes [IMAGE: /data/images/da5004_2026T1_Q2_NA_p7_Im2.webp|inline] ). \u2022 The Initial Vocabulary is defined as the set of all unique characters present in the corpus plus the [IMAGE: /data/images/da5004_2026T1_Q2_NA_p7_Im3.webp|inline] symbol.",
+      "group_id": "6406532040077",
+      "section_name": "LLM"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "Inscript Calculate the total vocabulary size immediately after the first merge operation is completed. Note: The vocabulary size includes all individual base characters/symbols plus the newly created merge token.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_Q2_NA_p7_Im1.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p7_Im2.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Sentence Corpus: \"the key to artificial intelligence has always been the representation\" Pre-processing Instructions: \u2022 Convert all text to lowercase. \u2022 Append the end-of-word symbol [IMAGE: /data/images/da5004_2026T1_Q2_NA_p7_Im1.webp|inline] to every word (e.g., \"the\" becomes [IMAGE: /data/images/da5004_2026T1_Q2_NA_p7_Im2.webp|inline] ). \u2022 The Initial Vocabulary is defined as the set of all unique characters present in the corpus plus the [IMAGE: /data/images/da5004_2026T1_Q2_NA_p7_Im3.webp|inline] symbol.",
+      "group_id": "6406532040077",
+      "section_name": "LLM"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "Inscript Consider a vocabulary [IMAGE: /data/images/da5004_2026T1_Q2_NA_p8_Im5.webp|inline] . At a specific time step [IMAGE: /data/images/da5004_2026T1_Q2_NA_p8_Im6.webp|inline] , the model outputs the following probability distribution: [IMAGE: /data/images/da5004_2026T1_Q2_NA_p8_Im7.webp|block] If we use Top- [IMAGE: /data/images/da5004_2026T1_Q2_NA_p8_Im8.webp|inline] sampling with [IMAGE: /data/images/da5004_2026T1_Q2_NA_p8_Im9.webp|inline] , what is the probability of selecting token B ? (Calculate the re-normalized probability. Enter the value correct to 2 decimal places).",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.59 to 0.65",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_Q2_NA_p8_Im5.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p8_Im6.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p8_Im7.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p8_Im8.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p8_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "Inscript Consider a small BERT-like model with the following configuration: \u2022 Embedding dimension ( [IMAGE: /data/images/da5004_2026T1_Q2_NA_p9_Im1.webp|inline] ) = 128 \u2022 Vocabulary size ( [IMAGE: /data/images/da5004_2026T1_Q2_NA_p9_Im2.webp|inline] ) = 5000 \u2022 Maximum sequence length ( [IMAGE: /data/images/da5004_2026T1_Q2_NA_p9_Im3.webp|inline] ) = 64 \u2022 Number of segment types = 2 Calculate the total number of parameters in the Embedding Layer (sum of Token embeddings, Position embeddings, and Segment embeddings). Enter the exact integer value.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "648448",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5004_2026T1_Q2_NA_p9_Im1.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p9_Im2.webp",
+        "/data/images/da5004_2026T1_Q2_NA_p9_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "What is a major disadvantage of character-level tokenization?",
+      "type": "MCQ",
+      "options": [
+        "Character-level tokenization cannot represent punctuation marks or special symbols",
+        "It has very large vocabulary size because each word is broken into multiple characters",
+        "It produces much longer input sequences which increases computational cost.",
+        "It fails to capture morphological patterns such as prefixes and suffixes, reducing the model's ability to understand word structure"
+      ],
+      "correct_answer": "It produces much longer input sequences which increases computational cost.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "When using the SentencePiece, how are subword units selected?",
+      "type": "MCQ",
+      "options": [
+        "Based on a probabilistic model that maximizes the likelihood of the training data.",
+        "By randomly selecting character n-grams until the vocabulary limit is reached.",
+        "By selecting only the top 50,000 most frequent words in the corpus.",
+        "By iteratively merging the most frequent pair of adjacent characters."
+      ],
+      "correct_answer": "Based on a probabilistic model that maximizes the likelihood of the training data.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "To obtain high-quality training text from raw web data for large language models, which of the following mechanisms are typically included in the pre-processing pipeline?",
+      "type": "multichoice",
+      "options": [
+        "Tokenizing text into subword units using Byte Pair Encoding (BPE)",
+        "Deduplicating content at line, paragraph, and document levels",
+        "Detecting and filtering toxic content such as hate speech and profanity",
+        "Identifying the language of web pages",
+        "Assessing the quality of content to remove low-value or spam text",
+        "Detecting and removing Personally Identifiable Information (PII)",
+        "Fine-tuning the model using reinforcement learning from human feedback (RLHF)"
+      ],
+      "correct_answer": [
+        "Deduplicating content at line, paragraph, and document levels",
+        "Detecting and filtering toxic content such as hate speech and profanity",
+        "Identifying the language of web pages",
+        "Assessing the quality of content to remove low-value or spam text",
+        "Detecting and removing Personally Identifiable Information (PII)"
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "Which of the following statements correctly explain the importance of deduplication during preprocessing of large-scale datasets used for training Deep Learning or Large Language Models?",
+      "type": "multichoice",
+      "options": [
+        "Deduplication reduces the risk of overfitting by preventing repeated samples from dominating the gradient updates.",
+        "Deduplication guarantees that the trained model will achieve higher accuracy on all downstream tasks.",
+        "Deduplication helps avoid data leakage between training and evaluation sets, leading to more reliable performance metrics.",
+        "Deduplication eliminates the need for regularization techniques such as dropout and weight decay."
+      ],
+      "correct_answer": [
+        "Deduplication reduces the risk of overfitting by preventing repeated samples from dominating the gradient updates.",
+        "Deduplication helps avoid data leakage between training and evaluation sets, leading to more reliable performance metrics."
+      ],
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "LLM"
+    }
+  ],
+  "id": "da5004-2026t1-q2-na",
+  "course_code": "DA5004",
+  "course_name": "Large Language Models",
+  "level": "Degree",
+  "term": "Jan 2026",
+  "year": 2026,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

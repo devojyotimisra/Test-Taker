@@ -1,0 +1,399 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "da5013_2025T2_Q1_NA.pdf",
+  "total_questions": 17,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 212,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 213,
+      "text": "A start-up is building a new language model for a low-resource language with many compound words and complex morphology. They are debating tokenization strategies. Which of the following approaches is most likely to offer the best balance between vocabulary size, handling OOV words, and capturing morphological variants effectively for this scenario?",
+      "type": "MCQ",
+      "options": [
+        "Character-level tokenization",
+        "Word-level tokenization with a fixed vocabulary of 50,000 common words.",
+        "Subword tokenization (e.g., BPE or SentencePiece) trained on the available corpus.",
+        "Using only pre-defined special tokens and treating all other text as raw byte sequences."
+      ],
+      "correct_answer": "Subword tokenization (e.g., BPE or SentencePiece) trained on the available corpus.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 214,
+      "text": "When fully fine-tuning a large pre-trained Transformer model (e.g., >1 Billion parameters), which of the following contributes LEAST significantly to the GPU memory bottleneck compared to the others?",
+      "type": "MCQ",
+      "options": [
+        "Storing the model parameters themselves.",
+        "Storing the gradients for each parameter.",
+        "Storing the optimizer states (e.g., momentum and variance for Adam).",
+        "Storing the input batch data (token IDs)."
+      ],
+      "correct_answer": "Storing the input batch data (token IDs).",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 215,
+      "text": "A research team wants their pre-trained language model to generate more helpful and harmless responses without extensive task-specific dataset collection. They have a collection of prompts and human-preferred responses. Which of the following techniques directly aligns with this goal and data?",
+      "type": "MCQ",
+      "options": [
+        "Pre-training the model on a larger, more diverse text corpus.",
+        "Full fine-tuning on multiple downstream classification tasks.",
+        "Instruction Tuning using prompt-completion pairs or reformatting existing datasets into an instructional format.",
+        "Implementing Parameter-Efficient Fine-Tuning (PEFT) techniques like LoRa."
+      ],
+      "correct_answer": "Instruction Tuning using prompt-completion pairs or reformatting existing datasets into an instructional format.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 216,
+      "text": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p3_Im5.webp|inline] [IMAGE: /data/images/da5013_2025T2_Q1_NA_p3_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_Q1_NA_p3_Im1.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p3_Im3.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p3_Im4.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p3_Im5.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 217,
+      "text": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p4_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_Q1_NA_p4_Im1.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p4_Im3.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p4_Im4.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p4_Im6.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 218,
+      "text": "Which of the following statements accurately describe common characteristics or goals of subword tokenization algorithms like BPE, WordPiece, or SentencePiece? (Select ALL that apply)",
+      "type": "multichoice",
+      "options": [
+        "They aim to significantly reduce the vocabulary size compared to character- level tokenization.",
+        "They can handle out-of-vocabulary (OOV) words by breaking them into known subword units.",
+        "They primarily rely on merging the least frequent character or subword pairs to build the vocabulary.",
+        "They can represent common words as single tokens and rare words as sequences of subword tokens.",
+        "SentencePiece is designed to be language-agnostic, not requiring pre- segmentation based on spaces."
+      ],
+      "correct_answer": [
+        "They can handle out-of-vocabulary (OOV) words by breaking them into known subword units.",
+        "They can represent common words as single tokens and rare words as sequences of subword tokens.",
+        "SentencePiece is designed to be language-agnostic, not requiring pre- segmentation based on spaces."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 219,
+      "text": "A team has a powerful pre-trained language model (e.g., a GPT-3 class model). They want to adapt it for a new summarization task but have very limited labeled summarization data and limited compute for full fine-tuning. Which of the following strategies could be viable and effective? (Select ALL that apply)",
+      "type": "multichoice",
+      "options": [
+        "Zero-shot prompting by providing the text and an instruction like \"Summarize this:\".",
+        "Few-shot prompting (in-context learning) by providing a few examples of text and their summaries in the prompt before the target text.",
+        "Full supervised fine-tuning of all model parameters on the small labeled dataset.",
+        "Using a Parameter-Efficient Fine-Tuning (PEFT) method like LoRA on the small labeled dataset.",
+        "Collecting a much larger unlabeled corpus related to the summarization domain and continuing pre-training."
+      ],
+      "correct_answer": [
+        "Few-shot prompting (in-context learning) by providing a few examples of text and their summaries in the prompt before the target text.",
+        "Using a Parameter-Efficient Fine-Tuning (PEFT) method like LoRA on the small labeled dataset.",
+        "Collecting a much larger unlabeled corpus related to the summarization domain and continuing pre-training."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 220,
+      "text": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p6_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p6_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p6_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p6_Im8.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p6_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p6_Im7.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_Q1_NA_p6_Im1.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p6_Im3.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p6_Im5.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p6_Im6.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p6_Im7.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p6_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 221,
+      "text": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p7_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 222,
+      "text": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p7_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_Q1_NA_p7_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 223,
+      "text": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p8_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "4.6 to 4.8",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_Q1_NA_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 224,
+      "text": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p9_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p9_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p9_Im7.webp|inline] [IMAGE: /data/images/da5013_2025T2_Q1_NA_p9_Im8.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p9_Im6.webp|inline]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_Q1_NA_p9_Im2.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p9_Im1.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p9_Im6.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p9_Im7.webp",
+        "/data/images/da5013_2025T2_Q1_NA_p9_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "6406531279570",
+      "section_name": "DLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 225,
+      "text": "Based on the provided configuration, calculate the total number of parameters in the model\u2019s embedding layer (token embeddings) in millions. Enter your answer rounded to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "32.7 to 32.9",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "6406531279570",
+      "section_name": "DLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 226,
+      "text": "Based on the provided configuration, what is a primary characteristic of this language model\u2019s architecture and training paradigm?",
+      "type": "MCQ",
+      "options": [
+        "It\u2019s an encoder-decoder model designed for sequence-to-sequence tasks like translation.",
+        "It\u2019s an encoder-only model, likely using Masked Language Modeling for pre- training.",
+        "It\u2019s a decoder-only model, pre-trained using a Causal Language Modeling objective.",
+        "It\u2019s a small model primarily intended for edge devices due to its limited context length."
+      ],
+      "correct_answer": "It\u2019s a decoder-only model, pre-trained using a Causal Language Modeling objective.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "6406531279570",
+      "section_name": "DLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 227,
+      "text": "Considering the Adam optimizer stores 2 floating-point values per model parameter and parameters are 32-bit floats (4 bytes), if the total number of trainable parameters in the model is exactly 350 Million, how much GPU memory (in Gigabytes, GB) would be required just for the optimizer states? (Assume 1 GB = 10 9 bytes). Enter your answer rounded to one decimal place.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.7 to 2.9",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "6406531279570",
+      "section_name": "DLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 228,
+      "text": "The configuration states the model uses Byte Pair Encoding (BPE). What is a key implication of this choice for handling text from diverse sources during inference?",
+      "type": "MCQ",
+      "options": [
+        "The model will be unable to process any words not seen during BPE vocabulary training, leading to frequent errors.",
+        "All input words will be tokenized into individual characters, increasing sequence length significantly.",
+        "Out-of-vocabulary words can be represented as sequences of known subword units, allowing the model to process them.",
+        "BPE ensures that every language will have roughly the same number of tokens for a text of similar semantic content."
+      ],
+      "correct_answer": "Out-of-vocabulary words can be represented as sequences of known subword units, allowing the model to process them.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_Q1_NA_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2025T2_Q1_NA_p9_Im1.webp|block]",
+      "group_id": "6406531279570",
+      "section_name": "DLP"
+    }
+  ],
+  "id": "da5013-2025t2-q1-na",
+  "course_code": "DA5013",
+  "course_name": "Deep Learning Practice",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

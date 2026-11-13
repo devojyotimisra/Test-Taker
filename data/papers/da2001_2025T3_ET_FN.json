@@ -1,0 +1,726 @@
+{
+  "title": "DIPLOMA LEVEL : INTRODUCTION TO DEEP LEARNING AND GENERATIVE AI (COMPUTER BASED EXAM)",
+  "filename": "da2001_2025T3_ET_FN.pdf",
+  "total_questions": 32,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 1,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : INTRODUCTION TO DEEP LEARNING AND GENERATIVE AI (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 2,
+      "text": "You are training an artificial neural network (ANN) for a regression task to predict house prices. After inspecting the target variable (price) in your dataset, you observe that while most prices fall within a predictable range, there are a handful of extremely expensive mansions and a few properties sold under unusual circumstances that represent severe outliers. Your primary goal is to build a model that performs well on typical houses without letting its predictions be overly influenced by these rare, extreme values. You also desire smoother convergence during training. Which loss function should you primarily consider for this task?",
+      "type": "MCQ",
+      "options": [
+        "Mean Squared Error",
+        "Sum of Squared Errors",
+        "Huber Loss",
+        "Binary Cross-Entropy Loss"
+      ],
+      "correct_answer": "Huber Loss",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 3,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p1_Im3.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.4 to 0.6",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p1_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 4,
+      "text": "Which of the following are true about encoding categories?",
+      "type": "multichoice",
+      "options": [
+        "One-hot encoding represents each class as a dense vector that captures semantic relationships.",
+        "Embedding layers always assign a fixed manually-defined vector to each class.",
+        "For any two distinct categories represented using one-hot encoding, the dot product between their vectors is always 0 .",
+        "For any two distinct categories represented using one-hot encoding, the Euclidean distance between their vectors is always 1 .",
+        "Embedding layers learn meaningful dense vectors where similar concepts have similar representations."
+      ],
+      "correct_answer": [
+        "For any two distinct categories represented using one-hot encoding, the dot product between their vectors is always 0 .",
+        "Embedding layers learn meaningful dense vectors where similar concepts have similar representations."
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 5,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p3_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5.9 to 6.1",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p3_Im2.webp",
+        "/data/images/da2001_2025T3_ET_FN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p3_Im1.webp|block]",
+      "group_id": "6406531852276",
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 6,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p4_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1.9 to 2.1",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p4_Im1.webp",
+        "/data/images/da2001_2025T3_ET_FN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p3_Im1.webp|block]",
+      "group_id": "6406531852276",
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 7,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p4_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p4_Im7.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p4_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p4_Im6.webp|inline]",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p4_Im2.webp",
+        "/data/images/da2001_2025T3_ET_FN_p4_Im4.webp",
+        "/data/images/da2001_2025T3_ET_FN_p4_Im6.webp",
+        "/data/images/da2001_2025T3_ET_FN_p4_Im7.webp",
+        "/data/images/da2001_2025T3_ET_FN_p4_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 8,
+      "text": "In SGD with momentum, the velocity update is: [IMAGE: /data/images/da2001_2025T3_ET_FN_p5_Im1.webp|inline] . Which statements about the momentum parameter [IMAGE: /data/images/da2001_2025T3_ET_FN_p5_Im2.webp|inline] are correct?",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p5_Im8.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p5_Im9.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p5_Im10.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p5_Im4.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p5_Im9.webp|inline]"
+      ],
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p5_Im1.webp",
+        "/data/images/da2001_2025T3_ET_FN_p5_Im2.webp",
+        "/data/images/da2001_2025T3_ET_FN_p5_Im4.webp",
+        "/data/images/da2001_2025T3_ET_FN_p5_Im6.webp",
+        "/data/images/da2001_2025T3_ET_FN_p5_Im7.webp",
+        "/data/images/da2001_2025T3_ET_FN_p5_Im8.webp",
+        "/data/images/da2001_2025T3_ET_FN_p5_Im9.webp",
+        "/data/images/da2001_2025T3_ET_FN_p5_Im10.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 9,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p5_Im11.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "There is no error; this correctly replaces the final layer.",
+        "The entire model.classifier Sequential module must be replaced, not just a single layer.",
+        "The new nn.Linear layer's in_features is incorrect; it should be 1280 to match the features coming from the rest of the network, not 1000.",
+        "The dropout layer at model.classifier[0] must be removed for transfer learning to work."
+      ],
+      "correct_answer": "The new nn.Linear layer's in_features is incorrect; it should be 1280 to match the features coming from the rest of the network, not 1000.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p5_Im11.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 10,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The Normalize transform should not use ImageNet statistics for food images.",
+        "The Normalize transform is applied before ToTensor, but it expects a tensor with values in the [0, 1] range as input.",
+        "The ToTensor transform should be the first operation, applied directly to the file path, not the PIL Image object.",
+        "There is no issue; the pipeline correctly converts and normalizes the image."
+      ],
+      "correct_answer": "The Normalize transform is applied before ToTensor, but it expects a tensor with values in the [0, 1] range as input.",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 11,
+      "text": "A single Inception module has four parallel branches. After their respective convolutions, the branches produce feature maps with 64, 128, 32, and 32 channels. What is the total number of channels in the module's output feature map?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "256",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 12,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Local minimum",
+        "Local maximum",
+        "Saddle point",
+        "Neither minimum nor maximum"
+      ],
+      "correct_answer": "Saddle point",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 13,
+      "text": "A GAN Generator has the following fully connected architecture: (cid:0) Input: latent noise vector of dimension 100 (cid:0) Hidden Layer 1: 50 units (cid:0) Hidden Layer 2: 50 units (cid:0) Output Layer: generates a 4 \u00d7 4 image (i.e., output dimension 16 ) (cid:0) Ignore all biases (count weights only) How many total parameters does the Generator have?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8300",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 14,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Perplexity: Low BLEU: High FID: Low IS: High CLIP: High",
+        "Perplexity: High BLEU: High FID: High IS: Low CLIP: High",
+        "Perplexity: Low BLEU: Low FID: High IS: Low CLIP: Low",
+        "Perplexity: High BLEU: Low FID: Low IS: High CLIP: Low"
+      ],
+      "correct_answer": "Perplexity: Low BLEU: High FID: Low IS: High CLIP: High",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p8_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 15,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p9_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1.0",
+        "0.75",
+        "0.5",
+        "0.6"
+      ],
+      "correct_answer": "0.75",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 16,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p9_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "| Q | Decoder | | K | Encoder | | V | Encoder |",
+        "| Q | Encoder | | K | Decoder | | V | Decoder |",
+        "| Q | Decoder | | K | Decoder | | V | Encoder |",
+        "| Q | Encoder | | K | Encoder | | V | Decoder |"
+      ],
+      "correct_answer": "| Q | Decoder | | K | Encoder | | V | Encoder |",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p9_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 17,
+      "text": "We train an encoder-decoder model. The encoder has the following projection matrices: (cid:0) Q: 5\u00d74 (cid:0) K: 6\u00d74 The decoder has the following projection matrices: (cid:0) Q: 6\u00d74 (cid:0) K: 3\u00d74 What will be the dimension of the attention matrix in the cross-attention layer?",
+      "type": "MCQ",
+      "options": [
+        "5\u00d73",
+        "6\u00d76",
+        "5\u00d76",
+        "6\u00d73"
+      ],
+      "correct_answer": "6\u00d76",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 18,
+      "text": "You are building a machine translation system (English to Hindi) using an RNN-based Encoder- Decoder architecture. Your junior developer makes the following claims about the architecture: Claim 1: \"The encoder and decoder must have the same number of parameters (same hidden size, same number of layers).\" Claim 2: \"The encoder and decoder share the same weights during training to ensure consistency.\" Which of the following statements is correct?",
+      "type": "MCQ",
+      "options": [
+        "Both claims are TRUE - encoder and decoder must have identical architecture and share weights",
+        "Claim 1 is TRUE, Claim 2 is FALSE - they can have the same architecture but use separate, independent weights",
+        "Claim 1 is FALSE, Claim 2 is TRUE - they can have different architectures but must share weights",
+        "Both claims are FALSE - encoder and decoder can have different architectures (different hidden sizes, layers) and use separate, independent weights."
+      ],
+      "correct_answer": "Both claims are FALSE - encoder and decoder can have different architectures (different hidden sizes, layers) and use separate, independent weights.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 19,
+      "text": "For a vocabulary of size 200, if we want to represent each word as an embedding in [IMAGE: /data/images/da2001_2025T3_ET_FN_p11_Im1.webp|inline] then how many parameters does the embedding layer will need to learn?",
+      "type": "MCQ",
+      "options": [
+        "200",
+        "5",
+        "1000",
+        "205"
+      ],
+      "correct_answer": "1000",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 20,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p11_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Because the formula only works for even values of i.",
+        "Because each i generates two dimensions (one sine and one cosine), so using (i = 0 to d\u22121) would produce 2d dimensions instead of d.",
+        "Because positional encoding requires i to be less than [IMAGE: /data/images/da2001_2025T3_ET_FN_p11_Im5.webp|inline] .",
+        "Because cosine terms replace the sine terms for half the dimensions."
+      ],
+      "correct_answer": "Because each i generates two dimensions (one sine and one cosine), so using (i = 0 to d\u22121) would produce 2d dimensions instead of d.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p11_Im4.webp",
+        "/data/images/da2001_2025T3_ET_FN_p11_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 21,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p12_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "self.layer_norm(attention_output)",
+        "self.layer_norm(x + attention_output)",
+        "x + self.layer_norm(attention_output)",
+        "self.layer_norm(x) + attention_output"
+      ],
+      "correct_answer": "self.layer_norm(x + attention_output)",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 22,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p13_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.4 to 0.6",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 23,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p13_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "81.2",
+        "75.3",
+        "68.1",
+        "40.9"
+      ],
+      "correct_answer": "81.2",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p13_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 24,
+      "text": "Consider the following true and model distributions: True distribution (P): (cid:0) Cat = 0.6 (cid:0) Dog = 0.3 (cid:0) Horse = 0.1 Model distribution (Q): (cid:0) Cat = 0.5 (cid:0) Dog = 0.4 (cid:0) Horse = 0.1 Which of the following statements about KL divergence is TRUE?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p14_Im2.webp|inline]",
+        "KL divergence can be negative if Q assigns higher probability than P.",
+        "KL divergence is always non-negative, and equals 0 only if P and Q are identical.",
+        "KL divergence does not depend on the probability values of Q."
+      ],
+      "correct_answer": "KL divergence is always non-negative, and equals 0 only if P and Q are identical.",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p14_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 25,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p15_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p15_Im5.webp|block]",
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p15_Im6.webp|block]",
+        "[IMAGE: /data/images/da2001_2025T3_ET_FN_p15_Im7.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p15_Im6.webp|block]",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p15_Im1.webp",
+        "/data/images/da2001_2025T3_ET_FN_p15_Im5.webp",
+        "/data/images/da2001_2025T3_ET_FN_p15_Im6.webp",
+        "/data/images/da2001_2025T3_ET_FN_p15_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 26,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p16_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Prevents repeated chunks",
+        "Ensures continuity of information between chunks",
+        "Reduces the total number of chunks",
+        "Removes unwanted tokens during splitting"
+      ],
+      "correct_answer": "Ensures continuity of information between chunks",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 27,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p16_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A retriever that always returns 4 random chunks",
+        "A retriever that filters chunks with metadata length < 4",
+        "A retriever that searches only in the first 4 chunks",
+        "A retriever that returns the top-4 most similar chunks"
+      ],
+      "correct_answer": "A retriever that returns the top-4 most similar chunks",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p16_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 28,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p17_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "context_length,vocab_size,embedding_dimension",
+        "vocab_size,vocab_size,embedding_dimension",
+        "embedding_dimension,context_length,vocab_size",
+        "vocab_size,context_length,embedding_dimension"
+      ],
+      "correct_answer": "vocab_size,context_length,embedding_dimension",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p17_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 29,
+      "text": "Suppose there is RAG system containing a 100 page document with 10000 lines in total and it is segmented into 10 chunks, how many semantic search matches will be performed when a query enters the RAG system?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "10",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 30,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p18_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A list where each element is the text of one page",
+        "A single long string containing the text of all pages combined, with no separators added",
+        "Separate blocks of text with automatic page breaks inserted between pages",
+        "A dictionary mapping page numbers to extracted page text"
+      ],
+      "correct_answer": "A single long string containing the text of all pages combined, with no separators added",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p18_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 31,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p18_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "They must have the same weights (weight sharing)",
+        "They are independent learned transformations of the input",
+        "Key and Query must have the same weights, Value is independent",
+        "They implement dropout regularization"
+      ],
+      "correct_answer": "They are independent learned transformations of the input",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p18_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 32,
+      "text": "[IMAGE: /data/images/da2001_2025T3_ET_FN_p19_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Only retriever and format_docs",
+        "retriever | format_docs runs in parallel with RunnablePassthrough()",
+        "prompt_template runs in parallel with llm",
+        "Nothing runs in parallel; the entire chain is sequential"
+      ],
+      "correct_answer": "retriever | format_docs runs in parallel with RunnablePassthrough()",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da2001_2025T3_ET_FN_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLGenAI"
+    }
+  ],
+  "id": "da2001-2025t3-et-fn",
+  "course_code": "DA2001",
+  "course_name": "Introduction to Deep Learning and Generative AI",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

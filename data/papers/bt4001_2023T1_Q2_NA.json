@@ -1,0 +1,338 @@
+{
+  "title": "DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS",
+  "filename": "bt4001_2023T1_Q2_NA.pdf",
+  "total_questions": 14,
+  "total_marks": 14.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 129,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 130,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The length or weight of the internal edge (i.e., non-limb edge) in the inferred phylogenetic tree is____________ . Fill in the blank.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2023T1_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You enter an alien world as a renowned computational biologist. The below table is presented to you as a part of a preliminary study done by a group of scientists to study the local fauna around the base camp. They analyze the DNA and figure out that there are only two bases \u201c+\u201d and \u201c0\u201d. The below table represents the DNA sequence in 6 positions for the different species found. You build a phylogenetic tree that best represents the evolutionary relationship among the species, using the Neighbor-Joining algorithm (on the Hamming distance matrix). [IMAGE: /data/images/bt4001_2023T1_Q2_NA_p2_Im1.webp|block]",
+      "group_id": "640653521915",
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 131,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the two distance matrices DM1 and DM2 shown below. Which of the following statement(s) is/are true? [IMAGE: /data/images/bt4001_2023T1_Q2_NA_p3_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "DM1 is additive, and DM2 is additive.",
+        "DM1, but not DM2 is additive",
+        "There exists an ultrametric tree that fits DM1, but not DM2.",
+        "There exists an ultrametric tree that fits DM2, but not DM1."
+      ],
+      "correct_answer": [
+        "DM1 is additive, and DM2 is additive.",
+        "There exists an ultrametric tree that fits DM2, but not DM1."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2023T1_Q2_NA_p3_Im1.webp",
+        "/data/images/bt4001_2023T1_Q2_NA_p2_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "You enter an alien world as a renowned computational biologist. The below table is presented to you as a part of a preliminary study done by a group of scientists to study the local fauna around the base camp. They analyze the DNA and figure out that there are only two bases \u201c+\u201d and \u201c0\u201d. The below table represents the DNA sequence in 6 positions for the different species found. You build a phylogenetic tree that best represents the evolutionary relationship among the species, using the Neighbor-Joining algorithm (on the Hamming distance matrix). [IMAGE: /data/images/bt4001_2023T1_Q2_NA_p2_Im1.webp|block]",
+      "group_id": "640653521915",
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 132,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is/are false about UPGMA?",
+      "type": "MCQ",
+      "options": [
+        "UPGMA is a simple clustering heuristic that proceeds via iterative pairwise grouping in each step.",
+        "Given a distance matrix, it starts by grouping two taxa with the largest pairwise distance in the distance matrix.",
+        "The distances between this new composite taxon and all remaining taxa are calculated to create a reduced matrix.",
+        "The grouping process is repeated and another newly reduced matrix is created."
+      ],
+      "correct_answer": "Given a distance matrix, it starts by grouping two taxa with the largest pairwise distance in the distance matrix.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 133,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are asked to construct a rooted binary phylogenetic tree from the given data. You identify 3 tree configurations that are possible - Tree A, Tree B, and Tree C (see the figure below) based on the information. Identify the most parsimonious tree. ( HINT: Which columns can you ignore?) [IMAGE: /data/images/bt4001_2023T1_Q2_NA_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Tree A and B",
+        "Only Tree B",
+        "Tree A and C",
+        "Only Tree C"
+      ],
+      "correct_answer": "Only Tree B",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2023T1_Q2_NA_p5_Im1.webp",
+        "/data/images/bt4001_2023T1_Q2_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Given below are a set of genetic sequences and the position (sites) of their nucleotides. [IMAGE: /data/images/bt4001_2023T1_Q2_NA_p4_Im3.webp|block]",
+      "group_id": "640653521919",
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 134,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You add 4 more sequences to this tree. How many internal nodes and branches will the modified tree have?",
+      "type": "MCQ",
+      "options": [
+        "7 internal nodes and 12 branches",
+        "7 internal nodes and 14 branches",
+        "8 internal nodes and 14 branches",
+        "8 internal nodes and 16 branches"
+      ],
+      "correct_answer": "7 internal nodes and 14 branches",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2023T1_Q2_NA_p4_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Given below are a set of genetic sequences and the position (sites) of their nucleotides. [IMAGE: /data/images/bt4001_2023T1_Q2_NA_p4_Im3.webp|block]",
+      "group_id": "640653521919",
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 135,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/bt4001_2023T1_Q2_NA_p6_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "34",
+        "33",
+        "32",
+        "35"
+      ],
+      "correct_answer": "32",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2023T1_Q2_NA_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Answer the given subquestions.",
+      "group_id": "640653521922",
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 136,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Find the number of edges in the suffix tree constructed from the suffix trie obtained in the previous question.",
+      "type": "MCQ",
+      "options": [
+        "11",
+        "10",
+        "20",
+        "28"
+      ],
+      "correct_answer": "10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Answer the given subquestions.",
+      "group_id": "640653521922",
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 137,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/bt4001_2023T1_Q2_NA_p7_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "GCCT",
+        "GTCC",
+        "TGCC",
+        "Reconstruction is not possible."
+      ],
+      "correct_answer": "GCCT",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2023T1_Q2_NA_p7_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 138,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/bt4001_2023T1_Q2_NA_p8_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p8_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p8_Im3.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2023T1_Q2_NA_p8_Im1.webp",
+        "/data/images/bt4001_2023T1_Q2_NA_p8_Im3.webp",
+        "/data/images/bt4001_2023T1_Q2_NA_p8_Im5.webp",
+        "/data/images/bt4001_2023T1_Q2_NA_p8_Im6.webp",
+        "/data/images/bt4001_2023T1_Q2_NA_p8_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 139,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Select the correct sequence of steps in the context of the K-means clustering algorithm: I. Measurement of distances of each point to centroids. II. Initialization of cluster centroids. III. Updation of cluster centroids, and repeat. IV. Assignment of data points to respective clusters.",
+      "type": "MCQ",
+      "options": [
+        "I, II, III, IV",
+        "II, I, IV, III",
+        "IV, III, II, I",
+        "II, I, III, IV"
+      ],
+      "correct_answer": "II, I, IV, III",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 140,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The K-means clustering method is prone to give erroneous results in which of the following cases? Note that the color here represents the ground-truth clusters.",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p9_Im4.webp|block]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p9_Im5.webp|block]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p10_Im2.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p9_Im5.webp|block]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p10_Im2.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2023T1_Q2_NA_p9_Im4.webp",
+        "/data/images/bt4001_2023T1_Q2_NA_p9_Im5.webp",
+        "/data/images/bt4001_2023T1_Q2_NA_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 141,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following hard K-means clustering problem with four points: P (1, 1), Q (2, 1), R (4, 3), and S (5, 4). Consider the number of clusters to be k = 2 and the initial centroids to be C 1 = (0, 0) and C 2 = (4, 4). After how many iterations will the algorithm terminate and what will be the final centroids?",
+      "type": "MCQ",
+      "options": [
+        "2, (1, 1), (4, 4)",
+        "3, (1, 1), (4, 4)",
+        "4, (1.5, 1), (4.5, 3.5)",
+        "2, (1.5, 1), (4.5, 3.5)"
+      ],
+      "correct_answer": "2, (1.5, 1), (4.5, 3.5)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Answer the given subquestions.",
+      "group_id": "640653521929",
+      "section_name": "Algo Thinking"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 142,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Given the data points in the previous question, let\u2019s say we want to cluster them via (vanilla) soft k- means instead of the hard k-means algorithm. Let the stiffness parameter \u03b2 be 1. Then, in the first iteration where the centroids are C 1 =(0,0) and C 2 =(4,4), what is C 1 \u2019s and C 2 \u2019s respective responsibility for the data point P=(1,1)?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p11_Im3.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p11_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/bt4001_2023T1_Q2_NA_p11_Im3.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/bt4001_2023T1_Q2_NA_p11_Im3.webp",
+        "/data/images/bt4001_2023T1_Q2_NA_p11_Im4.webp",
+        "/data/images/bt4001_2023T1_Q2_NA_p11_Im5.webp",
+        "/data/images/bt4001_2023T1_Q2_NA_p11_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Answer the given subquestions.",
+      "group_id": "640653521929",
+      "section_name": "Algo Thinking"
+    }
+  ],
+  "id": "bt4001-2023t1-q2-na",
+  "course_code": "BT4001",
+  "course_name": "Computational Biology",
+  "level": "Degree",
+  "term": "Jan 2023",
+  "year": 2023,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

@@ -1,0 +1,1368 @@
+{
+  "title": "DIPLOMA LEVEL :TOOLS IN DATA SCIENCE (COMPUTER BASED EXAM)",
+  "filename": "se2002_2023T1_ET_FN.pdf",
+  "total_questions": 63,
+  "total_marks": 63.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 156,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL :TOOLS IN DATA SCIENCE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 157,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The dataset consists of geographic, demographic information about countries and their respective GDPs. You would like to visualize this data and study the relationship between the location of countries and their GDPs. You decide to use Power BI to visualize the dataset. But you would also like to generate a summary of the data. Choose the most suitable answer among the given options.",
+      "type": "MCQ",
+      "options": [
+        "The summary can be generated using Quill and this is possible because Quill can be used as an extension in Power BI.",
+        "Quill can only be used for visualization. Therefore a summary of the dataset cannot be generated.",
+        "Power BI does not support generation of summary. Therefore using other visualization tools such as Tableau would work.",
+        "None of the options are appropriate for the generation of summary for the given question."
+      ],
+      "correct_answer": "None of the options are appropriate for the generation of summary for the given question.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 158,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Your project requires you to study the districts and their respective health indicators. You have a shapefile with you that provides the required details. The objective of the project is to identify and carve out districts that present high levels of health indicators. Choose the most suitable answer among the given options.",
+      "type": "MCQ",
+      "options": [
+        "QGIS can be used to create the shapefiles for districts with high levels of health indicators.",
+        "While QGIS can be used to create shapefiles for the requirement, it cannot be used to identify the districts with high levels of health indicators.",
+        "QGIS cannot be used to meet the objectives of the project.",
+        "None of the options are suitable to meet the objectives of the project."
+      ],
+      "correct_answer": "QGIS can be used to create the shapefiles for districts with high levels of health indicators.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 159,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What are the two outputs provided by the Excel Azure Machine Learning plugin?",
+      "type": "MCQ",
+      "options": [
+        "Percentage, Score",
+        "Sentiment, Percentage",
+        "Sentiment, Score",
+        "Score, Labels"
+      ],
+      "correct_answer": "Sentiment, Score",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 160,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The dataset consists of year, annual cotton production, annual rainfall, loan interest rates and fuel prices. You would like to compute the correlation coefficient between annual cotton production and other variables in the dataset to analyze the effects of various variables on the target variable. Choose the most suitable option among the following choices:",
+      "type": "MCQ",
+      "options": [
+        "Excel cannot be used to compute correlation coefficients. Although we can use excel to visualize the data using scatter plots to study the relationships.",
+        "The CORREL() function in Excel is not suitable for this analysis because it doesn\u2019t take more than two variables as inputs.",
+        "Correlation coefficients cannot be computed for continuous variables.",
+        "None of the options are appropriate."
+      ],
+      "correct_answer": "None of the options are appropriate.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 161,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You would like to prepare your dataset before analysis. You choose python pandas-profiling library to perform exploratory analysis. Choose the most suitable option among the given choices:",
+      "type": "MCQ",
+      "options": [
+        "Your choice of pandas-profiling library is not appropriate because it does not provide information about outliers.",
+        "Your choice is appropriate because the pandas-profiling library provides information about outliers.",
+        "pandas-profiling library is appropriate because it helps build models."
+      ],
+      "correct_answer": "Your choice is appropriate because the pandas-profiling library provides information about outliers.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 162,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Comicgen is a useful tool in narrating data stories using comics. Which of the following is not a function of comicgen?",
+      "type": "MCQ",
+      "options": [
+        "Comicgen creates comic characters",
+        "Comicgen provides options to custom create different comic characters and their emotions and pose",
+        "Comicgen can be easily integrated into Google sheets or Excel to narrate your data stories",
+        "You can type in your data story into comicgen to get your comic in return"
+      ],
+      "correct_answer": "You can type in your data story into comicgen to get your comic in return",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 163,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A very large Matrix A has a lot of zero entries in it.Which function from the scipy library is useful in efficient storage of such a matrix A ?",
+      "type": "MCQ",
+      "options": [
+        "compressed_mat",
+        "comp_mat",
+        "csr_matrix",
+        "zip_mat"
+      ],
+      "correct_answer": "csr_matrix",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 164,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following libraries has functions and tools that are useful in the analysis of large graphs?",
+      "type": "MCQ",
+      "options": [
+        "scikit-network",
+        "pandas-network",
+        "numpy-network",
+        "pd-network"
+      ],
+      "correct_answer": "scikit-network",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 165,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Kumu is a tool that allows you to:",
+      "type": "MCQ",
+      "options": [
+        "Visualize project management charts",
+        "create stunning dashboards for large projects",
+        "merge Comicgen characters into a comic",
+        "Visualize complex network data"
+      ],
+      "correct_answer": "Visualize complex network data",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 166,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following libraries has functions extensively written to extract data from Wikipedia pages?",
+      "type": "MCQ",
+      "options": [
+        "BeautifulSoup",
+        "wikimedia",
+        "wikipedia",
+        "wiki_scrape"
+      ],
+      "correct_answer": "wikipedia",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 167,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A dataset provided to you has information about countries and respective populations. You plan to visualize the data in Tableau using the map representation. But you are unable to do so because the map representation is not activated for you to choose. What might be the issue? Provided below is a snapshot of the dataset column names and types. Choose the most appropriate option that would solve the problem. [IMAGE: /data/images/se2002_2023T1_ET_FN_p7_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "The provided dataset is incomplete",
+        "We also need Latitude and Longitude information to activate the map representation",
+        "There might be column type incompatibility issues",
+        "The above information provided would not have caused any issues. It is sufficient for map representation"
+      ],
+      "correct_answer": "There might be column type incompatibility issues",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 168,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 _________ is helpful to understand the structure of (or inspect) a website before writing a scraping script.",
+      "type": "MCQ",
+      "options": [
+        "BeautifulSoup",
+        "Developer Tools",
+        "Airflow",
+        "Pycaret"
+      ],
+      "correct_answer": "Developer Tools",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 169,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 _________ library has tools to get a webpage\u2019s html contents into Python.",
+      "type": "MCQ",
+      "options": [
+        "BeautifulSoup",
+        "numpy",
+        "requests",
+        "get"
+      ],
+      "correct_answer": "requests",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 170,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Type of location (tourist/historic/etc.) can be retrieved using Nominatim in Python",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 171,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following delimiters cannot be used in text-to-column function in Excel?",
+      "type": "MCQ",
+      "options": [
+        "Comma (,)",
+        "Tab (\\t)",
+        "Semi colon (;)",
+        "Tilde (~)",
+        "None of these"
+      ],
+      "correct_answer": "None of these",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 172,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the y-axis in autocorrelation plot?",
+      "type": "MCQ",
+      "options": [
+        "Correlation",
+        "Covariance",
+        "Standard deviation",
+        "Variance",
+        "None of these"
+      ],
+      "correct_answer": "Correlation",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 173,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following tools cannot be used for anonymising the data?",
+      "type": "MCQ",
+      "options": [
+        "Anonimatron",
+        "ARX anonymization tool",
+        "PowerBI",
+        "Amnesia",
+        "sdcMicro"
+      ],
+      "correct_answer": "PowerBI",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 174,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 For a one-time anonymization, static anonymization is sufficient. Is this statement true or false?",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 175,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 We have a variable X, which can take values AA, BB, or CC. The first 4 values of this variable in a dataset are CC, AA, BB, AA. This information is represented as shown below. [IMAGE: /data/images/se2002_2023T1_ET_FN_p11_Im1.webp|block] To convert a variable to this format in Python, one can use:",
+      "type": "MCQ",
+      "options": [
+        "pandas.get_dummies",
+        "from sklearn.preprocessing import BinaryEncoder",
+        "import numpy as np",
+        "import seaborn as sb"
+      ],
+      "correct_answer": "pandas.get_dummies",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 176,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 k-means is typically influenced by the start values. What option in sklearn.cluster.KMeans helps reduce the impact?",
+      "type": "MCQ",
+      "options": [
+        "verbose",
+        "algorithm",
+        "n_init",
+        "init"
+      ],
+      "correct_answer": "n_init",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 177,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A Pandas dataframe DF has a column named salary_range which contains the salary details of 10000 employees of a firm binned as medium, high, and very high . You are interested in finding out the number of employees in each category of salary_range . Which of the following commands will help you to achieve this goal?",
+      "type": "MCQ",
+      "options": [
+        "DF[\u2018salary_range\u2019].bin_count()",
+        "DF[\u2018salary_range\u2019].value_counts()",
+        "DF$\u2018salary_range.bin_count()",
+        "DF$\u2018salary_range.value_counts()"
+      ],
+      "correct_answer": "DF[\u2018salary_range\u2019].value_counts()",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 178,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Scikit-learn has a DecisionTreeClassifier module that is useful in building decision tree classifiers. Suppose, our dataset is imbalanced in class. Which feature in the DecisionTreeClassifier() will help us tackle this problem?",
+      "type": "MCQ",
+      "options": [
+        "random_state",
+        "min_sample_split",
+        "class_balance",
+        "class_weight"
+      ],
+      "correct_answer": "class_weight",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 179,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/se2002_2023T1_ET_FN_p13_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "from sklearn.metrics import mean_absolute_error",
+        "from sklearn.metrics import median_absolute_error",
+        "from sklearn.metrics import median_absolute_percentage_error",
+        "from sklearn.metrics import average_absolute_percentage_error"
+      ],
+      "correct_answer": "from sklearn.metrics import mean_absolute_error",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p13_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 180,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 We are interested in fitting an ARIMA model to our time series data. Specifically, we are interested in a moving average model of 0, setting a lag value of 4 for autoregression, and a difference order of 1. Which of the following gives you such a model?",
+      "type": "MCQ",
+      "options": [
+        "ARIMA(..., trend = (4,1,0))",
+        "ARIMA(..., order = (4,1,0))",
+        "ARIMA(..., order = (0,4,1))",
+        "ARIMA(..., trend = (0,4,1))"
+      ],
+      "correct_answer": "ARIMA(..., order = (4,1,0))",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 181,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 pycaret is a",
+      "type": "MCQ",
+      "options": [
+        "Visualization tool",
+        "Dashboard helper",
+        "low-code machine learning library",
+        "Data cleaning solution"
+      ],
+      "correct_answer": "low-code machine learning library",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 182,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 subjectivity and polarity are two properties returned by the sentiment function of library:",
+      "type": "MCQ",
+      "options": [
+        "TextBulb",
+        "NLPtext",
+        "TextBlob",
+        "NLP"
+      ],
+      "correct_answer": "TextBlob",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 183,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A subjectivity score of 0.8 means that the text statement:",
+      "type": "MCQ",
+      "options": [
+        "has a positive sentiment",
+        "has a negative sentiment",
+        "is more of an opinion statement",
+        "is more of a factual statement"
+      ],
+      "correct_answer": "is more of an opinion statement",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 184,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A polarity score of negative 0.5 means that the text statement:",
+      "type": "MCQ",
+      "options": [
+        "has a positive sentiment",
+        "has a negative sentiment",
+        "is more of an opinion statement",
+        "is more of a factual statement"
+      ],
+      "correct_answer": "has a negative sentiment",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 185,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are working on a piece of code that classifies different fruits into its respective groups (citrus, berries, melons, apples & pears, and tropical & exotic). Which of the following loss functions from Keras would you pick for the task?",
+      "type": "MCQ",
+      "options": [
+        "binary_crossentropy",
+        "categorical_crossentropy",
+        "mean_squared_error",
+        "mean_absolute_error"
+      ],
+      "correct_answer": "categorical_crossentropy",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 186,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 classification_report function from the sklearn.metrics module",
+      "type": "MCQ",
+      "options": [
+        "builds a decision tree classifier and prints the accuracy of the classifier",
+        "reports the root mean square error of the model",
+        "runs different classification models and compares the results",
+        "builds a text report displaying the main classification metrics"
+      ],
+      "correct_answer": "builds a text report displaying the main classification metrics",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 187,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 csr_matrix from the scipy library:",
+      "type": "MCQ",
+      "options": [
+        "always helps reduce matrix space",
+        "helps reduce matrix space when there are a lot of zero entries in the matrix",
+        "helps reduce matrix space when there are a lot of negative entries in the matrix",
+        "makes matrix multiplication more meaningful and powerful"
+      ],
+      "correct_answer": "helps reduce matrix space when there are a lot of zero entries in the matrix",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 188,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Google Studio is a tool that allows you to",
+      "type": "MCQ",
+      "options": [
+        "merge Comicgen characters into a comic",
+        "visualize complex network data",
+        "create dashboards for small scale projects",
+        "Edit photographs and videos"
+      ],
+      "correct_answer": "create dashboards for small scale projects",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 189,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following tabs is used to identify API calls in the Inspect element in any browser?",
+      "type": "MCQ",
+      "options": [
+        "Network",
+        "Elements",
+        "Console",
+        "Sources"
+      ],
+      "correct_answer": "Network",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 190,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following libraries is used to construct API urls?",
+      "type": "MCQ",
+      "options": [
+        "Urllib",
+        "BeautifulSoup",
+        "Requests",
+        "Pandas"
+      ],
+      "correct_answer": "Urllib",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 191,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The final output from the BBC Weather Location Service API is in JSON format:",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 37,
+      "number": 37,
+      "original_number": 192,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which among the following excel charts is the most suitable for detecting outliers in the data?",
+      "type": "MCQ",
+      "options": [
+        "Bar chart",
+        "Line chart",
+        "Box and Whisker chart",
+        "Histogram"
+      ],
+      "correct_answer": "Box and Whisker chart",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 38,
+      "number": 38,
+      "original_number": 193,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which among the following features in excel enables you to scrape data from websites?",
+      "type": "MCQ",
+      "options": [
+        "Data Analysis Toolpak",
+        "Connections",
+        "Data Validation",
+        "None of these"
+      ],
+      "correct_answer": "None of these",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 39,
+      "number": 39,
+      "original_number": 194,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Assume the data provided to you has a column that consists of sales dates. You would want to extract the week number from the column for further analysis. Which among the following excel function enables you to perform the above-mentioned task?",
+      "type": "MCQ",
+      "options": [
+        "WEEKGET()",
+        "GETWEEKNUM()",
+        "WEEKNUM()",
+        "NUMWEEK()"
+      ],
+      "correct_answer": "WEEKNUM()",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 40,
+      "number": 40,
+      "original_number": 195,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The data consists of caloric intake, weight and BMI of individuals. To compute the correlation coefficients between these three variables, excel \u2018data analysis toolpak\u2019 requires you to specify the input variables and target variables.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 41,
+      "number": 41,
+      "original_number": 196,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the purpose of using the \"find\" method in Beautiful Soup?",
+      "type": "MCQ",
+      "options": [
+        "To locate all instances of a particular HTML tag in a document.",
+        "To retrieve the text content of a specific HTML element.",
+        "To extract the value of a particular attribute of an HTML tag.",
+        "To search for a tag with a specific name or id within an HTML document."
+      ],
+      "correct_answer": "To search for a tag with a specific name or id within an HTML document.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 42,
+      "number": 42,
+      "original_number": 197,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is true about the k-means clustering algorithm?",
+      "type": "MCQ",
+      "options": [
+        "It is a supervised learning algorithm.",
+        "It is only applicable for datasets with a small number of features.",
+        "It is sensitive to the initial choice of centroids.",
+        "It is not suitable for datasets with categorical variables."
+      ],
+      "correct_answer": "It is sensitive to the initial choice of centroids.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 43,
+      "number": 43,
+      "original_number": 198,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Nominatim api can be used to find the type of place for a given latitude and longitude.",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "TRUE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 44,
+      "number": 44,
+      "original_number": 199,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A time series with a significant autocorrelation at lag 1 implies that:",
+      "type": "MCQ",
+      "options": [
+        "The current observation is correlated with the previous observation",
+        "The current observation is correlated with the observation two time steps ago",
+        "The current observation is correlated with the observation three time steps ago",
+        "None of these"
+      ],
+      "correct_answer": "The current observation is correlated with the previous observation",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 45,
+      "number": 45,
+      "original_number": 200,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The sentiment analysis function in TextBlob",
+      "type": "MCQ",
+      "options": [
+        "Classifies text as either positive or negative",
+        "Classifies text into multiple categories of sentiment",
+        "Calculates a numerical score for the sentiment of the text",
+        "None of these"
+      ],
+      "correct_answer": "Calculates a numerical score for the sentiment of the text",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 46,
+      "number": 46,
+      "original_number": 201,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 From the below options identify the correct one that provides explanation of the file structure in Tableau [IMAGE: /data/images/se2002_2023T1_ET_FN_p23_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "1a,2b,3c",
+        "1b,2c,3a",
+        "1c,2a,3b",
+        "1a,3c,2b"
+      ],
+      "correct_answer": "1b,2c,3a",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p23_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 47,
+      "number": 47,
+      "original_number": 202,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Identify the type of join used below [IMAGE: /data/images/se2002_2023T1_ET_FN_p24_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Outer",
+        "Left",
+        "Inner",
+        "Right"
+      ],
+      "correct_answer": "Inner",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p24_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 48,
+      "number": 48,
+      "original_number": 203,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which attribute does not belong to the category of data while categorizing data based on specifics of the disclosure risks from which a dataset is to be protected?",
+      "type": "MCQ",
+      "options": [
+        "Identifying attributes",
+        "Quasi-identifying attributes",
+        "Sensitive attributes",
+        "Insensitive attributes",
+        "Non identifying attributes"
+      ],
+      "correct_answer": "Non identifying attributes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 49,
+      "number": 49,
+      "original_number": 204,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 One of the methods of removing outliers for continuous data is:",
+      "type": "MCQ",
+      "options": [
+        "IQR analysis",
+        "EQR analysis",
+        "OQR analysis",
+        "None of these"
+      ],
+      "correct_answer": "IQR analysis",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 50,
+      "number": 50,
+      "original_number": 205,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You decided to encode a categorical variable using one-hot encoding. What happens to your dataframe when it is done:",
+      "type": "MCQ",
+      "options": [
+        "Number of columns will increase",
+        "Number of rows will increase",
+        "Both rows and columns will increase",
+        "None of these"
+      ],
+      "correct_answer": "Number of columns will increase",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 51,
+      "number": 51,
+      "original_number": 206,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 ___________ table in Excel is a way of quickly summarizing your data",
+      "type": "MCQ",
+      "options": [
+        "Pivot table",
+        "Pilot table",
+        "Summary table",
+        "Summarize table"
+      ],
+      "correct_answer": "Pivot table",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 52,
+      "number": 52,
+      "original_number": 207,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/se2002_2023T1_ET_FN_p26_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "geopy.distance(location1, location2).km",
+        "geopy.distance(location1, location2)",
+        "geopy.distance.distance(location1, location2).km",
+        "geopy.distance.distance.distance(location1_coord, location2_coord).km"
+      ],
+      "correct_answer": "geopy.distance.distance(location1, location2).km",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p26_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 53,
+      "number": 53,
+      "original_number": 208,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Provided below is a snippet of the code block of HTML tags from a website providing weather forecast. Your goal is to scrape the high and low values for the 10-day temperature forecast. [IMAGE: /data/images/se2002_2023T1_ET_FN_p27_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2023T1_ET_FN_p28_Im1.webp|block]",
+        "[IMAGE: /data/images/se2002_2023T1_ET_FN_p28_Im3.webp|inline]",
+        "[IMAGE: /data/images/se2002_2023T1_ET_FN_p28_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2002_2023T1_ET_FN_p28_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2023T1_ET_FN_p28_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p27_Im1.webp",
+        "/data/images/se2002_2023T1_ET_FN_p28_Im1.webp",
+        "/data/images/se2002_2023T1_ET_FN_p28_Im3.webp",
+        "/data/images/se2002_2023T1_ET_FN_p28_Im5.webp",
+        "/data/images/se2002_2023T1_ET_FN_p28_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 54,
+      "number": 54,
+      "original_number": 209,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The given piece of code extracts and displays details of 9 scheduled airlines . in India. Identify which block of code executes without any errors.",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2023T1_ET_FN_p29_Im2.webp|block]",
+        "[IMAGE: /data/images/se2002_2023T1_ET_FN_p29_Im3.webp|block]",
+        "[IMAGE: /data/images/se2002_2023T1_ET_FN_p29_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2023T1_ET_FN_p29_Im2.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p29_Im2.webp",
+        "/data/images/se2002_2023T1_ET_FN_p29_Im3.webp",
+        "/data/images/se2002_2023T1_ET_FN_p29_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 55,
+      "number": 55,
+      "original_number": 210,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Logical calculations in tableau helps to determine if a certain condition is true or false. Is the following expression valid ? [IMAGE: /data/images/se2002_2023T1_ET_FN_p30_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "TRUE",
+        "FALSE"
+      ],
+      "correct_answer": "FALSE",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p30_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 56,
+      "number": 56,
+      "original_number": 211,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which among the following code blocks will get you the latitude and longitude of \u201cIIT Madras\u201d? Assume the Nominatim library is imported using the command given below: [IMAGE: /data/images/se2002_2023T1_ET_FN_p30_Im4.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/se2002_2023T1_ET_FN_p30_Im6.webp|block]",
+        "[IMAGE: /data/images/se2002_2023T1_ET_FN_p31_Im2.webp|block]",
+        "[IMAGE: /data/images/se2002_2023T1_ET_FN_p31_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/se2002_2023T1_ET_FN_p31_Im4.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p30_Im4.webp",
+        "/data/images/se2002_2023T1_ET_FN_p30_Im6.webp",
+        "/data/images/se2002_2023T1_ET_FN_p31_Im2.webp",
+        "/data/images/se2002_2023T1_ET_FN_p31_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 57,
+      "number": 57,
+      "original_number": 212,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 We have a variable X, which can take values AA, BB, or CC. The first 4 values of this variable in a dataset are CC, AA, BB, AA. The format of representing this information as shown in the table below is called: [IMAGE: /data/images/se2002_2023T1_ET_FN_p31_Im5.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "multi-col format",
+        "one - hot encoding",
+        "long format",
+        "integer"
+      ],
+      "correct_answer": "one - hot encoding",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p31_Im5.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 58,
+      "number": 58,
+      "original_number": 213,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Provided below is a snapshot of the dataset which consists of movie reviews and respective labels. [IMAGE: /data/images/se2002_2023T1_ET_FN_p33_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Input: Sheet1!A1:A11 Output: Sheet!C1",
+        "Input: Sheet1!B1:B11 Output: Sheet!C1"
+      ],
+      "correct_answer": "Input: Sheet1!A1:A11 Output: Sheet!C1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p33_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 59,
+      "number": 59,
+      "original_number": 214,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In Streamlit, how do you create the following image [ assumption : import streamlit as st ] [IMAGE: /data/images/se2002_2023T1_ET_FN_p34_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "st.selectbox(\"Hobbies: \",[\u2018Dancing\u2019,\u2019Reading\u2019,\u2019Sports\u2019])",
+        "st.selectbox(\"Hobbies: \",{{\u2018Dancing\u2019,\u2019Reading\u2019,\u2019Sports\u2019}})",
+        "st.write(\"Hobbies: \",[\u2018Dancing\u2019,\u2019Reading\u2019,\u2019Sports\u2019])",
+        "None of these"
+      ],
+      "correct_answer": "st.selectbox(\"Hobbies: \",[\u2018Dancing\u2019,\u2019Reading\u2019,\u2019Sports\u2019])",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/se2002_2023T1_ET_FN_p34_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 60,
+      "number": 60,
+      "original_number": 215,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 scikit-network package contains functions for (select all correct sentences):",
+      "type": "multichoice",
+      "options": [
+        "analysis of faults in a computer network",
+        "social network analysis",
+        "analysis of large graphs",
+        "enhancing one\u2019s social network"
+      ],
+      "correct_answer": [
+        "social network analysis",
+        "analysis of large graphs"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 61,
+      "number": 61,
+      "original_number": 216,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following are methods of the Beautiful Soup object?",
+      "type": "multichoice",
+      "options": [
+        "find()",
+        "get()",
+        "find_all()",
+        "prettify()"
+      ],
+      "correct_answer": [
+        "find()",
+        "find_all()",
+        "prettify()"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "TDS"
+    },
+    {
+      "id": 62,
+      "number": 62,
+      "original_number": 217,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 We are analyzing how much the number of lecture hours attended by students affects their exam scores. Which Excel function would you use as a starting point in this analysis?",
+      "type": "MCQ",
+      "options": [
+        "STDEV.P()",
+        "STDEV.S()",
+        "SLOPE()",
+        "EXACT()"
+      ],
+      "correct_answer": "SLOPE()",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Answer the given subquestions.",
+      "group_id": "640653563892",
+      "section_name": "TDS"
+    },
+    {
+      "id": 63,
+      "number": 63,
+      "original_number": 218,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the previous question, we plan to run a regression analysis after the preliminary analysis. Which of the following features provide you with the capability to do this?",
+      "type": "MCQ",
+      "options": [
+        "Data Analysis Toolpak",
+        "Regression Analyzer",
+        "Regression ToolBokz",
+        "OptSol finder"
+      ],
+      "correct_answer": "Data Analysis Toolpak",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Answer the given subquestions.",
+      "group_id": "640653563892",
+      "section_name": "TDS"
+    }
+  ],
+  "id": "se2002-2023t1-et-fn",
+  "course_code": "SE2002",
+  "course_name": "Tools in Data Science",
+  "level": "Diploma in Data Science",
+  "term": "Jan 2023",
+  "year": 2023,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

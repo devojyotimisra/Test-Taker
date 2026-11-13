@@ -1,0 +1,763 @@
+{
+  "title": "Machine Learning Techniques - May 2022 End Term (Forenoon)",
+  "filename": "cs2007_2022T2_ET_FN.pdf",
+  "total_questions": 36,
+  "total_marks": 36.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 277,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p0_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correct_answer": "Yes",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p0_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 278,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Note: Do not write your answer as percentage. Always enter fractions as they are. e.g. if your answer is 0.245, enter the same, do not enter 24.5 %.",
+      "type": "MCQ",
+      "options": [
+        "Useful Data has been mentioned above.",
+        "This data attachment is just for a reference & not for an evaluation."
+      ],
+      "correct_answer": "Useful Data has been mentioned above.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 279,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 During classification of linearly separable data-set using perceptron algorithm, as the value of learning rate \u03b1 is increased,",
+      "type": "MCQ",
+      "options": [
+        "The number of steps required for convergence increases.",
+        "The number of steps required for convergence decreases.",
+        "The number of steps required for convergence is independent of the learning rate.",
+        "The perceptron algorithm may not converge."
+      ],
+      "correct_answer": "The number of steps required for convergence is independent of the learning rate.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 280,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A knn algorithm with k = 10 gives low training error and high validation error. What value of k should we choose to get the better performance of the algorithm?",
+      "type": "MCQ",
+      "options": [
+        "Less than 10",
+        "Greater than 10"
+      ],
+      "correct_answer": "Greater than 10",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 281,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a binary classification problem. Let p 1 denote the proportion of class 0 examples in a particular node. Which of the following graphs shows correct curves for the Gini-index, Entropy and misclassification error of that node?",
+      "type": "MCQ",
+      "options": [
+        "",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p3_Im1.webp|block] [IMAGE: /data/images/cs2007_2022T2_ET_FN_p3_Im3.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p4_Im1.webp|block]"
+      ],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p3_Im1.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p3_Im3.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p4_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 282,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p4_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Softmax",
+        "Sigmoid",
+        "ReLU",
+        "Tanh"
+      ],
+      "correct_answer": "Tanh",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p4_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 283,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following are multi label problems? For each option, assume suitable features are available.",
+      "type": "multichoice",
+      "options": [
+        "Predicted number of runs the Indian Cricket team will score in their next ODI.",
+        "Amount of money that Amitabh Bachchan\u2019s next three movies each will make.",
+        "Predicting number of goals Ronaldo will score in next 10 matches each.",
+        "Predicting blood group of a person.",
+        "Predicting blood sugar level of a person for next 15 days each."
+      ],
+      "correct_answer": [
+        "Amount of money that Amitabh Bachchan\u2019s next three movies each will make.",
+        "Predicting number of goals Ronaldo will score in next 10 matches each.",
+        "Predicting blood sugar level of a person for next 15 days each."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 284,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In a random forest model let p < m be the number of randomly selected features that are used to identify the best split at any node of a tree. Which of the following are true? ( m is the original number of features)",
+      "type": "multichoice",
+      "options": [
+        "Increasing p reduces the correlation between any two trees in the forest.",
+        "Decreasing p reduces the correlation between any two trees in the forest.",
+        "Increasing p increases the performance of individual trees in the forest.",
+        "Decreasing p increases the performance of individual trees in the forest."
+      ],
+      "correct_answer": [
+        "Decreasing p reduces the correlation between any two trees in the forest.",
+        "Increasing p increases the performance of individual trees in the forest."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 285,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p6_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "20.5 to 21.5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p6_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 286,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p7_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.79 to 0.81",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 287,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p7_Im2.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p8_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p8_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p8_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p8_Im4.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p7_Im2.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p8_Im4.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p8_Im5.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 288,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider unlabeled data with two features X 1 and X 2 as shown in the figure. [IMAGE: /data/images/cs2007_2022T2_ET_FN_p9_Im1.webp|block] C 1 and C 2 are the coordinates of centroids obtained after certain iterations of the K -means algorithm with K = 2. Which of the following options is correct about the silhouette score S ? Note: Euclidean distance is used to calculate the distances.",
+      "type": "MCQ",
+      "options": [
+        "S will be positive and close to 0.",
+        "S will be positive and close to 1.",
+        "S will be exact \u22121.",
+        "S will be negative but need not be exact \u22121."
+      ],
+      "correct_answer": "S will be negative but need not be exact \u22121.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 289,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a neural network for a multi-class, image classification problem. When the network is trained on the images as they are, it does a good job on the test data. Call the dataset (train + test) for this setup D 1 and the network N 1 . Assume that we now turn all images upside down, in both the training and test dataset. Now, the network with the same architecture is trained from scratch on this modified dataset. Call the dataset (train + test) for this setup D 2 and network N 2 . Select the most appropriate option.",
+      "type": "MCQ",
+      "options": [
+        "The network N 2 will not be able to learn anything from D 2 . Its test accuracy on D 2 will be very low.",
+        "The network N 2 will be able to learn useful patterns from D 2 . In fact, the performance of network N 2 on D 2 will be similar to N 1 on D 1 .",
+        "The network N 2 will be able to learn somewhat useful patterns from D 2 . But the performance of N 1 on D 1 will be much better than N 2 on D 2 ."
+      ],
+      "correct_answer": "The network N 2 will be able to learn useful patterns from D 2 . In fact, the performance of network N 2 on D 2 will be similar to N 1 on D 1 .",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 290,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Two classifiers are trained on a dataset for a binary classification problem. They are then tested on the same dataset. The F 1 scores of both classifiers are the same. ( p 1 , r 1 ) and ( p 2 , r 2 ) are the precision-recall scores for the two classifiers. Consider the following statements: Statement-1 If p 1 > p 2 , then r 1 < r 2 Statement-2 If p 1 = p 2 , then r 1 = r 2 Select the most appropriate option.",
+      "type": "MCQ",
+      "options": [
+        "Statement-1 is correct, statement-2 is incorrect",
+        "Statement-1 is incorrect, statement-2 is correct",
+        "Both statements 1 & 2 are correct",
+        "Both statements 1 & 2 are incorrect"
+      ],
+      "correct_answer": "Both statements 1 & 2 are correct",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 291,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following code blocks will produce the same value for the variable \u2018Ans\u2019? Assume the \u2018numpy\u2019 library is imported as \u2018np\u2019.",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p11_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p11_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p11_Im6.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p11_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p12_Im2.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p11_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p11_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p11_Im6.webp|block]"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p11_Im4.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p11_Im5.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p11_Im6.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p11_Im7.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p12_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 292,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Rajesh trained a model on house price prediction problem. After training he came up with following model: y = 4000 \u2212 20 \u00b7 x 1 + 1500 \u00b7 x 2 \u2212 15 \u00b7 x 3 + 3 \u00b7 x 4 where, y is predicted house price, x 1 is age of the house in years, x 2 is the area of house/apartment in square feet, x 3 is the number of floors the house/building is, x 4 represents if the house is facing the sea or not. According to Rajesh\u2019s model, which of the following statements are correct?",
+      "type": "multichoice",
+      "options": [
+        "The most important factor in determining the price of the house is if it is sea facing or not.",
+        "No. of floors in the building is the most important feature.",
+        "Carpet area is the most important feature.",
+        "Age is the most important feature.",
+        "Age is the second most important feature.",
+        "None of these."
+      ],
+      "correct_answer": [
+        "Carpet area is the most important feature.",
+        "Age is the second most important feature."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 293,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p13_Im1.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "The polynomial regression model of degree 5 adds a smooth fitting to this data.",
+        "The polynomial regression model of degree 99 overfits this data.",
+        "The polynomial regression model of degree 1 adds a smooth fitting to this data.",
+        "The polynomial regression model of degree 2 underfits this data."
+      ],
+      "correct_answer": [
+        "The polynomial regression model of degree 5 adds a smooth fitting to this data.",
+        "The polynomial regression model of degree 99 overfits this data.",
+        "The polynomial regression model of degree 2 underfits this data."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p13_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 294,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p13_Im4.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "18.0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p13_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 295,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p14_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.48 to 2.58",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p14_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 296,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 You are given a linearly separable dataset with feature matrix X , for which a perceptron has been trained until it converges (perfectly separates the data). The weight vector corresponding to it is w . This dataset has 70 points from the positive class and 30 from the negative class. What is the output of the following snippet of code? [IMAGE: /data/images/cs2007_2022T2_ET_FN_p15_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "40",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 297,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A Gaussian Naive Bayes model is trained for a multi-class classification problem that has 10 features and 3 classes. Find the total number of parameters that have to be estimated for this model. Consider each parameter to be a scalar value. In other words, if we decide to store all the parameters in a Python list, with each element of the list being a float value corresponding to a single parameter, what is the size of this list? Ignore the priors in the calculation. Only focus on the parameters of the class conditional densities.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "60",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 298,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p16_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "943",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 299,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The MNIST digit classification problem has 10 classes. The training dataset has n data points, with an equal number of points from each of the 10 classes. Consider a dummy classifier that does prediction as follows: for each input data-point, it picks one of the 10 classes at random (uniformly) and outputs that as its prediction. What is the accuracy of the model on the training dataset as n becomes very large? Your answer should be between 0 and 1. Enter your answer correct to two decimal places. Hint : Think about it in the probabilistic sense.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.09 to 0.11",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "original_number": 300,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p18_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p18_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p18_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p18_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p18_Im7.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p18_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2007_2022T2_ET_FN_p18_Im3.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p18_Im1.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p18_Im3.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p18_Im5.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p18_Im6.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p18_Im7.webp",
+        "/data/images/cs2007_2022T2_ET_FN_p18_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "original_number": 301,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p19_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "cluster-1",
+        "cluster-2",
+        "can not be determined"
+      ],
+      "correct_answer": "cluster-2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p19_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "original_number": 302,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 If W ij is the weight of the edge from neuron i in layer l \u2212 1 to neuron j in layer l , which of the following statements about the matrix W are true? Neurons in a layer are processed (indexed) from top to bottom. So, the first neuron in a layer is the top-most neuron in that layer.",
+      "type": "multichoice",
+      "options": [
+        "The first row of the matrix corresponds to all outgoing connections from the first neuron in layer l \u2212 1.",
+        "The first row of the matrix corresponds to all incoming connections to the first neuron in layer l .",
+        "The last column of the matrix corresponds to all incoming connections to the last neuron in layer l .",
+        "The last column of the matrix corresponds to all the outgoing connections from the last neuron in layer l \u2212 1."
+      ],
+      "correct_answer": [
+        "The first row of the matrix corresponds to all outgoing connections from the first neuron in layer l \u2212 1.",
+        "The last column of the matrix corresponds to all incoming connections to the last neuron in layer l ."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "original_number": 303,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p20_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3.3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p20_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "original_number": 304,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p21_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p21_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "original_number": 305,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p22_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.74 to 0.76",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p22_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "original_number": 306,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p23_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p23_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "original_number": 307,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p24_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p24_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": null
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "original_number": 308,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How many samples of the training data-set belong to Leaf 1?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p25_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p25_Im1.webp|block]",
+      "group_id": "640653358499",
+      "section_name": null
+    },
+    {
+      "id": 33,
+      "number": 33,
+      "original_number": 309,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 If the present price of a car which is driven for 7 years is 6.0 lac. If the car has a diesel engine, what will be the prediction for the selling price of the car according to the given regression tree? Enter your answer in lac. If your answer is 5.6 lac, enter the answer 5.6.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2.0",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p25_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p25_Im1.webp|block]",
+      "group_id": "640653358499",
+      "section_name": null
+    },
+    {
+      "id": 34,
+      "number": 34,
+      "original_number": 310,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What will be the performance of the first stump? Enter your answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.67 to 0.72",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p27_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p27_Im1.webp|block]",
+      "group_id": "640653358503",
+      "section_name": null
+    },
+    {
+      "id": 35,
+      "number": 35,
+      "original_number": 311,
+      "text": "Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What sample weight will be assigned to the first example to create the next stump? Don\u2019t normalize the sample weights. Write your answer correct to two decimal places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.08 to 0.12",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2007_2022T2_ET_FN_p27_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_FN_p27_Im1.webp|block]",
+      "group_id": "640653358503",
+      "section_name": null
+    },
+    {
+      "id": 36,
+      "number": 36,
+      "original_number": 312,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0",
+      "type": "MCQ",
+      "options": [],
+      "correct_answer": "",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "PDSA"
+    }
+  ],
+  "id": "cs2007-2022t2-et-fn",
+  "course_code": "CS2007",
+  "course_name": "Machine Learning Techniques",
+  "level": "Diploma in Data Science",
+  "term": "May 2022",
+  "year": 2022,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

@@ -1,0 +1,463 @@
+{
+  "title": "DEGREE LEVEL : GAME THEORY (COMPUTER BASED EXAM)",
+  "filename": "ms4023_2024T3_Q1_NA.pdf",
+  "total_questions": 21,
+  "total_marks": 25.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 103,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : GAME THEORY (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 104,
+      "text": "Which player does not have strictly dominated strategy?",
+      "type": "MCQ",
+      "options": [
+        "Player 1",
+        "Player 2",
+        "None"
+      ],
+      "correct_answer": "Player 1",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "An item is up for auction. Player 1 values the item at 3 while player 2 values the item at 5. Each player can bid either 0, 1 or 2. If player i bids more than player j then i wins the good and pays his bid, while the loser does not pay. If both players bid the same amount, then a coin is tossed to determine who the winner is, who gets the good and pays his bid while the loser pays nothing. Formulate the game in matrix form and answer the given subquestions.",
+      "group_id": "640653993414",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 105,
+      "text": "Which strategies survive Iterated Elimination of Strictly Dominated Strategy?",
+      "type": "MCQ",
+      "options": [
+        "(0, 0)",
+        "(1, 1)",
+        "(2, 2)",
+        "None"
+      ],
+      "correct_answer": "(2, 2)",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "An item is up for auction. Player 1 values the item at 3 while player 2 values the item at 5. Each player can bid either 0, 1 or 2. If player i bids more than player j then i wins the good and pays his bid, while the loser does not pay. If both players bid the same amount, then a coin is tossed to determine who the winner is, who gets the good and pays his bid while the loser pays nothing. Formulate the game in matrix form and answer the given subquestions.",
+      "group_id": "640653993414",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 106,
+      "text": "Choose the correct statement",
+      "type": "MCQ",
+      "options": [
+        "There is a unique Nash equilibrium in pure strategy",
+        "There are finitely many Nash equilibria in this game in pure strategy",
+        "There is no Nash equilibrium in this game in pure strategy",
+        "None"
+      ],
+      "correct_answer": "There is no Nash equilibrium in this game in pure strategy",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms4023_2024T3_Q1_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Determined to crack down on the drug trade, a city mayor puts more officers out on patrol to disrupt the business of drug dealers. A drug dealer in a neighborhood can work his trade either on a street corner or in the park. Each day, he decides where to set up shop, knowing that word about his location will travel among users. Because a good snitch is lacking, word does not travel to the police. The police officer on the beat then needs to decide whether she will patrol the park or the street corner, while not knowing where the drug dealer is hanging out that day. The decision of the officer and the dealer determine the extent of drug trades that day. Let suppose the total number of potential trades in the market is 100. A dealer's payoff is determined by the number of trades he consummates, while the officer\u2019s payoff is based on the number of trades she disrupts. The table below illustrates the payoffs for both parties according to their respective strategies in the game. [IMAGE: /data/images/ms4023_2024T3_Q1_NA_p2_Im3.webp|block]",
+      "group_id": "640653993420",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 107,
+      "text": "Choose the correct statement",
+      "type": "MCQ",
+      "options": [
+        "There is a unique Nash equilibrium in this game",
+        "There are finitely many Nash equilibria in this game",
+        "There is no Nash equilibrium in this game",
+        "None"
+      ],
+      "correct_answer": "There is a unique Nash equilibrium in this game",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms4023_2024T3_Q1_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Determined to crack down on the drug trade, a city mayor puts more officers out on patrol to disrupt the business of drug dealers. A drug dealer in a neighborhood can work his trade either on a street corner or in the park. Each day, he decides where to set up shop, knowing that word about his location will travel among users. Because a good snitch is lacking, word does not travel to the police. The police officer on the beat then needs to decide whether she will patrol the park or the street corner, while not knowing where the drug dealer is hanging out that day. The decision of the officer and the dealer determine the extent of drug trades that day. Let suppose the total number of potential trades in the market is 100. A dealer's payoff is determined by the number of trades he consummates, while the officer\u2019s payoff is based on the number of trades she disrupts. The table below illustrates the payoffs for both parties according to their respective strategies in the game. [IMAGE: /data/images/ms4023_2024T3_Q1_NA_p2_Im3.webp|block]",
+      "group_id": "640653993420",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 108,
+      "text": "If the randomization probability of a police officer for patrolling the streets is p/13, then p =__________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "5",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms4023_2024T3_Q1_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Determined to crack down on the drug trade, a city mayor puts more officers out on patrol to disrupt the business of drug dealers. A drug dealer in a neighborhood can work his trade either on a street corner or in the park. Each day, he decides where to set up shop, knowing that word about his location will travel among users. Because a good snitch is lacking, word does not travel to the police. The police officer on the beat then needs to decide whether she will patrol the park or the street corner, while not knowing where the drug dealer is hanging out that day. The decision of the officer and the dealer determine the extent of drug trades that day. Let suppose the total number of potential trades in the market is 100. A dealer's payoff is determined by the number of trades he consummates, while the officer\u2019s payoff is based on the number of trades she disrupts. The table below illustrates the payoffs for both parties according to their respective strategies in the game. [IMAGE: /data/images/ms4023_2024T3_Q1_NA_p2_Im3.webp|block]",
+      "group_id": "640653993420",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 109,
+      "text": "If the randomization probability of a police officer for patrolling the park is q/13, then q = ________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "8",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms4023_2024T3_Q1_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Determined to crack down on the drug trade, a city mayor puts more officers out on patrol to disrupt the business of drug dealers. A drug dealer in a neighborhood can work his trade either on a street corner or in the park. Each day, he decides where to set up shop, knowing that word about his location will travel among users. Because a good snitch is lacking, word does not travel to the police. The police officer on the beat then needs to decide whether she will patrol the park or the street corner, while not knowing where the drug dealer is hanging out that day. The decision of the officer and the dealer determine the extent of drug trades that day. Let suppose the total number of potential trades in the market is 100. A dealer's payoff is determined by the number of trades he consummates, while the officer\u2019s payoff is based on the number of trades she disrupts. The table below illustrates the payoffs for both parties according to their respective strategies in the game. [IMAGE: /data/images/ms4023_2024T3_Q1_NA_p2_Im3.webp|block]",
+      "group_id": "640653993420",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 110,
+      "text": "If the randomization probability of the drug dealer choosing street is r/13, then r =_______________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms4023_2024T3_Q1_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Determined to crack down on the drug trade, a city mayor puts more officers out on patrol to disrupt the business of drug dealers. A drug dealer in a neighborhood can work his trade either on a street corner or in the park. Each day, he decides where to set up shop, knowing that word about his location will travel among users. Because a good snitch is lacking, word does not travel to the police. The police officer on the beat then needs to decide whether she will patrol the park or the street corner, while not knowing where the drug dealer is hanging out that day. The decision of the officer and the dealer determine the extent of drug trades that day. Let suppose the total number of potential trades in the market is 100. A dealer's payoff is determined by the number of trades he consummates, while the officer\u2019s payoff is based on the number of trades she disrupts. The table below illustrates the payoffs for both parties according to their respective strategies in the game. [IMAGE: /data/images/ms4023_2024T3_Q1_NA_p2_Im3.webp|block]",
+      "group_id": "640653993420",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 111,
+      "text": "If the randomization probability of the drug dealer choosing park is s/13, then s = _____________",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "7",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms4023_2024T3_Q1_NA_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "Determined to crack down on the drug trade, a city mayor puts more officers out on patrol to disrupt the business of drug dealers. A drug dealer in a neighborhood can work his trade either on a street corner or in the park. Each day, he decides where to set up shop, knowing that word about his location will travel among users. Because a good snitch is lacking, word does not travel to the police. The police officer on the beat then needs to decide whether she will patrol the park or the street corner, while not knowing where the drug dealer is hanging out that day. The decision of the officer and the dealer determine the extent of drug trades that day. Let suppose the total number of potential trades in the market is 100. A dealer's payoff is determined by the number of trades he consummates, while the officer\u2019s payoff is based on the number of trades she disrupts. The table below illustrates the payoffs for both parties according to their respective strategies in the game. [IMAGE: /data/images/ms4023_2024T3_Q1_NA_p2_Im3.webp|block]",
+      "group_id": "640653993420",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 112,
+      "text": "This is a game of",
+      "type": "MCQ",
+      "options": [
+        "Perfect information",
+        "Imperfect information",
+        "None",
+        "Can\u2019t be determined"
+      ],
+      "correct_answer": "Perfect information",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider a two-player game in which player 1 can choose A or B. The game ends if he chooses A while it continues to player 2 if he chooses B. Player 2 can either choose C or D, with the game ending after C and continuing again with player 1 after D. Player 1 then can choose E or F, and then the game ends after each of these choices. Imagine that the payoffs following choice A by player 1 are (2, 0), following C by player 2 are (3, 1), following E by player 1 are (0, 0) and following F by player 1 are (1, 2) Model this as an extensive form game and answer the given subquestions:",
+      "group_id": "640653993427",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 113,
+      "text": "How many terminal nodes does this game have?",
+      "type": "MCQ",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider a two-player game in which player 1 can choose A or B. The game ends if he chooses A while it continues to player 2 if he chooses B. Player 2 can either choose C or D, with the game ending after C and continuing again with player 1 after D. Player 1 then can choose E or F, and then the game ends after each of these choices. Imagine that the payoffs following choice A by player 1 are (2, 0), following C by player 2 are (3, 1), following E by player 1 are (0, 0) and following F by player 1 are (1, 2) Model this as an extensive form game and answer the given subquestions:",
+      "group_id": "640653993427",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 114,
+      "text": "How many information sets does this game have?",
+      "type": "MCQ",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider a two-player game in which player 1 can choose A or B. The game ends if he chooses A while it continues to player 2 if he chooses B. Player 2 can either choose C or D, with the game ending after C and continuing again with player 1 after D. Player 1 then can choose E or F, and then the game ends after each of these choices. Imagine that the payoffs following choice A by player 1 are (2, 0), following C by player 2 are (3, 1), following E by player 1 are (0, 0) and following F by player 1 are (1, 2) Model this as an extensive form game and answer the given subquestions:",
+      "group_id": "640653993427",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 115,
+      "text": "How many pure strategies does player 1 have?",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider a two-player game in which player 1 can choose A or B. The game ends if he chooses A while it continues to player 2 if he chooses B. Player 2 can either choose C or D, with the game ending after C and continuing again with player 1 after D. Player 1 then can choose E or F, and then the game ends after each of these choices. Imagine that the payoffs following choice A by player 1 are (2, 0), following C by player 2 are (3, 1), following E by player 1 are (0, 0) and following F by player 1 are (1, 2) Model this as an extensive form game and answer the given subquestions:",
+      "group_id": "640653993427",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 116,
+      "text": "How many pure strategies does player 2 have?",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider a two-player game in which player 1 can choose A or B. The game ends if he chooses A while it continues to player 2 if he chooses B. Player 2 can either choose C or D, with the game ending after C and continuing again with player 1 after D. Player 1 then can choose E or F, and then the game ends after each of these choices. Imagine that the payoffs following choice A by player 1 are (2, 0), following C by player 2 are (3, 1), following E by player 1 are (0, 0) and following F by player 1 are (1, 2) Model this as an extensive form game and answer the given subquestions:",
+      "group_id": "640653993427",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 117,
+      "text": "How many pure strategy Nash equilibria does this game have?",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider a two-player game in which player 1 can choose A or B. The game ends if he chooses A while it continues to player 2 if he chooses B. Player 2 can either choose C or D, with the game ending after C and continuing again with player 1 after D. Player 1 then can choose E or F, and then the game ends after each of these choices. Imagine that the payoffs following choice A by player 1 are (2, 0), following C by player 2 are (3, 1), following E by player 1 are (0, 0) and following F by player 1 are (1, 2) Model this as an extensive form game and answer the given subquestions:",
+      "group_id": "640653993427",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 118,
+      "text": "Which one of the Nash equilibria is also a subgame perfect equilibrium?",
+      "type": "MCQ",
+      "options": [
+        "(AE, D)",
+        "(AF, D)",
+        "(BE, C)",
+        "(BF, C)"
+      ],
+      "correct_answer": "(AF, D)",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider a two-player game in which player 1 can choose A or B. The game ends if he chooses A while it continues to player 2 if he chooses B. Player 2 can either choose C or D, with the game ending after C and continuing again with player 1 after D. Player 1 then can choose E or F, and then the game ends after each of these choices. Imagine that the payoffs following choice A by player 1 are (2, 0), following C by player 2 are (3, 1), following E by player 1 are (0, 0) and following F by player 1 are (1, 2) Model this as an extensive form game and answer the given subquestions:",
+      "group_id": "640653993427",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 119,
+      "text": "No. of sub games this game has",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": "Consider a two-player game in which player 1 can choose A or B. The game ends if he chooses A while it continues to player 2 if he chooses B. Player 2 can either choose C or D, with the game ending after C and continuing again with player 1 after D. Player 1 then can choose E or F, and then the game ends after each of these choices. Imagine that the payoffs following choice A by player 1 are (2, 0), following C by player 2 are (3, 1), following E by player 1 are (0, 0) and following F by player 1 are (1, 2) Model this as an extensive form game and answer the given subquestions:",
+      "group_id": "640653993427",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 120,
+      "text": "Choose the correct alternative",
+      "type": "MCQ",
+      "options": [
+        "In Nash equilibrium two people take each route",
+        "For the NE action profile, each person\u2019s travel time is either 29.9 or 30 minutes",
+        "In Nash equilibrium two people take each route and For the NE action profile, each person\u2019s travel time is either 29.9 or 30 minutes",
+        "None"
+      ],
+      "correct_answer": "In Nash equilibrium two people take each route and For the NE action profile, each person\u2019s travel time is either 29.9 or 30 minutes",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms4023_2024T3_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "(Choosing a route) Four people must drive from A to B at the same time. Two routes are available, one via X and one via Y (Refer to the left panel of following Figure). The roads from A to X, and from Y to B are both short and narrow; in each case, one car takes 6 minutes, and each additional car increases the travel time per car by 3 minutes. (If two cars drive from A to X, for example, each car takes 9 minutes.) The roads from A to Y, and from X to B are long and wide; on A to Y one car takes 20 minutes, and each additional car increases the travel time per car by 1 minute; on X to B one car takes 20 minutes, and each additional car increases the travel time per car by 0.9 minutes. Formulate this situation as a strategic game and answer the given subquestions. [IMAGE: /data/images/ms4023_2024T3_Q1_NA_p7_Im1.webp|block]",
+      "group_id": "640653993417",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 121,
+      "text": "Now suppose that a relatively short, wide road is built from X to Y, giving each person four options for travel from A to B: A\u2013X\u2013B, A\u2013Y\u2013B, A\u2013X\u2013Y\u2013B, and A\u2013Y\u2013 X\u2013B (As shown in the right panel of the given figure). Assume that a person who takes A\u2013X\u2013Y\u2013B travels the A\u2013X portion at the same time as someone who takes A\u2013X\u2013B, and the Y\u2013B portion at the same time as someone who takes A\u2013Y\u2013B. (Think of there being constant flows of traffic.) On the road between X and Y, one car takes 7 minutes and each additional car increases the travel time per car by 1 minute. Find the Nash equilibrium in this new situation and answer the questions. Choose the correct alternative",
+      "type": "MCQ",
+      "options": [
+        "In any Nash equilibrium, one person takes A\u2013X\u2013B, two people take A\u2013X\u2013Y\u2013B, and one person takes A\u2013Y\u2013B",
+        "In this equilibrium profile, each person\u2019s travel time is 36 minutes",
+        "In any Nash equilibrium, one person takes A\u2013X\u2013B, two people take A\u2013X\u2013Y\u2013B, and one person takes A\u2013Y\u2013B and In this equilibrium profile, each person\u2019s travel time is 36 minutes",
+        "None"
+      ],
+      "correct_answer": "In any Nash equilibrium, one person takes A\u2013X\u2013B, two people take A\u2013X\u2013Y\u2013B, and one person takes A\u2013Y\u2013B",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms4023_2024T3_Q1_NA_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "(Choosing a route) Four people must drive from A to B at the same time. Two routes are available, one via X and one via Y (Refer to the left panel of following Figure). The roads from A to X, and from Y to B are both short and narrow; in each case, one car takes 6 minutes, and each additional car increases the travel time per car by 3 minutes. (If two cars drive from A to X, for example, each car takes 9 minutes.) The roads from A to Y, and from X to B are long and wide; on A to Y one car takes 20 minutes, and each additional car increases the travel time per car by 1 minute; on X to B one car takes 20 minutes, and each additional car increases the travel time per car by 0.9 minutes. Formulate this situation as a strategic game and answer the given subquestions. [IMAGE: /data/images/ms4023_2024T3_Q1_NA_p7_Im1.webp|block]",
+      "group_id": "640653993417",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 122,
+      "text": "[IMAGE: /data/images/ms4023_2024T3_Q1_NA_p8_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/ms4023_2024T3_Q1_NA_p8_Im4.webp|inline]",
+        "[IMAGE: /data/images/ms4023_2024T3_Q1_NA_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/ms4023_2024T3_Q1_NA_p8_Im7.webp|inline]",
+        "[IMAGE: /data/images/ms4023_2024T3_Q1_NA_p8_Im8.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/ms4023_2024T3_Q1_NA_p8_Im7.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms4023_2024T3_Q1_NA_p8_Im3.webp",
+        "/data/images/ms4023_2024T3_Q1_NA_p8_Im2.webp",
+        "/data/images/ms4023_2024T3_Q1_NA_p8_Im4.webp",
+        "/data/images/ms4023_2024T3_Q1_NA_p8_Im5.webp",
+        "/data/images/ms4023_2024T3_Q1_NA_p8_Im7.webp",
+        "/data/images/ms4023_2024T3_Q1_NA_p8_Im8.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/ms4023_2024T3_Q1_NA_p8_Im2.webp|block]",
+      "group_id": "640653993436",
+      "section_name": "Game Theory"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 123,
+      "text": "Choose the correct alternative",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/ms4023_2024T3_Q1_NA_p9_Im2.webp|inline]",
+        "[IMAGE: /data/images/ms4023_2024T3_Q1_NA_p9_Im3.webp|inline] [IMAGE: /data/images/ms4023_2024T3_Q1_NA_p9_Im5.webp|block]",
+        "",
+        "[IMAGE: /data/images/ms4023_2024T3_Q1_NA_p9_Im6.webp|inline]"
+      ],
+      "correct_answer": "",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/ms4023_2024T3_Q1_NA_p8_Im2.webp",
+        "/data/images/ms4023_2024T3_Q1_NA_p9_Im2.webp",
+        "/data/images/ms4023_2024T3_Q1_NA_p9_Im3.webp",
+        "/data/images/ms4023_2024T3_Q1_NA_p9_Im5.webp",
+        "/data/images/ms4023_2024T3_Q1_NA_p9_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/ms4023_2024T3_Q1_NA_p8_Im2.webp|block]",
+      "group_id": "640653993436",
+      "section_name": "Game Theory"
+    }
+  ],
+  "id": "ms4023-2024t3-q1-na",
+  "course_code": "MS4023",
+  "course_name": "Game Theory and Strategy",
+  "level": "Degree",
+  "term": "Sep 2024",
+  "year": 2024,
+  "exam_type": "Quiz 1",
+  "session": "Standard"
+}

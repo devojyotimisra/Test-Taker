@@ -1,0 +1,375 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "da5013_2025T3_Q2_NA.pdf",
+  "total_questions": 16,
+  "total_marks": 50.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 199,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 200,
+      "text": "In an embedding-based speaker diarization pipeline, what is the primary role of the Agglomerative Clustering algorithm?",
+      "type": "MCQ",
+      "options": [
+        "To transcribe the audio segments into text using a model like Whisper.",
+        "To extract a 512-dimensional embedding (x-vector) from each audio segment.",
+        "To compare the cosine distance between segment embeddings and iteratively merge the closest ones until a target number of speakers is reached.",
+        "To detect non-speech segments (Voice Activity Detection) and discard them."
+      ],
+      "correct_answer": "To compare the cosine distance between segment embeddings and iteratively merge the closest ones until a target number of speakers is reached.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 201,
+      "text": "In modern Text-to-Speech (TTS) pipelines like Tacotron2 or FastSpeech, what is the specific role of a component like HiFi-GAN or WaveNet?",
+      "type": "MCQ",
+      "options": [
+        "To convert the input text into a sequence of phonemes (G2P).",
+        "To predict the duration of each phoneme in the sequence.",
+        "To convert the intermediate mel-spectrogram representation into a raw audio waveform.",
+        "To extract a speaker embedding from a reference audio file."
+      ],
+      "correct_answer": "To convert the intermediate mel-spectrogram representation into a raw audio waveform.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 202,
+      "text": "In the Wav2Vec2 pipeline, a 1-second (16000 samples) audio clip is passed to the 'Wav2Vec2Model' and results in a 'last hidden state' of shape (1, 49, 768). What do the dimensions 49 and 768 represent?",
+      "type": "MCQ",
+      "options": [
+        "49 = number of possible phonemes; 768 = batch size.",
+        "49 = the model\u2019s hidden dimension; 768 = the downsampled sequence length.",
+        "49 = the downsampled sequence length (timesteps); 768 = the model\u2019s hidden feature dimension.",
+        "49 = number of attention heads; 768 = the vocabulary size."
+      ],
+      "correct_answer": "49 = the downsampled sequence length (timesteps); 768 = the model\u2019s hidden feature dimension.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 203,
+      "text": "In an ASR model like Wav2Vec2-CTC, the final linear layer outputs a tensor of logits. What does this tensor represent?",
+      "type": "MCQ",
+      "options": [
+        "The final transcribed text string.",
+        "A probability distribution over potential speaker identities.",
+        "Raw, unnormalized scores for each token in the vocabulary (including the blank token) for each time step.",
+        "The mel-spectrogram of the input audio, compressed by the encoder."
+      ],
+      "correct_answer": "Raw, unnormalized scores for each token in the vocabulary (including the blank token) for each time step.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 204,
+      "text": "What is the primary architectural innovation of FastSpeech that makes it faster and more robust than an auto-regressive model like Tacotron2?",
+      "type": "MCQ",
+      "options": [
+        "It uses a more powerful vocoder (HiFi-GAN) to generate speech.",
+        "It predicts raw audio directly instead of mel-spectrograms.",
+        "It replaces the auto-regressive attention mechanism with a parallel \u201dDuration Predictor\u201d and \u201dLength Regulator\u201d.",
+        "It uses a much larger Transformer encoder to understand text."
+      ],
+      "correct_answer": "It replaces the auto-regressive attention mechanism with a parallel \u201dDuration Predictor\u201d and \u201dLength Regulator\u201d.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 205,
+      "text": "An audio clip has a duration of 5 seconds and is recorded at a sample rate of 44.1 kHz. What happens to the total number of samples if the audio is downsampled to 22.05 kHz?",
+      "type": "MCQ",
+      "options": [
+        "The number of samples remains the same.",
+        "The number of samples is halved.",
+        "The number of samples doubles.",
+        "The number of samples becomes one-quarter of the original."
+      ],
+      "correct_answer": "The number of samples is halved.",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 206,
+      "text": "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p3_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p3_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p3_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p3_Im6.webp|inline]",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T3_Q2_NA_p3_Im3.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p3_Im4.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p3_Im5.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p3_Im6.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p3_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 207,
+      "text": "A complete speaker diarization pipeline is used to determine \"who spoke when\". Which of the following are essential components of a modern, embedding-based diarization system? (Select ALL that apply)",
+      "type": "multichoice",
+      "options": [
+        "Voice Activity Detection (VAD) to filter out silence.",
+        "A speaker embedding model (e.g., ECAPA-TDNN) to create vectors for speech segments.",
+        "A clustering algorithm (e.g., Agglomerative Clustering) to group segments by speaker.",
+        "A Text-to-Speech (TTS) engine to generate the final output."
+      ],
+      "correct_answer": [
+        "Voice Activity Detection (VAD) to filter out silence.",
+        "A speaker embedding model (e.g., ECAPA-TDNN) to create vectors for speech segments.",
+        "A clustering algorithm (e.g., Agglomerative Clustering) to group segments by speaker."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 208,
+      "text": "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im3.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im6.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T3_Q2_NA_p4_Im3.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p4_Im4.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p4_Im5.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p4_Im6.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 209,
+      "text": "Which of the following statements accurately describe the Wav2Vec2 model and its components? (Select ALL that apply)",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im9.webp|inline] [IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im2.webp|block]",
+        "",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im3.webp|inline]"
+      ],
+      "correct_answer": [
+        "",
+        "",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im3.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T3_Q2_NA_p4_Im9.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p5_Im2.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p5_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 210,
+      "text": "Regarding the SpeechT5 model for Text-to-Speech (TTS), which of the following statements are true? (Select ALL that apply)",
+      "type": "multichoice",
+      "options": [
+        "It is an encoder-decoder Transformer model.",
+        "To generate speech for a specific voice, it requires a speaker embedding as an additional input.",
+        "HiFi-GAN is an integrated and mandatory part of the SpeechT5 model architecture.",
+        "It is pre-trained only on text data, similar to BERT."
+      ],
+      "correct_answer": [
+        "It is an encoder-decoder Transformer model.",
+        "To generate speech for a specific voice, it requires a speaker embedding as an additional input."
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 211,
+      "text": "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im5.webp|block]",
+      "type": "multichoice",
+      "options": [
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im7.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im8.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im9.webp|inline]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im8.webp|inline]"
+      ],
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T3_Q2_NA_p5_Im5.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p5_Im6.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p5_Im7.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p5_Im8.webp",
+        "/data/images/da5013_2025T3_Q2_NA_p5_Im9.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 212,
+      "text": "You are evaluating an ASR model using 'jiwer'. The ground truth transcription is: \"the quick brown fox jumps over the lazy dog\" (9 words). The model predicts: \"the quick fox jumped over a lazy dog\". Calculate the Word Error Rate (WER). Provide the answer as a decimal rounded to two places.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.33",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 213,
+      "text": "A 3.5-second audio file is sampled at 16000 Hz. It is fed into a 'Wav2Vec2Model' (\"facebook/wav2vec2-base-960h\"), which uses a CNN feature extractor that downsamples the input by a factor of 320. What will be the sequence length (i.e., the number of time steps) of the 'last hidden state' output?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "175",
+      "marks": 3.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 214,
+      "text": "A speaker diarization script processes a dataset with 200 unique speakers. It extracts an average of 15 segments for each speaker using a model, which produces 512- dimensional embeddings. If each embedding vector is stored using 32-bit floating-point precision (4 bytes per value), what is the total memory required to store all the segment embeddings in Megabytes (MB)? (Assume 1 MB = 1024 2 bytes). Round your answer to the nearest integer.",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "",
+      "marks": 4.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    }
+  ],
+  "id": "da5013-2025t3-q2-na",
+  "course_code": "DA5013",
+  "course_name": "Deep Learning Practice",
+  "level": "Degree",
+  "term": "Sep 2025",
+  "year": 2025,
+  "exam_type": "Quiz 2",
+  "session": "Standard"
+}

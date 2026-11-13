@@ -1,0 +1,549 @@
+{
+  "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+  "filename": "da5013_2025T2_ET_FN.pdf",
+  "total_questions": 23,
+  "total_marks": 100.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 275,
+      "text": "THIS IS QUESTION PAPER FOR THE SUBJECT \"DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 0.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 276,
+      "text": "Consider the task of applying a convolutional layer with a stride of 1 to an image of size 227 \u00d7 227 (Grayscale), while ensuring that the output feature map retains the same spatial dimensions . Which of the following code snippets correctly implements this using PyTorch?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2025T2_ET_FN_p1_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_ET_FN_p1_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_ET_FN_p1_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_ET_FN_p1_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p1_Im6.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p1_Im3.webp",
+        "/data/images/da5013_2025T2_ET_FN_p1_Im4.webp",
+        "/data/images/da5013_2025T2_ET_FN_p1_Im5.webp",
+        "/data/images/da5013_2025T2_ET_FN_p1_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 277,
+      "text": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p1_Im7.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Output size: 8 \u00d7 8; Effective receptive field: 5 \u00d7 5",
+        "Output size: 10 \u00d7 10; Effective receptive field: 5 \u00d7 5",
+        "Output size: 10 \u00d7 10; Effective receptive field: 3 \u00d7 3",
+        "Output size: 12 \u00d7 12; Effective receptive field: 7 \u00d7 7"
+      ],
+      "correct_answer": "Output size: 10 \u00d7 10; Effective receptive field: 5 \u00d7 5",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p1_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 278,
+      "text": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p2_Im3.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "AlexNet < InceptionNet-v3 < VGG-19 < ResNet-50",
+        "AlexNet < VGG-19 < Inception-v3 < ResNet-50",
+        "Inception-v3 < AlexNet < VGG-19 < ResNet-50",
+        "AlexNet < Inception-v3 < ResNet-50 < VGG-19"
+      ],
+      "correct_answer": "AlexNet < VGG-19 < Inception-v3 < ResNet-50",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p2_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 279,
+      "text": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p3_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "ResNet has too many parameters for this simple task.",
+        "Residual connections are only useful when training very deep networks, and this task does not require such depth.",
+        "ResNet architectures perform poorly on low-resolution inputs due to their reliance on fixed feature scales.",
+        "InceptionNet would have been better because it uses multiple receptive fields in parallel."
+      ],
+      "correct_answer": "Residual connections are only useful when training very deep networks, and this task does not require such depth.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p3_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 280,
+      "text": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p4_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/da5013_2025T2_ET_FN_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_ET_FN_p4_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_ET_FN_p4_Im6.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_ET_FN_p4_Im7.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p4_Im3.webp|inline]",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p4_Im1.webp",
+        "/data/images/da5013_2025T2_ET_FN_p4_Im3.webp",
+        "/data/images/da5013_2025T2_ET_FN_p4_Im5.webp",
+        "/data/images/da5013_2025T2_ET_FN_p4_Im6.webp",
+        "/data/images/da5013_2025T2_ET_FN_p4_Im7.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 281,
+      "text": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "A\u2013(e), B\u2013(c), C\u2013(a), D\u2013(d), E\u2013(b)",
+        "A\u2013(e), B\u2013(b), C\u2013(c), D\u2013(a), E\u2013(d)",
+        "A\u2013(e), B\u2013(a), C\u2013(c), D\u2013(d), E\u2013(b)",
+        "A\u2013(c), B\u2013(e), C\u2013(a), D\u2013(b), E\u2013(d)"
+      ],
+      "correct_answer": "A\u2013(e), B\u2013(c), C\u2013(a), D\u2013(d), E\u2013(b)",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 282,
+      "text": "Consider the original U-Net architecture. Which of the following statements about the convolutional and pooling operations is correct ?",
+      "type": "MCQ",
+      "options": [
+        "U-Net uses 5 \u00d7 5 convolutional filters and 2 \u00d7 2 max pooling filters with stride 2 in the encoder path.",
+        "U-Net uses 3 \u00d7 3 convolutional filters and 2 \u00d7 2 average pooling filters with stride 1 in both encoder and decoder.",
+        "U-Net uses 3 \u00d7 3 convolutional filters (with padding) and 2 \u00d7 2 max pooling filters with stride 2 to halve the spatial resolution in the encoder.",
+        "U-Net uses 3 \u00d7 3 filters and 1 \u00d7 1 pooling to preserve spatial dimensions between contracting and expanding paths."
+      ],
+      "correct_answer": "U-Net uses 3 \u00d7 3 convolutional filters (with padding) and 2 \u00d7 2 max pooling filters with stride 2 to halve the spatial resolution in the encoder.",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 283,
+      "text": "Which of the following are valid advantages of using Convolutional Neural Networks (CNNs) instead of fully connected Multilayer Perceptrons (MLPs) for image-based tasks?",
+      "type": "multichoice",
+      "options": [
+        "CNNs require significantly fewer parameters than MLPs for high-dimensional image inputs.",
+        "CNNs are better at capturing spatial hierarchies due to weight sharing and local connectivity.",
+        "CNNs can approximate any function with fewer layers than MLPs due to the universal approximation theorem.",
+        "CNNs are translation invariant by design, making them robust to object position shifts in images.",
+        "CNNs do not require any activation functions since convolutions are linear operators.",
+        "CNNs are computationally faster than MLPs on image data due to sparse connections and weight sharing."
+      ],
+      "correct_answer": [
+        "CNNs require significantly fewer parameters than MLPs for high-dimensional image inputs.",
+        "CNNs are better at capturing spatial hierarchies due to weight sharing and local connectivity.",
+        "CNNs are translation invariant by design, making them robust to object position shifts in images.",
+        "CNNs are computationally faster than MLPs on image data due to sparse connections and weight sharing."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 284,
+      "text": "In the Faster R-CNN architecture, the Region Proposal Network (RPN) plays a critical role in object detection. Which of the following statements correctly describe the role of the RPN?",
+      "type": "multichoice",
+      "options": [
+        "The RPN generates a set of class-agnostic region proposals likely to contain objects.",
+        "The RPN performs classification and bounding box regression to output object classes and their exact locations.",
+        "The RPN uses anchor boxes of different scales and aspect ratios to slide over convolutional feature maps.",
+        "The RPN replaces traditional region proposal methods like selective search, making the pipeline faster and end-to-end trainable.",
+        "The RPN outputs fixed-size feature maps that are directly used for object classification.",
+        "The RPN filters out background regions by assigning objectness scores to anchors."
+      ],
+      "correct_answer": [
+        "The RPN generates a set of class-agnostic region proposals likely to contain objects.",
+        "The RPN uses anchor boxes of different scales and aspect ratios to slide over convolutional feature maps.",
+        "The RPN replaces traditional region proposal methods like selective search, making the pipeline faster and end-to-end trainable.",
+        "The RPN filters out background regions by assigning objectness scores to anchors."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 285,
+      "text": "Which of the following are valid advantages of YOLO compared to Fast R-CNN or Faster R-CNN?",
+      "type": "multichoice",
+      "options": [
+        "YOLO performs object classification and localization in a single forward pass, making it faster than two-stage detectors like Fast R-CNN and Faster R-CNN.",
+        "YOLO does not require region proposal generation, making the entire pipeline fully end-to-end trainable.",
+        "YOLO achieves higher localization accuracy than Faster R-CNN on small objects due to its coarse grid-based prediction.",
+        "YOLO treats bounding box coordinates and objectness score as regression outputs, while computing class probabilities through classification.",
+        "YOLO achieves higher precision by using a large number of anchor boxes per region.",
+        "YOLO treats object detection as a regression problem, which simplifies the detection pipeline and reduces computational overhead."
+      ],
+      "correct_answer": [
+        "YOLO performs object classification and localization in a single forward pass, making it faster than two-stage detectors like Fast R-CNN and Faster R-CNN.",
+        "YOLO does not require region proposal generation, making the entire pipeline fully end-to-end trainable.",
+        "YOLO treats bounding box coordinates and objectness score as regression outputs, while computing class probabilities through classification.",
+        "YOLO treats object detection as a regression problem, which simplifies the detection pipeline and reduces computational overhead."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 286,
+      "text": "Which of the following are advantages of ResNet over VGG-19?",
+      "type": "multichoice",
+      "options": [
+        "ResNet requires fewer parameters than VGG-19 while achieving higher accuracy.",
+        "ResNet\u2019s residual connections help mitigate vanishing gradients in very deep networks.",
+        "On the CIFAR-10 dataset, ResNet achieves higher training and validation accuracy using significantly fewer convolutional layers than VGG-19.",
+        "ResNet models can be trained with depths exceeding 100 layers without suffering from degradation problems.",
+        "ResNet blocks require more memory and training time due to the skip connections compared to VGG-19.",
+        "VGG-19 is easier to deploy on edge devices because of its lightweight residual architecture."
+      ],
+      "correct_answer": [
+        "ResNet requires fewer parameters than VGG-19 while achieving higher accuracy.",
+        "ResNet\u2019s residual connections help mitigate vanishing gradients in very deep networks.",
+        "ResNet models can be trained with depths exceeding 100 layers without suffering from degradation problems."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 287,
+      "text": "Which of the following code snippets can be used for data augmentation during training in PyTorch?",
+      "type": "multichoice",
+      "options": [
+        "",
+        "[IMAGE: /data/images/da5013_2025T2_ET_FN_p8_Im1.webp|block] [IMAGE: /data/images/da5013_2025T2_ET_FN_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/da5013_2025T2_ET_FN_p8_Im5.webp|block]",
+        "[IMAGE: /data/images/da5013_2025T2_ET_FN_p8_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": [
+        "",
+        "[IMAGE: /data/images/da5013_2025T2_ET_FN_p8_Im5.webp|block]",
+        ""
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p8_Im1.webp",
+        "/data/images/da5013_2025T2_ET_FN_p8_Im3.webp",
+        "/data/images/da5013_2025T2_ET_FN_p8_Im5.webp",
+        "/data/images/da5013_2025T2_ET_FN_p8_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 288,
+      "text": "Which of the following statements are correct regarding Generative Adversarial Networks (GANs)?",
+      "type": "multichoice",
+      "options": [
+        "The generator tries to minimize the probability that the discriminator correctly classifies fake samples.",
+        "The discriminator is trained to maximize the probability of correctly classifying real and generated (fake) data.",
+        "The generator directly receives labeled training data to learn the target distribution.",
+        "During training, the generator is updated based on the discriminator\u2019s feedback to improve sample quality.",
+        "GAN training can suffer from instability due to the adversarial objective, leading to issues like mode collapse.",
+        "A perfectly trained discriminator ensures faster convergence of the generator."
+      ],
+      "correct_answer": [
+        "The generator tries to minimize the probability that the discriminator correctly classifies fake samples.",
+        "The discriminator is trained to maximize the probability of correctly classifying real and generated (fake) data.",
+        "During training, the generator is updated based on the discriminator\u2019s feedback to improve sample quality.",
+        "GAN training can suffer from instability due to the adversarial objective, leading to issues like mode collapse."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 289,
+      "text": "SRGAN and ESRGAN are both deep learning architectures designed for single image super- resolution. Which of the following statements correctly describe the key differences between ESRGAN and SRGAN?",
+      "type": "multichoice",
+      "options": [
+        "ESRGAN replaces the standard residual blocks in SRGAN with Residual-in- Residual Dense Blocks (RRDB) for better performance.",
+        "SRGAN employs Perceptual Loss, while ESRGAN removes it to focus only on pixel-wise MSE loss for training stability.",
+        "ESRGAN produces sharper and more realistic textures than SRGAN due to architectural and loss function improvements.",
+        "Both SRGAN and ESRGAN use a VGG-based perceptual loss computed on feature maps extracted from deeper and shallower layers, respectively, of a pretrained classifier.",
+        "SRGAN is trained using only adversarial and perceptual losses, whereas ESRGAN includes a content loss computed using pixel-wise L1 loss."
+      ],
+      "correct_answer": [
+        "ESRGAN replaces the standard residual blocks in SRGAN with Residual-in- Residual Dense Blocks (RRDB) for better performance.",
+        "ESRGAN produces sharper and more realistic textures than SRGAN due to architectural and loss function improvements.",
+        "SRGAN is trained using only adversarial and perceptual losses, whereas ESRGAN includes a content loss computed using pixel-wise L1 loss."
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 290,
+      "text": "The Multi-stage Progressive Image Restoration Network (MPRNet) is a state-of-the-art architecture for tasks like image deblurring and deraining. It follows a multi-stage design where features are progressively refined across stages. how many of the above components are explicitly part of the original MPRNet architecture?",
+      "type": "multichoice",
+      "options": [
+        "a single layer neural network.",
+        "UNet",
+        "Supervised Attention Module",
+        "Channel Attention Block",
+        "Fast RCNN block"
+      ],
+      "correct_answer": [
+        "UNet",
+        "Supervised Attention Module",
+        "Channel Attention Block"
+      ],
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 291,
+      "text": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p10_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "3029908880",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p10_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "original_number": 292,
+      "text": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p10_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.61 to 0.65",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p10_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "original_number": 293,
+      "text": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p11_Im1.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "0.49 to 0.53",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p11_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "original_number": 294,
+      "text": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p11_Im2.webp|block]",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "64",
+      "marks": 5.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p11_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "DLP"
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "original_number": 295,
+      "text": "Compute the PSNR for Model 1 (in dB) (rounded to 2 decimal places ) :",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "25.00",
+      "marks": 1.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p12_Im1.webp|block]",
+      "group_id": "6406531422685",
+      "section_name": "DLP"
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "original_number": 296,
+      "text": "Compute the PSNR for Model 2 (in dB) (rounded to 2 decimal places ):",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "25.55 to 25.59",
+      "marks": 1.5,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p12_Im1.webp|block]",
+      "group_id": "6406531422685",
+      "section_name": "DLP"
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "original_number": 297,
+      "text": "Which model produces an image more similar to the ground truth?",
+      "type": "numeric",
+      "options": null,
+      "correct_answer": "2",
+      "marks": 2.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/da5013_2025T2_ET_FN_p12_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": "[IMAGE: /data/images/da5013_2025T2_ET_FN_p12_Im1.webp|block]",
+      "group_id": "6406531422685",
+      "section_name": "DLP"
+    }
+  ],
+  "id": "da5013-2025t2-et-fn",
+  "course_code": "DA5013",
+  "course_name": "Deep Learning Practice",
+  "level": "Degree",
+  "term": "May 2025",
+  "year": 2025,
+  "exam_type": "End Term",
+  "session": "Forenoon"
+}

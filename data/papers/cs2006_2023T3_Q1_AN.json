@@ -1,0 +1,416 @@
+{
+  "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)",
+  "filename": "cs2006_2023T3_Q1_AN.pdf",
+  "total_questions": 17,
+  "total_marks": 17.0,
+  "questions": [
+    {
+      "id": 1,
+      "number": 1,
+      "original_number": 150,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 THIS IS QUESTION PAPER FOR THE SUBJECT \"DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)\" ARE YOU SURE YOU HAVE TO WRITE EXAM FOR THIS SUBJECT? CROSS CHECK YOUR HALL TICKET TO CONFIRM THE SUBJECTS TO BE WRITTEN. (IF IT IS NOT THE CORRECT SUBJECT, PLS CHECK THE SECTION AT THE TOP FOR THE SUBJECTS REGISTERED BY YOU)",
+      "type": "MCQ",
+      "options": [
+        "YES",
+        "NO"
+      ],
+      "correct_answer": "YES",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "original_number": 151,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is true regarding, var, let & const?",
+      "type": "MCQ",
+      "options": [
+        "A variable created using \u201cvar\u201d is always added as a property to the global object.",
+        "A variable created using \u201clet\u201d is never added as a property to the global object.",
+        "A variable created using \u201cconst\u201d is not hoisted.",
+        "All of these"
+      ],
+      "correct_answer": "A variable created using \u201clet\u201d is never added as a property to the global object.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "original_number": 152,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is not a valid IIFE (Immediately Invoked Function Expression)?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p2_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p2_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p2_Im6.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p2_Im6.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T3_Q1_AN_p2_Im4.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p2_Im5.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p2_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "original_number": 153,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is not an example of application or UI (ephemeral) state?",
+      "type": "MCQ",
+      "options": [
+        "User Preferences & Recommendations",
+        "Loading Icons",
+        "Dashboard Displays",
+        "User Database of NPTEL"
+      ],
+      "correct_answer": "User Database of NPTEL",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "original_number": 154,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements are correct regarding a variable declared using var keyword?",
+      "type": "MCQ",
+      "options": [
+        "Variable is always globally scoped.",
+        "Variable declared inside the function can be accessed outside the function.",
+        "Variable declared inside a function can only be accessed inside the function.",
+        "None of these"
+      ],
+      "correct_answer": "Variable declared inside a function can only be accessed inside the function.",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "original_number": 155,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is/are correct definition(s) of an arrow function that accepts 2 numbers and return the addition of their squares?",
+      "type": "multichoice",
+      "options": [
+        "let func = (num1, num2) => return num1*num1 + num2*num2;",
+        "let func = (num1, num2) => num1*num1 + num2*num2;",
+        "let func = (num1, num2) => { return num1*num1 + num2*num2; }",
+        "let func = (num1, num2) => { num1*num1 + num2*num2; }"
+      ],
+      "correct_answer": [
+        "let func = (num1, num2) => num1*num1 + num2*num2;",
+        "let func = (num1, num2) => { return num1*num1 + num2*num2; }"
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "original_number": 156,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statement(s) is/are true regarding event loop in javascript?",
+      "type": "multichoice",
+      "options": [
+        "The event loop makes sure that each function is processed (or executed) completely before any other function is executed.",
+        "The event loop takes the function from the callback queue, and sends the function to the call stack for execution.",
+        "The event loop can stop any function in running state to allow some other function to run on priority.",
+        "All of these"
+      ],
+      "correct_answer": [
+        "The event loop makes sure that each function is processed (or executed) completely before any other function is executed.",
+        "The event loop takes the function from the callback queue, and sends the function to the call stack for execution."
+      ],
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "original_number": 157,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following shows the correct output for the below javascript program? [IMAGE: /data/images/cs2006_2023T3_Q1_AN_p5_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Value: 100",
+        "The program will crash due to repeated function calls",
+        "Value: 40",
+        "Value: 10"
+      ],
+      "correct_answer": "The program will crash due to repeated function calls",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T3_Q1_AN_p5_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "original_number": 158,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following JavaScript program. [IMAGE: /data/images/cs2006_2023T3_Q1_AN_p6_Im2.webp|block] What will be logged on to the console?",
+      "type": "MCQ",
+      "options": [
+        "Username: Name1, Password: 12345",
+        "Username: user1, Password: 12345",
+        "Username: Name1, Password: undefined",
+        "Username: user1, Password: undefined"
+      ],
+      "correct_answer": "Username: Name1, Password: 12345",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T3_Q1_AN_p6_Im2.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "original_number": 159,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following JavaScript code. [IMAGE: /data/images/cs2006_2023T3_Q1_AN_p7_Im1.webp|block] What will be logged on to the console for the statement \"console.log(inning.overs[0].balls[2].batsman)\"?",
+      "type": "MCQ",
+      "options": [
+        "Rohit",
+        "Gill",
+        "Virat",
+        "None of these"
+      ],
+      "correct_answer": "Rohit",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T3_Q1_AN_p7_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "original_number": 160,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following JavaScript code. [IMAGE: /data/images/cs2006_2023T3_Q1_AN_p9_Im1.webp|block] What will be logged on to the console for the statement \"console.log(inning.currentOver.overNo)\"?",
+      "type": "MCQ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "4",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T3_Q1_AN_p9_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "original_number": 161,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is not a correct way to destructure (or unpack) an array?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p10_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p10_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p10_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p10_Im6.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p10_Im5.webp|inline]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T3_Q1_AN_p10_Im3.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p10_Im4.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p10_Im5.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p10_Im6.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "original_number": 162,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup index.html and javascript file app.js. [IMAGE: /data/images/cs2006_2023T3_Q1_AN_p11_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p11_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p11_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p12_Im2.webp|block]",
+        "",
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p12_Im3.webp|inline]"
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p11_Im5.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T3_Q1_AN_p11_Im1.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p11_Im5.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p11_Im6.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p12_Im2.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p12_Im3.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "original_number": 163,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following JavaScript code. [IMAGE: /data/images/cs2006_2023T3_Q1_AN_p12_Im4.webp|block] What will be logged on the console?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p12_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p13_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p13_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p13_Im4.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T3_Q1_AN_p12_Im4.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p12_Im6.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p13_Im2.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p13_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "original_number": 164,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following JavaScript code. [IMAGE: /data/images/cs2006_2023T3_Q1_AN_p13_Im5.webp|block] What will be logged on to the console?",
+      "type": "MCQ",
+      "options": [
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p13_Im6.webp|inline] [IMAGE: /data/images/cs2006_2023T3_Q1_AN_p14_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p14_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p14_Im4.webp|block]",
+        ""
+      ],
+      "correct_answer": "[IMAGE: /data/images/cs2006_2023T3_Q1_AN_p13_Im6.webp|inline] [IMAGE: /data/images/cs2006_2023T3_Q1_AN_p14_Im2.webp|block]",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T3_Q1_AN_p13_Im5.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p13_Im6.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p14_Im2.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p14_Im3.webp",
+        "/data/images/cs2006_2023T3_Q1_AN_p14_Im4.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "original_number": 165,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup index.html and JavaScript app.js [IMAGE: /data/images/cs2006_2023T3_Q1_AN_p15_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "Total Count: 2",
+        "Total Count: 3",
+        "Total Count: 4",
+        "Total Count: 5"
+      ],
+      "correct_answer": "Total Count: 3",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T3_Q1_AN_p15_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "original_number": 166,
+      "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Vue application with markup index.html and JavaScript app.js [IMAGE: /data/images/cs2006_2023T3_Q1_AN_p16_Im1.webp|block]",
+      "type": "MCQ",
+      "options": [
+        "0",
+        "5",
+        "6",
+        "8"
+      ],
+      "correct_answer": "6",
+      "marks": 1.0,
+      "negative_marks": 0.0,
+      "images": [
+        "/data/images/cs2006_2023T3_Q1_AN_p16_Im1.webp"
+      ],
+      "image_locations": [],
+      "comprehension_passage": null,
+      "group_id": null,
+      "section_name": "AppDev2"
+    }
+  ],
+  "id": "cs2006-2023t3-q1-an",
+  "course_code": "CS2006",
+  "course_name": "Application Development 2",
+  "level": "Diploma in Programming",
+  "term": "Sep 2023",
+  "year": 2023,
+  "exam_type": "Quiz 1",
+  "session": "Afternoon"
+}

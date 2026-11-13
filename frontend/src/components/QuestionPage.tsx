@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import {
   ArrowLeft,
+  Calculator,
   Check,
   CheckCircle2,
   ChevronLeft,
@@ -15,6 +16,7 @@ import { Badge } from "./ui/badge";
 import { ThemeToggle } from "./ThemeToggle";
 import { Timer } from "./Timer";
 import { FormulaRenderer } from "./FormulaRenderer";
+import { ScientificCalculator } from "./ScientificCalculator";
 import { Paper, QuestionScore, UserAnswers } from "@/types";
 
 const apiBase = import.meta.env.VITE_API_URL || "";
@@ -28,6 +30,7 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
   const questions = paper.questions || [];
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [answers, setAnswers] = useState<UserAnswers>({});
+  const [isCalcOpen, setIsCalcOpen] = useState(false);
 
   const [timerSeconds, setTimerSeconds] = useState<number>(0);
   const [timerRunning, setTimerRunning] = useState<boolean>(true);
@@ -171,6 +174,15 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
             </div>
 
             <div className="sm:hidden flex items-center gap-1.5">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setIsCalcOpen((prev) => !prev)}
+                className="h-8 px-2 text-xs gap-1 cursor-pointer"
+                title="Calculator"
+              >
+                <Calculator className="h-4 w-4" />
+              </Button>
               <ThemeToggle />
             </div>
           </div>
@@ -184,7 +196,17 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
             />
           </div>
 
-          <div className="hidden sm:flex items-center gap-2.5 justify-self-end">
+          <div className="hidden sm:flex items-center gap-2 justify-self-end">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setIsCalcOpen((prev) => !prev)}
+              className="h-8 px-2.5 text-xs gap-1.5 cursor-pointer"
+              title="Open Scientific Calculator"
+            >
+              <Calculator className="h-4 w-4" />
+              <span>Calculator</span>
+            </Button>
             <ThemeToggle />
           </div>
         </div>
@@ -555,6 +577,11 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
           </Card>
         </div>
       </main>
+
+      <ScientificCalculator
+        isOpen={isCalcOpen}
+        onClose={() => setIsCalcOpen(false)}
+      />
     </div>
   );
 }

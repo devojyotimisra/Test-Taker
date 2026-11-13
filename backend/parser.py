@@ -142,6 +142,7 @@ def parse_with_pdfplumber(
                                     "bottom": w["bottom"],
                                     "text": w["text"],
                                     "color": w.get("non_stroking_color"),
+                                    "size": w.get("size"),
                                 }
                             ],
                             "icon": None,
@@ -157,6 +158,7 @@ def parse_with_pdfplumber(
                             "bottom": w["bottom"],
                             "text": w["text"],
                             "color": w.get("non_stroking_color"),
+                            "size": w.get("size"),
                         }
                     )
                     text_lines[-1]["bottom"] = max(text_lines[-1]["bottom"], w["bottom"])
@@ -301,8 +303,18 @@ def parse_with_pdfplumber(
             current_q = None
 
     prev_plain = ""
-    for line in all_lines:
+    for line_idx, line in enumerate(all_lines):
         plain = line_text(line)
+
+        next_plain = line_text(all_lines[line_idx + 1]) if line_idx + 1 < len(all_lines) else ""
+        if next_plain and re.match(r"^\s*Section\s+Id\s*:", next_plain, re.I):
+            if plain and not META_RE.match(plain) and not NOISE_RE.match(plain):
+                finish_q()
+                current_section = plain.strip()
+                current_group = None
+                state = "skip"
+                prev_plain = plain
+                continue
 
         if re.match(r"^\s*Section\s+Id\s*:", plain, re.I):
             finish_q()
@@ -541,7 +553,7 @@ def parse_with_pdfplumber(
         for i, start_idx in enumerate(conf_indices):
             end_idx = conf_indices[i + 1] if i + 1 < len(conf_indices) else len(valid_q_dicts)
             cluster_qs = valid_q_dicts[start_idx:end_idx]
-            sub_name = cluster_qs[0].get("subject_name") or paper_subject
+            sub_name = cluster_qs[0].get("subject_name") or cluster_qs[0].get("section_name") or paper_subject
             clusters.append({
                 "subject": sub_name,
                 "questions": cluster_qs,
@@ -550,6 +562,12 @@ def parse_with_pdfplumber(
         valid_q_dicts = best_cluster["questions"]
         if best_cluster["subject"]:
             paper_subject = best_cluster["subject"]
+
+    if not paper_subject and valid_q_dicts:
+        for q in valid_q_dicts:
+            if q.get("section_name"):
+                paper_subject = q["section_name"]
+                break
 
     final_questions: List[Question] = []
     idx = 1

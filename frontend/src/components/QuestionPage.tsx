@@ -154,8 +154,11 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
 
               <div>
                 <div className="flex items-center gap-1.5 sm:gap-2">
-                  <span className="font-semibold text-xs sm:text-sm">
-                    Assessment
+                  <span
+                    className="font-semibold text-xs sm:text-sm max-w-[150px] xs:max-w-[220px] sm:max-w-xs md:max-w-md truncate"
+                    title={currentQ?.section_name || paper.title || "Assessment"}
+                  >
+                    {currentQ?.section_name || paper.title || "Assessment"}
                   </span>
                   <span className="text-[10px] sm:text-xs font-mono font-semibold px-1.5 sm:px-2 py-0.5 rounded-md border border-primary/30 bg-primary/10 text-primary">
                     Full Marks: {paper.total_marks.toFixed(2)}
@@ -212,14 +215,7 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                         Comprehension Set
                       </Badge>
                     )}
-                    {currentQ.section_name && (
-                      <Badge
-                        variant="secondary"
-                        className="text-xs hidden sm:inline-flex"
-                      >
-                        {currentQ.section_name}
-                      </Badge>
-                    )}
+
                   </div>
 
                   <div className="flex items-center gap-2">

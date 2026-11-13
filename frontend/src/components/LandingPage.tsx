@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FileText, Upload, Zap } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 import { ThemeToggle } from "./ThemeToggle";
-import { PWAInstallButton } from "./PWAInstallButton";
 import { useToast } from "./ui/toast";
 
 interface LandingPageProps {
@@ -72,7 +71,6 @@ export function LandingPage({ onUpload }: LandingPageProps) {
           </div>
 
           <div className="flex items-center gap-2 sm:gap-2.5">
-            <PWAInstallButton />
             <ThemeToggle />
           </div>
         </div>

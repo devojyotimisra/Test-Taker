@@ -103,7 +103,7 @@ def parse_with_pdfplumber(
     pdf_path: str,
     image_dir: str = "temp/image",
     image_prefix: Optional[str] = "temp/image",
-    skip_confirmation: bool = True,
+    skip_confirmation: bool = False,
     embed_base64: bool = True,
 ) -> Paper:
     reader = PdfReader(pdf_path)
@@ -434,14 +434,17 @@ def parse_with_pdfplumber(
                 m_m = MARKS_RE.search(plain)
                 if m_m:
                     current_q["marks"] = float(m_m.group(1))
+                    continue
                 m_n = NEG_RE.search(plain)
                 if m_n:
                     current_q["negative_marks"] = float(m_n.group(1))
+                    continue
             if current_group:
                 m_rng = QNUMS_RE.search(plain)
                 if m_rng:
                     current_group["first"] = int(m_rng.group(1))
                     current_group["last"] = int(m_rng.group(2))
+                    continue
 
             lm = LABEL_RE.match(plain)
             if lm:
@@ -453,8 +456,11 @@ def parse_with_pdfplumber(
                         current_q["label"] = label
                     state = "body"
                 continue
-            elif not META_RE.match(plain) and not NOISE_RE.match(plain):
-                state = "passage" if state == "ghead" else "body"
+
+            if META_RE.match(plain) or NOISE_RE.match(plain):
+                continue
+
+            state = "passage" if state == "ghead" else "body"
 
         if not plain and line["type"] != "image_block":
             continue
@@ -487,7 +493,8 @@ def parse_with_pdfplumber(
             continue
 
         if META_RE.match(plain):
-            state = "skip"
+            if state in ("options", "option", "answers"):
+                state = "skip"
             continue
 
         if state == "answers":
@@ -529,8 +536,7 @@ def parse_with_pdfplumber(
             continue
         valid_q_dicts.append(q_dict)
 
-    if all(q.get("number") is not None for q in valid_q_dicts):
-        valid_q_dicts.sort(key=lambda q: q["number"])
+    # Preserve exact document order (no artificial sorting)
 
     final_questions: List[Question] = []
     idx = 1
@@ -599,7 +605,7 @@ def parse_pdf_to_paper(
     pdf_path: str,
     image_dir: str = "temp/image",
     image_prefix: Optional[str] = "temp/image",
-    skip_confirmation: bool = True,
+    skip_confirmation: bool = False,
     embed_base64: bool = True,
 ) -> Paper:
     # On serverless (Vercel) or environments where PyMuPDF binaries are not installed,
@@ -967,14 +973,17 @@ def parse_pdf_to_paper(
                         m_m = MARKS_RE.search(plain)
                         if m_m:
                             current_q["marks"] = float(m_m.group(1))
+                            continue
                         m_n = NEG_RE.search(plain)
                         if m_n:
                             current_q["negative_marks"] = float(m_n.group(1))
+                            continue
                     if current_group:
                         m_rng = QNUMS_RE.search(plain)
                         if m_rng:
                             current_group["first"] = int(m_rng.group(1))
                             current_group["last"] = int(m_rng.group(2))
+                            continue
 
                     lm = LABEL_RE.match(plain)
                     if lm:
@@ -986,8 +995,11 @@ def parse_pdf_to_paper(
                                 current_q["label"] = label
                             state = "body"
                         continue
-                    elif not META_RE.match(plain) and not NOISE_RE.match(plain):
-                        state = "passage" if state == "ghead" else "body"
+
+                    if META_RE.match(plain) or NOISE_RE.match(plain):
+                        continue
+
+                    state = "passage" if state == "ghead" else "body"
 
                 if not plain and not any(f["kind"] == "i" for f in fr):
                     continue
@@ -1035,7 +1047,8 @@ def parse_pdf_to_paper(
                     continue
 
                 if META_RE.match(plain):
-                    state = "skip"
+                    if state in ("options", "option", "answers"):
+                        state = "skip"
                     continue
 
                 if state == "answers":
@@ -1087,8 +1100,7 @@ def parse_pdf_to_paper(
                 continue
             valid_q_dicts.append(q_dict)
 
-        if all(q.get("number") is not None for q in valid_q_dicts):
-            valid_q_dicts.sort(key=lambda q: q["number"])
+        # Preserve exact document order (no artificial sorting)
 
         final_questions_fitz: List[Question] = []
         idx = 1

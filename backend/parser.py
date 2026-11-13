@@ -288,14 +288,30 @@ def parse_with_pdfplumber(
                 current_q["subject_check"] = True
                 m = SUBJECT_CHECK_RE.search(full_txt)
                 if m:
-                    paper_subject = re.sub(r"\s+", " ", m.group(1)).strip()
+                    current_q["subject_name"] = re.sub(r"\s+", " ", m.group(1)).strip().strip('"')
+                    if not paper_subject:
+                        paper_subject = current_q["subject_name"]
+                elif current_section:
+                    current_q["subject_name"] = current_section
+            else:
+                current_q["subject_check"] = False
             has_content = bool(current_q["body_parts"] or current_q["options"] or current_q["answers"] or current_q["subject_check"])
             if has_content:
                 questions.append(current_q)
             current_q = None
 
+    prev_plain = ""
     for line in all_lines:
         plain = line_text(line)
+
+        if re.match(r"^\s*Section\s+Id\s*:", plain, re.I):
+            finish_q()
+            if prev_plain and not META_RE.match(prev_plain) and not NOISE_RE.match(prev_plain):
+                current_section = prev_plain
+            current_group = None
+            state = "skip"
+            prev_plain = plain
+            continue
 
         if plain and len(line.get("tokens", [])) > 0:
             first_tok = line["tokens"][0]
@@ -305,6 +321,7 @@ def parse_with_pdfplumber(
                 current_section = plain.strip()
                 current_group = None
                 state = "skip"
+                prev_plain = plain
                 continue
 
         m_q = QNUM_RE.search(plain)
@@ -498,7 +515,12 @@ def parse_with_pdfplumber(
             rendered = render_token_line(line)
             if current_q and current_q["options"] and rendered:
                 current_q["options"][-1]["text"] = f"{current_q['options'][-1]['text']} {rendered}".strip()
+            if plain:
+                prev_plain = plain
             continue
+
+        if plain:
+            prev_plain = plain
 
     finish_q()
 
@@ -512,6 +534,22 @@ def parse_with_pdfplumber(
         if not has_text and not has_opts and not has_ans:
             continue
         valid_q_dicts.append(q_dict)
+
+    conf_indices = [i for i, q in enumerate(valid_q_dicts) if q.get("subject_check")]
+    if conf_indices:
+        clusters = []
+        for i, start_idx in enumerate(conf_indices):
+            end_idx = conf_indices[i + 1] if i + 1 < len(conf_indices) else len(valid_q_dicts)
+            cluster_qs = valid_q_dicts[start_idx:end_idx]
+            sub_name = cluster_qs[0].get("subject_name") or paper_subject
+            clusters.append({
+                "subject": sub_name,
+                "questions": cluster_qs,
+            })
+        best_cluster = max(clusters, key=lambda c: len(c["questions"]))
+        valid_q_dicts = best_cluster["questions"]
+        if best_cluster["subject"]:
+            paper_subject = best_cluster["subject"]
 
     final_questions: List[Question] = []
     idx = 1

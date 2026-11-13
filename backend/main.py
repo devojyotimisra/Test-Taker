@@ -7,14 +7,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from starlette.exceptions import HTTPException as StarletteHTTPException
-try:
-    from backend.models import AnswerSubmission, Paper
-    from backend.parser import parse_pdf_to_paper
-    from backend.scorer import score_question
-except ModuleNotFoundError:
-    from models import AnswerSubmission, Paper
-    from parser import parse_pdf_to_paper
-    from scorer import score_question
+from models import AnswerSubmission, Paper
+from parser import parse_pdf_to_paper
+from scorer import score_question
 
 app = FastAPI(title="Assessment API")
 
@@ -228,5 +223,5 @@ if __name__ == "__main__":
     import uvicorn
     host = os.getenv("HOST", "0.0.0.0")
     port = int(os.getenv("PORT", "8000"))
-    app_module = "backend.main:app" if Path("backend").is_dir() else "main:app"
+    app_module = "main:app"
     uvicorn.run(app_module, host=host, port=port, reload=True)

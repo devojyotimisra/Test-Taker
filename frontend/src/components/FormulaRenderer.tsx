@@ -39,7 +39,6 @@ export function FormulaRenderer({
         raw.toLowerCase().endsWith(".jpeg");
     }
 
-    // Resolve URL: Data URI, absolute HTTP URL, or backend fallback
     let finalSrc = src;
     if (
       !src.startsWith("data:") &&
@@ -98,7 +97,6 @@ export function FormulaRenderer({
     <>
       <span className={className}>{parts}</span>
 
-      {/* Lightbox Modal for Full-Size Image Inspection */}
       {zoomedImage && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-xs p-4 animate-in fade-in duration-150"
@@ -121,9 +119,6 @@ export function FormulaRenderer({
               alt="Full size diagram"
               className="w-auto h-auto max-w-full max-h-[82vh] object-contain rounded-lg mx-auto"
             />
-            <div className="text-center text-xs text-muted-foreground mt-2 font-mono">
-              Displayed in original resolution
-            </div>
           </div>
         </div>
       )}

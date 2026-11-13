@@ -10,7 +10,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR / "backend"))
 
-from parser import parse_pdf_to_paper
+from app.parser import parse_pdf_to_paper
 
 COURSE_NAMES = {
     "BSCS1001": "Computational Thinking",

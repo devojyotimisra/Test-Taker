@@ -335,14 +335,14 @@
       "text": "Mix is a recursive procedure that interleaves two lists. If the lists have different lengths, the remaining elements of the longer list are appended at the end. Select the correct code fragment(s) to complete the pseudocode. [IMAGE: /data/images/bscs1001_2026T2_ET_AN_p13_Im1.webp|block] Examples: \u2022 [IMAGE: /data/images/bscs1001_2026T2_ET_AN_p13_Im2.webp|inline] returns [IMAGE: /data/images/bscs1001_2026T2_ET_AN_p13_Im3.webp|inline] . \u2022 [IMAGE: /data/images/bscs1001_2026T2_ET_AN_p13_Im4.webp|inline] returns [IMAGE: /data/images/bscs1001_2026T2_ET_AN_p13_Im5.webp|inline] . \u2022 [IMAGE: /data/images/bscs1001_2026T2_ET_AN_p13_Im6.webp|inline] returns [IMAGE: /data/images/bscs1001_2026T2_ET_AN_p13_Im7.webp|inline] .",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_AN_p14_Im3.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_AN_p14_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_AN_p13_Im9.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_AN_p14_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_AN_p14_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_AN_p14_Im4.webp|block]"
       ],
       "correct_answer": [
-        "",
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_AN_p14_Im3.webp|block]"
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_AN_p13_Im9.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_AN_p14_Im1.webp|block]"
       ],
       "marks": 6.0,
       "negative_marks": 0.0,
@@ -354,6 +354,7 @@
         "/data/images/bscs1001_2026T2_ET_AN_p13_Im5.webp",
         "/data/images/bscs1001_2026T2_ET_AN_p13_Im6.webp",
         "/data/images/bscs1001_2026T2_ET_AN_p13_Im7.webp",
+        "/data/images/bscs1001_2026T2_ET_AN_p13_Im9.webp",
         "/data/images/bscs1001_2026T2_ET_AN_p14_Im1.webp",
         "/data/images/bscs1001_2026T2_ET_AN_p14_Im3.webp",
         "/data/images/bscs1001_2026T2_ET_AN_p14_Im4.webp"

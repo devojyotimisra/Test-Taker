@@ -92,16 +92,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which options represent the output of the following code block? [IMAGE: /data/images/cs2008_2023T1_ET_AN_p3_Im3.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p3_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p3_Im5.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p3_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p4_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p4_Im2.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p4_Im2.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p3_Im6.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2008_2023T1_ET_AN_p3_Im3.webp",
+        "/data/images/cs2008_2023T1_ET_AN_p3_Im4.webp",
         "/data/images/cs2008_2023T1_ET_AN_p3_Im5.webp",
         "/data/images/cs2008_2023T1_ET_AN_p3_Im6.webp",
         "/data/images/cs2008_2023T1_ET_AN_p4_Im2.webp"
@@ -141,17 +142,18 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following code block: [IMAGE: /data/images/cs2008_2023T1_ET_AN_p5_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p5_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p5_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p5_Im6.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p6_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_ET_AN_p6_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p6_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p6_Im3.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p5_Im6.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2008_2023T1_ET_AN_p5_Im1.webp",
+        "/data/images/cs2008_2023T1_ET_AN_p5_Im3.webp",
         "/data/images/cs2008_2023T1_ET_AN_p5_Im4.webp",
         "/data/images/cs2008_2023T1_ET_AN_p5_Im6.webp",
         "/data/images/cs2008_2023T1_ET_AN_p6_Im1.webp",
@@ -330,17 +332,18 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following ML task/steps for a regression dataset: 1. Read the data from a file (named \u2018dataset.csv\u2019). It has 7 columns. The last column is the target variable, all 6 features numerical. 2. Remove rows which have target values missing. 3. Fill the missing values in the features by KNN using 3 nearest neighbours. 4. Split the data into training and test sets. Take randomly the 70% of rows in the training set and the rest of them into the test set. 5. Train a simple linear regression model, with intercept, on the training set. 6. Report R2 score on the test set. Which of the following code snippets correctly accomplishes the above task? Assume necessary imports.",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p11_Im2.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p11_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p12_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_ET_AN_p12_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p12_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p12_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p12_Im4.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p12_Im5.webp|inline]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p11_Im4.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p11_Im2.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2023T1_ET_AN_p11_Im2.webp",
         "/data/images/cs2008_2023T1_ET_AN_p11_Im4.webp",
         "/data/images/cs2008_2023T1_ET_AN_p12_Im1.webp",
         "/data/images/cs2008_2023T1_ET_AN_p12_Im3.webp",
@@ -639,18 +642,19 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 We wish to load the wine dataset from sklearn. Which of the following will throw an error?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p22_Im2.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p22_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p22_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p22_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p22_Im6.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p22_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p22_Im5.webp|block]"
+        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p22_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_ET_AN_p22_Im3.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2023T1_ET_AN_p22_Im2.webp",
         "/data/images/cs2008_2023T1_ET_AN_p22_Im3.webp",
         "/data/images/cs2008_2023T1_ET_AN_p22_Im5.webp",
         "/data/images/cs2008_2023T1_ET_AN_p22_Im6.webp"

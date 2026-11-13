@@ -473,14 +473,14 @@
       "text": "You want to perform the following operations: 1. Create a new nested directory path named [IMAGE: /data/images/se2001_2026T2_Q1_NA_p12_Im1.webp|inline] directly inside [IMAGE: /data/images/se2001_2026T2_Q1_NA_p12_Im2.webp|inline] . 2. Create an empty file named [IMAGE: /data/images/se2001_2026T2_Q1_NA_p12_Im3.webp|inline] inside that new [IMAGE: /data/images/se2001_2026T2_Q1_NA_p12_Im4.webp|inline] directory. 3. Inside the [IMAGE: /data/images/se2001_2026T2_Q1_NA_p12_Im5.webp|inline] directory, create nine new empty test files named [IMAGE: /data/images/se2001_2026T2_Q1_NA_p12_Im6.webp|inline] , [IMAGE: /data/images/se2001_2026T2_Q1_NA_p12_Im7.webp|inline] , ... up to [IMAGE: /data/images/se2001_2026T2_Q1_NA_p12_Im8.webp|inline] . Which of the following command sets will perform all the above operations correctly?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/se2001_2026T2_Q1_NA_p12_Im10.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_Q1_NA_p12_Im12.webp|block]",
-        "",
-        "[IMAGE: /data/images/se2001_2026T2_Q1_NA_p13_Im1.webp|block] [IMAGE: /data/images/se2001_2026T2_Q1_NA_p13_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T2_Q1_NA_p13_Im1.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T2_Q1_NA_p13_Im3.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/se2001_2026T2_Q1_NA_p12_Im12.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T2_Q1_NA_p13_Im1.webp|block] [IMAGE: /data/images/se2001_2026T2_Q1_NA_p13_Im3.webp|block]"
+        "[IMAGE: /data/images/se2001_2026T2_Q1_NA_p12_Im10.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T2_Q1_NA_p13_Im1.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
@@ -496,6 +496,7 @@
         "/data/images/se2001_2026T2_Q1_NA_p11_Im10.webp",
         "/data/images/se2001_2026T2_Q1_NA_p11_Im11.webp",
         "/data/images/se2001_2026T2_Q1_NA_p11_Im12.webp",
+        "/data/images/se2001_2026T2_Q1_NA_p12_Im10.webp",
         "/data/images/se2001_2026T2_Q1_NA_p12_Im12.webp",
         "/data/images/se2001_2026T2_Q1_NA_p13_Im1.webp",
         "/data/images/se2001_2026T2_Q1_NA_p13_Im3.webp"

@@ -91,12 +91,12 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a binary classification problem. Let p 1 denote the proportion of class 0 examples in a particular node. Which of the following graphs shows correct curves for the Gini-index, Entropy and misclassification error of that node?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p3_Im1.webp|block] [IMAGE: /data/images/cs2007_2022T2_ET_AN_p3_Im3.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p4_Im1.webp|block] [IMAGE: /data/images/cs2007_2022T2_ET_AN_p4_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p3_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p3_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p4_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p4_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p3_Im1.webp|block] [IMAGE: /data/images/cs2007_2022T2_ET_AN_p3_Im3.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p3_Im1.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -226,16 +226,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2022T2_ET_AN_p8_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p8_Im3.webp|block]",
         "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p8_Im5.webp|block]",
         "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p8_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p8_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p8_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p8_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p8_Im3.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2007_2022T2_ET_AN_p8_Im1.webp",
+        "/data/images/cs2007_2022T2_ET_AN_p8_Im3.webp",
         "/data/images/cs2007_2022T2_ET_AN_p8_Im5.webp",
         "/data/images/cs2007_2022T2_ET_AN_p8_Im6.webp",
         "/data/images/cs2007_2022T2_ET_AN_p8_Im7.webp"
@@ -318,21 +319,22 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following code blocks will produce the same value for the variable \u2018Ans\u2019? Assume the \u2018numpy\u2019 library is imported as \u2018np\u2019.",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im4.webp|inline] [IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im5.webp|block]",
         "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im7.webp|inline]",
         "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im8.webp|inline]"
       ],
       "correct_answer": [
-        "",
-        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im4.webp|inline] [IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im6.webp|block]"
+        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2022T2_ET_AN_p11_Im5.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2007_2022T2_ET_AN_p11_Im3.webp",
         "/data/images/cs2007_2022T2_ET_AN_p11_Im4.webp",
         "/data/images/cs2007_2022T2_ET_AN_p11_Im5.webp",
         "/data/images/cs2007_2022T2_ET_AN_p11_Im6.webp",

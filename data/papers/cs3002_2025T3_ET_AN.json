@@ -369,19 +369,20 @@
       "text": "Consider test-driven development (TDD) of a software program that works with geometric objects. The implementation for the method TriangleType::type should identify the type of the triangle based on the given side lengths. The following is a test case for this method. [IMAGE: /data/images/cs3002_2025T3_ET_AN_p13_Im1.webp|block] Which of the following are correct implementations of the method?",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs3002_2025T3_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/cs3002_2025T3_ET_AN_p14_Im3.webp|block]",
-        "[IMAGE: /data/images/cs3002_2025T3_ET_AN_p14_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs3002_2025T3_ET_AN_p13_Im3.webp|block]",
+        "[IMAGE: /data/images/cs3002_2025T3_ET_AN_p14_Im1.webp|block]",
+        "[IMAGE: /data/images/cs3002_2025T3_ET_AN_p14_Im3.webp|block]",
+        "[IMAGE: /data/images/cs3002_2025T3_ET_AN_p14_Im5.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs3002_2025T3_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/cs3002_2025T3_ET_AN_p14_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs3002_2025T3_ET_AN_p14_Im1.webp|block]",
+        "[IMAGE: /data/images/cs3002_2025T3_ET_AN_p14_Im5.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs3002_2025T3_ET_AN_p13_Im1.webp",
+        "/data/images/cs3002_2025T3_ET_AN_p13_Im3.webp",
         "/data/images/cs3002_2025T3_ET_AN_p14_Im1.webp",
         "/data/images/cs3002_2025T3_ET_AN_p14_Im3.webp",
         "/data/images/cs3002_2025T3_ET_AN_p14_Im5.webp"

@@ -184,16 +184,17 @@
       "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Investigator X is tasked with identifying the spread of a virus in a city. The team has narrowed down the origin of the spread to 4 locations and obtained the contact tracing information for 4 suspected individuals. The social contact network is represented as a bipartite graph. Answer the following questions based on the provided network. [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p5_Im3.webp|block] Find the projection of the location contact network at 11:00. Note: No transition time is considered for traveling between locations.",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p6_Im2.webp|block]",
         "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p6_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p7_Im1.webp|block] [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p7_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p7_Im1.webp|block]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p7_Im3.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p6_Im4.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bt4002_2024T1_Q2_NA_p5_Im3.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p6_Im2.webp",
         "/data/images/bt4002_2024T1_Q2_NA_p6_Im4.webp",
         "/data/images/bt4002_2024T1_Q2_NA_p7_Im1.webp",
         "/data/images/bt4002_2024T1_Q2_NA_p7_Im3.webp"
@@ -395,14 +396,14 @@
       "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p12_Im3.webp|block]",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im1.webp|block] [IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im3.webp|block]",
-        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im4.webp|block]",
-        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im6.webp|block]",
-        ""
-      ],
-      "correct_answer": [
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im1.webp|block]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im3.webp|block]",
         "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im4.webp|block]",
         "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im6.webp|block]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im3.webp|block]",
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p13_Im4.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
@@ -503,16 +504,17 @@
       "text": "Number : Yes Is Question Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What is the stoichiometric matrix of the provided network? Note: The order of reactions is (R1, R2, b1, b2, b3)",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p16_Im2.webp|block]",
         "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p16_Im3.webp|block]",
         "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p16_Im5.webp|block]",
-        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p16_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p16_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p16_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bt4002_2024T1_Q2_NA_p16_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bt4002_2024T1_Q2_NA_p14_Im5.webp",
+        "/data/images/bt4002_2024T1_Q2_NA_p16_Im2.webp",
         "/data/images/bt4002_2024T1_Q2_NA_p16_Im3.webp",
         "/data/images/bt4002_2024T1_Q2_NA_p16_Im5.webp",
         "/data/images/bt4002_2024T1_Q2_NA_p16_Im6.webp"

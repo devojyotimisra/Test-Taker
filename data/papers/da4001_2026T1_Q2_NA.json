@@ -261,12 +261,12 @@
       "text": "Which of the following code snippets will run successfully given that you have all the required installation, no billing issue, API KEYS are configured correctly, access of all mentioned models is present?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p7_Im1.webp|block] [IMAGE: /data/images/da4001_2026T1_Q2_NA_p7_Im3.webp|block]",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p7_Im1.webp|block]",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p7_Im3.webp|block]",
         "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p7_Im5.webp|block]",
-        "",
         "None of these"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p7_Im5.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
@@ -329,7 +329,7 @@
       "text": "A developer wants only the top 2 most relevant chunks retrieved. Which of the following correctly achieves this?",
       "type": "MCQ",
       "options": [
-        "",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p8_Im3.webp|block]",
         "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p8_Im4.webp|inline]",
         "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p8_Im5.webp|inline]",
         "None of these"
@@ -338,6 +338,7 @@
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p8_Im3.webp",
         "/data/images/da4001_2026T1_Q2_NA_p8_Im4.webp",
         "/data/images/da4001_2026T1_Q2_NA_p8_Im5.webp"
       ],
@@ -557,15 +558,16 @@
       "text": "Which of the following code snippets will produce the same output every time they are run? (Assume the model and its infrastructure remain unchanged.)",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p13_Im2.webp|block]",
         "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p13_Im4.webp|block]",
-        "",
         "Output can not be same if the code is run multiple times.",
         "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p14_Im1.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p13_Im4.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p13_Im2.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da4001_2026T1_Q2_NA_p13_Im2.webp",
         "/data/images/da4001_2026T1_Q2_NA_p13_Im4.webp",
         "/data/images/da4001_2026T1_Q2_NA_p14_Im1.webp"
       ],
@@ -609,11 +611,11 @@
       "type": "MCQ",
       "options": [
         "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p16_Im2.webp|inline]",
-        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p16_Im3.webp|inline] [IMAGE: /data/images/da4001_2026T1_Q2_NA_p16_Im5.webp|block]",
-        "",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p16_Im3.webp|inline]",
+        "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p16_Im5.webp|block]",
         "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p16_Im6.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/da4001_2026T1_Q2_NA_p16_Im5.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [

@@ -189,12 +189,12 @@
       "text": "In logistic regression, the batch gradient descent update rule is [IMAGE: /data/images/cs2004_2025T3_ET_FN_p5_Im1.webp|block] where [IMAGE: /data/images/cs2004_2025T3_ET_FN_p5_Im2.webp|inline] . For the current mini-batch containing two training samples [IMAGE: /data/images/cs2004_2025T3_ET_FN_p5_Im3.webp|block] and the current weight vector and learning rate [IMAGE: /data/images/cs2004_2025T3_ET_FN_p5_Im4.webp|block] compute the updated weight vector [IMAGE: /data/images/cs2004_2025T3_ET_FN_p5_Im5.webp|inline] .",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p5_Im7.webp|block]",
         "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p5_Im8.webp|block]",
         "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p5_Im10.webp|block]",
-        "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p5_Im11.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p5_Im11.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p5_Im11.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p5_Im10.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
@@ -203,6 +203,7 @@
         "/data/images/cs2004_2025T3_ET_FN_p5_Im3.webp",
         "/data/images/cs2004_2025T3_ET_FN_p5_Im4.webp",
         "/data/images/cs2004_2025T3_ET_FN_p5_Im5.webp",
+        "/data/images/cs2004_2025T3_ET_FN_p5_Im7.webp",
         "/data/images/cs2004_2025T3_ET_FN_p5_Im8.webp",
         "/data/images/cs2004_2025T3_ET_FN_p5_Im10.webp",
         "/data/images/cs2004_2025T3_ET_FN_p5_Im11.webp"
@@ -269,16 +270,16 @@
       "text": "Which of the following training data-points are certainly not support vectors?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p8_Im2.webp|block]",
         "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p8_Im3.webp|block]",
         "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p8_Im5.webp|block]",
         "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p8_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p8_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p8_Im7.webp|block]"
       ],
       "correct_answer": [
+        "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p8_Im5.webp|block]",
         "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p8_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p8_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2004_2025T3_ET_FN_p8_Im7.webp|block]"
       ],
       "marks": 2.0,
       "negative_marks": 0.0,
@@ -286,6 +287,7 @@
         "/data/images/cs2004_2025T3_ET_FN_p7_Im1.webp",
         "/data/images/cs2004_2025T3_ET_FN_p7_Im2.webp",
         "/data/images/cs2004_2025T3_ET_FN_p7_Im3.webp",
+        "/data/images/cs2004_2025T3_ET_FN_p8_Im2.webp",
         "/data/images/cs2004_2025T3_ET_FN_p8_Im3.webp",
         "/data/images/cs2004_2025T3_ET_FN_p8_Im5.webp",
         "/data/images/cs2004_2025T3_ET_FN_p8_Im6.webp",

@@ -271,19 +271,20 @@
       "text": "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p5_Im8.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p5_Im9.webp|block]",
         "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p6_Im2.webp|block]",
         "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p6_Im4.webp|block]",
-        "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p6_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p6_Im5.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p6_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p6_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p6_Im5.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2001_2024T2_Q2_AN_p5_Im8.webp",
+        "/data/images/cs2001_2024T2_Q2_AN_p5_Im9.webp",
         "/data/images/cs2001_2024T2_Q2_AN_p6_Im2.webp",
         "/data/images/cs2001_2024T2_Q2_AN_p6_Im4.webp",
         "/data/images/cs2001_2024T2_Q2_AN_p6_Im5.webp"
@@ -349,16 +350,17 @@
       "text": "Which of the following decompositions will help to achieve BCNF?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p8_Im2.webp|block]",
         "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p8_Im3.webp|block]",
         "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p8_Im4.webp|block]",
-        "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p8_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p8_Im6.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2001_2024T2_Q2_AN_p8_Im6.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2001_2024T2_Q2_AN_p7_Im2.webp",
+        "/data/images/cs2001_2024T2_Q2_AN_p8_Im2.webp",
         "/data/images/cs2001_2024T2_Q2_AN_p8_Im3.webp",
         "/data/images/cs2001_2024T2_Q2_AN_p8_Im4.webp",
         "/data/images/cs2001_2024T2_Q2_AN_p8_Im6.webp"

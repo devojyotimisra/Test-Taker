@@ -192,12 +192,12 @@
       "text": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im3.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im4.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im5.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im5.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im6.webp|inline]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im7.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p3_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -240,12 +240,12 @@
       "text": "A data analyst needs to identify customers with purchase patterns similar to high-value segments. Which pandas operation most efficiently computes customer similarity?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im2.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im4.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im2.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im4.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im5.webp|inline]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im6.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p4_Im4.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
@@ -381,15 +381,16 @@
       "text": "The development team uses Git for version control of traffic algorithms. When a critical traffic routing bug is discovered in production, which Git workflow ensures rapid deployment of fixes while maintaining code integrity?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im2.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im4.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im5.webp|block]",
-        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im4.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/se2002_2025T2_ET_FN_p7_Im2.webp",
         "/data/images/se2002_2025T2_ET_FN_p7_Im4.webp",
         "/data/images/se2002_2025T2_ET_FN_p7_Im5.webp",
         "/data/images/se2002_2025T2_ET_FN_p7_Im6.webp"
@@ -406,12 +407,12 @@
       "text": "Traffic engineers need to analyze historical data patterns. Which command-line approach efficiently processes large log files to extract peak traffic periods and route preferences?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im7.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im8.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im7.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im8.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im9.webp|inline]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im10.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p7_Im8.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
@@ -495,16 +496,17 @@
       "text": "Which of the following Apache log entries correctly represents a successful mobile checkout transaction that occurred during the peak analysis window (12:00\u201315:59)?",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p10_Im1.webp|block] [IMAGE: /data/images/se2002_2025T2_ET_FN_p10_Im3.webp|block]",
-        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p10_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p9_Im3.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p10_Im1.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p10_Im3.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p10_Im4.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p9_Im3.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2002_2025T2_ET_FN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_FN_p9_Im3.webp",
         "/data/images/se2002_2025T2_ET_FN_p10_Im1.webp",
         "/data/images/se2002_2025T2_ET_FN_p10_Im3.webp",
         "/data/images/se2002_2025T2_ET_FN_p10_Im4.webp"
@@ -623,12 +625,12 @@
       "text": "To identify mobile traffic from the UserAgent string, which Python approach provides the most reliable mobile device detection?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im12.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im2.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p11_Im12.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im2.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im4.webp|inline]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im5.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im2.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -677,12 +679,12 @@
       "text": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im10.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im11.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im12.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im11.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im12.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im2.webp|inline]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im3.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p12_Im12.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -728,16 +730,17 @@
       "text": "When processing very large Apache log files (10GB+), which of the following Python approaches offers the best memory efficiency?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im5.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im6.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im7.webp|block]",
-        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im8.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im7.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p13_Im6.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2002_2025T2_ET_FN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_FN_p13_Im5.webp",
         "/data/images/se2002_2025T2_ET_FN_p13_Im6.webp",
         "/data/images/se2002_2025T2_ET_FN_p13_Im7.webp",
         "/data/images/se2002_2025T2_ET_FN_p13_Im8.webp"
@@ -775,12 +778,12 @@
       "text": "Which system prompt design best supports interdisciplinary research collaboration and knowledge synthesis?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im1.webp|block] [IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im3.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im1.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im3.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im5.webp|block]",
-        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_FN_p15_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [

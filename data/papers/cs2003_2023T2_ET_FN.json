@@ -187,19 +187,20 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following flask app. [IMAGE: /data/images/cs2003_2023T2_ET_FN_p7_Im1.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p7_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p7_Im4.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p7_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p8_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p8_Im2.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p7_Im4.webp|block]",
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p7_Im6.webp|block]"
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p7_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p7_Im4.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2023T2_ET_FN_p7_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_FN_p7_Im3.webp",
         "/data/images/cs2003_2023T2_ET_FN_p7_Im4.webp",
         "/data/images/cs2003_2023T2_ET_FN_p7_Im6.webp",
         "/data/images/cs2003_2023T2_ET_FN_p8_Im2.webp"
@@ -216,19 +217,20 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following is/are a correct way to use for loop in jinja?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p8_Im4.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p8_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p8_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p9_Im1.webp|block]"
       ],
       "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p8_Im4.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p8_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p8_Im6.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p9_Im1.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2003_2023T2_ET_FN_p8_Im4.webp",
         "/data/images/cs2003_2023T2_ET_FN_p8_Im5.webp",
         "/data/images/cs2003_2023T2_ET_FN_p8_Im6.webp",
         "/data/images/cs2003_2023T2_ET_FN_p9_Im1.webp"
@@ -275,9 +277,9 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following HTML Document. [IMAGE: /data/images/cs2003_2023T2_ET_FN_p10_Im4.webp|block] How will the browser render the HTML document given above?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p11_Im2.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p11_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p11_Im4.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p11_Im6.webp|inline]"
       ],
       "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p11_Im6.webp|inline]",
@@ -285,6 +287,7 @@
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2023T2_ET_FN_p10_Im4.webp",
+        "/data/images/cs2003_2023T2_ET_FN_p11_Im2.webp",
         "/data/images/cs2003_2023T2_ET_FN_p11_Im3.webp",
         "/data/images/cs2003_2023T2_ET_FN_p11_Im4.webp",
         "/data/images/cs2003_2023T2_ET_FN_p11_Im6.webp"
@@ -324,17 +327,18 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following flask app and Jinja2 template. [IMAGE: /data/images/cs2003_2023T2_ET_FN_p12_Im3.webp|block] [IMAGE: /data/images/cs2003_2023T2_ET_FN_p13_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p13_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p13_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p13_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p14_Im1.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p13_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p13_Im3.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2023T2_ET_FN_p12_Im3.webp",
         "/data/images/cs2003_2023T2_ET_FN_p13_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_FN_p13_Im3.webp",
         "/data/images/cs2003_2023T2_ET_FN_p13_Im5.webp",
         "/data/images/cs2003_2023T2_ET_FN_p13_Im6.webp",
         "/data/images/cs2003_2023T2_ET_FN_p14_Im1.webp"
@@ -352,11 +356,11 @@
       "type": "MCQ",
       "options": [
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p14_Im4.webp|inline]",
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p15_Im1.webp|block] [IMAGE: /data/images/cs2003_2023T2_ET_FN_p15_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p15_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p15_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p15_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p15_Im4.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p15_Im1.webp|block] [IMAGE: /data/images/cs2003_2023T2_ET_FN_p15_Im3.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p15_Im1.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -378,16 +382,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following function to be tested and test functions given in the Python code snippet below. [IMAGE: /data/images/cs2003_2023T2_ET_FN_p15_Im5.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p16_Im2.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p16_Im3.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p16_Im4.webp|inline] [IMAGE: /data/images/cs2003_2023T2_ET_FN_p16_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p16_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p16_Im6.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p16_Im6.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2023T2_ET_FN_p15_Im5.webp",
+        "/data/images/cs2003_2023T2_ET_FN_p16_Im2.webp",
         "/data/images/cs2003_2023T2_ET_FN_p16_Im3.webp",
         "/data/images/cs2003_2023T2_ET_FN_p16_Im4.webp",
         "/data/images/cs2003_2023T2_ET_FN_p16_Im6.webp"
@@ -404,7 +409,7 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following Python code snippet. [IMAGE: /data/images/cs2003_2023T2_ET_FN_p17_Im1.webp|block]",
       "type": "MCQ",
       "options": [
-        "",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p17_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p17_Im4.webp|inline]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p17_Im5.webp|inline]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p17_Im7.webp|inline]"
@@ -414,6 +419,7 @@
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2023T2_ET_FN_p17_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_FN_p17_Im3.webp",
         "/data/images/cs2003_2023T2_ET_FN_p17_Im4.webp",
         "/data/images/cs2003_2023T2_ET_FN_p17_Im5.webp",
         "/data/images/cs2003_2023T2_ET_FN_p17_Im7.webp"
@@ -476,16 +482,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following table \u201cemp\u201d created in SQLite database corresponding to model class \u201cEmployee\u201d using flask_sqlalchemy. [IMAGE: /data/images/cs2003_2023T2_ET_FN_p20_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p20_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p20_Im4.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p20_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p21_Im1.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p20_Im6.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2023T2_ET_FN_p20_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_FN_p20_Im3.webp",
         "/data/images/cs2003_2023T2_ET_FN_p20_Im4.webp",
         "/data/images/cs2003_2023T2_ET_FN_p20_Im6.webp",
         "/data/images/cs2003_2023T2_ET_FN_p21_Im1.webp"
@@ -502,12 +509,12 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following python code snippet app.py, the html files, base.html and home.html residing in \u201ctemplates\u201d folder. [IMAGE: /data/images/cs2003_2023T2_ET_FN_p21_Im2.webp|block] [IMAGE: /data/images/cs2003_2023T2_ET_FN_p22_Im1.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p22_Im3.webp|inline] [IMAGE: /data/images/cs2003_2023T2_ET_FN_p22_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p22_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p22_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p22_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p22_Im7.webp|inline]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p22_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p22_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -530,16 +537,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following SQL create statement. [IMAGE: /data/images/cs2003_2023T2_ET_FN_p23_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p23_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p23_Im4.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p23_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p24_Im1.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p23_Im6.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2023T2_ET_FN_p23_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_FN_p23_Im3.webp",
         "/data/images/cs2003_2023T2_ET_FN_p23_Im4.webp",
         "/data/images/cs2003_2023T2_ET_FN_p23_Im6.webp",
         "/data/images/cs2003_2023T2_ET_FN_p24_Im1.webp"
@@ -630,20 +638,21 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following flask application. [IMAGE: /data/images/cs2003_2023T2_ET_FN_p26_Im1.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p27_Im2.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p27_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p27_Im5.webp|inline] [IMAGE: /data/images/cs2003_2023T2_ET_FN_p27_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p27_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p27_Im6.webp|block]"
       ],
       "correct_answer": [
-        "",
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p27_Im5.webp|inline] [IMAGE: /data/images/cs2003_2023T2_ET_FN_p27_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p27_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p27_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p27_Im6.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2023T2_ET_FN_p26_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_FN_p27_Im2.webp",
         "/data/images/cs2003_2023T2_ET_FN_p27_Im4.webp",
         "/data/images/cs2003_2023T2_ET_FN_p27_Im5.webp",
         "/data/images/cs2003_2023T2_ET_FN_p27_Im6.webp"
@@ -660,19 +669,20 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Follow the code given below [IMAGE: /data/images/cs2003_2023T2_ET_FN_p28_Im1.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p28_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p28_Im4.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p29_Im2.webp|block]",
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p29_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p29_Im3.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p28_Im4.webp|block]",
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p29_Im2.webp|block]"
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p28_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p28_Im4.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2023T2_ET_FN_p28_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_FN_p28_Im3.webp",
         "/data/images/cs2003_2023T2_ET_FN_p28_Im4.webp",
         "/data/images/cs2003_2023T2_ET_FN_p29_Im2.webp",
         "/data/images/cs2003_2023T2_ET_FN_p29_Im3.webp"
@@ -707,16 +717,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following python code snippet. What will be the rendered output? [IMAGE: /data/images/cs2003_2023T2_ET_FN_p31_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p31_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p31_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p32_Im2.webp|block]",
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p32_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p32_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p32_Im2.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p31_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2023T2_ET_FN_p31_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_FN_p31_Im3.webp",
         "/data/images/cs2003_2023T2_ET_FN_p31_Im5.webp",
         "/data/images/cs2003_2023T2_ET_FN_p32_Im2.webp",
         "/data/images/cs2003_2023T2_ET_FN_p32_Im3.webp"
@@ -760,16 +771,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 What will be the output of the following Python code snippet? [IMAGE: /data/images/cs2003_2023T2_ET_FN_p34_Im1.webp|block]",
       "type": "MCQ",
       "options": [
-        "",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p34_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p34_Im4.webp|inline]",
-        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p34_Im5.webp|inline] [IMAGE: /data/images/cs2003_2023T2_ET_FN_p34_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p34_Im5.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p34_Im7.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2023T2_ET_FN_p34_Im7.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2023T2_ET_FN_p34_Im1.webp",
+        "/data/images/cs2003_2023T2_ET_FN_p34_Im3.webp",
         "/data/images/cs2003_2023T2_ET_FN_p34_Im4.webp",
         "/data/images/cs2003_2023T2_ET_FN_p34_Im5.webp",
         "/data/images/cs2003_2023T2_ET_FN_p34_Im7.webp"

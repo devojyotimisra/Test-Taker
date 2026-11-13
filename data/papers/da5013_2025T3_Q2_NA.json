@@ -239,19 +239,20 @@
       "text": "Which of the following statements accurately describe the Wav2Vec2 model and its components? (Select ALL that apply)",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im9.webp|inline] [IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im2.webp|block]",
-        "",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im8.webp|block]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im2.webp|block]",
         "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im3.webp|inline]"
       ],
       "correct_answer": [
-        "",
-        "",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p4_Im8.webp|block]",
+        "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im2.webp|block]",
         "[IMAGE: /data/images/da5013_2025T3_Q2_NA_p5_Im3.webp|inline]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5013_2025T3_Q2_NA_p4_Im8.webp",
         "/data/images/da5013_2025T3_Q2_NA_p4_Im9.webp",
         "/data/images/da5013_2025T3_Q2_NA_p5_Im2.webp",
         "/data/images/da5013_2025T3_Q2_NA_p5_Im3.webp"

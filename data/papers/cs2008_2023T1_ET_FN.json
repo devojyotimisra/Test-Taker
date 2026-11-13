@@ -82,16 +82,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following code block: [IMAGE: /data/images/cs2008_2023T1_ET_FN_p3_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p3_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p3_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p3_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p3_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p3_Im7.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p3_Im7.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2008_2023T1_ET_FN_p3_Im1.webp",
+        "/data/images/cs2008_2023T1_ET_FN_p3_Im3.webp",
         "/data/images/cs2008_2023T1_ET_FN_p3_Im4.webp",
         "/data/images/cs2008_2023T1_ET_FN_p3_Im5.webp",
         "/data/images/cs2008_2023T1_ET_FN_p3_Im7.webp"
@@ -272,14 +273,14 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following preprocessing steps: 1. Read the data from a file (named \u2018dataset.csv\u2019). It has 4 columns, with following column names \u2018city\u2019, \u2018title\u2019, \u2018expert_rating\u2019 and \u2018user_rating\u2019 in this order. 2. Drop rows with missing values. 3. Apply \u2018CountVectorizer\u2019 on \u2018title\u2019. 4. Apply one hot encoding to \u2018city\u2019. 5. Drop the remaining columns. 6. Fit and transform the data and print it. Which of the following code snippets correctly accomplishes the above task? Assume necessary imports.",
       "type": "MCQ",
       "options": [
+        "",
         "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p8_Im3.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p9_Im2.webp|block] [IMAGE: /data/images/cs2008_2023T1_ET_FN_p9_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p9_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p9_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p9_Im4.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p9_Im5.webp|inline]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p8_Im3.webp|block]",
+      "correct_answer": "",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -351,17 +352,18 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider following model: [IMAGE: /data/images/cs2008_2023T1_ET_FN_p12_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p12_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p12_Im5.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p12_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p13_Im1.webp|block]",
         "None of these"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p12_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p12_Im3.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2008_2023T1_ET_FN_p12_Im1.webp",
+        "/data/images/cs2008_2023T1_ET_FN_p12_Im3.webp",
         "/data/images/cs2008_2023T1_ET_FN_p12_Im5.webp",
         "/data/images/cs2008_2023T1_ET_FN_p12_Im6.webp",
         "/data/images/cs2008_2023T1_ET_FN_p13_Im1.webp"
@@ -502,21 +504,22 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following code: [IMAGE: /data/images/cs2008_2023T1_ET_FN_p17_Im3.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p17_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p17_Im5.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p17_Im6.webp|inline] [IMAGE: /data/images/cs2008_2023T1_ET_FN_p18_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p17_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p18_Im2.webp|block]"
       ],
       "correct_answer": [
+        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p17_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p17_Im5.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p17_Im6.webp|inline] [IMAGE: /data/images/cs2008_2023T1_ET_FN_p18_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p17_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2023T1_ET_FN_p18_Im2.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2008_2023T1_ET_FN_p17_Im3.webp",
+        "/data/images/cs2008_2023T1_ET_FN_p17_Im4.webp",
         "/data/images/cs2008_2023T1_ET_FN_p17_Im5.webp",
         "/data/images/cs2008_2023T1_ET_FN_p17_Im6.webp",
         "/data/images/cs2008_2023T1_ET_FN_p18_Im2.webp"

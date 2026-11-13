@@ -69,14 +69,14 @@
       "text": "Consider a centered dataset [IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im1.webp|inline] in [IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im2.webp|inline] such that every data-point [IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im3.webp|inline] in [IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im4.webp|inline] satisfies the equation [IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im5.webp|inline] . Standard PCA is performed on the dataset. Which of the following could be the fourth principal component?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im7.webp|block]",
         "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im8.webp|block]",
         "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im10.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im11.webp|inline]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im8.webp|block]",
-        "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im10.webp|block]"
+        "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p3_Im8.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
@@ -86,6 +86,7 @@
         "/data/images/cs2007_2026T1_Q1_NA_p3_Im3.webp",
         "/data/images/cs2007_2026T1_Q1_NA_p3_Im4.webp",
         "/data/images/cs2007_2026T1_Q1_NA_p3_Im5.webp",
+        "/data/images/cs2007_2026T1_Q1_NA_p3_Im7.webp",
         "/data/images/cs2007_2026T1_Q1_NA_p3_Im8.webp",
         "/data/images/cs2007_2026T1_Q1_NA_p3_Im10.webp",
         "/data/images/cs2007_2026T1_Q1_NA_p3_Im11.webp"
@@ -380,12 +381,12 @@
       "text": "Which of the following expressions correctly represents the log-likelihood function [IMAGE: /data/images/cs2007_2026T1_Q1_NA_p10_Im1.webp|inline] for the given data?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p10_Im3.webp|block]",
         "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p10_Im4.webp|block]",
         "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p10_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p10_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p10_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p10_Im7.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T1_Q1_NA_p10_Im6.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
@@ -395,6 +396,7 @@
         "/data/images/cs2007_2026T1_Q1_NA_p9_Im10.webp",
         "/data/images/cs2007_2026T1_Q1_NA_p9_Im11.webp",
         "/data/images/cs2007_2026T1_Q1_NA_p9_Im12.webp",
+        "/data/images/cs2007_2026T1_Q1_NA_p10_Im3.webp",
         "/data/images/cs2007_2026T1_Q1_NA_p10_Im4.webp",
         "/data/images/cs2007_2026T1_Q1_NA_p10_Im6.webp",
         "/data/images/cs2007_2026T1_Q1_NA_p10_Im7.webp"

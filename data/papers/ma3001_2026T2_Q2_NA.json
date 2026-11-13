@@ -288,13 +288,13 @@
       "text": "How many ways are there to travel in the [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im6.webp|inline] -dimensional space from the origin [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im7.webp|inline] to the point [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im8.webp|inline] by taking one unit steps in the positive [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im9.webp|inline] , positive [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im10.webp|inline] , or positive [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im11.webp|inline] direction?",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im12.webp|inline] [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im13.webp|block]",
+        "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im12.webp|inline]",
+        "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im13.webp|block]",
         "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im14.webp|block]",
-        "",
         "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im15.webp|inline]"
       ],
       "correct_answer": [
-        "",
+        "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im14.webp|block]",
         "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p6_Im15.webp|inline]"
       ],
       "marks": 3.0,
@@ -358,16 +358,17 @@
       "text": "Which of the following is a formula representing the sequence of coefficients for the generating [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p7_Im12.webp|block] function ?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p7_Im13.webp|block]",
         "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p7_Im14.webp|block]",
         "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p7_Im16.webp|block]",
-        "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p7_Im17.webp|block]",
-        ""
+        "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p7_Im17.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p7_Im17.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p7_Im16.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/ma3001_2026T2_Q2_NA_p7_Im12.webp",
+        "/data/images/ma3001_2026T2_Q2_NA_p7_Im13.webp",
         "/data/images/ma3001_2026T2_Q2_NA_p7_Im14.webp",
         "/data/images/ma3001_2026T2_Q2_NA_p7_Im16.webp",
         "/data/images/ma3001_2026T2_Q2_NA_p7_Im17.webp"
@@ -426,12 +427,12 @@
       "text": "Let [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p8_Im13.webp|inline] and [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p8_Im14.webp|inline] be relations on a set [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p8_Im15.webp|inline] represented by the matrices [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p8_Im16.webp|block] Which of the following matrices represent [IMAGE: /data/images/ma3001_2026T2_Q2_NA_p8_Im17.webp|inline] ?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p8_Im18.webp|block]",
         "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p8_Im19.webp|block]",
         "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p8_Im20.webp|block]",
-        "",
         "None of these"
       ],
-      "correct_answer": "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p8_Im20.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/ma3001_2026T2_Q2_NA_p8_Im19.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -440,6 +441,7 @@
         "/data/images/ma3001_2026T2_Q2_NA_p8_Im15.webp",
         "/data/images/ma3001_2026T2_Q2_NA_p8_Im16.webp",
         "/data/images/ma3001_2026T2_Q2_NA_p8_Im17.webp",
+        "/data/images/ma3001_2026T2_Q2_NA_p8_Im18.webp",
         "/data/images/ma3001_2026T2_Q2_NA_p8_Im19.webp",
         "/data/images/ma3001_2026T2_Q2_NA_p8_Im20.webp"
       ],

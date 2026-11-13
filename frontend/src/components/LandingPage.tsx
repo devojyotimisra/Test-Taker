@@ -92,7 +92,7 @@ function FilterCombobox({
       (item) =>
         item.id.toLowerCase().includes(q) ||
         item.label.toLowerCase().includes(q) ||
-        (item.badge && item.badge.toLowerCase().includes(q))
+        (item.badge && item.badge.toLowerCase().includes(q)),
     );
   }, [items, search]);
 
@@ -118,11 +118,12 @@ function FilterCombobox({
             </span>
           ) : (
             <>
-              {selectedItem?.badge && selectedItem.badge !== selectedItem.label && (
-                <span className="px-1.5 py-0.2 rounded bg-primary/10 text-primary font-mono font-bold text-[10px] shrink-0">
-                  {selectedItem.badge}
-                </span>
-              )}
+              {selectedItem?.badge &&
+                selectedItem.badge !== selectedItem.label && (
+                  <span className="px-1.5 py-0.2 rounded bg-primary/10 text-primary font-mono font-bold text-[10px] shrink-0">
+                    {selectedItem.badge}
+                  </span>
+                )}
               <span className="truncate text-foreground font-medium">
                 {selectedItem?.label || selectedValue}
               </span>
@@ -263,7 +264,10 @@ function FilterCombobox({
 export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
   const { toast } = useToast();
   const [activeTab, setActiveTab] = useState<"library" | "upload">(() => {
-    return (sessionStorage.getItem("tt_active_tab") as "library" | "upload") || "library";
+    return (
+      (sessionStorage.getItem("tt_active_tab") as "library" | "upload") ||
+      "library"
+    );
   });
 
   const [uploading, setUploading] = useState<boolean>(false);
@@ -293,7 +297,9 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
   const pageSize = 24;
 
   const [loadingPaperId, setLoadingPaperId] = useState<string | null>(null);
-  const [downloadingPaperId, setDownloadingPaperId] = useState<string | null>(null);
+  const [downloadingPaperId, setDownloadingPaperId] = useState<string | null>(
+    null,
+  );
   const isBusy = Boolean(uploading || loadingPaperId || downloadingPaperId);
   const isFirstRender = useRef(true);
 
@@ -396,7 +402,8 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
       toast({
         type: "error",
         title: "PDF Download Failed",
-        description: err.message || "An error occurred while compiling the PDF.",
+        description:
+          err.message || "An error occurred while compiling the PDF.",
         duration: 6000,
       });
     } finally {
@@ -417,7 +424,8 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
       }
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase().trim();
-        const haystack = `${item.course_code} ${item.course_name} ${item.title} ${item.year} ${item.exam_type} ${item.term}`.toLowerCase();
+        const haystack =
+          `${item.course_code} ${item.course_name} ${item.title} ${item.year} ${item.exam_type} ${item.term}`.toLowerCase();
         if (!haystack.includes(q)) return false;
       }
       return true;
@@ -480,7 +488,9 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
       }
     }
     const years = ["2026", "2025", "2024", "2023", "2022", "2021"];
-    const allYearsInCat = Object.keys(counts).sort((a, b) => b.localeCompare(a));
+    const allYearsInCat = Object.keys(counts).sort((a, b) =>
+      b.localeCompare(a),
+    );
     const finalYears = years.filter((y) => allYearsInCat.includes(y));
     for (const y of allYearsInCat) {
       if (!finalYears.includes(y)) finalYears.push(y);
@@ -587,7 +597,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                   </span>
                 </h1>
                 <p className="text-xs text-muted-foreground mt-0.5 font-sans">
-                  Select any past term paper to launch with automatic scoring, TCS iON calculator, and live timer.
+                  Select any past term paper.
                 </p>
               </div>
 
@@ -664,14 +674,19 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
             {loadingCatalog ? (
               <div className="py-20 text-center flex flex-col items-center justify-center gap-3">
                 <div className="h-8 w-8 rounded-full border-2 border-primary border-t-transparent animate-spin" />
-                <span className="text-xs text-muted-foreground">Loading Question Paper Catalog...</span>
+                <span className="text-xs text-muted-foreground">
+                  Loading Question Paper Catalog...
+                </span>
               </div>
             ) : filteredCatalog.length === 0 ? (
               <div className="py-16 text-center border border-dashed border-border rounded-2xl bg-card p-6">
                 <BookOpen className="h-10 w-10 text-muted-foreground mx-auto mb-2 opacity-50" />
-                <h3 className="font-bold text-sm text-foreground">No Question Papers Match Your Filters</h3>
+                <h3 className="font-bold text-sm text-foreground">
+                  No Question Papers Match Your Filters
+                </h3>
                 <p className="text-xs text-muted-foreground mt-1 max-w-sm mx-auto">
-                  Try adjusting the course, year, or search terms to find matching exam papers.
+                  Try adjusting the course, year, or search terms to find
+                  matching exam papers.
                 </p>
                 <button
                   type="button"
@@ -728,7 +743,9 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                                 {item.term || "Term"}
                               </span>
                               <span>•</span>
-                              <span className="font-medium text-foreground">{item.exam_type}</span>
+                              <span className="font-medium text-foreground">
+                                {item.exam_type}
+                              </span>
                               {item.session && item.session !== "Standard" && (
                                 <>
                                   <span>•</span>
@@ -741,11 +758,17 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                           <div className="pt-2 border-t border-border/40 flex items-center justify-between">
                             <div className="flex items-center gap-3 text-[11px] text-muted-foreground">
                               <span>
-                                <strong className="text-foreground">{item.total_questions || "?"}</strong> Qs
+                                <strong className="text-foreground">
+                                  {item.total_questions || "?"}
+                                </strong>{" "}
+                                Qs
                               </span>
                               {item.total_marks ? (
                                 <span>
-                                  <strong className="text-foreground">{item.total_marks}</strong> Marks
+                                  <strong className="text-foreground">
+                                    {item.total_marks}
+                                  </strong>{" "}
+                                  Marks
                                 </span>
                               ) : null}
                             </div>
@@ -763,7 +786,9 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                                 ) : (
                                   <Download className="h-3.5 w-3.5 text-muted-foreground" />
                                 )}
-                                <span className="hidden sm:inline">{isDownloadingThis ? "PDF..." : "PDF"}</span>
+                                <span className="hidden sm:inline">
+                                  {isDownloadingThis ? "PDF..." : "PDF"}
+                                </span>
                               </button>
 
                               <button
@@ -777,7 +802,9 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                                 ) : (
                                   <Sparkles className="h-3 w-3" />
                                 )}
-                                <span>{isLoadingThis ? "Loading..." : "Start Test"}</span>
+                                <span>
+                                  {isLoadingThis ? "Loading..." : "Start Test"}
+                                </span>
                               </button>
                             </div>
                           </div>
@@ -791,13 +818,19 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                   <div className="flex items-center justify-between pt-3 border-t border-border/60">
                     <span className="text-xs text-muted-foreground">
                       Showing {(currentPageNum - 1) * pageSize + 1} to{" "}
-                      {Math.min(currentPageNum * pageSize, filteredCatalog.length)} of {filteredCatalog.length} papers
+                      {Math.min(
+                        currentPageNum * pageSize,
+                        filteredCatalog.length,
+                      )}{" "}
+                      of {filteredCatalog.length} papers
                     </span>
 
                     <div className="flex items-center gap-1.5">
                       <button
                         type="button"
-                        onClick={() => setCurrentPageNum((p) => Math.max(1, p - 1))}
+                        onClick={() =>
+                          setCurrentPageNum((p) => Math.max(1, p - 1))
+                        }
                         disabled={currentPageNum === 1}
                         className="px-2.5 py-1.5 rounded-lg border border-border text-xs text-foreground disabled:opacity-40 hover:bg-muted transition-colors flex items-center gap-1"
                       >
@@ -811,7 +844,9 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
 
                       <button
                         type="button"
-                        onClick={() => setCurrentPageNum((p) => Math.min(totalPages, p + 1))}
+                        onClick={() =>
+                          setCurrentPageNum((p) => Math.min(totalPages, p + 1))
+                        }
                         disabled={currentPageNum === totalPages}
                         className="px-2.5 py-1.5 rounded-lg border border-border text-xs text-foreground disabled:opacity-40 hover:bg-muted transition-colors flex items-center gap-1"
                       >
@@ -831,7 +866,8 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                 Upload Custom Question Paper PDF
               </h1>
               <p className="text-xs sm:text-sm text-muted-foreground font-sans">
-                Upload your own question paper PDF to start your assessment session with instant scoring and live timer tracking.
+                Upload your own question paper PDF to start your assessment
+                session with instant scoring and live timer tracking.
               </p>
             </div>
 
@@ -848,7 +884,9 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                   if (!isBusy) handleDrop(e);
                 }}
                 className={`border-2 border-dashed transition-all shadow-md ${
-                  dragOver && !isBusy ? "border-primary bg-primary/5 scale-[1.01]" : "border-border bg-card"
+                  dragOver && !isBusy
+                    ? "border-primary bg-primary/5 scale-[1.01]"
+                    : "border-border bg-card"
                 }`}
               >
                 <CardContent className="p-8 sm:p-12 text-center space-y-4">
@@ -862,7 +900,9 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
 
                   <div className="space-y-1">
                     <h3 className="font-bold text-base sm:text-lg">
-                      {uploading ? "Analyzing & Parsing PDF..." : "Upload Assessment PDF"}
+                      {uploading
+                        ? "Analyzing & Parsing PDF..."
+                        : "Upload Assessment PDF"}
                     </h3>
                     <p className="text-xs text-muted-foreground max-w-sm mx-auto">
                       {uploading
@@ -872,7 +912,9 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                   </div>
 
                   <div className="pt-2">
-                    <label className={`inline-block ${isBusy ? "cursor-not-allowed opacity-60" : "cursor-pointer"}`}>
+                    <label
+                      className={`inline-block ${isBusy ? "cursor-not-allowed opacity-60" : "cursor-pointer"}`}
+                    >
                       <input
                         type="file"
                         accept=".pdf"
@@ -880,13 +922,19 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                         className="hidden"
                         disabled={isBusy}
                       />
-                      <span className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-primary-foreground font-medium text-sm shadow-xs transition-opacity ${isBusy ? "pointer-events-none opacity-60" : "hover:opacity-90"}`}>
+                      <span
+                        className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-primary-foreground font-medium text-sm shadow-xs transition-opacity ${isBusy ? "pointer-events-none opacity-60" : "hover:opacity-90"}`}
+                      >
                         {uploading ? (
                           <div className="h-4 w-4 rounded-full border-2 border-primary-foreground border-t-transparent animate-spin" />
                         ) : (
                           <FileText className="h-4 w-4" />
                         )}
-                        <span>{uploading ? "Analyzing & Parsing PDF..." : "Select PDF File"}</span>
+                        <span>
+                          {uploading
+                            ? "Analyzing & Parsing PDF..."
+                            : "Select PDF File"}
+                        </span>
                       </span>
                     </label>
                   </div>

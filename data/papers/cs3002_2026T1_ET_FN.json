@@ -432,14 +432,14 @@
       "text": "Consider a Test-Driven Development (TDD) approach for a retail management system. A specific user story requires that a store manager can apply a percentage-based discount to a product. The discount value must be validated upon entry to ensure it falls within a specific operational range. Consider the following JUnit test for this user story. [IMAGE: /data/images/cs3002_2026T1_ET_FN_p12_Im1.webp|block] Which of the following are the appropriate implementations of the [IMAGE: /data/images/cs3002_2026T1_ET_FN_p12_Im2.webp|inline] method in the [IMAGE: /data/images/cs3002_2026T1_ET_FN_p12_Im3.webp|inline] class?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs3002_2026T1_ET_FN_p12_Im5.webp|block]",
         "[IMAGE: /data/images/cs3002_2026T1_ET_FN_p12_Im7.webp|block]",
         "[IMAGE: /data/images/cs3002_2026T1_ET_FN_p12_Im8.webp|block]",
-        "[IMAGE: /data/images/cs3002_2026T1_ET_FN_p12_Im9.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs3002_2026T1_ET_FN_p12_Im9.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs3002_2026T1_ET_FN_p12_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs3002_2026T1_ET_FN_p12_Im7.webp|block]",
+        "[IMAGE: /data/images/cs3002_2026T1_ET_FN_p12_Im9.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
@@ -447,6 +447,7 @@
         "/data/images/cs3002_2026T1_ET_FN_p12_Im1.webp",
         "/data/images/cs3002_2026T1_ET_FN_p12_Im2.webp",
         "/data/images/cs3002_2026T1_ET_FN_p12_Im3.webp",
+        "/data/images/cs3002_2026T1_ET_FN_p12_Im5.webp",
         "/data/images/cs3002_2026T1_ET_FN_p12_Im7.webp",
         "/data/images/cs3002_2026T1_ET_FN_p12_Im8.webp",
         "/data/images/cs3002_2026T1_ET_FN_p12_Im9.webp"

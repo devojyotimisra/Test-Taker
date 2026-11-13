@@ -32,10 +32,10 @@
       "options": [
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im2.webp|inline]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im3.webp|inline]",
-        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im4.webp|inline] [IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im6.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im6.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -57,11 +57,11 @@
       "type": "MCQ",
       "options": [
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im8.webp|inline]",
-        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im9.webp|inline] [IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im10.webp|block]",
-        "",
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im10.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im2.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p1_Im10.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -83,20 +83,21 @@
       "text": "Which statements accurately describe the roles and differences of the data collators used in the ASR and TTS training scripts?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im4.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im5.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im6.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im7.webp|block]",
-        "",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im8.webp|inline]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im5.webp|block]",
-        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im4.webp|block]",
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im6.webp|block]",
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im7.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5013_2025T2_Q2_NA_p2_Im4.webp",
         "/data/images/da5013_2025T2_Q2_NA_p2_Im5.webp",
         "/data/images/da5013_2025T2_Q2_NA_p2_Im6.webp",
         "/data/images/da5013_2025T2_Q2_NA_p2_Im7.webp",
@@ -114,22 +115,23 @@
       "text": "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im9.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im10.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im11.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p3_Im2.webp|block]",
-        "",
-        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p3_Im4.webp|inline] [IMAGE: /data/images/da5013_2025T2_Q2_NA_p3_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p3_Im4.webp|inline]",
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p3_Im5.webp|block]"
       ],
       "correct_answer": [
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im10.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p2_Im11.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p3_Im2.webp|block]",
-        "",
-        ""
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p3_Im5.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/da5013_2025T2_Q2_NA_p2_Im9.webp",
+        "/data/images/da5013_2025T2_Q2_NA_p2_Im10.webp",
         "/data/images/da5013_2025T2_Q2_NA_p2_Im11.webp",
         "/data/images/da5013_2025T2_Q2_NA_p3_Im2.webp",
         "/data/images/da5013_2025T2_Q2_NA_p3_Im4.webp",
@@ -226,22 +228,23 @@
       "text": "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p5_Im5.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p6_Im2.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p6_Im4.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p6_Im5.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p6_Im6.webp|block]",
-        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p6_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p6_Im7.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p6_Im4.webp|block]",
-        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p6_Im6.webp|block]",
-        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p6_Im7.webp|block]"
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p6_Im2.webp|block]",
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p6_Im5.webp|block]",
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p6_Im6.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/da5013_2025T2_Q2_NA_p5_Im5.webp",
         "/data/images/da5013_2025T2_Q2_NA_p4_Im2.webp",
+        "/data/images/da5013_2025T2_Q2_NA_p6_Im2.webp",
         "/data/images/da5013_2025T2_Q2_NA_p6_Im4.webp",
         "/data/images/da5013_2025T2_Q2_NA_p6_Im5.webp",
         "/data/images/da5013_2025T2_Q2_NA_p6_Im6.webp",
@@ -283,23 +286,24 @@
       "text": "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p8_Im1.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p8_Im3.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p8_Im4.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p8_Im5.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p8_Im7.webp|block]",
-        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p8_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p8_Im8.webp|block]"
       ],
       "correct_answer": [
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p8_Im3.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p8_Im4.webp|block]",
         "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p8_Im5.webp|block]",
-        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p8_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2025T2_Q2_NA_p8_Im8.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/da5013_2025T2_Q2_NA_p8_Im1.webp",
         "/data/images/da5013_2025T2_Q2_NA_p7_Im1.webp",
+        "/data/images/da5013_2025T2_Q2_NA_p8_Im3.webp",
         "/data/images/da5013_2025T2_Q2_NA_p8_Im4.webp",
         "/data/images/da5013_2025T2_Q2_NA_p8_Im5.webp",
         "/data/images/da5013_2025T2_Q2_NA_p8_Im7.webp",

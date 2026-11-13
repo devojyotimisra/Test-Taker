@@ -356,12 +356,12 @@
       "text": "Consider the following pseudocode where ListV represents a list of all vertices of the graph given below: [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im10.webp|block] The matrix [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p12_Im11.webp|inline] represents the directed graph below: [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im1.webp|block] The initial matrix is: [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im2.webp|block] Which of the following can be the value of [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im3.webp|inline] ?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im5.webp|block]",
         "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im7.webp|block]",
         "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im8.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p14_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p14_Im2.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im7.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p13_Im5.webp|block]",
       "marks": 6.0,
       "negative_marks": 0.0,
       "images": [
@@ -370,6 +370,7 @@
         "/data/images/bscs1001_2026T2_ET_FN_p13_Im1.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p13_Im2.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p13_Im3.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p13_Im5.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p13_Im7.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p13_Im8.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p14_Im2.webp"
@@ -386,18 +387,19 @@
       "text": "The following pseudocode is executed using the \"Shopping Bills\" dataset. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p14_Im3.webp|block] If [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p14_Im4.webp|inline] is required to represent the number of unordered pairs of bills issued by different customers from the same shop, which implementation of the [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p14_Im5.webp|inline] procedure is correct?",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p15_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p15_Im3.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p15_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p14_Im7.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p15_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p15_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p15_Im4.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p14_Im7.webp|block]",
       "marks": 6.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bscs1001_2026T2_ET_FN_p14_Im3.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p14_Im4.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p14_Im5.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p14_Im7.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p15_Im1.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p15_Im3.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p15_Im4.webp"
@@ -486,14 +488,14 @@
       "text": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im5.webp|inline] is a recursive procedure that accepts [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im6.webp|inline] as an argument and returns [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im7.webp|inline] which is a list containing only those scores that are greater than or equal to 75, in their original order. Select the correct implementation(s) of the procedure [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p18_Im8.webp|inline] .",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p19_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p19_Im3.webp|block]",
-        "",
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p19_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p19_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im3.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p19_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p19_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p19_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im3.webp|block]"
       ],
       "marks": 6.0,
       "negative_marks": 0.0,
@@ -523,14 +525,14 @@
       "text": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im4.webp|inline] is a non-recursive procedure that accepts [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im5.webp|inline] as an argument and returns [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p20_Im6.webp|inline] . Select the correct implementation(s) of the procedure.",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p21_Im2.webp|block]",
         "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p21_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im3.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p21_Im4.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im3.webp|block]"
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p21_Im2.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im1.webp|block]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,
@@ -542,6 +544,7 @@
         "/data/images/bscs1001_2026T2_ET_FN_p18_Im2.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p18_Im3.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p18_Im4.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p21_Im2.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p21_Im4.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p22_Im1.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p22_Im3.webp"
@@ -558,14 +561,14 @@
       "text": "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im4.webp|inline] is a list of strings containing information about the outcomes of cricket matches played by India in a tournament. Assume that each element in the list is either [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im5.webp|inline] or [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p22_Im6.webp|inline] . For example, if five matches have been played, [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im1.webp|inline] could be: [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im2.webp|block] We call a list of outcomes a blank slate if the number of wins is equal to the number of losses. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im3.webp|inline] is a procedure that accepts [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im4.webp|inline] as input and returns [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im5.webp|inline] if it is a blank slate and [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im6.webp|inline] otherwise. [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im7.webp|block] Select the correct code fragment(s) to complete the pseudocode.",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p24_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_ET_FN_p24_Im3.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p24_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im9.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p24_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p24_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p24_Im5.webp|block]"
       ],
       "correct_answer": [
-        "",
-        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p24_Im5.webp|block]"
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p23_Im9.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_ET_FN_p24_Im3.webp|block]"
       ],
       "marks": 6.0,
       "negative_marks": 0.0,
@@ -580,6 +583,7 @@
         "/data/images/bscs1001_2026T2_ET_FN_p23_Im5.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p23_Im6.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p23_Im7.webp",
+        "/data/images/bscs1001_2026T2_ET_FN_p23_Im9.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p24_Im1.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p24_Im3.webp",
         "/data/images/bscs1001_2026T2_ET_FN_p24_Im5.webp"

@@ -95,18 +95,19 @@
       "text": "Consider the following SQL Alchemy model [IMAGE: /data/images/cs2003_2026T1_ET_FN_p2_Im3.webp|inline] with below data. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p2_Im4.webp|block] Which of the following SQL Alchemy statements is used to count the number of students registered for [IMAGE: /data/images/cs2003_2026T1_ET_FN_p2_Im5.webp|inline] ?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p2_Im6.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p2_Im7.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p3_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p3_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p3_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p3_Im3.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p3_Im3.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2026T1_ET_FN_p2_Im3.webp",
         "/data/images/cs2003_2026T1_ET_FN_p2_Im4.webp",
         "/data/images/cs2003_2026T1_ET_FN_p2_Im5.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p2_Im6.webp",
         "/data/images/cs2003_2026T1_ET_FN_p2_Im7.webp",
         "/data/images/cs2003_2026T1_ET_FN_p3_Im1.webp",
         "/data/images/cs2003_2026T1_ET_FN_p3_Im3.webp"
@@ -232,14 +233,14 @@
       "text": "Consider the following Python code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p5_Im9.webp|block] Which of the following statement(s) should replace ==Missing code here== so that it prints the output without any KeyError exception?",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im3.webp|block]",
-        "",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im4.webp|inline]",
         "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im6.webp|inline]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im3.webp|block]",
-        "",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p6_Im4.webp|inline]"
       ],
       "marks": 3.0,
@@ -353,16 +354,17 @@
       "text": "Consider the following Python code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p9_Im3.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2026T1_ET_FN_p9_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p9_Im3.webp",
         "/data/images/cs2003_2026T1_ET_FN_p9_Im5.webp",
         "/data/images/cs2003_2026T1_ET_FN_p9_Im6.webp",
         "/data/images/cs2003_2026T1_ET_FN_p9_Im7.webp"
@@ -402,12 +404,12 @@
       "text": "Consider the following csv file. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p10_Im4.webp|block] Choose the correct Python code that will print the output: ['90', '76', '81'] ?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p11_Im5.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -677,16 +679,17 @@
       "text": "Consider the following Flask SQLAlchemy models and RESTful API code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p18_Im1.webp|block]",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p19_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T1_ET_FN_p19_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p19_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p18_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p19_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p19_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p19_Im4.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p18_Im3.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2026T1_ET_FN_p18_Im1.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p18_Im3.webp",
         "/data/images/cs2003_2026T1_ET_FN_p19_Im1.webp",
         "/data/images/cs2003_2026T1_ET_FN_p19_Im3.webp",
         "/data/images/cs2003_2026T1_ET_FN_p19_Im4.webp"
@@ -703,18 +706,19 @@
       "text": "Consider the following HTML/JavaScript code. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p20_Im1.webp|block] The above code allows courses to be added dynamically to the [IMAGE: /data/images/cs2003_2026T1_ET_FN_p20_Im2.webp|inline] element when the user clicks the \u201cAdd\u201d Button. What is the most suitable [IMAGE: /data/images/cs2003_2026T1_ET_FN_p20_Im3.webp|inline] given below?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p20_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p20_Im7.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p20_Im8.webp|inline]",
         "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p21_Im2.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p20_Im7.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2026T1_ET_FN_p20_Im1.webp",
         "/data/images/cs2003_2026T1_ET_FN_p20_Im2.webp",
         "/data/images/cs2003_2026T1_ET_FN_p20_Im3.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p20_Im5.webp",
         "/data/images/cs2003_2026T1_ET_FN_p20_Im7.webp",
         "/data/images/cs2003_2026T1_ET_FN_p20_Im8.webp",
         "/data/images/cs2003_2026T1_ET_FN_p21_Im2.webp"
@@ -754,17 +758,18 @@
       "text": "Examine the following Python code snippet. [IMAGE: /data/images/cs2003_2026T1_ET_FN_p22_Im1.webp|block] What will be the output when running the command: [IMAGE: /data/images/cs2003_2026T1_ET_FN_p22_Im2.webp|inline] ?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p22_Im4.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p22_Im6.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p22_Im7.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p23_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p23_Im2.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p22_Im7.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T1_ET_FN_p22_Im6.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2026T1_ET_FN_p22_Im1.webp",
         "/data/images/cs2003_2026T1_ET_FN_p22_Im2.webp",
+        "/data/images/cs2003_2026T1_ET_FN_p22_Im4.webp",
         "/data/images/cs2003_2026T1_ET_FN_p22_Im6.webp",
         "/data/images/cs2003_2026T1_ET_FN_p22_Im7.webp",
         "/data/images/cs2003_2026T1_ET_FN_p23_Im2.webp"

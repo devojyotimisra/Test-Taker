@@ -76,14 +76,15 @@
       "text": "You want to train a linear model using stochastic gradient descent (SGD). Assume that the loss function and training loop are implemented correctly. Which of the following model definitions will result in the weights being updated during training?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p3_Im4.webp|block]",
         "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p3_Im5.webp|block]",
-        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p4_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p4_Im2.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p4_Im2.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da2001_2026T1_Q1_NA_p3_Im5.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da2001_2026T1_Q1_NA_p3_Im4.webp",
         "/data/images/da2001_2026T1_Q1_NA_p3_Im5.webp",
         "/data/images/da2001_2026T1_Q1_NA_p4_Im2.webp"
       ],

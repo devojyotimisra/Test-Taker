@@ -54,16 +54,17 @@
       "text": "Consider the SQLAlchemy model Order mapped to the table orders . [IMAGE: /data/images/cs2003_2026T2_Q2_NA_p2_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p2_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p2_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p2_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p2_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p2_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p2_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p2_Im5.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2026T2_Q2_NA_p2_Im1.webp",
+        "/data/images/cs2003_2026T2_Q2_NA_p2_Im3.webp",
         "/data/images/cs2003_2026T2_Q2_NA_p2_Im5.webp",
         "/data/images/cs2003_2026T2_Q2_NA_p2_Im6.webp",
         "/data/images/cs2003_2026T2_Q2_NA_p2_Im7.webp"
@@ -103,16 +104,17 @@
       "text": "Consider the following Python code. File name: decorator.py [IMAGE: /data/images/cs2003_2026T2_Q2_NA_p3_Im4.webp|block] What will be the output, when running the above code using the command \"python decorator.py\"?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p3_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p4_Im2.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p4_Im4.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p4_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p4_Im5.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p4_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p4_Im4.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2026T2_Q2_NA_p3_Im4.webp",
+        "/data/images/cs2003_2026T2_Q2_NA_p3_Im5.webp",
         "/data/images/cs2003_2026T2_Q2_NA_p4_Im2.webp",
         "/data/images/cs2003_2026T2_Q2_NA_p4_Im4.webp",
         "/data/images/cs2003_2026T2_Q2_NA_p4_Im5.webp"
@@ -199,20 +201,21 @@
       "text": "Consider the following flask app. [IMAGE: /data/images/cs2003_2026T2_Q2_NA_p6_Im2.webp|block] If the application is running locally on http://127.0.0.1:5000, select the correct options.",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p6_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p7_Im2.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p7_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p7_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p7_Im4.webp|block]"
       ],
       "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p7_Im2.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p7_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p7_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_Q2_NA_p7_Im4.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2026T2_Q2_NA_p6_Im2.webp",
+        "/data/images/cs2003_2026T2_Q2_NA_p6_Im3.webp",
         "/data/images/cs2003_2026T2_Q2_NA_p7_Im2.webp",
         "/data/images/cs2003_2026T2_Q2_NA_p7_Im3.webp",
         "/data/images/cs2003_2026T2_Q2_NA_p7_Im4.webp"

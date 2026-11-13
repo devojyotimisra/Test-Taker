@@ -57,15 +57,16 @@
       "text": "A GPT model is trained using causal language modeling . During training, for a sequence of T = 4 tokens, which of the following correctly represents the attention mask matrix applied to the attention logits?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/da5004_2025T2_ET_AN_p2_Im6.webp|block]",
         "[IMAGE: /data/images/da5004_2025T2_ET_AN_p2_Im7.webp|block]",
         "[IMAGE: /data/images/da5004_2025T2_ET_AN_p2_Im8.webp|block]",
-        "[IMAGE: /data/images/da5004_2025T2_ET_AN_p2_Im9.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5004_2025T2_ET_AN_p2_Im9.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da5004_2025T2_ET_AN_p2_Im7.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da5004_2025T2_ET_AN_p2_Im6.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5004_2025T2_ET_AN_p2_Im6.webp",
         "/data/images/da5004_2025T2_ET_AN_p2_Im7.webp",
         "/data/images/da5004_2025T2_ET_AN_p2_Im8.webp",
         "/data/images/da5004_2025T2_ET_AN_p2_Im9.webp"

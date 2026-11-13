@@ -84,13 +84,13 @@
         "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p3_Im10.webp|inline]",
         "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p3_Im11.webp|inline]",
         "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p4_Im2.webp|inline]",
-        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p4_Im4.webp|inline] [IMAGE: /data/images/se2001_2026T1_Q1_NA_p4_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p4_Im4.webp|inline]",
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p4_Im5.webp|block]"
       ],
       "correct_answer": [
         "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p3_Im10.webp|inline]",
         "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p3_Im11.webp|inline]",
-        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p4_Im4.webp|inline] [IMAGE: /data/images/se2001_2026T1_Q1_NA_p4_Im5.webp|block]"
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p4_Im4.webp|inline]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
@@ -269,12 +269,12 @@
       "text": "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p8_Im5.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p8_Im6.webp|inline] [IMAGE: /data/images/se2001_2026T1_Q1_NA_p8_Im8.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p8_Im8.webp|block]",
         "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p8_Im9.webp|inline]",
         "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p8_Im10.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p8_Im8.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -392,20 +392,21 @@
       "text": "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p11_Im2.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p12_Im2.webp|block]",
         "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p12_Im4.webp|block]",
         "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p12_Im5.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p12_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p12_Im6.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p12_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p12_Im4.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p12_Im6.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2001_2026T1_Q1_NA_p11_Im2.webp",
         "/data/images/se2001_2026T1_Q1_NA_p11_Im1.webp",
+        "/data/images/se2001_2026T1_Q1_NA_p12_Im2.webp",
         "/data/images/se2001_2026T1_Q1_NA_p12_Im4.webp",
         "/data/images/se2001_2026T1_Q1_NA_p12_Im5.webp",
         "/data/images/se2001_2026T1_Q1_NA_p12_Im6.webp"
@@ -422,20 +423,21 @@
       "text": "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p13_Im1.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p13_Im3.webp|block]",
         "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p13_Im4.webp|block]",
         "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p13_Im6.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p13_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p13_Im7.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p13_Im4.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p13_Im6.webp|block]"
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p13_Im3.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T1_Q1_NA_p13_Im4.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2001_2026T1_Q1_NA_p13_Im1.webp",
         "/data/images/se2001_2026T1_Q1_NA_p11_Im1.webp",
+        "/data/images/se2001_2026T1_Q1_NA_p13_Im3.webp",
         "/data/images/se2001_2026T1_Q1_NA_p13_Im4.webp",
         "/data/images/se2001_2026T1_Q1_NA_p13_Im6.webp",
         "/data/images/se2001_2026T1_Q1_NA_p13_Im7.webp"

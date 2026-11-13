@@ -30,22 +30,23 @@
       "text": "Which of the following equations correctly represents the maximum likelihood problem for estimating [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im3.webp|inline] ?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im5.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im6.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im7.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im8.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im9.webp|inline]"
       ],
       "correct_answer": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im5.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p1_Im8.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2007_2025T3_Q2_NA_p1_Im3.webp",
         "/data/images/cs2007_2025T3_Q2_NA_p1_Im2.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p1_Im5.webp",
         "/data/images/cs2007_2025T3_Q2_NA_p1_Im6.webp",
         "/data/images/cs2007_2025T3_Q2_NA_p1_Im7.webp",
         "/data/images/cs2007_2025T3_Q2_NA_p1_Im8.webp",
@@ -63,18 +64,19 @@
       "text": "Derive the maximum likelihood estimate of the parameter [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im1.webp|inline] in terms of the training examples [IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im2.webp|inline] .",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im4.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im6.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im7.webp|block]",
-        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im8.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q2_NA_p2_Im4.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2007_2025T3_Q2_NA_p2_Im1.webp",
         "/data/images/cs2007_2025T3_Q2_NA_p2_Im2.webp",
         "/data/images/cs2007_2025T3_Q2_NA_p1_Im2.webp",
+        "/data/images/cs2007_2025T3_Q2_NA_p2_Im4.webp",
         "/data/images/cs2007_2025T3_Q2_NA_p2_Im6.webp",
         "/data/images/cs2007_2025T3_Q2_NA_p2_Im7.webp",
         "/data/images/cs2007_2025T3_Q2_NA_p2_Im8.webp"

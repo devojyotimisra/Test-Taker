@@ -58,16 +58,17 @@
       "text": "Consider the following Python code. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p2_Im1.webp|block] Assume that the above code is executed using the command \u201cpytest -v test_fixture.py\u201d. What is the output of the tested code? (Assume tests run in the same session and global state is preserved. )",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p2_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p2_Im4.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p2_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p2_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p2_Im7.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p2_Im7.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2026T2_ET_FN_p2_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p2_Im3.webp",
         "/data/images/cs2003_2026T2_ET_FN_p2_Im4.webp",
         "/data/images/cs2003_2026T2_ET_FN_p2_Im5.webp",
         "/data/images/cs2003_2026T2_ET_FN_p2_Im7.webp"
@@ -178,12 +179,12 @@
       "text": "Consider the following data model for a Music Streaming App: [IMAGE: /data/images/cs2003_2026T2_ET_FN_p5_Im4.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p6_Im1.webp|block] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p6_Im3.webp|block]",
-        "",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p6_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p6_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p6_Im5.webp|inline]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p6_Im6.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p6_Im3.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -228,12 +229,12 @@
       "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im1.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im3.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im5.webp|block]",
-        "",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im6.webp|inline]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im7.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p8_Im5.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -345,8 +346,8 @@
       "options": [
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im3.webp|inline]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im5.webp|inline]",
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im6.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im7.webp|block]"
       ],
       "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p11_Im5.webp|inline]",
       "marks": 2.0,
@@ -532,14 +533,14 @@
       "text": "Consider the following Python Flask code. [IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im1.webp|block]",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im3.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im5.webp|block]",
-        "",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im6.webp|inline]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im7.webp|inline]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im8.webp|inline]"
       ],
       "correct_answer": [
-        "",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p16_Im6.webp|inline]"
       ],
       "marks": 5.0,
@@ -564,19 +565,20 @@
       "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p17_Im1.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p17_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p17_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im2.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im4.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p17_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im4.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2026T2_ET_FN_p17_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p17_Im3.webp",
         "/data/images/cs2003_2026T2_ET_FN_p17_Im5.webp",
         "/data/images/cs2003_2026T2_ET_FN_p18_Im2.webp",
         "/data/images/cs2003_2026T2_ET_FN_p18_Im4.webp"
@@ -593,21 +595,22 @@
       "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im5.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im6.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im7.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p19_Im2.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p19_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p19_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p19_Im5.webp|block]"
       ],
       "correct_answer": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im6.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p18_Im7.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p19_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p19_Im5.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2026T2_ET_FN_p18_Im5.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p18_Im6.webp",
         "/data/images/cs2003_2026T2_ET_FN_p18_Im7.webp",
         "/data/images/cs2003_2026T2_ET_FN_p19_Im2.webp",
         "/data/images/cs2003_2026T2_ET_FN_p19_Im3.webp",
@@ -693,16 +696,17 @@
       "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p22_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p22_Im3.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p22_Im5.webp|block]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p22_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p22_Im7.webp|inline]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p22_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p22_Im3.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2003_2026T2_ET_FN_p22_Im1.webp",
+        "/data/images/cs2003_2026T2_ET_FN_p22_Im3.webp",
         "/data/images/cs2003_2026T2_ET_FN_p22_Im5.webp",
         "/data/images/cs2003_2026T2_ET_FN_p22_Im6.webp",
         "/data/images/cs2003_2026T2_ET_FN_p22_Im7.webp"
@@ -773,12 +777,12 @@
       "options": [
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im4.webp|inline]",
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im5.webp|inline]",
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im6.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im7.webp|block]"
       ],
       "correct_answer": [
         "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im4.webp|inline]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p25_Im7.webp|block]"
       ],
       "marks": 2.0,
       "negative_marks": 0.0,
@@ -800,16 +804,16 @@
       "text": "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im1.webp|block]",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im3.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im6.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im7.webp|block]",
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im8.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im3.webp|inline] [IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im8.webp|block]"
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2003_2026T2_ET_FN_p26_Im7.webp|block]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,

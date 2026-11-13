@@ -403,19 +403,20 @@
       "text": "Consider the following code snippet: [IMAGE: /data/images/cs2008_2026T1_ET_AN_p12_Im7.webp|block] Identify the correct code snippet/s to retrive only employees from departments where the average salary > 65000.",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p13_Im1.webp|block] [IMAGE: /data/images/cs2008_2026T1_ET_AN_p13_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p13_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p12_Im8.webp|block]",
+        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p13_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p13_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p13_Im5.webp|block]"
       ],
       "correct_answer": [
-        "",
-        ""
+        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p12_Im8.webp|block]",
+        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p13_Im5.webp|block]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2008_2026T1_ET_AN_p12_Im7.webp",
+        "/data/images/cs2008_2026T1_ET_AN_p12_Im8.webp",
         "/data/images/cs2008_2026T1_ET_AN_p13_Im1.webp",
         "/data/images/cs2008_2026T1_ET_AN_p13_Im3.webp",
         "/data/images/cs2008_2026T1_ET_AN_p13_Im5.webp"
@@ -457,15 +458,16 @@
       "text": "Which of the following implementations of LogisticRgression cannot be used to tackle multinomial multiclass problems?",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/cs2008_2026T1_ET_AN_p14_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p14_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p13_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p14_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p14_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p14_Im4.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2026T1_ET_AN_p13_Im6.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2026T1_ET_AN_p13_Im6.webp",
         "/data/images/cs2008_2026T1_ET_AN_p14_Im1.webp",
         "/data/images/cs2008_2026T1_ET_AN_p14_Im3.webp",
         "/data/images/cs2008_2026T1_ET_AN_p14_Im4.webp"

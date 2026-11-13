@@ -82,12 +82,12 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following code blocks will generate a random n-class classification problem having a total number of features as 5 and 3 unique labels in the target variable?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im1.webp|block] [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p3_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -158,16 +158,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following code snippet: [IMAGE: /data/images/cs2008_2022T3_Q1_NA_p5_Im1.webp|block] Above code returns (178, 13) as output. Which of the following would be the correct code(s) to split X and y such that you have exactly 36 samples for test data?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p5_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p5_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p5_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p5_Im7.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p5_Im6.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2008_2022T3_Q1_NA_p5_Im1.webp",
+        "/data/images/cs2008_2022T3_Q1_NA_p5_Im3.webp",
         "/data/images/cs2008_2022T3_Q1_NA_p5_Im4.webp",
         "/data/images/cs2008_2022T3_Q1_NA_p5_Im6.webp",
         "/data/images/cs2008_2022T3_Q1_NA_p5_Im7.webp"
@@ -385,15 +386,16 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following code blocks will correctly take the learning rate as \u2018invscaling\u2019 ?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p11_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p11_Im5.webp|block]",
         "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p11_Im7.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p11_Im8.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2022T3_Q1_NA_p11_Im7.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2022T3_Q1_NA_p11_Im4.webp",
         "/data/images/cs2008_2022T3_Q1_NA_p11_Im5.webp",
         "/data/images/cs2008_2022T3_Q1_NA_p11_Im7.webp",
         "/data/images/cs2008_2022T3_Q1_NA_p11_Im8.webp"

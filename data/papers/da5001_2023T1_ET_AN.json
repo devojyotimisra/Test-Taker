@@ -181,15 +181,16 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following code snippets will give a runtime error? (Note: df is a spark dataframe. It has a column called content which has images represented as byte array)",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p7_Im2.webp|block]",
         "[IMAGE: /data/images/da5001_2023T1_ET_AN_p8_Im2.webp|block]",
         "[IMAGE: /data/images/da5001_2023T1_ET_AN_p8_Im3.webp|block]",
-        "",
         "[IMAGE: /data/images/da5001_2023T1_ET_AN_p9_Im1.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da5001_2023T1_ET_AN_p8_Im2.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da5001_2023T1_ET_AN_p7_Im2.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5001_2023T1_ET_AN_p7_Im2.webp",
         "/data/images/da5001_2023T1_ET_AN_p8_Im2.webp",
         "/data/images/da5001_2023T1_ET_AN_p8_Im3.webp",
         "/data/images/da5001_2023T1_ET_AN_p9_Im1.webp"
@@ -464,18 +465,19 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A Spark Streaming application is configured to execute once per minute. However, each run takes 10+ minutes consistently resulting in a never-ending backlog of work. The code in a nutshell looks as follows: [IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im1.webp|block] Your goal is to optimize the code to bring down execution of each iteration within 1 minute. Which of the following represent options that will help in this mission?",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im5.webp|inline] [IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im6.webp|block]",
-        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im3.webp|block]",
+        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im6.webp|block]",
+        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im7.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im5.webp|inline] [IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im6.webp|block]"
+        "[IMAGE: /data/images/da5001_2023T1_ET_AN_p18_Im5.webp|inline]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/da5001_2023T1_ET_AN_p18_Im1.webp",
+        "/data/images/da5001_2023T1_ET_AN_p18_Im3.webp",
         "/data/images/da5001_2023T1_ET_AN_p18_Im5.webp",
         "/data/images/da5001_2023T1_ET_AN_p18_Im6.webp",
         "/data/images/da5001_2023T1_ET_AN_p18_Im7.webp"

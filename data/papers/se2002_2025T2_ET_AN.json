@@ -229,12 +229,12 @@
       "text": "A data scientist accidentally committed sensitive credentials to a Git repository. Which sequence of commands safely removes the credentials from history?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im3.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im4.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im4.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im5.webp|inline]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im6.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p4_Im4.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -391,12 +391,12 @@
       "text": "Quality engineers need to analyze sensor data to identify equipment performance degradation patterns. Which command-line approach efficiently processes large sensor log files to extract anomalous readings?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p7_Im3.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_AN_p7_Im4.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p7_Im4.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p7_Im5.webp|inline]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p7_Im6.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p7_Im4.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
@@ -480,16 +480,17 @@
       "text": "Which log entry correctly represents a successful console objective action during the tournament window?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im3.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im5.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im6.webp|block]",
-        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p9_Im3.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2002_2025T2_ET_AN_p9_Im1.webp",
+        "/data/images/se2002_2025T2_ET_AN_p9_Im3.webp",
         "/data/images/se2002_2025T2_ET_AN_p9_Im5.webp",
         "/data/images/se2002_2025T2_ET_AN_p9_Im6.webp",
         "/data/images/se2002_2025T2_ET_AN_p9_Im7.webp"
@@ -612,12 +613,12 @@
       "text": "Which approach most accurately identifies console gaming platforms from the Platform field?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im9.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im10.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im9.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im10.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im11.webp|inline]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im12.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p11_Im10.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -666,12 +667,12 @@
       "text": "To efficiently count different action types (KILL, DEATH, OBJECTIVE) from filtered tournament data, which approach is optimal?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im7.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im8.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im7.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im8.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im9.webp|inline]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im10.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p12_Im8.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -716,12 +717,12 @@
       "text": "For processing massive gaming log files (100GB+) with memory constraints, which Python approach provides optimal performance?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p13_Im2.webp|inline] [IMAGE: /data/images/se2002_2025T2_ET_AN_p13_Im4.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p13_Im2.webp|inline]",
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p13_Im4.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p13_Im5.webp|inline]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p13_Im6.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p13_Im4.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -764,15 +765,16 @@
       "text": "Which system prompt design best supports strategic supply chain decision-making across multiple stakeholders?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2002_2025T2_ET_AN_p14_Im3.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p14_Im4.webp|block]",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p14_Im5.webp|block]",
-        "",
         "[IMAGE: /data/images/se2002_2025T2_ET_AN_p14_Im6.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T2_ET_AN_p14_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/se2002_2025T2_ET_AN_p14_Im3.webp",
         "/data/images/se2002_2025T2_ET_AN_p14_Im4.webp",
         "/data/images/se2002_2025T2_ET_AN_p14_Im5.webp",
         "/data/images/se2002_2025T2_ET_AN_p14_Im6.webp"

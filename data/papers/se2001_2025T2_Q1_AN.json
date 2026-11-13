@@ -103,8 +103,8 @@
       "options": [
         "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p3_Im3.webp|inline]",
         "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p3_Im5.webp|inline]",
-        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p3_Im6.webp|inline] [IMAGE: /data/images/se2001_2025T2_Q1_AN_p3_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p3_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p3_Im7.webp|block]"
       ],
       "correct_answer": "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p3_Im5.webp|inline]",
       "marks": 3.0,
@@ -128,16 +128,17 @@
       "text": "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p4_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p4_Im3.webp|block]",
         "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p4_Im5.webp|block]",
-        "",
-        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p5_Im1.webp|block] [IMAGE: /data/images/se2001_2025T2_Q1_AN_p5_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p5_Im1.webp|block]",
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p5_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p4_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p4_Im3.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2001_2025T2_Q1_AN_p4_Im1.webp",
+        "/data/images/se2001_2025T2_Q1_AN_p4_Im3.webp",
         "/data/images/se2001_2025T2_Q1_AN_p4_Im5.webp",
         "/data/images/se2001_2025T2_Q1_AN_p5_Im1.webp",
         "/data/images/se2001_2025T2_Q1_AN_p5_Im3.webp"
@@ -285,12 +286,12 @@
       "text": "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p8_Im1.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p8_Im3.webp|inline] [IMAGE: /data/images/se2001_2025T2_Q1_AN_p8_Im5.webp|block]",
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p8_Im3.webp|inline]",
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p8_Im5.webp|block]",
         "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p8_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p8_Im7.webp|inline]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p8_Im3.webp|inline] [IMAGE: /data/images/se2001_2025T2_Q1_AN_p8_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p8_Im3.webp|inline]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -393,20 +394,21 @@
       "text": "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p11_Im2.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p11_Im4.webp|block]",
         "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p11_Im6.webp|block]",
-        "",
-        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im1.webp|block] [IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im1.webp|block]",
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im3.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p11_Im6.webp|block]",
-        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im1.webp|block] [IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im3.webp|block]"
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p11_Im4.webp|block]",
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im1.webp|block]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2001_2025T2_Q1_AN_p11_Im2.webp",
         "/data/images/se2001_2025T2_Q1_AN_p11_Im1.webp",
+        "/data/images/se2001_2025T2_Q1_AN_p11_Im4.webp",
         "/data/images/se2001_2025T2_Q1_AN_p11_Im6.webp",
         "/data/images/se2001_2025T2_Q1_AN_p12_Im1.webp",
         "/data/images/se2001_2025T2_Q1_AN_p12_Im3.webp"
@@ -423,20 +425,21 @@
       "text": "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im4.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im5.webp|block]",
         "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im7.webp|block]",
         "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im8.webp|block]",
-        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im9.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im9.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im7.webp|block]",
+        "[IMAGE: /data/images/se2001_2025T2_Q1_AN_p12_Im9.webp|block]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2001_2025T2_Q1_AN_p12_Im4.webp",
         "/data/images/se2001_2025T2_Q1_AN_p11_Im1.webp",
+        "/data/images/se2001_2025T2_Q1_AN_p12_Im5.webp",
         "/data/images/se2001_2025T2_Q1_AN_p12_Im7.webp",
         "/data/images/se2001_2025T2_Q1_AN_p12_Im8.webp",
         "/data/images/se2001_2025T2_Q1_AN_p12_Im9.webp"

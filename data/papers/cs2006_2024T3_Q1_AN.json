@@ -74,8 +74,8 @@
       "text": "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p2_Im3.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p2_Im4.webp|block]",
         "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p2_Im5.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p3_Im1.webp|block]",
         "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p3_Im3.webp|inline]"
       ],
@@ -84,6 +84,7 @@
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2006_2024T3_Q1_AN_p2_Im3.webp",
+        "/data/images/cs2006_2024T3_Q1_AN_p2_Im4.webp",
         "/data/images/cs2006_2024T3_Q1_AN_p2_Im5.webp",
         "/data/images/cs2006_2024T3_Q1_AN_p3_Im1.webp",
         "/data/images/cs2006_2024T3_Q1_AN_p3_Im3.webp"
@@ -123,12 +124,12 @@
       "text": "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p4_Im1.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p4_Im3.webp|inline] [IMAGE: /data/images/cs2006_2024T3_Q1_AN_p4_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p4_Im4.webp|block]",
         "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p4_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p4_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p4_Im7.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p4_Im7.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -220,16 +221,17 @@
       "text": "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p8_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p8_Im3.webp|block]",
         "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p8_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p9_Im1.webp|block] [IMAGE: /data/images/cs2006_2024T3_Q1_AN_p9_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p9_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p9_Im3.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2006_2024T3_Q1_AN_p9_Im3.webp|block]",
       "marks": 4.5,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2006_2024T3_Q1_AN_p8_Im1.webp",
+        "/data/images/cs2006_2024T3_Q1_AN_p8_Im3.webp",
         "/data/images/cs2006_2024T3_Q1_AN_p8_Im4.webp",
         "/data/images/cs2006_2024T3_Q1_AN_p9_Im1.webp",
         "/data/images/cs2006_2024T3_Q1_AN_p9_Im3.webp"

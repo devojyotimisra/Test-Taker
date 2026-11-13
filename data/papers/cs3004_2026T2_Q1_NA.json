@@ -142,12 +142,12 @@
       "text": "A perceptron is being trained on a 2D dataset using the Perceptron Learning Algorithm. The current weight vector [IMAGE: /data/images/cs3004_2026T2_Q1_NA_p3_Im21.webp|block] [IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im1.webp|block] For a misclassified training example with true label [IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im2.webp|inline] , the perceptron update rule with learning rate [IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im3.webp|inline] is applied: [IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im4.webp|block] Let [IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im5.webp|inline] denote the angle between [IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im6.webp|inline] and [IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im7.webp|inline] . Which of the following is equal to [IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im8.webp|inline] ?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im10.webp|block]",
         "[IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im11.webp|block]",
         "[IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im13.webp|block]",
-        "",
         "[IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im14.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs3004_2026T2_Q1_NA_p4_Im13.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -160,6 +160,7 @@
         "/data/images/cs3004_2026T2_Q1_NA_p4_Im6.webp",
         "/data/images/cs3004_2026T2_Q1_NA_p4_Im7.webp",
         "/data/images/cs3004_2026T2_Q1_NA_p4_Im8.webp",
+        "/data/images/cs3004_2026T2_Q1_NA_p4_Im10.webp",
         "/data/images/cs3004_2026T2_Q1_NA_p4_Im11.webp",
         "/data/images/cs3004_2026T2_Q1_NA_p4_Im13.webp",
         "/data/images/cs3004_2026T2_Q1_NA_p4_Im14.webp"

@@ -203,20 +203,21 @@
       "text": "A logistic regression model has been trained to predict whether a gene pair interacts (interaction = 1, no interaction = 0) using two biological features (for example, co-expression score and shared pathway count). The feature vector for a test gene pair is [IMAGE: /data/images/bt4001_2026T1_Q1_NA_p5_Im17.webp|block] and the predicted probability of interaction using this trained logistic regression classifier turns out to be [IMAGE: /data/images/bt4001_2026T1_Q1_NA_p5_Im18.webp|block] Which of the following weight vectors could correspond to this logistic regression classifier? Select all that apply.",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p5_Im19.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p5_Im20.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im2.webp|block]",
-        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im3.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p5_Im20.webp|block]",
-        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im2.webp|block]"
+        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p5_Im19.webp|block]",
+        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p5_Im20.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bt4001_2026T1_Q1_NA_p5_Im17.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p5_Im18.webp",
+        "/data/images/bt4001_2026T1_Q1_NA_p5_Im19.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p5_Im20.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p6_Im2.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p6_Im3.webp"
@@ -233,15 +234,15 @@
       "text": "Consider two input DNA sequences: [IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im4.webp|inline] [IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im5.webp|inline] and [IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im6.webp|inline] [IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im7.webp|inline] . Consider an alignment game to align [IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im8.webp|inline] and [IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im9.webp|inline] such that we can score the maximum number of points. Scoring is done as follows: \u2022 For each match between two symbols: +1 point \u2022 For each mismatch between two symbols: 0 point \u2022 For each removal of symbol from any one sequence: 0 point Which of the following alignment(s) between the two strings scores the highest point?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im11.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im12.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im13.webp|block]",
-        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im14.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im14.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im12.webp|block]",
-        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im14.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im11.webp|block]",
+        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im13.webp|block]",
+        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p6_Im14.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
@@ -252,6 +253,7 @@
         "/data/images/bt4001_2026T1_Q1_NA_p6_Im7.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p6_Im8.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p6_Im9.webp",
+        "/data/images/bt4001_2026T1_Q1_NA_p6_Im11.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p6_Im12.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p6_Im13.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p6_Im14.webp"
@@ -308,18 +310,19 @@
       "text": "Which of the following is the correct adjacency matrix for the same?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p8_Im3.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p8_Im5.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p8_Im6.webp|block]",
-        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p8_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p8_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p8_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T1_Q1_NA_p8_Im5.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bt4001_2026T1_Q1_NA_p7_Im7.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p7_Im8.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p8_Im1.webp",
+        "/data/images/bt4001_2026T1_Q1_NA_p8_Im3.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p8_Im5.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p8_Im6.webp",
         "/data/images/bt4001_2026T1_Q1_NA_p8_Im7.webp"

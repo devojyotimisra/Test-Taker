@@ -103,12 +103,12 @@
       "text": "Recall the color coding algorithm to compute a [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p2_Im8.webp|inline] -length path (connecting the regulators and receptors) with maximum weight. We had the following optimal substructure: [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p2_Im9.webp|block] Consider a set of proteins [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im1.webp|inline] . You are asked to compute the path with maximum weight such that there are at least [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im2.webp|inline] and at most [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im3.webp|inline] proteins from [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im4.webp|inline] . To accommodate the same the DP matrix is modified as follows: Instead of a 2-D matrix, we use a 3-D DP matrix [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im5.webp|inline] such that [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im6.webp|inline] stores the maximum weight of a path of length [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im7.webp|inline] ending at [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im8.webp|inline] containing a vertex of each color in [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im9.webp|inline] and exactly [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im10.webp|inline] proteins from [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im11.webp|inline] . Which among the following is the correct optimal substructure for the algorithm?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im13.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im15.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im16.webp|block]",
-        "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im17.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im17.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im15.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p3_Im13.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
@@ -125,6 +125,7 @@
         "/data/images/bt4001_2026T2_Q1_NA_p3_Im9.webp",
         "/data/images/bt4001_2026T2_Q1_NA_p3_Im10.webp",
         "/data/images/bt4001_2026T2_Q1_NA_p3_Im11.webp",
+        "/data/images/bt4001_2026T2_Q1_NA_p3_Im13.webp",
         "/data/images/bt4001_2026T2_Q1_NA_p3_Im15.webp",
         "/data/images/bt4001_2026T2_Q1_NA_p3_Im16.webp",
         "/data/images/bt4001_2026T2_Q1_NA_p3_Im17.webp"
@@ -434,12 +435,12 @@
       "text": "Consider the global alignment between [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p11_Im1.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p11_Im2.webp|inline] . Let the score be computed as follows: [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p11_Im3.webp|block] From the given options identify the highest-scoring global alignment(s) between the two strings ( [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p11_Im4.webp|inline] and [IMAGE: /data/images/bt4001_2026T2_Q1_NA_p11_Im5.webp|inline] ).",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p11_Im7.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p11_Im8.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p11_Im10.webp|block]",
-        "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p11_Im11.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p11_Im11.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p11_Im11.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_Q1_NA_p11_Im10.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -450,6 +451,7 @@
         "/data/images/bt4001_2026T2_Q1_NA_p11_Im5.webp",
         "/data/images/bt4001_2026T2_Q1_NA_p10_Im6.webp",
         "/data/images/bt4001_2026T2_Q1_NA_p10_Im7.webp",
+        "/data/images/bt4001_2026T2_Q1_NA_p11_Im7.webp",
         "/data/images/bt4001_2026T2_Q1_NA_p11_Im8.webp",
         "/data/images/bt4001_2026T2_Q1_NA_p11_Im10.webp",
         "/data/images/bt4001_2026T2_Q1_NA_p11_Im11.webp"

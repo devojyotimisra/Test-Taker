@@ -30,16 +30,17 @@
       "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p1_Im3.webp|block] What will the output be?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im2.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im3.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p2_Im5.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2005_2026T1_ET_AN_p1_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p2_Im2.webp",
         "/data/images/cs2005_2026T1_ET_AN_p2_Im3.webp",
         "/data/images/cs2005_2026T1_ET_AN_p2_Im5.webp",
         "/data/images/cs2005_2026T1_ET_AN_p2_Im6.webp"
@@ -145,12 +146,12 @@
       "text": "Consider the following block of code. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im7.webp|block] Which among the following code blocks can replace the given code in order to generate a customized assertion error as shown below? [IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im8.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im9.webp|inline] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im10.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p7_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p7_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im10.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p7_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p7_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im9.webp|inline] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im10.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p6_Im9.webp|inline]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
@@ -204,18 +205,19 @@
       "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p9_Im2.webp|block] Choose the correct option to fill in place of [IMAGE: /data/images/cs2005_2026T1_ET_AN_p9_Im3.webp|inline] so that the output is: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p9_Im4.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p10_Im2.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p10_Im4.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p10_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p10_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p10_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p10_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p10_Im4.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2005_2026T1_ET_AN_p9_Im2.webp",
         "/data/images/cs2005_2026T1_ET_AN_p9_Im3.webp",
         "/data/images/cs2005_2026T1_ET_AN_p9_Im4.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p10_Im2.webp",
         "/data/images/cs2005_2026T1_ET_AN_p10_Im4.webp",
         "/data/images/cs2005_2026T1_ET_AN_p10_Im5.webp",
         "/data/images/cs2005_2026T1_ET_AN_p10_Im6.webp"
@@ -455,12 +457,12 @@
       "text": "Consider the code given below that checks whether two circles are identical. Method [IMAGE: /data/images/cs2005_2026T1_ET_AN_p21_Im7.webp|inline] is overridden to compare two [IMAGE: /data/images/cs2005_2026T1_ET_AN_p21_Im8.webp|inline] objects as follows. If two circles have the same radius and center, then both are considered identical. Based on the given information, answer the question that follows. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p22_Im1.webp|block] Choose the correct option to fill in place of [IMAGE: /data/images/cs2005_2026T1_ET_AN_p22_Im2.webp|inline] so that the output is: [IMAGE: /data/images/cs2005_2026T1_ET_AN_p22_Im3.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p22_Im5.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p22_Im6.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p23_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p23_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p23_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p23_Im3.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p23_Im3.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
@@ -469,6 +471,7 @@
         "/data/images/cs2005_2026T1_ET_AN_p22_Im1.webp",
         "/data/images/cs2005_2026T1_ET_AN_p22_Im2.webp",
         "/data/images/cs2005_2026T1_ET_AN_p22_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p22_Im5.webp",
         "/data/images/cs2005_2026T1_ET_AN_p22_Im6.webp",
         "/data/images/cs2005_2026T1_ET_AN_p23_Im1.webp",
         "/data/images/cs2005_2026T1_ET_AN_p23_Im3.webp"
@@ -485,16 +488,17 @@
       "text": "Consider the following Java code that uses chained exceptions. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p24_Im1.webp|block] What can be the output of this code?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p24_Im3.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p24_Im5.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p24_Im6.webp|inline]",
         "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p24_Im7.webp|inline]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p24_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p24_Im3.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2005_2026T1_ET_AN_p24_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p24_Im3.webp",
         "/data/images/cs2005_2026T1_ET_AN_p24_Im5.webp",
         "/data/images/cs2005_2026T1_ET_AN_p24_Im6.webp",
         "/data/images/cs2005_2026T1_ET_AN_p24_Im7.webp"
@@ -569,9 +573,9 @@
       "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p27_Im1.webp|block] What will the output be?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p27_Im3.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p27_Im4.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p27_Im5.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p28_Im1.webp|block]"
       ],
       "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p28_Im1.webp|block]",
@@ -579,6 +583,7 @@
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2005_2026T1_ET_AN_p27_Im1.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p27_Im3.webp",
         "/data/images/cs2005_2026T1_ET_AN_p27_Im4.webp",
         "/data/images/cs2005_2026T1_ET_AN_p27_Im5.webp",
         "/data/images/cs2005_2026T1_ET_AN_p28_Im1.webp"
@@ -595,16 +600,17 @@
       "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p28_Im2.webp|block] What will the output be?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p28_Im4.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p28_Im5.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im3.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p29_Im1.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2005_2026T1_ET_AN_p28_Im2.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p28_Im4.webp",
         "/data/images/cs2005_2026T1_ET_AN_p28_Im5.webp",
         "/data/images/cs2005_2026T1_ET_AN_p29_Im1.webp",
         "/data/images/cs2005_2026T1_ET_AN_p29_Im3.webp"
@@ -652,18 +658,19 @@
       "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_ET_AN_p31_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p31_Im2.webp|block] Choose the correct option to be filled in place of [IMAGE: /data/images/cs2005_2026T1_ET_AN_p31_Im3.webp|inline] such that the above program produces the GUI with rows input at the top, columns input in the center, and the button at the bottom.",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p32_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_ET_AN_p32_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p32_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p31_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p32_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p32_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p32_Im5.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p32_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_ET_AN_p32_Im3.webp|block]",
       "marks": 6.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2005_2026T1_ET_AN_p31_Im1.webp",
         "/data/images/cs2005_2026T1_ET_AN_p31_Im2.webp",
         "/data/images/cs2005_2026T1_ET_AN_p31_Im3.webp",
+        "/data/images/cs2005_2026T1_ET_AN_p31_Im5.webp",
         "/data/images/cs2005_2026T1_ET_AN_p32_Im1.webp",
         "/data/images/cs2005_2026T1_ET_AN_p32_Im3.webp",
         "/data/images/cs2005_2026T1_ET_AN_p32_Im5.webp"

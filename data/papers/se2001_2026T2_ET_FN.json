@@ -56,12 +56,12 @@
       "text": "You open a terminal session inside a directory [IMAGE: /data/images/se2001_2026T2_ET_FN_p1_Im7.webp|inline] . Executing an [IMAGE: /data/images/se2001_2026T2_ET_FN_p1_Im8.webp|inline] command lists the following files: [IMAGE: /data/images/se2001_2026T2_ET_FN_p2_Im1.webp|block] You execute the following shell command involving a single-character wildcard glob (?) and what all files will be listed in the output? [IMAGE: /data/images/se2001_2026T2_ET_FN_p2_Im2.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p2_Im4.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_FN_p2_Im6.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_FN_p2_Im7.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p2_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p2_Im8.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2001_2026T2_ET_FN_p2_Im7.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2001_2026T2_ET_FN_p2_Im6.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
@@ -69,6 +69,7 @@
         "/data/images/se2001_2026T2_ET_FN_p1_Im8.webp",
         "/data/images/se2001_2026T2_ET_FN_p2_Im1.webp",
         "/data/images/se2001_2026T2_ET_FN_p2_Im2.webp",
+        "/data/images/se2001_2026T2_ET_FN_p2_Im4.webp",
         "/data/images/se2001_2026T2_ET_FN_p2_Im6.webp",
         "/data/images/se2001_2026T2_ET_FN_p2_Im7.webp",
         "/data/images/se2001_2026T2_ET_FN_p2_Im8.webp"
@@ -394,18 +395,19 @@
       "text": "[IMAGE: /data/images/se2001_2026T2_ET_FN_p10_Im2.webp|block] Which of the following AWK commands will give the same output as the command above? Note that [IMAGE: /data/images/se2001_2026T2_ET_FN_p10_Im3.webp|inline] will replace each space with a newline character. That is, each word in the string \"To be or not to be\" will be printed on a new line by the command [IMAGE: /data/images/se2001_2026T2_ET_FN_p10_Im4.webp|inline] .",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p10_Im6.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_FN_p10_Im8.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_FN_p10_Im9.webp|block]",
-        "",
         "[IMAGE: /data/images/se2001_2026T2_ET_FN_p11_Im1.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2001_2026T2_ET_FN_p10_Im8.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2001_2026T2_ET_FN_p10_Im6.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2001_2026T2_ET_FN_p10_Im2.webp",
         "/data/images/se2001_2026T2_ET_FN_p10_Im3.webp",
         "/data/images/se2001_2026T2_ET_FN_p10_Im4.webp",
+        "/data/images/se2001_2026T2_ET_FN_p10_Im6.webp",
         "/data/images/se2001_2026T2_ET_FN_p10_Im8.webp",
         "/data/images/se2001_2026T2_ET_FN_p10_Im9.webp",
         "/data/images/se2001_2026T2_ET_FN_p11_Im1.webp"
@@ -422,12 +424,12 @@
       "text": "Consider the following [IMAGE: /data/images/se2001_2026T2_ET_FN_p11_Im2.webp|inline] command: [IMAGE: /data/images/se2001_2026T2_ET_FN_p11_Im3.webp|block] The file [IMAGE: /data/images/se2001_2026T2_ET_FN_p11_Im4.webp|inline] contains: [IMAGE: /data/images/se2001_2026T2_ET_FN_p11_Im5.webp|block] What will be the output of the above [IMAGE: /data/images/se2001_2026T2_ET_FN_p11_Im6.webp|inline] command? (The order of [IMAGE: /data/images/se2001_2026T2_ET_FN_p11_Im7.webp|inline] iteration over an awk array is not guaranteed by the language; consider the output correct regardless of line order.)",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p12_Im2.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_FN_p12_Im4.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_FN_p12_Im5.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p12_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p12_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2001_2026T2_ET_FN_p12_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2001_2026T2_ET_FN_p12_Im4.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
@@ -437,6 +439,7 @@
         "/data/images/se2001_2026T2_ET_FN_p11_Im5.webp",
         "/data/images/se2001_2026T2_ET_FN_p11_Im6.webp",
         "/data/images/se2001_2026T2_ET_FN_p11_Im7.webp",
+        "/data/images/se2001_2026T2_ET_FN_p12_Im2.webp",
         "/data/images/se2001_2026T2_ET_FN_p12_Im4.webp",
         "/data/images/se2001_2026T2_ET_FN_p12_Im5.webp",
         "/data/images/se2001_2026T2_ET_FN_p12_Im6.webp"
@@ -486,15 +489,15 @@
       "text": "Which of the following [IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im1.webp|inline] commands will display lines 4 and 5 of [IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im2.webp|inline] ? Assume that [IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im3.webp|inline] contains at least 5 lines.",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im5.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im6.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im8.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im9.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im10.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im10.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im6.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im8.webp|block]"
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im5.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im6.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
@@ -502,6 +505,7 @@
         "/data/images/se2001_2026T2_ET_FN_p13_Im1.webp",
         "/data/images/se2001_2026T2_ET_FN_p13_Im2.webp",
         "/data/images/se2001_2026T2_ET_FN_p13_Im3.webp",
+        "/data/images/se2001_2026T2_ET_FN_p13_Im5.webp",
         "/data/images/se2001_2026T2_ET_FN_p13_Im6.webp",
         "/data/images/se2001_2026T2_ET_FN_p13_Im8.webp",
         "/data/images/se2001_2026T2_ET_FN_p13_Im9.webp",
@@ -519,15 +523,15 @@
       "text": "Which of the following commands will display lines 10 through 20 (inclusive) of the file [IMAGE: /data/images/se2001_2026T2_ET_FN_p13_Im11.webp|inline] ?",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im1.webp|block] [IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im3.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im1.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im3.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im5.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im6.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im1.webp|block] [IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im3.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im1.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im5.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T2_ET_FN_p14_Im6.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,

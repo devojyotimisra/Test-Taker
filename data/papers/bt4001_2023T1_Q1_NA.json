@@ -51,12 +51,12 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider a GRN system with four genes: g 1 , g 2 , g 3 and g 4 .The adjacency matrix that represents the GRN is given below. [IMAGE: /data/images/bt4001_2023T1_Q1_NA_p2_Im3.webp|block] From the given options, identify the appropriate graph representation for the given gene regulatory network (GRN).",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p3_Im1.webp|block] [IMAGE: /data/images/bt4001_2023T1_Q1_NA_p3_Im3.webp|block]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p3_Im1.webp|block]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p3_Im3.webp|block]",
         "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p3_Im5.webp|block]",
-        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p3_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p3_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p3_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p3_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -317,20 +317,21 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider an alignment game to align v and w such that we can score the maximum number of points. Scoring is done as follows: \u2022 For each match between two symbols: +1 point \u2022 For each mismatch between two symbols: 0 point \u2022 For each removal of symbol from any one sequence: 0 point Find the highest-scoring alignment(s) between the two strings.",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p11_Im2.webp|block]",
         "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p11_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p11_Im5.webp|inline] [IMAGE: /data/images/bt4001_2023T1_Q1_NA_p11_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p11_Im6.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p11_Im4.webp|block]",
-        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p11_Im5.webp|inline] [IMAGE: /data/images/bt4001_2023T1_Q1_NA_p11_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p11_Im2.webp|block]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p11_Im5.webp|inline]",
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p11_Im6.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bt4001_2023T1_Q1_NA_p10_Im7.webp",
+        "/data/images/bt4001_2023T1_Q1_NA_p11_Im2.webp",
         "/data/images/bt4001_2023T1_Q1_NA_p11_Im4.webp",
         "/data/images/bt4001_2023T1_Q1_NA_p11_Im5.webp",
         "/data/images/bt4001_2023T1_Q1_NA_p11_Im6.webp"
@@ -347,17 +348,18 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the global alignment between v and w . Let the score be computed as follows: [IMAGE: /data/images/bt4001_2023T1_Q1_NA_p12_Im1.webp|block] From the given options, identify the highest-scoring global alignment(s) between the two strings.",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p12_Im3.webp|block]",
         "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p12_Im4.webp|block]",
         "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p12_Im6.webp|block]",
-        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p12_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p12_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p12_Im7.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p12_Im6.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bt4001_2023T1_Q1_NA_p12_Im1.webp",
         "/data/images/bt4001_2023T1_Q1_NA_p10_Im7.webp",
+        "/data/images/bt4001_2023T1_Q1_NA_p12_Im3.webp",
         "/data/images/bt4001_2023T1_Q1_NA_p12_Im4.webp",
         "/data/images/bt4001_2023T1_Q1_NA_p12_Im6.webp",
         "/data/images/bt4001_2023T1_Q1_NA_p12_Im7.webp"
@@ -374,17 +376,18 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the local alignment between v and w . Let the score be computed as follows: [IMAGE: /data/images/bt4001_2023T1_Q1_NA_p12_Im8.webp|block] From the given options, find the highest-scoring local alignment(s) between the two input strings.",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p12_Im9.webp|block]",
         "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p13_Im2.webp|block]",
         "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p13_Im3.webp|block]",
-        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p13_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p13_Im4.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p13_Im2.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bt4001_2023T1_Q1_NA_p12_Im9.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bt4001_2023T1_Q1_NA_p12_Im8.webp",
         "/data/images/bt4001_2023T1_Q1_NA_p10_Im7.webp",
+        "/data/images/bt4001_2023T1_Q1_NA_p12_Im9.webp",
         "/data/images/bt4001_2023T1_Q1_NA_p13_Im2.webp",
         "/data/images/bt4001_2023T1_Q1_NA_p13_Im3.webp",
         "/data/images/bt4001_2023T1_Q1_NA_p13_Im4.webp"

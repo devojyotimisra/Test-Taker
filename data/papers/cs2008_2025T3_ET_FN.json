@@ -163,16 +163,17 @@
       "text": "You are given the following DataFrame: [IMAGE: /data/images/cs2008_2025T3_ET_FN_p6_Im1.webp|block] You want to perform the following imputation strategy: \u2022 Age \u2192 Replace missing values with the mean Age of each Department \u2022 Salary \u2192 Replace missing values with the median Salary of the entire column \u2022 Department \u2192 No imputation Which of the following code snippets correctly performs the above imputation?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p6_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p6_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p6_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p7_Im1.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p6_Im6.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2008_2025T3_ET_FN_p6_Im1.webp",
+        "/data/images/cs2008_2025T3_ET_FN_p6_Im3.webp",
         "/data/images/cs2008_2025T3_ET_FN_p6_Im4.webp",
         "/data/images/cs2008_2025T3_ET_FN_p6_Im6.webp",
         "/data/images/cs2008_2025T3_ET_FN_p7_Im1.webp"
@@ -360,15 +361,16 @@
       "text": "You are given the following four implementations of cosine similarity in NumPy. Which function correctly computes cosine similarity?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p13_Im2.webp|block]",
         "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p13_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p13_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p13_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p13_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p13_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p13_Im5.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p13_Im2.webp",
         "/data/images/cs2008_2025T3_ET_FN_p13_Im3.webp",
         "/data/images/cs2008_2025T3_ET_FN_p13_Im5.webp",
         "/data/images/cs2008_2025T3_ET_FN_p13_Im6.webp"
@@ -499,15 +501,16 @@
       "text": "You are using statsmodels to forecast a time series. Which of the following represents the correct sequence of code to define an ARIMA model, train it, and view the results?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p16_Im2.webp|block]",
         "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p16_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p16_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p16_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p16_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p16_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p16_Im4.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2025T3_ET_FN_p16_Im2.webp",
         "/data/images/cs2008_2025T3_ET_FN_p16_Im4.webp",
         "/data/images/cs2008_2025T3_ET_FN_p16_Im5.webp",
         "/data/images/cs2008_2025T3_ET_FN_p16_Im6.webp"
@@ -678,8 +681,8 @@
       "options": [
         "['document' 'first' 'is' 'second' 'the' 'this']",
         "{'this': 5, 'is': 2, 'the': 4, 'first': 1, 'document': 0, 'second': 3}",
-        "[5, 2, 4, 1, 0, 3] [IMAGE: /data/images/cs2008_2025T3_ET_FN_p22_Im4.webp|block]",
-        ""
+        "[5, 2, 4, 1, 0, 3]",
+        "[IMAGE: /data/images/cs2008_2025T3_ET_FN_p22_Im4.webp|block]"
       ],
       "correct_answer": "{'this': 5, 'is': 2, 'the': 4, 'first': 1, 'document': 0, 'second': 3}",
       "marks": 2.0,

@@ -228,8 +228,8 @@
       "text": "Consider a sequence of length [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im1.webp|inline] processed by a local [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im2.webp|inline] mechanism with block size [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im3.webp|inline] , where [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im4.webp|inline] is a multiple of [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im5.webp|inline] . The sequence is partitioned into [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im6.webp|inline] non-overlapping contiguous blocks, and self-attention is computed [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im7.webp|inline] (i.e., attention is restricted to the main diagonal blocks of the [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im8.webp|inline] attention matrix). Ignoring the cost of linear projections for [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im9.webp|inline] , what is the time complexity of the self- attention operation for one layer in terms of [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im10.webp|inline] , [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im11.webp|inline] , and the head dimension [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im12.webp|inline] ?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im14.webp|inline] [IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im15.webp|block]",
-        "",
+        "[IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im14.webp|inline]",
+        "[IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im15.webp|block]",
         "[IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im17.webp|inline]",
         "[IMAGE: /data/images/da5004_2025T3_ET_FN_p4_Im18.webp|inline]"
       ],

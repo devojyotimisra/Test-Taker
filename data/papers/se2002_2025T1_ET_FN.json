@@ -799,15 +799,16 @@
       "text": "Assume that the ClimateBot, an advanced learning assistant for climate science students.Its primary mission is to foster critical thinking, scientific reasoning, and deep understanding of complex environmental systems by using a RAG (Retrieval-Augmented Generation) system. The RAG system works as follows: 1. Climate Data Storage: Comprehensive climate research materials (like reports, research papers and notes) are split into smaller chunks. Each chunk is vectorized using an embedding model. 2. Vector Database: The vectorized chunks are stored in a FAISS or Weaviate vector database. 3. Retriever: When a student asks a question, the system retrieves the most relevant content (based on semantic similarity) from the vector database. 4. LLM Contextualization: The retrieved content is added as context in the assistant's prompt, which is then used by the LLM (like GPT-4) to generate a personalized, context-aware response. Which of the following correctly describes the process flow of a RAG-based system for the IITM TDS Teaching Assistant?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2002_2025T1_ET_FN_p15_Im2.webp|block]",
         "[IMAGE: /data/images/se2002_2025T1_ET_FN_p15_Im3.webp|block]",
         "[IMAGE: /data/images/se2002_2025T1_ET_FN_p15_Im5.webp|block]",
-        "[IMAGE: /data/images/se2002_2025T1_ET_FN_p15_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2025T1_ET_FN_p15_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2002_2025T1_ET_FN_p15_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T1_ET_FN_p15_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/se2002_2025T1_ET_FN_p15_Im2.webp",
         "/data/images/se2002_2025T1_ET_FN_p15_Im3.webp",
         "/data/images/se2002_2025T1_ET_FN_p15_Im5.webp",
         "/data/images/se2002_2025T1_ET_FN_p15_Im6.webp"

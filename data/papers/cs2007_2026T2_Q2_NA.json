@@ -66,12 +66,12 @@
       "text": "Suppose an email is represented by a binary feature vector [IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im4.webp|block] A generative classifier first chooses the class label [IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im5.webp|inline] according to the prior distribution [IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im6.webp|inline] . It then generates the feature vector [IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im7.webp|inline] conditioned on the chosen class. The classifier assumes that, given the class label, the features are conditionally independent. Which of the following expressions correctly represents [IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im8.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im9.webp|inline] [IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im10.webp|block]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im10.webp|block]",
         "[IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im11.webp|block]",
-        "[IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im13.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im13.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2007_2026T2_Q2_NA_p2_Im13.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [

@@ -233,13 +233,13 @@
       "type": "multichoice",
       "options": [
         "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im2.webp|inline]",
-        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im4.webp|inline] [IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im6.webp|block]"
       ],
       "correct_answer": [
         "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im2.webp|inline]",
-        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im6.webp|block]"
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im5.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
@@ -262,13 +262,13 @@
       "type": "multichoice",
       "options": [
         "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im8.webp|inline]",
-        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im9.webp|inline] [IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im10.webp|block]",
-        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im10.webp|block]",
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im2.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im9.webp|inline] [IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im10.webp|block]",
-        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im2.webp|block]"
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p9_Im10.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
@@ -291,19 +291,20 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im3.webp|block]",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im6.webp|inline] [IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im7.webp|block]",
-        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im8.webp|block]"
       ],
       "correct_answer": [
-        "",
-        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im6.webp|inline] [IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im7.webp|block]"
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2007_2024T1_ET_FN_p10_Im6.webp|inline]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2007_2024T1_ET_FN_p10_Im3.webp",
+        "/data/images/cs2007_2024T1_ET_FN_p10_Im5.webp",
         "/data/images/cs2007_2024T1_ET_FN_p10_Im6.webp",
         "/data/images/cs2007_2024T1_ET_FN_p10_Im7.webp",
         "/data/images/cs2007_2024T1_ET_FN_p10_Im8.webp"

@@ -386,13 +386,13 @@
       "text": "Consider test-driven development (TDD) for an online banking application that handles daily ATM withdrawal limit settings. A user story requires that a custom daily withdrawal limit requested by a customer must be validated before updating their account preferences. Consider the following unit tests written for this user story: [IMAGE: /data/images/cs3002_2026T2_ET_FN_p10_Im5.webp|block] Which of the following method implementations satisfy the given test suite according to TDD principles?",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/cs3002_2026T2_ET_FN_p11_Im1.webp|block] [IMAGE: /data/images/cs3002_2026T2_ET_FN_p11_Im3.webp|block]",
+        "[IMAGE: /data/images/cs3002_2026T2_ET_FN_p11_Im1.webp|block]",
+        "[IMAGE: /data/images/cs3002_2026T2_ET_FN_p11_Im3.webp|block]",
         "[IMAGE: /data/images/cs3002_2026T2_ET_FN_p11_Im5.webp|block]",
-        "",
         "[IMAGE: /data/images/cs3002_2026T2_ET_FN_p12_Im1.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs3002_2026T2_ET_FN_p11_Im5.webp|block]",
+        "[IMAGE: /data/images/cs3002_2026T2_ET_FN_p11_Im3.webp|block]",
         "[IMAGE: /data/images/cs3002_2026T2_ET_FN_p12_Im1.webp|block]"
       ],
       "marks": 5.0,

@@ -153,12 +153,12 @@
       "text": "Consider the following Vuex store: [IMAGE: /data/images/cs2006_2026T2_ET_AN_p5_Im2.webp|block] The [IMAGE: /data/images/cs2006_2026T2_ET_AN_p5_Im3.webp|inline] getter is used in a Vue component as shown below: [IMAGE: /data/images/cs2006_2026T2_ET_AN_p5_Im4.webp|block] Now suppose the Vuex getter [IMAGE: /data/images/cs2006_2026T2_ET_AN_p5_Im5.webp|inline] is removed , while the temperature state continues to be updated through Vuex mutations. Which of the following implementations correctly recreates [IMAGE: /data/images/cs2006_2026T2_ET_AN_p5_Im6.webp|inline] in the component so that it automatically reacts whenever the Vuex [IMAGE: /data/images/cs2006_2026T2_ET_AN_p5_Im7.webp|inline] changes ?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2006_2026T2_ET_AN_p6_Im1.webp|block] [IMAGE: /data/images/cs2006_2026T2_ET_AN_p6_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_AN_p6_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_AN_p6_Im3.webp|block]",
         "[IMAGE: /data/images/cs2006_2026T2_ET_AN_p6_Im4.webp|block]",
-        "[IMAGE: /data/images/cs2006_2026T2_ET_AN_p6_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2006_2026T2_ET_AN_p6_Im5.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_ET_AN_p6_Im1.webp|block] [IMAGE: /data/images/cs2006_2026T2_ET_AN_p6_Im3.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_ET_AN_p6_Im1.webp|block]",
       "marks": 4.5,
       "negative_marks": 0.0,
       "images": [
@@ -286,16 +286,17 @@
       "text": "Consider the following JavaScript code: [IMAGE: /data/images/cs2006_2026T2_ET_AN_p9_Im13.webp|block] What will be output on the browser\u2019s console?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_AN_p9_Im14.webp|block]",
         "[IMAGE: /data/images/cs2006_2026T2_ET_AN_p9_Im15.webp|block]",
         "[IMAGE: /data/images/cs2006_2026T2_ET_AN_p10_Im2.webp|block]",
-        "",
         "None of these."
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_ET_AN_p10_Im2.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2006_2026T2_ET_AN_p9_Im13.webp",
+        "/data/images/cs2006_2026T2_ET_AN_p9_Im14.webp",
         "/data/images/cs2006_2026T2_ET_AN_p9_Im15.webp",
         "/data/images/cs2006_2026T2_ET_AN_p10_Im2.webp"
       ],

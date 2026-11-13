@@ -404,14 +404,14 @@
       "text": "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p9_Im4.webp|block] Which of the following are the appropriate implementations of the user story?",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p10_Im1.webp|block] [IMAGE: /data/images/cs3002_2025T2_ET_AN_p10_Im3.webp|block]",
+        "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p10_Im1.webp|block]",
+        "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p10_Im3.webp|block]",
         "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p10_Im5.webp|block]",
-        "",
         "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p11_Im1.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p10_Im1.webp|block] [IMAGE: /data/images/cs3002_2025T2_ET_AN_p10_Im3.webp|block]",
-        "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p10_Im5.webp|block]"
+        "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p10_Im1.webp|block]",
+        "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p10_Im3.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
@@ -457,16 +457,17 @@
       "text": "Which of the following is the set of RICC pairs for clause b ?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p12_Im2.webp|block]",
         "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p12_Im3.webp|block]",
         "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p12_Im5.webp|block]",
-        "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p12_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p12_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p12_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T2_ET_AN_p12_Im5.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs3002_2025T2_ET_AN_p11_Im2.webp",
+        "/data/images/cs3002_2025T2_ET_AN_p12_Im2.webp",
         "/data/images/cs3002_2025T2_ET_AN_p12_Im3.webp",
         "/data/images/cs3002_2025T2_ET_AN_p12_Im5.webp",
         "/data/images/cs3002_2025T2_ET_AN_p12_Im6.webp"

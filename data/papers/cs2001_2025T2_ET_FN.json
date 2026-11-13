@@ -74,16 +74,17 @@
       "text": "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p2_Im3.webp|block]",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p3_Im1.webp|block] [IMAGE: /data/images/cs2001_2025T2_ET_FN_p3_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p3_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p2_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p3_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p3_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p3_Im4.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p2_Im4.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2001_2025T2_ET_FN_p2_Im3.webp",
+        "/data/images/cs2001_2025T2_ET_FN_p2_Im4.webp",
         "/data/images/cs2001_2025T2_ET_FN_p3_Im1.webp",
         "/data/images/cs2001_2025T2_ET_FN_p3_Im3.webp",
         "/data/images/cs2001_2025T2_ET_FN_p3_Im4.webp"
@@ -261,13 +262,13 @@
       "type": "multichoice",
       "options": [
         "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p11_Im3.webp|inline]",
-        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p11_Im4.webp|inline] [IMAGE: /data/images/cs2001_2025T2_ET_FN_p11_Im6.webp|block]",
-        "",
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p11_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p11_Im6.webp|block]",
         "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p11_Im7.webp|inline]"
       ],
       "correct_answer": [
         "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p11_Im3.webp|inline]",
-        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p11_Im4.webp|inline] [IMAGE: /data/images/cs2001_2025T2_ET_FN_p11_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p11_Im4.webp|inline]",
         "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p11_Im7.webp|inline]"
       ],
       "marks": 2.0,
@@ -291,19 +292,20 @@
       "text": "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p11_Im8.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p12_Im2.webp|block]",
         "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p12_Im4.webp|block]",
         "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p12_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p12_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p12_Im6.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p12_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p12_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p12_Im6.webp|block]"
       ],
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2001_2025T2_ET_FN_p11_Im8.webp",
+        "/data/images/cs2001_2025T2_ET_FN_p12_Im2.webp",
         "/data/images/cs2001_2025T2_ET_FN_p12_Im4.webp",
         "/data/images/cs2001_2025T2_ET_FN_p12_Im5.webp",
         "/data/images/cs2001_2025T2_ET_FN_p12_Im6.webp"
@@ -320,20 +322,21 @@
       "text": "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p12_Im7.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p12_Im8.webp|block]",
         "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p13_Im2.webp|block]",
         "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p13_Im4.webp|block]",
-        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p13_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p13_Im5.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p13_Im2.webp|block]",
-        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p13_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p12_Im8.webp|block]",
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p13_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2025T2_ET_FN_p13_Im5.webp|block]"
       ],
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2001_2025T2_ET_FN_p12_Im7.webp",
+        "/data/images/cs2001_2025T2_ET_FN_p12_Im8.webp",
         "/data/images/cs2001_2025T2_ET_FN_p13_Im2.webp",
         "/data/images/cs2001_2025T2_ET_FN_p13_Im4.webp",
         "/data/images/cs2001_2025T2_ET_FN_p13_Im5.webp"

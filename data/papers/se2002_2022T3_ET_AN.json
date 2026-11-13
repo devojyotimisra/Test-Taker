@@ -865,15 +865,16 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The given piece of code extract details of all Bollywood movies that were released in Jan \u2013 March 2009 and later prints out only those rows where the respective movie was categorized only as a Drama. Identify which block of code executes without any errors.",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2002_2022T3_ET_AN_p19_Im2.webp|block]",
         "[IMAGE: /data/images/se2002_2022T3_ET_AN_p19_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/se2002_2022T3_ET_AN_p20_Im1.webp|block] [IMAGE: /data/images/se2002_2022T3_ET_AN_p20_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2022T3_ET_AN_p20_Im1.webp|block]",
+        "[IMAGE: /data/images/se2002_2022T3_ET_AN_p20_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2002_2022T3_ET_AN_p19_Im4.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2002_2022T3_ET_AN_p19_Im2.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/se2002_2022T3_ET_AN_p19_Im2.webp",
         "/data/images/se2002_2022T3_ET_AN_p19_Im4.webp",
         "/data/images/se2002_2022T3_ET_AN_p20_Im1.webp",
         "/data/images/se2002_2022T3_ET_AN_p20_Im3.webp"
@@ -913,16 +914,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Provided below is a snippet of the code block of HTML tags from a website providing weather forecast. Your goal is to scrape the high and low values for the 10-day temperature forecast. [IMAGE: /data/images/se2002_2022T3_ET_AN_p22_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2002_2022T3_ET_AN_p22_Im3.webp|block]",
         "[IMAGE: /data/images/se2002_2022T3_ET_AN_p22_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/se2002_2022T3_ET_AN_p22_Im6.webp|inline] [IMAGE: /data/images/se2002_2022T3_ET_AN_p22_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2022T3_ET_AN_p22_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2002_2022T3_ET_AN_p22_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2002_2022T3_ET_AN_p22_Im6.webp|inline] [IMAGE: /data/images/se2002_2022T3_ET_AN_p22_Im7.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2002_2022T3_ET_AN_p22_Im6.webp|inline]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2002_2022T3_ET_AN_p22_Im1.webp",
+        "/data/images/se2002_2022T3_ET_AN_p22_Im3.webp",
         "/data/images/se2002_2022T3_ET_AN_p22_Im4.webp",
         "/data/images/se2002_2022T3_ET_AN_p22_Im6.webp",
         "/data/images/se2002_2022T3_ET_AN_p22_Im7.webp"
@@ -939,10 +941,10 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Provided below is a snapshot of the dataset which consists of movie reviews and respective labels. [IMAGE: /data/images/se2002_2022T3_ET_AN_p23_Im1.webp|block] To compute the sentiment scores the Azure Machine Learning add-in requires input and output values. In the figure provided below the input and output cells need to be populated with appropriate values to obtain sentiment scores. [IMAGE: /data/images/se2002_2022T3_ET_AN_p24_Im1.webp|block] Choose the most appropriate option that enables you to predict sentiment scores using the Excel Azure Machine Learning add-in.",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2022T3_ET_AN_p24_Im3.webp|inline] [IMAGE: /data/images/se2002_2022T3_ET_AN_p24_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2022T3_ET_AN_p24_Im3.webp|inline]",
+        "[IMAGE: /data/images/se2002_2022T3_ET_AN_p24_Im5.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2022T3_ET_AN_p24_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [

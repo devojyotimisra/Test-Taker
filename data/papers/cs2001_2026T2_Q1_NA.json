@@ -74,16 +74,17 @@
       "text": "Consider the following SQL statements are executed in sequence on a newly created table Shipment : [IMAGE: /data/images/cs2001_2026T2_Q1_NA_p3_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p3_Im3.webp|block]",
         "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p3_Im5.webp|block]",
         "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p3_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p4_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p4_Im2.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p3_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p3_Im3.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2001_2026T2_Q1_NA_p3_Im1.webp",
+        "/data/images/cs2001_2026T2_Q1_NA_p3_Im3.webp",
         "/data/images/cs2001_2026T2_Q1_NA_p3_Im5.webp",
         "/data/images/cs2001_2026T2_Q1_NA_p3_Im6.webp",
         "/data/images/cs2001_2026T2_Q1_NA_p4_Im2.webp"
@@ -100,15 +101,16 @@
       "text": "Create a table Assignment(AssignID, PilotID, FlightNo, Date) with the following criteria that must be satisfied: \u2022 Every assignment must have a unique AssignID. \u2022 Each pilot can only be assigned to a specific flight once on any given date. \u2022 Pilots may share the same flight number on different dates. Which of the following SQL queries can be used to correctly create the table Assignment ?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p4_Im3.webp|block]",
         "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p4_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs2001_2026T2_Q1_NA_p5_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p5_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p5_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs2001_2026T2_Q1_NA_p5_Im3.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p5_Im1.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2001_2026T2_Q1_NA_p4_Im3.webp",
         "/data/images/cs2001_2026T2_Q1_NA_p4_Im4.webp",
         "/data/images/cs2001_2026T2_Q1_NA_p5_Im1.webp",
         "/data/images/cs2001_2026T2_Q1_NA_p5_Im3.webp"
@@ -171,15 +173,15 @@
       "text": "Consider the following relational schema for a movie database: [IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im1.webp|block]",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im3.webp|inline] [IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im4.webp|block]",
-        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im7.webp|block]",
-        ""
-      ],
-      "correct_answer": [
-        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im3.webp|inline] [IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im4.webp|block]",
         "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im5.webp|block]",
         "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im7.webp|block]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im5.webp|block]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,
@@ -202,15 +204,15 @@
       "text": "Consider two relations R(A, B) and S(B, C) . Which of the following SQL queries is/are logically equivalent to the Relational Algebra expression [IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im8.webp|inline] ?",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im9.webp|inline] [IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im10.webp|block]",
-        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p8_Im2.webp|block]",
-        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p8_Im4.webp|block]",
-        ""
-      ],
-      "correct_answer": [
-        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im9.webp|inline] [IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im10.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im10.webp|block]",
         "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p8_Im2.webp|block]",
         "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p8_Im4.webp|block]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im9.webp|inline]",
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p7_Im10.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_Q1_NA_p8_Im2.webp|block]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,

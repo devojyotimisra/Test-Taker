@@ -120,16 +120,17 @@
       "text": "The following pseudocode is executed using the \"Scores\" table. At the end of the execution, A captures the number of pairs of students who have scored the same marks in all subjects. Choose the correct code fragment to complete the pseudocode. [IMAGE: /data/images/bscs1001_2025T3_ET_FN_p5_Im1.webp|block]",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p6_Im1.webp|block] [IMAGE: /data/images/bscs1001_2025T3_ET_FN_p6_Im3.webp|block]",
-        "",
+        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p5_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p6_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p6_Im3.webp|block]",
         "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p7_Im1.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p6_Im1.webp|block] [IMAGE: /data/images/bscs1001_2025T3_ET_FN_p6_Im3.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p6_Im1.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bscs1001_2025T3_ET_FN_p5_Im1.webp",
+        "/data/images/bscs1001_2025T3_ET_FN_p5_Im3.webp",
         "/data/images/bscs1001_2025T3_ET_FN_p6_Im1.webp",
         "/data/images/bscs1001_2025T3_ET_FN_p6_Im3.webp",
         "/data/images/bscs1001_2025T3_ET_FN_p7_Im1.webp"
@@ -221,19 +222,20 @@
       "text": "findSomething is a procedure that accepts a non-empty list of distinct integers L as input and finds the largest integer present in the input list. Choose the correct code fragment to complete the pseudocode. [IMAGE: /data/images/bscs1001_2025T3_ET_FN_p11_Im1.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p11_Im3.webp|block]",
         "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p11_Im5.webp|block]",
         "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p11_Im6.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p12_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p12_Im2.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p11_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p11_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p12_Im2.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bscs1001_2025T3_ET_FN_p11_Im1.webp",
+        "/data/images/bscs1001_2025T3_ET_FN_p11_Im3.webp",
         "/data/images/bscs1001_2025T3_ET_FN_p11_Im5.webp",
         "/data/images/bscs1001_2025T3_ET_FN_p11_Im6.webp",
         "/data/images/bscs1001_2025T3_ET_FN_p12_Im2.webp"
@@ -357,19 +359,20 @@
       "text": "A word is said to be a palindrome if it reads the same when reversed. For example, \u201cmadam\u201d is a palindrome. Let X be a row in the \u201cWords\u201d table. At the end of the execution of the following pseudocode flag stores True if the word in row X is a palindrome and False otherwise. explode(word) returns a list of letters present in the word. For example: explode(\"madam\") = ['m', 'a', 'd', 'a', 'm']. Select the correct implementation of the procedure isPalindrome . It is a Multiple Select Question (MSQ). [IMAGE: /data/images/bscs1001_2025T3_ET_FN_p15_Im1.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p15_Im3.webp|block]",
         "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p15_Im5.webp|block]",
         "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p16_Im2.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p16_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p16_Im4.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p15_Im5.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p16_Im4.webp|block]"
+        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p15_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_ET_FN_p16_Im2.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bscs1001_2025T3_ET_FN_p15_Im1.webp",
+        "/data/images/bscs1001_2025T3_ET_FN_p15_Im3.webp",
         "/data/images/bscs1001_2025T3_ET_FN_p15_Im5.webp",
         "/data/images/bscs1001_2025T3_ET_FN_p16_Im2.webp",
         "/data/images/bscs1001_2025T3_ET_FN_p16_Im4.webp"

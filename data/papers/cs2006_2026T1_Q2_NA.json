@@ -360,20 +360,21 @@
       "text": "Consider the following Vue application: File: Index.html [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p14_Im1.webp|block] File: app.js [IMAGE: /data/images/cs2006_2026T1_Q2_NA_p14_Im2.webp|block] The application consists of a parent component and a child component . When the button inside the child component is clicked, the parent\u2019s message should update and display \"Hello\" in the browser. Two important lines are missing and marked as (Code1) and (Code2) . Which of the following options correctly completes the code?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p14_Im4.webp|block]",
         "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p14_Im5.webp|block]",
         "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p15_Im2.webp|block]",
-        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p15_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p15_Im3.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p14_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p15_Im2.webp|block]"
+        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p14_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T1_Q2_NA_p14_Im5.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2006_2026T1_Q2_NA_p14_Im1.webp",
         "/data/images/cs2006_2026T1_Q2_NA_p14_Im2.webp",
+        "/data/images/cs2006_2026T1_Q2_NA_p14_Im4.webp",
         "/data/images/cs2006_2026T1_Q2_NA_p14_Im5.webp",
         "/data/images/cs2006_2026T1_Q2_NA_p15_Im2.webp",
         "/data/images/cs2006_2026T1_Q2_NA_p15_Im3.webp"

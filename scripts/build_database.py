@@ -176,26 +176,32 @@ def process_single_pdf(args):
         try:
             with open(json_path, "r", encoding="utf-8") as f:
                 paper_dict = json.load(f)
-            return {
-                "success": True,
-                "stem": stem,
-                "slug": meta["slug"],
-                "filename": pdf_path.name,
-                "json_file": f"{stem}.json",
-                "title": paper_dict.get("title") or meta["display_title"],
-                "course_code": meta["course_code"],
-                "course_name": meta["course_name"],
-                "level": meta["level"],
-                "year": meta["year"],
-                "term": meta["term"],
-                "term_code": meta["term_code"],
-                "exam_type": meta["exam_type"],
-                "session": meta["session"],
-                "total_questions": paper_dict.get("total_questions", 0),
-                "total_marks": paper_dict.get("total_marks", 0),
-                "paper_dict": paper_dict,
-                "cached": True
-            }
+            has_empty_opts = any(
+                not opt or not str(opt).strip()
+                for q in paper_dict.get("questions", [])
+                for opt in (q.get("options") or [])
+            )
+            if not has_empty_opts:
+                return {
+                    "success": True,
+                    "stem": stem,
+                    "slug": meta["slug"],
+                    "filename": pdf_path.name,
+                    "json_file": f"{stem}.json",
+                    "title": paper_dict.get("title") or meta["display_title"],
+                    "course_code": meta["course_code"],
+                    "course_name": meta["course_name"],
+                    "level": meta["level"],
+                    "year": meta["year"],
+                    "term": meta["term"],
+                    "term_code": meta["term_code"],
+                    "exam_type": meta["exam_type"],
+                    "session": meta["session"],
+                    "total_questions": paper_dict.get("total_questions", 0),
+                    "total_marks": paper_dict.get("total_marks", 0),
+                    "paper_dict": paper_dict,
+                    "cached": True
+                }
         except Exception:
             pass
 

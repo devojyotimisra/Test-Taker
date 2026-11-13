@@ -30,12 +30,12 @@
       "text": "In the context of Denoising Diffusion Probabilistic Models (DDPM), the trained noise predictor [IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im1.webp|inline] approximates the score function of the data distribution via [IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im2.webp|block] Consider a specific timestep [IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im3.webp|inline] where the cumulative noise variance schedule is given by [IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im4.webp|inline] . At this timestep, for a specific input [IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im5.webp|inline] , the model predicts a noise vector: [IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im6.webp|block] Calculate the estimated score vector, [IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im7.webp|inline] .",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im9.webp|block]",
         "[IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im11.webp|block]",
         "[IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im12.webp|block]",
-        "[IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im13.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im13.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im11.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da5002_2025T3_ET_FN_p1_Im9.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -46,6 +46,7 @@
         "/data/images/da5002_2025T3_ET_FN_p1_Im5.webp",
         "/data/images/da5002_2025T3_ET_FN_p1_Im6.webp",
         "/data/images/da5002_2025T3_ET_FN_p1_Im7.webp",
+        "/data/images/da5002_2025T3_ET_FN_p1_Im9.webp",
         "/data/images/da5002_2025T3_ET_FN_p1_Im11.webp",
         "/data/images/da5002_2025T3_ET_FN_p1_Im12.webp",
         "/data/images/da5002_2025T3_ET_FN_p1_Im13.webp"
@@ -62,12 +63,12 @@
       "text": "You are performing inference using a Guided Diffusion model with Classifier-Free Guidance (CFG) with a guidance scale [IMAGE: /data/images/da5002_2025T3_ET_FN_p2_Im1.webp|inline] . At a specific step, the model outputs: [IMAGE: /data/images/da5002_2025T3_ET_FN_p2_Im2.webp|block] \u2022 Unconditional prediction: [IMAGE: /data/images/da5002_2025T3_ET_FN_p2_Im4.webp|block] \u2022 Conditional prediction (given class [IMAGE: /data/images/da5002_2025T3_ET_FN_p2_Im3.webp|inline] ): Using the standard CFG formula, calculate the final guided noise vector [IMAGE: /data/images/da5002_2025T3_ET_FN_p2_Im5.webp|inline] .",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/da5002_2025T3_ET_FN_p2_Im7.webp|block]",
         "[IMAGE: /data/images/da5002_2025T3_ET_FN_p2_Im9.webp|block]",
         "[IMAGE: /data/images/da5002_2025T3_ET_FN_p2_Im10.webp|block]",
-        "[IMAGE: /data/images/da5002_2025T3_ET_FN_p2_Im11.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5002_2025T3_ET_FN_p2_Im11.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da5002_2025T3_ET_FN_p2_Im10.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da5002_2025T3_ET_FN_p2_Im9.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
@@ -76,6 +77,7 @@
         "/data/images/da5002_2025T3_ET_FN_p2_Im4.webp",
         "/data/images/da5002_2025T3_ET_FN_p2_Im3.webp",
         "/data/images/da5002_2025T3_ET_FN_p2_Im5.webp",
+        "/data/images/da5002_2025T3_ET_FN_p2_Im7.webp",
         "/data/images/da5002_2025T3_ET_FN_p2_Im9.webp",
         "/data/images/da5002_2025T3_ET_FN_p2_Im10.webp",
         "/data/images/da5002_2025T3_ET_FN_p2_Im11.webp"

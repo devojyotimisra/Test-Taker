@@ -133,19 +133,20 @@
       "text": "Which of the following are valid kernel functions? Select all that apply.",
       "type": "multichoice",
       "options": [
-        "",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p2_Im4.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p2_Im5.webp|inline]",
-        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p3_Im1.webp|block] [IMAGE: /data/images/cs2007_2025T3_Q1_AN_p3_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p3_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p3_Im3.webp|block]"
       ],
       "correct_answer": [
-        "",
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p2_Im4.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p2_Im5.webp|inline]",
-        ""
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p3_Im3.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2007_2025T3_Q1_AN_p2_Im4.webp",
         "/data/images/cs2007_2025T3_Q1_AN_p2_Im5.webp",
         "/data/images/cs2007_2025T3_Q1_AN_p3_Im1.webp",
         "/data/images/cs2007_2025T3_Q1_AN_p3_Im3.webp"
@@ -198,16 +199,17 @@
       "text": "What is the covariance matrix of the dataset?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im3.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im5.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p5_Im5.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2007_2025T3_Q1_AN_p5_Im1.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p5_Im3.webp",
         "/data/images/cs2007_2025T3_Q1_AN_p5_Im5.webp",
         "/data/images/cs2007_2025T3_Q1_AN_p5_Im6.webp",
         "/data/images/cs2007_2025T3_Q1_AN_p5_Im7.webp"
@@ -260,17 +262,18 @@
       "text": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im3.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im5.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2007_2025T3_Q1_AN_p7_Im5.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2007_2025T3_Q1_AN_p7_Im1.webp",
         "/data/images/cs2007_2025T3_Q1_AN_p6_Im1.webp",
+        "/data/images/cs2007_2025T3_Q1_AN_p7_Im3.webp",
         "/data/images/cs2007_2025T3_Q1_AN_p7_Im5.webp",
         "/data/images/cs2007_2025T3_Q1_AN_p7_Im6.webp",
         "/data/images/cs2007_2025T3_Q1_AN_p7_Im7.webp"

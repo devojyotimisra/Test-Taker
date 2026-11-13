@@ -121,15 +121,16 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the options below represent the correct method to preprocess class labels in multi-class setup?",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p4_Im1.webp|block] [IMAGE: /data/images/cs2008_2022T2_Q2_NA_p4_Im3.webp|block]",
-        "",
+        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p3_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p4_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p4_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p4_Im5.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p4_Im3.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2022T2_Q2_NA_p3_Im4.webp",
         "/data/images/cs2008_2022T2_Q2_NA_p4_Im1.webp",
         "/data/images/cs2008_2022T2_Q2_NA_p4_Im3.webp",
         "/data/images/cs2008_2022T2_Q2_NA_p4_Im5.webp"
@@ -264,12 +265,12 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/cs2008_2022T2_Q2_NA_p7_Im4.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p8_Im1.webp|block] [IMAGE: /data/images/cs2008_2022T2_Q2_NA_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p8_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p8_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p8_Im4.webp|block]",
-        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p8_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p8_Im6.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p8_Im6.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -314,15 +315,16 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 For a text classification task, which one of the following code snippets will be better suitable than the others?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p9_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p9_Im5.webp|block]",
         "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p10_Im2.webp|block]",
-        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p10_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p10_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p10_Im2.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p9_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2022T2_Q2_NA_p9_Im4.webp",
         "/data/images/cs2008_2022T2_Q2_NA_p9_Im5.webp",
         "/data/images/cs2008_2022T2_Q2_NA_p10_Im2.webp",
         "/data/images/cs2008_2022T2_Q2_NA_p10_Im3.webp"
@@ -416,18 +418,19 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following code blocks will correctly train a large scale regression model using partial_fit, if shape of X_train,Y_train are given as (8000,900,10) and (8000,900) respectively. Note that the dataset has been transformed into batches of size 900 each?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p12_Im6.webp|block]",
         "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p12_Im7.webp|block]",
         "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p12_Im8.webp|block]",
-        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p13_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p13_Im2.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p12_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p12_Im7.webp|block]",
+        "[IMAGE: /data/images/cs2008_2022T2_Q2_NA_p13_Im2.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2022T2_Q2_NA_p12_Im6.webp",
         "/data/images/cs2008_2022T2_Q2_NA_p12_Im7.webp",
         "/data/images/cs2008_2022T2_Q2_NA_p12_Im8.webp",
         "/data/images/cs2008_2022T2_Q2_NA_p13_Im2.webp"

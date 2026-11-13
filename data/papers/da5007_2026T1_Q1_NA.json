@@ -173,14 +173,14 @@
       "text": "In a [IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im1.webp|inline] -armed bandit setting, we maintain a running estimate of the action-value for each arm [IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im2.webp|inline] , denoted [IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im3.webp|inline] . We now consider using an upper confidence bound (UCB) style rule for arm selection at time [IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im4.webp|inline] , where [IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im5.webp|inline] is the number of times arm [IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im6.webp|inline] has been selected up to time [IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im7.webp|inline] , and [IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im8.webp|inline] is a tunable hyperparameter. Which of the following are good strategies for arm selection?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im10.webp|block]",
         "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im12.webp|block]",
         "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im13.webp|block]",
         "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im14.webp|block]",
-        "",
         "None of these"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im12.webp|block]"
+        "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p5_Im10.webp|block]"
       ],
       "marks": 2.0,
       "negative_marks": 0.0,
@@ -193,6 +193,7 @@
         "/data/images/da5007_2026T1_Q1_NA_p5_Im6.webp",
         "/data/images/da5007_2026T1_Q1_NA_p5_Im7.webp",
         "/data/images/da5007_2026T1_Q1_NA_p5_Im8.webp",
+        "/data/images/da5007_2026T1_Q1_NA_p5_Im10.webp",
         "/data/images/da5007_2026T1_Q1_NA_p5_Im12.webp",
         "/data/images/da5007_2026T1_Q1_NA_p5_Im13.webp",
         "/data/images/da5007_2026T1_Q1_NA_p5_Im14.webp"
@@ -418,12 +419,12 @@
       "text": "Consider a faulty [IMAGE: /data/images/da5007_2026T1_Q1_NA_p9_Im14.webp|inline] -armed bandit with [IMAGE: /data/images/da5007_2026T1_Q1_NA_p9_Im15.webp|inline] -noise activation and base arm success probabilities [IMAGE: /data/images/da5007_2026T1_Q1_NA_p10_Im1.webp|inline] . If you always choose the arm with the highest base success probability [IMAGE: /data/images/da5007_2026T1_Q1_NA_p10_Im2.webp|inline] , what is the expected payoff per pull under this greedy strategy?",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p10_Im5.webp|inline] [IMAGE: /data/images/da5007_2026T1_Q1_NA_p10_Im6.webp|block]",
-        "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p10_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p10_Im4.webp|block]",
+        "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p10_Im5.webp|inline]",
+        "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p10_Im6.webp|block]",
+        "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p10_Im8.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/da5007_2026T1_Q1_NA_p10_Im8.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
@@ -440,6 +441,7 @@
         "/data/images/da5007_2026T1_Q1_NA_p9_Im11.webp",
         "/data/images/da5007_2026T1_Q1_NA_p9_Im12.webp",
         "/data/images/da5007_2026T1_Q1_NA_p9_Im13.webp",
+        "/data/images/da5007_2026T1_Q1_NA_p10_Im4.webp",
         "/data/images/da5007_2026T1_Q1_NA_p10_Im5.webp",
         "/data/images/da5007_2026T1_Q1_NA_p10_Im6.webp",
         "/data/images/da5007_2026T1_Q1_NA_p10_Im8.webp"

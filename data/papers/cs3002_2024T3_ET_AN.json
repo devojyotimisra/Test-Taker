@@ -296,19 +296,20 @@
       "text": "Consider test-driven development (TDD) for a web portal for university students. The students can download their marksheet, certificates, etc. by entering their roll number. One of the user stories of the web portal is \u201cRoll number validation: Invalid number of digits entered can be verified.\u201d Below are the test cases for the \u201cRoll number validation\u201d user story. [IMAGE: /data/images/cs3002_2024T3_ET_AN_p6_Im7.webp|block] Which of the following are the appropriate implementations for the user story?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs3002_2024T3_ET_AN_p7_Im2.webp|block]",
         "[IMAGE: /data/images/cs3002_2024T3_ET_AN_p7_Im4.webp|block]",
         "[IMAGE: /data/images/cs3002_2024T3_ET_AN_p7_Im5.webp|block]",
-        "",
         "[IMAGE: /data/images/cs3002_2024T3_ET_AN_p8_Im1.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs3002_2024T3_ET_AN_p7_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs3002_2024T3_ET_AN_p7_Im4.webp|block]",
+        "[IMAGE: /data/images/cs3002_2024T3_ET_AN_p7_Im5.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs3002_2024T3_ET_AN_p6_Im7.webp",
+        "/data/images/cs3002_2024T3_ET_AN_p7_Im2.webp",
         "/data/images/cs3002_2024T3_ET_AN_p7_Im4.webp",
         "/data/images/cs3002_2024T3_ET_AN_p7_Im5.webp",
         "/data/images/cs3002_2024T3_ET_AN_p8_Im1.webp"

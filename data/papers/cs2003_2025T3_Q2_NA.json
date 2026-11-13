@@ -371,13 +371,13 @@
       "text": "You are building a Flask-RESTful API with the following code: [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p10_Im1.webp|block] Which of the following statements is/are true?(Select all that apply)",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p10_Im3.webp|inline] [IMAGE: /data/images/cs2003_2025T3_Q2_NA_p10_Im5.webp|block]",
-        "",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p10_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p10_Im5.webp|block]",
         "The Api class automatically handles URL routing for all resources",
         "This API will return HTML content when accessed via a browser"
       ],
       "correct_answer": [
-        "",
+        "[IMAGE: /data/images/cs2003_2025T3_Q2_NA_p10_Im5.webp|block]",
         "The Api class automatically handles URL routing for all resources"
       ],
       "marks": 5.0,

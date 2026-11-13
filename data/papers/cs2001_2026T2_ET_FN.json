@@ -30,18 +30,19 @@
       "text": "Consider the following relations: Student ( student_id , name , dept_id ) Department ( dept_id , dept_name ) Which of the following SQL queries correctly retrieves the names of students who belong to either [IMAGE: /data/images/cs2001_2026T2_ET_FN_p1_Im3.webp|inline] or [IMAGE: /data/images/cs2001_2026T2_ET_FN_p1_Im4.webp|inline] department and whose name ends with the character [IMAGE: /data/images/cs2001_2026T2_ET_FN_p1_Im5.webp|inline] ?",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p2_Im1.webp|block] [IMAGE: /data/images/cs2001_2026T2_ET_FN_p2_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p2_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p1_Im6.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p2_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p2_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p2_Im4.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p1_Im6.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2001_2026T2_ET_FN_p1_Im3.webp",
         "/data/images/cs2001_2026T2_ET_FN_p1_Im4.webp",
         "/data/images/cs2001_2026T2_ET_FN_p1_Im5.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p1_Im6.webp",
         "/data/images/cs2001_2026T2_ET_FN_p2_Im1.webp",
         "/data/images/cs2001_2026T2_ET_FN_p2_Im3.webp",
         "/data/images/cs2001_2026T2_ET_FN_p2_Im4.webp"
@@ -58,17 +59,18 @@
       "text": "Consider the following relations. [IMAGE: /data/images/cs2001_2026T2_ET_FN_p3_Im1.webp|block] Consider the following SQL query. [IMAGE: /data/images/cs2001_2026T2_ET_FN_p3_Im2.webp|block] What will be the output of the above query?",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im1.webp|block] [IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p3_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p4_Im4.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2001_2026T2_ET_FN_p3_Im4.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2001_2026T2_ET_FN_p3_Im1.webp",
         "/data/images/cs2001_2026T2_ET_FN_p3_Im2.webp",
+        "/data/images/cs2001_2026T2_ET_FN_p3_Im4.webp",
         "/data/images/cs2001_2026T2_ET_FN_p4_Im1.webp",
         "/data/images/cs2001_2026T2_ET_FN_p4_Im3.webp",
         "/data/images/cs2001_2026T2_ET_FN_p4_Im4.webp"

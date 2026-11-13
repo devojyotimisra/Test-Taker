@@ -234,16 +234,17 @@
       "text": "Statement The following pseudocode is executed using the \u201cOlympics\u201d dataset. Procedure doSomething accepts a table where all rows belong to the same player. Assume that the player has won at least two medals and only one medal in any year. At the end of the execution, if ( B - A ) represents year the gap between first and second medals won by a player then, choose the correct code fragment to complete the pseudocode. [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p10_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p10_Im3.webp|block]",
         "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p10_Im5.webp|block]",
         "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p10_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p11_Im1.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p10_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p10_Im3.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bscs1001_2026T2_Q1_NA_p10_Im1.webp",
+        "/data/images/bscs1001_2026T2_Q1_NA_p10_Im3.webp",
         "/data/images/bscs1001_2026T2_Q1_NA_p10_Im5.webp",
         "/data/images/bscs1001_2026T2_Q1_NA_p10_Im6.webp",
         "/data/images/bscs1001_2026T2_Q1_NA_p11_Im1.webp"
@@ -281,16 +282,17 @@
       "text": "Statement A pair of words is said to be special if it fulfills following conditions: The number of vowels are the same in both words and the number of consonants are not the same in both words. The given pseudocode is executed using the \u201c Words \u201d dataset. The variable count in the given pseudocode counts the number of special pairs. Choose the correct code fragment to complete the pseudocode. [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p12_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p12_Im3.webp|block]",
         "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p12_Im5.webp|block]",
-        "",
-        "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p13_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p13_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p13_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p13_Im3.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T2_Q1_NA_p12_Im5.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bscs1001_2026T2_Q1_NA_p12_Im1.webp",
+        "/data/images/bscs1001_2026T2_Q1_NA_p12_Im3.webp",
         "/data/images/bscs1001_2026T2_Q1_NA_p12_Im5.webp",
         "/data/images/bscs1001_2026T2_Q1_NA_p13_Im1.webp",
         "/data/images/bscs1001_2026T2_Q1_NA_p13_Im3.webp"

@@ -143,11 +143,11 @@
       "type": "MCQ",
       "options": [
         "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p4_Im2.webp|inline]",
-        "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p4_Im3.webp|inline] [IMAGE: /data/images/cs2008_2024T2_ET_FN_p4_Im5.webp|block]",
-        "",
+        "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p4_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p4_Im5.webp|block]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p4_Im6.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p4_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -493,17 +493,18 @@
       "text": "Consider the following ML task/steps for a regression dataset: 1. Read the data from a file (named \u2018dataset.csv\u2019). It has 7 columns. The last column is the target variable, all 6 features numerical. 2. Remove rows which has target values missing. 3. Split the data into training and test sets. Take randomly the 70% of rows in the training set and the rest of them into the test set. 4. Fill the missing values in the features by KNNImputer using 3 nearest neighbours. 5. Train a LinearRegression model on the training set. 6. Report R2 score on the test set. Which of the following code snippets correctly accomplishes the above task? Assume necessary imports.",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p10_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p11_Im2.webp|block]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p11_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p11_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p11_Im5.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p12_Im2.webp|inline]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p11_Im2.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p10_Im4.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2024T2_ET_FN_p10_Im4.webp",
         "/data/images/cs2008_2024T2_ET_FN_p11_Im2.webp",
         "/data/images/cs2008_2024T2_ET_FN_p11_Im3.webp",
         "/data/images/cs2008_2024T2_ET_FN_p11_Im4.webp",
@@ -550,8 +551,8 @@
       "type": "MCQ",
       "options": [
         "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p13_Im3.webp|inline]",
-        "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p13_Im4.webp|inline] [IMAGE: /data/images/cs2008_2024T2_ET_FN_p13_Im5.webp|block]",
-        "",
+        "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p13_Im4.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p13_Im5.webp|block]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p13_Im6.webp|inline]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_FN_p13_Im8.webp|inline]"
       ],

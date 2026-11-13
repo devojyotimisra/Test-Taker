@@ -80,17 +80,18 @@
       "text": "Given: [IMAGE: /data/images/se2001_2026T2_ET_AN_p2_Im5.webp|block] What does this command produce? [IMAGE: /data/images/se2001_2026T2_ET_AN_p2_Im6.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p2_Im7.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_AN_p2_Im8.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_AN_p2_Im9.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p3_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p3_Im2.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2001_2026T2_ET_AN_p2_Im9.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2001_2026T2_ET_AN_p2_Im8.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2001_2026T2_ET_AN_p2_Im5.webp",
         "/data/images/se2001_2026T2_ET_AN_p2_Im6.webp",
+        "/data/images/se2001_2026T2_ET_AN_p2_Im7.webp",
         "/data/images/se2001_2026T2_ET_AN_p2_Im8.webp",
         "/data/images/se2001_2026T2_ET_AN_p2_Im9.webp",
         "/data/images/se2001_2026T2_ET_AN_p3_Im2.webp"
@@ -157,16 +158,17 @@
       "text": "Suppose you have modified [IMAGE: /data/images/se2001_2026T2_ET_AN_p4_Im3.webp|inline] file. You want to commit only this file. Which sequence is correct?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p4_Im4.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_AN_p4_Im5.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_AN_p4_Im6.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p4_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p4_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2001_2026T2_ET_AN_p4_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2001_2026T2_ET_AN_p4_Im5.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2001_2026T2_ET_AN_p4_Im3.webp",
+        "/data/images/se2001_2026T2_ET_AN_p4_Im4.webp",
         "/data/images/se2001_2026T2_ET_AN_p4_Im5.webp",
         "/data/images/se2001_2026T2_ET_AN_p4_Im6.webp",
         "/data/images/se2001_2026T2_ET_AN_p4_Im7.webp"
@@ -431,12 +433,12 @@
       "text": "What will be the output of the following [IMAGE: /data/images/se2001_2026T2_ET_AN_p11_Im3.webp|inline] command when executed on the file [IMAGE: /data/images/se2001_2026T2_ET_AN_p11_Im4.webp|inline] ? [IMAGE: /data/images/se2001_2026T2_ET_AN_p11_Im5.webp|block] The file [IMAGE: /data/images/se2001_2026T2_ET_AN_p11_Im6.webp|inline] contains: [IMAGE: /data/images/se2001_2026T2_ET_AN_p11_Im7.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p12_Im1.webp|block] [IMAGE: /data/images/se2001_2026T2_ET_AN_p12_Im3.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p12_Im1.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p12_Im3.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_AN_p12_Im4.webp|block]",
-        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p12_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p12_Im5.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2001_2026T2_ET_AN_p12_Im1.webp|block] [IMAGE: /data/images/se2001_2026T2_ET_AN_p12_Im3.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2001_2026T2_ET_AN_p12_Im1.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
@@ -511,19 +513,20 @@
       "text": "Consider the following directory structure: [IMAGE: /data/images/se2001_2026T2_ET_AN_p13_Im3.webp|block] Which of the following Bash commands will create exactly this directory structure ?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p13_Im4.webp|block]",
         "[IMAGE: /data/images/se2001_2026T2_ET_AN_p13_Im5.webp|block]",
-        "",
-        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/se2001_2026T2_ET_AN_p14_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p14_Im1.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p14_Im3.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p13_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p13_Im4.webp|block]",
+        "[IMAGE: /data/images/se2001_2026T2_ET_AN_p13_Im5.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2001_2026T2_ET_AN_p13_Im3.webp",
+        "/data/images/se2001_2026T2_ET_AN_p13_Im4.webp",
         "/data/images/se2001_2026T2_ET_AN_p13_Im5.webp",
         "/data/images/se2001_2026T2_ET_AN_p14_Im1.webp",
         "/data/images/se2001_2026T2_ET_AN_p14_Im3.webp"

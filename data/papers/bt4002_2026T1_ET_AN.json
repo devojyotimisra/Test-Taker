@@ -53,12 +53,12 @@
       "text": "You are performing motif identification in a large gene regulatory network and are looking for a specific regulatory circuit (shown in the reference image). Which of the following visual layouts of newly discovered genetic circuits is isomorphic to your target motif, i.e., it has the exact same biological connectivity regardless of how the genes are physically arranged on the page? [IMAGE: /data/images/bt4002_2026T1_ET_AN_p1_Im4.webp|block]",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im1.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im3.webp|block]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im1.webp|block]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im3.webp|block]",
         "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im5.webp|block]",
-        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p2_Im3.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -667,17 +667,18 @@
       "text": "Consider the following graph: [IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im1.webp|block] What will be the adjacency matrix [IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im2.webp|inline] ?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im4.webp|block]",
         "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im5.webp|block]",
         "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im7.webp|block]",
-        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im8.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im8.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p11_Im7.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bt4002_2026T1_ET_AN_p11_Im1.webp",
         "/data/images/bt4002_2026T1_ET_AN_p11_Im2.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p11_Im4.webp",
         "/data/images/bt4002_2026T1_ET_AN_p11_Im5.webp",
         "/data/images/bt4002_2026T1_ET_AN_p11_Im7.webp",
         "/data/images/bt4002_2026T1_ET_AN_p11_Im8.webp"
@@ -753,12 +754,12 @@
       "text": "A two-layer neural network with 2 features, [IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im4.webp|inline] , [IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im5.webp|inline] is defined below: [IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im6.webp|block] Given the following numerical values: [IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im7.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im9.webp|block] Compute the values of [IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im8.webp|inline] and",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im1.webp|block] [IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im3.webp|block]",
-        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p13_Im10.webp|block]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im1.webp|block]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im3.webp|block]",
+        "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im5.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/bt4002_2026T1_ET_AN_p14_Im5.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
@@ -768,6 +769,7 @@
         "/data/images/bt4002_2026T1_ET_AN_p13_Im7.webp",
         "/data/images/bt4002_2026T1_ET_AN_p13_Im9.webp",
         "/data/images/bt4002_2026T1_ET_AN_p13_Im8.webp",
+        "/data/images/bt4002_2026T1_ET_AN_p13_Im10.webp",
         "/data/images/bt4002_2026T1_ET_AN_p14_Im1.webp",
         "/data/images/bt4002_2026T1_ET_AN_p14_Im3.webp",
         "/data/images/bt4002_2026T1_ET_AN_p14_Im5.webp"

@@ -227,7 +227,7 @@
       "text": "Recall standard control algorithms in RL, like Q-Learning, SARSA, Expected SARSA, etc., involve a maximisation step in constructing their target policies. For example: In Q-Learning, the target is: [IMAGE: /data/images/da5007_2026T1_ET_FN_p5_Im1.webp|block] Which of the following statements are correct? Select all that apply.",
       "type": "multichoice",
       "options": [
-        "",
+        "[IMAGE: /data/images/da5007_2026T1_ET_FN_p5_Im3.webp|block]",
         "[IMAGE: /data/images/da5007_2026T1_ET_FN_p5_Im5.webp|inline]",
         "[IMAGE: /data/images/da5007_2026T1_ET_FN_p6_Im2.webp|inline]",
         "[IMAGE: /data/images/da5007_2026T1_ET_FN_p6_Im4.webp|inline]",
@@ -244,6 +244,7 @@
       "negative_marks": 0.0,
       "images": [
         "/data/images/da5007_2026T1_ET_FN_p5_Im1.webp",
+        "/data/images/da5007_2026T1_ET_FN_p5_Im3.webp",
         "/data/images/da5007_2026T1_ET_FN_p5_Im5.webp",
         "/data/images/da5007_2026T1_ET_FN_p6_Im2.webp",
         "/data/images/da5007_2026T1_ET_FN_p6_Im4.webp",
@@ -410,14 +411,14 @@
       "text": "Applying the softmax distribution to the Bernoulli-logistic unit, which of the following correctly expresses [IMAGE: /data/images/da5007_2026T1_ET_FN_p11_Im1.webp|inline] ?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/da5007_2026T1_ET_FN_p11_Im3.webp|block]",
         "[IMAGE: /data/images/da5007_2026T1_ET_FN_p11_Im5.webp|block]",
         "[IMAGE: /data/images/da5007_2026T1_ET_FN_p11_Im6.webp|block]",
-        "[IMAGE: /data/images/da5007_2026T1_ET_FN_p11_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5007_2026T1_ET_FN_p11_Im7.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/da5007_2026T1_ET_FN_p11_Im5.webp|block]",
-        "[IMAGE: /data/images/da5007_2026T1_ET_FN_p11_Im7.webp|block]"
+        "[IMAGE: /data/images/da5007_2026T1_ET_FN_p11_Im3.webp|block]",
+        "[IMAGE: /data/images/da5007_2026T1_ET_FN_p11_Im6.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
@@ -436,6 +437,7 @@
         "/data/images/da5007_2026T1_ET_FN_p10_Im11.webp",
         "/data/images/da5007_2026T1_ET_FN_p10_Im12.webp",
         "/data/images/da5007_2026T1_ET_FN_p10_Im13.webp",
+        "/data/images/da5007_2026T1_ET_FN_p11_Im3.webp",
         "/data/images/da5007_2026T1_ET_FN_p11_Im5.webp",
         "/data/images/da5007_2026T1_ET_FN_p11_Im6.webp",
         "/data/images/da5007_2026T1_ET_FN_p11_Im7.webp"

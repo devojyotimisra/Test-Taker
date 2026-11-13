@@ -374,23 +374,6 @@
     "json_url": "/data/papers/bshs1001_2026T2_Q2_NA.json"
   },
   {
-    "id": "bshs1002-2026t1-et-fn",
-    "filename": "bshs1002_2026T1_ET_FN.pdf",
-    "json_file": "bshs1002_2026T1_ET_FN.json",
-    "title": "FOUNDATION LEVEL : ENGLISH II (COMPUTER BASED EXAM)",
-    "course_code": "BSHS1002",
-    "course_name": "English 2",
-    "level": "Foundation",
-    "year": 2026,
-    "term": "Jan 2026",
-    "term_code": "2026T1",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 61,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/bshs1002_2026T1_ET_FN.json"
-  },
-  {
     "id": "bshs1002-2026t1-et-an",
     "filename": "bshs1002_2026T1_ET_AN.pdf",
     "json_file": "bshs1002_2026T1_ET_AN.json",
@@ -406,6 +389,23 @@
     "total_questions": 61,
     "total_marks": 100.0,
     "json_url": "/data/papers/bshs1002_2026T1_ET_AN.json"
+  },
+  {
+    "id": "bshs1002-2026t1-et-fn",
+    "filename": "bshs1002_2026T1_ET_FN.pdf",
+    "json_file": "bshs1002_2026T1_ET_FN.json",
+    "title": "FOUNDATION LEVEL : ENGLISH II (COMPUTER BASED EXAM)",
+    "course_code": "BSHS1002",
+    "course_name": "English 2",
+    "level": "Foundation",
+    "year": 2026,
+    "term": "Jan 2026",
+    "term_code": "2026T1",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 61,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/bshs1002_2026T1_ET_FN.json"
   },
   {
     "id": "bshs1002-2026t1-q1-na",
@@ -833,23 +833,6 @@
     "json_url": "/data/papers/bsma1003_2026T1_Q2_NA.json"
   },
   {
-    "id": "bsma1003-2026t2-et-an",
-    "filename": "bsma1003_2026T2_ET_AN.pdf",
-    "json_file": "bsma1003_2026T2_ET_AN.json",
-    "title": "FOUNDATION LEVEL : MATHEMATICS FOR DATA SCIENCE II (COMPUTER BASED EXAM)",
-    "course_code": "BSMA1003",
-    "course_name": "Mathematics for Data Science 2",
-    "level": "Foundation",
-    "year": 2026,
-    "term": "May 2026",
-    "term_code": "2026T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 20,
-    "total_marks": 56.0,
-    "json_url": "/data/papers/bsma1003_2026T2_ET_AN.json"
-  },
-  {
     "id": "bsma1003-2026t2-et-fn",
     "filename": "bsma1003_2026T2_ET_FN.pdf",
     "json_file": "bsma1003_2026T2_ET_FN.json",
@@ -865,6 +848,23 @@
     "total_questions": 20,
     "total_marks": 56.0,
     "json_url": "/data/papers/bsma1003_2026T2_ET_FN.json"
+  },
+  {
+    "id": "bsma1003-2026t2-et-an",
+    "filename": "bsma1003_2026T2_ET_AN.pdf",
+    "json_file": "bsma1003_2026T2_ET_AN.json",
+    "title": "FOUNDATION LEVEL : MATHEMATICS FOR DATA SCIENCE II (COMPUTER BASED EXAM)",
+    "course_code": "BSMA1003",
+    "course_name": "Mathematics for Data Science 2",
+    "level": "Foundation",
+    "year": 2026,
+    "term": "May 2026",
+    "term_code": "2026T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 20,
+    "total_marks": 56.0,
+    "json_url": "/data/papers/bsma1003_2026T2_ET_AN.json"
   },
   {
     "id": "bsma1003-2026t2-q1-na",
@@ -1037,23 +1037,6 @@
     "json_url": "/data/papers/bsma1004_2026T2_Q2_NA.json"
   },
   {
-    "id": "bt4001-2026t1-et-an",
-    "filename": "bt4001_2026T1_ET_AN.pdf",
-    "json_file": "bt4001_2026T1_ET_AN.json",
-    "title": "DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)",
-    "course_code": "BT4001",
-    "course_name": "Computational Biology",
-    "level": "Degree",
-    "year": 2026,
-    "term": "Jan 2026",
-    "term_code": "2026T1",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 13,
-    "total_marks": 32.0,
-    "json_url": "/data/papers/bt4001_2026T1_ET_AN.json"
-  },
-  {
     "id": "bt4001-2026t1-et-fn",
     "filename": "bt4001_2026T1_ET_FN.pdf",
     "json_file": "bt4001_2026T1_ET_FN.json",
@@ -1069,6 +1052,23 @@
     "total_questions": 13,
     "total_marks": 32.0,
     "json_url": "/data/papers/bt4001_2026T1_ET_FN.json"
+  },
+  {
+    "id": "bt4001-2026t1-et-an",
+    "filename": "bt4001_2026T1_ET_AN.pdf",
+    "json_file": "bt4001_2026T1_ET_AN.json",
+    "title": "DEGREE LEVEL : ALGORITHMIC THINKING IN BIOINFORMATICS (COMPUTER BASED EXAM)",
+    "course_code": "BT4001",
+    "course_name": "Computational Biology",
+    "level": "Degree",
+    "year": 2026,
+    "term": "Jan 2026",
+    "term_code": "2026T1",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 13,
+    "total_marks": 32.0,
+    "json_url": "/data/papers/bt4001_2026T1_ET_AN.json"
   },
   {
     "id": "bt4001-2026t1-q1-na",
@@ -1666,23 +1666,6 @@
     "json_url": "/data/papers/cs2004_2026T1_Q2_NA.json"
   },
   {
-    "id": "cs2004-2026t2-et-an",
-    "filename": "cs2004_2026T2_ET_AN.pdf",
-    "json_file": "cs2004_2026T2_ET_AN.json",
-    "title": "DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)",
-    "course_code": "CS2004",
-    "course_name": "Machine Learning Foundations",
-    "level": "Diploma in Data Science",
-    "year": 2026,
-    "term": "May 2026",
-    "term_code": "2026T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 15,
-    "total_marks": 32.0,
-    "json_url": "/data/papers/cs2004_2026T2_ET_AN.json"
-  },
-  {
     "id": "cs2004-2026t2-et-fn",
     "filename": "cs2004_2026T2_ET_FN.pdf",
     "json_file": "cs2004_2026T2_ET_FN.json",
@@ -1698,6 +1681,23 @@
     "total_questions": 15,
     "total_marks": 26.0,
     "json_url": "/data/papers/cs2004_2026T2_ET_FN.json"
+  },
+  {
+    "id": "cs2004-2026t2-et-an",
+    "filename": "cs2004_2026T2_ET_AN.pdf",
+    "json_file": "cs2004_2026T2_ET_AN.json",
+    "title": "DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)",
+    "course_code": "CS2004",
+    "course_name": "Machine Learning Foundations",
+    "level": "Diploma in Data Science",
+    "year": 2026,
+    "term": "May 2026",
+    "term_code": "2026T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 15,
+    "total_marks": 32.0,
+    "json_url": "/data/papers/cs2004_2026T2_ET_AN.json"
   },
   {
     "id": "cs2004-2026t2-q1-na",
@@ -2006,23 +2006,6 @@
     "json_url": "/data/papers/cs2006_2026T2_Q2_NA.json"
   },
   {
-    "id": "cs2007-2026t1-et-an",
-    "filename": "cs2007_2026T1_ET_AN.pdf",
-    "json_file": "cs2007_2026T1_ET_AN.json",
-    "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
-    "course_code": "CS2007",
-    "course_name": "Machine Learning Techniques",
-    "level": "Diploma in Data Science",
-    "year": 2026,
-    "term": "Jan 2026",
-    "term_code": "2026T1",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 18,
-    "total_marks": 34.0,
-    "json_url": "/data/papers/cs2007_2026T1_ET_AN.json"
-  },
-  {
     "id": "cs2007-2026t1-et-fn",
     "filename": "cs2007_2026T1_ET_FN.pdf",
     "json_file": "cs2007_2026T1_ET_FN.json",
@@ -2038,6 +2021,23 @@
     "total_questions": 17,
     "total_marks": 37.0,
     "json_url": "/data/papers/cs2007_2026T1_ET_FN.json"
+  },
+  {
+    "id": "cs2007-2026t1-et-an",
+    "filename": "cs2007_2026T1_ET_AN.pdf",
+    "json_file": "cs2007_2026T1_ET_AN.json",
+    "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
+    "course_code": "CS2007",
+    "course_name": "Machine Learning Techniques",
+    "level": "Diploma in Data Science",
+    "year": 2026,
+    "term": "Jan 2026",
+    "term_code": "2026T1",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 18,
+    "total_marks": 34.0,
+    "json_url": "/data/papers/cs2007_2026T1_ET_AN.json"
   },
   {
     "id": "cs2007-2026t1-q1-na",
@@ -2142,23 +2142,6 @@
     "json_url": "/data/papers/cs2007_2026T2_Q2_NA.json"
   },
   {
-    "id": "cs2008-2026t1-et-an",
-    "filename": "cs2008_2026T1_ET_AN.pdf",
-    "json_file": "cs2008_2026T1_ET_AN.json",
-    "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)",
-    "course_code": "CS2008",
-    "course_name": "Machine Learning Practice",
-    "level": "Diploma in Data Science",
-    "year": 2026,
-    "term": "Jan 2026",
-    "term_code": "2026T1",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 26,
-    "total_marks": 78.0,
-    "json_url": "/data/papers/cs2008_2026T1_ET_AN.json"
-  },
-  {
     "id": "cs2008-2026t1-et-fn",
     "filename": "cs2008_2026T1_ET_FN.pdf",
     "json_file": "cs2008_2026T1_ET_FN.json",
@@ -2174,6 +2157,23 @@
     "total_questions": 26,
     "total_marks": 75.0,
     "json_url": "/data/papers/cs2008_2026T1_ET_FN.json"
+  },
+  {
+    "id": "cs2008-2026t1-et-an",
+    "filename": "cs2008_2026T1_ET_AN.pdf",
+    "json_file": "cs2008_2026T1_ET_AN.json",
+    "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)",
+    "course_code": "CS2008",
+    "course_name": "Machine Learning Practice",
+    "level": "Diploma in Data Science",
+    "year": 2026,
+    "term": "Jan 2026",
+    "term_code": "2026T1",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 26,
+    "total_marks": 78.0,
+    "json_url": "/data/papers/cs2008_2026T1_ET_AN.json"
   },
   {
     "id": "cs2008-2026t2-et-an",
@@ -2856,23 +2856,6 @@
     "json_url": "/data/papers/cs3021_2026T2_Q2_NA.json"
   },
   {
-    "id": "cs3031-2026t2-et-fn",
-    "filename": "cs3031_2026T2_ET_FN.pdf",
-    "json_file": "cs3031_2026T2_ET_FN.json",
-    "title": "DEGREE LEVEL : COMPUTER SYSTEMS DESIGN (COMPUTER BASED EXAM)",
-    "course_code": "CS3031",
-    "course_name": "Computer Systems Design",
-    "level": "Degree",
-    "year": 2026,
-    "term": "May 2026",
-    "term_code": "2026T2",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 21,
-    "total_marks": 22.0,
-    "json_url": "/data/papers/cs3031_2026T2_ET_FN.json"
-  },
-  {
     "id": "cs3031-2026t2-et-an",
     "filename": "cs3031_2026T2_ET_AN.pdf",
     "json_file": "cs3031_2026T2_ET_AN.json",
@@ -2888,6 +2871,23 @@
     "total_questions": 21,
     "total_marks": 22.0,
     "json_url": "/data/papers/cs3031_2026T2_ET_AN.json"
+  },
+  {
+    "id": "cs3031-2026t2-et-fn",
+    "filename": "cs3031_2026T2_ET_FN.pdf",
+    "json_file": "cs3031_2026T2_ET_FN.json",
+    "title": "DEGREE LEVEL : COMPUTER SYSTEMS DESIGN (COMPUTER BASED EXAM)",
+    "course_code": "CS3031",
+    "course_name": "Computer Systems Design",
+    "level": "Degree",
+    "year": 2026,
+    "term": "May 2026",
+    "term_code": "2026T2",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 21,
+    "total_marks": 22.0,
+    "json_url": "/data/papers/cs3031_2026T2_ET_FN.json"
   },
   {
     "id": "cs3031-2026t2-q1-na",
@@ -3553,23 +3553,6 @@
     "json_url": "/data/papers/da5002_2026T2_Q2_NA.json"
   },
   {
-    "id": "da5003-2026t2-et-an",
-    "filename": "da5003_2026T2_ET_AN.pdf",
-    "json_file": "da5003_2026T2_ET_AN.json",
-    "title": "DEGREE LEVEL : ALGORITHMS FOR DATA SCIENCE (COMPUTER BASED EXAM)",
-    "course_code": "DA5003",
-    "course_name": "Generative AI",
-    "level": "Degree",
-    "year": 2026,
-    "term": "May 2026",
-    "term_code": "2026T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 19,
-    "total_marks": 28.0,
-    "json_url": "/data/papers/da5003_2026T2_ET_AN.json"
-  },
-  {
     "id": "da5003-2026t2-et-fn",
     "filename": "da5003_2026T2_ET_FN.pdf",
     "json_file": "da5003_2026T2_ET_FN.json",
@@ -3585,6 +3568,23 @@
     "total_questions": 19,
     "total_marks": 28.0,
     "json_url": "/data/papers/da5003_2026T2_ET_FN.json"
+  },
+  {
+    "id": "da5003-2026t2-et-an",
+    "filename": "da5003_2026T2_ET_AN.pdf",
+    "json_file": "da5003_2026T2_ET_AN.json",
+    "title": "DEGREE LEVEL : ALGORITHMS FOR DATA SCIENCE (COMPUTER BASED EXAM)",
+    "course_code": "DA5003",
+    "course_name": "Generative AI",
+    "level": "Degree",
+    "year": 2026,
+    "term": "May 2026",
+    "term_code": "2026T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 19,
+    "total_marks": 28.0,
+    "json_url": "/data/papers/da5003_2026T2_ET_AN.json"
   },
   {
     "id": "da5003-2026t2-q2-na",
@@ -3672,23 +3672,6 @@
     "json_url": "/data/papers/da5004_2026T1_Q2_NA.json"
   },
   {
-    "id": "da5004-2026t2-et-an",
-    "filename": "da5004_2026T2_ET_AN.pdf",
-    "json_file": "da5004_2026T2_ET_AN.json",
-    "title": "DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)",
-    "course_code": "DA5004",
-    "course_name": "Large Language Models",
-    "level": "Degree",
-    "year": 2026,
-    "term": "May 2026",
-    "term_code": "2026T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 21,
-    "total_marks": 36.0,
-    "json_url": "/data/papers/da5004_2026T2_ET_AN.json"
-  },
-  {
     "id": "da5004-2026t2-et-fn",
     "filename": "da5004_2026T2_ET_FN.pdf",
     "json_file": "da5004_2026T2_ET_FN.json",
@@ -3704,6 +3687,23 @@
     "total_questions": 21,
     "total_marks": 44.0,
     "json_url": "/data/papers/da5004_2026T2_ET_FN.json"
+  },
+  {
+    "id": "da5004-2026t2-et-an",
+    "filename": "da5004_2026T2_ET_AN.pdf",
+    "json_file": "da5004_2026T2_ET_AN.json",
+    "title": "DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)",
+    "course_code": "DA5004",
+    "course_name": "Large Language Models",
+    "level": "Degree",
+    "year": 2026,
+    "term": "May 2026",
+    "term_code": "2026T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 21,
+    "total_marks": 36.0,
+    "json_url": "/data/papers/da5004_2026T2_ET_AN.json"
   },
   {
     "id": "da5004-2026t2-q1-na",
@@ -3978,23 +3978,6 @@
     "json_url": "/data/papers/da5013_2026T1_Q2_NA.json"
   },
   {
-    "id": "da5013-2026t2-et-fn",
-    "filename": "da5013_2026T2_ET_FN.pdf",
-    "json_file": "da5013_2026T2_ET_FN.json",
-    "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
-    "course_code": "DA5013",
-    "course_name": "Deep Learning Practice",
-    "level": "Degree",
-    "year": 2026,
-    "term": "May 2026",
-    "term_code": "2026T2",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 32,
-    "total_marks": 41.0,
-    "json_url": "/data/papers/da5013_2026T2_ET_FN.json"
-  },
-  {
     "id": "da5013-2026t2-et-an",
     "filename": "da5013_2026T2_ET_AN.pdf",
     "json_file": "da5013_2026T2_ET_AN.json",
@@ -4010,6 +3993,23 @@
     "total_questions": 32,
     "total_marks": 41.0,
     "json_url": "/data/papers/da5013_2026T2_ET_AN.json"
+  },
+  {
+    "id": "da5013-2026t2-et-fn",
+    "filename": "da5013_2026T2_ET_FN.pdf",
+    "json_file": "da5013_2026T2_ET_FN.json",
+    "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+    "course_code": "DA5013",
+    "course_name": "Deep Learning Practice",
+    "level": "Degree",
+    "year": 2026,
+    "term": "May 2026",
+    "term_code": "2026T2",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 32,
+    "total_marks": 41.0,
+    "json_url": "/data/papers/da5013_2026T2_ET_FN.json"
   },
   {
     "id": "da5013-2026t2-q1-na",
@@ -4471,23 +4471,6 @@
     "json_url": "/data/papers/ms2002_2026T1_Q2_NA.json"
   },
   {
-    "id": "ms2002-2026t2-et-fn",
-    "filename": "ms2002_2026T2_ET_FN.pdf",
-    "json_file": "ms2002_2026T2_ET_FN.json",
-    "title": "DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)",
-    "course_code": "MS2002",
-    "course_name": "Business Analytics",
-    "level": "Diploma in Data Science",
-    "year": 2026,
-    "term": "May 2026",
-    "term_code": "2026T2",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 36,
-    "total_marks": 35.5,
-    "json_url": "/data/papers/ms2002_2026T2_ET_FN.json"
-  },
-  {
     "id": "ms2002-2026t2-et-an",
     "filename": "ms2002_2026T2_ET_AN.pdf",
     "json_file": "ms2002_2026T2_ET_AN.json",
@@ -4503,6 +4486,23 @@
     "total_questions": 34,
     "total_marks": 33.0,
     "json_url": "/data/papers/ms2002_2026T2_ET_AN.json"
+  },
+  {
+    "id": "ms2002-2026t2-et-fn",
+    "filename": "ms2002_2026T2_ET_FN.pdf",
+    "json_file": "ms2002_2026T2_ET_FN.json",
+    "title": "DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)",
+    "course_code": "MS2002",
+    "course_name": "Business Analytics",
+    "level": "Diploma in Data Science",
+    "year": 2026,
+    "term": "May 2026",
+    "term_code": "2026T2",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 36,
+    "total_marks": 35.5,
+    "json_url": "/data/papers/ms2002_2026T2_ET_FN.json"
   },
   {
     "id": "ms2002-2026t2-q1-na",
@@ -4590,23 +4590,6 @@
     "json_url": "/data/papers/ms3002_2026T1_Q2_NA.json"
   },
   {
-    "id": "ms3002-2026t2-et-an",
-    "filename": "ms3002_2026T2_ET_AN.pdf",
-    "json_file": "ms3002_2026T2_ET_AN.json",
-    "title": "DEGREE LEVEL : MARKET RESEARCH (COMPUTER BASED EXAM)",
-    "course_code": "MS3002",
-    "course_name": "Market Research",
-    "level": "Degree",
-    "year": 2026,
-    "term": "May 2026",
-    "term_code": "2026T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 17,
-    "total_marks": 50.0,
-    "json_url": "/data/papers/ms3002_2026T2_ET_AN.json"
-  },
-  {
     "id": "ms3002-2026t2-et-fn",
     "filename": "ms3002_2026T2_ET_FN.pdf",
     "json_file": "ms3002_2026T2_ET_FN.json",
@@ -4622,6 +4605,23 @@
     "total_questions": 17,
     "total_marks": 50.0,
     "json_url": "/data/papers/ms3002_2026T2_ET_FN.json"
+  },
+  {
+    "id": "ms3002-2026t2-et-an",
+    "filename": "ms3002_2026T2_ET_AN.pdf",
+    "json_file": "ms3002_2026T2_ET_AN.json",
+    "title": "DEGREE LEVEL : MARKET RESEARCH (COMPUTER BASED EXAM)",
+    "course_code": "MS3002",
+    "course_name": "Market Research",
+    "level": "Degree",
+    "year": 2026,
+    "term": "May 2026",
+    "term_code": "2026T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 17,
+    "total_marks": 50.0,
+    "json_url": "/data/papers/ms3002_2026T2_ET_AN.json"
   },
   {
     "id": "ms3002-2026t2-q1-na",
@@ -4726,23 +4726,6 @@
     "json_url": "/data/papers/ms3033_2026T1_Q2_NA.json"
   },
   {
-    "id": "ms3033-2026t2-et-an",
-    "filename": "ms3033_2026T2_ET_AN.pdf",
-    "json_file": "ms3033_2026T2_ET_AN.json",
-    "title": "DEGREE LEVEL : MANAGERIAL ECONOMICS (COMPUTER BASED EXAM)",
-    "course_code": "MS3033",
-    "course_name": "Managerial Economics",
-    "level": "Degree",
-    "year": 2026,
-    "term": "May 2026",
-    "term_code": "2026T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 44,
-    "total_marks": 43.0,
-    "json_url": "/data/papers/ms3033_2026T2_ET_AN.json"
-  },
-  {
     "id": "ms3033-2026t2-et-fn",
     "filename": "ms3033_2026T2_ET_FN.pdf",
     "json_file": "ms3033_2026T2_ET_FN.json",
@@ -4758,6 +4741,23 @@
     "total_questions": 38,
     "total_marks": 38.0,
     "json_url": "/data/papers/ms3033_2026T2_ET_FN.json"
+  },
+  {
+    "id": "ms3033-2026t2-et-an",
+    "filename": "ms3033_2026T2_ET_AN.pdf",
+    "json_file": "ms3033_2026T2_ET_AN.json",
+    "title": "DEGREE LEVEL : MANAGERIAL ECONOMICS (COMPUTER BASED EXAM)",
+    "course_code": "MS3033",
+    "course_name": "Managerial Economics",
+    "level": "Degree",
+    "year": 2026,
+    "term": "May 2026",
+    "term_code": "2026T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 44,
+    "total_marks": 43.0,
+    "json_url": "/data/papers/ms3033_2026T2_ET_AN.json"
   },
   {
     "id": "ms3033-2026t2-q1-na",
@@ -4811,23 +4811,6 @@
     "json_url": "/data/papers/ms3033_2026T2_Q2_NA_2822.json"
   },
   {
-    "id": "ms3034-2026t1-et-an",
-    "filename": "ms3034_2026T1_ET_AN.pdf",
-    "json_file": "ms3034_2026T1_ET_AN.json",
-    "title": "DEGREE LEVEL : CORPORATE FINANCE (COMPUTER BASED EXAM)",
-    "course_code": "MS3034",
-    "course_name": "Financial Forensics",
-    "level": "Degree",
-    "year": 2026,
-    "term": "Jan 2026",
-    "term_code": "2026T1",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 36,
-    "total_marks": 70.0,
-    "json_url": "/data/papers/ms3034_2026T1_ET_AN.json"
-  },
-  {
     "id": "ms3034-2026t1-et-fn",
     "filename": "ms3034_2026T1_ET_FN.pdf",
     "json_file": "ms3034_2026T1_ET_FN.json",
@@ -4843,6 +4826,23 @@
     "total_questions": 36,
     "total_marks": 70.0,
     "json_url": "/data/papers/ms3034_2026T1_ET_FN.json"
+  },
+  {
+    "id": "ms3034-2026t1-et-an",
+    "filename": "ms3034_2026T1_ET_AN.pdf",
+    "json_file": "ms3034_2026T1_ET_AN.json",
+    "title": "DEGREE LEVEL : CORPORATE FINANCE (COMPUTER BASED EXAM)",
+    "course_code": "MS3034",
+    "course_name": "Financial Forensics",
+    "level": "Degree",
+    "year": 2026,
+    "term": "Jan 2026",
+    "term_code": "2026T1",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 36,
+    "total_marks": 70.0,
+    "json_url": "/data/papers/ms3034_2026T1_ET_AN.json"
   },
   {
     "id": "ms3034-2026t1-q1-na",
@@ -5525,23 +5525,6 @@
     "json_url": "/data/papers/bsma1001_2025T3_Q2_NA.json"
   },
   {
-    "id": "bsma1002-2025t3-et-an",
-    "filename": "bsma1002_2025T3_ET_AN.pdf",
-    "json_file": "bsma1002_2025T3_ET_AN.json",
-    "title": "FOUNDATION LEVEL : STATISTICS FOR DATA SCIENCE I (COMPUTER BASED EXAM)",
-    "course_code": "BSMA1002",
-    "course_name": "Statistics for Data Science 1",
-    "level": "Foundation",
-    "year": 2025,
-    "term": "Sep 2025",
-    "term_code": "2025T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 15,
-    "total_marks": 40.0,
-    "json_url": "/data/papers/bsma1002_2025T3_ET_AN.json"
-  },
-  {
     "id": "bsma1002-2025t3-et-fn",
     "filename": "bsma1002_2025T3_ET_FN.pdf",
     "json_file": "bsma1002_2025T3_ET_FN.json",
@@ -5557,6 +5540,23 @@
     "total_questions": 16,
     "total_marks": 40.0,
     "json_url": "/data/papers/bsma1002_2025T3_ET_FN.json"
+  },
+  {
+    "id": "bsma1002-2025t3-et-an",
+    "filename": "bsma1002_2025T3_ET_AN.pdf",
+    "json_file": "bsma1002_2025T3_ET_AN.json",
+    "title": "FOUNDATION LEVEL : STATISTICS FOR DATA SCIENCE I (COMPUTER BASED EXAM)",
+    "course_code": "BSMA1002",
+    "course_name": "Statistics for Data Science 1",
+    "level": "Foundation",
+    "year": 2025,
+    "term": "Sep 2025",
+    "term_code": "2025T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 15,
+    "total_marks": 40.0,
+    "json_url": "/data/papers/bsma1002_2025T3_ET_AN.json"
   },
   {
     "id": "bsma1002-2025t3-q1-na",
@@ -5661,23 +5661,6 @@
     "json_url": "/data/papers/bsma1003_2025T3_Q2_NA.json"
   },
   {
-    "id": "bsma1004-2025t3-et-an",
-    "filename": "bsma1004_2025T3_ET_AN.pdf",
-    "json_file": "bsma1004_2025T3_ET_AN.json",
-    "title": "FOUNDATION LEVEL : STATISTICS FOR DATA SCIENCE II (COMPUTER BASED EXAM)",
-    "course_code": "BSMA1004",
-    "course_name": "Statistics for Data Science 2",
-    "level": "Foundation",
-    "year": 2025,
-    "term": "Sep 2025",
-    "term_code": "2025T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 22,
-    "total_marks": 40.0,
-    "json_url": "/data/papers/bsma1004_2025T3_ET_AN.json"
-  },
-  {
     "id": "bsma1004-2025t3-et-fn",
     "filename": "bsma1004_2025T3_ET_FN.pdf",
     "json_file": "bsma1004_2025T3_ET_FN.json",
@@ -5693,6 +5676,23 @@
     "total_questions": 22,
     "total_marks": 40.0,
     "json_url": "/data/papers/bsma1004_2025T3_ET_FN.json"
+  },
+  {
+    "id": "bsma1004-2025t3-et-an",
+    "filename": "bsma1004_2025T3_ET_AN.pdf",
+    "json_file": "bsma1004_2025T3_ET_AN.json",
+    "title": "FOUNDATION LEVEL : STATISTICS FOR DATA SCIENCE II (COMPUTER BASED EXAM)",
+    "course_code": "BSMA1004",
+    "course_name": "Statistics for Data Science 2",
+    "level": "Foundation",
+    "year": 2025,
+    "term": "Sep 2025",
+    "term_code": "2025T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 22,
+    "total_marks": 40.0,
+    "json_url": "/data/papers/bsma1004_2025T3_ET_AN.json"
   },
   {
     "id": "bsma1004-2025t3-q1-na",
@@ -6137,23 +6137,6 @@
     "json_url": "/data/papers/cs2002_2025T1_Q2_AN.json"
   },
   {
-    "id": "cs2002-2025t2-et-an",
-    "filename": "cs2002_2025T2_ET_AN.pdf",
-    "json_file": "cs2002_2025T2_ET_AN.json",
-    "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
-    "course_code": "CS2002",
-    "course_name": "Programming, Data Structures and Algorithms using Python",
-    "level": "Diploma in Programming",
-    "year": 2025,
-    "term": "May 2025",
-    "term_code": "2025T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 26,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/cs2002_2025T2_ET_AN.json"
-  },
-  {
     "id": "cs2002-2025t2-et-fn",
     "filename": "cs2002_2025T2_ET_FN.pdf",
     "json_file": "cs2002_2025T2_ET_FN.json",
@@ -6169,6 +6152,23 @@
     "total_questions": 26,
     "total_marks": 100.0,
     "json_url": "/data/papers/cs2002_2025T2_ET_FN.json"
+  },
+  {
+    "id": "cs2002-2025t2-et-an",
+    "filename": "cs2002_2025T2_ET_AN.pdf",
+    "json_file": "cs2002_2025T2_ET_AN.json",
+    "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
+    "course_code": "CS2002",
+    "course_name": "Programming, Data Structures and Algorithms using Python",
+    "level": "Diploma in Programming",
+    "year": 2025,
+    "term": "May 2025",
+    "term_code": "2025T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 26,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/cs2002_2025T2_ET_AN.json"
   },
   {
     "id": "cs2002-2025t2-q1-an",
@@ -6205,23 +6205,6 @@
     "json_url": "/data/papers/cs2002_2025T2_Q2_AN.json"
   },
   {
-    "id": "cs2002-2025t3-et-fn",
-    "filename": "cs2002_2025T3_ET_FN.pdf",
-    "json_file": "cs2002_2025T3_ET_FN.json",
-    "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
-    "course_code": "CS2002",
-    "course_name": "Programming, Data Structures and Algorithms using Python",
-    "level": "Diploma in Programming",
-    "year": 2025,
-    "term": "Sep 2025",
-    "term_code": "2025T3",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 26,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/cs2002_2025T3_ET_FN.json"
-  },
-  {
     "id": "cs2002-2025t3-et-an",
     "filename": "cs2002_2025T3_ET_AN.pdf",
     "json_file": "cs2002_2025T3_ET_AN.json",
@@ -6237,6 +6220,23 @@
     "total_questions": 26,
     "total_marks": 100.0,
     "json_url": "/data/papers/cs2002_2025T3_ET_AN.json"
+  },
+  {
+    "id": "cs2002-2025t3-et-fn",
+    "filename": "cs2002_2025T3_ET_FN.pdf",
+    "json_file": "cs2002_2025T3_ET_FN.json",
+    "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
+    "course_code": "CS2002",
+    "course_name": "Programming, Data Structures and Algorithms using Python",
+    "level": "Diploma in Programming",
+    "year": 2025,
+    "term": "Sep 2025",
+    "term_code": "2025T3",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 26,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/cs2002_2025T3_ET_FN.json"
   },
   {
     "id": "cs2002-2025t3-q1-an",
@@ -6664,23 +6664,6 @@
     "json_url": "/data/papers/cs2004_2025T3_Q2_NA.json"
   },
   {
-    "id": "cs2005-2025t1-et-an",
-    "filename": "cs2005_2025T1_ET_AN.pdf",
-    "json_file": "cs2005_2025T1_ET_AN.json",
-    "title": "DIPLOMA LEVEL : PROGRAMMING CONCEPTS USING JAVA (COMPUTER BASED EXAM)",
-    "course_code": "CS2005",
-    "course_name": "Programming Concepts using Java",
-    "level": "Diploma in Programming",
-    "year": 2025,
-    "term": "Jan 2025",
-    "term_code": "2025T1",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 24,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/cs2005_2025T1_ET_AN.json"
-  },
-  {
     "id": "cs2005-2025t1-et-fn",
     "filename": "cs2005_2025T1_ET_FN.pdf",
     "json_file": "cs2005_2025T1_ET_FN.json",
@@ -6696,6 +6679,23 @@
     "total_questions": 24,
     "total_marks": 100.0,
     "json_url": "/data/papers/cs2005_2025T1_ET_FN.json"
+  },
+  {
+    "id": "cs2005-2025t1-et-an",
+    "filename": "cs2005_2025T1_ET_AN.pdf",
+    "json_file": "cs2005_2025T1_ET_AN.json",
+    "title": "DIPLOMA LEVEL : PROGRAMMING CONCEPTS USING JAVA (COMPUTER BASED EXAM)",
+    "course_code": "CS2005",
+    "course_name": "Programming Concepts using Java",
+    "level": "Diploma in Programming",
+    "year": 2025,
+    "term": "Jan 2025",
+    "term_code": "2025T1",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 24,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/cs2005_2025T1_ET_AN.json"
   },
   {
     "id": "cs2005-2025t1-q1-an",
@@ -6919,23 +6919,6 @@
     "json_url": "/data/papers/cs2006_2025T1_Q2_AN.json"
   },
   {
-    "id": "cs2006-2025t2-et-an",
-    "filename": "cs2006_2025T2_ET_AN.pdf",
-    "json_file": "cs2006_2025T2_ET_AN.json",
-    "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)",
-    "course_code": "CS2006",
-    "course_name": "Application Development 2",
-    "level": "Diploma in Programming",
-    "year": 2025,
-    "term": "May 2025",
-    "term_code": "2025T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 33,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/cs2006_2025T2_ET_AN.json"
-  },
-  {
     "id": "cs2006-2025t2-et-fn",
     "filename": "cs2006_2025T2_ET_FN.pdf",
     "json_file": "cs2006_2025T2_ET_FN.json",
@@ -6951,6 +6934,23 @@
     "total_questions": 33,
     "total_marks": 100.0,
     "json_url": "/data/papers/cs2006_2025T2_ET_FN.json"
+  },
+  {
+    "id": "cs2006-2025t2-et-an",
+    "filename": "cs2006_2025T2_ET_AN.pdf",
+    "json_file": "cs2006_2025T2_ET_AN.json",
+    "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)",
+    "course_code": "CS2006",
+    "course_name": "Application Development 2",
+    "level": "Diploma in Programming",
+    "year": 2025,
+    "term": "May 2025",
+    "term_code": "2025T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 33,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/cs2006_2025T2_ET_AN.json"
   },
   {
     "id": "cs2006-2025t2-q1-an",
@@ -7514,23 +7514,6 @@
     "json_url": "/data/papers/cs3002_2025T1_Q2_NA.json"
   },
   {
-    "id": "cs3002-2025t2-et-an",
-    "filename": "cs3002_2025T2_ET_AN.pdf",
-    "json_file": "cs3002_2025T2_ET_AN.json",
-    "title": "DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)",
-    "course_code": "CS3002",
-    "course_name": "Software Testing",
-    "level": "Degree",
-    "year": 2025,
-    "term": "May 2025",
-    "term_code": "2025T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 22,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/cs3002_2025T2_ET_AN.json"
-  },
-  {
     "id": "cs3002-2025t2-et-fn",
     "filename": "cs3002_2025T2_ET_FN.pdf",
     "json_file": "cs3002_2025T2_ET_FN.json",
@@ -7546,6 +7529,23 @@
     "total_questions": 22,
     "total_marks": 100.0,
     "json_url": "/data/papers/cs3002_2025T2_ET_FN.json"
+  },
+  {
+    "id": "cs3002-2025t2-et-an",
+    "filename": "cs3002_2025T2_ET_AN.pdf",
+    "json_file": "cs3002_2025T2_ET_AN.json",
+    "title": "DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)",
+    "course_code": "CS3002",
+    "course_name": "Software Testing",
+    "level": "Degree",
+    "year": 2025,
+    "term": "May 2025",
+    "term_code": "2025T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 22,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/cs3002_2025T2_ET_AN.json"
   },
   {
     "id": "cs3002-2025t2-q1-na",
@@ -8568,23 +8568,6 @@
     "json_url": "/data/papers/da4001_2025T3_Q2_NA.json"
   },
   {
-    "id": "da5002-2025t2-et-an",
-    "filename": "da5002_2025T2_ET_AN.pdf",
-    "json_file": "da5002_2025T2_ET_AN.json",
-    "title": "DEGREE LEVEL : MATHEMATICAL FOUNDATIONS OF GENERATIVE AI (COMPUTER BASED EXAM)",
-    "course_code": "DA5002",
-    "course_name": "Mathematical Foundations of Generative AI",
-    "level": "Degree",
-    "year": 2025,
-    "term": "May 2025",
-    "term_code": "2025T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 23,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/da5002_2025T2_ET_AN.json"
-  },
-  {
     "id": "da5002-2025t2-et-fn",
     "filename": "da5002_2025T2_ET_FN.pdf",
     "json_file": "da5002_2025T2_ET_FN.json",
@@ -8600,6 +8583,23 @@
     "total_questions": 23,
     "total_marks": 100.0,
     "json_url": "/data/papers/da5002_2025T2_ET_FN.json"
+  },
+  {
+    "id": "da5002-2025t2-et-an",
+    "filename": "da5002_2025T2_ET_AN.pdf",
+    "json_file": "da5002_2025T2_ET_AN.json",
+    "title": "DEGREE LEVEL : MATHEMATICAL FOUNDATIONS OF GENERATIVE AI (COMPUTER BASED EXAM)",
+    "course_code": "DA5002",
+    "course_name": "Mathematical Foundations of Generative AI",
+    "level": "Degree",
+    "year": 2025,
+    "term": "May 2025",
+    "term_code": "2025T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 23,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/da5002_2025T2_ET_AN.json"
   },
   {
     "id": "da5002-2025t2-q1-na",
@@ -9010,23 +9010,6 @@
     "json_url": "/data/papers/da5006_2025T1_Q2_NA.json"
   },
   {
-    "id": "da5006-2025t2-et-an",
-    "filename": "da5006_2025T2_ET_AN.pdf",
-    "json_file": "da5006_2025T2_ET_AN.json",
-    "title": "DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)",
-    "course_code": "DA5006",
-    "course_name": "Deep Learning for Computer Vision",
-    "level": "Degree",
-    "year": 2025,
-    "term": "May 2025",
-    "term_code": "2025T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 50,
-    "total_marks": 72.0,
-    "json_url": "/data/papers/da5006_2025T2_ET_AN.json"
-  },
-  {
     "id": "da5006-2025t2-et-fn",
     "filename": "da5006_2025T2_ET_FN.pdf",
     "json_file": "da5006_2025T2_ET_FN.json",
@@ -9042,6 +9025,23 @@
     "total_questions": 53,
     "total_marks": 76.0,
     "json_url": "/data/papers/da5006_2025T2_ET_FN.json"
+  },
+  {
+    "id": "da5006-2025t2-et-an",
+    "filename": "da5006_2025T2_ET_AN.pdf",
+    "json_file": "da5006_2025T2_ET_AN.json",
+    "title": "DEGREE LEVEL : DEEP LEARNING FOR COMPUTER VISION (COMPUTER BASED EXAM)",
+    "course_code": "DA5006",
+    "course_name": "Deep Learning for Computer Vision",
+    "level": "Degree",
+    "year": 2025,
+    "term": "May 2025",
+    "term_code": "2025T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 50,
+    "total_marks": 72.0,
+    "json_url": "/data/papers/da5006_2025T2_ET_AN.json"
   },
   {
     "id": "da5006-2025t2-q1-na",
@@ -9248,23 +9248,6 @@
     "json_url": "/data/papers/da5013_2025T1_Q2_NA.json"
   },
   {
-    "id": "da5013-2025t2-et-an",
-    "filename": "da5013_2025T2_ET_AN.pdf",
-    "json_file": "da5013_2025T2_ET_AN.json",
-    "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
-    "course_code": "DA5013",
-    "course_name": "Deep Learning Practice",
-    "level": "Degree",
-    "year": 2025,
-    "term": "May 2025",
-    "term_code": "2025T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 23,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/da5013_2025T2_ET_AN.json"
-  },
-  {
     "id": "da5013-2025t2-et-fn",
     "filename": "da5013_2025T2_ET_FN.pdf",
     "json_file": "da5013_2025T2_ET_FN.json",
@@ -9280,6 +9263,23 @@
     "total_questions": 23,
     "total_marks": 100.0,
     "json_url": "/data/papers/da5013_2025T2_ET_FN.json"
+  },
+  {
+    "id": "da5013-2025t2-et-an",
+    "filename": "da5013_2025T2_ET_AN.pdf",
+    "json_file": "da5013_2025T2_ET_AN.json",
+    "title": "DEGREE LEVEL : DEEP LEARNING PRACTICE (COMPUTER BASED EXAM)",
+    "course_code": "DA5013",
+    "course_name": "Deep Learning Practice",
+    "level": "Degree",
+    "year": 2025,
+    "term": "May 2025",
+    "term_code": "2025T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 23,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/da5013_2025T2_ET_AN.json"
   },
   {
     "id": "da5013-2025t2-q1-na",
@@ -9758,23 +9758,6 @@
     "json_url": "/data/papers/ms2001_2025T1_Q2_AN.json"
   },
   {
-    "id": "ms2001-2025t2-et-fn",
-    "filename": "ms2001_2025T2_ET_FN.pdf",
-    "json_file": "ms2001_2025T2_ET_FN.json",
-    "title": "DIPLOMA LEVEL : BUSINESS DATA MANAGEMENT (COMPUTER BASED EXAM)",
-    "course_code": "MS2001",
-    "course_name": "Business Data Management",
-    "level": "Diploma in Data Science",
-    "year": 2025,
-    "term": "May 2025",
-    "term_code": "2025T2",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 24,
-    "total_marks": 30.0,
-    "json_url": "/data/papers/ms2001_2025T2_ET_FN.json"
-  },
-  {
     "id": "ms2001-2025t2-et-an",
     "filename": "ms2001_2025T2_ET_AN.pdf",
     "json_file": "ms2001_2025T2_ET_AN.json",
@@ -9790,6 +9773,23 @@
     "total_questions": 23,
     "total_marks": 30.0,
     "json_url": "/data/papers/ms2001_2025T2_ET_AN.json"
+  },
+  {
+    "id": "ms2001-2025t2-et-fn",
+    "filename": "ms2001_2025T2_ET_FN.pdf",
+    "json_file": "ms2001_2025T2_ET_FN.json",
+    "title": "DIPLOMA LEVEL : BUSINESS DATA MANAGEMENT (COMPUTER BASED EXAM)",
+    "course_code": "MS2001",
+    "course_name": "Business Data Management",
+    "level": "Diploma in Data Science",
+    "year": 2025,
+    "term": "May 2025",
+    "term_code": "2025T2",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 24,
+    "total_marks": 30.0,
+    "json_url": "/data/papers/ms2001_2025T2_ET_FN.json"
   },
   {
     "id": "ms2001-2025t2-q2-an",
@@ -9928,23 +9928,6 @@
     "json_url": "/data/papers/ms2002_2025T1_Q2_AN.json"
   },
   {
-    "id": "ms2002-2025t2-et-an",
-    "filename": "ms2002_2025T2_ET_AN.pdf",
-    "json_file": "ms2002_2025T2_ET_AN.json",
-    "title": "DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)",
-    "course_code": "MS2002",
-    "course_name": "Business Analytics",
-    "level": "Diploma in Data Science",
-    "year": 2025,
-    "term": "May 2025",
-    "term_code": "2025T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 31,
-    "total_marks": 45.0,
-    "json_url": "/data/papers/ms2002_2025T2_ET_AN.json"
-  },
-  {
     "id": "ms2002-2025t2-et-fn",
     "filename": "ms2002_2025T2_ET_FN.pdf",
     "json_file": "ms2002_2025T2_ET_FN.json",
@@ -9960,6 +9943,23 @@
     "total_questions": 33,
     "total_marks": 45.0,
     "json_url": "/data/papers/ms2002_2025T2_ET_FN.json"
+  },
+  {
+    "id": "ms2002-2025t2-et-an",
+    "filename": "ms2002_2025T2_ET_AN.pdf",
+    "json_file": "ms2002_2025T2_ET_AN.json",
+    "title": "DIPLOMA LEVEL : BUSINESS ANALYTICS (COMPUTER BASED EXAM)",
+    "course_code": "MS2002",
+    "course_name": "Business Analytics",
+    "level": "Diploma in Data Science",
+    "year": 2025,
+    "term": "May 2025",
+    "term_code": "2025T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 31,
+    "total_marks": 45.0,
+    "json_url": "/data/papers/ms2002_2025T2_ET_AN.json"
   },
   {
     "id": "ms2002-2025t2-q1-an",
@@ -10302,23 +10302,6 @@
     "json_url": "/data/papers/ms3034_2025T1_Q2_NA.json"
   },
   {
-    "id": "ms3034-2025t3-et-an",
-    "filename": "ms3034_2025T3_ET_AN.pdf",
-    "json_file": "ms3034_2025T3_ET_AN.json",
-    "title": "DEGREE LEVEL : CORPORATE FINANCE (COMPUTER BASED EXAM)",
-    "course_code": "MS3034",
-    "course_name": "Financial Forensics",
-    "level": "Degree",
-    "year": 2025,
-    "term": "Sep 2025",
-    "term_code": "2025T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 31,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/ms3034_2025T3_ET_AN.json"
-  },
-  {
     "id": "ms3034-2025t3-et-fn",
     "filename": "ms3034_2025T3_ET_FN.pdf",
     "json_file": "ms3034_2025T3_ET_FN.json",
@@ -10334,6 +10317,23 @@
     "total_questions": 31,
     "total_marks": 100.0,
     "json_url": "/data/papers/ms3034_2025T3_ET_FN.json"
+  },
+  {
+    "id": "ms3034-2025t3-et-an",
+    "filename": "ms3034_2025T3_ET_AN.pdf",
+    "json_file": "ms3034_2025T3_ET_AN.json",
+    "title": "DEGREE LEVEL : CORPORATE FINANCE (COMPUTER BASED EXAM)",
+    "course_code": "MS3034",
+    "course_name": "Financial Forensics",
+    "level": "Degree",
+    "year": 2025,
+    "term": "Sep 2025",
+    "term_code": "2025T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 31,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/ms3034_2025T3_ET_AN.json"
   },
   {
     "id": "ms3034-2025t3-q1-na",
@@ -10591,23 +10591,6 @@
     "json_url": "/data/papers/ms4003_2025T3_ET_FN.json"
   },
   {
-    "id": "ms4023-2025t2-et-an",
-    "filename": "ms4023_2025T2_ET_AN.pdf",
-    "json_file": "ms4023_2025T2_ET_AN.json",
-    "title": "DEGREE LEVEL : GAME THEORY AND STRATEGY (COMPUTER BASED EXAM)",
-    "course_code": "MS4023",
-    "course_name": "Game Theory and Strategy",
-    "level": "Degree",
-    "year": 2025,
-    "term": "May 2025",
-    "term_code": "2025T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 38,
-    "total_marks": 45.0,
-    "json_url": "/data/papers/ms4023_2025T2_ET_AN.json"
-  },
-  {
     "id": "ms4023-2025t2-et-fn",
     "filename": "ms4023_2025T2_ET_FN.pdf",
     "json_file": "ms4023_2025T2_ET_FN.json",
@@ -10623,6 +10606,23 @@
     "total_questions": 40,
     "total_marks": 45.0,
     "json_url": "/data/papers/ms4023_2025T2_ET_FN.json"
+  },
+  {
+    "id": "ms4023-2025t2-et-an",
+    "filename": "ms4023_2025T2_ET_AN.pdf",
+    "json_file": "ms4023_2025T2_ET_AN.json",
+    "title": "DEGREE LEVEL : GAME THEORY AND STRATEGY (COMPUTER BASED EXAM)",
+    "course_code": "MS4023",
+    "course_name": "Game Theory and Strategy",
+    "level": "Degree",
+    "year": 2025,
+    "term": "May 2025",
+    "term_code": "2025T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 38,
+    "total_marks": 45.0,
+    "json_url": "/data/papers/ms4023_2025T2_ET_AN.json"
   },
   {
     "id": "ms4023-2025t2-q1-na",
@@ -11101,23 +11101,6 @@
     "json_url": "/data/papers/bt4002_2024T1_Q2_NA.json"
   },
   {
-    "id": "cs2001-2024t1-et-fn",
-    "filename": "cs2001_2024T1_ET_FN.pdf",
-    "json_file": "cs2001_2024T1_ET_FN.json",
-    "title": "DIPLOMA LEVEL : DATA BASE MANAGEMENT SYSTEM (COMPUTER BASED EXAM)",
-    "course_code": "CS2001",
-    "course_name": "Database Management Systems",
-    "level": "Diploma in Programming",
-    "year": 2024,
-    "term": "Jan 2024",
-    "term_code": "2024T1",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 21,
-    "total_marks": 21.0,
-    "json_url": "/data/papers/cs2001_2024T1_ET_FN.json"
-  },
-  {
     "id": "cs2001-2024t1-et-an",
     "filename": "cs2001_2024T1_ET_AN.pdf",
     "json_file": "cs2001_2024T1_ET_AN.json",
@@ -11133,6 +11116,23 @@
     "total_questions": 21,
     "total_marks": 21.0,
     "json_url": "/data/papers/cs2001_2024T1_ET_AN.json"
+  },
+  {
+    "id": "cs2001-2024t1-et-fn",
+    "filename": "cs2001_2024T1_ET_FN.pdf",
+    "json_file": "cs2001_2024T1_ET_FN.json",
+    "title": "DIPLOMA LEVEL : DATA BASE MANAGEMENT SYSTEM (COMPUTER BASED EXAM)",
+    "course_code": "CS2001",
+    "course_name": "Database Management Systems",
+    "level": "Diploma in Programming",
+    "year": 2024,
+    "term": "Jan 2024",
+    "term_code": "2024T1",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 21,
+    "total_marks": 21.0,
+    "json_url": "/data/papers/cs2001_2024T1_ET_FN.json"
   },
   {
     "id": "cs2001-2024t1-q1-an",
@@ -11305,23 +11305,6 @@
     "json_url": "/data/papers/cs2001_2024T3_Q2_AN.json"
   },
   {
-    "id": "cs2002-2024t1-et-fn",
-    "filename": "cs2002_2024T1_ET_FN.pdf",
-    "json_file": "cs2002_2024T1_ET_FN.json",
-    "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
-    "course_code": "CS2002",
-    "course_name": "Programming, Data Structures and Algorithms using Python",
-    "level": "Diploma in Programming",
-    "year": 2024,
-    "term": "Jan 2024",
-    "term_code": "2024T1",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 26,
-    "total_marks": 26.0,
-    "json_url": "/data/papers/cs2002_2024T1_ET_FN.json"
-  },
-  {
     "id": "cs2002-2024t1-et-an",
     "filename": "cs2002_2024T1_ET_AN.pdf",
     "json_file": "cs2002_2024T1_ET_AN.json",
@@ -11337,6 +11320,23 @@
     "total_questions": 27,
     "total_marks": 27.0,
     "json_url": "/data/papers/cs2002_2024T1_ET_AN.json"
+  },
+  {
+    "id": "cs2002-2024t1-et-fn",
+    "filename": "cs2002_2024T1_ET_FN.pdf",
+    "json_file": "cs2002_2024T1_ET_FN.json",
+    "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
+    "course_code": "CS2002",
+    "course_name": "Programming, Data Structures and Algorithms using Python",
+    "level": "Diploma in Programming",
+    "year": 2024,
+    "term": "Jan 2024",
+    "term_code": "2024T1",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 26,
+    "total_marks": 26.0,
+    "json_url": "/data/papers/cs2002_2024T1_ET_FN.json"
   },
   {
     "id": "cs2002-2024t1-q1-an",
@@ -11441,23 +11441,6 @@
     "json_url": "/data/papers/cs2002_2024T2_Q2_AN.json"
   },
   {
-    "id": "cs2002-2024t3-et-an",
-    "filename": "cs2002_2024T3_ET_AN.pdf",
-    "json_file": "cs2002_2024T3_ET_AN.json",
-    "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
-    "course_code": "CS2002",
-    "course_name": "Programming, Data Structures and Algorithms using Python",
-    "level": "Diploma in Programming",
-    "year": 2024,
-    "term": "Sep 2024",
-    "term_code": "2024T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 26,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/cs2002_2024T3_ET_AN.json"
-  },
-  {
     "id": "cs2002-2024t3-et-fn",
     "filename": "cs2002_2024T3_ET_FN.pdf",
     "json_file": "cs2002_2024T3_ET_FN.json",
@@ -11473,6 +11456,23 @@
     "total_questions": 26,
     "total_marks": 100.0,
     "json_url": "/data/papers/cs2002_2024T3_ET_FN.json"
+  },
+  {
+    "id": "cs2002-2024t3-et-an",
+    "filename": "cs2002_2024T3_ET_AN.pdf",
+    "json_file": "cs2002_2024T3_ET_AN.json",
+    "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
+    "course_code": "CS2002",
+    "course_name": "Programming, Data Structures and Algorithms using Python",
+    "level": "Diploma in Programming",
+    "year": 2024,
+    "term": "Sep 2024",
+    "term_code": "2024T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 26,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/cs2002_2024T3_ET_AN.json"
   },
   {
     "id": "cs2002-2024t3-q1-an",
@@ -11509,23 +11509,6 @@
     "json_url": "/data/papers/cs2002_2024T3_Q2_AN.json"
   },
   {
-    "id": "cs2003-2024t1-et-fn",
-    "filename": "cs2003_2024T1_ET_FN.pdf",
-    "json_file": "cs2003_2024T1_ET_FN.json",
-    "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)",
-    "course_code": "CS2003",
-    "course_name": "Application Development 1",
-    "level": "Diploma in Programming",
-    "year": 2024,
-    "term": "Jan 2024",
-    "term_code": "2024T1",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 33,
-    "total_marks": 33.0,
-    "json_url": "/data/papers/cs2003_2024T1_ET_FN.json"
-  },
-  {
     "id": "cs2003-2024t1-et-an",
     "filename": "cs2003_2024T1_ET_AN.pdf",
     "json_file": "cs2003_2024T1_ET_AN.json",
@@ -11541,6 +11524,23 @@
     "total_questions": 33,
     "total_marks": 33.0,
     "json_url": "/data/papers/cs2003_2024T1_ET_AN.json"
+  },
+  {
+    "id": "cs2003-2024t1-et-fn",
+    "filename": "cs2003_2024T1_ET_FN.pdf",
+    "json_file": "cs2003_2024T1_ET_FN.json",
+    "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT I (COMPUTER BASED EXAM)",
+    "course_code": "CS2003",
+    "course_name": "Application Development 1",
+    "level": "Diploma in Programming",
+    "year": 2024,
+    "term": "Jan 2024",
+    "term_code": "2024T1",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 33,
+    "total_marks": 33.0,
+    "json_url": "/data/papers/cs2003_2024T1_ET_FN.json"
   },
   {
     "id": "cs2003-2024t1-q1-an",
@@ -11747,23 +11747,6 @@
     "json_url": "/data/papers/cs2004_2024T1_Q2_AN.json"
   },
   {
-    "id": "cs2004-2024t2-et-an",
-    "filename": "cs2004_2024T2_ET_AN.pdf",
-    "json_file": "cs2004_2024T2_ET_AN.json",
-    "title": "DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)",
-    "course_code": "CS2004",
-    "course_name": "Machine Learning Foundations",
-    "level": "Diploma in Data Science",
-    "year": 2024,
-    "term": "May 2024",
-    "term_code": "2024T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 15,
-    "total_marks": 40.0,
-    "json_url": "/data/papers/cs2004_2024T2_ET_AN.json"
-  },
-  {
     "id": "cs2004-2024t2-et-fn",
     "filename": "cs2004_2024T2_ET_FN.pdf",
     "json_file": "cs2004_2024T2_ET_FN.json",
@@ -11779,6 +11762,23 @@
     "total_questions": 15,
     "total_marks": 40.0,
     "json_url": "/data/papers/cs2004_2024T2_ET_FN.json"
+  },
+  {
+    "id": "cs2004-2024t2-et-an",
+    "filename": "cs2004_2024T2_ET_AN.pdf",
+    "json_file": "cs2004_2024T2_ET_AN.json",
+    "title": "DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)",
+    "course_code": "CS2004",
+    "course_name": "Machine Learning Foundations",
+    "level": "Diploma in Data Science",
+    "year": 2024,
+    "term": "May 2024",
+    "term_code": "2024T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 15,
+    "total_marks": 40.0,
+    "json_url": "/data/papers/cs2004_2024T2_ET_AN.json"
   },
   {
     "id": "cs2004-2024t2-q1-an",
@@ -12155,23 +12155,6 @@
     "json_url": "/data/papers/cs2006_2024T2_Q2_AN.json"
   },
   {
-    "id": "cs2006-2024t3-et-fn",
-    "filename": "cs2006_2024T3_ET_FN.pdf",
-    "json_file": "cs2006_2024T3_ET_FN.json",
-    "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)",
-    "course_code": "CS2006",
-    "course_name": "Application Development 2",
-    "level": "Diploma in Programming",
-    "year": 2024,
-    "term": "Sep 2024",
-    "term_code": "2024T3",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 33,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/cs2006_2024T3_ET_FN.json"
-  },
-  {
     "id": "cs2006-2024t3-et-an",
     "filename": "cs2006_2024T3_ET_AN.pdf",
     "json_file": "cs2006_2024T3_ET_AN.json",
@@ -12187,6 +12170,23 @@
     "total_questions": 33,
     "total_marks": 100.0,
     "json_url": "/data/papers/cs2006_2024T3_ET_AN.json"
+  },
+  {
+    "id": "cs2006-2024t3-et-fn",
+    "filename": "cs2006_2024T3_ET_FN.pdf",
+    "json_file": "cs2006_2024T3_ET_FN.json",
+    "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT II (COMPUTER BASED EXAM)",
+    "course_code": "CS2006",
+    "course_name": "Application Development 2",
+    "level": "Diploma in Programming",
+    "year": 2024,
+    "term": "Sep 2024",
+    "term_code": "2024T3",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 33,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/cs2006_2024T3_ET_FN.json"
   },
   {
     "id": "cs2006-2024t3-q1-an",
@@ -12223,23 +12223,6 @@
     "json_url": "/data/papers/cs2006_2024T3_Q2_AN.json"
   },
   {
-    "id": "cs2007-2024t1-et-an",
-    "filename": "cs2007_2024T1_ET_AN.pdf",
-    "json_file": "cs2007_2024T1_ET_AN.json",
-    "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
-    "course_code": "CS2007",
-    "course_name": "Machine Learning Techniques",
-    "level": "Diploma in Data Science",
-    "year": 2024,
-    "term": "Jan 2024",
-    "term_code": "2024T1",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 17,
-    "total_marks": 17.0,
-    "json_url": "/data/papers/cs2007_2024T1_ET_AN.json"
-  },
-  {
     "id": "cs2007-2024t1-et-fn",
     "filename": "cs2007_2024T1_ET_FN.pdf",
     "json_file": "cs2007_2024T1_ET_FN.json",
@@ -12255,6 +12238,23 @@
     "total_questions": 17,
     "total_marks": 17.0,
     "json_url": "/data/papers/cs2007_2024T1_ET_FN.json"
+  },
+  {
+    "id": "cs2007-2024t1-et-an",
+    "filename": "cs2007_2024T1_ET_AN.pdf",
+    "json_file": "cs2007_2024T1_ET_AN.json",
+    "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
+    "course_code": "CS2007",
+    "course_name": "Machine Learning Techniques",
+    "level": "Diploma in Data Science",
+    "year": 2024,
+    "term": "Jan 2024",
+    "term_code": "2024T1",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 17,
+    "total_marks": 17.0,
+    "json_url": "/data/papers/cs2007_2024T1_ET_AN.json"
   },
   {
     "id": "cs2007-2024t1-q1-an",
@@ -12597,23 +12597,6 @@
     "json_url": "/data/papers/cs2008_2024T3_Q2_AN.json"
   },
   {
-    "id": "cs3001-2024t1-et-an",
-    "filename": "cs3001_2024T1_ET_AN.pdf",
-    "json_file": "cs3001_2024T1_ET_AN.json",
-    "title": "DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)",
-    "course_code": "CS3001",
-    "course_name": "Software Engineering",
-    "level": "Degree",
-    "year": 2024,
-    "term": "Jan 2024",
-    "term_code": "2024T1",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 27,
-    "total_marks": 27.0,
-    "json_url": "/data/papers/cs3001_2024T1_ET_AN.json"
-  },
-  {
     "id": "cs3001-2024t1-et-fn",
     "filename": "cs3001_2024T1_ET_FN.pdf",
     "json_file": "cs3001_2024T1_ET_FN.json",
@@ -12629,6 +12612,23 @@
     "total_questions": 27,
     "total_marks": 27.0,
     "json_url": "/data/papers/cs3001_2024T1_ET_FN.json"
+  },
+  {
+    "id": "cs3001-2024t1-et-an",
+    "filename": "cs3001_2024T1_ET_AN.pdf",
+    "json_file": "cs3001_2024T1_ET_AN.json",
+    "title": "DEGREE LEVEL : SOFTWARE ENGINEERING (COMPUTER BASED EXAM)",
+    "course_code": "CS3001",
+    "course_name": "Software Engineering",
+    "level": "Degree",
+    "year": 2024,
+    "term": "Jan 2024",
+    "term_code": "2024T1",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 27,
+    "total_marks": 27.0,
+    "json_url": "/data/papers/cs3001_2024T1_ET_AN.json"
   },
   {
     "id": "cs3001-2024t1-q2-na",
@@ -12886,23 +12886,6 @@
     "json_url": "/data/papers/cs3002_2024T2_Q2_NA.json"
   },
   {
-    "id": "cs3002-2024t3-et-an",
-    "filename": "cs3002_2024T3_ET_AN.pdf",
-    "json_file": "cs3002_2024T3_ET_AN.json",
-    "title": "DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)",
-    "course_code": "CS3002",
-    "course_name": "Software Testing",
-    "level": "Degree",
-    "year": 2024,
-    "term": "Sep 2024",
-    "term_code": "2024T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 23,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/cs3002_2024T3_ET_AN.json"
-  },
-  {
     "id": "cs3002-2024t3-et-fn",
     "filename": "cs3002_2024T3_ET_FN.pdf",
     "json_file": "cs3002_2024T3_ET_FN.json",
@@ -12918,6 +12901,23 @@
     "total_questions": 23,
     "total_marks": 100.0,
     "json_url": "/data/papers/cs3002_2024T3_ET_FN.json"
+  },
+  {
+    "id": "cs3002-2024t3-et-an",
+    "filename": "cs3002_2024T3_ET_AN.pdf",
+    "json_file": "cs3002_2024T3_ET_AN.json",
+    "title": "DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)",
+    "course_code": "CS3002",
+    "course_name": "Software Testing",
+    "level": "Degree",
+    "year": 2024,
+    "term": "Sep 2024",
+    "term_code": "2024T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 23,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/cs3002_2024T3_ET_AN.json"
   },
   {
     "id": "cs3002-2024t3-q1-na",
@@ -13073,23 +13073,6 @@
     "json_url": "/data/papers/cs3003_2024T2_Q2_NA.json"
   },
   {
-    "id": "cs3003-2024t3-et-an",
-    "filename": "cs3003_2024T3_ET_AN.pdf",
-    "json_file": "cs3003_2024T3_ET_AN.json",
-    "title": "DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)",
-    "course_code": "CS3003",
-    "course_name": "AI: Search Methods for Problem Solving",
-    "level": "Degree",
-    "year": 2024,
-    "term": "Sep 2024",
-    "term_code": "2024T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 27,
-    "total_marks": 25.0,
-    "json_url": "/data/papers/cs3003_2024T3_ET_AN.json"
-  },
-  {
     "id": "cs3003-2024t3-et-fn",
     "filename": "cs3003_2024T3_ET_FN.pdf",
     "json_file": "cs3003_2024T3_ET_FN.json",
@@ -13105,6 +13088,23 @@
     "total_questions": 27,
     "total_marks": 25.0,
     "json_url": "/data/papers/cs3003_2024T3_ET_FN.json"
+  },
+  {
+    "id": "cs3003-2024t3-et-an",
+    "filename": "cs3003_2024T3_ET_AN.pdf",
+    "json_file": "cs3003_2024T3_ET_AN.json",
+    "title": "DEGREE LEVEL : AI: SEARCH METHODS FOR PROBLEM SOLVING (COMPUTER BASED EXAM)",
+    "course_code": "CS3003",
+    "course_name": "AI: Search Methods for Problem Solving",
+    "level": "Degree",
+    "year": 2024,
+    "term": "Sep 2024",
+    "term_code": "2024T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 27,
+    "total_marks": 25.0,
+    "json_url": "/data/papers/cs3003_2024T3_ET_AN.json"
   },
   {
     "id": "cs3003-2024t3-q1-na",
@@ -13396,23 +13396,6 @@
     "json_url": "/data/papers/cs3005_2024T2_Q1_NA.json"
   },
   {
-    "id": "cs3005-2024t3-et-an",
-    "filename": "cs3005_2024T3_ET_AN.pdf",
-    "json_file": "cs3005_2024T3_ET_AN.json",
-    "title": "DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)",
-    "course_code": "CS3005",
-    "course_name": "Programming in C",
-    "level": "Degree",
-    "year": 2024,
-    "term": "Sep 2024",
-    "term_code": "2024T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 26,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/cs3005_2024T3_ET_AN.json"
-  },
-  {
     "id": "cs3005-2024t3-et-fn",
     "filename": "cs3005_2024T3_ET_FN.pdf",
     "json_file": "cs3005_2024T3_ET_FN.json",
@@ -13428,6 +13411,23 @@
     "total_questions": 26,
     "total_marks": 100.0,
     "json_url": "/data/papers/cs3005_2024T3_ET_FN.json"
+  },
+  {
+    "id": "cs3005-2024t3-et-an",
+    "filename": "cs3005_2024T3_ET_AN.pdf",
+    "json_file": "cs3005_2024T3_ET_AN.json",
+    "title": "DEGREE LEVEL : PROGRAMMING IN C (COMPUTER BASED EXAM)",
+    "course_code": "CS3005",
+    "course_name": "Programming in C",
+    "level": "Degree",
+    "year": 2024,
+    "term": "Sep 2024",
+    "term_code": "2024T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 26,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/cs3005_2024T3_ET_AN.json"
   },
   {
     "id": "cs3005-2024t3-q1-na",
@@ -13736,23 +13736,6 @@
     "json_url": "/data/papers/cs4003_2024T3_Q2_NA.json"
   },
   {
-    "id": "cs4021-2024t2-et-fn",
-    "filename": "cs4021_2024T2_ET_FN.pdf",
-    "json_file": "cs4021_2024T2_ET_FN.json",
-    "title": "DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
-    "course_code": "CS4021",
-    "course_name": "Advanced Algorithms",
-    "level": "Degree",
-    "year": 2024,
-    "term": "May 2024",
-    "term_code": "2024T2",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 54,
-    "total_marks": 100.0,
-    "json_url": "/data/papers/cs4021_2024T2_ET_FN.json"
-  },
-  {
     "id": "cs4021-2024t2-et-an",
     "filename": "cs4021_2024T2_ET_AN.pdf",
     "json_file": "cs4021_2024T2_ET_AN.json",
@@ -13768,6 +13751,23 @@
     "total_questions": 55,
     "total_marks": 100.0,
     "json_url": "/data/papers/cs4021_2024T2_ET_AN.json"
+  },
+  {
+    "id": "cs4021-2024t2-et-fn",
+    "filename": "cs4021_2024T2_ET_FN.pdf",
+    "json_file": "cs4021_2024T2_ET_FN.json",
+    "title": "DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
+    "course_code": "CS4021",
+    "course_name": "Advanced Algorithms",
+    "level": "Degree",
+    "year": 2024,
+    "term": "May 2024",
+    "term_code": "2024T2",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 54,
+    "total_marks": 100.0,
+    "json_url": "/data/papers/cs4021_2024T2_ET_FN.json"
   },
   {
     "id": "cs4021-2024t2-q1-na",
@@ -14076,23 +14076,6 @@
     "json_url": "/data/papers/da5004_2024T1_Q2_NA.json"
   },
   {
-    "id": "da5004-2024t3-et-an",
-    "filename": "da5004_2024T3_ET_AN.pdf",
-    "json_file": "da5004_2024T3_ET_AN.json",
-    "title": "DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)",
-    "course_code": "DA5004",
-    "course_name": "Large Language Models",
-    "level": "Degree",
-    "year": 2024,
-    "term": "Sep 2024",
-    "term_code": "2024T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 22,
-    "total_marks": 48.0,
-    "json_url": "/data/papers/da5004_2024T3_ET_AN.json"
-  },
-  {
     "id": "da5004-2024t3-et-fn",
     "filename": "da5004_2024T3_ET_FN.pdf",
     "json_file": "da5004_2024T3_ET_FN.json",
@@ -14108,6 +14091,23 @@
     "total_questions": 23,
     "total_marks": 50.0,
     "json_url": "/data/papers/da5004_2024T3_ET_FN.json"
+  },
+  {
+    "id": "da5004-2024t3-et-an",
+    "filename": "da5004_2024T3_ET_AN.pdf",
+    "json_file": "da5004_2024T3_ET_AN.json",
+    "title": "DEGREE LEVEL : LARGE LANGUAGE MODELS (COMPUTER BASED EXAM)",
+    "course_code": "DA5004",
+    "course_name": "Large Language Models",
+    "level": "Degree",
+    "year": 2024,
+    "term": "Sep 2024",
+    "term_code": "2024T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 22,
+    "total_marks": 48.0,
+    "json_url": "/data/papers/da5004_2024T3_ET_AN.json"
   },
   {
     "id": "da5004-2024t3-q1-na",
@@ -14348,23 +14348,6 @@
     "json_url": "/data/papers/da5006_2024T3_Q2_NA.json"
   },
   {
-    "id": "da5007-2024t2-et-an",
-    "filename": "da5007_2024T2_ET_AN.pdf",
-    "json_file": "da5007_2024T2_ET_AN.json",
-    "title": "DEGREE LEVEL : REINFORCEMENT LEARNING (COMPUTER BASED EXAM)",
-    "course_code": "DA5007",
-    "course_name": "Natural Language Processing",
-    "level": "Degree",
-    "year": 2024,
-    "term": "May 2024",
-    "term_code": "2024T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 24,
-    "total_marks": 50.0,
-    "json_url": "/data/papers/da5007_2024T2_ET_AN.json"
-  },
-  {
     "id": "da5007-2024t2-et-fn",
     "filename": "da5007_2024T2_ET_FN.pdf",
     "json_file": "da5007_2024T2_ET_FN.json",
@@ -14380,6 +14363,23 @@
     "total_questions": 24,
     "total_marks": 50.0,
     "json_url": "/data/papers/da5007_2024T2_ET_FN.json"
+  },
+  {
+    "id": "da5007-2024t2-et-an",
+    "filename": "da5007_2024T2_ET_AN.pdf",
+    "json_file": "da5007_2024T2_ET_AN.json",
+    "title": "DEGREE LEVEL : REINFORCEMENT LEARNING (COMPUTER BASED EXAM)",
+    "course_code": "DA5007",
+    "course_name": "Natural Language Processing",
+    "level": "Degree",
+    "year": 2024,
+    "term": "May 2024",
+    "term_code": "2024T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 24,
+    "total_marks": 50.0,
+    "json_url": "/data/papers/da5007_2024T2_ET_AN.json"
   },
   {
     "id": "da5007-2024t2-q1-na",
@@ -15147,23 +15147,6 @@
     "json_url": "/data/papers/ms3002_2024T3_Q2_NA.json"
   },
   {
-    "id": "ms3033-2024t1-et-an",
-    "filename": "ms3033_2024T1_ET_AN.pdf",
-    "json_file": "ms3033_2024T1_ET_AN.json",
-    "title": "DEGREE LEVEL : MANAGERIAL ECONOMICS(COMPUTER BASED EXAM)",
-    "course_code": "MS3033",
-    "course_name": "Managerial Economics",
-    "level": "Degree",
-    "year": 2024,
-    "term": "Jan 2024",
-    "term_code": "2024T1",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 42,
-    "total_marks": 42.0,
-    "json_url": "/data/papers/ms3033_2024T1_ET_AN.json"
-  },
-  {
     "id": "ms3033-2024t1-et-fn",
     "filename": "ms3033_2024T1_ET_FN.pdf",
     "json_file": "ms3033_2024T1_ET_FN.json",
@@ -15179,6 +15162,23 @@
     "total_questions": 41,
     "total_marks": 41.0,
     "json_url": "/data/papers/ms3033_2024T1_ET_FN.json"
+  },
+  {
+    "id": "ms3033-2024t1-et-an",
+    "filename": "ms3033_2024T1_ET_AN.pdf",
+    "json_file": "ms3033_2024T1_ET_AN.json",
+    "title": "DEGREE LEVEL : MANAGERIAL ECONOMICS(COMPUTER BASED EXAM)",
+    "course_code": "MS3033",
+    "course_name": "Managerial Economics",
+    "level": "Degree",
+    "year": 2024,
+    "term": "Jan 2024",
+    "term_code": "2024T1",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 42,
+    "total_marks": 42.0,
+    "json_url": "/data/papers/ms3033_2024T1_ET_AN.json"
   },
   {
     "id": "ms3033-2024t1-q1-na",
@@ -15470,23 +15470,6 @@
     "json_url": "/data/papers/ms4002_2024T3_Q2_NA.json"
   },
   {
-    "id": "ms4003-2024t2-et-an",
-    "filename": "ms4003_2024T2_ET_AN.pdf",
-    "json_file": "ms4003_2024T2_ET_AN.json",
-    "title": "DEGREE LEVEL : FINANCIAL FORENSICS (COMPUTER BASED EXAM)",
-    "course_code": "MS4003",
-    "course_name": "Security Analysis and Portfolio Management",
-    "level": "Degree",
-    "year": 2024,
-    "term": "May 2024",
-    "term_code": "2024T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 42,
-    "total_marks": 40.0,
-    "json_url": "/data/papers/ms4003_2024T2_ET_AN.json"
-  },
-  {
     "id": "ms4003-2024t2-et-fn",
     "filename": "ms4003_2024T2_ET_FN.pdf",
     "json_file": "ms4003_2024T2_ET_FN.json",
@@ -15502,6 +15485,23 @@
     "total_questions": 42,
     "total_marks": 40.0,
     "json_url": "/data/papers/ms4003_2024T2_ET_FN.json"
+  },
+  {
+    "id": "ms4003-2024t2-et-an",
+    "filename": "ms4003_2024T2_ET_AN.pdf",
+    "json_file": "ms4003_2024T2_ET_AN.json",
+    "title": "DEGREE LEVEL : FINANCIAL FORENSICS (COMPUTER BASED EXAM)",
+    "course_code": "MS4003",
+    "course_name": "Security Analysis and Portfolio Management",
+    "level": "Degree",
+    "year": 2024,
+    "term": "May 2024",
+    "term_code": "2024T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 42,
+    "total_marks": 40.0,
+    "json_url": "/data/papers/ms4003_2024T2_ET_AN.json"
   },
   {
     "id": "ms4003-2024t2-q1-na",
@@ -16048,23 +16048,6 @@
     "json_url": "/data/papers/bt4002_2023T1_Q2_NA.json"
   },
   {
-    "id": "cs2001-2023t1-et-fn",
-    "filename": "cs2001_2023T1_ET_FN.pdf",
-    "json_file": "cs2001_2023T1_ET_FN.json",
-    "title": "DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)",
-    "course_code": "CS2001",
-    "course_name": "Database Management Systems",
-    "level": "Diploma in Programming",
-    "year": 2023,
-    "term": "Jan 2023",
-    "term_code": "2023T1",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 26,
-    "total_marks": 26.0,
-    "json_url": "/data/papers/cs2001_2023T1_ET_FN.json"
-  },
-  {
     "id": "cs2001-2023t1-et-an",
     "filename": "cs2001_2023T1_ET_AN.pdf",
     "json_file": "cs2001_2023T1_ET_AN.json",
@@ -16080,6 +16063,23 @@
     "total_questions": 26,
     "total_marks": 26.0,
     "json_url": "/data/papers/cs2001_2023T1_ET_AN.json"
+  },
+  {
+    "id": "cs2001-2023t1-et-fn",
+    "filename": "cs2001_2023T1_ET_FN.pdf",
+    "json_file": "cs2001_2023T1_ET_FN.json",
+    "title": "DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)",
+    "course_code": "CS2001",
+    "course_name": "Database Management Systems",
+    "level": "Diploma in Programming",
+    "year": 2023,
+    "term": "Jan 2023",
+    "term_code": "2023T1",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 26,
+    "total_marks": 26.0,
+    "json_url": "/data/papers/cs2001_2023T1_ET_FN.json"
   },
   {
     "id": "cs2001-2023t1-q1-an",
@@ -16116,23 +16116,6 @@
     "json_url": "/data/papers/cs2001_2023T1_Q2_AN.json"
   },
   {
-    "id": "cs2001-2023t2-et-fn",
-    "filename": "cs2001_2023T2_ET_FN.pdf",
-    "json_file": "cs2001_2023T2_ET_FN.json",
-    "title": "DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)",
-    "course_code": "CS2001",
-    "course_name": "Database Management Systems",
-    "level": "Diploma in Programming",
-    "year": 2023,
-    "term": "May 2023",
-    "term_code": "2023T2",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 23,
-    "total_marks": 23.0,
-    "json_url": "/data/papers/cs2001_2023T2_ET_FN.json"
-  },
-  {
     "id": "cs2001-2023t2-et-an",
     "filename": "cs2001_2023T2_ET_AN.pdf",
     "json_file": "cs2001_2023T2_ET_AN.json",
@@ -16148,6 +16131,23 @@
     "total_questions": 23,
     "total_marks": 23.0,
     "json_url": "/data/papers/cs2001_2023T2_ET_AN.json"
+  },
+  {
+    "id": "cs2001-2023t2-et-fn",
+    "filename": "cs2001_2023T2_ET_FN.pdf",
+    "json_file": "cs2001_2023T2_ET_FN.json",
+    "title": "DIPLOMA LEVEL : DATABASE MANAGEMENT SYSTEMS (COMPUTER BASED EXAM)",
+    "course_code": "CS2001",
+    "course_name": "Database Management Systems",
+    "level": "Diploma in Programming",
+    "year": 2023,
+    "term": "May 2023",
+    "term_code": "2023T2",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 23,
+    "total_marks": 23.0,
+    "json_url": "/data/papers/cs2001_2023T2_ET_FN.json"
   },
   {
     "id": "cs2001-2023t2-q1-an",
@@ -16388,23 +16388,6 @@
     "json_url": "/data/papers/cs2002_2023T2_Q2_AN.json"
   },
   {
-    "id": "cs2002-2023t3-et-an",
-    "filename": "cs2002_2023T3_ET_AN.pdf",
-    "json_file": "cs2002_2023T3_ET_AN.json",
-    "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
-    "course_code": "CS2002",
-    "course_name": "Programming, Data Structures and Algorithms using Python",
-    "level": "Diploma in Programming",
-    "year": 2023,
-    "term": "Sep 2023",
-    "term_code": "2023T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 26,
-    "total_marks": 26.0,
-    "json_url": "/data/papers/cs2002_2023T3_ET_AN.json"
-  },
-  {
     "id": "cs2002-2023t3-et-fn",
     "filename": "cs2002_2023T3_ET_FN.pdf",
     "json_file": "cs2002_2023T3_ET_FN.json",
@@ -16420,6 +16403,23 @@
     "total_questions": 26,
     "total_marks": 26.0,
     "json_url": "/data/papers/cs2002_2023T3_ET_FN.json"
+  },
+  {
+    "id": "cs2002-2023t3-et-an",
+    "filename": "cs2002_2023T3_ET_AN.pdf",
+    "json_file": "cs2002_2023T3_ET_AN.json",
+    "title": "DIPLOMA LEVEL : PROGRAMMING, DATA STRUCTURES AND ALGORITHMS USING PYTHON (COMPUTER BASED EXAM)",
+    "course_code": "CS2002",
+    "course_name": "Programming, Data Structures and Algorithms using Python",
+    "level": "Diploma in Programming",
+    "year": 2023,
+    "term": "Sep 2023",
+    "term_code": "2023T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 26,
+    "total_marks": 26.0,
+    "json_url": "/data/papers/cs2002_2023T3_ET_AN.json"
   },
   {
     "id": "cs2002-2023t3-q1-an",
@@ -16660,23 +16660,6 @@
     "json_url": "/data/papers/cs2003_2023T3_Q2_AN.json"
   },
   {
-    "id": "cs2004-2023t1-et-fn",
-    "filename": "cs2004_2023T1_ET_FN.pdf",
-    "json_file": "cs2004_2023T1_ET_FN.json",
-    "title": "DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)",
-    "course_code": "CS2004",
-    "course_name": "Machine Learning Foundations",
-    "level": "Diploma in Data Science",
-    "year": 2023,
-    "term": "Jan 2023",
-    "term_code": "2023T1",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 17,
-    "total_marks": 17.0,
-    "json_url": "/data/papers/cs2004_2023T1_ET_FN.json"
-  },
-  {
     "id": "cs2004-2023t1-et-an",
     "filename": "cs2004_2023T1_ET_AN.pdf",
     "json_file": "cs2004_2023T1_ET_AN.json",
@@ -16692,6 +16675,23 @@
     "total_questions": 17,
     "total_marks": 17.0,
     "json_url": "/data/papers/cs2004_2023T1_ET_AN.json"
+  },
+  {
+    "id": "cs2004-2023t1-et-fn",
+    "filename": "cs2004_2023T1_ET_FN.pdf",
+    "json_file": "cs2004_2023T1_ET_FN.json",
+    "title": "DIPLOMA LEVEL : MACHINE LEARNING FOUNDATIONS (COMPUTER BASED EXAM)",
+    "course_code": "CS2004",
+    "course_name": "Machine Learning Foundations",
+    "level": "Diploma in Data Science",
+    "year": 2023,
+    "term": "Jan 2023",
+    "term_code": "2023T1",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 17,
+    "total_marks": 17.0,
+    "json_url": "/data/papers/cs2004_2023T1_ET_FN.json"
   },
   {
     "id": "cs2004-2023t1-q1-an",
@@ -17136,23 +17136,6 @@
     "json_url": "/data/papers/cs2006_2023T1_Q2_AN.json"
   },
   {
-    "id": "cs2006-2023t2-et-an",
-    "filename": "cs2006_2023T2_ET_AN.pdf",
-    "json_file": "cs2006_2023T2_ET_AN.json",
-    "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT 2 (COMPUTER BASED EXAM)",
-    "course_code": "CS2006",
-    "course_name": "Application Development 2",
-    "level": "Diploma in Programming",
-    "year": 2023,
-    "term": "May 2023",
-    "term_code": "2023T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 33,
-    "total_marks": 33.0,
-    "json_url": "/data/papers/cs2006_2023T2_ET_AN.json"
-  },
-  {
     "id": "cs2006-2023t2-et-fn",
     "filename": "cs2006_2023T2_ET_FN.pdf",
     "json_file": "cs2006_2023T2_ET_FN.json",
@@ -17168,6 +17151,23 @@
     "total_questions": 33,
     "total_marks": 33.0,
     "json_url": "/data/papers/cs2006_2023T2_ET_FN.json"
+  },
+  {
+    "id": "cs2006-2023t2-et-an",
+    "filename": "cs2006_2023T2_ET_AN.pdf",
+    "json_file": "cs2006_2023T2_ET_AN.json",
+    "title": "DIPLOMA LEVEL : MODERN APPLICATION DEVELOPMENT 2 (COMPUTER BASED EXAM)",
+    "course_code": "CS2006",
+    "course_name": "Application Development 2",
+    "level": "Diploma in Programming",
+    "year": 2023,
+    "term": "May 2023",
+    "term_code": "2023T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 33,
+    "total_marks": 33.0,
+    "json_url": "/data/papers/cs2006_2023T2_ET_AN.json"
   },
   {
     "id": "cs2006-2023t2-q1-an",
@@ -17272,23 +17272,6 @@
     "json_url": "/data/papers/cs2006_2023T3_Q2_AN.json"
   },
   {
-    "id": "cs2007-2023t1-et-an",
-    "filename": "cs2007_2023T1_ET_AN.pdf",
-    "json_file": "cs2007_2023T1_ET_AN.json",
-    "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
-    "course_code": "CS2007",
-    "course_name": "Machine Learning Techniques",
-    "level": "Diploma in Data Science",
-    "year": 2023,
-    "term": "Jan 2023",
-    "term_code": "2023T1",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 26,
-    "total_marks": 26.0,
-    "json_url": "/data/papers/cs2007_2023T1_ET_AN.json"
-  },
-  {
     "id": "cs2007-2023t1-et-fn",
     "filename": "cs2007_2023T1_ET_FN.pdf",
     "json_file": "cs2007_2023T1_ET_FN.json",
@@ -17304,6 +17287,23 @@
     "total_questions": 24,
     "total_marks": 24.0,
     "json_url": "/data/papers/cs2007_2023T1_ET_FN.json"
+  },
+  {
+    "id": "cs2007-2023t1-et-an",
+    "filename": "cs2007_2023T1_ET_AN.pdf",
+    "json_file": "cs2007_2023T1_ET_AN.json",
+    "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
+    "course_code": "CS2007",
+    "course_name": "Machine Learning Techniques",
+    "level": "Diploma in Data Science",
+    "year": 2023,
+    "term": "Jan 2023",
+    "term_code": "2023T1",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 26,
+    "total_marks": 26.0,
+    "json_url": "/data/papers/cs2007_2023T1_ET_AN.json"
   },
   {
     "id": "cs2007-2023t1-q1-an",
@@ -17408,23 +17408,6 @@
     "json_url": "/data/papers/cs2007_2023T2_Q2_AN.json"
   },
   {
-    "id": "cs2007-2023t3-et-an",
-    "filename": "cs2007_2023T3_ET_AN.pdf",
-    "json_file": "cs2007_2023T3_ET_AN.json",
-    "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
-    "course_code": "CS2007",
-    "course_name": "Machine Learning Techniques",
-    "level": "Diploma in Data Science",
-    "year": 2023,
-    "term": "Sep 2023",
-    "term_code": "2023T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 20,
-    "total_marks": 20.0,
-    "json_url": "/data/papers/cs2007_2023T3_ET_AN.json"
-  },
-  {
     "id": "cs2007-2023t3-et-fn",
     "filename": "cs2007_2023T3_ET_FN.pdf",
     "json_file": "cs2007_2023T3_ET_FN.json",
@@ -17440,6 +17423,23 @@
     "total_questions": 19,
     "total_marks": 19.0,
     "json_url": "/data/papers/cs2007_2023T3_ET_FN.json"
+  },
+  {
+    "id": "cs2007-2023t3-et-an",
+    "filename": "cs2007_2023T3_ET_AN.pdf",
+    "json_file": "cs2007_2023T3_ET_AN.json",
+    "title": "DIPLOMA LEVEL : MACHINE LEARNING TECHNIQUES (COMPUTER BASED EXAM)",
+    "course_code": "CS2007",
+    "course_name": "Machine Learning Techniques",
+    "level": "Diploma in Data Science",
+    "year": 2023,
+    "term": "Sep 2023",
+    "term_code": "2023T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 20,
+    "total_marks": 20.0,
+    "json_url": "/data/papers/cs2007_2023T3_ET_AN.json"
   },
   {
     "id": "cs2007-2023t3-q1-an",
@@ -17476,23 +17476,6 @@
     "json_url": "/data/papers/cs2007_2023T3_Q2_AN.json"
   },
   {
-    "id": "cs2008-2023t1-et-an",
-    "filename": "cs2008_2023T1_ET_AN.pdf",
-    "json_file": "cs2008_2023T1_ET_AN.json",
-    "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)",
-    "course_code": "CS2008",
-    "course_name": "Machine Learning Practice",
-    "level": "Diploma in Data Science",
-    "year": 2023,
-    "term": "Jan 2023",
-    "term_code": "2023T1",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 37,
-    "total_marks": 37.0,
-    "json_url": "/data/papers/cs2008_2023T1_ET_AN.json"
-  },
-  {
     "id": "cs2008-2023t1-et-fn",
     "filename": "cs2008_2023T1_ET_FN.pdf",
     "json_file": "cs2008_2023T1_ET_FN.json",
@@ -17508,6 +17491,23 @@
     "total_questions": 37,
     "total_marks": 37.0,
     "json_url": "/data/papers/cs2008_2023T1_ET_FN.json"
+  },
+  {
+    "id": "cs2008-2023t1-et-an",
+    "filename": "cs2008_2023T1_ET_AN.pdf",
+    "json_file": "cs2008_2023T1_ET_AN.json",
+    "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)",
+    "course_code": "CS2008",
+    "course_name": "Machine Learning Practice",
+    "level": "Diploma in Data Science",
+    "year": 2023,
+    "term": "Jan 2023",
+    "term_code": "2023T1",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 37,
+    "total_marks": 37.0,
+    "json_url": "/data/papers/cs2008_2023T1_ET_AN.json"
   },
   {
     "id": "cs2008-2023t1-q1-an",
@@ -17544,23 +17544,6 @@
     "json_url": "/data/papers/cs2008_2023T1_Q2_AN.json"
   },
   {
-    "id": "cs2008-2023t2-et-an",
-    "filename": "cs2008_2023T2_ET_AN.pdf",
-    "json_file": "cs2008_2023T2_ET_AN.json",
-    "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)",
-    "course_code": "CS2008",
-    "course_name": "Machine Learning Practice",
-    "level": "Diploma in Data Science",
-    "year": 2023,
-    "term": "May 2023",
-    "term_code": "2023T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 36,
-    "total_marks": 36.0,
-    "json_url": "/data/papers/cs2008_2023T2_ET_AN.json"
-  },
-  {
     "id": "cs2008-2023t2-et-fn",
     "filename": "cs2008_2023T2_ET_FN.pdf",
     "json_file": "cs2008_2023T2_ET_FN.json",
@@ -17576,6 +17559,23 @@
     "total_questions": 35,
     "total_marks": 35.0,
     "json_url": "/data/papers/cs2008_2023T2_ET_FN.json"
+  },
+  {
+    "id": "cs2008-2023t2-et-an",
+    "filename": "cs2008_2023T2_ET_AN.pdf",
+    "json_file": "cs2008_2023T2_ET_AN.json",
+    "title": "DIPLOMA LEVEL : MACHINE LEARNING PRACTICE (COMPUTER BASED EXAM)",
+    "course_code": "CS2008",
+    "course_name": "Machine Learning Practice",
+    "level": "Diploma in Data Science",
+    "year": 2023,
+    "term": "May 2023",
+    "term_code": "2023T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 36,
+    "total_marks": 36.0,
+    "json_url": "/data/papers/cs2008_2023T2_ET_AN.json"
   },
   {
     "id": "cs2008-2023t2-q1-an",
@@ -17969,23 +17969,6 @@
     "json_url": "/data/papers/cs3002_2023T2_Q2_NA.json"
   },
   {
-    "id": "cs3002-2023t3-et-an",
-    "filename": "cs3002_2023T3_ET_AN.pdf",
-    "json_file": "cs3002_2023T3_ET_AN.json",
-    "title": "DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)",
-    "course_code": "CS3002",
-    "course_name": "Software Testing",
-    "level": "Degree",
-    "year": 2023,
-    "term": "Sep 2023",
-    "term_code": "2023T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 21,
-    "total_marks": 21.0,
-    "json_url": "/data/papers/cs3002_2023T3_ET_AN.json"
-  },
-  {
     "id": "cs3002-2023t3-et-fn",
     "filename": "cs3002_2023T3_ET_FN.pdf",
     "json_file": "cs3002_2023T3_ET_FN.json",
@@ -18001,6 +17984,23 @@
     "total_questions": 21,
     "total_marks": 21.0,
     "json_url": "/data/papers/cs3002_2023T3_ET_FN.json"
+  },
+  {
+    "id": "cs3002-2023t3-et-an",
+    "filename": "cs3002_2023T3_ET_AN.pdf",
+    "json_file": "cs3002_2023T3_ET_AN.json",
+    "title": "DEGREE LEVEL : SOFTWARE TESTING (COMPUTER BASED EXAM)",
+    "course_code": "CS3002",
+    "course_name": "Software Testing",
+    "level": "Degree",
+    "year": 2023,
+    "term": "Sep 2023",
+    "term_code": "2023T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 21,
+    "total_marks": 21.0,
+    "json_url": "/data/papers/cs3002_2023T3_ET_AN.json"
   },
   {
     "id": "cs3002-2023t3-q1-na",
@@ -18241,23 +18241,6 @@
     "json_url": "/data/papers/cs3003_2023T3_Q2_NA.json"
   },
   {
-    "id": "cs3004-2023t1-et-an",
-    "filename": "cs3004_2023T1_ET_AN.pdf",
-    "json_file": "cs3004_2023T1_ET_AN.json",
-    "title": "DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)",
-    "course_code": "CS3004",
-    "course_name": "Deep Learning",
-    "level": "Degree",
-    "year": 2023,
-    "term": "Jan 2023",
-    "term_code": "2023T1",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 18,
-    "total_marks": 18.0,
-    "json_url": "/data/papers/cs3004_2023T1_ET_AN.json"
-  },
-  {
     "id": "cs3004-2023t1-et-fn",
     "filename": "cs3004_2023T1_ET_FN.pdf",
     "json_file": "cs3004_2023T1_ET_FN.json",
@@ -18273,6 +18256,23 @@
     "total_questions": 17,
     "total_marks": 17.0,
     "json_url": "/data/papers/cs3004_2023T1_ET_FN.json"
+  },
+  {
+    "id": "cs3004-2023t1-et-an",
+    "filename": "cs3004_2023T1_ET_AN.pdf",
+    "json_file": "cs3004_2023T1_ET_AN.json",
+    "title": "DEGREE LEVEL : DEEP LEARNING (COMPUTER BASED EXAM)",
+    "course_code": "CS3004",
+    "course_name": "Deep Learning",
+    "level": "Degree",
+    "year": 2023,
+    "term": "Jan 2023",
+    "term_code": "2023T1",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 18,
+    "total_marks": 18.0,
+    "json_url": "/data/papers/cs3004_2023T1_ET_AN.json"
   },
   {
     "id": "cs3004-2023t1-q1-na",
@@ -18768,23 +18768,6 @@
     "json_url": "/data/papers/cs4003_2023T2_Q2_NA.json"
   },
   {
-    "id": "cs4021-2023t2-et-an",
-    "filename": "cs4021_2023T2_ET_AN.pdf",
-    "json_file": "cs4021_2023T2_ET_AN.json",
-    "title": "DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
-    "course_code": "CS4021",
-    "course_name": "Advanced Algorithms",
-    "level": "Degree",
-    "year": 2023,
-    "term": "May 2023",
-    "term_code": "2023T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 36,
-    "total_marks": 36.0,
-    "json_url": "/data/papers/cs4021_2023T2_ET_AN.json"
-  },
-  {
     "id": "cs4021-2023t2-et-fn",
     "filename": "cs4021_2023T2_ET_FN.pdf",
     "json_file": "cs4021_2023T2_ET_FN.json",
@@ -18800,6 +18783,23 @@
     "total_questions": 36,
     "total_marks": 36.0,
     "json_url": "/data/papers/cs4021_2023T2_ET_FN.json"
+  },
+  {
+    "id": "cs4021-2023t2-et-an",
+    "filename": "cs4021_2023T2_ET_AN.pdf",
+    "json_file": "cs4021_2023T2_ET_AN.json",
+    "title": "DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
+    "course_code": "CS4021",
+    "course_name": "Advanced Algorithms",
+    "level": "Degree",
+    "year": 2023,
+    "term": "May 2023",
+    "term_code": "2023T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 36,
+    "total_marks": 36.0,
+    "json_url": "/data/papers/cs4021_2023T2_ET_AN.json"
   },
   {
     "id": "cs4021-2023t2-q1-na",
@@ -18836,23 +18836,6 @@
     "json_url": "/data/papers/cs4021_2023T2_Q2_NA.json"
   },
   {
-    "id": "cs4021-2023t3-et-an",
-    "filename": "cs4021_2023T3_ET_AN.pdf",
-    "json_file": "cs4021_2023T3_ET_AN.json",
-    "title": "DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
-    "course_code": "CS4021",
-    "course_name": "Advanced Algorithms",
-    "level": "Degree",
-    "year": 2023,
-    "term": "Sep 2023",
-    "term_code": "2023T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 25,
-    "total_marks": 25.0,
-    "json_url": "/data/papers/cs4021_2023T3_ET_AN.json"
-  },
-  {
     "id": "cs4021-2023t3-et-fn",
     "filename": "cs4021_2023T3_ET_FN.pdf",
     "json_file": "cs4021_2023T3_ET_FN.json",
@@ -18868,6 +18851,23 @@
     "total_questions": 25,
     "total_marks": 25.0,
     "json_url": "/data/papers/cs4021_2023T3_ET_FN.json"
+  },
+  {
+    "id": "cs4021-2023t3-et-an",
+    "filename": "cs4021_2023T3_ET_AN.pdf",
+    "json_file": "cs4021_2023T3_ET_AN.json",
+    "title": "DEGREE LEVEL : ADVANCED ALGORITHMS (COMPUTER BASED EXAM)",
+    "course_code": "CS4021",
+    "course_name": "Advanced Algorithms",
+    "level": "Degree",
+    "year": 2023,
+    "term": "Sep 2023",
+    "term_code": "2023T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 25,
+    "total_marks": 25.0,
+    "json_url": "/data/papers/cs4021_2023T3_ET_AN.json"
   },
   {
     "id": "cs4021-2023t3-q1-na",
@@ -18904,23 +18904,6 @@
     "json_url": "/data/papers/cs4021_2023T3_Q2_NA.json"
   },
   {
-    "id": "da5001-2023t1-et-fn",
-    "filename": "da5001_2023T1_ET_FN.pdf",
-    "json_file": "da5001_2023T1_ET_FN.json",
-    "title": "DEGREE LEVEL : INTRODUCTION TO BIG DATA (COMPUTER BASED EXAM)",
-    "course_code": "DA5001",
-    "course_name": "Big Data",
-    "level": "Degree",
-    "year": 2023,
-    "term": "Jan 2023",
-    "term_code": "2023T1",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 22,
-    "total_marks": 22.0,
-    "json_url": "/data/papers/da5001_2023T1_ET_FN.json"
-  },
-  {
     "id": "da5001-2023t1-et-an",
     "filename": "da5001_2023T1_ET_AN.pdf",
     "json_file": "da5001_2023T1_ET_AN.json",
@@ -18936,6 +18919,23 @@
     "total_questions": 22,
     "total_marks": 22.0,
     "json_url": "/data/papers/da5001_2023T1_ET_AN.json"
+  },
+  {
+    "id": "da5001-2023t1-et-fn",
+    "filename": "da5001_2023T1_ET_FN.pdf",
+    "json_file": "da5001_2023T1_ET_FN.json",
+    "title": "DEGREE LEVEL : INTRODUCTION TO BIG DATA (COMPUTER BASED EXAM)",
+    "course_code": "DA5001",
+    "course_name": "Big Data",
+    "level": "Degree",
+    "year": 2023,
+    "term": "Jan 2023",
+    "term_code": "2023T1",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 22,
+    "total_marks": 22.0,
+    "json_url": "/data/papers/da5001_2023T1_ET_FN.json"
   },
   {
     "id": "da5001-2023t1-q2-na",
@@ -19312,23 +19312,6 @@
     "json_url": "/data/papers/ee4001_2023T3_Q2_NA.json"
   },
   {
-    "id": "gn3001-2023t1-et-fn",
-    "filename": "gn3001_2023T1_ET_FN.pdf",
-    "json_file": "gn3001_2023T1_ET_FN.json",
-    "title": "DEGREE LEVEL : STRATEGIES FOR PROFESSIONAL GROWTH (COMPUTER BASED EXAM)",
-    "course_code": "GN3001",
-    "course_name": "Strategies for Professional Growth",
-    "level": "Degree",
-    "year": 2023,
-    "term": "Jan 2023",
-    "term_code": "2023T1",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 36,
-    "total_marks": 36.0,
-    "json_url": "/data/papers/gn3001_2023T1_ET_FN.json"
-  },
-  {
     "id": "gn3001-2023t1-et-an",
     "filename": "gn3001_2023T1_ET_AN.pdf",
     "json_file": "gn3001_2023T1_ET_AN.json",
@@ -19344,6 +19327,23 @@
     "total_questions": 36,
     "total_marks": 36.0,
     "json_url": "/data/papers/gn3001_2023T1_ET_AN.json"
+  },
+  {
+    "id": "gn3001-2023t1-et-fn",
+    "filename": "gn3001_2023T1_ET_FN.pdf",
+    "json_file": "gn3001_2023T1_ET_FN.json",
+    "title": "DEGREE LEVEL : STRATEGIES FOR PROFESSIONAL GROWTH (COMPUTER BASED EXAM)",
+    "course_code": "GN3001",
+    "course_name": "Strategies for Professional Growth",
+    "level": "Degree",
+    "year": 2023,
+    "term": "Jan 2023",
+    "term_code": "2023T1",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 36,
+    "total_marks": 36.0,
+    "json_url": "/data/papers/gn3001_2023T1_ET_FN.json"
   },
   {
     "id": "gn3001-2023t1-q1-na",
@@ -20230,23 +20230,6 @@
     "json_url": "/data/papers/ms3002_2023T2_Q2_NA.json"
   },
   {
-    "id": "ms4001-2023t1-et-fn",
-    "filename": "ms4001_2023T1_ET_FN.pdf",
-    "json_file": "ms4001_2023T1_ET_FN.json",
-    "title": "DEGREE LEVEL : INDUSTRY 4.0 (COMPUTER BASED EXAM)",
-    "course_code": "MS4001",
-    "course_name": "Corporate Finance",
-    "level": "Degree",
-    "year": 2023,
-    "term": "Jan 2023",
-    "term_code": "2023T1",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 23,
-    "total_marks": 23.0,
-    "json_url": "/data/papers/ms4001_2023T1_ET_FN.json"
-  },
-  {
     "id": "ms4001-2023t1-et-an",
     "filename": "ms4001_2023T1_ET_AN.pdf",
     "json_file": "ms4001_2023T1_ET_AN.json",
@@ -20262,6 +20245,23 @@
     "total_questions": 24,
     "total_marks": 24.0,
     "json_url": "/data/papers/ms4001_2023T1_ET_AN.json"
+  },
+  {
+    "id": "ms4001-2023t1-et-fn",
+    "filename": "ms4001_2023T1_ET_FN.pdf",
+    "json_file": "ms4001_2023T1_ET_FN.json",
+    "title": "DEGREE LEVEL : INDUSTRY 4.0 (COMPUTER BASED EXAM)",
+    "course_code": "MS4001",
+    "course_name": "Corporate Finance",
+    "level": "Degree",
+    "year": 2023,
+    "term": "Jan 2023",
+    "term_code": "2023T1",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 23,
+    "total_marks": 23.0,
+    "json_url": "/data/papers/ms4001_2023T1_ET_FN.json"
   },
   {
     "id": "ms4001-2023t1-q1-na",
@@ -20910,23 +20910,6 @@
     "json_url": "/data/papers/se2002_2023T1_ET_FN.json"
   },
   {
-    "id": "se2002-2023t2-et-fn",
-    "filename": "se2002_2023T2_ET_FN.pdf",
-    "json_file": "se2002_2023T2_ET_FN.json",
-    "title": "DIPLOMA LEVEL : TOOLS IN DATA SCIENCE (COMPUTER BASED EXAM)",
-    "course_code": "SE2002",
-    "course_name": "Tools in Data Science",
-    "level": "Diploma in Data Science",
-    "year": 2023,
-    "term": "May 2023",
-    "term_code": "2023T2",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 63,
-    "total_marks": 63.0,
-    "json_url": "/data/papers/se2002_2023T2_ET_FN.json"
-  },
-  {
     "id": "se2002-2023t2-et-an",
     "filename": "se2002_2023T2_ET_AN.pdf",
     "json_file": "se2002_2023T2_ET_AN.json",
@@ -20942,6 +20925,23 @@
     "total_questions": 63,
     "total_marks": 63.0,
     "json_url": "/data/papers/se2002_2023T2_ET_AN.json"
+  },
+  {
+    "id": "se2002-2023t2-et-fn",
+    "filename": "se2002_2023T2_ET_FN.pdf",
+    "json_file": "se2002_2023T2_ET_FN.json",
+    "title": "DIPLOMA LEVEL : TOOLS IN DATA SCIENCE (COMPUTER BASED EXAM)",
+    "course_code": "SE2002",
+    "course_name": "Tools in Data Science",
+    "level": "Diploma in Data Science",
+    "year": 2023,
+    "term": "May 2023",
+    "term_code": "2023T2",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 63,
+    "total_marks": 63.0,
+    "json_url": "/data/papers/se2002_2023T2_ET_FN.json"
   },
   {
     "id": "se2002-2023t3-et-an",
@@ -21046,23 +21046,6 @@
     "json_url": "/data/papers/cs2001_2022T1_Q2_NA.json"
   },
   {
-    "id": "cs2001-2022t2-et-an",
-    "filename": "cs2001_2022T2_ET_AN.pdf",
-    "json_file": "cs2001_2022T2_ET_AN.json",
-    "title": "Database Management Systems - May 2022 End Term (Afternoon)",
-    "course_code": "CS2001",
-    "course_name": "Database Management Systems",
-    "level": "Diploma in Programming",
-    "year": 2022,
-    "term": "May 2022",
-    "term_code": "2022T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 28,
-    "total_marks": 28.0,
-    "json_url": "/data/papers/cs2001_2022T2_ET_AN.json"
-  },
-  {
     "id": "cs2001-2022t2-et-fn",
     "filename": "cs2001_2022T2_ET_FN.pdf",
     "json_file": "cs2001_2022T2_ET_FN.json",
@@ -21078,6 +21061,23 @@
     "total_questions": 27,
     "total_marks": 27.0,
     "json_url": "/data/papers/cs2001_2022T2_ET_FN.json"
+  },
+  {
+    "id": "cs2001-2022t2-et-an",
+    "filename": "cs2001_2022T2_ET_AN.pdf",
+    "json_file": "cs2001_2022T2_ET_AN.json",
+    "title": "Database Management Systems - May 2022 End Term (Afternoon)",
+    "course_code": "CS2001",
+    "course_name": "Database Management Systems",
+    "level": "Diploma in Programming",
+    "year": 2022,
+    "term": "May 2022",
+    "term_code": "2022T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 28,
+    "total_marks": 28.0,
+    "json_url": "/data/papers/cs2001_2022T2_ET_AN.json"
   },
   {
     "id": "cs2001-2022t2-q1-na",
@@ -21250,23 +21250,6 @@
     "json_url": "/data/papers/cs2002_2022T1_Q2_NA.json"
   },
   {
-    "id": "cs2002-2022t2-et-an",
-    "filename": "cs2002_2022T2_ET_AN.pdf",
-    "json_file": "cs2002_2022T2_ET_AN.json",
-    "title": "Programming, Data Structures and Algorithms using Python - May 2022 End Term (Afternoon)",
-    "course_code": "CS2002",
-    "course_name": "Programming, Data Structures and Algorithms using Python",
-    "level": "Diploma in Programming",
-    "year": 2022,
-    "term": "May 2022",
-    "term_code": "2022T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 33,
-    "total_marks": 33.0,
-    "json_url": "/data/papers/cs2002_2022T2_ET_AN.json"
-  },
-  {
     "id": "cs2002-2022t2-et-fn",
     "filename": "cs2002_2022T2_ET_FN.pdf",
     "json_file": "cs2002_2022T2_ET_FN.json",
@@ -21282,6 +21265,23 @@
     "total_questions": 31,
     "total_marks": 31.0,
     "json_url": "/data/papers/cs2002_2022T2_ET_FN.json"
+  },
+  {
+    "id": "cs2002-2022t2-et-an",
+    "filename": "cs2002_2022T2_ET_AN.pdf",
+    "json_file": "cs2002_2022T2_ET_AN.json",
+    "title": "Programming, Data Structures and Algorithms using Python - May 2022 End Term (Afternoon)",
+    "course_code": "CS2002",
+    "course_name": "Programming, Data Structures and Algorithms using Python",
+    "level": "Diploma in Programming",
+    "year": 2022,
+    "term": "May 2022",
+    "term_code": "2022T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 33,
+    "total_marks": 33.0,
+    "json_url": "/data/papers/cs2002_2022T2_ET_AN.json"
   },
   {
     "id": "cs2002-2022t2-q1-na",
@@ -21658,23 +21658,6 @@
     "json_url": "/data/papers/cs2004_2022T2_Q2_NA.json"
   },
   {
-    "id": "cs2004-2022t3-et-an",
-    "filename": "cs2004_2022T3_ET_AN.pdf",
-    "json_file": "cs2004_2022T3_ET_AN.json",
-    "title": "DIPLOMA LEVEL: MACHINE LEARNING FOUNDATIONS",
-    "course_code": "CS2004",
-    "course_name": "Machine Learning Foundations",
-    "level": "Diploma in Data Science",
-    "year": 2022,
-    "term": "Sep 2022",
-    "term_code": "2022T3",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 21,
-    "total_marks": 21.0,
-    "json_url": "/data/papers/cs2004_2022T3_ET_AN.json"
-  },
-  {
     "id": "cs2004-2022t3-et-fn",
     "filename": "cs2004_2022T3_ET_FN.pdf",
     "json_file": "cs2004_2022T3_ET_FN.json",
@@ -21690,6 +21673,23 @@
     "total_questions": 21,
     "total_marks": 21.0,
     "json_url": "/data/papers/cs2004_2022T3_ET_FN.json"
+  },
+  {
+    "id": "cs2004-2022t3-et-an",
+    "filename": "cs2004_2022T3_ET_AN.pdf",
+    "json_file": "cs2004_2022T3_ET_AN.json",
+    "title": "DIPLOMA LEVEL: MACHINE LEARNING FOUNDATIONS",
+    "course_code": "CS2004",
+    "course_name": "Machine Learning Foundations",
+    "level": "Diploma in Data Science",
+    "year": 2022,
+    "term": "Sep 2022",
+    "term_code": "2022T3",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 21,
+    "total_marks": 21.0,
+    "json_url": "/data/papers/cs2004_2022T3_ET_AN.json"
   },
   {
     "id": "cs2004-2022t3-q1-na",
@@ -23001,23 +23001,6 @@
     "json_url": "/data/papers/ms2001_2022T2_Q2_NA.json"
   },
   {
-    "id": "ms2001-2022t3-et-fn",
-    "filename": "ms2001_2022T3_ET_FN.pdf",
-    "json_file": "ms2001_2022T3_ET_FN.json",
-    "title": "DIPLOMA LEVEL: BUSINESS DATA MANAGEMENT",
-    "course_code": "MS2001",
-    "course_name": "Business Data Management",
-    "level": "Diploma in Data Science",
-    "year": 2022,
-    "term": "Sep 2022",
-    "term_code": "2022T3",
-    "exam_type": "End Term",
-    "session": "Forenoon",
-    "total_questions": 27,
-    "total_marks": 27.0,
-    "json_url": "/data/papers/ms2001_2022T3_ET_FN.json"
-  },
-  {
     "id": "ms2001-2022t3-et-an",
     "filename": "ms2001_2022T3_ET_AN.pdf",
     "json_file": "ms2001_2022T3_ET_AN.json",
@@ -23033,6 +23016,23 @@
     "total_questions": 28,
     "total_marks": 28.0,
     "json_url": "/data/papers/ms2001_2022T3_ET_AN.json"
+  },
+  {
+    "id": "ms2001-2022t3-et-fn",
+    "filename": "ms2001_2022T3_ET_FN.pdf",
+    "json_file": "ms2001_2022T3_ET_FN.json",
+    "title": "DIPLOMA LEVEL: BUSINESS DATA MANAGEMENT",
+    "course_code": "MS2001",
+    "course_name": "Business Data Management",
+    "level": "Diploma in Data Science",
+    "year": 2022,
+    "term": "Sep 2022",
+    "term_code": "2022T3",
+    "exam_type": "End Term",
+    "session": "Forenoon",
+    "total_questions": 27,
+    "total_marks": 27.0,
+    "json_url": "/data/papers/ms2001_2022T3_ET_FN.json"
   },
   {
     "id": "ms2001-2022t3-q1-na",
@@ -23460,23 +23460,6 @@
     "json_url": "/data/papers/se2001_2022T1_Q2_NA.json"
   },
   {
-    "id": "se2001-2022t2-et-an",
-    "filename": "se2001_2022T2_ET_AN.pdf",
-    "json_file": "se2001_2022T2_ET_AN.json",
-    "title": "System Commands",
-    "course_code": "SE2001",
-    "course_name": "System Commands",
-    "level": "Diploma in Programming",
-    "year": 2022,
-    "term": "May 2022",
-    "term_code": "2022T2",
-    "exam_type": "End Term",
-    "session": "Afternoon",
-    "total_questions": 22,
-    "total_marks": 22.0,
-    "json_url": "/data/papers/se2001_2022T2_ET_AN.json"
-  },
-  {
     "id": "se2001-2022t2-et-fn",
     "filename": "se2001_2022T2_ET_FN.pdf",
     "json_file": "se2001_2022T2_ET_FN.json",
@@ -23492,6 +23475,23 @@
     "total_questions": 21,
     "total_marks": 21.0,
     "json_url": "/data/papers/se2001_2022T2_ET_FN.json"
+  },
+  {
+    "id": "se2001-2022t2-et-an",
+    "filename": "se2001_2022T2_ET_AN.pdf",
+    "json_file": "se2001_2022T2_ET_AN.json",
+    "title": "System Commands",
+    "course_code": "SE2001",
+    "course_name": "System Commands",
+    "level": "Diploma in Programming",
+    "year": 2022,
+    "term": "May 2022",
+    "term_code": "2022T2",
+    "exam_type": "End Term",
+    "session": "Afternoon",
+    "total_questions": 22,
+    "total_marks": 22.0,
+    "json_url": "/data/papers/se2001_2022T2_ET_AN.json"
   },
   {
     "id": "se2001-2022t2-q1-na",

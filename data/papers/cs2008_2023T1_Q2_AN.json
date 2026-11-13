@@ -55,16 +55,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider following code snippet: [IMAGE: /data/images/cs2008_2023T1_Q2_AN_p2_Im3.webp|block]",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p3_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_Q2_AN_p3_Im3.webp|block]",
-        "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p3_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p2_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p3_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p3_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p3_Im4.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p2_Im4.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2008_2023T1_Q2_AN_p2_Im3.webp",
+        "/data/images/cs2008_2023T1_Q2_AN_p2_Im4.webp",
         "/data/images/cs2008_2023T1_Q2_AN_p3_Im1.webp",
         "/data/images/cs2008_2023T1_Q2_AN_p3_Im3.webp",
         "/data/images/cs2008_2023T1_Q2_AN_p3_Im4.webp"
@@ -281,15 +282,16 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following code snippets correctly sets up a RandomizedSearchCV object to perform hyperparameter tuning on a RandomForestClassifier with the following parameters to be tested: \u2022 Number of estimators: 50, 100, 150 \u2022 Maximum depth of the tree: 5, 10, 15 \u2022 Minimum number of samples to enable a split: 2, 4, 6",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p8_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p8_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p9_Im2.webp|block]",
-        "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p9_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p9_Im4.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q2_AN_p9_Im4.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2023T1_Q2_AN_p8_Im3.webp",
         "/data/images/cs2008_2023T1_Q2_AN_p8_Im4.webp",
         "/data/images/cs2008_2023T1_Q2_AN_p9_Im2.webp",
         "/data/images/cs2008_2023T1_Q2_AN_p9_Im4.webp"

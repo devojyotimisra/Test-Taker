@@ -77,15 +77,16 @@
       "text": "Suppose I have an image of size 227\u00d7227. Which of the following code snippets correctly implements a Min Pooling operation with a window size of 2 \u00d7 2, stride of 2, and padding of 1 in PyTorch?",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p3_Im1.webp|block] [IMAGE: /data/images/da5013_2024T3_ET_AN_p3_Im3.webp|block]",
-        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p3_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p2_Im4.webp|block]",
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p3_Im1.webp|block]",
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p3_Im3.webp|block]",
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p3_Im4.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p2_Im4.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5013_2024T3_ET_AN_p2_Im4.webp",
         "/data/images/da5013_2024T3_ET_AN_p3_Im1.webp",
         "/data/images/da5013_2024T3_ET_AN_p3_Im3.webp",
         "/data/images/da5013_2024T3_ET_AN_p3_Im4.webp"
@@ -128,15 +129,16 @@
       "text": "Which of the following code snippets correctly implements the skip connection in ResNet?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p4_Im2.webp|block]",
         "[IMAGE: /data/images/da5013_2024T3_ET_AN_p4_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p5_Im1.webp|block] [IMAGE: /data/images/da5013_2024T3_ET_AN_p5_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p5_Im1.webp|block]",
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p5_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p4_Im4.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p4_Im2.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5013_2024T3_ET_AN_p4_Im2.webp",
         "/data/images/da5013_2024T3_ET_AN_p4_Im4.webp",
         "/data/images/da5013_2024T3_ET_AN_p5_Im1.webp",
         "/data/images/da5013_2024T3_ET_AN_p5_Im3.webp"
@@ -199,15 +201,16 @@
       "text": "Which of the following code snippets correctly models the loss function in YOLO?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p8_Im2.webp|block]",
         "[IMAGE: /data/images/da5013_2024T3_ET_AN_p8_Im4.webp|block]",
         "[IMAGE: /data/images/da5013_2024T3_ET_AN_p8_Im5.webp|block]",
-        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p8_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p8_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p8_Im4.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p8_Im2.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5013_2024T3_ET_AN_p8_Im2.webp",
         "/data/images/da5013_2024T3_ET_AN_p8_Im4.webp",
         "/data/images/da5013_2024T3_ET_AN_p8_Im5.webp",
         "/data/images/da5013_2024T3_ET_AN_p8_Im6.webp"
@@ -224,15 +227,16 @@
       "text": "Consider the following predictions and ground truths for a binary classification problem: - True Positives (TP): 30 - False Positives (FP): 10 - False Negatives (FN): 20 Which of the following correctly calculates the Precision and F1-Score for this classification task?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p8_Im7.webp|block]",
         "[IMAGE: /data/images/da5013_2024T3_ET_AN_p8_Im8.webp|block]",
         "[IMAGE: /data/images/da5013_2024T3_ET_AN_p8_Im9.webp|block]",
-        "",
         "[IMAGE: /data/images/da5013_2024T3_ET_AN_p9_Im1.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p8_Im8.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p8_Im7.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5013_2024T3_ET_AN_p8_Im7.webp",
         "/data/images/da5013_2024T3_ET_AN_p8_Im8.webp",
         "/data/images/da5013_2024T3_ET_AN_p8_Im9.webp",
         "/data/images/da5013_2024T3_ET_AN_p9_Im1.webp"
@@ -316,15 +320,16 @@
       "text": "Which of the following code snippets correctly implements the **downsampling** operation in a U-Net architecture?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p11_Im3.webp|block]",
         "[IMAGE: /data/images/da5013_2024T3_ET_AN_p11_Im4.webp|block]",
         "[IMAGE: /data/images/da5013_2024T3_ET_AN_p12_Im2.webp|block]",
-        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p12_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p12_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p11_Im4.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p11_Im3.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5013_2024T3_ET_AN_p11_Im3.webp",
         "/data/images/da5013_2024T3_ET_AN_p11_Im4.webp",
         "/data/images/da5013_2024T3_ET_AN_p12_Im2.webp",
         "/data/images/da5013_2024T3_ET_AN_p12_Im3.webp"
@@ -341,15 +346,16 @@
       "text": "Consider the following predictions and ground truth values: - Predictions: [3.0,\u22120.5, 2.0, 7.0] - Ground Truth: [2.5, 0.0, 2.0, 8.0] The Mean Squared Error (MSE) is calculated using one of the following code snippets. Identify the correct implementation and its result.",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p13_Im1.webp|block] [IMAGE: /data/images/da5013_2024T3_ET_AN_p13_Im3.webp|block]",
-        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p13_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p12_Im4.webp|block]",
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p13_Im1.webp|block]",
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p13_Im3.webp|block]",
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p13_Im4.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p13_Im1.webp|block] [IMAGE: /data/images/da5013_2024T3_ET_AN_p13_Im3.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p13_Im1.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5013_2024T3_ET_AN_p12_Im4.webp",
         "/data/images/da5013_2024T3_ET_AN_p13_Im1.webp",
         "/data/images/da5013_2024T3_ET_AN_p13_Im3.webp",
         "/data/images/da5013_2024T3_ET_AN_p13_Im4.webp"
@@ -408,15 +414,16 @@
       "text": "Which of the following code snippets correctly adds gaussian noise to an image?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p14_Im3.webp|block]",
         "[IMAGE: /data/images/da5013_2024T3_ET_AN_p14_Im4.webp|block]",
         "[IMAGE: /data/images/da5013_2024T3_ET_AN_p14_Im5.webp|block]",
-        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p14_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p14_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p14_Im4.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p14_Im3.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5013_2024T3_ET_AN_p14_Im3.webp",
         "/data/images/da5013_2024T3_ET_AN_p14_Im4.webp",
         "/data/images/da5013_2024T3_ET_AN_p14_Im5.webp",
         "/data/images/da5013_2024T3_ET_AN_p14_Im6.webp"
@@ -454,15 +461,16 @@
       "text": "Which of the following code snippets correctly implements the **generator** for a super- resolution GAN (SRGAN) network?",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p16_Im1.webp|block] [IMAGE: /data/images/da5013_2024T3_ET_AN_p16_Im3.webp|block]",
-        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p16_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p15_Im3.webp|block]",
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p16_Im1.webp|block]",
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p16_Im3.webp|block]",
+        "[IMAGE: /data/images/da5013_2024T3_ET_AN_p16_Im5.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/da5013_2024T3_ET_AN_p16_Im5.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5013_2024T3_ET_AN_p15_Im3.webp",
         "/data/images/da5013_2024T3_ET_AN_p16_Im1.webp",
         "/data/images/da5013_2024T3_ET_AN_p16_Im3.webp",
         "/data/images/da5013_2024T3_ET_AN_p16_Im5.webp"

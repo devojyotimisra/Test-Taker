@@ -467,19 +467,20 @@
       "text": "Which of the following is a valid log entry based on the provided format?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/se2002_2025T1_ET_AN_p9_Im2.webp|block]",
         "[IMAGE: /data/images/se2002_2025T1_ET_AN_p9_Im4.webp|block]",
         "[IMAGE: /data/images/se2002_2025T1_ET_AN_p9_Im5.webp|block]",
-        "[IMAGE: /data/images/se2002_2025T1_ET_AN_p9_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2025T1_ET_AN_p9_Im6.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/se2002_2025T1_ET_AN_p9_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2025T1_ET_AN_p9_Im2.webp|block]",
+        "[IMAGE: /data/images/se2002_2025T1_ET_AN_p9_Im6.webp|block]"
       ],
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2002_2025T1_ET_AN_p8_Im3.webp",
+        "/data/images/se2002_2025T1_ET_AN_p9_Im2.webp",
         "/data/images/se2002_2025T1_ET_AN_p9_Im4.webp",
         "/data/images/se2002_2025T1_ET_AN_p9_Im5.webp",
         "/data/images/se2002_2025T1_ET_AN_p9_Im6.webp"
@@ -808,15 +809,16 @@
       "text": "Assume that BioTutor uses a RAG (Retrieval-Augmented Generation) system to assist students with bioinformatics queries. The system works as follows: 1. Bioinformatics Data Storage: Comprehensive genomic research materials (e.g., papers, notes, tutorials) are split into smaller chunks, which are vectorized using an embedding model. 2. Vector Database: The vectorized chunks are stored in a FAISS or Weaviate vector database. 3. Retriever: When a student asks a question, the system retrieves relevant content from the database based on semantic similarity to the query. 4. LLM Contextualization: The retrieved content is added as context in the assistant's prompt, enabling the LLM to generate a personalized response. Which of the following correctly describes the process flow of a RAG-based system for BioTutor?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2002_2025T1_ET_AN_p15_Im2.webp|block]",
         "[IMAGE: /data/images/se2002_2025T1_ET_AN_p15_Im3.webp|block]",
         "[IMAGE: /data/images/se2002_2025T1_ET_AN_p15_Im5.webp|block]",
-        "[IMAGE: /data/images/se2002_2025T1_ET_AN_p15_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2025T1_ET_AN_p15_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2002_2025T1_ET_AN_p15_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2002_2025T1_ET_AN_p15_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/se2002_2025T1_ET_AN_p15_Im2.webp",
         "/data/images/se2002_2025T1_ET_AN_p15_Im3.webp",
         "/data/images/se2002_2025T1_ET_AN_p15_Im5.webp",
         "/data/images/se2002_2025T1_ET_AN_p15_Im6.webp"

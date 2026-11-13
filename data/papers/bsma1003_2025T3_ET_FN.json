@@ -103,14 +103,14 @@
       "text": "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p2_Im4.webp|block]",
       "type": "multichoice",
       "options": [
-        "",
+        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p2_Im5.webp|block]",
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p2_Im6.webp|inline]",
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p2_Im7.webp|inline]",
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p2_Im8.webp|inline]",
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p2_Im9.webp|inline]"
       ],
       "correct_answer": [
-        "",
+        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p2_Im5.webp|block]",
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p2_Im6.webp|inline]",
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p2_Im8.webp|inline]"
       ],
@@ -118,6 +118,7 @@
       "negative_marks": 0.0,
       "images": [
         "/data/images/bsma1003_2025T3_ET_FN_p2_Im4.webp",
+        "/data/images/bsma1003_2025T3_ET_FN_p2_Im5.webp",
         "/data/images/bsma1003_2025T3_ET_FN_p2_Im6.webp",
         "/data/images/bsma1003_2025T3_ET_FN_p2_Im7.webp",
         "/data/images/bsma1003_2025T3_ET_FN_p2_Im8.webp",
@@ -280,19 +281,20 @@
       "text": "Choose all the correct answers.",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p8_Im3.webp|block]",
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p8_Im4.webp|block]",
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p9_Im2.webp|block]",
-        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p9_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p9_Im3.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p8_Im4.webp|block]",
-        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p9_Im2.webp|block]"
+        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p8_Im4.webp|block]"
       ],
       "marks": 7.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bsma1003_2025T3_ET_FN_p8_Im1.webp",
+        "/data/images/bsma1003_2025T3_ET_FN_p8_Im3.webp",
         "/data/images/bsma1003_2025T3_ET_FN_p8_Im4.webp",
         "/data/images/bsma1003_2025T3_ET_FN_p9_Im2.webp",
         "/data/images/bsma1003_2025T3_ET_FN_p9_Im3.webp"
@@ -331,13 +333,13 @@
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p10_Im4.webp|inline]",
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p10_Im6.webp|inline]",
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p10_Im7.webp|inline]",
-        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p10_Im8.webp|inline] [IMAGE: /data/images/bsma1003_2025T3_ET_FN_p10_Im9.webp|block]",
-        ""
+        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p10_Im8.webp|inline]",
+        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p10_Im9.webp|block]"
       ],
       "correct_answer": [
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p10_Im6.webp|inline]",
         "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p10_Im7.webp|inline]",
-        ""
+        "[IMAGE: /data/images/bsma1003_2025T3_ET_FN_p10_Im9.webp|block]"
       ],
       "marks": 8.0,
       "negative_marks": 0.0,

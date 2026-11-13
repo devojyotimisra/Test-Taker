@@ -148,12 +148,12 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following expression: [IMAGE: /data/images/cs3031_2023T3_Q2_NA_p4_Im4.webp|block] Which of the following K-maps represents the expression correctly?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p5_Im1.webp|block] [IMAGE: /data/images/cs3031_2023T3_Q2_NA_p5_Im3.webp|block]",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p5_Im1.webp|block]",
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p5_Im3.webp|block]",
         "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p5_Im4.webp|block]",
-        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p5_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p5_Im6.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p5_Im6.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -263,16 +263,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 In the circuit shown below, D1 and D2 are positive triggered D flipflops, x1 and x2 are input of D1 and D2 flipflop. Choose the correct timing diagram of the output Y. [IMAGE: /data/images/cs3031_2023T3_Q2_NA_p9_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p9_Im3.webp|block]",
         "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p9_Im5.webp|block]",
         "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p9_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p9_Im7.webp|inline]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p9_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs3031_2023T3_Q2_NA_p9_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs3031_2023T3_Q2_NA_p9_Im1.webp",
+        "/data/images/cs3031_2023T3_Q2_NA_p9_Im3.webp",
         "/data/images/cs3031_2023T3_Q2_NA_p9_Im5.webp",
         "/data/images/cs3031_2023T3_Q2_NA_p9_Im6.webp",
         "/data/images/cs3031_2023T3_Q2_NA_p9_Im7.webp"

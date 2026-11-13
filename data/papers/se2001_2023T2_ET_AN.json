@@ -133,16 +133,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A file contains data collected starting from 4th April 2004. The data is collected on the 4th, 14th and 24th of April, May and June since then. The text file, however, does not contain the date information. Now it is necessary to add a column to this text file with the date format 4 April 2004. Identify which of the following command (using brace expansion) will create a column to an empty file with the desired format from 4 April, 2004 to 24 December, 2010 is sorted as per the years. Hint: Use the following information. [IMAGE: /data/images/se2001_2023T2_ET_AN_p7_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p7_Im3.webp|block]",
         "[IMAGE: /data/images/se2001_2023T2_ET_AN_p7_Im5.webp|block]",
         "[IMAGE: /data/images/se2001_2023T2_ET_AN_p7_Im6.webp|block]",
-        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p8_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p8_Im2.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2001_2023T2_ET_AN_p7_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2001_2023T2_ET_AN_p7_Im3.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2001_2023T2_ET_AN_p7_Im1.webp",
+        "/data/images/se2001_2023T2_ET_AN_p7_Im3.webp",
         "/data/images/se2001_2023T2_ET_AN_p7_Im5.webp",
         "/data/images/se2001_2023T2_ET_AN_p7_Im6.webp",
         "/data/images/se2001_2023T2_ET_AN_p8_Im2.webp"
@@ -186,13 +187,13 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [IMAGE: /data/images/se2001_2023T2_ET_AN_p9_Im7.webp|block]",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p9_Im8.webp|inline] [IMAGE: /data/images/se2001_2023T2_ET_AN_p9_Im9.webp|block]",
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p9_Im8.webp|inline]",
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p9_Im9.webp|block]",
         "[IMAGE: /data/images/se2001_2023T2_ET_AN_p10_Im2.webp|block]",
-        "",
         "[IMAGE: /data/images/se2001_2023T2_ET_AN_p10_Im3.webp|inline]"
       ],
       "correct_answer": [
-        "",
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p10_Im2.webp|block]",
         "[IMAGE: /data/images/se2001_2023T2_ET_AN_p10_Im3.webp|inline]"
       ],
       "marks": 1.0,
@@ -247,13 +248,13 @@
       "type": "multichoice",
       "options": [
         "[IMAGE: /data/images/se2001_2023T2_ET_AN_p13_Im2.webp|inline]",
-        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p13_Im4.webp|inline] [IMAGE: /data/images/se2001_2023T2_ET_AN_p13_Im5.webp|block]",
-        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p13_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p13_Im4.webp|inline]",
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p13_Im5.webp|block]",
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p13_Im6.webp|block]"
       ],
       "correct_answer": [
         "[IMAGE: /data/images/se2001_2023T2_ET_AN_p13_Im2.webp|inline]",
-        ""
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p13_Im6.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
@@ -303,13 +304,13 @@
       "type": "multichoice",
       "options": [
         "[IMAGE: /data/images/se2001_2023T2_ET_AN_p15_Im3.webp|inline]",
-        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p15_Im5.webp|inline] [IMAGE: /data/images/se2001_2023T2_ET_AN_p15_Im6.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p15_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p15_Im6.webp|block]",
         "[IMAGE: /data/images/se2001_2023T2_ET_AN_p16_Im2.webp|inline]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p15_Im5.webp|inline] [IMAGE: /data/images/se2001_2023T2_ET_AN_p15_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p15_Im5.webp|inline]",
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p15_Im6.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
@@ -334,12 +335,12 @@
       "options": [
         "[IMAGE: /data/images/se2001_2023T2_ET_AN_p16_Im4.webp|inline]",
         "[IMAGE: /data/images/se2001_2023T2_ET_AN_p16_Im6.webp|inline]",
-        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p16_Im7.webp|inline] [IMAGE: /data/images/se2001_2023T2_ET_AN_p16_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p16_Im7.webp|inline]",
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p16_Im8.webp|block]"
       ],
       "correct_answer": [
         "[IMAGE: /data/images/se2001_2023T2_ET_AN_p16_Im6.webp|inline]",
-        ""
+        "[IMAGE: /data/images/se2001_2023T2_ET_AN_p16_Im8.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,

@@ -899,10 +899,10 @@
       "options": [
         "[IMAGE: /data/images/se2002_2022T3_ET_FN_p21_Im3.webp|inline]",
         "[IMAGE: /data/images/se2002_2022T3_ET_FN_p21_Im4.webp|inline]",
-        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p21_Im6.webp|inline] [IMAGE: /data/images/se2002_2022T3_ET_FN_p22_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p21_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p22_Im2.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2002_2022T3_ET_FN_p21_Im6.webp|inline] [IMAGE: /data/images/se2002_2022T3_ET_FN_p22_Im2.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2002_2022T3_ET_FN_p21_Im6.webp|inline]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -924,15 +924,16 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 The given piece of code extracts and displays details of 9 scheduled airlines in India. Identify which block of code executes without any errors.",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p23_Im1.webp|block] [IMAGE: /data/images/se2002_2022T3_ET_FN_p23_Im3.webp|block]",
-        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p23_Im4.webp|block]",
-        "1"
+        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p22_Im4.webp|block]",
+        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p23_Im1.webp|block]",
+        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p23_Im3.webp|block]",
+        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p23_Im4.webp|block] 1"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2022T3_ET_FN_p22_Im4.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/se2002_2022T3_ET_FN_p22_Im4.webp",
         "/data/images/se2002_2022T3_ET_FN_p23_Im1.webp",
         "/data/images/se2002_2022T3_ET_FN_p23_Im3.webp",
         "/data/images/se2002_2022T3_ET_FN_p23_Im4.webp"
@@ -949,16 +950,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which among the following code blocks will get you the latitude and longitude of \u201cIIT Madras\u201d? Assume the Nominatim library is imported using the command given below: [IMAGE: /data/images/se2002_2022T3_ET_FN_p24_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p24_Im3.webp|block]",
         "[IMAGE: /data/images/se2002_2022T3_ET_FN_p24_Im4.webp|block]",
         "[IMAGE: /data/images/se2002_2022T3_ET_FN_p24_Im6.webp|block]",
-        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p24_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p24_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2002_2022T3_ET_FN_p24_Im7.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2002_2022T3_ET_FN_p24_Im6.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2002_2022T3_ET_FN_p24_Im1.webp",
+        "/data/images/se2002_2022T3_ET_FN_p24_Im3.webp",
         "/data/images/se2002_2022T3_ET_FN_p24_Im4.webp",
         "/data/images/se2002_2022T3_ET_FN_p24_Im6.webp",
         "/data/images/se2002_2022T3_ET_FN_p24_Im7.webp"
@@ -975,15 +977,16 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Provided below is a snapshot of the dataset which consists of movie reviews and respective labels. [IMAGE: /data/images/se2002_2022T3_ET_FN_p25_Im1.webp|block] To compute the sentiment scores the Azure Machine Learning add-in requires input and output values. In the figure provided below the input and output cells need to be populated with appropriate values to obtain sentiment scores. [IMAGE: /data/images/se2002_2022T3_ET_FN_p25_Im2.webp|block] Choose the most appropriate option that enables you to predict sentiment scores using the Excel Azure Machine Learning add-in.",
       "type": "MCQ",
       "options": [
-        "",
+        "[IMAGE: /data/images/se2002_2022T3_ET_FN_p25_Im4.webp|block]",
         "[IMAGE: /data/images/se2002_2022T3_ET_FN_p26_Im2.webp|inline]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/se2002_2022T3_ET_FN_p25_Im4.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2002_2022T3_ET_FN_p25_Im1.webp",
         "/data/images/se2002_2022T3_ET_FN_p25_Im2.webp",
+        "/data/images/se2002_2022T3_ET_FN_p25_Im4.webp",
         "/data/images/se2002_2022T3_ET_FN_p26_Im2.webp"
       ],
       "image_locations": [],

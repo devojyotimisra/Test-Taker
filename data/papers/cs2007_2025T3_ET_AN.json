@@ -59,20 +59,21 @@
       "text": "A centered dataset in [IMAGE: /data/images/cs2007_2025T3_ET_AN_p2_Im1.webp|inline] is projected onto its first two principal components. The first and the second principal components are respectively. [IMAGE: /data/images/cs2007_2025T3_ET_AN_p2_Im2.webp|block] Then, which of the following vectors could be a valid third principal component?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2007_2025T3_ET_AN_p2_Im4.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_ET_AN_p2_Im5.webp|block]",
         "[IMAGE: /data/images/cs2007_2025T3_ET_AN_p2_Im7.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2007_2025T3_ET_AN_p3_Im1.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2007_2025T3_ET_AN_p2_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2007_2025T3_ET_AN_p2_Im7.webp|block]"
+        "[IMAGE: /data/images/cs2007_2025T3_ET_AN_p2_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2007_2025T3_ET_AN_p2_Im5.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2007_2025T3_ET_AN_p2_Im1.webp",
         "/data/images/cs2007_2025T3_ET_AN_p2_Im2.webp",
+        "/data/images/cs2007_2025T3_ET_AN_p2_Im4.webp",
         "/data/images/cs2007_2025T3_ET_AN_p2_Im5.webp",
         "/data/images/cs2007_2025T3_ET_AN_p2_Im7.webp",
         "/data/images/cs2007_2025T3_ET_AN_p3_Im1.webp"

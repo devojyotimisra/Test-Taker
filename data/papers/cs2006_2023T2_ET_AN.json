@@ -647,19 +647,20 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the below Vue component and a Vuex store implementation. [IMAGE: /data/images/cs2006_2023T2_ET_AN_p33_Im1.webp|block] You are supposed to invoke the mutation function \u201cupdate_total_cost\u201d from the method named \u201cupdate_store_cost\u201d of the Vue component \u201cproduct\u201d. The \u201cupdate_total_cost\u201d mutation function should update the store data variable \u201ctotal_cost\u201d with an appropriate value. The cost is the product of \u201ccount\u201d and \u201cprice\u201d parameters of the function \u201cupdate_store_cost\u201d. Assume that both these parameters are of Numeric type, and need not be typecasted. Which of the following is/are the possible replacements for \u201cplaceholder1\u201d and \u201cplaceholder2\u201d?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im2.webp|block]",
         "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im4.webp|block]",
         "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im6.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im4.webp|block]",
-        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im6.webp|block]"
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p34_Im5.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2006_2023T2_ET_AN_p33_Im1.webp",
+        "/data/images/cs2006_2023T2_ET_AN_p34_Im2.webp",
         "/data/images/cs2006_2023T2_ET_AN_p34_Im4.webp",
         "/data/images/cs2006_2023T2_ET_AN_p34_Im5.webp",
         "/data/images/cs2006_2023T2_ET_AN_p34_Im6.webp"
@@ -727,18 +728,19 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following statements is/are true?",
       "type": "multichoice",
       "options": [
-        "",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p37_Im2.webp|block]",
         "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p37_Im4.webp|inline]",
         "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p37_Im5.webp|inline]",
         "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p37_Im6.webp|inline]"
       ],
       "correct_answer": [
-        "",
+        "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p37_Im2.webp|block]",
         "[IMAGE: /data/images/cs2006_2023T2_ET_AN_p37_Im5.webp|inline]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2006_2023T2_ET_AN_p37_Im2.webp",
         "/data/images/cs2006_2023T2_ET_AN_p37_Im4.webp",
         "/data/images/cs2006_2023T2_ET_AN_p37_Im5.webp",
         "/data/images/cs2006_2023T2_ET_AN_p37_Im6.webp"

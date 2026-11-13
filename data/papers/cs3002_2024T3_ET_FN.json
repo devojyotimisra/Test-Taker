@@ -169,19 +169,20 @@
       "text": "[IMAGE: /data/images/cs3002_2024T3_ET_FN_p3_Im1.webp|block]",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs3002_2024T3_ET_FN_p4_Im1.webp|block] [IMAGE: /data/images/cs3002_2024T3_ET_FN_p4_Im3.webp|block]",
-        "[IMAGE: /data/images/cs3002_2024T3_ET_FN_p4_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs3002_2024T3_ET_FN_p3_Im3.webp|block]",
+        "[IMAGE: /data/images/cs3002_2024T3_ET_FN_p4_Im1.webp|block]",
+        "[IMAGE: /data/images/cs3002_2024T3_ET_FN_p4_Im3.webp|block]",
+        "[IMAGE: /data/images/cs3002_2024T3_ET_FN_p4_Im5.webp|block]"
       ],
       "correct_answer": [
-        "",
-        "[IMAGE: /data/images/cs3002_2024T3_ET_FN_p4_Im5.webp|block]"
+        "[IMAGE: /data/images/cs3002_2024T3_ET_FN_p3_Im3.webp|block]",
+        "[IMAGE: /data/images/cs3002_2024T3_ET_FN_p4_Im3.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs3002_2024T3_ET_FN_p3_Im1.webp",
+        "/data/images/cs3002_2024T3_ET_FN_p3_Im3.webp",
         "/data/images/cs3002_2024T3_ET_FN_p4_Im1.webp",
         "/data/images/cs3002_2024T3_ET_FN_p4_Im3.webp",
         "/data/images/cs3002_2024T3_ET_FN_p4_Im5.webp"

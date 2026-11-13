@@ -404,14 +404,14 @@
       "text": "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p9_Im3.webp|block]",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p10_Im0.webp|block] [IMAGE: /data/images/cs3002_2025T2_ET_FN_p10_Im2.webp|block]",
-        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p10_Im3.webp|block]",
-        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p10_Im5.webp|block]",
-        ""
-      ],
-      "correct_answer": [
+        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p10_Im0.webp|block]",
+        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p10_Im2.webp|block]",
         "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p10_Im3.webp|block]",
         "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p10_Im5.webp|block]"
+      ],
+      "correct_answer": [
+        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p10_Im2.webp|block]",
+        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p10_Im3.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
@@ -457,16 +457,17 @@
       "text": "Which of the following is the set of RICC pairs for clause a ?",
       "type": "MCQ",
       "options": [
-        "",
-        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p12_Im1.webp|inline] [IMAGE: /data/images/cs3002_2025T2_ET_FN_p12_Im3.webp|block]",
-        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p12_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p11_Im3.webp|block]",
+        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p12_Im1.webp|inline]",
+        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p12_Im3.webp|block]",
+        "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p12_Im4.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p12_Im4.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs3002_2025T2_ET_FN_p12_Im3.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs3002_2025T2_ET_FN_p11_Im0.webp",
+        "/data/images/cs3002_2025T2_ET_FN_p11_Im3.webp",
         "/data/images/cs3002_2025T2_ET_FN_p12_Im1.webp",
         "/data/images/cs3002_2025T2_ET_FN_p12_Im3.webp",
         "/data/images/cs3002_2025T2_ET_FN_p12_Im4.webp"

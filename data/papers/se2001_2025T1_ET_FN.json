@@ -30,16 +30,17 @@
       "text": "[IMAGE: /data/images/se2001_2025T1_ET_FN_p2_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2001_2025T1_ET_FN_p2_Im3.webp|block]",
         "[IMAGE: /data/images/se2001_2025T1_ET_FN_p2_Im5.webp|block]",
         "[IMAGE: /data/images/se2001_2025T1_ET_FN_p2_Im6.webp|block]",
-        "[IMAGE: /data/images/se2001_2025T1_ET_FN_p3_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2025T1_ET_FN_p3_Im2.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2001_2025T1_ET_FN_p2_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2001_2025T1_ET_FN_p2_Im5.webp|block]",
       "marks": 7.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2001_2025T1_ET_FN_p2_Im1.webp",
+        "/data/images/se2001_2025T1_ET_FN_p2_Im3.webp",
         "/data/images/se2001_2025T1_ET_FN_p2_Im5.webp",
         "/data/images/se2001_2025T1_ET_FN_p2_Im6.webp",
         "/data/images/se2001_2025T1_ET_FN_p3_Im2.webp"
@@ -56,15 +57,16 @@
       "text": "Schedule the script /home/user/backup.sh to meet the following requirements 1. The job should run at the 2nd minute of every hour, but only during weekdays (Monday to Friday). 2. Additionally, the job must not run during the first and last days of each month. 3. It should execute a script located at /home/user/backup.sh and log the output to /var/log/backup.log (append mode). Which of the following exact crontab entry is used to schedule this job.",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2001_2025T1_ET_FN_p3_Im3.webp|block]",
         "[IMAGE: /data/images/se2001_2025T1_ET_FN_p3_Im5.webp|block]",
         "[IMAGE: /data/images/se2001_2025T1_ET_FN_p3_Im6.webp|block]",
-        "[IMAGE: /data/images/se2001_2025T1_ET_FN_p3_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2001_2025T1_ET_FN_p3_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2001_2025T1_ET_FN_p3_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2001_2025T1_ET_FN_p3_Im5.webp|block]",
       "marks": 7.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/se2001_2025T1_ET_FN_p3_Im3.webp",
         "/data/images/se2001_2025T1_ET_FN_p3_Im5.webp",
         "/data/images/se2001_2025T1_ET_FN_p3_Im6.webp",
         "/data/images/se2001_2025T1_ET_FN_p3_Im7.webp"
@@ -348,20 +350,21 @@
       "text": "[IMAGE: /data/images/se2001_2025T1_ET_FN_p8_Im3.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/se2001_2025T1_ET_FN_p8_Im4.webp|block]",
         "[IMAGE: /data/images/se2001_2025T1_ET_FN_p8_Im5.webp|block]",
-        "",
-        "[IMAGE: /data/images/se2001_2025T1_ET_FN_p8_Im6.webp|inline] [IMAGE: /data/images/se2001_2025T1_ET_FN_p9_Im2.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2001_2025T1_ET_FN_p8_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2001_2025T1_ET_FN_p9_Im2.webp|block]",
         "[IMAGE: /data/images/se2001_2025T1_ET_FN_p9_Im4.webp|inline]"
       ],
       "correct_answer": [
-        "",
+        "[IMAGE: /data/images/se2001_2025T1_ET_FN_p8_Im5.webp|block]",
         "[IMAGE: /data/images/se2001_2025T1_ET_FN_p9_Im4.webp|inline]"
       ],
       "marks": 6.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/se2001_2025T1_ET_FN_p8_Im3.webp",
+        "/data/images/se2001_2025T1_ET_FN_p8_Im4.webp",
         "/data/images/se2001_2025T1_ET_FN_p8_Im5.webp",
         "/data/images/se2001_2025T1_ET_FN_p8_Im6.webp",
         "/data/images/se2001_2025T1_ET_FN_p9_Im2.webp",

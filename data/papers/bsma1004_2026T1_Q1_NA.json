@@ -238,12 +238,12 @@
       "options": [
         "The possible values of [IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p8_Im2.webp|inline] are {0, 1, 2}",
         "The possible values of [IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p8_Im4.webp|inline] are {1, 2}",
-        "[IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p8_Im5.webp|inline] [IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p8_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p8_Im5.webp|inline]",
+        "[IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p8_Im6.webp|block]"
       ],
       "correct_answer": [
         "The possible values of [IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p8_Im2.webp|inline] are {0, 1, 2}",
-        "[IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p8_Im5.webp|inline] [IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p8_Im6.webp|block]"
+        "[IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p8_Im5.webp|inline]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
@@ -463,18 +463,19 @@
       "text": "Which of the following options correctly represents the probability density function of [IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p13_Im3.webp|inline] ?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p13_Im5.webp|block]",
         "[IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p13_Im6.webp|block]",
         "[IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p13_Im7.webp|block]",
-        "[IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p13_Im9.webp|block]",
-        ""
+        "[IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p13_Im9.webp|block]"
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/bsma1004_2026T1_Q1_NA_p13_Im9.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bsma1004_2026T1_Q1_NA_p13_Im3.webp",
         "/data/images/bsma1004_2026T1_Q1_NA_p13_Im1.webp",
         "/data/images/bsma1004_2026T1_Q1_NA_p13_Im2.webp",
+        "/data/images/bsma1004_2026T1_Q1_NA_p13_Im5.webp",
         "/data/images/bsma1004_2026T1_Q1_NA_p13_Im6.webp",
         "/data/images/bsma1004_2026T1_Q1_NA_p13_Im7.webp",
         "/data/images/bsma1004_2026T1_Q1_NA_p13_Im9.webp"

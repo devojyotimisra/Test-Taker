@@ -818,15 +818,16 @@
       "text": "A student asks the following question to EduBot: \"How do I convert degrees to radians?\" The goal of the LLM assistant is to use logical reasoning to prompt the student to think critically . Instead of directly providing the formula, the assistant should encourage the student to recall or derive it on their own. The assistant should use concepts, relationships, and reasoning techniques that help the student make connections. Which of the below responses will be an ideal response from the agent in this situation?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p19_Im3.webp|block]",
         "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im2.webp|block]",
         "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im4.webp|block]",
-        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im5.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im4.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im2.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/se2002_2024T3_ET_FN_p19_Im3.webp",
         "/data/images/se2002_2024T3_ET_FN_p20_Im2.webp",
         "/data/images/se2002_2024T3_ET_FN_p20_Im4.webp",
         "/data/images/se2002_2024T3_ET_FN_p20_Im5.webp"
@@ -843,8 +844,8 @@
       "text": "Assume that the EduBot is designed to provide context-aware, personalized guidance to students by using a RAG (Retrieval-Augmented Generation) system. The RAG system works as follows: 1. Course Material Storage: Custom course content (like PDFs, guides, and notes) is split into smaller chunks. Each chunk is vectorized using an embedding model. 2. Vector Database: The vectorized chunks are stored in a FAISS or Weaviate vector database. 3. Retriever: When a student asks a question, the system retrieves the most relevant content (based on semantic similarity) from the vector database. 4. LLM Contextualization: The retrieved content is added as context in the assistant's prompt, which is then used by the LLM (like GPT-4) to generate a personalized, context-aware response. Which of the following correctly describes the process flow of a RAG-based system for the IITM TDS Teaching Assistant?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im6.webp|inline] [IMAGE: /data/images/se2002_2024T3_ET_FN_p21_Im2.webp|block]",
-        "",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p20_Im6.webp|inline]",
+        "[IMAGE: /data/images/se2002_2024T3_ET_FN_p21_Im2.webp|block]",
         "[IMAGE: /data/images/se2002_2024T3_ET_FN_p21_Im4.webp|inline]",
         "[IMAGE: /data/images/se2002_2024T3_ET_FN_p21_Im5.webp|inline]"
       ],

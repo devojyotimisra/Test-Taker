@@ -163,14 +163,14 @@
       "text": "A Vue 2 application fetches a list of courses from an API and wants to display them in the template. [IMAGE: /data/images/cs2006_2026T2_ET_FN_p5_Im7.webp|block] Assume the API returns: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p5_Im8.webp|block] Complete the missing code so that all course names are rendered correctly. Which of the following code snippets can correctly replace [IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im1.webp|inline] ?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im3.webp|block]",
         "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im4.webp|block]",
         "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im7.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im4.webp|block]",
-        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im6.webp|block]"
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p6_Im4.webp|block]"
       ],
       "marks": 4.5,
       "negative_marks": 0.0,
@@ -178,6 +178,7 @@
         "/data/images/cs2006_2026T2_ET_FN_p5_Im7.webp",
         "/data/images/cs2006_2026T2_ET_FN_p5_Im8.webp",
         "/data/images/cs2006_2026T2_ET_FN_p6_Im1.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p6_Im3.webp",
         "/data/images/cs2006_2026T2_ET_FN_p6_Im4.webp",
         "/data/images/cs2006_2026T2_ET_FN_p6_Im6.webp",
         "/data/images/cs2006_2026T2_ET_FN_p6_Im7.webp"
@@ -544,16 +545,17 @@
       "text": "Consider the following JavaScript code: [IMAGE: /data/images/cs2006_2026T2_ET_FN_p15_Im1.webp|block] What will be output on the browser\u2019s console?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p15_Im3.webp|block]",
         "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p15_Im4.webp|block]",
         "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p15_Im6.webp|block]",
-        "",
         "None of these."
       ],
-      "correct_answer": "",
+      "correct_answer": "[IMAGE: /data/images/cs2006_2026T2_ET_FN_p15_Im6.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2006_2026T2_ET_FN_p15_Im1.webp",
+        "/data/images/cs2006_2026T2_ET_FN_p15_Im3.webp",
         "/data/images/cs2006_2026T2_ET_FN_p15_Im4.webp",
         "/data/images/cs2006_2026T2_ET_FN_p15_Im6.webp"
       ],

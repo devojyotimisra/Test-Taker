@@ -308,12 +308,12 @@
       "text": "In a bioinformatics study, the time [IMAGE: /data/images/bt4001_2026T2_ET_FN_p7_Im14.webp|inline] (in hours) taken for a bacterial cell to complete DNA replication is modeled as a random sample [IMAGE: /data/images/bt4001_2026T2_ET_FN_p7_Im15.webp|inline] from a distribution with density: [IMAGE: /data/images/bt4001_2026T2_ET_FN_p7_Im16.webp|block] Here [IMAGE: /data/images/bt4001_2026T2_ET_FN_p7_Im17.webp|inline] represents the rate parameter governing the efficiency of the replication machinery. Find the maximum likelihood estimator (MLE) of [IMAGE: /data/images/bt4001_2026T2_ET_FN_p8_Im1.webp|inline] based on the observed replication times.",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p8_Im3.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p8_Im5.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p8_Im6.webp|block]",
-        "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p8_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p8_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p8_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p8_Im5.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
@@ -322,6 +322,7 @@
         "/data/images/bt4001_2026T2_ET_FN_p7_Im16.webp",
         "/data/images/bt4001_2026T2_ET_FN_p7_Im17.webp",
         "/data/images/bt4001_2026T2_ET_FN_p8_Im1.webp",
+        "/data/images/bt4001_2026T2_ET_FN_p8_Im3.webp",
         "/data/images/bt4001_2026T2_ET_FN_p8_Im5.webp",
         "/data/images/bt4001_2026T2_ET_FN_p8_Im6.webp",
         "/data/images/bt4001_2026T2_ET_FN_p8_Im7.webp"
@@ -359,16 +360,17 @@
       "text": "Suppose you randomly color the signaling pathway using [IMAGE: /data/images/bt4001_2026T2_ET_FN_p9_Im3.webp|inline] colors. What is the probability that this pathway is a colorful pathway?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p9_Im5.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p9_Im7.webp|block]",
         "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p9_Im8.webp|block]",
-        "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p9_Im9.webp|block]",
-        ""
+        "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p9_Im9.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p9_Im8.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bt4001_2026T2_ET_FN_p9_Im7.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bt4001_2026T2_ET_FN_p9_Im3.webp",
+        "/data/images/bt4001_2026T2_ET_FN_p9_Im5.webp",
         "/data/images/bt4001_2026T2_ET_FN_p9_Im7.webp",
         "/data/images/bt4001_2026T2_ET_FN_p9_Im8.webp",
         "/data/images/bt4001_2026T2_ET_FN_p9_Im9.webp"

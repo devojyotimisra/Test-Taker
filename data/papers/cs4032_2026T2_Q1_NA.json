@@ -167,17 +167,18 @@
       "text": "A lexical analyzer processes the following input. [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p3_Im3.webp|block] The token specifications are listed in this order. [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im1.webp|block] The lexer follows both the Longest Match Rule and the Earlier Matching Rule . Which token sequence is generated?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im3.webp|block]",
         "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im5.webp|block]",
         "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im6.webp|block]",
-        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p4_Im3.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs4032_2026T2_Q1_NA_p3_Im3.webp",
         "/data/images/cs4032_2026T2_Q1_NA_p4_Im1.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p4_Im3.webp",
         "/data/images/cs4032_2026T2_Q1_NA_p4_Im5.webp",
         "/data/images/cs4032_2026T2_Q1_NA_p4_Im6.webp",
         "/data/images/cs4032_2026T2_Q1_NA_p4_Im7.webp"
@@ -299,16 +300,17 @@
       "text": "A compiler generates the following Three-Address Code (TAC) to compute the final bill amount after adding a fixed service charge to the item price. The compiler then applies the following optimizations in order: 1. Constant Folding 2. Copy Propagation 3. Dead Code Elimination [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p7_Im1.webp|block] Which of the following is the optimized TAC?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p7_Im3.webp|block]",
         "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p7_Im5.webp|block]",
         "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p7_Im6.webp|block]",
-        "",
         "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p8_Im1.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p7_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p7_Im3.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs4032_2026T2_Q1_NA_p7_Im1.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p7_Im3.webp",
         "/data/images/cs4032_2026T2_Q1_NA_p7_Im5.webp",
         "/data/images/cs4032_2026T2_Q1_NA_p7_Im6.webp",
         "/data/images/cs4032_2026T2_Q1_NA_p8_Im1.webp"
@@ -371,16 +373,17 @@
       "text": "A compiler generates the following Abstract Syntax Tree (AST) for an expression. [IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im6.webp|block] Which of the following Three-Address Code (TAC) sequences correctly represents the AST?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im8.webp|block]",
         "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im10.webp|block]",
         "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im11.webp|block]",
-        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p10_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p10_Im2.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im10.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs4032_2026T2_Q1_NA_p9_Im8.webp|block]",
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs4032_2026T2_Q1_NA_p9_Im6.webp",
+        "/data/images/cs4032_2026T2_Q1_NA_p9_Im8.webp",
         "/data/images/cs4032_2026T2_Q1_NA_p9_Im10.webp",
         "/data/images/cs4032_2026T2_Q1_NA_p9_Im11.webp",
         "/data/images/cs4032_2026T2_Q1_NA_p10_Im2.webp"

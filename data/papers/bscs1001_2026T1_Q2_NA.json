@@ -171,19 +171,20 @@
       "text": "We have a dictionary Registration where the keys are student names and the values are lists of courses they have registered for. We want to create a new dictionary CourseRoll where the keys are course names and the values are lists of students registered for each course. For example, if Registration is: [IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p8_Im1.webp|block] Identify the correct implementation(s).",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p9_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p9_Im3.webp|block]",
-        "",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p9_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p9_Im3.webp|block]",
         "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p10_Im1.webp|block]"
       ],
       "correct_answer": [
-        "",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p9_Im3.webp|block]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bscs1001_2026T1_Q2_NA_p8_Im1.webp",
+        "/data/images/bscs1001_2026T1_Q2_NA_p8_Im3.webp",
         "/data/images/bscs1001_2026T1_Q2_NA_p9_Im1.webp",
         "/data/images/bscs1001_2026T1_Q2_NA_p9_Im3.webp",
         "/data/images/bscs1001_2026T1_Q2_NA_p10_Im1.webp"
@@ -201,13 +202,13 @@
       "type": "multichoice",
       "options": [
         "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p11_Im1.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p12_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p12_Im3.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p13_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p12_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p12_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p13_Im2.webp|block]"
       ],
       "correct_answer": [
         "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p11_Im1.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p13_Im2.webp|block]"
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p12_Im3.webp|block]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,
@@ -232,15 +233,15 @@
       "text": "Let SortedL be a list of integers sorted in ascending order. The procedure deleteVal(SortedL, X) is supposed to delete first instance of X from SortedL (if it exists) while maintaining the sorted order. Identify the correct implementation(s). Note: Assume member function checks existence and remove function removes first occurrence in-place",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p14_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p14_Im3.webp|block]",
-        "",
-        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p15_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p15_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p14_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p14_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p15_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p15_Im3.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p14_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p14_Im3.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p15_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p15_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p14_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p15_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_Q2_NA_p15_Im3.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,

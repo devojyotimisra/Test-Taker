@@ -98,19 +98,20 @@
       "text": "The following pseudocode is executed using \"Scores\" dataset. Let M , P , and C be the lists of the sequence numbers of the students who have scored more than 75 marks in Mathematics, Physics, and Chemistry respectively. At the end of the execution, dict stores a dictionary with the sequence number of student mapped to the number of subjects in which the student has scored more than 75 marks. Choose the correct implementation(s) of nSub . [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p4_Im2.webp|block]",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p5_Im1.webp|block] [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p5_Im3.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p5_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p4_Im4.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p5_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p5_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p5_Im5.webp|block]"
       ],
       "correct_answer": [
-        "",
-        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p5_Im5.webp|block]"
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p4_Im4.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p5_Im3.webp|block]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bscs1001_2025T3_Q2_NA_p4_Im2.webp",
+        "/data/images/bscs1001_2025T3_Q2_NA_p4_Im4.webp",
         "/data/images/bscs1001_2025T3_Q2_NA_p5_Im1.webp",
         "/data/images/bscs1001_2025T3_Q2_NA_p5_Im3.webp",
         "/data/images/bscs1001_2025T3_Q2_NA_p5_Im5.webp"
@@ -129,12 +130,12 @@
       "options": [
         "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p6_Im3.webp|inline]",
         "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p6_Im5.webp|inline]",
-        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p7_Im1.webp|block] [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p7_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p7_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p7_Im3.webp|block]"
       ],
       "correct_answer": [
         "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p6_Im3.webp|inline]",
-        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p7_Im1.webp|block] [IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p7_Im3.webp|block]"
+        "[IMAGE: /data/images/bscs1001_2025T3_Q2_NA_p7_Im1.webp|block]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,

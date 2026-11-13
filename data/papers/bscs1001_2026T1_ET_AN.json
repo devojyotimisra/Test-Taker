@@ -98,15 +98,16 @@
       "text": "Let X and Y be two rows in the \"Scores\" table. We call X and Y partially matching if student X and Y are either have the same Total Marks or are from the same city, but not both. Let partialMatch(X, Y) be a procedure to find whether X and Y are partially matching. Choose the correct implementation of the procedure partialMatch .",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bscs1001_2026T1_ET_AN_p5_Im2.webp|block]",
         "[IMAGE: /data/images/bscs1001_2026T1_ET_AN_p5_Im3.webp|block]",
-        "",
-        "[IMAGE: /data/images/bscs1001_2026T1_ET_AN_p6_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T1_ET_AN_p6_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2026T1_ET_AN_p6_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2026T1_ET_AN_p6_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T1_ET_AN_p6_Im1.webp|block] [IMAGE: /data/images/bscs1001_2026T1_ET_AN_p6_Im3.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bscs1001_2026T1_ET_AN_p6_Im1.webp|block]",
       "marks": 6.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/bscs1001_2026T1_ET_AN_p5_Im2.webp",
         "/data/images/bscs1001_2026T1_ET_AN_p5_Im3.webp",
         "/data/images/bscs1001_2026T1_ET_AN_p6_Im1.webp",
         "/data/images/bscs1001_2026T1_ET_AN_p6_Im3.webp"

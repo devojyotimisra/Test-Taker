@@ -30,16 +30,17 @@
       "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p1_Im3.webp|block] What will the output be?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p2_Im2.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p2_Im4.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p2_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p2_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p2_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p2_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p2_Im4.webp|block]",
       "marks": 6.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2005_2026T1_Q2_NA_p1_Im3.webp",
+        "/data/images/cs2005_2026T1_Q2_NA_p2_Im2.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p2_Im4.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p2_Im5.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p2_Im6.webp"
@@ -322,12 +323,12 @@
       "text": "Consider the Java code given below. [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p13_Im1.webp|block] Choose the correct option to fill in place of [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p13_Im2.webp|inline] so that the output is: [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p13_Im3.webp|block] Please note the following methods from types [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p13_Im4.webp|inline] and [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p13_Im5.webp|inline] : [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p13_Im6.webp|inline] : Removes the object at the top of this stack and returns it. [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p13_Im7.webp|inline] : Retrieves and removes the head of this deque, or returns null if empty. [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p13_Im8.webp|inline] : Retrieves, but does not remove, the head of this deque, or returns null if empty.",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p13_Im10.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p13_Im11.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p14_Im2.webp|block]",
-        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p14_Im4.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p14_Im4.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p14_Im4.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p14_Im2.webp|block]",
       "marks": 7.0,
       "negative_marks": 0.0,
       "images": [
@@ -339,6 +340,7 @@
         "/data/images/cs2005_2026T1_Q2_NA_p13_Im6.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p13_Im7.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p13_Im8.webp",
+        "/data/images/cs2005_2026T1_Q2_NA_p13_Im10.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p13_Im11.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p14_Im2.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p14_Im4.webp"
@@ -355,12 +357,12 @@
       "text": "Consider the code given below about an aircraft maintenance record. [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p14_Im5.webp|block] What will the output be?",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p15_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p15_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p15_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p15_Im3.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p15_Im4.webp|block]",
-        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p15_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p15_Im5.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p15_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p15_Im3.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p15_Im1.webp|block]",
       "marks": 7.0,
       "negative_marks": 0.0,
       "images": [
@@ -382,16 +384,17 @@
       "text": "Consider the following Java code that uses chained exceptions in the context of a sports match analysis system. [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p16_Im1.webp|block] What can the output of this code be?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p16_Im3.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p16_Im5.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p16_Im6.webp|inline] [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p17_Im2.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p16_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p17_Im2.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p16_Im5.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p16_Im3.webp|block]",
       "marks": 7.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2005_2026T1_Q2_NA_p16_Im1.webp",
+        "/data/images/cs2005_2026T1_Q2_NA_p16_Im3.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p16_Im5.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p16_Im6.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p17_Im2.webp"
@@ -408,20 +411,21 @@
       "text": "Consider the Java code given below that should print the names of individuals whose BMI is between 18 and 25 (both inclusive). [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p17_Im3.webp|block] Choose the correct option(s) to fill in place of [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p17_Im4.webp|inline] to obtain the right answer.",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p17_Im5.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p17_Im6.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p18_Im2.webp|block]",
-        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p18_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p18_Im3.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p18_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p18_Im2.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p18_Im3.webp|block]"
       ],
       "marks": 8.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2005_2026T1_Q2_NA_p17_Im3.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p17_Im4.webp",
+        "/data/images/cs2005_2026T1_Q2_NA_p17_Im5.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p17_Im6.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p18_Im2.webp",
         "/data/images/cs2005_2026T1_Q2_NA_p18_Im3.webp"
@@ -438,14 +442,14 @@
       "text": "Consider the code given below. [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p18_Im4.webp|inline] maps each element of [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p18_Im5.webp|inline] to its frequency of occurrence in list. [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p18_Im6.webp|block] Identify the appropriate option(s) to fill in the blank at [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p18_Im7.webp|inline] , such that the output is: [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p18_Im8.webp|block]",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p19_Im1.webp|block] [IMAGE: /data/images/cs2005_2026T1_Q2_NA_p19_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p19_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p19_Im3.webp|block]",
         "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p19_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p19_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p19_Im6.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p19_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p19_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2005_2026T1_Q2_NA_p19_Im6.webp|block]"
       ],
       "marks": 7.0,
       "negative_marks": 0.0,

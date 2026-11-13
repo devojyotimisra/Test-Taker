@@ -166,16 +166,17 @@
       "text": "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p6_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p6_Im3.webp|block]",
         "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p6_Im4.webp|block]",
-        "",
-        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p7_Im1.webp|block] [IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p7_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p7_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p7_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p7_Im1.webp|block] [IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p7_Im3.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p7_Im1.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bscs1001_2025T3_Q1_NA_p6_Im1.webp",
+        "/data/images/bscs1001_2025T3_Q1_NA_p6_Im3.webp",
         "/data/images/bscs1001_2025T3_Q1_NA_p6_Im4.webp",
         "/data/images/bscs1001_2025T3_Q1_NA_p7_Im1.webp",
         "/data/images/bscs1001_2025T3_Q1_NA_p7_Im3.webp"
@@ -215,17 +216,18 @@
       "text": "Based on the \"Library\" dataset, the Procedure biGenre(A) returns True if the author A has written more Fiction books than Non-Fiction books. Assume that the dataset has only these two genres. Choose the correct pseudocode for Procedure biGenre(A).",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p9_Im1.webp|block] [IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p9_Im3.webp|block]",
-        "",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p8_Im3.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p9_Im1.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p9_Im3.webp|block]",
         "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p10_Im1.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p9_Im1.webp|block] [IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p9_Im3.webp|block]"
+        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p9_Im1.webp|block]"
       ],
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/bscs1001_2025T3_Q1_NA_p8_Im3.webp",
         "/data/images/bscs1001_2025T3_Q1_NA_p9_Im1.webp",
         "/data/images/bscs1001_2025T3_Q1_NA_p9_Im3.webp",
         "/data/images/bscs1001_2025T3_Q1_NA_p10_Im1.webp"
@@ -292,19 +294,20 @@
       "text": "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p13_Im1.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p13_Im3.webp|block]",
         "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p13_Im5.webp|block]",
         "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p13_Im6.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p13_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p13_Im7.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p13_Im6.webp|block]",
-        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p13_Im7.webp|block]"
+        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p13_Im5.webp|block]",
+        "[IMAGE: /data/images/bscs1001_2025T3_Q1_NA_p13_Im6.webp|block]"
       ],
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bscs1001_2025T3_Q1_NA_p13_Im1.webp",
+        "/data/images/bscs1001_2025T3_Q1_NA_p13_Im3.webp",
         "/data/images/bscs1001_2025T3_Q1_NA_p13_Im5.webp",
         "/data/images/bscs1001_2025T3_Q1_NA_p13_Im6.webp",
         "/data/images/bscs1001_2025T3_Q1_NA_p13_Im7.webp"

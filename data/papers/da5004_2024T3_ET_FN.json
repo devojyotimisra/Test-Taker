@@ -115,24 +115,25 @@
       "text": "Consider the C4 pipeline. Which of the following will NOT pass through it as it is?",
       "type": "multichoice",
       "options": [
-        "",
+        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p2_Im3.webp|block]",
         "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im1.webp|block]",
-        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im3.webp|inline] [IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im4.webp|block]",
+        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im4.webp|block]",
         "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im5.webp|block]",
         "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im7.webp|block]",
-        "",
         "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im8.webp|inline]"
       ],
       "correct_answer": [
-        "",
+        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p2_Im3.webp|block]",
         "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im1.webp|block]",
-        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im3.webp|inline] [IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im4.webp|block]",
-        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im5.webp|block]",
-        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im7.webp|block]"
+        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im3.webp|inline]",
+        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im4.webp|block]",
+        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p3_Im5.webp|block]"
       ],
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/da5004_2024T3_ET_FN_p2_Im3.webp",
         "/data/images/da5004_2024T3_ET_FN_p3_Im1.webp",
         "/data/images/da5004_2024T3_ET_FN_p3_Im3.webp",
         "/data/images/da5004_2024T3_ET_FN_p3_Im4.webp",
@@ -321,10 +322,10 @@
       "options": [
         "[IMAGE: /data/images/da5004_2024T3_ET_FN_p6_Im6.webp|inline]",
         "[IMAGE: /data/images/da5004_2024T3_ET_FN_p6_Im7.webp|inline]",
-        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p6_Im9.webp|inline] [IMAGE: /data/images/da5004_2024T3_ET_FN_p6_Im10.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p6_Im9.webp|inline]",
+        "[IMAGE: /data/images/da5004_2024T3_ET_FN_p6_Im10.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da5004_2024T3_ET_FN_p6_Im9.webp|inline] [IMAGE: /data/images/da5004_2024T3_ET_FN_p6_Im10.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da5004_2024T3_ET_FN_p6_Im9.webp|inline]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [

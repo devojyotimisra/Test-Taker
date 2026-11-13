@@ -51,19 +51,20 @@
       "text": "Which of the following is the correct way to represent policy for policy search methods? Assume [IMAGE: /data/images/da5007_2025T3_Q2_NA_p1_Im3.webp|inline] represents a real-valued parameter.",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im1.webp|block] [IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im3.webp|block]",
+        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p1_Im4.webp|block]",
+        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im1.webp|block]",
+        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im3.webp|block]",
         "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im4.webp|block]",
-        "",
         "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im5.webp|inline]"
       ],
       "correct_answer": [
-        ""
+        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p1_Im4.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/da5007_2025T3_Q2_NA_p1_Im3.webp",
+        "/data/images/da5007_2025T3_Q2_NA_p1_Im4.webp",
         "/data/images/da5007_2025T3_Q2_NA_p2_Im1.webp",
         "/data/images/da5007_2025T3_Q2_NA_p2_Im3.webp",
         "/data/images/da5007_2025T3_Q2_NA_p2_Im4.webp",
@@ -81,14 +82,14 @@
       "text": "Recall the incremental update rule for REINFORCE: [IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im6.webp|block] Consider the following binary-bandit problem: [IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im7.webp|block] Which of the following expressions are equivalent to [IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im8.webp|inline] ?",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im11.webp|inline] [IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im12.webp|block]",
-        "",
+        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im9.webp|block]",
+        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im11.webp|inline]",
+        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im12.webp|block]",
         "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p3_Im2.webp|inline]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im11.webp|inline] [IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im12.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im11.webp|inline]",
+        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p2_Im12.webp|block]"
       ],
       "marks": 3.0,
       "negative_marks": 0.0,
@@ -96,6 +97,7 @@
         "/data/images/da5007_2025T3_Q2_NA_p2_Im6.webp",
         "/data/images/da5007_2025T3_Q2_NA_p2_Im7.webp",
         "/data/images/da5007_2025T3_Q2_NA_p2_Im8.webp",
+        "/data/images/da5007_2025T3_Q2_NA_p2_Im9.webp",
         "/data/images/da5007_2025T3_Q2_NA_p2_Im11.webp",
         "/data/images/da5007_2025T3_Q2_NA_p2_Im12.webp",
         "/data/images/da5007_2025T3_Q2_NA_p3_Im2.webp"
@@ -257,18 +259,19 @@
       "text": "Perform one Step of semi-gradient TD using this transition. What would be [IMAGE: /data/images/da5007_2025T3_Q2_NA_p6_Im3.webp|inline] if [IMAGE: /data/images/da5007_2025T3_Q2_NA_p6_Im4.webp|inline] ?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p6_Im6.webp|block]",
         "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p6_Im8.webp|block]",
         "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p6_Im9.webp|block]",
-        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p6_Im10.webp|block]",
-        ""
+        "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p6_Im10.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p6_Im9.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/da5007_2025T3_Q2_NA_p6_Im8.webp|block]",
       "marks": 4.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/da5007_2025T3_Q2_NA_p6_Im3.webp",
         "/data/images/da5007_2025T3_Q2_NA_p6_Im4.webp",
         "/data/images/da5007_2025T3_Q2_NA_p5_Im1.webp",
+        "/data/images/da5007_2025T3_Q2_NA_p6_Im6.webp",
         "/data/images/da5007_2025T3_Q2_NA_p6_Im8.webp",
         "/data/images/da5007_2025T3_Q2_NA_p6_Im9.webp",
         "/data/images/da5007_2025T3_Q2_NA_p6_Im10.webp"

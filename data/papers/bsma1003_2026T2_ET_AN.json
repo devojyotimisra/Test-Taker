@@ -96,22 +96,23 @@
       "text": "Let [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im15.webp|inline] be an arbitrary [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im16.webp|inline] matrix. Which of the following statements are necessarily true ?",
       "type": "multichoice",
       "options": [
-        "",
-        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im18.webp|inline] [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im19.webp|block]",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im17.webp|block]",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im18.webp|inline]",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im19.webp|block]",
         "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im20.webp|block]",
-        "",
         "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im21.webp|inline]"
       ],
       "correct_answer": [
-        "",
-        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im20.webp|block]",
-        ""
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im17.webp|block]",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im19.webp|block]",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p2_Im20.webp|block]"
       ],
       "marks": 6.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bsma1003_2026T2_ET_AN_p2_Im15.webp",
         "/data/images/bsma1003_2026T2_ET_AN_p2_Im16.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p2_Im17.webp",
         "/data/images/bsma1003_2026T2_ET_AN_p2_Im18.webp",
         "/data/images/bsma1003_2026T2_ET_AN_p2_Im19.webp",
         "/data/images/bsma1003_2026T2_ET_AN_p2_Im20.webp",
@@ -202,13 +203,13 @@
       "text": "Consider the following two conditions for a function [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im7.webp|inline] : [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im8.webp|inline] [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im9.webp|inline] is differentiable in [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im10.webp|inline] . [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im11.webp|inline] There are infinitely many critical points. Which of the following functions [IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im12.webp|inline] satisfy both of the above conditions?",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im13.webp|block]",
         "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im14.webp|block]",
-        "",
         "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im15.webp|inline] .",
         "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im16.webp|inline] ."
       ],
       "correct_answer": [
-        "",
+        "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im14.webp|block]",
         "[IMAGE: /data/images/bsma1003_2026T2_ET_AN_p4_Im15.webp|inline] ."
       ],
       "marks": 7.0,
@@ -220,6 +221,7 @@
         "/data/images/bsma1003_2026T2_ET_AN_p4_Im10.webp",
         "/data/images/bsma1003_2026T2_ET_AN_p4_Im11.webp",
         "/data/images/bsma1003_2026T2_ET_AN_p4_Im12.webp",
+        "/data/images/bsma1003_2026T2_ET_AN_p4_Im13.webp",
         "/data/images/bsma1003_2026T2_ET_AN_p4_Im14.webp",
         "/data/images/bsma1003_2026T2_ET_AN_p4_Im15.webp",
         "/data/images/bsma1003_2026T2_ET_AN_p4_Im16.webp"

@@ -189,16 +189,17 @@
       "text": "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p4_Im1.webp|block]",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p4_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p4_Im5.webp|block]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p4_Im6.webp|block]",
-        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p4_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p4_Im7.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p4_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p4_Im5.webp|block]",
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2008_2024T2_ET_AN_p4_Im1.webp",
+        "/data/images/cs2008_2024T2_ET_AN_p4_Im3.webp",
         "/data/images/cs2008_2024T2_ET_AN_p4_Im5.webp",
         "/data/images/cs2008_2024T2_ET_AN_p4_Im6.webp",
         "/data/images/cs2008_2024T2_ET_AN_p4_Im7.webp"
@@ -312,8 +313,8 @@
       "options": [
         "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p6_Im4.webp|inline]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p6_Im5.webp|inline]",
-        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p6_Im6.webp|inline] [IMAGE: /data/images/cs2008_2024T2_ET_AN_p6_Im7.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p6_Im6.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p6_Im7.webp|block]"
       ],
       "correct_answer": "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p6_Im5.webp|inline]",
       "marks": 2.0,
@@ -573,19 +574,20 @@
       "text": "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p12_Im4.webp|block]",
       "type": "multichoice",
       "options": [
+        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p12_Im5.webp|block]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p12_Im6.webp|block]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p12_Im7.webp|block]",
-        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p12_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p12_Im8.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p12_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p12_Im5.webp|block]",
+        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p12_Im8.webp|block]"
       ],
       "marks": 2.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/cs2008_2024T2_ET_AN_p12_Im4.webp",
+        "/data/images/cs2008_2024T2_ET_AN_p12_Im5.webp",
         "/data/images/cs2008_2024T2_ET_AN_p12_Im6.webp",
         "/data/images/cs2008_2024T2_ET_AN_p12_Im7.webp",
         "/data/images/cs2008_2024T2_ET_AN_p12_Im8.webp"
@@ -710,13 +712,13 @@
       "text": "Which of the following is correct?",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p14_Im3.webp|inline] [IMAGE: /data/images/cs2008_2024T2_ET_AN_p14_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p14_Im3.webp|inline]",
+        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p14_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p14_Im5.webp|block]",
-        "",
         "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p14_Im6.webp|inline]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p14_Im3.webp|inline] [IMAGE: /data/images/cs2008_2024T2_ET_AN_p14_Im4.webp|block]",
+        "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p14_Im3.webp|inline]",
         "[IMAGE: /data/images/cs2008_2024T2_ET_AN_p14_Im6.webp|inline]"
       ],
       "marks": 3.0,

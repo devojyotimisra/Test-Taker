@@ -148,6 +148,11 @@ def parse_with_pdfplumber(
                     except Exception:
                         pass
 
+    def line_text(line: Dict[str, Any]) -> str:
+        if line["type"] != "text_line":
+            return ""
+        return " ".join(tok["text"] for tok in line["tokens"] if tok["kind"] == "word").strip()
+
     all_lines: List[Dict[str, Any]] = []
 
     with pdfplumber.open(pdf_path) as pdf:
@@ -197,7 +202,7 @@ def parse_with_pdfplumber(
             for img_meta in page.images:
                 img_name = img_meta.get("name", "")
                 srcsize = img_meta.get("srcsize")
-                if srcsize == (16, 16) or (abs(img_meta["width"] - 12.0) < 1.0 and abs(img_meta["height"] - 12.0) < 1.0):
+                if (srcsize == (16, 16) and img_meta.get("x0", 0) < 130) or (abs(img_meta["width"] - 12.0) < 1.5 and abs(img_meta["height"] - 12.0) < 1.5 and img_meta.get("x0", 0) < 130):
                     icon_cls = icon_types.get((p_idx, img_name))
                     if icon_cls:
                         for tl in text_lines:
@@ -206,9 +211,38 @@ def parse_with_pdfplumber(
                                 break
                     continue
 
-                is_inline = img_meta["height"] < 35.0
                 attached = False
-                if is_inline:
+                if img_meta["x0"] > 100:
+                    best_opt_tl = None
+                    best_opt_diff = 999.0
+                    for tl in text_lines:
+                        first_tok = tl["tokens"][0] if tl["tokens"] else {}
+                        is_opt_line = bool(OPTID_RE.match(line_text(tl))) and first_tok.get("x0", 0) < 120
+                        if is_opt_line:
+                            diff_bot = abs(img_meta["bottom"] - tl["bottom"])
+                            if diff_bot <= 8.0 and diff_bot < best_opt_diff:
+                                best_opt_diff = diff_bot
+                                best_opt_tl = tl
+                            elif tl["bottom"] >= img_meta["top"] and tl["top"] <= img_meta["bottom"] + 5.0 and diff_bot <= 15.0 and diff_bot < best_opt_diff:
+                                best_opt_diff = diff_bot
+                                best_opt_tl = tl
+                    if best_opt_tl is not None:
+                        best_opt_tl["tokens"].append(
+                            {
+                                "kind": "inline_image",
+                                "x0": img_meta["x0"],
+                                "x1": img_meta["x1"],
+                                "top": img_meta["top"],
+                                "bottom": img_meta["bottom"],
+                                "page": p_idx,
+                                "name": img_name,
+                                "width": img_meta["width"],
+                                "height": img_meta["height"],
+                            }
+                        )
+                        attached = True
+
+                if not attached and img_meta["height"] < 35.0:
                     best_tl = None
                     best_diff = 999.0
                     for tl in text_lines:
@@ -282,10 +316,11 @@ def parse_with_pdfplumber(
             if tok["kind"] == "word":
                 parts.append(tok["text"])
             elif tok["kind"] == "inline_image":
+                mode = "block" if tok.get("height", 0) >= 35.0 else "inline"
                 key = (tok["page"], tok["name"])
                 b64 = pypdf_b64.get(key)
                 if embed_base64 and b64:
-                    parts.append(f"[IMAGE: {b64}|inline]")
+                    parts.append(f"[IMAGE: {b64}|{mode}]")
                 else:
                     img_obj = pypdf_images.get(key)
                     filename = f"{stem}_p{tok['page']}_{tok['name']}.webp"
@@ -300,13 +335,8 @@ def parse_with_pdfplumber(
                         except Exception:
                             pass
                     rel = f"{image_prefix}/{filename}" if image_prefix else filename
-                    parts.append(f"[IMAGE: {rel}|inline]")
+                    parts.append(f"[IMAGE: {rel}|{mode}]")
         return " ".join(parts).strip()
-
-    def line_text(line: Dict[str, Any]) -> str:
-        if line["type"] != "text_line":
-            return ""
-        return " ".join(tok["text"] for tok in line["tokens"] if tok["kind"] == "word").strip()
 
     questions: List[Dict[str, Any]] = []
     groups: Dict[str, Dict[str, Any]] = {}
@@ -315,9 +345,11 @@ def parse_with_pdfplumber(
     current_section = ""
     paper_subject = ""
     state = "skip"
+    pending_option_images: List[str] = []
 
     def finish_q(next_num: Optional[int] = None):
         nonlocal current_q, paper_subject
+        pending_option_images.clear()
         if current_q is not None:
             if current_q["number"] is None:
                 if next_num is not None and next_num > 1:
@@ -515,6 +547,7 @@ def parse_with_pdfplumber(
 
         if re.match(r"^\s*Options\s*:\s*$", plain, re.I) and current_q:
             state = "options"
+            pending_option_images.clear()
             continue
 
         if re.match(r"^\s*Possible Answers\s*:", plain, re.I) and current_q:
@@ -524,12 +557,21 @@ def parse_with_pdfplumber(
                 current_q["answers"].append(rest)
             continue
 
+        if state == "options" and line["type"] == "image_block":
+            rendered = render_token_line(line)
+            if rendered:
+                pending_option_images.append(rendered)
+            continue
+
         om = OPTID_RE.match(plain) if plain else None
         if om and current_q and state in ("options", "option", "body"):
             first_word_color = line["tokens"][0].get("color") if line.get("tokens") else None
             is_correct = is_green_color(first_word_color) or (line.get("icon") == "tick")
             rendered = render_token_line(line)
             opt_text = re.sub(r"^\s*\d{8,}\s*\.\s*", "", rendered).strip()
+            if pending_option_images:
+                opt_text = f"{' '.join(pending_option_images)} {opt_text}".strip()
+                pending_option_images.clear()
             current_q["options"].append({
                 "oid": om.group(1),
                 "text": opt_text,

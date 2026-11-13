@@ -88,12 +88,12 @@
       "text": "Let [IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im7.webp|inline] be a linear transformation defined by [IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im8.webp|inline] . Let [IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im9.webp|inline] and [IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im10.webp|inline] Choose the correct option for the matrix representation of [IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im11.webp|inline] with respect to ordered bases [IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im12.webp|inline] for the domain and [IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im13.webp|inline] for the co-domain.",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im14.webp|block]",
         "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im15.webp|block]",
         "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im16.webp|block]",
-        "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im17.webp|block]",
-        ""
+        "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im17.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im17.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p2_Im16.webp|block]",
       "marks": 5.0,
       "negative_marks": 0.0,
       "images": [
@@ -104,6 +104,7 @@
         "/data/images/bsma1003_2026T1_ET_FN_p2_Im11.webp",
         "/data/images/bsma1003_2026T1_ET_FN_p2_Im12.webp",
         "/data/images/bsma1003_2026T1_ET_FN_p2_Im13.webp",
+        "/data/images/bsma1003_2026T1_ET_FN_p2_Im14.webp",
         "/data/images/bsma1003_2026T1_ET_FN_p2_Im15.webp",
         "/data/images/bsma1003_2026T1_ET_FN_p2_Im16.webp",
         "/data/images/bsma1003_2026T1_ET_FN_p2_Im17.webp"
@@ -153,25 +154,26 @@
       "text": "Choose all the subspaces isomorphic to [IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im10.webp|inline] .",
       "type": "multichoice",
       "options": [
-        ".",
-        "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im12.webp|inline] . [IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im13.webp|block]",
-        ". [IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im15.webp|block]",
-        "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im14.webp|inline] is the column space of the matrix .",
+        "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im11.webp|block] .",
+        "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im12.webp|inline] .",
+        "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im13.webp|block] .",
+        "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im14.webp|inline] is the column space of the matrix [IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im15.webp|block] .",
         "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im16.webp|inline] ."
       ],
       "correct_answer": [
-        ".",
-        "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im14.webp|inline] is the column space of the matrix .",
+        "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im11.webp|block] .",
+        "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im14.webp|inline] is the column space of the matrix [IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im15.webp|block] .",
         "[IMAGE: /data/images/bsma1003_2026T1_ET_FN_p3_Im16.webp|inline] ."
       ],
       "marks": 7.0,
       "negative_marks": 0.0,
       "images": [
         "/data/images/bsma1003_2026T1_ET_FN_p3_Im10.webp",
+        "/data/images/bsma1003_2026T1_ET_FN_p3_Im11.webp",
         "/data/images/bsma1003_2026T1_ET_FN_p3_Im12.webp",
         "/data/images/bsma1003_2026T1_ET_FN_p3_Im13.webp",
-        "/data/images/bsma1003_2026T1_ET_FN_p3_Im15.webp",
         "/data/images/bsma1003_2026T1_ET_FN_p3_Im14.webp",
+        "/data/images/bsma1003_2026T1_ET_FN_p3_Im15.webp",
         "/data/images/bsma1003_2026T1_ET_FN_p3_Im16.webp"
       ],
       "image_locations": [],

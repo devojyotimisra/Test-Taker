@@ -155,7 +155,7 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 A company collects 40000 samples (examples) to build a Machine Learning model for an application. They decide to use 30% of the total samples for testing (to be stored in the variable trainset ) and the rest 70% for training (to be stored in the variable trainset ). They also want to sample the same set of samples across multiple runs. Which of the following line (statement) achieves this task? Assume that all samples are stored in the variable data .",
       "type": "MCQ",
       "options": [
-        "",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p5_Im2.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p5_Im3.webp|inline]",
         "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p5_Im5.webp|inline]",
         "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p5_Im6.webp|inline]"
@@ -164,6 +164,7 @@
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p5_Im2.webp",
         "/data/images/cs2008_2023T1_Q1_AN_p5_Im3.webp",
         "/data/images/cs2008_2023T1_Q1_AN_p5_Im5.webp",
         "/data/images/cs2008_2023T1_Q1_AN_p5_Im6.webp"
@@ -201,16 +202,17 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider the following ML task/steps for a regression dataset: 1. Read the data from a file (named \u2018dataset.csv\u2019). It has 7 columns. The last column is the target variable, the rest of them are numerical features. 2. Drop rows with missing values. 3. After removing samples with missing values split the data into training and test sets. Take about the first 80% of rows in the training set and the rest of them into the test set. 4. Train a simple linear regression model, with intercept, on the training set. 5. Report R2 score on the test set. Which of the following code snippets correctly accomplishes the above task? Assume necessary imports.",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p7_Im2.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p7_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p7_Im5.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p8_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p8_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p8_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p8_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p7_Im4.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p7_Im2.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p7_Im2.webp",
         "/data/images/cs2008_2023T1_Q1_AN_p7_Im4.webp",
         "/data/images/cs2008_2023T1_Q1_AN_p7_Im5.webp",
         "/data/images/cs2008_2023T1_Q1_AN_p8_Im1.webp",
@@ -251,15 +253,16 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 How to make SGDRegressor stop after 1000 epochs?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p9_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p9_Im4.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p9_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p9_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p9_Im6.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p9_Im6.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p9_Im5.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p9_Im3.webp",
         "/data/images/cs2008_2023T1_Q1_AN_p9_Im4.webp",
         "/data/images/cs2008_2023T1_Q1_AN_p9_Im5.webp",
         "/data/images/cs2008_2023T1_Q1_AN_p9_Im6.webp"
@@ -298,12 +301,12 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Consider following dataset: [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p10_Im3.webp|block] Which one of the following code snippets will correctly preprocess above data? Assume necessary imports. The data is stored in a dataframe named X.",
       "type": "MCQ",
       "options": [
-        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p11_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p11_Im3.webp|block]",
-        "",
-        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p12_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p12_Im3.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p11_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p11_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p12_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p12_Im3.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p11_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p11_Im3.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p11_Im1.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
@@ -375,15 +378,16 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 Which of the following code is correct if we want the mean absolute error to be minimized during the computation of cross_val_score?",
       "type": "MCQ",
       "options": [
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im5.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im6.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im7.webp|block]",
-        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im8.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im8.webp|block]"
       ],
-      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im8.webp|block]",
+      "correct_answer": "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p14_Im7.webp|block]",
       "marks": 1.0,
       "negative_marks": 0.0,
       "images": [
+        "/data/images/cs2008_2023T1_Q1_AN_p14_Im5.webp",
         "/data/images/cs2008_2023T1_Q1_AN_p14_Im6.webp",
         "/data/images/cs2008_2023T1_Q1_AN_p14_Im7.webp",
         "/data/images/cs2008_2023T1_Q1_AN_p14_Im8.webp"
@@ -554,14 +558,14 @@
       "text": "Mandatory : No Calculator : None Response Time : N.A Think Time : N.A Minimum Instruction Time : 0 [MSQ] Which of the following will produce constantly reducing learning rates?",
       "type": "multichoice",
       "options": [
-        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im1.webp|block] [IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im1.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im3.webp|block]",
         "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im5.webp|block]",
-        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im6.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im6.webp|block]"
       ],
       "correct_answer": [
-        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im5.webp|block]",
-        ""
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im3.webp|block]",
+        "[IMAGE: /data/images/cs2008_2023T1_Q1_AN_p19_Im6.webp|block]"
       ],
       "marks": 1.0,
       "negative_marks": 0.0,

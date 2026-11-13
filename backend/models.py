@@ -13,6 +13,9 @@ class Question(BaseModel):
     negative_marks: float = 0.0
     images: List[str] = []
     image_locations: List[int] = []
+    comprehension_passage: Optional[str] = None
+    group_id: Optional[str] = None
+    section_name: Optional[str] = None
 
 
 class Paper(BaseModel):

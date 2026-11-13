@@ -11,6 +11,9 @@ export interface Question {
   negative_marks: number;
   images: string[];
   image_locations: number[];
+  comprehension_passage?: string | null;
+  group_id?: string | null;
+  section_name?: string | null;
 }
 
 export interface Paper {

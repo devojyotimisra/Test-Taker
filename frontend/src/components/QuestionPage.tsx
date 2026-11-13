@@ -193,7 +193,7 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
             <Card className="flex-1 flex flex-col border-border shadow-md overflow-hidden min-h-0">
               <CardHeader className="shrink-0 pb-2.5 pt-3 px-3.5 sm:px-6 border-b border-border/60">
                 <div className="flex flex-wrap items-center justify-between gap-2">
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 flex-wrap">
                     <Badge variant="default" className="text-xs px-2.5 py-0.5">
                       Question {currentIndex + 1}
                     </Badge>
@@ -203,6 +203,11 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                         "Multiple Select (MSQ)"}
                       {currentQ.type === "numeric" && "Numerical Answer"}
                     </Badge>
+                    {currentQ.section_name && (
+                      <Badge variant="secondary" className="text-xs hidden sm:inline-flex">
+                        {currentQ.section_name}
+                      </Badge>
+                    )}
                   </div>
 
                   <div className="flex items-center gap-2">
@@ -219,8 +224,21 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
 
               <CardContent className="flex-1 overflow-y-auto no-scrollbar p-5 sm:p-6 min-h-0">
                 <div className="min-h-full flex flex-col justify-between gap-6 pb-2">
-                  <div className="text-sm sm:text-base leading-relaxed font-sans text-foreground shrink-0">
-                    <FormulaRenderer text={currentQ.text} />
+                  <div className="flex flex-col gap-4 shrink-0">
+                    {currentQ.comprehension_passage && (
+                      <div className="p-4 rounded-xl border border-primary/30 bg-primary/5 text-foreground space-y-2">
+                        <div className="flex items-center gap-1.5 text-xs font-bold text-primary uppercase tracking-wider">
+                          <Info className="h-4 w-4" />
+                          <span>Comprehension / Common Data Context</span>
+                        </div>
+                        <div className="text-xs sm:text-sm leading-relaxed text-foreground/90 border-t border-primary/20 pt-2.5">
+                          <FormulaRenderer text={currentQ.comprehension_passage} />
+                        </div>
+                      </div>
+                    )}
+                    <div className="text-sm sm:text-base leading-relaxed font-sans text-foreground">
+                      <FormulaRenderer text={currentQ.text} />
+                    </div>
                   </div>
 
                   <div className="flex flex-col gap-3 my-auto">

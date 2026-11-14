@@ -282,21 +282,40 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                 <div className="flex flex-wrap items-center justify-between gap-2">
                   <div className="flex items-center gap-2 flex-wrap">
                     <Badge variant="default" className="text-xs px-2.5 py-0.5">
-                      Question {currentIndex + 1}
+                      <span className="sm:hidden">Q{currentIndex + 1}</span>
+                      <span className="hidden sm:inline">Question {currentIndex + 1}</span>
                     </Badge>
                     <Badge variant="outline" className="text-xs">
-                      {currentQ.type === "MCQ" && "Multiple Choice"}
-                      {currentQ.type === "multichoice" &&
-                        "Multiple Select (MSQ) · Select all that apply"}
-                      {currentQ.type === "numeric" &&
-                        "Numerical / Short Answer"}
+                      {currentQ.type === "MCQ" && (
+                        <>
+                          <span className="sm:hidden">MCQ</span>
+                          <span className="hidden sm:inline">Multiple Choice</span>
+                        </>
+                      )}
+                      {currentQ.type === "multichoice" && (
+                        <>
+                          <span className="sm:hidden">MSQ</span>
+                          <span className="hidden sm:inline">
+                            Multiple Select (MSQ) · Select all that apply
+                          </span>
+                        </>
+                      )}
+                      {currentQ.type === "numeric" && (
+                        <>
+                          <span className="sm:hidden">Numerical</span>
+                          <span className="hidden sm:inline">
+                            Numerical / Short Answer
+                          </span>
+                        </>
+                      )}
                     </Badge>
                     {currentQ.group_id && (
                       <Badge
                         variant="secondary"
                         className="text-xs bg-primary/10 text-primary border-primary/20"
                       >
-                        Comprehension Set
+                        <span className="sm:hidden">Comprehension</span>
+                        <span className="hidden sm:inline">Comprehension Set</span>
                       </Badge>
                     )}
                     {markedQuestions.has(currentQ.id) && (
@@ -305,7 +324,8 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                         className="text-xs bg-primary/15 text-primary border-primary/30 flex items-center gap-1"
                       >
                         <Bookmark className="h-3 w-3 fill-primary" />
-                        <span>Marked for Review</span>
+                        <span className="sm:hidden">Marked</span>
+                        <span className="hidden sm:inline">Marked for Review</span>
                       </Badge>
                     )}
 
@@ -313,11 +333,11 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
 
                   <div className="flex items-center gap-2">
                     <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-primary/10 border border-primary/20 text-primary text-xs font-semibold">
-                      <span>Awarded:</span>
+                      <span className="hidden sm:inline">Awarded:</span>
                       <span className="font-mono text-sm">
                         +{currentQ.marks.toFixed(2)}
                       </span>
-                      <span>Marks</span>
+                      <span className="hidden sm:inline">Marks</span>
                     </div>
                   </div>
                 </div>
@@ -420,12 +440,14 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                               {currentScoreDetail.status === "correct" ? (
                                 <>
                                   <Check className="h-3.5 w-3.5 stroke-[2.5]" />
-                                  <span>Right Answer</span>
+                                  <span className="sm:hidden">Right</span>
+                                  <span className="hidden sm:inline">Right Answer</span>
                                 </>
                               ) : (
                                 <>
                                   <X className="h-3.5 w-3.5 stroke-[2.5]" />
-                                  <span>Wrong Answer</span>
+                                  <span className="sm:hidden">Wrong</span>
+                                  <span className="hidden sm:inline">Wrong Answer</span>
                                 </>
                               )}
                             </span>
@@ -474,12 +496,14 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                               {currentScoreDetail.status === "correct" ? (
                                 <>
                                   <Check className="h-3.5 w-3.5 stroke-[2.5]" />
-                                  <span>Right Answer</span>
+                                  <span className="sm:hidden">Right</span>
+                                  <span className="hidden sm:inline">Right Answer</span>
                                 </>
                               ) : (
                                 <>
                                   <X className="h-3.5 w-3.5 stroke-[2.5]" />
-                                  <span>Wrong Answer</span>
+                                  <span className="sm:hidden">Wrong</span>
+                                  <span className="hidden sm:inline">Wrong Answer</span>
                                 </>
                               )}
                             </span>
@@ -538,7 +562,8 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                               statusTag = (
                                 <span className="shrink-0 px-2 py-0.5 rounded-md text-[11px] font-bold bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
                                   <Check className="h-3 w-3 stroke-[2.5]" />
-                                  <span>Right Answer</span>
+                                  <span className="sm:hidden">Right</span>
+                                  <span className="hidden sm:inline">Right Answer</span>
                                 </span>
                               );
                             } else if (isSelected && !isCorrectOpt) {
@@ -549,7 +574,8 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                               statusTag = (
                                 <span className="shrink-0 px-2 py-0.5 rounded-md text-[11px] font-bold bg-destructive/15 text-destructive border border-destructive/30 flex items-center gap-1">
                                   <X className="h-3 w-3 stroke-[2.5]" />
-                                  <span>Wrong Answer</span>
+                                  <span className="sm:hidden">Wrong</span>
+                                  <span className="hidden sm:inline">Wrong Answer</span>
                                 </span>
                               );
                             } else {
@@ -627,7 +653,7 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                 size="sm"
                 onClick={handlePrev}
                 disabled={currentIndex === 0}
-                className="gap-1 text-xs h-8 px-2.5 sm:px-3"
+                className="hidden sm:inline-flex items-center gap-1 text-xs h-8 px-2.5 sm:px-3"
               >
                 <ChevronLeft className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
                 <span>Previous</span>
@@ -651,7 +677,7 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                 variant="outline"
                 size="sm"
                 onClick={handleMarkForReviewAndNext}
-                className="hidden sm:inline-flex items-center gap-1.5 text-xs h-8 px-2.5 sm:px-3 font-semibold border-primary/40 text-primary hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer"
+                className="inline-flex items-center gap-1.5 text-xs h-8 px-2.5 sm:px-3 font-semibold border-primary/40 text-primary hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer"
                 title="Mark this question for review and proceed to next"
               >
                 <Bookmark
@@ -661,7 +687,12 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                       : ""
                   }`}
                 />
-                <span>
+                <span className="sm:hidden">
+                  {currentQ && markedQuestions.has(currentQ.id)
+                    ? "Marked"
+                    : "Review"}
+                </span>
+                <span className="hidden sm:inline">
                   {currentQ && markedQuestions.has(currentQ.id)
                     ? "Marked for Review & Next"
                     : "Mark for Review & Next"}
@@ -677,7 +708,10 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                 className="gap-1 sm:gap-1.5 text-xs font-semibold bg-primary text-primary-foreground shadow h-8 px-2.5 sm:px-3.5 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <Eye className="h-3.5 w-3.5" />
-                <span>
+                <span className="sm:hidden">
+                  {isCurrentRevealed ? "Checked" : "Check"}
+                </span>
+                <span className="hidden sm:inline">
                   {isCurrentRevealed ? "Answer Checked" : "Check Answer"}
                 </span>
               </Button>
@@ -687,7 +721,7 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                 size="sm"
                 onClick={handleNext}
                 disabled={currentIndex === questions.length - 1}
-                className="gap-1 text-xs font-semibold h-8 px-2.5 sm:px-3"
+                className="hidden sm:inline-flex items-center gap-1 text-xs font-semibold h-8 px-2.5 sm:px-3"
               >
                 <span>Next</span>
                 <ChevronRight className="h-3.5 w-3.5 sm:h-4 sm:w-4" />

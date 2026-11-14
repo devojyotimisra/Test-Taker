@@ -250,6 +250,15 @@ function FilterCombobox({
   );
 }
 
+function getTermRank(item: { term?: string; term_code?: string }): number {
+  const tc = (item.term_code || "").toLowerCase();
+  const t = (item.term || "").toLowerCase();
+  if (tc.includes("t3") || t.includes("sep")) return 3;
+  if (tc.includes("t2") || t.includes("may")) return 2;
+  if (tc.includes("t1") || t.includes("jan")) return 1;
+  return 0;
+}
+
 export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
   const { toast } = useToast();
   const [activeTab, setActiveTab] = useState<"library" | "upload">(() => {
@@ -399,18 +408,53 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
   };
 
   const filteredCatalog = useMemo(() => {
-    return catalog.filter((item) => {
-      if (selectedCourse !== "All" && item.course_code !== selectedCourse) {
-        return false;
-      }
-      if (selectedYear !== "All" && String(item.year) !== selectedYear) {
-        return false;
-      }
-      if (selectedExam !== "All" && item.exam_type !== selectedExam) {
-        return false;
-      }
-      return true;
-    });
+    return catalog
+      .filter((item) => {
+        if (selectedCourse !== "All" && item.course_code !== selectedCourse) {
+          return false;
+        }
+        if (selectedYear !== "All" && String(item.year) !== selectedYear) {
+          return false;
+        }
+        if (selectedExam !== "All" && item.exam_type !== selectedExam) {
+          return false;
+        }
+        return true;
+      })
+      .sort((a, b) => {
+        const yearA = Number(a.year) || 0;
+        const yearB = Number(b.year) || 0;
+        if (yearB !== yearA) {
+          return yearB - yearA;
+        }
+
+        const termRankA = getTermRank(a);
+        const termRankB = getTermRank(b);
+        if (termRankB !== termRankA) {
+          return termRankB - termRankA;
+        }
+
+        const courseComp = (a.course_code || "").localeCompare(b.course_code || "");
+        if (courseComp !== 0) {
+          return courseComp;
+        }
+
+        const getExamRank = (exam?: string) => {
+          const e = (exam || "").toLowerCase();
+          if (e.includes("end term") || e === "et") return 3;
+          if (e.includes("quiz 2") || e === "q2") return 2;
+          if (e.includes("quiz 1") || e === "q1") return 1;
+          return 0;
+        };
+
+        const examRankA = getExamRank(a.exam_type);
+        const examRankB = getExamRank(b.exam_type);
+        if (examRankB !== examRankA) {
+          return examRankB - examRankA;
+        }
+
+        return (a.title || "").localeCompare(b.title || "");
+      });
   }, [catalog, selectedCourse, selectedYear, selectedExam]);
 
   useEffect(() => {

@@ -5,8 +5,6 @@ import {
   Calculator,
   Check,
   CheckCircle2,
-  ChevronLeft,
-  ChevronRight,
   Eye,
   Info,
   X,
@@ -131,7 +129,7 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
     });
   };
 
-  const handleMarkForReviewAndNext = () => {
+  const handleMarkForReview = () => {
     if (!currentQ) return;
     const qId = currentQ.id;
     setMarkedQuestions((prev) => {
@@ -143,9 +141,6 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
       }
       return next;
     });
-    if (currentIndex < questions.length - 1) {
-      setCurrentIndex((prev) => prev + 1);
-    }
   };
 
   const handleCheckAnswer = async () => {
@@ -154,18 +149,6 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
     const sc = scoreQuestion(currentQ, ans);
     setScores((prev) => ({ ...prev, [currentQ.id]: sc }));
     setRevealedQuestions((prev) => new Set(prev).add(currentQ.id));
-  };
-
-  const handleNext = () => {
-    if (currentIndex < questions.length - 1) {
-      setCurrentIndex((prev) => prev + 1);
-    }
-  };
-
-  const handlePrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex((prev) => prev - 1);
-    }
   };
 
   const isCurrentRevealed = Boolean(
@@ -649,17 +632,6 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
           <div className="shrink-0 flex items-center justify-between gap-2 pt-1 pb-1 sm:pb-0">
             <div className="flex items-center gap-1.5 sm:gap-2">
               <Button
-                variant="outline"
-                size="sm"
-                onClick={handlePrev}
-                disabled={currentIndex === 0}
-                className="hidden sm:inline-flex items-center gap-1 text-xs h-8 px-2.5 sm:px-3"
-              >
-                <ChevronLeft className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
-                <span>Previous</span>
-              </Button>
-
-              <Button
                 variant="ghost"
                 size="sm"
                 onClick={handleClearResponse}
@@ -676,9 +648,13 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
               <Button
                 variant="outline"
                 size="sm"
-                onClick={handleMarkForReviewAndNext}
+                onClick={handleMarkForReview}
                 className="inline-flex items-center gap-1.5 text-xs h-8 px-2.5 sm:px-3 font-semibold border-primary/40 text-primary hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer"
-                title="Mark this question for review and proceed to next"
+                title={
+                  currentQ && markedQuestions.has(currentQ.id)
+                    ? "Remove mark for review"
+                    : "Mark this question for review"
+                }
               >
                 <Bookmark
                   className={`h-3.5 w-3.5 ${
@@ -694,8 +670,8 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                 </span>
                 <span className="hidden sm:inline">
                   {currentQ && markedQuestions.has(currentQ.id)
-                    ? "Marked for Review & Next"
-                    : "Mark for Review & Next"}
+                    ? "Marked for Review"
+                    : "Mark for Review"}
                 </span>
               </Button>
             </div>
@@ -714,17 +690,6 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                 <span className="hidden sm:inline">
                   {isCurrentRevealed ? "Answer Checked" : "Check Answer"}
                 </span>
-              </Button>
-
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={handleNext}
-                disabled={currentIndex === questions.length - 1}
-                className="hidden sm:inline-flex items-center gap-1 text-xs font-semibold h-8 px-2.5 sm:px-3"
-              >
-                <span>Next</span>
-                <ChevronRight className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
               </Button>
             </div>
           </div>

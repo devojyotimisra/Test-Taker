@@ -274,8 +274,8 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
         </div>
       </header>
 
-      <main className="flex-1 max-w-7xl w-full mx-auto p-3 sm:p-4 flex flex-col lg:grid lg:grid-cols-12 gap-3 sm:gap-4 overflow-y-auto lg:overflow-hidden min-h-0">
-        <div className="lg:col-span-8 w-full lg:h-full flex flex-col justify-between min-h-0 gap-3 shrink-0 lg:shrink">
+      <main className="flex-1 max-w-7xl w-full mx-auto p-3 sm:p-4 grid grid-cols-1 lg:grid-cols-12 gap-3 sm:gap-4 overflow-y-auto lg:overflow-hidden min-h-0">
+        <div className="lg:col-span-8 lg:h-full flex flex-col justify-between min-h-0 gap-3">
           {currentQ && (
             <Card className="flex-1 flex flex-col border-border shadow-md overflow-hidden min-h-0">
               <CardHeader className="shrink-0 pb-2.5 pt-3 px-3.5 sm:px-6 border-b border-border/60">
@@ -696,8 +696,8 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
           </div>
         </div>
 
-        <div className="lg:col-span-4 w-full flex-1 lg:h-full flex flex-col min-h-0">
-          <Card className="w-full flex-1 lg:h-full flex flex-col border-border shadow-md min-h-0">
+        <div className="lg:col-span-4 lg:h-full flex flex-col shrink-0 lg:shrink lg:overflow-hidden lg:min-h-0">
+          <Card className="lg:h-full flex flex-col border-border shadow-md shrink-0 lg:shrink lg:overflow-hidden lg:min-h-0">
             <CardHeader className="shrink-0 pb-2.5 pt-3 px-3.5 sm:px-4 border-b border-border/60">
               <div className="flex items-center justify-between">
                 <span className="font-bold text-sm">Questions Palette</span>
@@ -749,89 +749,116 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
               </div>
             </CardHeader>
 
-            <CardContent className="p-3 sm:p-3.5 flex-1 flex flex-col no-scrollbar overflow-y-auto min-h-0">
-              <div className="grid grid-cols-5 gap-2 sm:gap-2.5 w-full">
-                {questions.map((q, idx) => {
-                  const isChecked = revealedQuestions.has(q.id);
-                  const sc = scores[q.id];
-                  const isCurrent = idx === currentIndex;
-                  const userVal = answers[q.id];
-                  const isAnswered =
-                    userVal !== undefined &&
-                    userVal !== "" &&
-                    (!Array.isArray(userVal) || userVal.length > 0);
-                  const isVisited = visitedQuestions.has(q.id);
-                  const isMarked = markedQuestions.has(q.id);
+            <CardContent className="p-3 sm:p-3.5 flex flex-col no-scrollbar lg:flex-1 lg:overflow-y-auto lg:min-h-0">
+              <div className="flex flex-col gap-2 sm:gap-2.5 lg:h-full lg:flex-1 lg:min-h-0">
+                {Array.from(
+                  { length: Math.ceil(questions.length / 5) },
+                  (_, rIdx) => {
+                    const rowQuestions = questions.slice(
+                      rIdx * 5,
+                      rIdx * 5 + 5,
+                    );
+                    return (
+                      <div
+                        key={rIdx}
+                        className="flex gap-2 sm:gap-2.5 w-full h-11 lg:h-auto lg:flex-1 lg:min-h-0"
+                      >
+                        {rowQuestions.map((q, cIdx) => {
+                          const idx = rIdx * 5 + cIdx;
+                          const isChecked = revealedQuestions.has(q.id);
+                          const sc = scores[q.id];
+                          const isCurrent = idx === currentIndex;
+                          const userVal = answers[q.id];
+                          const isAnswered =
+                            userVal !== undefined &&
+                            userVal !== "" &&
+                            (!Array.isArray(userVal) || userVal.length > 0);
+                          const isVisited = visitedQuestions.has(q.id);
+                          const isMarked = markedQuestions.has(q.id);
 
-                  let btnStyle = "";
-                  if (isChecked && sc) {
-                    if (sc.status === "correct") {
-                      btnStyle =
-                        "bg-emerald-600 text-white border-emerald-600 shadow-xs dark:bg-emerald-600 dark:border-emerald-500";
-                    } else if (sc.status === "partial") {
-                      btnStyle =
-                        "bg-amber-500 text-white border-amber-600 shadow-xs dark:bg-amber-500 dark:border-amber-600";
-                    } else if (sc.status === "incorrect") {
-                      btnStyle =
-                        "bg-destructive text-white border-destructive shadow-xs dark:bg-destructive dark:border-destructive";
-                    }
-                  } else if (isMarked && isAnswered) {
-                    btnStyle =
-                      "bg-primary text-primary-foreground border-emerald-500 shadow-xs";
-                  } else if (isMarked) {
-                    btnStyle =
-                      "bg-primary text-primary-foreground border-primary shadow-xs";
-                  } else if (isAnswered) {
-                    btnStyle =
-                      "bg-emerald-600 text-white border-emerald-600 shadow-xs hover:bg-emerald-700 dark:bg-emerald-600 dark:border-emerald-500";
-                  } else if (isVisited) {
-                    btnStyle =
-                      "bg-destructive text-destructive-foreground border-destructive shadow-xs hover:bg-destructive/90 dark:bg-destructive dark:border-destructive";
-                  } else {
-                    btnStyle =
-                      "bg-muted/60 text-muted-foreground border-border/80 hover:bg-muted hover:text-foreground dark:bg-muted/30 dark:text-muted-foreground/80 dark:border-border/50";
-                  }
+                          let btnStyle = "";
+                          if (isChecked && sc) {
+                            if (sc.status === "correct") {
+                              btnStyle =
+                                "bg-emerald-600 text-white border-emerald-600 shadow-xs dark:bg-emerald-600 dark:border-emerald-500";
+                            } else if (sc.status === "partial") {
+                              btnStyle =
+                                "bg-amber-500 text-white border-amber-600 shadow-xs dark:bg-amber-500 dark:border-amber-600";
+                            } else if (sc.status === "incorrect") {
+                              btnStyle =
+                                "bg-destructive text-white border-destructive shadow-xs dark:bg-destructive dark:border-destructive";
+                            }
+                          } else if (isMarked && isAnswered) {
+                            btnStyle =
+                              "bg-primary text-primary-foreground border-emerald-500 shadow-xs";
+                          } else if (isMarked) {
+                            btnStyle =
+                              "bg-primary text-primary-foreground border-primary shadow-xs";
+                          } else if (isAnswered) {
+                            btnStyle =
+                              "bg-emerald-600 text-white border-emerald-600 shadow-xs hover:bg-emerald-700 dark:bg-emerald-600 dark:border-emerald-500";
+                          } else if (isVisited) {
+                            btnStyle =
+                              "bg-destructive text-destructive-foreground border-destructive shadow-xs hover:bg-destructive/90 dark:bg-destructive dark:border-destructive";
+                          } else {
+                            btnStyle =
+                              "bg-muted/60 text-muted-foreground border-border/80 hover:bg-muted hover:text-foreground dark:bg-muted/30 dark:text-muted-foreground/80 dark:border-border/50";
+                          }
 
-                  if (isCurrent) {
-                    btnStyle +=
-                      " ring-2 ring-primary ring-offset-2 ring-offset-background font-black shadow-md scale-[1.03]";
-                  }
+                          if (isCurrent) {
+                            btnStyle +=
+                              " ring-2 ring-primary ring-offset-2 ring-offset-background font-black shadow-md scale-[1.03]";
+                          }
 
-                  return (
-                    <button
-                      key={q.id}
-                      onClick={() => setCurrentIndex(idx)}
-                      className={`h-11 sm:h-12 w-full min-w-0 rounded-xl font-mono text-sm font-bold border transition-all duration-150 cursor-pointer flex flex-col items-center justify-center relative py-1 ${btnStyle}`}
-                    >
-                      <span className="leading-tight">{idx + 1}</span>
-                      {isChecked && sc && (
-                        <span
-                          className={`absolute top-[5px] right-[5px] h-3.5 w-3.5 rounded-full flex items-center justify-center shadow-xs ${
-                            sc.status === "correct"
-                              ? "bg-white text-emerald-700 dark:bg-white dark:text-emerald-700"
-                              : sc.status === "partial"
-                              ? "bg-white text-amber-700 dark:bg-white dark:text-amber-700"
-                              : "bg-white text-destructive dark:bg-white dark:text-destructive"
-                          }`}
-                        >
-                          {sc.status === "correct" ? (
-                            <Check className="h-2 w-2 stroke-[3.5]" />
-                          ) : sc.status === "partial" ? (
-                            <span className="text-[8px] font-black leading-none">~</span>
-                          ) : (
-                            <X className="h-2 w-2 stroke-[3.5]" />
+                          return (
+                            <button
+                              key={q.id}
+                              onClick={() => setCurrentIndex(idx)}
+                              className={`flex-1 h-11 lg:h-full min-w-0 rounded-xl font-mono text-sm font-bold border transition-all duration-150 cursor-pointer flex flex-col items-center justify-center relative shrink-0 lg:shrink py-1 ${btnStyle}`}
+                            >
+                              <span className="leading-tight">{idx + 1}</span>
+                              {isChecked && sc && (
+                                <span
+                                  className={`absolute top-[5px] right-[5px] h-3.5 w-3.5 rounded-full flex items-center justify-center shadow-xs ${
+                                    sc.status === "correct"
+                                      ? "bg-white text-emerald-700 dark:bg-white dark:text-emerald-700"
+                                      : sc.status === "partial"
+                                      ? "bg-white text-amber-700 dark:bg-white dark:text-amber-700"
+                                      : "bg-white text-destructive dark:bg-white dark:text-destructive"
+                                  }`}
+                                >
+                                  {sc.status === "correct" ? (
+                                    <Check className="h-2 w-2 stroke-[3.5]" />
+                                  ) : sc.status === "partial" ? (
+                                    <span className="text-[8px] font-black leading-none">~</span>
+                                  ) : (
+                                    <X className="h-2 w-2 stroke-[3.5]" />
+                                  )}
+                                </span>
+                              )}
+                              {isMarked && !isChecked && (
+                                <span className="absolute top-1.5 right-1.5 h-1.5 w-1.5 rounded-full bg-white shadow-xs" />
+                              )}
+                              {isAnswered && isMarked && !isChecked && (
+                                <span className="absolute bottom-1 h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-xs" />
+                              )}
+                            </button>
+                          );
+                        })}
+                        {rowQuestions.length < 5 &&
+                          Array.from(
+                            { length: 5 - rowQuestions.length },
+                            (_, sIdx) => (
+                              <div
+                                key={`spacer-${sIdx}`}
+                                className="flex-1 min-w-0 invisible pointer-events-none lg:hidden"
+                              />
+                            ),
                           )}
-                        </span>
-                      )}
-                      {isMarked && !isChecked && (
-                        <span className="absolute top-1.5 right-1.5 h-1.5 w-1.5 rounded-full bg-white shadow-xs" />
-                      )}
-                      {isAnswered && isMarked && !isChecked && (
-                        <span className="absolute bottom-1 h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-xs" />
-                      )}
-                    </button>
-                  );
-                })}
+                      </div>
+                    );
+                  },
+                )}
               </div>
             </CardContent>
           </Card>

@@ -161,6 +161,10 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
     (q) => revealedQuestions.has(q.id) && scores[q.id]?.status === "correct",
   ).length;
 
+  const partialCount = questions.filter(
+    (q) => revealedQuestions.has(q.id) && scores[q.id]?.status === "partial",
+  ).length;
+
   const incorrectCount = questions.filter(
     (q) => revealedQuestions.has(q.id) && scores[q.id]?.status === "incorrect",
   ).length;
@@ -704,46 +708,58 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                   {questions.length} Questions
                 </span>
               </div>
-              <div className="grid grid-cols-3 gap-1.5 pt-2 text-[10px]">
-                <div className="flex items-center gap-1.5">
-                  <span className="h-3 w-3 rounded-md bg-emerald-600 flex items-center justify-center text-white shrink-0 shadow-2xs font-bold text-[8px]">
-                    ✓
-                  </span>
-                  <span className="text-muted-foreground truncate">
-                    Right ({correctCount})
-                  </span>
+              <div className="flex flex-col gap-1.5 pt-2 text-[10px]">
+                <div className="grid grid-cols-4 gap-1.5">
+                  <div className="flex items-center gap-1.5">
+                    <span className="h-3 w-3 rounded-md bg-emerald-600 flex items-center justify-center text-white shrink-0 shadow-2xs font-bold text-[8px]">
+                      ✓
+                    </span>
+                    <span className="text-muted-foreground truncate">
+                      Right ({correctCount})
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-1.5" title={`Partially Correct (${partialCount})`}>
+                    <span className="h-3 w-3 rounded-md bg-amber-500 flex items-center justify-center text-white shrink-0 shadow-2xs font-bold text-[8px] leading-none">
+                      ~
+                    </span>
+                    <span className="text-muted-foreground truncate">
+                      Partial ({partialCount})
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="h-3 w-3 rounded-md bg-destructive flex items-center justify-center text-white shrink-0 shadow-2xs font-bold text-[8px]">
+                      ✕
+                    </span>
+                    <span className="text-muted-foreground truncate">
+                      Wrong ({incorrectCount})
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="h-3 w-3 rounded-md bg-primary shrink-0 shadow-2xs" />
+                    <span className="text-muted-foreground truncate">
+                      Marked ({markedCount})
+                    </span>
+                  </div>
                 </div>
-                <div className="flex items-center gap-1.5">
-                  <span className="h-3 w-3 rounded-md bg-destructive flex items-center justify-center text-white shrink-0 shadow-2xs font-bold text-[8px]">
-                    ✕
-                  </span>
-                  <span className="text-muted-foreground truncate">
-                    Wrong ({incorrectCount})
-                  </span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <span className="h-3 w-3 rounded-md bg-primary shrink-0 shadow-2xs" />
-                  <span className="text-muted-foreground truncate">
-                    Marked ({markedCount})
-                  </span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <span className="h-3 w-3 rounded-md bg-emerald-600/80 border border-emerald-500/50 shrink-0 shadow-2xs" />
-                  <span className="text-muted-foreground truncate">
-                    Answered ({answeredUncheckedCount})
-                  </span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <span className="h-3 w-3 rounded-md bg-destructive/70 border border-destructive/50 shrink-0 shadow-2xs" />
-                  <span className="text-muted-foreground truncate">
-                    Not Answered ({notAnsweredCount})
-                  </span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <span className="h-3 w-3 rounded-md bg-muted/70 border border-border/80 shrink-0" />
-                  <span className="text-muted-foreground truncate">
-                    Not Visited ({notVisitedCount})
-                  </span>
+                <div className="grid grid-cols-3 gap-1.5">
+                  <div className="flex items-center gap-1.5">
+                    <span className="h-3 w-3 rounded-md bg-emerald-600/80 border border-emerald-500/50 shrink-0 shadow-2xs" />
+                    <span className="text-muted-foreground truncate">
+                      Answered ({answeredUncheckedCount})
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="h-3 w-3 rounded-md bg-destructive/70 border border-destructive/50 shrink-0 shadow-2xs" />
+                    <span className="text-muted-foreground truncate">
+                      Not Answered ({notAnsweredCount})
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="h-3 w-3 rounded-md bg-muted/70 border border-border/80 shrink-0" />
+                    <span className="text-muted-foreground truncate">
+                      Not Visited ({notVisitedCount})
+                    </span>
+                  </div>
                 </div>
               </div>
             </CardHeader>

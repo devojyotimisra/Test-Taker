@@ -537,27 +537,29 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
                 type="button"
                 disabled={isBusy}
                 onClick={() => !isBusy && setActiveTab("library")}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                   activeTab === "library"
                     ? "bg-background text-foreground shadow-xs"
                     : "text-muted-foreground hover:text-foreground"
                 } ${isBusy ? "opacity-50 cursor-not-allowed" : "cursor-pointer"}`}
               >
                 <BookOpen className="h-3.5 w-3.5" />
-                <span>Question Papers</span>
+                <span className="hidden sm:inline">Question Papers</span>
+                <span className="sm:hidden">Papers</span>
               </button>
               <button
                 type="button"
                 disabled={isBusy}
                 onClick={() => !isBusy && setActiveTab("upload")}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                   activeTab === "upload"
                     ? "bg-background text-foreground shadow-xs"
                     : "text-muted-foreground hover:text-foreground"
                 } ${isBusy ? "opacity-50 cursor-not-allowed" : "cursor-pointer"}`}
               >
                 <Upload className="h-3.5 w-3.5" />
-                <span>Upload PDF</span>
+                <span className="hidden sm:inline">Upload PDF</span>
+                <span className="sm:hidden">PDF</span>
               </button>
             </div>
             <ThemeToggle />

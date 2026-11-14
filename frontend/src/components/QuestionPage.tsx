@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import {
   ArrowLeft,
+  Bookmark,
   Calculator,
   Check,
   CheckCircle2,
@@ -40,8 +41,29 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
   const [revealedQuestions, setRevealedQuestions] = useState<Set<number>>(
     new Set(),
   );
+  const [visitedQuestions, setVisitedQuestions] = useState<Set<number>>(() => {
+    const init = new Set<number>();
+    if (paper.questions && paper.questions[0]) {
+      init.add(paper.questions[0].id);
+    }
+    return init;
+  });
+  const [markedQuestions, setMarkedQuestions] = useState<Set<number>>(
+    new Set(),
+  );
 
   const currentQ = questions[currentIndex];
+
+  useEffect(() => {
+    if (currentQ) {
+      setVisitedQuestions((prev) => {
+        if (prev.has(currentQ.id)) return prev;
+        const next = new Set(prev);
+        next.add(currentQ.id);
+        return next;
+      });
+    }
+  }, [currentQ]);
 
   useEffect(() => {
     let interval: any = null;
@@ -101,6 +123,28 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
       copy.delete(qId);
       return copy;
     });
+    setMarkedQuestions((prev) => {
+      const copy = new Set(prev);
+      copy.delete(qId);
+      return copy;
+    });
+  };
+
+  const handleMarkForReviewAndNext = () => {
+    if (!currentQ) return;
+    const qId = currentQ.id;
+    setMarkedQuestions((prev) => {
+      const next = new Set(prev);
+      if (next.has(qId)) {
+        next.delete(qId);
+      } else {
+        next.add(qId);
+      }
+      return next;
+    });
+    if (currentIndex < questions.length - 1) {
+      setCurrentIndex((prev) => prev + 1);
+    }
   };
 
   const handleCheckAnswer = async () => {
@@ -128,6 +172,24 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
   );
   const currentScoreDetail = currentQ ? scores[currentQ.id] : null;
   const hasCurrentAnswer = Boolean(currentQ && answers[currentQ.id]);
+
+  const answeredCount = questions.filter((q) => {
+    const v = answers[q.id];
+    return v !== undefined && v !== "" && (!Array.isArray(v) || v.length > 0);
+  }).length;
+
+  const markedCount = questions.filter((q) => markedQuestions.has(q.id)).length;
+
+  const notAnsweredCount = questions.filter((q) => {
+    const v = answers[q.id];
+    const hasAns =
+      v !== undefined && v !== "" && (!Array.isArray(v) || v.length > 0);
+    return visitedQuestions.has(q.id) && !hasAns && !markedQuestions.has(q.id);
+  }).length;
+
+  const notVisitedCount = questions.filter(
+    (q) => !visitedQuestions.has(q.id),
+  ).length;
 
   return (
     <div className="h-screen max-h-screen flex flex-col bg-background text-foreground transition-colors overflow-hidden no-scrollbar">
@@ -166,20 +228,11 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
             </div>
 
             <div className="sm:hidden flex items-center gap-1.5">
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => setIsCalcOpen((prev) => !prev)}
-                className="h-8 px-2 text-xs gap-1 cursor-pointer"
-                title="Calculator"
-              >
-                <Calculator className="h-4 w-4" />
-              </Button>
               <ThemeToggle />
             </div>
           </div>
 
-          <div className="flex items-center justify-center justify-self-center w-full sm:w-auto">
+          <div className="hidden sm:flex items-center justify-center justify-self-center w-full sm:w-auto">
             <Timer
               seconds={timerSeconds}
               isRunning={timerRunning}
@@ -227,6 +280,15 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                         className="text-xs bg-primary/10 text-primary border-primary/20"
                       >
                         Comprehension Set
+                      </Badge>
+                    )}
+                    {markedQuestions.has(currentQ.id) && (
+                      <Badge
+                        variant="secondary"
+                        className="text-xs bg-primary/15 text-primary border-primary/30 flex items-center gap-1"
+                      >
+                        <Bookmark className="h-3 w-3 fill-primary" />
+                        <span>Marked for Review</span>
                       </Badge>
                     )}
 
@@ -499,10 +561,35 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                 variant="ghost"
                 size="sm"
                 onClick={handleClearResponse}
-                disabled={!hasCurrentAnswer && !isCurrentRevealed}
+                disabled={
+                  !hasCurrentAnswer &&
+                  !isCurrentRevealed &&
+                  (!currentQ || !markedQuestions.has(currentQ.id))
+                }
                 className="text-xs text-muted-foreground hover:text-foreground h-8 px-2 sm:px-3 disabled:opacity-40"
               >
                 Clear
+              </Button>
+
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleMarkForReviewAndNext}
+                className="hidden sm:inline-flex items-center gap-1.5 text-xs h-8 px-2.5 sm:px-3 font-semibold border-primary/40 text-primary hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer"
+                title="Mark this question for review and proceed to next"
+              >
+                <Bookmark
+                  className={`h-3.5 w-3.5 ${
+                    currentQ && markedQuestions.has(currentQ.id)
+                      ? "fill-primary"
+                      : ""
+                  }`}
+                />
+                <span>
+                  {currentQ && markedQuestions.has(currentQ.id)
+                    ? "Marked for Review & Next"
+                    : "Mark for Review & Next"}
+                </span>
               </Button>
             </div>
 
@@ -535,12 +622,38 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
 
         <div className="lg:col-span-4 lg:h-full flex flex-col shrink-0 lg:shrink lg:overflow-hidden lg:min-h-0">
           <Card className="lg:h-full flex flex-col border-border shadow-md shrink-0 lg:shrink lg:overflow-hidden lg:min-h-0">
-            <CardHeader className="shrink-0 pb-2.5 pt-3 px-3.5 sm:px-6 border-b border-border/60">
+            <CardHeader className="shrink-0 pb-2.5 pt-3 px-3.5 sm:px-4 border-b border-border/60">
               <div className="flex items-center justify-between">
                 <span className="font-bold text-sm">Questions Palette</span>
-                <span className="text-xs text-muted-foreground">
+                <span className="text-xs text-muted-foreground font-mono">
                   {questions.length} Questions
                 </span>
+              </div>
+              <div className="grid grid-cols-2 gap-1.5 pt-2 text-[11px]">
+                <div className="flex items-center gap-1.5">
+                  <span className="h-3 w-3 rounded-md bg-emerald-600 dark:bg-emerald-600 shrink-0 shadow-2xs" />
+                  <span className="text-muted-foreground truncate">
+                    Answered ({answeredCount})
+                  </span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <span className="h-3 w-3 rounded-md bg-destructive shrink-0 shadow-2xs" />
+                  <span className="text-muted-foreground truncate">
+                    Not Answered ({notAnsweredCount})
+                  </span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <span className="h-3 w-3 rounded-md bg-primary shrink-0 shadow-2xs" />
+                  <span className="text-muted-foreground truncate">
+                    Marked ({markedCount})
+                  </span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <span className="h-3 w-3 rounded-md bg-muted/70 border border-border/80 shrink-0" />
+                  <span className="text-muted-foreground truncate">
+                    Not Visited ({notVisitedCount})
+                  </span>
+                </div>
               </div>
             </CardHeader>
 
@@ -568,47 +681,55 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                             userVal !== undefined &&
                             userVal !== "" &&
                             (!Array.isArray(userVal) || userVal.length > 0);
+                          const isVisited = visitedQuestions.has(q.id);
+                          const isMarked = markedQuestions.has(q.id);
 
                           let btnStyle = "";
                           if (isChecked && sc) {
                             if (sc.status === "correct") {
                               btnStyle =
-                                "bg-emerald-600 text-white border-emerald-600 shadow-xs";
+                                "bg-emerald-600 text-white border-emerald-600 shadow-xs dark:bg-emerald-600 dark:border-emerald-500";
                             } else if (sc.status === "partial") {
                               btnStyle =
-                                "bg-amber-500 text-white border-amber-600 shadow-xs";
+                                "bg-amber-500 text-white border-amber-600 shadow-xs dark:bg-amber-500 dark:border-amber-600";
                             } else if (sc.status === "incorrect") {
                               btnStyle =
-                                "bg-destructive text-white border-destructive shadow-xs";
+                                "bg-destructive text-white border-destructive shadow-xs dark:bg-destructive dark:border-destructive";
                             }
-                            if (isCurrent) {
-                              btnStyle +=
-                                " ring-2 ring-primary ring-offset-2 ring-offset-card shadow-sm";
-                            }
-                          } else if (isCurrent) {
+                          } else if (isMarked && isAnswered) {
                             btnStyle =
-                              "bg-primary text-primary-foreground border-primary shadow-sm ring-2 ring-primary/30";
+                              "bg-primary text-primary-foreground border-emerald-500 shadow-xs";
+                          } else if (isMarked) {
+                            btnStyle =
+                              "bg-primary text-primary-foreground border-primary shadow-xs";
                           } else if (isAnswered) {
                             btnStyle =
-                              "bg-primary/15 text-primary border-primary/30 hover:bg-primary/25";
+                              "bg-emerald-600 text-white border-emerald-600 shadow-xs hover:bg-emerald-700 dark:bg-emerald-600 dark:border-emerald-500";
+                          } else if (isVisited) {
+                            btnStyle =
+                              "bg-destructive text-destructive-foreground border-destructive shadow-xs hover:bg-destructive/90 dark:bg-destructive dark:border-destructive";
                           } else {
                             btnStyle =
-                              "bg-muted/70 text-muted-foreground border-border/60 hover:bg-muted hover:text-foreground";
+                              "bg-muted/60 text-muted-foreground border-border/80 hover:bg-muted hover:text-foreground dark:bg-muted/30 dark:text-muted-foreground/80 dark:border-border/50";
+                          }
+
+                          if (isCurrent) {
+                            btnStyle +=
+                              " ring-2 ring-primary ring-offset-2 ring-offset-background font-black shadow-md scale-[1.03]";
                           }
 
                           return (
                             <button
                               key={q.id}
                               onClick={() => setCurrentIndex(idx)}
-                              className={`flex-1 h-11 lg:h-full min-w-0 rounded-xl font-mono text-sm font-bold border transition-colors duration-150 cursor-pointer flex flex-col items-center justify-center relative shrink-0 lg:shrink py-1 ${btnStyle}`}
+                              className={`flex-1 h-11 lg:h-full min-w-0 rounded-xl font-mono text-sm font-bold border transition-all duration-150 cursor-pointer flex flex-col items-center justify-center relative shrink-0 lg:shrink py-1 ${btnStyle}`}
                             >
                               <span className="leading-tight">{idx + 1}</span>
-                              {isAnswered && !isChecked && (
-                                <span
-                                  className={`absolute bottom-1 h-1 w-1 rounded-full ${
-                                    isCurrent ? "bg-white" : "bg-primary"
-                                  }`}
-                                />
+                              {isMarked && (
+                                <span className="absolute top-1 right-1 h-1.5 w-1.5 rounded-full bg-white shadow-xs" />
+                              )}
+                              {isAnswered && isMarked && (
+                                <span className="absolute bottom-1 h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-xs" />
                               )}
                             </button>
                           );

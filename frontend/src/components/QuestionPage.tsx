@@ -9,6 +9,7 @@ import {
   ChevronRight,
   Eye,
   Info,
+  X,
   XCircle,
 } from "lucide-react";
 import { Button } from "./ui/button";
@@ -173,9 +174,19 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
   const currentScoreDetail = currentQ ? scores[currentQ.id] : null;
   const hasCurrentAnswer = Boolean(currentQ && answers[currentQ.id]);
 
-  const answeredCount = questions.filter((q) => {
+  const correctCount = questions.filter(
+    (q) => revealedQuestions.has(q.id) && scores[q.id]?.status === "correct",
+  ).length;
+
+  const incorrectCount = questions.filter(
+    (q) => revealedQuestions.has(q.id) && scores[q.id]?.status === "incorrect",
+  ).length;
+
+  const answeredUncheckedCount = questions.filter((q) => {
     const v = answers[q.id];
-    return v !== undefined && v !== "" && (!Array.isArray(v) || v.length > 0);
+    const hasAns =
+      v !== undefined && v !== "" && (!Array.isArray(v) || v.length > 0);
+    return hasAns && !revealedQuestions.has(q.id);
   }).length;
 
   const markedCount = questions.filter((q) => markedQuestions.has(q.id)).length;
@@ -184,7 +195,12 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
     const v = answers[q.id];
     const hasAns =
       v !== undefined && v !== "" && (!Array.isArray(v) || v.length > 0);
-    return visitedQuestions.has(q.id) && !hasAns && !markedQuestions.has(q.id);
+    return (
+      visitedQuestions.has(q.id) &&
+      !hasAns &&
+      !markedQuestions.has(q.id) &&
+      !revealedQuestions.has(q.id)
+    );
   }).length;
 
   const notVisitedCount = questions.filter(
@@ -392,6 +408,27 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                                 Clear
                               </Button>
                             )}
+                          {isCurrentRevealed && currentScoreDetail && (
+                            <span
+                              className={`shrink-0 px-2.5 py-1.5 rounded-xl text-xs font-bold border flex items-center gap-1.5 shadow-2xs ${
+                                currentScoreDetail.status === "correct"
+                                  ? "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border-emerald-500/30"
+                                  : "bg-destructive/15 text-destructive border-destructive/30"
+                              }`}
+                            >
+                              {currentScoreDetail.status === "correct" ? (
+                                <>
+                                  <Check className="h-3.5 w-3.5 stroke-[2.5]" />
+                                  <span>Right Answer</span>
+                                </>
+                              ) : (
+                                <>
+                                  <X className="h-3.5 w-3.5 stroke-[2.5]" />
+                                  <span>Wrong Answer</span>
+                                </>
+                              )}
+                            </span>
+                          )}
                         </div>
 
                         {isCurrentRevealed && (
@@ -425,6 +462,27 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                             disabled={isCurrentRevealed}
                             className="h-12 flex-1 w-full rounded-xl border px-4 py-3 text-base font-mono bg-card"
                           />
+                          {isCurrentRevealed && currentScoreDetail && (
+                            <span
+                              className={`shrink-0 px-2.5 py-1.5 rounded-xl text-xs font-bold border flex items-center gap-1.5 shadow-2xs ${
+                                currentScoreDetail.status === "correct"
+                                  ? "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border-emerald-500/30"
+                                  : "bg-destructive/15 text-destructive border-destructive/30"
+                              }`}
+                            >
+                              {currentScoreDetail.status === "correct" ? (
+                                <>
+                                  <Check className="h-3.5 w-3.5 stroke-[2.5]" />
+                                  <span>Right Answer</span>
+                                </>
+                              ) : (
+                                <>
+                                  <X className="h-3.5 w-3.5 stroke-[2.5]" />
+                                  <span>Wrong Answer</span>
+                                </>
+                              )}
+                            </span>
+                          )}
                         </div>
                         {isCurrentRevealed && (
                           <div className="flex items-center justify-between pt-2 border-t border-border/60 text-xs sm:text-sm">
@@ -454,9 +512,15 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
 
                           let optionBorder =
                             "border-border bg-card hover:bg-muted/40 cursor-pointer";
+                          let badgeBg = "bg-muted text-muted-foreground";
+                          let badgeContent: React.ReactNode = optLetter;
+                          let statusTag: React.ReactNode = null;
+
                           if (isSelected) {
                             optionBorder =
                               "border-primary bg-primary/10 shadow-xs ring-1 ring-primary cursor-pointer";
+                            badgeBg = "bg-primary text-primary-foreground shadow-xs";
+                            badgeContent = <Check className="h-3.5 w-3.5 stroke-[3]" />;
                           }
 
                           if (isCurrentRevealed && currentScoreDetail) {
@@ -468,12 +532,29 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                             if (isCorrectOpt) {
                               optionBorder =
                                 "border-emerald-500 bg-emerald-500/10 ring-1 ring-emerald-500 cursor-default";
+                              badgeBg = "bg-emerald-600 text-white shadow-xs";
+                              badgeContent = <Check className="h-3.5 w-3.5 stroke-[3]" />;
+                              statusTag = (
+                                <span className="shrink-0 px-2 py-0.5 rounded-md text-[11px] font-bold bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
+                                  <Check className="h-3 w-3 stroke-[2.5]" />
+                                  <span>Right Answer</span>
+                                </span>
+                              );
                             } else if (isSelected && !isCorrectOpt) {
                               optionBorder =
                                 "border-destructive bg-destructive/10 ring-1 ring-destructive cursor-default";
+                              badgeBg = "bg-destructive text-white shadow-xs";
+                              badgeContent = <X className="h-3.5 w-3.5 stroke-[3]" />;
+                              statusTag = (
+                                <span className="shrink-0 px-2 py-0.5 rounded-md text-[11px] font-bold bg-destructive/15 text-destructive border border-destructive/30 flex items-center gap-1">
+                                  <X className="h-3 w-3 stroke-[2.5]" />
+                                  <span>Wrong Answer</span>
+                                </span>
+                              );
                             } else {
                               optionBorder =
                                 "border-border/60 bg-card/60 opacity-60 cursor-default";
+                              badgeBg = "bg-muted/60 text-muted-foreground/80";
                             }
                           }
 
@@ -487,22 +568,16 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                               className={`w-full flex items-start gap-2.5 sm:gap-3 p-3 sm:p-3.5 rounded-xl border-2 transition-all select-none shrink-0 ${optionBorder}`}
                             >
                               <div
-                                className={`h-6 w-6 rounded-md flex items-center justify-center font-bold text-xs shrink-0 mt-0.5 transition-colors ${
-                                  isSelected
-                                    ? "bg-primary text-primary-foreground shadow-xs"
-                                    : "bg-muted text-muted-foreground"
-                                }`}
+                                className={`h-6 w-6 rounded-md flex items-center justify-center font-bold text-xs shrink-0 mt-0.5 transition-colors ${badgeBg}`}
                               >
-                                {isSelected ? (
-                                  <Check className="h-3.5 w-3.5 stroke-[3]" />
-                                ) : (
-                                  optLetter
-                                )}
+                                {badgeContent}
                               </div>
 
                               <div className="flex-1 text-xs sm:text-sm leading-relaxed pt-0.5 break-words">
                                 <FormulaRenderer text={optText} />
                               </div>
+
+                              {statusTag}
                             </div>
                           );
                         })}
@@ -629,23 +704,39 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                   {questions.length} Questions
                 </span>
               </div>
-              <div className="grid grid-cols-2 gap-1.5 pt-2 text-[11px]">
+              <div className="grid grid-cols-3 gap-1.5 pt-2 text-[10px]">
                 <div className="flex items-center gap-1.5">
-                  <span className="h-3 w-3 rounded-md bg-emerald-600 dark:bg-emerald-600 shrink-0 shadow-2xs" />
+                  <span className="h-3 w-3 rounded-md bg-emerald-600 flex items-center justify-center text-white shrink-0 shadow-2xs font-bold text-[8px]">
+                    ✓
+                  </span>
                   <span className="text-muted-foreground truncate">
-                    Answered ({answeredCount})
+                    Right ({correctCount})
                   </span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <span className="h-3 w-3 rounded-md bg-destructive shrink-0 shadow-2xs" />
+                  <span className="h-3 w-3 rounded-md bg-destructive flex items-center justify-center text-white shrink-0 shadow-2xs font-bold text-[8px]">
+                    ✕
+                  </span>
                   <span className="text-muted-foreground truncate">
-                    Not Answered ({notAnsweredCount})
+                    Wrong ({incorrectCount})
                   </span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <span className="h-3 w-3 rounded-md bg-primary shrink-0 shadow-2xs" />
                   <span className="text-muted-foreground truncate">
                     Marked ({markedCount})
+                  </span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <span className="h-3 w-3 rounded-md bg-emerald-600/80 border border-emerald-500/50 shrink-0 shadow-2xs" />
+                  <span className="text-muted-foreground truncate">
+                    Answered ({answeredUncheckedCount})
+                  </span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <span className="h-3 w-3 rounded-md bg-destructive/70 border border-destructive/50 shrink-0 shadow-2xs" />
+                  <span className="text-muted-foreground truncate">
+                    Not Answered ({notAnsweredCount})
                   </span>
                 </div>
                 <div className="flex items-center gap-1.5">
@@ -725,10 +816,27 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                               className={`flex-1 h-11 lg:h-full min-w-0 rounded-xl font-mono text-sm font-bold border transition-all duration-150 cursor-pointer flex flex-col items-center justify-center relative shrink-0 lg:shrink py-1 ${btnStyle}`}
                             >
                               <span className="leading-tight">{idx + 1}</span>
-                              {isMarked && (
+                              {isChecked && sc && (
+                                <span
+                                  className={`absolute top-0.5 right-0.5 h-3.5 w-3.5 rounded-full flex items-center justify-center text-[8px] font-black shadow-xs ${
+                                    sc.status === "correct"
+                                      ? "bg-white text-emerald-700 dark:bg-white dark:text-emerald-700"
+                                      : sc.status === "partial"
+                                      ? "bg-white text-amber-700 dark:bg-white dark:text-amber-700"
+                                      : "bg-white text-destructive dark:bg-white dark:text-destructive"
+                                  }`}
+                                >
+                                  {sc.status === "correct"
+                                    ? "✓"
+                                    : sc.status === "partial"
+                                    ? "~"
+                                    : "✕"}
+                                </span>
+                              )}
+                              {isMarked && !isChecked && (
                                 <span className="absolute top-1 right-1 h-1.5 w-1.5 rounded-full bg-white shadow-xs" />
                               )}
-                              {isAnswered && isMarked && (
+                              {isAnswered && isMarked && !isChecked && (
                                 <span className="absolute bottom-1 h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-xs" />
                               )}
                             </button>

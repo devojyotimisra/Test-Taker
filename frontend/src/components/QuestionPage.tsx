@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import {
   ArrowLeft,
-  Bookmark,
   Calculator,
   Check,
   CheckCircle2,
@@ -93,16 +92,6 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
   const [revealedQuestions, setRevealedQuestions] = useState<Set<number>>(
     new Set(),
   );
-  const [visitedQuestions, setVisitedQuestions] = useState<Set<number>>(() => {
-    const init = new Set<number>();
-    if (paper.questions && paper.questions[0]) {
-      init.add(paper.questions[0].id);
-    }
-    return init;
-  });
-  const [markedQuestions, setMarkedQuestions] = useState<Set<number>>(
-    new Set(),
-  );
 
   const currentQ = questions[currentIndex];
   const shortCode = useMemo(() => getPaperShortCode(paper), [paper]);
@@ -118,17 +107,6 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
   const headerTitleFull = shortCode
     ? `${baseSubject} · ${shortCode} (${paper.title || paper.course_name || "Assessment"})`
     : baseSubject;
-
-  useEffect(() => {
-    if (currentQ) {
-      setVisitedQuestions((prev) => {
-        if (prev.has(currentQ.id)) return prev;
-        const next = new Set(prev);
-        next.add(currentQ.id);
-        return next;
-      });
-    }
-  }, [currentQ]);
 
   useEffect(() => {
     let interval: any = null;
@@ -188,25 +166,6 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
       copy.delete(qId);
       return copy;
     });
-    setMarkedQuestions((prev) => {
-      const copy = new Set(prev);
-      copy.delete(qId);
-      return copy;
-    });
-  };
-
-  const handleMarkForReview = () => {
-    if (!currentQ) return;
-    const qId = currentQ.id;
-    setMarkedQuestions((prev) => {
-      const next = new Set(prev);
-      if (next.has(qId)) {
-        next.delete(qId);
-      } else {
-        next.add(qId);
-      }
-      return next;
-    });
   };
 
   const handleCheckAnswer = async () => {
@@ -222,43 +181,6 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
   );
   const currentScoreDetail = currentQ ? scores[currentQ.id] : null;
   const hasCurrentAnswer = Boolean(currentQ && answers[currentQ.id]);
-
-  const correctCount = questions.filter(
-    (q) => revealedQuestions.has(q.id) && scores[q.id]?.status === "correct",
-  ).length;
-
-  const partialCount = questions.filter(
-    (q) => revealedQuestions.has(q.id) && scores[q.id]?.status === "partial",
-  ).length;
-
-  const incorrectCount = questions.filter(
-    (q) => revealedQuestions.has(q.id) && scores[q.id]?.status === "incorrect",
-  ).length;
-
-  const answeredUncheckedCount = questions.filter((q) => {
-    const v = answers[q.id];
-    const hasAns =
-      v !== undefined && v !== "" && (!Array.isArray(v) || v.length > 0);
-    return hasAns && !revealedQuestions.has(q.id);
-  }).length;
-
-  const markedCount = questions.filter((q) => markedQuestions.has(q.id)).length;
-
-  const notAnsweredCount = questions.filter((q) => {
-    const v = answers[q.id];
-    const hasAns =
-      v !== undefined && v !== "" && (!Array.isArray(v) || v.length > 0);
-    return (
-      visitedQuestions.has(q.id) &&
-      !hasAns &&
-      !markedQuestions.has(q.id) &&
-      !revealedQuestions.has(q.id)
-    );
-  }).length;
-
-  const notVisitedCount = questions.filter(
-    (q) => !visitedQuestions.has(q.id),
-  ).length;
 
   return (
     <div className="h-screen max-h-screen flex flex-col bg-background text-foreground transition-colors overflow-hidden no-scrollbar">
@@ -369,16 +291,6 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                       >
                         <span className="sm:hidden">Comprehension</span>
                         <span className="hidden sm:inline">Comprehension Set</span>
-                      </Badge>
-                    )}
-                    {markedQuestions.has(currentQ.id) && (
-                      <Badge
-                        variant="secondary"
-                        className="text-xs bg-primary/15 text-primary border-primary/30 flex items-center gap-1"
-                      >
-                        <Bookmark className="h-3 w-3 fill-primary" />
-                        <span className="sm:hidden">Marked</span>
-                        <span className="hidden sm:inline">Marked for Review</span>
                       </Badge>
                     )}
 
@@ -672,7 +584,9 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                           ? "bg-emerald-500/10 border-emerald-500/30 text-emerald-900 dark:text-emerald-200"
                           : currentScoreDetail.status === "partial"
                             ? "bg-amber-500/10 border-amber-500/30 text-amber-900 dark:text-amber-200"
-                            : "bg-destructive/10 border-destructive/30 text-destructive-foreground dark:text-rose-200"
+                            : currentScoreDetail.status === "unattempted"
+                              ? "bg-muted/40 border-border text-muted-foreground"
+                              : "bg-destructive/10 border-destructive/30 text-destructive-foreground dark:text-rose-200"
                       }`}
                     >
                       <div className="flex items-center gap-2">
@@ -685,11 +599,20 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                         {currentScoreDetail.status === "incorrect" && (
                           <XCircle className="h-4 w-4 text-destructive" />
                         )}
+                        {currentScoreDetail.status === "unattempted" && (
+                          <Info className="h-4 w-4 text-muted-foreground" />
+                        )}
                         <span className="font-bold text-xs sm:text-sm">
-                          Score:{" "}
-                          {currentScoreDetail.marks_awarded >= 0 ? "+" : ""}
-                          {currentScoreDetail.marks_awarded.toFixed(2)} /{" "}
-                          {currentScoreDetail.max_marks.toFixed(2)} Marks
+                          {currentScoreDetail.status === "unattempted" ? (
+                            <>Unattempted &middot; 0.00 / {currentScoreDetail.max_marks.toFixed(2)} Marks</>
+                          ) : (
+                            <>
+                              Score:{" "}
+                              {currentScoreDetail.marks_awarded >= 0 ? "+" : ""}
+                              {currentScoreDetail.marks_awarded.toFixed(2)} /{" "}
+                              {currentScoreDetail.max_marks.toFixed(2)} Marks
+                            </>
+                          )}
                         </span>
                       </div>
                     </div>
@@ -705,44 +628,10 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                 variant="ghost"
                 size="sm"
                 onClick={handleClearResponse}
-                disabled={
-                  !hasCurrentAnswer &&
-                  !isCurrentRevealed &&
-                  (!currentQ || !markedQuestions.has(currentQ.id))
-                }
+                disabled={!hasCurrentAnswer && !isCurrentRevealed}
                 className="text-xs text-muted-foreground hover:text-foreground h-8 px-2 sm:px-3 disabled:opacity-40"
               >
                 Clear
-              </Button>
-
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={handleMarkForReview}
-                className="inline-flex items-center gap-1.5 text-xs h-8 px-2.5 sm:px-3 font-semibold border-primary/40 text-primary hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer"
-                title={
-                  currentQ && markedQuestions.has(currentQ.id)
-                    ? "Remove mark for review"
-                    : "Mark this question for review"
-                }
-              >
-                <Bookmark
-                  className={`h-3.5 w-3.5 ${
-                    currentQ && markedQuestions.has(currentQ.id)
-                      ? "fill-primary"
-                      : ""
-                  }`}
-                />
-                <span className="sm:hidden">
-                  {currentQ && markedQuestions.has(currentQ.id)
-                    ? "Marked"
-                    : "Review"}
-                </span>
-                <span className="hidden sm:inline">
-                  {currentQ && markedQuestions.has(currentQ.id)
-                    ? "Marked for Review"
-                    : "Mark for Review"}
-                </span>
               </Button>
             </div>
 
@@ -750,7 +639,7 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
               <Button
                 size="sm"
                 onClick={handleCheckAnswer}
-                disabled={isCurrentRevealed || !hasCurrentAnswer}
+                disabled={isCurrentRevealed}
                 className="gap-1 sm:gap-1.5 text-xs font-semibold bg-primary text-primary-foreground shadow h-8 px-2.5 sm:px-3.5 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <Eye className="h-3.5 w-3.5" />
@@ -767,66 +656,12 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
 
         <div className="lg:col-span-4 lg:h-full flex flex-col shrink-0 lg:shrink lg:overflow-hidden lg:min-h-0">
           <Card className="lg:h-full flex flex-col border-border shadow-md shrink-0 lg:shrink lg:overflow-hidden lg:min-h-0">
-            <CardHeader className="shrink-0 pb-2.5 pt-3 px-3.5 sm:px-4 border-b border-border/60">
+            <CardHeader className="shrink-0 py-3 px-3.5 sm:px-4 border-b border-border/60">
               <div className="flex items-center justify-between">
                 <span className="font-bold text-sm">Questions Palette</span>
                 <span className="text-xs text-muted-foreground font-mono">
                   {questions.length} Questions
                 </span>
-              </div>
-              <div className="flex flex-col gap-1.5 pt-2 text-[10px]">
-                <div className="grid grid-cols-4 gap-1.5">
-                  <div className="flex items-center gap-1.5">
-                    <span className="h-3 w-3 rounded-md bg-emerald-600 flex items-center justify-center text-white shrink-0 shadow-2xs font-bold text-[8px]">
-                      ✓
-                    </span>
-                    <span className="text-muted-foreground truncate">
-                      Right ({correctCount})
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-1.5" title={`Partially Correct (${partialCount})`}>
-                    <span className="h-3 w-3 rounded-md bg-amber-500 flex items-center justify-center text-white shrink-0 shadow-2xs font-bold text-[8px] leading-none">
-                      ~
-                    </span>
-                    <span className="text-muted-foreground truncate">
-                      Partial ({partialCount})
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <span className="h-3 w-3 rounded-md bg-destructive flex items-center justify-center text-white shrink-0 shadow-2xs font-bold text-[8px]">
-                      ✕
-                    </span>
-                    <span className="text-muted-foreground truncate">
-                      Wrong ({incorrectCount})
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <span className="h-3 w-3 rounded-md bg-primary shrink-0 shadow-2xs" />
-                    <span className="text-muted-foreground truncate">
-                      Marked ({markedCount})
-                    </span>
-                  </div>
-                </div>
-                <div className="grid grid-cols-3 gap-1.5">
-                  <div className="flex items-center gap-1.5">
-                    <span className="h-3 w-3 rounded-md bg-emerald-600/80 border border-emerald-500/50 shrink-0 shadow-2xs" />
-                    <span className="text-muted-foreground truncate">
-                      Answered ({answeredUncheckedCount})
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <span className="h-3 w-3 rounded-md bg-destructive/70 border border-destructive/50 shrink-0 shadow-2xs" />
-                    <span className="text-muted-foreground truncate">
-                      Not Answered ({notAnsweredCount})
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <span className="h-3 w-3 rounded-md bg-muted/70 border border-border/80 shrink-0" />
-                    <span className="text-muted-foreground truncate">
-                      Not Visited ({notVisitedCount})
-                    </span>
-                  </div>
-                </div>
               </div>
             </CardHeader>
 
@@ -846,83 +681,19 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                       >
                         {rowQuestions.map((q, cIdx) => {
                           const idx = rIdx * 5 + cIdx;
-                          const isChecked = revealedQuestions.has(q.id);
-                          const sc = scores[q.id];
                           const isCurrent = idx === currentIndex;
-                          const userVal = answers[q.id];
-                          const isAnswered =
-                            userVal !== undefined &&
-                            userVal !== "" &&
-                            (!Array.isArray(userVal) || userVal.length > 0);
-                          const isVisited = visitedQuestions.has(q.id);
-                          const isMarked = markedQuestions.has(q.id);
 
-                          let btnStyle = "";
-                          if (isChecked && sc) {
-                            if (sc.status === "correct") {
-                              btnStyle =
-                                "bg-emerald-600 text-white border-emerald-600 shadow-xs dark:bg-emerald-600 dark:border-emerald-500";
-                            } else if (sc.status === "partial") {
-                              btnStyle =
-                                "bg-amber-500 text-white border-amber-600 shadow-xs dark:bg-amber-500 dark:border-amber-600";
-                            } else if (sc.status === "incorrect") {
-                              btnStyle =
-                                "bg-destructive text-white border-destructive shadow-xs dark:bg-destructive dark:border-destructive";
-                            }
-                          } else if (isMarked && isAnswered) {
-                            btnStyle =
-                              "bg-primary text-primary-foreground border-emerald-500 shadow-xs";
-                          } else if (isMarked) {
-                            btnStyle =
-                              "bg-primary text-primary-foreground border-primary shadow-xs";
-                          } else if (isAnswered) {
-                            btnStyle =
-                              "bg-emerald-600 text-white border-emerald-600 shadow-xs hover:bg-emerald-700 dark:bg-emerald-600 dark:border-emerald-500";
-                          } else if (isVisited) {
-                            btnStyle =
-                              "bg-destructive text-destructive-foreground border-destructive shadow-xs hover:bg-destructive/90 dark:bg-destructive dark:border-destructive";
-                          } else {
-                            btnStyle =
-                              "bg-muted/60 text-muted-foreground border-border/80 hover:bg-muted hover:text-foreground dark:bg-muted/30 dark:text-muted-foreground/80 dark:border-border/50";
-                          }
-
-                          if (isCurrent) {
-                            btnStyle +=
-                              " ring-2 ring-primary ring-offset-2 ring-offset-background font-black shadow-md scale-[1.03]";
-                          }
+                          const btnStyle = isCurrent
+                            ? "bg-primary text-primary-foreground border-primary font-black shadow-md ring-2 ring-primary ring-offset-2 ring-offset-background scale-[1.03]"
+                            : "bg-muted/50 text-muted-foreground border-border/80 hover:bg-muted hover:text-foreground hover:border-border dark:bg-muted/30 dark:text-muted-foreground/80 dark:border-border/50";
 
                           return (
                             <button
                               key={q.id}
                               onClick={() => setCurrentIndex(idx)}
-                              className={`flex-1 h-11 lg:h-full min-w-0 rounded-xl font-mono text-sm font-bold border transition-all duration-150 cursor-pointer flex flex-col items-center justify-center relative shrink-0 lg:shrink py-1 ${btnStyle}`}
+                              className={`flex-1 h-11 lg:h-full min-w-0 rounded-xl font-mono text-sm font-bold border transition-all duration-150 cursor-pointer flex items-center justify-center relative shrink-0 lg:shrink py-1 ${btnStyle}`}
                             >
                               <span className="leading-tight">{idx + 1}</span>
-                              {isChecked && sc && (
-                                <span
-                                  className={`absolute top-[5px] right-[5px] h-3.5 w-3.5 rounded-full flex items-center justify-center shadow-xs ${
-                                    sc.status === "correct"
-                                      ? "bg-white text-emerald-700 dark:bg-white dark:text-emerald-700"
-                                      : sc.status === "partial"
-                                      ? "bg-white text-amber-700 dark:bg-white dark:text-amber-700"
-                                      : "bg-white text-destructive dark:bg-white dark:text-destructive"
-                                  }`}
-                                >
-                                  {sc.status === "correct" ? (
-                                    <Check className="h-2 w-2 stroke-[3.5]" />
-                                  ) : sc.status === "partial" ? (
-                                    <span className="text-[8px] font-black leading-none">~</span>
-                                  ) : (
-                                    <X className="h-2 w-2 stroke-[3.5]" />
-                                  )}
-                                </span>
-                              )}
-                              {isMarked && !isChecked && (
-                                <span className="absolute top-1.5 right-1.5 h-1.5 w-1.5 rounded-full bg-white shadow-xs" />
-                              )}
-                              {isAnswered && isMarked && !isChecked && (
-                                <span className="absolute bottom-1 h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-xs" />
-                              )}
                             </button>
                           );
                         })}

@@ -99,8 +99,6 @@ function FilterCombobox({
     return items.find((item) => item.id === selectedValue);
   }, [items, selectedValue]);
 
-  const displayedTotal = totalCount !== undefined ? totalCount : items.length;
-
   return (
     <div ref={containerRef} className="relative w-full">
       <button
@@ -113,7 +111,7 @@ function FilterCombobox({
         <div className="flex items-center gap-1.5 min-w-0 flex-1 truncate">
           {selectedValue === "All" ? (
             <span className="text-foreground font-medium truncate">
-              {allLabel} ({displayedTotal})
+              {allLabel}
             </span>
           ) : (
             <>
@@ -205,9 +203,6 @@ function FilterCombobox({
                 )}
                 <span>{allLabel}</span>
               </div>
-              <span className="text-[10px] text-muted-foreground font-mono">
-                {displayedTotal}
-              </span>
             </button>
 
             {filteredItems.map((item) => {
@@ -239,11 +234,6 @@ function FilterCombobox({
                       {item.label}
                     </span>
                   </div>
-                  {item.count !== undefined && (
-                    <span className="text-[10px] text-muted-foreground font-mono shrink-0">
-                      {item.count}
-                    </span>
-                  )}
                 </button>
               );
             })}

@@ -215,20 +215,21 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
             <div className="flex items-center gap-1.5 sm:gap-2">
               {onBack && (
                 <Button
-                  variant="ghost"
+                  variant="outline"
                   size="sm"
                   onClick={onBack}
-                  className="h-8 px-2 text-muted-foreground hover:text-foreground gap-1.5 text-xs font-medium cursor-pointer"
+                  title="Back to Papers"
+                  aria-label="Back to Papers"
+                  className="h-8 w-8 rounded-lg sm:rounded-xl border border-border/80 bg-card text-muted-foreground hover:text-primary hover:border-primary/50 hover:bg-primary/5 dark:bg-card/80 dark:hover:bg-primary/10 shadow-2xs shrink-0 cursor-pointer p-0 transition-all active:scale-95"
                 >
-                  <ArrowLeft className="h-4 w-4" />
-                  <span>Back</span>
+                  <ArrowLeft className="h-4 w-4 stroke-[2.2]" />
                 </Button>
               )}
 
               <div>
                 <div className="flex items-center gap-1.5 sm:gap-2">
                   <span
-                    className="font-semibold text-xs sm:text-sm max-w-[150px] xs:max-w-[220px] sm:max-w-xs md:max-w-md truncate"
+                    className="font-semibold text-xs sm:text-sm max-w-[170px] xs:max-w-[240px] sm:max-w-xs md:max-w-md truncate"
                     title={currentQ?.section_name || paper.title || "Assessment"}
                   >
                     {currentQ?.section_name || paper.title || "Assessment"}

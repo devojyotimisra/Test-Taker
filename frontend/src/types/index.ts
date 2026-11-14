@@ -23,6 +23,15 @@ export interface Paper {
   total_questions: number;
   total_marks: number;
   questions?: Question[];
+  id?: string;
+  course_code?: string;
+  course_name?: string;
+  level?: string;
+  term?: string;
+  term_code?: string;
+  year?: number;
+  exam_type?: string;
+  session?: string;
 }
 
 export interface QuestionScore {

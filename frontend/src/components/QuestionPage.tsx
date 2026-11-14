@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   ArrowLeft,
   Bookmark,
@@ -21,6 +21,59 @@ import { Paper, QuestionScore, UserAnswers } from "@/types";
 import { scoreQuestion } from "@/lib/scorer";
 
 const apiBase = import.meta.env.VITE_API_URL || "";
+
+function getPaperShortCode(paper?: Paper | null): string {
+  if (!paper) return "";
+
+  let examCode = "";
+  const exam = (paper.exam_type || "").toLowerCase();
+  if (exam.includes("quiz 1")) {
+    examCode = "Q1";
+  } else if (exam.includes("quiz 2")) {
+    examCode = "Q2";
+  } else if (exam.includes("end term") || exam === "et") {
+    examCode = "ET";
+  } else if (exam.includes("oppe 1") || exam.includes("oppe1")) {
+    examCode = "OPPE1";
+  } else if (exam.includes("oppe 2") || exam.includes("oppe2")) {
+    examCode = "OPPE2";
+  }
+
+  let termCode = "";
+  const term = (paper.term || paper.term_code || "").toLowerCase();
+  if (term.includes("jan") || term.includes("t1")) {
+    termCode = "T1";
+  } else if (term.includes("may") || term.includes("t2")) {
+    termCode = "T2";
+  } else if (term.includes("sep") || term.includes("t3")) {
+    termCode = "T3";
+  }
+
+  let yearCode = "";
+  if (paper.year) {
+    yearCode = String(paper.year).slice(-2);
+  } else {
+    const yearMatch = (paper.term || paper.title || "").match(/20(\d{2})/);
+    if (yearMatch) {
+      yearCode = yearMatch[1];
+    }
+  }
+
+  if ((!examCode || !termCode || !yearCode) && paper.filename) {
+    const fileMatch = paper.filename.match(/_20(\d{2})(T[1-3])_([A-Za-z0-9]+)_/i);
+    if (fileMatch) {
+      const [, y, t, e] = fileMatch;
+      if (!yearCode) yearCode = y;
+      if (!termCode) termCode = t.toUpperCase();
+      if (!examCode) examCode = e.toUpperCase();
+    }
+  }
+
+  if (examCode && termCode && yearCode) {
+    return `${examCode}${termCode}${yearCode}`;
+  }
+  return examCode || termCode || "";
+}
 
 interface QuestionPageProps {
   paper: Paper;
@@ -52,6 +105,19 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
   );
 
   const currentQ = questions[currentIndex];
+  const shortCode = useMemo(() => getPaperShortCode(paper), [paper]);
+  const baseSubject =
+    currentQ?.section_name ||
+    paper.course_code ||
+    paper.course_name ||
+    paper.title ||
+    "Assessment";
+  const headerTitleDisplay = shortCode
+    ? `${baseSubject} · ${shortCode}`
+    : baseSubject;
+  const headerTitleFull = shortCode
+    ? `${baseSubject} · ${shortCode} (${paper.title || paper.course_name || "Assessment"})`
+    : baseSubject;
 
   useEffect(() => {
     if (currentQ) {
@@ -217,11 +283,11 @@ export function QuestionPage({ paper, onBack }: QuestionPageProps) {
                 <div className="flex items-center gap-1.5 sm:gap-2">
                   <span
                     className="font-semibold text-xs sm:text-sm max-w-[170px] xs:max-w-[240px] sm:max-w-xs md:max-w-md truncate"
-                    title={currentQ?.section_name || paper.title || "Assessment"}
+                    title={headerTitleFull}
                   >
-                    {currentQ?.section_name || paper.title || "Assessment"}
+                    {headerTitleDisplay}
                   </span>
-                  <span className="text-[10px] sm:text-xs font-mono font-semibold px-1.5 sm:px-2 py-0.5 rounded-md border border-primary/30 bg-primary/10 text-primary">
+                  <span className="text-[10px] sm:text-xs font-mono font-semibold px-1.5 sm:px-2 py-0.5 rounded-md border border-primary/30 bg-primary/10 text-primary whitespace-nowrap">
                     Full Marks: {paper.total_marks.toFixed(2)}
                   </span>
                 </div>

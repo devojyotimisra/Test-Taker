@@ -574,7 +574,7 @@ export function LandingPage({ onUpload, onSelectPaper }: LandingPageProps) {
       >
         {activeTab === "library" ? (
           <div className="flex flex-col gap-5">
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-border/60 pb-4">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 border-border/60 pb-4">
               <div>
                 <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight font-serif text-foreground">
                   <span>IITM BS Exam Question Papers</span>

@@ -120,7 +120,7 @@ export function App() {
 
       await preloadPaperAssets(paperData);
 
-      setPaper(paperData);
+      setPaper({ ...item, ...paperData });
       setCurrentPage("test");
 
       toast({
